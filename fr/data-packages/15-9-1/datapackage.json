@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-9-1",
+  "title": "a) Nombre de pays qui ont établi des objectifs nationaux conformément ou de manière semblable à l’objectif 2 d’Aichi pour la biodiversité du Plan stratégique pour la diversité biologique 2011-2020 dans leurs stratégies et plans d’action nationaux pour la biodiversité et progrès accomplis dans la réalisation de ces objectifs, et b) intégration de la biodiversité aux systèmes de comptabilité et d’information financière, définie comme la mise en œuvre du Système de comptabilité environnementale et économique"
+}

@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "11-a-1",
+  "title": "Nombre de pays ayant adopté une politique urbaine nationale ou un plan de développement régional qui a) tienne compte de la dynamique des populations, b) vise à l’équilibre du développement territorial et c) élargisse la marge de manœuvre budgétaire locale"
+}

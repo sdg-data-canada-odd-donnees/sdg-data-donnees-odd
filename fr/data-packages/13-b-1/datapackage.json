@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "13-b-1",
+  "title": "Nombre de pays les moins avancés et de petits États insulaires en développement ayant prévu des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, tel qu’il ressort des communications relatives à l’adaptation et des communications nationales (reprend l’indicateur proposé en remplacement de l’indicateur 13.2.1, avec une modification mineure)"
+}

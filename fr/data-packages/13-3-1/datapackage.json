@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "13-3-1",
+  "title": "Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans a) les politiques nationales d’éducation, b) les programmes d’enseignement, c) la formation des enseignants et d) l’évaluation des étudiants (identique à l’amélioration à apporter aux indicateurs 4.7.1 et 12.8.1, figurant à l’annexe III)"
+}

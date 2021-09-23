@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-5-1",
+  "title": "Indices de parité (femmes/hommes, urbain/rural, quintile inférieur/supérieur de richesse et autres paramètres tels que le handicap, le statut d’autochtone et les situations de conflit, à mesure que les données deviennent disponibles) pour tous les indicateurs dans le domaine de l’éducation de cette liste pouvant être ventilés"
+}

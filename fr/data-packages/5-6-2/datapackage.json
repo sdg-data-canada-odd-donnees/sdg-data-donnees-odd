@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "5-6-2",
+  "title": "Nombre de pays dotés de textes législatifs et réglementaires garantissant aux femmes et aux hommes de 15 ans ou plus un accès équitable et sans restriction aux soins de santé sexuelle et procréative, ainsi qu’à des informations et une éducation dans ce domaine"
+}
