@@ -12,8 +12,28 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Function of Government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "General public services ",
+                "Defence ",
+                "Public order and safety ",
+                "Economic affairs ",
+                "Environmental protection ",
+                "Housing and community amenities ",
+                "Health ",
+                "Recreation, culture and religion ",
+                "Education ",
+                "Social protection ",
+                ""
+              ]
+            },
+            "title": "Function of Government"
           },
           {
             "name": "Value",

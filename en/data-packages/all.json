@@ -3,6 +3,50 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "1-a-2/data.csv",
+      "name": "1-a-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Function of Government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Defence ",
+                "Economic affairs ",
+                "Education ",
+                "Environmental protection ",
+                "General public services ",
+                "Health ",
+                "Housing and community amenities ",
+                "Public order and safety ",
+                "Recreation, culture and religion ",
+                "Social protection "
+              ]
+            },
+            "title": "Function of Government"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of total government spending on essential services (education, health and social protection)"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -5245,30 +5289,6 @@
         ]
       },
       "title": "Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species"
-    },
-    {
-      "path": "1-a-2/data.csv",
-      "name": "1-a-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of total government spending on essential services (education, health and social protection)"
     },
     {
       "path": "1-5-2/data.csv",

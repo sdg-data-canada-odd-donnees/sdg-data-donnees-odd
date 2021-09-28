@@ -3,6 +3,50 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "1-a-2/data.csv",
+      "name": "1-a-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Function of Government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "General public services ",
+                "Defence ",
+                "Public order and safety ",
+                "Economic affairs ",
+                "Environmental protection ",
+                "Housing and community amenities ",
+                "Health ",
+                "Recreation, culture and religion ",
+                "Education ",
+                "Social protection ",
+                ""
+              ]
+            },
+            "title": "Function of Government"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion des dépenses publiques totales affectée aux services essentiels (éducation, santé et protection sociale)"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -5245,30 +5289,6 @@
         ]
       },
       "title": "Proportion de pays ayant adopté une législation nationale pertinente et allouant des ressources suffisantes à la prévention ou au contrôle des espèces exotiques envahissantes"
-    },
-    {
-      "path": "1-a-2/data.csv",
-      "name": "1-a-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion des dépenses publiques totales affectée aux services essentiels (éducation, santé et protection sociale)"
     },
     {
       "path": "1-5-2/data.csv",

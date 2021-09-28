@@ -11,13 +11,33 @@
       "schema": {
         "fields": [
           {
+            "name": "Function of Government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Defence ",
+                "Economic affairs ",
+                "Education ",
+                "Environmental protection ",
+                "General public services ",
+                "Health ",
+                "Housing and community amenities ",
+                "Public order and safety ",
+                "Recreation, culture and religion ",
+                "Social protection "
+              ]
+            },
+            "title": "Function of Government"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]
