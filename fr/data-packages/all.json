@@ -47,6 +47,48 @@
       "title": "Proportion des dépenses publiques totales affectée aux services essentiels (éducation, santé et protection sociale)"
     },
     {
+      "path": "3-1-1/data.csv",
+      "name": "3-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Cause of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Chapter XV: Pregnancy, childbirth and the puerperium [O00-O99]",
+                "Pregnancy with abortive outcome [O00-O08]",
+                "Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium [O10-O16]",
+                "Other maternal disorders predominantly related to pregnancy [O20-O29]",
+                "Maternal care related to fetus and amniotic cavity and possible delivery problems [O30-O48]",
+                "Complications of labour and delivery [O60-O75]",
+                "Complications predominantly related to the puerperium [O85-O92]",
+                "Other obstetric conditions, not elsewhere classified [O95-O99]",
+                ""
+              ]
+            },
+            "title": "Cause of death"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Taux de mortalité maternelle"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -3777,30 +3819,6 @@
         ]
       },
       "title": "a) Indicateur du potentiel d’eutrophisation côtière (ICEP) et b) densité des débris de plastiques"
-    },
-    {
-      "path": "3-1-1/data.csv",
-      "name": "3-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Taux de mortalité maternelle"
     },
     {
       "path": "17-3-2/data.csv",
