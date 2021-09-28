@@ -69,10 +69,22 @@
                 "Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium [O10-O16]",
                 "Other maternal disorders predominantly related to pregnancy [O20-O29]",
                 "Other obstetric conditions, not elsewhere classified [O95-O99]",
-                "Pregnancy with abortive outcome [O00-O08]"
+                "Pregnancy with abortive outcome [O00-O08]",
+                "Total, all causes of death"
               ]
             },
             "title": "Cause of death"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Canada"
+              ]
+            },
+            "title": "Geography"
           },
           {
             "name": "Value",

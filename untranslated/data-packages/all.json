@@ -58,10 +58,21 @@
             "type": "integer"
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Cause of death",
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, all causes of death",
                 "Chapter XV: Pregnancy, childbirth and the puerperium [O00-O99]",
                 "Pregnancy with abortive outcome [O00-O08]",
                 "Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium [O10-O16]",
