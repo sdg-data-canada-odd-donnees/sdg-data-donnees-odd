@@ -20,7 +20,7 @@ site_dir: _site
 # -----------
 # This identifies a file containing the schema (possible fields) for metadata.
 # Currently this needs to be a prose.io config, and defaults to '_prose.yml'.
-schema_file: _prose.yml
+schema_file: metadata_schema.yml
 
 # Source directory
 # ----------------
@@ -45,7 +45,7 @@ inputs:
   - class: InputYamlMeta
     path_pattern: indicator-config/*-*.yml
     git: false
-  - class: InputYamlMdMeta
+  - class: InputYamlMeta
     # This describes the meta files, relative to the "src_dir" indicated above.
     path_pattern: meta/*-*.yml
     # This specifies whether or not to use Git to calculate the "last updated"
