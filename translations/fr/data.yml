@@ -1,0 +1,903 @@
+## Global
+Year: Année
+Value: Valeur
+
+## Sex
+Sex: Sexe
+Men: Hommes
+Male: Homme
+Males: Hommes
+Women: Femmes
+Female: Femme
+Females: Femmes
+Both: Les deux sexes
+Both sexes: Les deux sexes
+
+## Geo
+Geography: Géographie
+Canada: Canada
+Canada (excluding territories): Canada (sans les territoires)
+Atlantic: Atlantique
+Atlantic provinces: Provinces de l'Atlantique
+Newfoundland and Labrador: Terre-Neuve-et-Labrador
+Prince Edward Island: Île-du-Prince-Édouard
+Nova Scotia: Nouvelle-Écosse
+New Brunswick: Nouveau-Brunswick
+Quebec: Québec
+Ontario: Ontario
+Prairies: Prairies
+Prairie provinces: Provinces des Prairies
+Manitoba: Manitoba
+Saskatchewan: Saskatchewan
+Alberta: Alberta
+British Columbia: Colombie-Britannique
+British Columbia and the Territories: Colombie-Britannique et les Territoires
+Yukon: Yukon
+Northwest Territories: Territoires du Nord-Ouest
+Northwest Territories and Nunavut: Territoires du Nord-Ouest et Nunavut
+Nunavut: Nunavut
+Yukon, Northwest Territories and Nunavut: Yukon, Territoires du Nord-Ouest et Nunavut
+Winnipeg Manitoba: Winnipeg Manitoba
+Northern and Rural Manitoba: Régions rurales et du nord du Manitoba
+Whitehorse Yukon: Whitehorse Yukon
+Yellowknife Northwest Territories: Yellowknife Territoires du Nord-Ouest
+
+## Age
+Age: Âge
+Age group: Groupe d'âge
+Total, 12 years and over: Total, 12 ans et plus
+Total, 15 years and over: Total, 15 ans et plus
+Total 15 to 29 years: Total 15 à 29 ans
+15 years and over: 15 ans et plus
+25 years and over: 25 ans et plus
+45 years and over: 45 ans et plus
+55 years and over: 55 ans et plus
+65 years and over: 65 ans et plus
+70 years and over: 70 ans et plus
+12 to 17 years: 12 à 17 ans
+15 to 19 years: 15 à 19 ans
+15 to 24 years: 15 à 24 ans
+15 to 64 years: 15 à 64 ans
+18 to 24 years: 18 à 24 ans
+18 to 34 years: 18 à 34 ans
+20 to 24 years: 20 à 24 ans
+25 to 29 years: 25 à 29 ans
+25 to 34 years: 25 à 34 ans
+25 to 44 years: 25 à 44 ans
+25 to 54 years: 25 à 54 ans
+30 to 34 years: 30 à 34 ans
+35 to 39 years: 35 à 39 ans
+35 to 44 years: 35 à 44 ans
+35 to 49 years: 35 à 49 ans
+40 to 44 years: 40 à 44 ans
+45 to 49 years: 45 à 49 ans
+45 to 54 years: 45 à 54 ans
+45 to 64 years: 45 à 64 ans
+50 to 54 years: 50 à 54 ans
+55 to 59 years: 55 à 59 ans
+50 to 64 years: 50 à 64 ans
+55 to 64 years: 55 à 64 ans
+60 to 64 years: 60 à 64 ans
+65 to 69 years: 65 à 69 ans
+
+## Random
+Activity group: Groupe d'activité
+Unpaid work activities: Activités de travail non-rémunéré 
+Household chores: Tâches domestiques
+Care of household children under 18 years: Soins à un enfant du ménage de moins de 18 ans
+Care of household adults: Soins à un adulte du ménage
+Shopping for goods or services: Magasinage de biens ou de services
+
+## 1-1-1
+Québec, Quebec: "Québec, Québec"
+Montréal, Quebec: "Montréal, Québec"
+Ottawa-Gatineau, Ontario/Quebec: "Ottawa-Gatineau, Ontario/Québec"
+Toronto, Ontario: Toronto, Ontario
+Winnipeg, Manitoba: Winnipeg, Manitoba
+Calgary, Alberta: Calgary, Alberta
+Edmonton, Alberta: Edmonton, Alberta
+Vancouver, British Columbia: Vancouver, Colombie-Britannique
+Persons in low income: Personnes à faible revenu
+All persons: Toutes les personnes
+Persons under 18 years: Personnes de moins de 18 ans
+Persons 18 to 64 years: Personnes de 18 à 64 ans
+Persons 65 years and over: Personnes de 65 ans et plus
+Males: Hommes
+Males, under 18 years: Hommes, moins de 18 ans
+Males, 18 to 64 years: Hommes, 18 à 64 ans
+Males, 65 years and over: Hommes, 65 ans et plus
+Females: Femmes
+Females, under 18 years: Femmes, moins de 18 ans
+Females, 18 to 64 years: Femmes, 18 à 64 ans
+Females, 65 years and over: Femmes, 65 ans et plus
+Persons in economic families: Personnes dans les familles économiques
+Males in economic families: Hommes dans les familles économiques
+Females in economic families: Femmes dans les familles économiques
+Elderly persons in economic families: Personnes âgées dans les familles économiques
+Persons under 18 years in economic families: Personnes de moins de 18 ans dans les familles économiques
+Persons under 18 years in couple families with children: Personnes de moins de 18 ans dans les familles comptant un couple avec des enfants
+Persons under 18 years in female lone-parent families: Personnes de moins de 18 ans dans les familles monoparentales ayant une femme à leur tête
+Persons 18 to 64 years in economic families: Personnes de 18 à 64 ans dans les familles économiques
+Persons not in an economic family: Personnes hors famille économique
+Males not in an economic family: Hommes hors famille économique
+Females not in an economic family: Femmes hors famille économique
+Elderly persons not in an economic family: Personnes âgées hors famille économique
+Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
+Non-elderly males not in an economic family: Hommes non âgés hors famille économique
+Non-elderly females not in an economic family: Femmes non âgées hors famille économique
+
+## 1-2-1
+Age group and family type: "Groupe d'âge et type de famille"
+Persons all ages and family types: "Personnes de tous âge et types de familles"
+Persons under 18 years old: "Personnes de moins de 18 ans"
+Persons 18 to 64 years old: "Personnes de 18 à 64 ans"
+Persons 65 years and older: "Personnes de 65 ans et plus"
+Persons in an economic family: "Personnes dans une famille économique"
+Persons in a couple only family: "Personnes dans une famille ayant un couple seulement"
+Persons in a couple with children family: "Personnes dans une famille ayant un couple avec enfant"
+Persons in a lone-parent family: "Personnes dans une famille monoparentale"
+Persons in an other economic family type: "Personnes dans un autre type de famille économique"
+Persons not in an economic family: "Personnes hors famille économique"
+Statistics: Statistiques
+Asset resilient for at least one month: Personnes en situation de résilience des actifs pour au moins un mois
+Asset resilient for at least three months: Personnes en situation de résilience des actifs pour au moins trois mois
+Asset resilient for at least six months: Personnes en situation de résilience des actifs pour au moins six mois
+
+## 2-1-1
+Household food security status: Niveau de sécurité alimentaire du ménage
+Food secure: Sécurité alimentaire
+Food insecure marginal: Insécurité alimentaire marginale
+Food insecure moderate and severe: Insécurité alimentaire modérée et grave
+Living arrangement: Disposition de vie
+Total all living arrangements: Toutes dispositions de vie
+Female living alone: Femme vivant seule
+Male living alone: Homme vivant seul
+Couple no children: Couple sans enfant
+Couple with child(ren) less than 18 years old: Couple avec enfant(s) de moins de 18 ans
+Female lone parent with child(ren) less than 18 years old: Mère monoparentale avec enfant(s) de moins de 18 ans
+Male lone parent with child(ren) less than 18 years old: Père monoparental avec enfant(s) de moins de 18 ans
+Other living arrangements: Autres dispositions de vie
+
+## 2-2-1
+Index: Indice
+Biodiversity: Biodiversité
+Soil Quality: Qualité des sols
+Water Quality: Qualité de l'eau
+Air Quality: Qualité de l'air
+Indicator: Indicateur
+Compound Index: Indice composé
+Soil Cover: Couverture des sols
+Wildlife Habitat on Farmland: Capacité d'habitat faunique des terres agricoles
+Risk of Soil Erosion: Risques d'érosion des sols
+Soil Organic Carbon Change: Matière organique du sol
+Risk of Soil Salinization: Risque de salinisation du sol
+Residual Soil Nitrogen: Azote
+Risk of water contamination by phosphorus: Phosphore
+Risk of Water Contamination by Coliforms: Coliforme
+Risk of Water Contamination by Pesticides: Pesticides
+Agricultural Greenhouse gas: Gaz à effet de serre d'origine agricole
+Agricultural Ammonia Emissions: Ammoniac d'origine agricole
+Agricultural Particulate Matter Emissions: Particules fines
+
+## 3-1-1
+Sex: Sexe
+Both sexes: Les deux sexes
+Males: Hommes
+Females: Femmes
+Age group: Groupe d'âge
+Total, 12 years and over: Total, 12 ans et plus
+12 to 17 years: 12 à 17 ans
+18 to 34 years: 18 à 34 ans
+35 to 49 years: 35 à 49 ans
+50 to 64 years: 50 à 64 ans
+65 years and over: 65 ans et plus
+
+## 3-2-1
+Grade: Niveaux de scolarité
+All grades: Tous les niveaux
+Grades 7-9: 7e à 9e année
+Grades 10-12: 10e à 12e année
+Type of e-cigarettes: Type de cigarettes
+Both type: Les deux types
+With nicotine: Avec nicotine
+Without nicotine: Sans nicotine
+
+## 3-3-1
+Measures: Mesures
+Overweight: Embonpoint
+Obese: Obèse
+Ages 5 to 79: 5 à 79 ans
+Ages 5 to 17: 5 à 17 ans
+Ages 5 to 11: 5 à 11 ans
+Ages 12 to 17: 12 à 17 ans
+Ages 18 to 79: 18 à 79 ans
+Ages 18 to 39: 18 à 39 ans
+Ages 40 to 59: 40 à 59 ans
+Ages 60 to 79: 60 à 79 ans
+
+## 3-4-1
+## Same dimensions as above, a few are like that
+
+## 3-8-1
+Selected diseases: Antigène ou vaccin
+Diphtheria: Diphtérie
+Pertussis: Coqueluche
+Tetanus: Tétanos
+Polio: Polio
+Haemophilus influenzae type B: Haemophilus influenzae de type B
+Diphtheria - Pertussis and tetanus: Diphtérie, la coqueluche et le tétanos
+Measles: Rougeole
+Mumps: Rubéole
+Rubella: Oreillons
+Hepatitis B: Hépatite B
+Varicella: Varicelle
+Meningococcal type C: Méningite de type C
+Pneumococcal: Pneumocoque
+Rotavirus: Rotavirus
+Human Papillomavirus: Virus du papillome humain
+Diphtheria - Tetanus - acellular Pertussis booster: Vaccin de rappel de la diphtérie, la coqueluche et le tétanos
+All children: Tous les enfants
+by 2 years of age: 2 ans
+by 7 years of age: 7 ans
+by 14 years of age: 14 ans
+by 17 years of age: 17 ans
+Age: Âge
+
+## 3-9-1
+Disease: Maladies
+Creutzfeldt-Jakob: Creutzfeldt-Jakob
+HIV and AIDS: VIH et SIDA
+Diabetes: Diabète
+Ischemic heart disease: Cardiopathies ischémiques
+Dementia, including Alzheimer's disease: Démence, y compris la maladie d'Alzheimer
+Hypertension: Hypertension
+Chronic obstructive pulmonary disease: Maladie pulmonaire obstructive chronique
+Cancer: Cancer
+Tuberculosis: Tuberculose
+Salmonella: Salmonellose
+
+## 3-11-1
+Age at time of death: Âge au décès
+all ages: Tous les âges
+1 to 14 years: 1 à 14 ans
+15 to 24: 15 à 24 ans
+25 to 34 years: 25 à 34 ans
+35 to 44 years: 35 à 44 ans
+45 to 54 years: 45 à 54 ans
+55 to 64 years: 55 à 64 ans
+65 to 74 years: 65 à 74 ans
+75 to 84 years: 75 à 84 ans
+85 and over: 85 ans et plus
+Leading causes of death (ICD-10): Principales causes de décès
+Malignant neoplasms [C00-C97]: Tumeurs malignes
+Diabetes mellitus [E10-E14]: Diabète sucré
+Alzheimer's disease [G30]: Maladie d'Alzheimer
+Diseases of heart [I00-I09, I11, I13, I20-I51]: Maladies du coeur
+Cerebrovascular diseases [I60-I69]: Maladies cérébrovasculaires
+Influenza and pneumonia [J09-J18]: Grippe et pneumopathie
+Chronic lower respiratory diseases [J40-J47]: Maladies chroniques des voies respiratoires inférieures
+Chronic liver disease and cirrhosis [K70, K73-K74]: Maladie chronique et cirrhose du foie
+Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (blessures involontaires)
+Intentional self-harm (suicide) [X60-X84, Y87.0]: Lésions auto-infligées
+
+## 3-12-1
+Rate per 100,000 population: Taux par 100 000 personnes
+Type of event: Type d'événement
+Apparent opioid toxicity deaths: Décès totaux apparemment liés à une intoxication aux opioïdes
+Opioid-related poisoning hospitalizations: Hospitalisations pour intoxication aux opioïdes
+Stimulant-related poisoning hospitalizations: Hospitalisations pour intoxication aux stimulants
+EMS responses to suspected opioid-related overdoses: Interventions des SMU pour surdoses suspectées d'être liées aux opioïdes
+Apparent stimulant toxicity deaths: Décès totaux apparemment liés à une intoxication aux stimulants
+
+## 4-1-1
+Age group: Groupe d'âge
+Total, persons aged 15 years and over: Total, personnes âgées de 15 ans et plus
+15 to 24 years: 15 à 24 ans
+25 to 64 years: 25 à 64 ans
+65 to 74 years: 65 à 74 ans
+75 years and over: 75 ans et plus
+Selected demographic characteristics: Caractéristiques démographiques déterminées
+Total, all persons: Total, toutes les personnes
+Non immigrants: Non-immigrants
+Immigrants: Immigrants
+Non-permanent residents: Résidents non permanents
+Total visible minority population: Total de la population des minorités visibles
+Not a visible minority: Pas une minorité visible
+Total Aboriginal identity: Total identité autochtone
+First Nations (North American Indian): Première Nation (Indien de l'Amérique du Nord)
+Métis: Métis
+Inuk (Inuit): Inuk (Inuit)
+Non-Aboriginal identity: Identité non autochtone
+
+## 4-2-1
+Educational attainment level: Niveau de scolarité
+Tertiary education: Études tertiaires
+Short-cycle tertiary: Enseignement tertiaire de cycle court
+Bachelor's level: Baccalauréat
+Master's or Doctoral level: Maîtrise ou doctorat
+25 to 34 years: 25 à 34 ans
+30 to 34 years: 30 à 34 ans
+35 to 44 years: 35 à 44 ans
+45 to 54 years: 45 à 54 ans
+55 to 64 years: 55 à 64 ans
+Total, 25 to 64 years: Total, 25 à 64 ans
+
+## 5-1-1
+Type of perpetrator: Type d'auteur présumé
+All types of perpetrators: Tous les types d'auteurs présumés
+Intimate partner: Partenaires intimes
+Non-intimate partner: Autres personnes
+
+## 5-1-2
+Type of intimate partner violence: Type de violence entre partenaires intimes
+Emotional, financial, or psychological abuse: Violence psychologique ou exploitation financière
+Physical abuse: Violence physique
+Sexual abuse: Violence sexuelle
+Total intimate partner violence: Total de tous les types de violence
+Selected characteristic: Caractéristiques sélectionnées
+Total, all women: Total, toutes les femmes
+15 to 24 year old women: Femmes de 15 à 24 ans
+Separated or divorced women: Femmes séparées ou divorcées
+LGBTQ2 women: Femmes LGBTQ2
+Single women: Femmes célibataires
+First Nations, Métis, or Inuit women: Femmes des Premières Nations, métisses ou inuites
+Women with disability: Femmes ayant une incapacité
+Immigrant women: Femmes immigrantes
+Women designated as visible minorities: Femmes désignées comme minorités visibles
+
+## 5-2-1
+Leadership position: Rôles de leadership
+Members of national Parliament: Parlement national
+Members of federal Cabinet: Cabinet fédéral
+All management occupations: Gestion
+Senior management occupations: Cadres supérieures
+Specialized middle management occupations: Cadres intermédiaires spécialisées
+Middle management occupations in retail and wholesale trade and customer services: Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle
+Middle management occupations in trades - transportation - production and utilities: Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique
+Judges - Federal government public administration: Juges - administration publique fédérale
+Judges - Provincial and territorial public administration: Juges - administrations provinciales et territoriales
+
+## 5-3-1
+Activity group: Groupe d'activité
+Unpaid work activities: Activités de travail non-rémunéré
+Household chores: Tâches domestiques
+Care of household children under 18 years: Soins à un enfant du ménage de moins de 18 ans
+Care of household adults: Soins à un adulte du ménage
+Shopping for goods or services: Magasinage de biens ou de services
+
+## 6-3-1
+Sector: Secteur
+Accommodation and food services: Hébergement et services de restauration
+Administrative and support, waste management and remediation services: Services administratifs et services de soutien et services de gestion des déchets et d'assainissement
+Agriculture, forestry, fishing and hunting: Agriculture, foresterie, pêche et chasse
+Arts, entertainment and recreation: Arts, spectacles et loisirs
+Construction: Construction
+Educational services: Services d'enseignement
+Finance and insurance: Service financier et assurance
+Government Education Services: Services d'éducation gouvernementaux
+Government Health Services: Services de soins de santé du gouvernement
+Health care and social assistance: Soins de santé et assistance sociale
+Households: Ménages
+Information and cultural industries: Industries d'information et de culture
+Manufacturing: Fabrication
+Mining, quarrying, and oil and gas extraction: Extraction minière et de pétrole et de gaz
+Miscellaneous non-profit institutions serving households: Diverses institutions sans but lucratif au service des ménages
+Non-profit arts, entertainment and recreation: Arts, spectacles et loisirs sans but lucratif
+Non-Profit Education Services: Services d'enseignement sans but lucratif
+Non-Profit Social Assistance: Services de bien-être sans but lucratif
+Other Aboriginal Government Services: Autres services des administrations publiques autochtones
+Other federal government services: Autres services de l'administration publique fédérale
+Other finance, insurance and real estate services and management of companies and enterprises: Autres services de finances, d'assurances et immobiliers, et gestion de sociétés et d'entreprises
+Other Municipal Government Services: Autres services des administrations publiques municipales
+Other provincial and territorial government services: Autres services des administrations publiques provinciales et territoriales
+Other services (except public administration): Autres services (sauf administration publique)
+Professional, scientific and technical services: Services professionnels, scientifiques et techniques
+Real estate and rental and leasing: Immobilier et service de location
+Religious organizations: Organismes religieux
+Retail trade: Commerce de détail
+Total, industries: Total, industries
+Transportation and warehousing: Transport et entreposage
+Utilities: Services utilitaires
+Wholesale trade: Commerce de gros
+
+## 6-4-1
+Land use category: Catégorie d'utilisation des sols
+Water quality: Qualité de l'eau
+Percentage: Pourcentage
+Number of sites: Nombre de sites
+Atlantic Ocean: Océan Atlantique
+Great Lakes and St. Lawrence River: Grands Lacs et fleuve Saint-Laurent
+Hudson Bay: Baie d'Hudson
+Mackenzie River: Fleuve Mackenzie
+Pacific Ocean: Océan Pacifique
+Total: Total
+Agriculture: Agriculture
+Forestry: Foresterie
+Mining: Exploitation minière
+Populated: Peuplé
+Mixed pressures: Pressions mixtes
+Undeveloped: Non aménagés
+Excellent: Excellente
+Good: Bonne
+Fair: Satisfaisante
+Marginal: Douteuse
+Poor: Mauvaise
+
+## 7-2-1
+Demand characteristics: Caractéristiques d’écoulement
+Energy use - final demand: Consommation énergétique finale
+Total industrial: Total industriel
+Total transportation: Total transport
+Agriculture: Agriculture
+Residential: Résidentiel
+Public administration: Administrations publiques
+Commercial and other institutional: Commerces et autres institutions
+Fuel type: Type de combustible
+Total primary and secondary energy: Énergie primaire et secondaire totale
+Total coal: Total charbon
+Natural gas: Gaz naturel
+Gas plant natural gas liquids (NGL's): Liquides de gaz naturel des usines de gaz (LGN)
+Hydroelectricity: Hydroélectricité
+Nuclear: Nucléaire
+Steam: Vapeur
+Coke: Coke
+Coke oven gas: Gaz de cokerie
+Total refined petroleum products: Total des produits pétroliers raffinés
+Units: Unités
+Terajoules: Térajoules
+Per capita: Par habitant
+
+## 7-3-1
+Type of electricity generation: Type de production d'électricité
+Hydraulic turbine: Turbine à hydraulique
+Tidal power turbine: Turbine marémotrice
+Wind power turbine: Turbine éolienne
+Solar: Solaire
+Other types of electricity generation: Autres types de production électrique
+Total hydro, tidal, wind, solar and other generation: Total, tous les genres de production d'électricité
+
+## 8-3-1
+##  rien de nouveau
+
+## 8-4-1
+##  rien de nouveau
+
+## 8-6-1
+Industry: Industrie
+Total, all clean technology industries: Total, toutes les industries de technologies propres
+Engineering construction: Travaux de génie
+Manufacturing: Fabrication
+Professional, scientific and technical services: Services professionnels, scientifiques et techniques
+Administrative and support, waste management and remediation services: Services administratifs, services de soutien, services de gestion des déchets et services d'assainissement
+Other industries: Autres industries
+
+## 9-2-1
+Total, Organisation for Economic Co-operation and Development (OECD): Total des pays de l’Organisation de coopération et de développement économiques (OCDE)
+
+## 9-3-1
+Population centres: Centres de population
+First Nations reserves: Réserves des Premières Nations
+All regions: Toutes les régions
+Large population centres: Grands centres de population
+Medium population centres: Moyens centres de population
+Small population centres: Petits centres de population
+Rural areas: Régions rurales
+Urban centres: Régions urbaines
+Rural communities: Communautés rurales
+Major roads and highways: Principales routes et autoroutes
+
+## 9-5-1
+Asset: Actif
+Total assets: Total des actifs
+Commercial buildings: Immeubles commerciaux
+Institutional buildings: Bâtiments institutionnels
+Marine engineering infrastructure: Infrastructures de génie maritime
+Transportation engineering infrastructure: Infrastructures de génie liées aux transports
+Waterworks infrastructure: Infrastructure d'adduction et de distribution d'eau
+Sewage infrastructure: Infrastructures pour les eaux usées
+Communications networks: Réseaux de communication
+Electric power infrastructure: Infrastructure liées à l'énergie électrique
+Oil and gas engineering construction: Construction liée aux installations de pétrole et de gaz
+Other engineering construction: Autres travaux de génie
+Other machinery and equipment: Autres machines et matériel
+Transportation machinery and equipment: Machines et matériel de transport
+
+## 9-7-1
+Type of charging stations: Type de poste de recharge
+Electric: Électrique
+Natural gas: Gaz naturel
+Hydrogen: Hydrogène
+
+## 10-2-1
+Reporting entity: Entité déclarente
+Police-reported: Déclarés par la police
+Offence: Infraction
+Hate crime: Crimes haineux
+
+## 10-3-1
+Type of work: Genre de travail
+Both full- and part-time employees: Ensemble des employés à temps plein et à temps partiel
+Full-time employees: Employés à temps plein
+Part-time employees: Employés à temps partiel
+National Occupational Classification (NOC): Classification nationale des professions (CNP)
+Total employees - all occupations: Total des employés, toutes les professions
+Management occupations [0]: Gestion [0]
+Business - finance and administration occupations [1]: Affaires, finance et administration [1]
+Natural and applied sciences and related occupations [2]: Sciences naturelles et appliquées et domaines apparentés [2]
+Health occupations [3]: Secteur de la santé [3]
+Occupations in education - law and social - community and government services [4]: Enseignement, droit et services sociaux, communautaires et gouvernementaux [4]
+Occupations in art - culture - recreation and sport [5]: Arts, culture, sports et loisirs [5]
+Sales and service occupations [6]: Vente et services [6]
+Trades - transport and equipment operators and related occupations [7]: Métiers, transport, machinerie et domaines apparentés [7]
+Natural resources - agriculture and related production occupations [8]: Ressources naturelles, agriculture et production connexe [8]
+Occupations in manufacturing and utilities [9]: Fabrication et services d'utilité publique [9]
+15 years and over: 15 ans et plus
+15 to 24 years: 15 à 24 ans
+25 to 54 years: 25 à 54 ans
+55 years and over: 55 ans et plus
+
+## 10-4-1
+Economic family type: Type de famille économique
+Economic families and persons not in an economic family: Familles économiques et personnes hors famille économique
+Economic families: Familles économiques
+Elderly families: Familles de personnes âgées
+Elderly couples: Couples de personnes âgées
+Other elderly families: Autres familles de personnes âgées
+Non-elderly families: Familles de personnes non âgées
+Couples: Couples
+Couples with children: Couples avec des enfants
+Couples with other relatives: Couples avec d'autres personnes apparentées
+Lone-parent families: Familles monoparentales
+Male lone-parent families: Familles monoparentales ayant un homme à leur tête
+Female lone-parent families: Familles monoparentales ayant une femme à leur tête
+Other non-elderly families: Autres familles de personnes non âgées
+Persons not in an economic family: Personnes hors famille économique
+Elderly persons not in an economic family: Personnes âgées hors famille économique
+Elderly males not in an economic family: Hommes âgés hors famille économique
+Elderly females not in an economic family: Femmes âgées hors famille économique
+Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
+Non-elderly males not in an economic family: Hommes non âgés hors famille économique
+Non-elderly females not in an economic family: Femmes non âgées hors famille économique
+
+## 11-1-1
+Estimates: Estimation
+Growth since 2016-17: Croissance depuis 2016-17
+
+## 11-2-1
+Selected housing vulnerable populations: Certaines population vulnérables en matière de logement
+All households: Tous les ménages
+Total, lone-parent family households: Tous les ménages
+Lone-parent family households whose reference person is male: Ménages comptant une famille monoparentale dont la personne de référence est un homme
+Lone-parent family households whose reference person is female: Ménages comptant une famille monoparentale dont la personne de référence est une femme
+Total, one person households: Total, ménages comptant une personne seule
+Men living alone: Hommes vivant seuls
+Women living alone: Femmes vivant seules
+Reference person who experienced homelessness: Personne de référence qui a vécu une période d’itinérance
+Living with housing problems: Éprouvant des problèmes de logement
+Living in unaffordable housing: Vivant dans un logement inabordable
+Living in unsuitable housing: Vivant dans un logement de taille non convenable
+Living in inadequate housing: Vivant dans un logement de qualité non convenable
+Living in core housing need: Ayant des besoins impérieux en matière de logement
+
+## 11-4-1
+St. John's, Newfoundland and Labrador: St. John's, Terre-Neuve-et-Labrador
+Halifax, Nova Scotia: Halifax, Nouvelle-Écosse
+Moncton, New Brunswick: Moncton, Nouveau-Brunswick
+Saint John, New Brunswick: Saint John, Nouveau-Brunswick
+Montreal, Quebec: Montreal, Quebec
+Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (partie du Québec), Québec
+Quebec, Quebec: Québec, Québec
+Saguenay, Quebec: Saguenay, Québec
+Sherbrooke, Quebec: Sherbrooke, Québec
+Trois-Rivières, Quebec: Trois-Rivières, Québec
+Barrie, Ontario: Barrie, Ontario
+Belleville, Ontario: Belleville, Ontario
+Brantford, Ontario: Brantford, Ontario
+Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury / Grand Sudbury, Ontario
+Guelph, Ontario: Guelph, Ontario
+Hamilton, Ontario: Hamilton, Ontario
+Kingston, Ontario: Kingston, Ontario
+Kitchener - Cambridge - Waterloo, Ontario: Kitchener - Cambridge - Waterloo, Ontario
+London, Ontario: London, Ontario
+Oshawa, Ontario: Oshawa, Ontario
+Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (partie de l'Ontario), Ontario
+Peterborough, Ontario: Peterborough, Ontario
+St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
+Thunder Bay, Ontario: Thunder Bay, Ontario
+Toronto, Ontario: Toronto, Ontario
+Windsor, Ontario: Windsor, Ontario
+Winnipeg, Manitoba: Winnipeg, Manitoba
+Regina, Saskatchewan: Regina, Saskatchewan
+Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
+Calgary, Alberta: Calgary, Alberta
+Edmonton, Alberta: Edmonton, Alberta
+Lethbridge, Alberta: Lethbridge, Alberta
+Abbotsford - Mission, British Columbia: Abbotsford - Mission, Colombie-Britannique
+Kelowna, British Columbia: Kelowna, Colombie-Britannique
+Vancouver, British Columbia: Vancouver, Colombie-Britannique
+Victoria, British Columbia: Victoria, Colombie-Britannique
+
+## 11-5-1
+Type of commute: Type de navettage
+Public transit: Transport en commun
+Active transport: Transport actif
+Trois-Rivieres, Quebec: Trois-Rivières, Québec
+
+## 11-6-1
+Sources of waste for disposal: Sources des déchets à des fins d'élimination
+All sources of waste for disposal: Toutes les sources de déchets à des fins d'élimination
+Non-residential sources of waste for disposal: Sources de déchets résidentielles à des fins d'élimination
+Residential sources of waste for disposal: Sources de déchets non résidentielles à des fins d'élimination
+
+## 11-7-1
+# rien de nouveau
+
+## 12-2-1
+Industries: Industries
+Environmental protection activities or management practices: Activités de protection de l'environnement
+Total, environmental protection activities: Total, activités de protection de l'environnement
+Wastewater management: Gestion des eaux usées
+Air pollution management: Gestion de la pollution atmosphérique
+Protection and remediation of soil, groundwater and surface water: Protection et assainissement du sol, des eaux souterraines et des eaux de surface
+Protection of biodiversity and habitat: Protection de la biodiversité et de l’habitat
+Noise and vibration abatement: Lutte contre le bruit et les vibrations
+Sold carbon offset credits only or sold more than purchased: Redevances écologiques
+Beverage and tobacco product manufacturing: Fabrication de boissons et de produits du tabac
+Chemical manufacturing: Fabrication de produits chimiques
+Electric power generation, transmission and distribution: Production, transport et distribution d’électricité
+Fabricated metal product manufacturing: Fabrication de produits métalliques
+Food manufacturing: Fabrication d’aliments
+Furniture and related product manufacturing: Fabrication de meubles et de produits connexes
+Logging (except contract): Exploitation forestière (sauf à forfait)
+Machinery manufacturing: Fabrication de machines
+Mining and quarrying: Extraction minière et exploitation en carrière
+Natural gas distribution: Distribution de gaz naturel
+Non-metallic mineral product manufacturing: Fabrication de produits minéraux non métalliques
+Oil and gas extraction: Extraction de pétrole et de gaz
+Other manufacturing industries: Autres industries de fabrication
+Paper manufacturing: Fabrication du papier
+Petroleum and coal product manufacturing: Fabrication de produits du pétrole et du charbon
+Pipeline transportation: Transport par pipeline
+Plastics and rubber products manufacturing: Fabrication de produits en plastique et en caoutchouc
+Primary metal manufacturing: Première transformation des métaux
+Total, industries: Total, industries
+Transportation equipment manufacturing: 
+Wood product manufacturing: Fabrication de produits en bois
+
+
+## 12-3-1
+Territories: Territoires
+Type of materials diverted: Type de matières récupérées
+All materials diverted: Toutes les matières
+All paper fibres: Toutes les fibres cellulosiques
+Glass: Verre
+Ferrous metals: Métaux ferreux
+Copper and aluminum: Cuivre et aluminium
+Mixed metals: Métaux mélangés
+White goods: Électroménagers
+Electronics: Matériel électronique
+Plastics: Matières plastiques
+Gable top and aseptic containers: Récipients triangulaires et aseptiques
+Textiles: Textiles
+Tires: Pneus
+Construction + renovation and demolition: Déchets provenant de la construction, de la rénovation et de la démolition
+Organics: Matières organiques
+Other materials: Autres matières
+Sources of materials prepared for recycling: Sources des matières préparées en vue du recyclage
+All sources of diverted materials: Toutes les sources des matières récupérées
+Residential sources of diverted materials: Sources des matières résidentielles récupérées
+Non-residential sources of diverted materials: Sources des matières non résidentielles récupérées
+
+## 13-1-1
+Source: Source
+Provincial Inventory Total: Inventaire provincial
+Territorial Inventory Total: Inventaire territorial
+Oil and Gas: Exploitation pétrolière et gazière
+Coal Production: Production de charbon
+Electricity: Électricité
+Transport: Transports
+Heavy Industry: Industrie lourde
+Light Manufacturing, Construction and Forest Resources: Fabrication légère, construction et ressources forestières
+Buildings: Bâtiments
+Waste: Déchets et autres
+Agriculture: Agriculture
+
+## 13-2-1
+Event type: Type d'événement
+Earthquake: Tremblement de terre
+Flood: Inondation
+Hurricane / Typhoon / Tropical Storm: Ouragan / ouragan / tempête tropicale
+Storm - Unspecified / Other: Tempête-non précisée/autre
+Storm Surge: Onde de tempête
+Storms and Severe Thunderstorms: Orages et orages graves
+Tornado: Tornade
+Wildfire: Feu de forêt
+Winter Storm: Tempête hivernale
+Landslide: Éboulement
+Biological: Biologique
+Geological: Géologique
+Meteorological - Hydrological: Météorologique - hydrologique
+Epidemic: Épidémie
+Heat Event: Épisode de chaleur
+Event sub-type: Événement
+
+
+# 13-3-1
+Number: Nombre
+Percentage: Pourcentage
+Type of municipality by population size: Type de municipalité par taille de population
+All municipalities: Toutes les municipalités
+All urban municipalities: Toutes les municipalités urbaines
+Urban municipalities, population 1 to 4,999: Municipalités urbaines, population de 1 à 4 999
+Urban municipalities, population 5,000 to 29,999: Municipalités urbaines, population de 5 000 à 29 999
+Urban municipalities, population 30,000 or more: Municipalités urbaines, population de 30 000 et plus
+All rural municipalities: Toutes les municipalités rurales
+Rural municipalities, population 1 to 4,999: Municipalités rurales, population 1 à 4 999
+Rural municipalities, population 5,000 or more: Municipalités rurales, population 5 000 et plus
+Public transit: Transport en commun
+Potable water: Eau potable
+Stormwater: Eaux pluviales
+Wastewater: Eaux usées
+Solid waste: Déchets solides
+Roads: Routes
+Bridges and tunnels: Ponts et tunnels
+Culture, recreation and sports facilities: Culture, sports et loisirs
+Core public infrastructure assets: Actifs d'infrastructures publiques essentielles
+
+## 14-2-1
+Stock group: Groupe de stocks
+Marine mammals: Mammifères marins
+Groundfish: Poissons de fond
+Small pelagics: Petits poissons pélagiques
+Large pelagics: Grands poissons pélagiques
+Salmonids: Salmonidés
+Crustaceans: Crustacés
+Molluscs: Mollusques
+Others: Autres
+
+
+## 15-1-1
+Species group: Groupe d'espèces
+All species: Toutes les espèces
+Amphibians: Amphibiens
+Ants: Fourmis
+Bee flies: Bombyles
+Bees: Abeilles
+Beetles: Coléoptères
+Birds: Oiseaux
+Black flies: Mouches noires
+Bryophytes: Bryophytes
+Corals: Coraux
+Decapods: Décapodes
+Dragonflies and damselflies: Libellules et demoiselles
+Fishes: Poissons
+Freshwater bivalves: Bivalves d'eau douce
+Grasshoppers and relatives: Sauterelles et semblables
+Horse flies: Taons
+Lacewings: Chrysopes
+Macrolichens: Macrolichens
+Mammals: Mammifères
+Mayflies: Éphémères
+Mosquitoes: Moustiques
+Moths and butterflies: Papillons de nuit et papillons
+Non-marine snails and slugs: Escargots et limaces terrestres et d'eau douce
+Reptiles: Reptiles
+Sea cucumbers: Holothuries
+Sea urchins: Oursins
+Selected macrofungi: Certains macro-champignons
+Spiders: Araignées
+Sponges: Éponges
+Stoneflies: Plécoptères
+Vascular plants: Plantes vasculaires
+Yellowjacket wasps: Guêpes jaunes
+
+
+##15-2-1
+Population and distribution trends consistent with objectives: Les tendances des populations d'espèces menacées et de leur répartition sont conformes aux objectifs
+On track: Oui
+Mixed evidence: Preuves mitigées
+Not on track: Non
+
+## 15-3-1
+National terrestrial: National terrestrial
+National marine: National marine
+
+## 16-2-1
+Index: Indice
+Crime severity index: Indice de gravité de la criminalité
+Violent crime severity index: Indice des crimes avec violence
+Youth crime severity index: Indice de gravité de la criminalité chez les jeunes
+Youth violent crime severity index: Indice des crimes avec violence chez les jeunes
+
+## 16-3-1
+Violations: Infractions
+Homicide: Homicide
+Total other violations causing death: Total des autres infractions entraînant la mort
+Attempted murder: Tentative de meurtre
+Sexual assault level 3 aggravated: Agression sexuelle grave (niveau 3)
+Sexual assault level 2 weapon or bodily harm: Agression sexuelle, niveau 2, armée ou causant des lésions corporelles
+Sexual assault level 1: Agression sexuelle de niveau 1
+Total sexual violations against children: Total des infractions sexuelles contre les enfants
+Assault level 3 aggravated: Voies de fait graves (niveau 3)
+Assault level 2 weapon or bodily harm: Voies de fait armées ou causant des lésions corporelles (niveau 2)
+Assault level 1: Voies de fait simples (niveau 1)
+Total robbery: Total des vols qualifiés
+Uttering threats: Menaces
+Total other violent violations: Total des autres infractions avec violence
+
+## 16-4-1
+Type of cyber-related violation: Type d'infractions reliée à la cybercriminalité
+Against a person: Contre la personne
+Cyber-related violation: Infraction reliée à la cybercriminalité
+Total - all violations: Total des infractions
+Luring a child via a computer: Leurre d'un enfant au moyen d'un ordinateur
+Non-consensual distribution of intimate images: Distribution nonconsensuelle d'images intimes
+Extortion: Extorsion
+Criminal harassment: Harcèlement criminel
+Indecent/Harassing communications: Communications indécentes ou harcelantes
+Uttering threats: Menaces
+Fraud: Fraude
+Identity theft: Vol d'identité
+Identity fraud: Fraude à l'identité
+Child pornography: Pornographie juvénile
+Making or distribution of child pornography: Production de ou distribution de pornographie juvénile
+
+
+## 16-5-1
+Offences: Infractions
+Total offences: Total des infractions
+Total Criminal Code: Total des infractions au Code criminel
+Crimes against the person: Infractions contre la personne
+Crimes against property: Infractions contre les biens
+Administration of justice: Infractions contre l'administration de la justice
+Criminal Code traffic: Délits de la route prévus au Code criminel
+Age of accused: Âge de l'accusé
+Total - age of accused: Total, l'âge de l'accusé
+12 to 15 years: 12 à 15 ans
+16 and 17 years: 16 et 17 ans
+Other ages: Autres âges
+Age not applicable: Âge n'ayant pas lieu de figurer
+18 to 24 years: 18 à 24 ans
+25 to 34 years: 25 à 34 ans
+35 to 44 years: 35 à 44 ans
+45 to 54 years: 45 à 54 ans
+55 years and over: 55 ans et plus
+Sex of accused: Sexe de l'accusé
+Total - sex of accused: Total, le sexe de l'accusé
+Company: Sociétés
+Sex unknown: Sexe inconnu
+Type of court: Type de tribunaux
+Adult criminal courts: Tribunaux pour adultes
+Youth courts: Tribunaux de la jeunesse
+
+## 16-7-1
+Institutions: Institutions
+Police: Police
+Characteristics: Caractéristiques
+Total population: Population totale
+Indigenous person: Autochtone
+Non-Indigenous person: Personne non autochtone
+Visible minority: Minorité visible
+Non-visible minority: N’appartenant pas à une minorité visible
+Level of confidence: Niveau de confiance
+A great deal of confidence: Une grande confiance
+Some confidence: Une certaine confiance
+Not very much or no confidence: Très peu confiance ou aucune confiance
+
+## 17-1-1
+Month: Mois
+April: Avril
+
+## 17-2-1
+Pillar: Pilier
+Region: Région
+Cross-border flows to TOSSD-eligible countries: Flux transfrontaliers vers les pays admissibles au TOSSD
+Global and regional expenditures for international public goods: Dépenses mondiales et régionales pour les biens publics internationaux
+All regions: Toutes les régions
+Global: Mondial
+Africa: Afrique
+Asia: Asie
+America: Amerique
+Europe: Europe
+Middle East: Moyen-Orient
+Oceania: Océanie
