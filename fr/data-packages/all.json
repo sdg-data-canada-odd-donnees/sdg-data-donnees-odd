@@ -9,13 +9,13 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-1",
       "schema": {
         "fields": [
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Geography",
@@ -26,7 +26,7 @@
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Cause of death",
@@ -50,7 +50,7 @@
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -69,7 +69,7 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Function of Government",
@@ -94,7 +94,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -113,7 +113,7 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Group",
@@ -130,7 +130,7 @@
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -149,12 +149,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -173,12 +173,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -197,12 +197,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -221,12 +221,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -245,12 +245,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -269,12 +269,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -293,12 +293,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -317,12 +317,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -341,12 +341,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -365,12 +365,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -389,12 +389,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -413,12 +413,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -437,12 +437,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -461,12 +461,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -485,12 +485,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -509,12 +509,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -533,12 +533,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -557,12 +557,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -581,12 +581,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -605,12 +605,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -629,12 +629,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -653,12 +653,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -677,12 +677,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -701,12 +701,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -725,12 +725,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -749,12 +749,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -773,12 +773,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -797,12 +797,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -821,12 +821,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -845,12 +845,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -869,12 +869,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -893,12 +893,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -917,12 +917,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -941,12 +941,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -965,12 +965,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -989,12 +989,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1013,12 +1013,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1037,12 +1037,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1061,12 +1061,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1085,12 +1085,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1109,12 +1109,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1133,12 +1133,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1157,12 +1157,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1181,12 +1181,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1205,12 +1205,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1229,12 +1229,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1253,12 +1253,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1277,12 +1277,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1301,12 +1301,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1325,12 +1325,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1349,12 +1349,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1373,12 +1373,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1397,12 +1397,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1421,12 +1421,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1445,12 +1445,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1469,12 +1469,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1493,12 +1493,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1517,12 +1517,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1541,12 +1541,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1565,12 +1565,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1589,12 +1589,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1613,12 +1613,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1637,12 +1637,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1661,12 +1661,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1685,12 +1685,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1709,12 +1709,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1733,12 +1733,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1757,12 +1757,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1781,12 +1781,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1805,12 +1805,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1829,12 +1829,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1853,12 +1853,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1877,12 +1877,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1901,12 +1901,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1925,12 +1925,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1949,12 +1949,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1973,12 +1973,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -1997,12 +1997,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2021,12 +2021,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2045,12 +2045,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2069,12 +2069,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2093,12 +2093,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2117,12 +2117,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2141,12 +2141,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2165,12 +2165,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2189,12 +2189,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2213,12 +2213,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2237,12 +2237,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2261,12 +2261,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2285,12 +2285,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2309,12 +2309,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2333,12 +2333,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2357,12 +2357,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2381,12 +2381,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2405,12 +2405,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2429,12 +2429,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2453,12 +2453,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2477,12 +2477,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2501,12 +2501,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2525,12 +2525,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2549,12 +2549,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2573,12 +2573,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2597,12 +2597,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2621,12 +2621,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2645,12 +2645,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2669,12 +2669,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2693,12 +2693,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2717,12 +2717,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2741,12 +2741,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2765,12 +2765,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2789,12 +2789,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2813,12 +2813,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2837,12 +2837,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2861,12 +2861,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2885,12 +2885,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2909,12 +2909,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2933,12 +2933,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2957,12 +2957,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -2981,12 +2981,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3005,12 +3005,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3029,12 +3029,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3053,12 +3053,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3077,12 +3077,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3101,12 +3101,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3125,12 +3125,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3149,12 +3149,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3173,12 +3173,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3197,12 +3197,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3221,12 +3221,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3245,12 +3245,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3269,12 +3269,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3293,12 +3293,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3317,12 +3317,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3341,12 +3341,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3365,12 +3365,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3389,12 +3389,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3413,12 +3413,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3437,12 +3437,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3461,12 +3461,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3485,12 +3485,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3509,12 +3509,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3533,12 +3533,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3557,12 +3557,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3581,12 +3581,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3605,12 +3605,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3629,12 +3629,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3653,12 +3653,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3677,12 +3677,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3701,12 +3701,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3725,12 +3725,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3749,12 +3749,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3773,12 +3773,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3797,12 +3797,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3821,12 +3821,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3845,12 +3845,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3869,12 +3869,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3893,12 +3893,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3917,12 +3917,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3941,12 +3941,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3965,12 +3965,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -3989,12 +3989,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4013,12 +4013,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4037,12 +4037,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4061,12 +4061,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4085,12 +4085,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4109,12 +4109,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4133,12 +4133,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4157,12 +4157,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4181,12 +4181,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4205,12 +4205,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4229,12 +4229,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4253,12 +4253,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4277,12 +4277,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4301,12 +4301,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4325,12 +4325,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4349,12 +4349,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4373,12 +4373,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4397,12 +4397,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4421,12 +4421,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4445,12 +4445,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4469,12 +4469,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4493,12 +4493,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4517,12 +4517,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4541,12 +4541,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4565,12 +4565,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4589,12 +4589,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4613,12 +4613,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4637,12 +4637,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4661,12 +4661,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4685,12 +4685,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4709,12 +4709,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4733,12 +4733,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4757,12 +4757,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4781,12 +4781,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4805,12 +4805,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4829,12 +4829,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4853,12 +4853,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4877,12 +4877,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4901,12 +4901,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4925,12 +4925,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4949,12 +4949,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4973,12 +4973,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -4997,12 +4997,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5021,12 +5021,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5045,12 +5045,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5069,12 +5069,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5093,12 +5093,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5117,12 +5117,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5141,12 +5141,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5165,12 +5165,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5189,12 +5189,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5213,12 +5213,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5237,12 +5237,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5261,12 +5261,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5285,12 +5285,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5309,12 +5309,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5333,12 +5333,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5357,12 +5357,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5381,12 +5381,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5405,12 +5405,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5429,12 +5429,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5453,12 +5453,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5477,12 +5477,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5501,12 +5501,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5525,12 +5525,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5549,12 +5549,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5573,12 +5573,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5597,12 +5597,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5621,12 +5621,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5645,12 +5645,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5669,12 +5669,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5693,12 +5693,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5717,12 +5717,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5741,12 +5741,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5765,12 +5765,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5789,12 +5789,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5813,12 +5813,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5837,12 +5837,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5861,12 +5861,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5885,12 +5885,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5909,12 +5909,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5933,12 +5933,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5957,12 +5957,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
@@ -5981,12 +5981,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       },
