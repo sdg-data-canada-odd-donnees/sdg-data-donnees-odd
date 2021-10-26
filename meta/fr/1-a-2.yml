@@ -1,33 +1,29 @@
 # Global
-SDG_GOAL__GLOBAL: '<p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
+SDG_GOAL__GLOBAL: "<p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>"
 SDG_TARGET__GLOBAL: >-
-  '<p>Cible 1.a : Garantir une mobilisation importante de ressources provenant
+  '<p>Cible 1.a : "Garantir une mobilisation importante de ressources provenant
   de sources multiples, y compris par le renforcement de la coopération pour le développement,
   afin de doter les pays en développement, en particulier les pays les moins avancés,
-  de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques
-  visant à mettre fin à la pauvreté sous toutes ses formes.</p>'
+  de moyens adéquats et prévisibles de mettre en &#339;uvre des programmes et politiques
+  visant à mettre fin à la pauvreté sous toutes ses formes.</p>"
 SDG_INDICATOR__GLOBAL: >-
-  "<p>Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées\
-  \ aux services essentiels (éducation, santé et protection sociale)</p>\n<p>Le présent\
-  \ document s’applique à la composante éducation de l’indicateur 1.a.2.</p>"
+  "<p>Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)</p>"
 
 # National
-SDG_GOAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
-SDG_INDICATOR: "<p>Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées\
-  \ aux services essentiels (éducation, santé et protection sociale)</p>\n<p>Le présent\
-  \ document s’applique à la composante éducation de l’indicateur 1.a.2.</p>"
- SDG_TARGET: '<p>Cible 1.a : Garantir une mobilisation importante de ressources provenant
+SDG_GOAL: "<p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>"
+SDG_INDICATOR: "<p>Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)</p>"
+SDG_TARGET: "<p>Cible 1.a : Garantir une mobilisation importante de ressources provenant
   de sources multiples, y compris par le renforcement de la coopération pour le développement,
   afin de doter les pays en développement, en particulier les pays les moins avancés,
-  de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques
-  visant à mettre fin à la pauvreté sous toutes ses formes.</p>'
+  de moyens adéquats et prévisibles de mettre en &#339;uvre des programmes et politiques
+  visant à mettre fin à la pauvreté sous toutes ses formes.</p>"
 STAT_CONC_DEF: >-
-  "<p><strong>Définition :</strong></p>\n<p>Dépenses totales des administrations\
-  \ publiques (locales, régionales et centrales) en matière d'éducation (dépenses\
-  \ courantes, dépenses en capital et transferts), exprimées en pourcentage des dépenses\
-  \ totales des administrations publiques dans tous les secteurs (y compris la santé,\
-  \ l'enseignement, les services sociaux, etc.) Ceci inclut les dépenses financées\
-  \ par des transferts de sources internationales au gouvernement.</p>"
+  "<p><strong>Définition :</strong></p>\n<p>Dépenses totales des administrations
+  publiques (locales, régionales et centrales) en matière d'éducation (dépenses
+  courantes, dépenses en capital et transferts), exprimées en pourcentage des dépenses
+  totales des administrations publiques dans tous les secteurs (y compris la santé,
+  l'enseignement, les services sociaux, etc.) Ceci inclut les dépenses financées
+  par des transferts de sources internationales au gouvernement.</p>"
 UNIT_MEASURE: 'Pourcentage'
 COVERAGE: >-
   Canada
