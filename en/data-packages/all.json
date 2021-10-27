@@ -72,19 +72,37 @@
             "constraints": {
               "enum": [
                 "",
-                "Defence ",
-                "Economic affairs ",
-                "Education ",
-                "Environmental protection ",
-                "General public services ",
-                "Health ",
-                "Housing and community amenities ",
-                "Public order and safety ",
-                "Recreation, culture and religion ",
-                "Social protection "
+                "Education",
+                "Health",
+                "Other expenditure",
+                "Social protection"
               ]
             },
             "title": "Function of Government"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
           },
           {
             "name": "Value",
