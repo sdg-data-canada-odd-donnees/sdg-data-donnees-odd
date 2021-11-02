@@ -2,7 +2,12 @@ SDG_GOAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p
 SDG_TARGET: '<p>Target 12.5: By 2030, substantially reduce waste generation through
   prevention, reduction, recycling and reuse</p>'
 SDG_INDICATOR: '<p>Indicator 12.5.1: National recycling rate, tons of material recycled</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: <p>For the purposes of this indicator, the National Recycling Rate
+  will be defined as the quantity of material recycled in the country plus quantities
+  exported for recycling out of total waste generated in the country, minus material
+  imported intended for recycling. Note that recycling includes codigestion/anaerobic
+  digestion and composting/aerobic process, but not controlled combustion (incineration)
+  or land application.</p>
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET__GLOBAL: '<p>Target 12.5: By 2030, substantially reduce waste generation
   through prevention, reduction, recycling and reuse</p>'

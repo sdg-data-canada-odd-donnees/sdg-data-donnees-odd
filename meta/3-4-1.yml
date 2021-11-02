@@ -5,7 +5,15 @@ SDG_TARGET: '<p>Target 3.4: By 2030, reduce by one third premature mortality fro
   and well-being </p>'
 SDG_INDICATOR: '<p>Indicator 3.4.1: Mortality rate attributed to cardiovascular disease,
   cancer, diabetes or chronic respiratory disease </p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: '<p><strong>Mortality rate attributed to cardiovascular disease, cancer,
+  diabetes or chronic respiratory disease</strong>: Probability of dying between the
+  ages of 30 and 70 years from cardiovascular diseases, cancer, diabetes or chronic
+  respiratory diseases, defined as the per cent of 30-year-old-people who would die
+  before their 70th birthday from cardiovascular disease, cancer, diabetes, or chronic
+  respiratory disease, assuming that s/he would experience current mortality rates
+  at every age and s/he would not die from any other cause of death (e.g., injuries
+  or HIV/AIDS). This indicator is calculated using life table methods (see further
+  details in section 3.3). </p>'
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.4: By 2030, reduce by one third premature mortality

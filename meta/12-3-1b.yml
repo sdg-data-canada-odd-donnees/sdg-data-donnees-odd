@@ -3,7 +3,10 @@ SDG_TARGET: '<p>Target: 12.3 By 2030, halve per capita global food waste at the 
   and consumer levels and reduce food losses along production and supply chains, including
   post-harvest losses</p>'
 SDG_INDICATOR: '<p>Indicator: 12.3.1 (a) Food loss index and (b) food waste index</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: <p>The indicator aims to measure the total amount of food that is wasted
+  in tonnes. It complements SDG 12.3.1(a) on Food Loss (which is under the custodianship
+  of FAO). Both indicators look to divide the food value chain and measure the efficiency
+  of the food system. </p>
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET__GLOBAL: '<p>Target: 12.3 By 2030, halve per capita global food waste at
   the retail and consumer levels and reduce food losses along production and supply

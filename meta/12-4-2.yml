@@ -5,7 +5,9 @@ SDG_TARGET: '<p>Target 12.4: By 2020, achieve the environmentally sound manageme
   soil in order to minimize their adverse impacts on human health and the environment</p>'
 SDG_INDICATOR: '<p>Indicator 12.4.2: (a) Hazardous waste generated per capita; and
   (b) proportion of hazardous waste treated, by type of treatment</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: <p>The indicator includes hazardous generated, hazardous waste generated
+  by type (including e-waste as a sub-indicator) and the proportion of hazardous waste
+  treated. For the e-waste sub-category, United Nations University is a co-custodian.</p>
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET__GLOBAL: '<p>Target 12.4: By 2020, achieve the environmentally sound management
   of chemicals and all wastes throughout their life cycle, in accordance with agreed

@@ -6,7 +6,12 @@ SDG_TARGET: '<p>Target 15.3: By 2030, combat desertification, restore degraded l
   to achieve a land degradation-neutral world</p>'
 SDG_INDICATOR: '<p>Indicator 15.3.1: Proportion of land that is degraded over total
   land area</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: <p><strong><em>Land degradation</em></strong> is defined as the reduction
+  or loss of the biological or economic productivity and complexity of rain fed cropland,
+  irrigated cropland, or range, pasture, forest and woodlands resulting from a combination
+  of pressures, including land use and management practices. This definition was adopted
+  by and is used by the 196 countries that are Party to the UNCCD.<sup><sup><a href="#footnote-2"
+  id="footnote-ref-2">[1]</a></sup></sup> (see also Figure 1)</p>
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
   ecosystems, sustainably manage forests, combat desertification, and halt and reverse
   land degradation and halt biodiversity loss</p>'

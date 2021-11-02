@@ -5,7 +5,8 @@ SDG_TARGET: '<p>Target 16.1: To significantly reduce all forms of violence and r
   death rates everywhere</p>'
 SDG_INDICATOR: '<p>Indicator 16.1.2: Conflict-related deaths per 100,000 population,
   by sex, age and cause</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: <p>This indicator is defined as the total count of conflict-related
+  deaths divided by the total population, expressed per 100,000 population.</p>
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
   development, provide access to justice for all and build effective, accountable
   and inclusive institutions at all levels</p>'

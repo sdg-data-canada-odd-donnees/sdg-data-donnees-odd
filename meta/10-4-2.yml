@@ -2,7 +2,10 @@ SDG_GOAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
 SDG_TARGET: '<p>Target 10.4: Adopt policies, especially fiscal, wage and social protection
   policies, and progressively achieve greater equality</p>'
 SDG_INDICATOR: '<p>Indicator 10.4.2: Redistributive impact of fiscal policy</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: <p>The <u>Redistributive Impact of Fiscal Policy</u> indicator is defined
+  as the Gini Index of pre-fiscal per capita (or equivalized) income less the Gini
+  Index of post-fiscal per capita (or equivalized) income. These terms are elaborated
+  below and can be calculated with some different variations.</p>
 SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
 SDG_TARGET__GLOBAL: '<p>Target 10.4: Adopt policies, especially fiscal, wage and social
   protection policies, and progressively achieve greater equality</p>'

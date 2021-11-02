@@ -5,7 +5,9 @@ SDG_TARGET: '<p>Target 9.b: Support domestic technology development, research an
   for, inter alia, industrial diversification and value addition to commodities</p>'
 SDG_INDICATOR: '<p>Indicator 9.b.1: Proportion of medium and high-tech industry value
   added in total value added</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: <p>The proportion of medium-high and high-tech industry (MHT hereafter)
+  value added in total value added of manufacturing (MVA hereafter) is a ratio value
+  between the value added of MHT industry and MVA.</p>
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
   sustainable industrialization and foster innovation</p>'
 SDG_TARGET__GLOBAL: '<p>Target 9.b: Support domestic technology development, research

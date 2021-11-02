@@ -4,7 +4,18 @@ SDG_TARGET: '<p>Target 5.c: Adopt and strengthen sound policies and enforceable 
   at all levels</p>'
 SDG_INDICATOR: '<p>Indicator 5.c.1: Percentage of countries with systems to track
   and make public allocations for gender equality and women&#x2019;s empowerment</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF:
+- <p>The indicator seeks to measure government efforts to track budget allocations
+  for gender equality throughout the public finance management cycle and to make these
+  publicly available. This is an indicator of characteristics of the fiscal system.
+  It is not an indicator of quantity or quality of finance allocated for gender equality
+  and women&#x2019;s empowerment (GEWE). The indicator measures three criteria. The
+  first focuses on the intent of a government to address GEWE by identifying if it
+  has programs/policies and resource allocations to foster GEWE. The second assesses
+  if a government has planning and budget tools to track resources for GEWE throughout
+  the public financial management cycle. The third focuses on transparency by identifying
+  if a government has provisions to make allocations for GEWE publicly available.</p>
+- <h2><u>For Criterion 1:</u></h2>
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
 SDG_TARGET__GLOBAL: '<p>Target 5.c: Adopt and strengthen sound policies and enforceable
   legislation for the promotion of gender equality and the empowerment of all women

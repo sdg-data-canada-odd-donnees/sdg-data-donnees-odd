@@ -4,7 +4,10 @@ SDG_TARGET: '<p>Target 14.3: Minimize and address the impacts of ocean acidifica
   including through enhanced scientific cooperation at all levels</p>'
 SDG_INDICATOR: '<p>Indicator 14.3.1: Average marine acidity (pH) measured at agreed
   suite of representative sampling stations</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: <p>Ocean acidification is the reduction in the pH of the ocean over
+  an extended period, typically of decades or longer, which is caused primarily by
+  the uptake of carbon dioxide from the atmosphere<sup><a href="#footnote-2" id="footnote-ref-2">[1]</a></sup>.
+  </p>
 SDG_GOAL__GLOBAL: '<p>Goal 14: Conserve and sustainably use the oceans, seas and marine
   resources for sustainable development</p>'
 SDG_TARGET__GLOBAL: '<p>Target 14.3: Minimize and address the impacts of ocean acidification,
