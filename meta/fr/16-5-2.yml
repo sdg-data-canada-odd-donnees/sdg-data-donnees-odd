@@ -1,19 +1,21 @@
-SDG_GOAL: '<p>Objectif 16: Promouvoir l’avènement de sociétés pacifiques et inclusives
-  aux fins du développement durable, assurer l’accès de tous à la justice et mettre
-  en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes
-  à tous</p>'
-SDG_TARGET: '<p>Cible 16.5: Réduire nettement la corruption et la pratique des pots-de-vin
-  sous toutes leurs formes</p>'
-SDG_INDICATOR: '<p>Indicateur 16.5.2: Proportion d’entreprises ayant eu au moins une
-  fois affaire à un agent public auquel elles ont versé un pot-de-vin ou qui leur
-  a demandé un pot-de-vin au cours des 12 mois précédents</p>'
-STAT_CONC_DEF: []
-SDG_GOAL__GLOBAL: '<p>Objectif 16: Promouvoir l’avènement de sociétés pacifiques et
-  inclusives aux fins du développement durable, assurer l’accès de tous à la justice
-  et mettre en place, à tous les niveaux, des institutions efficaces, responsables
-  et ouvertes à tous</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 16.5: Réduire nettement la corruption et la pratique
-  des pots-de-vin sous toutes leurs formes</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.5.2: Proportion d’entreprises ayant eu au
-  moins une fois affaire à un agent public auquel elles ont versé un pot-de-vin ou
-  qui leur a demandé un pot-de-vin au cours des 12 mois précédents</p>'
+SDG_GOAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
+SDG_TARGET: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
+  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
+  pauvreté, telle que définie par chaque pays</p>'
+SDG_INDICATOR: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
+  du seuil national de pauvreté, par sexe et âge</p>'
+STAT_CONC_DEF: <p>Le taux de pauvreté national est le pourcentage de la population
+  totale vivant sous le seuil de pauvreté national. Le taux de pauvreté rurale est
+  le pourcentage de la population rurale vivant sous le seuil de pauvreté national
+  (ou, dans les cas où un seuil de pauvreté rurale distinct est utilisé, le seuil
+  de pauvreté rural). Le taux de pauvreté urbaine est le pourcentage de la population
+  urbaine vivant sous le seuil de pauvreté national (ou, dans les cas où un seuil
+  de pauvreté urbaine distinct est utilisé, le seuil de pauvreté urbain). </p>
+SDG_GOAL__GLOBAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans
+  le monde</p>
+SDG_TARGET__GLOBAL: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
+  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
+  pauvreté, telle que définie par chaque pays</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
+  du seuil national de pauvreté, par sexe et âge</p>'
+

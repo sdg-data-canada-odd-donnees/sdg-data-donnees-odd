@@ -1,15 +1,21 @@
-SDG_GOAL: '<p>Objectif 11: Faire en sorte que les villes et les établissements humains
-  soient ouverts à tous, sûrs, résilients et durables</p>'
-SDG_TARGET: '<p>Cible 11.6: D’ici à 2030, réduire l’impact environnemental négatif
-  des villes par habitant, y compris en accordant une attention particulière à la
-  qualité de l’air et à la gestion, notamment municipale, des déchets</p>'
-SDG_INDICATOR: '<p>Indicateur 11.6.2: Niveau moyen annuel de particules fines (PM 2,5
-  et PM 10, par exemple) dans les villes, pondéré en fonction du nombre d’habitants</p>'
-STAT_CONC_DEF: []
-SDG_GOAL__GLOBAL: '<p>Objectif 11: Faire en sorte que les villes et les établissements
-  humains soient ouverts à tous, sûrs, résilients et durables</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 11.6: D’ici à 2030, réduire l’impact environnemental
-  négatif des villes par habitant, y compris en accordant une attention particulière
-  à la qualité de l’air et à la gestion, notamment municipale, des déchets</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 11.6.2: Niveau moyen annuel de particules fines
-  (PM 2,5 et PM 10, par exemple) dans les villes, pondéré en fonction du nombre d’habitants</p>'
+SDG_GOAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
+SDG_TARGET: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
+  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
+  pauvreté, telle que définie par chaque pays</p>'
+SDG_INDICATOR: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
+  du seuil national de pauvreté, par sexe et âge</p>'
+STAT_CONC_DEF: <p>Le taux de pauvreté national est le pourcentage de la population
+  totale vivant sous le seuil de pauvreté national. Le taux de pauvreté rurale est
+  le pourcentage de la population rurale vivant sous le seuil de pauvreté national
+  (ou, dans les cas où un seuil de pauvreté rurale distinct est utilisé, le seuil
+  de pauvreté rural). Le taux de pauvreté urbaine est le pourcentage de la population
+  urbaine vivant sous le seuil de pauvreté national (ou, dans les cas où un seuil
+  de pauvreté urbaine distinct est utilisé, le seuil de pauvreté urbain). </p>
+SDG_GOAL__GLOBAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans
+  le monde</p>
+SDG_TARGET__GLOBAL: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
+  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
+  pauvreté, telle que définie par chaque pays</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
+  du seuil national de pauvreté, par sexe et âge</p>'
+
