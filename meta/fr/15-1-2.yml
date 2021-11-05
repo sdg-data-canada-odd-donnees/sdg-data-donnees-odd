@@ -9,7 +9,7 @@ SDG_TARGET: '<p>Cible 15.1 : D’ici à 2020, garantir la préservation, la re
 SDG_INDICATOR: '<p>Indicateur 15.1.2 : Proportion des sites importants pour la biodiversité
   terrestre et la biodiversité des eaux douces qui se trouvent dans des aires protégées
   (par type d’écosystème)</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: ''
 DATA_COMP: ''
 REC_USE_LIM: ''
 SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
@@ -24,5 +24,5 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 15.1.2 : Proportion des sites importants p
   la biodiversité terrestre et la biodiversité des eaux douces qui se trouvent dans
   des aires protégées (par type d’écosystème)</p>'
 
-~
+reporting_status: notstarted
 

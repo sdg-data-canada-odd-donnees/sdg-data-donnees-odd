@@ -5,7 +5,7 @@ SDG_TARGET: '<p>Cible 12.a: Aider les pays en développement à se doter des moy
 SDG_INDICATOR: '<p>Indicateur 12.a.1: Puissance installée du parc d’énergie renouvelable
   dans les pays en développement (en watts par habitant)(identique à l’indicateur
   proposé en remplacement de l’indicateur 7.b.1 ci-dessus)</p>'
-NA: ~
+STAT_CONC_DEF: ''
 DATA_COMP: ''
 REC_USE_LIM: ''
 SDG_GOAL__GLOBAL: '<p>Objectif 12: Établir des modes de consommation et de production
@@ -17,5 +17,5 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.a.1: Puissance installée du parc d’�
   renouvelable dans les pays en développement (en watts par habitant)(identique à
   l’indicateur proposé en remplacement de l’indicateur 7.b.1 ci-dessus)</p>'
 
-~
+reporting_status: notstarted
 

@@ -20,20 +20,5 @@ SDG_TARGET__GLOBAL: '<p>Cible 8.1 : Maintenir un taux de croissance économiqu
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.1.1 : Taux de croissance annuelle du PIB réel
   par habitant</p>'
 
-source_active_1: 'true'
-source_url_text_1: '"Statistique Canada. Table 36-10-0402-01  Gross domestic product
-  (GDP) at basic prices, by industry, provinces and territories (x 1,000,000)"'
-source_organisation_1: '"Statistique Canada"'
-source_periodicity_1: '"Annuelle"'
-source_geographical_coverage_1: '"Province or territory"'
-source_active_2: 'true'
-source_url_text_2: '"Statistique Canada. Table 17-10-0009-01  Population estimates,
-  quarterly"'
-source_organisation_2: '"Statistique Canada"'
-source_periodicity_2: '"Quarterly"'
-source_geographical_coverage_2: '"Canada, Province or territory"'
-source_url_1: '"https://doi.org/10.25318/3610040201-fra"'
-source_url_2: '"https://doi.org/10.25318/1710000901-fra"'
-reporting_status: complete
-COVERAGE: '"Province or territory"'
+reporting_status: notstarted
 

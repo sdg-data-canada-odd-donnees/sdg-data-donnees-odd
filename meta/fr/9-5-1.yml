@@ -8,7 +8,7 @@ SDG_TARGET: <p>Cible 9.5:Renforcer la recherche scientifique, perfectionner les 
   à la recherche-développement d'ici à 2030</p>
 SDG_INDICATOR: '<p>Indicateur 9.5.1: Dépenses de recherche-développement en proportion
   du PIB</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: ''
 DATA_COMP: ''
 REC_USE_LIM: ''
 SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
@@ -22,23 +22,5 @@ SDG_TARGET__GLOBAL: <p>Cible 9.5:Renforcer la recherche scientifique, perfection
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.5.1: Dépenses de recherche-développement en
   proportion du PIB</p>'
 
-source_active_1: 'true'
-source_url_text_1: '"Statistique Canada. Table 27-10-0273-01  Gross domestic expenditures
-  on research and development, by science type and by funder and performer sector
-  (x 1,000,000)"'
-source_organisation_1: '"Statistique Canada"'
-source_periodicity_1: '"Annuelle"'
-source_geographical_coverage_1: '"Canada, Geographical region of Canada, Province
-  or territory, Census metropolitan area, Census metropolitan area part"'
-source_active_2: 'true'
-source_url_text_2: '"Statistique Canada. Table 36-10-0222-01  Gross domestic product,
-  expenditure-based, provincial and territorial, annual (x 1,000,000)"'
-source_organisation_2: '"Statistique Canada"'
-source_periodicity_2: '"Annuelle"'
-source_geographical_coverage_2: '"Canada, Province or territory"'
-source_url_1: '"https://doi.org/10.25318/2710027301-fra"'
-source_url_2: '"https://doi.org/10.25318/3610022201-fra"'
-reporting_status: complete
-COVERAGE: '"Canada, Geographical region of Canada, Province or territory, Census metropolitan
-  area, Census metropolitan area part"'
+reporting_status: notstarted
 
