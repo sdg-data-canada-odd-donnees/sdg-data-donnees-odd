@@ -1,21 +1,28 @@
-SDG_GOAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
-SDG_TARGET: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
-  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
-  pauvreté, telle que définie par chaque pays</p>'
-SDG_INDICATOR: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
-  du seuil national de pauvreté, par sexe et âge</p>'
-STAT_CONC_DEF: <p>Le taux de pauvreté national est le pourcentage de la population
-  totale vivant sous le seuil de pauvreté national. Le taux de pauvreté rurale est
-  le pourcentage de la population rurale vivant sous le seuil de pauvreté national
-  (ou, dans les cas où un seuil de pauvreté rurale distinct est utilisé, le seuil
-  de pauvreté rural). Le taux de pauvreté urbaine est le pourcentage de la population
-  urbaine vivant sous le seuil de pauvreté national (ou, dans les cas où un seuil
-  de pauvreté urbaine distinct est utilisé, le seuil de pauvreté urbain). </p>
-SDG_GOAL__GLOBAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans
-  le monde</p>
-SDG_TARGET__GLOBAL: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
-  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
-  pauvreté, telle que définie par chaque pays</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
-  du seuil national de pauvreté, par sexe et âge</p>'
+SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
+  la nutrition et promouvoir l’agriculture durable</p>'
+SDG_TARGET: '<p>Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte que chacun,
+  en particulier les pauvres et les personnes en situation vulnérable, y compris les
+  nourrissons, ait accès toute l’année à une alimentation saine, nutritive et suffisante</p>'
+SDG_INDICATOR: '<p>Indicateur 2.1.2: Prévalence d’une insécurité alimentaire modérée
+  ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle
+  FIES)</p>'
+STAT_CONC_DEF: <p>L'indicateur mesure le pourcentage d'individus dans la population
+  qui ont connu une insécurité alimentaire modérée ou grave au cours de la période
+  de référence. La gravité de l'insécurité alimentaire, définie comme un trait latent,
+  est mesurée sur l'Échelle d'expérience de l'insécurité alimentaire (FIES) mondiale,
+  une norme de mesure établie par la FAO grâce à l'application de cette mesure dans
+  plus de 140 pays à travers le monde depuis 2014.</p>
+DATA_COMP: ''
+REC_USE_LIM: ''
+SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
+  améliorer la nutrition et promouvoir l’agriculture durable</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte
+  que chacun, en particulier les pauvres et les personnes en situation vulnérable,
+  y compris les nourrissons, ait accès toute l’année à une alimentation saine, nutritive
+  et suffisante</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.1.2: Prévalence d’une insécurité alimentaire
+  modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire
+  vécue (échelle FIES)</p>'
+
+~
 

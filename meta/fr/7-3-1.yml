@@ -1,35 +1,34 @@
-SDG_GOAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
-SDG_TARGET: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
-  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
-  pauvreté, telle que définie par chaque pays</p>'
-SDG_INDICATOR: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
-  du seuil national de pauvreté, par sexe et âge</p>'
-STAT_CONC_DEF: <p>Le taux de pauvreté national est le pourcentage de la population
-  totale vivant sous le seuil de pauvreté national. Le taux de pauvreté rurale est
-  le pourcentage de la population rurale vivant sous le seuil de pauvreté national
-  (ou, dans les cas où un seuil de pauvreté rurale distinct est utilisé, le seuil
-  de pauvreté rural). Le taux de pauvreté urbaine est le pourcentage de la population
-  urbaine vivant sous le seuil de pauvreté national (ou, dans les cas où un seuil
-  de pauvreté urbaine distinct est utilisé, le seuil de pauvreté urbain). </p>
-SDG_GOAL__GLOBAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans
-  le monde</p>
-SDG_TARGET__GLOBAL: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
-  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
-  pauvreté, telle que définie par chaque pays</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
-  du seuil national de pauvreté, par sexe et âge</p>'
+SDG_GOAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques fiables,
+  durables et modernes, à un coût abordable</p>'
+SDG_TARGET: '<p>Cible 7.3 : D’ici à 2030, multiplier par deux le taux mondial d’amélioration
+  de l’efficacité énergétique</p>'
+SDG_INDICATOR: '<p>Indicateur 7.3.1 : Intensité énergétique [rapport entre énergie
+  primaire et produit intérieur brut (PIB)]</p>'
+STAT_CONC_DEF: <p>L'intensité énergétique est définie comme l'énergie fournie à l'économie
+  par valeur unitaire de la production économique. </p>
+DATA_COMP: ''
+REC_USE_LIM: ''
+SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques
+  fiables, durables et modernes, à un coût abordable</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 7.3 : D’ici à 2030, multiplier par deux le taux mondial
+  d’amélioration de l’efficacité énergétique</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.3.1 : Intensité énergétique [rapport entre
+  énergie primaire et produit intérieur brut (PIB)]</p>'
 
-true
-Statistics Canada. Table 38-10-0096-01  Physical flow account for energy use
-https://doi.org/10.25318/3810009601-eng
-Statistics Canada
-Annual
-Canada
-true
-Statistics Canada. Table 36-10-0402-01  Gross domestic product (GDP) at basic prices, by industry, provinces and territories (x 1,000,000)
-https://doi.org/10.25318/3610040201-eng
-Statistics Canada
-Annual
-Province or territory
-complete
-Canada
+source_active_1: 'true'
+source_url_text_1: '"Statistique Canada. Table 38-10-0096-01  Physical flow account
+  for energy use"'
+source_organisation_1: '"Statistique Canada"'
+source_periodicity_1: '"Annuelle"'
+source_geographical_coverage_1: '"Canada"'
+source_active_2: 'true'
+source_url_text_2: '"Statistique Canada. Table 36-10-0402-01  Gross domestic product
+  (GDP) at basic prices, by industry, provinces and territories (x 1,000,000)"'
+source_organisation_2: '"Statistique Canada"'
+source_periodicity_2: '"Annuelle"'
+source_geographical_coverage_2: '"Province or territory"'
+source_url_1: '"https://doi.org/10.25318/3810009601-fra"'
+source_url_2: '"https://doi.org/10.25318/3610040201-fra"'
+reporting_status: complete
+COVERAGE: '"Canada"'
+

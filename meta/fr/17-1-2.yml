@@ -1,30 +1,32 @@
-SDG_GOAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
-SDG_TARGET: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
-  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
-  pauvreté, telle que définie par chaque pays</p>'
-SDG_INDICATOR: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
-  du seuil national de pauvreté, par sexe et âge</p>'
-STAT_CONC_DEF: <p>Le taux de pauvreté national est le pourcentage de la population
-  totale vivant sous le seuil de pauvreté national. Le taux de pauvreté rurale est
-  le pourcentage de la population rurale vivant sous le seuil de pauvreté national
-  (ou, dans les cas où un seuil de pauvreté rurale distinct est utilisé, le seuil
-  de pauvreté rural). Le taux de pauvreté urbaine est le pourcentage de la population
-  urbaine vivant sous le seuil de pauvreté national (ou, dans les cas où un seuil
-  de pauvreté urbaine distinct est utilisé, le seuil de pauvreté urbain). </p>
-SDG_GOAL__GLOBAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans
-  le monde</p>
-SDG_TARGET__GLOBAL: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
-  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
-  pauvreté, telle que définie par chaque pays</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
-  du seuil national de pauvreté, par sexe et âge</p>'
+SDG_GOAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+  mondial pour le développement durable et le revitaliser</p>'
+SDG_TARGET: '<p>Cible 17.1: Améliorer, notamment grâce à l’aide internationale aux
+  pays en développement, la mobilisation de ressources nationales en vue de renforcer
+  les capacités nationales de collecte de l’impôt et d’autres recettes</p>'
+SDG_INDICATOR: '<p>Indicateur 17.1.2: Proportion du budget national financé par les
+  impôts nationaux</p>'
+NA: ~
+DATA_COMP: ''
+REC_USE_LIM: ''
+SDG_GOAL__GLOBAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+  mondial pour le développement durable et le revitaliser</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 17.1: Améliorer, notamment grâce à l’aide internationale
+  aux pays en développement, la mobilisation de ressources nationales en vue de renforcer
+  les capacités nationales de collecte de l’impôt et d’autres recettes</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.1.2: Proportion du budget national financé
+  par les impôts nationaux</p>'
 
-Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection
-true
-Statistics Canada. Table 10-10-0147-01  Canadian government finance statistics (CGFS), statement of operations and balance sheet for consolidated governments (x 1,000,000)
-https://doi.org/10.25318/1010014701-eng
-Statistics Canada
-Annual
-Canada, Province or territory
-complete
-Canada, Province or territory
+target_name: '"Strengthen domestic resource mobilization, including through international
+  support to developing countries, to improve domestic capacity for tax and other
+  revenue collection"'
+source_active_1: 'true'
+source_url_text_1: '"Statistique Canada. Table 10-10-0147-01  Canadian government
+  finance statistics (CGFS), statement of operations and balance sheet for consolidated
+  governments (x 1,000,000)"'
+source_organisation_1: '"Statistique Canada"'
+source_periodicity_1: '"Annuelle"'
+source_geographical_coverage_1: '"Canada, Province or territory"'
+source_url_1: '"https://doi.org/10.25318/1010014701-fra"'
+reporting_status: complete
+COVERAGE: '"Canada, Province or territory"'
+

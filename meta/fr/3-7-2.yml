@@ -1,29 +1,31 @@
-SDG_GOAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
-SDG_TARGET: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
-  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
-  pauvreté, telle que définie par chaque pays</p>'
-SDG_INDICATOR: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
-  du seuil national de pauvreté, par sexe et âge</p>'
-STAT_CONC_DEF: <p>Le taux de pauvreté national est le pourcentage de la population
-  totale vivant sous le seuil de pauvreté national. Le taux de pauvreté rurale est
-  le pourcentage de la population rurale vivant sous le seuil de pauvreté national
-  (ou, dans les cas où un seuil de pauvreté rurale distinct est utilisé, le seuil
-  de pauvreté rural). Le taux de pauvreté urbaine est le pourcentage de la population
-  urbaine vivant sous le seuil de pauvreté national (ou, dans les cas où un seuil
-  de pauvreté urbaine distinct est utilisé, le seuil de pauvreté urbain). </p>
-SDG_GOAL__GLOBAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans
-  le monde</p>
-SDG_TARGET__GLOBAL: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
-  d’hommes, de femmes et d’enfants de tous âges souffrant d’une forme ou l’autre de
-  pauvreté, telle que définie par chaque pays</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
-  du seuil national de pauvreté, par sexe et âge</p>'
+SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
+  le bien-être de tous à tout âge.</p>'
+SDG_TARGET: '<p>Cible 3.7 : D''ici à 2030, assurer l''accès de tous à des services
+  de soins de santé sexuelle et procréative, y compris à des fins de planification
+  familiale, d''information et d''éducation, et veiller à la prise en compte de la
+  santé procréative dans les stratégies et programmes nationaux</p>'
+SDG_INDICATOR: '<p>Indicateur 3.7.2 : Taux de natalité chez les adolescentes (10 à
+  14 ans et 15 à 19 ans) pour 1 000 adolescentes du même groupe d’âge</p>'
+STAT_CONC_DEF: <p>Nombre annuel de naissances chez les femmes âgées de 10 à 14 ans
+  ou de 15 à 19 ans pour 1 000 femmes dans la tranche d'âge correspondante.</p>
+DATA_COMP: ''
+REC_USE_LIM: ''
+SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
+  le bien-être de tous à tout âge.</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 3.7 : D''ici à 2030, assurer l''accès de tous à des
+  services de soins de santé sexuelle et procréative, y compris à des fins de planification
+  familiale, d''information et d''éducation, et veiller à la prise en compte de la
+  santé procréative dans les stratégies et programmes nationaux</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.7.2 : Taux de natalité chez les adolescentes
+  (10 à 14 ans et 15 à 19 ans) pour 1 000 adolescentes du même groupe d’âge</p>'
 
-true
-Statistics Canada. Table 13-10-0418-01  Crude birth rate, age-specific fertility rates and total fertility rate (live births)
-https://doi.org/10.25318/1310041801-eng
-Statistics Canada
-Annual
-Canada, Province or territory
-complete
-Canada, Province or territory
+source_active_1: 'true'
+source_url_text_1: '"Statistique Canada. Table 13-10-0418-01  Crude birth rate, age-specific
+  fertility rates and total fertility rate (live births)"'
+source_organisation_1: '"Statistique Canada"'
+source_periodicity_1: '"Annuelle"'
+source_geographical_coverage_1: '"Canada, Province or territory"'
+source_url_1: '"https://doi.org/10.25318/1310041801-fra"'
+reporting_status: complete
+COVERAGE: '"Canada, Province or territory"'
+

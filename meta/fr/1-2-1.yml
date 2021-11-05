@@ -11,6 +11,8 @@ STAT_CONC_DEF: <p>Le taux de pauvreté national est le pourcentage de la populat
   de pauvreté rural). Le taux de pauvreté urbaine est le pourcentage de la population
   urbaine vivant sous le seuil de pauvreté national (ou, dans les cas où un seuil
   de pauvreté urbaine distinct est utilisé, le seuil de pauvreté urbain). </p>
+DATA_COMP: ''
+REC_USE_LIM: ''
 SDG_GOAL__GLOBAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans
   le monde</p>
 SDG_TARGET__GLOBAL: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion
@@ -19,11 +21,15 @@ SDG_TARGET__GLOBAL: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au mo
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous
   du seuil national de pauvreté, par sexe et âge</p>'
 
-true
-Statistics Canada. Table 11-10-0135-01  Low income statistics by age, sex and economic family type
-https://doi.org/10.25318/1110013501-eng
-Statistics Canada
-Annual
-Canada, Geographical region of Canada, Province or territory, Census metropolitan area
-complete
-Canada, Geographical region of Canada, Province or territory, Census metropolitan area
+source_active_1: 'true'
+source_url_text_1: '"Statistique Canada. Table 11-10-0135-01  Low income statistics
+  by age, sex and economic family type"'
+source_organisation_1: '"Statistique Canada"'
+source_periodicity_1: '"Annuelle"'
+source_geographical_coverage_1: '"Canada, Geographical region of Canada, Province
+  or territory, Census metropolitan area"'
+source_url_1: '"https://doi.org/10.25318/1110013501-fra"'
+reporting_status: complete
+COVERAGE: '"Canada, Geographical region of Canada, Province or territory, Census metropolitan
+  area"'
+
