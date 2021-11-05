@@ -17,8 +17,8 @@ STAT_CONC_DEF: <p> La cible comprend deux composantes. D'une part, les coûts de
   que pour chaque circuit d'envoi, il existe au moins 3 services répondant à un ensemble
   défini d'exigences (incluant la qualité du service, la portée, etc.) et pour lesquels
   le coût moyen est de 5 % ou moins.</p>
-DATA_COMP: ''
-REC_USE_LIM: ''
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
   à l’autre</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 10.c : D’ici à 2030, faire baisser au-dessous de 3 pour cent

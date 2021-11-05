@@ -17,8 +17,8 @@ STAT_CONC_DEF: <p>The target includes two components. The first component is tha
   this purpose, it should suffice that in each corridor there are at least 3 services,
   meeting a defined set of service requirements (including service quality, reach
   etc.), for which the average is 5% or less.</p>
-DATA_COMP: ''
-REC_USE_LIM: ''
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
 SDG_TARGET__GLOBAL: '<p>Target: 10.c: By 2030, reduce to less than 3 per cent the
   transaction costs of migrant remittances and eliminate remittance corridors with

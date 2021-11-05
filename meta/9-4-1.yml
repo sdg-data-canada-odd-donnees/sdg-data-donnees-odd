@@ -11,8 +11,8 @@ STAT_CONC_DEF: <p>Carbon dioxide (here after, CO<sub>2</sub>) emissions per unit
   can be computed for the whole economy (total CO<sub>2</sub> emissions/GDP) or for
   specific sectors, notably the manufacturing sector (CO<sub>2</sub> emissions from
   manufacturing industries per manufacturing value added (MVA). </p>
-DATA_COMP: ''
-REC_USE_LIM: ''
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
   sustainable industrialization and foster innovation</p>'
 SDG_TARGET__GLOBAL: '<p>Target 9.4: By 2030, upgrade infrastructure and retrofit industries

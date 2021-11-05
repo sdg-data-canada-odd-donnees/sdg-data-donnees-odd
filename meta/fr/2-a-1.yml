@@ -15,8 +15,8 @@ STAT_CONC_DEF: <p>L'Indice d’orientation agricole des dépenses publiques est 
   publiques selon les statistiques de finances publiques (SFP) et la classification
   des fonctions des administrations publiques (CFAP), et la part de la valeur ajoutée
   de l'agriculture dans le PIB selon le système de comptabilité nationale (SCN).</p>
-DATA_COMP: ''
-REC_USE_LIM: ''
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
   améliorer la nutrition et promouvoir l’agriculture durable</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 2.a : Accroître, notamment grâce au renforcement de

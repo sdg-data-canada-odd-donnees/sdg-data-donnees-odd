@@ -9,8 +9,8 @@ STAT_CONC_DEF: <p> Le taux de mortalité néonatale est la probabilité qu'un en
   né au cours d'une année ou d'une période donnée meure au cours des 28 premiers jours
   complets de vie s'il est soumis aux taux de mortalité par âge de cette période,
   exprimés pour 1 000 naissances vivantes. </p>
-DATA_COMP: ''
-REC_USE_LIM: ''
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.2 : D’ici à 2030, éliminer les décès évitables de

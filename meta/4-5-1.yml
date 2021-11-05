@@ -12,8 +12,8 @@ STAT_CONC_DEF: <p>Parity indices require data for the specific groups of interes
   They represent the ratio of the indicator value for one group to that of the other.
   Typically, the likely more disadvantaged group is placed in the numerator. A value
   of exactly 1 indicates parity between the two groups.</p>
-DATA_COMP: ''
-REC_USE_LIM: ''
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
   promote lifelong learning opportunities for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 4.5: By 2030, eliminate gender disparities in education

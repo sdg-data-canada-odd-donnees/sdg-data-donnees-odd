@@ -11,8 +11,8 @@ STAT_CONC_DEF: <p>Le taux de pauvreté national est le pourcentage de la populat
   de pauvreté rural). Le taux de pauvreté urbaine est le pourcentage de la population
   urbaine vivant sous le seuil de pauvreté national (ou, dans les cas où un seuil
   de pauvreté urbaine distinct est utilisé, le seuil de pauvreté urbain). </p>
-DATA_COMP: ''
-REC_USE_LIM: ''
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans
   le monde</p>
 SDG_TARGET__GLOBAL: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion

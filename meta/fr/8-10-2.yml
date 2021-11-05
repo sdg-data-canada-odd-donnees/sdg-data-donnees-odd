@@ -10,8 +10,8 @@ STAT_CONC_DEF: <p>Pourcentage d'adultes (15 ans et plus) qui déclarent avoir ou
   un compte (seul ou avec quelqu'un d'autre) dans une banque ou un autre type d'institution
   financière ou avoir utilisé personnellement un service d'argent mobile au cours
   des 12 derniers mois. </p>
-DATA_COMP: ''
-REC_USE_LIM: ''
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
   partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.10 : Renforcer la capacité des institutions financières

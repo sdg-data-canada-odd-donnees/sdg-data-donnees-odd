@@ -10,8 +10,8 @@ STAT_CONC_DEF: <p> Le taux de croissance annuel du produit intérieur brut (PIB)
   le PIB à prix constants par la population d’un pays ou d’une région. Les données
   sur le PIB réel sont mesurées en dollars américains constants pour faciliter le
   calcul des taux de croissance des pays et l’agrégation des données des pays.</p>
-DATA_COMP: ''
-REC_USE_LIM: ''
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
   partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.1 : Maintenir un taux de croissance économique par

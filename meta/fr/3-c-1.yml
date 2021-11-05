@@ -11,8 +11,8 @@ STAT_CONC_DEF: <p><strong><em>Densité de médecins :</em> </strong>La densité 
   donnée. Les codes des groupes d'unités de la Classification internationale type
   des professions (CITP) inclus dans cette catégorie sont 221, 2211 et 2212 de la
   CITP-08.<br></p>
-DATA_COMP: ''
-REC_USE_LIM: ''
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.c : Accroître considérablement le budget de la santé

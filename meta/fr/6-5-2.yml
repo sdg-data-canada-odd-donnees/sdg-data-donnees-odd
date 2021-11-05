@@ -15,8 +15,8 @@ STAT_CONC_DEF: <p>La proportion de la zone de bassin transfrontalier avec un arr
   de tous les bassins transfrontaliers (à la fois les bassins versants et les aquifères).
   Le résultat est multiplié par 100 pour obtenir une part exprimée en pourcentage.
   </p>
-DATA_COMP: ''
-REC_USE_LIM: ''
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
 SDG_TARGET__GLOBAL: '<p> Cible 6.5: D’ici à 2030, assurer la gestion intégrée des
