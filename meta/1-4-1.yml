@@ -6,7 +6,11 @@ SDG_TARGET: '<p>Target 1.4: By 2030, ensure that all men and women, in particula
   including microfinance</p>'
 SDG_INDICATOR: '<p>Indicator 1.4.1: Proportion of population living in households
   with access to basic services</p>'
-STAT_CONC_DEF: []
+STAT_CONC_DEF: 'Basic Services refer to public service provision systems
+  that meet human basic needs including drinking water, sanitation, hygiene,
+  energy, mobility, waste collection, health care, education and information
+  technologies. Access to basic services implies that sufficient and
+  affordable service is reliably available with adequate quality.</p>'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
