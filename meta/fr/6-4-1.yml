@@ -18,5 +18,20 @@ SDG_TARGET__GLOBAL: '<p>Cible 6.4: D’ici à 2030, faire en sorte que les resso
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.4.1: Variation de l’efficacité de l’utilisation
   des ressources en eau</p>'
 
-reporting_status: notstarted
+source_active_1: 'true'
+source_url_text_1: '"Statistique Canada. Table 36-10-0222-01  Gross domestic product,
+  expenditure-based, provincial and territorial, annual (x 1,000,000)"'
+source_organisation_1: '"Statistique Canada"'
+source_periodicity_1: '"Annuelle"'
+source_geographical_coverage_1: '"Canada, Province or territory"'
+source_active_2: 'true'
+source_url_text_2: '"Statistique Canada. Table 38-10-0250-01  Physical flow account
+  for water use (x 1,000)"'
+source_organisation_2: '"Statistique Canada"'
+source_periodicity_2: '"Every 2 years"'
+source_geographical_coverage_2: '"Canada"'
+source_url_1: '"https://doi.org/10.25318/3610022201-fra"'
+source_url_2: '"https://doi.org/10.25318/3810025001-fra"'
+reporting_status: complete
+COVERAGE: '"Canada, Province or territory"'
 

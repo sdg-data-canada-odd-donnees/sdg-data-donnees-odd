@@ -19,5 +19,13 @@ SDG_TARGET__GLOBAL: '<p>Cible 3.2 : D’ici à 2030, éliminer les décès év
   des enfants de moins de 5 ans à 25 pour 1 000 naissances vivantes au plus.</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.2.2 : Taux de mortalité néonatale</p>'
 
-reporting_status: notstarted
+source_active_1: 'true'
+source_url_text_1: '"Statistique Canada. Table 13-10-0712-01  Infant deaths and mortality
+  rates, by sex"'
+source_organisation_1: '"Statistique Canada"'
+source_periodicity_1: '"Annuelle"'
+source_geographical_coverage_1: '"Canada"'
+source_url_1: '"https://doi.org/10.25318/1310071201-fra"'
+reporting_status: complete
+COVERAGE: '"Canada"'
 

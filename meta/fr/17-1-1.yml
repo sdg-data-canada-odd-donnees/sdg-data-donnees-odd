@@ -36,5 +36,34 @@ SDG_TARGET__GLOBAL: '<p>Cible 17.1: Améliorer, notamment grâce à l’aide int
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.1.1: Total des recettes publiques en proportion
   du PIB, par source</p>'
 
-reporting_status: notstarted
+national_indicator_available: '"Total government revenue as a proportion of GDP, by
+  source"'
+indicator_name: '"Total government revenue as a proportion of GDP, by source"'
+target_name: '"Strengthen domestic resource mobilization, including through international
+  support to developing countries, to improve domestic capacity for tax and other
+  revenue collection"'
+source_active_1: 'true'
+source_url_text_1: '"Statistique Canada. Table 10-10-0147-01  Canadian government
+  finance statistics (CGFS), statement of operations and balance sheet for consolidated
+  governments (x 1,000,000)"'
+source_organisation_1: '"Statistique Canada"'
+source_periodicity_1: '"Annuelle"'
+source_geographical_coverage_1: '"Canada, Province or territory"'
+source_active_2: 'true'
+source_url_text_2: '"Statistique Canada. Table 10-10-0022-01  Canadian government
+  finance statistics for Canada and Quebec pension plans (x 1,000,000)"'
+source_organisation_2: '"Statistique Canada"'
+source_periodicity_2: '"Annuelle"'
+source_geographical_coverage_2: '"Canada, Province or territory"'
+source_active_3: 'true'
+source_url_text_3: '"Statistique Canada. Table 36-10-0104-01  Gross domestic product,
+  expenditure-based, Canada, quarterly (x 1,000,000)"'
+source_organisation_3: '"Statistique Canada"'
+source_periodicity_3: '"Quarterly"'
+source_geographical_coverage_3: '"Canada"'
+source_url_1: '"https://doi.org/10.25318/1010014701-fra"'
+source_url_2: '"https://doi.org/10.25318/1010002201-fra"'
+source_url_3: '"https://doi.org/10.25318/3610010401-fra"'
+reporting_status: complete
+COVERAGE: '"Canada, Province or territory"'
 

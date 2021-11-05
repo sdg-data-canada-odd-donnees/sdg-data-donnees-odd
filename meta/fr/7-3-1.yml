@@ -15,5 +15,20 @@ SDG_TARGET__GLOBAL: '<p>Cible 7.3 : D’ici à 2030, multiplier par deux le ta
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.3.1 : Intensité énergétique [rapport entre
   énergie primaire et produit intérieur brut (PIB)]</p>'
 
-reporting_status: notstarted
+source_active_1: 'true'
+source_url_text_1: '"Statistique Canada. Table 38-10-0096-01  Physical flow account
+  for energy use"'
+source_organisation_1: '"Statistique Canada"'
+source_periodicity_1: '"Annuelle"'
+source_geographical_coverage_1: '"Canada"'
+source_active_2: 'true'
+source_url_text_2: '"Statistique Canada. Table 36-10-0402-01  Gross domestic product
+  (GDP) at basic prices, by industry, provinces and territories (x 1,000,000)"'
+source_organisation_2: '"Statistique Canada"'
+source_periodicity_2: '"Annuelle"'
+source_geographical_coverage_2: '"Province or territory"'
+source_url_1: '"https://doi.org/10.25318/3810009601-fra"'
+source_url_2: '"https://doi.org/10.25318/3610040201-fra"'
+reporting_status: complete
+COVERAGE: '"Canada"'
 

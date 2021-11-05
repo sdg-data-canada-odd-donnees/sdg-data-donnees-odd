@@ -20,5 +20,20 @@ SDG_TARGET__GLOBAL: '<p>Cible 8.2: Parvenir à un niveau élevé de productivit�
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.2.1: Taux de croissance annuelle du PIB réel
   par personne pourvue d''un emploi</p>'
 
-reporting_status: notstarted
+source_active_1: 'true'
+source_url_text_1: '"Statistique Canada. Table 36-10-0402-01  Gross domestic product
+  (GDP) at basic prices, by industry, provinces and territories (x 1,000,000)"'
+source_organisation_1: '"Statistique Canada"'
+source_periodicity_1: '"Annuelle"'
+source_geographical_coverage_1: '"Province or territory"'
+source_active_2: 'true'
+source_url_text_2: '"Statistique Canada. Table 14-10-0018-01  Archived - Labour force
+  characteristics by sex and detailed age group, annual, inactive (x 1,000)"'
+source_organisation_2: '"Statistique Canada"'
+source_periodicity_2: '"Annuelle"'
+source_geographical_coverage_2: '"Canada, Province or territory"'
+source_url_1: '"https://doi.org/10.25318/3610040201-fra"'
+source_url_2: '"https://doi.org/10.25318/1410001801-fra"'
+reporting_status: complete
+COVERAGE: '"Province or territory"'
 

@@ -18,5 +18,13 @@ SDG_TARGET__GLOBAL: '<p>Cible 17.8: Faire en sorte que la banque de technologies
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.8.1: Proportion de la population utilisant
   Internet</p>'
 
-reporting_status: notstarted
+source_active_1: 'true'
+source_url_text_1: '"Statistique Canada. Table: 22-10-0135-01  Personal Internet use
+  from any location by province and age group"'
+source_organisation_1: '"Statistique Canada"'
+source_periodicity_1: '"Occasional"'
+source_geographical_coverage_1: '"Canada, Province or territory"'
+source_url_1: '"https://doi.org/10.25318/2210013501-fra"'
+reporting_status: complete
+COVERAGE: '"Canada, Province or territory"'
 
