@@ -6035,30 +6035,6 @@
       "title": "4-1-1bc"
     },
     {
-      "path": "2-5-1b/data.csv",
-      "name": "2-5-1b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "2-5-1b"
-    },
-    {
       "path": "17-19-2a/data.csv",
       "name": "17-19-2a",
       "profile": "tabular-data-resource",
@@ -6179,54 +6155,6 @@
       "title": "12-3-1a"
     },
     {
-      "path": "2-2-2b/data.csv",
-      "name": "2-2-2b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "2-2-2b"
-    },
-    {
-      "path": "2-2-2a/data.csv",
-      "name": "2-2-2a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "2-2-2a"
-    },
-    {
       "path": "17-3-1b/data.csv",
       "name": "17-3-1b",
       "profile": "tabular-data-resource",
@@ -6297,30 +6225,6 @@
         ]
       },
       "title": "4-1-1a"
-    },
-    {
-      "path": "2-5-1a/data.csv",
-      "name": "2-5-1a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "2-5-1a"
     },
     {
       "path": "17-3-1a/data.csv",
