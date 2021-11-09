@@ -6,11 +6,13 @@ SDG_INDICATOR: '<p>Indicator 1.3.1: Percentage of the population covered by soci
   protection floors/systems disaggregated by sex, and distinguishing children, unemployed,
   old age, people with disabilities, pregnant women/new-borns, work injury victims,
   poor and vulnerable</p>'
-STAT_CONC_DEF: '<h2>The indicator reflects the proportion of persons effectively covered
-  by a social protection system, including social protection floors. It also reflects
-  the main components of social protection: child and maternity benefits, support
-  for persons without a job, persons with disabilities, victims of work injuries and
-  older persons. </h2>'
+STAT_CONC_DEF: 'The indicator reflects the proportion of persons effectively covered by a
+  social protection system, including social protection floors. It also reflects
+  the main components of social protection: child and maternity benefits,
+  support for persons without a job, persons with disabilities, victims of work
+  injuries and older persons.\nEffective coverage of social protection is measured by the number of
+  people who are either actively contributing to a social insurance scheme or
+  receiving benefits (contributory or non-contributory).'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: <p>Goal 1. End poverty in all its forms everywhere</p>
