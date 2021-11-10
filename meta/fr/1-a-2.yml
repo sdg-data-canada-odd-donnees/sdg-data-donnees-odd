@@ -26,24 +26,22 @@ SDG_INDICATOR__GLOBAL: |-
   <p>Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)</p>
   <p>Le présent document s’applique à la composante éducation de l’indicateur 1.a.2.</p>
 
-target_name: '"Ensure significant mobilization of resources from a variety of sources,
-  including through enhanced development cooperation, in order to provide adequate
-  and predictable means for developing countries, in particular least developed countries,
-  to implement programmes and policies to end poverty in all its dimensions'
+un_designated_tier: Niveau II
+un_custodian_agency: Institut de statistique de l'UNESCO
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-02.pdf
+
 source_active_1: 'true'
-source_url_text_1: '"Statistique Canada. Table 10-10-0024-01  Canadian classification
-  of functions of government, by general government component (x 1,000,000)"'
-source_organisation_1: '"Statistique Canada"'
-source_periodicity_1: '"Annuelle"'
-source_geographical_coverage_1: '"Canada, Province or territory"'
+source_url_text_1: 'Statistique Canada. Tableau 10-10-0024-01  Classification canadienne des fonctions des administrations publiques, par composante des administrations publiques (x 1 000 000)'
+source_organisation_1: 'Statistique Canada'
+source_periodicity_1: 'Annuelle'
+source_geographical_coverage_1: 'Canada, Province ou territoire'
 source_active_2: 'true'
-source_url_text_2: '"Statistique Canada. Table 10-10-0005-01  Canadian Classification
-  of Functions of Government (CCOFOG) by consolidated government component (x 1,000,000)"'
-source_organisation_2: '"Statistique Canada"'
-source_periodicity_2: '"Annuelle"'
-source_geographical_coverage_2: '"Canada, Province or territory"'
-source_url_1: '"https://doi.org/10.25318/1010002401-fra"'
-source_url_2: '"https://doi.org/10.25318/1010000501-fra"'
+source_url_text_2: 'Statistique Canada. Tableau 10-10-0005-01  Classification canadienne des fonctions des administrations publiques (CCFAP) par composante des administrations publiques consolidées (x 1 000 000)'
+source_organisation_2: 'Statistique Canada'
+source_periodicity_2: 'Annuelle'
+source_geographical_coverage_2: 'Canada, Province ou territoire'
+source_url_1: 'https://doi.org/10.25318/1010002401-fra'
+source_url_2: 'https://doi.org/10.25318/1010000501-fra'
 reporting_status: complete
-COVERAGE: '"Canada, Province or territory"'
+COVERAGE: 'Canada, Province ou territoire'
 
