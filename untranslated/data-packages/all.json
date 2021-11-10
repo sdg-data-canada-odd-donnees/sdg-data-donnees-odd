@@ -104,6 +104,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Alberta",
                 "British Columbia",
                 "Manitoba",
