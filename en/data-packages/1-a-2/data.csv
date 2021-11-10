@@ -4,9 +4,28 @@ Year,Geography,Function of Government,Value
 2017,,,58.478
 2018,,,57.519
 2019,,,56.143
+2015,,Education,1.343
+2015,,Health,11.972
+2015,,Other expenditure,42.219
+2015,,Social protection,44.466
+2016,,Education,1.523
+2016,,Health,11.839
+2016,,Other expenditure,41.036
+2016,,Social protection,45.602
+2017,,Education,1.64
+2017,,Health,11.65
+2017,,Other expenditure,41.522
+2017,,Social protection,45.189
+2018,,Education,1.772
+2018,,Health,11.746
+2018,,Other expenditure,42.481
+2018,,Social protection,44.001
+2019,,Education,1.887
+2019,,Health,11.643
+2019,,Other expenditure,43.857
+2019,,Social protection,42.613
 2015,Alberta,,74.022
 2015,British Columbia,,75.654
-2015,Canada,,57.781
 2015,Manitoba,,74.61
 2015,New Brunswick,,70.78
 2015,Newfoundland and Labrador,,72.6
@@ -20,7 +39,6 @@ Year,Geography,Function of Government,Value
 2015,Yukon,,49.511
 2016,Alberta,,71.854
 2016,British Columbia,,75.452
-2016,Canada,,58.964
 2016,Manitoba,,74.876
 2016,New Brunswick,,69.305
 2016,Newfoundland and Labrador,,71.196
@@ -34,7 +52,6 @@ Year,Geography,Function of Government,Value
 2016,Yukon,,52.433
 2017,Alberta,,71.505
 2017,British Columbia,,75.563
-2017,Canada,,58.478
 2017,Manitoba,,75.184
 2017,New Brunswick,,69.022
 2017,Newfoundland and Labrador,,72.257
@@ -48,7 +65,6 @@ Year,Geography,Function of Government,Value
 2017,Yukon,,53.252
 2018,Alberta,,71.908
 2018,British Columbia,,75.793
-2018,Canada,,57.519
 2018,Manitoba,,75.86
 2018,New Brunswick,,69.416
 2018,Newfoundland and Labrador,,73.095
@@ -62,7 +78,6 @@ Year,Geography,Function of Government,Value
 2018,Yukon,,50.0
 2019,Alberta,,70.518
 2019,British Columbia,,76.414
-2019,Canada,,56.143
 2019,Manitoba,,75.133
 2019,New Brunswick,,69.424
 2019,Newfoundland and Labrador,,73.122
@@ -82,10 +97,6 @@ Year,Geography,Function of Government,Value
 2015,British Columbia,Health,43.504
 2015,British Columbia,Other expenditure,24.346
 2015,British Columbia,Social protection,9.426
-2015,Canada,Education,1.343
-2015,Canada,Health,11.972
-2015,Canada,Other expenditure,42.219
-2015,Canada,Social protection,44.466
 2015,Manitoba,Education,22.516
 2015,Manitoba,Health,42.597
 2015,Manitoba,Other expenditure,25.39
@@ -138,10 +149,6 @@ Year,Geography,Function of Government,Value
 2016,British Columbia,Health,43.501
 2016,British Columbia,Other expenditure,24.548
 2016,British Columbia,Social protection,9.362
-2016,Canada,Education,1.523
-2016,Canada,Health,11.839
-2016,Canada,Other expenditure,41.036
-2016,Canada,Social protection,45.602
 2016,Manitoba,Education,22.241
 2016,Manitoba,Health,43.656
 2016,Manitoba,Other expenditure,25.124
@@ -194,10 +201,6 @@ Year,Geography,Function of Government,Value
 2017,British Columbia,Health,42.836
 2017,British Columbia,Other expenditure,24.437
 2017,British Columbia,Social protection,9.545
-2017,Canada,Education,1.64
-2017,Canada,Health,11.65
-2017,Canada,Other expenditure,41.522
-2017,Canada,Social protection,45.189
 2017,Manitoba,Education,22.789
 2017,Manitoba,Health,43.152
 2017,Manitoba,Other expenditure,24.816
@@ -250,10 +253,6 @@ Year,Geography,Function of Government,Value
 2018,British Columbia,Health,42.577
 2018,British Columbia,Other expenditure,24.207
 2018,British Columbia,Social protection,10.457
-2018,Canada,Education,1.772
-2018,Canada,Health,11.746
-2018,Canada,Other expenditure,42.481
-2018,Canada,Social protection,44.001
 2018,Manitoba,Education,23.26
 2018,Manitoba,Health,43.143
 2018,Manitoba,Other expenditure,24.14
@@ -306,10 +305,6 @@ Year,Geography,Function of Government,Value
 2019,British Columbia,Health,42.614
 2019,British Columbia,Other expenditure,23.586
 2019,British Columbia,Social protection,11.05
-2019,Canada,Education,1.887
-2019,Canada,Health,11.643
-2019,Canada,Other expenditure,43.857
-2019,Canada,Social protection,42.613
 2019,Manitoba,Education,23.42
 2019,Manitoba,Health,42.618
 2019,Manitoba,Other expenditure,24.867
