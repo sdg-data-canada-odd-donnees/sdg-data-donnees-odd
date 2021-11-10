@@ -136,14 +136,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Education",
-                "Health",
-                "Other expenditure",
-                "Social protection",
+                "Enseignement",
+                "Santé",
+                "Autres dépenses",
+                "Protection sociale",
                 ""
               ]
             },
-            "title": "Function of Government"
+            "title": "Fonctions des administrations publiques"
           },
           {
             "name": "Value",
