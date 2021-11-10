@@ -262,6 +262,27 @@ prose:
             label: References and Documentation (global)
             translation_key: metadata_fields.OTHER_DOC
             scope: global
+      - name: "un_designated_tier"
+        field: 
+            element: text
+            label: "UN designated tier"
+            scope: global
+      - name: "un_custodian_agency"
+        field: 
+            element: text
+            label: "UN custodian agency"
+            scope: global
+      - name: "goal_meta_link"
+        field:
+            element: text
+            label: "Link to UN metadata"
+            scope: global
+      - name: "goal_meta_link_text"
+        field:
+            element: text
+            label: "Link to UN metadata text"
+            value: "UN metadata"
+            scope: global
       ######### National Metadata #########
       - name: SDG_INDICATOR_INFO
         field:
