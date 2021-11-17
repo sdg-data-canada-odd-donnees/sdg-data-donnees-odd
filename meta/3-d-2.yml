@@ -5,10 +5,10 @@ SDG_TARGET: '<p>Target 3.d: Strengthen the capacity of all countries, in particu
   and global health risks</p>'
 SDG_INDICATOR: '<p>Indicator 3.d.2: Percentage of bloodstream infections due to selected
   antimicrobial-resistant organisms</p>'
-STAT_CONC_DEF: '<p>Percentage of bloodstream infection due to methicillin-resistant
-  <em>Staphylococcus aureus</em> (MRSA) and <em>Escherichia coli</em> resistant
-  to 3rd-generation cephalosporin (e.g., ESBL- E. coli) among patients seeking
-  care and whose blood sample is taken and tested. </p>'
+STAT_CONC_DEF: <p>Percentage of bloodstream infection due to methicillin-resistant
+  <em>Staphylococcus aureus</em> (MRSA) and <em>Escherichia coli</em> resistant to
+  3rd-generation cephalosporin (e.g., ESBL- E. coli) among patients seeking care and
+  whose blood sample is taken and tested. </p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
@@ -18,3 +18,7 @@ SDG_TARGET__GLOBAL: '<p>Target 3.d: Strengthen the capacity of all countries, in
   and global health risks</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 3.d.2: Percentage of bloodstream infections due
   to selected antimicrobial-resistant organisms</p>'
+un_designated_tier: ~
+un_custodian_agency: World Health Organisation (WHO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0D-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF)

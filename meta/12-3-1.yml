@@ -2,18 +2,22 @@ SDG_GOAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p
 SDG_TARGET: '<p>Target: 12.3 By 2030, halve per capita global food waste at the retail
   and consumer levels and reduce food losses along production and supply chains, including
   post-harvest losses</p>'
-SDG_INDICATOR: |-
-  <p>Indicator: 12.3.1 (a) Food loss index and (b) food waste index </p>
-STAT_CONC_DEF: '<p>The Food Loss Index: Index of the changes in food loss
-  over time. The index covers five food groups along the supply chain. The
-  indicator is computed as a ratio of Food Loss Percentages in the current year
-  and the Food Loss Percentages in the base year according to a standard
-  fixed-base index formula. </p>'
+SDG_INDICATOR: '<p>Indicator: 12.3.1 (a) Food loss index and (b) food waste index
+  </p>'
+STAT_CONC_DEF: '<p>The Food Loss Index: Index of the changes in food loss over time.
+  The index covers five food groups along the supply chain. The indicator is computed
+  as a ratio of Food Loss Percentages in the current year and the Food Loss Percentages
+  in the base year according to a standard fixed-base index formula. </p>'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET__GLOBAL: '<p>Target: 12.3 By 2030, halve per capita global food waste at
   the retail and consumer levels and reduce food losses along production and supply
   chains, including post-harvest losses</p>'
-SDG_INDICATOR__GLOBAL: |-
-  <p>Indicator: 12.3.1 (a) Food loss index and (b) food waste index </p>
+SDG_INDICATOR__GLOBAL: '<p>Indicator: 12.3.1 (a) Food loss index and (b) food waste
+  index </p>'
+un_designated_tier: Tier II
+un_custodian_agency: Food and Agriculture Organization (FAO), UN Environment (UNEP)
+goal_meta_link: https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-12-03-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
+  MB)

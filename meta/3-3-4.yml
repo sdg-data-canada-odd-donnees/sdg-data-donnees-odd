@@ -4,10 +4,10 @@ SDG_TARGET: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, ma
   and neglected tropical diseases and combat hepatitis, water-borne diseases and other
   communicable diseases </p>'
 SDG_INDICATOR: '<p>Indicator 3.3.4: Hepatitis B incidence per 100,000 population </p>'
-STAT_CONC_DEF: '<p>This indicator is measured indirectly through the proportion of
+STAT_CONC_DEF: <p>This indicator is measured indirectly through the proportion of
   children 5 years of age who have developed chronic HBV infection (i.e. the proportion
   that tests positive for a marker of infection called hepatitis B surface antigen
-  [HBsAg]).</p>'
+  [HBsAg]).</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
@@ -17,3 +17,8 @@ SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tubercul
   and other communicable diseases </p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 3.3.4: Hepatitis B incidence per 100,000 population
   </p>'
+un_designated_tier: Tier I
+un_custodian_agency: World Health Organisation (WHO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-04.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 866
+  KB)

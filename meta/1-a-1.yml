@@ -7,18 +7,16 @@ SDG_INDICATOR: <p>Indicator 1.a.1:&#xA0;Total official development assistance (O
   grants from all donors that focus on poverty reduction as a share of the recipient
   country&#x2019;s gross national income</p>
 STAT_CONC_DEF: '<p>The OECD/Development Assistance Committee (DAC) defines ODA as
-  &#x201C;flows to countries and territories on the DAC List of ODA Recipients
-  and to multilateral institutions which are i) provided by official agencies,
-  including state and local governments, or by their executive agencies; and ii)
-  each transaction is administered with the promotion of the economic
-  development and welfare of developing countries as its main objective; and is
-  concessional in character and conveys a grant element of at least 25 per cent
-  (calculated at a rate of discount of 10 per cent). (See <a
-  href="http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm">http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm</a>).</p>
-  <p>Poverty reduction items can be defined as ODA to basic social services
-  (basic health, basic education, basic water and sanitation, population
-  programmes and reproductive health) and developmental food aid (see here: <a
-  href="http://www.oecd.org/dac/stats/purposecodessectorclassification.htm">http://www.oecd.org/dac/stats/purposecodessectorclassification.htm</a>).</p>'
+  &#x201C;flows to countries and territories on the DAC List of ODA Recipients and
+  to multilateral institutions which are i) provided by official agencies, including
+  state and local governments, or by their executive agencies; and ii) each transaction
+  is administered with the promotion of the economic development and welfare of developing
+  countries as its main objective; and is concessional in character and conveys a
+  grant element of at least 25 per cent (calculated at a rate of discount of 10 per
+  cent). (See <a href="http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm">http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm</a>).</p>
+  <p>Poverty reduction items can be defined as ODA to basic social services (basic
+  health, basic education, basic water and sanitation, population programmes and reproductive
+  health) and developmental food aid (see here: <a href="http://www.oecd.org/dac/stats/purposecodessectorclassification.htm">http://www.oecd.org/dac/stats/purposecodessectorclassification.htm</a>).</p>'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: <p>Goal 1. End poverty in all its forms everywhere</p>
@@ -30,3 +28,7 @@ SDG_TARGET__GLOBAL: <p>Target 1.a. Ensure significant mobilization of resources 
 SDG_INDICATOR__GLOBAL: <p>Indicator 1.a.1:&#xA0;Total official development assistance
   (ODA) grants from all donors that focus on poverty reduction as a share of the recipient
   country&#x2019;s gross national income</p>
+un_designated_tier: Tier I
+un_custodian_agency: Organisation for Economic Co-operation and Development (OECD)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF)

@@ -3,8 +3,8 @@ SDG_TARGET: '<p>Target 1.a: Ensure significant mobilization of resources from a 
   of sources, including through enhanced development cooperation, in order to provide
   adequate and predictable means for developing countries, in particular least developed
   countries, to implement programmes and policies to end poverty in all its dimensions</p>'
-SDG_INDICATOR: |-
-  <p>Indicator 1.a.2: Proportion of total government spending on essential services (education, health and social protection)</p>
+SDG_INDICATOR: '<p>Indicator 1.a.2: Proportion of total government spending on essential
+  services (education, health and social protection)</p>'
 STAT_CONC_DEF: <p>Total general (local, regional and central) government expenditure
   on education (current, capital, and transfers), expressed as a percentage of total
   general government expenditure on all sectors (including health, education, social
@@ -18,12 +18,13 @@ SDG_TARGET__GLOBAL: '<p>Target 1.a: Ensure significant mobilization of resources
   to provide adequate and predictable means for developing countries, in particular
   least developed countries, to implement programmes and policies to end poverty in
   all its dimensions</p>'
-SDG_INDICATOR__GLOBAL: |-
-  <p>Indicator 1.a.2: Proportion of total government spending on essential services (education, health and social protection)</p>
+SDG_INDICATOR__GLOBAL: '<p>Indicator 1.a.2: Proportion of total government spending
+  on essential services (education, health and social protection)</p>'
 un_designated_tier: Tier II
 un_custodian_agency: UNESCO Institute for Statistics (UNESCO-UIS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 894 KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 894
+  KB)
 target_name: Ensure significant mobilization of resources from a variety of sources,
   including through enhanced development cooperation, in order to provide adequate
   and predictable means for developing countries, in particular least developed countries,
@@ -44,3 +45,8 @@ source_periodicity_2: Annual
 source_geographical_coverage_2: Canada, Province or territory
 reporting_status: complete
 COVERAGE: Canada, Province or territory
+un_designated_tier: Tier II
+un_custodian_agency: UNESCO Institute for Statistics (UNESCO-UIS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 894
+  KB)

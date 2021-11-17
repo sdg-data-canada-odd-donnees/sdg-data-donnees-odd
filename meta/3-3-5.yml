@@ -5,9 +5,9 @@ SDG_TARGET: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, ma
   communicable diseases </p>'
 SDG_INDICATOR: '<p>Indicator 3.3.5: Number of people requiring interventions against
   neglected tropical diseases </p>'
-STAT_CONC_DEF: '<p>Number of people requiring treatment and care for any one of the neglected
-  tropical diseases (NTDs) targeted by the WHO NTD Roadmap and World Health
-  Assembly resolutions and reported to WHO. </p>'
+STAT_CONC_DEF: <p>Number of people requiring treatment and care for any one of the
+  neglected tropical diseases (NTDs) targeted by the WHO NTD Roadmap and World Health
+  Assembly resolutions and reported to WHO. </p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
@@ -17,3 +17,8 @@ SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tubercul
   and other communicable diseases </p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 3.3.5: Number of people requiring interventions
   against neglected tropical diseases </p>'
+un_designated_tier: Tier I
+un_custodian_agency: World Health Organisation (WHO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 390
+  KB)

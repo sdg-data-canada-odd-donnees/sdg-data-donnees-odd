@@ -2,10 +2,26 @@ SDG_GOAL: '<p>Goal 13: Take urgent action to combat climate change and its impac
 SDG_TARGET: '<p>Target: 13.2 Integrate climate change measures into national policies,
   strategies and planning</p>'
 SDG_INDICATOR: '<p>Indicator: 13.2.2 Total greenhouse gas emissions per year</p>'
-STAT_CONC_DEF: "   "
-DATA_COMP: "In general, GHG emissions are estimated by multiplying activity data by the associated emission factor.\nEmissions = activity data × emission factor\nActivity data refer to the quantitative amount of human activity resulting in emissions during a given time period. The annual activity data for fuel combustion sources, for example, are the total amounts of fuel burned over a year.\nEmission factors are based on samples of measurement data, and are representative rates of emissions for a given activity level under a given set of operating conditions. It is the estimated average emission rate of a given pollutant for a given source, relative to units of activity.\nGuidelines produced by the Intergovernmental Panel on Climate Change for countries reporting to the United Nations Framework Convention on Climate Change provide various methods for calculating GHG emissions from a given human activity. The methods for estimating emissions are divided into 'tiers' each encompassing different levels of activity and technological detail. The same general structure is used for all tiers, while the level of detail at which the calculations are carried out can vary.\nGreenhouse gas emissions are reported in carbon dioxide equivalents (CO2 eq), determined by multiplying the amount of emissions of a particular greenhouse gas by the global warming potential of that gas. Environment and Climate Change Canada (ECCC)"
-REC_USE_LIM: 'The Greenhouse gas emissions indicators are comprehensive but some emission sources have not been included in the indicators because they are not reported in the National Inventory Report. Owing to their relatively small contributions to the total emissions, these excluded sources do not significantly affect the overall completeness of the inventory. A detailed explanation of the excluded emission sources can be found in Annex 5 of the National Inventory Report. Although reported in the National Inventory Report, emissions and removals from the land use, land use change and forestry sector are excluded from national totals and subsequently not reported as part of the Greenhouse gas emissions indicators. (ECCC)'
-SDG_GOAL__GLOBAL: '<p>Goal 13: Take urgent action to combat climate change and its impacts</p>'
+STAT_CONC_DEF: '   '
+DATA_COMP: |-
+  In general, GHG emissions are estimated by multiplying activity data by the associated emission factor.
+  Emissions = activity data × emission factor
+  Activity data refer to the quantitative amount of human activity resulting in emissions during a given time period. The annual activity data for fuel combustion sources, for example, are the total amounts of fuel burned over a year.
+  Emission factors are based on samples of measurement data, and are representative rates of emissions for a given activity level under a given set of operating conditions. It is the estimated average emission rate of a given pollutant for a given source, relative to units of activity.
+  Guidelines produced by the Intergovernmental Panel on Climate Change for countries reporting to the United Nations Framework Convention on Climate Change provide various methods for calculating GHG emissions from a given human activity. The methods for estimating emissions are divided into 'tiers' each encompassing different levels of activity and technological detail. The same general structure is used for all tiers, while the level of detail at which the calculations are carried out can vary.
+  Greenhouse gas emissions are reported in carbon dioxide equivalents (CO2 eq), determined by multiplying the amount of emissions of a particular greenhouse gas by the global warming potential of that gas. Environment and Climate Change Canada (ECCC)
+REC_USE_LIM: The Greenhouse gas emissions indicators are comprehensive but some emission
+  sources have not been included in the indicators because they are not reported in
+  the National Inventory Report. Owing to their relatively small contributions to
+  the total emissions, these excluded sources do not significantly affect the overall
+  completeness of the inventory. A detailed explanation of the excluded emission sources
+  can be found in Annex 5 of the National Inventory Report. Although reported in the
+  National Inventory Report, emissions and removals from the land use, land use change
+  and forestry sector are excluded from national totals and subsequently not reported
+  as part of the Greenhouse gas emissions indicators. (ECCC)
+SDG_GOAL__GLOBAL: '<p>Goal 13: Take urgent action to combat climate change and its
+  impacts</p>'
 SDG_TARGET__GLOBAL: '<p>Target: 13.2 Integrate climate change measures into national
   policies, strategies and planning</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator: 13.2.2 Total greenhouse gas emissions per year</p>'
+un_custodian_agency: UN Climate Change (UNFCCC Secretariat)

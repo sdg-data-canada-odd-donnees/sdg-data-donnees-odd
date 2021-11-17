@@ -4,10 +4,10 @@ SDG_TARGET: '<p>Target 2.1: By 2030, end hunger and ensure access by all people,
   particular the poor and people in vulnerable situations, including infants, to safe,
   nutritious and sufficient food all year round</p>'
 SDG_INDICATOR: '<p>Indicator 2.1.1: Prevalence of undernourishment</p>'
-STAT_CONC_DEF: '<p>The prevalence of undernourishment (PoU) is an estimate of the proportion of the population whose
-  habitual food consumption is insufficient to provide the dietary energy levels that
-  are required to maintain a normal active and healthy life. It is expressed as a
-  percentage.</p>'
+STAT_CONC_DEF: <p>The prevalence of undernourishment (PoU) is an estimate of the proportion
+  of the population whose habitual food consumption is insufficient to provide the
+  dietary energy levels that are required to maintain a normal active and healthy
+  life. It is expressed as a percentage.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
@@ -16,3 +16,8 @@ SDG_TARGET__GLOBAL: '<p>Target 2.1: By 2030, end hunger and ensure access by all
   in particular the poor and people in vulnerable situations, including infants, to
   safe, nutritious and sufficient food all year round</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 2.1.1: Prevalence of undernourishment</p>'
+un_designated_tier: Tier I
+un_custodian_agency: Food and Agriculture Organization (FAO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 270
+  KB)
