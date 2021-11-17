@@ -1,31 +1,21 @@
-SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.7 : D''ici à 2030, assurer l''accès de tous à des services
-  de soins de santé sexuelle et procréative, y compris à des fins de planification
-  familiale, d''information et d''éducation, et veiller à la prise en compte de la
-  santé procréative dans les stratégies et programmes nationaux</p>'
-SDG_INDICATOR: '<p>Indicateur 3.7.2 : Taux de natalité chez les adolescentes (10 à
-  14 ans et 15 à 19 ans) pour 1 000 adolescentes du même groupe d’âge</p>'
-STAT_CONC_DEF: <p>Nombre annuel de naissances chez les femmes âgées de 10 à 14 ans
-  ou de 15 à 19 ans pour 1 000 femmes dans la tranche d'âge correspondante.</p>
+SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
+SDG_TARGET: '   '
+SDG_INDICATOR: '   '
+STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.7 : D''ici à 2030, assurer l''accès de tous à des
-  services de soins de santé sexuelle et procréative, y compris à des fins de planification
-  familiale, d''information et d''éducation, et veiller à la prise en compte de la
-  santé procréative dans les stratégies et programmes nationaux</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.7.2 : Taux de natalité chez les adolescentes
-  (10 à 14 ans et 15 à 19 ans) pour 1 000 adolescentes du même groupe d’âge</p>'
+SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
+  à l’autre</p>'
+SDG_TARGET__GLOBAL: '   '
+SDG_INDICATOR__GLOBAL: '   '
 
 source_active_1: 'true'
-source_url_text_1: '"Statistique Canada. Table 13-10-0418-01  Crude birth rate, age-specific
-  fertility rates and total fertility rate (live births)"'
-source_organisation_1: '"Statistique Canada"'
-source_periodicity_1: '"Annuelle"'
-source_geographical_coverage_1: '"Canada, Province or territory"'
-source_url_1: '"https://doi.org/10.25318/1310041801-fra"'
+source_url_text_1: Statistique Canada. Table 13-10-0418-01  Crude birth rate, age-specific
+  fertility rates and total fertility rate (live births)
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Province or territory
+source_url_1: https://doi.org/10.25318/1310041801-fra
 reporting_status: complete
-COVERAGE: '"Canada, Province or territory"'
+COVERAGE: Canada, Province or territory
 

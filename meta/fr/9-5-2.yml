@@ -1,41 +1,28 @@
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
-  durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET: <p>Cible 9.5:Renforcer la recherche scientifique, perfectionner les capacités
-  technologiques des secteurs industriels de tous les pays, en particulier des pays
-  en développement, notamment en encourageant l'innovation et en augmentant nettement
-  le nombre de personnes travaillant dans le secteur de la recherche-développement
-  pour 1 million d'habitants et en accroissant les dépenses publiques et privées consacrées
-  à la recherche-développement d'ici à 2030</p>
-SDG_INDICATOR: '<p>Indicateur 9.5.2: Nombre de chercheurs (équivalent plein temps)
-  par million d’habitants</p>'
+SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
+SDG_TARGET: '   '
+SDG_INDICATOR: '   '
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
-  une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET__GLOBAL: <p>Cible 9.5:Renforcer la recherche scientifique, perfectionner
-  les capacités technologiques des secteurs industriels de tous les pays, en particulier
-  des pays en développement, notamment en encourageant l'innovation et en augmentant
-  nettement le nombre de personnes travaillant dans le secteur de la recherche-développement
-  pour 1 million d'habitants et en accroissant les dépenses publiques et privées consacrées
-  à la recherche-développement d'ici à 2030</p>
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.5.2: Nombre de chercheurs (équivalent plein
-  temps) par million d’habitants</p>'
+SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
+  à l’autre</p>'
+SDG_TARGET__GLOBAL: '   '
+SDG_INDICATOR__GLOBAL: '   '
 
 source_active_1: 'true'
-source_url_text_1: '"Statistique Canada. Table 27-10-0022-01  Personnel engaged in
-  research and development by performing sector and occupational category"'
-source_organisation_1: '"Statistique Canada"'
-source_periodicity_1: '"Annuelle"'
-source_geographical_coverage_1: '"Canada"'
+source_url_text_1: Statistique Canada. Table 27-10-0022-01  Personnel engaged in research
+  and development by performing sector and occupational category
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
 source_active_2: 'true'
-source_url_text_2: '"Statistique Canada. Table 17-10-0005-01  Population estimates
-  on July 1st, by age and sex"'
-source_organisation_2: '"Statistique Canada"'
-source_periodicity_2: '"Annuelle"'
-source_geographical_coverage_2: '"Canada, Province or territory"'
-source_url_1: '"https://doi.org/10.25318/2710002201-fra"'
-source_url_2: '"https://doi.org/10.25318/1710000501-fra"'
+source_url_text_2: Statistique Canada. Table 17-10-0005-01  Population estimates on
+  July 1st, by age and sex
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada, Province or territory
+source_url_1: https://doi.org/10.25318/2710002201-fra
+source_url_2: https://doi.org/10.25318/1710000501-fra
 reporting_status: complete
-COVERAGE: '"Canada"'
+COVERAGE: Canada
 

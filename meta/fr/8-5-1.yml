@@ -1,20 +1,21 @@
-NA: ~
-NA: ~
-NA: ~
+SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
+SDG_TARGET: '   '
+SDG_INDICATOR: '   '
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-NA: ~
-NA: ~
-NA: ~
+SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
+  à l’autre</p>'
+SDG_TARGET__GLOBAL: '   '
+SDG_INDICATOR__GLOBAL: '   '
 
 source_active_1: 'true'
-source_url_text_1: '"Statistique Canada. Table 14-10-0063-01  Employee wages by industry,
-  monthly, unadjusted for seasonality"'
-source_organisation_1: '"Statistique Canada"'
-source_periodicity_1: '"Monthly"'
-source_geographical_coverage_1: '"Canada, Province or territory"'
-source_url_1: '"https://doi.org/10.25318/1410006301-fra"'
+source_url_text_1: Statistique Canada. Table 14-10-0063-01  Employee wages by industry,
+  monthly, unadjusted for seasonality
+source_organisation_1: Statistique Canada
+source_periodicity_1: Monthly
+source_geographical_coverage_1: Canada, Province or territory
+source_url_1: https://doi.org/10.25318/1410006301-fra
 reporting_status: complete
-COVERAGE: '"Canada, Province or territory"'
+COVERAGE: Canada, Province or territory
 

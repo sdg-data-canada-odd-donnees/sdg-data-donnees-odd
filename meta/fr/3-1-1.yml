@@ -1,35 +1,28 @@
-SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.1 : D’ici à 2030, faire passer le taux mondial de mortalité
-  maternelle au-dessous de 70 pour 100 000 naissances vivantes.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.1.1 : Taux de mortalité maternelle</p>'
-STAT_CONC_DEF: <p>Le ratio de mortalité maternelle (RMM) est défini comme le nombre
-  de décès maternels au cours d'une période donnée pour 100 000 naissances vivantes
-  au cours de la même période. Il décrit le risque de décès maternel par rapport au
-  nombre de naissances vivantes et saisit essentiellement le risque de décès au cours
-  d'une seule grossesse ou d'une seule naissance vivante.</p>
+SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
+SDG_TARGET: '   '
+SDG_INDICATOR: '   '
+STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.1 : D’ici à 2030, faire passer le taux mondial de mortalité
-  maternelle au-dessous de 70 pour 100 000 naissances vivantes.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.1.1 : Taux de mortalité maternelle</p>'
+SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
+  à l’autre</p>'
+SDG_TARGET__GLOBAL: '   '
+SDG_INDICATOR__GLOBAL: '   '
 
 source_active_1: 'true'
-source_url_text_1: '"Statistique Canada. Table 13-10-0152-01  Deaths, by cause, Chapter
-  XV: Pregnancy, childbirth and the puerperium (O00 to O99)"'
-source_organisation_1: '"Statistique Canada"'
-source_periodicity_1: '"Annuelle"'
-source_geographical_coverage_1: '"Canada"'
+source_url_text_1: 'Statistique Canada. Table 13-10-0152-01  Deaths, by cause, Chapter
+  XV: Pregnancy, childbirth and the puerperium (O00 to O99)'
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
 source_active_2: 'true'
-source_url_text_2: '"Statistique Canada. Table 13-10-0414-01  Live births, by place
-  of residence of mother"'
-source_organisation_2: '"Statistique Canada"'
-source_periodicity_2: '"Annuelle"'
-source_geographical_coverage_2: '"Canada, Province or territory"'
-source_url_1: '"https://doi.org/10.25318/1310015201-fra"'
-source_url_2: '"https://doi.org/10.25318/1310041401-fra"'
+source_url_text_2: Statistique Canada. Table 13-10-0414-01  Live births, by place
+  of residence of mother
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada, Province or territory
+source_url_1: https://doi.org/10.25318/1310015201-fra
+source_url_2: https://doi.org/10.25318/1310041401-fra
 reporting_status: complete
-COVERAGE: '"Canada"'
+COVERAGE: Canada
 

@@ -1,38 +1,28 @@
-SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.2 : D’ici à 2030, éliminer les décès évitables de nouveau-nés
-  et d’enfants de moins de 5 ans, tous les pays devant chercher à ramener la mortalité
-  néonatale à 12 pour 1 000 naissances vivantes au plus et la mortalité des enfants
-  de moins de 5 ans à 25 pour 1 000 naissances vivantes au plus.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.2.1: Taux de mortalité des enfants de moins de 5 ans</p>'
-STAT_CONC_DEF: <p>Le taux de mortalité des enfants de moins de cinq ans est la probabilité
-  qu'un enfant né au cours d'une année ou d'une période donnée décède avant d'atteindre
-  l'âge de cinq ans, exprimée pour 1 000 naissances vivantes.</p>
+SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
+SDG_TARGET: '   '
+SDG_INDICATOR: '   '
+STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.2 : D’ici à 2030, éliminer les décès évitables de
-  nouveau-nés et d’enfants de moins de 5 ans, tous les pays devant chercher à ramener
-  la mortalité néonatale à 12 pour 1 000 naissances vivantes au plus et la mortalité
-  des enfants de moins de 5 ans à 25 pour 1 000 naissances vivantes au plus.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.2.1: Taux de mortalité des enfants de moins
-  de 5 ans</p>'
+SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
+  à l’autre</p>'
+SDG_TARGET__GLOBAL: '   '
+SDG_INDICATOR__GLOBAL: '   '
 
 source_active_1: 'true'
-source_url_text_1: '"Statistique Canada. Table 13-10-0709-01  Deaths, by age group
-  and sex"'
-source_organisation_1: '"Statistique Canada"'
-source_periodicity_1: '"Annuelle"'
-source_geographical_coverage_1: '"Canada, Province or territory"'
+source_url_text_1: Statistique Canada. Table 13-10-0709-01  Deaths, by age group and
+  sex
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Province or territory
 source_active_2: 'true'
-source_url_text_2: '"Statistique Canada. Table 13-10-0414-01  Live births, by place
-  of residence of mother"'
-source_organisation_2: '"Statistique Canada"'
-source_periodicity_2: '"Annuelle"'
-source_geographical_coverage_2: '"Canada, Province or territory"'
-source_url_1: '"https://doi.org/10.25318/1310070901-fra"'
-source_url_2: '"https://doi.org/10.25318/1310041401-fra"'
+source_url_text_2: Statistique Canada. Table 13-10-0414-01  Live births, by place
+  of residence of mother
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada, Province or territory
+source_url_1: https://doi.org/10.25318/1310070901-fra
+source_url_2: https://doi.org/10.25318/1310041401-fra
 reporting_status: complete
-COVERAGE: '"Canada, Province or territory"'
+COVERAGE: Canada, Province or territory
 
