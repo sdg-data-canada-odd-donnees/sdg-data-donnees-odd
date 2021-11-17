@@ -1,13 +1,20 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
-STAT_CONC_DEF: '   '
+SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
+  le bien-être de tous à tout âge.</p>'
+SDG_TARGET: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention et le
+  traitement, le taux de mortalité prématurée due à des maladies non transmissibles
+  et promouvoir la santé mentale et le bien-être</p>'
+SDG_INDICATOR: '<p>Indicateur 3.4.2 : Taux de mortalité par suicide</p>'
+STAT_CONC_DEF: <p>Le taux de mortalité par suicide est défini comme le nombre de décès
+  par suicide au cours d'une année, divisé par la population et multiplié par 100
+  000.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
+  le bien-être de tous à tout âge.</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention
+  et le traitement, le taux de mortalité prématurée due à des maladies non transmissibles
+  et promouvoir la santé mentale et le bien-être</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.4.2 : Taux de mortalité par suicide</p>'
 
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Table 13-10-0800-01  Deaths and mortality rate

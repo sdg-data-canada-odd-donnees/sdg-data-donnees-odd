@@ -1,13 +1,25 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
-STAT_CONC_DEF: '   '
+SDG_GOAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques fiables,
+  durables et modernes, à un coût abordable.</p>'
+SDG_TARGET: '<p>Cible 7.1 : D’ici à 2030, garantir l’accès de tous à des services
+  énergétiques fiables et modernes, à un coût abordable.</p>'
+SDG_INDICATOR: '<p>Indicateur 7.1.2 : Proportion de la population utilisant principalement
+  des carburants et technologies propres.</p>'
+STAT_CONC_DEF: '<p>La proportion de la population qui dépend principalement des combustibles
+  et des technologies propres est calculée comme le nombre de personnes utilisant
+  des combustibles et des technologies propres pour la cuisine, le chauffage et l''éclairage,
+  divisé par la population totale déclarant que toute cuisine, chauffage ou éclairage,
+  exprimé en pourcentage. &#x201C;Propre&#x201D; est défini par les objectifs de taux
+  d''émission et les recommandations spécifiques concernant les combustibles (c''est-à-dire
+  contre le charbon non traité et le kérosène) figurant dans les orientations normatives
+  de l''OMS pour la qualité de l''air intérieur : combustion de combustibles domestiques.</p>'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques
+  fiables, durables et modernes, à un coût abordable.</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 7.1 : D’ici à 2030, garantir l’accès de tous à des services
+  énergétiques fiables et modernes, à un coût abordable.</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.1.2 : Proportion de la population utilisant
+  principalement des carburants et technologies propres.</p>'
 
 reporting_status: notstarted
 

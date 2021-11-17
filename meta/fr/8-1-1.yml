@@ -1,13 +1,24 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
-STAT_CONC_DEF: '   '
+SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
+  et durable, le plein emploi productif et un travail décent pour tous.</p>'
+SDG_TARGET: '<p>Cible 8.1 : Maintenir un taux de croissance économique par habitant
+  adapté au contexte national et, en particulier, un taux de croissance annuelle du
+  produit intérieur brut d’au moins 7 pour cent dans les pays les moins avancés.</p>'
+SDG_INDICATOR: '<p>Indicateur 8.1.1 : Taux de croissance annuelle du PIB réel par habitant</p>'
+STAT_CONC_DEF: <p> Le taux de croissance annuel du produit intérieur brut (PIB) réel
+  par habitant est calculé comme la variation en pourcentage du PIB réel par habitant
+  entre deux années consécutives. Le PIB réel par habitant est calculé en divisant
+  le PIB à prix constants par la population d’un pays ou d’une région. Les données
+  sur le PIB réel sont mesurées en dollars américains constants pour faciliter le
+  calcul des taux de croissance des pays et l’agrégation des données des pays.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
+  partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 8.1 : Maintenir un taux de croissance économique par
+  habitant adapté au contexte national et, en particulier, un taux de croissance annuelle
+  du produit intérieur brut d’au moins 7 pour cent dans les pays les moins avancés.</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.1.1 : Taux de croissance annuelle du PIB réel
+  par habitant</p>'
 
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Table 36-10-0402-01  Gross domestic product

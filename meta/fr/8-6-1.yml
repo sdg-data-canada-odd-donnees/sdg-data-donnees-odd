@@ -1,13 +1,20 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
-STAT_CONC_DEF: '   '
+SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
+  et durable, le plein emploi productif et un travail décent pour tous.</p>'
+SDG_TARGET: '<p>Cible 8.6 : D’ici à 2020, réduire nettement la proportion de jeunes
+  non scolarisés et sans emploi ni formation</p>'
+SDG_INDICATOR: '<p>Indicateur 8.6.1 : Proportion de jeunes (âgés de 15 à 24 ans) non scolarisés
+  et sans emploi ni formation</p>'
+STAT_CONC_DEF: <p>Cet indicateur exprime la proportion de jeunes (âgés de 15 à 24
+  ans) qui ne sont pas dans l'enseignement, l'emploi ou la formation (également connu
+  sous le nom de &quot;taux de jeunes NEET&quot;).</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
+  partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 8.6 : D’ici à 2020, réduire nettement la proportion
+  de jeunes non scolarisés et sans emploi ni formation</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.6.1 : Proportion de jeunes (âgés de 15 à 24 ans)
+  non scolarisés et sans emploi ni formation</p>'
 
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Table  37-10-0196-01  Percentage of 15-to 29-year-olds

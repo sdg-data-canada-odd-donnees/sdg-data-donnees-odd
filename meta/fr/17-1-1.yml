@@ -1,13 +1,40 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
-STAT_CONC_DEF: '   '
+SDG_GOAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+  mondial pour le développement durable et le revitaliser</p>'
+SDG_TARGET: '<p>Cible 17.1: Améliorer, notamment grâce à l’aide internationale aux
+  pays en développement, la mobilisation de ressources nationales en vue de renforcer
+  les capacités nationales de collecte de l’impôt et d’autres recettes</p>'
+SDG_INDICATOR: '<p>Indicateur 17.1.1: Total des recettes publiques en proportion du
+  PIB, par source</p>'
+STAT_CONC_DEF: '<p>Les recettes sont définies dans le chapitre 4 (paragraphe 4.23)
+  du <em>Manuel de statistiques de finances publiques 2014 (MSFP 2014)</em> comme
+  étant une augmentation de la valeur nette résultant d''une transaction. Cet indicateur
+  évalue la durabilité des recettes fiscales. Les administrations publiques ont quatre
+  types de recettes dont les principales sources sont les recettes fiscales (code
+  SFP 11), les cotisations sociales (code SFP 12), les dons (code SFP 13) et les autres
+  recettes (code SFP 14). Parmi celles-ci, les prélèvements et les transferts constituent
+  les principales sources de recettes et ce pour la plupart des administrations publiques.
+  Les recettes fiscales sont des montants obligatoires sans contrepartie que les unités
+  d’administration publique reçoivent des unités institutionnelles. Les cotisations
+  sociales comprennent les recettes effectives ou imputées à recevoir par les régimes
+  d’assurance sociale pour pouvoir assurer le paiement des prestations d’assurance
+  sociale dues. Les dons sont des transferts que les unités d’administration publique
+  reçoivent d’autres unités d’administration publique, résidentes ou non résidentes,
+  ou d’organisations internationales et qui ne satisfont pas à la définition d’un
+  impôt, d’une subvention ou d’une cotisation sociale. Les autres recettes désignent
+  toutes les recettes à l’exception des impôts, des cotisations sociales et des dons.
+  Elles incluent notamment : i) les revenus de propriété ; ii) les ventes de biens
+  et services ; iii) les amendes, pénalités et confiscations ; iv) les transferts
+  non classés ailleurs ; et v) les primes, droits et indemnités liées aux régimes
+  d’assurance dommages et de garanties standards.</p> '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+  mondial pour le développement durable et le revitaliser</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 17.1: Améliorer, notamment grâce à l’aide internationale
+  aux pays en développement, la mobilisation de ressources nationales en vue de renforcer
+  les capacités nationales de collecte de l’impôt et d’autres recettes</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.1.1: Total des recettes publiques en proportion
+  du PIB, par source</p>'
 
 national_indicator_available: Total government revenue as a proportion of GDP, by
   source

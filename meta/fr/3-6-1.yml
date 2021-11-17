@@ -1,13 +1,18 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
-STAT_CONC_DEF: '   '
+SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
+  le bien-être de tous à tout âge.</p>'
+SDG_TARGET: '<p>Cible 3.6: D’ici à 2020, diminuer de moitié à l’échelle mondiale le
+  nombre de décès et de blessures dus à des accidents de la route</p>'
+SDG_INDICATOR: '<p>Indicateur 3.6.1: Taux de mortalité lié aux accidents de la route</p>'
+STAT_CONC_DEF: <p> Taux de mortalité attribuable aux accidents de la route, défini
+  comme le nombre de décès par accident de la route pour 100 000 habitants. </p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
+  le bien-être de tous à tout âge.</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 3.6: D’ici à 2020, diminuer de moitié à l’échelle mondiale
+  le nombre de décès et de blessures dus à des accidents de la route</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.6.1: Taux de mortalité lié aux accidents de
+  la route</p>'
 
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Table 13-10-0392-01  Deaths and age-specific

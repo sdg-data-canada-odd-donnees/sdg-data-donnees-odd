@@ -1,13 +1,31 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
-STAT_CONC_DEF: '   '
+SDG_GOAL: '<p>Objectif 14 : Conserver et exploiter de manière durable les océans,
+  les mers et les ressources marines aux fins du développement durable</p>'
+SDG_TARGET: '<p>Cible 14.4: D’ici à 2020, réglementer efficacement la pêche, mettre
+  un terme à la surpêche, à la pêche illicite, non déclarée et non réglementée et
+  aux pratiques de pêche destructrices et exécuter des plans de gestion fondés sur
+  des données scientifiques, l’objectif étant de rétablir les stocks de poissons le
+  plus rapidement possible, au moins à des niveaux permettant d’obtenir un rendement
+  constant maximal compte tenu des caractéristiques biologiques</p>'
+SDG_INDICATOR: '<p>Indicateur 14.4.1: Proportion de stocks de poissons dont le niveau
+  est biologiquement viable</p>'
+STAT_CONC_DEF: <p>L'indicateur Proportion de stocks de poissons marins se situant
+  dans des niveaux biologiquement viables mesure la viabilité des pêcheries de capture
+  marines du monde par leur abondance. Un stock de poissons dont l'abondance est égale
+  ou supérieure au niveau qui peut produire le rendement maximal durable (RMD) est
+  considéré comme biologiquement durable. En revanche, lorsque l'abondance tombe en
+  dessous du niveau du RMD, le stock est considéré comme biologiquement non durable.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 14 : Conserver et exploiter de manière durable les
+  océans, les mers et les ressources marines aux fins du développement durable</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 14.4: D’ici à 2020, réglementer efficacement la pêche,
+  mettre un terme à la surpêche, à la pêche illicite, non déclarée et non réglementée
+  et aux pratiques de pêche destructrices et exécuter des plans de gestion fondés
+  sur des données scientifiques, l’objectif étant de rétablir les stocks de poissons
+  le plus rapidement possible, au moins à des niveaux permettant d’obtenir un rendement
+  constant maximal compte tenu des caractéristiques biologiques</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 14.4.1: Proportion de stocks de poissons dont
+  le niveau est biologiquement viable</p>'
 
 reporting_status: notstarted
 

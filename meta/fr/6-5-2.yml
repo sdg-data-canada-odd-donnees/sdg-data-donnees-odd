@@ -1,13 +1,29 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
-STAT_CONC_DEF: '   '
+SDG_GOAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
+  en eau et d''assainissement gérés de façon durable</p>'
+SDG_TARGET: '<p> Cible 6.5: D’ici à 2030, assurer la gestion intégrée des ressources
+  en eau à tous les niveaux, y compris au moyen de la coopération transfrontière selon
+  qu’il convient</p>'
+SDG_INDICATOR: '<p>Indicateur 6.5.2: Proportion de bassins hydriques transfrontaliers
+  où est en place un dispositif de coopération opérationnel</p>'
+STAT_CONC_DEF: <p>La proportion de la zone de bassin transfrontalier avec un arrangement
+  opérationnel pour la coopération sur l'eau est définie comme la proportion de la
+  zone de bassin transfrontalier dans un pays avec un arrangement opérationnel pour
+  la coopération sur l'eau. Elle est obtenue en additionnant la superficie, dans un
+  pays, des bassins versants et des aquifères transfrontaliers (c'est-à-dire &#x2018;
+  bassins transfrontaliers &#x2019;) qui sont couverts par un accord opérationnel
+  et en divisant la superficie obtenue par la superficie totale globale, dans un pays,
+  de tous les bassins transfrontaliers (à la fois les bassins versants et les aquifères).
+  Le résultat est multiplié par 100 pour obtenir une part exprimée en pourcentage.
+  </p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
+  en eau et d''assainissement gérés de façon durable</p>'
+SDG_TARGET__GLOBAL: '<p> Cible 6.5: D’ici à 2030, assurer la gestion intégrée des
+  ressources en eau à tous les niveaux, y compris au moyen de la coopération transfrontière
+  selon qu’il convient</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.5.2: Proportion de bassins hydriques transfrontaliers
+  où est en place un dispositif de coopération opérationnel</p>'
 
 reporting_status: notstarted
 

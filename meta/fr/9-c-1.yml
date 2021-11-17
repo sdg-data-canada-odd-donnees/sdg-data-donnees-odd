@@ -1,13 +1,24 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
-STAT_CONC_DEF: '   '
+SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
+  durable qui profite à tous et encourager l''innovation.</p>'
+SDG_TARGET: '<p>Cible 9.c : Accroître nettement l’accès aux technologies de l’information
+  et des communications et faire en sorte que tous les habitants des pays les moins
+  avancés aient accès à Internet à un coût abordable d’ici à 2020</p>'
+SDG_INDICATOR: '<p>Indicateur 9.c.1 : Proportion de la population ayant accès à un
+  réseau mobile, par type de technologie</p>'
+STAT_CONC_DEF: <h2>La proportion de la population couverte par un réseau mobile, ventilée
+  par technologie, désigne le pourcentage d'habitants vivant à portée d'un signal
+  de téléphonie mobile, qu'ils soient ou non abonnés ou utilisateurs de téléphones
+  mobiles. Ce pourcentage est calculé en divisant le nombre d'habitants à portée d'un
+  signal mobile-cellulaire par la population totale et en multipliant par 100.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
+  une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 9.c : Accroître nettement l’accès aux technologies de
+  l’information et des communications et faire en sorte que tous les habitants des
+  pays les moins avancés aient accès à Internet à un coût abordable d’ici à 2020</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.c.1 : Proportion de la population ayant accès
+  à un réseau mobile, par type de technologie</p>'
 
 reporting_status: notstarted
 
