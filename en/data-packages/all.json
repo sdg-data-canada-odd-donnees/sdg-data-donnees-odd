@@ -155,6 +155,83 @@
       "title": "Maternal mortality ratio"
     },
     {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "Atlantic provinces",
+                "British Columbia",
+                "Calgary, Alberta",
+                "Canada",
+                "Edmonton, Alberta",
+                "Manitoba",
+                "Quebec, Montréal",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Ontario/Quebec, Ottawa-Gatineau",
+                "Prairie provinces",
+                "Prince Edward Island",
+                "Quebec",
+                "Quebec, Québec",
+                "Saskatchewan",
+                "Toronto, Ontario",
+                "Vancouver, British Columbia",
+                "Winnipeg, Manitoba"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Persons in low income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All persons",
+                "Females",
+                "Females, 18 to 64 years",
+                "Females, 65 years and over",
+                "Females, under 18 years",
+                "Males",
+                "Males, 18 to 64 years",
+                "Males, 65 years and over",
+                "Males, under 18 years",
+                "Persons 18 to 64 years",
+                "Persons 65 years and over",
+                "Persons under 18 years"
+              ]
+            },
+            "title": "Persons in low income"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of population living below the national poverty line, by sex and age"
+    },
+    {
       "path": "4-1-1/data.csv",
       "name": "4-1-1",
       "profile": "tabular-data-resource",
@@ -5409,30 +5486,6 @@
         ]
       },
       "title": "The agriculture orientation index for government expenditures"
-    },
-    {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of population living below the national poverty line, by sex and age"
     },
     {
       "path": "3-a-1/data.csv",

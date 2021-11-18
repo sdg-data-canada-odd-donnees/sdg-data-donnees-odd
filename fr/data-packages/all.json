@@ -155,6 +155,83 @@
       "title": "Taux de mortalité maternelle"
     },
     {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "Provinces de l'Atlantique",
+                "Colombie-Britannique",
+                "Calgary, Alberta",
+                "Canada",
+                "Edmonton, Alberta",
+                "Manitoba",
+                "Montréal, Québec",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Nouvelle-Écosse",
+                "Ontario",
+                "Ottawa-Gatineau, Ontario/Québec",
+                "Provinces des Prairies",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Québec, Québec",
+                "Saskatchewan",
+                "Toronto, Ontario",
+                "Vancouver, Colombie-Britannique",
+                "Winnipeg, Manitoba",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Persons in low income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les personnes",
+                "Femmes",
+                "Femmes, 18 à 64 ans",
+                "Femmes, 65 ans et plus",
+                "Femmes, moins de 18 ans",
+                "Hommes",
+                "Hommes, 18 à 64 ans",
+                "Hommes, 65 ans et plus",
+                "Hommes, moins de 18 ans",
+                "Personnes de 18 à 64 ans",
+                "Personnes de 65 ans et plus",
+                "Personnes de moins de 18 ans",
+                ""
+              ]
+            },
+            "title": "Personnes à faible revenu"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de la population vivant au-dessous du seuil national de pauvreté, par sexe et âge"
+    },
+    {
       "path": "4-1-1/data.csv",
       "name": "4-1-1",
       "profile": "tabular-data-resource",
@@ -5409,30 +5486,6 @@
         ]
       },
       "title": "Indice d’orientation agricole des dépenses publiques"
-    },
-    {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de la population vivant au-dessous du seuil national de pauvreté, par sexe et âge"
     },
     {
       "path": "3-a-1/data.csv",

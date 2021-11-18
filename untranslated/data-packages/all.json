@@ -144,6 +144,79 @@
       "title": "global_indicators.3-1-1-title"
     },
     {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "Atlantic provinces",
+                "British Columbia",
+                "Calgary, Alberta",
+                "Canada",
+                "Edmonton, Alberta",
+                "Manitoba",
+                "Montréal, Quebec",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Ottawa-Gatineau, Ontario/Quebec",
+                "Prairie provinces",
+                "Prince Edward Island",
+                "Quebec",
+                "Québec, Quebec",
+                "Saskatchewan",
+                "Toronto, Ontario",
+                "Vancouver, British Columbia",
+                "Winnipeg, Manitoba",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Persons in low income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All persons",
+                "Females",
+                "Females, 18 to 64 years",
+                "Females, 65 years and over",
+                "Females, under 18 years",
+                "Males",
+                "Males, 18 to 64 years",
+                "Males, 65 years and over",
+                "Males, under 18 years",
+                "Persons 18 to 64 years",
+                "Persons 65 years and over",
+                "Persons under 18 years",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-2-1-title"
+    },
+    {
       "path": "4-1-1/data.csv",
       "name": "4-1-1",
       "profile": "tabular-data-resource",
@@ -4960,28 +5033,6 @@
         ]
       },
       "title": "global_indicators.2-a-1-title"
-    },
-    {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-2-1-title"
     },
     {
       "path": "3-a-1/data.csv",
