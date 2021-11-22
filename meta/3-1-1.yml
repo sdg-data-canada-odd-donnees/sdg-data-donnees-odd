@@ -6,7 +6,7 @@ STAT_CONC_DEF: <p>The maternal mortality ratio (MMR) is defined as the number of
   deaths during a given time period per 100,000 live births during the same time period.
   It depicts the risk of maternal death relative to the number of live births and
   essentially captures the risk of death in a single pregnancy or a single live birth.</p>
-DATA_COMP: '   '
+DATA_COMP: 'Maternal mortality ratio = (Number of maternal deaths / Number of live births) X 100,000'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
