@@ -12,8 +12,66 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hommes",
+                "Femmes",
+                "Les deux sexes",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Age at time of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total infant deaths under 1 year",
+                "Neonatal 0 to 27 days",
+                "Neonatal under 1 day",
+                "Neonatal 1 day",
+                "Neonatal 2 days",
+                "Neonatal 3 days",
+                "Neonatal 4 days",
+                "Neonatal 5 days",
+                "Neonatal 6 days",
+                "Neonatal 7 to 13 days",
+                "Neonatal 14 to 20 days",
+                "Neonatal 21 to 27 days",
+                "Post-neonatal 1 to 11 months",
+                "Post-neonatal 1 month",
+                "Post-neonatal 2 months",
+                "Post-neonatal 3 months",
+                "Post-neonatal 4 months",
+                "Post-neonatal 5 months",
+                "Post-neonatal 6 months",
+                "Post-neonatal 7 months",
+                "Post-neonatal 8 months",
+                "Post-neonatal 9 months",
+                "Post-neonatal 10 months",
+                "Post-neonatal 11 months",
+                ""
+              ]
+            },
+            "title": "Âge au décès"
           },
           {
             "name": "Value",

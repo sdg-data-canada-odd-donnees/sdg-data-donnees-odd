@@ -94,8 +94,112 @@
       "title": "Proportion of total government spending on essential services (education, health and social protection)"
     },
     {
-      "path": "3-1-1/data.csv",
-      "name": "3-1-1",
+      "path": "3-4-2/data.csv",
+      "name": "3-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                "Unknown province or territory of residence",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Males",
+                "Females",
+                "Both sexes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-4-2-title"
+    },
+    {
+      "path": "3-2-1/data.csv",
+      "name": "3-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                "Unknown province or territory of residence",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-2-1-title"
+    },
+    {
+      "path": "3-2-2/data.csv",
+      "name": "3-2-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -118,26 +222,75 @@
             }
           },
           {
-            "name": "Cause of death",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, all causes of death",
-                "Chapter XV: Pregnancy, childbirth and the puerperium [O00-O99]",
-                "Pregnancy with abortive outcome [O00-O08]",
-                "Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium [O10-O16]",
-                "Other maternal disorders predominantly related to pregnancy [O20-O29]",
-                "Maternal care related to fetus and amniotic cavity and possible delivery problems [O30-O48]",
-                "Complications of labour and delivery [O60-O75]",
-                "Complications predominantly related to the puerperium [O85-O92]",
-                "Other obstetric conditions, not elsewhere classified [O95-O99]",
+                "Males",
+                "Females",
+                "Both sexes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age at time of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total infant deaths under 1 year",
+                "Neonatal 0 to 27 days",
+                "Neonatal under 1 day",
+                "Neonatal 1 day",
+                "Neonatal 2 days",
+                "Neonatal 3 days",
+                "Neonatal 4 days",
+                "Neonatal 5 days",
+                "Neonatal 6 days",
+                "Neonatal 7 to 13 days",
+                "Neonatal 14 to 20 days",
+                "Neonatal 21 to 27 days",
+                "Post-neonatal 1 to 11 months",
+                "Post-neonatal 1 month",
+                "Post-neonatal 2 months",
+                "Post-neonatal 3 months",
+                "Post-neonatal 4 months",
+                "Post-neonatal 5 months",
+                "Post-neonatal 6 months",
+                "Post-neonatal 7 months",
+                "Post-neonatal 8 months",
+                "Post-neonatal 9 months",
+                "Post-neonatal 10 months",
+                "Post-neonatal 11 months",
                 ""
               ]
             }
           },
           {
             "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-2-2-title"
+    },
+    {
+      "path": "3-1-1/data.csv",
+      "name": "3-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "number"
           }
         ]
       },
@@ -2835,28 +2988,6 @@
       "title": "global_indicators.17-3-1-title"
     },
     {
-      "path": "3-2-2/data.csv",
-      "name": "3-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-2-2-title"
-    },
-    {
       "path": "14-1-1/data.csv",
       "name": "14-1-1",
       "profile": "tabular-data-resource",
@@ -3231,28 +3362,6 @@
       "title": "global_indicators.4-4-1-title"
     },
     {
-      "path": "3-4-2/data.csv",
-      "name": "3-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-4-2-title"
-    },
-    {
       "path": "9-c-1/data.csv",
       "name": "9-c-1",
       "profile": "tabular-data-resource",
@@ -3405,28 +3514,6 @@
         ]
       },
       "title": "global_indicators.1-b-1-title"
-    },
-    {
-      "path": "3-2-1/data.csv",
-      "name": "3-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-2-1-title"
     },
     {
       "path": "15-c-1/data.csv",

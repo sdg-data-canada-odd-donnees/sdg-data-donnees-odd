@@ -11,13 +11,71 @@
       "schema": {
         "fields": [
           {
+            "name": "Age at time of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Neonatal 0 to 27 days",
+                "Neonatal 1 day",
+                "Neonatal 14 to 20 days",
+                "Neonatal 2 days",
+                "Neonatal 21 to 27 days",
+                "Neonatal 3 days",
+                "Neonatal 4 days",
+                "Neonatal 5 days",
+                "Neonatal 6 days",
+                "Neonatal 7 to 13 days",
+                "Neonatal under 1 day",
+                "Post-neonatal 1 month",
+                "Post-neonatal 1 to 11 months",
+                "Post-neonatal 10 months",
+                "Post-neonatal 11 months",
+                "Post-neonatal 2 months",
+                "Post-neonatal 3 months",
+                "Post-neonatal 4 months",
+                "Post-neonatal 5 months",
+                "Post-neonatal 6 months",
+                "Post-neonatal 7 months",
+                "Post-neonatal 8 months",
+                "Post-neonatal 9 months",
+                "Total infant deaths under 1 year"
+              ]
+            },
+            "title": "Age at time of death"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Canada"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Both sexes",
+                "Females",
+                "Males"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]
