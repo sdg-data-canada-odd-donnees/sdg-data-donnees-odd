@@ -15,29 +15,7 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Males",
-                "Females",
-                "Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Age at time of death",
+            "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [
@@ -65,6 +43,18 @@
                 "Post-neonatal 9 months",
                 "Post-neonatal 10 months",
                 "Post-neonatal 11 months",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Both sexes",
+                "Males",
+                "Females",
                 ""
               ]
             }

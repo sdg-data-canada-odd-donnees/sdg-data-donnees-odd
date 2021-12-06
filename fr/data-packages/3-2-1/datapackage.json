@@ -20,7 +20,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -34,7 +33,6 @@
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
-                "Unknown province or territory of residence",
                 ""
               ]
             },

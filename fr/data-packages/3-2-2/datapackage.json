@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "cp1252",
       "schema": {
         "fields": [
           {
@@ -16,31 +16,7 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
-                ""
-              ]
-            },
-            "title": "Sexe"
-          },
-          {
-            "name": "Age at time of death",
+            "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [
@@ -71,7 +47,20 @@
                 ""
               ]
             },
-            "title": "Âge au décès"
+            "title": "Âge"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Les deux sexes",
+                "Hommes",
+                "Femmes",
+                ""
+              ]
+            },
+            "title": "Sexe"
           },
           {
             "name": "Value",
