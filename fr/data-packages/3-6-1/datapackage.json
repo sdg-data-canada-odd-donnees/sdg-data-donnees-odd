@@ -12,8 +12,77 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All ages",
+                "Under 1 year",
+                "1 to 4 years",
+                "5 to 9 years",
+                "10 to 14 years",
+                "15 à 19 ans",
+                "20 à 24 ans",
+                "25 à 29 ans",
+                "30 à 34 ans",
+                "35 à 39 ans",
+                "40 à 44 ans",
+                "45 à 49 ans",
+                "50 à 54 ans",
+                "55 à 59 ans",
+                "60 à 64 ans",
+                "65 à 69 ans",
+                "70 to 74 years",
+                "75 to 79 years",
+                "80 to 84 years",
+                "85 to 89 years",
+                "90 years and over",
+                "Not stated",
+                ""
+              ]
+            },
+            "title": "Âge"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Les deux sexes",
+                "Hommes",
+                "Femmes",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Cause of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Transport accidents",
+                "Motor vehicle accidents",
+                "Other land transport accidents",
+                ""
+              ]
+            },
+            "title": "Cause of death"
           },
           {
             "name": "Value",
