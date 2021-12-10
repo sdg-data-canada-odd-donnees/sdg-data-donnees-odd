@@ -46,11 +46,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "All ages",
-                "Under 1 year",
-                "1 to 4 years",
-                "5 to 9 years",
-                "10 to 14 years",
+                "Tous les âges",
+                "Moins d'un an",
+                "1 à 4 ans",
+                "5 à 9 ans",
+                "10 à 14 ans",
                 "15 à 19 ans",
                 "20 à 24 ans",
                 "25 à 29 ans",
@@ -62,12 +62,12 @@
                 "55 à 59 ans",
                 "60 à 64 ans",
                 "65 à 69 ans",
-                "70 to 74 years",
-                "75 to 79 years",
-                "80 to 84 years",
-                "85 to 89 years",
-                "90 years and over",
-                "Not stated",
+                "70 à 74 ans",
+                "75 à 79 ans",
+                "80 à 84 ans",
+                "85 à 89 ans",
+                "90 ans et plus",
+                "Non déclaré",
                 ""
               ]
             },
@@ -91,9 +91,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Transport accidents",
-                "Motor vehicle accidents",
-                "Other land transport accidents",
+                "Accidents de transport",
+                "Accidents de véhicule à moteur",
+                "Autres accidents de transport terrestre",
                 ""
               ]
             },
