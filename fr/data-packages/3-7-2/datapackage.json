@@ -40,17 +40,6 @@
             "title": "Géographie"
           },
           {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Females 15 to 19 years",
-                ""
-              ]
-            },
-            "title": "Âge"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

@@ -56,17 +56,6 @@
             "title": "Cause of death"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Canada"
-              ]
-            },
-            "title": "Geography"
-          },
-          {
             "name": "Sex",
             "type": "string",
             "constraints": {

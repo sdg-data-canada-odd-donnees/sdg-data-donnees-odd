@@ -38,16 +38,6 @@
             }
           },
           {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Females 15 to 19 years",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "number"
           }

@@ -82,17 +82,6 @@
             "title": "Cause of death"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Canada"
-              ]
-            },
-            "title": "Geography"
-          },
-          {
             "name": "Sex",
             "type": "string",
             "constraints": {
@@ -356,7 +345,6 @@
                 "Prince Edward Island",
                 "Quebec",
                 "Saskatchewan",
-                "Unknown province or territory of residence",
                 "Yukon"
               ]
             },
@@ -470,17 +458,6 @@
       "encoding": "utf-8",
       "schema": {
         "fields": [
-          {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Females 15 to 19 years"
-              ]
-            },
-            "title": "Age"
-          },
           {
             "name": "Geography",
             "type": "string",

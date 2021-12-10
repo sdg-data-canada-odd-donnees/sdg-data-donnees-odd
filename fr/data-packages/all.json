@@ -42,17 +42,6 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
             "name": "Age",
             "type": "string",
             "constraints": {
@@ -361,7 +350,6 @@
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
-                "Unknown province or territory of residence",
                 ""
               ]
             },
@@ -498,17 +486,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Females 15 to 19 years",
-                ""
-              ]
-            },
-            "title": "Âge"
           },
           {
             "name": "Value",
