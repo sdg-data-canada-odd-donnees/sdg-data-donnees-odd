@@ -36,7 +36,7 @@
           }
         ]
       },
-      "title": "Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)"
+      "title": "Proportion de la population vivant au-dessous du seuil de pauvreté fixé au niveau international, par sexe, âge, situation dans l’emploi et lieu de résidence (zone urbaine/zone rurale)"
     },
     {
       "path": "3-2-1/data.csv",
@@ -84,6 +84,30 @@
         ]
       },
       "title": "Taux de mortalité des enfants de moins de 5 ans"
+    },
+    {
+      "path": "14-5-1/data.csv",
+      "name": "14-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Surface des aires marines protégées, en proportion de la surface totale"
     },
     {
       "path": "3-2-2/data.csv",
@@ -3485,30 +3509,6 @@
         ]
       },
       "title": "Ampleur du recours par les prestataires de la coopération pour le développement à des cadres de résultats et à des outils de planification propres aux pays"
-    },
-    {
-      "path": "14-5-1/data.csv",
-      "name": "14-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Surface des aires marines protégées, en proportion de la surface totale"
     },
     {
       "path": "17-18-2/data.csv",
