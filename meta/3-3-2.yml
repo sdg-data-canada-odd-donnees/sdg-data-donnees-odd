@@ -9,7 +9,7 @@ STAT_CONC_DEF: <p>The tuberculosis incidence per 100 000 population is defined a
   the estimated number of new and relapse TB cases (all forms of TB, including cases
   in people living with HIV) arising in a given year, expressed as a rate per 100
   000 population. </p>
-DATA_COMP: '   '
+DATA_COMP: 'Rate per 100,000 population'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
@@ -23,3 +23,11 @@ un_custodian_agency: World Health Organisation (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 216
   KB)
+source_active_1: true
+source_url_text_1: 'Notifiable diseases on-line'
+source_url_1: 'https://dsol-smed.phac-aspc.gc.ca/notifiable/charts?c=pl'
+source_organisation_1: "Public Health Agency of Canada"
+source_periodicity_1: Annual
+source_geographical_coverage_1: 'Canada'
+reporting_status: complete
+COVERAGE: Canada

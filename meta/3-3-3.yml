@@ -6,7 +6,7 @@ SDG_TARGET: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, ma
 SDG_INDICATOR: '<p>Indicator 3.3.3: Malaria incidence per 1,000 population </p>'
 STAT_CONC_DEF: <p>Incidence of malaria is defined as the number of new cases of malaria
   per 1,000 people at risk each year. </p>
-DATA_COMP: '   '
+DATA_COMP: 'Rate per 100,000 population'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
@@ -20,3 +20,11 @@ un_custodian_agency: World Health Organisation (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-03.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 431
   KB)
+source_active_1: true
+source_url_text_1: 'Notifiable diseases on-line'
+source_url_1: 'https://dsol-smed.phac-aspc.gc.ca/notifiable/charts?c=pl'
+source_organisation_1: "Public Health Agency of Canada"
+source_periodicity_1: Annual
+source_geographical_coverage_1: 'Canada'
+reporting_status: complete
+COVERAGE: Canada

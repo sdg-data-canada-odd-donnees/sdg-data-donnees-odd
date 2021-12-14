@@ -8,8 +8,8 @@ STAT_CONC_DEF: <p>This indicator is measured indirectly through the proportion o
   children 5 years of age who have developed chronic HBV infection (i.e. the proportion
   that tests positive for a marker of infection called hepatitis B surface antigen
   [HBsAg]).</p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+DATA_COMP: 'Rate per 100,000 population'
+REC_USE_LIM: '<li> Hepatitis B reporting does not differentiate between acute and chronic cases.'
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis,
@@ -22,3 +22,11 @@ un_custodian_agency: World Health Organisation (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-04.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 866
   KB)
+source_active_1: true
+source_url_text_1: 'Notifiable diseases on-line'
+source_url_1: 'https://dsol-smed.phac-aspc.gc.ca/notifiable/charts?c=pl'
+source_organisation_1: "Public Health Agency of Canada"
+source_periodicity_1: Annual
+source_geographical_coverage_1: 'Canada'
+reporting_status: complete
+COVERAGE: Canada
