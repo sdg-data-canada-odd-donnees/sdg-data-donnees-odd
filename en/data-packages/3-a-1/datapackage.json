@@ -11,13 +11,64 @@
       "schema": {
         "fields": [
           {
+            "name": "Age Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15-19",
+                "20-24",
+                "25+",
+                "25-44",
+                "45+",
+                "All age groups"
+              ]
+            },
+            "title": "Age Group"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Both sexes",
+                "Female",
+                "Male",
+                "Men",
+                "Women"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Tobacco Product",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Any tobacco product",
+                "Chewing tobacco",
+                "Cigarettes",
+                "Cigars",
+                "E-cigarettes",
+                "Little cigars or cigarillos",
+                "Pipe",
+                "Smokeless tobacco",
+                "Vaping",
+                "Water pipe w tobacco"
+              ]
+            },
+            "title": "Tobacco Product"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

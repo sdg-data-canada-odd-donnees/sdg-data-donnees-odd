@@ -39,6 +39,81 @@
       "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
     },
     {
+      "path": "3-a-1/data.csv",
+      "name": "3-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Age Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15-19",
+                "20-24",
+                "25+",
+                "25-44",
+                "45+",
+                "All age groups"
+              ]
+            },
+            "title": "Age Group"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Both sexes",
+                "Female",
+                "Male",
+                "Men",
+                "Women"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Tobacco Product",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Any tobacco product",
+                "Chewing tobacco",
+                "Cigarettes",
+                "Cigars",
+                "E-cigarettes",
+                "Little cigars or cigarillos",
+                "Pipe",
+                "Smokeless tobacco",
+                "Vaping",
+                "Water pipe w tobacco"
+              ]
+            },
+            "title": "Tobacco Product"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older"
+    },
+    {
       "path": "3-2-1/data.csv",
       "name": "3-2-1",
       "profile": "tabular-data-resource",
@@ -251,7 +326,7 @@
           }
         ]
       },
-      "title": "<p> 3.3.5 Number of people requiring interventions against neglected tropical diseases <br>     3.3.5.a Leprosy"
+      "title": "Number of people requiring interventions against neglected tropical diseases"
     },
     {
       "path": "1-2-1/data.csv",
@@ -5960,30 +6035,6 @@
         ]
       },
       "title": "Proportion of the population who are refugees, by country of origin"
-    },
-    {
-      "path": "3-a-1/data.csv",
-      "name": "3-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older"
     },
     {
       "path": "3-8-1/data.csv",
