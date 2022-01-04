@@ -8,7 +8,7 @@ STAT_CONC_DEF: '<p><strong>Density of medical doctors: </strong>The density of m
   doctors is defined as the number of medical doctors, including generalists and specialist
   medical practitioners per 10,000 population in the given national and/or subnational
   area.'
-DATA_COMP: '   '
+DATA_COMP: 'Calculated by dividing the number of health care professionals working in direct care in each health region or province/territory by population estimates and multiplying by 100,000<br><br>(Number of health care professionals employed in the profession and working in direct care by health region or province/territory ÷ Population estimate) × 100,000'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
@@ -22,3 +22,14 @@ un_custodian_agency: World Health Organisation (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0C-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 207
   KB)
+
+COVERAGE: Canada, Province or territory
+
+source_active_1: 'true'
+source_url_text_1: Health Workforce Database
+source_url_1: https://www.cihi.ca/en/health-workforce-database-metadata
+source_organisation_1: Canadian Institute for Health Information (CIHI)
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada, Province or territory
+
+reporting_status: complete 

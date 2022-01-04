@@ -11,12 +11,9 @@ SDG_TARGET: '<p>Cible 3.b: Appuyer la recherche et le développement de vaccins 
   universel aux médicaments</p>'
 SDG_INDICATOR: '<p>Indicateur 3.b.1: Proportion de la population cible ayant reçu
   tous les vaccins prévus par le programme national</p>'
-STAT_CONC_DEF: '<p><strong><em> Couverture du vaccin contenant le DTC (3 <sup> rd
-  </sup> dose) </em></strong><em> : </em> Pourcentage de nourrissons survivants ayant
-  reçu les 3 doses de vaccin contenant l''anatoxine diphtérique et tétanique contre
-  la coqueluche au cours d''une année donnée. </p>'
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: '    '
+DATA_COMP: '    '
+REC_USE_LIM: 'Dans l'ENCVE de 2015, l'enquête rapportait la couverture vaccinale contre le VPH pour les filles âgées de 13 à 14 ans, puisque le vaccin était seulement financé pour les filles à ce moment-là. Dans l'ENCVE de 2017, les estimations pour le vaccin du VPH représentent la couverture vaccinale des personnes âgées de 14 ans de tous les genre.<br><br>Pneumocoque 3 doses* - Trois doses avant le 2e anniversaire pour toutes les provinces et territoires, sauf le Nunavut et les Territoires du Nord-Ouest où 4 doses sont requises avant le 2e anniversaire.<br><br>Les estimations pour le vaccin contre la varicelle ne sont pas présentées pour 2013 et 2015 en raison de problèmes de qualité des données.'
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.b: Appuyer la recherche et le développement de vaccins
@@ -30,6 +27,12 @@ SDG_TARGET__GLOBAL: '<p>Cible 3.b: Appuyer la recherche et le développement de 
   universel aux médicaments</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.b.1: Proportion de la population cible ayant
   reçu tous les vaccins prévus par le programme national</p>'
+source_active_1: 'true'
+source_url_text_1: Enquête nationale sur la couverture vaccinale des enfants (ENCVE)
+source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=5185
+source_organisation_1: Statistics Canada
+source_periodicity_1: Every 2 years
+source_geographical_coverage_1: Canada
 
-reporting_status: notstarted
+reporting_status: complete
 

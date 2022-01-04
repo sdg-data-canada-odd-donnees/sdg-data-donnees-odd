@@ -9,7 +9,7 @@ STAT_CONC_DEF: <p><strong><em>Densité de médecins :</em> </strong>La densité 
   est définie comme le nombre de médecins, y compris les généralistes et les médecins
   spécialistes, pour 10 000 habitants dans une zone nationale et/ou sous-nationale
   donnée.<br></p>
-DATA_COMP: '   '
+DATA_COMP: "On calcule l'indicateur en divisant le nombre de professionnels de la santé qui travaillent en soins directs dans chaque région sanitaire ou province et territoire par les estimations démographiques, puis en multipliant le résultat obtenu par 100 000.<br><br>(Nombre de professionnels de la santé qui travaillent en soins directs dans la profession selon la région sanitaire ou la province et le territoire ÷ Estimation démographique) × 100 000<br>"
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
@@ -20,5 +20,13 @@ SDG_TARGET__GLOBAL: '<p>Cible 3.c : Accroître considérablement le budget de la
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.c.1 : Densité et répartition du personnel
   de santé</p>'
 
-reporting_status: notstarted
+reporting_status: complete 
+COVERAGE: Canada, Province or territory
+
+source_active_1: 'true'
+source_url_text_1: Base de données sur la main-d’œuvre de la santé
+source_url_1: https://www.cihi.ca/fr/metadonnees-de-la-base-de-donnees-sur-la-main-doeuvre-de-la-sante
+source_organisation_1: Institut canadien d'information sur la santé (ICIS)
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada, Province or territory
 
