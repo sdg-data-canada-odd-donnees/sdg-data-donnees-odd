@@ -10,7 +10,7 @@ STAT_CONC_DEF: <p><strong><em>Densité de médecins :</em> </strong>La densité 
   spécialistes, pour 10 000 habitants dans une zone nationale et/ou sous-nationale
   donnée.<br></p>
 DATA_COMP: "On calcule l'indicateur en divisant le nombre de professionnels de la santé qui travaillent en soins directs dans chaque région sanitaire ou province et territoire par les estimations démographiques, puis en multipliant le résultat obtenu par 100 000.<br><br>(Nombre de professionnels de la santé qui travaillent en soins directs dans la profession selon la région sanitaire ou la province et le territoire ÷ Estimation démographique) × 100 000<br>"
-REC_USE_LIM: '   '
+REC_USE_LIM: "La comparaison des changements au fil du temps, tant à l’échelle provinciale ou territoriale que nationale, doit être effectuée avec prudence, puisque certaines données pourraient avoir été soumises selon une définition d’effectif différente ou avoir été recueillies dans différents contextes réglementaires, de sources différentes, ou à des moments différents au cours d’une année donnée."
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.c : Accroître considérablement le budget de la santé
