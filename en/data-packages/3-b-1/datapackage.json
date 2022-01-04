@@ -11,13 +11,34 @@
       "schema": {
         "fields": [
           {
+            "name": "Antigen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Diphtheria 4 doses",
+                "Hib 4 doses",
+                "Measles 1 dose",
+                "Meningococcal C 1 dose",
+                "Mumps 1 dose",
+                "Pertussis 4 doses",
+                "Pneumococcal 3 doses",
+                "Polio 3 doses",
+                "Rubella 1 dose",
+                "Tetanus 4 doses",
+                "Varicella 1 dose"
+              ]
+            },
+            "title": "Antigen"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

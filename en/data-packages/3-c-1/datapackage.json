@@ -11,13 +11,80 @@
       "schema": {
         "fields": [
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Type of provider",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Audiologists",
+                "Chiropractors",
+                "Dental assistants",
+                "Dental hygienists",
+                "Dentists",
+                "Dietitians",
+                "Environmental public health professionals",
+                "Family medicine",
+                "Genetic counsellors",
+                "Health information management professionals",
+                "Licensed practical nurses",
+                "Medical laboratory technologists",
+                "Medical physicists",
+                "Medical radiation technologists",
+                "Midwives",
+                "Nurse practitioners",
+                "Occupational therapists",
+                "Opticians",
+                "Optometrists",
+                "Paramedics",
+                "Pharmacists",
+                "Pharmacy technicians",
+                "Physician assistants",
+                "Physicians",
+                "Physiotherapists",
+                "Psychologists",
+                "Registered nurses",
+                "Registered psychiatric nurses",
+                "Regulated nurses",
+                "Respiratory therapists",
+                "Social workers",
+                "Specialists",
+                "Speech-language pathologists"
+              ]
+            },
+            "title": "Type of provider"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

@@ -72,9 +72,7 @@
                 "",
                 "Both sexes",
                 "Female",
-                "Male",
-                "Men",
-                "Women"
+                "Male"
               ]
             },
             "title": "Sex"
@@ -220,6 +218,97 @@
         ]
       },
       "title": "Tuberculosis incidence per 100,000 population"
+    },
+    {
+      "path": "3-c-1/data.csv",
+      "name": "3-c-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Type of provider",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Audiologists",
+                "Chiropractors",
+                "Dental assistants",
+                "Dental hygienists",
+                "Dentists",
+                "Dietitians",
+                "Environmental public health professionals",
+                "Family medicine",
+                "Genetic counsellors",
+                "Health information management professionals",
+                "Licensed practical nurses",
+                "Medical laboratory technologists",
+                "Medical physicists",
+                "Medical radiation technologists",
+                "Midwives",
+                "Nurse practitioners",
+                "Occupational therapists",
+                "Opticians",
+                "Optometrists",
+                "Paramedics",
+                "Pharmacists",
+                "Pharmacy technicians",
+                "Physician assistants",
+                "Physicians",
+                "Physiotherapists",
+                "Psychologists",
+                "Registered nurses",
+                "Registered psychiatric nurses",
+                "Regulated nurses",
+                "Respiratory therapists",
+                "Social workers",
+                "Specialists",
+                "Speech-language pathologists"
+              ]
+            },
+            "title": "Type of provider"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Health worker density and distribution"
     },
     {
       "path": "3-2-2/data.csv",
@@ -486,6 +575,51 @@
         ]
       },
       "title": "Death rate due to road traffic injuries"
+    },
+    {
+      "path": "3-b-1/data.csv",
+      "name": "3-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Antigen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Diphtheria 4 doses",
+                "Hib 4 doses",
+                "Measles 1 dose",
+                "Meningococcal C 1 dose",
+                "Mumps 1 dose",
+                "Pertussis 4 doses",
+                "Pneumococcal 3 doses",
+                "Polio 3 doses",
+                "Rubella 1 dose",
+                "Tetanus 4 doses",
+                "Varicella 1 dose"
+              ]
+            },
+            "title": "Antigen"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of the target population covered by all vaccines included in their national programme"
     },
     {
       "path": "3-5-2/data.csv",
@@ -2773,30 +2907,6 @@
       "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sex"
     },
     {
-      "path": "3-b-1/data.csv",
-      "name": "3-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of the target population covered by all vaccines included in their national programme"
-    },
-    {
       "path": "17-14-1/data.csv",
       "name": "17-14-1",
       "profile": "tabular-data-resource",
@@ -3515,30 +3625,6 @@
         ]
       },
       "title": "Number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people"
-    },
-    {
-      "path": "3-c-1/data.csv",
-      "name": "3-c-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Health worker density and distribution"
     },
     {
       "path": "13-a-1/data.csv",

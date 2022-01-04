@@ -12,7 +12,27 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Antigen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Diphtheria 4 doses",
+                "Pertussis 4 doses",
+                "Tetanus 4 doses",
+                "Polio 3 doses",
+                "Hib 4 doses",
+                "Measles 1 dose",
+                "Mumps 1 dose",
+                "Rubella 1 dose",
+                "Meningococcal C 1 dose",
+                "Pneumococcal 3 doses",
+                "Varicella 1 dose",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
