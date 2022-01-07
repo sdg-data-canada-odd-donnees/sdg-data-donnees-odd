@@ -10,10 +10,10 @@ data_show_map: false
 data_start_values: 
   - field: Geography
     value: Canada
+  - field: Government
+    value: National
   - field: National elected officials
     value: Members of Parliament
-  - field: National elected officials
-    value: Members of Cabinet
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -21,6 +21,7 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
   - Geography
+  - Government
   - National elected officials
 graph_annotations: []
 graph_limits: []

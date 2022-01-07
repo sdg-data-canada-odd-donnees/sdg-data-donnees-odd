@@ -1,9 +1,9 @@
 SDG_GOAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les
   femmes et les filles.</p>'
-SDG_TARGET: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement et effectivement
+SDG_TARGET: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement et effectivement
   aux fonctions de direction à tous les niveaux de décision, dans la vie politique,
-  économique et publique, et y accèdent sur un pied d’égalité.</p>'
-SDG_INDICATOR: '<p>Indicateur 5.5.2 : Proportion de femmes occupant des postes de direction.</p>'
+  économique et publique, et y accèdent sur un pied d’égalité.</p>'
+SDG_INDICATOR: '<p>Indicateur 5.5.2 : Proportion de femmes occupant des postes de direction.</p>'
 STAT_CONC_DEF: '<p> Cet indicateur fait référence à la proportion de femmes dans le
   nombre total de personnes employées à des postes de direction. Il est recommandé
   d’utiliser conjointement deux mesures différentes pour cet indicateur : la part
@@ -20,11 +20,20 @@ DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes
   les femmes et les filles.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement
-  et effectivement aux fonctions de direction à tous les niveaux de décision, dans
-  la vie politique, économique et publique, et y accèdent sur un pied d’égalité.</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement et effectivement
+  aux fonctions de direction à tous les niveaux de décision, dans la vie politique,
+  économique et publique, et y accèdent sur un pied d’égalité.</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.5.2 : Proportion de femmes occupant des postes
-  de direction.</p>'
+  de direction.</p>'
 
-reporting_status: notstarted
+reporting_status: complete
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Tableau 14-10-0335-01  Caractéristiques de la population active selon la profession, données annuelles
+source_url_1: https://doi.org/10.25318/1410033501-fra
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Province or territory
+COVERAGE: Canada, Province or territory
+
+UNIT_MEASURE: Percentage
 
