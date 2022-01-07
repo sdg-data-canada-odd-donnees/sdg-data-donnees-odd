@@ -188,7 +188,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
                 "Female",
                 "Male",
                 ""
@@ -342,9 +341,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
                 "Males",
                 "Females",
+                "Both sexes",
                 ""
               ]
             }
@@ -372,7 +371,7 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Disease",
             "type": "string",
             "constraints": {
               "enum": [
@@ -525,9 +524,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Transport accidents",
                 "Motor vehicle accidents",
                 "Other land transport accidents",
+                "Transport accidents",
                 ""
               ]
             }
@@ -646,7 +645,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
                 "Male",
                 "Female",
                 ""
@@ -707,6 +705,28 @@
       "title": "global_indicators.3-7-2-title"
     },
     {
+      "path": "3-d-1/data.csv",
+      "name": "3-d-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-d-1-title"
+    },
+    {
       "path": "3-3-4/data.csv",
       "name": "3-3-4",
       "profile": "tabular-data-resource",
@@ -725,7 +745,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
                 "Female",
                 "Male",
                 ""
@@ -739,6 +758,86 @@
         ]
       },
       "title": "global_indicators.3-3-4-title"
+    },
+    {
+      "path": "5-4-1/data.csv",
+      "name": "5-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Atlantic",
+                "Quebec",
+                "Ontario",
+                "Prairies",
+                "British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Activity group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unpaid work activities",
+                "Household chores",
+                "Care of household children under 18 years",
+                "Care of household adults",
+                "Shopping for goods or services",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 15 years and over",
+                "15 to 24 years",
+                "25 to 54 years",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 64 years",
+                "65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Both sexes",
+                "Male",
+                "Female",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-4-1-title"
     },
     {
       "path": "3-4-2/data.csv",
@@ -5432,28 +5531,6 @@
       "title": "global_indicators.16-b-1-title"
     },
     {
-      "path": "5-4-1/data.csv",
-      "name": "5-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-4-1-title"
-    },
-    {
       "path": "15-5-1/data.csv",
       "name": "15-5-1",
       "profile": "tabular-data-resource",
@@ -5716,28 +5793,6 @@
         ]
       },
       "title": "global_indicators.16-5-2-title"
-    },
-    {
-      "path": "3-d-1/data.csv",
-      "name": "3-d-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-d-1-title"
     },
     {
       "path": "14-3-1/data.csv",

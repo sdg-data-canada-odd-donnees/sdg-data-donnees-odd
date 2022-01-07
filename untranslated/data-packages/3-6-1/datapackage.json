@@ -62,9 +62,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Transport accidents",
                 "Motor vehicle accidents",
                 "Other land transport accidents",
+                "Transport accidents",
                 ""
               ]
             }

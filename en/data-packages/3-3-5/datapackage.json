@@ -11,7 +11,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Units",
+            "name": "Disease",
             "type": "string",
             "constraints": {
               "enum": [
@@ -20,7 +20,7 @@
                 "Rabies"
               ]
             },
-            "title": "Units"
+            "title": "Disease"
           },
           {
             "name": "Value",

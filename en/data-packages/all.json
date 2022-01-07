@@ -198,7 +198,6 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
                 "Female",
                 "Male"
               ]
@@ -392,7 +391,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Units",
+            "name": "Disease",
             "type": "string",
             "constraints": {
               "enum": [
@@ -401,7 +400,7 @@
                 "Rabies"
               ]
             },
-            "title": "Units"
+            "title": "Disease"
           },
           {
             "name": "Value",
@@ -685,7 +684,6 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
                 "Female",
                 "Male"
               ]
@@ -755,6 +753,30 @@
       "title": "Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group"
     },
     {
+      "path": "3-d-1/data.csv",
+      "name": "3-d-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "International Health Regulations (IHR) capacity and health emergency preparedness"
+    },
+    {
       "path": "3-3-4/data.csv",
       "name": "3-3-4",
       "profile": "tabular-data-resource",
@@ -764,6 +786,91 @@
       "encoding": "utf-8",
       "schema": {
         "fields": [
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Hepatitis B incidence per 100,000 population"
+    },
+    {
+      "path": "5-4-1/data.csv",
+      "name": "5-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Activity group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Care of household adults",
+                "Care of household children under 18 years",
+                "Household chores",
+                "Shopping for goods or services",
+                "Unpaid work activities"
+              ]
+            },
+            "title": "Activity group"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 to 24 years",
+                "25 to 34 years",
+                "25 to 54 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 64 years",
+                "65 years and over",
+                "Total, 15 years and over"
+              ]
+            },
+            "title": "Age group"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Atlantic",
+                "British Columbia",
+                "Canada",
+                "Ontario",
+                "Prairies",
+                "Quebec"
+              ]
+            },
+            "title": "Geography"
+          },
           {
             "name": "Sex",
             "type": "string",
@@ -789,7 +896,7 @@
           }
         ]
       },
-      "title": "Hepatitis B incidence per 100,000 population"
+      "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location"
     },
     {
       "path": "3-4-2/data.csv",
@@ -5907,30 +6014,6 @@
       "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law"
     },
     {
-      "path": "5-4-1/data.csv",
-      "name": "5-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location"
-    },
-    {
       "path": "15-5-1/data.csv",
       "name": "15-5-1",
       "profile": "tabular-data-resource",
@@ -6217,30 +6300,6 @@
         ]
       },
       "title": "Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months"
-    },
-    {
-      "path": "3-d-1/data.csv",
-      "name": "3-d-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "International Health Regulations (IHR) capacity and health emergency preparedness"
     },
     {
       "path": "14-3-1/data.csv",
