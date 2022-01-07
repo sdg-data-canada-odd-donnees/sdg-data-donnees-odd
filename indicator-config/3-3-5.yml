@@ -1,4 +1,4 @@
-﻿composite_breakdown_label: ''
+composite_breakdown_label: ''
 computation_units: 'Rate per 100,000'
 copyright: ''
 data_footnote: ''
@@ -7,13 +7,18 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values: []
+data_start_values: 
+  - field: Disease
+    value: Leprosy
+  - field: Disease
+    value: Rabies
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - Disease
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''

@@ -1,10 +1,10 @@
 SDG_GOAL: '<p>Objectif 5 : Parvenir à l''égalité des sexes et autonomiser toutes les
   femmes et les filles.</p>'
-SDG_TARGET: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement et effectivement
+SDG_TARGET: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement et effectivement
   aux fonctions de direction à tous les niveaux de décision, dans la vie politique,
-  économique et publique, et y accèdent sur un pied d’égalité.</p>'
+  économique et publique, et y accèdent sur un pied d’égalité.</p>'
 SDG_INDICATOR: '<p>Indicateur 5.5.1 : Proportion de sièges occupés par des femmes
-  dans a) les parlements nationaux et b) les administrations locales.</p>'
+  dans a) les parlements nationaux et b) les administrations locales.</p>'
 STAT_CONC_DEF: <p> La proportion de sièges occupés par des femmes dans a) les parlements
   nationaux, actuellement au 1er janvier de l'année de référence, est actuellement
   mesurée comme le nombre de sièges occupés par des femmes membres dans les chambres
@@ -15,10 +15,19 @@ REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l''égalité des sexes et autonomiser
   toutes les femmes et les filles.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement
-  et effectivement aux fonctions de direction à tous les niveaux de décision, dans
-  la vie politique, économique et publique, et y accèdent sur un pied d’égalité.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.5.1 : Proportion de sièges occupés par des
-  femmes dans a) les parlements nationaux et b) les administrations locales.</p>'
+  et effectivement aux fonctions de direction à tous les niveaux de décision, dans
+  la vie politique, économique et publique, et y accèdent sur un pied d’égalité.</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.5.1 : Proportion de sièges occupés par des femmes
+  dans a) les parlements nationaux et b) les administrations locales.</p>'
 
-reporting_status: notstarted
+reporting_status: complete
+
+source_active_1: 'true'
+source_url_text_1: "Statistique Canada. Tableau 10-10-0137-01  Représentation des femmes et des hommes élus au Parlement national et des ministres nommés au sein du Cabinet fédéral"
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Province or territory
+source_url_1: https://doi.org/10.25318/1010013701-fra
+reporting_status: complete
+COVERAGE: Canada, Province or territory
 

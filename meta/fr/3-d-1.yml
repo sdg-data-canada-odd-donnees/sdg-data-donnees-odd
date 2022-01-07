@@ -23,5 +23,14 @@ SDG_TARGET__GLOBAL: '<p>Cible 3.d : Renforcer les moyens dont disposent tous les
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.d.1 : Application du Règlement sanitaire international
   (RSI) et degré de préparation aux urgences sanitaires</p>'
 
-reporting_status: notstarted
+reporting_status: complete
+
+source_active_1: 'true'
+source_url_text_1: Tableau de bord de visualisation des données de Statistiques sanitaires mondiales
+source_url_1: https://apps.who.int/gho/data/view.sdg.3-d-data-ctry?lang=en
+source_organisation_1: Organisation mondiale de la santé - Observatoire mondial de la santé
+source_geographical_coverage_1: Canada
+
+COVERAGE: Canada
+UNIT_MEASURE: Percentage
 
