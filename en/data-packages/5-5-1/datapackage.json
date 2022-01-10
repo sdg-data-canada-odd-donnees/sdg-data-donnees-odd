@@ -11,13 +11,63 @@
       "schema": {
         "fields": [
           {
+            "name": "Elected officials",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Chiefs in First Nation communities",
+                "First Nations council members",
+                "Members of Cabinet",
+                "Members of Parliament"
+              ]
+            },
+            "title": "Elected officials"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Local",
+                "National"
+              ]
+            },
+            "title": "Government"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

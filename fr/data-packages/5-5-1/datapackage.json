@@ -12,8 +12,58 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "National",
+                "Local",
+                ""
+              ]
+            },
+            "title": "Government"
+          },
+          {
+            "name": "Elected officials",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Members of Parliament",
+                "Members of Cabinet",
+                "Chiefs in First Nation communities",
+                "First Nations council members",
+                ""
+              ]
+            },
+            "title": "Elected officials"
           },
           {
             "name": "Value",
