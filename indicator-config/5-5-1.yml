@@ -12,7 +12,7 @@ data_start_values:
     value: Canada
   - field: Government
     value: National
-  - field: National elected officials
+  - field: Elected officials
     value: Members of Parliament
 embedded_feature_footer: ''
 embedded_feature_html: ''
@@ -22,7 +22,7 @@ embedded_feature_url: ''
 expected_disaggregations:
   - Geography
   - Government
-  - National elected officials
+  - Elected officials
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
