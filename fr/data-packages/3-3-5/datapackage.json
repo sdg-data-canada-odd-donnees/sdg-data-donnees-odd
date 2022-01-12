@@ -13,7 +13,7 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Disease",
@@ -25,12 +25,12 @@
                 ""
               ]
             },
-            "title": "Maladies"
+            "title": "Disease"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

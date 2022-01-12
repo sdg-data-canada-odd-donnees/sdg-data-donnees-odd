@@ -13,24 +13,24 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Antigen",
             "type": "string",
             "constraints": {
               "enum": [
-                "Diphtérie 4 doses",
-                "Coqueluche 4 doses",
-                "Tétanos 4 doses",
+                "Diphtheria 4 doses",
+                "Pertussis 4 doses",
+                "Tetanus 4 doses",
                 "Polio 3 doses",
                 "Hib 4 doses",
-                "Rougeole 1 dose",
-                "Rubéole 1 dose",
-                "Oreillons 1 dose",
-                "Méningocoque C 1 dose",
-                "Pneumocoque 3 doses",
-                "Varicelle 1 dose",
+                "Measles 1 dose",
+                "Mumps 1 dose",
+                "Rubella 1 dose",
+                "Meningococcal C 1 dose",
+                "Pneumococcal 3 doses",
+                "Varicella 1 dose",
                 ""
               ]
             },
@@ -39,7 +39,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

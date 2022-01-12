@@ -13,7 +13,7 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Geography",
@@ -22,41 +22,41 @@
               "enum": [
                 "Canada",
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
                 "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
                 "Nunavut",
                 "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
+                "Prince Edward Island",
+                "Quebec",
                 "Saskatchewan",
                 "Yukon",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Function of Government",
             "type": "string",
             "constraints": {
               "enum": [
-                "Enseignement",
-                "Santé",
-                "Autres dépenses",
-                "Protection sociale",
+                "Education",
+                "Health",
+                "Other expenditure",
+                "Social protection",
                 ""
               ]
             },
-            "title": "Fonctions des administrations publiques"
+            "title": "Function of Government"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }
