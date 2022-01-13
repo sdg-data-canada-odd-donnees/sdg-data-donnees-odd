@@ -13,7 +13,7 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Geography",
@@ -21,65 +21,65 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Atlantic",
-                "Quebec",
+                "Atlantique",
+                "Québec",
                 "Ontario",
                 "Prairies",
-                "British Columbia",
+                "Colombie-Britannique",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Unpaid work activities",
-                "Household chores",
-                "Care of household children under 18 years",
-                "Care of household adults",
-                "Shopping for goods or services",
+                "Activités de travail non-rémunéré",
+                "Tâches domestiques",
+                "Soins à un enfant du ménage de moins de 18 ans",
+                "Soins à un adulte du ménage",
+                "Magasinage de biens ou de services",
                 ""
               ]
             },
-            "title": "Activity group"
+            "title": "Groupe d'activité"
           },
           {
             "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 15 years and over",
-                "15 to 24 years",
-                "25 to 54 years",
-                "25 to 34 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 to 64 years",
-                "65 years and over",
+                "Total, 15 ans et plus",
+                "15 à 24 ans",
+                "25 à 54 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                "65 ans et plus",
                 ""
               ]
             },
-            "title": "Age group"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "Homme",
+                "Femme",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Sexe"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

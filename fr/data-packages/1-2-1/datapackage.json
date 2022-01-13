@@ -13,7 +13,7 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Geography",
@@ -21,57 +21,57 @@
             "constraints": {
               "enum": [
                 "Alberta",
-                "Atlantic provinces",
-                "British Columbia",
+                "Provinces de l'Atlantique",
+                "Colombie-Britannique",
                 "Calgary, Alberta",
                 "Canada",
                 "Edmonton, Alberta",
                 "Manitoba",
-                "Montréal, Quebec",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
+                "Montréal, Québec",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Nouvelle-Écosse",
                 "Ontario",
-                "Ottawa-Gatineau, Ontario/Quebec",
-                "Prairie provinces",
-                "Prince Edward Island",
-                "Quebec",
-                "Québec, Quebec",
+                "Ottawa-Gatineau, Ontario/Québec",
+                "Provinces des Prairies",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Québec, Québec",
                 "Saskatchewan",
                 "Toronto, Ontario",
-                "Vancouver, British Columbia",
+                "Vancouver, Colombie-Britannique",
                 "Winnipeg, Manitoba",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Persons in low income",
             "type": "string",
             "constraints": {
               "enum": [
-                "All persons",
-                "Females",
-                "Females, 18 to 64 years",
-                "Females, 65 years and over",
-                "Females, under 18 years",
-                "Males",
-                "Males, 18 to 64 years",
-                "Males, 65 years and over",
-                "Males, under 18 years",
-                "Persons 18 to 64 years",
-                "Persons 65 years and over",
-                "Persons under 18 years",
+                "Toutes les personnes",
+                "Femmes",
+                "Femmes, 18 à 64 ans",
+                "Femmes, 65 ans et plus",
+                "Femmes, moins de 18 ans",
+                "Hommes",
+                "Hommes, 18 à 64 ans",
+                "Hommes, 65 ans et plus",
+                "Hommes, moins de 18 ans",
+                "Personnes de 18 à 64 ans",
+                "Personnes de 65 ans et plus",
+                "Personnes de moins de 18 ans",
                 ""
               ]
             },
-            "title": "Persons in low income"
+            "title": "Personnes à faible revenu"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

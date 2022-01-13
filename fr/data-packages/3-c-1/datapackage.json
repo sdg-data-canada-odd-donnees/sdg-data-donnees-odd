@@ -13,7 +13,7 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Geography",
@@ -21,62 +21,62 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "British Columbia",
+                "Colombie-Britannique",
                 "Yukon",
-                "Northwest Territories",
+                "Territoires du Nord-Ouest",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Type of provider",
             "type": "string",
             "constraints": {
               "enum": [
-                "Audiologists",
-                "Chiropractors",
-                "Dental assistants",
-                "Dental hygienists",
-                "Dentists",
-                "Dietitians",
-                "Environmental public health professionals",
-                "Family medicine",
-                "Genetic counsellors",
-                "Health information management professionals",
-                "Licensed practical nurses",
-                "Medical laboratory technologists",
-                "Medical physicists",
-                "Medical radiation technologists",
-                "Midwives",
-                "Nurse practitioners",
-                "Occupational therapists",
-                "Opticians",
-                "Optometrists",
-                "Paramedics",
-                "Pharmacists",
-                "Pharmacy technicians",
-                "Physician assistants",
-                "Physicians",
-                "Physiotherapists",
-                "Psychologists",
-                "Registered nurses",
-                "Registered psychiatric nurses",
-                "Regulated nurses",
-                "Respiratory therapists",
-                "Social workers",
-                "Specialists",
-                "Speech–language pathologists",
+                "Audiologistes",
+                "Chiropraticiens",
+                "Assistants dentaires",
+                "Hygiénistes dentaires",
+                "Dentistes",
+                "Diététistes",
+                "Professionnels de la santé publique environnementale",
+                "Médecins de famille",
+                "Conseillers en génétique",
+                "Professionnels de la gestion de l’information sur la santé",
+                "Infirmières auxiliaires autorisées",
+                "Technologistes de laboratoire médical",
+                "Physiciens médicaux",
+                "Technologues en radiation médicale",
+                "Sages-femmes",
+                "Infirmières praticiennes",
+                "Ergothérapeutes",
+                "Opticiens",
+                "Optométristes",
+                "Ambulanciers paramédicaux",
+                "Pharmaciens",
+                "Techniciens en pharmacie",
+                "Adjoints au médecin",
+                "Médecins",
+                "Physiothérapeutes",
+                "Psychologues",
+                "Infirmières autorisées",
+                "Infirmières psychiatriques autorisées",
+                "Personnel infirmier réglementé",
+                "Inhalothérapeutes",
+                "Travailleurs sociaux",
+                "Spécialistes",
+                "Orthophonistes",
                 ""
               ]
             },
@@ -85,7 +85,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }
