@@ -3992,6 +3992,30 @@
       "title": "Proportion of members and voting rights of developing countries in international organizations"
     },
     {
+      "path": "17-19-2b/data.csv",
+      "name": "17-19-2b",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration"
+    },
+    {
       "path": "14-3-1/data.csv",
       "name": "14-3-1",
       "profile": "tabular-data-resource",
@@ -4086,6 +4110,30 @@
         ]
       },
       "title": "Proportion of land that is degraded over total land area"
+    },
+    {
+      "path": "17-19-2a/data.csv",
+      "name": "17-19-2a",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration"
     },
     {
       "path": "6-5-1/data.csv",
