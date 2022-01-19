@@ -12,7 +12,61 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age at time of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "30 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 64 years",
+                "65 to 74 years",
+                "75 to 84 years",
+                "85 and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Both sexes",
+                "Males",
+                "Females",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Causes of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Malignant neoplasms",
+                "In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",
+                "Diabetes mellitus",
+                "Diseases of heart",
+                "Influenza and pneumonia",
+                "Acute bronchitis and bronchiolitis",
+                "Chronic lower respiratory diseases",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
