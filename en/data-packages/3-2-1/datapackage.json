@@ -11,6 +11,11 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
