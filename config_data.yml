@@ -39,6 +39,8 @@ src_dir: ''
 # The defaults below show what is used when this is omitted.
 inputs:
   - class: InputCsvData
+    dtype:
+      GeoCode: str
     # This describes the data files, relative to the "src_dir" indicated above.
     path_pattern: data/*-*.csv
   - class: InputYamlMeta
