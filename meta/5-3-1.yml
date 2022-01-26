@@ -5,6 +5,7 @@ SDG_INDICATOR: '<p>Indicator 5.3.1: Proportion of women aged 20-24 years who wer
   married or in a union before age 15 and before age 18</p>'
 STAT_CONC_DEF: <p>Proportion of women aged 20-24 years who were married or in a union
   before age 15 and before age 18</p>
+UNIT_OF_MEASURE: Percentage
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
@@ -17,3 +18,10 @@ un_custodian_agency: United Nations Children's Fund (UNICEFF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 207
   KB)
+
+source_active_1: 'true'
+source_url_text_1: Census of Population
+source_url_1: https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/dt-td/Rp-eng.cfm?TABID=2&LANG=E&A=R&APATH=3&DETAIL=0&DIM=0&FL=A&FREE=0&GC=01&GL=-1&GID=1227463&GK=1&GRP=1&O=D&PID=109650&PRID=10&PTYPE=109445&S=0&SHOWALL=0&SUB=0&Temporal=2016&THEME=117&VID=0&VNAMEE=&VNAMEF=&D1=0&D2=2&D3=0&D4=0&D5=0&D6=0
+source_organisation_1: Statistics Canada
+source_periodicity_1: Every 5 years
+source_geographical_coverage_1: Canada, Province or territory

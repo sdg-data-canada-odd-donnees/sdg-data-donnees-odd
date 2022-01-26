@@ -16,5 +16,13 @@ SDG_TARGET__GLOBAL: '<p>Cible 5.3: Éliminer toutes les pratiques préjudiciable
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.3.1: Proportion de femmes âgées de 20 à 24 ans
   qui étaient mariées ou en couple avant l’âge de 15 ans ou de 18 ans</p>'
 
-reporting_status: notstarted
+reporting_status: complete
+UNIT_OF_MEASURE: Percentage
+
+source_active_1: 'true'
+source_url_text_1: Recensement de la population
+source_url_1: https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/dt-td/Rp-eng.cfm?TABID=2&LANG=E&A=R&APATH=3&DETAIL=0&DIM=0&FL=A&FREE=0&GC=01&GL=-1&GID=1227463&GK=1&GRP=1&O=D&PID=109650&PRID=10&PTYPE=109445&S=0&SHOWALL=0&SUB=0&Temporal=2016&THEME=117&VID=0&VNAMEE=&VNAMEF=&D1=0&D2=2&D3=0&D4=0&D5=0&D6=0
+source_organisation_1: Statistics Canada
+source_periodicity_1: Every 5 years
+source_geographical_coverage_1: Canada, Province or territory
 
