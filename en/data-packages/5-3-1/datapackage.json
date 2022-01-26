@@ -11,13 +11,62 @@
       "schema": {
         "fields": [
           {
+            "name": "Age Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 to 19 years",
+                "20 to 24 years"
+              ]
+            },
+            "title": "Age Group"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Marital status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Living common law",
+                "Married",
+                "Married or living common law"
+              ]
+            },
+            "title": "Marital status"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

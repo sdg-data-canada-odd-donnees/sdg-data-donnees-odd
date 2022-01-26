@@ -12,8 +12,41 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Type of intimate partner violence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Violence psychologique ou exploitation financière",
+                "Violence physique",
+                "Violence sexuelle",
+                "Total de tous les types de violence",
+                ""
+              ]
+            },
+            "title": "Type de violence entre partenaires intimes"
+          },
+          {
+            "name": "Selected characteristic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, toutes les femmes",
+                "Femmes de 15 à 24 ans",
+                "Femmes séparées ou divorcées",
+                "Femmes LGBTQ2",
+                "Femmes célibataires",
+                "Femmes des Premières Nations, métisses ou inuites",
+                "Femmes ayant une incapacité",
+                "Femmes immigrantes",
+                "Femmes désignées comme minorités visibles",
+                ""
+              ]
+            },
+            "title": "Caractéristiques sélectionnées"
           },
           {
             "name": "Value",

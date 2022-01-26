@@ -7,9 +7,42 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-1",
       "schema": {
         "fields": [
+          {
+            "name": "Selected characteristic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 to 24 year old women",
+                "First Nations, Métis, or Inuit women",
+                "Immigrant women",
+                "LGBTQ2 women",
+                "Separated or divorced women",
+                "Single women",
+                "Total, all women",
+                "Women designated as visible minorities",
+                "Women with disability"
+              ]
+            },
+            "title": "Selected characteristic"
+          },
+          {
+            "name": "Type of intimate partner violence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Emotional, financial, or psychological abuse",
+                "Physical abuse",
+                "Sexual abuse",
+                "Total intimate partner violence"
+              ]
+            },
+            "title": "Type of intimate partner violence"
+          },
           {
             "name": "Value",
             "type": "number",
@@ -17,7 +50,7 @@
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

@@ -7,12 +7,43 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-1",
       "schema": {
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Type of intimate partner violence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Emotional, financial, or psychological abuse",
+                "Physical abuse",
+                "Sexual abuse",
+                "Total intimate partner violence",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Selected characteristic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, all women",
+                "15 to 24 year old women",
+                "Separated or divorced women",
+                "LGBTQ2 women",
+                "Single women",
+                "First Nations, Métis, or Inuit women",
+                "Women with disability",
+                "Immigrant women",
+                "Women designated as visible minorities",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
