@@ -75,17 +75,17 @@
                 ""
               ]
             },
-            "title": "Government"
+            "title": "Gouvernement"
           },
           {
             "name": "Elected officials",
             "type": "string",
             "constraints": {
               "enum": [
-                "Members of Parliament",
-                "Members of Cabinet",
-                "Chiefs in First Nation communities",
-                "First Nations council members",
+                "Parlement national",
+                "Cabinet fédéral",
+                "Chefs dans les communautés des Premières Nations",
+                "Membres de conseil des Premières Nations",
                 ""
               ]
             },
@@ -702,16 +702,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Married or living common law",
-                "Married",
-                "Living common law",
+                "Marié ou vivant en union libre",
+                "Marié",
+                "Vivant en union libre",
                 ""
               ]
             },
             "title": "Marital status"
           },
           {
-            "name": "Age Group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -720,7 +720,7 @@
                 ""
               ]
             },
-            "title": "Age Group"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Value",
@@ -1242,6 +1242,57 @@
       "title": "Taux de natalité chez les adolescentes (10 à 14 ans et 15 à 19 ans) pour 1 000 adolescentes du même groupe d’âge"
     },
     {
+      "path": "5-b-1/data.csv",
+      "name": "5-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Atlantic Region",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Prairie Region",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de la population possédant un téléphone portable, par sexe"
+    },
+    {
       "path": "3-6-1/data.csv",
       "name": "3-6-1",
       "profile": "tabular-data-resource",
@@ -1444,7 +1495,7 @@
                 "Cadres supérieures",
                 "Cadres intermédiaires spécialisées",
                 "Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle",
-                "Middle management occupations in trades, transportation, production and utilities",
+                "Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique",
                 "Management occupations",
                 ""
               ]
@@ -6163,30 +6214,6 @@
         ]
       },
       "title": "Proportion de pays qui a) ont procédé à au moins un recensement de la population et du logement au cours des 10 dernières années, et b) ont atteint un taux d’enregistrement des naissances de 100 pour cent et un taux d’enregistrement des décès de 80 pour cent"
-    },
-    {
-      "path": "5-b-1/data.csv",
-      "name": "5-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de la population possédant un téléphone portable, par sexe"
     },
     {
       "path": "11-6-2/data.csv",

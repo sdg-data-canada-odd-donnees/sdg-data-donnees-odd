@@ -11,7 +11,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Age Group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -20,7 +20,7 @@
                 "20 to 24 years"
               ]
             },
-            "title": "Age Group"
+            "title": "Age group"
           },
           {
             "name": "Geography",

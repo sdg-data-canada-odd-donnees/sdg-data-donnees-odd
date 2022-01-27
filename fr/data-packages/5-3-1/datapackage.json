@@ -44,16 +44,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Married or living common law",
-                "Married",
-                "Living common law",
+                "Marié ou vivant en union libre",
+                "Marié",
+                "Vivant en union libre",
                 ""
               ]
             },
             "title": "Marital status"
           },
           {
-            "name": "Age Group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -62,7 +62,7 @@
                 ""
               ]
             },
-            "title": "Age Group"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Value",

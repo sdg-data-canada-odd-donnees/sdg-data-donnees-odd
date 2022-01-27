@@ -49,17 +49,17 @@
                 ""
               ]
             },
-            "title": "Government"
+            "title": "Gouvernement"
           },
           {
             "name": "Elected officials",
             "type": "string",
             "constraints": {
               "enum": [
-                "Members of Parliament",
-                "Members of Cabinet",
-                "Chiefs in First Nation communities",
-                "First Nations council members",
+                "Parlement national",
+                "Cabinet fédéral",
+                "Chefs dans les communautés des Premières Nations",
+                "Membres de conseil des Premières Nations",
                 ""
               ]
             },
