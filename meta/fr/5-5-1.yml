@@ -20,14 +20,20 @@ SDG_TARGET__GLOBAL: '<p>Cible 5.5 : Veiller à ce que les femmes participent ple
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.5.1 : Proportion de sièges occupés par des femmes
   dans a) les parlements nationaux et b) les administrations locales.</p>'
 
-reporting_status: complete
-
 source_active_1: 'true'
 source_url_text_1: "Statistique Canada. Tableau 10-10-0137-01  Représentation des femmes et des hommes élus au Parlement national et des ministres nommés au sein du Cabinet fédéral"
 source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada, Province or territory
 source_url_1: https://doi.org/10.25318/1010013701-fra
+
+source_active_2: true
+source_url_text_2: 'Statistique Canada. Tableau 41-10-0048-01  Représentation des hommes et des femmes dans les conseil de bandes des Premières Nations et les Chefs dans les communautés des Premières Nations selon le sexe'
+source_url_2: 'https://doi.org/10.25318/4110004801-fra'
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: 'Canada'
+
 reporting_status: complete
 COVERAGE: Canada, Province or territory
 
