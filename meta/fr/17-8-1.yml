@@ -8,7 +8,7 @@ SDG_INDICATOR: '<p>Indicateur 17.8.1: Proportion de la population utilisant Inte
 UNIT_OF_MEASURE: Percentage
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
-REC_USE_LIM: '<p>La population visée comprend toute personne âgée de 15 ans et plus, qui réside dans l'une des 10 provinces canadiennes. Elle ne comprend pas les personnes vivant dans une institution à temps plein (depuis plus de six mois).</p><p>L'Enquête canadienne sur l'utilisation de l'Internet a été remaniée en 2018 et ses résultats ne devraient pas être comparés à ceux des enquêtes précédentes.</p><p>L'indicateur d'utilisation d’Internet exclut l'utilisation pour le travail et les études et comprend l'utilisation à partir de n'importe quel endroit.</p>'
+REC_USE_LIM: "<p>La population visée comprend toute personne âgée de 15 ans et plus, qui réside dans l'une des 10 provinces canadiennes. Elle ne comprend pas les personnes vivant dans une institution à temps plein (depuis plus de six mois).</p><p>L'Enquête canadienne sur l'utilisation de l'Internet a été remaniée en 2018 et ses résultats ne devraient pas être comparés à ceux des enquêtes précédentes.</p><p>L'indicateur d'utilisation d’Internet exclut l'utilisation pour le travail et les études et comprend l'utilisation à partir de n'importe quel endroit.</p>"
 SDG_GOAL__GLOBAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 17.8: Faire en sorte que la banque de technologies et
@@ -16,11 +16,10 @@ SDG_TARGET__GLOBAL: '<p>Cible 17.8: Faire en sorte que la banque de technologies
   capacités d’innovation des pays les moins avancés soient pleinement opérationnels
   d’ici à 2017 et renforcer l’utilisation des technologies clefs, en particulier de
   l’informatique et des communications</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.8.1: Proportion de la population utilisant
-  Internet</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.8.1: Proportion de la population utilisant Internet</p>'
 
 source_active_1: 'true'
-source_url_text_1: 'Statistique Canada. Tableau 22-10-0135-01  Utilisation d'Internet à des fins personnelles à partir de n'importe quel endroit, par province et par groupe d'âge'
+source_url_text_1: "Statistique Canada. Tableau 22-10-0135-01  Utilisation d'Internet à des fins personnelles à partir de n'importe quel endroit, par province et par groupe d'âge"
 source_organisation_1: Statistique Canada
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada, Province or territory
