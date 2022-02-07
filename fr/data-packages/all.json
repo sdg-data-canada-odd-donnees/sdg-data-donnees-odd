@@ -339,6 +339,85 @@
       "title": "Nombre de nouvelles infections à VIH pour 1 000 personnes séronégatives, par sexe, âge et appartenance à un groupe de population à risque"
     },
     {
+      "path": "16-1-1/data.csv",
+      "name": "16-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les identités de genre",
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "Indigenous identity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Identité autochtone",
+                "Identité non autochtone",
+                "Total",
+                ""
+              ]
+            },
+            "title": "Identité autochtone"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Nombre de victimes d’homicide volontaire pour 100 000 habitants, par sexe et âge"
+    },
+    {
       "path": "17-8-1/data.csv",
       "name": "17-8-1",
       "profile": "tabular-data-resource",
@@ -670,7 +749,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Administration publique générale canadienne consolidée",
                 "Administrations publiques provinciales-territoriales et locales consolidées",
                 ""
               ]
@@ -5168,30 +5246,6 @@
         ]
       },
       "title": "Proportion du budget total de la recherche allouée à la recherche sur les techniques marines"
-    },
-    {
-      "path": "16-1-1/data.csv",
-      "name": "16-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Nombre de victimes d’homicide volontaire pour 100 000 habitants, par sexe et âge"
     },
     {
       "path": "3-5-1/data.csv",
