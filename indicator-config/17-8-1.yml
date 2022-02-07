@@ -1,32 +1,38 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: 'Percentage'
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
-data_show_map: false
-data_start_values: []
+data_show_map: true
+data_start_values:
+    - field: Geography
+      value: Canada
+    - field: Age group
+      value: Total, 15 years and over
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations: 
+    - Geography
+    - Age group
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.17-8-1-title
 graph_titles: []
-graph_type: line
+graph_type: bar
 indicator_name: global_indicators.17-8-1-title
 indicator_number: '17.8.1'
-national_geographical_coverage: ''
+national_geographical_coverage: 'Canada, Province or territory'
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: inprogress
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []

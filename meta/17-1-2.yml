@@ -5,27 +5,10 @@ SDG_TARGET: '<p>Target 17.1: Strengthen domestic resource mobilization, includin
   for tax and other revenue collection</p>'
 SDG_INDICATOR: '<p>Indicator 17.1.2: Proportion of domestic budget funded by domestic
   taxes</p>'
-STAT_CONC_DEF: <p>The precise definition of the indicator is the Proportion of domestic
-  budgetary central government expenditure funded by taxes. Budgetary central government,
-  described in GFSM 2014 (paragraph 2.81) is an institutional unit of the general
-  government sector particularly important in terms of size and power, particularly
-  the power to exercise control over many other units and entities. The budgetary
-  central government is often a single unit of the central government that encompasses
-  the fundamental activities of the national executive, legislative, and judiciary
-  powers. This component of general government is usually covered by the main (or
-  general) budget. The budgetary central government&#x2019;s revenue (and expense)
-  are normally regulated and controlled by a ministry of finance, or its functional
-  equivalent, by means of a budget approved by the legislature. Most of the ministries,
-  departments, agencies, boards, commissions, judicial authorities, legislative bodies,
-  and other entities that make up the budgetary central government are not separate
-  institutional units. This is because they generally do not have the authority to
-  own assets, incur liabilities, or engage in transactions in their own right (see
-  GFSM 2014 paragraph 2.42). including references to standards and classifications,
-  preferably relying on international agreed definitions. The indicator definition
-  should be unambiguous and expressed in universally applicable terms. It must clearly
-  express the unit of measurement (proportion, dollars, number of people, etc.).</p>
+STAT_CONC_DEF: '<p>Consolidated Canadian general government includes federal government, provincial and territorial governments, health and social service institutions, universities and colleges, municipalities and other local public administrations and, school boards. Does not include the Canada Pension Plan (CPP) and Quebec Pension Plan (QPP).</p><p>Includes provincial and territorial governments, health and social service institutions, universities and colleges, municipalities and other local public administrations and, school boards.</p>'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+UNIT_OF_MEASURE: Percentage
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the Global Partnership for Sustainable Development</p>'
 SDG_TARGET__GLOBAL: '<p>Target 17.1: Strengthen domestic resource mobilization, including
@@ -33,9 +16,6 @@ SDG_TARGET__GLOBAL: '<p>Target 17.1: Strengthen domestic resource mobilization, 
   for tax and other revenue collection</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 17.1.2: Proportion of domestic budget funded
   by domestic taxes</p>'
-target_name: Strengthen domestic resource mobilization, including through international
-  support to developing countries, to improve domestic capacity for tax and other
-  revenue collection
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 10-10-0147-01  Canadian government finance
   statistics (CGFS), statement of operations and balance sheet for consolidated governments
