@@ -1158,6 +1158,70 @@
       "title": "Coverage of protected areas in relation to marine areas"
     },
     {
+      "path": "15-a-1/data.csv",
+      "name": "15-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Public sector components",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Consolidated provincial-territorial and local governments"
+              ]
+            },
+            "title": "Public sector components"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments"
+    },
+    {
       "path": "3-3-3/data.csv",
       "name": "3-3-3",
       "profile": "tabular-data-resource",
@@ -4838,30 +4902,6 @@
         ]
       },
       "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)"
-    },
-    {
-      "path": "15-a-1/data.csv",
-      "name": "15-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments"
     },
     {
       "path": "11-3-1/data.csv",
