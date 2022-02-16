@@ -1,4 +1,4 @@
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
+SDG_GOAL: '<p>Objectif 9: Bâtir une infrastructure résiliente, promouvoir une industrialisation
   durable qui profite à tous et encourager l''innovation.</p>'
 SDG_TARGET: '<p>Cible 9.2 : Promouvoir une industrialisation durable qui profite à
   tous et, d''ici à 2030, augmenter nettement la contribution de l''industrie à l''emploi
@@ -6,11 +6,12 @@ SDG_TARGET: '<p>Cible 9.2 : Promouvoir une industrialisation durable qui profite
   par deux dans les pays les moins avancés</p>'
 SDG_INDICATOR: '<p>Indicateur 9.2.2 : Emploi dans l’industrie manufacturière, en proportion
   de l’emploi total</p>'
-STAT_CONC_DEF: <p>Cet indicateur présente la part de l'emploi manufacturier dans l'emploi
-  total.</p>
+UNIT_OF_MEASURE: Percentage
+STAT_CONC_DEF: >-
+    Les estimations par industrie sont fondées sur le Système de classification des industries de l'Amérique du Nord (SCIAN) de 2017 version 3.0.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
+SDG_GOAL__GLOBAL: '<p>Objectif 9: Bâtir une infrastructure résiliente, promouvoir
   une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 9.2 : Promouvoir une industrialisation durable qui profite
   à tous et, d''ici à 2030, augmenter nettement la contribution de l''industrie à
@@ -20,8 +21,7 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.2.2 : Emploi dans l’industrie manufact
   en proportion de l’emploi total</p>'
 
 source_active_1: 'true'
-source_url_text_1: Statistique Canada. Table 14-10-0202-01  Employment by industry,
-  annual
+source_url_text_1: Statistique Canada. Tableau 14-10-0202-01  Emploi selon l'industrie, données annuelles
 source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada, Province or territory
