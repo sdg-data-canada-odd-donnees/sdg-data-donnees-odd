@@ -1,0 +1,703 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Disaggregation: Industry - SDG data build documentation</title>
+
+            <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.css">
+            <style>
+                .btn-primary {
+                    background-color: #00703c;
+                    padding: 8px 10px 7px;
+                    border: 2px solid transparent;
+                    border-radius: 0;
+                    color: #fff;
+                    box-shadow: 0 2px 0 #002d18;
+                    text-decoration: none;
+                }
+                .btn-primary:visited {
+                    color: #fff;
+                }
+                .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+                    background-color: #005a30;
+                    text-decoration: none;
+                    border: 2px solid transparent;
+                }
+                .btn-primary:focus:not(:active):not(:hover) {
+                    border-color: #fd0;
+                    color: #0b0c0c;
+                    background-color: #fd0;
+                    box-shadow: 0 2px 0 #0b0c0c;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+                a:hover {
+                    color: #003078;
+                }
+                a:visited {
+                    color: #4c2c92;
+                }
+                .download-info {
+                    margin-left: 12px;
+                }
+                .table-striped tbody tr:nth-of-type(2n+1) {
+                    background-color: #f3f2f1;
+                }
+            </style>
+        </head>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">SDG data build documentation</a>
+                </div>
+            </nav>
+            <main role="main">
+                <div class="container">
+                    <h1 style="margin:20px 0">Disaggregation: Industry</h1>
+                    <div>
+                        
+        <div role="navigation" aria-describedby="contents-heading">
+            <h2 id="contents-heading">On this page</h2>
+            <ul>
+                <li><a href="#values-used">Values used in disaggregation</a></li>
+                <li><a href="#indicators-using">Indicators using disaggregation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="values-used" tabindex="-1">Values used in disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="values--disaggregation--industry.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--industry">Download CSV of values used in this disaggregation</a>
+            <div id="values--disaggregation--industry" class="download-info">Size: 5.0 kB</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">109</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="values-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Value</th>
+      <th>Disaggregation combinations using this value</th>
+      <th>Number of indicators</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="disaggregation-value--aerospace-product-and-parts-manufacturing.html">Aerospace product and parts manufacturing</a></td>
+      <td>19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--agricultural-construction-and-mining-machinery-manufacturing.html">Agricultural, construction and mining machinery manufacturing</a></td>
+      <td>21</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--alumina-and-aluminum-production-and-processing.html">Alumina and aluminum production and processing</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--animal-food-manufacturing.html">Animal food manufacturing</a></td>
+      <td>20</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--architectural-and-structural-metals-manufacturing.html">Architectural and structural metals manufacturing</a></td>
+      <td>20</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--audio-and-video-equipment-manufacturing.html">Audio and video equipment manufacturing</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bakeries-and-tortilla-manufacturing.html">Bakeries and tortilla manufacturing</a></td>
+      <td>21</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--basic-chemical-manufacturing.html">Basic chemical manufacturing</a></td>
+      <td>16</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--beverage-and-tobacco-product-manufacturing.html">Beverage and tobacco product manufacturing</a></td>
+      <td>19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--beverage-manufacturing.html">Beverage manufacturing</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--boiler-tank-and-shipping-container-manufacturing.html">Boiler, tank and shipping container manufacturing</a></td>
+      <td>14</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--cannabis-product-manufacturing.html">Cannabis product manufacturing</a></td>
+      <td>42</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--cement-and-concrete-product-manufacturing.html">Cement and concrete product manufacturing</a></td>
+      <td>22</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--chemical-manufacturing.html">Chemical manufacturing</a></td>
+      <td>19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--clay-product-and-refractory-manufacturing.html">Clay product and refractory manufacturing</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--clothing-accessories-and-other-clothing-manufacturing.html">Clothing accessories and other clothing manufacturing</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--clothing-knitting-mills.html">Clothing knitting mills</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--clothing-manufacturing.html">Clothing manufacturing</a></td>
+      <td>15</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--coating-engraving-cold-and-heat-treating-and-allied-activities.html">Coating, engraving, cold and heat treating and allied activities</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--commercial-and-service-industry-machinery-manufacturing.html">Commercial and service industry machinery manufacturing</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--communications-equipment-manufacturing.html">Communications equipment manufacturing</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--computer-and-electronic-product-manufacturing.html">Computer and electronic product manufacturing</a></td>
+      <td>20</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--computer-and-peripheral-equipment-manufacturing.html">Computer and peripheral equipment manufacturing</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--converted-paper-product-manufacturing.html">Converted paper product manufacturing</a></td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--cut-and-sew-clothing-manufacturing.html">Cut and sew clothing manufacturing</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--cutlery-and-hand-tool-manufacturing.html">Cutlery and hand tool manufacturing</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--dairy-product-manufacturing.html">Dairy product manufacturing</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--durable-goods.html">Durable goods</a></td>
+      <td>36</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--electric-lighting-equipment-manufacturing.html">Electric lighting equipment manufacturing</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--electrical-equipment-appliance-and-component-manufacturing.html">Electrical equipment, appliance and component manufacturing</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--electrical-equipment-manufacturing.html">Electrical equipment manufacturing</a></td>
+      <td>18</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--engine-turbine-and-power-transmission-equipment-manufacturing.html">Engine, turbine and power transmission equipment manufacturing</a></td>
+      <td>14</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--fabric-mills.html">Fabric mills</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--fabricated-metal-product-manufacturing.html">Fabricated metal product manufacturing</a></td>
+      <td>27</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--fibre-yarn-and-thread-mills.html">Fibre, yarn and thread mills</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--food-manufacturing.html">Food manufacturing</a></td>
+      <td>33</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--footwear-manufacturing.html">Footwear manufacturing</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--forging-and-stamping.html">Forging and stamping</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--foundries.html">Foundries</a></td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--fruit-and-vegetable-preserving-and-specialty-food-manufacturing.html">Fruit and vegetable preserving and specialty food manufacturing</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--furniture-and-related-product-manufacturing.html">Furniture and related product manufacturing</a></td>
+      <td>19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--glass-and-glass-product-manufacturing.html">Glass and glass product manufacturing</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--grain-and-oilseed-milling.html">Grain and oilseed milling</a></td>
+      <td>16</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--hardware-manufacturing.html">Hardware manufacturing</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--household-and-institutional-furniture-and-kitchen-cabinet-manufacturing.html">Household and institutional furniture and kitchen cabinet manufacturing</a></td>
+      <td>24</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--household-appliance-manufacturing.html">Household appliance manufacturing</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--industrial-machinery-manufacturing.html">Industrial machinery manufacturing</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--iron-and-steel-mills-and-ferro-alloy-manufacturing.html">Iron and steel mills and ferro-alloy manufacturing</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--leather-and-allied-product-manufacturing.html">Leather and allied product manufacturing</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--leather-and-hide-tanning-and-finishing.html">Leather and hide tanning and finishing</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--lime-and-gypsum-product-manufacturing.html">Lime and gypsum product manufacturing</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--machine-shops-turned-product-and-screw-nut-and-bolt-manufacturing.html">Machine shops, turned product, and screw, nut and bolt manufacturing</a></td>
+      <td>15</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--machinery-manufacturing.html">Machinery manufacturing</a></td>
+      <td>27</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--manufacturing-and-reproducing-magnetic-and-optical-media.html">Manufacturing and reproducing magnetic and optical media</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--manufacturing.html">Manufacturing</a></td>
+      <td>32</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--meat-product-manufacturing.html">Meat product manufacturing</a></td>
+      <td>22</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--medical-equipment-and-supplies-manufacturing.html">Medical equipment and supplies manufacturing</a></td>
+      <td>23</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--metalworking-machinery-manufacturing.html">Metalworking machinery manufacturing</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--miscellaneous-manufacturing.html">Miscellaneous manufacturing</a></td>
+      <td>17</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--motor-vehicle-body-and-trailer-manufacturing.html">Motor vehicle body and trailer manufacturing</a></td>
+      <td>15</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--motor-vehicle-manufacturing.html">Motor vehicle manufacturing</a></td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--motor-vehicle-parts-manufacturing.html">Motor vehicle parts manufacturing</a></td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--navigational-measuring-medical-and-control-instruments-manufacturing.html">Navigational, measuring, medical and control instruments manufacturing</a></td>
+      <td>21</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--non-durable-goods.html">Non-durable goods</a></td>
+      <td>31</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--non-ferrous-metal-except-aluminum-production-and-processing.html">Non-ferrous metal (except aluminum) production and processing</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--non-metallic-mineral-product-manufacturing.html">Non-metallic mineral product manufacturing</a></td>
+      <td>24</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--office-furniture-including-fixtures-manufacturing.html">Office furniture (including fixtures) manufacturing</a></td>
+      <td>18</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-chemical-product-manufacturing.html">Other chemical product manufacturing</a></td>
+      <td>15</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-electrical-equipment-and-component-manufacturing.html">Other electrical equipment and component manufacturing</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-fabricated-metal-product-manufacturing.html">Other fabricated metal product manufacturing</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-food-manufacturing.html">Other food manufacturing</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-furniture-related-product-manufacturing.html">Other furniture-related product manufacturing</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-general-purpose-machinery-manufacturing.html">Other general-purpose machinery manufacturing</a></td>
+      <td>22</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-leather-and-allied-product-manufacturing.html">Other leather and allied product manufacturing</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-miscellaneous-manufacturing.html">Other miscellaneous manufacturing</a></td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-non-metallic-mineral-product-manufacturing.html">Other non-metallic mineral product manufacturing</a></td>
+      <td>18</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-textile-product-mills.html">Other textile product mills</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-transportation-equipment-manufacturing.html">Other transportation equipment manufacturing</a></td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--other-wood-product-manufacturing.html">Other wood product manufacturing</a></td>
+      <td>23</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--paint-coating-and-adhesive-manufacturing.html">Paint, coating and adhesive manufacturing</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--paper-manufacturing.html">Paper manufacturing</a></td>
+      <td>24</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--pesticide-fertilizer-and-other-agricultural-chemical-manufacturing.html">Pesticide, fertilizer and other agricultural chemical manufacturing</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--petroleum-and-coal-product-manufacturing.html">Petroleum and coal product manufacturing</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--pharmaceutical-and-medicine-manufacturing.html">Pharmaceutical and medicine manufacturing</a></td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--plastic-product-manufacturing.html">Plastic product manufacturing</a></td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--plastics-and-rubber-products-manufacturing.html">Plastics and rubber products manufacturing</a></td>
+      <td>16</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--primary-metal-manufacturing.html">Primary metal manufacturing</a></td>
+      <td>16</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--printing-and-related-support-activities.html">Printing and related support activities</a></td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--pulp-paper-and-paperboard-mills.html">Pulp, paper and paperboard mills</a></td>
+      <td>24</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--railroad-rolling-stock-manufacturing.html">Railroad rolling stock manufacturing</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--resin-synthetic-rubber-and-artificial-and-synthetic-fibres-and-filaments-manuf.html">Resin, synthetic rubber, and artificial and synthetic fibres and filaments manufacturing</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--rubber-product-manufacturing.html">Rubber product manufacturing</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sawmills-and-wood-preservation.html">Sawmills and wood preservation</a></td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--seafood-product-preparation-and-packaging.html">Seafood product preparation and packaging</a></td>
+      <td>16</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--semiconductor-and-other-electronic-component-manufacturing.html">Semiconductor and other electronic component manufacturing</a></td>
+      <td>14</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ship-and-boat-building.html">Ship and boat building</a></td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--soap-cleaning-compound-and-toilet-preparation-manufacturing.html">Soap, cleaning compound and toilet preparation manufacturing</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--spring-and-wire-product-manufacturing.html">Spring and wire product manufacturing</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--steel-product-manufacturing-from-purchased-steel.html">Steel product manufacturing from purchased steel</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sugar-and-confectionery-product-manufacturing.html">Sugar and confectionery product manufacturing</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--textile-and-fabric-finishing-and-fabric-coating.html">Textile and fabric finishing and fabric coating</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--textile-furnishings-mills.html">Textile furnishings mills</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--textile-mills.html">Textile mills</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--textile-product-mills.html">Textile product mills</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--tobacco-manufacturing.html">Tobacco manufacturing</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--transportation-equipment-manufacturing.html">Transportation equipment manufacturing</a></td>
+      <td>23</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--veneer-plywood-and-engineered-wood-product-manufacturing.html">Veneer, plywood and engineered wood product manufacturing</a></td>
+      <td>19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ventilation-heating-air-conditioning-and-commercial-refrigeration-equipment-ma.html">Ventilation, heating, air-conditioning and commercial refrigeration equipment manufacturing</a></td>
+      <td>15</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--wood-product-manufacturing.html">Wood product manufacturing</a></td>
+      <td>25</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--aerospace-product-and-parts-manufacturing.html\">Aerospace product and parts manufacturing<\/a>","Disaggregation combinations using this value":19,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--agricultural-construction-and-mining-machinery-manufacturing.html\">Agricultural, construction and mining machinery manufacturing<\/a>","Disaggregation combinations using this value":21,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--alumina-and-aluminum-production-and-processing.html\">Alumina and aluminum production and processing<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--animal-food-manufacturing.html\">Animal food manufacturing<\/a>","Disaggregation combinations using this value":20,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--architectural-and-structural-metals-manufacturing.html\">Architectural and structural metals manufacturing<\/a>","Disaggregation combinations using this value":20,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--audio-and-video-equipment-manufacturing.html\">Audio and video equipment manufacturing<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--bakeries-and-tortilla-manufacturing.html\">Bakeries and tortilla manufacturing<\/a>","Disaggregation combinations using this value":21,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--basic-chemical-manufacturing.html\">Basic chemical manufacturing<\/a>","Disaggregation combinations using this value":16,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--beverage-and-tobacco-product-manufacturing.html\">Beverage and tobacco product manufacturing<\/a>","Disaggregation combinations using this value":19,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--beverage-manufacturing.html\">Beverage manufacturing<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--boiler-tank-and-shipping-container-manufacturing.html\">Boiler, tank and shipping container manufacturing<\/a>","Disaggregation combinations using this value":14,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--cannabis-product-manufacturing.html\">Cannabis product manufacturing<\/a>","Disaggregation combinations using this value":42,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--cement-and-concrete-product-manufacturing.html\">Cement and concrete product manufacturing<\/a>","Disaggregation combinations using this value":22,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--chemical-manufacturing.html\">Chemical manufacturing<\/a>","Disaggregation combinations using this value":19,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--clay-product-and-refractory-manufacturing.html\">Clay product and refractory manufacturing<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--clothing-accessories-and-other-clothing-manufacturing.html\">Clothing accessories and other clothing manufacturing<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--clothing-knitting-mills.html\">Clothing knitting mills<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--clothing-manufacturing.html\">Clothing manufacturing<\/a>","Disaggregation combinations using this value":15,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--coating-engraving-cold-and-heat-treating-and-allied-activities.html\">Coating, engraving, cold and heat treating and allied activities<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--commercial-and-service-industry-machinery-manufacturing.html\">Commercial and service industry machinery manufacturing<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--communications-equipment-manufacturing.html\">Communications equipment manufacturing<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--computer-and-electronic-product-manufacturing.html\">Computer and electronic product manufacturing<\/a>","Disaggregation combinations using this value":20,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--computer-and-peripheral-equipment-manufacturing.html\">Computer and peripheral equipment manufacturing<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--converted-paper-product-manufacturing.html\">Converted paper product manufacturing<\/a>","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--cut-and-sew-clothing-manufacturing.html\">Cut and sew clothing manufacturing<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--cutlery-and-hand-tool-manufacturing.html\">Cutlery and hand tool manufacturing<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--dairy-product-manufacturing.html\">Dairy product manufacturing<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--durable-goods.html\">Durable goods<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--electric-lighting-equipment-manufacturing.html\">Electric lighting equipment manufacturing<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--electrical-equipment-appliance-and-component-manufacturing.html\">Electrical equipment, appliance and component manufacturing<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--electrical-equipment-manufacturing.html\">Electrical equipment manufacturing<\/a>","Disaggregation combinations using this value":18,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--engine-turbine-and-power-transmission-equipment-manufacturing.html\">Engine, turbine and power transmission equipment manufacturing<\/a>","Disaggregation combinations using this value":14,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--fabric-mills.html\">Fabric mills<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--fabricated-metal-product-manufacturing.html\">Fabricated metal product manufacturing<\/a>","Disaggregation combinations using this value":27,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--fibre-yarn-and-thread-mills.html\">Fibre, yarn and thread mills<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--food-manufacturing.html\">Food manufacturing<\/a>","Disaggregation combinations using this value":33,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--footwear-manufacturing.html\">Footwear manufacturing<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--forging-and-stamping.html\">Forging and stamping<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--foundries.html\">Foundries<\/a>","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--fruit-and-vegetable-preserving-and-specialty-food-manufacturing.html\">Fruit and vegetable preserving and specialty food manufacturing<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--furniture-and-related-product-manufacturing.html\">Furniture and related product manufacturing<\/a>","Disaggregation combinations using this value":19,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--glass-and-glass-product-manufacturing.html\">Glass and glass product manufacturing<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--grain-and-oilseed-milling.html\">Grain and oilseed milling<\/a>","Disaggregation combinations using this value":16,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--hardware-manufacturing.html\">Hardware manufacturing<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--household-and-institutional-furniture-and-kitchen-cabinet-manufacturing.html\">Household and institutional furniture and kitchen cabinet manufacturing<\/a>","Disaggregation combinations using this value":24,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--household-appliance-manufacturing.html\">Household appliance manufacturing<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--industrial-machinery-manufacturing.html\">Industrial machinery manufacturing<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--iron-and-steel-mills-and-ferro-alloy-manufacturing.html\">Iron and steel mills and ferro-alloy manufacturing<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--leather-and-allied-product-manufacturing.html\">Leather and allied product manufacturing<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--leather-and-hide-tanning-and-finishing.html\">Leather and hide tanning and finishing<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--lime-and-gypsum-product-manufacturing.html\">Lime and gypsum product manufacturing<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--machine-shops-turned-product-and-screw-nut-and-bolt-manufacturing.html\">Machine shops, turned product, and screw, nut and bolt manufacturing<\/a>","Disaggregation combinations using this value":15,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--machinery-manufacturing.html\">Machinery manufacturing<\/a>","Disaggregation combinations using this value":27,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--manufacturing-and-reproducing-magnetic-and-optical-media.html\">Manufacturing and reproducing magnetic and optical media<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--manufacturing.html\">Manufacturing<\/a>","Disaggregation combinations using this value":32,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--meat-product-manufacturing.html\">Meat product manufacturing<\/a>","Disaggregation combinations using this value":22,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--medical-equipment-and-supplies-manufacturing.html\">Medical equipment and supplies manufacturing<\/a>","Disaggregation combinations using this value":23,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--metalworking-machinery-manufacturing.html\">Metalworking machinery manufacturing<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--miscellaneous-manufacturing.html\">Miscellaneous manufacturing<\/a>","Disaggregation combinations using this value":17,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--motor-vehicle-body-and-trailer-manufacturing.html\">Motor vehicle body and trailer manufacturing<\/a>","Disaggregation combinations using this value":15,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--motor-vehicle-manufacturing.html\">Motor vehicle manufacturing<\/a>","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--motor-vehicle-parts-manufacturing.html\">Motor vehicle parts manufacturing<\/a>","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--navigational-measuring-medical-and-control-instruments-manufacturing.html\">Navigational, measuring, medical and control instruments manufacturing<\/a>","Disaggregation combinations using this value":21,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--non-durable-goods.html\">Non-durable goods<\/a>","Disaggregation combinations using this value":31,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--non-ferrous-metal-except-aluminum-production-and-processing.html\">Non-ferrous metal (except aluminum) production and processing<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--non-metallic-mineral-product-manufacturing.html\">Non-metallic mineral product manufacturing<\/a>","Disaggregation combinations using this value":24,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--office-furniture-including-fixtures-manufacturing.html\">Office furniture (including fixtures) manufacturing<\/a>","Disaggregation combinations using this value":18,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-chemical-product-manufacturing.html\">Other chemical product manufacturing<\/a>","Disaggregation combinations using this value":15,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-electrical-equipment-and-component-manufacturing.html\">Other electrical equipment and component manufacturing<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-fabricated-metal-product-manufacturing.html\">Other fabricated metal product manufacturing<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-food-manufacturing.html\">Other food manufacturing<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-furniture-related-product-manufacturing.html\">Other furniture-related product manufacturing<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-general-purpose-machinery-manufacturing.html\">Other general-purpose machinery manufacturing<\/a>","Disaggregation combinations using this value":22,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-leather-and-allied-product-manufacturing.html\">Other leather and allied product manufacturing<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-miscellaneous-manufacturing.html\">Other miscellaneous manufacturing<\/a>","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-non-metallic-mineral-product-manufacturing.html\">Other non-metallic mineral product manufacturing<\/a>","Disaggregation combinations using this value":18,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-textile-product-mills.html\">Other textile product mills<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-transportation-equipment-manufacturing.html\">Other transportation equipment manufacturing<\/a>","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-wood-product-manufacturing.html\">Other wood product manufacturing<\/a>","Disaggregation combinations using this value":23,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--paint-coating-and-adhesive-manufacturing.html\">Paint, coating and adhesive manufacturing<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--paper-manufacturing.html\">Paper manufacturing<\/a>","Disaggregation combinations using this value":24,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--pesticide-fertilizer-and-other-agricultural-chemical-manufacturing.html\">Pesticide, fertilizer and other agricultural chemical manufacturing<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--petroleum-and-coal-product-manufacturing.html\">Petroleum and coal product manufacturing<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--pharmaceutical-and-medicine-manufacturing.html\">Pharmaceutical and medicine manufacturing<\/a>","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--plastic-product-manufacturing.html\">Plastic product manufacturing<\/a>","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--plastics-and-rubber-products-manufacturing.html\">Plastics and rubber products manufacturing<\/a>","Disaggregation combinations using this value":16,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--primary-metal-manufacturing.html\">Primary metal manufacturing<\/a>","Disaggregation combinations using this value":16,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--printing-and-related-support-activities.html\">Printing and related support activities<\/a>","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--pulp-paper-and-paperboard-mills.html\">Pulp, paper and paperboard mills<\/a>","Disaggregation combinations using this value":24,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--railroad-rolling-stock-manufacturing.html\">Railroad rolling stock manufacturing<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--resin-synthetic-rubber-and-artificial-and-synthetic-fibres-and-filaments-manuf.html\">Resin, synthetic rubber, and artificial and synthetic fibres and filaments manufacturing<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--rubber-product-manufacturing.html\">Rubber product manufacturing<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sawmills-and-wood-preservation.html\">Sawmills and wood preservation<\/a>","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--seafood-product-preparation-and-packaging.html\">Seafood product preparation and packaging<\/a>","Disaggregation combinations using this value":16,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--semiconductor-and-other-electronic-component-manufacturing.html\">Semiconductor and other electronic component manufacturing<\/a>","Disaggregation combinations using this value":14,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ship-and-boat-building.html\">Ship and boat building<\/a>","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--soap-cleaning-compound-and-toilet-preparation-manufacturing.html\">Soap, cleaning compound and toilet preparation manufacturing<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--spring-and-wire-product-manufacturing.html\">Spring and wire product manufacturing<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--steel-product-manufacturing-from-purchased-steel.html\">Steel product manufacturing from purchased steel<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sugar-and-confectionery-product-manufacturing.html\">Sugar and confectionery product manufacturing<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--textile-and-fabric-finishing-and-fabric-coating.html\">Textile and fabric finishing and fabric coating<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--textile-furnishings-mills.html\">Textile furnishings mills<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--textile-mills.html\">Textile mills<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--textile-product-mills.html\">Textile product mills<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tobacco-manufacturing.html\">Tobacco manufacturing<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--transportation-equipment-manufacturing.html\">Transportation equipment manufacturing<\/a>","Disaggregation combinations using this value":23,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--veneer-plywood-and-engineered-wood-product-manufacturing.html\">Veneer, plywood and engineered wood product manufacturing<\/a>","Disaggregation combinations using this value":19,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ventilation-heating-air-conditioning-and-commercial-refrigeration-equipment-ma.html\">Ventilation, heating, air-conditioning and commercial refrigeration equipment manufacturing<\/a>","Disaggregation combinations using this value":15,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--wood-product-manufacturing.html\">Wood product manufacturing<\/a>","Disaggregation combinations using this value":25,"Number of indicators":1}];
+            </script>
+            
+        </div>
+        <div>
+            <h2 id="indicators-using" tabindex="-1">Indicators using disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="indicators--disaggregation--industry.csv" role="button" class="btn btn-primary" aria-describedby="indicators--disaggregation--industry">Download CSV of indicators using this disaggregation</a>
+            <div id="indicators--disaggregation--industry" class="download-info">Size: 17 Bytes</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">1</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="indicators-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Indicator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#9-2-2</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['indicators-table'] = [{"Indicator":"#9-2-2"}];
+            </script>
+            
+        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script>
+            if (typeof sdgBuild !== 'undefined' && sdgBuild.tables) {
+                var tableIds = Object.keys(sdgBuild.tables);
+                for (var i = 0; i < tableIds.length; i++) {
+                    var tableId = tableIds[i];
+                    $('#' + tableId).openSdgTable(sdgBuild.tables[tableId]).find('td').each(function() {
+                        if (!isNaN($(this).text())) {
+                            $(this).css('text-align', 'right');
+                        }
+                    })
+                }
+            }
+            </script>
+        </html>
+        

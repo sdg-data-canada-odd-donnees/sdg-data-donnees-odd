@@ -194,6 +194,191 @@
       "title": "Death rate due to road traffic injuries"
     },
     {
+      "path": "9-2-2/data.csv",
+      "name": "9-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Industry",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Aerospace product and parts manufacturing",
+                "Agricultural, construction and mining machinery manufacturing",
+                "Alumina and aluminum production and processing",
+                "Animal food manufacturing",
+                "Architectural and structural metals manufacturing",
+                "Audio and video equipment manufacturing",
+                "Bakeries and tortilla manufacturing",
+                "Basic chemical manufacturing",
+                "Beverage and tobacco product manufacturing",
+                "Beverage manufacturing",
+                "Boiler, tank and shipping container manufacturing",
+                "Cannabis product manufacturing",
+                "Cement and concrete product manufacturing",
+                "Chemical manufacturing",
+                "Clay product and refractory manufacturing",
+                "Clothing accessories and other clothing manufacturing",
+                "Clothing knitting mills",
+                "Clothing manufacturing",
+                "Coating, engraving, cold and heat treating and allied activities",
+                "Commercial and service industry machinery manufacturing",
+                "Communications equipment manufacturing",
+                "Computer and electronic product manufacturing",
+                "Computer and peripheral equipment manufacturing",
+                "Converted paper product manufacturing",
+                "Cut and sew clothing manufacturing",
+                "Cutlery and hand tool manufacturing",
+                "Dairy product manufacturing",
+                "Durable goods",
+                "Electric lighting equipment manufacturing",
+                "Electrical equipment manufacturing",
+                "Electrical equipment, appliance and component manufacturing",
+                "Engine, turbine and power transmission equipment manufacturing",
+                "Fabric mills",
+                "Fabricated metal product manufacturing",
+                "Fibre, yarn and thread mills",
+                "Food manufacturing",
+                "Footwear manufacturing",
+                "Forging and stamping",
+                "Foundries",
+                "Fruit and vegetable preserving and specialty food manufacturing",
+                "Furniture and related product manufacturing",
+                "Glass and glass product manufacturing",
+                "Grain and oilseed milling",
+                "Hardware manufacturing",
+                "Household and institutional furniture and kitchen cabinet manufacturing",
+                "Household appliance manufacturing",
+                "Industrial machinery manufacturing",
+                "Iron and steel mills and ferro-alloy manufacturing",
+                "Leather and allied product manufacturing",
+                "Leather and hide tanning and finishing",
+                "Lime and gypsum product manufacturing",
+                "Machine shops, turned product, and screw, nut and bolt manufacturing",
+                "Machinery manufacturing",
+                "Manufacturing",
+                "Manufacturing and reproducing magnetic and optical media",
+                "Meat product manufacturing",
+                "Medical equipment and supplies manufacturing",
+                "Metalworking machinery manufacturing",
+                "Miscellaneous manufacturing",
+                "Motor vehicle body and trailer manufacturing",
+                "Motor vehicle manufacturing",
+                "Motor vehicle parts manufacturing",
+                "Navigational, measuring, medical and control instruments manufacturing",
+                "Non-durable goods",
+                "Non-ferrous metal (except aluminum) production and processing",
+                "Non-metallic mineral product manufacturing",
+                "Office furniture (including fixtures) manufacturing",
+                "Other chemical product manufacturing",
+                "Other electrical equipment and component manufacturing",
+                "Other fabricated metal product manufacturing",
+                "Other food manufacturing",
+                "Other furniture-related product manufacturing",
+                "Other general-purpose machinery manufacturing",
+                "Other leather and allied product manufacturing",
+                "Other miscellaneous manufacturing",
+                "Other non-metallic mineral product manufacturing",
+                "Other textile product mills",
+                "Other transportation equipment manufacturing",
+                "Other wood product manufacturing",
+                "Paint, coating and adhesive manufacturing",
+                "Paper manufacturing",
+                "Pesticide, fertilizer and other agricultural chemical manufacturing",
+                "Petroleum and coal product manufacturing",
+                "Pharmaceutical and medicine manufacturing",
+                "Plastic product manufacturing",
+                "Plastics and rubber products manufacturing",
+                "Primary metal manufacturing",
+                "Printing and related support activities",
+                "Pulp, paper and paperboard mills",
+                "Railroad rolling stock manufacturing",
+                "Resin, synthetic rubber, and artificial and synthetic fibres and filaments manufacturing",
+                "Rubber product manufacturing",
+                "Sawmills and wood preservation",
+                "Seafood product preparation and packaging",
+                "Semiconductor and other electronic component manufacturing",
+                "Ship and boat building",
+                "Soap, cleaning compound and toilet preparation manufacturing",
+                "Spring and wire product manufacturing",
+                "Steel product manufacturing from purchased steel",
+                "Sugar and confectionery product manufacturing",
+                "Textile and fabric finishing and fabric coating",
+                "Textile furnishings mills",
+                "Textile mills",
+                "Textile product mills",
+                "Tobacco manufacturing",
+                "Transportation equipment manufacturing",
+                "Veneer, plywood and engineered wood product manufacturing",
+                "Ventilation, heating, air-conditioning and commercial refrigeration equipment manufacturing",
+                "Wood product manufacturing"
+              ]
+            },
+            "title": "Industry"
+          },
+          {
+            "name": "Type of employee",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All employees",
+                "Employees paid by the hour",
+                "Salaried employees paid a fixed salary"
+              ]
+            },
+            "title": "Type of employee"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Manufacturing employment as a proportion of total employment"
+    },
+    {
       "path": "3-3-5/data.csv",
       "name": "3-3-5",
       "profile": "tabular-data-resource",
@@ -804,6 +989,47 @@
         ]
       },
       "title": "Tuberculosis incidence per 100,000 population"
+    },
+    {
+      "path": "11-1-1/data.csv",
+      "name": "11-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Selected housing vulnerable populations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Lone-parent family households whose reference person is female",
+                "Lone-parent family households whose reference person is male",
+                "Men living alone",
+                "Reference person who experienced homelessness",
+                "Total, lone-parent family households",
+                "Total, one person households",
+                "Women living alone"
+              ]
+            },
+            "title": "Selected housing vulnerable populations"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of urban population in core housing need"
     },
     {
       "path": "1-1-1/data.csv",
@@ -1447,6 +1673,88 @@
         ]
       },
       "title": "Proportion of individuals who own a mobile telephone, by sex"
+    },
+    {
+      "path": "10-2-1/data.csv",
+      "name": "10-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "Atlantic provinces",
+                "British Columbia",
+                "Calgary, Alberta",
+                "Canada",
+                "Edmonton, Alberta",
+                "Manitoba",
+                "Quebec, Montréal",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Ontario/Quebec, Ottawa-Gatineau",
+                "Prairie provinces",
+                "Prince Edward Island",
+                "Quebec",
+                "Quebec, Québec",
+                "Saskatchewan",
+                "Toronto, Ontario",
+                "Vancouver, British Columbia",
+                "Winnipeg, Manitoba"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Persons in low income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All persons",
+                "Females",
+                "Females, 18 to 64 years",
+                "Females, 65 years and over",
+                "Females, under 18 years",
+                "Males",
+                "Males, 18 to 64 years",
+                "Males, 65 years and over",
+                "Males, under 18 years",
+                "Persons 18 to 64 years",
+                "Persons 65 years and over",
+                "Persons under 18 years"
+              ]
+            },
+            "title": "Persons in low income"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities"
     },
     {
       "path": "1-2-1/data.csv",
@@ -4040,30 +4348,6 @@
       "title": "Number of countries with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications"
     },
     {
-      "path": "11-1-1/data.csv",
-      "name": "11-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of urban population living in slums, informal settlements or inadequate housing"
-    },
-    {
       "path": "17-7-1/data.csv",
       "name": "17-7-1",
       "profile": "tabular-data-resource",
@@ -5840,30 +6124,6 @@
       "title": "Agricultural export subsidies"
     },
     {
-      "path": "9-2-2/data.csv",
-      "name": "9-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Manufacturing employment as a proportion of total employment"
-    },
-    {
       "path": "12-4-1/data.csv",
       "name": "12-4-1",
       "profile": "tabular-data-resource",
@@ -6246,30 +6506,6 @@
         ]
       },
       "title": "Financial Soundness Indicators"
-    },
-    {
-      "path": "10-2-1/data.csv",
-      "name": "10-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities"
     },
     {
       "path": "16-10-1/data.csv",

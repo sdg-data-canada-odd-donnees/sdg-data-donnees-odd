@@ -194,6 +194,191 @@
       "title": "Taux de mortalité lié aux accidents de la route"
     },
     {
+      "path": "9-2-2/data.csv",
+      "name": "9-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Type of employee",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All employees",
+                "Salaried employees paid a fixed salary",
+                "Employees paid by the hour",
+                ""
+              ]
+            },
+            "title": "Type of employee"
+          },
+          {
+            "name": "Industry",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Biens non durables",
+                "Fabrication d’aliments",
+                "Fabrication d'aliments pour animaux",
+                "Mouture de grains céréaliers et de graines oléagineuses",
+                "Fabrication de sucre et de confiseries",
+                "Mise en conserve de fruits et de légumes et fabrication de spécialités alimentaires",
+                "Fabrication de produits laitiers",
+                "Fabrication de produits de viande",
+                "Préparation et conditionnement de poissons et de fruits de mer",
+                "Boulangeries et fabrication de tortillas",
+                "Fabrication d'autres aliments",
+                "Fabrication de boissons et de produits du tabac",
+                "Fabrication de boissons",
+                "Fabrication du tabac",
+                "Fabrication de produits du cannabis",
+                "Usines de textiles",
+                "Usines de fibres, de filés et de fils",
+                "Usines de tissus",
+                "Finissage de textiles et de tissus et revêtement de tissus",
+                "Usines de produits textiles",
+                "Usines de textiles domestiques",
+                "Usines d'autres produits textiles",
+                "Fabrication de vêtements",
+                "Usines de tricotage de vêtements",
+                "Fabrication de vêtements coupés-cousus",
+                "Fabrication d'accessoires vestimentaires et d'autres vêtements",
+                "Fabrication de produits en cuir et de produits analogues",
+                "Tannage et finissage du cuir et des peaux",
+                "Fabrication de chaussures",
+                "Fabrication d'autres produits en cuir et produits analogues",
+                "Fabrication du papier",
+                "Usines de pâte à papier, de papier et de carton",
+                "Fabrication de produits en papier transformé",
+                "Impression et activités connexes de soutien",
+                "Fabrication de produits du pétrole et du charbon",
+                "Fabrication de produits chimiques",
+                "Fabrication de produits chimiques de base",
+                "Fabrication de résines, de caoutchouc synthétique et de fibres et de filaments artificiels et synthétiques",
+                "Fabrication de pesticides, d'engrais et d'autres produits chimiques agricoles",
+                "Fabrication de produits pharmaceutiques et de médicaments",
+                "Fabrication de peintures, de revêtements et d'adhésifs",
+                "Fabrication de savons, de détachants et de produits de toilette",
+                "Fabrication d'autres produits chimiques",
+                "Fabrication de produits en plastique et en caoutchouc",
+                "Fabrication de produits en plastique",
+                "Fabrication de produits en caoutchouc",
+                "Biens durables",
+                "Fabrication de produits en bois",
+                "Scieries et préservation du bois",
+                "Fabrication de placages, de contreplaqués et de produits en bois reconstitué",
+                "Fabrication d'autres produits en bois",
+                "Fabrication de produits minéraux non métalliques",
+                "Fabrication de produits en argile et produits réfractaires",
+                "Fabrication de verre et de produits en verre",
+                "Fabrication de ciment et de produits en béton",
+                "Fabrication de chaux et de produits en gypse",
+                "Fabrication d'autres produits minéraux non métalliques",
+                "Première transformation des métaux",
+                "Sidérurgie",
+                "Fabrication de produits en acier à partir d'acier acheté",
+                "Production et transformation d'alumine et d'aluminium",
+                "Production et transformation de métaux non ferreux (sauf l'aluminium)",
+                "Fonderies",
+                "Fabrication de produits métalliques",
+                "Forgeage et estampage",
+                "Fabrication de coutellerie et d'outils à main",
+                "Fabrication de produits d'architecture et d'éléments de charpentes métalliques",
+                "Fabrication de chaudières, de réservoirs et de contenants d'expédition",
+                "Fabrication d'articles de quincaillerie",
+                "Fabrication de ressorts et de produits en fil métallique",
+                "Ateliers d'usinage, fabrication de produits tournés, de vis, d'écrous et de boulons",
+                "Revêtement, gravure, traitement thermique et par le froid, et activités analogues",
+                "Fabrication d'autres produits métalliques",
+                "Fabrication de machines",
+                "Fabrication de machines pour l'agriculture, la construction et l'extraction minière",
+                "Fabrication de machines industrielles",
+                "Fabrication de machines pour le commerce et les industries de services",
+                "Fabrication d'appareils de ventilation, de chauffage, de climatisation et de réfrigération commerciale",
+                "Fabrication de machines-outils pour le travail du métal",
+                "Fabrication de moteurs, de turbines et de matériel de transmission de puissance",
+                "Fabrication d'autres machines d'usage général",
+                "Fabrication de produits informatiques et électroniques",
+                "Fabrication de matériel informatique et périphérique",
+                "Fabrication de matériel de communication",
+                "Fabrication de matériel audio et vidéo",
+                "Fabrication de semi-conducteurs et d'autres composants électroniques",
+                "Fabrication d'instruments de navigation, de mesure et de commande et d'instruments médicaux",
+                "Fabrication et reproduction de supports magnétiques et optiques",
+                "Fabrication de matériel, d'appareils et de composants électriques",
+                "Fabrication de matériel électrique d'éclairage",
+                "Fabrication d'appareils ménagers",
+                "Fabrication de matériel électrique",
+                "Fabrication d'autres types de matériel et de composants électriques",
+                null,
+                "Fabrication de véhicules automobiles",
+                "Fabrication de carrosseries et de remorques de véhicules automobiles",
+                "Fabrication de pièces pour véhicules automobiles",
+                "Fabrication de produits aérospatiaux et de leurs pièces",
+                "Fabrication de matériel ferroviaire roulant",
+                "Construction de navires et d'embarcations",
+                "Fabrication d'autres types de matériel de transport",
+                "Fabrication de meubles et de produits connexes",
+                "Fabrication de meubles de maison et d'établissement institutionnel et d'armoires de cuisine",
+                "Fabrication de meubles de bureau (y compris les articles d'ameublement)",
+                "Fabrication d'autres produits connexes aux meubles",
+                "Activités diverses de fabrication",
+                "Fabrication de fournitures et de matériel médicaux",
+                "Autres activités diverses de fabrication",
+                "Fabrication",
+                ""
+              ]
+            },
+            "title": "Industrie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Emploi dans l’industrie manufacturière, en proportion de l’emploi total"
+    },
+    {
       "path": "3-3-5/data.csv",
       "name": "3-3-5",
       "profile": "tabular-data-resource",
@@ -804,6 +989,47 @@
         ]
       },
       "title": "Incidence de la tuberculose pour 100 000 habitants"
+    },
+    {
+      "path": "11-1-1/data.csv",
+      "name": "11-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Selected housing vulnerable populations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tous les ménages",
+                "Ménages comptant une famille monoparentale dont la personne de référence est un homme",
+                "Ménages comptant une famille monoparentale dont la personne de référence est une femme",
+                "Total, ménages comptant une personne seule",
+                "Hommes vivant seuls",
+                "Femmes vivant seules",
+                "Personne de référence qui a vécu une période d’itinérance",
+                ""
+              ]
+            },
+            "title": "Certaines population vulnérables en matière de logement"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de la population urbaine vivant dans des quartiers de taudis, des implantations sauvages ou des logements inadéquats"
     },
     {
       "path": "1-1-1/data.csv",
@@ -1447,6 +1673,88 @@
         ]
       },
       "title": "Proportion de la population possédant un téléphone portable, par sexe"
+    },
+    {
+      "path": "10-2-1/data.csv",
+      "name": "10-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Provinces de l'Atlantique",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Provinces des Prairies",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Québec, Québec",
+                "Montréal, Québec",
+                "Ottawa-Gatineau, Ontario/Québec",
+                "Toronto, Ontario",
+                "Winnipeg, Manitoba",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Vancouver, Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Persons in low income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personnes de moins de 18 ans",
+                "Personnes de 18 à 64 ans",
+                "Personnes de 65 ans et plus",
+                "Hommes",
+                "Hommes, moins de 18 ans",
+                "Hommes, 18 à 64 ans",
+                "Hommes, 65 ans et plus",
+                "Femmes",
+                "Femmes, moins de 18 ans",
+                "Femmes, 18 à 64 ans",
+                "Femmes, 65 ans et plus",
+                "Toutes les personnes",
+                ""
+              ]
+            },
+            "title": "Personnes à faible revenu"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de personnes vivant avec moins de la moitié du revenu médian, par sexe, âge et situation au regard du handicap"
     },
     {
       "path": "1-2-1/data.csv",
@@ -4040,30 +4348,6 @@
       "title": "Nombre de pays ayant prévu des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, tel qu’il ressort des communications relatives à l’adaptation et des communications nationales (repris à l’indicateur proposé en remplacement de l’indicateur 13.b.1, avec une modification mineure)"
     },
     {
-      "path": "11-1-1/data.csv",
-      "name": "11-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de la population urbaine vivant dans des quartiers de taudis, des implantations sauvages ou des logements inadéquats"
-    },
-    {
       "path": "17-7-1/data.csv",
       "name": "17-7-1",
       "profile": "tabular-data-resource",
@@ -5840,30 +6124,6 @@
       "title": "Subventions à l’exportation dans le secteur agricole"
     },
     {
-      "path": "9-2-2/data.csv",
-      "name": "9-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Emploi dans l’industrie manufacturière, en proportion de l’emploi total"
-    },
-    {
       "path": "12-4-1/data.csv",
       "name": "12-4-1",
       "profile": "tabular-data-resource",
@@ -6246,30 +6506,6 @@
         ]
       },
       "title": "Indicateurs de solidité financière"
-    },
-    {
-      "path": "10-2-1/data.csv",
-      "name": "10-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de personnes vivant avec moins de la moitié du revenu médian, par sexe, âge et situation au regard du handicap"
     },
     {
       "path": "16-10-1/data.csv",

@@ -12,8 +12,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Selected housing vulnerable populations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tous les ménages",
+                "Ménages comptant une famille monoparentale dont la personne de référence est un homme",
+                "Ménages comptant une famille monoparentale dont la personne de référence est une femme",
+                "Total, ménages comptant une personne seule",
+                "Hommes vivant seuls",
+                "Femmes vivant seules",
+                "Personne de référence qui a vécu une période d’itinérance",
+                ""
+              ]
+            },
+            "title": "Certaines population vulnérables en matière de logement"
           },
           {
             "name": "Value",
