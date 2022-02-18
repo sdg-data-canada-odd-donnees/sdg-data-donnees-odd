@@ -5,12 +5,10 @@ SDG_TARGET: '<p>Target 9.5: Enhance scientific research, upgrade the technologic
   including, by 2030, encouraging innovation and substantially increasing the number
   of research and development workers per 1 million people and public and private
   research and development spending</p>'
-SDG_INDICATOR: '<p>Indicator 9.5.2: Researchers (in full-time equivalent) per million
-  inhabitants</p>'
-STAT_CONC_DEF: <p>The researchers (in full-time equivalent) per million inhabitants
-  is a direct measure of the number of research and development workers per 1 million
-  people.</p>
-DATA_COMP: '   '
+SDG_INDICATOR: '<p>Indicator 9.5.2: Researchers (in full-time equivalent) per million inhabitants</p>'
+STAT_CONC_DEF: '    '
+UNIT_OF_MEASURE: Rate per 1,000,000
+DATA_COMP: ((Researchers + On-site Contractors) / Population estimate, Ages 15 and above) * 1,000,000
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
   sustainable industrialization and foster innovation</p>'
