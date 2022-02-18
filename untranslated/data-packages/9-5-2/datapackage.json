@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Type of science",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Natural sciences and engineering",
+                "Social sciences and humanities",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

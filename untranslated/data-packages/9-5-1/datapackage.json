@@ -12,7 +12,47 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon, Northwest Territories and Nunavut",
+                "National Capital Region, Ontario/Quebec",
+                "National Capital Region, Quebec",
+                "National Capital Region, Ontario",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Science type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Natural sciences and engineering",
+                "Social sciences, humanities and the arts",
+                "Total sciences",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
