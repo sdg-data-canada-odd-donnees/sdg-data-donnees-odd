@@ -26,6 +26,12 @@ SDG_TARGET__GLOBAL: '<p>Cible 10.c : D’ici à 2030, faire baisser au-dessous d
   les circuits d’envois de fonds dont les coûts sont supérieurs à 5 pour cent</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 10.c.1: Coûts des envois de fonds en proportion
   du montant transféré</p>'
-
-reporting_status: notstarted
+source_active_1: 'true'
+source_url_text_1: "Étude sur les transferts de fonds internationaux"
+source_organisation_1: Statistique Canada
+source_periodicity_1: Une fois
+source_geographical_coverage_1: Canada
+source_url_1: https://www150.statcan.gc.ca/n1/pub/75-006-x/2020001/article/00006-fra.htm
+COVERAGE: Canada
+UNIT_OF_MEASURE: Percentage
 
