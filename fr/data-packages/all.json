@@ -1135,6 +1135,106 @@
       "title": "Proportion de la population urbaine vivant dans des quartiers de taudis, des implantations sauvages ou des logements inadéquats"
     },
     {
+      "path": "11-2-1/data.csv",
+      "name": "11-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terre-Neuve-et-Labrador",
+                "St. John's, Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Halifax, Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Moncton, Nouveau-Brunswick",
+                "Saint John, Nouveau-Brunswick",
+                "Québec",
+                "Montréal, Québec",
+                "Ottawa - Gatineau (partie du Québec), Québec",
+                "Québec, Québec",
+                "Saguenay, Québec",
+                "Sherbrooke, Québec",
+                "Trois-Rivières, Québec",
+                "Ontario",
+                "Barrie, Ontario",
+                "Belleville, Ontario",
+                "Brantford, Ontario",
+                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Hamilton, Ontario",
+                "Kingston, Ontario",
+                "Kitchener - Cambridge - Waterloo, Ontario",
+                "London, Ontario",
+                "Oshawa, Ontario",
+                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
+                "Peterborough, Ontario",
+                "St. Catharines - Niagara, Ontario",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
+                "Windsor, Ontario",
+                "Manitoba",
+                "Winnipeg, Manitoba",
+                "Saskatchewan",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Alberta",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Lethbridge, Alberta",
+                "Colombie-Britannique",
+                "Abbotsford - Mission, Colombie-Britannique",
+                "Kelowna, Colombie-Britannique",
+                "Vancouver, Colombie-Britannique",
+                "Victoria, Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Census divisions",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Census subdivisions in a census agglomeration",
+                "Area outside census metropolitan areas and census agglomeration",
+                ""
+              ]
+            },
+            "title": "Census divisions"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de la population ayant aisément accès aux transports publics, par âge, sexe et situation au regard du handicap"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -4863,30 +4963,6 @@
         ]
       },
       "title": "Empreinte matérielle, empreinte matérielle par habitant et empreinte matérielle par unité de PIB"
-    },
-    {
-      "path": "11-2-1/data.csv",
-      "name": "11-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de la population ayant aisément accès aux transports publics, par âge, sexe et situation au regard du handicap"
     },
     {
       "path": "12-3-1/data.csv",

@@ -12,8 +12,84 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terre-Neuve-et-Labrador",
+                "St. John's, Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Halifax, Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Moncton, Nouveau-Brunswick",
+                "Saint John, Nouveau-Brunswick",
+                "Québec",
+                "Montréal, Québec",
+                "Ottawa - Gatineau (partie du Québec), Québec",
+                "Québec, Québec",
+                "Saguenay, Québec",
+                "Sherbrooke, Québec",
+                "Trois-Rivières, Québec",
+                "Ontario",
+                "Barrie, Ontario",
+                "Belleville, Ontario",
+                "Brantford, Ontario",
+                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Hamilton, Ontario",
+                "Kingston, Ontario",
+                "Kitchener - Cambridge - Waterloo, Ontario",
+                "London, Ontario",
+                "Oshawa, Ontario",
+                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
+                "Peterborough, Ontario",
+                "St. Catharines - Niagara, Ontario",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
+                "Windsor, Ontario",
+                "Manitoba",
+                "Winnipeg, Manitoba",
+                "Saskatchewan",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Alberta",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Lethbridge, Alberta",
+                "Colombie-Britannique",
+                "Abbotsford - Mission, Colombie-Britannique",
+                "Kelowna, Colombie-Britannique",
+                "Vancouver, Colombie-Britannique",
+                "Victoria, Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Census divisions",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Census subdivisions in a census agglomeration",
+                "Area outside census metropolitan areas and census agglomeration",
+                ""
+              ]
+            },
+            "title": "Census divisions"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

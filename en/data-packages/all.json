@@ -1135,6 +1135,106 @@
       "title": "Proportion of urban population in core housing need"
     },
     {
+      "path": "11-2-1/data.csv",
+      "name": "11-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Census divisions",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Area outside census metropolitan areas and census agglomeration",
+                "Census subdivisions in a census agglomeration"
+              ]
+            },
+            "title": "Census divisions"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Abbotsford - Mission, British Columbia",
+                "Alberta",
+                "Barrie, Ontario",
+                "Belleville, Ontario",
+                "Brantford, Ontario",
+                "British Columbia",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Halifax, Nova Scotia",
+                "Hamilton, Ontario",
+                "Kelowna, British Columbia",
+                "Kingston, Ontario",
+                "Kitchener - Cambridge - Waterloo, Ontario",
+                "Lethbridge, Alberta",
+                "London, Ontario",
+                "Manitoba",
+                "Moncton, New Brunswick",
+                "Quebec, Montréal",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Oshawa, Ontario",
+                "Ottawa - Gatineau (Ontario part), Ontario",
+                "Ottawa - Gatineau (Quebec part), Quebec",
+                "Peterborough, Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Quebec, Québec",
+                "Regina, Saskatchewan",
+                "Saguenay, Quebec",
+                "Saint John, New Brunswick",
+                "Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Sherbrooke, Quebec",
+                "St. Catharines - Niagara, Ontario",
+                "St. John's, Newfoundland and Labrador",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
+                "Trois-Rivières, Quebec",
+                "Vancouver, British Columbia",
+                "Victoria, British Columbia",
+                "Windsor, Ontario",
+                "Winnipeg, Manitoba",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -4863,30 +4963,6 @@
         ]
       },
       "title": "Material footprint, material footprint per capita, and material footprint per GDP"
-    },
-    {
-      "path": "11-2-1/data.csv",
-      "name": "11-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities"
     },
     {
       "path": "12-3-1/data.csv",
