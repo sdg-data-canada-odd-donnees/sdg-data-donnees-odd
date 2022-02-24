@@ -1778,6 +1778,60 @@
       "title": "Proportion of individuals who own a mobile telephone, by sex"
     },
     {
+      "path": "10-4-1/data.csv",
+      "name": "10-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Northwest Territories including Nunavut",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Outside Canada",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Labour share of GDP"
+    },
+    {
       "path": "10-2-1/data.csv",
       "name": "10-2-1",
       "profile": "tabular-data-resource",
@@ -4857,30 +4911,6 @@
         ]
       },
       "title": "(a) Food loss index and (b) food waste index"
-    },
-    {
-      "path": "10-4-1/data.csv",
-      "name": "10-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Labour share of GDP"
     },
     {
       "path": "10-6-1/data.csv",

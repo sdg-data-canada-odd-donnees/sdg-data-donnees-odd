@@ -1778,6 +1778,60 @@
       "title": "Proportion de la population possédant un téléphone portable, par sexe"
     },
     {
+      "path": "10-4-1/data.csv",
+      "name": "10-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Outside Canada",
+                "Northwest Territories including Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Part du travail dans le PIB"
+    },
+    {
       "path": "10-2-1/data.csv",
       "name": "10-2-1",
       "profile": "tabular-data-resource",
@@ -4857,30 +4911,6 @@
         ]
       },
       "title": "a) Indice des pertes alimentaires ; b) indice du gaspillage alimentaire"
-    },
-    {
-      "path": "10-4-1/data.csv",
-      "name": "10-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Part du travail dans le PIB"
     },
     {
       "path": "10-6-1/data.csv",

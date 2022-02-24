@@ -11,13 +11,43 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Northwest Territories including Nunavut",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Outside Canada",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]
