@@ -1,25 +1,25 @@
 Year,Geography,GeoCode,Value
-2000,,NA,49.91
-2001,,NA,50.22
-2002,,NA,50.03
-2003,,NA,49.51
-2004,,NA,49.17
-2005,,NA,48.78
-2006,,NA,49.33
-2007,,NA,49.69
-2008,,NA,49.47
-2009,,NA,51.68
-2010,,NA,50.28
-2011,,NA,49.78
-2012,,NA,50.54
-2013,,NA,50.53
-2014,,NA,50.05
-2015,,NA,51.59
-2016,,NA,50.68
-2017,,NA,49.98
-2018,,NA,50.41
-2019,,NA,50.8
-2020,,NA,52.54
+2000,"",,49.91
+2001,"",,50.22
+2002,"",,50.03
+2003,"",,49.51
+2004,"",,49.17
+2005,"",,48.78
+2006,"",,49.33
+2007,"",,49.69
+2008,"",,49.47
+2009,"",,51.68
+2010,"",,50.28
+2011,"",,49.78
+2012,"",,50.54
+2013,"",,50.53
+2014,"",,50.05
+2015,"",,51.59
+2016,"",,50.68
+2017,"",,49.98
+2018,"",,50.41
+2019,"",,50.8
+2020,"",,52.54
 2000,Newfoundland and Labrador,10,44.72
 2000,Prince Edward Island,11,51.18
 2000,Nova Scotia,12,52.07
@@ -33,7 +33,7 @@ Year,Geography,GeoCode,Value
 2000,Yukon,60,53.17
 2000,Northwest Territories,61,42.06
 2000,Nunavut,62,53.98
-2000,Outside Canada,NA,87.82
+2000,Outside Canada,,87.82
 2001,Newfoundland and Labrador,10,45.89
 2001,Prince Edward Island,11,51.97
 2001,Nova Scotia,12,51.39
@@ -47,7 +47,7 @@ Year,Geography,GeoCode,Value
 2001,Yukon,60,51.64
 2001,Northwest Territories,61,41.06
 2001,Nunavut,62,59.74
-2001,Outside Canada,NA,88.59
+2001,Outside Canada,,88.59
 2002,Newfoundland and Labrador,10,41.1
 2002,Prince Edward Island,11,50.85
 2002,Nova Scotia,12,51.77
@@ -61,7 +61,7 @@ Year,Geography,GeoCode,Value
 2002,Yukon,60,55.24
 2002,Northwest Territories,61,43.59
 2002,Nunavut,62,62
-2002,Outside Canada,NA,88.38
+2002,Outside Canada,,88.38
 2003,Newfoundland and Labrador,10,39.43
 2003,Prince Edward Island,11,52.07
 2003,Nova Scotia,12,50.49
@@ -75,7 +75,7 @@ Year,Geography,GeoCode,Value
 2003,Yukon,60,52.94
 2003,Northwest Territories,61,36.52
 2003,Nunavut,62,64.11
-2003,Outside Canada,NA,89.18
+2003,Outside Canada,,89.18
 2004,Newfoundland and Labrador,10,38.52
 2004,Prince Edward Island,11,51.72
 2004,Nova Scotia,12,50.68
@@ -89,7 +89,7 @@ Year,Geography,GeoCode,Value
 2004,Yukon,60,52.76
 2004,Northwest Territories,61,33.63
 2004,Nunavut,62,63.21
-2004,Outside Canada,NA,90.02
+2004,Outside Canada,,90.02
 2005,Newfoundland and Labrador,10,35.01
 2005,Prince Edward Island,11,50.37
 2005,Nova Scotia,12,50.69
@@ -103,7 +103,7 @@ Year,Geography,GeoCode,Value
 2005,Yukon,60,51.94
 2005,Northwest Territories,61,36.52
 2005,Nunavut,62,63.63
-2005,Outside Canada,NA,91.49
+2005,Outside Canada,,91.49
 2006,Newfoundland and Labrador,10,33.34
 2006,Prince Edward Island,11,50.61
 2006,Nova Scotia,12,51.52
@@ -117,7 +117,7 @@ Year,Geography,GeoCode,Value
 2006,Yukon,60,52.32
 2006,Northwest Territories,61,39.59
 2006,Nunavut,62,63.29
-2006,Outside Canada,NA,89.48
+2006,Outside Canada,,89.48
 2007,Newfoundland and Labrador,10,30.34
 2007,Prince Edward Island,11,50.43
 2007,Nova Scotia,12,51.48
@@ -131,7 +131,7 @@ Year,Geography,GeoCode,Value
 2007,Yukon,60,54.66
 2007,Northwest Territories,61,42.99
 2007,Nunavut,62,62.4
-2007,Outside Canada,NA,89.51
+2007,Outside Canada,,89.51
 2008,Newfoundland and Labrador,10,29.99
 2008,Prince Edward Island,11,51.88
 2008,Nova Scotia,12,51.81
@@ -145,7 +145,7 @@ Year,Geography,GeoCode,Value
 2008,Yukon,60,51.66
 2008,Northwest Territories,61,41.45
 2008,Nunavut,62,59.29
-2008,Outside Canada,NA,90.13
+2008,Outside Canada,,90.13
 2009,Newfoundland and Labrador,10,40.61
 2009,Prince Edward Island,11,52.52
 2009,Nova Scotia,12,53.75
@@ -159,7 +159,7 @@ Year,Geography,GeoCode,Value
 2009,Yukon,60,50.82
 2009,Northwest Territories,61,48.95
 2009,Nunavut,62,63.85
-2009,Outside Canada,NA,90
+2009,Outside Canada,,90
 2010,Newfoundland and Labrador,10,37.02
 2010,Prince Edward Island,11,51.33
 2010,Nova Scotia,12,52.47
@@ -173,7 +173,7 @@ Year,Geography,GeoCode,Value
 2010,Yukon,60,51.99
 2010,Northwest Territories,61,42.45
 2010,Nunavut,62,57.13
-2010,Outside Canada,NA,90.03
+2010,Outside Canada,,90.03
 2011,Newfoundland and Labrador,10,35.16
 2011,Prince Edward Island,11,51.64
 2011,Nova Scotia,12,52.97
@@ -187,7 +187,7 @@ Year,Geography,GeoCode,Value
 2011,Yukon,60,53.19
 2011,Northwest Territories,61,45.5
 2011,Nunavut,62,58.99
-2011,Outside Canada,NA,89.65
+2011,Outside Canada,,89.65
 2012,Newfoundland and Labrador,10,40.02
 2012,Prince Edward Island,11,51.63
 2012,Nova Scotia,12,53.64
@@ -201,7 +201,7 @@ Year,Geography,GeoCode,Value
 2012,Yukon,60,54.3
 2012,Northwest Territories,61,50.43
 2012,Nunavut,62,57.32
-2012,Outside Canada,NA,89.31
+2012,Outside Canada,,89.31
 2013,Newfoundland and Labrador,10,40.24
 2013,Prince Edward Island,11,51.18
 2013,Nova Scotia,12,53.81
@@ -215,7 +215,7 @@ Year,Geography,GeoCode,Value
 2013,Yukon,60,52.37
 2013,Northwest Territories,61,51.05
 2013,Nunavut,62,56.64
-2013,Outside Canada,NA,89.26
+2013,Outside Canada,,89.26
 2014,Newfoundland and Labrador,10,41.89
 2014,Prince Edward Island,11,51.79
 2014,Nova Scotia,12,53.47
@@ -229,7 +229,7 @@ Year,Geography,GeoCode,Value
 2014,Yukon,60,51.06
 2014,Northwest Territories,61,49.41
 2014,Nunavut,62,57.74
-2014,Outside Canada,NA,90
+2014,Outside Canada,,90
 2015,Newfoundland and Labrador,10,48.05
 2015,Prince Edward Island,11,50.69
 2015,Nova Scotia,12,53.52
@@ -243,7 +243,7 @@ Year,Geography,GeoCode,Value
 2015,Yukon,60,53.41
 2015,Northwest Territories,61,53.76
 2015,Nunavut,62,60.39
-2015,Outside Canada,NA,89.8
+2015,Outside Canada,,89.8
 2016,Newfoundland and Labrador,10,46.89
 2016,Prince Edward Island,11,49.69
 2016,Nova Scotia,12,52.67
@@ -257,7 +257,7 @@ Year,Geography,GeoCode,Value
 2016,Yukon,60,52.1
 2016,Northwest Territories,61,54.9
 2016,Nunavut,62,58.95
-2016,Outside Canada,NA,90.11
+2016,Outside Canada,,90.11
 2017,Newfoundland and Labrador,10,43.12
 2017,Prince Edward Island,11,49.22
 2017,Nova Scotia,12,52.36
@@ -271,7 +271,7 @@ Year,Geography,GeoCode,Value
 2017,Yukon,60,53.59
 2017,Northwest Territories,61,52.52
 2017,Nunavut,62,54.47
-2017,Outside Canada,NA,90.35
+2017,Outside Canada,,90.35
 2018,Newfoundland and Labrador,10,41.37
 2018,Prince Edward Island,11,49.85
 2018,Nova Scotia,12,53.36
@@ -283,10 +283,10 @@ Year,Geography,GeoCode,Value
 2018,Alberta,48,46.64
 2018,British Columbia,59,48.58
 2018,Yukon,60,55.5
-2018,Northwest Territories including Nunavut,NA,NA
+2018,Northwest Territories including Nunavut,,
 2018,Northwest Territories,61,52.42
 2018,Nunavut,62,57.13
-2018,Outside Canada,NA,90.46
+2018,Outside Canada,,90.46
 2019,Newfoundland and Labrador,10,41.29
 2019,Prince Edward Island,11,49.81
 2019,Nova Scotia,12,52.73
@@ -298,10 +298,10 @@ Year,Geography,GeoCode,Value
 2019,Alberta,48,46.77
 2019,British Columbia,59,49.06
 2019,Yukon,60,58.63
-2019,Northwest Territories including Nunavut,NA,NA
+2019,Northwest Territories including Nunavut,,
 2019,Northwest Territories,61,54.53
 2019,Nunavut,62,57.09
-2019,Outside Canada,NA,91.21
+2019,Outside Canada,,91.21
 2020,Newfoundland and Labrador,10,43.95
 2020,Prince Edward Island,11,50.15
 2020,Nova Scotia,12,52.45
@@ -313,7 +313,7 @@ Year,Geography,GeoCode,Value
 2020,Alberta,48,51.87
 2020,British Columbia,59,49.31
 2020,Yukon,60,56.63
-2020,Northwest Territories including Nunavut,NA,NA
+2020,Northwest Territories including Nunavut,,
 2020,Northwest Territories,61,56.36
 2020,Nunavut,62,52.07
-2020,Outside Canada,NA,90.94
+2020,Outside Canada,,90.94
