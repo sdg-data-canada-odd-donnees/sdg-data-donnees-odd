@@ -1,21 +1,26 @@
 SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
+SDG_TARGET: >-
+    Cible 10.4: Adopter des politiques, notamment sur les plans budgétaires, salariales et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité
+SDG_INDICATOR: >-
+    Indicateur 10.4.1: Part du travail dans le PIB
+UNIT_OF_MEASURE: Percentage
 STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+DATA_COMP: >-
+    ( Rémunération des salariés / Produit intérieur brut aux prix du marché ) * 100
+REC_USE_LIM: >-
+    Dans les Comptes provinciaux et territoriaux du produit intérieur brut en termes de revenus et de dépenses (CEPT) les totaux pour le Canada diffèrent des estimations des Comptes nationaux du produit intérieur brut en termes de revenus et de dépenses (CRD), à certains moments de l'année. Les deux comptes sont réalignés lorsque les révisions annuelles sont incorporées.
 SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
   à l’autre</p>'
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_TARGET__GLOBAL: >-
+    Cible 10.4: Adopter des politiques, notamment sur les plans budgétaires, salariales et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité
+SDG_INDICATOR__GLOBAL: >-
+    Indicateur 10.4.1: Part du travail dans le PIB
 
 source_active_1: 'true'
-source_url_text_1: Statistique Canada. Table 36-10-0103-01  Gross domestic product,
-  income-based, quarterly (x 1,000,000)
+source_url_text_1: Statistique Canada. Tableau 36-10-0221-01  Produit intérieur brut, en termes de revenus, provinciaux et territoriaux, annuel (x 1 000 000)
 source_organisation_1: Statistique Canada
-source_periodicity_1: Quarterly
-source_geographical_coverage_1: Canada
-source_url_1: https://doi.org/10.25318/3610010301-fra
-reporting_status: complete
-COVERAGE: Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada, Province or territory
+source_url_1: https://doi.org/10.25318/3610022101-fra
+COVERAGE: Canada, Province or territory
 
