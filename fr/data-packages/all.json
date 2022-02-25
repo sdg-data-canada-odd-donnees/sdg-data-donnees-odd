@@ -1827,6 +1827,69 @@
       "title": "Taux de mortalité par suicide"
     },
     {
+      "path": "11-6-1/data.csv",
+      "name": "11-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon, Territoires du Nord-Ouest et Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Sources of waste for disposal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les sources de déchets à des fins d'élimination",
+                "Sources de déchets non résidentielles à des fins d'élimination",
+                "Sources de déchets résidentielles à des fins d'élimination",
+                ""
+              ]
+            },
+            "title": "Sources des déchets à des fins d'élimination"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de déchets municipaux solides collectés et gérés dans des installations contrôlées sur le total des déchets municipaux générés, par ville"
+    },
+    {
       "path": "5-b-1/data.csv",
       "name": "5-b-1",
       "profile": "tabular-data-resource",
@@ -5899,30 +5962,6 @@
         ]
       },
       "title": "Nombre d’entreprises qui publient des rapports sur le développement durable"
-    },
-    {
-      "path": "11-6-1/data.csv",
-      "name": "11-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de déchets municipaux solides collectés et gérés dans des installations contrôlées sur le total des déchets municipaux générés, par ville"
     },
     {
       "path": "4-2-2/data.csv",

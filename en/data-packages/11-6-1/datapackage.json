@@ -11,13 +11,52 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon, Northwest Territories and Nunavut"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Sources of waste for disposal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All sources of waste for disposal",
+                "Non-residential sources of waste for disposal",
+                "Residential sources of waste for disposal"
+              ]
+            },
+            "title": "Sources of waste for disposal"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]
