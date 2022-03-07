@@ -2,7 +2,7 @@ SDG_GOAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres
   veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
   et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET: '<p>Cible 15.1 : D’ici à 2020, garantir la préservation, la restauration
+SDG_TARGET: '<p>Cible 15.1: D’ici à 2020, garantir la préservation, la restauration
   et l’exploitation durable des écosystèmes terrestres et des écosystèmes d’eau douce
   et des services connexes, en particulier des forêts, des zones humides, des montagnes
   et des zones arides, conformément aux obligations découlant des accords internationaux</p>'
@@ -15,12 +15,17 @@ SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes te
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
   et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 15.1 : D’ici à 2020, garantir la préservation, la restauration
+SDG_TARGET__GLOBAL: '<p>Cible 15.1: D’ici à 2020, garantir la préservation, la restauration
   et l’exploitation durable des écosystèmes terrestres et des écosystèmes d’eau douce
   et des services connexes, en particulier des forêts, des zones humides, des montagnes
   et des zones arides, conformément aux obligations découlant des accords internationaux</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 15.1.1 : Surface des zones forestières, en proportion
   de la surface terrestre</p>'
-
-reporting_status: notstarted
-
+source_active_1: 'true'
+source_other_info_1: Anglais seulement
+source_url_text_1: "Évaluation des ressources forestières mondiales 2020 (PDF)"
+source_url_1: http://www.fao.org/3/ca9983en/ca9983en.pdf
+source_organisation_1: Ressources naturelles Canada (RNCan)
+source_geographical_coverage_1: Canada
+COVERAGE: Canada
+UNIT_OF_MEASURE: Percentage
