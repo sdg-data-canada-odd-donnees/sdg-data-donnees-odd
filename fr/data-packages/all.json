@@ -1651,6 +1651,54 @@
       "title": "a) aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité et b) produits générés et fonds mobilisés par les instruments économiques en rapport avec la biodiversité"
     },
     {
+      "path": "11-6-2/data.csv",
+      "name": "11-6-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Niveau moyen annuel de particules fines (PM 2,5 et PM 10, par exemple) dans les villes, pondéré en fonction du nombre d’habitants"
+    },
+    {
+      "path": "14-4-1/data.csv",
+      "name": "14-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de stocks de poissons dont le niveau est biologiquement viable"
+    },
+    {
       "path": "3-3-3/data.csv",
       "name": "3-3-3",
       "profile": "tabular-data-resource",
@@ -1685,6 +1733,30 @@
         ]
       },
       "title": "Incidence du paludisme pour 1 000 habitants"
+    },
+    {
+      "path": "15-1-1/data.csv",
+      "name": "15-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Surface des zones forestières, en proportion de la surface terrestre"
     },
     {
       "path": "5-5-1/data.csv",
@@ -4836,30 +4908,6 @@
       "title": "Nombre de pays les moins avancés et de petits États insulaires en développement ayant prévu des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, tel qu’il ressort des communications relatives à l’adaptation et des communications nationales (reprend l’indicateur proposé en remplacement de l’indicateur 13.2.1, avec une modification mineure)"
     },
     {
-      "path": "15-1-1/data.csv",
-      "name": "15-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Surface des zones forestières, en proportion de la surface terrestre"
-    },
-    {
       "path": "17-3-1/data.csv",
       "name": "17-3-1",
       "profile": "tabular-data-resource",
@@ -5316,30 +5364,6 @@
       "title": "Valeur totale des flux financiers illicites entrants et sortants (en dollars des États‐Unis courants)"
     },
     {
-      "path": "11-6-2/data.csv",
-      "name": "11-6-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Niveau moyen annuel de particules fines (PM 2,5 et PM 10, par exemple) dans les villes, pondéré en fonction du nombre d’habitants"
-    },
-    {
       "path": "11-5-1/data.csv",
       "name": "11-5-1",
       "profile": "tabular-data-resource",
@@ -5530,30 +5554,6 @@
         ]
       },
       "title": "Nombre de pays faisant état de progrès dans la mise en place de cadres multipartites de suivi de l’efficacité du développement favorisant la réalisation des objectifs de développement durable"
-    },
-    {
-      "path": "14-4-1/data.csv",
-      "name": "14-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de stocks de poissons dont le niveau est biologiquement viable"
     },
     {
       "path": "14-3-1/data.csv",
