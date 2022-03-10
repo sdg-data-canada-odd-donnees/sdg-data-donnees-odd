@@ -5,10 +5,9 @@ SDG_TARGET: '<p>Target 16.2: End abuse, exploitation, trafficking and all forms 
   violence against and torture of children</p>'
 SDG_INDICATOR: '<p>Indicator 16.2.3: Proportion of young women and men aged 18-29
   years who experienced sexual violence by age 18</p>'
-STAT_CONC_DEF: <p>Proportion of young women and men aged 18-29 years who experienced
-  sexual violence by age 18</p>
+STAT_CONC_DEF: '    '
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: 'Percent calculation includes all Canadians 15 years of age and older. Sexual violence includes incidents which occurred before the victim was 15 years of age, and only those incidents committed by an adult.'
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
   development, provide access to justice for all and build effective, accountable
   and inclusive institutions at all levels</p>'
@@ -21,3 +20,10 @@ un_custodian_agency: United Nations Children's Fund (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-03.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 208
   KB)
+source_active_1: 'true'
+source_url_text_1: "Self-reported child maltreatment, by sex, Canada, 2014"
+source_url_1: https://www150.statcan.gc.ca/n1/pub/85-002-x/2017001/article/14698/tbl/tbl1.1-eng.htm
+source_organisation_1: Statistics Canada
+source_geographical_coverage_1: Canada
+COVERAGE: Canada
+UNIT_OF_MEASURE: Percentage of Canadians 15 years of age and older
