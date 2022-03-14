@@ -1,20 +1,26 @@
-SDG_GOAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
-  mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET: '<p>Cible 17.3: Mobiliser des ressources financières supplémentaires de
-  diverses provenances en faveur des pays en développement</p>'
-SDG_INDICATOR: '<p>Indicateur 17.3.2: Volume des envois de fonds de travailleurs migrants
-  (en dollars des États‑Unis) en proportion du PIB total</p>'
+SDG_GOAL: >-
+    <p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable et le revitaliser</p>
+SDG_TARGET: >-
+    <p>Cible 17.3: Mobiliser des ressources financières supplémentaires de diverses provenances en faveur des pays en développement</p>
+SDG_INDICATOR: >-
+    <p>Indicateur 17.3.2: IND Volume des envois de fonds de travailleurs migrants (en dollars des États-Unis) en proportion du PIB total</p>
 STAT_CONC_DEF: <p>La part des envois de fonds reçus par les particuliers en proportion
   du PIB correspond aux envois totaux reçus par les particuliers exprimés en pourcentage
   du produit intérieur brut (PIB).</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
-  mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 17.3: Mobiliser des ressources financières supplémentaires
-  de diverses provenances en faveur des pays en développement</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.3.2: Volume des envois de fonds de travailleurs
-  migrants (en dollars des États‑Unis) en proportion du PIB total</p>'
+SDG_GOAL__GLOBAL: >-
+    <p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable et le revitaliser</p>
+SDG_TARGET__GLOBAL: >-
+    <p>Cible 17.3: Mobiliser des ressources financières supplémentaires de diverses provenances en faveur des pays en développement</p>
+SDG_INDICATOR__GLOBAL: >-
+    <p>Indicateur 17.3.2: IND Volume des envois de fonds de travailleurs migrants (en dollars des États-Unis) en proportion du PIB total</p>
+source_active_1: 'true'
+source_url_text_1: "Étude sur les transferts de fonds internationaux du Canada"
+source_url_1: https://www150.statcan.gc.ca/n1/pub/89-657-x/89-657-x2019007-fra.htm
+source_organisation_1: Statistics Canada
+source_geographical_coverage_1: Canada
+COVERAGE: Canada
+UNIT_OF_MEASURE: CAN$ Billions
 
-reporting_status: notstarted
 

@@ -1,4 +1,4 @@
-SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
+SDG_GOAL: '<p>Objectif 8: Promouvoir une croissance économique soutenue, partagée
   et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET: '<p>Cible 8.10 : Renforcer la capacité des institutions financières nationales
   de favoriser et généraliser l’accès de tous aux services bancaires et financiers
@@ -9,7 +9,7 @@ SDG_INDICATOR: '<p>Indicateur 8.10.1 : a) Nombre de succursales de banques comm
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
+SDG_GOAL__GLOBAL: '<p>Objectif 8: Promouvoir une croissance économique soutenue,
   partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.10 : Renforcer la capacité des institutions financières
   nationales de favoriser et généraliser l’accès de tous aux services bancaires et
@@ -17,6 +17,12 @@ SDG_TARGET__GLOBAL: '<p>Cible 8.10 : Renforcer la capacité des institutions fin
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.10.1 : a) Nombre de succursales de banques
   commerciales pour 100 000 adultes et b) nombre de distributeurs automatiques de
   billets pour 100 000 adultes.</p>'
+source_active_1: 'true'
+source_url_text_1: "Enquête sur l'accès aux services financiers"
+source_url_1: http://data.imf.org/?sk=E5DCAB7E-A5CA-4892-A6EA-598B5463A34C
+source_organisation_1: Fonds Monétaire International
+source_geographical_coverage_1: Canada
+COVERAGE: Canada
+UNIT_OF_MEASURE: Rate (per 100,000)
 
-reporting_status: notstarted
 
