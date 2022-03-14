@@ -11,13 +11,38 @@
       "schema": {
         "fields": [
           {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male",
+                "Unknown"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number of fatality claims, by sex",
+                "Number of lost time claims, by sex"
+              ]
+            },
+            "title": "Unit"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

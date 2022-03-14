@@ -12,12 +12,37 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
           },
           {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of fatality claims, by sex",
+                "Number of lost time claims, by sex",
+                ""
+              ]
+            },
+            "title": "Unit"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Homme",
+                "Femme",
+                "Unknown",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Valeur"
           }
         ]
