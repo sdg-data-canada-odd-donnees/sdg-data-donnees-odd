@@ -38,6 +38,9 @@ jobs:
     - name: Build data
       run: |
         python scripts/build_data.py
+    - name: Test
+      run: |
+        python scripts/test.py
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
