@@ -11,13 +11,26 @@
       "schema": {
         "fields": [
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Evolved High-Speed Packet Access (HSPA+)",
+                "Long-Term Evolution (LTE)",
+                "Long-Term Evolution - A (LTE-A)"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

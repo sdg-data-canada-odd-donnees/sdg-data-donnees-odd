@@ -24,7 +24,7 @@
             "title": "Sex"
           },
           {
-            "name": "Unit",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
@@ -33,7 +33,7 @@
                 "Number of lost time claims, by sex"
               ]
             },
-            "title": "Unit"
+            "title": "Units"
           },
           {
             "name": "Value",

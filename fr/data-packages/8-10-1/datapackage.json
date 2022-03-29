@@ -16,7 +16,7 @@
             "title": "Année"
           },
           {
-            "name": "Unit",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
@@ -25,7 +25,7 @@
                 ""
               ]
             },
-            "title": "Unit"
+            "title": "Unités"
           },
           {
             "name": "Value",

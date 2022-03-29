@@ -11,7 +11,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Unit",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
@@ -20,7 +20,7 @@
                 "Number of commercial bank branches per 100,000 adults"
               ]
             },
-            "title": "Unit"
+            "title": "Units"
           },
           {
             "name": "Value",
