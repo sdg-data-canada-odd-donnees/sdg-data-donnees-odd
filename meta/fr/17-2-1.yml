@@ -1,32 +1,45 @@
-SDG_GOAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
-  mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET: '<p>Cible 17.2: Faire en sorte que les pays développés honorent tous leurs
-  engagements en matière d’aide publique au développement, notamment celui pris par
-  nombre d’entre eux de consacrer 0,7 pour cent de leur revenu national brut à l’aide
-  aux pays en développement et entre 0,15 pour cent et 0,20 pour cent à l’aide aux
-  pays les moins avancés, les bailleurs de fonds étant encouragés à envisager de se
-  fixer pour objectif de consacrer au moins 0,20 pour cent de leur revenu national
-  brut à l’aide aux pays les moins avancés</p>'
-SDG_INDICATOR: '<p>Indicateur 17.2.1: Aide publique au développement nette, montant
-  total et montant alloué aux pays les moins avancés, en proportion du revenu national
-  brut (RNB) des pays donateurs membres du Comité d’aide au développement de l’Organisation
-  de coopération et de développement économiques (OCDE)</p>'
+SDG_GOAL: >-
+    <p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+    mondial pour le développement durable et le revitaliser</p>
+SDG_TARGET: >-
+    <p>Cible 17.2: Faire en sorte que les pays développés honorent tous leurs
+      engagements en matière d’aide publique au développement, notamment celui pris par
+      nombre d’entre eux de consacrer 0,7 pour cent de leur revenu national brut à l’aide
+      aux pays en développement et entre 0,15 pour cent et 0,20 pour cent à l’aide aux
+      pays les moins avancés, les bailleurs de fonds étant encouragés à envisager de se
+      fixer pour objectif de consacrer au moins 0,20 pour cent de leur revenu national
+      brut à l’aide aux pays les moins avancés</p>
+SDG_INDICATOR: >-
+    <p>Indicateur 17.2.1: Aide publique au développement nette, montant
+      total et montant alloué aux pays les moins avancés, en proportion du revenu national
+      brut (RNB) des pays donateurs membres du Comité d’aide au développement de l’Organisation
+      de coopération et de développement économiques (OCDE)</p>
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
-  mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 17.2: Faire en sorte que les pays développés honorent
-  tous leurs engagements en matière d’aide publique au développement, notamment celui
-  pris par nombre d’entre eux de consacrer 0,7 pour cent de leur revenu national brut
-  à l’aide aux pays en développement et entre 0,15 pour cent et 0,20 pour cent à l’aide
-  aux pays les moins avancés, les bailleurs de fonds étant encouragés à envisager
-  de se fixer pour objectif de consacrer au moins 0,20 pour cent de leur revenu national
-  brut à l’aide aux pays les moins avancés</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.2.1: Aide publique au développement nette,
-  montant total et montant alloué aux pays les moins avancés, en proportion du revenu
-  national brut (RNB) des pays donateurs membres du Comité d’aide au développement
-  de l’Organisation de coopération et de développement économiques (OCDE)</p>'
+COVERAGE: Canada
+UNIT_OF_MEASURE: Percentage
+SDG_GOAL__GLOBAL: >-
+    <p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+    mondial pour le développement durable et le revitaliser</p>
+SDG_TARGET__GLOBAL: >-
+    <p>Cible 17.2: Faire en sorte que les pays développés honorent tous leurs
+      engagements en matière d’aide publique au développement, notamment celui pris par
+      nombre d’entre eux de consacrer 0,7 pour cent de leur revenu national brut à l’aide
+      aux pays en développement et entre 0,15 pour cent et 0,20 pour cent à l’aide aux
+      pays les moins avancés, les bailleurs de fonds étant encouragés à envisager de se
+      fixer pour objectif de consacrer au moins 0,20 pour cent de leur revenu national
+      brut à l’aide aux pays les moins avancés</p>
+SDG_INDICATOR__GLOBAL: >-
+    <p>Indicateur 17.2.1: Aide publique au développement nette, montant
+      total et montant alloué aux pays les moins avancés, en proportion du revenu national
+      brut (RNB) des pays donateurs membres du Comité d’aide au développement de l’Organisation
+      de coopération et de développement économiques (OCDE)</p>
+source_active_1: 'true'
+source_url_text_1: "OECD Statistics"
+source_url_1: https://data.oecd.org/fr/oda/apd-nette.htm
+source_organisation_1: OECD
+source_geographical_coverage_1: Canada
 
-reporting_status: notstarted
+
 
