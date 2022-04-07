@@ -1383,6 +1383,38 @@
       "title": "global_indicators.3-2-1-title"
     },
     {
+      "path": "indicator-17-2-1/data.csv",
+      "name": "indicator-17-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Net official development assistance, total, as a proportion of the OECD Development Assistance Committee donors' gross national income (GNI)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "indicator-17-2-1"
+    },
+    {
       "path": "6-1-1/data.csv",
       "name": "6-1-1",
       "profile": "tabular-data-resource",
