@@ -11,13 +11,41 @@
       "schema": {
         "fields": [
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Above-ground biomass stock in forest",
+                "Forest area net change rate",
+                "Forest area under an independently verified forest management certification scheme",
+                "Proportion of forest area located within legally established protected areas",
+                "Proportion of forest area under a long term forest management plan"
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Hectares",
+                "Percentage (%)",
+                "Tonnes/hectare"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Year"
           }
         ]
