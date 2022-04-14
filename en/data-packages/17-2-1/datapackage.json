@@ -11,13 +11,24 @@
       "schema": {
         "fields": [
           {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Net official development assistance, total, as a proportion of the OECD Development Assistance Committee donors' gross national income (GNI)"
+              ]
+            },
+            "title": "Unit"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]
