@@ -1,34 +1,42 @@
-SDG_GOAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques fiables,
-  durables et modernes, à un coût abordable</p>'
-SDG_TARGET: '<p>Cible 7.3 : D’ici à 2030, multiplier par deux le taux mondial d’amélioration
-  de l’efficacité énergétique</p>'
-SDG_INDICATOR: '<p>Indicateur 7.3.1 : Intensité énergétique [rapport entre énergie
-  primaire et produit intérieur brut (PIB)]</p>'
-STAT_CONC_DEF: <p>L'intensité énergétique est définie comme l'énergie fournie à l'économie
-  par valeur unitaire de la production économique. </p>
-DATA_COMP: '   '
+# NATIONAL ---
+SDG_GOAL: >-
+    Objectif 7: Garantir l’accès de tous à des services énergétiques fiables, durables et modernes, à un coût abordable
+SDG_TARGET: >-
+    Cible 7.3: D’ici à 2030, multiplier par deux le taux mondial d’amélioration de l’efficacité énergétique
+SDG_INDICATOR: >-
+    Indicateur 7.3.1: Intensité énergétique [rapport entre énergie primaire et produit intérieur brut (PIB)]
+STAT_CONC_DEF: >-
+    L'intensité énergétique est définie comme l'énergie fournie à l'économie par valeur unitaire de la production économique.
+DATA_COMP: >-
+    L'indicateur est obtenu en divisant l'approvisionnement énergétique total par le PIB.
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques
-  fiables, durables et modernes, à un coût abordable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 7.3 : D’ici à 2030, multiplier par deux le taux mondial
-  d’amélioration de l’efficacité énergétique</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.3.1 : Intensité énergétique [rapport entre
-  énergie primaire et produit intérieur brut (PIB)]</p>'
-
-source_active_1: 'true'
-source_url_text_1: Statistique Canada. Table 38-10-0096-01  Physical flow account
-  for energy use
-source_organisation_1: Statistique Canada
-source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada
-source_active_2: 'true'
-source_url_text_2: Statistique Canada. Table 36-10-0402-01  Gross domestic product
-  (GDP) at basic prices, by industry, provinces and territories (x 1,000,000)
-source_organisation_2: Statistique Canada
-source_periodicity_2: Annuelle
-source_geographical_coverage_2: Province or territory
-source_url_1: https://doi.org/10.25318/3810009601-fra
-source_url_2: https://doi.org/10.25318/3610040201-fra
 reporting_status: complete
 COVERAGE: Canada
+UNIT_OF_MEASURE: >- 
+    Térajoules par million de dollars du PIB réel
+
+# GLOBAL --- 
+SDG_GOAL__GLOBAL: >-
+    Objectif 7: Garantir l’accès de tous à des services énergétiques fiables, durables et modernes, à un coût abordable
+SDG_TARGET__GLOBAL: >-
+    Cible 7.3: D’ici à 2030, multiplier par deux le taux mondial d’amélioration de l’efficacité énergétique
+SDG_INDICATOR__GLOBAL: >-
+    Indicateur 7.3.1: Intensité énergétique [rapport entre énergie primaire et produit intérieur brut (PIB)]
+
+# SOURCE(S) ---
+source_active_1: 'true'
+source_url_text_1: >-
+    Statistique Canada. Tableau 38-10-0096-01  Compte de flux physique d'utilisation d'énergie
+source_url_1: https://doi.org/10.25318/3810009601-fra
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Produit intérieur brut (PIB) aux prix de base, par industries, moyenne annuelle
+source_url_2: https://doi.org/10.25318/3610043401-fra
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada
+
 
