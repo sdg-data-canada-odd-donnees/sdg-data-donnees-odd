@@ -11,30 +11,30 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Alberta",
-                "British Columbia",
                 "Canada",
-                "Manitoba",
-                "New Brunswick",
+                "Alberta",
                 "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
                 "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
                 "Quebec",
+                "British Columbia",
+                "Ontario",
+                "Manitoba",
                 "Saskatchewan",
-                "Yukon"
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
               ]
             },
             "title": "Geography"
@@ -44,23 +44,23 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Both sexes",
+                "Males",
                 "Females",
-                "Males"
+                "Both sexes",
+                ""
               ]
             },
             "title": "Sex"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }

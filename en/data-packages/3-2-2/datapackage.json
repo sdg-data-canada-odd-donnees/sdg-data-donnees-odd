@@ -11,26 +11,29 @@
       "schema": {
         "fields": [
           {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
             "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
+                "Total infant deaths under 1 year",
                 "Neonatal 0 to 27 days",
+                "Neonatal under 1 day",
                 "Neonatal 1 day",
-                "Neonatal 14 to 20 days",
                 "Neonatal 2 days",
-                "Neonatal 21 to 27 days",
                 "Neonatal 3 days",
                 "Neonatal 4 days",
                 "Neonatal 5 days",
                 "Neonatal 6 days",
                 "Neonatal 7 to 13 days",
-                "Neonatal under 1 day",
-                "Post-neonatal 1 month",
+                "Neonatal 14 to 20 days",
+                "Neonatal 21 to 27 days",
                 "Post-neonatal 1 to 11 months",
-                "Post-neonatal 10 months",
-                "Post-neonatal 11 months",
+                "Post-neonatal 1 month",
                 "Post-neonatal 2 months",
                 "Post-neonatal 3 months",
                 "Post-neonatal 4 months",
@@ -39,7 +42,9 @@
                 "Post-neonatal 7 months",
                 "Post-neonatal 8 months",
                 "Post-neonatal 9 months",
-                "Total infant deaths under 1 year"
+                "Post-neonatal 10 months",
+                "Post-neonatal 11 months",
+                ""
               ]
             },
             "title": "Age"
@@ -49,10 +54,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Both sexes",
+                "Males",
                 "Females",
-                "Males"
+                "Both sexes",
+                ""
               ]
             },
             "title": "Sex"
@@ -61,11 +66,6 @@
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }

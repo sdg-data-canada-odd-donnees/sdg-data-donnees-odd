@@ -11,18 +11,23 @@
       "schema": {
         "fields": [
           {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
             "name": "Selected housing vulnerable populations",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Lone-parent family households whose reference person is female",
-                "Lone-parent family households whose reference person is male",
-                "Men living alone",
-                "Reference person who experienced homelessness",
                 "Total, lone-parent family households",
+                "Lone-parent family households whose reference person is male",
+                "Lone-parent family households whose reference person is female",
                 "Total, one person households",
-                "Women living alone"
+                "Men living alone",
+                "Women living alone",
+                "Reference person who experienced homelessness",
+                ""
               ]
             },
             "title": "Selected housing vulnerable populations"
@@ -31,11 +36,6 @@
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }

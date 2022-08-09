@@ -11,50 +11,55 @@
       "schema": {
         "fields": [
           {
-            "name": "Age Group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "15-19",
-                "20-24",
-                "25+",
-                "25-44",
-                "45+",
-                "All age groups"
-              ]
-            },
-            "title": "Age Group"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Both sexes",
                 "Female",
-                "Male"
+                "Male",
+                ""
               ]
             },
             "title": "Sex"
+          },
+          {
+            "name": "Age Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All age groups",
+                "15-19",
+                "20-24",
+                "25+",
+                "25-44",
+                "45+",
+                ""
+              ]
+            },
+            "title": "Age Group"
           },
           {
             "name": "Tobacco Product",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Any tobacco product",
-                "Chewing tobacco",
                 "Cigarettes",
                 "Cigars",
-                "E-cigarettes",
                 "Little cigars or cigarillos",
                 "Pipe",
                 "Smokeless tobacco",
+                "Water pipe w tobacco",
+                "E-cigarettes",
+                "Any tobacco product",
+                "Chewing tobacco",
                 "Vaping",
-                "Water pipe w tobacco"
+                ""
               ]
             },
             "title": "Tobacco Product"
@@ -63,11 +68,6 @@
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }

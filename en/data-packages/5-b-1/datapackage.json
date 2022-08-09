@@ -11,41 +11,41 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Alberta",
                 "Atlantic Region",
-                "British Columbia",
-                "Manitoba",
-                "New Brunswick",
                 "Newfoundland and Labrador",
+                "Prince Edward Island",
                 "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Prairie Region",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                ""
               ]
             },
             "title": "Geography"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }
