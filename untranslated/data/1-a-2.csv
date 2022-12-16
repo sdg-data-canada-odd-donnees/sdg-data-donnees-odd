@@ -2,30 +2,13 @@ Year,Geography,Function of Government,Value
 2015,,,57.781
 2016,,,58.964
 2017,,,58.478
-2018,,,57.519
-2019,,,56.143
-2015,Canada,Education,1.343
-2015,Canada,Health,11.972
-2015,Canada,Other expenditure,42.219
-2015,Canada,Social protection,44.466
-2016,Canada,Education,1.523
-2016,Canada,Health,11.839
-2016,Canada,Other expenditure,41.036
-2016,Canada,Social protection,45.602
-2017,Canada,Education,1.64
-2017,Canada,Health,11.65
-2017,Canada,Other expenditure,41.522
-2017,Canada,Social protection,45.189
-2018,Canada,Education,1.772
-2018,Canada,Health,11.746
-2018,Canada,Other expenditure,42.481
-2018,Canada,Social protection,44.001
-2019,Canada,Education,1.887
-2019,Canada,Health,11.643
-2019,Canada,Other expenditure,43.857
-2019,Canada,Social protection,42.613
+2018,,,57.637
+2019,,,56.184
+2020,,,56.624
+2021,,,58.847
 2015,Alberta,,74.022
 2015,British Columbia,,75.654
+2015,Canada,,57.781
 2015,Manitoba,,74.61
 2015,New Brunswick,,70.78
 2015,Newfoundland and Labrador,,72.6
@@ -39,6 +22,7 @@ Year,Geography,Function of Government,Value
 2015,Yukon,,49.511
 2016,Alberta,,71.854
 2016,British Columbia,,75.452
+2016,Canada,,58.964
 2016,Manitoba,,74.876
 2016,New Brunswick,,69.305
 2016,Newfoundland and Labrador,,71.196
@@ -52,6 +36,7 @@ Year,Geography,Function of Government,Value
 2016,Yukon,,52.433
 2017,Alberta,,71.505
 2017,British Columbia,,75.563
+2017,Canada,,58.478
 2017,Manitoba,,75.184
 2017,New Brunswick,,69.022
 2017,Newfoundland and Labrador,,72.257
@@ -64,31 +49,61 @@ Year,Geography,Function of Government,Value
 2017,Saskatchewan,,75.912
 2017,Yukon,,53.252
 2018,Alberta,,71.908
-2018,British Columbia,,75.793
-2018,Manitoba,,75.86
-2018,New Brunswick,,69.416
-2018,Newfoundland and Labrador,,73.095
-2018,Northwest Territories,,58.13
-2018,Nova Scotia,,72.743
+2018,British Columbia,,75.765
+2018,Canada,,57.637
+2018,Manitoba,,75.811
+2018,New Brunswick,,69.411
+2018,Newfoundland and Labrador,,73.319
+2018,Northwest Territories,,58.124
+2018,Nova Scotia,,72.994
 2018,Nunavut,,50.431
-2018,Ontario,,74.174
-2018,Prince Edward Island,,73.875
-2018,Quebec,,71.362
-2018,Saskatchewan,,75.536
+2018,Ontario,,74.17
+2018,Prince Edward Island,,74.03
+2018,Quebec,,71.345
+2018,Saskatchewan,,75.52
 2018,Yukon,,50.0
-2019,Alberta,,70.518
-2019,British Columbia,,76.414
-2019,Manitoba,,75.133
-2019,New Brunswick,,69.424
-2019,Newfoundland and Labrador,,73.122
-2019,Northwest Territories,,58.151
-2019,Nova Scotia,,72.332
-2019,Nunavut,,50.486
-2019,Ontario,,74.231
-2019,Prince Edward Island,,73.789
-2019,Quebec,,71.321
-2019,Saskatchewan,,75.232
-2019,Yukon,,49.812
+2019,Alberta,,70.669
+2019,British Columbia,,76.055
+2019,Canada,,56.184
+2019,Manitoba,,74.892
+2019,New Brunswick,,69.649
+2019,Newfoundland and Labrador,,73.194
+2019,Northwest Territories,,57.721
+2019,Nova Scotia,,72.661
+2019,Nunavut,,50.397
+2019,Ontario,,74.28
+2019,Prince Edward Island,,73.245
+2019,Quebec,,71.502
+2019,Saskatchewan,,75.25
+2019,Yukon,,50.361
+2020,Alberta,,71.758
+2020,British Columbia,,76.761
+2020,Canada,,56.624
+2020,Manitoba,,74.735
+2020,New Brunswick,,69.656
+2020,Newfoundland and Labrador,,72.279
+2020,Northwest Territories,,58.985
+2020,Nova Scotia,,73.134
+2020,Nunavut,,50.132
+2020,Ontario,,74.633
+2020,Prince Edward Island,,71.961
+2020,Quebec,,72.306
+2020,Saskatchewan,,74.923
+2020,Yukon,,49.513
+2021,Alberta,,70.025
+2021,British Columbia,,75.998
+2021,Canada,,58.847
+2021,Manitoba,,75.012
+2021,New Brunswick,,69.976
+2021,Newfoundland and Labrador,,73.231
+2021,Northwest Territories,,58.282
+2021,Nova Scotia,,72.383
+2021,Nunavut,,50.112
+2021,Ontario,,74.961
+2021,Prince Edward Island,,70.8
+2021,Quebec,,73.808
+2021,Saskatchewan,,68.914
+2021,Yukon,,48.185
 2015,Alberta,Education,27.241
 2015,Alberta,Health,38.901
 2015,Alberta,Other expenditure,25.978
@@ -97,6 +112,10 @@ Year,Geography,Function of Government,Value
 2015,British Columbia,Health,43.504
 2015,British Columbia,Other expenditure,24.346
 2015,British Columbia,Social protection,9.426
+2015,Canada,Education,1.343
+2015,Canada,Health,11.972
+2015,Canada,Other expenditure,42.219
+2015,Canada,Social protection,44.466
 2015,Manitoba,Education,22.516
 2015,Manitoba,Health,42.597
 2015,Manitoba,Other expenditure,25.39
@@ -149,6 +168,10 @@ Year,Geography,Function of Government,Value
 2016,British Columbia,Health,43.501
 2016,British Columbia,Other expenditure,24.548
 2016,British Columbia,Social protection,9.362
+2016,Canada,Education,1.523
+2016,Canada,Health,11.839
+2016,Canada,Other expenditure,41.036
+2016,Canada,Social protection,45.602
 2016,Manitoba,Education,22.241
 2016,Manitoba,Health,43.656
 2016,Manitoba,Other expenditure,25.124
@@ -201,6 +224,10 @@ Year,Geography,Function of Government,Value
 2017,British Columbia,Health,42.836
 2017,British Columbia,Other expenditure,24.437
 2017,British Columbia,Social protection,9.545
+2017,Canada,Education,1.64
+2017,Canada,Health,11.65
+2017,Canada,Other expenditure,41.522
+2017,Canada,Social protection,45.189
 2017,Manitoba,Education,22.789
 2017,Manitoba,Health,43.152
 2017,Manitoba,Other expenditure,24.816
@@ -249,103 +276,223 @@ Year,Geography,Function of Government,Value
 2018,Alberta,Health,37.805
 2018,Alberta,Other expenditure,28.092
 2018,Alberta,Social protection,8.971
-2018,British Columbia,Education,22.759
-2018,British Columbia,Health,42.577
-2018,British Columbia,Other expenditure,24.207
-2018,British Columbia,Social protection,10.457
-2018,Manitoba,Education,23.26
-2018,Manitoba,Health,43.143
-2018,Manitoba,Other expenditure,24.14
-2018,Manitoba,Social protection,9.457
-2018,New Brunswick,Education,16.717
-2018,New Brunswick,Health,43.789
-2018,New Brunswick,Other expenditure,30.584
-2018,New Brunswick,Social protection,8.91
-2018,Newfoundland and Labrador,Education,21.94
-2018,Newfoundland and Labrador,Health,45.525
-2018,Newfoundland and Labrador,Other expenditure,26.905
-2018,Newfoundland and Labrador,Social protection,5.629
-2018,Northwest Territories,Education,13.525
-2018,Northwest Territories,Health,32.409
-2018,Northwest Territories,Other expenditure,41.87
-2018,Northwest Territories,Social protection,12.195
-2018,Nova Scotia,Education,23.11
-2018,Nova Scotia,Health,41.988
-2018,Nova Scotia,Other expenditure,27.257
-2018,Nova Scotia,Social protection,7.645
+2018,British Columbia,Education,22.756
+2018,British Columbia,Health,42.573
+2018,British Columbia,Other expenditure,24.235
+2018,British Columbia,Social protection,10.435
+2018,Canada,Education,1.992
+2018,Canada,Health,11.576
+2018,Canada,Other expenditure,42.363
+2018,Canada,Social protection,44.069
+2018,Manitoba,Education,23.231
+2018,Manitoba,Health,43.09
+2018,Manitoba,Other expenditure,24.189
+2018,Manitoba,Social protection,9.49
+2018,New Brunswick,Education,16.716
+2018,New Brunswick,Health,43.786
+2018,New Brunswick,Other expenditure,30.589
+2018,New Brunswick,Social protection,8.909
+2018,Newfoundland and Labrador,Education,22.366
+2018,Newfoundland and Labrador,Health,45.346
+2018,Newfoundland and Labrador,Other expenditure,26.681
+2018,Newfoundland and Labrador,Social protection,5.607
+2018,Northwest Territories,Education,13.479
+2018,Northwest Territories,Health,32.422
+2018,Northwest Territories,Other expenditure,41.876
+2018,Northwest Territories,Social protection,12.223
+2018,Nova Scotia,Education,23.317
+2018,Nova Scotia,Health,42.035
+2018,Nova Scotia,Other expenditure,27.006
+2018,Nova Scotia,Social protection,7.642
 2018,Nunavut,Education,14.022
 2018,Nunavut,Health,24.149
 2018,Nunavut,Other expenditure,49.569
 2018,Nunavut,Social protection,12.259
-2018,Ontario,Education,25.594
-2018,Ontario,Health,35.842
-2018,Ontario,Other expenditure,25.826
-2018,Ontario,Social protection,12.738
-2018,Prince Edward Island,Education,25.0
-2018,Prince Edward Island,Health,43.25
-2018,Prince Edward Island,Other expenditure,26.125
-2018,Prince Edward Island,Social protection,5.625
-2018,Quebec,Education,19.526
-2018,Quebec,Health,33.169
-2018,Quebec,Other expenditure,28.638
-2018,Quebec,Social protection,18.668
-2018,Saskatchewan,Education,26.611
-2018,Saskatchewan,Health,37.706
-2018,Saskatchewan,Other expenditure,24.464
-2018,Saskatchewan,Social protection,11.218
+2018,Ontario,Education,25.58
+2018,Ontario,Health,35.849
+2018,Ontario,Other expenditure,25.83
+2018,Ontario,Social protection,12.741
+2018,Prince Edward Island,Education,25.031
+2018,Prince Edward Island,Health,43.273
+2018,Prince Edward Island,Other expenditure,25.97
+2018,Prince Edward Island,Social protection,5.726
+2018,Quebec,Education,19.541
+2018,Quebec,Health,33.121
+2018,Quebec,Other expenditure,28.655
+2018,Quebec,Social protection,18.683
+2018,Saskatchewan,Education,26.615
+2018,Saskatchewan,Health,38.023
+2018,Saskatchewan,Other expenditure,24.48
+2018,Saskatchewan,Social protection,10.882
 2018,Yukon,Education,15.443
 2018,Yukon,Health,25.316
 2018,Yukon,Other expenditure,50.0
 2018,Yukon,Social protection,9.241
-2019,Alberta,Education,24.553
-2019,Alberta,Health,37.333
-2019,Alberta,Other expenditure,29.482
-2019,Alberta,Social protection,8.632
-2019,British Columbia,Education,22.75
-2019,British Columbia,Health,42.614
-2019,British Columbia,Other expenditure,23.586
-2019,British Columbia,Social protection,11.05
-2019,Manitoba,Education,23.42
-2019,Manitoba,Health,42.618
-2019,Manitoba,Other expenditure,24.867
-2019,Manitoba,Social protection,9.094
-2019,New Brunswick,Education,16.647
-2019,New Brunswick,Health,43.987
-2019,New Brunswick,Other expenditure,30.576
-2019,New Brunswick,Social protection,8.789
-2019,Newfoundland and Labrador,Education,21.846
-2019,Newfoundland and Labrador,Health,45.513
-2019,Newfoundland and Labrador,Other expenditure,26.878
-2019,Newfoundland and Labrador,Social protection,5.763
-2019,Northwest Territories,Education,13.537
-2019,Northwest Territories,Health,32.387
-2019,Northwest Territories,Other expenditure,41.849
-2019,Northwest Territories,Social protection,12.227
-2019,Nova Scotia,Education,22.86
-2019,Nova Scotia,Health,42.144
-2019,Nova Scotia,Other expenditure,27.668
-2019,Nova Scotia,Social protection,7.328
-2019,Nunavut,Education,14.1
-2019,Nunavut,Health,24.19
-2019,Nunavut,Other expenditure,49.514
-2019,Nunavut,Social protection,12.196
-2019,Ontario,Education,25.045
-2019,Ontario,Health,36.546
-2019,Ontario,Other expenditure,25.769
-2019,Ontario,Social protection,12.64
-2019,Prince Edward Island,Education,24.849
-2019,Prince Edward Island,Health,43.16
-2019,Prince Edward Island,Other expenditure,26.211
-2019,Prince Edward Island,Social protection,5.781
-2019,Quebec,Education,19.717
-2019,Quebec,Health,33.009
-2019,Quebec,Other expenditure,28.679
-2019,Quebec,Social protection,18.595
-2019,Saskatchewan,Education,26.027
-2019,Saskatchewan,Health,38.214
-2019,Saskatchewan,Other expenditure,24.768
-2019,Saskatchewan,Social protection,10.991
-2019,Yukon,Education,15.707
-2019,Yukon,Health,25.407
-2019,Yukon,Other expenditure,50.188
-2019,Yukon,Social protection,8.698
+2019,Alberta,Education,24.328
+2019,Alberta,Health,37.656
+2019,Alberta,Other expenditure,29.331
+2019,Alberta,Social protection,8.686
+2019,British Columbia,Education,22.388
+2019,British Columbia,Health,42.733
+2019,British Columbia,Other expenditure,23.945
+2019,British Columbia,Social protection,10.935
+2019,Canada,Education,1.987
+2019,Canada,Health,11.38
+2019,Canada,Other expenditure,43.816
+2019,Canada,Social protection,42.817
+2019,Manitoba,Education,21.974
+2019,Manitoba,Health,43.044
+2019,Manitoba,Other expenditure,25.108
+2019,Manitoba,Social protection,9.875
+2019,New Brunswick,Education,16.945
+2019,New Brunswick,Health,43.953
+2019,New Brunswick,Other expenditure,30.351
+2019,New Brunswick,Social protection,8.75
+2019,Newfoundland and Labrador,Education,22.807
+2019,Newfoundland and Labrador,Health,44.746
+2019,Newfoundland and Labrador,Other expenditure,26.806
+2019,Newfoundland and Labrador,Social protection,5.642
+2019,Northwest Territories,Education,12.697
+2019,Northwest Territories,Health,32.258
+2019,Northwest Territories,Other expenditure,42.279
+2019,Northwest Territories,Social protection,12.766
+2019,Nova Scotia,Education,22.966
+2019,Nova Scotia,Health,42.309
+2019,Nova Scotia,Other expenditure,27.339
+2019,Nova Scotia,Social protection,7.387
+2019,Nunavut,Education,13.362
+2019,Nunavut,Health,24.584
+2019,Nunavut,Other expenditure,49.603
+2019,Nunavut,Social protection,12.45
+2019,Ontario,Education,24.988
+2019,Ontario,Health,36.652
+2019,Ontario,Other expenditure,25.72
+2019,Ontario,Social protection,12.639
+2019,Prince Edward Island,Education,24.661
+2019,Prince Edward Island,Health,42.124
+2019,Prince Edward Island,Other expenditure,26.755
+2019,Prince Edward Island,Social protection,6.46
+2019,Quebec,Education,19.536
+2019,Quebec,Health,33.353
+2019,Quebec,Other expenditure,28.498
+2019,Quebec,Social protection,18.612
+2019,Saskatchewan,Education,26.096
+2019,Saskatchewan,Health,38.413
+2019,Saskatchewan,Other expenditure,24.75
+2019,Saskatchewan,Social protection,10.741
+2019,Yukon,Education,14.243
+2019,Yukon,Health,27.764
+2019,Yukon,Other expenditure,49.639
+2019,Yukon,Social protection,8.353
+2020,Alberta,Education,22.845
+2020,Alberta,Health,40.474
+2020,Alberta,Other expenditure,28.242
+2020,Alberta,Social protection,8.44
+2020,British Columbia,Education,20.329
+2020,British Columbia,Health,42.746
+2020,British Columbia,Other expenditure,23.239
+2020,British Columbia,Social protection,13.687
+2020,Canada,Education,1.439
+2020,Canada,Health,9.007
+2020,Canada,Other expenditure,43.376
+2020,Canada,Social protection,46.178
+2020,Manitoba,Education,20.082
+2020,Manitoba,Health,44.983
+2020,Manitoba,Other expenditure,25.265
+2020,Manitoba,Social protection,9.67
+2020,New Brunswick,Education,16.647
+2020,New Brunswick,Health,46.21
+2020,New Brunswick,Other expenditure,30.344
+2020,New Brunswick,Social protection,6.799
+2020,Newfoundland and Labrador,Education,21.817
+2020,Newfoundland and Labrador,Health,45.138
+2020,Newfoundland and Labrador,Other expenditure,27.721
+2020,Newfoundland and Labrador,Social protection,5.324
+2020,Northwest Territories,Education,13.064
+2020,Northwest Territories,Health,34.019
+2020,Northwest Territories,Other expenditure,41.015
+2020,Northwest Territories,Social protection,11.903
+2020,Nova Scotia,Education,22.6
+2020,Nova Scotia,Health,43.434
+2020,Nova Scotia,Other expenditure,26.866
+2020,Nova Scotia,Social protection,7.1
+2020,Nunavut,Education,12.996
+2020,Nunavut,Health,25.689
+2020,Nunavut,Other expenditure,49.868
+2020,Nunavut,Social protection,11.447
+2020,Ontario,Education,22.942
+2020,Ontario,Health,39.32
+2020,Ontario,Other expenditure,25.367
+2020,Ontario,Social protection,12.371
+2020,Prince Edward Island,Education,23.95
+2020,Prince Edward Island,Health,41.768
+2020,Prince Edward Island,Other expenditure,28.039
+2020,Prince Edward Island,Social protection,6.243
+2020,Quebec,Education,18.764
+2020,Quebec,Health,36.501
+2020,Quebec,Other expenditure,27.694
+2020,Quebec,Social protection,17.041
+2020,Saskatchewan,Education,24.545
+2020,Saskatchewan,Health,39.407
+2020,Saskatchewan,Other expenditure,25.077
+2020,Saskatchewan,Social protection,10.971
+2020,Yukon,Education,12.662
+2020,Yukon,Health,28.409
+2020,Yukon,Other expenditure,50.487
+2020,Yukon,Social protection,8.442
+2021,Alberta,Education,21.983
+2021,Alberta,Health,39.354
+2021,Alberta,Other expenditure,29.975
+2021,Alberta,Social protection,8.688
+2021,British Columbia,Education,20.306
+2021,British Columbia,Health,43.534
+2021,British Columbia,Other expenditure,24.002
+2021,British Columbia,Social protection,12.159
+2021,Canada,Education,1.949
+2021,Canada,Health,10.703
+2021,Canada,Other expenditure,41.153
+2021,Canada,Social protection,46.195
+2021,Manitoba,Education,21.45
+2021,Manitoba,Health,44.609
+2021,Manitoba,Other expenditure,24.988
+2021,Manitoba,Social protection,8.952
+2021,New Brunswick,Education,16.955
+2021,New Brunswick,Health,46.232
+2021,New Brunswick,Other expenditure,30.024
+2021,New Brunswick,Social protection,6.789
+2021,Newfoundland and Labrador,Education,22.7
+2021,Newfoundland and Labrador,Health,45.318
+2021,Newfoundland and Labrador,Other expenditure,26.769
+2021,Newfoundland and Labrador,Social protection,5.213
+2021,Northwest Territories,Education,12.98
+2021,Northwest Territories,Health,33.516
+2021,Northwest Territories,Other expenditure,41.718
+2021,Northwest Territories,Social protection,11.786
+2021,Nova Scotia,Education,22.473
+2021,Nova Scotia,Health,42.167
+2021,Nova Scotia,Other expenditure,27.617
+2021,Nova Scotia,Social protection,7.744
+2021,Nunavut,Education,13.05
+2021,Nunavut,Health,25.69
+2021,Nunavut,Other expenditure,49.888
+2021,Nunavut,Social protection,11.372
+2021,Ontario,Education,22.873
+2021,Ontario,Health,40.04
+2021,Ontario,Other expenditure,25.039
+2021,Ontario,Social protection,12.049
+2021,Prince Edward Island,Education,23.089
+2021,Prince Edward Island,Health,41.831
+2021,Prince Edward Island,Other expenditure,29.2
+2021,Prince Edward Island,Social protection,5.881
+2021,Quebec,Education,18.873
+2021,Quebec,Health,36.428
+2021,Quebec,Other expenditure,26.192
+2021,Quebec,Social protection,18.506
+2021,Saskatchewan,Education,22.434
+2021,Saskatchewan,Health,36.633
+2021,Saskatchewan,Other expenditure,31.086
+2021,Saskatchewan,Social protection,9.847
+2021,Yukon,Education,13.105
+2021,Yukon,Health,27.016
+2021,Yukon,Other expenditure,51.815
+2021,Yukon,Social protection,8.065

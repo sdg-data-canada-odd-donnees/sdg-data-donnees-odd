@@ -20,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Alberta",
                 "Colombie-Britannique",
+                "Canada",
                 "Manitoba",
                 "Nouveau-Brunswick",
                 "Terre-Neuve-et-Labrador",
