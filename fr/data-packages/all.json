@@ -2073,6 +2073,105 @@
       "title": "Proportion de femmes et de filles âgées de 15 ans ou plus ayant vécu en couple victimes de violences physiques, sexuelles ou psychologiques infligées au cours des 12 mois précédents par leur partenaire actuel ou un ancien partenaire, par forme de violence et par âge"
     },
     {
+      "path": "2-1-2/data.csv",
+      "name": "2-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Provinces de l'Atlantique",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Provinces des Prairies",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "data.Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les personnes",
+                "Personnes dans les familles économiques",
+                "data.Persons in elderly families",
+                "data.Persons in elderly couples",
+                "data.Persons in other elderly families",
+                "data.Persons in non-elderly families",
+                "data.Persons in couples",
+                "data.Persons in couple families with children",
+                "data.Persons in couple families with other relatives",
+                "data.Persons in lone-parent families",
+                "data.Persons in male lone-parent families",
+                "data.Persons in female lone-parent families",
+                "data.Persons in other non-elderly families",
+                "Personnes hors famille économique",
+                "Personnes âgées hors famille économique",
+                "Hommes âgés hors famille économique",
+                "Femmes âgées hors famille économique",
+                "Personnes non âgées hors famille économique",
+                "Hommes non âgés hors famille économique",
+                "Femmes non âgées hors famille économique",
+                ""
+              ]
+            },
+            "title": "Type de famille économique"
+          },
+          {
+            "name": "data.Household food security status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Food insecure, marginal",
+                "data.Food insecure, moderate",
+                "data.Food insecure, severe",
+                "data.Food insecure, moderate or severe",
+                ""
+              ]
+            },
+            "title": "Niveau de sécurité alimentaire du ménage"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Prévalence d’une insécurité alimentaire modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle FIES)"
+    },
+    {
       "path": "11-1-1/data.csv",
       "name": "11-1-1",
       "profile": "tabular-data-resource",
@@ -2088,21 +2187,46 @@
             "title": "Année"
           },
           {
-            "name": "Selected housing vulnerable populations",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les ménages",
-                "Ménages comptant une famille monoparentale dont la personne de référence est un homme",
-                "Ménages comptant une famille monoparentale dont la personne de référence est une femme",
-                "Total, ménages comptant une personne seule",
-                "Hommes vivant seuls",
-                "Femmes vivant seules",
-                "Personne de référence qui a vécu une période d’itinérance",
+                "Terre-Neuve-et-Labrador",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Total, grands centres de population urbains",
                 ""
               ]
             },
-            "title": "Certaines population vulnérables en matière de logement"
+            "title": "Géographie"
+          },
+          {
+            "name": "Tenure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, mode d'occupation",
+                "Propriétaire",
+                "Propriétaire qui est un accédant à la propriété",
+                "Propriétaire qui n'est pas un accédant à la propriété",
+                "Locataire",
+                "Locataire n'habitant pas dans un logement social et abordable",
+                "Locataire habitant dans un logement social et abordable",
+                ""
+              ]
+            },
+            "title": "Tenure"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -5391,30 +5515,6 @@
         ]
       },
       "title": "Nombre de pays élaborant, adoptant ou mettant en œuvre des politiques d’appui à la transition vers des modes de consommation et de production durables"
-    },
-    {
-      "path": "2-1-2/data.csv",
-      "name": "2-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Prévalence d’une insécurité alimentaire modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle FIES)"
     },
     {
       "path": "8-2-1/data.csv",

@@ -1932,6 +1932,99 @@
       "title": "global_indicators.5-2-1-title"
     },
     {
+      "path": "2-1-2/data.csv",
+      "name": "2-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Atlantic provinces",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Prairie provinces",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "data.Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.All persons",
+                "data.Persons in economic families",
+                "data.Persons in elderly families",
+                "data.Persons in elderly couples",
+                "data.Persons in other elderly families",
+                "data.Persons in non-elderly families",
+                "data.Persons in couples",
+                "data.Persons in couple families with children",
+                "data.Persons in couple families with other relatives",
+                "data.Persons in lone-parent families",
+                "data.Persons in male lone-parent families",
+                "data.Persons in female lone-parent families",
+                "data.Persons in other non-elderly families",
+                "data.Persons not in an economic family",
+                "data.Elderly persons not in an economic family",
+                "data.Elderly males not in an economic family",
+                "data.Elderly females not in an economic family",
+                "data.Non-elderly persons not in an economic family",
+                "data.Non-elderly males not in an economic family",
+                "data.Non-elderly females not in an economic family",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Household food security status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Food insecure, marginal",
+                "data.Food insecure, moderate",
+                "data.Food insecure, severe",
+                "data.Food insecure, moderate or severe",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.2-1-2-title"
+    },
+    {
       "path": "11-1-1/data.csv",
       "name": "11-1-1",
       "profile": "tabular-data-resource",
@@ -1946,20 +2039,43 @@
             "type": "integer"
           },
           {
-            "name": "Selected housing vulnerable populations",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, lone-parent family households",
-                "Lone-parent family households whose reference person is male",
-                "Lone-parent family households whose reference person is female",
-                "Total, one person households",
-                "Men living alone",
-                "Women living alone",
-                "Reference person who experienced homelessness",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Total, large urban population centres",
                 ""
               ]
             }
+          },
+          {
+            "name": "Tenure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, tenure",
+                "Owner",
+                "Owner who is a first-time homebuyer",
+                "Owner who is not a first-time homebuyer",
+                "Renter",
+                "Renter not in social and affordable housing",
+                "Renter in social and affordable housing",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -4982,28 +5098,6 @@
         ]
       },
       "title": "global_indicators.12-1-1-title"
-    },
-    {
-      "path": "2-1-2/data.csv",
-      "name": "2-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.2-1-2-title"
     },
     {
       "path": "8-2-1/data.csv",
