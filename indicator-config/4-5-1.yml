@@ -23,6 +23,9 @@ expected_disaggregations:
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
+graph_target_lines:
+  - value: 1.0
+    label_content: ''
 graph_title: global_indicators.4-5-1-title
 graph_titles: []
 graph_type: bar
