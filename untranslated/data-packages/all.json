@@ -2086,6 +2086,100 @@
       "title": "global_indicators.11-1-1-title"
     },
     {
+      "path": "4-5-1/data.csv",
+      "name": "4-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Participation rate in organized learning",
+                "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics",
+                "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading",
+                "Proportion of adults (25-to-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional numeracy skills",
+                "Proportion of adults (25-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional literacy skills",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Parity index",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Gender Parity Index",
+                "Economic, Social and Cultural Status Index (ESCS)",
+                "Location Parity Index",
+                "Parental Education Attainment Parity Index",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geocode",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "10.0",
+                "11.0",
+                "12.0",
+                "13.0",
+                "24.0",
+                "35.0",
+                "46.0",
+                "47.0",
+                "48.0",
+                "59.0",
+                "60.0",
+                "61.0",
+                "62.0",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.4-5-1-title"
+    },
+    {
       "path": "15-1-1/data.csv",
       "name": "15-1-1",
       "profile": "tabular-data-resource",
@@ -6953,28 +7047,6 @@
         ]
       },
       "title": "global_indicators.11-5-2-title"
-    },
-    {
-      "path": "4-5-1/data.csv",
-      "name": "4-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.4-5-1-title"
     }
   ]
 }

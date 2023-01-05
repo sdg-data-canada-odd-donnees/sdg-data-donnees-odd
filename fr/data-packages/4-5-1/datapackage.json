@@ -12,8 +12,84 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Participation rate in organized learning",
+                "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en mathématiques",
+                "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en lecture",
+                "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA score de 226) en compétences en numératie fonctionnelle",
+                "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA un score 226) en compétences en littératie",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Parity index",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indice de parité entre les sexes",
+                "Indice de statut économique, social et culturel (SESC)",
+                "Indice de parité entre millieu urban et rural (IPM)",
+                "Indice de parité du niveau de formation des parents",
+                ""
+              ]
+            },
+            "title": "Indice de parité"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Geocode",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "10.0",
+                "11.0",
+                "12.0",
+                "13.0",
+                "24.0",
+                "35.0",
+                "46.0",
+                "47.0",
+                "48.0",
+                "59.0",
+                "60.0",
+                "61.0",
+                "62.0",
+                ""
+              ]
+            },
+            "title": "Geocode"
           },
           {
             "name": "Value",
