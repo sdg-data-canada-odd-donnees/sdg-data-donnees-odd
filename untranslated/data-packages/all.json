@@ -2086,6 +2086,64 @@
       "title": "global_indicators.11-1-1-title"
     },
     {
+      "path": "3-8-2/data.csv",
+      "name": "3-8-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion with share above 10%",
+                "Proportion with share above 25%",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                "Aged below 18 years",
+                "Aged 18 to 64 years",
+                "Aged 65 years or older",
+                "Adjusted household after-tax income in bottom 40%",
+                "Adjusted household after-tax income in top 60%",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unnamed: 4",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "proxy.3-8-2-title"
+    },
+    {
       "path": "4-5-1/data.csv",
       "name": "4-5-1",
       "profile": "tabular-data-resource",
@@ -3091,28 +3149,6 @@
         ]
       },
       "title": "global_indicators.7-b-1-title"
-    },
-    {
-      "path": "3-8-2/data.csv",
-      "name": "3-8-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-8-2-title"
     },
     {
       "path": "17-9-1/data.csv",

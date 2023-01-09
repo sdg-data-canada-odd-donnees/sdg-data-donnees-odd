@@ -2238,6 +2238,69 @@
       "title": "Proportion de la population urbaine vivant dans des quartiers de taudis, des implantations sauvages ou des logements inadéquats"
     },
     {
+      "path": "3-8-2/data.csv",
+      "name": "3-8-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion with share above 10%",
+                "Proportion with share above 25%",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Homme",
+                "Femme",
+                "Aged below 18 years",
+                "Aged 18 to 64 years",
+                "Aged 65 years or older",
+                "Adjusted household after-tax income in bottom 40%",
+                "Adjusted household after-tax income in top 60%",
+                ""
+              ]
+            },
+            "title": "Population"
+          },
+          {
+            "name": "Unnamed: 4",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Unnamed: 4"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de la population (personnes) consacrant une grande part de ses dépenses du ménage à certains articles de soins de santé en proportion du revenu total après impôt"
+    },
+    {
       "path": "4-5-1/data.csv",
       "name": "4-5-1",
       "profile": "tabular-data-resource",
@@ -3326,30 +3389,6 @@
         ]
       },
       "title": "Puissance installée du parc d’énergie renouvelable dans les pays en développement (en watts par habitant) (identique à l’indicateur proposé en remplacement de l’indicateur 12.a.1 ci-dessous)"
-    },
-    {
-      "path": "3-8-2/data.csv",
-      "name": "3-8-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de la population consacrant une grande part de ses dépenses ou de ses revenus domestiques aux services de soins de santé"
     },
     {
       "path": "17-9-1/data.csv",

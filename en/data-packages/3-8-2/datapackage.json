@@ -12,8 +12,47 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion with share above 10%",
+                "Proportion with share above 25%",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                "Aged below 18 years",
+                "Aged 18 to 64 years",
+                "Aged 65 years or older",
+                "Adjusted household after-tax income in bottom 40%",
+                "Adjusted household after-tax income in top 60%",
+                ""
+              ]
+            },
+            "title": "Population"
+          },
+          {
+            "name": "Unnamed: 4",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Unnamed: 4"
           },
           {
             "name": "Value",
@@ -26,5 +65,5 @@
   ],
   "profile": "data-package",
   "name": "3-8-2",
-  "title": "Proportion of population with large household expenditures on health as a share of total household expenditure or income"
+  "title": "Proportion of population (individuals) with large household expenditures on select health care items as a share of total after-tax income"
 }

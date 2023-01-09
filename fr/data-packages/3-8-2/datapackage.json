@@ -12,8 +12,47 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion with share above 10%",
+                "Proportion with share above 25%",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Homme",
+                "Femme",
+                "Aged below 18 years",
+                "Aged 18 to 64 years",
+                "Aged 65 years or older",
+                "Adjusted household after-tax income in bottom 40%",
+                "Adjusted household after-tax income in top 60%",
+                ""
+              ]
+            },
+            "title": "Population"
+          },
+          {
+            "name": "Unnamed: 4",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Unnamed: 4"
           },
           {
             "name": "Value",
@@ -26,5 +65,5 @@
   ],
   "profile": "data-package",
   "name": "3-8-2",
-  "title": "Proportion de la population consacrant une grande part de ses dépenses ou de ses revenus domestiques aux services de soins de santé"
+  "title": "Proportion de la population (personnes) consacrant une grande part de ses dépenses du ménage à certains articles de soins de santé en proportion du revenu total après impôt"
 }
