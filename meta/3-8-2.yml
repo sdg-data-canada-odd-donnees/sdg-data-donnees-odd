@@ -1,14 +1,22 @@
+## NATIONAL METADATA
 SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
 SDG_TARGET: 'Target 3.8: Achieve universal health coverage, including financial risk
   protection, access to quality essential health-care services and access to safe,
   effective, quality and affordable essential medicines and vaccines for all'
-SDG_INDICATOR: 'Indicator 3.8.2: Proportion of population with large household expenditure
-  on health as a share of total household expenditure or income'
+SDG_INDICATOR: proxy.3-8-2-title
 STAT_CONC_DEF: '    '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
-  at all ages</p>'
+DATA_COMP: |
+    <p>The Survey of Household Spending collects expenditures using two collection modes:  a questionnaire (using recall periods that vary based on the type of expenditure) and a two-week diary.</p>
+    <p>For methodological reasons, health care expenditures collected through the two-week diary were excluded from the numerator in the calculation of each household's proportion of income spent on health care. The excluded health care items are: non-prescribed medicines and pharmaceutical products; health care supplies; other health care equipment (i.e. other than major equipment); and non-prescription eye wear and other eye-care goods. Since these items were excluded, the definition of health care spending used for this indicator is therefore not consistent with the Classification of Individual Consumption According to Purpose (COICOP) classification.</p>
+    <p>The following out-of-pocket health care expenditures were included in the numerator: prescribed medicines and pharmaceutical products; major health care equipment (e.g. hearing aids, wheelchairs); health care services; prescription eye wear; eye-care services; and dental services.</p>
+    <p>Note that expenses for prescribed medicines and pharmaceutical products are collected through the questionnaire using a three-month recall period. Reported amounts are annualized so that they cover 12 months (they are multiplied by 4, and additional adjustments account for extreme values). The inclusion of annualized spending for prescribed medicines and pharmaceutical products in the numerator for this indicator requires the assumption that a given household's spending on this item does not vary between different three-month periods of the year.</p>
+    <p>After-tax household income was used for the denominator, since a measure of annual total consumption is not available at the individual household level due to design of the survey.</p>
+    
+REC_USE_LIM: |
+    SHS estimates exclude households in Canada's three territories.
+
+## GLOBAL METADATA
+SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
 SDG_TARGET__GLOBAL: 'Target 3.8: Achieve universal health coverage, including financial
   risk protection, access to quality essential health-care services and access to
   safe, effective, quality and affordable essential medicines and vaccines for all'
@@ -19,3 +27,11 @@ un_custodian_agency: World Health Organisation (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-08-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+
+## SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: meta.3-8-2-source
+source_url_1: meta.3-8-2-link
+source_organisation_1: Statistics Canada
+source_periodicity_1: Every 2 years
+source_geographical_coverage_1: Canada
