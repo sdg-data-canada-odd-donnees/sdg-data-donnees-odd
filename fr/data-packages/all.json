@@ -1747,6 +1747,30 @@
       "title": "Proportion de la population vivant au-dessous du seuil de pauvreté fixé au niveau international, par sexe, âge, situation dans l’emploi et lieu de résidence (zone urbaine/zone rurale)"
     },
     {
+      "path": "17-19-1/data.csv",
+      "name": "17-19-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Valeur (en dollars) de l’ensemble des ressources allouées au renforcement des capacités statistiques des pays en développement"
+    },
+    {
       "path": "3-3-1/data.csv",
       "name": "3-3-1",
       "profile": "tabular-data-resource",
@@ -5837,30 +5861,6 @@
         ]
       },
       "title": "Nombre de victimes de la traite d’êtres humains pour 100 000 habitants, par sexe, âge et forme d’exploitation"
-    },
-    {
-      "path": "17-19-1/data.csv",
-      "name": "17-19-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Valeur (en dollars) de l’ensemble des ressources allouées au renforcement des capacités statistiques des pays en développement"
     },
     {
       "path": "7-1-2/data.csv",
