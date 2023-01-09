@@ -1,3 +1,5 @@
+## NATIONAL METADATA
+
 SDG_GOAL: '<p>Goal 17: Strengthen the means of implementation and revitalize the Global
   Partnership for Sustainable Development</p>'
 SDG_TARGET: '<p>Target 17.19: By 2030, build on existing initiatives to develop measurements
@@ -5,12 +7,11 @@ SDG_TARGET: '<p>Target 17.19: By 2030, build on existing initiatives to develop 
   support statistical capacity-building in developing countries</p>'
 SDG_INDICATOR: '<p>Indicator 17.19.1: Dollar value of all resources made available
   to strengthen statistical capacity in developing countries</p>'
-STAT_CONC_DEF: <p>The indicator Dollar value of all resources made available to strengthen
-  statistical capacity in developing countries is based on the Partner Report on Support
-  to Statistics (PRESS) that is designed and administered by PARIS21 to provide a
-  snapshot of the US dollar value of ongoing statistical support in developing countries.</p>
+STAT_CONC_DEF: '    '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+## GLOBAL METADATA
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the Global Partnership for Sustainable Development</p>'
 SDG_TARGET__GLOBAL: '<p>Target 17.19: By 2030, build on existing initiatives to develop
@@ -24,3 +25,9 @@ un_custodian_agency: Partnership in Statistics for Development in the 21st Centu
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 354
   KB)
+
+## SOURCE(S)    
+source_active_1: 'true'
+source_organisation_1: <a href="https://www.oecd.org/"> Organisation for Economic Co-operation and Development (OECD) </a>
+source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
+source_url_text_1: OECD - Creditor Reporting System (CRS)

@@ -1,3 +1,4 @@
+## NATIONAL METADATA
 SDG_GOAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
 SDG_TARGET: '<p>Cible 17.19: D’ici à 2030, tirer parti des initiatives existantes
@@ -9,6 +10,8 @@ SDG_INDICATOR: '<p>Indicateur 17.19.1: Valeur (en dollars) de l’ensemble des r
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+## GLOBAL METADATA
 SDG_GOAL__GLOBAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 17.19: D’ici à 2030, tirer parti des initiatives existantes
@@ -18,5 +21,8 @@ SDG_TARGET__GLOBAL: '<p>Cible 17.19: D’ici à 2030, tirer parti des initiative
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.19.1: Valeur (en dollars) de l’ensemble des
   ressources allouées au renforcement des capacités statistiques des pays en développement</p>'
 
-reporting_status: notstarted
-
+## SOURCE(S)
+source_active_1: 'true'
+source_organisation_1: <a href="https://www.oecd.org/"> Organisation de coopération et de développement économiques (OCDE) </a>
+source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
+source_url_text_1: OCDE - Système de notification des pays créanciers (SNPC)
