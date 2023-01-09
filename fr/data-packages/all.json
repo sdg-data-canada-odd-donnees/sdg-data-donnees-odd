@@ -1747,30 +1747,6 @@
       "title": "Proportion de la population vivant au-dessous du seuil de pauvreté fixé au niveau international, par sexe, âge, situation dans l’emploi et lieu de résidence (zone urbaine/zone rurale)"
     },
     {
-      "path": "17-19-1/data.csv",
-      "name": "17-19-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Valeur (en dollars) de l’ensemble des ressources allouées au renforcement des capacités statistiques des pays en développement"
-    },
-    {
       "path": "3-3-1/data.csv",
       "name": "3-3-1",
       "profile": "tabular-data-resource",
@@ -2681,6 +2657,30 @@
       "title": "Proportion de la population possédant un téléphone portable, par sexe"
     },
     {
+      "path": "17-19-1/data.csv",
+      "name": "17-19-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Valeur (en dollars) de l’ensemble des ressources allouées au renforcement des capacités statistiques des pays en développement"
+    },
+    {
       "path": "9-5-1/data.csv",
       "name": "9-5-1",
       "profile": "tabular-data-resource",
@@ -3017,7 +3017,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-1",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -3027,9 +3027,24 @@
           },
           {
             "name": "Geography",
-            "type": "number",
+            "type": "string",
             "constraints": {
               "enum": [
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Outside Canada",
+                "Northwest Territories including Nunavut",
                 ""
               ]
             },
@@ -3037,7 +3052,7 @@
           },
           {
             "name": "GeoCode",
-            "type": "number",
+            "type": "string",
             "title": "GeoCode"
           },
           {

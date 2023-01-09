@@ -17,9 +17,24 @@
           },
           {
             "name": "Geography",
-            "type": "number",
+            "type": "string",
             "constraints": {
               "enum": [
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                "Outside Canada",
+                "Northwest Territories including Nunavut",
                 ""
               ]
             },
@@ -27,7 +42,7 @@
           },
           {
             "name": "GeoCode",
-            "type": "number",
+            "type": "string",
             "title": "GeoCode"
           },
           {

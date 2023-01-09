@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-1",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -17,9 +17,24 @@
           },
           {
             "name": "Geography",
-            "type": "number",
+            "type": "string",
             "constraints": {
               "enum": [
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Outside Canada",
+                "Northwest Territories including Nunavut",
                 ""
               ]
             },
@@ -27,7 +42,7 @@
           },
           {
             "name": "GeoCode",
-            "type": "number",
+            "type": "string",
             "title": "GeoCode"
           },
           {
