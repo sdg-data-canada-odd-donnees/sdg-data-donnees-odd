@@ -1466,16 +1466,16 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Alberta",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
                 "New Brunswick",
                 "Quebec",
-                "British Columbia",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
+                "Alberta",
+                "British Columbia",
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
@@ -1488,9 +1488,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Both sexes",
                 "Males",
                 "Females",
-                "Both sexes",
                 ""
               ]
             }
