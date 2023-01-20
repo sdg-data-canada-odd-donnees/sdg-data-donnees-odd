@@ -268,7 +268,7 @@ Year,Geography,Type of provider,Value
 2016,Nunavut,Optometrists,2.5
 2016,Ontario,Physician assistants,2.5
 2021,Nunavut,Physician assistants,2.5
-2021,Nunavut,Speech僕anguage pathologists,2.5
+2021,Nunavut,Speech language pathologists,2.5
 2018,Nunavut,Audiologists,2.6
 2019,Nunavut,Audiologists,2.6
 2016,Yukon,Environmental public health professionals,2.6
@@ -285,7 +285,7 @@ Year,Geography,Type of provider,Value
 2017,Quebec,Midwives,2.7
 2015,Nunavut,Specialists,2.7
 2016,Nunavut,Specialists,2.7
-2017,Nunavut,Speech僕anguage pathologists,2.7
+2017,Nunavut,Speech language pathologists,2.7
 2017,Alberta,Midwives,2.8
 2018,Quebec,Midwives,2.9
 2015,New Brunswick,Pharmacy technicians,2.9
@@ -486,10 +486,10 @@ Year,Geography,Type of provider,Value
 2018,Manitoba,Pharmacy technicians,7.5
 2017,Yukon,Audiologists,7.6
 2021,British Columbia,Health information management professionals,7.7
-2020,Nunavut,Speech僕anguage pathologists,7.7
+2020,Nunavut,Speech language pathologists,7.7
 2016,Yukon,Midwives,7.8
 2019,Nunavut,Respiratory therapists,7.8
-2019,Nunavut,Speech僕anguage pathologists,7.8
+2019,Nunavut,Speech language pathologists,7.8
 2018,Nunavut,Environmental public health professionals,7.9
 2016,British Columbia,Nurse practitioners,7.9
 2018,Nunavut,Respiratory therapists,7.9
@@ -630,7 +630,7 @@ Year,Geography,Type of provider,Value
 2017,Newfoundland,Chiropractors,13.1
 2019,Alberta,Nurse practitioners,13.1
 2018,Nunavut,Specialists,13.1
-2018,Nunavut,Speech僕anguage pathologists,13.1
+2018,Nunavut,Speech language pathologists,13.1
 2018,Manitoba,Optometrists,13.2
 2020,Northwest Territories,Respiratory therapists,13.2
 2016,Canada,Nurse practitioners,13.27
@@ -675,12 +675,12 @@ Year,Geography,Type of provider,Value
 2017,Nova Scotia,Optometrists,14.5
 2019,Prince Edward Island,Optometrists,14.6
 2019,Ontario,Health information management professionals,14.7
-2016,Northwest Territories,Speech僕anguage pathologists,14.7
-2016,Nunavut,Speech僕anguage pathologists,14.7
+2016,Northwest Territories,Speech language pathologists,14.7
+2016,Nunavut,Speech language pathologists,14.7
 2015,Northwest Territories,Environmental public health professionals,14.9
 2015,Nunavut,Environmental public health professionals,14.9
-2015,Northwest Territories,Speech僕anguage pathologists,14.9
-2015,Nunavut,Speech僕anguage pathologists,14.9
+2015,Northwest Territories,Speech language pathologists,14.9
+2015,Nunavut,Speech language pathologists,14.9
 2016,Prince Edward Island,Nurse practitioners,15
 2018,Prince Edward Island,Optometrists,15
 2017,Manitoba,Opticians,15.1
@@ -879,7 +879,7 @@ Year,Geography,Type of provider,Value
 2017,Saskatchewan,Respiratory therapists,20.2
 2019,Nova Scotia,Health information management professionals,20.3
 2016,Saskatchewan,Respiratory therapists,20.3
-2015,Ontario,Speech僕anguage pathologists,20.3
+2015,Ontario,Speech language pathologists,20.3
 2016,Canada,Pharmacy technicians,20.32
 2020,Saskatchewan,Nurse practitioners,20.4
 2016,British Columbia,Respiratory therapists,20.6
@@ -890,9 +890,9 @@ Year,Geography,Type of provider,Value
 2018,Nunavut,Medical laboratory technologists,21
 2019,Nova Scotia,Nurse practitioners,21
 2018,Saskatchewan,Respiratory therapists,21
-2016,Ontario,Speech僕anguage pathologists,21.1
+2016,Ontario,Speech language pathologists,21.1
 2021,Manitoba,Chiropractors,21.2
-2017,Ontario,Speech僕anguage pathologists,21.2
+2017,Ontario,Speech language pathologists,21.2
 2021,Prince Edward Island,Opticians,21.3
 2017,Nunavut,Physicians,21.3
 2020,Yukon,Registered psychiatric nurses,21.3
@@ -905,7 +905,7 @@ Year,Geography,Type of provider,Value
 2015,Nunavut,Medical radiation technologists,21.9
 2016,Newfoundland,Opticians,21.9
 2021,Saskatchewan,Nurse practitioners,22
-2018,Ontario,Speech僕anguage pathologists,22
+2018,Ontario,Speech language pathologists,22
 2015,Manitoba,Chiropractors,22.2
 2018,Manitoba,Chiropractors,22.2
 2019,Northwest Territories,Midwives,22.2
@@ -917,14 +917,14 @@ Year,Geography,Type of provider,Value
 2018,Ontario,Nurse practitioners,22.4
 2020,Nova Scotia,Nurse practitioners,22.4
 2017,Canada,Pharmacy technicians,22.4
-2019,Ontario,Speech僕anguage pathologists,22.5
-2020,Ontario,Speech僕anguage pathologists,22.7
+2019,Ontario,Speech language pathologists,22.5
+2020,Ontario,Speech language pathologists,22.7
 2021,Nunavut,Medical radiation technologists,22.8
 2021,Nova Scotia,Pharmacy technicians,22.9
 2020,Nunavut,Medical radiation technologists,23
 2015,Ontario,Respiratory therapists,23
 2016,British Columbia,Chiropractors,23.2
-2015,British Columbia,Speech僕anguage pathologists,23.2
+2015,British Columbia,Speech language pathologists,23.2
 2016,Northwest Territories,Medical radiation technologists,23.3
 2016,Nunavut,Medical radiation technologists,23.3
 2021,Yukon,Registered psychiatric nurses,23.3
@@ -933,7 +933,7 @@ Year,Geography,Type of provider,Value
 2015,British Columbia,Chiropractors,23.5
 2019,Newfoundland,Opticians,23.5
 2020,Saskatchewan,Respiratory therapists,23.5
-2021,Ontario,Speech僕anguage pathologists,23.5
+2021,Ontario,Speech language pathologists,23.5
 2015,Canada,Chiropractors,23.66
 2019,Ontario,Nurse practitioners,23.7
 2017,Newfoundland,Opticians,23.7
@@ -943,7 +943,7 @@ Year,Geography,Type of provider,Value
 2018,Ontario,Respiratory therapists,23.8
 2020,Ontario,Respiratory therapists,23.8
 2015,Quebec,Opticians,23.9
-2016,British Columbia,Speech僕anguage pathologists,23.9
+2016,British Columbia,Speech language pathologists,23.9
 2018,Canada,Pharmacy technicians,23.92
 2016,Canada,Chiropractors,23.99
 2021,Newfoundland,Opticians,24
@@ -953,23 +953,23 @@ Year,Geography,Type of provider,Value
 2019,Manitoba,Respiratory therapists,24.2
 2021,Northwest Territories,Specialists,24.2
 2017,Canada,Chiropractors,24.27
-2021,Prince Edward Island,Speech僕anguage pathologists,24.3
+2021,Prince Edward Island,Speech language pathologists,24.3
 2016,Quebec,Opticians,24.4
 2020,British Columbia,Psychologists,24.4
-2017,Nova Scotia,Speech僕anguage pathologists,24.4
+2017,Nova Scotia,Speech language pathologists,24.4
 2017,Northwest Territories,Occupational therapists,24.5
 2017,Alberta,Opticians,24.5
 2021,Ontario,Respiratory therapists,24.5
-2017,British Columbia,Speech僕anguage pathologists,24.5
+2017,British Columbia,Speech language pathologists,24.5
 2019,Canada,Dietitians,24.59
 2019,British Columbia,Psychologists,24.6
-2015,Nova Scotia,Speech僕anguage pathologists,24.6
+2015,Nova Scotia,Speech language pathologists,24.6
 2018,Canada,Chiropractors,24.69
 2015,Nunavut,Family medicine,24.7
 2016,Alberta,Chiropractors,24.8
 2018,British Columbia,Chiropractors,24.8
 2020,Manitoba,Respiratory therapists,24.8
-2016,Nova Scotia,Speech僕anguage pathologists,24.8
+2016,Nova Scotia,Speech language pathologists,24.8
 2015,Northwest Territories,Medical radiation technologists,24.9
 2018,British Columbia,Psychologists,24.9
 2015,Alberta,Chiropractors,25
@@ -985,12 +985,12 @@ Year,Geography,Type of provider,Value
 2016,Alberta,Opticians,25.1
 2018,Manitoba,Respiratory therapists,25.1
 2017,Yukon,Specialists,25.2
-2015,Newfoundland,Speech僕anguage pathologists,25.2
+2015,Newfoundland,Speech language pathologists,25.2
 2021,Canada,Chiropractors,25.3
 2016,British Columbia,Psychologists,25.3
 2018,Alberta,Chiropractors,25.4
 2016,British Columbia,Opticians,25.4
-2018,Prince Edward Island,Speech僕anguage pathologists,25.4
+2018,Prince Edward Island,Speech language pathologists,25.4
 2017,Manitoba,Respiratory therapists,25.6
 2015,British Columbia,Dietitians,25.7
 2018,British Columbia,Dietitians,25.7
@@ -1002,24 +1002,24 @@ Year,Geography,Type of provider,Value
 2016,Canada,Speech language pathologists,25.94
 2019,British Columbia,Chiropractors,26
 2021,Ontario,Nurse practitioners,26
-2018,British Columbia,Speech僕anguage pathologists,26
+2018,British Columbia,Speech language pathologists,26
 2020,Alberta,Chiropractors,26.2
 2020,British Columbia,Chiropractors,26.3
 2017,Newfoundland,Pharmacy technicians,26.3
 2021,Alberta,Chiropractors,26.4
 2020,Northwest Territories,Specialists,26.4
-2021,Northwest Territories,Speech僕anguage pathologists,26.4
+2021,Northwest Territories,Speech language pathologists,26.4
 2017,Nunavut,Medical laboratory technologists,26.6
 2017,Nunavut,Medical radiation technologists,26.6
 2019,Northwest Territories,Medical radiation technologists,26.6
-2016,Newfoundland,Speech僕anguage pathologists,26.6
-2018,Nova Scotia,Speech僕anguage pathologists,26.6
+2016,Newfoundland,Speech language pathologists,26.6
+2018,Nova Scotia,Speech language pathologists,26.6
 2021,British Columbia,Chiropractors,26.7
 2015,Newfoundland,Respiratory therapists,26.7
 2017,Canada,Speech language pathologists,26.71
 2017,Quebec,Dental assistants,26.8
-2017,Newfoundland,Speech僕anguage pathologists,26.9
-2019,British Columbia,Speech僕anguage pathologists,26.9
+2017,Newfoundland,Speech language pathologists,26.9
+2019,British Columbia,Speech language pathologists,26.9
 2019,Alberta,Chiropractors,27
 2016,British Columbia,Dietitians,27
 2021,Manitoba,Respiratory therapists,27
@@ -1029,79 +1029,79 @@ Year,Geography,Type of provider,Value
 2017,British Columbia,Dietitians,27.3
 2019,Prince Edward Island,Nurse practitioners,27.3
 2017,Ontario,Psychologists,27.3
-2017,Prince Edward Island,Speech僕anguage pathologists,27.3
-2020,Prince Edward Island,Speech僕anguage pathologists,27.3
+2017,Prince Edward Island,Speech language pathologists,27.3
+2020,Prince Edward Island,Speech language pathologists,27.3
 2016,New Brunswick,Opticians,27.4
 2015,Nunavut,Pharmacists,27.4
 2015,British Columbia,Pharmacy technicians,27.4
 2015,Nunavut,Physicians,27.4
 2019,British Columbia,Dietitians,27.5
 2019,Ontario,Psychologists,27.5
-2016,Manitoba,Speech僕anguage pathologists,27.5
+2016,Manitoba,Speech language pathologists,27.5
 2018,Ontario,Psychologists,27.6
-2020,British Columbia,Speech僕anguage pathologists,27.6
-2015,Manitoba,Speech僕anguage pathologists,27.7
-2015,Prince Edward Island,Speech僕anguage pathologists,27.7
+2020,British Columbia,Speech language pathologists,27.6
+2015,Manitoba,Speech language pathologists,27.7
+2015,Prince Edward Island,Speech language pathologists,27.7
 2018,Canada,Speech language pathologists,27.71
 2015,Ontario,Dietitians,27.8
 2019,Canada,Speech language pathologists,27.82
 2021,Yukon,Optometrists,27.9
 2020,Ontario,Psychologists,27.9
-2016,Prince Edward Island,Speech僕anguage pathologists,27.9
+2016,Prince Edward Island,Speech language pathologists,27.9
 2021,Saskatchewan,Health information management professionals,28
 2015,Ontario,Pharmacy technicians,28
 2017,Newfoundland,Respiratory therapists,28
-2018,Newfoundland,Speech僕anguage pathologists,28
-2021,British Columbia,Speech僕anguage pathologists,28
+2018,Newfoundland,Speech language pathologists,28
+2021,British Columbia,Speech language pathologists,28
 2016,Ontario,Dietitians,28.1
 2016,Newfoundland,Nurse practitioners,28.1
 2016,Newfoundland,Respiratory therapists,28.1
 2017,Ontario,Dietitians,28.3
 2016,Nova Scotia,Opticians,28.3
-2019,Newfoundland,Speech僕anguage pathologists,28.3
+2019,Newfoundland,Speech language pathologists,28.3
 2015,Prince Edward Island,Psychologists,28.4
 2020,British Columbia,Dietitians,28.5
 2017,Prince Edward Island,Psychologists,28.6
 2021,Ontario,Psychologists,28.6
-2020,Manitoba,Speech僕anguage pathologists,28.6
+2020,Manitoba,Speech language pathologists,28.6
 2020,Northwest Territories,Medical radiation technologists,28.7
-2015,Quebec,Speech僕anguage pathologists,28.7
+2015,Quebec,Speech language pathologists,28.7
 2019,Northwest Territories,Dietitians,28.8
 2019,Ontario,Dietitians,28.8
 2016,British Columbia,Pharmacy technicians,28.8
-2017,Manitoba,Speech僕anguage pathologists,28.8
-2018,Manitoba,Speech僕anguage pathologists,28.8
-2020,Newfoundland,Speech僕anguage pathologists,28.8
+2017,Manitoba,Speech language pathologists,28.8
+2018,Manitoba,Speech language pathologists,28.8
+2020,Newfoundland,Speech language pathologists,28.8
 2018,Ontario,Dietitians,28.9
 2020,Ontario,Dietitians,28.9
 2021,British Columbia,Dietitians,28.9
-2018,Northwest Territories,Speech僕anguage pathologists,28.9
-2019,Manitoba,Speech僕anguage pathologists,28.9
+2018,Northwest Territories,Speech language pathologists,28.9
+2019,Manitoba,Speech language pathologists,28.9
 2019,Yukon,Dietitians,29
 2019,Yukon,Specialists,29
 2018,Canada,Respiratory therapists,29.08
 2017,New Brunswick,Opticians,29.2
 2015,Yukon,Specialists,29.2
-2021,Newfoundland,Speech僕anguage pathologists,29.2
+2021,Newfoundland,Speech language pathologists,29.2
 2021,Canada,Speech language pathologists,29.3
 2021,Ontario,Dietitians,29.4
 2021,Newfoundland,Respiratory therapists,29.6
 2018,Newfoundland,Respiratory therapists,29.7
 2017,Canada,Respiratory therapists,29.79
 2015,Saskatchewan,Occupational therapists,29.8
-2015,Saskatchewan,Speech僕anguage pathologists,29.8
+2015,Saskatchewan,Speech language pathologists,29.8
 2015,Alberta,Dietitians,29.9
 2016,Saskatchewan,Occupational therapists,29.9
-2016,Quebec,Speech僕anguage pathologists,29.9
+2016,Quebec,Speech language pathologists,29.9
 2017,Saskatchewan,Occupational therapists,30
 2018,Saskatchewan,Occupational therapists,30
-2021,Manitoba,Speech僕anguage pathologists,30.2
+2021,Manitoba,Speech language pathologists,30.2
 2017,British Columbia,Pharmacy technicians,30.3
 2016,Alberta,Dietitians,30.4
 2017,Alberta,Dietitians,30.4
 2020,Prince Edward Island,Nurse practitioners,30.4
 2021,Nunavut,Medical laboratory technologists,30.5
-2019,Prince Edward Island,Speech僕anguage pathologists,30.5
+2019,Prince Edward Island,Speech language pathologists,30.5
 2018,Alberta,Dietitians,30.6
 2020,Alberta,Dietitians,30.6
 2019,Saskatchewan,Occupational therapists,30.6
@@ -1119,12 +1119,12 @@ Year,Geography,Type of provider,Value
 2015,Ontario,Chiropractors,31
 2018,Alberta,Registered psychiatric nurses,31
 2020,Alberta,Registered psychiatric nurses,31
-2020,Nova Scotia,Speech僕anguage pathologists,31
+2020,Nova Scotia,Speech language pathologists,31
 2018,Northwest Territories,Dietitians,31.1
 2019,Nunavut,Medical laboratory technologists,31.1
 2017,Alberta,Registered psychiatric nurses,31.1
 2017,Newfoundland,Nurse practitioners,31.2
-2017,Northwest Territories,Speech僕anguage pathologists,31.2
+2017,Northwest Territories,Speech language pathologists,31.2
 2016,Ontario,Chiropractors,31.3
 2018,British Columbia,Pharmacy technicians,31.3
 2016,Prince Edward Island,Psychologists,31.3
@@ -1133,14 +1133,14 @@ Year,Geography,Type of provider,Value
 2020,Nova Scotia,Respiratory therapists,31.3
 2021,Alberta,Dietitians,31.4
 2019,New Brunswick,Pharmacy technicians,31.4
-2015,New Brunswick,Speech僕anguage pathologists,31.4
-2017,New Brunswick,Speech僕anguage pathologists,31.4
-2021,Nova Scotia,Speech僕anguage pathologists,31.4
+2015,New Brunswick,Speech language pathologists,31.4
+2017,New Brunswick,Speech language pathologists,31.4
+2021,Nova Scotia,Speech language pathologists,31.4
 2017,Ontario,Chiropractors,31.5
 2016,Saskatchewan,Dietitians,31.5
 2018,Nunavut,Family medicine,31.5
-2018,New Brunswick,Speech僕anguage pathologists,31.5
-2021,New Brunswick,Speech僕anguage pathologists,31.5
+2018,New Brunswick,Speech language pathologists,31.5
+2021,New Brunswick,Speech language pathologists,31.5
 2015,Canada,Dietitians,31.58
 2020,Saskatchewan,Health information management professionals,31.6
 2019,Saskatchewan,Pharmacy technicians,31.6
@@ -1153,15 +1153,15 @@ Year,Geography,Type of provider,Value
 2018,Newfoundland,Nurse practitioners,32
 2016,Canada,Respiratory therapists,32
 2021,Canada,Respiratory therapists,32
-2016,Saskatchewan,Speech僕anguage pathologists,32
+2016,Saskatchewan,Speech language pathologists,32
 2018,Ontario,Chiropractors,32.1
 2021,British Columbia,Medical laboratory technologists,32.1
 2021,Saskatchewan,Pharmacy technicians,32.1
 2018,Yukon,Specialists,32.1
-2016,New Brunswick,Speech僕anguage pathologists,32.1
+2016,New Brunswick,Speech language pathologists,32.1
 2015,Northwest Territories,Midwives,32.2
 2015,Nunavut,Midwives,32.2
-2019,New Brunswick,Speech僕anguage pathologists,32.2
+2019,New Brunswick,Speech language pathologists,32.2
 2016,Canada,Dietitians,32.27
 2021,Ontario,Chiropractors,32.3
 2017,Saskatchewan,Health information management professionals,32.3
@@ -1170,49 +1170,49 @@ Year,Geography,Type of provider,Value
 2020,Saskatchewan,Pharmacy technicians,32.4
 2019,Saskatchewan,Health information management professionals,32.5
 2015,Alberta,Pharmacy technicians,32.5
-2017,Quebec,Speech僕anguage pathologists,32.5
+2017,Quebec,Speech language pathologists,32.5
 2019,Ontario,Dental assistants,32.6
 2019,New Brunswick,Opticians,32.6
 2021,Yukon,Specialists,32.6
-2015,Alberta,Speech僕anguage pathologists,32.6
-2017,Saskatchewan,Speech僕anguage pathologists,32.6
+2015,Alberta,Speech language pathologists,32.6
+2017,Saskatchewan,Speech language pathologists,32.6
 2017,Canada,Dietitians,32.64
 2017,Ontario,Pharmacy technicians,32.7
 2020,British Columbia,Pharmacy technicians,32.7
 2016,Nova Scotia,Respiratory therapists,32.7
 2019,Saskatchewan,Dietitians,32.8
 2020,Saskatchewan,Occupational therapists,32.8
-2020,New Brunswick,Speech僕anguage pathologists,32.8
+2020,New Brunswick,Speech language pathologists,32.8
 2018,Canada,Dietitians,32.84
 2017,Saskatchewan,Dietitians,32.9
 2021,Nova Scotia,Respiratory therapists,32.9
-2018,Saskatchewan,Speech僕anguage pathologists,32.9
+2018,Saskatchewan,Speech language pathologists,32.9
 2018,Quebec,Dental assistants,33
 2016,Alberta,Pharmacy technicians,33
 2021,British Columbia,Pharmacy technicians,33
 2020,British Columbia,Medical laboratory technologists,33.1
 2018,Newfoundland,Pharmacy technicians,33.1
-2020,Northwest Territories,Speech僕anguage pathologists,33.1
+2020,Northwest Territories,Speech language pathologists,33.1
 2019,Canada,Respiratory therapists,33.17
 2020,Yukon,Nurse practitioners,33.2
 2020,Yukon,Specialists,33.2
 2021,Canada,Dietitians,33.4
 2017,Newfoundland,Dietitians,33.5
 2017,Nova Scotia,Respiratory therapists,33.5
-2016,Alberta,Speech僕anguage pathologists,33.5
+2016,Alberta,Speech language pathologists,33.5
 2020,Quebec,Dietitians,33.6
-2021,Alberta,Speech僕anguage pathologists,33.6
+2021,Alberta,Speech language pathologists,33.6
 2015,Newfoundland,Dietitians,33.7
 2019,Nunavut,Dietitians,33.7
 2020,Saskatchewan,Dietitians,33.7
-2017,Alberta,Speech僕anguage pathologists,33.7
+2017,Alberta,Speech language pathologists,33.7
 2020,Newfoundland,Dietitians,33.8
 2018,Ontario,Pharmacy technicians,33.8
-2018,Quebec,Speech僕anguage pathologists,33.8
+2018,Quebec,Speech language pathologists,33.8
 2019,British Columbia,Medical laboratory technologists,33.9
 2018,Nova Scotia,Respiratory therapists,33.9
 2016,Newfoundland,Dietitians,34
-2020,Alberta,Speech僕anguage pathologists,34
+2020,Alberta,Speech language pathologists,34
 2018,Nunavut,Dietitians,34.1
 2020,Prince Edward Island,Psychologists,34.1
 2016,Northwest Territories,Midwives,34.3
@@ -1222,14 +1222,14 @@ Year,Geography,Type of provider,Value
 2021,Saskatchewan,Occupational therapists,34.4
 2021,New Brunswick,Opticians,34.5
 2021,Canada,Pharmacy technicians,34.5
-2018,Alberta,Speech僕anguage pathologists,34.5
-2019,Alberta,Speech僕anguage pathologists,34.5
-2019,Quebec,Speech僕anguage pathologists,34.5
-2020,Saskatchewan,Speech僕anguage pathologists,34.5
+2018,Alberta,Speech language pathologists,34.5
+2019,Alberta,Speech language pathologists,34.5
+2019,Quebec,Speech language pathologists,34.5
+2020,Saskatchewan,Speech language pathologists,34.5
 2019,Newfoundland,Dietitians,34.6
 2018,Saskatchewan,Dietitians,34.7
 2019,Ontario,Pharmacy technicians,34.7
-2019,Nova Scotia,Speech僕anguage pathologists,34.7
+2019,Nova Scotia,Speech language pathologists,34.7
 2019,Prince Edward Island,Psychologists,34.9
 2019,Newfoundland,Nurse practitioners,35
 2018,Newfoundland,Dietitians,35.2
@@ -1239,16 +1239,16 @@ Year,Geography,Type of provider,Value
 2019,Manitoba,Dietitians,35.3
 2018,Manitoba,Dietitians,35.4
 2021,Saskatchewan,Dietitians,35.5
-2019,Northwest Territories,Speech僕anguage pathologists,35.5
-2020,Quebec,Speech僕anguage pathologists,35.5
+2019,Northwest Territories,Speech language pathologists,35.5
+2020,Quebec,Speech language pathologists,35.5
 2017,Ontario,Dental assistants,35.6
 2020,Manitoba,Dietitians,35.6
 2021,Ontario,Pharmacy technicians,35.7
 2019,Nova Scotia,Respiratory therapists,35.7
 2016,Northwest Territories,Occupational therapists,35.8
-2021,Saskatchewan,Speech僕anguage pathologists,35.9
+2021,Saskatchewan,Speech language pathologists,35.9
 2021,Manitoba,Dietitians,36.1
-2021,Quebec,Speech僕anguage pathologists,36.3
+2021,Quebec,Speech language pathologists,36.3
 2017,Manitoba,Dietitians,36.4
 2020,Newfoundland,Nurse practitioners,36.6
 2015,Manitoba,Dietitians,36.8
@@ -1290,7 +1290,7 @@ Year,Geography,Type of provider,Value
 2015,Prince Edward Island,Occupational therapists,40.1
 2015,British Columbia,Medical radiation technologists,40.4
 2017,Yukon,Occupational therapists,40.4
-2017,Yukon,Speech僕anguage pathologists,40.4
+2017,Yukon,Speech language pathologists,40.4
 2020,British Columbia,Medical radiation technologists,40.5
 2016,Ontario,Occupational therapists,40.5
 2015,Alberta,Respiratory therapists,40.5
@@ -1300,11 +1300,11 @@ Year,Geography,Type of provider,Value
 2019,Newfoundland,Occupational therapists,41.1
 2019,Newfoundland,Dentists,41.5
 2017,Ontario,Occupational therapists,41.5
-2016,Yukon,Speech僕anguage pathologists,41.5
+2016,Yukon,Speech language pathologists,41.5
 2017,Newfoundland,Dental hygienists,41.8
 2018,Newfoundland,Dental hygienists,41.9
 2017,New Brunswick,Dentists,41.9
-2018,Yukon,Speech僕anguage pathologists,42
+2018,Yukon,Speech language pathologists,42
 2018,Ontario,Occupational therapists,42.1
 2017,Newfoundland,Dentists,42.2
 2016,Prince Edward Island,Occupational therapists,42.2
@@ -1350,7 +1350,7 @@ Year,Geography,Type of provider,Value
 2015,Newfoundland,Psychologists,44.7
 2021,Newfoundland,Pharmacy technicians,44.8
 2015,Yukon,Medical radiation technologists,45.1
-2015,Yukon,Speech僕anguage pathologists,45.1
+2015,Yukon,Speech language pathologists,45.1
 2020,New Brunswick,Dentists,45.3
 2021,Saskatchewan,Dentists,45.3
 2015,New Brunswick,Occupational therapists,45.3
@@ -1369,7 +1369,7 @@ Year,Geography,Type of provider,Value
 2020,Prince Edward Island,Occupational therapists,46.5
 2020,New Brunswick,Psychologists,46.5
 2021,Newfoundland,Psychologists,46.5
-2021,Yukon,Speech僕anguage pathologists,46.5
+2021,Yukon,Speech language pathologists,46.5
 2016,Yukon,Occupational therapists,46.7
 2021,Ontario,Medical laboratory technologists,46.8
 2016,New Brunswick,Occupational therapists,46.8
@@ -1414,7 +1414,7 @@ Year,Geography,Type of provider,Value
 2019,New Brunswick,Dietitians,49.8
 2018,Ontario,Medical laboratory technologists,49.8
 2020,Yukon,Medical laboratory technologists,49.8
-2020,Yukon,Speech僕anguage pathologists,49.8
+2020,Yukon,Speech language pathologists,49.8
 2019,Ontario,Medical laboratory technologists,49.9
 2017,Ontario,Medical radiation technologists,50
 2015,Manitoba,Occupational therapists,50
@@ -1527,7 +1527,7 @@ Year,Geography,Type of provider,Value
 2016,Manitoba,Physiotherapists,55.5
 2019,British Columbia,Registered psychiatric nurses,55.5
 2018,British Columbia,Registered psychiatric nurses,55.6
-2019,Yukon,Speech僕anguage pathologists,55.6
+2019,Yukon,Speech language pathologists,55.6
 2015,Northwest Territories,Nurse practitioners,55.7
 2015,Nunavut,Nurse practitioners,55.7
 2017,Quebec,Physiotherapists,55.7
@@ -3285,4 +3285,4 @@ Year,Geography,Type of provider,Value
 2021,Yukon,Social workers,0
 2020,Canada,Specialists,0
 2020,Canada,Speech language pathologists,0
-2019,Saskatchewan,Speech僕anguage pathologists,0
+2019,Saskatchewan,Speech language pathologists,0
