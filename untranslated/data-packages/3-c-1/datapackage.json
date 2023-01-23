@@ -19,20 +19,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Saskatchewan",
-                "Prince Edward Island",
                 "Alberta",
-                "Northwest Territories",
-                "Ontario",
-                "Quebec",
+                "British Columbia",
                 "Canada",
                 "Manitoba",
-                "British Columbia",
-                "Newfoundland",
-                "Yukon",
-                "Nova Scotia",
                 "New Brunswick",
+                "Newfoundland",
+                "Northwest Territories",
+                "Nova Scotia",
                 "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             }
