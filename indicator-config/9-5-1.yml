@@ -33,6 +33,13 @@ page_content: ''
 permalink: ''
 precision: []
 reporting_status: complete
+
+# progress calculation options
+auto_progress_calculation: true
+progress_calculation_options:
+- target: 
+  target_year: 2030
+  direction: positive
 sort: ''
 standalone: false
 tags: []
