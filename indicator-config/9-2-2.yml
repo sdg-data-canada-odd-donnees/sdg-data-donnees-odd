@@ -44,5 +44,5 @@ tags: []
 auto_progress_calculation: true
 progress_calculation_options:
 #- target: 
-  target_year: 2030
-  direction: positive
+ - target_year: 2030
+   direction: positive
