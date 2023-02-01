@@ -36,4 +36,4 @@ auto_progress_calculation: true
 progress_calculation_options:
 #- target:
 #  target_year:
-  direction: positive
+ - direction: positive
