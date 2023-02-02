@@ -33,3 +33,8 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+
+# progress calculation options
+auto_progress_calculation: true
+progress_calculation_options:
+    - direction: positive
