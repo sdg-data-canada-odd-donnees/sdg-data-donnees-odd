@@ -8,5 +8,11 @@ SDG_GOAL__GLOBAL: '   '
 SDG_TARGET__GLOBAL: '   '
 SDG_INDICATOR__GLOBAL: '   '
 
-reporting_status: notstarted
+ # SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: Tabulation spécialisée. Enquête annuelle sur les industries manufacturières et de l'exploitation forestière (EAMEF).
+source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&Id=1372557
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
 
