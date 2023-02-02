@@ -37,3 +37,10 @@ sort: ''
 standalone: false
 tags: 
     - Proxy
+
+# progress calculation options
+auto_progress_calculation: true
+progress_calculation_options:
+- target: 0
+  target_year: 2030
+  direction: negative
