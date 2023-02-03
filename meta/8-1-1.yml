@@ -8,9 +8,7 @@ SDG_INDICATOR: '<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p
 STAT_CONC_DEF: <p>Annual growth rate of real Gross Domestic Product (GDP) per capita
   is calculated as the percentage change in the real GDP per capita between two consecutive
   years. Real GDP per capita is calculated by dividing GDP at constant prices by the
-  population of a country or area. The data for real GDP are measured in constant
-  US dollars to facilitate the calculation of country growth rates and aggregation
-  of the country data</p>
+  population of the country or region.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: |-
@@ -20,21 +18,29 @@ SDG_TARGET__GLOBAL: |-
   <p>Target 8.1: Sustain per capita economic growth in accordance with national circumstances and, in</p>
   <p>particular, at least 7 per cent gross domestic product growth per annum in the least developed countries </p>
 SDG_INDICATOR__GLOBAL: '<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p>'
+
 source_active_1: 'true'
-source_url_text_1: Statistics Canada. Table 36-10-0402-01  Gross domestic product
-  (GDP) at basic prices, by industry, provinces and territories (x 1,000,000)
-source_url_1: https://doi.org/10.25318/3610040201-eng
+source_url_text_1:  Table 36-10-0434-03  Gross domestic product (GDP) at basic prices, by industry, annual average (x 1,000,000)
+source_url_1: https://doi.org/10.25318/3610043401-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
-source_geographical_coverage_1: Province or territory
+source_geographical_coverage_1: Canada
+
 source_active_2: 'true'
-source_url_text_2: Statistics Canada. Table 17-10-0009-01  Population estimates, quarterly
-source_url_2: https://doi.org/10.25318/1710000901-eng
+source_url_text_2: Table 36-10-0402-01  Gross domestic product (GDP) at basic prices, by industry, provinces and territories (x 1,000,000)
+source_url_2: https://doi.org/10.25318/3610040201-eng
 source_organisation_2: Statistics Canada
-source_periodicity_2: Quarterly
-source_geographical_coverage_2: Canada, Province or territory
-reporting_status: inprogress
-COVERAGE: Province or territory
+source_periodicity_2: Annual
+source_geographical_coverage_2: Province or territory
+
+source_active_3: 'true'
+source_url_text_3: Table 17-10-0005-01  Population estimates on July 1st, by age and sex
+source_url_3: https://doi.org/10.25318/1710000501-eng
+source_organisation_3: Statistics Canada
+source_periodicity_3: Annual
+source_geographical_coverage_3: Canada, Province or territory
+
+COVERAGE: Canada, Province or territory
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Statistics Division (UNSD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-01-01.pdf
