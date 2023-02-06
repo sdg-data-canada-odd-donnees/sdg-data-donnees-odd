@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tourism direct GDP as a proportion of total GDP",
+                "Tourism direct GDP in growth rate",
+                ""
+              ]
+            },
+            "title": "Unités"
           },
           {
             "name": "Value",

@@ -12,7 +12,86 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Educational attainment level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, all education levels",
+                "Below upper secondary",
+                "Upper secondary and post-secondary non-tertiary",
+                "Tertiary education",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, not in employment, education or training (NEET)",
+                "Unemployed, Not in employment, education or training (NEET)",
+                "Not in the labour force, Not in employment, education or training (NEET)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Males",
+                "Females",
+                "Both sexes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 15 to 29 years",
+                "15 to 19 years",
+                "15 to 24 years",
+                "18 to 24 years",
+                "20 to 24 years",
+                "25 to 29 years",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

@@ -12,7 +12,88 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of work",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Both full- and part-time employees",
+                "Full-time employees",
+                "Part-time employees",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total employees, all occupations",
+                "Management occupations",
+                "Business, finance and administration occupations, except management",
+                "Natural and applied sciences and related occupations, except management",
+                "Health occupations, except management",
+                "Occupations in education, law and social, community and government services, except management",
+                "Occupations in art, culture, recreation and sport, except management",
+                "Sales and service occupations, except management",
+                "Trades, transport and equipment operators and related occupations, except management",
+                "Natural resources, agriculture and related production occupations, except management",
+                "Occupations in manufacturing and utilities, except management",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Both sexes",
+                "Males",
+                "Females",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 to 24 years",
+                "25 to 54 years",
+                "55 years and over",
+                "15 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

@@ -12,8 +12,93 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Educational attainment level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, tous les niveaux de scolarité",
+                "Inférieur aux études secondaires",
+                "Deuxième cycle du secondaire et postsecondaires non tertiaire",
+                "Études tertiaires",
+                ""
+              ]
+            },
+            "title": "Niveau de scolarité atteint"
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sous-total, ni en emploi, ni aux études, ni en formation (NEET)",
+                "Chômeurs, Ni en emploi, ni aux études, ni en formation (NEET)",
+                "Inactifs, Ni en emploi, ni aux études, ni en formation (NEET)",
+                ""
+              ]
+            },
+            "title": "Status"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hommes",
+                "Femmes",
+                "Les deux sexes",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 15 to 29 years",
+                "15 à 19 ans",
+                "15 à 24 ans",
+                "18 à 24 ans",
+                "20 à 24 ans",
+                "25 à 29 ans",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
