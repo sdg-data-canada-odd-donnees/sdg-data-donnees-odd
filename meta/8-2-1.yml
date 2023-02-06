@@ -5,9 +5,10 @@ SDG_TARGET: '<p>Target: Achieve higher levels of economic productivity through d
   added and labour-intensive sectors </p>'
 SDG_INDICATOR: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed person
   </p>'
-STAT_CONC_DEF: <p>The annual growth rate of real GDP per employed person conveys the
-  annual percentage change in real Gross Domestic Product per employed person. </p>
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+  <p>The annual growth rate of real GDP per employed person conveys the annual percentage change in real Gross Domestic Product (GDP) per employed person.</p>
+DATA_COMP: |
+  Real GDP per employed person = Real GDP (constant prices) / Total number of employed persons (15 years and over)
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all </p>'
@@ -16,22 +17,22 @@ SDG_TARGET__GLOBAL: '<p>Target: Achieve higher levels of economic productivity t
   on high-value added and labour-intensive sectors </p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed
   person </p>'
+
 source_active_1: 'true'
-source_url_text_1: Statistics Canada. Table 36-10-0402-01  Gross domestic product
-  (GDP) at basic prices, by industry, provinces and territories (x 1,000,000)
-source_url_1: https://doi.org/10.25318/3610040201-eng
+source_url_text_1: Table 36-10-0434-03  Gross domestic product (GDP) at basic prices, by industry, annual average (x 1,000,000)
+source_url_1: https://doi.org/10.25318/3610043401-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
-source_geographical_coverage_1: Province or territory
+source_geographical_coverage_1: Canada
+
 source_active_2: 'true'
-source_url_text_2: Statistics Canada. Table 14-10-0018-01  Archived - Labour force
-  characteristics by sex and detailed age group, annual, inactive (x 1,000)
-source_url_2: https://doi.org/10.25318/1410001801-eng
+source_url_text_2: Table 14-10-0327-01  Labour force characteristics by sex and detailed age group, annual
+source_url_2: https://doi.org/10.25318/1410032701-eng
 source_organisation_2: Statistics Canada
 source_periodicity_2: Annual
 source_geographical_coverage_2: Canada, Province or territory
-reporting_status: inprogress
-COVERAGE: Province or territory
+
+COVERAGE: Canada
 un_designated_tier: Tier I
 un_custodian_agency: International Labour Organization (ILO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-02-01.pdf

@@ -4,11 +4,12 @@ SDG_TARGET: '<p>Cible 8.6 : D’ici à 2020, réduire nettement la proportion de
   non scolarisés et sans emploi ni formation</p>'
 SDG_INDICATOR: '<p>Indicateur 8.6.1 : Proportion de jeunes (âgés de 15 à 24 ans) non scolarisés
   et sans emploi ni formation</p>'
-STAT_CONC_DEF: <p>Cet indicateur exprime la proportion de jeunes (âgés de 15 à 24
-  ans) qui ne sont pas dans l'enseignement, l'emploi ou la formation (également connu
-  sous le nom de &quot;taux de jeunes NEET&quot;).</p>
+STAT_CONC_DEF: |
+  <b>Chômeurs</b>, Ni en emploi, ni aux études, ni en formation (NEET) = Les personnes qui, durant la semaine de référence, étaient sans travail, étaient disponibles pour travailler, et recherchaient activement un emploi.<br><br><b>Inactifs</b>, Ni en emploi, ni aux études, ni en formation (NEET) = Les individus qui ne travaillent pas et qui ne sont pas au chômage, soit ceux qui ne sont pas à la recherche d’un emploi.
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  Puisque la majorité des jeunes âgés de 25 à 29 ans ont terminé leurs études, il est approprié de mesurer les taux Ni en emploi, ni aux études, ni en formation (NEET) selon le plus haut niveau de scolarité atteint au sein de ce groupe d’âge. Le groupe des 15 à 24 ans est exclu puisque la majorité de ces jeunes sont encore aux études.<br><br>Les estimations sont fondées sur une moyenne de huit mois au cours d'une année civile (c.-à-d. de janvier à avril et de septembre à décembre). Les non-étudiants sont des personnes qui ne sont pas inscrites à un établissement d'enseignement, conformément aux concepts de l'Enquête sur la population active (EPA).
+  
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
   partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.6 : D’ici à 2020, réduire nettement la proportion
@@ -16,14 +17,13 @@ SDG_TARGET__GLOBAL: '<p>Cible 8.6 : D’ici à 2020, réduire nettement la propo
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.6.1 : Proportion de jeunes (âgés de 15 à 24 ans)
   non scolarisés et sans emploi ni formation</p>'
 
+# SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: Statistique Canada. Table  37-10-0196-01  Percentage of 15-to 29-year-olds
-  in education and not in education by labour force status, highest level of education
-  attained, age group and sex
+source_url_text_1: Statistique Canada. Tableau 37-10-0196-01  Pourcentage de la population âgée de 15 à 29 ans aux études et pas aux études selon la situation dans la population active, le niveau de formation le plus élevé atteint, le groupe d'âge et le sexe
 source_organisation_1: Statistique Canada
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada, Province or territory
 source_url_1: https://doi.org/10.25318/3710019601-fra
-reporting_status: complete
+
 COVERAGE: Canada, Province or territory
 

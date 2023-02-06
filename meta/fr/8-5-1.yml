@@ -8,13 +8,14 @@ SDG_GOAL__GLOBAL: '   '
 SDG_TARGET__GLOBAL: '   '
 SDG_INDICATOR__GLOBAL: '   '
 
+# SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: Statistique Canada. Table 14-10-0063-01  Employee wages by industry,
-  monthly, unadjusted for seasonality
-source_organisation_1: Statistique Canada
-source_periodicity_1: Monthly
+source_url_text_1: Statistique Canada. Tableau 14-10-0417-01  Salaire des employés selon la profession, données annuelles
+source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/cv.action?pid=1410041701&request_locale=fr
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
-source_url_1: https://doi.org/10.25318/1410006301-fra
-reporting_status: complete
+
+
 COVERAGE: Canada, Province or territory
 
