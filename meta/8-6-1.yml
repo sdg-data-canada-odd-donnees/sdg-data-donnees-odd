@@ -4,17 +4,20 @@ SDG_TARGET: '<p>Target 8.6: By 2020, substantially reduce the proportion of yout
   not in employment, education or training</p>'
 SDG_INDICATOR: '<p>Indicator 8.6.1: Proportion of youth (aged 15-24 years) not in
   education, employment or training </p>'
-STAT_CONC_DEF: <p>This indicator conveys the proportion of youth (aged 15-24 years)
-  not in education, employment or training (also known as &quot;the youth NEET rate&quot;).
-  </p>
+STAT_CONC_DEF: |
+  <b>Unemployed</b>, Not in employment, education or training = Individuals who were, during the survey reference week, without work, actively seeking employment and currently available to start work.<br><br><b>Not in the labour force</b>, Not in employment, education or training (NEET) = Individuals who were not working and who were not unemployed, that is, individuals who were not looking for a job.
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  Given that the vast majority of youth aged 25 to 29 have completed their education, it is relevant to measure Not in employment, education or training (NEET) rates by the highest level of education attained within this age group. This measure is not presented for 15 to 24 year olds, as the majority of youth in this age group are still in school.<br><br>Estimates are based on an 8-month average for the calendar year (i.e. January to April and September to December).<br><br>Non-students are people who are not enrolled at an educational institution, as per Labour Force Survey (LFS) concepts.
+
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all </p>'
 SDG_TARGET__GLOBAL: '<p>Target 8.6: By 2020, substantially reduce the proportion of
   youth not in employment, education or training</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 8.6.1: Proportion of youth (aged 15-24 years)
   not in education, employment or training </p>'
+
+# SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table  37-10-0196-01  Percentage of 15-to 29-year-olds
   in education and not in education by labour force status, highest level of education
@@ -23,7 +26,8 @@ source_url_1: https://doi.org/10.25318/3710019601-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada, Province or territory
-reporting_status: inprogress
+
+
 COVERAGE: Canada, Province or territory
 un_designated_tier: Tier I
 un_custodian_agency: International Labour Organization (ILO)
