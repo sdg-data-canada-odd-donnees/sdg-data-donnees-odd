@@ -15,12 +15,19 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
-            "type": "string",
+            "name": "Unnamed: 2",
+            "type": "number",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unnamed: 3",
+            "type": "number",
+            "constraints": {
+              "enum": [
                 ""
               ]
             }

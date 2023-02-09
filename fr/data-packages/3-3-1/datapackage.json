@@ -16,16 +16,24 @@
             "title": "Année"
           },
           {
-            "name": "Sex",
-            "type": "string",
+            "name": "Unnamed: 2",
+            "type": "number",
             "constraints": {
               "enum": [
-                "Homme",
-                "Femme",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Unnamed: 2"
+          },
+          {
+            "name": "Unnamed: 3",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Unnamed: 3"
           },
           {
             "name": "Value",
