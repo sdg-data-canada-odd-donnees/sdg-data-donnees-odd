@@ -1,5 +1,5 @@
-﻿composite_breakdown_label: ''
-computation_units: 'Rate per 100,000 population'
+auto_progress_calculation: true
+computation_units: Rate per 100,000 population
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -14,7 +14,7 @@ embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
-  - Sex
+- Sex
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
@@ -22,18 +22,18 @@ graph_title: global_indicators.3-3-4-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-3-4-title
-indicator_number: '3.3.4'
-national_geographical_coverage: 'Canada'
+indicator_number: 3.3.4
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
+progress_calculation_options:
+- direction: negative
+  target: 0
+  target_year: 2030
+progress_status: negligible_progress
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-# progress calculation options
-auto_progress_calculation: true
-progress_calculation_options:
-- target: 0
-  target_year: 2030
-  direction: negative
+"\xEF\xBB\xBFcomposite_breakdown_label": ''

@@ -1,5 +1,5 @@
-﻿composite_breakdown_label: ''
-computation_units: 'Per 1000 females (15-19 years)'
+auto_progress_calculation: true
+computation_units: Per 1000 females (15-19 years)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -21,17 +21,17 @@ graph_title: global_indicators.3-7-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-7-2-title
-indicator_number: '3.7.2'
-national_geographical_coverage: 'Canada, Province or territory'
+indicator_number: 3.7.2
+national_geographical_coverage: Canada, Province or territory
 page_content: ''
 permalink: ''
 precision: []
+progress_calculation_options:
+- direction: negative
+  target_year: 2030
+progress_status: substantial_progress
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-# progress calculation options
-auto_progress_calculation: true
-progress_calculation_options:
-- target_year: 2030
-  direction: negative
+"\xEF\xBB\xBFcomposite_breakdown_label": ''
