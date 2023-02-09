@@ -2623,26 +2623,6 @@
             "title": "Année"
           },
           {
-            "name": "Unnamed: 2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Unnamed: 2"
-          },
-          {
-            "name": "Unnamed: 3",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Unnamed: 3"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -3173,16 +3153,6 @@
               ]
             },
             "title": "Population"
-          },
-          {
-            "name": "Unnamed: 4",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Unnamed: 4"
           },
           {
             "name": "Value",
