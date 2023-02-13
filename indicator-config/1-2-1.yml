@@ -1,4 +1,4 @@
-﻿composite_breakdown_label: ''
+auto_progress_calculation: true
 computation_units: ''
 copyright: ''
 data_footnote: ''
@@ -25,19 +25,18 @@ graph_title: global_indicators.1-2-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.1-2-1-title
-indicator_number: '1.2.1'
+indicator_number: 1.2.1
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
+progress_calculation_options:
+- direction: negative
+  target: 7.25
+  target_year: 2030
+progress_status: target_achieved
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-
-# progress calculation options
-auto_progress_calculation: true
-progress_calculation_options:
-- target: 7.25
-  target_year: 2030
-  direction: negative
+"\xEF\xBB\xBFcomposite_breakdown_label": ''
