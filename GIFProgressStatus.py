@@ -61,7 +61,7 @@ def update_progress_status(progress_dict, indicator_id):
         outputs = yaml.dump(meta, file)
     
 
-indicator_ids = get_indicator_ids()[120:148]
+indicator_ids = get_indicator_ids()
 
 for ind_id in indicator_ids:
     print(ind_id)
@@ -80,9 +80,8 @@ for ind_id in indicator_ids:
             # Uncomment to update metadata files
             update_progress_status(progress_dict, ind_id)
 
-
 # individal calculations result ----
-# test_ind = merge_indicator('12-2-1')
+# test_ind = merge_indicator('8-2-1')
 # test_data = pm.data_progress_measure(test_ind['data'])
 # print(test_data)
 # print(pm.measure_indicator_progress(test_ind))

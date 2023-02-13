@@ -32,7 +32,7 @@ standalone: false
 tags: []
 
 # progress calculation options
-auto_progress_calculation: true
+auto_progress_calculation: false # turned off b/c even root of negative
 progress_calculation_options:
 - target_year: 2030
   direction: positive
