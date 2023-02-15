@@ -3,9 +3,9 @@ SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouv
 SDG_TARGET: '<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose,
   au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies
   transmises par l’eau et autres maladies transmissibles.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.3.3 : Incidence du paludisme pour 1 000 habitants</p>'
+SDG_INDICATOR: '<p>Indicateur 3.3.3 : Incidence du paludisme pour 100 000 habitants</p>'
 STAT_CONC_DEF: <p>L'incidence du paludisme est définie comme le nombre de nouveaux
-  cas de paludisme pour 1 000 personnes à risque chaque année.</p>
+  cas de paludisme pour 100 000 personnes à risque chaque année.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
@@ -13,7 +13,14 @@ SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et
 SDG_TARGET__GLOBAL: '<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à
   la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite,
   les maladies transmises par l’eau et autres maladies transmissibles.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.3.3 : Incidence du paludisme pour 1 000 habitants</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.3.3 : Incidence du paludisme pour 100 000 habitants</p>'
+
+source_active_1: true
+source_url_text_1: 'Nombre de cas signalés de maladies de 1924 à 2020 au Canada - maladies à déclaration obligatoire en direct'
+source_url_1: https://maladies.canada.ca/declaration-obligatoire/graphiques?c=yl%27
+source_organisation_1: "Public Health Agency of Canada"
+source_periodicity_1: Annual
+source_geographical_coverage_1: 'Canada'
 
 reporting_status: complete
 
