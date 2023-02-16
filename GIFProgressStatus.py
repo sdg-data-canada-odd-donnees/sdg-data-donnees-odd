@@ -62,6 +62,8 @@ def update_progress_status(progress_dict, indicator_id):
     
 
 indicator_ids = get_indicator_ids()
+all_progress_statuses = {}
+
 
 for ind_id in indicator_ids:
     print(ind_id)
@@ -70,15 +72,20 @@ for ind_id in indicator_ids:
 
     # Get data + metadata for calculation
     indicator = merge_indicator(ind_id)
+
     if indicator is not None:
         # Run data + metadata through calculation to get progress
         progress = pm.measure_indicator_progress(indicator)
+        all_progress_statuses[ind_id] = progress
+
         if progress is not None:
             print(ind_id + ': ' + progress)
             # Update progress status field in meta
             progress_dict = {'progress_status': progress}
             # Uncomment to update metadata files
-            update_progress_status(progress_dict, ind_id)
+            # update_progress_status(progress_dict, ind_id)
+
+print(all_progress_statuses)
 
 # individal calculations result ----
 # test_ind = merge_indicator('8-2-1')
