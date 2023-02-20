@@ -78,7 +78,7 @@ for ind_id in indicator_ids:
             # Update progress status field in meta
             progress_dict = {'progress_status': progress}
             # Uncomment to update metadata files
-            update_progress_status(progress_dict, ind_id)
+            # update_progress_status(progress_dict, ind_id)
 
 # individal calculations result ----
 # test_ind = merge_indicator('8-2-1')
