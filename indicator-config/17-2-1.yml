@@ -28,14 +28,11 @@ national_geographical_coverage: 'Canada'
 page_content: ''
 permalink: ''
 precision: []
+progress_status: deterioration # hand calculated
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
 
 # progress calculation options
-auto_progress_calculation: true
-progress_calculation_options:
-- target: 0.7
-  target_year: 2030
-  direction: positive
+auto_progress_calculation: false # data is disaggregated by default - needs hand calc

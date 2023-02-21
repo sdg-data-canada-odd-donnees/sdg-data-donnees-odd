@@ -1,5 +1,5 @@
-﻿composite_breakdown_label: ''
-computation_units: 'Rate per 1,000,000'
+auto_progress_calculation: true
+computation_units: Rate per 1,000,000
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -21,19 +21,17 @@ graph_title: global_indicators.9-5-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.9-5-2-title
-indicator_number: '9.5.2'
-national_geographical_coverage: 'Canada'
+indicator_number: 9.5.2
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
+progress_calculation_options:
+- direction: positive
+  target_year: 2030
+progress_status: substantial_progress
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-
-# progress calculation options
-auto_progress_calculation: true
-progress_calculation_options:
-#- target: 
--  target_year: 2030
-   direction: positive
+"\xEF\xBB\xBFcomposite_breakdown_label": ''

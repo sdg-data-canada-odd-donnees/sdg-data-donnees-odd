@@ -1,5 +1,5 @@
-﻿composite_breakdown_label: ''
-computation_units: 'Rate of incidents per 1,000 population 15 years of age and older'
+auto_progress_calculation: true
+computation_units: Rate of incidents per 1,000 population 15 years of age and older
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -21,19 +21,17 @@ graph_title: global_indicators.16-1-3-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.16-1-3-title
-indicator_number: '16.1.3'
-national_geographical_coverage: 'Canada'
+indicator_number: 16.1.3
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
+progress_calculation_options:
+- base_year: 2014
+  direction: negative
+progress_status: substantial_deterioration
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-
-# progress calculation options
-auto_progress_calculation: true
-progress_calculation_options:
-#- target: 
-#  target_year: 
--  direction: negative
+"\xEF\xBB\xBFcomposite_breakdown_label": ''

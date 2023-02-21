@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: 'Percentage'
+computation_units: 'Rate per 100,000'
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -8,10 +8,8 @@ data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
 data_start_values:
-  - field: Geography
-    value: Canada
   - field: Age at time of death
-    value: 30 to 34 years
+    value: All ages
   - field: Sex
     value: Both sexes
   - field: Causes of death
@@ -28,7 +26,6 @@ embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
-  - Geography
   - Age at time of death
   - Sex
   - Causes of death
@@ -49,7 +46,7 @@ sort: ''
 standalone: false
 tags: []
 # progress calculation options
-auto_progress_calculation: true
+auto_progress_calculation: false # multi sub-indicators, needs hand calc
 progress_calculation_options:
 - target_year: 2030
   direction: negative
