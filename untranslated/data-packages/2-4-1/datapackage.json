@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.Economic dimension",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Farm output value per hectare",
+                "data.Risk mitigation mechanisms",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
