@@ -2648,7 +2648,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Economic dimension",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2657,7 +2657,7 @@
                 ""
               ]
             },
-            "title": "data.Economic dimension"
+            "title": "Units"
           },
           {
             "name": "Value",
