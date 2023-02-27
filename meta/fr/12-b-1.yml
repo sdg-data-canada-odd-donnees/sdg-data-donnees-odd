@@ -15,5 +15,26 @@ SDG_TARGET__GLOBAL: '<p>Cible 12.b : Mettre au point et utiliser des outils de
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.b.1 : Application des outils comptables usuels
   au suivi des aspects économiques et écologiques du tourisme durable</p>'
 
-reporting_status: notstarted
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Système de comptabilité économique et environnementale du Canada - Comptes des flux physiques (CFP). Totalisation personnalisée.
+source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&Id=243710
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Statistique Canada. Compte satellite du tourisme. Totalisation personnalisée.
+source_url_2: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=5365
+source_organisation_2: Statistique Canada
+source_periodicity_2: Occasionnelle
+source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: Statistique Canada. Indicateurs nationaux du tourisme (INT). Totalisation personnalisée.
+source_url_3: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&Id=817388
+source_organisation_3: Statistique Canada
+source_periodicity_3: Trimestrielle
+source_geographical_coverage_3: Canada
+
+reporting_status: complete
 
