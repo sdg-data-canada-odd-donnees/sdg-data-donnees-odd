@@ -15,12 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Table",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Tourism Satellite Account (TSA) ",
-                "data.System of Environmental Economic Accounting (SEEA) ",
+                "Tourism Satellite Account (TSA) ",
+                "System of Environmental Economic Accounting (SEEA) ",
                 ""
               ]
             }
