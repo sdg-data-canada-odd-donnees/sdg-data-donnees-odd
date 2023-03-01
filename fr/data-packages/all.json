@@ -2379,6 +2379,30 @@
       "title": "Taux de mortalité attribuable à des maladies cardiovasculaires, au cancer, au diabète ou à des maladies respiratoires chroniques"
     },
     {
+      "path": "12-7-1/data.csv",
+      "name": "12-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Degré de mise en œuvre des politiques et plans d’action relatifs aux pratiques durables de passation des marchés publics"
+    },
+    {
       "path": "11-1-1/data.csv",
       "name": "11-1-1",
       "profile": "tabular-data-resource",
@@ -3775,30 +3799,6 @@
         ]
       },
       "title": "Proportion d’accouchements assistés par du personnel de santé qualifié"
-    },
-    {
-      "path": "12-7-1/data.csv",
-      "name": "12-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Degré de mise en œuvre des politiques et plans d’action relatifs aux pratiques durables de passation des marchés publics"
     },
     {
       "path": "11-4-1/data.csv",
