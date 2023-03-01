@@ -1916,6 +1916,30 @@
       "title": "Coûts des envois de fonds en proportion du montant transféré"
     },
     {
+      "path": "16-3-2/data.csv",
+      "name": "16-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de la population carcérale en instance de jugement"
+    },
+    {
       "path": "2-1-2/data.csv",
       "name": "2-1-2",
       "profile": "tabular-data-resource",
@@ -3823,30 +3847,6 @@
         ]
       },
       "title": "Dépenses totales par habitant consacrées à la préservation, à la protection et à la conservation de l’ensemble du patrimoine culturel et naturel, par source de financement (publique, privée), type de patrimoine (culturel, naturel) et niveau d’administration (national, régional et local/municipal)"
-    },
-    {
-      "path": "16-3-2/data.csv",
-      "name": "16-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de la population carcérale en instance de jugement"
     },
     {
       "path": "12-3-1/data.csv",
