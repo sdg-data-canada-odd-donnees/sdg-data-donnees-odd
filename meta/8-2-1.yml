@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal: Promote sustained, inclusive and sustainable economic growth,
   full and productive employment and decent work for all </p>'
 SDG_TARGET: '<p>Target: Achieve higher levels of economic productivity through diversification,
@@ -8,8 +9,11 @@ SDG_INDICATOR: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed
 STAT_CONC_DEF: |
   <p>The annual growth rate of real GDP per employed person conveys the annual percentage change in real Gross Domestic Product (GDP) per employed person.</p>
 DATA_COMP: |
-  Real GDP per employed person = Real GDP (constant prices) / Total number of employed persons (15 years and over)
+  Real GDP per employed person = Real GDP (chained dollars) / Total number of employed persons (15 years and over)
 REC_USE_LIM: '   '
+COVERAGE: Canada
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all </p>'
 SDG_TARGET__GLOBAL: '<p>Target: Achieve higher levels of economic productivity through
@@ -17,7 +21,13 @@ SDG_TARGET__GLOBAL: '<p>Target: Achieve higher levels of economic productivity t
   on high-value added and labour-intensive sectors </p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed
   person </p>'
+  un_designated_tier: Tier I
+un_custodian_agency: International Labour Organization (ILO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-02-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 384
+  KB)
 
+# SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: Table 36-10-0434-03  Gross domestic product (GDP) at basic prices, by industry, annual average (x 1,000,000)
 source_url_1: https://doi.org/10.25318/3610043401-eng
@@ -32,9 +42,5 @@ source_organisation_2: Statistics Canada
 source_periodicity_2: Annual
 source_geographical_coverage_2: Canada, Province or territory
 
-COVERAGE: Canada
-un_designated_tier: Tier I
-un_custodian_agency: International Labour Organization (ILO)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-02-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 384
-  KB)
+
+
