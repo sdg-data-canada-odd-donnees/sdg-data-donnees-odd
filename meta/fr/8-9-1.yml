@@ -1,12 +1,22 @@
-SDG_GOAL: '   '
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
+# NATIONAL
+SDG_GOAL: |
+    Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous
+SDG_TARGET: |
+    D’ici à 2030, élaborer et mettre en œuvre des politiques visant à développer un tourisme durable qui crée des emplois et met en valeur la culture et les produits locaux
+SDG_INDICATOR: |
+    PIB directement tiré du tourisme, en proportion du PIB total et en taux de croissance
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '   '
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+COVERAGE: Canada
+
+# GLOBAL
+SDG_GOAL__GLOBAL: |
+    Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous
+SDG_TARGET__GLOBAL: |
+    D’ici à 2030, élaborer et mettre en œuvre des politiques visant à développer un tourisme durable qui crée des emplois et met en valeur la culture et les produits locaux
+SDG_INDICATOR__GLOBAL: |
+    PIB directement tiré du tourisme, en proportion du PIB total et en taux de croissance
 
  # Source(s)
 source_active_1: 'true'
@@ -17,11 +27,10 @@ source_periodicity_1: Quarterly
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
-source_url_text_2: Statistique Canada. Tableau 36-10-0235-01  Part du tourisme au produit intérieur brut aux prix de base
-source_url_2: https://doi.org/10.25318/3610023501-fra
+source_url_text_2:  'Tableau 36-10-0434-03  Produit intérieur brut (PIB) aux prix de base, par industries, moyenne annuelle (x 1 000 000)'
+source_url_2: https://doi.org/10.25318/3610043401-fra
 source_organisation_2: Statistics Canada
-source_periodicity_2: Quarterly
+source_periodicity_2: Annual
 source_geographical_coverage_2: Canada
 
-COVERAGE: Canada
 
