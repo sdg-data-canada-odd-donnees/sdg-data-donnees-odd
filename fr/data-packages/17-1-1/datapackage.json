@@ -12,8 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Component",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Recettes fiscales",
+                "Cotisations sociales",
+                "Dons",
+                "Autres recettes",
+                ""
+              ]
+            },
+            "title": "Composant"
           },
           {
             "name": "Value",
@@ -26,5 +40,5 @@
   ],
   "profile": "data-package",
   "name": "17-1-1",
-  "title": "Total government revenue as a proportion of GDP, by source"
+  "title": "Total des recettes publiques en proportion du PIB, par source"
 }

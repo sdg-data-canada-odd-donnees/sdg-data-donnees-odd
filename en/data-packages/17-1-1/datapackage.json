@@ -12,8 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Component",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Taxes",
+                "Social contributions",
+                "Grants",
+                "Other revenue",
+                ""
+              ]
+            },
+            "title": "Component"
           },
           {
             "name": "Value",

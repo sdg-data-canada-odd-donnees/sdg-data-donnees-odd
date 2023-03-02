@@ -12,7 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Component",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Taxes",
+                "Social contributions",
+                "Grants",
+                "Other revenue",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +37,5 @@
   ],
   "profile": "data-package",
   "name": "17-1-1",
-  "title": "Total government revenue as a proportion of GDP, by source"
+  "title": "global_indicators.17-1-1-title"
 }

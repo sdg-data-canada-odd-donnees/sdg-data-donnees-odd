@@ -691,6 +691,44 @@
       "title": "Proportion de femmes occupant des postes de direction"
     },
     {
+      "path": "17-1-1/data.csv",
+      "name": "17-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Component",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Recettes fiscales",
+                "Cotisations sociales",
+                "Dons",
+                "Autres recettes",
+                ""
+              ]
+            },
+            "title": "Composant"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Total des recettes publiques en proportion du PIB, par source"
+    },
+    {
       "path": "3-6-1/data.csv",
       "name": "3-6-1",
       "profile": "tabular-data-resource",
@@ -5179,30 +5217,6 @@
         ]
       },
       "title": "a) aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité et b) produits générés et fonds mobilisés par les instruments économiques en rapport avec la biodiversité"
-    },
-    {
-      "path": "17-1-1/data.csv",
-      "name": "17-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Total government revenue as a proportion of GDP, by source"
     },
     {
       "path": "6-5-2/data.csv",
