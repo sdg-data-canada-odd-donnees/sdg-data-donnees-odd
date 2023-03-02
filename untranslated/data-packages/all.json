@@ -584,6 +584,53 @@
       "title": "global_indicators.3-2-1-title"
     },
     {
+      "path": "11-7-2/data.csv",
+      "name": "11-7-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Women",
+                "Men",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Unwanted or inapproriate behaviour",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Sexual assault",
+                "data.Physical assault",
+                "data.Unwanted or inappropriate behaviour in public",
+                "data.Unwanted or inappropriate behaviour online",
+                "data.Unwanted or inappropriate behaviour in the workplace",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.11-7-2-title"
+    },
+    {
       "path": "5-5-2/data.csv",
       "name": "5-5-2",
       "profile": "tabular-data-resource",
@@ -4262,28 +4309,6 @@
         ]
       },
       "title": "global_indicators.17-14-1-title"
-    },
-    {
-      "path": "11-7-2/data.csv",
-      "name": "11-7-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.11-7-2-title"
     },
     {
       "path": "9-b-1/data.csv",

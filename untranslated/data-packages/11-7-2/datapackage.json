@@ -12,7 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Women",
+                "Men",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Unwanted or inapproriate behaviour",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Sexual assault",
+                "data.Physical assault",
+                "data.Unwanted or inappropriate behaviour in public",
+                "data.Unwanted or inappropriate behaviour online",
+                "data.Unwanted or inappropriate behaviour in the workplace",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

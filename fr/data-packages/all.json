@@ -631,6 +631,57 @@
       "title": "Taux de mortalité des enfants de moins de 5 ans"
     },
     {
+      "path": "11-7-2/data.csv",
+      "name": "11-7-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Femmes",
+                "Hommes",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "data.Unwanted or inapproriate behaviour",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Agression sexuelle",
+                "Agression physique",
+                "Comportements non désirés ou inappropriés en public",
+                "Comportements non désirés ou inappropriés en ligne",
+                "Comportements non désirés ou inappropriés dans le milieu de travail",
+                ""
+              ]
+            },
+            "title": "data.Unwanted or inapproriate behaviour"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de personnes victimes de harcèlement physique ou sexuel, par sexe, âge, situation au regard du handicap et lieu des faits (au cours des 12 mois précédents)"
+    },
+    {
       "path": "5-5-2/data.csv",
       "name": "5-5-2",
       "profile": "tabular-data-resource",
@@ -4593,30 +4644,6 @@
         ]
       },
       "title": "Nombre de pays ayant mis en place des mécanismes pour renforcer la cohérence des politiques de développement durable"
-    },
-    {
-      "path": "11-7-2/data.csv",
-      "name": "11-7-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de personnes victimes de harcèlement physique ou sexuel, par sexe, âge, situation au regard du handicap et lieu des faits (au cours des 12 mois précédents)"
     },
     {
       "path": "9-b-1/data.csv",
