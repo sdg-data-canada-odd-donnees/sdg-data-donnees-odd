@@ -1,0 +1,36 @@
+# NATIONAL
+SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
+  provide access to justice for all and build effective, accountable and inclusive
+  institutions at all levels</p>'
+SDG_TARGET: '<p>Target 16.6: Develop effective, accountable and transparent institutions at all levels</p>'
+SDG_INDICATOR: '<p>Indicator 16.6.2: Proportion of population satisfied with their
+  last experience of public services</p>'
+STAT_CONC_DEF: |
+    Main budget estimates, authorities used in the current year (expenditures as per the Public Accounts). The indicator measures the extent to which aggregate budget expenditure outturn reflects the amount originially approved, as defined in government budget documentation and fiscal reports.  This indicator is part of Pillar I of PEFA performance which measures budget reliability.
+DATA_COMP: '(Authorities used in the current year/Main estimates) × 100'
+REC_USE_LIM: |
+    <p>Actual expenditure outturns can significantly deviate from the originally approved budget for reasons unrelated to the accuracy of forecasts, for example, as a result of a major macroeconomic shock.</p><p>The Public Accounts expenditures are cash-based and presented of a net basis (gross expenditures less revenues netted against expenditures). Federal (and provincial-territorial) budget estimates and public accounts are produced based on a fiscal year basis, ending March 31st.  For reporting purposes in the Statistics Canada' SDGs data hub, figures will be presented as if the end of fiscal year would be December 31st. For example, the year 2016 corresponds to the figures reported in the 2016-17  Public Accounts, since 2016 would cover 3 ouf of 4 quarters for the fiscal year 2016-17.</p>
+COVERAGE: Budgetary central (federal) government
+
+# GLOBAL
+SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
+  development, provide access to justice for all and build effective, accountable
+  and inclusive institutions at all levels</p>'
+SDG_TARGET__GLOBAL: '<p>Target 16.6: Develop effective, accountable and transparent
+  institutions at all levels</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicator 16.6.2: Proportion of population satisfied with
+  their last experience of public services</p>'
+un_designated_tier: Tier II
+un_custodian_agency: United Nations Development Programme (UNDP)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
+  MB)
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Public Accounts of Canada, Volume II, Details of Expenses and Revenues, Summary Tables and Appendices, Table 5 - Source and disposition of budgetary authorities by ministry
+source_organisation_1: Treasury Board Secretariat
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
+source_url_1: https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html
