@@ -238,6 +238,30 @@
       "title": "Proportion des personnes victimes de violences au cours des 12 mois précédents ayant signalé les faits aux autorités compétentes ou recouru à d’autres mécanismes de règlement des différends officiellement reconnus"
     },
     {
+      "path": "16-6-1/data.csv",
+      "name": "16-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Dépenses publiques primaires en proportion du budget initial approuvé, par secteur (ou par code budgétaire ou autre critère similaire)"
+    },
+    {
       "path": "3-5-2/data.csv",
       "name": "3-5-2",
       "profile": "tabular-data-resource",
@@ -7836,30 +7860,6 @@
         ]
       },
       "title": "Taux de participation à des activités d’apprentissage organisées (un an avant l’âge officiel de scolarisation dans le primaire), par sexe"
-    },
-    {
-      "path": "16-6-1/data.csv",
-      "name": "16-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Dépenses publiques primaires en proportion du budget initial approuvé, par secteur (ou par code budgétaire ou autre critère similaire)"
     },
     {
       "path": "6-6-1/data.csv",
