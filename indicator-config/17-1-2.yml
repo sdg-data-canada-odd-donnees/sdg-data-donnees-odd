@@ -6,18 +6,14 @@ data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
-data_show_map: true
-data_start_values:
-- field: Geography
-  value: Canada
+data_show_map: false
+data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations:
-- Geography
-- Public sector components
+expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
@@ -37,4 +33,3 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-"\xEF\xBB\xBFcomposite_breakdown_label": ''
