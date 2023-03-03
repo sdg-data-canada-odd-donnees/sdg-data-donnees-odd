@@ -487,6 +487,30 @@
       "title": "Taux de natalité chez les adolescentes (10 à 14 ans et 15 à 19 ans) pour 1 000 adolescentes du même groupe d’âge"
     },
     {
+      "path": "15-3-1/data.csv",
+      "name": "15-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Surface des terres dégradées, en proportion de la surface terrestre"
+    },
+    {
       "path": "15-1-1/data.csv",
       "name": "15-1-1",
       "profile": "tabular-data-resource",
@@ -4446,30 +4470,6 @@
         ]
       },
       "title": "Nombre de pays faisant état de progrès dans la mise en place de cadres multipartites de suivi de l’efficacité du développement favorisant la réalisation des objectifs de développement durable"
-    },
-    {
-      "path": "15-3-1/data.csv",
-      "name": "15-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Surface des terres dégradées, en proportion de la surface terrestre"
     },
     {
       "path": "11-3-1/data.csv",
