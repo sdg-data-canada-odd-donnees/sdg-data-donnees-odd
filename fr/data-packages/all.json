@@ -3498,44 +3498,6 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
-                "Yukon",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
-            "name": "Function of Government",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enseignement",
-                "Santé",
-                "Autres dépenses",
-                "Protection sociale",
-                ""
-              ]
-            },
-            "title": "Fonctions des administrations publiques"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

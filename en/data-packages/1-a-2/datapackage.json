@@ -16,44 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "Function of Government",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Education",
-                "Health",
-                "Other expenditure",
-                "Social protection",
-                ""
-              ]
-            },
-            "title": "Function of Government"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
