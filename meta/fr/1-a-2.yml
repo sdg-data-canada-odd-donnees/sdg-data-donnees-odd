@@ -1,39 +1,38 @@
-SDG_GOAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
-SDG_TARGET: '<p>Cible 1.a : Garantir une mobilisation importante de ressources provenant
-  de sources multiples, y compris par le renforcement de la coopération pour le développement,
-  afin de doter les pays en développement, en particulier les pays les moins avancés,
-  de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques
-  visant à mettre fin à la pauvreté sous toutes ses formes.</p>'
-SDG_INDICATOR: |-
-  <p>Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)</p>
-STAT_CONC_DEF: <p>Dépenses totales des administrations publiques (locales, régionales
-  et centrales) en matière d'éducation (dépenses courantes, dépenses en capital et
-  transferts), exprimées en pourcentage des dépenses totales des administrations publiques
-  dans tous les secteurs (y compris la santé, l'enseignement, les services sociaux,
-  etc.) Ceci inclut les dépenses financées par des transferts de sources internationales
-  au gouvernement.</p>
+# NATIONAL
+SDG_GOAL: |
+    Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
+SDG_TARGET: |
+    Cible 1.a : Garantir une mobilisation importante de ressources provenant de sources multiples, y compris par le renforcement de la coopération pour le développement, afin de doter les pays en développement, en particulier les pays les moins avancés, de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques visant à mettre fin à la pauvreté sous toutes ses formes.
+SDG_INDICATOR: |
+  Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)
+STAT_CONC_DEF: |
+    Dépenses totales des administrations publiques (locales, régionales et centrales) en matière d'éducation (dépenses courantes, dépenses en capital et transferts), exprimées en pourcentage des dépenses totales des administrations publiques dans tous les secteurs (y compris la santé, l'enseignement, les services sociaux, etc.).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans
-  le monde</p>
-SDG_TARGET__GLOBAL: '<p>Cible 1.a : Garantir une mobilisation importante de ressources
-  provenant de sources multiples, y compris par le renforcement de la coopération
-  pour le développement, afin de doter les pays en développement, en particulier les
-  pays les moins avancés, de moyens adéquats et prévisibles de mettre en œuvre des
-  programmes et politiques visant à mettre fin à la pauvreté sous toutes ses formes.</p>'
-SDG_INDICATOR__GLOBAL: |-
-  <p>Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)</p>
 
+# GLOBAL
+SDG_GOAL__GLOBAL: |
+    Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
+SDG_TARGET__GLOBAL: |
+    Cible 1.a : Garantir une mobilisation importante de ressources provenant de sources multiples, y compris par le renforcement de la coopération pour le développement, afin de doter les pays en développement, en particulier les pays les moins avancés, de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques visant à mettre fin à la pauvreté sous toutes ses formes.
+SDG_INDICATOR__GLOBAL: |
+  Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)
 un_designated_tier: Niveau II
 un_custodian_agency: Institut de statistique de l'UNESCO
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-02.pdf
 
+# SOURCE(S)
+# source_active_1: 'true'
+# source_url_text_1: 'Statistique Canada. Tableau 10-10-0024-01  Classification canadienne des fonctions des administrations publiques, par composante des administrations publiques (x 1 000 000)'
+# source_organisation_1: 'Statistique Canada'
+# source_periodicity_1: 'Annuelle'
+# source_geographical_coverage_1: 'Canada, Province ou territoire'
+# source_url_1: 'https://doi.org/10.25318/1010002401-fra'
+
 source_active_1: 'true'
-source_url_text_1: 'Statistique Canada. Tableau 10-10-0024-01  Classification canadienne des fonctions des administrations publiques, par composante des administrations publiques (x 1 000 000)'
-source_organisation_1: 'Statistique Canada'
-source_periodicity_1: 'Annuelle'
-source_geographical_coverage_1: 'Canada, Province ou territoire'
-source_url_1: 'https://doi.org/10.25318/1010002401-fra'
-reporting_status: complete
-COVERAGE: 'Canada, Province ou territoire'
+source_url_text_1: Statistiques de finances publiques (SFP) - Fonds monétaire international. Totalisation personnalisée.
+source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=5174
+source_organisation_1: Statistics Canada
+source_periodicity_1: Quarterly
+source_geographical_coverage_1: Canada, Province or territory
 
