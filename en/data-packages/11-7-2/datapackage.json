@@ -28,7 +28,7 @@
             "title": "Sex"
           },
           {
-            "name": "Unwanted or inapproriate behaviour",
+            "name": "Unwanted or inappropriate behaviour",
             "type": "string",
             "constraints": {
               "enum": [
@@ -40,7 +40,7 @@
                 ""
               ]
             },
-            "title": "Unwanted or inapproriate behaviour"
+            "title": "Unwanted or inappropriate behaviour"
           },
           {
             "name": "Value",
