@@ -2363,7 +2363,7 @@
             "title": "Année"
           },
           {
-            "name": "Unit",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2372,7 +2372,7 @@
                 ""
               ]
             },
-            "title": "Unit"
+            "title": "Series"
           },
           {
             "name": "Value",
