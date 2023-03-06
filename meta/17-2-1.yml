@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: >-
     <p>Goal 17: Strengthen the means of implementation and revitalize the Global
     Partnership for Sustainable Development</p>
@@ -16,12 +17,14 @@ SDG_INDICATOR: >-
 STAT_CONC_DEF: >-
     <p>The indicator Net official development assistance, total and to
       least developed countries, as a proportion of the Organization for Economic Cooperation
-      and Development (OECD) Development Assistance Committee donors&apos; gross national
-      income (GNI) is defined as Net ODA disbursements as a per cent of GNI.</p>
+      and Development (OECD) Development Assistance Committee donors&apos; <b>gross national
+      income (GNI)</b> is defined as Net ODA disbursements as a per cent of GNI.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 COVERAGE: Canada
 UNIT_OF_MEASURE: Percentage
+
+# GLOBAL
 SDG_GOAL__GLOBAL: >-
     <p>Goal 17: Strengthen the means of implementation and revitalize the Global
     Partnership for Sustainable Development</p>
@@ -42,9 +45,10 @@ un_custodian_agency: Organisation for Economic Co-operation and Development (OEC
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-02-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 206
   KB)
-  
+
+# SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: "OECD Statistics"
-source_url_1: https://data.oecd.org/oda/net-oda.htm
-source_organisation_1: OECD
+source_url_text_1: OECD (2022), Development Co-operation Profiles, Performance against commitments and DAC recommendations
+source_url_1: https://www.oecd-ilibrary.org/sites/2dcf1367-en/1/3/2/5/index.html?itemId=/content/publication/2dcf1367-en&_csp_=177392f5df53d89c9678d0628e39a2c2&itemIGO=oecd&itemContentType=book#tablegrp-d1e11926
+source_organisation_1: Organization for Economic Cooperation and Development (OECD)
 source_geographical_coverage_1: Canada
