@@ -44,11 +44,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Administrations publiques provinciales-territoriales et locales consolidées",
+                "Consolidated provincial-territorial and local governments",
                 ""
               ]
             },
-            "title": "Composantes du secteur public"
+            "title": "Public sector components"
           },
           {
             "name": "GeoCode",
