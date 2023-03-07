@@ -3677,6 +3677,30 @@
       "title": "Indice de la Liste rouge"
     },
     {
+      "path": "6-5-2/data.csv",
+      "name": "6-5-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de bassins hydriques transfrontaliers où est en place un dispositif de coopération opérationnel"
+    },
+    {
       "path": "8-2-1/data.csv",
       "name": "8-2-1",
       "profile": "tabular-data-resource",
@@ -5252,30 +5276,6 @@
         ]
       },
       "title": "a) aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité et b) produits générés et fonds mobilisés par les instruments économiques en rapport avec la biodiversité"
-    },
-    {
-      "path": "6-5-2/data.csv",
-      "name": "6-5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de bassins hydriques transfrontaliers où est en place un dispositif de coopération opérationnel"
     },
     {
       "path": "12-4-1/data.csv",
