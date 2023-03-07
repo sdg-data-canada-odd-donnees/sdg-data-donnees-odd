@@ -1487,6 +1487,112 @@
       "title": "global_indicators.2-a-2-title"
     },
     {
+      "path": "1-4-2/data.csv",
+      "name": "1-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "% adult population with legally recognized documentation over land",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Newfoundland and Labrador",
+                "St. John's (CMA)",
+                "Corner Brook (CA)",
+                "Grand Falls-Windsor (CA)",
+                "Gander (CA)",
+                "Nova Scotia",
+                "Halifax (CMA)",
+                "Cape Breton (CA)",
+                "Truro (CA)",
+                "New Glasgow (CA)",
+                "Kentville (CA)",
+                "New Brunswick",
+                "Fredericton (CMA)",
+                "Moncton (CMA)",
+                "Saint John (CMA)",
+                "Bathurst (CA)",
+                "Edmundston (CA)",
+                "Campbellton (New Brunswick part) (CA)",
+                "Ontario",
+                "Toronto (CMA)",
+                "Ottawa - Gatineau (Ontario part) (CMA)",
+                "Hamilton (CMA)",
+                "Kitchener - Cambridge - Waterloo (CMA)",
+                "London (CMA)",
+                "St. Catharines - Niagara (CMA)",
+                "British Columbia",
+                "Victoria (CMA)",
+                "Vancouver (CMA)",
+                "Kelowna (CMA)",
+                "Abbotsford - Mission (CMA)",
+                "Nanaimo (CMA)",
+                "Kamloops (CMA)",
+                "Yukon",
+                "Whitehorse (CA)",
+                "Northwest Territories",
+                "Yellowknife (CA)",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Urban",
+                "Rural",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Male",
+                "Female",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-4-2-title"
+    },
+    {
       "path": "3-b-1/data.csv",
       "name": "3-b-1",
       "profile": "tabular-data-resource",
@@ -4161,28 +4267,6 @@
         ]
       },
       "title": "global_indicators.16-7-1-title"
-    },
-    {
-      "path": "1-4-2/data.csv",
-      "name": "1-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-4-2-title"
     },
     {
       "path": "6-5-1/data.csv",

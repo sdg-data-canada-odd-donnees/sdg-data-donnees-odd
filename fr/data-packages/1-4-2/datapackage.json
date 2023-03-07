@@ -12,8 +12,97 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Année"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "% adult population with legally recognized documentation over land",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terre-Neuve-et-Labrador",
+                "St. John's (CMA)",
+                "Corner Brook (CA)",
+                "Grand Falls-Windsor (CA)",
+                "Gander (CA)",
+                "Nouvelle-Écosse",
+                "Halifax (CMA)",
+                "Cape Breton (CA)",
+                "Truro (CA)",
+                "New Glasgow (CA)",
+                "Kentville (CA)",
+                "Nouveau-Brunswick",
+                "Fredericton (CMA)",
+                "Moncton (CMA)",
+                "Saint John (CMA)",
+                "Bathurst (CA)",
+                "Edmundston (CA)",
+                "Campbellton (New Brunswick part) (CA)",
+                "Ontario",
+                "Toronto (CMA)",
+                "Ottawa - Gatineau (Ontario part) (CMA)",
+                "Hamilton (CMA)",
+                "Kitchener - Cambridge - Waterloo (CMA)",
+                "London (CMA)",
+                "St. Catharines - Niagara (CMA)",
+                "Colombie-Britannique",
+                "Victoria (CMA)",
+                "Vancouver (CMA)",
+                "Kelowna (CMA)",
+                "Abbotsford - Mission (CMA)",
+                "Nanaimo (CMA)",
+                "Kamloops (CMA)",
+                "Yukon",
+                "Whitehorse (CA)",
+                "Territoires du Nord-Ouest",
+                "Yellowknife (CA)",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Urban",
+                "Rural",
+                ""
+              ]
+            },
+            "title": "Area"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
