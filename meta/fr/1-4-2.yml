@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
 SDG_TARGET: '<p>Cible 1.4 : D''ici à 2030, faire en sorte que tous les hommes et les
   femmes, en particulier les pauvres et les personnes vulnérables, aient les mêmes
@@ -9,6 +10,8 @@ SDG_INDICATOR: '<p>Indicateur 1.4.2 : Proportion de la population adulte totale 
 STAT_CONC_DEF: "    "
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# GLOBAL
 SDG_GOAL__GLOBAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans
   le monde</p>
 SDG_TARGET__GLOBAL: '<p>Cible 1.4 : D''ici à 2030, faire en sorte que tous les hommes
@@ -23,5 +26,15 @@ un_custodian_agency: World Bank (WB)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
-reporting_status: notstarted
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: Recensement de la population. Totalisation personnalisée.
+source_url_1: https://www12.statcan.gc.ca/census-recensement/index-fra.cfm
+source_organisation_1: Statistics Canada
+source_periodicity_1: Every 5 years
 
+source_active_1: 'true'
+source_url_text_1: Programme de la statistique du logement canadien (PSLC). Totalisation personnalisée.
+source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&amp;SDDS=5257
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
