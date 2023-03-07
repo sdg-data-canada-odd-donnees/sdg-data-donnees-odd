@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 6: Ensure availability and sustainable management of water and
   sanitation for all</p>'
 SDG_TARGET: '<p>Target 6.5: By 2030, implement integrated water resources management
@@ -15,6 +16,10 @@ STAT_CONC_DEF: <p>The proportion of transboundary basin area with an operational
   share.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+COVERAGE: Canada
+UNIT_OF_MEASURE: Percentage
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
   and sanitation for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 6.5: By 2030, implement integrated water resources
@@ -28,3 +33,8 @@ un_custodian_agency: United Nations Education and Scientific Cultural Organisati
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+
+# SOURCE(S)
+source_active_1: 'true'
+source_organisation_1: Environment and Climate Change Canada (ECCC). Custom tabulation.
+source_geographical_coverage_1: Canada
