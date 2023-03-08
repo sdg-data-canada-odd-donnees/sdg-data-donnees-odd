@@ -8,8 +8,10 @@ data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
 data_start_values:
-    - field: Unit
-      value: "Net official development assistance, total, as a proportion of the OECD Development Assistance Committee donors' gross national income (GNI)"
+    - field: Series
+      value: ODA as a share of GNI
+    - field: Series
+      value: Total ODA to least developed countries as a share of GNI
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -28,7 +30,7 @@ national_geographical_coverage: 'Canada'
 page_content: ''
 permalink: ''
 precision: []
-progress_status: deterioration # hand calculated
+progress_status: not_available
 reporting_status: complete
 sort: ''
 standalone: false

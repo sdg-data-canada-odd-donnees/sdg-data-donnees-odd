@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
 SDG_TARGET: '<p> Cible 6.5: D’ici à 2030, assurer la gestion intégrée des ressources
@@ -17,6 +18,8 @@ STAT_CONC_DEF: <p>La proportion de la zone de bassin transfrontalier avec un arr
   </p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
 SDG_TARGET__GLOBAL: '<p> Cible 6.5: D’ici à 2030, assurer la gestion intégrée des
@@ -24,6 +27,15 @@ SDG_TARGET__GLOBAL: '<p> Cible 6.5: D’ici à 2030, assurer la gestion intégr�
   selon qu’il convient</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.5.2: Proportion de bassins hydriques transfrontaliers
   où est en place un dispositif de coopération opérationnel</p>'
+un_designated_tier: Tier I
+un_custodian_agency: United Nations Education and Scientific Cultural Organisation
+  - Institute for Statistics (UNESCO-UIS), United Nations Economic Commission for
+  Europe (UNECE)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
+  MB)
 
-reporting_status: notstarted
-
+# SOURCE(S)
+source_active_1: 'true'
+source_organisation_1: Environnement et Changement Climatique Canada (ECCC). Totalisation personnalisée.
+source_geographical_coverage_1: Canada

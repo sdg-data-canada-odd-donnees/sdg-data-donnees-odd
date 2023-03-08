@@ -1,4 +1,5 @@
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
+# NATIONAL
+SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
   durable qui profite à tous et encourager l''innovation.</p>'
 SDG_TARGET: '<p>Cible 9.2 : Promouvoir une industrialisation durable qui profite à
   tous et, d''ici à 2030, augmenter nettement la contribution de l''industrie à l''emploi
@@ -6,10 +7,13 @@ SDG_TARGET: '<p>Cible 9.2 : Promouvoir une industrialisation durable qui profite
   par deux dans les pays les moins avancés</p>'
 SDG_INDICATOR: '<p>Indicateur 9.2.1: Valeur ajoutée dans l’industrie manufacturière,
   en proportion du PIB et par habitant</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
+STAT_CONC_DEF: '    '
+DATA_COMP: |
+    La valeur ajoutée manufacturière est égale à la <i>production</i> moins la <i>consommation</i>, où la production est = (revenus des biens fabriqués + (stocks de fermeture, biens en cours de fabrication ou travaux en cours + stocks de fermeture, produits finis fabriqués) - (stocks d'ouverture, biens en cours de fabrication ou travaux en cours + stocks d'ouverture, produits finis fabriqués)). La consommation est calculée comme suit : (stocks d'ouverture, matières premières + coût des matières et fournitures + coût total d'énergie, d'approvisionnement en eau et de carburant pour véhicules - stocks de fermeture, matières premières).
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
+
+# GLOBAL
+SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
   une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 9.2 : Promouvoir une industrialisation durable qui profite
   à tous et, d''ici à 2030, augmenter nettement la contribution de l''industrie à
@@ -18,20 +22,30 @@ SDG_TARGET__GLOBAL: '<p>Cible 9.2 : Promouvoir une industrialisation durable qui
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.2.1: Valeur ajoutée dans l’industrie manufacturière,
   en proportion du PIB et par habitant</p>'
 
+  
+# SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: Statistique Canada. Table 36-10-0434-01  Gross domestic product
-  (GDP) at basic prices, by industry, monthly (x 1,000,000)
-source_organisation_1: Statistique Canada
-source_periodicity_1: Monthly
+source_url_text_1: |
+    Statistics Canada. Table 16-10-0117-01  Principal statistics for manufacturing industries, by North American Industry Classification System (NAICS) (x 1,000)
+source_url_1: https://doi.org/10.25318/1610011701-fra
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
+
 source_active_2: 'true'
-source_url_text_2: Statistique Canada. Table 17-10-0009-01  Population estimates,
-  quarterly
+source_url_text_2: >-
+    Statistique Canada. Tableau 36-10-0222-01  Produit intérieur brut, en termes de dépenses, provinciaux et territoriaux, annuel (x 1 000 000)
 source_organisation_2: Statistique Canada
-source_periodicity_2: Quarterly
+source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada, Province or territory
-source_url_1: https://doi.org/10.25318/3610043401-fra
-source_url_2: https://doi.org/10.25318/1710000901-fra
-reporting_status: complete
-COVERAGE: Canada
+source_url_2: https://doi.org/10.25318/3610022201-fra
+
+source_active_3: 'true'
+source_url_text_3: 'Tableau 17-10-0005-01  Estimations de la population au 1er juillet, par âge et sexe'
+source_url_3: https://doi.org/10.25318/1710000501-fra
+source_organisation_3: Statistics Canada
+source_periodicity_3: Annual
+source_geographical_coverage_3: Canada, Province or territory
+
+
 
