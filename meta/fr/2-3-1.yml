@@ -23,6 +23,11 @@ SDG_TARGET__GLOBAL: '<p>Cible 2.3 : D''ici 2030, doubler la productivité agrico
   et aux possibilités de création de valeur ajoutée et d''emplois non agricoles</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.3.1 : Volume de production par unité de travail
   par catégorie de taille d’entreprise agricole/pastorale/forestière</p>'
-
-reporting_status: notstarted
+  
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: "Statistique Canada. Recensement de l'agriculture. Totalisation personnalisée."
+source_url_1: https://www.statcan.gc.ca/fr/census-agriculture
+source_organisation_1: Statistique Canada
+source_periodicity_1: Aux 5 ans
 
