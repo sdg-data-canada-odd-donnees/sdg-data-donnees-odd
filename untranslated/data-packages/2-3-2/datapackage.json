@@ -12,11 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Size",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Small-scale food producers",
+                "Medium-Large scale food producers",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "string"
           }
         ]
       }
@@ -24,5 +35,5 @@
   ],
   "profile": "data-package",
   "name": "2-3-2",
-  "title": "global_indicators.2-3-2-title"
+  "title": "global_indicators.2-3-1-title"
 }

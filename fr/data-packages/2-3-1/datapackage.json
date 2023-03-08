@@ -12,12 +12,24 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
           },
           {
+            "name": "Size",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Petits producteurs alimentaires",
+                "Producteurs alimentaires de moyenne à grande échelle",
+                ""
+              ]
+            },
+            "title": "Size"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "string",
             "title": "Valeur"
           }
         ]
