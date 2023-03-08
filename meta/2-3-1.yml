@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition and
   promote sustainable agriculture</p>'
 SDG_TARGET: '<p>Target 2.3: By 2030, double the agricultural productivity and incomes
@@ -5,12 +6,14 @@ SDG_TARGET: '<p>Target 2.3: By 2030, double the agricultural productivity and in
   pastoralists and fishers, including through secure and equal access to land, other
   productive resources and inputs, knowledge, financial services, markets and opportunities
   for value addition and non-farm employment</p>'
-SDG_INDICATOR: '<p>Indicator 2.3.1: Volume of production per labour unit by classes
-  of farming/pastoral/forestry enterprise size</p>'
-STAT_CONC_DEF: <p>Volume of agricultural production of small-scale food producer in
-  crop, livestock, fisheries, and forestry activities per number of days.</p>
+SDG_INDICATOR: '<p>Indicator 2.3.1: Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size</p>'
+STAT_CONC_DEF: |
+    Purchasing power parity (PPP) conversion factor is the number of units of a country's currency required to buy the same amounts of goods and services in the domestic market as U.S. dollar would buy in the United States. This conversion factor is for GDP.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+UNIT_OF_MEASURE: 2011 $PPP (annual)
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
 SDG_TARGET__GLOBAL: '<p>Target 2.3: By 2030, double the agricultural productivity
@@ -25,3 +28,10 @@ un_custodian_agency: Food and Agriculture Organization (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+  
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: Census of Agriculture. Custom tabulation.
+source_url_1: https://www.statcan.gc.ca/en/census-agriculture
+source_organisation_1: Statistics Canada
+source_periodicity_1: Every 5 years

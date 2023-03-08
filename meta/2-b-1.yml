@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition and
   promote sustainable agriculture</p>'
 SDG_TARGET: '<p>Target 2.b: Correct and prevent trade restrictions and distortions
@@ -8,6 +9,8 @@ SDG_INDICATOR: '<p>Indicator 2.b.1: Agricultural export subsidies</p>'
 STAT_CONC_DEF: '    '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
 SDG_TARGET__GLOBAL: '<p>Target 2.b: Correct and prevent trade restrictions and distortions
@@ -20,3 +23,16 @@ un_custodian_agency: World Trade Organization (WTO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-0B-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 59.1
   KB)
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    World Trade Organization: Committee on Agriculture - G/AG/N/CAN/125
+source_url_1: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?language=E&HasEnglishRecord=True&HasFrenchRecord=True&HasSpanishRecord=True&CatalogueIdList=263580,263579,251407,251411,251412,251413,243950,228500,133032,127285&CurrentCatalogueIdIndex=3&FullTextHash=371857150
+source_organisation_1: World Trade Organization
+
+source_active_2: 'true'
+source_url_text_2: |
+    World Trade Organization: Committee on Agriculture - G/AG/N/CAN/135
+source_url_2: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?language=E&HasEnglishRecord=True&HasFrenchRecord=True&HasSpanishRecord=True&CatalogueIdList=263580,263579,251407,251411,251412,251413,243950,228500,133032,127285&CurrentCatalogueIdIndex=0&FullTextHash=371857150
+source_organisation_2: World Trade Organization
