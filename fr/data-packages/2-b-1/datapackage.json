@@ -12,12 +12,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Année"
           },
           {
+            "name": "Product",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Beurre",
+                "Fromage",
+                "Autres produits laitiers",
+                ""
+              ]
+            },
+            "title": "Product"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "string",
             "title": "Valeur"
           }
         ]
