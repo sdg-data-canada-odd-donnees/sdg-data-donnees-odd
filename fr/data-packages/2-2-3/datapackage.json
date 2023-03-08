@@ -12,8 +12,21 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Année"
+          },
+          {
+            "name": "Population group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Femmes en âge de procréer",
+                "Femmes non enceintes",
+                "Femmes enceintes",
+                ""
+              ]
+            },
+            "title": "Groupe de population"
           },
           {
             "name": "Value",
