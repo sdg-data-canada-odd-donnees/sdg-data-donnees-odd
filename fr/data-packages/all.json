@@ -2423,6 +2423,42 @@
       "title": "Prévalence d’une insécurité alimentaire modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle FIES)"
     },
     {
+      "path": "15-1-2/data.csv",
+      "name": "15-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Key Biodiversity Areas (KBAs)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terrestre ZCBs",
+                "Eau Douce ZCBs",
+                ""
+              ]
+            },
+            "title": "Zones clés pour a biodiversité (ZCBs)"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion des sites importants pour la biodiversité terrestre et la biodiversité des eaux douces qui se trouvent dans des aires protégées (par type d’écosystème)"
+    },
+    {
       "path": "2-b-1/data.csv",
       "name": "2-b-1",
       "profile": "tabular-data-resource",
@@ -4935,30 +4971,6 @@
         ]
       },
       "title": "Proportion dans la valeur ajoutée totale de la valeur ajoutée des secteurs de moyenne et haute technologie"
-    },
-    {
-      "path": "15-1-2/data.csv",
-      "name": "15-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion des sites importants pour la biodiversité terrestre et la biodiversité des eaux douces qui se trouvent dans des aires protégées (par type d’écosystème)"
     },
     {
       "path": "11-3-2/data.csv",

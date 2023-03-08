@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "data.Key Biodiversity Areas (KBAs)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terrestrial KBAs",
+                "Freshwater KBAs",
+                ""
+              ]
+            },
+            "title": "Key Biodiversity Areas (KBAs)"
           },
           {
             "name": "Value",

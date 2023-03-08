@@ -2258,6 +2258,39 @@
       "title": "global_indicators.2-1-2-title"
     },
     {
+      "path": "15-1-2/data.csv",
+      "name": "15-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Key Biodiversity Areas (KBAs)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Terrestrial KBAs",
+                "data.Freshwater KBAs",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.15-1-2-title"
+    },
+    {
       "path": "2-b-1/data.csv",
       "name": "2-b-1",
       "profile": "tabular-data-resource",
@@ -4577,28 +4610,6 @@
         ]
       },
       "title": "global_indicators.9-b-1-title"
-    },
-    {
-      "path": "15-1-2/data.csv",
-      "name": "15-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.15-1-2-title"
     },
     {
       "path": "11-3-2/data.csv",

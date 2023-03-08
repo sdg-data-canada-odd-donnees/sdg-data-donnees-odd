@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "data.Key Biodiversity Areas (KBAs)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terrestre ZCBs",
+                "Eau Douce ZCBs",
+                ""
+              ]
+            },
+            "title": "Zones clés pour a biodiversité (ZCBs)"
           },
           {
             "name": "Value",
