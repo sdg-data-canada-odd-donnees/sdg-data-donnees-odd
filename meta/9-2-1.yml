@@ -9,7 +9,7 @@ SDG_INDICATOR: '<p>Indicator 9.2.1: Manufacturing value added as a proportion of
   and per capita</p>'
 STAT_CONC_DEF: '    '
 DATA_COMP: |
-    Manufactured value added = <i>Production</i> - <i>consumption</i>, where <br><br><i>Production</i> = (Revenue from goods manufactured + (Closing inventories, goods or work in process + Closing inventories, finished goods manufactured) - (Opening inventories, goods or work in process + Opening inventories, finished goods manufactured)<br><br>Consumption = (Opening inventories, raw materials + Cost of materials and supplies + Total cost of energy, water utility and vehicle fuel - Closing inventories of raw materials).
+    Manufactured value added = <i>Production</i> - <i>consumption</i>, where <br><br><i>Production</i> = (Revenue from goods manufactured + (Closing inventories, goods or work in process + Closing inventories, finished goods manufactured) - (Opening inventories, goods or work in process + Opening inventories, finished goods manufactured)<br><br><i>Consumption</i> = (Opening inventories, raw materials + Cost of materials and supplies + Total cost of energy, water utility and vehicle fuel - Closing inventories of raw materials).
 REC_USE_LIM: '   '
 COVERAGE: Canada, Province or territory
 
