@@ -1,5 +1,6 @@
-﻿composite_breakdown_label: ''
-computation_units: ''
+﻿auto_progress_calculation: true
+composite_breakdown_label: ''
+computation_units: 'Percent'
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -22,11 +23,14 @@ graph_titles: []
 graph_type: line
 indicator_name: global_indicators.15-1-2-title
 indicator_number: '15.1.2'
-national_geographical_coverage: ''
+national_geographical_coverage: 'Canada'
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+progress_calculation_options:
+- direction: positive
+  target_year: 2020
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
