@@ -20,20 +20,19 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
                 "Yukon",
+                "Northwest Territories",
                 ""
               ]
             },
@@ -45,10 +44,10 @@
             "constraints": {
               "enum": [
                 "Hydraulic turbine",
-                "Other types of electricity generation",
+                "Tidal power turbine",
                 "Wind power turbine",
                 "Solar",
-                "Tidal power turbine",
+                "Other types of electricity generation",
                 "Total hydro, tidal, wind, solar and other generation",
                 ""
               ]

@@ -3291,20 +3291,19 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
                 "Yukon",
+                "Territoires du Nord-Ouest",
                 ""
               ]
             },
@@ -3316,10 +3315,10 @@
             "constraints": {
               "enum": [
                 "Turbine à hydraulique",
-                "Autres types de production électrique",
+                "Turbine marémotrice",
                 "Turbine éolienne",
                 "Solaire",
-                "Turbine marémotrice",
+                "Autres types de production électrique",
                 "Total, tous les genres de production d'électricité",
                 ""
               ]
@@ -4262,6 +4261,61 @@
       "title": "Emploi dans l’industrie manufacturière, en proportion de l’emploi total"
     },
     {
+      "path": "9-b-1/data.csv",
+      "name": "9-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "Atlantic Region",
+                "Colombie-Britannique",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Northern Territories",
+                "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
+                "Nunavut",
+                "Ontario",
+                "Prairie Region",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion dans la valeur ajoutée totale de la valeur ajoutée des secteurs de moyenne et haute technologie"
+    },
+    {
       "path": "3-3-5/data.csv",
       "name": "3-3-5",
       "profile": "tabular-data-resource",
@@ -5088,30 +5142,6 @@
         ]
       },
       "title": "Nombre de pays ayant adopté et mis en place des stratégies nationales de réduction des risques de catastrophe, conformément au Cadre de Sendai pour la réduction des risques de catastrophe (2015‐2030)"
-    },
-    {
-      "path": "9-b-1/data.csv",
-      "name": "9-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion dans la valeur ajoutée totale de la valeur ajoutée des secteurs de moyenne et haute technologie"
     },
     {
       "path": "17-9-1/data.csv",
