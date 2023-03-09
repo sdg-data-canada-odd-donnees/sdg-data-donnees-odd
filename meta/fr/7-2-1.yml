@@ -1,14 +1,17 @@
+# NATIONAL
 SDG_GOAL: '<p>Objectif 7: Garantir l’accès de tous à des services énergétiques fiables,
   durables et modernes, à un coût abordable.</p>'
 SDG_TARGET: '<p>Cible 7.2: D’ici à 2030, accroître nettement la part de l’énergie
   renouvelable dans le bouquet énergétique mondial.</p>'
-SDG_INDICATOR: '<p>Indicateur 7.2.1: Part de l’énergie renouvelable dans la consommation
-  finale d’énergie.</p>'
-STAT_CONC_DEF: <p>La part des énergies renouvelables dans la consommation finale totale
-  est le pourcentage de la consommation finale d'énergie qui provient de ressources
-  renouvelables.</p>
+SDG_INDICATOR: |
+    <p>Indicateur 7.2.1: Proportion de l’électricité produite à partir de sources renouvelables et non émettrices de gaz à effet de serre</p>
+STAT_CONC_DEF: '    '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+COVERAGE: Canada
+UNIT_OF_MEASURE: Percentage
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 7: Garantir l’accès de tous à des services énergétiques
   fiables, durables et modernes, à un coût abordable.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 7.2: D’ici à 2030, accroître nettement la part de l’énergie
@@ -16,20 +19,26 @@ SDG_TARGET__GLOBAL: '<p>Cible 7.2: D’ici à 2030, accroître nettement la part
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.2.1: Part de l’énergie renouvelable dans la
   consommation finale d’énergie.</p>'
 source_active_1: 'true'
-source_url_text_1: "Cahier d'information sur l'énergie 2020-2021 (PDF)"
-source_url_1: https://www.rncan.gc.ca/sites/nrcan/files/energy/energy_fact/cahier-information-%C3%A9nergie-2020-2021-Fran%C3%A7ais.pdf
-source_organisation_1: Ressources naturelles Canada (RNCan)
-source_geographical_coverage_1: Canada
-source_active_2: 'true'
-source_url_text_2: "Cahier d'information sur l'énergie 2021-2022 (PDF)"
-source_url_2: https://www.rncan.gc.ca/sites/nrcan/files/energy/energy_fact/2021-2022/PDF/Section5_energy-factbook-december23-2021-FRENCH_accessible.pdf
-source_organisation_2: Ressources naturelles Canada (RNCan)
-source_geographical_coverage_2: Canada
-source_active_3: 'true'
-source_url_text_3: "Cahier d'information sur l'énergie 2022-2023 (PDF)"
-source_url_3: https://www.rncan.gc.ca/sites/nrcan/files/energy/energy_fact/2022-2023/PDF/Energy-factbook-2022-2023-FRENCH.pdf
-source_organisation_3: Ressources naturelles Canada (RNCan)
-source_geographical_coverage_3: Canada
-COVERAGE: Canada
-UNIT_OF_MEASURE: Percentage
+source_url_text_1: |
+    Statistique Canada. Tableau 25-10-0015-01  Production de l'énergie électrique, production mensuelle selon le type d'électricité
+source_url_1: https://doi.org/10.25318/2510001501-fra
+source_organisation_1: Statistics Canada
+source_periodicity_1: Mensuelle
+source_geographical_coverage_1: Canada, Province or territory
+# source_active_1: 'true'
+# source_url_text_1: "Cahier d'information sur l'énergie 2020-2021 (PDF)"
+# source_url_1: https://www.rncan.gc.ca/sites/nrcan/files/energy/energy_fact/cahier-information-%C3%A9nergie-2020-2021-Fran%C3%A7ais.pdf
+# source_organisation_1: Ressources naturelles Canada (RNCan)
+# source_geographical_coverage_1: Canada
+# source_active_2: 'true'
+# source_url_text_2: "Cahier d'information sur l'énergie 2021-2022 (PDF)"
+# source_url_2: https://www.rncan.gc.ca/sites/nrcan/files/energy/energy_fact/2021-2022/PDF/Section5_energy-factbook-december23-2021-FRENCH_accessible.pdf
+# source_organisation_2: Ressources naturelles Canada (RNCan)
+# source_geographical_coverage_2: Canada
+# source_active_3: 'true'
+# source_url_text_3: "Cahier d'information sur l'énergie 2022-2023 (PDF)"
+# source_url_3: https://www.rncan.gc.ca/sites/nrcan/files/energy/energy_fact/2022-2023/PDF/Energy-factbook-2022-2023-FRENCH.pdf
+# source_organisation_3: Ressources naturelles Canada (RNCan)
+# source_geographical_coverage_3: Canada
+
 
