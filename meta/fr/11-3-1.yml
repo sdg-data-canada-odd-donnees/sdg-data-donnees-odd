@@ -1,12 +1,25 @@
-SDG_GOAL: '   '
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
-STAT_CONC_DEF: '   '
+SDG_GOAL: '<p>Objectif 11: Faire en sorte que les villes et les établissements humains
+  soient ouverts à tous, sûrs, résilients et durables</p>'
+SDG_TARGET: '<p>Cible 11.2: D’ici à 2030, renforcer l’urbanisation durable pour tous et 
+  les capacités de planification et de gestion participatives, intégrées et durables des 
+  établissements humains dans tous les pays</p>'
+SDG_INDICATOR: >-
+    <p>Indicateur 11.3.1: Ratio entre le taux d’utilisation des terres et le taux de croissance démographique »</p>
+STAT_CONC_DEF: >-
+    <p>L'indicateur est défini comme le rapport entre le taux de consommation des terres et le taux de croissance démographique.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '   '
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 11: Faire en sorte que les villes et les établissements
+  humains soient ouverts à tous, sûrs, résilients et durables</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 11.2: D’ici à 2030, renforcer l’urbanisation durable pour tous et 
+  les capacités de planification et de gestion participatives, intégrées et durables des 
+  établissements humains dans tous les pays</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 11.3.1: Ratio entre le taux d’utilisation des terres et le 
+  taux de croissance démographique</p>'
 
-reporting_status: notstarted
+reporting_status: complete
 
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Totalisation personnalisée.
+source_organisation_1: Statistique Canada
+source_geographical_coverage_1: Canada
