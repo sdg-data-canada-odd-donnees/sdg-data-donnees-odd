@@ -7,11 +7,7 @@ SDG_INDICATOR: '<p>Indicator 11.3.1: Ratio of land consumption rate to populatio
   growth rate</p>'
 STAT_CONC_DEF: '<p>The indicator is defined as the ratio of land consumption rate to
   population growth rate.</p>'
-DATA_COMP: '<p>Population growth rate = Natural logarithm (Measurement year population/Previous population)/Time between the measurement periods
-  <br>
-  <br>Land consumption rate = Natural logarithm (Measurement year manmade land area/Previous manmade land area)/Time between the measurement periods
-  <br>
-  <br>Ratio of land consumption rate to population growth rate = Land consumption rate/Population growth rate</p>'
+DATA_COMP: ''
 REC_USE_LIM: '<p> This study combines data from the 1971, 1991, 2001 and 2011 Census of Population
   with special data sets providing information on land cover and land use, in order to analyze the
   evoluation of built-up areas around Census metropolitan areas (CMAs).
