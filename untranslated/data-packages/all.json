@@ -46,7 +46,6 @@
               "enum": [
                 "Consolidated Canadian general government",
                 "Consolidated provincial-territorial and local governments",
-                "Municipalities and other local public administrations",
                 ""
               ]
             }
@@ -2214,6 +2213,63 @@
         ]
       },
       "title": "global_indicators.11-1-1-title"
+    },
+    {
+      "path": "4-1-1/data.csv",
+      "name": "4-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Children in Grade 4 achieving at least a minimum proficiency level in mathematics",
+                "Children in Grade 4 achieving at least a minimum proficiency level in reading",
+                "Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading",
+                "Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of children achieving at least a minimum proficiency level",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Male",
+                "Female",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.4-1-1-title"
     },
     {
       "path": "2-a-2/data.csv",
@@ -4509,28 +4565,6 @@
         ]
       },
       "title": "global_indicators.1-3-1-title"
-    },
-    {
-      "path": "4-1-1/data.csv",
-      "name": "4-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.4-1-1-title"
     },
     {
       "path": "1-2-2/data.csv",
