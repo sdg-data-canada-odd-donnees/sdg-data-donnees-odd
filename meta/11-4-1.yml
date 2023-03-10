@@ -1,0 +1,37 @@
+# NATIONAL
+SDG_GOAL: '<p>Goal 11: Make cities and human settlements inclusive, safe, resilient
+  and sustainable</p>'
+SDG_TARGET: |
+    Target 11.4: Strengthen efforts to protect and safeguard the world's cultural and natural heritage
+SDG_INDICATOR: |
+    Indicator 11.4.1: Total expenditure per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)
+STAT_CONC_DEF: '    '
+DATA_COMP: '   '
+REC_USE_LIM: '   '
+COVERAGE: Canada, Province or territory
+
+# GLOBAL
+SDG_GOAL__GLOBAL: '<p>Goal 11: Make cities and human settlements inclusive, safe,
+  resilient and sustainable</p>'
+SDG_TARGET__GLOBAL: |
+    Target 11.4: Strengthen efforts to protect and safeguard the world's cultural and natural heritage
+SDG_INDICATOR__GLOBAL: |
+    Indicator 11.4.1: Total expenditure per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-04-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 245
+  KB)
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: Statistics Canada. Table 10-10-0005-01  Canadian Classification of Functions of Government (CCOFOG) by consolidated government component (x 1,000,000)
+source_url_1: https://doi.org/10.25318/1010000501-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada, Province or territory
+
+source_active_2: 'true'
+source_url_text_2: Table 17-10-0005-01  Population estimates on July 1st, by age and sex
+source_url_2: https://doi.org/10.25318/1710000501-eng
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada, Province or territory

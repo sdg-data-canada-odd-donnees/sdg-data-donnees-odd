@@ -1,13 +1,18 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and modern
   energy for all</p>'
 SDG_TARGET: '<p>Target 7.2: By 2030, increase substantially the share of renewable
   energy in the global energy mix</p>'
-SDG_INDICATOR: '<p>Indicator 7.2.1: Renewable energy share in the total final energy
-  consumption</p>'
-STAT_CONC_DEF: <p>The renewable energy share in total final consumption is the percentage
-  of final consumption of energy that is derived from renewable resources.</p>
+SDG_INDICATOR: 'Indicator 7.2.1: Proportion of electricity generated from renewable and non-greenhouse gas emitting sources'
+STAT_CONC_DEF: '    '
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: 'This indicator is a proxy for the global indicator 7.2.1 <i>Renewable energy share in the total final
+  energy consumption</i>'
+COVERAGE: Canada, Province or territory
+UNIT_OF_MEASURE: Percentage
+
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and
   modern energy for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 7.2: By 2030, increase substantially the share of renewable
@@ -20,20 +25,27 @@ un_custodian_agency: International Energy Agency (IEA), United Nations Statistic
   the SE4ALL Global Tracking Framework Consortium
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-02-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 216 KB)
+
+# SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: "Energy FactBook 2020-2021 (PDF)"
-source_url_1: https://www.nrcan.gc.ca/sites/nrcan/files/energy/energy_fact/energy-factbook-2020-2021-English.pdf
-source_organisation_1: Natural Resources Canada (NRCan)
-source_geographical_coverage_1: Canada
-source_active_2: 'true'
-source_url_2: https://www.rncan.gc.ca/sites/nrcan/files/energy/energy_fact/2021-2022/PDF/Section5_energy-factbook-december23-2021-FRENCH_accessible.pdf
-source_url_text_2: "Energy FactBook 2021-2022 (PDF)"
-source_organisation_2: Natural Resources Canada (NRCan)
-source_geographical_coverage_2: Canada
-source_active_3: 'true'
-source_url_3: https://www.nrcan.gc.ca/sites/nrcan/files/energy/energy_fact/2022-2023/PDF/Section_5_Energy-factbook-2022-2023_EN.pdf
-source_url_text_3: "Energy FactBook 2022-2023 (PDF)"
-source_organisation_3: Natural Resources Canada (NRCan)
-source_geographical_coverage_3: Canada
-COVERAGE: Canada
-UNIT_OF_MEASURE: Percentage
+source_url_text_1: Statistics Canada. Table 25-10-0015-01  Electric power generation, monthly generation by type of electricity
+source_url_1: https://doi.org/10.25318/2510001501-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Monthly
+source_geographical_coverage_1: Canada, Province or territory
+
+# source_active_1: 'true'
+# source_url_text_1: "Energy FactBook 2020-2021 (PDF)"
+# source_url_1: https://www.nrcan.gc.ca/sites/nrcan/files/energy/energy_fact/energy-factbook-2020-2021-English.pdf
+# source_organisation_1: Natural Resources Canada (NRCan)
+# source_geographical_coverage_1: Canada
+# source_active_2: 'true'
+# source_url_2: https://www.rncan.gc.ca/sites/nrcan/files/energy/energy_fact/2021-2022/PDF/Section5_energy-factbook-december23-2021-FRENCH_accessible.pdf
+# source_url_text_2: "Energy FactBook 2021-2022 (PDF)"
+# source_organisation_2: Natural Resources Canada (NRCan)
+# source_geographical_coverage_2: Canada
+# source_active_3: 'true'
+# source_url_3: https://www.nrcan.gc.ca/sites/nrcan/files/energy/energy_fact/2022-2023/PDF/Section_5_Energy-factbook-2022-2023_EN.pdf
+# source_url_text_3: "Energy FactBook 2022-2023 (PDF)"
+# source_organisation_3: Natural Resources Canada (NRCan)
+# source_geographical_coverage_3: Canada

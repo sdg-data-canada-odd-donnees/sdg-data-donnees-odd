@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and sustainable
   industrialization and foster innovation</p>'
 SDG_TARGET: '<p>Target 9.b: Support domestic technology development, research and
@@ -5,11 +6,13 @@ SDG_TARGET: '<p>Target 9.b: Support domestic technology development, research an
   for, inter alia, industrial diversification and value addition to commodities</p>'
 SDG_INDICATOR: '<p>Indicator 9.b.1: Proportion of medium and high-tech industry value
   added in total value added</p>'
-STAT_CONC_DEF: <p>The proportion of medium-high and high-tech industry (MHT hereafter)
-  value added in total value added of manufacturing (MVA hereafter) is a ratio value
-  between the value added of MHT industry and MVA.</p>
-DATA_COMP: '   '
+STAT_CONC_DEF: '    '
+DATA_COMP: |
+    Manufactured value added = <i>Production</i> - <i>consumption</i>, where <br><br><i>Production</i> = (Revenue from goods manufactured + (Closing inventories, goods or work in process + Closing inventories, finished goods manufactured) - (Opening inventories, goods or work in process + Opening inventories, finished goods manufactured)<br><br><i>Consumption</i> = (Opening inventories, raw materials + Cost of materials and supplies + Total cost of energy, water utility and vehicle fuel - Closing inventories of raw materials).
 REC_USE_LIM: '   '
+COVERAGE: Canada, Geographical region of Canada, Province or territory
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
   sustainable industrialization and foster innovation</p>'
 SDG_TARGET__GLOBAL: '<p>Target 9.b: Support domestic technology development, research
@@ -17,16 +20,18 @@ SDG_TARGET__GLOBAL: '<p>Target 9.b: Support domestic technology development, res
   environment for, inter alia, industrial diversification and value addition to commodities</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 9.b.1: Proportion of medium and high-tech industry
   value added in total value added</p>'
-source_active_1: 'true'
-source_url_text_1: Statistics Canada. Table 36-10-0434-01  Gross domestic product
-  (GDP) at basic prices, by industry, monthly (x 1,000,000)
-source_url_1: https://doi.org/10.25318/3610043401-eng
-source_organisation_1: Statistics Canada
-source_periodicity_1: Monthly
-source_geographical_coverage_1: Canada
-COVERAGE: Canada
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Industrial Development Organization (UNIDO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-0B-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 332
   KB)
+  
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistics Canada. Table 16-10-0117-01  Principal statistics for manufacturing industries, by North American Industry Classification System (NAICS) (x 1,000)
+source_url_1: https://doi.org/10.25318/1610011701-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada, Geographical region of Canada, Province or territory
+

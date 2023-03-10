@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
   durable qui profite à tous et encourager l''innovation.</p>'
 SDG_TARGET: '<p>Cible 9.b : Soutenir les activités de recherche-développement et d’innovation
@@ -6,12 +7,12 @@ SDG_TARGET: '<p>Cible 9.b : Soutenir les activités de recherche-développement 
   de valeur aux marchandises</p>'
 SDG_INDICATOR: '<p>Indicateur 9.b.1 : Proportion dans la valeur ajoutée totale de
   la valeur ajoutée des secteurs de moyenne et haute technologie</p>'
-STAT_CONC_DEF: <p> La proportion de la valeur ajoutée de l’industrie de moyenne-haute
-  et de haute technologie (MHT ci-après) dans la valeur ajoutée totale de la fabrication
-  (MVA ci-après) est un rapport valeur ajoutée entre la valeur ajoutée de l’industrie
-  MHT et MVA. </p>
-DATA_COMP: '   '
+STAT_CONC_DEF: '    '
+DATA_COMP: |
+    La valeur ajoutée manufacturière est égale à la <i>production</i> moins la <i>consommation</i>, où la production est = (revenus des biens fabriqués + (stocks de fermeture, biens en cours de fabrication ou travaux en cours + stocks de fermeture, produits finis fabriqués) - (stocks d'ouverture, biens en cours de fabrication ou travaux en cours + stocks d'ouverture, produits finis fabriqués)). La consommation est calculée comme suit : (stocks d'ouverture, matières premières + coût des matières et fournitures + coût total d'énergie, d'approvisionnement en eau et de carburant pour véhicules - stocks de fermeture, matières premières).
 REC_USE_LIM: '   '
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
   une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 9.b : Soutenir les activités de recherche-développement
@@ -21,13 +22,12 @@ SDG_TARGET__GLOBAL: '<p>Cible 9.b : Soutenir les activités de recherche-dévelo
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.b.1 : Proportion dans la valeur ajoutée totale
   de la valeur ajoutée des secteurs de moyenne et haute technologie</p>'
 
+# SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: Statistique Canada. Table 36-10-0434-01  Gross domestic product
-  (GDP) at basic prices, by industry, monthly (x 1,000,000)
+source_url_text_1: |
+    Statistique Canada. Tableau 16-10-0117-01  Statistiques principales pour les industries manufacturières, selon le Système de classification des industries de l'Amérique du Nord (SCIAN) (x 1 000)
+source_url_1: https://doi.org/10.25318/1610011701-fra
 source_organisation_1: Statistique Canada
-source_periodicity_1: Monthly
-source_geographical_coverage_1: Canada
-source_url_1: https://doi.org/10.25318/3610043401-fra
-reporting_status: complete
-COVERAGE: Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Région géographique du Canada, Province ou territoire
 
