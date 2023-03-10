@@ -9,12 +9,7 @@ SDG_INDICATOR: '<p>Indicateur 4.1.1: Proportion d''enfants et de jeunes (a) en c
   élémentaire; (b) en fin de cycle primaire; c) en fin de premier cycle du secondaire
   qui maîtrisent au moins les normes d''aptitudes minimales en i) lecture et ii) mathématiques,
   par sexe</p>'
-STAT_CONC_DEF: <p>Pourcentage d'enfants et de jeunes atteignant au moins un niveau
-  de compétence minimum en (i) lecture et (ii) mathématiques au cours de l'enseignement
-  primaire (2e ou 3e année), à la fin de l'enseignement primaire et à la fin de l'enseignement
-  secondaire inférieur. Le niveau de compétence minimum sera mesuré par rapport à
-  de nouvelles échelles communes de lecture et de mathématiques actuellement en cours
-  d'élaboration</p>.
+STAT_CONC_DEF: '    '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité,
@@ -28,6 +23,31 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 4.1.1: Proportion d''enfants et de jeunes 
   en cours élémentaire; (b) en fin de cycle primaire; c) en fin de premier cycle du
   secondaire qui maîtrisent au moins les normes d''aptitudes minimales en i) lecture
   et ii) mathématiques, par sexe</p>'
+COVERAGE: Canada
 
-reporting_status: notstarted
 
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    TEIMS 2019: Résultats canadiens de l'étude Tendances de l'enquête internationale sur les mathématiques et les sciences
+source_url_1: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_FR.pdf
+source_organisation_1: Council of Ministers of Education, Canada (CMEC)
+source_periodicity_1: Occasional
+source_geographical_coverage_1: Canada, Province or territory
+
+source_active_2: 'true'
+source_url_text_2: |
+    IRLS/ePIRLS 2016 Le contexte au Canada: Résultats canadiens du Programme international de recherche en lecture scolaire
+source_url_2: https://cmec.ca/Publications/Lists/Publications/Attachments/385/PIRLS2016-Report-FR.pdf
+source_organisation_2: Council of Ministers of Education, Canada (CMEC)
+source_periodicity_2: Occasional
+source_geographical_coverage_2: Canada, Province or territory
+
+source_active_3: 'true'
+source_url_text_3: |
+    À la hauteur : Résultats canadiens de l'étude PISA 2018 de l'OCDE
+source_url_3: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_FR.pdf
+source_organisation_3: Council of Ministers of Education, Canada (CMEC)
+source_periodicity_3: Occasional
+source_geographical_coverage_3: Canada, Province or territory

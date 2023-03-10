@@ -7,13 +7,10 @@ SDG_INDICATOR: '<p>Indicator 4.1.1: Proportion of children and young people: (a)
   grades 2/3; (b) at the end of primary; education and (c) at the end of lower secondary
   education achieving at least a minimum proficiency level in (i) reading and (ii)
   mathematics, by sex</p>'
-STAT_CONC_DEF: <p>Percentage of children and young people achieving at least a minimum
-  proficiency level in (i) reading and (ii) mathematics during primary education (Grade
-  2 or 3), at the end of primary education, and at the end of lower secondary education.
-  The minimum proficiency level will be measured relative to new common reading and
-  mathematics scales currently in development.</p>
+STAT_CONC_DEF: '    '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+COVERAGE: Canada
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
   promote lifelong learning opportunities for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 4.1: By 2030, ensure that all girls and boys complete
@@ -28,3 +25,28 @@ un_custodian_agency: UNESCO Institute for Statistics
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=4&Target=4.1
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    TIMSS 2019 - Canadian Results from the Trends in International Mathematics and Science Study: Highlights
+source_url_1: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_EN.pdf
+source_organisation_1: Council of Ministers of Education, Canada (CMEC)
+source_periodicity_1: Occasional
+source_geographical_coverage_1: Canada, Province or territory
+
+source_active_2: 'true'
+source_url_text_2: |
+    PIRLS/ePIRLS 2016 Canada in Context. Appendix B.
+source_url_2: https://cmec.ca/Publications/Lists/Publications/Attachments/385/PIRLS2016-Report-EN.pdf
+source_organisation_2: Council of Ministers of Education, Canada (CMEC)
+source_periodicity_2: Occasional
+source_geographical_coverage_2: Canada, Province or territory
+
+source_active_3: 'true'
+source_url_text_3: |
+    Measuring up: Canadian Results of the OECD PISA 2018 Study - The Performance of Canadian 15-Year-Olds in Reading, Mathematics, and Science. Appendix B.
+source_url_3: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_EN.pdf
+source_organisation_3: Council of Ministers of Education, Canada (CMEC)
+source_periodicity_3: Occasional
+source_geographical_coverage_3: Canada, Province or territory
