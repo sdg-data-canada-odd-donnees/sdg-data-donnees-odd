@@ -12,8 +12,77 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Taux de consommation des terres",
+                "Taux de croissance démographique",
+                "Rapport entre le taux de consommation des terres et le taux de croissance démographique",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Taux de croissance",
+                "Ratio",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Abbotsford - Mission, Colombie-Britannique",
+                "Barrie, Ontario",
+                "Brantford, Ontario",
+                "Calgary, Alberta ",
+                "Edmonton, Alberta ",
+                "Greater Sudbury, Ontario ",
+                "Guelph, Ontario ",
+                "Halifax, Nova Scotia ",
+                "Hamilton, Ontario ",
+                "Kelowna, Colombie-Britannique",
+                "Kingston, Ontario",
+                "Kitchener - Cambridge - Waterloo, Ontario ",
+                "London, Ontario ",
+                "Moncton, Nouveau-Brunswick",
+                "Montreal, Quebec ",
+                "Oshawa, Ontario ",
+                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
+                "Ottawa - Gatineau (partie du Québec), Québec",
+                "Peterborough, Ontario",
+                "Quebec, Quebec ",
+                "Regina, Saskatchewan ",
+                "Saguenay, Quebec ",
+                "Saint John, New Brunswick ",
+                "Saskatoon, Saskatchewan ",
+                "Sherbrooke, Québec",
+                "St. Catharines - Niagara, Ontario ",
+                "St. John's, Newfoundland and Labrador ",
+                "Thunder Bay, Ontario ",
+                "Toronto, Ontario ",
+                "Trois-Rivières, Québec",
+                "Vancouver, British Columbia ",
+                "Victoria, British Columbia ",
+                "Windsor, Ontario ",
+                "Winnipeg, Manitoba ",
+                ""
+              ]
+            },
+            "title": "Géographie"
           },
           {
             "name": "Value",
