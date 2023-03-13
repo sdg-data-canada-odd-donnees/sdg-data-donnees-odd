@@ -4049,6 +4049,83 @@
       "title": "Application du Règlement sanitaire international (RSI) et degré de préparation aux urgences sanitaires"
     },
     {
+      "path": "4-4-1/data.csv",
+      "name": "4-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Activity related to digital skills",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Copied or moved files or folders digitally ",
+                "Used word processing software ",
+                "Created presentations, or documents with text and pictures, tables or charts ",
+                "Utilisé les fonctions de base d’un logiciel tableur\n",
+                "Used spreadsheet software advanced functions to organize and analyze data ",
+                "Used software to edit photos, video or audio files ",
+                "Écrit du code dans un langage de programmation",
+                "Uploaded files or photos to an online data storage space ",
+                "Downloaded files from the Internet to your computer or other devices ",
+                "Shared files using an online data storage space ",
+                "Connected a new device to a Wi-Fi network ",
+                "Used the Internet to transfer photos or videos from one device to another ",
+                "Used your smartphone as a GPS device for directions ",
+                "Connected a new device via Bluetooth  ",
+                ""
+              ]
+            },
+            "title": "Activité liée à des compétences numériques"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, tous les utilisateurs d'Internet âgés de 15 ans et plus\n",
+                "Utilisateurs d'Internet âgés de 15 ans à 24 ans\n",
+                "Utilisateurs d'Internet âgés de 25 ans à 44 ans\n",
+                "Utilisateurs d'Internet âgés de 45 ans à 64 ans\n",
+                "Utilisateurs d'Internet âgés de 65 ans et plus\n",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, highest certificate, diploma or degree completed ",
+                "Un diplôme d'études secondaires ou moins\n",
+                "Un diplôme d'un collège ou d'une école de métiers, ou études universitaires partielles\n",
+                "Bachelors degree or higher",
+                ""
+              ]
+            },
+            "title": "Niveau de scolarité"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de jeunes et d’adultes ayant des compétences dans le domaine des technologies de l’information et des communications, par type de compétence"
+    },
+    {
       "path": "3-8-2/data.csv",
       "name": "3-8-2",
       "profile": "tabular-data-resource",
@@ -5564,30 +5641,6 @@
         ]
       },
       "title": "Proportion d’entreprises ayant eu au moins une fois affaire à un agent public auquel elles ont versé un pot‐de‐vin ou qui leur a demandé un pot‐de‐vin au cours des 12 mois précédents"
-    },
-    {
-      "path": "4-4-1/data.csv",
-      "name": "4-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de jeunes et d’adultes ayant des compétences dans le domaine des technologies de l’information et des communications, par type de compétence"
     },
     {
       "path": "3-7-1/data.csv",
