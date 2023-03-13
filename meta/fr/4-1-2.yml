@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité, sur
   un pied d''égalité, et à promouvoir les possibilités d''apprentissage tout au long
   de la vie.</p>'
@@ -5,13 +6,14 @@ SDG_TARGET: '<p>Cible 4.1 : D’ici à 2030, faire en sorte que toutes les fille
   tous les garçons suivent, sur un pied d’égalité, un cycle complet d’enseignement
   primaire et secondaire gratuit et de qualité, les dotant d’acquis véritablement
   utiles.</p>'
-SDG_INDICATOR: '<p>Indicateur 4.1.2 : Taux d’achèvement (enseignement primaire, premier
-  et deuxième cycles de l’enseignement secondaire).</p>'
-STAT_CONC_DEF: <p>Pourcentage d'une cohorte d'enfants ou de jeunes âgés de 3 à 5 ans
-  au-dessus de l'âge prévu pour la dernière année de chaque niveau d'enseignement
-  qui ont terminé cette année. </p>
+SDG_INDICATOR: |
+    Indicateur 4.1.2 : Niveau de scolarité de la population âgée de 25 à 64 ans, selon le groupe d'âge et le sexe
+STAT_CONC_DEF: '    '
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+    Ce tableau de données provient de la publication <a href="https://www150.statcan.gc.ca/n1/fr/catalogue/81-582-X">Indicateurs de l'éducation au Canada : Programme d'indicateurs pancanadiens de l'éducation</a>, section D6 : Niveau de scolarité de la population âgée de 25 à 64 ans. Pour obtenir une brève description de cet indicateur, incluant la méthodologie, veuillez consulter le <a href="https://www150.statcan.gc.ca/n1/fr/catalogue/81-582-G">Manuel pour le Programme d'indicateurs pancanadiens de l'éducation</a>.
+    
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité,
   sur un pied d''égalité, et à promouvoir les possibilités d''apprentissage tout au
   long de la vie.</p>'
@@ -22,5 +24,11 @@ SDG_TARGET__GLOBAL: '<p>Cible 4.1 : D’ici à 2030, faire en sorte que toutes l
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 4.1.2 : Taux d’achèvement (enseignement primaire,
   premier et deuxième cycles de l’enseignement secondaire).</p>'
 
-reporting_status: notstarted
-
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistics Canada. Table 37-10-0130-01  Educational attainment of the population aged 25 to 64, by age group and sex, Organisation for Economic Co-operation and Development (OECD), Canada, provinces and territories
+source_url_1: https://doi.org/10.25318/3710013001-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Occasional
+source_geographical_coverage_1: Canada, Province or territory
