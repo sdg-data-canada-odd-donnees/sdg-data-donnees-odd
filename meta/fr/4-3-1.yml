@@ -1,12 +1,44 @@
-SDG_GOAL: '   '
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
-STAT_CONC_DEF: '   '
+# NATIONAL
+SDG_GOAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité, sur
+  un pied d''égalité, et à promouvoir les possibilités d''apprentissage tout au long
+  de la vie.</p>'
+SDG_TARGET: |
+    Cible 4.3 : D'ici à 2030, faire en sorte que toutes les femmes et tous les hommes aient accès dans des conditions d'égalité à un enseignement technique, professionnel ou tertiaire, y compris universitaire, de qualité et d'un coût abordable
+SDG_INDICATOR: |
+    Indicateur 4.3.1 : Taux de participation des jeunes et des adultes à un programme d'éducation et de formation scolaire ou non scolaire au cours des 12 mois précédents, par sexe
+STAT_CONC_DEF: |
+    Le taux de participation aux études reflète le total d'inscriptions au niveau primaire-secondaire, collégial ou universitaire exprimé en pourcentage de la population totale de chaque groupe d'âge. Comprend les étudiants à temps plein et à temps partiel qui suivaient un « cours donnant droit à des crédits », c'est-à-dire, un cours ou un programme d'études pouvant mener à l'obtention d'un grade, d'un certificat ou d'un diplôme. Le nombre d'étudiants est basé sur une moyenne mensuelle de septembre à avril.<br><br>Comprend les établissements d'enseignement privés ou publics : école primaire, intermédiaire, secondaire ou équivalent; collège communautaire ou Cégep; et université. Les autres types d'écoles, comme les écoles de secrétariat et les écoles de formation professionnelle, sont exclus des numérateurs pour les totaux.
 DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '   '
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+REC_USE_LIM: '  '
+    
+# GLOBAL
+SDG_GOAL__GLOBAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité, sur
+  un pied d''égalité, et à promouvoir les possibilités d''apprentissage tout au long
+  de la vie.</p>'
+SDG_TARGET__GLOBAL: |
+    Cible 4.3 : D'ici à 2030, faire en sorte que toutes les femmes et tous les hommes aient accès dans des conditions d'égalité à un enseignement technique, professionnel ou tertiaire, y compris universitaire, de qualité et d'un coût abordable
+SDG_INDICATOR__GLOBAL: |
+    Indicateur 4.3.1 : Taux de participation des jeunes et des adultes à un programme d'éducation et de formation scolaire ou non scolaire au cours des 12 mois précédents, par sexe
+un_designated_tier: Tier II
+un_custodian_agency: United Nations Education and Scientific Cultural Organisation
+  - Institute of Statistics (UNESCO-UIS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-03-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 210
+  KB)
 
-reporting_status: notstarted
+## SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistique Canada. Tableau 37-10-0102-01  Taux de participation aux études, population âgée de 15 à 29 ans, selon le groupe d'âge et le type d'institution fréquentée
+source_url_1: https://doi.org/10.25318/3710010201-fra
+source_organisation_1: Statistique Canada
+source_periodicity_1: Occasionnelle
+source_geographical_coverage_1: Canada, Province ou territoire
 
+source_active_2: 'true'
+source_url_text_2: |
+    Statistique Canada. Tableau 37-10-0103-01  Taux de participation aux études, population âgée de 18 à 34 ans, selon le groupe d'âge et le type d'institution fréquentée
+source_url_2: https://doi.org/10.25318/3710010301-fra
+source_organisation_2: Statistique Canada
+source_periodicity_2: Occasionnelle
+source_geographical_coverage_2: Canada, Province ou territoire

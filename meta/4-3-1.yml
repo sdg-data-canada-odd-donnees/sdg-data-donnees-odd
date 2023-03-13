@@ -1,14 +1,16 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promote
   lifelong learning opportunities for all</p>'
 SDG_TARGET: '<p>Target 4.3: By 2030, ensure equal access for all women and men to
   affordable and quality technical, vocational and tertiary education, including university</p>'
 SDG_INDICATOR: '<p>Indicator 4.3.1: Participation rate of youth and adults in formal
   and non-formal education and training in the previous 12 months, by sex</p>'
-STAT_CONC_DEF: <p>The percentage of youth and adults in a given age range (e.g. 15-24
-  years, 25-64 years, etc.) participating in formal or non-formal education or training
-  in a given time period (e.g. last 12 months).</p>
+STAT_CONC_DEF: |
+    The participation rate in education reflects the total enrolment in an elementary/high school, college, or university as a percentage of the total population for each age group. Includes full- and part-time students who were taking a "credit course"; i.e., a course or program of instruction that could be counted towards a degree, certificate or diploma. The number of students is based on a monthly average from September to April.<br><br>Captures public and private educational establishments: elementary, junior high school, high school or equivalent; community college, junior college or CEGEP; and university. Other types of schools, such as private institutes or vocational or secretarial schools, are excluded from the numerators for the totals.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
   promote lifelong learning opportunities for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 4.3: By 2030, ensure equal access for all women and
@@ -22,3 +24,20 @@ un_custodian_agency: United Nations Education and Scientific Cultural Organisati
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 210
   KB)
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistics Canada. Table 37-10-0102-01  Participation rate in education, population aged 15 to 29, by age group and type of institution attended
+source_url_1: https://doi.org/10.25318/3710010201-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Occasional
+source_geographical_coverage_1: Canada, Province or territory
+
+source_active_2: 'true'
+source_url_text_2: |
+    Statistics Canada. Table 37-10-0103-01  Participation rate in education, population aged 18 to 34, by age group and type of institution attended
+source_url_2: https://doi.org/10.25318/3710010301-eng
+source_organisation_2: Statistics Canada
+source_periodicity_2: Occasional
+source_geographical_coverage_2: Canada, Province or territory
