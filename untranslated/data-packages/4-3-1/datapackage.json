@@ -12,7 +12,62 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "string"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 to 19 years",
+                "20 to 24 years",
+                "25 to 29 years",
+                "30 to 34 years",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of institution attended",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, type of institution attended",
+                "Elementary/High School",
+                "College",
+                "University",
+                "Total participation rate",
+                "Elementary and/or High School",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

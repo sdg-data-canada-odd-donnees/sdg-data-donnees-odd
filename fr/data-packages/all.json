@@ -2295,6 +2295,89 @@
       "title": "Prévalence de la consommation actuelle de tabac chez les personnes de 15 ans ou plus (taux comparatifs par âge)"
     },
     {
+      "path": "4-3-1/data.csv",
+      "name": "4-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 à 19 ans",
+                "20 à 24 ans",
+                "25 à 29 ans",
+                "30 à 34 ans",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Type of institution attended",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, type d'institution fréquentée\n",
+                "Primaire/Secondaire",
+                "Collège",
+                "Université",
+                "Total participation rate",
+                "Elementary and/or High School",
+                ""
+              ]
+            },
+            "title": "Type d'institution fréquentée\n"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Taux de participation des jeunes et des adultes à un programme d’éducation et de formation scolaire ou non scolaire au cours des 12 mois précédents, par sexe"
+    },
+    {
       "path": "6-1-1/data.csv",
       "name": "6-1-1",
       "profile": "tabular-data-resource",
@@ -4381,6 +4464,102 @@
         ]
       },
       "title": "Proportion de la population possédant un téléphone portable, par sexe"
+    },
+    {
+      "path": "4-1-2/data.csv",
+      "name": "4-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Educational attainment level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pré-primaire et primaire",
+                "Premier cycle du secondaire",
+                "Deuxième cycle du secondaire et postsecondaires non tertiaire",
+                "Études tertiaires",
+                ""
+              ]
+            },
+            "title": "Niveau de scolarité atteint"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 25 à 64 ans",
+                "25 à 34 ans",
+                "30 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Les deux sexes",
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Taux d’achèvement (enseignement primaire, premier et deuxième cycles de l’enseignement secondaire)"
     },
     {
       "path": "9-2-2/data.csv",
@@ -7107,30 +7286,6 @@
       "title": "Proportion de personnes ayant eu, au moins une fois, affaire à un agent public auquel elles ont versé un pot-de-vin ou qui leur a demandé un pot-de-vin au cours des 12 mois précédents"
     },
     {
-      "path": "4-3-1/data.csv",
-      "name": "4-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Taux de participation des jeunes et des adultes à un programme d’éducation et de formation scolaire ou non scolaire au cours des 12 mois précédents, par sexe"
-    },
-    {
       "path": "17-6-1/data.csv",
       "name": "17-6-1",
       "profile": "tabular-data-resource",
@@ -7777,30 +7932,6 @@
         ]
       },
       "title": "Proportion des masses d’eau dont la qualité de l’eau ambiante est bonne"
-    },
-    {
-      "path": "4-1-2/data.csv",
-      "name": "4-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Taux d’achèvement (enseignement primaire, premier et deuxième cycles de l’enseignement secondaire)"
     },
     {
       "path": "8-8-2/data.csv",
