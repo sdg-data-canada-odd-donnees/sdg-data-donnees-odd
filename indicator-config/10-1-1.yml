@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: 'Growth rate'
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -7,7 +7,31 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values: []
+data_start_values: 
+    - field: Percentile
+      value: All quintiles
+      
+    - field: Percentile
+      value: Lowest quintile
+      
+    - field: Percentile
+      value: Second quintile
+      
+    - field: Percentile
+      value: Total deciles
+      
+    - field: Percentile
+      value: Lowest decile
+      
+    - field: Percentile
+      value: Second decile
+
+    - field: Percentile
+      value: Third decile
+
+    - field: Percentile
+      value: Fourth decile
+
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -22,11 +46,11 @@ graph_titles: []
 graph_type: line
 indicator_name: global_indicators.10-1-1-title
 indicator_number: '10.1.1'
-national_geographical_coverage: ''
+national_geographical_coverage: 'Canada'
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: inprogress
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []

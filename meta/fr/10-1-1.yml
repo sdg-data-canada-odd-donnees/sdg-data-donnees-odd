@@ -1,0 +1,45 @@
+# NATIONAL
+SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
+SDG_TARGET: >-
+    Cible 10.1 : D'ici à 2030, assurer progressivement et durablement une croissance des revenus des 40 % de la population les plus pauvres à un rythme plus rapide que le revenu moyen national
+SDG_INDICATOR: >-
+    Indicateur 10.1.1 : Taux de croissance des dépenses des ménages ou du revenu par habitant pour les 40 % de la population les plus pauvres et pour l'ensemble de la population
+STAT_CONC_DEF: >-
+    Les 40 % de la partie inférieure désignent les personnes dans la population dont le revenu ajusté du ménage après impôt se situe dans la portion inférieure de 40 % de la répartition.<br><br>La consommation totale désigne la somme des dépenses courantes alimentaires, de logement, d'ameublement et équipement ménager, de vêtements et accessoires, de transport, de soins de santé, de soins personnels, de loisirs, d'éducation, de matériel de lecture et autres imprimés, de produits du tabac et de boissons alcoolisées, de jeux de hasard, et de dépenses diverses. Elle ne comprend pas les valeurs imputées des biens et services qui ne sont pas achetés, mais obtenus autrement aux fins de consommation.
+DATA_COMP: '   '
+REC_USE_LIM: >-
+    Les estimations de l'EDM excluent les ménages dans les trois territoires du Canada.<br><br>À partir de l’année de référence 2017, l’Enquête sur les dépenses des ménages est menée à tous les deux ans.
+
+# GLOBAL
+SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
+  à l’autre</p>'
+SDG_TARGET__GLOBAL: >-
+    Cible 10.1 : D'ici à 2030, assurer progressivement et durablement une croissance des revenus des 40 % de la population les plus pauvres à un rythme plus rapide que le revenu moyen national
+SDG_INDICATOR__GLOBAL: >-
+    Indicateur 10.1.1 : Taux de croissance des dépenses des ménages ou du revenu par habitant pour les 40 % de la population les plus pauvres et pour l'ensemble de la population
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistique Canada. Tableau 11-10-0223-01  Dépenses des ménages selon le quintile de revenu du ménage, Canada, régions et provinces
+source_url_1: https://doi.org/10.25318/1110022301-fra
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada, Région géographique du Canada, Province ou territoire
+
+source_active_2: 'true'
+source_url_text_2: |
+    Statistique Canada. Tableau 11-10-0193-01  Limite supérieure du revenu, part du revenu et revenu moyen du revenu ajusté du marché, total et après impôt, selon le décile de revenu
+source_url_2: https://doi.org/10.25318/1110019301-fra
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada, Région géographique du Canada, Province ou territoire
+
+source_active_3: 'true'
+source_url_text_3: |
+   Statistique Canada. Tableau 17-10-0005-01  Estimations de la population au 1er juillet, par âge et sexe
+source_url_3: https://doi.org/10.25318/1710000501-fra
+source_organisation_3: Statistique Canada
+source_periodicity_3: Annual
+source_geographical_coverage_3: Canada, Province ou territoire
+
