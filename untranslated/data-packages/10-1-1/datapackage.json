@@ -12,7 +12,35 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "string"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Household expenditure per capita",
+                "Income per capita",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Percentile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All quintiles",
+                "Lowest quintile",
+                "Second quintile",
+                "Total deciles",
+                "Lowest decile",
+                "Second decile",
+                "Third decile",
+                "Fourth decile",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

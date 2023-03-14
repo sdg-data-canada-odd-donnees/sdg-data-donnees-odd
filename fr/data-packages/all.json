@@ -689,6 +689,60 @@
       "title": "Proportion du temps consacré à des soins et travaux domestiques non rémunérés, par sexe, âge et lieu de résidence"
     },
     {
+      "path": "10-1-1/data.csv",
+      "name": "10-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Dépenses des ménages par habitant",
+                "Revenu par habitant",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Percentile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tous les quintiles",
+                "Quintile inférieur",
+                "Deuxième quintile",
+                "Total des déciles",
+                "Décile inférieur",
+                "Deuxième décile",
+                "Troisième décile",
+                "Quatrième décile",
+                ""
+              ]
+            },
+            "title": "Centile"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Taux de croissance des dépenses des ménages ou du revenu par habitant pour les 40 pour cent de la population les plus pauvres et pour l’ensemble de la population"
+    },
+    {
       "path": "7-3-1/data.csv",
       "name": "7-3-1",
       "profile": "tabular-data-resource",
@@ -2387,11 +2441,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, type d'institution fréquentée\n",
+                "Total taux de participation",
                 "Primaire/Secondaire",
                 "Collège",
                 "Université",
-                "Total participation rate",
                 "Elementary and/or High School",
                 ""
               ]
@@ -6202,30 +6255,6 @@
         ]
       },
       "title": "Montant total des financements pour les pays en développement aux fins de la promotion de la mise au point, du transfert et de la diffusion de technologies respectueuses de l’environnement"
-    },
-    {
-      "path": "10-1-1/data.csv",
-      "name": "10-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Taux de croissance des dépenses des ménages ou du revenu par habitant pour les 40 pour cent de la population les plus pauvres et pour l’ensemble de la population"
     },
     {
       "path": "15-b-1/data.csv",

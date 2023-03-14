@@ -58,11 +58,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, type d'institution fréquentée\n",
+                "Total taux de participation",
                 "Primaire/Secondaire",
                 "Collège",
                 "Université",
-                "Total participation rate",
                 "Elementary and/or High School",
                 ""
               ]

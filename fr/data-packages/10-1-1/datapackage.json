@@ -12,8 +12,38 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Dépenses des ménages par habitant",
+                "Revenu par habitant",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Percentile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tous les quintiles",
+                "Quintile inférieur",
+                "Deuxième quintile",
+                "Total des déciles",
+                "Décile inférieur",
+                "Deuxième décile",
+                "Troisième décile",
+                "Quatrième décile",
+                ""
+              ]
+            },
+            "title": "Centile"
           },
           {
             "name": "Value",

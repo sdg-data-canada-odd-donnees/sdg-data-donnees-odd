@@ -640,6 +640,56 @@
       "title": "global_indicators.5-4-1-title"
     },
     {
+      "path": "10-1-1/data.csv",
+      "name": "10-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Household expenditure per capita",
+                "Income per capita",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Percentile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All quintiles",
+                "Lowest quintile",
+                "Second quintile",
+                "Total deciles",
+                "Lowest decile",
+                "Second decile",
+                "Third decile",
+                "Fourth decile",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.10-1-1-title"
+    },
+    {
       "path": "7-3-1/data.csv",
       "name": "7-3-1",
       "profile": "tabular-data-resource",
@@ -2218,11 +2268,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, type of institution attended",
+                "Total participation rate",
                 "Elementary/High School",
                 "College",
                 "University",
-                "Total participation rate",
                 "Elementary and/or High School",
                 ""
               ]
@@ -5747,28 +5796,6 @@
         ]
       },
       "title": "global_indicators.17-7-1-title"
-    },
-    {
-      "path": "10-1-1/data.csv",
-      "name": "10-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.10-1-1-title"
     },
     {
       "path": "15-b-1/data.csv",
