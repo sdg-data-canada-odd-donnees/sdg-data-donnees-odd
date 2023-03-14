@@ -15,12 +15,22 @@
             "type": "integer"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Farm output value per hectare",
+                "Risk mitigation mechanisms",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Farm output value per hectare",
-                "data.Risk mitigation mechanisms",
+                "Percentage",
                 ""
               ]
             }
