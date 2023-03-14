@@ -19,6 +19,13 @@ participation_youth <-
     `Age group`,
     `Type of institution attended`,
     Value = VALUE
+  ) %>% 
+  mutate(
+    `Type of institution attended` = ifelse(
+      `Type of institution attended` == "Total, type of institution attended", 
+      "Total participation rate", 
+      `Type of institution attended`
+    )
   )
 
 participation_adult <- 
@@ -42,7 +49,7 @@ data_final <-
 
 write.csv(
   data_final,
-  "indicator_4-3-1.csv",
+  "data/indicator_4-3-1.csv",
   row.names = FALSE,
   na = ''
 )

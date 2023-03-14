@@ -1,0 +1,47 @@
+# NATIONAL
+SDG_GOAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
+SDG_TARGET: |
+    Target 10.1: By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average
+SDG_INDICATOR: |
+    Indicator 10.1.1: Growth rates of household expenditure or income per capita among the bottom 40 percent of the population and the total population
+STAT_CONC_DEF: |
+    The bottom 40% refers to individuals in the population whose adjusted household after-tax income falls in the lowest 40% of the distribution.<br><br>Total consumption refers to the sum of current expenditures for food, shelter, household operations, household furnishings and equipment, clothing and accessories, transportation, health care, personal care, recreation, education, reading materials and other printed matter, tobacco products and alcoholic beverages, games of chance, and miscellaneous expenditures. It does not include the imputed values of goods and services that are not purchased but procured otherwise for consumption.
+DATA_COMP: '   '
+UNIT_OF_MEASURE: Growth rate
+REC_USE_LIM: |
+    Survey of Household Spending (SHS) estimates exclude households in Canada's three territories.<br><br>Starting with the 2017 reference year, the Survey of Household Spending is conducted every two years.
+COVERAGE: Canada
+
+# GLOBAL    
+SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
+SDG_TARGET__GLOBAL: |
+    Target 10.1: By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average
+SDG_INDICATOR__GLOBAL: |
+    Indicator 10.1.1: Growth rates of household expenditure or income per capita among the bottom 40 percent of the population and the total population
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-01-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistics Canada. Table 11-10-0223-01  Household spending by household income quintile, Canada, regions and provinces
+source_url_1: https://doi.org/10.25318/1110022301-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada, Geographical region of Canada, Province or territory
+
+source_active_2: 'true'
+source_url_text_2: |
+    Statistics Canada. Table 11-10-0193-01  Upper income limit, income share and average of adjusted market, total and after-tax income by income decile
+source_url_2: https://doi.org/10.25318/1110019301-eng
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada, Geographical region of Canada, Province or territory
+
+source_active_3: 'true'
+source_url_text_3: |
+    Statistics Canada. Table 17-10-0005-01  Population estimates on July 1st, by age and sex
+source_url_3: https://doi.org/10.25318/1710000501-eng
+source_organisation_3: Statistics Canada
+source_periodicity_3: Annual
+source_geographical_coverage_3: Canada, Province or territory
