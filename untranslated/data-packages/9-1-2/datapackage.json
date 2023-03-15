@@ -12,7 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Air freight volume",
+                "Air passengers",
+                "Rail freight volume",
+                "Rail passengers",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Metric tonnes",
+                "Number of passengers",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
