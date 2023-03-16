@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
 SDG_TARGET: '<p>Target 3.b : Support the research and development of vaccines and
   medicines for the communicable and non-communicable diseases that primarily affect
@@ -9,10 +10,12 @@ SDG_TARGET: '<p>Target 3.b : Support the research and development of vaccines an
   for all</p>'
 SDG_INDICATOR: '<p>Indicator 3.b.2: Total net official development assistance to the
   medical research and basic health sectors</p>'
-STAT_CONC_DEF: <p>Gross disbursements of total ODA from all donors to medical research
-  and basic health sectors.</p>
+STAT_CONC_DEF: '    '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+UNIT_OF_MEASURE: USD Millions, 2020 Constant Prices
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.b : Support the research and development of vaccines
@@ -30,3 +33,10 @@ un_custodian_agency: Organisation for Economic Co-operation and Development (OEC
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0B-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 210
   KB)
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: OECD. Creditor Reporting System (CRS).
+source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1#
+source_organisation_1: OECD
+source_geographical_coverage_1: Canada
