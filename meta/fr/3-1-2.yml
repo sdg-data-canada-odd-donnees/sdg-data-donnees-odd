@@ -4,17 +4,7 @@ SDG_TARGET: '<p>Cible 3.1 : D’ici à 2030, faire passer le taux mondial de 
   maternelle au-dessous de 70 pour 100 000 naissances vivantes.</p>'
 SDG_INDICATOR: '<p>Indicateur 3.1.2 : Proportion d’accouchements assistés par du personnel
   de santé qualifié.</p>'
-STAT_CONC_DEF: '<p> Le pourcentage d''accouchements assistés par du personnel de santé
-  qualifié (généralement des médecins, des infirmières ou des sages-femmes) est le
-  pourcentage d''accouchements assistés par du personnel de santé professionnel. Selon
-  la définition révisée, il s''agit de professionnels compétents en matière de santé maternelle et néonatale,
-  formés, instruits et réglementés selon les normes nationales et internationales.
-  Ils sont compétents pour : (i) fournir et promouvoir des soins de qualité, fondés
-  sur des données probantes et sur les droits de l''homme, adaptés aux réalités socioculturelles
-  et dignes pour les femmes et les nouveau-nés ; (ii) faciliter les processus physiologiques
-  pendant le travail et l''accouchement pour garantir un accouchement propre et positif
-  ; et (iii) identifier et prendre en charge ou orienter les femmes et/ou les nouveau-nés
-  présentant des complications.'
+STAT_CONC_DEF: '    '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
@@ -24,5 +14,10 @@ SDG_TARGET__GLOBAL: '<p>Cible 3.1 : D’ici à 2030, faire passer le taux mond
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.1.2 : Proportion d’accouchements assistés
   par du personnel de santé qualifié.</p>'
 
-reporting_status: notstarted
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistique Canada. Naissances, 2021. Graphique 2. Pourcentage de naissances ayant eu lieu ailleurs qu'en milieu hospitalier, Canada, 2011 à 2021
+source_url_1: https://www150.statcan.gc.ca/n1/daily-quotidien/220928/cg-d002-fra.htm
+source_organisation_1: Statistique Canada
 
