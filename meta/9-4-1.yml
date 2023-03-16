@@ -11,7 +11,7 @@ STAT_CONC_DEF: <p>Carbon dioxide (here after, CO<sub>2</sub>) emissions per unit
   can be computed for the whole economy (total CO<sub>2</sub> emissions/GDP) or for
   specific sectors, notably the manufacturing sector (CO<sub>2</sub> emissions from
   manufacturing industries per manufacturing value added (MVA). </p>
-DATA_COMP: '   '
+DATA_COMP: '<p>Metric tonnes (x1,000) of GHG emissions per million dollars of GDP = (Megatonnes CO2 equivalent * 1,000) / GDP at current prices </p>'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
   sustainable industrialization and foster innovation</p>'
@@ -27,3 +27,17 @@ un_custodian_agency: International Energy Agency (IEA), United Nations Industria
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 516
   KB)
+
+source_active_1: 'true'
+source_url_text_1: Environment and Climate Change Canada. Greenhouse gas emissions.
+source_url_1: https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/greenhouse-gas-emissions.html
+source_organisation_1: Environment and Climate Change Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Statistics Canada. Gross domestic product, expenditure-based, provincial and territorial, annual (x 1,000,000).
+source_url_2: https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3610022201
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada
