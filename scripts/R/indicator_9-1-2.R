@@ -89,7 +89,7 @@ rail_freight <-
 
 # trucking ----------------------------------------------------------------
 
-trucking_freight <- 
+trucking_freight <-
   trucking_freight %>% 
   filter(
     REF_DATE >= 2015,
@@ -101,8 +101,8 @@ trucking_freight <-
     Value = VALUE
   ) %>% 
   mutate(
-    Series = "Rail passengers",
-    Units = "Number of passengers",
+    Series = "Road freight volume",
+    Units = "Metric tonnes of cargo",
     Value = Value * 0.001
   )
 

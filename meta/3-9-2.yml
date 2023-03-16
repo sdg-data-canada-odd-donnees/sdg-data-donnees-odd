@@ -1,16 +1,18 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
 SDG_TARGET: '<p>Target 3.9: By 2030, substantially reduce the number of deaths and
   illnesses from hazardous chemicals and air, water and soil pollution and contamination</p>'
 SDG_INDICATOR: '<p>Indicator 3.9.2: Mortality rate attributed to unsafe water, unsafe
   sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene
   for All (WASH) services)</p>'
-STAT_CONC_DEF: <p>The mortality rate attributed to unsafe water, unsafe sanitation
-  and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH)
-  services) as defined as the number of deaths from unsafe water, unsafe sanitation
-  and lack of hygiene (exposure to unsafe WASH services) in a year, divided by the
-  population, and multiplied by 100,000.</p>
+STAT_CONC_DEF: |
+    Deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services, expressed per 100,000 population; The included diseases are diarrhoea (GHE code 110 which includes ICD-10 codes A00, A01, A03, A04, A06-A09), acute respiratory infections (GHE code 380 which includes ICD-10 codes H65-H66, J00-J22, P23, and U04) intestinal nematode infections (GHE codes 340, 350 and 360 which include ICD-10 codes B76-B77, and B79) and protein-energy malnutrition (GHE code 550 which includes ICD-10 codes E40-E46).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+COVERAGE: Canada
+UNIT_OF_MEASURE: Mortality rate (Deaths per 100,000 population)
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.9: By 2030, substantially reduce the number of deaths
@@ -23,3 +25,52 @@ un_custodian_agency: World Health Organisation (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 214
   KB)
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistics Canada. Table 13-10-0141-01  Deaths, by cause, Chapter I: Certain infectious and parasitic diseases (A00 to B99)
+source_url_1: https://doi.org/10.25318/1310014101-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: |
+    Statistics Canada. Table 13-10-0144-01  Deaths, by cause, Chapter IV: Endocrine, nutritional and metabolic diseases (E00 to E90)
+source_url_2: https://doi.org/10.25318/1310014401-eng
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: |
+    Statistics Canada. Table 13-10-0780-01  Deaths, by cause, Chapter VIII: Diseases of the ear and mastoid process (H60 to H95)
+source_url_3: https://doi.org/10.25318/1310078001-eng
+source_organisation_3: Statistics Canada
+source_periodicity_3: Annual
+source_geographical_coverage_3: Canada
+
+source_active_4: 'true'
+source_url_text_4: |
+    Statistics Canada. Table 13-10-0782-01  Deaths, by cause, Chapter X: Diseases of the respiratory system (J00 to J99)
+source_url_4: https://doi.org/10.25318/1310078201-eng
+source_organisation_4: Statistics Canada
+source_periodicity_4: Annual
+source_geographical_coverage_4: Canada
+
+source_active_5: 'true'
+source_url_text_5: |
+    Statistics Canada. Table 13-10-0153-01  Deaths, by cause, Chapter XVI: Certain conditions originating in the perinatal period (P00 to P96)
+source_url_5: https://doi.org/10.25318/1310015301-eng
+source_organisation_5: Statistics Canada
+source_periodicity_5: Annual
+source_geographical_coverage_5: Canada
+
+source_active_6: 'true'
+source_url_text_6: |
+    Statistics Canada. Table 13-10-0391-01  Deaths, by cause, Chapter XXII: Codes for special purposes (U00 to U99)
+source_url_6: https://doi.org/10.25318/1310039101-eng
+source_organisation_6: Statistics Canada
+source_periodicity_6: Annual
+source_geographical_coverage_6: Canada

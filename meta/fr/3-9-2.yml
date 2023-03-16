@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès et de
@@ -6,13 +7,12 @@ SDG_TARGET: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de d
 SDG_INDICATOR: '<p>Indicateur 3.9.2: Taux de mortalité attribuable à l’insalubrité
   de l’eau, aux déficiences du système d’assainissement et au manque d’hygiène (accès
   à des services WASH inadéquats)</p>'
-STAT_CONC_DEF: <p>Le taux de mortalité attribuable à l'insalubrité de l'eau, aux déficiences
-  du système d'assainissement et au manque d'hygiène (exposition à des services d'eau,
-  d'assainissement et d'hygiène insalubres (WASH)) est défini comme le nombre de décès
-  attribuables à ces causes au cours d'une année, divisé par la population, et multiplié
-  par 100 000.</p>
+STAT_CONC_DEF: |
+    Décès attribuables à des services inadéquats d'eau, de système sanitaire et d'hygiène (en particulier les services WASH), exprimés pour 100 000 habitants. Les maladies incluses sont les diarrhées (codes de la CIM-10 A00, A01, A03, A04, A06-A09), les infections intestinales à nématodes (codes de la CIM-10 B76-B77, B79) et la malnutrition protéino-énergétique (codes de la CIM-10 E40-E46) attribuables à des lacunes au niveau des services WASH.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès
@@ -22,5 +22,51 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.9.2: Taux de mortalité attribuable à l
   de l’eau, aux déficiences du système d’assainissement et au manque d’hygiène (accès
   à des services WASH inadéquats)</p>'
 
-reporting_status: notstarted
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistique Canada. Tableau 13-10-0141-01  Décès, selon la cause, Chapitre I : Certaines maladies infectieuses et parasitaires (A00 à B99)
+source_url_1: https://doi.org/10.25318/1310014101-fra
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
 
+source_active_2: 'true'
+source_url_text_2: |
+    Statistique Canada. Tableau 13-10-0144-01  Décès, selon la cause, Chapitre IV : Maladies endocriniennes, nutritionnelles et métaboliques (E00 à E90)
+source_url_2: https://doi.org/10.25318/1310014401-fra
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: |
+    Statistique Canada. Tableau 13-10-0780-01  Décès, selon la cause, Chapitre VIII : Maladies de l'oreille et de l'apophyse mastoïde (H60 à H95)
+source_url_3: https://doi.org/10.25318/1310078001-fra
+source_organisation_3: Statistics Canada
+source_periodicity_3: Annual
+source_geographical_coverage_3: Canada
+
+source_active_4: 'true'
+source_url_text_4: |
+    Statistique Canada. Tableau 13-10-0782-01  Décès, selon la cause, Chapitre X : Maladies de l'appareil respiratoire (J00 à J99)
+source_url_4: https://doi.org/10.25318/1310078201-fra
+source_organisation_4: Statistics Canada
+source_periodicity_4: Annual
+source_geographical_coverage_4: Canada
+
+source_active_5: 'true'
+source_url_text_5: |
+    Statistique Canada. Tableau 13-10-0153-01  Décès, selon la cause, Chapitre XVI : Certaines affections dont l'origine se situe dans la période périnatale (P00 à P96)
+source_url_5: https://doi.org/10.25318/1310015301-fra
+source_organisation_5: Statistics Canada
+source_periodicity_5: Annual
+source_geographical_coverage_5: Canada
+
+source_active_6: 'true'
+source_url_text_6: |
+    Statistique Canada. Tableau 13-10-0391-01  Décès, selon la cause, Chapitre XXII : Codes pour besoins spéciaux (U00 à U99)
+source_url_6: https://doi.org/10.25318/1310039101-fra
+source_organisation_6: Statistics Canada
+source_periodicity_6: Annual
+source_geographical_coverage_6: Canada
