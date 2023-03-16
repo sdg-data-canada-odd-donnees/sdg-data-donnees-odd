@@ -24,6 +24,7 @@
                 "Air passengers",
                 "Rail freight volume",
                 "Rail passengers",
+                "Road freight volume",
                 ""
               ]
             },
@@ -36,6 +37,7 @@
               "enum": [
                 "Metric tonnes",
                 "Number of passengers",
+                "Metric tonnes of cargo",
                 ""
               ]
             },

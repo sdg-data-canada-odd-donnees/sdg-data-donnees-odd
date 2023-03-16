@@ -581,6 +581,7 @@
                 "Air passengers",
                 "Rail freight volume",
                 "Rail passengers",
+                "Road freight volume",
                 ""
               ]
             },
@@ -593,6 +594,7 @@
               "enum": [
                 "Metric tonnes",
                 "Number of passengers",
+                "Metric tonnes of cargo",
                 ""
               ]
             },
@@ -3233,6 +3235,30 @@
         ]
       },
       "title": "Taux de croissance annuelle du PIB réel par habitant"
+    },
+    {
+      "path": "3-1-2/data.csv",
+      "name": "3-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion d’accouchements assistés par du personnel de santé qualifié"
     },
     {
       "path": "5-b-1/data.csv",
@@ -7299,30 +7325,6 @@
         ]
       },
       "title": "Proportion d’administrations locales ayant mis en place des politiques et procédures opérationnelles encourageant la participation de la population locale à la gestion de l’eau et de l’assainissement"
-    },
-    {
-      "path": "3-1-2/data.csv",
-      "name": "3-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion d’accouchements assistés par du personnel de santé qualifié"
     },
     {
       "path": "6-2-1/data.csv",
