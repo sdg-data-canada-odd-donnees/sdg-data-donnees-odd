@@ -25,7 +25,8 @@ STAT_CONC_DEF: >-
   développement (voir <a href="http://www.oecd.org/dac/stats/purposecodessectorclassification.htm">
   http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm</a>).
   </p>
-DATA_COMP: '   '
+DATA_COMP: |
+  L'indicateur est calculé en proportion du RNB du Canada, conformément aux rapports des autres pays.
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: <p>Objectif 1. Éliminer la pauvreté sous toutes ses formes et
   partout dans le monde</p>
@@ -38,5 +39,17 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.a.1 : Total des dons d’aide publique
   axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion
   du revenu national brut du pays bénéficiaire</p>'
 
-reporting_status: notstarted
+reporting_status: complete
+
+source_active_1: 'true'
+source_url_text_1: OCDE. Système de notification des pays créanciers (SNPC).
+source_url_1: https://stats.oecd.org/Index.aspx?lang=fr&SubSessionId=035b0717-6e18-403c-a835-a7c8c1034554&themetreeid=3
+source_organisation_1: OCDE
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: OCDE. GeoBook: Indicateurs.
+source_url_2: https://stats.oecd.org/Index.aspx?lang=fr&SubSessionId=13c084e5-51f6-404a-960a-94e7a3aa8ddc&themetreeid=3
+source_organisation_2: OCDE
+source_geographical_coverage_2: Canada
 

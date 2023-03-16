@@ -17,7 +17,8 @@ STAT_CONC_DEF: '<p>The OECD/Development Assistance Committee (DAC) defines ODA a
   <p>Poverty reduction items can be defined as ODA to basic social services (basic
   health, basic education, basic water and sanitation, population programmes and reproductive
   health) and developmental food aid (see here: <a href="http://www.oecd.org/dac/stats/purposecodessectorclassification.htm">http://www.oecd.org/dac/stats/purposecodessectorclassification.htm</a>).</p>'
-DATA_COMP: '   '
+DATA_COMP: '<p>The indicator is calculated as a proportion of Canada's GNI, in line with 
+  other countries' reporting.</p>'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: <p>Goal 1. End poverty in all its forms everywhere</p>
 SDG_TARGET__GLOBAL: <p>Target 1.a. Ensure significant mobilization of resources from
@@ -32,3 +33,15 @@ un_designated_tier: Tier I
 un_custodian_agency: Organisation for Economic Co-operation and Development (OECD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF)
+
+source_active_1: 'true'
+source_url_text_1: OECD. Creditor Reporting System (CRS).
+source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1#
+source_organisation_1: OECD
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: OECD. GeoBook: Indicators.
+source_url_2: https://stats.oecd.org/Index.aspx?DataSetCode=DACIND#
+source_organisation_2: OECD
+source_geographical_coverage_2: Canada
