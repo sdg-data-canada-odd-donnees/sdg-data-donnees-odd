@@ -12,7 +12,68 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon, Northwest Territories and Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Type of materials diverted",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All materials diverted",
+                "All paper fibres",
+                "Glass",
+                "Ferrous metals",
+                "Copper and aluminum",
+                "Mixed metals",
+                "White goods",
+                "Electronics",
+                "Plastics",
+                "Gable top and aseptic containers",
+                "Textiles",
+                "Tires",
+                "Construction, renovation and demolition",
+                "Organics",
+                "Other materials",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sources of materials prepared for recycling",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All sources of diverted materials",
+                "Residential sources of diverted materials",
+                "Non-residential sources of diverted materials",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

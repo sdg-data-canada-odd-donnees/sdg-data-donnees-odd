@@ -12,8 +12,73 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon, Northwest Territories and Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Type of materials diverted",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All materials diverted",
+                "All paper fibres",
+                "Glass",
+                "Ferrous metals",
+                "Copper and aluminum",
+                "Mixed metals",
+                "White goods",
+                "Electronics",
+                "Plastics",
+                "Gable top and aseptic containers",
+                "Textiles",
+                "Tires",
+                "Construction, renovation and demolition",
+                "Organics",
+                "Other materials",
+                ""
+              ]
+            },
+            "title": "Type of materials diverted"
+          },
+          {
+            "name": "Sources of materials prepared for recycling",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All sources of diverted materials",
+                "Residential sources of diverted materials",
+                "Non-residential sources of diverted materials",
+                ""
+              ]
+            },
+            "title": "Sources of materials prepared for recycling"
           },
           {
             "name": "Value",
