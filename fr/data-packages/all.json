@@ -3224,6 +3224,44 @@
       "title": "Surface des terres dégradées, en proportion de la surface terrestre"
     },
     {
+      "path": "3-9-2/data.csv",
+      "name": "3-9-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Type of disease",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Affections aiguës des voies respiratoires supérieures\n",
+                "Diarrhée",
+                "Infections intestinales à nématodes",
+                "Malnutrition protéino-énergétique",
+                ""
+              ]
+            },
+            "title": "Type of disease"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Taux de mortalité attribuable à l’insalubrité de l’eau, aux déficiences du système d’assainissement et au manque d’hygiène (accès à des services WASH inadéquats)"
+    },
+    {
       "path": "8-1-1/data.csv",
       "name": "8-1-1",
       "profile": "tabular-data-resource",
@@ -8653,30 +8691,6 @@
         ]
       },
       "title": "Montant (en dollars des États Unis) des ressources allouées aux partenariats public-privé pour l’infrastructure"
-    },
-    {
-      "path": "3-9-2/data.csv",
-      "name": "3-9-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Taux de mortalité attribuable à l’insalubrité de l’eau, aux déficiences du système d’assainissement et au manque d’hygiène (accès à des services WASH inadéquats)"
     },
     {
       "path": "17-13-1/data.csv",

@@ -12,8 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Type of disease",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Acute respiratory infections",
+                "Diarrhoea",
+                "Intestinal nematode infections",
+                "Protein-energy malnutrition",
+                ""
+              ]
+            },
+            "title": "Type of disease"
           },
           {
             "name": "Value",
