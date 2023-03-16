@@ -13,7 +13,8 @@ STAT_CONC_DEF: <p>Les émissions de dioxyde de carbone (ci-après, CO<sub>2</sub
   de l'économie (émissions totales de CO<sub>2</sub> / PIB) ou pour des secteurs spécifiques,
   notamment le secteur manufacturier (émissions de CO<sub>2</sub> des industries manufacturières
   par valeur ajoutée manufacturière (VAM)). </p>
-DATA_COMP: '<p>Tonnes métriques (x1,000) d'émissions de gaz à effet de serre par million de dollars of PIB = (Mégatonnes d'équivalent CO2 * 1,000) / PIB à prix courants </p>'
+DATA_COMP: |
+    <p>Tonnes métriques (x1,000) d'émissions de gaz à effet de serre par million de dollars of PIB = (Mégatonnes d'équivalent CO2 * 1,000) / PIB à prix courants </p>
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
   une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
