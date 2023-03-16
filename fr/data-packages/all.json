@@ -965,6 +965,45 @@
       "title": "Prévalence d’une insécurité alimentaire modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle FIES)"
     },
     {
+      "path": "1-a-1/data.csv",
+      "name": "1-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Poverty reduction aid type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Éducation de base",
+                "Santé de base",
+                "Water supply and sanitation ",
+                "Aide multisectorielle pour les services sociaux de base",
+                "Development food aid ",
+                ""
+              ]
+            },
+            "title": "Poverty reduction aid type"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Total des dons d’aide publique au développement axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion du revenu national brut du pays bénéficiaire"
+    },
+    {
       "path": "14-5-1/data.csv",
       "name": "14-5-1",
       "profile": "tabular-data-resource",
@@ -8213,30 +8252,6 @@
         ]
       },
       "title": "Niveau de respect des droits du travail (liberté d’association et droit de négociation collective) au niveau national, eu égard aux textes de l’Organisation internationale du Travail (OIT) et à la législation nationale, par sexe et statut migratoire"
-    },
-    {
-      "path": "1-a-1/data.csv",
-      "name": "1-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Total des dons d’aide publique au développement axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion du revenu national brut du pays bénéficiaire"
     },
     {
       "path": "16-4-1/data.csv",

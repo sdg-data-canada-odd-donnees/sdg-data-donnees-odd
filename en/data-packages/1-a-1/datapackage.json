@@ -12,12 +12,27 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "Poverty reduction aid type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Basic education",
+                "Basic health",
+                "Water supply and sanitation ",
+                "Multisector aid for basic social services",
+                "Development food aid ",
+                ""
+              ]
+            },
+            "title": "Poverty reduction aid type"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "string",
             "title": "Value"
           }
         ]
