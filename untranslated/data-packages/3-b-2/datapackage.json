@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Assistance type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Basic health",
+                "Medical research",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
