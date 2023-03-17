@@ -12,8 +12,21 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Water Supply & Sanitation, Total",
+                "Ressources en eau agricoles\n",
+                "Centrales hydroélectriques\n",
+                ""
+              ]
+            },
+            "title": "Secteur"
           },
           {
             "name": "Value",
