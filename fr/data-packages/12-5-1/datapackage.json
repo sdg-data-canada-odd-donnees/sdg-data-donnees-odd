@@ -38,11 +38,6 @@
             "title": "Géographie"
           },
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
             "name": "Type of materials diverted",
             "type": "string",
             "constraints": {
@@ -72,13 +67,18 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les sources des matières récupérées",
                 "Sources des matières résidentielles récupérées",
                 "Sources des matières non résidentielles récupérées",
+                "Toutes les sources des matières récupérées",
                 ""
               ]
             },
             "title": "Sources des matières préparées en vue du recyclage"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
