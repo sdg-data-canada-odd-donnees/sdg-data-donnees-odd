@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Aid for trade flows of official development assistance (ODA)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Gross disbursements",
+                "Commitments",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

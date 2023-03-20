@@ -4467,6 +4467,42 @@
       "title": "Proportion du budget national financé par les impôts nationaux"
     },
     {
+      "path": "8-a-1/data.csv",
+      "name": "8-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "iso8859-9",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Aid for trade flows of official development assistance (ODA)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Versements bruts",
+                "Engagements",
+                ""
+              ]
+            },
+            "title": "Flux d'aide publique au développement (APD) pour l'aide pour le commerce"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Engagements pris et décaissements effectués dans le cadre de l’initiative Aide pour le commerce"
+    },
+    {
       "path": "8-6-1/data.csv",
       "name": "8-6-1",
       "profile": "tabular-data-resource",
@@ -8176,30 +8212,6 @@
         ]
       },
       "title": "Proportion d’enfants de moins de 5 ans ayant été enregistrés par une autorité d’état civil, par âge"
-    },
-    {
-      "path": "8-a-1/data.csv",
-      "name": "8-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Engagements pris et décaissements effectués dans le cadre de l’initiative Aide pour le commerce"
     },
     {
       "path": "3-9-1/data.csv",
