@@ -3,6 +3,78 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "6-3-2/data.csv",
+      "name": "6-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Océan Atlantique",
+                "Great Lakes and St. Lawrence River",
+                "Baie d'Hudson",
+                "Fleuve Mackenzie",
+                "Océan Pacifique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Land use category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Agriculture",
+                "Foresterie",
+                "Exploitation minière",
+                "Peuplé",
+                "Pressions mixtes",
+                "Non aménagés",
+                "Total",
+                "Mixed Pressures",
+                ""
+              ]
+            },
+            "title": "Catégorie d'utilisation des sols"
+          },
+          {
+            "name": "Water quality category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Excellente",
+                "Bonne",
+                "Satisfaisante",
+                "Total",
+                ""
+              ]
+            },
+            "title": "Water quality category"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion des masses d’eau dont la qualité de l’eau ambiante est bonne"
+    },
+    {
       "path": "5-3-1/data.csv",
       "name": "5-3-1",
       "profile": "tabular-data-resource",
@@ -5692,30 +5764,6 @@
         ]
       },
       "title": "Dépenses de recrutement à la charge du salarié en proportion de son revenu mensuel dans le pays de destination"
-    },
-    {
-      "path": "6-3-2/data.csv",
-      "name": "6-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion des masses d’eau dont la qualité de l’eau ambiante est bonne"
     },
     {
       "path": "5-c-1/data.csv",

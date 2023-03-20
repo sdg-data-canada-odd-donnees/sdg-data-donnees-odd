@@ -12,12 +12,60 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Année"
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Océan Atlantique",
+                "Great Lakes and St. Lawrence River",
+                "Baie d'Hudson",
+                "Fleuve Mackenzie",
+                "Océan Pacifique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Land use category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Agriculture",
+                "Foresterie",
+                "Exploitation minière",
+                "Peuplé",
+                "Pressions mixtes",
+                "Non aménagés",
+                "Total",
+                "Mixed Pressures",
+                ""
+              ]
+            },
+            "title": "Catégorie d'utilisation des sols"
+          },
+          {
+            "name": "Water quality category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Excellente",
+                "Bonne",
+                "Satisfaisante",
+                "Total",
+                ""
+              ]
+            },
+            "title": "Water quality category"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Valeur"
           }
         ]
