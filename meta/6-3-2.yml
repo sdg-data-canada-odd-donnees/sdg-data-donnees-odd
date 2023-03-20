@@ -1,31 +1,26 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 6: Ensure availability and sustainable management of water and
   sanitation for all</p>'
-SDG_TARGET: '<p>Target: 6.3 By 2030, improve water quality by reducing pollution,
+SDG_TARGET: '<p>Target: 6.3: By 2030, improve water quality by reducing pollution,
   eliminating dumping and minimizing release of hazardous chemicals and materials,
   halving the proportion of untreated wastewater and substantially increasing recycling
   and safe reuse globally.</p>'
-SDG_INDICATOR: '<p>Indicator: 6.3.2 Proportion of bodies of water with good ambient
-  water quality</p>'
-STAT_CONC_DEF: <p>The indicator is defined as the proportion of water bodies in the
-  country that have good ambient water quality. Ambient water quality refers to natural,
-  untreated water in rivers, lakes and groundwaters and represents a combination of
-  natural influences together with the impacts of all anthropogenic activities. The
-  indicator relies on water quality data derived from in situ measurements and the
-  analysis of samples collected from surface and groundwaters. Water quality is assessed
-  by means of core physical and chemical parameters that reflect natural water quality
-  related to climatological and geological factors, together with major impacts on
-  water quality. The continuous monitoring of all surface and groundwaters is economically
-  unfeasible and not required to sufficiently characterize the status of ambient water
-  quality in a country. Therefore, countries select river, lake and groundwater bodies
-  that are representative and significant for the assessment and management of water
-  quality to monitor and report on indicator 6.3.2. The quality status of individual
-  water bodies is classified based on the compliance of the available water quality
-  monitoring data for the core parameters with target values defined by the country.
-  The indicator is computed as the proportion of the number of water bodies classified
-  as having good quality (i.e. with at least 80 % compliance) to the total number
-  of assessed water bodies, expressed as a percentage. </p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+SDG_INDICATOR: '<p>Indicator: 6.3.2: Water quality in Canadian rivers'
+STAT_CONC_DEF: |
+    <p>These indicators provide a measure of the ability of river water across Canada to support plants and animals. At each monitoring site, specific water quality data are compared to water quality guidelines to create a rating for the site. If measured water quality remains within the guidelines, it can maintain a healthy ecosystem.<br><br> Water quality at a monitoring site is considered excellent when parameters in a river almost always meet their guidelines. Conversely, water quality is rated poor when parameters usually do not meet their guidelines, sometimes by a wide margin. (<em>Environment and Climate Change Canada (ECCC)</em>)</p>
+DATA_COMP: |
+    Water quality is reported in these indicators by measuring a number of chemical and physical properties (parameters) in water. The results for each parameter are compared to its water quality guideline. <em>(ECCC)</em>
+REC_USE_LIM: |
+    <p>These indicators reflect the state of water quality in rivers
+  in southern Canada. Northern Canada is under-represented.<br><br> The indicators
+  only use data for a subset of variables where guidelines exist. They do not cover
+  all potential water quality issues in Canada.<br><br> The indicators are based on
+  the impacts of a number of parameters at each site. These concentrations do not
+  show the effect of spills or other transient events unless samples were collected
+  right after the spill happened or their effect on water quality is long-lasting.
+  <em>(ECCC)</em></p>
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
   and sanitation for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target: 6.3 By 2030, improve water quality by reducing pollution,
@@ -39,3 +34,11 @@ un_custodian_agency: United Nations Environment Programme (UNEP) (GEMS/Water)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+ 
+# SOURCE(S)
+source_active_1: true
+source_url_text_1: ' Environment and Climate Change Canada'
+source_url_1: https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/water-quality-canadian-rivers.html
+source_organisation_1: ' Environment and Climate Change Canada '
+source_periodicity_1:
+source_geographical_coverage_1: Canada and regions
