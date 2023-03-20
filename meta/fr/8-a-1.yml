@@ -8,7 +8,9 @@ SDG_INDICATOR: '<p>Indicateur 8.a.1 : Engagements pris et décaissements effectu
   dans le cadre de l’initiative Aide pour le commerce.</p>'
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: '<p>Les données du Système de notification des pays créanciers sont disponibles
+  à partir de 1973. Toutefois, la couverture des données est considérée comme achevée depuis 
+  1995 pour les engagements au niveau des activités et 2002 pour les décaissements.</p>'
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
   partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.a : Accroître l’appui apporté dans le cadre de l’initiative
@@ -18,5 +20,11 @@ SDG_TARGET__GLOBAL: '<p>Cible 8.a : Accroître l’appui apporté dans le cadre 
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.a.1 : Engagements pris et décaissements effectués
   dans le cadre de l’initiative Aide pour le commerce.</p>'
 
-reporting_status: notstarted
+reporting_status: complete
 
+source_active_1: 'true'
+source_url_text_1: OCDE. Système de notification des pays créanciers (SNPC).
+source_url_1: https://stats.oecd.org/Index.aspx?lang=fr&SubSessionId=5cbea816-b586-44d0-a11f-ca43defda284&themetreeid=3
+source_organisation_1: OCDE
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
