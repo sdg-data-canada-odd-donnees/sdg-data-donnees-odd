@@ -4748,6 +4748,42 @@
       "title": "Manufacturing value added as a proportion of GDP and per capita"
     },
     {
+      "path": "2-5-1/data.csv",
+      "name": "2-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          },
+          {
+            "name": "Genetic resources for food and agriculture (GRFA)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of accessions of plant genetic resources secured in conservation facilities",
+                "Number of local breeds stored in genebank",
+                ""
+              ]
+            },
+            "title": "Genetic resources for food and agriculture (GRFA)"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities"
+    },
+    {
       "path": "7-3-1/data.csv",
       "name": "7-3-1",
       "profile": "tabular-data-resource",
@@ -6268,30 +6304,6 @@
         ]
       },
       "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sex"
-    },
-    {
-      "path": "2-5-1/data.csv",
-      "name": "2-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities"
     },
     {
       "path": "11-b-2/data.csv",

@@ -12,12 +12,24 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Année"
           },
           {
+            "name": "Genetic resources for food and agriculture (GRFA)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of accessions of plant genetic resources secured in conservation facilities",
+                "Number of local breeds stored in genebank",
+                ""
+              ]
+            },
+            "title": "Ressources génétiques pour l’alimentation et l’agriculture (RGAA)"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "string",
             "title": "Valeur"
           }
         ]
