@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
   et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET: '<p>Cible 8.10 : Renforcer la capacité des institutions financières nationales
@@ -6,12 +7,12 @@ SDG_TARGET: '<p>Cible 8.10 : Renforcer la capacité des institutions financière
 SDG_INDICATOR: '<p>Indicateur 8.10.2: Proportion d’adultes (15 ans ou plus) possédant
   un compte dans une banque ou dans une autre institution financière ou faisant appel
   à des services monétaires mobiles</p>'
-STAT_CONC_DEF: <p>Pourcentage d'adultes (15 ans et plus) qui déclarent avoir ouvert
-  un compte (seul ou avec quelqu'un d'autre) dans une banque ou un autre type d'institution
-  financière ou avoir utilisé personnellement un service d'argent mobile au cours
-  des 12 derniers mois. </p>
+STAT_CONC_DEF: |
+    Données représentent le pourcentage des unités familiales (familles économiques ou personnes hors famille économique) qui détiennent un compte de chèques ou d'épargne, que le solde soit positif, négatif ou nul.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
   partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.10 : Renforcer la capacité des institutions financières
@@ -21,5 +22,10 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.10.2: Proportion d’adultes (15 ans ou
   possédant un compte dans une banque ou dans une autre institution financière ou
   faisant appel à des services monétaires mobiles</p>'
 
-reporting_status: notstarted
 
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistique Canada. Enquête sur la sécurité financière (ESF) - Totalisation personnalisée.
+source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5102
+source_geographical_coverage_1: Canada
