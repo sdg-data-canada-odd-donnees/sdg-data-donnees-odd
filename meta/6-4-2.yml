@@ -11,9 +11,27 @@ STAT_CONC_DEF: '<p>The level of water stress: freshwater withdrawal as a proport
   by all major sectors and total renewable freshwater resources, after taking into
   account environmental flow requirements. Main sectors, as defined by ISIC standards,
   include agriculture; forestry and fishing; manufacturing; electricity industry;
-  and services. This indicator is also known as water withdrawal intensity.</p>'
+  and services. This indicator is also known as water withdrawal intensity.
+  <br>
+  <br>Above 25% of water stress, four classes have been identified to signal different levels of stress severity;
+  <br>
+  <br>- No stress <25%
+  <br>
+  <br>- Low 25% - 50%
+  <br>
+  <br>- Medium 50% - 75%
+  <br>
+  <br>- High 75-100%
+  <br>
+  <br>- Critical >100%</p>'
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: '<p>Freshwater withdrawal as a percentage of renewable freshwater resources is a good indicator of pressure 
+  on limited water resources, one of the most important natural resources. However, it only partially 
+  addresses the issues related to sustainable water management.
+  <br>
+  <br>Trends in freshwater withdrawal show relatively slow patterns of change. Usually, three-five years are a 
+  minimum frequency to be able to detect significant changes, as it is unlikely that the indicator would 
+show meaningful variations from one year to the other.</p>'
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
   and sanitation for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 6.4: By 2030, substantially increase water-use efficiency
@@ -27,3 +45,9 @@ un_custodian_agency: Food and Agriculture Organization of the United Nations (FA
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 615
   KB)
+
+source_active_1: 'true'
+source_url_text_1: UN-Water. SDG 6 snapshot in Canada.
+source_url_1: https://www.sdg6data.org/en/country-or-area/Canada#anchor_6.3.2:~:text=Water%20resources%20and%20withdrawal%20in%20Canada%2C%20total%20and%20per%20capita
+source_organisation_1: UN-Water
+source_geographical_coverage_1: Canada

@@ -13,9 +13,27 @@ STAT_CONC_DEF: '<p>Niveau de stress hydrique : le prélèvement d''eau douce en 
   secteurs, tels que définis par les normes de la Classification internationale type
   des industries (CITI), comprennent l''agriculture, la sylviculture et la pêche,
   l''industrie manufacturière, l''industrie de l''électricité et les services. Cet
-  indicateur est également connu sous le nom d''intensité des retraits d''eau. </p>'
+  indicateur est également connu sous le nom d''intensité des retraits d''eau.
+  <br>
+  <br>Au-dessus de 25 % du stress hydrique, quatre classes ont été identifiées pour signaler différents niveaux de gravité du stress;
+  <br>
+  <br>- Pas de stress <25%
+  <br>
+  <br>- Faible 25% - 50%
+  <br>
+  <br>- Moyen 50% - 75%
+  <br>
+  <br>- Élevé 75-100%
+  <br>
+  <br>- Critique >100%</p>'
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: '<p>Le prélèvement d’eau douce en pourcentage des ressources renouvelables en eau douce est un bon indicateur de la pression
+  exercée sur les ressources en eau limitées, l’une des ressources naturelles les plus importantes. Cependant, il n’aborde que partiellement
+  les questions liées à la gestion durable de l’eau.
+  <br>
+  <br>Les tendances des prélèvements d’eau douce montrent des changements relativement lents. Habituellement, trois à cinq ans sont une
+  fréquence minimale pour pouvoir détecter des changements significatifs, car il est peu probable que l’indicateur montre des variations 
+  significatives d’une année à l’autre.</p>'
 SDG_GOAL__GLOBAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 6.4: D’ici à 2030, faire en sorte que les ressources
@@ -25,5 +43,10 @@ SDG_TARGET__GLOBAL: '<p>Cible 6.4: D’ici à 2030, faire en sorte que les resso
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.4.2: Niveau de stress hydrique : prélèvements
   d’eau douce en proportion des ressources en eau douce disponibles</p>'
 
-reporting_status: notstarted
+reporting_status: complete
 
+source_active_1: 'true'
+source_url_text_1: ONU-Eau. Aperçu ODD 6 en Canada.
+source_url_1: https://www.sdg6data.org/fr/country-or-area/Canada
+source_organisation_1: ONU-Eau
+source_geographical_coverage_1: Canada
