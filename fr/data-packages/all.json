@@ -1978,6 +1978,49 @@
       "title": "Proportion de femmes et de filles âgées de 15 ans ou plus victimes de violences sexuelles infligées au cours des 12 mois précédents par une personne autre que leur partenaire intime, par âge et lieu des faits"
     },
     {
+      "path": "16-1-4/data.csv",
+      "name": "16-1-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total Minorités visibles",
+                "Sud-Asiatique",
+                "Chinois",
+                "Noir",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Asiatique du Sud-Est",
+                "Pas une minorité visible",
+                ""
+              ]
+            },
+            "title": "Ethnicité"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Nombre de personnes considérant qu’il n’y a pas de danger à se déplacer seules à pied dans leur zone de résidence, en proportion de la population totale"
+    },
+    {
       "path": "3-3-3/data.csv",
       "name": "3-3-3",
       "profile": "tabular-data-resource",
@@ -8405,30 +8448,6 @@
         ]
       },
       "title": "Proportion de femmes âgées de 15 à 49 ans prenant, en connaissance de cause, leurs propres décisions concernant leurs relations sexuelles, l’utilisation de contraceptifs et les soins de santé procréative"
-    },
-    {
-      "path": "16-1-4/data.csv",
-      "name": "16-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Nombre de personnes considérant qu’il n’y a pas de danger à se déplacer seules à pied dans leur zone de résidence, en proportion de la population totale"
     },
     {
       "path": "17-9-1/data.csv",

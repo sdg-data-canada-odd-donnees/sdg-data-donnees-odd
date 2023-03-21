@@ -12,12 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total Visible minority",
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Southeast Asian",
+                "Not a visible minority",
+                ""
+              ]
+            },
+            "title": "Ethnicity"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
