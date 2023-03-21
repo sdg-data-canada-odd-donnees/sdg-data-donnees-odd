@@ -1,5 +1,6 @@
-﻿composite_breakdown_label: ''
-computation_units: ''
+﻿auto_progress_calculation: true
+composite_breakdown_label: ''
+computation_units: 'Percentage'
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -19,14 +20,16 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.16-1-4-title
 graph_titles: []
-graph_type: line
+graph_type: bar
 indicator_name: global_indicators.16-1-4-title
 indicator_number: '16.1.4'
-national_geographical_coverage: ''
+national_geographical_coverage: 'Canada'
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: inprogress
+progress_calculation_options:
+- target_year: 2030
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []

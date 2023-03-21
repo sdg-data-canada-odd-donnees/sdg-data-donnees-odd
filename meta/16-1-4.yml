@@ -8,7 +8,22 @@ SDG_INDICATOR: '<p>Indicator 16.1.4: Proportion of population that feel safe wal
 STAT_CONC_DEF: <p>This indicator refers to the proportion of the adult population
   who feel safe walking alone in their neighbourhood at night.</p>
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+    Victimization surveys (as dedicated surveys or as modules of household surveys) are usually restricted to 
+    the general population living in households above a certain age (typically 15 or 18 years of age), while 
+    sometimes an upper age limit is also applied (typically 65, 70 or 75 years of age).
+    <br>
+    <br>There are several limitations associated with the wording of the survey question used to measure fear of 
+    crime (‘How safe do you feel walking alone in your area/neighbourhood after dark?’). First, the question 
+    assumes that respondents do the following: (1) go out, (2) go out alone, (3) go out in their neighbourhood,
+    and (4) go out after dark. For many respondents, the reasons for not going out alone in their neighbourhood 
+    after dark may have nothing or little to do with crime and more to do with personal and circumstantial 
+    issues, such aslack of mobility, childcare commitments, or the use of a car that allows them to travel further 
+    afield. Second, the question does not define the meaning of “neighbourhood”, which may mean different 
+    things to different respondents, even those living in the same street. Third, the question does not explicitly 
+    refer to ‘crime’, but rather it is implicit in the question. There may be other reasons unrelated to crime (e.g. 
+    wild animals, traffic, etc.) why respondents may not feel safe walking around their neighbourhood after 
+    dark.
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
   development, provide access to justice for all and build effective, accountable
   and inclusive institutions at all levels</p>'
@@ -21,3 +36,10 @@ un_custodian_agency: United Nations Office on Drugs and Crime (UNODC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-04.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 213
   KB)
+
+source_active_1: 'true'
+source_url_text_1: Statistics Canada. Feeling part of the community and neighbourhood satisfaction, safety feeling and economic hardship, by visible minority and selected characteristics.
+source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate-nonTraduit.action?pid=4310005801&selectedNodeIds=3D8%2C4D3%2C5D1&checkedLevels=0D1%2C1D1%2C1D2%2C1D3&refPeriods=20210101%2C20210101&dimensionLayouts=layout2%2Clayout3%2Clayout2%2Clayout2%2Clayout2%2Clayout2&vectorDisplay=false&request_locale=en
+source_organisation_1: Statistics Canada
+source_periodicity_1: Occasional
+source_geographical_coverage_1: Canada

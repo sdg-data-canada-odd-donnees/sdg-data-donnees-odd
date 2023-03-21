@@ -1,12 +1,25 @@
-SDG_GOAL: '   '
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
+SDG_GOAL: '<p>Objectif 16: Paix, justice et institutions efficaces</p>'
+SDG_TARGET: '<p>Cible 16.1: Réduire nettement, partout dans le monde, toutes les formes de violence et les taux de mortalité qui y sont associés</p>'
+SDG_INDICATOR: '<p>Indicateur 16.1.4: Nombre de personnes considérant qu’il n’y a pas de danger à se déplacer seules à pied dans leur zone de résidence,
+  en proportion de la population totale</p>'
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '   '
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 16: Paix, justice et institutions efficaces</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 16.1: Réduire nettement, partout dans le monde, toutes les formes de violence et les taux de mortalité qui y sont associés</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.1.4: Nombre de personnes considérant qu’il n’y a pas de danger à se déplacer seules à pied dans leur zone de résidence,
+  en proportion de la population totale</p>'
+un_designated_tier: Tier II
+un_custodian_agency: United Nations Office on Drugs and Crime (UNODC)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-04.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 213
+  KB)
 
-reporting_status: notstarted
+reporting_status: complete
 
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Satisfaction à l’égard du sentiment d’appartenance à la communauté et du quartier, sentiment de sécurité et difficultés économiques, selon la minorité visible et certaines caractéristiques.
+source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/cv!recreate-nonTraduit.action?pid=4310005801&selectedNodeIds=3D8%2C4D3%2C5D1&checkedLevels=0D1%2C1D1%2C1D2%2C1D3&refPeriods=20210101%2C20210101&dimensionLayouts=layout2%2Clayout3%2Clayout2%2Clayout2%2Clayout2%2Clayout2&vectorDisplay=false&request_locale=fr
+source_organisation_1: Statistique Canada
+source_periodicity_1: Occasionnelle
+source_geographical_coverage_1: Canada
