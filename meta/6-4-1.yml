@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 6: Ensure availability and sustainable management of water and
   sanitation for all</p>'
 SDG_TARGET: '<p>Target 6.4: By 2030, substantially increase water-use efficiency across
@@ -5,10 +6,11 @@ SDG_TARGET: '<p>Target 6.4: By 2030, substantially increase water-use efficiency
   water scarcity and substantially reduce the number of people suffering from water
   scarcity</p>'
 SDG_INDICATOR: '<p>Indicator 6.4.1: Change in water-use efficiency over time</p>'
-STAT_CONC_DEF: <p>The change in water use efficiency over time (CWUE). The change
-  in the ratio of the value added to the volume of water use, over time.</p>
+STAT_CONC_DEF: '    '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
   and sanitation for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 6.4: By 2030, substantially increase water-use efficiency
@@ -16,24 +18,18 @@ SDG_TARGET__GLOBAL: '<p>Target 6.4: By 2030, substantially increase water-use ef
   address water scarcity and substantially reduce the number of people suffering from
   water scarcity</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 6.4.1: Change in water-use efficiency over time</p>'
-source_active_1: 'true'
-source_url_text_1: Statistics Canada. Table 36-10-0222-01  Gross domestic product,
-  expenditure-based, provincial and territorial, annual (x 1,000,000)
-source_url_1: https://doi.org/10.25318/3610022201-eng
-source_organisation_1: Statistics Canada
-source_periodicity_1: Annual
-source_geographical_coverage_1: Canada, Province or territory
-source_active_2: 'true'
-source_url_text_2: Statistics Canada. Table 38-10-0250-01  Physical flow account for
-  water use (x 1,000)
-source_url_2: https://doi.org/10.25318/3810025001-eng
-source_organisation_2: Statistics Canada
-source_periodicity_2: Every 2 years
-source_geographical_coverage_2: Canada
-reporting_status: inprogress
-COVERAGE: Canada, Province or territory
 un_designated_tier: Tier I
 un_custodian_agency: Food and Agriculture Organization (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: Food and Agriculture Organization of the United Nations (FAO). FAO AQUASTAT. 
+source_url_1: https://sdg6data.org/en/tables
+source_organisation_1: Food and Agriculture Organization of the United Nations (FAO)
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
+
