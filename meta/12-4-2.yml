@@ -1,15 +1,17 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET: '<p>Target 12.4: By 2020, achieve the environmentally sound management
   of chemicals and all wastes throughout their life cycle, in accordance with agreed
   international frameworks, and significantly reduce their release to air, water and
   soil in order to minimize their adverse impacts on human health and the environment</p>'
-SDG_INDICATOR: '<p>Indicator 12.4.2: (a) Hazardous waste generated per capita; and
-  (b) proportion of hazardous waste treated, by type of treatment</p>'
-STAT_CONC_DEF: <p>The indicator includes hazardous generated, hazardous waste generated
-  by type (including e-waste as a sub-indicator) and the proportion of hazardous waste
-  treated. For the e-waste sub-category, United Nations University is a co-custodian.</p>
+SDG_INDICATOR: |
+    Indicator 12.4.2: Household hazardous waste as a percentage of all households
+STAT_CONC_DEF: '    '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+COVERAGE: Canada, Province or territory
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET__GLOBAL: '<p>Target 12.4: By 2020, achieve the environmentally sound management
   of chemicals and all wastes throughout their life cycle, in accordance with agreed
@@ -22,3 +24,11 @@ un_custodian_agency: United Nations Statistics Division (UNSD), UN Environment (
 goal_meta_link: https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-12-04-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: Statistics Canada. Table 38-10-0155-01  Household hazardous waste
+source_url_1: https://doi.org/10.25318/3810015501-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada, Province or territory, Census metropolitan area, Census metropolitan area part
