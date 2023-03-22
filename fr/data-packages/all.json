@@ -4376,6 +4376,46 @@
       "title": "Montant total de l’aide publique internationale (aide publique au développement et autres apports du secteur public) alloué aux infrastructures"
     },
     {
+      "path": "16-3-3/data.csv",
+      "name": "16-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "Resolution mechanism",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Contact a lawyer, paralegal, or law student",
+                "Contact a court or tribunal",
+                "Contact a community organization",
+                "Contact a government department/agency",
+                "Contact a labour union",
+                "Other action to resolve problem",
+                ""
+              ]
+            },
+            "title": "Resolution mechanism"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de la population ayant connu un différend au cours des deux dernières années, avec saisine d’un mécanisme formel ou informel de règlement des différends, par type de mécanisme"
+    },
+    {
       "path": "3-4-2/data.csv",
       "name": "3-4-2",
       "profile": "tabular-data-resource",
@@ -7547,30 +7587,6 @@
         ]
       },
       "title": "Empreinte matérielle, empreinte matérielle par habitant et empreinte matérielle par unité de PIB"
-    },
-    {
-      "path": "16-3-3/data.csv",
-      "name": "16-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de la population ayant connu un différend au cours des deux dernières années, avec saisine d’un mécanisme formel ou informel de règlement des différends, par type de mécanisme"
     },
     {
       "path": "14-3-1/data.csv",

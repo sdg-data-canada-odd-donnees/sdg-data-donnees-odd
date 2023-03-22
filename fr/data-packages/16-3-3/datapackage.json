@@ -12,8 +12,24 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Année"
+          },
+          {
+            "name": "Resolution mechanism",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Contact a lawyer, paralegal, or law student",
+                "Contact a court or tribunal",
+                "Contact a community organization",
+                "Contact a government department/agency",
+                "Contact a labour union",
+                "Other action to resolve problem",
+                ""
+              ]
+            },
+            "title": "Resolution mechanism"
           },
           {
             "name": "Value",
