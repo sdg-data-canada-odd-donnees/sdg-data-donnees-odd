@@ -12,8 +12,91 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "All census metropolitan areas",
+                "St. John's, Newfoundland and Labrador",
+                "Halifax, Nova Scotia",
+                "Moncton, New Brunswick",
+                "Saint John, New Brunswick",
+                "Saguenay, Quebec",
+                "Quebec, Québec",
+                "Sherbrooke, Quebec",
+                "Trois-Rivières, Quebec",
+                "Quebec, Montréal",
+                "Ontario/Quebec, Ottawa-Gatineau",
+                "Ottawa-Gatineau (Quebec part)",
+                "Ottawa-Gatineau (Ontario part)",
+                "Kingston, Ontario",
+                "Peterborough, Ontario",
+                "Oshawa, Ontario",
+                "Toronto, Ontario",
+                "Hamilton, Ontario",
+                "St. Catharines-Niagara, Ontario",
+                "Kitchener-Cambridge-Waterloo, Ontario",
+                "Brantford, Ontario",
+                "Guelph, Ontario",
+                "London, Ontario",
+                "Windsor, Ontario",
+                "Barrie, Ontario",
+                "Greater Sudbury, Ontario",
+                "Thunder Bay, Ontario",
+                "Winnipeg, Manitoba",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Kelowna, British Columbia",
+                "Abbotsford-Mission, British Columbia",
+                "Vancouver, British Columbia",
+                "Victoria, British Columbia",
+                "Non-census metropolitan areas",
+                "Belleville, Ontario",
+                "Lethbridge, Alberta",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Household hazardous waste",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Leftover or expired medication",
+                "Medical sharps",
+                "Leftover paint or solvents",
+                "Unwanted engine oil or anti-freeze",
+                "Dead or unwanted batteries (excluding car batteries)",
+                "Leftover pesticides",
+                "Mattresses",
+                "Textiles",
+                ""
+              ]
+            },
+            "title": "Household hazardous waste"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
