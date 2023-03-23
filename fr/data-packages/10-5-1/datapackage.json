@@ -12,8 +12,24 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ratio des fonds propres réglementaires de base aux actifs pondérés en fonction des risques",
+                "Ratio des créances improductives moins provisions aux fonds propres",
+                "Ratio des créances improductives au total des prêts bruts",
+                "Rentabilité des actifs",
+                "Ratio des actifs liquides aux passifs à court terme",
+                "Ratio des fonds propres réglementaires de base aux actifs",
+                ""
+              ]
+            },
+            "title": "Indicateur"
           },
           {
             "name": "Value",

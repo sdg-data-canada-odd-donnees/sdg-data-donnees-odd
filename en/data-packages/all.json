@@ -3966,6 +3966,46 @@
       "title": "National recycling rate, tons of material recycled"
     },
     {
+      "path": "10-5-1/data.csv",
+      "name": "10-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ratio of regulatory capital to risk-weighted assets",
+                "Ratio of non-performing loans net of provisions to capital",
+                "Ratio of non-performing loans to total gross loans",
+                "Earnings and profitability, return on assets",
+                "Ratio of liquid assets to short-term liabilities",
+                "Ratio of regulatory capital to assets",
+                ""
+              ]
+            },
+            "title": "Indicator"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Financial Soundness Indicators"
+    },
+    {
       "path": "15-a-1/data.csv",
       "name": "15-a-1",
       "profile": "tabular-data-resource",
@@ -6556,30 +6596,6 @@
         ]
       },
       "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments"
-    },
-    {
-      "path": "10-5-1/data.csv",
-      "name": "10-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Financial Soundness Indicators"
     },
     {
       "path": "16-7-2/data.csv",

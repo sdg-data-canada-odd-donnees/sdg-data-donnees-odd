@@ -3966,6 +3966,46 @@
       "title": "Taux de recyclage national, tonnes de matériaux recyclés"
     },
     {
+      "path": "10-5-1/data.csv",
+      "name": "10-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ratio des fonds propres réglementaires de base aux actifs pondérés en fonction des risques",
+                "Ratio des créances improductives moins provisions aux fonds propres",
+                "Ratio des créances improductives au total des prêts bruts",
+                "Rentabilité des actifs",
+                "Ratio des actifs liquides aux passifs à court terme",
+                "Ratio des fonds propres réglementaires de base aux actifs",
+                ""
+              ]
+            },
+            "title": "Indicateur"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Indicateurs de solidité financière"
+    },
+    {
       "path": "15-a-1/data.csv",
       "name": "15-a-1",
       "profile": "tabular-data-resource",
@@ -6556,30 +6596,6 @@
         ]
       },
       "title": "a) aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité et b) produits générés et fonds mobilisés par les instruments économiques en rapport avec la biodiversité"
-    },
-    {
-      "path": "10-5-1/data.csv",
-      "name": "10-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Indicateurs de solidité financière"
     },
     {
       "path": "16-7-2/data.csv",
