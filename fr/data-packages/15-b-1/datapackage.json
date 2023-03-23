@@ -12,8 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Official development assistance on conservation and sustainable use of biodiversity",
+                ""
+              ]
+            },
+            "title": "Series"
           },
           {
             "name": "Value",

@@ -4294,6 +4294,38 @@
       "title": "global_indicators.3-d-1-title"
     },
     {
+      "path": "15-b-1/data.csv",
+      "name": "15-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Official development assistance on conservation and sustainable use of biodiversity",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.15-b-1-title"
+    },
+    {
       "path": "5-5-1/data.csv",
       "name": "5-5-1",
       "profile": "tabular-data-resource",
@@ -6097,28 +6129,6 @@
         ]
       },
       "title": "global_indicators.11-b-1-title"
-    },
-    {
-      "path": "15-b-1/data.csv",
-      "name": "15-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.15-b-1-title"
     },
     {
       "path": "16-7-2/data.csv",
