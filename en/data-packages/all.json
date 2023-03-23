@@ -2100,7 +2100,7 @@
             "title": "Year"
           },
           {
-            "name": "Ethnicity",
+            "name": "Demographic",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2116,7 +2116,7 @@
                 ""
               ]
             },
-            "title": "Ethnicity"
+            "title": "Demographic"
           },
           {
             "name": "Value",

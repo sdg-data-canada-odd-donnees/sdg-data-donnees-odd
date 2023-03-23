@@ -16,19 +16,19 @@
             "title": "Année"
           },
           {
-            "name": "Ethnicity",
+            "name": "Demographic",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total minorités visibles",
-                "Sud-Asiatique",
-                "Chinois",
-                "Noir",
-                "Philippin",
-                "Arabe",
-                "Latino-Américain",
-                "Asiatique du Sud-Est",
-                "Pas une minorité visible",
+                "Total minorités visibles\n",
+                "Sud-Asiatique\n",
+                "Chinois\n",
+                "Noir\n",
+                "Philippin\n",
+                "Arabe\n",
+                "Latino-Américain\n",
+                "Asiatique du Sud-Est\n",
+                "Pas une minorité visible\n",
                 ""
               ]
             },
