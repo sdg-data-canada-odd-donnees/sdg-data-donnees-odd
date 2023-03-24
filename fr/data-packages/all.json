@@ -361,12 +361,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of employed labour force eligible for workers' compensation benefits",
-                "Proportion of economic families with children receiving a child benefit",
-                "Ratio of unemployed receiving benefits",
-                "Proportion of the unemployed eligible for Employment Insurance benefits",
-                "Proportion of older persons receiving a pension",
-                "Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits",
+                "Proportion de la population active occupée admissible à l'indemnité d'accident du travail\n",
+                "Portion de familles économiques qui reçoivent des prestations pour enfants\n",
+                "Ratio de chômeurs recevant des prestations\n",
+                "Proportion de chômeurs admissibles aux prestations d'assurance-emploi\n",
+                "Proportion de personnes plus âgées recevant une pension\n",
+                "Pourcentage de mères d'enfants de 12 mois ou moins qui ont reçu des prestations de maternité ou parentales\n",
                 ""
               ]
             },
