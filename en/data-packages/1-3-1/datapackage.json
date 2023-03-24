@@ -16,6 +16,61 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of employed labour force eligible for workers' compensation benefits",
+                "Proportion of economic families with children receiving a child benefit",
+                "Ratio of unemployed receiving benefits",
+                "Proportion of the unemployed eligible for Employment Insurance benefits",
+                "Proportion of older persons receiving a pension",
+                "Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage",
+                "Ratio",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Nunavut/Northwest Territories",
+                "Yukon",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
