@@ -4,7 +4,8 @@ SDG_TARGET: '<p>Target 6.6: By 2030 protect and restore water-related ecosystems
   including mountains, forests, wetlands, rivers, aquifers and lakes</p>'
 SDG_INDICATOR: '<p>Indicator 6.6.1: Change in the extent of water-related ecosystems
   over time</p>'
-STAT_CONC_DEF: <p>Indicator 6.6.1 tracks the extent to which different types of water-related
+STAT_CONC_DEF: |
+  Indicator 6.6.1 tracks the extent to which different types of water-related
   ecosystems are changing in extent over time. The indicator is multifaceted capturing
   data on different types of freshwater ecosystems and to measure extent change the
   indicator considers spatial area changes, water quality and water quantity changes.
@@ -18,8 +19,34 @@ STAT_CONC_DEF: <p>Indicator 6.6.1 tracks the extent to which different types of 
   boundaries. Global data products for river flows and groundwater level have not
   yet been produced at useful spatial and temporal resolutions to be incorporated
   into this SDG 6.6.1 methodology. Currently, these data should continue to be provided
-  from modelling or from ground-based measurements and required from the countries.</p>
-DATA_COMP: '   '
+  from modelling or from ground-based measurements and required from the countries.
+  <br>
+  <br>Extent - As used in the title of this indicator, 'extent' is expanded beyond spatial extent
+  to capture additional basic parameters needed for the protection and restoration of water-related
+  ecosystems. Extent includes three components - the spatial extent or surface area, the quality, 
+  and the quantity of water-related ecosystems.
+  <br>
+  <brSurface Water refers to any area of surface water unobstructed by aquatic vegetation. This includes the 
+  following 3 water-related ecosystem categories: rivers and estuaries, lakes, and artificial waterbodies.
+  <br>
+  <br>Reservoirs are artificial (or human-made) bodies of freshwater, as opposed to lakes which are naturally 
+  occurring. The reservoirs dataset represents surface area data on artificial water bodies including reservoirs 
+  formed by dams, flooded areas such as opencast mines and quarries, flood irrigation areas, and water 
+  bodies created by hydro-engineering projects such as waterway and harbour construction.
+  <br>
+  <br>Turbidity is an indicator of water clarity, quantifying the haziness of the water and acting as an indicator of 
+  underwater light availability.
+  <br>
+  <br>Trophic State refers to the degree at which organic matter accumulates in the water body and is most 
+  commonly used in relation to monitoring eutrophication.
+  <br>
+  <br>Change means a shift from one condition of extent to another over time within a water-related ecosystem, 
+  measured against a point of reference. Surface-water extent changes are compared against a 20-year reference 
+  period (baseline)
+DATA_COMP: |
+  Combined surface-water changes = permanent + seasonal + reservoir changes. Changes
+  in surface-water area are observed in 2015 and 2020, which are compared against a 20-year
+  reference period.
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
   and sanitation for all</p>'
@@ -32,3 +59,9 @@ un_custodian_agency: UN Environment (UNEP), Ramsar
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+
+source_active_1: 'true'
+source_url_text_1: Freshwater Ecosystems Explorer.
+source_url_1: https://www.sdg661.app/
+source_organisation_1: UN environment programme
+source_geographical_coverage_1: Canada and global
