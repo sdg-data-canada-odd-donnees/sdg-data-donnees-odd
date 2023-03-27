@@ -200,6 +200,59 @@
       "title": "Taux de mortalité des enfants de moins de 5 ans"
     },
     {
+      "path": "6-6-1/data.csv",
+      "name": "6-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface",
+                "Étendue des millieux humides",
+                "Qualité de l’eau du lac, la turbidité",
+                "Qualité de l’eau du lac, l'état trophique",
+                "Qualité de l’eau du lac, l'état trophique et la turbidité",
+                "Qualité de l’eau du lac, état nul ou amélioration",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                "Nombre",
+                "Square kilometers",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Variation de l’étendue des écosystèmes tributaires de l’eau"
+    },
+    {
       "path": "16-3-2/data.csv",
       "name": "16-3-2",
       "profile": "tabular-data-resource",
@@ -6158,30 +6211,6 @@
         ]
       },
       "title": "Valeur (en dollars) de l’ensemble des ressources allouées au renforcement des capacités statistiques des pays en développement"
-    },
-    {
-      "path": "6-6-1/data.csv",
-      "name": "6-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Variation de l’étendue des écosystèmes tributaires de l’eau"
     },
     {
       "path": "11-7-1/data.csv",

@@ -12,7 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "string"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of (shared) basins showing high surface-water extent changes",
+                "Wetlands area",
+                "Lake water quality, turbidity",
+                "Lake water quality, trophic state",
+                "Lake water quality, trophic state and turbidity",
+                "Lake water quality, no or improving condition",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                "Number",
+                "Square kilometers",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

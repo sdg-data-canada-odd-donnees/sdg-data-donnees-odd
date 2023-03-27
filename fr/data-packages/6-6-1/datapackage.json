@@ -12,8 +12,37 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface",
+                "Étendue des millieux humides",
+                "Qualité de l’eau du lac, la turbidité",
+                "Qualité de l’eau du lac, l'état trophique",
+                "Qualité de l’eau du lac, l'état trophique et la turbidité",
+                "Qualité de l’eau du lac, état nul ou amélioration",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                "Nombre",
+                "Square kilometers",
+                ""
+              ]
+            },
+            "title": "Unités"
           },
           {
             "name": "Value",
