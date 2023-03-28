@@ -235,7 +235,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent",
+                "Percentage",
                 "Number",
                 "Square kilometers",
                 ""
