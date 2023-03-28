@@ -8,8 +8,18 @@ SDG_TARGET: '<p>Cible 15.1: D’ici à 2020, garantir la préservation, la resta
   et des zones arides, conformément aux obligations découlant des accords internationaux</p>'
 SDG_INDICATOR: '<p>Indicateur 15.1.1 : Surface des zones forestières, en proportion
   de la surface terrestre</p>'
-STAT_CONC_DEF: <p>Surface forestière en proportion de la surface terrestre totale</p>
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+  Surface forestière en proportion de la surface terrestre totale.
+  <br>
+  <br>Selon la FAO, la forêt est définie comme: « des terres s’étendant sur plus de 0,5 hectare 
+  avec des arbres de plus de 5 mètres de haut et un couvert forestier de plus de 10 pour cent, 
+  ou des arbres capables d’atteindre ces seuils in situ. Il n’inclut pas les terres qui sont 
+  principalement utilisées à des fins agricoles ou urbaines.
+  <br>
+  <br>La superficie terrestre est la superficie du pays, à l’exclusion de la superficie des eaux
+  intérieures et des eaux côtières.
+DATA_COMP: |
+  Superficie forestière (superficie de référence) / Superficie terrestre (année de référence) * 100
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter

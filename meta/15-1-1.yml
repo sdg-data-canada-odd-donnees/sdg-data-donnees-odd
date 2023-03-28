@@ -6,8 +6,16 @@ SDG_TARGET: '<p>Target 15.1: By 2020, ensure the conservation, restoration and s
   forests, wetlands, mountains and drylands, in line with obligations under international
   agreements</p>'
 SDG_INDICATOR: '<p>Indicator 15.1.1: Forest area as a proportion of total land area</p>'
-STAT_CONC_DEF: <p>Forest area as a proportion of total land area</p>
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+  Forest area as a proportion of total land area.
+  <br>
+  <br>According to the FAO, <b>Forest</b> is defined as: “land spanning more than 0.5 hectares with trees higher than 
+  5 meters and a canopy cover of more than 10 percent, or trees able to reach these thresholds in situ. It 
+  does not include land that is predominantly under agricultural or urban land use”.
+  <br>
+  <br><b>Land area</b> is the country area excluding area under inland waters and coastal waters.
+DATA_COMP: |
+  Forest area (reference area) / Land area (reference year) * 100
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
   ecosystems, sustainably manage forests, combat desertification, and halt and reverse
@@ -16,8 +24,8 @@ SDG_TARGET__GLOBAL: '<p>Target 15.1: By 2020, ensure the conservation, restorati
   and sustainable use of terrestrial and inland freshwater ecosystems and their services,
   in particular forests, wetlands, mountains and drylands, in line with obligations
   under international agreements</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 15.1.1: Forest area as a proportion of total
-  land area</p>'
+SDG_INDICATOR__GLOBAL: Indicator 15.1.1: Forest area as a proportion of total
+  land area
 un_designated_tier: Tier I
 un_custodian_agency: Food and Agriculture Organization (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-01.pdf
