@@ -3,6 +3,7 @@ import yaml
 import os
 import pandas as pd
 import ProgressMeasure as pm
+from datetime import datetime as dt
 
 
 def read_meta(indicator_id):
@@ -51,7 +52,7 @@ def merge_indicator(indicator_id):
     return indicator
 
 
-def update_progress_status(progress_dict, indicator_id):
+def update_progress_status_meta(progress_dict, indicator_id):
     meta_file = indicator_id + '.yml'
     filepath = os.path.join('indicator-config', meta_file)
     with open(filepath, 'r') as stream:
@@ -59,26 +60,81 @@ def update_progress_status(progress_dict, indicator_id):
     meta.update(progress_dict)
     with open(filepath, 'w') as file:
         outputs = yaml.dump(meta, file)
-    
+
+
+def update_progress_diff(diff):
+    filepath = os.path.join('progress_diff.yml')
+    with open(filepath, 'r') as stream:
+        diff_file = yaml.safe_load(stream)
+
+    if diff_file:
+        diff_file.update(diff)
+
+    else:
+        diff_file = diff
+
+    with open(filepath, 'w') as file:
+        outputs = yaml.dump(diff_file, file)
+
+
+def diff_note(old, new):
+    now = dt.now().strftime("%d/%m/%Y %H:%M:%S")
+    return 'progress status has changed from ' + old + ' to ' + new + ' (' + now + ')'
+
+
+def remove_progress_configs(indicator_id):
+    ind_str = indicator_id.split('-')
+    policy_ind = ind_str[1] in ['a', 'b', 'c', 'd', 'e', 'f']
+
+    if policy_ind:
+        meta = read_meta(indicator_id)
+
+        meta['auto_progress_calculation'] = False
+        meta['progress_status'] = 'not_available'
+        meta['progress_calculation_options'] = []
+
+        update_progress_status_meta(meta, indicator_id)
+        print(indicator_id + ': meta updated')
+
+
+def update_progress_status(indicator_ids):
+    all_progress_statuses = {}
+    progress_diff = {}
+
+    for ind_id in indicator_ids:
+        # Uncomment to turn on ALL indicator calculation
+        # turn_on_progress_calc(ind_id)
+
+        # Get data + metadata for calculation
+        indicator = merge_indicator(ind_id)
+        if indicator is not None:
+
+            if indicator['meta'].get('progress_status'):
+                old_pm = indicator['meta'].get('progress_status')
+            else:
+                old_pm = None
+
+            # Run data + metadata through calculation to get progress
+            progress = pm.measure_indicator_progress(indicator)
+            all_progress_statuses[ind_id] = progress
+
+            if progress is not None:
+
+                if old_pm and progress != old_pm:
+                    progress_diff[ind_id] = diff_note(old_pm, progress)
+
+                print(ind_id + ': ' + progress)
+                # Update progress status field in meta
+                progress_dict = {'progress_status': progress}
+                # Uncomment to update metadata files
+                update_progress_status_meta(progress_dict, ind_id)
+    return progress_diff
+
 
 indicator_ids = get_indicator_ids()
+diffs = update_progress_status(indicator_ids)
+update_progress_diff(diffs)
 
-for ind_id in indicator_ids:
-    print(ind_id)
-    # Uncomment to turn on ALL indicator calculation
-    # turn_on_progress_calc(ind_id)
-
-    # Get data + metadata for calculation
-    indicator = merge_indicator(ind_id)
-    if indicator is not None:
-        # Run data + metadata through calculation to get progress
-        progress = pm.measure_indicator_progress(indicator)
-        if progress is not None:
-            print(ind_id + ': ' + progress)
-            # Update progress status field in meta
-            progress_dict = {'progress_status': progress}
-            # Uncomment to update metadata files
-            update_progress_status(progress_dict, ind_id)
 
 # individal calculations result ----
 # test_ind = merge_indicator('8-2-1')

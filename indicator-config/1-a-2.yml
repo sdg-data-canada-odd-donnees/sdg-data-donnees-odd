@@ -1,4 +1,4 @@
-auto_progress_calculation: true
+auto_progress_calculation: false
 computation_units: Percentage
 copyright: ''
 data_footnote: ''
@@ -29,11 +29,9 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
-progress_calculation_options:
-- direction: positive
-progress_status: moderate_progress
+progress_calculation_options: []
+progress_status: not_available
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-
