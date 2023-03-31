@@ -23,7 +23,7 @@
                 "Copied or moved files or folders digitally ",
                 "Used word processing software ",
                 "Created presentations, or documents with text and pictures, tables or charts ",
-                "Utilisé les fonctions de base d’un logiciel tableur\n",
+                "Utilisé les fonctions de base d’un logiciel tableur",
                 "Used spreadsheet software advanced functions to organize and analyze data ",
                 "Used software to edit photos, video or audio files ",
                 "Écrit du code dans un langage de programmation",
@@ -44,11 +44,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, tous les utilisateurs d'Internet âgés de 15 ans et plus\n",
-                "Utilisateurs d'Internet âgés de 15 ans à 24 ans\n",
-                "Utilisateurs d'Internet âgés de 25 ans à 44 ans\n",
-                "Utilisateurs d'Internet âgés de 45 ans à 64 ans\n",
-                "Utilisateurs d'Internet âgés de 65 ans et plus\n",
+                "Total, tous les utilisateurs d'Internet âgés de 15 ans et plus",
+                "Utilisateurs d'Internet âgés de 15 ans à 24 ans",
+                "Utilisateurs d'Internet âgés de 25 ans à 44 ans",
+                "Utilisateurs d'Internet âgés de 45 ans à 64 ans",
+                "Utilisateurs d'Internet âgés de 65 ans et plus",
                 ""
               ]
             },
@@ -60,9 +60,9 @@
             "constraints": {
               "enum": [
                 "Total, plus haut certificat, diplôme ou grade obtenu",
-                "Un diplôme d'études secondaires ou moins\n",
-                "Un diplôme d'un collège ou d'une école de métiers, ou études universitaires partielles\n",
-                "Bachelors degree or higher",
+                "Un diplôme d'études secondaires ou moins",
+                "Un diplôme d'un collège ou d'une école de métiers, ou études universitaires partielles",
+                "Un baccalauréat ou diplôme supérieur",
                 ""
               ]
             },
