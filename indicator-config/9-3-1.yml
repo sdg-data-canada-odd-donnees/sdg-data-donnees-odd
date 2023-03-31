@@ -1,5 +1,5 @@
-﻿composite_breakdown_label: ''
-computation_units: 'Percentage'
+auto_progress_calculation: true
+computation_units: Percentage
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -7,7 +7,7 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values: 
+data_start_values:
 - field: Industry
   value: Total manufacturing
 - field: Size
@@ -19,9 +19,9 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: 
-    - Industry
-    - Size
+expected_disaggregations:
+- Industry
+- Size
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
@@ -29,16 +29,16 @@ graph_title: global_indicators.9-3-1-title
 graph_titles: []
 graph_type: bar
 indicator_name: global_indicators.9-3-1-title
-indicator_number: '9.3.1'
-national_geographical_coverage: 'Canada'
+indicator_number: 9.3.1
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
-progress_status: substantial_progress # hand calculated
+progress_calculation_options:
+- direction: positive
+progress_status: substantial_progress
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-
-# progress calculation options
-auto_progress_calculation: false # data disaggregated by default - needs hand calc
+"\xEF\xBB\xBFcomposite_breakdown_label": ''

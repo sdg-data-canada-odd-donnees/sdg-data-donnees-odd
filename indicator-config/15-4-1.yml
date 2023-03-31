@@ -1,6 +1,6 @@
-﻿auto_progress_calculation: true
+auto_progress_calculation: true
 composite_breakdown_label: ''
-computation_units: 'Percent'
+computation_units: Percent
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -22,15 +22,17 @@ graph_title: global_indicators.15-4-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.15-4-1-title
-indicator_number: '15.4.1'
-national_geographical_coverage: 'Canada'
+indicator_number: 15.4.1
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
   target_year: 2030
+progress_status: moderate_deterioration
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+"\xEF\xBB\xBFauto_progress_calculation": true

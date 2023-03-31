@@ -27,10 +27,8 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
-- direction: positive
-  target: 12.882
-  target_year: 2030
-progress_status: deterioration
+- direction: negative
+progress_status: substantial_progress
 reporting_status: complete
 sort: ''
 standalone: false
