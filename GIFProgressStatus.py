@@ -1,4 +1,3 @@
-import yamlmd
 import yaml
 import os
 import pandas as pd
@@ -82,7 +81,29 @@ def diff_note(old, new):
     return 'progress status has changed from ' + old + ' to ' + new + ' (' + now + ')'
 
 
+def turn_on_progress_calc(indicator_id):
+    """
+    Force turns on progress calculation in meta markdown file for whatever indicator is passed.
+    :param indicator_id: id for indicator (e.g. 1-1-1)
+    :type indicator_id: str
+    """
+
+    meta = read_meta(indicator_id)
+
+    if meta.get('reporting_status') == 'complete':
+        if not meta.get('auto_progress_calculation'):
+            meta['auto_progress_calculation'] = True
+
+        update_progress_status_meta(meta, indicator_id)
+
+
 def remove_progress_configs(indicator_id):
+    """
+    Function to mass remove all progress statuses for policy indicators (i.e. any indicator with an alphabetic target)
+    Args:
+        indicator_id: str. Identifier of indicator (e.g. 1-1-1).
+
+    """
     ind_str = indicator_id.split('-')
     policy_ind = ind_str[1] in ['a', 'b', 'c', 'd', 'e', 'f']
 
@@ -95,6 +116,45 @@ def remove_progress_configs(indicator_id):
 
         update_progress_status_meta(meta, indicator_id)
         print(indicator_id + ': meta updated')
+
+
+def update_progress_direction(indicator_id, direction):
+
+    meta = read_meta(indicator_id)
+    new_ind_direction = direction.get(indicator_id)
+    prog_calc_options = meta.get('progress_calculation_options')
+
+    if prog_calc_options:
+        prog_calc_options = prog_calc_options[0]
+        if prog_calc_options.get('direction'):
+            old_ind_direction = prog_calc_options.get('direction')
+        else:
+            old_ind_direction = ''
+    else:
+        old_ind_direction = ''
+
+    if old_ind_direction == 'down':
+        old_ind_direction = 'negative'
+    elif old_ind_direction == 'up':
+        old_ind_direction = 'positive'
+
+    if indicator_id in direction.keys():
+        if new_ind_direction != old_ind_direction:
+            print('changing ' + indicator_id + ' progress direction')
+            print('old_ind_direction: ' + old_ind_direction)
+            print('new_ind_direction: ' + new_ind_direction)
+
+            if new_ind_direction == 'binary':
+                if meta.get('reporting_status') == 'complete':
+                    meta['progress_status'] = 'target_achieved'
+
+            else:
+                if meta.get('progress_calculation_options'):
+                    meta['progress_calculation_options'][0]['direction'] = new_ind_direction
+                else:
+                    meta['progress_calculation_options'] = [{'direction': new_ind_direction}]
+
+            update_progress_status_meta(meta, indicator_id)
 
 
 def update_progress_status(indicator_ids):
@@ -132,12 +192,22 @@ def update_progress_status(indicator_ids):
 
 
 indicator_ids = get_indicator_ids()
-diffs = update_progress_status(indicator_ids)
-update_progress_diff(diffs)
 
+# read in progress directions
+# filepath = 'indicator_progress_direction.yml'
+# with open(filepath, 'r') as stream:
+#     direction = yaml.safe_load(stream)
+#
+# for ind_id in indicator_ids:
+#     update_progress_direction(ind_id, direction)
+#     turn_on_progress_calc(ind_id)
+#     remove_progress_configs(ind_id)
+
+# diffs = update_progress_status(indicator_ids)
+# update_progress_diff(diffs)
 
 # individal calculations result ----
-# test_ind = merge_indicator('8-2-1')
-# test_data = pm.data_progress_measure(test_ind['data'])
-# print(test_data)
-# print(pm.measure_indicator_progress(test_ind))
+test_ind = merge_indicator('17-1-2')
+test_data = pm.data_progress_measure(test_ind['data'])
+print(test_data)
+print(pm.measure_indicator_progress(test_ind))

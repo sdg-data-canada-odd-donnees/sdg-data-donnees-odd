@@ -1,6 +1,6 @@
-﻿auto_progress_calculation: true
+auto_progress_calculation: true
 composite_breakdown_label: ''
-computation_units: 'Metric tonnes (x1,000) per million dollars of GDP'
+computation_units: Metric tonnes (x1,000) per million dollars of GDP
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -22,14 +22,17 @@ graph_title: global_indicators.9-4-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.9-4-1-title
-indicator_number: '9.4.1'
-national_geographical_coverage: 'Canada'
+indicator_number: 9.4.1
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
-- target_year: 2030
+- direction: negative
+  target_year: 2030
+progress_status: substantial_progress
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+"\xEF\xBB\xBFauto_progress_calculation": true

@@ -1,4 +1,4 @@
-﻿composite_breakdown_label: 'Percentage'
+auto_progress_calculation: true
 computation_units: ''
 copyright: ''
 data_footnote: ''
@@ -7,19 +7,19 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: true
-data_start_values: 
-    - field: Geography
-      value: Canada
-    - field: Age group
-      value: 15 to 19 years
-    - field: Age group
-      value: 20 to 24 years
-    - field: Age group
-      value: 25 to 29 years
-    - field: Age group
-      value: 30 to 34 years
-    - field: Type of institution attended
-      value: Total participation rate
+data_start_values:
+- field: Geography
+  value: Canada
+- field: Age group
+  value: 15 to 19 years
+- field: Age group
+  value: 20 to 24 years
+- field: Age group
+  value: 25 to 29 years
+- field: Age group
+  value: 30 to 34 years
+- field: Type of institution attended
+  value: Total participation rate
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -33,8 +33,8 @@ graph_title: global_indicators.4-3-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.4-3-1-title
-indicator_number: '4.3.1'
-national_geographical_coverage: 'Canada, Province or territory'
+indicator_number: 4.3.1
+national_geographical_coverage: Canada, Province or territory
 page_content: ''
 permalink: ''
 precision: []
@@ -42,3 +42,4 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+"\xEF\xBB\xBFcomposite_breakdown_label": Percentage

@@ -1,5 +1,5 @@
-﻿composite_breakdown_label: ''
-computation_units: 'Percentage (%), Tonnes/hectare, Millions of hectares'
+auto_progress_calculation: true
+computation_units: Percentage (%), Tonnes/hectare, Millions of hectares
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -19,31 +19,31 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.15-2-1-title
 graph_titles:
-  - series: 'Forest area net change rate'
-    title: 'Forest area net change rate (Percentage)'
-  - series: 'Above-ground biomass stock in forest'
-    title: 'Above-ground biomass stock in forest (Tonnes/hectare)'
-  - series: 'Proportion of forest area located within legally established protected areas'
-    title: 'Proportion of forest area located within legally established protected areas (Percentage)'
-  - series: 'Proportion of forest area under a long term forest management plan'
-    title: 'Proportion of forest area under a long term forest management plan (Percentage)'
-  - series:  'Forest area under an independently verified forest management certification scheme'
-    title:  'Forest area under an independently verified forest management certification scheme (Hectares)'
+- series: Forest area net change rate
+  title: Forest area net change rate (Percentage)
+- series: Above-ground biomass stock in forest
+  title: Above-ground biomass stock in forest (Tonnes/hectare)
+- series: Proportion of forest area located within legally established protected areas
+  title: Proportion of forest area located within legally established protected areas
+    (Percentage)
+- series: Proportion of forest area under a long term forest management plan
+  title: Proportion of forest area under a long term forest management plan (Percentage)
+- series: "\xC2\_'Forest area under an independently verified forest management certification\
+    \ scheme'"
+  title: "\xC2\_'Forest area under an independently verified forest management certification\
+    \ scheme (Hectares)'"
 graph_type: line
 indicator_name: global_indicators.15-2-1-title
-indicator_number: '15.2.1'
-national_geographical_coverage: 'Canada'
+indicator_number: 15.2.1
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
+progress_calculation_options:
+- direction: positive
+  target_year: 2020
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-
-# progress calculation options
-auto_progress_calculation: true
-progress_calculation_options:
-#- target: 
--  target_year: 2020
-   direction: 
+"\xEF\xBB\xBFcomposite_breakdown_label": ''

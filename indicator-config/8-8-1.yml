@@ -1,5 +1,5 @@
-﻿composite_breakdown_label: ''
-computation_units: 'Number'
+auto_progress_calculation: true
+computation_units: Number
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -7,18 +7,18 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values: 
-    - field: Sex
-      value: Male
-    - field: Sex
-      value: Female
+data_start_values:
+- field: Sex
+  value: Male
+- field: Sex
+  value: Female
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: 
-    - Sex
+expected_disaggregations:
+- Sex
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
@@ -27,15 +27,16 @@ graph_titles: []
 graph_type: line
 indicator_available: Number of fatality and lost time claims, by sex
 indicator_name: global_indicators.8-8-1-title
-indicator_number: '8.8.1.a'
-national_geographical_coverage: 'Canada'
+indicator_number: 8.8.1.a
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
-progress_status: substantial_deterioration # hand calculated
+progress_calculation_options:
+- direction: negative
+progress_status: substantial_deterioration
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-# progress calculation options
-auto_progress_calculation: false # data disaggregated by default - needs hand calc
+"\xEF\xBB\xBFcomposite_breakdown_label": ''
