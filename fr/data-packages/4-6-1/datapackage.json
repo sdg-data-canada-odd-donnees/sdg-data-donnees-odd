@@ -78,20 +78,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Literacy",
-                "Numeracy",
+                "Alphabétisme",
+                "Arithmétique",
                 ""
               ]
             },
-            "title": "Skill"
+            "title": "Compétences"
           },
           {
             "name": "Proficiency level",
             "type": "string",
             "constraints": {
               "enum": [
-                "2 or below",
-                "3 or above",
+                "2 ou moins",
+                "3 ou plus",
                 ""
               ]
             },
