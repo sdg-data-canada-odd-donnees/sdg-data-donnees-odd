@@ -1,4 +1,4 @@
-﻿composite_breakdown_label: ''
+auto_progress_calculation: true
 computation_units: Percentage
 copyright: ''
 data_footnote: ''
@@ -13,8 +13,8 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: 
-    - Population
+expected_disaggregations:
+- Population
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
@@ -22,18 +22,17 @@ graph_title: proxy.3-8-2-title
 graph_titles: []
 graph_type: line
 indicator_name: proxy.3-8-2-title
-indicator_number: '3.8.2'
-national_geographical_coverage: 'Canada'
+indicator_number: 3.8.2
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
+progress_calculation_options:
+- direction: negative
 progress_status: substantial_deterioration
 reporting_status: complete
 sort: ''
 standalone: false
-tags: 
-    - Proxy
-# progress calculation options
-auto_progress_calculation: true
-progress_calculation_options:
-- direction: negative
+tags:
+- Proxy
+"\xEF\xBB\xBFcomposite_breakdown_label": ''

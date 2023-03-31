@@ -1,6 +1,6 @@
-﻿auto_progress_calculation: true
+auto_progress_calculation: true
 composite_breakdown_label: ''
-computation_units: 'Percentage'
+computation_units: Percentage
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -8,11 +8,6 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values:
-    - field: Demographic
-      value: Total visible minority
-    - field: Demographic
-      value: Not a visible minority
 data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
@@ -27,12 +22,15 @@ graph_title: global_indicators.16-1-4-title
 graph_titles: []
 graph_type: bar
 indicator_name: global_indicators.16-1-4-title
-indicator_number: '16.1.4'
-national_geographical_coverage: 'Canada'
+indicator_number: 16.1.4
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
+progress_calculation_options:
+- direction: positive
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+"\xEF\xBB\xBFauto_progress_calculation": true

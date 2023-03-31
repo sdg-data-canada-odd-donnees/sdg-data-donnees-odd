@@ -1,4 +1,4 @@
-﻿composite_breakdown_label: ''
+auto_progress_calculation: true
 computation_units: ''
 copyright: ''
 data_footnote: ''
@@ -21,20 +21,17 @@ graph_title: global_indicators.17-15-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.17-15-1-title
-indicator_number: '17.15.1'
+indicator_number: 17.15.1
 national_geographical_coverage: ''
-page_content: >-
-    <p><strong>Non-statistical indicator</strong></p><p>We have identified the following to be relevant to this indicator - <a href="https://www.canada.ca/en/employment-social-development/programs/poverty-reduction.html">Canadian Poverty Reduction Strategy</a> and <a href="https://www.canada.ca/en/employment-social-development/programs/agenda-2030/federal-implementation-plan.html">Canada's Federal Implementation Plan for the 2030 Agenda</a></p>.
+page_content: <p><strong>Non-statistical indicator</strong></p><p>We have identified
+  the following to be relevant to this indicator - <a href="https://www.canada.ca/en/employment-social-development/programs/poverty-reduction.html">Canadian
+  Poverty Reduction Strategy</a> and <a href="https://www.canada.ca/en/employment-social-development/programs/agenda-2030/federal-implementation-plan.html">Canada's
+  Federal Implementation Plan for the 2030 Agenda</a></p>.
 permalink: ''
 precision: []
+progress_status: target_achieved
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-
-# progress calculation options
-auto_progress_calculation: true
-# progress_calculation_options:
-#- target:
-#  target_year: 
-#  direction: 
+"\xEF\xBB\xBFcomposite_breakdown_label": ''

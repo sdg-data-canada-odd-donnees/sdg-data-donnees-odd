@@ -1,4 +1,4 @@
-﻿composite_breakdown_label: ''
+auto_progress_calculation: true
 computation_units: ''
 copyright: ''
 data_footnote: ''
@@ -21,20 +21,16 @@ graph_title: global_indicators.16-10-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.16-10-2-title
-indicator_number: '16.10.2'
+indicator_number: 16.10.2
 national_geographical_coverage: ''
-page_content: >-
-    <p><strong>Non-statistical indicator</strong></p><p>We have identified the following to be relevant to this indicator - <a href="http://laws-lois.justice.gc.ca/eng/acts/A-1/page-1.html">Access to Information Act</a></p>.
+page_content: <p><strong>Non-statistical indicator</strong></p><p>We have identified
+  the following to be relevant to this indicator - <a href="http://laws-lois.justice.gc.ca/eng/acts/A-1/page-1.html">Access
+  to Information Act</a></p>.
 permalink: ''
 precision: []
+progress_status: target_achieved
 reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-
-# progress calculation options
-auto_progress_calculation: true
-# progress_calculation_options:
-#- target:
-#  target_year:
-#  direction:
+"\xEF\xBB\xBFcomposite_breakdown_label": ''
