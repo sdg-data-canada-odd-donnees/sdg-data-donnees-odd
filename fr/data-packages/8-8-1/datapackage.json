@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Number of fatality claims, by sex",
-                "Number of lost time claims, by sex",
+                "Nombre de demandes d’indemnisation pour décès, selon le sexe",
+                "Nombre de réclamations avec perte de temps, selon le sexe",
                 ""
               ]
             },
