@@ -79,12 +79,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Census subdivisions in a census agglomeration",
-                "Area outside census metropolitan areas and census agglomeration",
+                "Subdivisions de recensement dans une agglomération de recensement",
+                "Région à l’extérieur des régions métropolitaines de recensement et des agglomérations de recensement",
                 ""
               ]
             },
-            "title": "Census divisions"
+            "title": "Divisions de recensement"
           },
           {
             "name": "GeoCode",

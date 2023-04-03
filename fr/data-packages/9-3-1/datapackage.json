@@ -48,16 +48,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "1-9 employees",
-                "10-19 employees",
-                "20-49 employees",
-                "50-249 employees",
-                "250 employees and more",
+                "1-9 employés",
+                "10-19 employés",
+                "20-49 employés",
+                "50-249 employés",
+                "250 employés et plus",
                 "All enterprises",
                 ""
               ]
             },
-            "title": "Size"
+            "title": "Taille"
           },
           {
             "name": "Value",
