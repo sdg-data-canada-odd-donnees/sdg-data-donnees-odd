@@ -888,11 +888,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Air freight volume",
-                "Air passengers",
-                "Rail freight volume",
-                "Rail passengers",
-                "Road freight volume",
+                "Volume de fret aérien",
+                "Passagers aériens",
+                "Volume de fret ferroviaire",
+                "Voyageurs ferroviaires",
+                "Volume de fret routier",
                 ""
               ]
             },
@@ -903,7 +903,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Metric tonnes",
+                "Tonnes métriques",
                 "Number of passengers",
                 "Metric tonnes of cargo",
                 ""
@@ -1122,9 +1122,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Evolved High-Speed Packet Access (HSPA+)",
-                "Long-Term Evolution (LTE)",
-                "Long-Term Evolution - A (LTE-A)",
+                "Accès haute vitesse évolué par paquets (HSPA+)",
+                "Évolution à long terme (LTE)",
+                "Évolution à long terme - A (LTE-A)",
                 "5G",
                 ""
               ]
@@ -1735,24 +1735,24 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Food products",
-                "Beverages",
+                "Produits alimentaires",
+                "Boissons",
                 "Textiles",
-                "Wood products, excluding furniture",
-                "Paper and paper products",
-                "Printing and reproduction of recorded media",
-                "Coke and refined petroleum products",
-                "Rubber and plastics products",
-                "Other non-metallic mineral products",
-                "Basic metals",
-                "Fabricated metal products, except machinery",
-                "Computer, electronic and optical products",
-                "Electrical equipment",
-                "Machinery and equipment n.e.c.",
-                "Motor vehicles, trailers and semi-trailers",
-                "Furniture",
-                "Other manufacturing",
-                "Total manufacturing",
+                "Produits du bois, à l’exclusion des meubles",
+                "Papier et produits du papier",
+                "Impression et reproduction de supports enregistrés",
+                "Coke et produits pétroliers raffinés",
+                "Produits en caoutchouc et en plastique",
+                "Autres produits minéraux non métalliques",
+                "Métaux de base",
+                "Ouvrages en métaux, à l’exception des machines",
+                "Produits informatiques, électroniques et optiques",
+                "Matériel électrique",
+                "Machines et équipements n.c.a.",
+                "Véhicules automobiles, remorques et semi-remorques",
+                "Mobilier",
+                "Autres industries manufacturières",
+                "Total de l’industrie manufacturière",
                 ""
               ]
             },
@@ -1979,13 +1979,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "All employees",
-                "Salaried employees paid a fixed salary",
-                "Employees paid by the hour",
+                "Ensemble des salariés",
+                "Employés à salaire fixe",
+                "Salariés rénumérés à l'heure",
                 ""
               ]
             },
-            "title": "Type of employee"
+            "title": "Type de salariés"
           },
           {
             "name": "Industry",
@@ -2926,7 +2926,7 @@
                 ""
               ]
             },
-            "title": "Science type"
+            "title": "Type de science"
           },
           {
             "name": "GeoCode",
