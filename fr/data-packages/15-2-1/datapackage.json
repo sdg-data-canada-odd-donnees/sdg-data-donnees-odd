@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage (%)",
+                "Pourcentage (%)",
                 "Tonnes/hectare",
                 "Hectares",
                 ""
@@ -33,11 +33,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Forest area net change rate",
-                "Above-ground biomass stock in forest",
-                "Proportion of forest area located within legally established protected areas",
-                "Proportion of forest area under a long term forest management plan",
-                "Forest area under an independently verified forest management certification scheme",
+                "Taux de variation nette de la superficie forestière",
+                "Stock de biomasse aérienne en forêt",
+                "Proportion de la superficie forestière située dans des aires protégées légalement établies",
+                "Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme",
+                "Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante",
                 ""
               ]
             },
