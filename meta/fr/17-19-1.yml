@@ -21,8 +21,9 @@ SDG_TARGET__GLOBAL: '<p>Cible 17.19: D’ici à 2030, tirer parti des initiative
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.19.1: Valeur (en dollars) de l’ensemble des
   ressources allouées au renforcement des capacités statistiques des pays en développement</p>'
 
-## SOURCE(S)
+## SOURCE(S)    
+reporting_status: complete
 source_active_1: 'true'
-source_organisation_1: <a href="https://www.oecd.org/"> Organisation de coopération et de développement économiques (OCDE) </a>
+source_url_text_1: Creditor Reporting System (CRS)
 source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
-source_url_text_1: OCDE - Système de notification des pays créanciers (SNPC)
+source_organisation_1: OCDE

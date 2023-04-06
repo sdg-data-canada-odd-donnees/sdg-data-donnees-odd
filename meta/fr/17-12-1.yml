@@ -8,7 +8,8 @@ SDG_TARGET: '<p>Cible 17.12: Permettre l’accès rapide de tous les pays les mo
 SDG_INDICATOR: '<p>Indicateur 17.12.1: Moyenne pondérée des droits de douane appliqués
   aux pays en développement, aux pays les moins avancés et aux petits États insulaires
   en développement</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: |
+  Droits d’importation moyens (en pourcentage) appliqués aux produits exportés des pays en développement et des pays les moins avancés.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
