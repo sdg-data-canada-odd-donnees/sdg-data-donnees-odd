@@ -1,0 +1,36 @@
+# NATIONAL
+SDG_GOAL: |
+    6 Eau propre et assainissement
+SDG_TARGET: |
+    6.3 D'ici à 2030, améliorer la qualité de l'eau en réduisant la pollution, en éliminant l'immersion de déchets et en réduisant au minimum les émissions de produits chimiques et de matières dangereuses, en diminuant de moitié la proportion d'eaux usées non traitées et en augmentant nettement à l'échelle mondiale le recyclage et la réutilisation sans danger de l'eau.
+SDG_INDICATOR: |
+    6.3.1 Proportion des eaux usées d'origine ménagère et industrielle traitées sans danger
+STAT_CONC_DEF: '    '
+DATA_COMP: |
+    (Traitement primaire + Traitement secondaire + Traitement tertiaire) / Volume total
+REC_USE_LIM: '  '
+
+# GLOBAL
+SDG_GOAL__GLOBAL: |
+    6 Eau propre et assainissement
+SDG_TARGET__GLOBAL: |
+    6.3 D'ici à 2030, améliorer la qualité de l'eau en réduisant la pollution, en éliminant l'immersion de déchets et en réduisant au minimum les émissions de produits chimiques et de matières dangereuses, en diminuant de moitié la proportion d'eaux usées non traitées et en augmentant nettement à l'échelle mondiale le recyclage et la réutilisation sans danger de l'eau.
+SDG_INDICATOR__GLOBAL: |
+    6.3.1 Proportion des eaux usées d'origine ménagère et industrielle traitées sans danger
+un_designated_tier: Tier II
+un_custodian_agency: United Nations Environment Programme (UNEP) (GEMS/Water)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
+  MB)
+ 
+# SOURCE(S)
+source_active_1: true
+source_url_text_1: |
+    Statistique Canada. Tableau 38-10-0124-01  Volume d'eaux usées rejetées des systèmes d'égout municipal, selon la catégorie de traitement (x 1 000 000)
+source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=3810012401
+
+
+source_active_2: true
+source_url_text_2: |
+    Statistique Canada. Tableau 38-10-0060-01  Évacuation de l'eau dans les industries de la fabrication, selon le type de traitement final et l'industrie (x 1 000 000)
+source_url_2: https://doi.org/10.25318/3810006001

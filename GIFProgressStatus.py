@@ -175,7 +175,7 @@ def update_progress_status(indicator_ids):
                 old_pm = None
 
             # Run data + metadata through calculation to get progress
-            progress = pm.measure_indicator_progress(indicator)
+            progress = pm.measure_indicator_progress(indicator, False)
             all_progress_statuses[ind_id] = progress
 
             if progress is not None:
@@ -187,7 +187,7 @@ def update_progress_status(indicator_ids):
                 # Update progress status field in meta
                 progress_dict = {'progress_status': progress}
                 # Uncomment to update metadata files
-                update_progress_status_meta(progress_dict, ind_id)
+                # update_progress_status_meta(progress_dict, ind_id)
     return progress_diff
 
 
@@ -203,11 +203,11 @@ indicator_ids = get_indicator_ids()
 #     turn_on_progress_calc(ind_id)
 #     remove_progress_configs(ind_id)
 
-# diffs = update_progress_status(indicator_ids)
+diffs = update_progress_status(indicator_ids)
 # update_progress_diff(diffs)
 
 # individal calculations result ----
-test_ind = merge_indicator('17-1-2')
-test_data = pm.data_progress_measure(test_ind['data'])
-print(test_data)
-print(pm.measure_indicator_progress(test_ind))
+# test_ind = merge_indicator('4-2-2')
+# test_data = pm.data_progress_measure(test_ind['data'])
+# print(test_data)
+# print(pm.measure_indicator_progress(test_ind))
