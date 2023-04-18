@@ -3315,6 +3315,127 @@
       "title": "global_indicators.2-3-1-title"
     },
     {
+      "path": "9-3-2/data.csv",
+      "name": "9-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Request rate, line of credit",
+                "Request rate, term loan",
+                "Overall approval rate, line of credit",
+                "Overall approval rate, term loan",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "All small and medium enterprises",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Employment size",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1 to 4 employees",
+                "5 to 19 employees",
+                "20 to 99 employees",
+                "100 to 499 employees",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Atlantic Region",
+                "Quebec Region",
+                "Ontario Region",
+                "Prairies Region",
+                "British Columbia and Territories Region",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Industries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Construction (NAICS 23)",
+                "Manufacturing (NAICS 31-33)",
+                "Wholesale trade (NAICS 41)",
+                "Retail trade (NAICS 44-45)",
+                "Transportation and warehousing (NAICS 48-49)",
+                "Scientific and technical services (NAICS 54)",
+                "Accommodation and food services (NAICS 72)",
+                "Other services (NAICS 81)",
+                "Other industries from the North American Industrial Classification System (NAICS)",
+                "Tourism",
+                "Information and communication technologies (ICT)",
+                "Knowledge-based industries (KBI)",
+                "Advanced technology",
+                "Advanced manufacturing",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age of primary decision maker",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Younger than 30 years old",
+                "30 to 39 years old",
+                "40 to 49 years old",
+                "50 to 64 years old",
+                "65 years old and older",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Ownership demographics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Small and medium enterprises",
+                "Indigenous",
+                "Visible minority",
+                "Person(s) with a disability",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-3-2-title"
+    },
+    {
       "path": "3-a-1/data.csv",
       "name": "3-a-1",
       "profile": "tabular-data-resource",
@@ -6924,28 +7045,6 @@
         ]
       },
       "title": "global_indicators.12-4-1-title"
-    },
-    {
-      "path": "9-3-2/data.csv",
-      "name": "9-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-3-2-title"
     },
     {
       "path": "15-c-1/data.csv",
