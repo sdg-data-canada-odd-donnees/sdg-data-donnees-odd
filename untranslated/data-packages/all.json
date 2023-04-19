@@ -3342,15 +3342,6 @@
             }
           },
           {
-            "name": "All small and medium enterprises",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
             "name": "Employment size",
             "type": "string",
             "constraints": {
@@ -3419,7 +3410,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Small and medium enterprises",
+                "Women",
                 "Indigenous",
                 "Visible minority",
                 "Person(s) with a disability",
