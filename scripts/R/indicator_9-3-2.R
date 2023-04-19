@@ -86,7 +86,7 @@ data_final <-
     names_from = Char_type,
     values_from = Char
   ) %>%
-  select(-id) %>%
+  select(-c("id", "All small and medium enterprises")) %>%
   relocate(Value, .after = last_col())
 
 write.csv(
