@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Nombre",
                 "Taux pour 100 000 habitants",
+                "Nombre",
                 ""
               ]
             },

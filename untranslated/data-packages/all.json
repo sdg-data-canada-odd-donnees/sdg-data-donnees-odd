@@ -286,8 +286,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Number",
                 "Rate per 100,000 population",
+                "Number",
                 ""
               ]
             }
