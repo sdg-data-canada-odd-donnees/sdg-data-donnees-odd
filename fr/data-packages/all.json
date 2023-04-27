@@ -704,6 +704,59 @@
       "title": "Nombre de victimes d’homicide volontaire pour 100 000 habitants, par sexe et âge"
     },
     {
+      "path": "1-5-1/data.csv",
+      "name": "1-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Taux pour 100 000 habitants",
+                "Nombre",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Type of natural disaster",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Météorologique - Inondation",
+                "Météorologique - Tempête",
+                "Météorologique - Tornade",
+                "Météorologique - Feu de forêt",
+                "Meteorological - Winter storm",
+                "Meteorological - Heat event",
+                "Météorologique - Ouragan",
+                ""
+              ]
+            },
+            "title": "Type de catastrophe naturelle"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes"
+    },
+    {
       "path": "3-9-3/data.csv",
       "name": "3-9-3",
       "profile": "tabular-data-resource",
@@ -8487,30 +8540,6 @@
         ]
       },
       "title": "Nombre de pays ayant adopté des cadres législatifs, administratifs et opérationnels destinés à assurer un partage juste et équitable des bénéfices"
-    },
-    {
-      "path": "1-5-1/data.csv",
-      "name": "1-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes"
     },
     {
       "path": "4-c-1/data.csv",
