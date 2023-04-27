@@ -7,7 +7,18 @@ REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
 SDG_TARGET__GLOBAL: "<p>Cible 1.5: D’ici à 2030, renforcer la résilience des pauvres et des personnes en situation vulnérable et réduire leur exposition aux phénomènes climatiques extrêmes et à d’autres chocs et catastrophes d’ordre économique, social ou environnemental et leur vulnérabilité</p>"
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.5.1 : Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes'
-un_designated_tier: Tier II
-un_custodian_agency: United Nations International Strategy for Disaster Reduction(UNISDR)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+reporting_status: notstarted
+
+source_active_1: 'true'
+source_url_text_1: |
+    Sécurité publique Canada. Base de données canadienne sur les catastrophes
+source_url_1: https://www.securitepublique.gc.ca/cnt/rsrcs/cndn-dsstr-dtbs/index-fr.aspx
+source_organisation_1: Sécurité publique Canada
+
+source_active_2: 'true'
+source_url_text_2: 'Tableau 17-10-0005-01  Estimations de la population au 1er juillet, par âge et sexe'
+source_url_2: https://doi.org/10.25318/1710000501-fra
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada, Province or territory
