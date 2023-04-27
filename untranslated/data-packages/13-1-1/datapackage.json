@@ -12,7 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number",
+                "Rate per 100,000 population",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of natural disaster",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Meteorological - Flood",
+                "Meteorological - Storm",
+                "Meteorological - Tornado",
+                "Meteorological - Wildfire",
+                "Meteorological - Winter storm",
+                "Meteorological - Heat event",
+                "Meteorological - Hurricane",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

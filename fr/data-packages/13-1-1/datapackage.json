@@ -12,8 +12,37 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nombre",
+                "Taux pour 100 000 habitants",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Type of natural disaster",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Météorologique - Inondation",
+                "Météorologique - Tempête",
+                "Météorologique - Tornade",
+                "Météorologique - Feu de forêt",
+                "Meteorological - Winter storm",
+                "Meteorological - Heat event",
+                "Météorologique - Ouragan",
+                ""
+              ]
+            },
+            "title": "Type de catastrophe naturelle"
           },
           {
             "name": "Value",
