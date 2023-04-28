@@ -12,7 +12,21 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Type of natural disaster",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Meteorological - Flood",
+                "Meteorological - Storm",
+                "Meteorological - Winter storm",
+                "Meteorological - Wildfire",
+                "Meteorological - Heat event",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
