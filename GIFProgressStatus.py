@@ -196,12 +196,14 @@ def get_goal_progress(indicator_ids):
     scores = {}
 
     for ind_id in indicator_ids:
-        print(ind_id)
-
-        goal = ind_id[0]
+        # goal = ind_id[0]
         indicator = merge_indicator(ind_id)
         score = pm.get_indicator_score(indicator)
+        print(ind_id + ": " + str(score))
         scores[ind_id] = score
+
+    manual_input = {'8-2-1': -5, '9-2-1': 4.273685, '15-1-2': 0.02720645}
+    scores.update(manual_input)
 
     print(scores)
 
@@ -229,8 +231,8 @@ update_progress_diff(diffs)
 get_goal_progress(indicator_ids)
 
 # individal calculations result ----
-test_ind = merge_indicator('1-2-1')
-test_data = pm.data_progress_measure(test_ind['data'])
-print(test_data)
-print(pm.progress_measure(test_ind))
-print(pm.score_calculation(-1, None))
+# test_ind = merge_indicator('1-2-1')
+# test_data = pm.data_progress_measure(test_ind['data'])
+# print(test_data)
+# print(pm.progress_measure(test_ind))
+print(pm.score_calculation(0.0001088258, target=None))
