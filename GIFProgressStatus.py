@@ -175,7 +175,7 @@ def update_progress_status(indicator_ids):
                 old_pm = None
 
             # Run data + metadata through calculation to get progress
-            progress = pm.measure_indicator_progress(indicator, False)
+            progress = pm.progress_measure(indicator)
             all_progress_statuses[ind_id] = progress
 
             if progress is not None:
@@ -187,8 +187,29 @@ def update_progress_status(indicator_ids):
                 # Update progress status field in meta
                 progress_dict = {'progress_status': progress}
                 # Uncomment to update metadata files
-                # update_progress_status_meta(progress_dict, ind_id)
+                update_progress_status_meta(progress_dict, ind_id)
     return progress_diff
+
+
+def get_goal_progress(indicator_ids):
+
+    scores = {}
+
+    for ind_id in indicator_ids:
+        print(ind_id)
+
+        goal = ind_id[0]
+        indicator = merge_indicator(ind_id)
+        score = pm.get_indicator_score(indicator)
+        scores[ind_id] = score
+
+    print(scores)
+
+    filepath = os.path.join('indicator_scores.yml')
+    with open(filepath, 'w') as file:
+        outputs = yaml.dump(scores, file)
+
+    return scores
 
 
 indicator_ids = get_indicator_ids()
@@ -204,10 +225,12 @@ indicator_ids = get_indicator_ids()
 #     remove_progress_configs(ind_id)
 
 diffs = update_progress_status(indicator_ids)
-# update_progress_diff(diffs)
+update_progress_diff(diffs)
+get_goal_progress(indicator_ids)
 
 # individal calculations result ----
-# test_ind = merge_indicator('4-2-2')
-# test_data = pm.data_progress_measure(test_ind['data'])
-# print(test_data)
-# print(pm.measure_indicator_progress(test_ind))
+test_ind = merge_indicator('1-2-1')
+test_data = pm.data_progress_measure(test_ind['data'])
+print(test_data)
+print(pm.progress_measure(test_ind))
+print(pm.score_calculation(-1, None))
