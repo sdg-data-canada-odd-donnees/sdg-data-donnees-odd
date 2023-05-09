@@ -1104,14 +1104,31 @@
               "enum": [
                 "Petits producteurs alimentaires",
                 "Producteurs alimentaires de moyenne à grande échelle",
+                "Total",
                 ""
               ]
             },
             "title": "Taille"
           },
           {
+            "name": "Characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Homme",
+                "Femme",
+                "Moins de 35 ans",
+                "35 à 54 ans",
+                "55 ans et plus",
+                ""
+              ]
+            },
+            "title": "Caractéristiques"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "string",
             "title": "Valeur"
           }
         ]
@@ -2869,14 +2886,31 @@
               "enum": [
                 "Petits producteurs alimentaires",
                 "Producteurs alimentaires de moyenne à grande échelle",
+                "Total",
                 ""
               ]
             },
             "title": "Taille"
           },
           {
+            "name": "Characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Homme",
+                "Femme",
+                "Moins de 35 ans",
+                "35 à 54 ans",
+                "55 ans et plus",
+                ""
+              ]
+            },
+            "title": "Caractéristiques"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "string",
             "title": "Valeur"
           }
         ]

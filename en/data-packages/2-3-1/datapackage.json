@@ -22,14 +22,31 @@
               "enum": [
                 "Small-scale food producers",
                 "Medium-Large scale food producers",
+                "Total",
                 ""
               ]
             },
             "title": "Size"
           },
           {
+            "name": "Characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Male",
+                "Female",
+                "Under 35 years",
+                "35 to 54 years",
+                "55 years and over",
+                ""
+              ]
+            },
+            "title": "Characteristics"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "string",
             "title": "Value"
           }
         ]
