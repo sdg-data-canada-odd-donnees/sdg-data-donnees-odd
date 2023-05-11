@@ -282,7 +282,8 @@ def methodology_2(data, config):
 
     # check if the target is achieved
     if (direction == "negative" and current_value <= target) or (direction == "positive" and current_value >= target):
-        return None
+        # None value indicates that target has been achieved
+        return None 
 
     # calculate observed growth
     cagr_o = growth_calculation(current_value, base_value, t, t_0)
