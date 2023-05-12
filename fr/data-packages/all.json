@@ -5404,6 +5404,59 @@
       "title": "Application des outils comptables usuels au suivi des aspects économiques et écologiques du tourisme durable"
     },
     {
+      "path": "11-5-1/data.csv",
+      "name": "11-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Taux pour 100 000 habitants",
+                "Nombre",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Type of natural disaster",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Météorologique - Inondation",
+                "Météorologique - Tempête",
+                "Météorologique - Tornade",
+                "Météorologique - Feu de forêt",
+                "Meteorological - Winter storm",
+                "Meteorological - Heat event",
+                "Météorologique - Ouragan",
+                ""
+              ]
+            },
+            "title": "Type de catastrophe naturelle"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes"
+    },
+    {
       "path": "9-5-2/data.csv",
       "name": "9-5-2",
       "profile": "tabular-data-resource",
@@ -8541,30 +8594,6 @@
         ]
       },
       "title": "Valeur en dollars de l’aide financière et technique promise aux pays en développement (notamment dans le cadre de la coopération Nord-Sud et Sud-Sud et de la coopération triangulaire)"
-    },
-    {
-      "path": "11-5-1/data.csv",
-      "name": "11-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes"
     },
     {
       "path": "7-1-2/data.csv",
