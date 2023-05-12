@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Objectif 16: Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins 
   du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les 
   niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
@@ -8,6 +9,8 @@ SDG_INDICATOR: '<p>Indicateur 16.2.2: Nombre de victimes de la traite d’être
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 16: Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins 
   du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les 
   niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
@@ -16,5 +19,9 @@ SDG_TARGET__GLOBAL: '<p>Cible 16.2: Mettre un terme à la maltraitance, à l�
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.2.2: Nombre de victimes de la traite d’êtres humains pour 
   100 000 habitants, par sexe, âge et forme d’exploitation</p>'
 
-reporting_status: notstarted
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistique Canada. Centre canadien de la statistique juridique et de la sécurité des collectivités (CCSJSC), Programme de déclaration uniforme de la criminalité (DUC) - Custom tabulation.
+source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=3302
 

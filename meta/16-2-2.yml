@@ -8,7 +8,8 @@ SDG_INDICATOR: '<p>Indicator 16.2.2: Number of victims of human trafficking per 
   population, by sex, age and form of exploitation</p>'
 STAT_CONC_DEF: '  '
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+    <b>Total Human Trafficking</b> is comprised of two violation codes, 1525 "Trafficking in Persons" (S.279.01, 279.011, 279.02, 279.03 of the Criminal Code) and 6510 "Human Trafficking" from S.117 of the Immigration and Refugee Protection Act.<br><br>Human trafficking incidents reported to the Uniform Crime Reporting (UCR) Survey may be undercounted due to differences in police reporting practices for this violation.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
