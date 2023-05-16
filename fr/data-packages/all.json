@@ -5779,7 +5779,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "integer",
             "title": "Valeur"
           }
         ]
@@ -6199,6 +6199,88 @@
       "title": "Sites importants pour la biodiversité des montagnes qui se trouvent dans des aires protégées"
     },
     {
+      "path": "7-1-1/data.csv",
+      "name": "7-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Type of dwelling",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Maison individuelle",
+                "Maison double",
+                "Maison en rangée",
+                "Duplex",
+                "Immeuble d'appartements (moins de 5 étages)\n",
+                "Immeuble d'appartements (5 étages ou plus)\n",
+                "Maison mobile",
+                "Total",
+                ""
+              ]
+            },
+            "title": "Type de logement"
+          },
+          {
+            "name": "Energy type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, tous les types d'énergie\t\n",
+                "Électricité",
+                "Gaz naturel",
+                "Mazout",
+                ""
+              ]
+            },
+            "title": "Type d'énergie\n"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de la population ayant accès à l’électricité"
+    },
+    {
       "path": "2-5-2/data.csv",
       "name": "2-5-2",
       "profile": "tabular-data-resource",
@@ -6567,7 +6649,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "integer",
             "title": "Valeur"
           }
         ]
@@ -8762,30 +8844,6 @@
         ]
       },
       "title": "Nombre de pays qui adoptent et mettent en œuvre des dispositifs visant à encourager l’investissement en faveur des pays en développement, notamment les pays les moins avancés"
-    },
-    {
-      "path": "7-1-1/data.csv",
-      "name": "7-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de la population ayant accès à l’électricité"
     },
     {
       "path": "17-3-1/data.csv",
