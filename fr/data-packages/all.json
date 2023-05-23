@@ -3683,6 +3683,87 @@
       "title": "a) Nombre de succursales de banques commerciales pour 100 000 adultes et b) nombre de distributeurs automatiques de billets pour 100 000 adultes"
     },
     {
+      "path": "17-6-1/data.csv",
+      "name": "17-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion des ménages qui ont accès à des services Internet à large bande à des vitesses de 50/10 Mbps\n",
+                "Abonnements à une connexion à Internet à haut débit fixe\n",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Nouveau-Brunswick",
+                "Colombie-Britannique",
+                "Québec",
+                "Nouvelle-Écosse",
+                "Saskatchewan",
+                "Ontario",
+                "Manitoba",
+                "Île-du-Prince-Édouard",
+                "Territoires du Nord-Ouest",
+                "Alberta",
+                "Terre-Neuve-et-Labrador",
+                "Yukon",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Population centres",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Réserves des Premières Nations",
+                "Réserves des Premières Nations Régions urbaines",
+                "Réserves des Premières Nations Régions rurales",
+                "Régions urbaines",
+                "Régions rurales",
+                "Total centre de population",
+                ""
+              ]
+            },
+            "title": "Centres de population"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Abonnements à une connexion à Internet à haut débit fixe pour 100 habitants, par vitesse de connexion"
+    },
+    {
       "path": "3-d-1/data.csv",
       "name": "3-d-1",
       "profile": "tabular-data-resource",
@@ -8196,30 +8277,6 @@
         ]
       },
       "title": "Nombre de pays progressant dans la ratification, l’acceptation et la mise en œuvre, au moyen de cadres juridiques, opérationnels et institutionnels, des instruments relatifs aux océans visant à donner effet aux dispositions du droit international énoncées dans la Convention des Nations Unies sur le droit de la mer qui concernent la conservation et de l’utilisation durable des océans et de leurs ressources"
-    },
-    {
-      "path": "17-6-1/data.csv",
-      "name": "17-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Abonnements à une connexion à Internet à haut débit fixe pour 100 habitants, par vitesse de connexion"
     },
     {
       "path": "14-6-1/data.csv",

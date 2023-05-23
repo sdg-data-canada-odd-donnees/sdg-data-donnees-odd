@@ -12,8 +12,65 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps",
+                "Number of fixed Internet broadband subscriptions",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "New Brunswick",
+                "British Columbia",
+                "Quebec",
+                "Nova Scotia",
+                "Saskatchewan",
+                "Ontario",
+                "Manitoba",
+                "Prince Edward Island",
+                "Northwest Territories",
+                "Alberta",
+                "Newfoundland and Labrador",
+                "Yukon",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Population centres",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "First Nations reserves",
+                "First Nations reserves Urban centres",
+                "First Nations reserves Rural areas",
+                "Urban centres",
+                "Rural areas",
+                "Total population centre",
+                ""
+              ]
+            },
+            "title": "Population centres"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
