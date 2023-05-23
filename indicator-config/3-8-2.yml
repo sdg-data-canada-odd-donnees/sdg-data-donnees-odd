@@ -1,4 +1,4 @@
-auto_progress_calculation: true
+auto_progress_calculation: false
 computation_units: Percentage
 copyright: ''
 data_footnote: ''
@@ -29,10 +29,11 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
-progress_status: substantial_deterioration
+# manual input
+progress_status: deterioration
 reporting_status: complete
 sort: ''
 standalone: false
 tags:
 - Proxy
-"\xEF\xBB\xBFcomposite_breakdown_label": ''
+

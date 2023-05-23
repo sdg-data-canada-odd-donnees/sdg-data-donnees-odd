@@ -231,8 +231,7 @@ update_progress_diff(diffs)
 get_goal_progress(indicator_ids)
 
 # individal calculations result ----
-# test_ind = merge_indicator('1-2-1')
+# test_ind = merge_indicator('8-8-1')
 # test_data = pm.data_progress_measure(test_ind['data'])
 # print(test_data)
 # print(pm.progress_measure(test_ind))
-print(pm.score_calculation(0.0001088258, target=None))
