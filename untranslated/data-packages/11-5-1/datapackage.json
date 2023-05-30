@@ -19,6 +19,17 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Mortality rate per 100,000 population",
+                "Number of deaths",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Rate per 100,000 population",
                 "Number",
                 ""

@@ -1117,6 +1117,56 @@
       "title": "Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation"
     },
     {
+      "path": "11-5-2/data.csv",
+      "name": "11-5-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic loss/GDP",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Type of natural disaster",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Meteorological - Flood",
+                "Meteorological - Storm",
+                "Meteorological - Winter storm",
+                "Meteorological - Wildfire",
+                "Meteorological - Heat event",
+                ""
+              ]
+            },
+            "title": "Type of natural disaster"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters"
+    },
+    {
       "path": "9-5-1/data.csv",
       "name": "9-5-1",
       "profile": "tabular-data-resource",
@@ -1792,12 +1842,24 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Mortality rate per 100,000 population",
+                "Number of deaths",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Rate per 100,000 population",
                 "Number",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Units"
           },
           {
             "name": "Type of natural disaster",
@@ -5528,12 +5590,24 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Mortality rate per 100,000 population",
+                "Number of deaths",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Rate per 100,000 population",
                 "Number",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Units"
           },
           {
             "name": "Type of natural disaster",
@@ -5959,12 +6033,24 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Mortality rate per 100,000 population",
+                "Number of deaths",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Rate per 100,000 population",
                 "Number",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Units"
           },
           {
             "name": "Type of natural disaster",
@@ -6635,6 +6721,17 @@
             "name": "Year",
             "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic loss/GDP",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Type of natural disaster",
@@ -7557,30 +7654,6 @@
         ]
       },
       "title": "Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis"
-    },
-    {
-      "path": "11-5-2/data.csv",
-      "name": "11-5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters"
     },
     {
       "path": "16-4-2/data.csv",

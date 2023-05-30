@@ -20,12 +20,24 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Mortality rate per 100,000 population",
+                "Number of deaths",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Taux pour 100 000 habitants",
                 "Nombre",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Unités"
           },
           {
             "name": "Type of natural disaster",

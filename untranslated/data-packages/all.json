@@ -1036,6 +1036,52 @@
       "title": "global_indicators.16-2-2-title"
     },
     {
+      "path": "11-5-2/data.csv",
+      "name": "11-5-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic loss/GDP",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of natural disaster",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Meteorological - Flood",
+                "Meteorological - Storm",
+                "Meteorological - Winter storm",
+                "Meteorological - Wildfire",
+                "Meteorological - Heat event",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.11-5-2-title"
+    },
+    {
       "path": "9-5-1/data.csv",
       "name": "9-5-1",
       "profile": "tabular-data-resource",
@@ -1662,6 +1708,17 @@
           },
           {
             "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mortality rate per 100,000 population",
+                "Number of deaths",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5136,6 +5193,17 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Mortality rate per 100,000 population",
+                "Number of deaths",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Rate per 100,000 population",
                 "Number",
                 ""
@@ -5531,6 +5599,17 @@
           },
           {
             "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mortality rate per 100,000 population",
+                "Number of deaths",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
@@ -6160,6 +6239,16 @@
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic loss/GDP",
+                ""
+              ]
+            }
           },
           {
             "name": "Type of natural disaster",
@@ -7007,28 +7096,6 @@
         ]
       },
       "title": "global_indicators.3-b-3-title"
-    },
-    {
-      "path": "11-5-2/data.csv",
-      "name": "11-5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.11-5-2-title"
     },
     {
       "path": "16-4-2/data.csv",

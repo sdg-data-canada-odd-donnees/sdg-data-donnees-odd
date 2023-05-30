@@ -16,6 +16,17 @@
             "title": "Année"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic loss/GDP",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {

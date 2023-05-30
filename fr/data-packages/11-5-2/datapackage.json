@@ -12,8 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic loss/GDP",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Type of natural disaster",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Météorologique - Inondation",
+                "Météorologique - Tempête",
+                "Meteorological - Winter storm",
+                "Météorologique - Feu de forêt",
+                "Meteorological - Heat event",
+                ""
+              ]
+            },
+            "title": "Type de catastrophe naturelle"
           },
           {
             "name": "Value",

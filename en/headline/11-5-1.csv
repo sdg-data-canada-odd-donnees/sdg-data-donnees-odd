@@ -1,13 +1,13 @@
-Year,Value,Series
-2015,1995.19,"Rate per 100,000 population"
-2016,4845.27,"Rate per 100,000 population"
-2017,920.81,"Rate per 100,000 population"
-2018,5815.98,"Rate per 100,000 population"
-2019,29.8,"Rate per 100,000 population"
-2020,1330.34,"Rate per 100,000 population"
-2015,712343.0,Number
-2016,1749602.0,Number
-2017,336511.0,Number
-2018,2155700.0,Number
-2019,12992.0,Number
-2020,505626.0,Number
+Year,Value,Units,Series
+2015,1995.19,"Rate per 100,000 population","Mortality rate per 100,000 population"
+2016,4845.27,"Rate per 100,000 population","Mortality rate per 100,000 population"
+2017,920.81,"Rate per 100,000 population","Mortality rate per 100,000 population"
+2018,5815.98,"Rate per 100,000 population","Mortality rate per 100,000 population"
+2019,29.8,"Rate per 100,000 population","Mortality rate per 100,000 population"
+2020,1330.34,"Rate per 100,000 population","Mortality rate per 100,000 population"
+2015,712343.0,Number,Number of deaths
+2016,1749602.0,Number,Number of deaths
+2017,336511.0,Number,Number of deaths
+2018,2155700.0,Number,Number of deaths
+2019,12992.0,Number,Number of deaths
+2020,505626.0,Number,Number of deaths
