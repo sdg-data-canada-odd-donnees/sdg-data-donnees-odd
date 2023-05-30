@@ -19,7 +19,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Economic loss/GDP",
+                "Economic loss CAN dollars $/GDP",
                 ""
               ]
             }
