@@ -12,8 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Empreinte matérielle",
+                "Empreinte matérielle par habitant",
+                "Empreinte matérielle par unité de PIB",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Millions de tonnes métriques",
+                "Tonnes métriques",
+                "Tonnes métriques par PIB (millions de dollars CAD)",
+                ""
+              ]
+            },
+            "title": "Unités"
           },
           {
             "name": "Value",
