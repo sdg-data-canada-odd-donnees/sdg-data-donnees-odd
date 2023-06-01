@@ -27,7 +27,8 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
-- target_year: 2020
+- direction: negative
+  target_year: 2020
 reporting_status: complete
 sort: ''
 standalone: false
