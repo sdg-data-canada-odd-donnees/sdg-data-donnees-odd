@@ -1,3 +1,4 @@
+auto_progress_calculation: true
 computation_units: ''
 copyright: ''
 data_footnote: ''
@@ -21,13 +22,14 @@ graph_titles: []
 graph_type: line
 indicator_name: global_indicators.12-2-1-title
 indicator_number: 12.2.1
-national_geographical_coverage: ''
+national_geographical_coverage: 'Canada'
 page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
-reporting_status: notstarted
+  target_year: 2020
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
