@@ -1,23 +1,18 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and modern
-  energy for all</p>'
-SDG_TARGET: '<p>Target 7.1: By 2030, ensure universal access to affordable, reliable
-  and modern energy services</p>'
-SDG_INDICATOR: |
-    Indicator 7.1.1: Household use of electricity
+SDG_GOAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all</p>'
+SDG_TARGET: '<p>Target 7.1: By 2030, ensure universal access to affordable, reliable and modern energy services</p>'
+SDG_INDICATOR: '<p>Target 7.1.1: Proportion of population with access to electricity</p>'
 DATA_COMP: '   '
 REC_USE_LIM: |
-    Electricity use by households include households that use an energy supplier (hydro company). No estimate is created for households who do not use an energy supplier to access electricity (they are not asked if the households if they generate power themselves (e.g., through solar panels)).
-UNIT_OF_MEASURE: Gigajoules per household
-COVERAGE: Canada, Province or territory
+  Countries classified as “High Income” based on the World Bank Country and Lending Groups are assumed to reach universal 
+  access from the first year the country joined the category.
+UNIT_OF_MEASURE: Percentage (%)
+COVERAGE: Canada
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and
-  modern energy for all</p>'
-SDG_TARGET__GLOBAL: '<p>Target 7.1: By 2030, ensure universal access to affordable,
-  reliable and modern energy services</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 7.1.1: Proportion of population with access to
-  electricity</p>'
+SDG_GOAL__GLOBAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all</p>'
+SDG_TARGET__GLOBAL: '<p>Target 7.1: By 2030, ensure universal access to affordable, reliable and modern energy services</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicator 7.1.1: Proportion of population with access to electricity</p>'
 un_designated_tier: Tier I
 un_custodian_agency: World Bank (WB)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-01.pdf
@@ -26,17 +21,4 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistics Canada. Table 25-10-0060-01  Household energy consumption, Canada and provinces
-source_url_1: https://doi.org/10.25318/2510006001-eng
-source_organisation_1: Statistics Canada
-source_periodicity_1: Every 2 years
-source_geographical_coverage_1: Canada, Province or territory
 
-source_active_2: 'true'
-source_url_text_2: |
-    Statistics Canada. Table 25-10-0061-01  Household energy consumption, by type of dwelling, Canada and provinces
-source_url_2: https://doi.org/10.25318/2510006101-eng
-source_organisation_2: Statistics Canada
-source_periodicity_2: Every 2 years
-source_geographical_coverage_2: Canada, Province or territory

@@ -3,12 +3,10 @@ SDG_GOAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergét
   durables et modernes, à un coût abordable.</p>'
 SDG_TARGET: '<p>Cible 7.1 : D’ici à 2030, garantir l’accès de tous à des services
   énergétiques fiables et modernes, à un coût abordable.</p>'
-SDG_INDICATOR: |
-    Indicateur 7.1.1 : Consommation d'électricité par les ménages
+SDG_INDICATOR: '<p>Cible 7.1.1 : Proportion de la population ayant accès à l’électricité</p>'
 STAT_CONC_DEF: '    '
 DATA_COMP: '   '
-REC_USE_LIM: |
-    La consommation d'électricité par les ménages comprend les ménages qui ont recours aux services d'un fournisseur d'énergie (société hydroélectrique). Aucune estimation n'est produite pour les ménages qui ne passent pas par un fournisseur d'énergie pour accéder à de l'électricité (on ne leur demande pas s'ils produisent eux-mêmes leur électricité [p. ex. grâce à des panneaux solaires]).
+REC_USE_LIM: '    '
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques
@@ -20,11 +18,3 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.1.1 : Proportion de la population ayant 
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistique Canada. Tableau 25-10-0060-01  Consommation d'énergie des ménages, Canada et les provinces
-source_url_1: https://doi.org/10.25318/2510006001-fra
-
-source_active_2: 'true'
-source_url_text_2: |
-    Statistique Canada. Tableau 25-10-0061-01  Consommation d'énergie des ménages, par type de logement, Canada et les provinces
-source_url_2: https://doi.org/10.25318/2510006101-fra
