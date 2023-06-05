@@ -1,5 +1,7 @@
+#
+# # 3.9.2 -------------------------------------------------------------------
 
-# 3.9.2 -------------------------------------------------------------------
+# TODO: rewrite so that get_cansim line only contains
 
 library(dplyr)
 library(cansim)
@@ -33,37 +35,37 @@ causes_of_death <- tribble(
   "Other acute lower respiratory infections", "acute respiratory infections",
   "Severe acute respiratory syndrome", "acute respiratory infections",
   "Congenital pneumonia", "acute respiratory infections"
-) %>% 
+) %>%
   mutate(`Type of disease` = str_to_sentence(`Type of disease`))
 
 get_cause_of_death_data <- function(tbl_no) {
 
-  get_cansim(tbl_no, factors = FALSE) %>% 
+  get_cansim(tbl_no, factors = FALSE) %>%
   mutate(
     `Cause of death (ICD-10)` = str_remove(`Cause of death (ICD-10)`, " \\[.*\\]")
-  ) %>% 
+  ) %>%
   filter(
     REF_DATE >= 2015,
     `Age group` == "Total, all ages",
     Sex == "Both sexes",
     `Cause of death (ICD-10)` %in% causes_of_death$cause
-  ) %>% 
+  ) %>%
   select(
     Year = REF_DATE,
     `Cause of death (ICD-10)`,
     Value = VALUE
   )
-  
+
 }
 
-pop <- 
-  get_cansim("17-10-0005-01", factors = FALSE) %>% 
+pop <-
+  get_cansim("17-10-0005-01", factors = FALSE) %>%
   filter(
     REF_DATE >= 2015,
     GEO == "Canada",
     Sex == "Both sexes",
     `Age group` == "All ages"
-  ) %>% 
+  ) %>%
   select(
     Year = REF_DATE,
     Population = VALUE
@@ -71,12 +73,12 @@ pop <-
 
 data <- purrr::map_dfr(chapter_tbls, get_cause_of_death_data)
 
-data <- 
-  data %>% 
-  left_join(causes_of_death, by = c("Cause of death (ICD-10)" = "cause")) %>% 
-  group_by(Year, `Type of disease`) %>% 
-  summarise(Deaths = sum(Value, na.rm = TRUE), .groups = "keep") %>% 
-  left_join(pop) %>% 
+data <-
+  data %>%
+  left_join(causes_of_death, by = c("Cause of death (ICD-10)" = "cause")) %>%
+  group_by(Year, `Type of disease`) %>%
+  summarise(Deaths = sum(Value, na.rm = TRUE), .groups = "keep") %>%
+  left_join(pop) %>%
   transmute(Value = round((Deaths/Population)*100000, 3))
 
 write.csv(

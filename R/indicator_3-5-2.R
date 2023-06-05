@@ -5,6 +5,7 @@ library(cansim)
 library(dplyr)
 
 alc_sales <- get_cansim("10-10-0010-01", factors = FALSE)
+geocodes <- read.csv("geocodes.csv")
 
 alc_sales_total <-
   alc_sales %>%
@@ -16,10 +17,12 @@ alc_sales_total <-
     `Value, volume and absolute volume` == "Absolute volume for total per capita sales"
   ) %>%
   select(
-    Date = REF_DATE,
+    Year = REF_DATE,
     Geography = GEO,
     Value = VALUE
-  )
+  ) %>% 
+  left_join(geocodes) %>% 
+  relocate(GeoCode, .before = Value)
 
 total_line <- 
   alc_sales_total %>%
