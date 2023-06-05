@@ -12,8 +12,82 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Provinces de l'Atlantique",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Provinces des Prairies",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les personnes",
+                "Personnes dans les familles économiques",
+                "Personnes dans les familles de personnes âgées",
+                "Persons in elderly couples",
+                "Personnes dans les autres familles de personnes âgées",
+                "Personnes dans les familles non âgées",
+                "Personnes dans les couples",
+                "Personnes dans les familles comptant un couple avec des enfants",
+                "Personnes dans les familles comptant un couple avec d'autres personnes apparentées",
+                "Personnes dans les familles monoparentales",
+                "Personnes dans les familles monoparentales ayant un homme à leur tête",
+                "Personnes dans les familles monoparentales ayant une femme à leur tête",
+                "Personnes dans les autres familles de personnes non âgées",
+                "Personnes hors famille économique",
+                "Personnes âgées hors famille économique",
+                "Hommes âgés hors famille économique",
+                "Femmes âgées hors famille économique",
+                "Personnes non âgées hors famille économique",
+                "Hommes non âgés hors famille économique",
+                "Femmes non âgées hors famille économique",
+                ""
+              ]
+            },
+            "title": "Type de famille économique"
+          },
+          {
+            "name": "data.Household food security status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sécurité alimentaire",
+                "Food insecure",
+                "Food insecure, marginal",
+                "Food insecure, moderate or severe",
+                "Food insecure, moderate",
+                "Food insecure, severe",
+                ""
+              ]
+            },
+            "title": "Niveau de sécurité alimentaire du ménage"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
