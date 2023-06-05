@@ -11,7 +11,7 @@ labour_force <- get_cansim("14-10-0327-01", factors = FALSE)
 national_gdp <-
   national_gdp %>% 
   filter(
-    substr(REF_DATE, 1, 4) >= 2014,
+    substr(REF_DATE, 1, 4) >= 2014 & substr(REF_DATE, 1, 4) < substr(Sys.Date(), 1, 4),
     `Seasonal adjustment` == "Seasonally adjusted at annual rates",
     Prices == "2012 constant prices",
     `North American Industry Classification System (NAICS)` == "All industries [T001]"
@@ -56,5 +56,6 @@ write.csv(
   data_final,
   "data/indicator_8-2-1.csv",
   na = "",
-  row.names = FALSE
+  row.names = FALSE,
+  fileEncoding = "UTF-8"
 )  

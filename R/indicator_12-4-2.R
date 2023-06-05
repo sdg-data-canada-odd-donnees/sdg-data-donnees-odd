@@ -36,5 +36,6 @@ write.csv(
    data_final,
    "data/indicator_12-4-2.csv",
    na = "",
-   row.names = FALSE
+   row.names = FALSE,
+   fileEncoding = "UTF-8"
 )

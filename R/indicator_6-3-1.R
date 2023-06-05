@@ -68,7 +68,7 @@ municipal_treatment <-
   ) %>% 
   transmute(
     Series = "Wastewater discharged from municipal sewage systems",
-    Value = (Treated/Total)*100
+    Value = round((Treated/Total)*100, 2)
   )
 
 
