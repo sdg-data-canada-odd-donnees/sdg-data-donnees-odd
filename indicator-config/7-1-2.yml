@@ -1,4 +1,5 @@
-computation_units: ''
+auto_progress_calculation: false
+computation_units: 'Percentage (%)'
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -21,13 +22,14 @@ graph_titles: []
 graph_type: line
 indicator_name: global_indicators.7-1-2-title
 indicator_number: 7.1.2
-national_geographical_coverage: ''
+national_geographical_coverage: 'Canada'
 page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-reporting_status: notstarted
+  target year: 2030
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
