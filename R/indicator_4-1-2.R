@@ -33,8 +33,9 @@ data_final <-
 
 write.csv(
   data_final,
-  "indicator_4-1-2.csv",
+  "data/indicator_4-1-2.csv",
   na = "",
-  row.names = FALSE
+  row.names = FALSE,
+  fileEncoding = "UTF-8"
 )
   

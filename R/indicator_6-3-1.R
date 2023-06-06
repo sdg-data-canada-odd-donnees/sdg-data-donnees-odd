@@ -68,7 +68,7 @@ municipal_treatment <-
   ) %>% 
   transmute(
     Series = "Wastewater discharged from municipal sewage systems",
-    Value = (Treated/Total)*100
+    Value = round((Treated/Total)*100, 2)
   )
 
 
@@ -84,5 +84,6 @@ write.csv(
   data_final,
   "data/indicator_6-3-1.csv",
   row.names = FALSE,
-  na = ""
+  na = "",
+  fileEncoding = "UTF-8"
 )  

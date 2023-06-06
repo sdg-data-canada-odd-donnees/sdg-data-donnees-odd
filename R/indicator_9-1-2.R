@@ -120,5 +120,6 @@ write.csv(
   data_final,
   "data/indicator_9-1-2.csv",
   na = "",
-  row.names = FALSE
+  row.names = FALSE,
+  fileEncoding = "UTF-8"
 )

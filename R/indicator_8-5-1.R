@@ -6,6 +6,7 @@ library(dplyr)
 library(cansim)
 library(stringr)
 
+# WARNING: takes a lonnnnggg time to load data as table is extremely large
 earnings <- get_cansim("14-10-0417-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
 
@@ -80,5 +81,6 @@ write.csv(
   data_final,
   "data/indicator_8-5-1.csv",
   na = "",
-  row.names = FALSE
+  row.names = FALSE,
+  fileEncoding = "UTF-8"
 )
