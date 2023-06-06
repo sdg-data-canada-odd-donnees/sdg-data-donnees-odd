@@ -756,6 +756,56 @@
       "title": "Proportion de jeunes femmes et hommes de 18 à 29 ans ayant été victimes de violences sexuelles avant l’âge de 18 ans"
     },
     {
+      "path": "12-2-2/data.csv",
+      "name": "12-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Empreinte matérielle",
+                "Empreinte matérielle par habitant",
+                "Empreinte matérielle par unité de PIB",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Millions de tonnes métriques",
+                "Tonnes métriques",
+                "Tonnes métriques par PIB (millions de dollars CAD)",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Consommation matérielle nationale, consommation matérielle nationale par habitant et consommation matérielle nationale par unité de PIB"
+    },
+    {
       "path": "1-4-2/data.csv",
       "name": "1-4-2",
       "profile": "tabular-data-resource",
@@ -4578,6 +4628,56 @@
       "title": "Proportion de la population possédant un téléphone portable, par sexe"
     },
     {
+      "path": "8-4-2/data.csv",
+      "name": "8-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Empreinte matérielle",
+                "Empreinte matérielle par habitant",
+                "Empreinte matérielle par unité de PIB",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Millions de tonnes métriques",
+                "Tonnes métriques",
+                "Tonnes métriques par PIB (millions de dollars CAD)",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Consommation matérielle nationale, consommation matérielle nationale par habitant et consommation matérielle nationale par unité de PIB"
+    },
+    {
       "path": "2-5-1/data.csv",
       "name": "2-5-1",
       "profile": "tabular-data-resource",
@@ -7723,30 +7823,6 @@
       "title": "Proportion de réfugiés dans la population, par pays d’origine"
     },
     {
-      "path": "8-4-2/data.csv",
-      "name": "8-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Consommation matérielle nationale, consommation matérielle nationale par habitant et consommation matérielle nationale par unité de PIB"
-    },
-    {
       "path": "6-2-1/data.csv",
       "name": "6-2-1",
       "profile": "tabular-data-resource",
@@ -9137,30 +9213,6 @@
         ]
       },
       "title": "Nombre de cas avérés de meurtres, d’enlèvements, de disparitions forcées, de détentions arbitraires et d’actes de torture dont ont été victimes des journalistes, des personnes travaillant dans les médias, des syndicalistes et des défenseurs des droits de l’homme au cours des 12 mois précédents"
-    },
-    {
-      "path": "12-2-2/data.csv",
-      "name": "12-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Consommation matérielle nationale, consommation matérielle nationale par habitant et consommation matérielle nationale par unité de PIB"
     },
     {
       "path": "3-9-1/data.csv",

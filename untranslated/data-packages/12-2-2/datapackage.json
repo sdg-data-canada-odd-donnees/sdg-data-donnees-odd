@@ -12,7 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Material footprint",
+                "Material footprint per capita",
+                "Material footprint per unit of GDP",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Million metric tonnes",
+                "Metric tonnes",
+                "Metric tonnes per GDP (millions of dollars CAD)",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
