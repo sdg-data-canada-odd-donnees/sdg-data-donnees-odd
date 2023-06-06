@@ -40,19 +40,6 @@
             "title": "Géographie"
           },
           {
-            "name": "Type of employee",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ensemble des salariés",
-                "Employés à salaire fixe",
-                "Salariés rénumérés à l'heure",
-                ""
-              ]
-            },
-            "title": "Type de salariés"
-          },
-          {
             "name": "Industry",
             "type": "string",
             "constraints": {
@@ -79,8 +66,8 @@
                 "Usines de produits textiles",
                 "Usines de textiles domestiques",
                 "Usines d'autres produits textiles",
-                "Fabrication de vêtements",
-                "Usines de tricotage de vêtements",
+                "Apparel manufacturing",
+                "Apparel knitting mills",
                 "Fabrication de vêtements coupés-cousus",
                 "Fabrication d'accessoires vestimentaires et d'autres vêtements",
                 "Fabrication de produits en cuir et de produits analogues",
@@ -165,7 +152,7 @@
                 "Activités diverses de fabrication",
                 "Fabrication de fournitures et de matériel médicaux",
                 "Autres activités diverses de fabrication",
-                "Fabrication",
+                "Total de l’industrie manufacturière",
                 ""
               ]
             },

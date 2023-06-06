@@ -20,6 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -41,9 +42,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les sources de déchets à des fins d'élimination",
                 "Sources de déchets non résidentielles à des fins d'élimination",
                 "Sources de déchets résidentielles à des fins d'élimination",
+                "Toutes les sources de déchets à des fins d'élimination",
                 ""
               ]
             },

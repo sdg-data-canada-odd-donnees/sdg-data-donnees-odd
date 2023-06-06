@@ -20,6 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -41,9 +42,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "All sources of waste for disposal",
                 "Residential sources of waste for disposal",
                 "Non-residential sources of waste for disposal",
+                "All sources of waste for disposal",
                 ""
               ]
             },

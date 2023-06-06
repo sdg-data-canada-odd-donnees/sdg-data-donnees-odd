@@ -38,18 +38,6 @@
             }
           },
           {
-            "name": "Type of employee",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "All employees",
-                "Salaried employees paid a fixed salary",
-                "Employees paid by the hour",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Industry",
             "type": "string",
             "constraints": {
@@ -76,8 +64,8 @@
                 "Textile product mills",
                 "Textile furnishings mills",
                 "Other textile product mills",
-                "Clothing manufacturing",
-                "Clothing knitting mills",
+                "Apparel manufacturing",
+                "Apparel knitting mills",
                 "Cut and sew clothing manufacturing",
                 "Clothing accessories and other clothing manufacturing",
                 "Leather and allied product manufacturing",
@@ -162,7 +150,7 @@
                 "Miscellaneous manufacturing",
                 "Medical equipment and supplies manufacturing",
                 "Other miscellaneous manufacturing",
-                "Manufacturing",
+                "Total manufacturing",
                 ""
               ]
             }

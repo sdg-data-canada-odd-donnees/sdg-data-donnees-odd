@@ -42,16 +42,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
                 "Males",
                 "Females",
+                "Both sexes",
                 ""
               ]
             }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
           },
           {
             "name": "Value",

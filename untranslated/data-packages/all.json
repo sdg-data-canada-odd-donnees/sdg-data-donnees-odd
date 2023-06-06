@@ -1159,6 +1159,9 @@
                 "Alberta",
                 "British Columbia",
                 "Yukon, Northwest Territories and Nunavut",
+                "National Capital Region, Ontario/Quebec",
+                "National Capital Region, Quebec",
+                "National Capital Region, Ontario",
                 ""
               ]
             }
@@ -2547,19 +2550,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
                 "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             }
@@ -2570,11 +2574,12 @@
             "constraints": {
               "enum": [
                 "Hydraulic turbine",
-                "Tidal power turbine",
+                "Total renewable and non-greenhouse gas emitting sources",
                 "Wind power turbine",
+                "Nuclear steam turbine",
                 "Solar",
-                "Other types of electricity generation",
-                "Total hydro, tidal, wind, solar and other generation",
+                "Tidal power turbine",
+                "Total electricity production from biomass",
                 ""
               ]
             }
@@ -2883,16 +2888,39 @@
             "constraints": {
               "enum": [
                 "Alberta",
+                "Assiniboine-Red drainage region",
                 "British Columbia",
+                "Churchill drainage region",
+                "Columbia drainage region",
+                "Fraser-Lower Mainland drainage region",
+                "Great Lakes drainage region",
+                "Lower Mackenzie drainage region",
+                "Lower Saskatchewan-Nelson drainage region",
                 "Manitoba",
+                "Maritime Coastal drainage region",
                 "New Brunswick",
+                "Newfoundland-Labrador drainage region",
                 "Newfoundland and Labrador",
+                "North Saskatchewan drainage region",
+                "North Shore-Gaspé drainage region",
+                "Northern Ontario drainage region",
+                "Northern Quebec drainage region",
                 "Nova Scotia",
+                "Okanagan-Similkameen drainage region",
                 "Ontario",
+                "Ottawa drainage region",
+                "Pacific Coastal drainage region",
+                "Peace-Athabasca drainage region",
                 "Prince Edward Island",
                 "Quebec",
+                "Saint John-St. Croix drainage region",
                 "Saskatchewan",
+                "South Saskatchewan drainage region",
+                "St. Lawrence drainage region",
+                "Total drainage regions",
+                "Winnipeg drainage region",
                 "Yukon",
+                "Yukon drainage region",
                 ""
               ]
             }
@@ -3226,16 +3254,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
                 "Males",
                 "Females",
+                "Both sexes",
                 ""
               ]
             }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
           },
           {
             "name": "Value",
@@ -4129,6 +4153,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -4149,9 +4174,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "All sources of waste for disposal",
                 "Residential sources of waste for disposal",
                 "Non-residential sources of waste for disposal",
+                "All sources of waste for disposal",
                 ""
               ]
             }
@@ -5383,7 +5408,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Women",
+                "Small and medium enterprises",
                 "Indigenous",
                 "Visible minority",
                 "Person(s) with a disability",
@@ -6539,18 +6564,6 @@
             }
           },
           {
-            "name": "Type of employee",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "All employees",
-                "Salaried employees paid a fixed salary",
-                "Employees paid by the hour",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Industry",
             "type": "string",
             "constraints": {
@@ -6577,8 +6590,8 @@
                 "Textile product mills",
                 "Textile furnishings mills",
                 "Other textile product mills",
-                "Clothing manufacturing",
-                "Clothing knitting mills",
+                "Apparel manufacturing",
+                "Apparel knitting mills",
                 "Cut and sew clothing manufacturing",
                 "Clothing accessories and other clothing manufacturing",
                 "Leather and allied product manufacturing",
@@ -6663,7 +6676,7 @@
                 "Miscellaneous manufacturing",
                 "Medical equipment and supplies manufacturing",
                 "Other miscellaneous manufacturing",
-                "Manufacturing",
+                "Total manufacturing",
                 ""
               ]
             }

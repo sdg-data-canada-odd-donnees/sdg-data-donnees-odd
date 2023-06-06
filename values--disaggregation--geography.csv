@@ -2,8 +2,9 @@ Value,Disaggregation combinations using this value,Number of indicators
 "Abbotsford - Mission, British Columbia",4,2
 "Abbotsford-Mission, British Columbia",8,1
 Abbotsford - Mission (CMA),1,1
-Alberta,1204,38
+Alberta,1151,38
 All census metropolitan areas,8,1
+Assiniboine-Red drainage region,1,1
 Atlantic Ocean,28,1
 Atlantic provinces,24,2
 Atlantic Region,6,3
@@ -13,20 +14,24 @@ Bathurst (CA),1,1
 "Belleville, Ontario",9,2
 "Brantford, Ontario",12,3
 British Columbia and Territories Region,4,1
-British Columbia,1318,40
+British Columbia,1238,40
 "Calgary, Alberta",33,4
 "Calgary, Alberta ",3,1
 Campbellton (New Brunswick part) (CA),1,1
-Canada,1428,29
+Canada,1234,30
 Cape Breton (CA),1,1
+Churchill drainage region,1,1
+Columbia drainage region,1,1
 Corner Brook (CA),1,1
 "Edmonton, Alberta",33,4
 "Edmonton, Alberta ",3,1
 Edmundston (CA),1,1
+Fraser-Lower Mainland drainage region,1,1
 Fredericton (CMA),1,1
 Gander (CA),1,1
 Grand Falls-Windsor (CA),1,1
 Great Lakes and St. Lawrence River,28,1
+Great Lakes drainage region,1,1
 "Greater Sudbury / Grand Sudbury, Ontario",1,1
 "Greater Sudbury, Ontario",8,1
 "Greater Sudbury, Ontario ",3,1
@@ -52,28 +57,41 @@ Kitchener - Cambridge - Waterloo (CMA),1,1
 London (CMA),1,1
 "London, Ontario",9,2
 "London, Ontario ",3,1
+Lower Mackenzie drainage region,1,1
+Lower Saskatchewan-Nelson drainage region,1,1
 Mackenzie River,28,1
-Manitoba,1180,38
+Manitoba,1152,38
+Maritime Coastal drainage region,1,1
 Moncton (CMA),1,1
 "Moncton, New Brunswick",12,3
 "Montreal, Quebec ",3,1
 "Montréal, Quebec",33,4
 Nanaimo (CMA),1,1
-New Brunswick,1113,39
+"National Capital Region, Ontario",3,1
+"National Capital Region, Ontario/Quebec",3,1
+"National Capital Region, Quebec",3,1
+New Brunswick,1159,39
 New Glasgow (CA),1,1
-Newfoundland and Labrador,1034,38
+Newfoundland and Labrador,1123,38
+Newfoundland-Labrador drainage region,1,1
 Newfoundland,32,1
 Non-census metropolitan areas,8,1
+North Saskatchewan drainage region,1,1
+North Shore-Gaspé drainage region,1,1
+Northern Ontario drainage region,1,1
+Northern Quebec drainage region,1,1
 Northern Territories,1,1
 Northwest Territories including Nunavut,1,1
-Northwest Territories,477,25
-Nova Scotia,1124,39
-Nunavut,471,24
+Northwest Territories,583,25
+Nova Scotia,1158,39
+Nunavut,582,25
 Nunavut/Northwest Territories,1,1
+Okanagan-Similkameen drainage region,1,1
 Ontario Region,4,1
-Ontario,1420,40
+Ontario,1238,40
 "Oshawa, Ontario",9,2
 "Oshawa, Ontario ",3,1
+Ottawa drainage region,1,1
 Ottawa - Gatineau (Ontario part) (CMA),1,1
 "Ottawa - Gatineau (Ontario part), Ontario",4,2
 Ottawa-Gatineau (Ontario part),8,1
@@ -81,16 +99,18 @@ Ottawa-Gatineau (Ontario part),8,1
 "Ottawa - Gatineau (Quebec part), Quebec",4,2
 Ottawa-Gatineau (Quebec part),8,1
 Outside Canada,1,1
+Pacific Coastal drainage region,1,1
 Pacific Ocean,32,1
+Peace-Athabasca drainage region,1,1
 "Peterborough, Ontario",12,3
 Prairie provinces,24,2
 Prairie Region,2,2
 Prairies Region,4,1
 Prairies,80,1
-Prince Edward Island,1050,37
+Prince Edward Island,1145,37
 "Quebec, Quebec ",3,1
 Quebec Region,4,1
-Quebec,1407,39
+Quebec,1233,39
 "Québec, Quebec",33,4
 "Regina, Saskatchewan",9,2
 "Regina, Saskatchewan ",3,1
@@ -99,10 +119,12 @@ Quebec,1407,39
 Saint John (CMA),1,1
 "Saint John, New Brunswick",9,2
 "Saint John, New Brunswick ",3,1
-Saskatchewan,1108,38
+Saint John-St. Croix drainage region,1,1
+Saskatchewan,1152,38
 "Saskatoon, Saskatchewan",9,2
 "Saskatoon, Saskatchewan ",3,1
 "Sherbrooke, Quebec",12,3
+South Saskatchewan drainage region,1,1
 St. Catharines - Niagara (CMA),1,1
 "St. Catharines - Niagara, Ontario",1,1
 "St. Catharines - Niagara, Ontario ",3,1
@@ -110,11 +132,13 @@ St. Catharines - Niagara (CMA),1,1
 St. John's (CMA),1,1
 "St. John's, Newfoundland and Labrador",9,2
 "St. John's, Newfoundland and Labrador ",3,1
+St. Lawrence drainage region,1,1
 "Thunder Bay, Ontario",9,2
 "Thunder Bay, Ontario ",3,1
 Toronto (CMA),1,1
 "Toronto, Ontario",33,4
 "Toronto, Ontario ",3,1
+Total drainage regions,1,1
 "Total, large urban population centres",6,1
 "Trois-Rivières, Quebec",12,3
 Truro (CA),1,1
@@ -127,8 +151,10 @@ Victoria (CMA),1,1
 Whitehorse (CA),1,1
 "Windsor, Ontario",9,2
 "Windsor, Ontario ",3,1
+Winnipeg drainage region,1,1
 "Winnipeg, Manitoba",33,4
 "Winnipeg, Manitoba ",3,1
 Yellowknife (CA),1,1
+Yukon drainage region,1,1
 "Yukon, Northwest Territories and Nunavut",51,3
-Yukon,482,27
+Yukon,587,27
