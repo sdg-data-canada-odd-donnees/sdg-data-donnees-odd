@@ -77,7 +77,8 @@ write.csv(
   data_final, 
   "data/indicator_16-3-2.csv", 
   na = "", 
-  row.names = FALSE
+  row.names = FALSE,
+  fileEncoding = "UTF-8"
 )
 
 
