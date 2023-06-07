@@ -964,9 +964,9 @@
               "enum": [
                 "Éducation de base",
                 "Santé de base",
-                "Water supply and sanitation ",
+                "Approvisionnement en eau et assainissement",
                 "Aide multisectorielle pour les services sociaux de base",
-                "Development food aid ",
+                "Aide alimentaire au développement",
                 ""
               ]
             },
@@ -997,11 +997,23 @@
             "title": "Année"
           },
           {
-            "name": "Demographic",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total minorités visibles\n",
+                "Canada",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Racialized groups",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total <U+0096> Visible minority",
+                "Total de la population des minorités visibles",
                 "Sud-Asiatique\n",
                 "Chinois\n",
                 "Noir\n",
@@ -1013,11 +1025,29 @@
                 ""
               ]
             },
-            "title": "Ethnicité"
+            "title": "Groupes racialisés"
+          },
+          {
+            "name": "Sociodemographic characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 15 ans et plus",
+                "Men+",
+                "Women+",
+                "15 à 24 ans",
+                "25 à 64 ans",
+                "65 ans et plus",
+                "Non-immigrants",
+                "Immigrants",
+                ""
+              ]
+            },
+            "title": "Caractéristiques sociodémographiques"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]
@@ -1547,20 +1577,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Copied or moved files or folders digitally ",
-                "Used word processing software ",
-                "Created presentations, or documents with text and pictures, tables or charts ",
+                "Copié ou déplacé des fichiers ou des dossiers numériques",
+                "Utilisé un logiciel de traitement de texte",
+                "Créé des présentations, ou des documents comprenant du texte et des images, des tableaux ou des graphiques",
                 "Utilisé les fonctions de base d’un logiciel tableur",
-                "Used spreadsheet software advanced functions to organize and analyze data ",
-                "Used software to edit photos, video or audio files ",
+                "Utilisé des fonctions avancées d’un logiciel tableur pour organiser et analyser des données",
+                "Utilisé un logiciel pour modifier des photos, des vidéos ou des fichiers audio",
                 "Écrit du code dans un langage de programmation",
-                "Uploaded files or photos to an online data storage space ",
-                "Downloaded files from the Internet to your computer or other devices ",
-                "Shared files using an online data storage space ",
-                "Connected a new device to a Wi-Fi network ",
-                "Used the Internet to transfer photos or videos from one device to another ",
-                "Used your smartphone as a GPS device for directions ",
-                "Connected a new device via Bluetooth  ",
+                "Téléchargé des fichiers ou des photos vers un espace de stockage de données en ligne",
+                "Téléchargé des fichiers de l’Internet vers votre ordinateur ou d’autres appareils",
+                "Partagé des fichiers à l’aide d’un service de stockage de données en ligne",
+                "Connecté un nouvel appareil à un réseau Wi-Fi",
+                "Utilisé Internet pour transférer des photos ou des vidéos d’un appareil à un autre",
+                "Utilisé votre téléphone intelligent comme appareil GPS pour obtenir des indications",
+                "Connecté un nouvel appareil par Bluetooth",
                 ""
               ]
             },
@@ -3295,7 +3325,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]
@@ -3356,7 +3386,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "integer",
             "title": "Valeur"
           }
         ]
@@ -6419,8 +6449,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tourism Satellite Account (TSA) ",
-                "System of Environmental Economic Accounting (SEEA) ",
+                "Compte satellite du tourisme (CST)",
+                "Système de comptabilité économique et environnementale (SCEE)",
                 ""
               ]
             },
@@ -6599,37 +6629,37 @@
                 "Abbotsford - Mission, Colombie-Britannique",
                 "Barrie, Ontario",
                 "Brantford, Ontario",
-                "Calgary, Alberta ",
-                "Edmonton, Alberta ",
-                "Greater Sudbury, Ontario ",
-                "Guelph, Ontario ",
-                "Halifax, Nova Scotia ",
-                "Hamilton, Ontario ",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Grand Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Halifax, Nouvelle-Écosse",
+                "Hamilton, Ontario",
                 "Kelowna, Colombie-Britannique",
                 "Kingston, Ontario",
-                "Kitchener - Cambridge - Waterloo, Ontario ",
-                "London, Ontario ",
+                "Kitchener - Cambridge - Waterloo, Ontario",
+                "London, Ontario",
                 "Moncton, Nouveau-Brunswick",
-                "Montreal, Quebec ",
-                "Oshawa, Ontario ",
+                "Montreal, Quebec",
+                "Oshawa, Ontario",
                 "Ottawa - Gatineau (partie de l'Ontario), Ontario",
                 "Ottawa - Gatineau (partie du Québec), Québec",
                 "Peterborough, Ontario",
-                "Quebec, Quebec ",
-                "Regina, Saskatchewan ",
-                "Saguenay, Quebec ",
-                "Saint John, New Brunswick ",
-                "Saskatoon, Saskatchewan ",
+                "Québec, Québec",
+                "Regina, Saskatchewan",
+                "Saguenay, Québec",
+                "Saint John, Nouveau-Brunswick",
+                "Saskatoon, Saskatchewan",
                 "Sherbrooke, Québec",
-                "St. Catharines - Niagara, Ontario ",
-                "St. John's, Newfoundland and Labrador ",
-                "Thunder Bay, Ontario ",
-                "Toronto, Ontario ",
+                "St. Catharines - Niagara, Ontario",
+                "St. John's, Terre-Neuve-et-Labrador",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
                 "Trois-Rivières, Québec",
-                "Vancouver, British Columbia ",
-                "Victoria, British Columbia ",
-                "Windsor, Ontario ",
-                "Winnipeg, Manitoba ",
+                "Vancouver, Colombie-Britannique",
+                "Victoria, Colombie-Britannique",
+                "Windsor, Ontario",
+                "Winnipeg, Manitoba",
                 ""
               ]
             },
