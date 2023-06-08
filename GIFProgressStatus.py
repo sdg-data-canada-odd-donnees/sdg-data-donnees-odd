@@ -1,7 +1,8 @@
-import yaml
+# import packages used in this script
 import os
 import pandas as pd
 import ProgressMeasure as pm
+import yaml
 from datetime import datetime as dt
 
 
@@ -13,14 +14,6 @@ def read_meta(indicator_id):
     with open(filepath, 'r') as stream:
         meta = yaml.safe_load(stream)
     return meta
-
-
-# def write_meta_md(meta, indicator_id):
-#     meta_file = indicator_id + '.yml'
-#     filepath = os.path.join('meta', meta_file)
-#     yamlmd.write_yamlmd(meta, filepath)
-#     # with open(r'output.yaml', 'w') as file:
-#     #     outputs = yaml.dump(days, file)
 
 
 def read_data(indicator_id):
@@ -61,100 +54,16 @@ def update_progress_status_meta(progress_dict, indicator_id):
         outputs = yaml.dump(meta, file)
 
 
+def diff_note(old, new):
+    now = dt.now().strftime("%d/%m/%Y %H:%M:%S")
+    return 'progress status has changed from ' + old + ' to ' + new + ' (' + now + ')'
 def update_progress_diff(diff):
     filepath = os.path.join('progress_diff.yml')
     with open(filepath, 'r') as stream:
         diff_file = yaml.safe_load(stream)
-
-    if diff_file:
-        diff_file.update(diff)
-
-    else:
-        diff_file = diff
-
+    diff_file.update(diff)
     with open(filepath, 'w') as file:
         outputs = yaml.dump(diff_file, file)
-
-
-def diff_note(old, new):
-    now = dt.now().strftime("%d/%m/%Y %H:%M:%S")
-    return 'progress status has changed from ' + old + ' to ' + new + ' (' + now + ')'
-
-
-def turn_on_progress_calc(indicator_id):
-    """
-    Force turns on progress calculation in meta markdown file for whatever indicator is passed.
-    :param indicator_id: id for indicator (e.g. 1-1-1)
-    :type indicator_id: str
-    """
-
-    meta = read_meta(indicator_id)
-
-    if meta.get('reporting_status') == 'complete':
-        if not meta.get('auto_progress_calculation'):
-            meta['auto_progress_calculation'] = True
-
-        update_progress_status_meta(meta, indicator_id)
-
-
-def remove_progress_configs(indicator_id):
-    """
-    Function to mass remove all progress statuses for policy indicators (i.e. any indicator with an alphabetic target)
-    Args:
-        indicator_id: str. Identifier of indicator (e.g. 1-1-1).
-
-    """
-    ind_str = indicator_id.split('-')
-    policy_ind = ind_str[1] in ['a', 'b', 'c', 'd', 'e', 'f']
-
-    if policy_ind:
-        meta = read_meta(indicator_id)
-
-        meta['auto_progress_calculation'] = False
-        meta['progress_status'] = 'not_available'
-        meta['progress_calculation_options'] = []
-
-        update_progress_status_meta(meta, indicator_id)
-        print(indicator_id + ': meta updated')
-
-
-def update_progress_direction(indicator_id, direction):
-
-    meta = read_meta(indicator_id)
-    new_ind_direction = direction.get(indicator_id)
-    prog_calc_options = meta.get('progress_calculation_options')
-
-    if prog_calc_options:
-        prog_calc_options = prog_calc_options[0]
-        if prog_calc_options.get('direction'):
-            old_ind_direction = prog_calc_options.get('direction')
-        else:
-            old_ind_direction = ''
-    else:
-        old_ind_direction = ''
-
-    if old_ind_direction == 'down':
-        old_ind_direction = 'negative'
-    elif old_ind_direction == 'up':
-        old_ind_direction = 'positive'
-
-    if indicator_id in direction.keys():
-        if new_ind_direction != old_ind_direction:
-            print('changing ' + indicator_id + ' progress direction')
-            print('old_ind_direction: ' + old_ind_direction)
-            print('new_ind_direction: ' + new_ind_direction)
-
-            if new_ind_direction == 'binary':
-                if meta.get('reporting_status') == 'complete':
-                    meta['progress_status'] = 'target_achieved'
-
-            else:
-                if meta.get('progress_calculation_options'):
-                    meta['progress_calculation_options'][0]['direction'] = new_ind_direction
-                else:
-                    meta['progress_calculation_options'] = [{'direction': new_ind_direction}]
-
-            update_progress_status_meta(meta, indicator_id)
 
 
 def update_progress_status(indicator_ids):
@@ -162,13 +71,13 @@ def update_progress_status(indicator_ids):
     progress_diff = {}
 
     for ind_id in indicator_ids:
-        # Uncomment to turn on ALL indicator calculation
-        # turn_on_progress_calc(ind_id)
 
+        print(ind_id)
         # Get data + metadata for calculation
         indicator = merge_indicator(ind_id)
         if indicator is not None:
 
+            # get the old progress measure
             if indicator['meta'].get('progress_status'):
                 old_pm = indicator['meta'].get('progress_status')
             else:
@@ -180,14 +89,15 @@ def update_progress_status(indicator_ids):
 
             if progress is not None:
 
+                # check if the newly calculate progress measure is different from the old one
                 if old_pm and progress != old_pm:
                     progress_diff[ind_id] = diff_note(old_pm, progress)
 
-                print(ind_id + ': ' + progress)
                 # Update progress status field in meta
                 progress_dict = {'progress_status': progress}
                 # Uncomment to update metadata files
                 update_progress_status_meta(progress_dict, ind_id)
+    # return the progress differences
     return progress_diff
 
 
@@ -196,16 +106,14 @@ def get_goal_progress(indicator_ids):
     scores = {}
 
     for ind_id in indicator_ids:
-        # goal = ind_id[0]
+
         indicator = merge_indicator(ind_id)
         score = pm.get_indicator_score(indicator)
-        print(ind_id + ": " + str(score))
+
         scores[ind_id] = score
 
-    manual_input = {'8-2-1': -5, '9-2-1': 4.273685, '15-1-2': 0.02720645}
-    scores.update(manual_input)
-
-    print(scores)
+    # manual_input = {'8-2-1': -5, '9-2-1': 4.273685, '15-1-2': 0.02720645}
+    # scores.update(manual_input)
 
     filepath = os.path.join('indicator_scores.yml')
     with open(filepath, 'w') as file:
@@ -214,25 +122,88 @@ def get_goal_progress(indicator_ids):
     return scores
 
 
+def output_calculation_components(indicator_ids):
+
+    components_dict = {}
+
+    for ind_id in indicator_ids:
+
+        print(ind_id)
+
+        indicator = merge_indicator(ind_id)
+
+        if indicator is None:
+            components_dict[ind_id] = {
+                'progress_status': 'not_available'
+            }
+
+        else:
+            data = pm.data_progress_measure(indicator['data'])
+            meta = indicator['meta']
+
+            if data is None or meta is None or data.shape[0] < 2:
+                components_dict[ind_id] = {
+                    'progress_status': 'not_available'
+                }
+
+            else:
+
+                if indicator['meta'].get('progress_calculation_options'):
+                    opts = dict(indicator['meta'].get('progress_calculation_options')[0])
+                else:
+                    opts = {}
+
+                years = data["Year"]
+                current_year = years.max()
+
+                if not opts.get('base_year'):
+                    opts['base_year'] = 2015
+                if not opts.get('target_year'):
+                    opts['target_year'] = 2030
+
+                if opts['base_year'] not in years.values:
+                    opts['base_year'] = years[years > opts['base_year']].min()
+
+                current_value = data.Value[data.Year == float(current_year)].values[0]
+                base_value = data.Value[data.Year == float(opts['base_year'])].values[0]
+
+                if pm.measure_indicator_progress(data, meta) is None:
+                    progress_calculation_value = None
+                else:
+                    progress_calculation_value = str(pm.measure_indicator_progress(data, meta).get('value'))
+
+                components_dict[ind_id] = {
+                    'base_year': str(opts.get('base_year')),
+                    'current_year': str(current_year),
+                    'base_value': str(base_value),
+                    'current_value': str(current_value),
+                    'direction': str(opts.get('direction')),
+                    'target_year': str(opts.get('target_year')),
+                    'target': str(opts.get('target')),
+                    'progress_calculation_value': progress_calculation_value,
+                    'progress_status': str(pm.progress_measure(indicator))
+                }
+
+        filepath = os.path.join('indicator_calculation_components.yml')
+        with open(filepath, 'w') as file:
+            outputs = yaml.dump(components_dict, file)
+
+    return components_dict
+
+
+# get all indicator ids from listed data files
 indicator_ids = get_indicator_ids()
 
-# read in progress directions
-# filepath = 'indicator_progress_direction.yml'
-# with open(filepath, 'r') as stream:
-#     direction = yaml.safe_load(stream)
-#
-# for ind_id in indicator_ids:
-#     update_progress_direction(ind_id, direction)
-#     turn_on_progress_calc(ind_id)
-#     remove_progress_configs(ind_id)
-
+# calculate & update progress measures
 diffs = update_progress_status(indicator_ids)
-update_progress_diff(diffs)
-get_goal_progress(indicator_ids)
 
-# individal calculations result ----
-# test_ind = merge_indicator('1-2-1')
-# test_data = pm.data_progress_measure(test_ind['data'])
-# print(test_data)
-# print(pm.progress_measure(test_ind))
-print(pm.score_calculation(0.0001088258, target=None))
+# output all components of progress calculation
+output_calculation_components(indicator_ids)
+
+# calculate indicator scores & output
+scores = get_goal_progress(indicator_ids)
+
+# if there have been changes to any progress measure, update the difference file
+if diffs:
+    update_progress_diff(diffs)
+    
