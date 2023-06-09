@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Année"
           },
           {
@@ -41,7 +41,6 @@
                 "Latino-Américain\n",
                 "Asiatique du Sud-Est\n",
                 "Pas une minorité visible\n",
-                "Total <U+0096> Visible minority",
                 ""
               ]
             },

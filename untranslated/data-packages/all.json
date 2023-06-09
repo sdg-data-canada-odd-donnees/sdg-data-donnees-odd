@@ -922,7 +922,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Geography",
@@ -949,7 +949,6 @@
                 "Latin American",
                 "Southeast Asian",
                 "Not a visible minority",
-                "Total <U+0096> Visible minority",
                 ""
               ]
             }
