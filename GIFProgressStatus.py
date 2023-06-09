@@ -206,4 +206,3 @@ scores = get_goal_progress(indicator_ids)
 # if there have been changes to any progress measure, update the difference file
 if diffs:
     update_progress_diff(diffs)
-    
