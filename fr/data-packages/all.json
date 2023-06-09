@@ -993,7 +993,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Année"
           },
           {
@@ -1012,7 +1012,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total <U+0096> Visible minority",
+                "Total minorités visibles\n",
                 "Total de la population des minorités visibles",
                 "Sud-Asiatique\n",
                 "Chinois\n",
@@ -1022,6 +1022,7 @@
                 "Latino-Américain\n",
                 "Asiatique du Sud-Est\n",
                 "Pas une minorité visible\n",
+                "Total <U+0096> Visible minority",
                 ""
               ]
             },
@@ -1033,8 +1034,8 @@
             "constraints": {
               "enum": [
                 "Total, 15 ans et plus",
-                "Men+",
-                "Women+",
+                "Hommes+",
+                "Femmes+",
                 "15 à 24 ans",
                 "25 à 64 ans",
                 "65 ans et plus",

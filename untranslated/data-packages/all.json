@@ -922,7 +922,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "Geography",
@@ -939,7 +939,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total <U+0096> Visible minority",
+                "Total visible minority",
                 "Total visible minority population",
                 "South Asian",
                 "Chinese",
@@ -949,6 +949,7 @@
                 "Latin American",
                 "Southeast Asian",
                 "Not a visible minority",
+                "Total <U+0096> Visible minority",
                 ""
               ]
             }
