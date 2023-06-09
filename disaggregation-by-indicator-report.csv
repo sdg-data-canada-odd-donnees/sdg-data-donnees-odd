@@ -1,7 +1,7 @@
 Indicator,Disaggregations,Number of disaggregations
 #1-2-1,"Geography, Persons in low income",2
 #1-3-1,Geography,1
-#1-4-2,"Geography, Gender, Area",3
+#1-4-2,"Geography, Area, Gender",3
 #1-5-1,Type of natural disaster,1
 #1-5-2,Type of natural disaster,1
 #1-a-1,Poverty reduction aid type,1
@@ -38,15 +38,15 @@ Indicator,Disaggregations,Number of disaggregations
 #2-5-1,Genetic resources for food and agriculture (GRFA),1
 #2-b-1,Product,1
 #3-2-1,Geography,1
-#3-2-2,"Age, Sex",2
+#3-2-2,"Sex, Age",2
 #3-3-2,Sex,1
 #3-3-3,Sex,1
 #3-3-4,Sex,1
 #3-3-5,Disease,1
 #3-4-1,"Sex, Age at time of death, Causes of death",3
-#3-4-2,"Sex, Geography",2
+#3-4-2,"Geography, Sex",2
 #3-5-2,Geography,1
-#3-6-1,"Age, Sex, Cause of death",3
+#3-6-1,"Sex, Age, Cause of death",3
 #3-7-2,Geography,1
 #3-8-2,Population,1
 #3-9-2,Type of disease,1
@@ -55,15 +55,15 @@ Indicator,Disaggregations,Number of disaggregations
 #3-b-2,Assistance type,1
 #3-c-1,"Geography, Type of provider",2
 #4-1-1,Sex,1
-#4-1-2,"Sex, Geography, Age group, Educational attainment level",4
+#4-1-2,"Geography, Age group, Sex, Educational attainment level",4
 #4-2-2,Sex,1
 #4-3-1,"Geography, Age group, Type of institution attended",3
 #4-4-1,"Age group, Activity related to digital skills, Level of education",3
 #4-5-1,"Geography, Parity index",2
-#4-6-1,"Sex, Geography, Age group, Skill, Proficiency level",5
+#4-6-1,"Geography, Age group, Sex, Skill, Proficiency level",5
 #5-2-1,"Type of intimate partner violence, Selected characteristic",2
 #5-3-1,"Geography, Age group, Marital status",3
-#5-4-1,"Sex, Geography, Age group, Activity group",4
+#5-4-1,"Geography, Activity group, Age group, Sex",4
 #5-5-1,"Geography, Government, Elected officials",3
 #5-5-2,"Geography, Occupation",2
 #5-b-1,Geography,1
@@ -73,14 +73,14 @@ Indicator,Disaggregations,Number of disaggregations
 #6-a-1,Sector,1
 #7-2-1,"Geography, Type of electricity generation",2
 #8-1-1,Geography,1
-#8-5-1,"Sex, Geography, Type of work, Occupation, Age group",5
-#8-5-2,"Sex, Geography, Age group",3
-#8-6-1,"Sex, Geography, Age group, Educational attainment level, Status",5
+#8-5-1,"Geography, Age group, Sex, Type of work, Occupation",5
+#8-5-2,"Geography, Age group, Sex",3
+#8-6-1,"Geography, Age group, Sex, Educational attainment level, Status",5
 #8-8-1,Sex,1
 #8-a-1,Aid for trade flows of official development assistance (ODA),1
 #9-2-1,Geography,1
 #9-2-2,"Geography, Industry",2
-#9-3-1,"Industry, Size",2
+#9-3-1,"Size, Industry",2
 #9-3-2,"Geography, Employment size, Industries, Age of primary decision maker, Ownership demographics",5
 #9-5-1,"Geography, Science type",2
 #9-b-1,Geography,1
