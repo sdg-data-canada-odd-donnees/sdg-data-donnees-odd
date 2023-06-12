@@ -997,17 +997,6 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
             "name": "Racialized groups",
             "type": "string",
             "constraints": {

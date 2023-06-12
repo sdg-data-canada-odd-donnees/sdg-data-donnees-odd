@@ -925,16 +925,6 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Racialized groups",
             "type": "string",
             "constraints": {
