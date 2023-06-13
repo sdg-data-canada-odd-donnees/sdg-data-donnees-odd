@@ -1,15 +1,87 @@
-"Year","Series","Units","Value"
-"2020","Number of (shared) basins showing high surface-water extent changes","Percentage",4
-"2015","Number of (shared) basins showing high surface-water extent changes","Percentage",1
-"2020","Number of (shared) basins showing high surface-water extent changes","Number",57
-"2015","Number of (shared) basins showing high surface-water extent changes","Number",18
-"2016/18 (baseline)","Wetlands area","Square kilometers",806938
-"2016/18 (baseline)","Wetlands area","Percentage",8.17
-"2017/19","Lake water quality, turbidity","Number",17
-"2017/19","Lake water quality, turbidity","Percentage",11
-"2017/19","Lake water quality, trophic state","Number",61
-"2017/19","Lake water quality, trophic state","Percentage",39
-"2017/19","Lake water quality, trophic state and turbidity","Number",13
-"2017/19","Lake water quality, trophic state and turbidity","Percentage",8
-"2017/19","Lake water quality, no or improving condition","Number",66
-"2017/19","Lake water quality, no or improving condition","Percentage",42
+Year,Series,Units,Value
+2020,Number of (shared) basins showing high surface-water extent changes,Percentage,4
+2015,Number of (shared) basins showing high surface-water extent changes,Percentage,1
+2020,Number of (shared) basins showing high surface-water extent changes,Number,57
+2015,Number of (shared) basins showing high surface-water extent changes,Number,18
+2015,Permanent water,Square kilometers,916917.6
+2016,Permanent water,Square kilometers,914878.3
+2017,Permanent water,Square kilometers,916342.4
+2018,Permanent water,Square kilometers,914773.6
+2019,Permanent water,Square kilometers,914479.7
+2020,Permanent water,Square kilometers,919584.5
+2015,Seasonal water,Square kilometers,81623.6
+2016,Seasonal water,Square kilometers,95379.5
+2017,Seasonal water,Square kilometers,98646.4
+2018,Seasonal water,Square kilometers,92557.1
+2019,Seasonal water,Square kilometers,94042.2
+2020,Seasonal water,Square kilometers,103943.7
+2020,"Seasonal transition, seasonal",Square kilometers,45117.31
+2020,"Seasonal transition, seasonal",Percentage,40.5
+2020,"Seasonal transition, new seasonal",Square kilometers,43700.35
+2020,"Seasonal transition, new seasonal",Percentage,39.2
+2020,"Seasonal transition, lost seasonal",Square kilometers,12717.39
+2020,"Seasonal transition, lost seasonal",Percentage,11.4
+2020,"Seasonal transition, seasonal to permanent",Square kilometers,9971.63
+2020,"Seasonal transition, seasonal to permanent",Percentage,8.9
+2017/21,"Reservoirs, maximum water extent dynamics",Square kilometers,1160.23
+2017/21,"Reservoirs, maximum water extent dynamics",Percentage,1.28
+2017/21,"Reservoirs, minimum water extent dynamics",Square kilometers,858.48
+2017/21,"Reservoirs, minimum water extent dynamics",Percentage,0.96
+2015,"Reservoirs, maximum water extent",Square kilometers,91380.6
+2016,"Reservoirs, maximum water extent",Square kilometers,91729.2
+2017,"Reservoirs, maximum water extent",Square kilometers,91837.1
+2018,"Reservoirs, maximum water extent",Square kilometers,91694.7
+2019,"Reservoirs, maximum water extent",Square kilometers,91754.4
+2020,"Reservoirs, maximum water extent",Square kilometers,91730.5
+2021,"Reservoirs, maximum water extent",Square kilometers,91630.4
+2015,"Reservoirs, minimum water extent",Square kilometers,89658.9
+2016,"Reservoirs, minimum water extent",Square kilometers,89908
+2017,"Reservoirs, minimum water extent",Square kilometers,90119.3
+2018,"Reservoirs, minimum water extent",Square kilometers,90112.9
+2019,"Reservoirs, minimum water extent",Square kilometers,90124
+2020,"Reservoirs, minimum water extent",Square kilometers,90059.8
+2021,"Reservoirs, minimum water extent",Square kilometers,89872.9
+2016/18 (baseline),Wetlands area,Square kilometers,806938
+2016/18 (baseline),Wetlands area,Percentage,8.17
+2017,"Lake water quality, low turbidity",Percentage,58.1
+2017,"Lake water quality, medium turbidity",Percentage,15.7
+2017,"Lake water quality, high turbidity",Percentage,15
+2017,"Lake water quality, extreme turbidity",Percentage,11.2
+2018,"Lake water quality, low turbidity",Percentage,55.2
+2018,"Lake water quality, medium turbidity",Percentage,14.9
+2018,"Lake water quality, high turbidity",Percentage,15.7
+2018,"Lake water quality, extreme turbidity",Percentage,14.3
+2019,"Lake water quality, low turbidity",Percentage,49.7
+2019,"Lake water quality, medium turbidity",Percentage,15.3
+2019,"Lake water quality, high turbidity",Percentage,18.9
+2019,"Lake water quality, extreme turbidity",Percentage,16.2
+2020,"Lake water quality, low turbidity",Percentage,58.5
+2020,"Lake water quality, medium turbidity",Percentage,13.2
+2020,"Lake water quality, high turbidity",Percentage,12.6
+2020,"Lake water quality, extreme turbidity",Percentage,15.8
+2021,"Lake water quality, low turbidity",Percentage,56.7
+2021,"Lake water quality, medium turbidity",Percentage,14.6
+2021,"Lake water quality, high turbidity",Percentage,14.8
+2021,"Lake water quality, extreme turbidity",Percentage,13.9
+2017,"Lake water quality, low trophic",Percentage,73.1
+2017,"Lake water quality, medium trophic",Percentage,18.4
+2017,"Lake water quality, high trophic",Percentage,7.3
+2017,"Lake water quality, extreme trophic",Percentage,1.3
+2018,"Lake water quality, low trophic",Percentage,72.9
+2018,"Lake water quality, medium trophic",Percentage,16.8
+2018,"Lake water quality, high trophic",Percentage,8.1
+2018,"Lake water quality, extreme trophic",Percentage,2.2
+2019,"Lake water quality, low trophic",Percentage,88.6
+2019,"Lake water quality, medium trophic",Percentage,8.1
+2019,"Lake water quality, high trophic",Percentage,2.5
+2019,"Lake water quality, extreme trophic",Percentage,0.7
+2020,"Lake water quality, low trophic",Percentage,85.8
+2020,"Lake water quality, medium trophic",Percentage,10
+2020,"Lake water quality, high trophic",Percentage,3.4
+2020,"Lake water quality, extreme trophic",Percentage,0.9
+2021,"Lake water quality, low trophic",Percentage,86.7
+2021,"Lake water quality, medium trophic",Percentage,8.2
+2021,"Lake water quality, high trophic",Percentage,3.7
+2021,"Lake water quality, extreme trophic",Percentage,1.3
+2017/19,"Lake water quality, turbidity state",Percentage,38.61
+2017/19,"Lake water quality, trophic state",Percentage,0.55
