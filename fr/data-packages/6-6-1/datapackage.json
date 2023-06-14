@@ -26,7 +26,8 @@
                 "Réservoirs, étendue maximale de l’eau",
                 "Réservoirs, étendue minimale d’eau",
                 "Étendue des millieux humides",
-                "Lake water quality",
+                "Qualité de l’eau du lac, la turbidité",
+                "Lake water quality, trophic",
                 ""
               ]
             },
@@ -50,14 +51,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Low turbidity",
-                "Medium turbidity",
-                "High turbidity",
-                "Extreme turbidity",
-                "Low trophic",
-                "Medium trophic",
-                "High trophic",
-                "Extreme trophic",
+                "Low",
+                "Medium",
+                "High",
+                "Extreme",
                 ""
               ]
             },

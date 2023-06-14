@@ -4111,7 +4111,8 @@
                 "Reservoirs, maximum water extent",
                 "Reservoirs, minimum water extent",
                 "Wetlands area",
-                "Lake water quality",
+                "Lake water quality, turbidity",
+                "Lake water quality, trophic",
                 ""
               ]
             },
@@ -4135,14 +4136,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Low turbidity",
-                "Medium turbidity",
-                "High turbidity",
-                "Extreme turbidity",
-                "Low trophic",
-                "Medium trophic",
-                "High trophic",
-                "Extreme trophic",
+                "Low",
+                "Medium",
+                "High",
+                "Extreme",
                 ""
               ]
             },
