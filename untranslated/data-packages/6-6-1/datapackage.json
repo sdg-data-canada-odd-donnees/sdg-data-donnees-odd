@@ -22,8 +22,7 @@
                 "Number of (shared) basins showing high surface-water extent changes",
                 "Permanent water",
                 "Seasonal water",
-                "Reservoirs, maximum water extent",
-                "Reservoirs, minimum water extent",
+                "Reservoir extent",
                 "Wetlands area",
                 "Lake water quality, turbidity",
                 "Lake water quality, trophic",
@@ -39,6 +38,17 @@
                 "Percentage",
                 "Number",
                 "Square kilometers",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Water extent",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Maximum",
+                "Minimum",
                 ""
               ]
             }
