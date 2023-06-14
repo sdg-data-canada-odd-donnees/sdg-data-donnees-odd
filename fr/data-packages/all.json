@@ -4111,14 +4111,7 @@
                 "Réservoirs, étendue maximale de l’eau",
                 "Réservoirs, étendue minimale d’eau",
                 "Étendue des millieux humides",
-                "Qualité de l’eau du lac, faible turbidité",
-                "Qualité de l’eau du lac, turbidité moyenne",
-                "Qualité de l’eau du lac, turbidité élevée",
-                "Qualité de l’eau du lac, turbidité extrême",
-                "Lake water quality, low trophic",
-                "Lake water quality, medium trophic",
-                "Lake water quality, high trophic",
-                "Lake water quality, extreme trophic",
+                "Lake water quality",
                 ""
               ]
             },
@@ -4136,6 +4129,24 @@
               ]
             },
             "title": "Unités"
+          },
+          {
+            "name": "Water quality",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Low turbidity",
+                "Medium turbidity",
+                "High turbidity",
+                "Extreme turbidity",
+                "Low trophic",
+                "Medium trophic",
+                "High trophic",
+                "Extreme trophic",
+                ""
+              ]
+            },
+            "title": "Qualité de l'eau"
           },
           {
             "name": "Value",

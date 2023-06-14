@@ -25,14 +25,7 @@
                 "Reservoirs, maximum water extent",
                 "Reservoirs, minimum water extent",
                 "Wetlands area",
-                "Lake water quality, low turbidity",
-                "Lake water quality, medium turbidity",
-                "Lake water quality, high turbidity",
-                "Lake water quality, extreme turbidity",
-                "Lake water quality, low trophic",
-                "Lake water quality, medium trophic",
-                "Lake water quality, high trophic",
-                "Lake water quality, extreme trophic",
+                "Lake water quality",
                 ""
               ]
             }
@@ -45,6 +38,23 @@
                 "Percentage",
                 "Number",
                 "Square kilometers",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Water quality",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Low turbidity",
+                "Medium turbidity",
+                "High turbidity",
+                "Extreme turbidity",
+                "Low trophic",
+                "Medium trophic",
+                "High trophic",
+                "Extreme trophic",
                 ""
               ]
             }
