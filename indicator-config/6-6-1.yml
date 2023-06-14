@@ -18,6 +18,12 @@ data_start_values:
   value: High
 - field: Water quality
   value: Extreme
+- field: Series
+  value: Reservoir extent
+- field: Water extent
+  value: Maximum
+- field: Water extent
+  value: Minimum
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
