@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Billion CAD ($)
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -17,9 +17,10 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: Total amount of remittances sent to ODA-eligible countries
+graph_title: Personal remittances received as proportion of GDP
+#Total amount of remittances sent to ODA-eligible countries
 graph_titles: []
-graph_type: bar
+graph_type: line
 indicator_available: Total amount of remittances sent to ODA-eligible countries
 indicator_name: global_indicators.17-3-2-title
 indicator_number: 17.3.2
