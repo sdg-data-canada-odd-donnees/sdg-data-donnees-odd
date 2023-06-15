@@ -451,7 +451,15 @@
 17-3-1:
   progress_status: not_available
 17-3-2:
-  progress_status: not_available
+  base_value: '0.1'
+  base_year: '2015'
+  current_value: '0.0'
+  current_year: '2021'
+  direction: positive
+  progress_calculation_value: '-1.0'
+  progress_status: deterioration
+  target: None
+  target_year: '2030'
 17-4-1:
   progress_status: not_available
 17-5-1:
