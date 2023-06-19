@@ -46,7 +46,7 @@
                 "Toutes les personnes",
                 "Personnes dans les familles économiques",
                 "Personnes dans les familles de personnes âgées",
-                "Persons in elderly couples",
+                "Personnes dans les couples de personnes âgées",
                 "Personnes dans les autres familles de personnes âgées",
                 "Personnes dans les familles non âgées",
                 "Personnes dans les couples",
@@ -74,11 +74,11 @@
             "constraints": {
               "enum": [
                 "Sécurité alimentaire",
-                "Food insecure",
-                "Food insecure, marginal",
-                "Food insecure, moderate or severe",
-                "Food insecure, moderate",
-                "Food insecure, severe",
+                "Insécurité alimentaire",
+                "Insécurité alimentaire marginale",
+                "Insécurité alimentaire modérée ou grave",
+                "Insécurité alimentaire modérée",
+                "Insécurité alimentaire grave",
                 ""
               ]
             },
