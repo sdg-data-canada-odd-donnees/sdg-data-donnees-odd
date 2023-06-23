@@ -2,8 +2,8 @@ SDG_GOAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
 SDG_TARGET: '<p>Target 10.7: Facilitate orderly, safe, regular and responsible migration
   and mobility of people, including through the implementation of planned and well-managed
   migration policies</p>'
-SDG_INDICATOR: '<p>Indicator: 10.7.4: Proportion of the population who are refugees,
-  by country of origin</p>'
+SDG_INDICATOR: '<p>Indicator: 10.7.3: Number of people who died or disappeared in the 
+  process of migration towards an international destination</p>'
 STAT_CONC_DEF: <p>The indicator is defined as the total count of population who have
   been recognized as refugees as a proportion of the total population of their country
   of origin, expressed per 100,000 population. </p>
@@ -13,9 +13,9 @@ SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
 SDG_TARGET__GLOBAL: '<p>Target 10.7: Facilitate orderly, safe, regular and responsible
   migration and mobility of people, including through the implementation of planned
   and well-managed migration policies</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator: 10.7.4: Proportion of the population who are
-  refugees, by country of origin</p>'
-un_designated_tier: ~
-un_custodian_agency: UN High Commissioner for Refugees (UNHCR)
-goal_meta_link: ~
-goal_meta_link_text: ~
+SDG_INDICATOR__GLOBAL: '<p>Indicator: 10.7.3: Number of people who died or disappeared in the 
+  process of migration towards an international destination</p>'
+un_designated_tier: Tier I
+un_custodian_agency: International Organization for Migration
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-03.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals metadata (PDF)
