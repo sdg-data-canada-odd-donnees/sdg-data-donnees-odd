@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Mortality rate per 100,000 population",
-                "Number of deaths",
+                "Taux de mortalité pour 100 000 habitants",
+                "Nombre de décès",
                 ""
               ]
             },
