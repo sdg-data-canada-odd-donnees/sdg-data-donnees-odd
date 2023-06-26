@@ -1,12 +1,24 @@
-SDG_GOAL: '   '
-SDG_TARGET: '   '
-SDG_INDICATOR: '   '
+SDG_GOAL: '<p>Objectif 12: Établir des modes de consommation et de production durables</p>'
+SDG_TARGET: '<p>Cible 12.6: Encourager les entreprises, en particulier les grandes entreprises
+  et les sociétés transnationales, à adopter des pratiques viables et à intégrer dans les rapports 
+  qu’elles établissent des informations sur la viabilité</p>'
+SDG_INDICATOR: '<p>Indicateur 12.6.1: Nombre d’entreprises qui publient des rapports sur le 
+  développement durable</p>'
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '   '
-SDG_TARGET__GLOBAL: '   '
-SDG_INDICATOR__GLOBAL: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 12: Établir des modes de consommation et de production durables</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 12.6: Encourager les entreprises, en particulier les grandes entreprises
+  et les sociétés transnationales, à adopter des pratiques viables et à intégrer dans les rapports 
+  qu’elles établissent des informations sur la viabilité</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.6.1: Nombre d’entreprises qui publient des rapports sur le 
+  développement durable</p>'
+
+un_custodian_agency: |
+  Programme des Nations Unies pour l'environnement (PNUE)
+  <br>Conférence des Nations Unies sur le commerce et le développement (CNUCED)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-06-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 reporting_status: notstarted
 
