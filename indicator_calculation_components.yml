@@ -152,6 +152,8 @@
   progress_status: not_available
 11-b-2:
   progress_status: not_available
+12-1-1:
+  progress_status: not_available
 12-2-1:
   progress_status: not_available
 12-2-2:
@@ -163,7 +165,15 @@
 12-4-2:
   progress_status: not_available
 12-5-1:
-  progress_status: not_available
+  base_value: '9551229.0'
+  base_year: '2018'
+  current_value: '9903027.0'
+  current_year: '2020'
+  direction: positive
+  progress_calculation_value: '0.01824984501069493'
+  progress_status: substantial_progress
+  target: None
+  target_year: '2030'
 12-6-1:
   progress_status: not_available
 12-7-1:
