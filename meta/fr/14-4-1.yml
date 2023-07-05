@@ -1,14 +1,14 @@
 SDG_GOAL: >-
-    <p>Objectif 14: Conserver et exploiter de manière durable les océans,
+    <p>Objectif 14 : Conserver et exploiter de manière durable les océans,
     les mers et les ressources marines aux fins du développement durable</p>
 SDG_TARGET: >-
-    <p>Cible 14.4: D’ici à 2020, réglementer efficacement la pêche, mettre
+    <p>Cible 14.4 : D’ici à 2020, réglementer efficacement la pêche, mettre
       un terme à la surpêche, à la pêche illicite, non déclarée et non réglementée et
       aux pratiques de pêche destructrices et exécuter des plans de gestion fondés sur
       des données scientifiques, l’objectif étant de rétablir les stocks de poissons le
       plus rapidement possible, au moins à des niveaux permettant d’obtenir un rendement
       constant maximal compte tenu des caractéristiques biologiques</p>
-SDG_INDICATOR: '<p>Indicateur 14.4.1: Proportion de stocks de poissons dont le niveau
+SDG_INDICATOR: '<p>Indicateur 14.4.1 : Proportion de stocks de poissons dont le niveau
   est biologiquement viable</p>'
 STAT_CONC_DEF: >-
     <p>L'indicateur Proportion de stocks de poissons marins se situant
@@ -20,17 +20,23 @@ STAT_CONC_DEF: >-
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: >-
-    <p>Objectif 14: Conserver et exploiter de manière durable les océans,
+    <p>Objectif 14 : Conserver et exploiter de manière durable les océans,
     les mers et les ressources marines aux fins du développement durable</p>
 SDG_TARGET__GLOBAL: >-
-    <p>Cible 14.4: D’ici à 2020, réglementer efficacement la pêche, mettre
+    <p>Cible 14.4 : D’ici à 2020, réglementer efficacement la pêche, mettre
       un terme à la surpêche, à la pêche illicite, non déclarée et non réglementée et
       aux pratiques de pêche destructrices et exécuter des plans de gestion fondés sur
       des données scientifiques, l’objectif étant de rétablir les stocks de poissons le
       plus rapidement possible, au moins à des niveaux permettant d’obtenir un rendement
       constant maximal compte tenu des caractéristiques biologiques</p>
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 14.4.1: Proportion de stocks de poissons dont
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 14.4.1 : Proportion de stocks de poissons dont
   le niveau est biologiquement viable</p>'
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-14-04-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
 source_active_1: 'true'
 source_url_text_1: "Niveaux d'exploitation des principaux stocks de poissons"
 source_url_1: https://www.canada.ca/fr/environnement-changement-climatique/services/indicateurs-environnementaux/niveaux-exploitation-principaux-stocks-poissons.html
