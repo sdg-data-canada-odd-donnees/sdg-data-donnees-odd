@@ -7,7 +7,8 @@ SDG_TARGET: '<p>Target 15.1: By 2020, ensure the conservation, restoration and s
   agreements </p>'
 SDG_INDICATOR: '<p>Indicator 15.1.2: Proportion of important sites for terrestrial
   and freshwater biodiversity that are covered by protected areas, by ecosystem type</p>'
-STAT_CONC_DEF: <p>The indicator Proportion of important sites for terrestrial and
+STAT_CONC_DEF: |
+  The indicator Proportion of important sites for terrestrial and
   freshwater biodiversity that are covered by protected areas, by ecosystem type shows
   temporal trends in the mean percentage of each important site for terrestrial and
   freshwater biodiversity (i.e., those that contribute significantly to the global
@@ -17,7 +18,7 @@ STAT_CONC_DEF: <p>The indicator Proportion of important sites for terrestrial an
   <br><b>Key Biodiversity Areas (KBAs)<b> are sites that contribute significantly to the global 
   persistence of biodiversity in terrestrial, freshwater and marine ecosystems. They are 
   identified through national processes by local stakeholders using a set of globally 
-  agreed scientific criteria.</p>
+  agreed scientific criteria.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
