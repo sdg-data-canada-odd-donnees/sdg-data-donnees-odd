@@ -19,19 +19,16 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.15-2-1-title
 graph_titles:
-- series: Forest area net change rate
-  title: Forest area net change rate (Percentage)
-- series: Above-ground biomass stock in forest
-  title: Above-ground biomass stock in forest (Tonnes/hectare)
-- series: Proportion of forest area located within legally established protected areas
-  title: Proportion of forest area located within legally established protected areas
-    (Percentage)
-- series: Proportion of forest area under a long term forest management plan
-  title: Proportion of forest area under a long term forest management plan (Percentage)
-- series: "\xC2\_'Forest area under an independently verified forest management certification\
-    \ scheme'"
-  title: "\xC2\_'Forest area under an independently verified forest management certification\
-    \ scheme (Hectares)'"
+- series: Taux de variation nette de la superficie forestière
+  title: Taux de variation nette de la superficie forestière (Pourcentage)
+- series: Stock de biomasse aérienne en forêt 
+  title: Stock de biomasse aérienne en forêt (Tonnes/hectare)
+- series: Proportion de la superficie forestière située dans des aires protégées légalement établies
+  title: Proportion de la superficie forestière située dans des aires protégées légalement établies (Pourcentage)
+- series: Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme
+  title: Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme (Pourcentage)
+- series: Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante (Pourcentage)
+  title: Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante
 graph_type: line
 indicator_name: global_indicators.15-2-1-title
 indicator_number: 15.2.1
