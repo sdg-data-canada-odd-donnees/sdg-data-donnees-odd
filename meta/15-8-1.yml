@@ -7,7 +7,18 @@ SDG_TARGET: '<p>Target 15.8: By 2020, introduce measures to prevent the introduc
 SDG_INDICATOR: '<p>Indicator 15.8.1: Proportion of countries adopting relevant national
   legislation and adequately resourcing the prevention or control of invasive alien
   species</p>'
-STAT_CONC_DEF: '<p>This indicator aims to quantify trends in: </p>'
+STAT_CONC_DEF: |
+  This indicator aims to quantify trends in: 
+  <br>Commitment by countries to relevant multinational agreements, specifically:
+  <br>(1) National adoption of invasive alien species relevant policy. 
+  <br>Percentage of countries with: 
+  <br>  (a) national legislation and policy relevant to invasive alien species. 
+  <br>  (b) targets and objectives within national strategies for preventing and controlling invasive alien species are aligned with Aichi Target 9.
+  <br>The translation of policy arrangements into action by countries to implement policy and actively 
+  prevent and control invasive alien species (IAS) and the resourcing of this action, specifically:
+  <br>(2) National allocation of resources towards the prevention or control of IAS.
+
+</p>'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
