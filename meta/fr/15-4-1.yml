@@ -2,10 +2,10 @@ SDG_GOAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres
   veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
   et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET: '<p>Cible 15.4: D’ici à 2030, assurer la préservation des écosystèmes
+SDG_TARGET: '<p>Cible 15.4 : D’ici à 2030, assurer la préservation des écosystèmes
   montagneux, notamment de leur biodiversité, afin de mieux tirer parti de leurs bienfaits
   essentiels pour le développement durable</p>'
-SDG_INDICATOR: '<p>Indicateur 15.4.1: Sites importants pour la biodiversité des montagnes
+SDG_INDICATOR: '<p>Indicateur 15.4.1 : Sites importants pour la biodiversité des montagnes
   qui se trouvent dans des aires protégées</p>'
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
@@ -14,16 +14,23 @@ SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes te
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
   et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 15.4: D’ici à 2030, assurer la préservation des écosystèmes
+SDG_TARGET__GLOBAL: '<p>Cible 15.4 : D’ici à 2030, assurer la préservation des écosystèmes
   montagneux, notamment de leur biodiversité, afin de mieux tirer parti de leurs bienfaits
   essentiels pour le développement durable</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 15.4.1: Sites importants pour la biodiversité
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 15.4.1 : Sites importants pour la biodiversité
   des montagnes qui se trouvent dans des aires protégées</p>'
 
 reporting_status: complete
 
+un_designated_tier: Niveau I
+un_custodian_agency: Programme des Nations unies pour l’environnement (PNUE)-Centre mondial de surveillance de la conservation (CMSC),
+  Programme des Nations unies pour l’environnement (PNUE)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-04-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 455
+  KB)
+
 source_active_1: 'true'
 source_url_text_1: "Informations sur les zones clés de la biodiversité"
 source_url_1: https://www.ibat-alliance.org/country_profiles/CAN
-source_organisation_1: Integrated Biodiversity Assessment Tool (IBAT) 
+source_organisation_1: Outil d’évaluation intégrée de la biodiversité (IBAT) 
 source_geographical_coverage_1: Canada
