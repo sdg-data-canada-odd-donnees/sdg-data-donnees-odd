@@ -1,29 +1,29 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+SDG_GOAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET: '<p>Cible 17.6: Renforcer l’accès à la science, à la technologie et à l’innovation
+SDG_TARGET: '<p>Cible 17.6 : Renforcer l’accès à la science, à la technologie et à l’innovation
   et la coopération Nord-Sud et Sud-Sud et la coopération triangulaire régionale et
   internationale dans ces domaines et améliorer le partage des savoirs selon des modalités
   arrêtées d’un commun accord, notamment en coordonnant mieux les mécanismes existants,
   en particulier au niveau des organismes des Nations Unies, et dans le cadre d’un
   mécanisme mondial de facilitation des technologies</p>'
 SDG_INDICATOR: |
-    Indicateur 17.6.1: Abonnements à une connexion à Internet à haut débit fixe
+    Indicateur 17.6.1 : Abonnements à une connexion à Internet à haut débit fixe
 STAT_CONC_DEF: |
     <b>Les centres urbains</b>, aussi connus comme centres de population de petite, moyenne et grande taille, sont classés comme suit : les centres de population de petite taille comptent une population de 1 000 à 29 999 habitants; les centres de population de moyenne taille comptent une population de 30 000 à 99 999 habitants; et les centres de population urbains de grande taille comptent une population de 100 000 habitants et plus.<br><br><b>Les collectivités rurales</b> comprennent les régions comptant moins de 1 000 habitants et une densité de population de 400 habitants ou moins par kilomètre carré.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 17.6: Renforcer l’accès à la science, à la technologie
+SDG_TARGET__GLOBAL: '<p>Cible 17.6 : Renforcer l’accès à la science, à la technologie
   et à l’innovation et la coopération Nord-Sud et Sud-Sud et la coopération triangulaire
   régionale et internationale dans ces domaines et améliorer le partage des savoirs
   selon des modalités arrêtées d’un commun accord, notamment en coordonnant mieux
   les mécanismes existants, en particulier au niveau des organismes des Nations Unies,
   et dans le cadre d’un mécanisme mondial de facilitation des technologies</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.6.1: Abonnements à une connexion à Internet
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.6.1 : Abonnements à une connexion à Internet
   à haut débit fixe pour 100 habitants, par vitesse de connexion</p>'
 
 # Source
@@ -35,3 +35,7 @@ source_organisation_1: "Conseil de la radiodiffusion et des télécommunications
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: 'Canada, provinces et territoires'
 
+un_designated_tier: Niveau I
+un_custodian_agency: Union internationale des télécommunications (UIT)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-06-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
