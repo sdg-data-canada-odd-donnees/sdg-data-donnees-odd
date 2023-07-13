@@ -1,20 +1,20 @@
 SDG_GOAL: >-
-    <p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable et le revitaliser</p>
+    <p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable et le revitaliser</p>
 SDG_TARGET: >-
-    <p>Cible 17.3: Mobiliser des ressources financières supplémentaires de diverses provenances en faveur des pays en développement</p>
+    <p>Cible 17.3 : Mobiliser des ressources financières supplémentaires de diverses provenances en faveur des pays en développement</p>
 SDG_INDICATOR: >-
-    <p>Indicateur 17.3.2: IND Volume des envois de fonds de travailleurs migrants (en dollars des États-Unis) en proportion du PIB total</p>
+    <p>Indicateur 17.3.2 : IND Volume des envois de fonds de travailleurs migrants (en dollars des États-Unis) en proportion du PIB total</p>
 STAT_CONC_DEF: <p>La part des envois de fonds reçus par les particuliers en proportion
   du PIB correspond aux envois totaux reçus par les particuliers exprimés en pourcentage
   du produit intérieur brut (PIB).</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: >-
-    <p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable et le revitaliser</p>
+    <p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable et le revitaliser</p>
 SDG_TARGET__GLOBAL: >-
-    <p>Cible 17.3: Mobiliser des ressources financières supplémentaires de diverses provenances en faveur des pays en développement</p>
+    <p>Cible 17.3 : Mobiliser des ressources financières supplémentaires de diverses provenances en faveur des pays en développement</p>
 SDG_INDICATOR__GLOBAL: >-
-    <p>Indicateur 17.3.2: IND Volume des envois de fonds de travailleurs migrants (en dollars des États-Unis) en proportion du PIB total</p>
+    <p>Indicateur 17.3.2 : IND Volume des envois de fonds de travailleurs migrants (en dollars des États-Unis) en proportion du PIB total</p>
 source_active_1: 'true'
 source_url_text_1: "Envois de fonds des travailleurs et rémunérations des salariés, reçus (% du PIB) - Canada"
 source_url_1: https://donnees.banquemondiale.org/indicateur/BX.TRF.PWKR.DT.GD.ZS?end=2021&locations=CA&name_desc=true&start=1995&view=chart
@@ -23,4 +23,7 @@ source_geographical_coverage_1: Canada
 COVERAGE: Canada
 UNIT_OF_MEASURE: Percentage (%)
 
-
+un_designated_tier: Niveau I
+un_custodian_agency: La Banque Mondiale
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
