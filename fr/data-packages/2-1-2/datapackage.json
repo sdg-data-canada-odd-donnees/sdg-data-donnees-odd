@@ -21,68 +21,68 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Provinces de l'Atlantique",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Atlantic provinces",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
-                "Provinces des Prairies",
+                "Prairie provinces",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Economic family type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les personnes",
-                "Personnes dans les familles économiques",
-                "Personnes dans les familles de personnes âgées",
-                "Personnes dans les couples de personnes âgées",
-                "Personnes dans les autres familles de personnes âgées",
-                "Personnes dans les familles non âgées",
-                "Personnes dans les couples",
-                "Personnes dans les familles comptant un couple avec des enfants",
-                "Personnes dans les familles comptant un couple avec d'autres personnes apparentées",
-                "Personnes dans les familles monoparentales",
-                "Personnes dans les familles monoparentales ayant un homme à leur tête",
-                "Personnes dans les familles monoparentales ayant une femme à leur tête",
-                "Personnes dans les autres familles de personnes non âgées",
-                "Personnes hors famille économique",
-                "Personnes âgées hors famille économique",
-                "Hommes âgés hors famille économique",
-                "Femmes âgées hors famille économique",
-                "Personnes non âgées hors famille économique",
-                "Hommes non âgés hors famille économique",
-                "Femmes non âgées hors famille économique",
+                "All persons",
+                "Persons in economic families",
+                "Persons in elderly families",
+                "Persons in elderly couples",
+                "Persons in other elderly families",
+                "Persons in non-elderly families",
+                "Persons in couples",
+                "Persons in couple families with children",
+                "Persons in couple families with other relatives",
+                "Persons in lone-parent families",
+                "Persons in male lone-parent families",
+                "Persons in female lone-parent families",
+                "Persons in other non-elderly families",
+                "Persons not in an economic family",
+                "Elderly persons not in an economic family",
+                "Elderly males not in an economic family",
+                "Elderly females not in an economic family",
+                "Non-elderly persons not in an economic family",
+                "Non-elderly males not in an economic family",
+                "Non-elderly females not in an economic family",
                 ""
               ]
             },
-            "title": "Type de famille économique"
+            "title": "data.Economic family type"
           },
           {
             "name": "data.Household food security status",
             "type": "string",
             "constraints": {
               "enum": [
-                "Sécurité alimentaire",
-                "Insécurité alimentaire",
-                "Insécurité alimentaire marginale",
-                "Insécurité alimentaire modérée ou grave",
-                "Insécurité alimentaire modérée",
-                "Insécurité alimentaire grave",
+                "Food secure",
+                "Food insecure",
+                "Food insecure, marginal",
+                "Food insecure, moderate or severe",
+                "Food insecure, moderate",
+                "Food insecure, severe",
                 ""
               ]
             },
-            "title": "Niveau de sécurité alimentaire du ménage"
+            "title": "data.Household food security status"
           },
           {
             "name": "GeoCode",
@@ -92,7 +92,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

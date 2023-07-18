@@ -20,21 +20,21 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "St. John's, Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Halifax, Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Moncton, Nouveau-Brunswick",
-                "Saint John, Nouveau-Brunswick",
-                "Québec",
-                "Montréal, Québec",
-                "Ottawa - Gatineau (partie du Québec), Québec",
-                "Québec, Québec",
-                "Saguenay, Québec",
-                "Sherbrooke, Québec",
-                "Trois-Rivières, Québec",
+                "Newfoundland and Labrador",
+                "St. John's, Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "Halifax, Nova Scotia",
+                "New Brunswick",
+                "Moncton, New Brunswick",
+                "Saint John, New Brunswick",
+                "Quebec",
+                "Montréal, Quebec",
+                "Ottawa - Gatineau (Quebec part), Quebec",
+                "Québec, Quebec",
+                "Saguenay, Quebec",
+                "Sherbrooke, Quebec",
+                "Trois-Rivières, Quebec",
                 "Ontario",
                 "Barrie, Ontario",
                 "Belleville, Ontario",
@@ -46,7 +46,7 @@
                 "Kitchener - Cambridge - Waterloo, Ontario",
                 "London, Ontario",
                 "Oshawa, Ontario",
-                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
+                "Ottawa - Gatineau (Ontario part), Ontario",
                 "Peterborough, Ontario",
                 "St. Catharines - Niagara, Ontario",
                 "Thunder Bay, Ontario",
@@ -61,30 +61,30 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Lethbridge, Alberta",
-                "Colombie-Britannique",
-                "Abbotsford - Mission, Colombie-Britannique",
-                "Kelowna, Colombie-Britannique",
-                "Vancouver, Colombie-Britannique",
-                "Victoria, Colombie-Britannique",
+                "British Columbia",
+                "Abbotsford - Mission, British Columbia",
+                "Kelowna, British Columbia",
+                "Vancouver, British Columbia",
+                "Victoria, British Columbia",
                 "Yukon",
-                "Territoires du Nord-Ouest",
+                "Northwest Territories",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Census divisions",
             "type": "string",
             "constraints": {
               "enum": [
-                "Subdivisions de recensement dans une agglomération de recensement",
-                "Région à l’extérieur des régions métropolitaines de recensement et des agglomérations de recensement",
+                "Census subdivisions in a census agglomeration",
+                "Area outside census metropolitan areas and census agglomeration",
                 ""
               ]
             },
-            "title": "Divisions de recensement"
+            "title": "Census divisions"
           },
           {
             "name": "GeoCode",
@@ -94,7 +94,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

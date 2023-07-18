@@ -20,17 +20,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Accessions de ressources phytogénétiques dans les établissements de conservation",
-                "Variétés et races locales conservées dans la banque de gènes",
+                "Accessions of plant genetic resources secured in conservation facilities",
+                "Local breeds stored in genebank",
                 ""
               ]
             },
-            "title": "Ressources génétiques pour l'alimentation et l'agriculture (RGAA)"
+            "title": "Genetic resources for food and agriculture (GRFA)"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

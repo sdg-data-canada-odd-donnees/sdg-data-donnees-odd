@@ -21,59 +21,59 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
-                "Yukon, Territoires du Nord-Ouest et Nunavut",
+                "British Columbia",
+                "Yukon, Northwest Territories and Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Type of materials diverted",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les matières",
-                "Toutes les fibres cellulosiques",
-                "Verre",
-                "Métaux ferreux",
-                "Cuivre et aluminium",
-                "Métaux mélangés",
-                "Électroménagers",
-                "Matériel électronique",
-                "Matières plastiques",
-                "Récipients triangulaires et aseptiques",
+                "All materials diverted",
+                "All paper fibres",
+                "Glass",
+                "Ferrous metals",
+                "Copper and aluminum",
+                "Mixed metals",
+                "White goods",
+                "Electronics",
+                "Plastics",
+                "Gable top and aseptic containers",
                 "Textiles",
-                "Pneus",
-                "Déchets provenant de la construction, de la rénovation et de la démolition",
-                "Matières organiques",
-                "Autres matières",
+                "Tires",
+                "Construction, renovation and demolition",
+                "Organics",
+                "Other materials",
                 ""
               ]
             },
-            "title": "Type de matières récupérées"
+            "title": "Type of materials diverted"
           },
           {
             "name": "Sources of materials prepared for recycling",
             "type": "string",
             "constraints": {
               "enum": [
-                "Sources des matières résidentielles récupérées",
-                "Sources des matières non résidentielles récupérées",
-                "Toutes les sources des matières récupérées",
+                "Residential sources of diverted materials",
+                "Non-residential sources of diverted materials",
+                "All sources of diverted materials",
                 ""
               ]
             },
-            "title": "Sources des matières préparées en vue du recyclage"
+            "title": "Sources of materials prepared for recycling"
           },
           {
             "name": "GeoCode",
@@ -83,7 +83,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

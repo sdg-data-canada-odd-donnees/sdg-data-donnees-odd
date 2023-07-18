@@ -24,27 +24,27 @@
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Météorologique - Inondation",
-                "Météorologique - Tempête",
-                "Météorologique - Tempête hivernale",
-                "Météorologique - Feu de forêt",
-                "Météorologique - Épisode de chaleur",
+                "Meteorological - Flood",
+                "Meteorological - Storm",
+                "Meteorological - Winter storm",
+                "Meteorological - Wildfire",
+                "Meteorological - Heat event",
                 ""
               ]
             },
-            "title": "Type de catastrophe naturelle"
+            "title": "Type of natural disaster"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

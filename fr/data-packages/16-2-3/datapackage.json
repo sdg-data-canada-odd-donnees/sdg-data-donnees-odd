@@ -20,17 +20,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
+                "Men",
+                "Women",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Sex"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

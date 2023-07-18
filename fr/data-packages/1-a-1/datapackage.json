@@ -20,20 +20,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Éducation de base",
-                "Santé de base",
-                "Approvisionnement en eau et assainissement",
-                "Aide multisectorielle pour les services sociaux de base",
-                "Aide alimentaire au développement",
+                "Basic education",
+                "Basic health",
+                "Water supply and sanitation",
+                "Multisector aid for basic social services",
+                "Development food aid",
                 ""
               ]
             },
-            "title": "Type d’aide à la réduction de la pauvreté"
+            "title": "Poverty reduction aid type"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

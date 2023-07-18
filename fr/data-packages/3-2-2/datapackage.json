@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "cp1252",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -47,25 +47,25 @@
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "Age"
           },
           {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
+                "Males",
+                "Females",
+                "Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

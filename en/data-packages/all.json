@@ -711,11 +711,11 @@
                 "Moncton, New Brunswick",
                 "Saint John, New Brunswick",
                 "Saguenay, Quebec",
-                "Quebec, Québec",
+                "Québec, Quebec",
                 "Sherbrooke, Quebec",
                 "Trois-Rivières, Quebec",
-                "Quebec, Montréal",
-                "Ontario/Quebec, Ottawa-Gatineau",
+                "Montréal, Quebec",
+                "Ottawa-Gatineau, Ontario/Quebec",
                 "Ottawa-Gatineau (Quebec part)",
                 "Ottawa-Gatineau (Ontario part)",
                 "Kingston, Ontario",
@@ -801,12 +801,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Terrestrial KBAs",
-                "Freshwater KBAs",
+                "data.Terrestrial KBAs",
+                "data.Freshwater KBAs",
                 ""
               ]
             },
-            "title": "Key Biodiversity Areas (KBAs)"
+            "title": "data.Key Biodiversity Areas (KBAs)"
           },
           {
             "name": "Value",
@@ -1352,7 +1352,7 @@
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Economic family type",
@@ -1382,7 +1382,7 @@
                 ""
               ]
             },
-            "title": "Economic family type"
+            "title": "data.Economic family type"
           },
           {
             "name": "data.Household food security status",
@@ -1398,7 +1398,7 @@
                 ""
               ]
             },
-            "title": "Household food security status"
+            "title": "data.Household food security status"
           },
           {
             "name": "GeoCode",
@@ -1749,9 +1749,9 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Quebec, Québec",
-                "Quebec, Montréal",
-                "Ontario/Quebec, Ottawa-Gatineau",
+                "Québec, Quebec",
+                "Montréal, Quebec",
+                "Ottawa-Gatineau, Ontario/Quebec",
                 "Toronto, Ontario",
                 "Winnipeg, Manitoba",
                 "Calgary, Alberta",
@@ -3250,7 +3250,7 @@
                 "Total, highest certificate, diploma or degree completed",
                 "High school or less",
                 "College, trade school or some university",
-                "Bachelor's degree or higher",
+                "Bachelors degree or higher",
                 ""
               ]
             },
@@ -3361,7 +3361,7 @@
                 "Newfoundland and Labrador",
                 "Nova Scotia",
                 "Ontario",
-                "Ontario/Quebec, Ottawa-Gatineau",
+                "Ottawa-Gatineau, Ontario/Quebec",
                 "Prairie provinces",
                 "Prince Edward Island",
                 "Quebec",
@@ -3851,25 +3851,27 @@
             "title": "Year"
           },
           {
-            "name": "Antigen",
+            "name": "Antigen or vaccine",
             "type": "string",
             "constraints": {
               "enum": [
-                "Diphtheria 4 doses",
-                "Pertussis 4 doses",
-                "Tetanus 4 doses",
-                "Polio 3 doses",
-                "Hib 4 doses",
-                "Measles 1 dose",
-                "Mumps 1 dose",
-                "Rubella 1 dose",
-                "Meningococcal C 1 dose",
-                "Pneumococcal 3 doses",
-                "Varicella 1 dose",
+                "Diphtheria",
+                "Pertussis (whooping cough)",
+                "Tetanus",
+                "Polio",
+                "Haemophilus influenzae type B (Hib)",
+                "Measles",
+                "Mumps",
+                "Rubella",
+                "Hepatitis B",
+                "Varicella",
+                "Meningococcal type C",
+                "Pneumococcal",
+                "Rotavirus",
                 ""
               ]
             },
-            "title": "Antigen"
+            "title": "Antigen or vaccine"
           },
           {
             "name": "Value",
@@ -4184,7 +4186,7 @@
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Economic family type",
@@ -4214,7 +4216,7 @@
                 ""
               ]
             },
-            "title": "Economic family type"
+            "title": "data.Economic family type"
           },
           {
             "name": "data.Household food security status",
@@ -4230,7 +4232,7 @@
                 ""
               ]
             },
-            "title": "Household food security status"
+            "title": "data.Household food security status"
           },
           {
             "name": "GeoCode",
@@ -4485,12 +4487,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of employed labour force eligible for workers' compensation benefits\n",
-                "Proportion of economic families with children receiving a child benefit\n",
-                "Ratio of unemployed receiving benefits\n",
-                "Proportion of the unemployed eligible for Employment Insurance benefits\n",
-                "Proportion of older persons receiving a pension\n",
-                "Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits\n",
+                "Proportion of employed labour force eligible for workers compensation benefits",
+                "Proportion of economic families with children receiving a child benefit",
+                "Ratio of unemployed receiving benefits",
+                "Proportion of the unemployed eligible for Employment Insurance benefits",
+                "Proportion of older persons receiving a pension",
+                "Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits",
                 ""
               ]
             },
@@ -4688,10 +4690,10 @@
                 "Abbotsford - Mission (CMA)",
                 "Bathurst (CA)",
                 "British Columbia",
-                "Campbellton (New Brunswick part)(CA)",
+                "Campbellton (New Brunswick part) (CA)",
                 "Cape Breton (CA)",
                 "Corner Brook (CA)",
-                "Edmunston (CA)",
+                "Edmundston (CA)",
                 "Fredericton (CMA)",
                 "Gander (CA)",
                 "Grand Falls-Windsor (CA)",
@@ -4714,7 +4716,7 @@
                 "Ottawa - Gatineau (Ontario part) (CMA)",
                 "Saint John (CMA)",
                 "St. Catharines - Niagara (CMA)",
-                "St. John's (CMA)",
+                "St. Johns (CMA)",
                 "Toronto (CMA)",
                 "Truro (CA)",
                 "Vancouver (CMA)",
@@ -6581,7 +6583,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Sub-total, not in employment, education or training (NEET)",
+                "Total, not in employment, education or training (NEET)",
                 "Unemployed, Not in employment, education or training (NEET)",
                 "Not in the labour force, Not in employment, education or training (NEET)",
                 ""
@@ -6997,9 +6999,9 @@
                 "Moncton, New Brunswick",
                 "Saint John, New Brunswick",
                 "Quebec",
-                "Quebec, Montréal",
+                "Montréal, Quebec",
                 "Ottawa - Gatineau (Quebec part), Quebec",
-                "Quebec, Québec",
+                "Québec, Quebec",
                 "Saguenay, Quebec",
                 "Sherbrooke, Quebec",
                 "Trois-Rivières, Quebec",

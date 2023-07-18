@@ -21,37 +21,37 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
-                "Yukon, Territoires du Nord-Ouest et Nunavut",
+                "British Columbia",
+                "Yukon, Northwest Territories and Nunavut",
                 "National Capital Region, Ontario/Quebec",
                 "National Capital Region, Quebec",
                 "National Capital Region, Ontario",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Science type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Sciences naturelles et génie",
-                "Sciences sociales, humaines et les arts",
-                "Sciences totales",
+                "Natural sciences and engineering",
+                "Social sciences, humanities and the arts",
+                "Total sciences",
                 ""
               ]
             },
-            "title": "Type de science"
+            "title": "Science type"
           },
           {
             "name": "GeoCode",
@@ -61,7 +61,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

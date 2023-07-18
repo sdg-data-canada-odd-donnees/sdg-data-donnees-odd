@@ -21,40 +21,40 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
                 "Yukon",
-                "Territoires du Nord-Ouest",
+                "Northwest Territories",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Source",
             "type": "string",
             "constraints": {
               "enum": [
-                "Exploitation pétrolière et gazière",
-                "Électricité",
-                "Transports",
-                "Industrie lourde",
-                "Bâtiments",
+                "Oil and Gas",
+                "Electricity",
+                "Transport",
+                "Heavy Industry",
+                "Buildings",
                 "Agriculture",
-                "Déchets et autres",
-                "Production de charbon",
-                "Fabrication légère, construction et ressources forestières",
-                "Inventaire provincial",
-                "Inventaire territorial",
+                "Waste",
+                "Coal Production",
+                "Light Manufacturing, Construction and Forest Resources",
+                "Provincial Inventory Total",
+                "Territorial Inventory Total",
                 ""
               ]
             },
@@ -68,7 +68,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

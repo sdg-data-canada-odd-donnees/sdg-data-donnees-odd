@@ -3575,21 +3575,23 @@
             "type": "integer"
           },
           {
-            "name": "Antigen",
+            "name": "Antigen or vaccine",
             "type": "string",
             "constraints": {
               "enum": [
-                "Diphtheria 4 doses",
-                "Pertussis 4 doses",
-                "Tetanus 4 doses",
-                "Polio 3 doses",
-                "Hib 4 doses",
-                "Measles 1 dose",
-                "Mumps 1 dose",
-                "Rubella 1 dose",
-                "Meningococcal C 1 dose",
-                "Pneumococcal 3 doses",
-                "Varicella 1 dose",
+                "Diphtheria",
+                "Pertussis (whooping cough)",
+                "Tetanus",
+                "Polio",
+                "Haemophilus influenzae type B (Hib)",
+                "Measles",
+                "Mumps",
+                "Rubella",
+                "Hepatitis B",
+                "Varicella",
+                "Meningococcal type C",
+                "Pneumococcal",
+                "Rotavirus",
                 ""
               ]
             }

@@ -21,23 +21,23 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
                 "Yukon",
-                "Territoires du Nord-Ouest",
+                "Northwest Territories",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "GeoCode",
@@ -49,13 +49,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Hommes",
-                "Femmes",
+                "Both sexes",
+                "Males",
+                "Females",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Sex"
           },
           {
             "name": "Age group",
@@ -64,43 +64,43 @@
               "enum": [
                 "Total age groups",
                 "16 to 24 years",
-                "25 à 34 ans",
-                "35 à 44 ans",
-                "45 à 54 ans",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
                 "55 to 65 years",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "Age group"
           },
           {
             "name": "Skill",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alphabétisme",
-                "Arithmétique",
+                "Literacy",
+                "Numeracy",
                 ""
               ]
             },
-            "title": "Compétences"
+            "title": "Skill"
           },
           {
             "name": "Proficiency level",
             "type": "string",
             "constraints": {
               "enum": [
-                "2 ou moins",
-                "3 ou plus",
+                "2 or below",
+                "3 or above",
                 ""
               ]
             },
-            "title": "Niveau de compétence"
+            "title": "Proficiency level"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

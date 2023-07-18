@@ -21,65 +21,65 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Atlantique",
-                "Québec",
+                "Atlantic",
+                "Quebec",
                 "Ontario",
                 "Prairies",
-                "Colombie-Britannique",
+                "British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Activités de travail non-rémunéré",
-                "Tâches domestiques",
-                "Soins à un enfant du ménage de moins de 18 ans",
-                "Soins à un adulte du ménage",
-                "Magasinage de biens ou de services",
+                "Unpaid work activities",
+                "Household chores",
+                "Care of household children under 18 years",
+                "Care of household adults",
+                "Shopping for goods or services",
                 ""
               ]
             },
-            "title": "Groupe d'activité"
+            "title": "Activity group"
           },
           {
             "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 15 ans et plus",
-                "15 à 24 ans",
-                "25 à 54 ans",
-                "25 à 34 ans",
-                "35 à 44 ans",
-                "45 à 54 ans",
-                "55 à 64 ans",
-                "65 ans et plus",
+                "Total, 15 years and over",
+                "15 to 24 years",
+                "25 to 54 years",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 64 years",
+                "65 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "Age group"
           },
           {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Homme",
-                "Femme",
+                "Male",
+                "Female",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

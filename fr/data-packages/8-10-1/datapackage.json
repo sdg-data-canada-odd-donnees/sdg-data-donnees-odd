@@ -20,17 +20,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Nombre de succursales de banques commerciales pour 100 000 adultes",
-                "Nombre de guichets automatiques bancaires (GAB) par 100 000 adultes",
+                "Number of commercial bank branches per 100,000 adults",
+                "Number of automated teller machines (ATMs) per 100,000 adults",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

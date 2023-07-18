@@ -20,10 +20,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques",
-                "Enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture",
-                "Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture",
-                "Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimum de compétence en mathématiques",
+                "Children in Grade 4 achieving at least a minimum proficiency level in mathematics",
+                "Children in Grade 4 achieving at least a minimum proficiency level in reading",
+                "Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading",
+                "Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics",
                 ""
               ]
             },
@@ -38,7 +38,7 @@
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "Sex",
@@ -46,17 +46,17 @@
             "constraints": {
               "enum": [
                 "Total",
-                "Homme",
-                "Femme",
+                "Male",
+                "Female",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

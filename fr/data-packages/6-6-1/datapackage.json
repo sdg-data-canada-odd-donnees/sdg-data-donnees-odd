@@ -20,12 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface",
-                "Eau permanente",
-                "Eau saisonnière",
-                "Étendue du réservoir",
-                "Étendue des millieux humides",
-                "Qualité de l’eau du lac, la turbidité",
+                "Number of (shared) basins showing high surface-water extent changes",
+                "Permanent water",
+                "Seasonal water",
+                "Reservoir extent",
+                "Wetlands area",
+                "Lake water quality, turbidity",
                 "Lake water quality, trophic",
                 ""
               ]
@@ -37,13 +37,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
-                "Nombre",
-                "Kilomètres carrés",
+                "Percentage",
+                "Number",
+                "Square kilometers",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "Water extent",
@@ -69,12 +69,12 @@
                 ""
               ]
             },
-            "title": "Qualité de l'eau"
+            "title": "Water quality"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

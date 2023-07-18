@@ -34,7 +34,7 @@
               "enum": [
                 "Alberta",
                 "Assiniboine-Red drainage region",
-                "Colombie-Britannique",
+                "British Columbia",
                 "Churchill drainage region",
                 "Columbia drainage region",
                 "Fraser-Lower Mainland drainage region",
@@ -43,21 +43,21 @@
                 "Lower Saskatchewan-Nelson drainage region",
                 "Manitoba",
                 "Maritime Coastal drainage region",
-                "Nouveau-Brunswick",
+                "New Brunswick",
                 "Newfoundland-Labrador drainage region",
-                "Terre-Neuve-et-Labrador",
+                "Newfoundland and Labrador",
                 "North Saskatchewan drainage region",
                 "North Shore-Gaspé drainage region",
                 "Northern Ontario drainage region",
                 "Northern Quebec drainage region",
-                "Nouvelle-Écosse",
+                "Nova Scotia",
                 "Okanagan-Similkameen drainage region",
                 "Ontario",
                 "Ottawa drainage region",
                 "Pacific Coastal drainage region",
                 "Peace-Athabasca drainage region",
-                "Île-du-Prince-Édouard",
-                "Québec",
+                "Prince Edward Island",
+                "Quebec",
                 "Saint John-St. Croix drainage region",
                 "Saskatchewan",
                 "South Saskatchewan drainage region",
@@ -69,7 +69,7 @@
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "GeoCode",
@@ -79,7 +79,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

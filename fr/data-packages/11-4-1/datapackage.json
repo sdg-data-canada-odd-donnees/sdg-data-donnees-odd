@@ -21,55 +21,55 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
                 "Yukon",
-                "Territoires du Nord-Ouest",
+                "Northwest Territories",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Level of government",
             "type": "string",
             "constraints": {
               "enum": [
-                "Administration publique générale canadienne consolidée",
-                "Administrations publiques provinciales-territoriales et locales consolidées",
+                "Consolidated Canadian general government",
+                "Consolidated provincial-territorial and local governments",
                 ""
               ]
             },
-            "title": "Niveau de gouvernement"
+            "title": "Level of government"
           },
           {
             "name": "Type of heritage",
             "type": "string",
             "constraints": {
               "enum": [
-                "Préservation de la diversité biologique et protection de la nature",
-                "Services culturels",
-                "Services de radiodiffusion, de television et d'édition\n",
-                "Loisirs, culture et religion non classés ailleurs",
-                "Ensemble du patrimoine culturel et naturel",
+                "Protection of biodiversity and landscape",
+                "Cultural services",
+                "Broadcasting and publishing services",
+                "Recreation, culture, and religion not elsewhere classified",
+                "Total cultural and natural heritage",
                 ""
               ]
             },
-            "title": "Type de patrimoine"
+            "title": "Type of heritage"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Valeur de la production agricole par hectare",
-                "Mécanismes d'atténuation des risques",
+                "Farm output value per hectare",
+                "Risk mitigation mechanisms",
                 ""
               ]
             },
@@ -32,16 +32,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Percentage",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

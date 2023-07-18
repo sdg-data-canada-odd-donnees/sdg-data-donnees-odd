@@ -21,31 +21,31 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Occupation",
             "type": "string",
             "constraints": {
               "enum": [
-                "Cadres supérieures",
-                "Cadres intermédiaires spécialisés/cadres intermédiaires spécialisées",
-                "Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle",
-                "Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique",
-                "Gestion",
+                "Senior management occupations",
+                "Specialized middle management occupations",
+                "Middle management occupations in retail and wholesale trade and customer services",
+                "Middle management occupations in trades, transportation, production and utilities",
+                "Management occupations",
                 ""
               ]
             },
@@ -54,7 +54,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

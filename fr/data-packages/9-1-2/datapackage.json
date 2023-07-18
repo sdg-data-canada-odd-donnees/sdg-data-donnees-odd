@@ -20,11 +20,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Volume de fret aérien",
-                "Passagers aériens",
-                "Volume de fret ferroviaire",
-                "Voyageurs ferroviaires",
-                "Volume de fret routier",
+                "Air freight volume",
+                "Air passengers",
+                "Rail freight volume",
+                "Rail passengers",
+                "Road freight volume",
                 ""
               ]
             },
@@ -35,18 +35,18 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tonnes métriques",
+                "Metric tonnes",
                 "Number of passengers",
                 "Metric tonnes of cargo",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

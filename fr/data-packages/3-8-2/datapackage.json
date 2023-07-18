@@ -25,15 +25,15 @@
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "Population",
             "type": "string",
             "constraints": {
               "enum": [
-                "Homme",
-                "Femme",
+                "Male",
+                "Female",
                 "Aged below 18 years",
                 "Aged 18 to 64 years",
                 "Aged 65 years or older",
@@ -47,7 +47,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

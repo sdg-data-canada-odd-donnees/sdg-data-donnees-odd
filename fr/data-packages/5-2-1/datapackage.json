@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-1",
       "schema": {
         "fields": [
           {
@@ -20,38 +20,38 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Violence psychologique ou exploitation financière",
-                "Violence physique",
-                "Violence sexuelle",
-                "Total de tous les types de violence",
+                "Emotional, financial, or psychological abuse",
+                "Physical abuse",
+                "Sexual abuse",
+                "Total intimate partner violence",
                 ""
               ]
             },
-            "title": "Type de violence entre partenaires intimes"
+            "title": "Type of intimate partner violence"
           },
           {
             "name": "Selected characteristic",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, toutes les femmes",
-                "Femmes de 15 à 24 ans",
-                "Femmes séparées ou divorcées",
-                "Femmes LGBTQ2",
-                "Femmes célibataires",
-                "Femmes des Premières Nations, métisses ou inuites",
-                "Femmes ayant une incapacité",
-                "Femmes immigrantes",
-                "Femmes désignées comme minorités visibles",
+                "Total, all women",
+                "15 to 24 year old women",
+                "Separated or divorced women",
+                "LGBTQ2 women",
+                "Single women",
+                "First Nations, Métis, or Inuit women",
+                "Women with disability",
+                "Immigrant women",
+                "Women designated as visible minorities",
                 ""
               ]
             },
-            "title": "Caractéristiques sélectionnées"
+            "title": "Selected characteristic"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

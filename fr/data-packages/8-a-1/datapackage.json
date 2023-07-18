@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -20,17 +20,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Versements bruts",
-                "Engagements",
+                "Gross disbursements",
+                "Commitments",
                 ""
               ]
             },
-            "title": "Flux d'aide publique au développement (APD) pour l'aide pour le commerce"
+            "title": "Aid for trade flows of official development assistance (ODA)"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

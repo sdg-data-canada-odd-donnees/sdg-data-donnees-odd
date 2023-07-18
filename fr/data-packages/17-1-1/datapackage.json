@@ -20,19 +20,19 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Recettes fiscales",
-                "Cotisations sociales",
-                "Dons",
-                "Autres recettes",
+                "Taxes",
+                "Social contributions",
+                "Grants",
+                "Other revenue",
                 ""
               ]
             },
-            "title": "Composant"
+            "title": "Component"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

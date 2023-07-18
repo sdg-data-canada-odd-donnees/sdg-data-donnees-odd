@@ -20,18 +20,18 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Beurre",
-                "Fromage",
-                "Autres produits laitiers",
+                "Butter",
+                "Cheese",
+                "Other Milk Products",
                 ""
               ]
             },
-            "title": "Produit"
+            "title": "Product"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

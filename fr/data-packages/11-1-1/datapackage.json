@@ -20,33 +20,33 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
-                "Total, grands centres de population urbains",
+                "British Columbia",
+                "Total, large urban population centres",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Tenure",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, mode d'occupation",
-                "Propriétaire",
-                "Propriétaire qui est un accédant à la propriété",
-                "Propriétaire qui n'est pas un accédant à la propriété",
-                "Locataire",
-                "Locataire n'habitant pas dans un logement social et abordable",
-                "Locataire habitant dans un logement social et abordable",
+                "Total, tenure",
+                "Owner",
+                "Owner who is a first-time homebuyer",
+                "Owner who is not a first-time homebuyer",
+                "Renter",
+                "Renter not in social and affordable housing",
+                "Renter in social and affordable housing",
                 ""
               ]
             },
@@ -60,7 +60,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

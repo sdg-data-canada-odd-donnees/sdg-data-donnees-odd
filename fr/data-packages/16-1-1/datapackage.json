@@ -21,49 +21,49 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
                 "Yukon",
-                "Territoires du Nord-Ouest",
+                "Northwest Territories",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les identités de genre",
-                "Homme",
-                "Femme",
+                "All genders",
+                "Male",
+                "Female",
                 ""
               ]
             },
-            "title": "Genre"
+            "title": "Gender"
           },
           {
             "name": "Indigenous identity",
             "type": "string",
             "constraints": {
               "enum": [
-                "Identité autochtone",
-                "Identité non autochtone",
+                "Indigenous identity",
+                "Non-Indigenous identity",
                 "Total",
                 ""
               ]
             },
-            "title": "Identité autochtone"
+            "title": "Indigenous identity"
           },
           {
             "name": "GeoCode",
@@ -73,7 +73,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

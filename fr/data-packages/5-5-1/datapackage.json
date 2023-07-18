@@ -21,23 +21,23 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
                 "Yukon",
-                "Territoires du Nord-Ouest",
+                "Northwest Territories",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Government",
@@ -49,17 +49,17 @@
                 ""
               ]
             },
-            "title": "Gouvernement"
+            "title": "Government"
           },
           {
             "name": "Elected officials",
             "type": "string",
             "constraints": {
               "enum": [
-                "Parlement national",
-                "Cabinet fédéral",
-                "Chefs dans les communautés des Premières Nations",
-                "Membres de conseil des Premières Nations",
+                "Members of Parliament",
+                "Members of Cabinet",
+                "Chiefs in First Nation communities",
+                "First Nations council members",
                 ""
               ]
             },
@@ -68,7 +68,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

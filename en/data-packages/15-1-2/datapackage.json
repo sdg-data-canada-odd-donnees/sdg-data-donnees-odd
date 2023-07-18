@@ -20,12 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Terrestrial KBAs",
-                "Freshwater KBAs",
+                "data.Terrestrial KBAs",
+                "data.Freshwater KBAs",
                 ""
               ]
             },
-            "title": "Key Biodiversity Areas (KBAs)"
+            "title": "data.Key Biodiversity Areas (KBAs)"
           },
           {
             "name": "Value",

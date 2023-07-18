@@ -21,28 +21,28 @@
             "constraints": {
               "enum": [
                 "Participation rate in organized learning",
-                "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en mathématiques",
-                "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en lecture",
-                "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA score de 226) en compétences en numératie fonctionnelle",
-                "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA un score 226) en compétences en littératie",
+                "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics",
+                "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading",
+                "Proportion of adults (25-to-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional numeracy skills",
+                "Proportion of adults (25-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional literacy skills",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "Parity index",
             "type": "string",
             "constraints": {
               "enum": [
-                "Indice de parité entre les sexes",
-                "Indice de statut économique, social et culturel (SESC)",
-                "Indice de parité entre millieu urban et rural (IPM)",
-                "Indice de parité du niveau de formation des parents",
+                "Gender Parity Index",
+                "Economic, Social and Cultural Status Index (ESCS)",
+                "Location Parity Index",
+                "Parental Education Attainment Parity Index",
                 ""
               ]
             },
-            "title": "Indice de parité"
+            "title": "Parity index"
           },
           {
             "name": "Geography",
@@ -50,23 +50,23 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
                 "Yukon",
-                "Territoires du Nord-Ouest",
+                "Northwest Territories",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "GeoCode",
@@ -76,7 +76,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

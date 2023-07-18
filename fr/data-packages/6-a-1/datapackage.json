@@ -20,18 +20,18 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Approvisionnement en eau et assainissement, total",
-                "Ressources en eau agricoles",
-                "Centrales hydroélectriques",
+                "Water Supply & Sanitation, Total",
+                "Agriculture water resources",
+                "Hydro-electric power plants",
                 ""
               ]
             },
-            "title": "Secteur"
+            "title": "Sector"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

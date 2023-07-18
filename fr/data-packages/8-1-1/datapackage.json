@@ -21,22 +21,22 @@
             "constraints": {
               "enum": [
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
                 "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
                 "Nunavut",
                 "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
+                "Prince Edward Island",
+                "Quebec",
                 "Saskatchewan",
                 "Yukon",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "GeoCode",
@@ -46,7 +46,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

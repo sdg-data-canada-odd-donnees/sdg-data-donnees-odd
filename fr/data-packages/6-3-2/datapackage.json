@@ -21,15 +21,15 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Océan Atlantique",
+                "Atlantic Ocean",
                 "Great Lakes and St. Lawrence River",
-                "Baie d'Hudson",
-                "Fleuve Mackenzie",
-                "Océan Pacifique",
+                "Hudson Bay",
+                "Mackenzie River",
+                "Pacific Ocean",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Land use category",
@@ -37,36 +37,36 @@
             "constraints": {
               "enum": [
                 "Agriculture",
-                "Foresterie",
-                "Exploitation minière",
-                "Peuplé",
-                "Pressions mixtes",
-                "Non aménagés",
+                "Forestry",
+                "Mining",
+                "Populated",
+                "Mixed pressures",
+                "Undeveloped",
                 "Total",
                 "Mixed Pressures",
                 ""
               ]
             },
-            "title": "Catégorie d'utilisation des sols"
+            "title": "Land use category"
           },
           {
             "name": "Water quality category",
             "type": "string",
             "constraints": {
               "enum": [
-                "Excellente",
-                "Bonne",
-                "Satisfaisante",
+                "Excellent",
+                "Good",
+                "Fair",
                 "Total",
                 ""
               ]
             },
-            "title": "Qualité de l'eau"
+            "title": "Water quality category"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }
