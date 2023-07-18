@@ -10,6 +10,12 @@ data_show_map: false
 data_start_values:
 - field: Antigen or vaccine
   value: Diphtheria
+- field: Antigen or vaccine
+  value: Haemophilus influenzae type B (Hib)
+- field: Antigen or vaccine
+  value: Hepatitis B
+- field: Antigen or vaccine
+  value: Mumps
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
