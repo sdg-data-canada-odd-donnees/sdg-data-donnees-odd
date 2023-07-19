@@ -53,7 +53,7 @@
             "title": "Marital status"
           },
           {
-            "name": "Age Group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -62,7 +62,7 @@
                 ""
               ]
             },
-            "title": "Age Group"
+            "title": "Age group"
           },
           {
             "name": "Value",
