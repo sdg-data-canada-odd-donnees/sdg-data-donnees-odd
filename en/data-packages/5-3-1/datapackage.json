@@ -20,20 +20,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
                 "Northwest Territories",
+                "Nova Scotia",
                 "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
@@ -47,13 +47,15 @@
                 "Married or living common law",
                 "Married",
                 "Living common law",
+                "Married or living common-law",
+                "Living common-law",
                 ""
               ]
             },
             "title": "Marital status"
           },
           {
-            "name": "Age group",
+            "name": "Age Group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -62,7 +64,7 @@
                 ""
               ]
             },
-            "title": "Age group"
+            "title": "Age Group"
           },
           {
             "name": "Value",
