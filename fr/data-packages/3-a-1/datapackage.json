@@ -33,12 +33,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "All age groups",
                 "15-19",
                 "20-24",
                 "25+",
                 "25-44",
                 "45+",
+                "All age groups",
                 ""
               ]
             },
@@ -49,16 +49,16 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Any tobacco product",
+                "Chewing tobacco",
                 "Cigarettes",
                 "Cigars",
+                "E-cigarettes",
                 "Little cigars or cigarillos",
                 "Pipe",
                 "Smokeless tobacco",
-                "Water pipe w tobacco",
-                "E-cigarettes",
-                "Any tobacco product",
-                "Chewing tobacco",
                 "Vaping",
+                "Water pipe with tobacco",
                 ""
               ]
             },
