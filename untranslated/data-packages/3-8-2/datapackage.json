@@ -15,12 +15,22 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
                 "Proportion with share above 10%",
                 "Proportion with share above 25%",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage",
                 ""
               ]
             }
