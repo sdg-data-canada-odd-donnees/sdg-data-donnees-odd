@@ -28,6 +28,17 @@
             "title": "Genetic resources for food and agriculture (GRFA)"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total Number",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
