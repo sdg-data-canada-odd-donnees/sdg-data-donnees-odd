@@ -1,13 +1,13 @@
 SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
   la nutrition et promouvoir l’agriculture durable</p>'
-SDG_TARGET: '<p>Cible 2.5 : D’ici à 2020, préserver la diversité génétique des semences,
+SDG_TARGET: '<p>Cible 2.5 : D’ici à 2020, préserver la diversité génétique des semences,
   des cultures et des animaux d’élevage ou domestiqués et des espèces sauvages apparentées,
   y compris au moyen de banques de semences et de plantes bien gérées et diversifiées
   aux niveaux national, régional et international, et favoriser l’accès aux avantages
   que présentent l’utilisation des ressources génétiques et du savoir traditionnel
   associé ainsi que le partage juste et équitable de ces avantages, comme convenu
   à l’échelle internationale.</p>'
-SDG_INDICATOR: '<p>Indicateur 2.5.1 : Nombre de ressources génétiques animales et
+SDG_INDICATOR: '<p>Indicateur 2.5.1 : Nombre de ressources génétiques animales et
   végétales destinées à l’alimentation et à l’agriculture sécurisées dans des installations
   de conservation à moyen ou à long terme</p>'
 STAT_CONC_DEF: "<p>La conservation des ressources génétiques végétales et animales pour l’alimentation
@@ -20,14 +20,14 @@ DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
   améliorer la nutrition et promouvoir l’agriculture durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 2.5 : D’ici à 2020, préserver la diversité génétique
+SDG_TARGET__GLOBAL: '<p>Cible 2.5 : D’ici à 2020, préserver la diversité génétique
   des semences, des cultures et des animaux d’élevage ou domestiqués et des espèces
   sauvages apparentées, y compris au moyen de banques de semences et de plantes bien
   gérées et diversifiées aux niveaux national, régional et international, et favoriser
   l’accès aux avantages que présentent l’utilisation des ressources génétiques et
   du savoir traditionnel associé ainsi que le partage juste et équitable de ces avantages,
   comme convenu à l’échelle internationale.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.5.1 : Nombre de ressources génétiques animales
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.5.1 : Nombre de ressources génétiques animales
   et végétales destinées à l’alimentation et à l’agriculture sécurisées dans des installations
   de conservation à moyen ou à long terme</p>'
 
@@ -39,8 +39,13 @@ source_url_1: https://agriculture.canada.ca/fr/science/centres-recherche-lagricu
 source_organisation_1: Agriculture et Agroalimentaire Canada
 source_geographical_coverage_1: Canada
 
-source_active_1: 'true'
-source_url_text_1: "Agriculture et Agroalimentaire Canada. Système d’information de la banque nationale de gènes du Canada – RIRG-Mondial-CA."
-source_url_1: https://pgrc-rpc.agr.gc.ca/gringlobal/landing?lang=fr-CA
-source_organisation_1: Agriculture et Agroalimentaire Canada
-source_geographical_coverage_1: Canada
+source_active_2: 'true'
+source_url_text_2: "Agriculture et Agroalimentaire Canada. Système d’information de la banque nationale de gènes du Canada – RIRG-Mondial-CA."
+source_url_2: https://pgrc-rpc.agr.gc.ca/gringlobal/landing?lang=fr-CA
+source_organisation_2: Agriculture et Agroalimentaire Canada
+source_geographical_coverage_2: Canada
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture
+goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.5
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
