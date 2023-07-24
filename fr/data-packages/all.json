@@ -279,9 +279,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Butter",
+                "Skim Milk Powder",
                 "Cheese",
                 "Other Milk Products",
+                "Incorporated Products",
+                "Butter",
                 ""
               ]
             },
@@ -289,7 +291,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "string",
             "title": "Value"
           }
         ]
