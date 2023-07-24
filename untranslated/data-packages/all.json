@@ -1237,7 +1237,7 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1259,7 +1259,7 @@
             }
           },
           {
-            "name": "data.Economic family type",
+            "name": "Economic family type",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1288,7 +1288,7 @@
             }
           },
           {
-            "name": "data.Household food security status",
+            "name": "Household food security status",
             "type": "string",
             "constraints": {
               "enum": [
