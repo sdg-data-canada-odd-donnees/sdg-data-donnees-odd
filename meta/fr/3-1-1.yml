@@ -1,8 +1,8 @@
 SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.1 : D’ici à 2030, faire passer le taux mondial de mortalité
+SDG_TARGET: '<p>Cible 3.1 : D’ici à 2030, faire passer le taux mondial de mortalité
   maternelle au-dessous de 70 pour 100 000 naissances vivantes.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.1.1 : Taux de mortalité maternelle</p>'
+SDG_INDICATOR: '<p>Indicateur 3.1.1 : Taux de mortalité maternelle</p>'
 STAT_CONC_DEF: <p>Le ratio de mortalité maternelle (RMM) est défini comme le nombre
   de décès maternels au cours d'une période donnée pour 100 000 naissances vivantes
   au cours de la même période. Il décrit le risque de décès maternel par rapport au
@@ -12,9 +12,9 @@ DATA_COMP: 'Le ratio de mortalité maternelle = (Nombre de décès maternels / N
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.1 : D’ici à 2030, faire passer le taux mondial de mortalité
+SDG_TARGET__GLOBAL: '<p>Cible 3.1 : D’ici à 2030, faire passer le taux mondial de mortalité
   maternelle au-dessous de 70 pour 100 000 naissances vivantes.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.1.1 : Taux de mortalité maternelle</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.1.1 : Taux de mortalité maternelle</p>'
 
 source_active_1: 'true'
 source_url_text_1: 'Statistique Canada. Tableau 13-10-0152-01  Décès, selon la cause, Chapitre XV : Grossesse, accouchement et puerpéralité (O00 à O99)'
@@ -25,9 +25,13 @@ source_active_2: 'true'
 source_url_text_2: 'Statistique Canada. Tableau 13-10-0414-01  Naissances vivantes, selon le lieu de résidence de la mère'
 source_organisation_2: Statistique Canada
 source_periodicity_2: Annuelle
-source_geographical_coverage_2: Canada, Province or territory
+source_geographical_coverage_2: Canada, Province ou territoire
 source_url_1: https://doi.org/10.25318/1310015201-fra
 source_url_2: https://doi.org/10.25318/1310041401-fra
 reporting_status: complete
 COVERAGE: Canada
 
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation Mondiale de la Santé (OMS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
