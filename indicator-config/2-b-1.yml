@@ -9,11 +9,15 @@ data_notice_text: ''
 data_show_map: false
 data_start_values:
 - field: Product
+  value: Skim Milk Powder
+- field: Product
   value: Butter
 - field: Product
   value: Cheese
 - field: Product
   value: Other Milk Products
+- field: Product
+  value: Incorporated Products
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -25,7 +29,7 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.2-b-1-title
 graph_titles: []
-graph_type: line
+graph_type: bar
 indicator_name: global_indicators.2-b-1-title
 indicator_number: 2.b.1
 national_geographical_coverage: ''

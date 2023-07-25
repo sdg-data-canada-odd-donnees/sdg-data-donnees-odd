@@ -1,13 +1,13 @@
 SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
   la nutrition et promouvoir l’agriculture durable</p>'
-SDG_TARGET: '<p>Cible 2.5 : D’ici à 2020, préserver la diversité génétique des semences,
+SDG_TARGET: '<p>Cible 2.5 : D’ici à 2020, préserver la diversité génétique des semences,
   des cultures et des animaux d’élevage ou domestiqués et des espèces sauvages apparentées,
   y compris au moyen de banques de semences et de plantes bien gérées et diversifiées
   aux niveaux national, régional et international, et favoriser l’accès aux avantages
   que présentent l’utilisation des ressources génétiques et du savoir traditionnel
   associé ainsi que le partage juste et équitable de ces avantages, comme convenu
   à l’échelle internationale.</p>'
-SDG_INDICATOR: 'Indicateur 2.5.2: Proportion des races locales considérées comme étant en danger d’extinction'
+SDG_INDICATOR: 'Indicateur 2.5.2 : Proportion des races locales considérées comme étant en danger d’extinction'
 STAT_CONC_DEF: '<p>L’indicateur présente le pourcentage de races de bétail locales parmi les races locales dont
    le statut de risque est connu et qui sont classées comme étant menacées d’extinction à un moment donné, ainsi 
    que les tendances de ce pourcentage.</p>'
@@ -15,14 +15,14 @@ DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
   améliorer la nutrition et promouvoir l’agriculture durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 2.5 : D’ici à 2020, préserver la diversité génétique
+SDG_TARGET__GLOBAL: '<p>Cible 2.5 : D’ici à 2020, préserver la diversité génétique
   des semences, des cultures et des animaux d’élevage ou domestiqués et des espèces
   sauvages apparentées, y compris au moyen de banques de semences et de plantes bien
   gérées et diversifiées aux niveaux national, régional et international, et favoriser
   l’accès aux avantages que présentent l’utilisation des ressources génétiques et
   du savoir traditionnel associé ainsi que le partage juste et équitable de ces avantages,
   comme convenu à l’échelle internationale.</p>'
-SDG_INDICATOR__GLOBAL: 'Indicateur 2.5.2 : Proportion des races locales considérées comme étant en danger d’extinction'
+SDG_INDICATOR__GLOBAL: 'Indicateur 2.5.2  : Proportion des races locales considérées comme étant en danger d’extinction'
 
 reporting_status: complete
 
@@ -31,3 +31,8 @@ source_url_text_1: Agriculture et Agroalimentaire Canada. Ressources génétique
 source_url_1: https://agriculture.canada.ca/fr/science/centres-recherche-lagriculture-lagroalimentaire/ressources-genetiques-animales-du-canada
 source_organisation_1: Agriculture et Agroalimentaire Canada
 source_geographical_coverage_1: Canada
+
+un_designated_tier: Niveau II
+un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-05-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
