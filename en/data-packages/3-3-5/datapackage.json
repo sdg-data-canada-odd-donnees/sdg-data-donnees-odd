@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "Disease",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -25,7 +25,19 @@
                 ""
               ]
             },
-            "title": "Disease"
+            "title": "Series"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",

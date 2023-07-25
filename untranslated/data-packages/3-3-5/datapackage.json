@@ -15,12 +15,23 @@
             "type": "integer"
           },
           {
-            "name": "Disease",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
                 "Leprosy",
                 "Rabies",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
                 ""
               ]
             }
