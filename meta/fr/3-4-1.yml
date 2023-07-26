@@ -1,9 +1,9 @@
-SDG_GOAL: '<p>Objectif 3: Permettre à tous de vivre en bonne santé et promouvoir
+SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.4: D’ici 2030, réduire d’un tiers, par la prévention et le
+SDG_TARGET: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention et le
   traitement, le taux de mortalité prématurée due à des maladies non transmissibles
   et promouvoir la santé mentale et le bien-être</p>'
-SDG_INDICATOR: '<p>Indicateur 3.4.1: Taux de mortalité attribué aux maladies cardiovasculaires,
+SDG_INDICATOR: '<p>Indicateur 3.4.1 : Taux de mortalité attribué aux maladies cardiovasculaires,
   au cancer, au diabète ou aux maladies respiratoires chroniques.</p>'
 STAT_CONC_DEF: <p>Probabilité de mourir
   entre 30 et 70 ans de maladies cardiovasculaires, de cancer, de diabète ou de maladies
@@ -18,12 +18,12 @@ DATA_COMP: '   '
 REC_USE_LIM: '   '
 COVERAGE: Canada
 UNIT_MEASURE: Percentage
-SDG_GOAL__GLOBAL: '<p>Objectif 3: Permettre à tous de vivre en bonne santé et promouvoir
+SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.4: D’ici 2030, réduire d’un tiers, par la prévention
+SDG_TARGET__GLOBAL: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention
   et le traitement, le taux de mortalité prématurée due à des maladies non transmissibles
   et promouvoir la santé mentale et le bien-être</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.4.1: Taux de mortalité attribué aux maladies
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.4.1 : Taux de mortalité attribué aux maladies
   cardiovasculaires, au cancer, au diabète ou aux maladies respiratoires chroniques.</p>'
 
 reporting_status: complete
@@ -35,3 +35,7 @@ source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: 'Canada'
 
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation Mondiale de la Santé (OMS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

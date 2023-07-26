@@ -3,7 +3,8 @@ SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all
 SDG_TARGET: 'Target 3.8: Achieve universal health coverage, including financial risk
   protection, access to quality essential health-care services and access to safe,
   effective, quality and affordable essential medicines and vaccines for all'
-SDG_INDICATOR: proxy.3-8-2-title
+SDG_INDICATOR: '<p>Indicateur 3.8.2 : Proportion of population (individuals) with large 
+  household expenditures on select health care items as a share of total after-tax income</p>'
 STAT_CONC_DEF: '    '
 DATA_COMP: |
     <p>The Survey of Household Spending collects expenditures using two collection modes:  a questionnaire (using recall periods that vary based on the type of expenditure) and a two-week diary.</p>
