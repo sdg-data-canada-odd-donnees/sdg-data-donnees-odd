@@ -5,9 +5,10 @@ SDG_TARGET: '<p>Cible 4.2 : D’ici à 2030, faire en sorte que toutes les fille
   tous les garçons aient accès à des services de développement et de prise en charge
   de la petite enfance et à une éducation préscolaire de qualité qui les préparent
   à suivre un enseignement primaire.</p>'
-SDG_INDICATOR: '<p>Indicateur 4.2.1 : Proportion d'enfants âgés de 24 à 59 mois dont 
+SDG_INDICATOR: |
+  Indicateur 4.2.1 : Proportion d'enfants âgés de 24 à 59 mois dont 
   le développement est en bonne voie en matière de santé, d'apprentissage et de 
-  bien-être psychosocial, par sexe</p>'
+  bien-être psychosocial, par sexe
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
@@ -18,9 +19,10 @@ SDG_TARGET__GLOBAL: '<p>Cible 4.2 : D’ici à 2030, faire en sorte que toutes l
   tous les garçons aient accès à des services de développement et de prise en charge
   de la petite enfance et à une éducation préscolaire de qualité qui les préparent
   à suivre un enseignement primaire.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 4.2.1 : Proportion d'enfants âgés de 24 à 59 mois dont 
+SDG_INDICATOR__GLOBAL: |
+  Indicateur 4.2.1 : Proportion d'enfants âgés de 24 à 59 mois dont 
   le développement est en bonne voie en matière de santé, d'apprentissage et de 
-  bien-être psychosocial, par sexe</p>'
+  bien-être psychosocial, par sexe
 
 reporting_status: notstarted
 
