@@ -1,12 +1,14 @@
-SDG_GOAL: 'Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles'
-SDG_TARGET: 'Renforcer l’utilisation des technologies clefs, en particulier de l’informatique et des communications, pour favoriser l’autonomisation des femmes'
-SDG_INDICATOR: 'Proportion de la population possédant un téléphone portable, par sexe'
+SDG_GOAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles</p>'
+SDG_TARGET: '<p>Cible 5.b : Renforcer l’utilisation des technologies clefs, en particulier de l’informatique 
+  et des communications, pour favoriser l’autonomisation des femmes</p>'
+SDG_INDICATOR: '<p>Indicateur 5.b.1 : Proportion de la population possédant un téléphone portable, par sexe</p>'
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: 'À partir de l’année de référence 2017, l’Enquête sur les dépenses des ménages est menée à tous les deux ans.'
-SDG_GOAL__GLOBAL: 'Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles'
-SDG_TARGET__GLOBAL: 'Renforcer l’utilisation des technologies clefs, en particulier de l’informatique et des communications, pour favoriser l’autonomisation des femmes'
-SDG_INDICATOR__GLOBAL: 'Proportion de la population possédant un téléphone portable, par sexe'
+SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 5.b : Renforcer l’utilisation des technologies clefs, en particulier de l’informatique 
+  et des communications, pour favoriser l’autonomisation des femmes</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.b.1 : Proportion de la population possédant un téléphone portable, par sexe</p>'
 
 reporting_status: complete
 UNIT_OF_MEASURE: Percentage
@@ -15,6 +17,11 @@ COVERAGE: Canada, Geographical region of Canada, Province or territory
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Tableau 11-10-0228-01  Caractéristiques du logement et équipement ménager au moment de l’entrevue, Canada, régions et provinces
 source_organisation_1: Statistique Canada
-source_periodicity_1: Every 2 years
-source_geographical_coverage_1: Canada, Geographical region of Canada, Province or territory
+source_periodicity_1: Aux 2 ans
+source_geographical_coverage_1: Canada, Région géographique du Canada, Province ou territoire
 source_url_1: https://doi.org/10.25318/1110022801-fra
+
+un_designated_tier: Niveau II
+un_custodian_agency: l'Union internationale des télécommunications (UIT)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-0b-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
