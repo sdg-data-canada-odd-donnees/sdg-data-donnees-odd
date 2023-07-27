@@ -1,11 +1,11 @@
-SDG_GOAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
+SDG_GOAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET: '<p>Cible 6.a: D’ici à 2030, développer la coopération internationale
+SDG_TARGET: '<p>Cible 6.a : D’ici à 2030, développer la coopération internationale
   et l’appui au renforcement des capacités des pays en développement en ce qui concerne
   les activités et programmes relatifs à l’eau et à l’assainissement, y compris la
   collecte, la désalinisation et l’utilisation rationnelle de l’eau, le traitement
   des eaux usées, le recyclage et les techniques de réutilisation</p>'
-SDG_INDICATOR: '<p>Indicateur 6.a.1: Montant de l’aide publique au développement consacrée
+SDG_INDICATOR: '<p>Indicateur 6.a.1 : Montant de l’aide publique au développement consacrée
   à l’eau et à l’assainissement dans un plan de dépenses coordonné par les pouvoirs
   publics</p>'
 STAT_CONC_DEF: <p>Le montant de l'aide publique au développement liée à l'eau et à
@@ -14,14 +14,14 @@ STAT_CONC_DEF: <p>Le montant de l'aide publique au développement liée à l'eau
   (APD) liée à l'eau et à l'assainissement qui sont inclus dans le budget du gouvernement.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
+SDG_GOAL__GLOBAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 6.a: D’ici à 2030, développer la coopération internationale
+SDG_TARGET__GLOBAL: '<p>Cible 6.a : D’ici à 2030, développer la coopération internationale
   et l’appui au renforcement des capacités des pays en développement en ce qui concerne
   les activités et programmes relatifs à l’eau et à l’assainissement, y compris la
   collecte, la désalinisation et l’utilisation rationnelle de l’eau, le traitement
   des eaux usées, le recyclage et les techniques de réutilisation</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.a.1: Montant de l’aide publique au développement
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.a.1 : Montant de l’aide publique au développement
   consacrée à l’eau et à l’assainissement dans un plan de dépenses coordonné par les
   pouvoirs publics</p>'
 
@@ -32,3 +32,8 @@ source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
 source_organisation_1: OCDE
 source_geographical_coverage_1: Canada
 
+un_designated_tier: Niveau I
+un_custodian_agency: Le Programme des Nations Unies pour l'environnement (PNUE), Organisation 
+  Mondiale de la Santé (OMS), Organisation de coopération et de développement économiques (OCDE)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-0A-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

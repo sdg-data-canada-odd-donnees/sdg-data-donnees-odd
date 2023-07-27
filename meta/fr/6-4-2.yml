@@ -1,10 +1,10 @@
-SDG_GOAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
+SDG_GOAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET: '<p>Cible 6.4: D’ici à 2030, faire en sorte que les ressources en eau
+SDG_TARGET: '<p>Cible 6.4 : D’ici à 2030, faire en sorte que les ressources en eau
   soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir la
   viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier
   à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau</p>'
-SDG_INDICATOR: '<p>Indicateur 6.4.2: Niveau de stress hydrique : prélèvements d’eau
+SDG_INDICATOR: '<p>Indicateur 6.4.2 : Niveau de stress hydrique : prélèvements d’eau
   douce en proportion des ressources en eau douce disponibles</p>'
 STAT_CONC_DEF: '<p>Niveau de stress hydrique : le prélèvement d''eau douce en proportion
   des ressources en eau douce disponibles est le rapport entre le total de l''eau
@@ -34,13 +34,13 @@ REC_USE_LIM: '<p>Le prélèvement d’eau douce en pourcentage des ressources re
   <br>Les tendances des prélèvements d’eau douce montrent des changements relativement lents. Habituellement, trois à cinq ans sont une
   fréquence minimale pour pouvoir détecter des changements significatifs, car il est peu probable que l’indicateur montre des variations 
   significatives d’une année à l’autre.</p>'
-SDG_GOAL__GLOBAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
+SDG_GOAL__GLOBAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 6.4: D’ici à 2030, faire en sorte que les ressources
+SDG_TARGET__GLOBAL: '<p>Cible 6.4 : D’ici à 2030, faire en sorte que les ressources
   en eau soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir
   la viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier
   à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.4.2: Niveau de stress hydrique : prélèvements
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.4.2 : Niveau de stress hydrique : prélèvements
   d’eau douce en proportion des ressources en eau douce disponibles</p>'
 
 reporting_status: complete
@@ -50,3 +50,8 @@ source_url_text_1: ONU-Eau. Aperçu ODD 6 en Canada.
 source_url_1: https://www.sdg6data.org/fr/country-or-area/Canada
 source_organisation_1: ONU-Eau
 source_geographical_coverage_1: Canada
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
