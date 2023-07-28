@@ -1,25 +1,25 @@
-SDG_GOAL: '<p>Objectif 7: Garantir l’accès de tous à des services énergétiques fiables,
+SDG_GOAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques fiables,
   durables et modernes, à un coût abordable</p>'
-SDG_TARGET: '<p>Cible 7.a: D’ici à 2030, renforcer la coopération internationale en
+SDG_TARGET: '<p>Cible 7.a : D’ici à 2030, renforcer la coopération internationale en
   vue de faciliter l’accès aux sciences et technologies de l’énergie propre, notamment
   les énergies renouvelables, l’efficacité énergétique et les nouvelles technologies
   de combustion propre des combustibles fossiles, et encourager l’investissement dans
   l’infrastructure énergétique et les technologies propres dans le domaine de l’énergie</p>'
-SDG_INDICATOR: '<p>Indicateur 7.a.1: Flux financiers internationaux à destination
+SDG_INDICATOR: '<p>Indicateur 7.a.1 : Flux financiers internationaux à destination
   des pays en développement à l’appui de la recherche-développement dans le domaine
   des énergies propres et de la production d’énergie renouvelable, notamment au moyen
   de systèmes hybrides</p>'
 STAT_CONC_DEF: <p>Les flux sont couverts par deux sources complémentaires.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 7: Garantir l’accès de tous à des services énergétiques
+SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques
   fiables, durables et modernes, à un coût abordable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 7.a: D’ici à 2030, renforcer la coopération internationale
+SDG_TARGET__GLOBAL: '<p>Cible 7.a : D’ici à 2030, renforcer la coopération internationale
   en vue de faciliter l’accès aux sciences et technologies de l’énergie propre, notamment
   les énergies renouvelables, l’efficacité énergétique et les nouvelles technologies
   de combustion propre des combustibles fossiles, et encourager l’investissement dans
   l’infrastructure énergétique et les technologies propres dans le domaine de l’énergie</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.a.1: Flux financiers internationaux à destination
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.a.1 : Flux financiers internationaux à destination
   des pays en développement à l’appui de la recherche-développement dans le domaine
   des énergies propres et de la production d’énergie renouvelable, notamment au moyen
   de systèmes hybrides</p>'
@@ -31,3 +31,9 @@ source_url_text_1: OCDE. Système de notification des pays créanciers (SNPC).
 source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
 source_organisation_1: OCED
 source_geographical_coverage_1: Canada
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation de coopération et de développement économiques (OCDE) 
+  et Énergies renouvelables internationales
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-0a-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
