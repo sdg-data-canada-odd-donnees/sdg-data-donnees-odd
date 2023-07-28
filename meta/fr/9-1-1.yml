@@ -1,7 +1,7 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
+SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
   durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET: '<p>Cible 9.1: Mettre en place une infrastructure de qualité, fiable,
+SDG_TARGET: '<p>Cible 9.1 : Mettre en place une infrastructure de qualité, fiable,
   durable et résiliente, y compris une infrastructure régionale et transfrontière,
   pour favoriser le développement économique et le bien-être de l''être humain, en
   privilégiant un accès universel, financièrement abordable et équitable</p>'
@@ -12,12 +12,16 @@ DATA_COMP: '   '
 REC_USE_LIM: '   '
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
+SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
   une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 9.1: Mettre en place une infrastructure de qualité,
+SDG_TARGET__GLOBAL: '<p>Cible 9.1 : Mettre en place une infrastructure de qualité,
   fiable, durable et résiliente, y compris une infrastructure régionale et transfrontière,
   pour favoriser le développement économique et le bien-être de l''être humain, en
   privilégiant un accès universel, financièrement abordable et équitable</p>'
 SDG_INDICATOR__GLOBAL: '<p> Indicateur 9.1.1 :  Proportion de la population rurale vivant à moins de 
   2 km d’une route praticable toute l’année</p>'
 
+un_designated_tier: Niveau II
+un_custodian_agency: La Banque Mondiale
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-01-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

@@ -1,30 +1,30 @@
 SDG_GOAL: >-   
-    <p>Objectif 9: Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l''innovation.</p>
+    <p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l''innovation.</p>
 SDG_TARGET: >-
-    <p>Cible 9.5:Renforcer la recherche scientifique, perfectionner les capacités
+    <p>Cible 9.5 :Renforcer la recherche scientifique, perfectionner les capacités
       technologiques des secteurs industriels de tous les pays, en particulier des pays
       en développement, notamment en encourageant l'innovation et en augmentant nettement
       le nombre de personnes travaillant dans le secteur de la recherche-développement
       pour 1 million d'habitants et en accroissant les dépenses publiques et privées consacrées
       à la recherche-développement d'ici à 2030</p>
 SDG_INDICATOR: >-  
-    <p>Indicateur 9.5.2: Nombre de chercheurs (équivalent plein temps) par million d’habitants</p>
+    <p>Indicateur 9.5.2 : Nombre de chercheurs (équivalent plein temps) par million d’habitants</p>
 STAT_CONC_DEF: '   '
 UNIT_OF_MEASURE: Rate per 1,000,000
 DATA_COMP: >-
     (Chercheurs + consultants de recherche sur site divisés par âge 15 ans et plus) * 1 000 000
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: >-   
-    <p>Objectif 9: Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l''innovation.</p>
+    <p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l''innovation.</p>
 SDG_TARGET__GLOBAL: >-
-    <p>Cible 9.5:Renforcer la recherche scientifique, perfectionner les capacités
+    <p>Cible 9.5 :Renforcer la recherche scientifique, perfectionner les capacités
       technologiques des secteurs industriels de tous les pays, en particulier des pays
       en développement, notamment en encourageant l'innovation et en augmentant nettement
       le nombre de personnes travaillant dans le secteur de la recherche-développement
       pour 1 million d'habitants et en accroissant les dépenses publiques et privées consacrées
       à la recherche-développement d'ici à 2030</p>
 SDG_INDICATOR__GLOBAL: >-  
-    <p>Indicateur 9.5.2: Nombre de chercheurs (équivalent plein temps) par million d’habitants</p>
+    <p>Indicateur 9.5.2 : Nombre de chercheurs (équivalent plein temps) par million d’habitants</p>
 
 source_active_1: 'true'
 source_url_text_1: >-
@@ -37,9 +37,13 @@ source_url_text_2: >-
     Statistique Canada. Tableau 17-10-0005-01  Estimations de la population au 1er juillet, par âge et sexe
 source_organisation_2: Statistique Canada
 source_periodicity_2: Annuelle
-source_geographical_coverage_2: Canada, Province or territory
+source_geographical_coverage_2: Canada, Province ou territoire
 source_url_1: https://doi.org/10.25318/2710002201-fra
 source_url_2: https://doi.org/10.25318/1710000501-fra
 
 COVERAGE: Canada
 
+un_designated_tier: Niveau I
+un_custodian_agency: L'Organisation des Nations unies pour l’éducation, la science et la culture (UNESCO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-05-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

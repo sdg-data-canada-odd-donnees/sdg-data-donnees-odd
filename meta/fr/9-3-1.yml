@@ -1,26 +1,30 @@
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
+SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
   durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET: '<p>Cible 9.3: Accroître, en particulier dans les pays en développement,
+SDG_TARGET: '<p>Cible 9.3 : Accroître, en particulier dans les pays en développement,
   l''accès des entreprises, notamment des petites entreprises industrielles, aux services
   financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration
   aux chaînes de valeur et aux marchés</p>'
-SDG_INDICATOR: '<p>Indicateur 9.3.1: Proportion des petites entreprises dans la valeur ajoutée totale de l’industrie</p>'
+SDG_INDICATOR: '<p>Indicateur 9.3.1 : Proportion des petites entreprises dans la valeur ajoutée totale de l’industrie</p>'
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
+SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
   durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 9.3: Accroître, en particulier dans les pays en développement,
+SDG_TARGET__GLOBAL: '<p>Cible 9.3 : Accroître, en particulier dans les pays en développement,
   l''accès des entreprises, notamment des petites entreprises industrielles, aux services
   financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration
   aux chaînes de valeur et aux marchés</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.3.1: Proportion des petites entreprises dans la valeur ajoutée totale de l’industrie</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.3.1 : Proportion des petites entreprises dans la valeur ajoutée totale de l’industrie</p>'
 
  # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: Tabulation spécialisée. Enquête annuelle sur les industries manufacturières et de l'exploitation forestière (EAMEF).
 source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&Id=1372557
-source_organisation_1: Statistics Canada
+source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
 
+un_designated_tier: Niveau II
+un_custodian_agency: Organisation des Nations Unies pour le développement industriel (ONUDI)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
