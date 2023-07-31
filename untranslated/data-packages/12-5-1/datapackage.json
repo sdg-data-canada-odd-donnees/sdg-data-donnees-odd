@@ -64,9 +64,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "All sources of diverted materials",
                 "Residential sources of diverted materials",
                 "Non-residential sources of diverted materials",
-                "All sources of diverted materials",
                 ""
               ]
             }
