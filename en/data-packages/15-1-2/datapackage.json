@@ -16,16 +16,16 @@
             "title": "Year"
           },
           {
-            "name": "data.Key Biodiversity Areas (KBAs)",
+            "name": "Key Biodiversity Areas (KBAs)",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Terrestrial KBAs",
-                "data.Freshwater KBAs",
+                "Terrestrial KBAs",
+                "Freshwater KBAs",
                 ""
               ]
             },
-            "title": "data.Key Biodiversity Areas (KBAs)"
+            "title": "Key Biodiversity Areas (KBAs)"
           },
           {
             "name": "Value",
