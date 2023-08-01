@@ -8,7 +8,9 @@ STAT_CONC_DEF: <p> L'indicateur est défini comme le pourcentage de la populatio
   de 15 ans et plus qui utilise actuellement un produit du tabac (tabac fumé et /
   ou sans fumée) quotidiennement ou non. </p>
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  Les données fournies par Santé Canada pour l’indicateur 3.a.1 reflètent la prévalence 
+  de la population par opposition à la prévalence normalisée selon l’âge.
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.a : Renforcer dans tous les pays, selon qu’il convient,

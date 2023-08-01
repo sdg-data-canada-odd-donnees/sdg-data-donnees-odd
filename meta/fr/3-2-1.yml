@@ -9,7 +9,8 @@ STAT_CONC_DEF: <p>Le taux de mortalité des enfants de moins de cinq ans est la 
   qu'un enfant né au cours d'une année ou d'une période donnée décède avant d'atteindre
   l'âge de cinq ans, exprimée pour 1 000 naissances vivantes.</p>
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  Les données pour les années 2017 à 2021 ne sont pas disponibles pour le Yukon.
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.2 : D’ici à 2030, éliminer les décès évitables de
