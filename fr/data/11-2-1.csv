@@ -1,79 +1,79 @@
-Year,Geography,Series,Demographic and geodemographic,Value
-2023,Alberta,Age,0 to 14 years,13.8
-2023,British Columbia,Age,0 to 14 years,10.6
-2023,Canada,Age,0 to 14 years,11.8
-2023,Manitoba,Age,0 to 14 years,13.8
-2023,New Brunswick,Age,0 to 14 years,7.5
-2023,Newfoundland and Labrador,Age,0 to 14 years,6.9
-2023,Northwest Territories,Age,0 to 14 years,17.7
-2023,Nova Scotia,Age,0 to 14 years,8.0
-2023,Ontario,Age,0 to 14 years,11.4
-2023,Prince Edward Island,Age,0 to 14 years,5.3
-2023,Quebec,Age,0 to 14 years,12.6
-2023,Saskatchewan,Age,0 to 14 years,14.9
-2023,Yukon,Age,0 to 14 years,13.2
-2023,Alberta,Age,15 to 64 years,51.9
-2023,British Columbia,Age,15 to 64 years,50.4
-2023,Canada,Age,15 to 64 years,49.7
-2023,Manitoba,Age,15 to 64 years,55.0
-2023,New Brunswick,Age,15 to 64 years,33.3
-2023,Newfoundland and Labrador,Age,15 to 64 years,36.2
-2023,Northwest Territories,Age,15 to 64 years,63.1
-2023,Nova Scotia,Age,15 to 64 years,39.2
-2023,Ontario,Age,15 to 64 years,49.5
-2023,Prince Edward Island,Age,15 to 64 years,24.1
-2023,Quebec,Age,15 to 64 years,50.7
-2023,Saskatchewan,Age,15 to 64 years,52.1
-2023,Yukon,Age,15 to 64 years,52.1
-2023,Alberta,Age,65 years and over,10.7
-2023,British Columbia,Age,65 years and over,14.9
-2023,Canada,Age,65 years and over,13.6
-2023,Manitoba,Age,65 years and over,14.0
-2023,New Brunswick,Age,65 years and over,10.3
-2023,Newfoundland and Labrador,Age,65 years and over,11.4
-2023,Northwest Territories,Age,65 years and over,7.0
-2023,Nova Scotia,Age,65 years and over,11.1
-2023,Ontario,Age,65 years and over,12.9
-2023,Prince Edward Island,Age,65 years and over,7.9
-2023,Quebec,Age,65 years and over,15.9
-2023,Saskatchewan,Age,65 years and over,12.8
-2023,Yukon,Age,65 years and over,10.1
-2023,Alberta,Gender,Men+,38.0
-2023,British Columbia,Gender,Men+,37.0
-2023,Canada,Gender,Men+,37.6
-2023,Manitoba,Gender,Men+,40.7
-2023,New Brunswick,Gender,Men+,24.6
-2023,Newfoundland and Labrador,Gender,Men+,26.3
-2023,Northwest Territories,Gender,Men+,43.7
-2023,Nova Scotia,Gender,Men+,28.1
-2023,Ontario,Gender,Men+,35.9
-2023,Prince Edward Island,Gender,Men+,19.5
-2023,Quebec,Gender,Men+,38.7
-2023,Saskatchewan,Gender,Men+,78.1
-2023,Yukon,Gender,Men+,37.0
-2023,Alberta,Gender,Women+,38.5
-2023,British Columbia,Gender,Women+,38.9
-2023,Canada,Gender,Women+,39.3
-2023,Manitoba,Gender,Women+,42.0
-2023,New Brunswick,Gender,Women+,26.5
-2023,Newfoundland and Labrador,Gender,Women+,28.2
-2023,Northwest Territories,Gender,Women+,44.2
-2023,Nova Scotia,Gender,Women+,30.2
-2023,Ontario,Gender,Women+,37.9
-2023,Prince Edward Island,Gender,Women+,21.2
-2023,Quebec,Gender,Women+,40.5
-2023,Saskatchewan,Gender,Women+,81.3
-2023,Yukon,Gender,Women+,38.5
-2023,Alberta,Total,Percentage of population within 500 metres of a public transit stop,76.4
-2023,British Columbia,Total,Percentage of population within 500 metres of a public transit stop,75.9
-2023,Manitoba,Total,Percentage of population within 500 metres of a public transit stop,82.7
-2023,New Brunswick,Total,Percentage of population within 500 metres of a public transit stop,51.1
-2023,Newfoundland and Labrador,Total,Percentage of population within 500 metres of a public transit stop,54.5
-2023,Northwest Territories,Total,Percentage of population within 500 metres of a public transit stop,87.9
-2023,Nova Scotia,Total,Percentage of population within 500 metres of a public transit stop,58.3
-2023,Ontario,Total,Percentage of population within 500 metres of a public transit stop,73.8
-2023,Prince Edward Island,Total,Percentage of population within 500 metres of a public transit stop,40.8
-2023,Quebec,Total,Percentage of population within 500 metres of a public transit stop,79.2
-2023,Saskatchewan,Total,Percentage of population within 500 metres of a public transit stop,79.7
-2023,Yukon,Total,Percentage of population within 500 metres of a public transit stop,75.5
-2023,Canada,Total,,75.1
+Year,Series,Demographic and geodemographic,Geography,Value
+2023,Age,0 to 14 years,Alberta,13.8
+2023,Age,15 to 64 years,Alberta,51.9
+2023,Age,65 years and over,Alberta,10.7
+2023,Gender,Men+,Alberta,38.0
+2023,Gender,Women+,Alberta,38.5
+2023,Total,Percentage of population within 500 metres of a public transit stop,Alberta,76.4
+2023,Age,0 to 14 years,British Columbia,10.6
+2023,Age,15 to 64 years,British Columbia,50.4
+2023,Age,65 years and over,British Columbia,14.9
+2023,Gender,Men+,British Columbia,37.0
+2023,Gender,Women+,British Columbia,38.9
+2023,Total,Percentage of population within 500 metres of a public transit stop,British Columbia,75.9
+2023,Age,0 to 14 years,,11.8
+2023,Age,15 to 64 years,,49.7
+2023,Age,65 years and over,,13.6
+2023,Gender,Men+,,37.6
+2023,Gender,Women+,,39.3
+2023,Total,Percentage of population within 500 metres of a public transit stop,,75.1
+2023,Age,0 to 14 years,Manitoba,13.8
+2023,Age,15 to 64 years,Manitoba,55.0
+2023,Age,65 years and over,Manitoba,14.0
+2023,Gender,Men+,Manitoba,40.7
+2023,Gender,Women+,Manitoba,42.0
+2023,Total,Percentage of population within 500 metres of a public transit stop,Manitoba,82.7
+2023,Age,0 to 14 years,New Brunswick,7.5
+2023,Age,15 to 64 years,New Brunswick,33.3
+2023,Age,65 years and over,New Brunswick,10.3
+2023,Gender,Men+,New Brunswick,24.6
+2023,Gender,Women+,New Brunswick,26.5
+2023,Total,Percentage of population within 500 metres of a public transit stop,New Brunswick,51.1
+2023,Age,0 to 14 years,Newfoundland and Labrador,6.9
+2023,Age,15 to 64 years,Newfoundland and Labrador,36.2
+2023,Age,65 years and over,Newfoundland and Labrador,11.4
+2023,Gender,Men+,Newfoundland and Labrador,26.3
+2023,Gender,Women+,Newfoundland and Labrador,28.2
+2023,Total,Percentage of population within 500 metres of a public transit stop,Newfoundland and Labrador,54.5
+2023,Age,0 to 14 years,Northwest Territories,17.7
+2023,Age,15 to 64 years,Northwest Territories,63.1
+2023,Age,65 years and over,Northwest Territories,7.0
+2023,Gender,Men+,Northwest Territories,43.7
+2023,Gender,Women+,Northwest Territories,44.2
+2023,Total,Percentage of population within 500 metres of a public transit stop,Northwest Territories,87.9
+2023,Age,0 to 14 years,Nova Scotia,8.0
+2023,Age,15 to 64 years,Nova Scotia,39.2
+2023,Age,65 years and over,Nova Scotia,11.1
+2023,Gender,Men+,Nova Scotia,28.1
+2023,Gender,Women+,Nova Scotia,30.2
+2023,Total,Percentage of population within 500 metres of a public transit stop,Nova Scotia,58.3
+2023,Age,0 to 14 years,Ontario,11.4
+2023,Age,15 to 64 years,Ontario,49.5
+2023,Age,65 years and over,Ontario,12.9
+2023,Gender,Men+,Ontario,35.9
+2023,Gender,Women+,Ontario,37.9
+2023,Total,Percentage of population within 500 metres of a public transit stop,Ontario,73.8
+2023,Age,0 to 14 years,Prince Edward Island,5.3
+2023,Age,15 to 64 years,Prince Edward Island,24.1
+2023,Age,65 years and over,Prince Edward Island,7.9
+2023,Gender,Men+,Prince Edward Island,19.5
+2023,Gender,Women+,Prince Edward Island,21.2
+2023,Total,Percentage of population within 500 metres of a public transit stop,Prince Edward Island,40.8
+2023,Age,0 to 14 years,Quebec,12.6
+2023,Age,15 to 64 years,Quebec,50.7
+2023,Age,65 years and over,Quebec,15.9
+2023,Gender,Men+,Quebec,38.7
+2023,Gender,Women+,Quebec,40.5
+2023,Total,Percentage of population within 500 metres of a public transit stop,Quebec,79.2
+2023,Age,0 to 14 years,Saskatchewan,14.9
+2023,Age,15 to 64 years,Saskatchewan,52.1
+2023,Age,65 years and over,Saskatchewan,12.8
+2023,Gender,Men+,Saskatchewan,78.1
+2023,Gender,Women+,Saskatchewan,81.3
+2023,Total,Percentage of population within 500 metres of a public transit stop,Saskatchewan,79.7
+2023,Age,0 to 14 years,Yukon,13.2
+2023,Age,15 to 64 years,Yukon,52.1
+2023,Age,65 years and over,Yukon,10.1
+2023,Gender,Men+,Yukon,37.0
+2023,Gender,Women+,Yukon,38.5
+2023,Total,Percentage of population within 500 metres of a public transit stop,Yukon,75.5
