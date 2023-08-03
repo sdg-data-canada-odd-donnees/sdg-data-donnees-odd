@@ -51,6 +51,7 @@
               "enum": [
                 "Alberta",
                 "British Columbia",
+                "Canada",
                 "Manitoba",
                 "New Brunswick",
                 "Newfoundland and Labrador",
@@ -65,6 +66,11 @@
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

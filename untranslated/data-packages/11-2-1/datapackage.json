@@ -48,6 +48,7 @@
               "enum": [
                 "Alberta",
                 "British Columbia",
+                "Canada",
                 "Manitoba",
                 "New Brunswick",
                 "Newfoundland and Labrador",
@@ -61,6 +62,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
