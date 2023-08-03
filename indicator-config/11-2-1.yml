@@ -9,31 +9,9 @@ data_notice_text: ''
 data_show_map: true
 data_start_values:
 - field: Geography
-  value: Newfoundland and Labrador
-- field: Geography
-  value: Prince Edward Island
-- field: Geography
-  value: Nova Scotia
-- field: Geography
-  value: New Brunswick
-- field: Geography
-  value: Quebec
-- field: Geography
-  value: Ontario
-- field: Geography
-  value: Manitoba
-- field: Geography
-  value: Saskatchewan
-- field: Geography
-  value: Alberta
-- field: Geography
-  value: British Columbia
-- field: Geography
-  value: Yukon
-- field: Geography
-  value: Northwest Territories
-- field: Geography
-  value: Nunavut
+  value: Canada
+- field: Series
+  value: Total
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
