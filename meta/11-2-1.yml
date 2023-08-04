@@ -15,13 +15,13 @@ DATA_COMP: |
   The method used to estimate the percentage of Canadians living within 500 metres of a public transport access point was as follows: 
   1. Locations of public transport stops of all kinds (bus, trolley, surface and underground rail) were obtained from the cities' 
   websites or the local transit authorities. Complete data coverage was achieved for the municipalities constituting the 41 census 
-  metropolitan areas (CMA). Other municipalities within certain agglomeration areas (CA) were included when data was available. 2. 
-  Public transit stop locations were integrated with Statistics Canada's 2021 Census population counts data at the blockface geographic 
+  metropolitan areas (CMA). Other municipalities within certain agglomeration areas (CA) were included when data was available. 
+  2. Public transit stop locations were integrated with Statistics Canada's 2021 Census population counts data at the blockface geographic 
   level. The proportion of population located within a service area of 500-metre walking distance (for example, convenient access) 
   from public transit stops was calculated, using the National Road Network. Based on these estimates, the population with convenient 
-  access to public transport was estimated for each municipality inside CMAs and CAs. 3. In the final step, the total population with 
-  convenient access to public transport was divided by the total population of the entire CMA to produce indicator 11.2.1, following 
-  the UN Sustainable Development Goals guidelines.
+  access to public transport was estimated for each municipality inside CMAs and CAs. 
+  3. In the final step, the total population with convenient access to public transport was divided by the total population of the 
+  entire CMA to produce indicator 11.2.1, following the UN Sustainable Development Goals guidelines.
 REC_USE_LIM: >-
     Source: Statistics Canada, 2021 Census of Population. The aggregate totals were calculated based on the sum of values within
     the scope of analysis only. The analysis scope included municipalities where a regularly scheduled public transit service was
