@@ -14,6 +14,24 @@ data_start_values:
   value: Percentage of population within 500 metres of a public transit stop
 - field: Geography
   value: Canada
+- field: Series
+  value: Gender
+- field: Demographic and geodemographic
+  value: Men+
+- field: Demographic and geodemographic
+  value: Women+
+- field: Geography
+  value: Canada
+- field: Series
+  value: Age
+- field: Demographic and geodemographic
+  value: 0 to 14 years
+- field: Demographic and geodemographic
+  value: 15 to 64 years
+- field: Demographic and geodemographic
+  value: 65 years and over
+- field: Geography
+  value: Canada
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
