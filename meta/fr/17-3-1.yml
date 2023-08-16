@@ -1,19 +1,25 @@
-SDG_GOAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+SDG_GOAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET: '<p>Cible 17.3: Mobiliser des ressources financières supplémentaires de
+SDG_TARGET: '<p>Cible 17.3 : Mobiliser des ressources financières supplémentaires de
   diverses provenances en faveur des pays en développement</p>'
-SDG_INDICATOR: '<p>Indicateur 17.3.1: Investissements étrangers directs, aide publique
+SDG_INDICATOR: '<p>Indicateur 17.3.1 : Investissements étrangers directs, aide publique
   au développement et coopération Sud-Sud, en proportion du revenu national brut</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: |
+  Part IDE: entrées d’IDE (exprimées en millions de dollars EU)
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 17.3: Mobiliser des ressources financières supplémentaires
+SDG_TARGET__GLOBAL: '<p>Cible 17.3 : Mobiliser des ressources financières supplémentaires
   de diverses provenances en faveur des pays en développement</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.3.1: Investissements étrangers directs, aide
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.3.1 : Investissements étrangers directs, aide
   publique au développement et coopération Sud-Sud, en proportion du revenu national
   brut</p>'
 
 reporting_status: notstarted
 
+un_designated_tier: Niveau I (FDI)/Niveau II (ODA, SSC)
+un_custodian_agency: L’Organisation de coopération et de développement économiques (OCDE),
+  Conférence des Nations Unies sur le commerce et le développement (CNUCED)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

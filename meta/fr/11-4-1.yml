@@ -1,5 +1,5 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 11: Faire en sorte que les villes et les établissements humains
+SDG_GOAL: '<p>Objectif 11 : Faire en sorte que les villes et les établissements humains
   soient ouverts à tous, sûrs, résilients et durables</p>'
 SDG_TARGET: |
     Cible 11.4 : Redoubler d'efforts pour protéger et préserver le patrimoine culturel et naturel mondial
@@ -12,7 +12,7 @@ COVERAGE: Canada
 UNIT_OF_MEASURE: Microgrammes par mѐtre cube
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 11: Faire en sorte que les villes et les établissements
+SDG_GOAL__GLOBAL: '<p>Objectif 11 : Faire en sorte que les villes et les établissements
   humains soient ouverts à tous, sûrs, résilients et durables</p>'
 SDG_TARGET__GLOBAL: |
     Cible 11.4 : Redoubler d'efforts pour protéger et préserver le patrimoine culturel et naturel mondial
@@ -24,13 +24,18 @@ source_active_1: 'true'
 source_url_text_1: |
     Statistique Canada. Tableau 10-10-0005-01  Classification canadienne des fonctions des administrations publiques (CCFAP) par composante des administrations publiques consolidées (x 1 000 000)
 source_url_1: https://doi.org/10.25318/1010000501-fra
-source_organisation_1: Statistics Canada
-source_periodicity_1: Annual
-source_geographical_coverage_1: Canada, Province or territory
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Province ou territoire
 
 source_active_2: 'true'
 source_url_text_2: 'Tableau 17-10-0005-01  Estimations de la population au 1er juillet, par âge et sexe'
 source_url_2: https://doi.org/10.25318/1710000501-fra
-source_organisation_2: Statistics Canada
-source_periodicity_2: Annual
-source_geographical_coverage_2: Canada, Province or territory
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada, Province ou territoire
+
+un_designated_tier: Niveau II
+un_custodian_agency: L'Organisation des Nations unies pour l’éducation, la science et la culture (UNESCO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-04-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

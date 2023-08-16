@@ -4,8 +4,8 @@ SDG_GOAL: |
 SDG_TARGET: '<p>Target 2.1: By 2030, end hunger and ensure access by all people, in
   particular the poor and people in vulnerable situations, including infants, to safe,
   nutritious and sufficient food all year round</p>'
-SDG_INDICATOR: |
-    <p>Indicator 2.1.2 (Proxy): Prevalence of moderate or severe household food insecurity</p>
+SDG_INDICATOR: '<p>Indicator 2.1.2: Prevalence of moderate or severe food
+  insecurity in the population, based on the Food Insecurity Experience Scale (FIES)</p>'
 STAT_CONC_DEF: |
   The levels of food security are defined as: <br>1- Food secure: No indication of difficulty with income-related food access; <br>2- Marginally food insecure: Exactly one indication of difficulty with income-related food access; <br>3- Moderately food insecure: Indication of compromise in quality and/or quantity of food consumed; <br>4- Severely food insecure: Indication of reduced food intake and disrupted eating patterns.
 DATA_COMP: '   '
@@ -34,9 +34,8 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 
 ## SOURCE
 reporting_status: complete
 source_active_1: true
-source_url_text_1: Statistics Canada. Table 13-10-0834-01  Food insecurity by economic
-  family type
-source_url_1: https://doi.org/10.25318/1310083401-eng
+source_url_text_1: Statistics Canada. Table 13-10-0834-01  Food insecurity by economic family type
+source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1310083401
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Geographical region of Canada, Province or territory

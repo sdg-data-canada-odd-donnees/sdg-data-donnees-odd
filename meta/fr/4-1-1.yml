@@ -5,7 +5,7 @@ SDG_TARGET: '<p>Cible 4.1 : D’ici à 2030, faire en sorte que toutes les fille
   tous les garçons suivent, sur un pied d’égalité, un cycle complet d’enseignement
   primaire et secondaire gratuit et de qualité, les dotant d’acquis véritablement
   utiles.</p>'
-SDG_INDICATOR: '<p>Indicateur 4.1.1: Proportion d''enfants et de jeunes (a) en cours
+SDG_INDICATOR: '<p>Indicateur 4.1.1 : Proportion d''enfants et de jeunes (a) en cours
   élémentaire; (b) en fin de cycle primaire; c) en fin de premier cycle du secondaire
   qui maîtrisent au moins les normes d''aptitudes minimales en i) lecture et ii) mathématiques,
   par sexe</p>'
@@ -19,7 +19,7 @@ SDG_TARGET__GLOBAL: '<p>Cible 4.1 : D’ici à 2030, faire en sorte que toutes l
   et tous les garçons suivent, sur un pied d’égalité, un cycle complet d’enseignement
   primaire et secondaire gratuit et de qualité, les dotant d’acquis véritablement
   utiles.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 4.1.1: Proportion d''enfants et de jeunes (a)
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 4.1.1 : Proportion d''enfants et de jeunes (a)
   en cours élémentaire; (b) en fin de cycle primaire; c) en fin de premier cycle du
   secondaire qui maîtrisent au moins les normes d''aptitudes minimales en i) lecture
   et ii) mathématiques, par sexe</p>'
@@ -32,22 +32,27 @@ source_active_1: 'true'
 source_url_text_1: |
     TEIMS 2019: Résultats canadiens de l'étude Tendances de l'enquête internationale sur les mathématiques et les sciences
 source_url_1: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_FR.pdf
-source_organisation_1: Council of Ministers of Education, Canada (CMEC)
-source_periodicity_1: Occasional
-source_geographical_coverage_1: Canada, Province or territory
+source_organisation_1: Conseil des ministres de l’Éducation (Canada)
+source_periodicity_1: Occasionnelle
+source_geographical_coverage_1: Canada, Province ou territoire
 
 source_active_2: 'true'
 source_url_text_2: |
     IRLS/ePIRLS 2016 Le contexte au Canada: Résultats canadiens du Programme international de recherche en lecture scolaire
 source_url_2: https://cmec.ca/Publications/Lists/Publications/Attachments/385/PIRLS2016-Report-FR.pdf
-source_organisation_2: Council of Ministers of Education, Canada (CMEC)
-source_periodicity_2: Occasional
-source_geographical_coverage_2: Canada, Province or territory
+source_organisation_2: Conseil des ministres de l’Éducation (Canada)
+source_periodicity_2: Occasionnelle
+source_geographical_coverage_2: Canada, Province ou territoire
 
 source_active_3: 'true'
 source_url_text_3: |
     À la hauteur : Résultats canadiens de l'étude PISA 2018 de l'OCDE
 source_url_3: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_FR.pdf
-source_organisation_3: Council of Ministers of Education, Canada (CMEC)
-source_periodicity_3: Occasional
-source_geographical_coverage_3: Canada, Province or territory
+source_organisation_3: Conseil des ministres de l’Éducation (Canada)
+source_periodicity_3: Occasionnelle
+source_geographical_coverage_3: Canada, Province ou territoire
+
+un_designated_tier: Niveau I
+un_custodian_agency: Institut de statistique de l’UNESCO
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

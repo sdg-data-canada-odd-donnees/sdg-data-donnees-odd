@@ -1,11 +1,11 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
+SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
   durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET: '<p>Cible 9.3: Accroître, en particulier dans les pays en développement,
+SDG_TARGET: '<p>Cible 9.3 : Accroître, en particulier dans les pays en développement,
   l''accès des entreprises, notamment des petites entreprises industrielles, aux services
   financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration
   aux chaînes de valeur et aux marchés</p>'
-SDG_INDICATOR: '<p>Indicateur 9.3.2: Proportion des petites entreprises industrielles
+SDG_INDICATOR: '<p>Indicateur 9.3.2 : Proportion des petites entreprises industrielles
   ayant contracté un prêt ou une ligne de crédit</p>'
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
@@ -14,13 +14,13 @@ COVERAGE: Canada, Région géographique du Canada
 
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
+SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
   une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 9.3: Accroître, en particulier dans les pays en développement,
+SDG_TARGET__GLOBAL: '<p>Cible 9.3 : Accroître, en particulier dans les pays en développement,
   l''accès des entreprises, notamment des petites entreprises industrielles, aux services
   financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration
   aux chaînes de valeur et aux marchés</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.3.2: Proportion des petites entreprises industrielles
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.3.2 : Proportion des petites entreprises industrielles
   ayant contracté un prêt ou une ligne de crédit</p>'
 
 # SOURCE(S)
@@ -28,6 +28,12 @@ source_active_1: 'true'
 source_url_text_1: |
     Statistique Canada. Tableau 33-10-0432-01  Demandes de financement par emprunt présentées par les petites et moyennes entreprises, par type d’instrument
 source_url_1: https://doi.org/10.25318/3310043201-fra
-source_organisation_1: Statistics Canada
-source_periodicity_1: Occasional
+source_organisation_1: Statistique Canada
+source_periodicity_1: Aux 3 ans
 source_geographical_coverage_1: Canada, Région géographique du Canada
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation des Nations Unies pour le développement industriel (ONUDI),
+  La Banque Mondiale
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

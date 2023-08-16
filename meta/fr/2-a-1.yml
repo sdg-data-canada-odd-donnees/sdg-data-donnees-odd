@@ -5,7 +5,7 @@ SDG_TARGET: '<p>Cible 2.a : Accroître, notamment grâce au renforcement de la c
   et de vulgarisation agricoles et la mise au point de technologies et de banques
   de plantes et de gènes d’animaux d’élevage, afin de renforcer les capacités productives
   agricoles des pays en développement, en particulier des pays les moins avancés.</p>'
-SDG_INDICATOR: '<p>Indicateur 2.a.1 : Indice d’orientation agricole des dépenses publiques</p>'
+SDG_INDICATOR: '<p>Indicateur 2.a.1 : Indice d’orientation agricole des dépenses publiques</p>'
 STAT_CONC_DEF: <p>L'Indice d’orientation agricole des dépenses publiques est défini
   comme la part de l'agriculture dans les dépenses publiques, divisée par la part
   de la valeur ajoutée de l'agriculture dans le produit intérieur brut (PIB), l'agriculture
@@ -25,8 +25,12 @@ SDG_TARGET__GLOBAL: '<p>Cible 2.a : Accroître, notamment grâce au renforcement
   et de banques de plantes et de gènes d’animaux d’élevage, afin de renforcer les
   capacités productives agricoles des pays en développement, en particulier des pays
   les moins avancés.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.a.1 : Indice d’orientation agricole des dépenses
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.a.1 : Indice d’orientation agricole des dépenses
   publiques</p>'
 
 reporting_status: notstarted
 
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-0A-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

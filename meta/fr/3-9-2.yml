@@ -1,10 +1,10 @@
 # NATIONAL
 SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès et de
+SDG_TARGET: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès et de
   maladies dus à des substances chimiques dangereuses et à la pollution et à la contamination
   de l’air, de l’eau et du sol.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.9.2: Taux de mortalité attribuable à l’insalubrité
+SDG_INDICATOR: '<p>Indicateur 3.9.2 : Taux de mortalité attribuable à l’insalubrité
   de l’eau, aux déficiences du système d’assainissement et au manque d’hygiène (accès
   à des services WASH inadéquats)</p>'
 STAT_CONC_DEF: |
@@ -15,10 +15,10 @@ REC_USE_LIM: '   '
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès
+SDG_TARGET__GLOBAL: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès
   et de maladies dus à des substances chimiques dangereuses et à la pollution et à
   la contamination de l’air, de l’eau et du sol.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.9.2: Taux de mortalité attribuable à l’insalubrité
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.9.2 : Taux de mortalité attribuable à l’insalubrité
   de l’eau, aux déficiences du système d’assainissement et au manque d’hygiène (accès
   à des services WASH inadéquats)</p>'
 
@@ -70,3 +70,8 @@ source_url_6: https://doi.org/10.25318/1310039101-fra
 source_organisation_6: Statistics Canada
 source_periodicity_6: Annual
 source_geographical_coverage_6: Canada
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation mondiale de la Santé (OMS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

@@ -1,3 +1,4 @@
+# NATIONAL
 SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
   provide access to justice for all and build effective, accountable and inclusive
   institutions at all levels</p>'
@@ -7,7 +8,10 @@ SDG_INDICATOR: '<p>Indicator 16.2.2: Number of victims of human trafficking per 
   population, by sex, age and form of exploitation</p>'
 STAT_CONC_DEF: '  '
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+    <b>"Total Human Trafficking"</b> is comprised of two violation codes, 1525 "Trafficking in Persons" (S.279.01, 279.011, 279.02, 279.03 of the Criminal Code) AND 6510 "Human Trafficking" from S.117 of the Immigration and Refugee Protection Act.<br><br>Human trafficking incidents reported to the Uniform Crime Reporting (UCR) Survey may be undercounted due to differences in police reporting practices for this violation.
+
+# GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
   development, provide access to justice for all and build effective, accountable
   and inclusive institutions at all levels</p>'
@@ -19,3 +23,12 @@ un_designated_tier: Tier II
 un_custodian_agency: United Nations Office on Drugs and Crime (United Nations Office for Disarmament Affairs (UNODC))
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 181 KB)
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Statistics Canada. Canadian Centre for Justice and Community Safety Statistics, Uniform Crime Reporting Survey - Custom tabulation.
+source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=3302
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada

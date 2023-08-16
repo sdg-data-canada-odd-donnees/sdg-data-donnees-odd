@@ -1,5 +1,6 @@
-auto_progress_calculation: true
-computation_units: 'Megatonnes of carbon dioxide equivalent (Mt CO2 eq)'
+# ECCC override for progress
+auto_progress_calculation: false
+computation_units: Megatonnes of carbon dioxide equivalent (Mt CO2 eq)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -34,7 +35,7 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
-progress_status: substantial_progress
+progress_status: not_available
 reporting_status: complete
 sort: ''
 standalone: false

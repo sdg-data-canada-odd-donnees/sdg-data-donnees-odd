@@ -1,10 +1,10 @@
 # NATIONAL
 SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès et de
+SDG_TARGET: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès et de
   maladies dus à des substances chimiques dangereuses et à la pollution et à la contamination
   de l’air, de l’eau et du sol.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.9.3  : Taux de mortalité attribuable à un empoisonnement
+SDG_INDICATOR: '<p>Indicateur 3.9.3 : Taux de mortalité attribuable à un empoisonnement
   accidentel</p>'
 STAT_CONC_DEF: |
     Les codes de la dixième révision de la Classification internationale des maladies (CIM-10) correspondant à l'indicateur comprennent X40, X43, X46-X48, X49.
@@ -14,10 +14,10 @@ REC_USE_LIM: '   '
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès
+SDG_TARGET__GLOBAL: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès
   et de maladies dus à des substances chimiques dangereuses et à la pollution et à
   la contamination de l’air, de l’eau et du sol.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.9.3  : Taux de mortalité attribuable à un
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.9.3 : Taux de mortalité attribuable à un
   empoisonnement accidentel</p>'
 
 
@@ -27,6 +27,11 @@ source_active_1: 'true'
 source_url_text_1: |
     Statistique Canada. Tableau 13-10-0156-01  Décès, selon la cause, Chapitre XX : Causes externes de morbidité et de mortalité (V01 à Y89)
 source_url_1: https://doi.org/10.25318/1310015601-fra
-source_organisation_1: Statistics Canada
-source_periodicity_1: Annual
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation mondiale de la Santé (OMS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-03.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

@@ -1,9 +1,9 @@
-SDG_GOAL: '<p>Objectif 14 : Conserver et exploiter de manière durable les océans,
+SDG_GOAL: '<p>Objectif 14 : Conserver et exploiter de manière durable les océans,
   les mers et les ressources marines aux fins du développement durable</p>'
-SDG_TARGET: '<p>Cible 14.5 : D’ici à 2020, préserver au moins 10 pour cent des zones
+SDG_TARGET: '<p>Cible 14.5 : D’ici à 2020, préserver au moins 10 pour cent des zones
   marines et côtières, conformément au droit national et international et compte tenu
   des meilleures informations scientifiques disponibles</p>'
-SDG_INDICATOR: '<p>Indicateur 14.5.1 : Surface des aires marines protégées, en proportion
+SDG_INDICATOR: '<p>Indicateur 14.5.1 : Surface des aires marines protégées, en proportion
   de la surface totale</p>'
 STAT_CONC_DEF: <p>L'indicateur Couverture des aires protégées par rapport aux aires
   marines montre les tendances temporelles du pourcentage moyen de chaque site important
@@ -21,13 +21,18 @@ REC_USE_LIM: "<p>L'accès aux terres ou à l'eau et leur utilisation à l'intér
     totaux d'une année précédente peuvent changer à mesure que les données sont mises à jour. <br><br>Les données sont régulièrement révisées et mises à jour. 
     L'exhaustivité de la base de données est constamment améliorée à mesure que les aires conservées existantes sont examinées et ajoutées à la base de données, 
     le cas échéant. <em>(ECCC)</em></p>"
-SDG_GOAL__GLOBAL: '<p>Objectif 14 : Conserver et exploiter de manière durable les
+SDG_GOAL__GLOBAL: '<p>Objectif 14 : Conserver et exploiter de manière durable les
   océans, les mers et les ressources marines aux fins du développement durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 14.5 : D’ici à 2020, préserver au moins 10 pour cent
+SDG_TARGET__GLOBAL: '<p>Cible 14.5 : D’ici à 2020, préserver au moins 10 pour cent
   des zones marines et côtières, conformément au droit national et international et
   compte tenu des meilleures informations scientifiques disponibles</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 14.5.1 : Surface des aires marines protégées,
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 14.5.1 : Surface des aires marines protégées,
   en proportion de la surface totale</p>'
+
+un_designated_tier: Niveau I
+un_custodian_agency: UN Environment World Conservation Monitoring Centre (UNEP-WCMC), BirdLife International (BLI), International Union for Conservation of Nature (IUCN)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-14-05-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 reporting_status: complete
 

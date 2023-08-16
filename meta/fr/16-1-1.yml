@@ -1,10 +1,10 @@
-SDG_GOAL: '<p>Objectif 16: Promouvoir l’avènement de sociétés pacifiques et inclusives
+SDG_GOAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives
   aux fins du développement durable, assurer l’accès de tous à la justice et mettre
   en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes
   à tous</p>'
-SDG_TARGET: '<p>Cible 16.1: Réduire nettement, partout dans le monde, toutes les formes
+SDG_TARGET: '<p>Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes
   de violence et les taux de mortalité qui y sont associés</p>'
-SDG_INDICATOR: '<p>Indicateur 16.1.1: Nombre de victimes d’homicide volontaire pour 100 000
+SDG_INDICATOR: '<p>Indicateur 16.1.1 : Nombre de victimes d’homicide volontaire pour 100 000
   habitants, par sexe et âge</p>'
 UNIT_OF_MEASURE: Taux pour 100 000 personnes
 STAT_CONC_DEF: "L'homicide comprend les infractions au Code criminel de meurtre, d'homicide involontaire coupable et d'infanticide."
@@ -14,14 +14,19 @@ REC_USE_LIM: >-
     <p>L'identité autochtone est déclarée par la police et est déterminée au moyen de l'information trouvée sur la victime, comme la carte de statut, ou de l'information fournie par la famille de la victime, les membres de la collectivité ou d'autres sources (c.-à-d. les enregistrements de la bande ou les preuves médico-légales comme des tests génétiques).</p>
     <p>L'année 2019 a marqué le premier cycle de collecte des données de l'Enquête sur les homicides pour lequel des renseignements sur l'identité de genre ont été déclarés pour les victimes d'homicide. L'identité de genre fait référence au genre qu'une personne exprime publiquement dans sa vie quotidienne, y compris au travail, lorsqu'elle magasine ou accède à d'autres services, dans son milieu de vie ou dans la communauté plus vaste. Avant 2019, les données de l'Enquête sur les homicides étaient présentées selon le sexe des victimes. Le sexe et le genre font référence à deux concepts différents. La comparaison des dénombrements pour le sexe avec ceux pour le genre doit être faite avec prudence.</p>
     <p>Compte tenu de l’existence possible d’un petit nombre de victimes identifiées comme étant « de diverses identités de genre », les données agrégées de l’Enquête sur les homicides accessibles au public ont été recodées afin d'attribuer à ces victimes la valeur de « genre masculin » ou « genre féminin », pour assurer la protection de la confidentialité et de la vie privée. La valeur « genre masculin » ou « genre féminin » a été attribuée aux victimes de diverses identités de genre en fonction de la répartition régionale des victimes selon le genre.</p>
-SDG_GOAL__GLOBAL: '<p>Objectif 16: Promouvoir l’avènement de sociétés pacifiques et
+SDG_GOAL__GLOBAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et
   inclusives aux fins du développement durable, assurer l’accès de tous à la justice
   et mettre en place, à tous les niveaux, des institutions efficaces, responsables
   et ouvertes à tous</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 16.1: Réduire nettement, partout dans le monde, toutes
+SDG_TARGET__GLOBAL: '<p>Cible 16.1 : Réduire nettement, partout dans le monde, toutes
   les formes de violence et les taux de mortalité qui y sont associés</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.1.1: Nombre de victimes d’homicide volontaire
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.1.1 : Nombre de victimes d’homicide volontaire
   pour 100 000 habitants, par sexe et âge</p>'
+
+un_designated_tier: Niveau I
+un_custodian_agency: Office des Nations Unies contre la drogue et le crime (ONUDC), Organisation Mondiale de la Santé (OMS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Tableau 35-10-0156-01  Nombre, pourcentage et taux de victimes d'homicide, selon le genre et l'identité autochtone

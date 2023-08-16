@@ -23,5 +23,15 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 10.b.1 : Montant total des ressources allo
   au développement, par pays bénéficiaire et donateur et type d’apport (aide publique
   au développement, investissement étranger direct et autres).</p>'
 
-reporting_status: notstarted
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: OCDE. OCDE Données - APD nette.
+source_url_1: https://data.oecd.org/fr/oda/apd-nette.htm
+source_organisation_1: OCDE
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
 
+un_designated_tier: Niveau I (APD) / Niveau II (FDI)
+un_custodian_agency:  Organisation de coopération et de développement économiques (OCDE)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-0B-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

@@ -1,10 +1,10 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
+SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
   et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET: '<p>Cible 8.10 : Renforcer la capacité des institutions financières nationales
   de favoriser et généraliser l’accès de tous aux services bancaires et financiers
   et aux services d’assurance.</p>'
-SDG_INDICATOR: '<p>Indicateur 8.10.2: Proportion d’adultes (15 ans ou plus) possédant
+SDG_INDICATOR: '<p>Indicateur 8.10.2 : Proportion d’adultes (15 ans ou plus) possédant
   un compte dans une banque ou dans une autre institution financière ou faisant appel
   à des services monétaires mobiles</p>'
 STAT_CONC_DEF: |
@@ -13,12 +13,12 @@ DATA_COMP: '   '
 REC_USE_LIM: '   '
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
+SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
   partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.10 : Renforcer la capacité des institutions financières
   nationales de favoriser et généraliser l’accès de tous aux services bancaires et
   financiers et aux services d’assurance.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.10.2: Proportion d’adultes (15 ans ou plus)
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.10.2 : Proportion d’adultes (15 ans ou plus)
   possédant un compte dans une banque ou dans une autre institution financière ou
   faisant appel à des services monétaires mobiles</p>'
 
@@ -27,7 +27,12 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.10.2: Proportion d’adultes (15 ans ou
 source_active_1: 'true'
 source_url_text_1: |
     Statistique Canada. Enquête sur la sécurité financière (ESF) - Totalisation personnalisée.
-source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5102
+source_url_1: https://www.statcan.gc.ca/fr/enquete/menages/2620
 source_organisation_1: Statistique Canada
 source_periodicity_1: Occasionnelle
 source_geographical_coverage_1: Canada
+
+un_designated_tier: Niveau I
+un_custodian_agency: La Banque Mondiale
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

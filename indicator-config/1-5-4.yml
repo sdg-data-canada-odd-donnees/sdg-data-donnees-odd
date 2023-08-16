@@ -1,7 +1,7 @@
-computation_units: ''
+computation_units: true
 copyright: ''
 data_footnote: ''
-data_non_statistical: false
+data_non_statistical: true
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -22,12 +22,17 @@ graph_type: line
 indicator_name: global_indicators.1-5-4-title
 indicator_number: 1.5.4
 national_geographical_coverage: ''
-page_content: ''
+page_content: >- 
+  <p><strong>Non-statistical indicator</strong></p><p>We have identified the following to be relevant to this indicator - <a href="https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx">Emergency Management Strategy for Canada: Toward a Resilient 2030</a>.
+  <br>
+  <br>In October 2018, British Columbia adopted the <i>UN Sendai Framework for Disaster Risk Reduction (2015-2030) (Sendai Framework)</i> to align and improve its approach to all phases of emergency management.
+  <br>
+  <br>Québec adopted the 2014-2024 Québec Emergency Management Policy as well as a National Action Plan, directly inspired by the priority actions of the Hyogo Framework, the predecessor of the <i>Sendai Framework</i>.</p>
 permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []

@@ -2,10 +2,10 @@ SDG_GOAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres
   veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
   et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET: '<p>Cible 15.a: Mobiliser des ressources financières de toutes provenances
+SDG_TARGET: '<p>Cible 15.a : Mobiliser des ressources financières de toutes provenances
   et les augmenter nettement pour préserver la biodiversité et les écosystèmes et
   les exploiter durablement</p>'
-SDG_INDICATOR: '<p>Indicateur 15.a.1: (a) aide publique au développement consacrée
+SDG_INDICATOR: '<p>Indicateur 15.a.1 : (a) aide publique au développement consacrée
   à la préservation et à l’exploitation durable de la biodiversité et b) recettes
   générées et fonds mobilisés par les instruments économiques liés à la biodiversité</p>'
 UNIT_OF_MEASURE: Dollars canadiens ($)
@@ -17,18 +17,23 @@ SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes te
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
   et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 15.a: Mobiliser des ressources financières de toutes
+SDG_TARGET__GLOBAL: '<p>Cible 15.a : Mobiliser des ressources financières de toutes
   provenances et les augmenter nettement pour préserver la biodiversité et les écosystèmes
   et les exploiter durablement</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 15.a.1: (a) aide publique au développement consacrée
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 15.a.1 : (a) aide publique au développement consacrée
   à la préservation et à l’exploitation durable de la biodiversité et b) recettes
   générées et fonds mobilisés par les instruments économiques liés à la biodiversité</p>'
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation de coopération et de développement économiques (OCDE)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-0a-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Tableau 10-10-0005-01 Classification canadienne des fonctions des administrations publiques (CCFAP) par composante des administrations publiques consolidées (x 1 000 000)
 source_url_1: https://doi.org/10.25318/1010000501-fra
-source_organisation_1: Statistics Canada
-source_periodicity_1: Annual
-source_geographical_coverage_1: Canada, Province or territory
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Province ou territoire
 COVERAGE: Canada, Province or territory
 

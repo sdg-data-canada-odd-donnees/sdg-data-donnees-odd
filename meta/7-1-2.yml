@@ -4,13 +4,11 @@ SDG_TARGET: '<p>Target 7.1: By 2030, ensure universal access to affordable, reli
   and modern energy services</p>'
 SDG_INDICATOR: '<p>Indicator 7.1.2: Proportion of population with primary reliance
   on clean fuels and technology</p>'
-STAT_CONC_DEF: '<p>Proportion of population with primary reliance on clean fuels and
-  technology is calculated as the number of people using clean fuels and technologies
-  for cooking, heating and lighting divided by total population reporting that any
-  cooking, heating or lighting, expressed as percentage. &#x201C;Clean&#x201D; is
-  defined by the emission rate targets and specific fuel recommendations (i.e. against
-  unprocessed coal and kerosene) included in the normative guidance WHO guidelines
-  for indoor air quality: household fuel combustion.</p>'
+STAT_CONC_DEF: |
+  Countries classified as high-income according to the World Bank 
+  country classification (80 countries) in the 2020 fiscal year were assumed to have
+  fully transitioned to clean household energy and therefore are reported as >95% 
+  access to clean technologies.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and
@@ -25,3 +23,9 @@ un_custodian_agency: International Trade Centre (ITC), United Nations Conference
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 232
   KB)
+
+source_active_1: 'true'
+source_url_text_1: Statistics Canada
+source_url_1: https://www.statcan.gc.ca/en/start
+source_organisation_1: Statistics Canada
+source_geographical_coverage_1: Canada

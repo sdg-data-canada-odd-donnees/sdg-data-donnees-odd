@@ -3,13 +3,13 @@ SDG_GOAL: '<p>Goal 13: Take urgent action to combat climate change and its impac
   class="footnote-number" id="footnote-2">1</sup><p> Acknowledging that the United
   Nations Framework Convention on Climate Change is the primary international, intergovernmental
   forum for negotiating the global response to climate change. <a href="#footnote-ref-2">&#x2191;</a></p></div></div>'
-SDG_TARGET: '<p>Target: 13.a Implement the commitment undertaken by developed-country
+SDG_TARGET: '<p>Target 13.a: Implement the commitment undertaken by developed-country
   parties to the United Nations Framework Convention on Climate Change to a goal of
   mobilizing jointly $100 billion annually by 2020 from all sources to address the
   needs of developing countries in the context of meaningful mitigation actions and
   transparency on implementation and fully operationalize the Green Climate Fund through
   its capitalization as soon as possible</p>'
-SDG_INDICATOR: '<p>Indicator: 13.a.1 Amounts provided and mobilized in United States
+SDG_INDICATOR: '<p>Indicator 13.a.1: Amounts provided and mobilized in United States
   dollars per year in relation to the continued existing collective mobilization goal
   of the $100 billion commitment through to 2025</p>'
 STAT_CONC_DEF: <p>Under the UNFCCC process, the COP requested the Standing Committee
@@ -32,13 +32,17 @@ SDG_GOAL__GLOBAL: '<p>Goal 13: Take urgent action to combat climate change and i
   class="footnote-number" id="footnote-2">1</sup><p> Acknowledging that the United
   Nations Framework Convention on Climate Change is the primary international, intergovernmental
   forum for negotiating the global response to climate change. <a href="#footnote-ref-2">&#x2191;</a></p></div></div>'
-SDG_TARGET__GLOBAL: '<p>Target: 13.a Implement the commitment undertaken by developed-country
+SDG_TARGET__GLOBAL: '<p>Target 13.a: Implement the commitment undertaken by developed-country
   parties to the United Nations Framework Convention on Climate Change to a goal of
   mobilizing jointly $100 billion annually by 2020 from all sources to address the
   needs of developing countries in the context of meaningful mitigation actions and
   transparency on implementation and fully operationalize the Green Climate Fund through
   its capitalization as soon as possible</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator: 13.a.1 Amounts provided and mobilized in United
+SDG_INDICATOR__GLOBAL: '<p>Indicator 13.a.1: Amounts provided and mobilized in United
   States dollars per year in relation to the continued existing collective mobilization
   goal of the $100 billion commitment through to 2025</p>'
-un_custodian_agency: UN Climate Change (UNFCCC Secretariat)
+
+un_designated_tier: Tier II
+un_custodian_agency: UN Climate Change (UNFCCC Secretariat) 
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-13-0a-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals metadata

@@ -1,11 +1,11 @@
-SDG_GOAL: <p>Objectif 1. Éliminer la pauvreté sous toutes ses formes et partout
-  dans le monde</p>
-SDG_TARGET: '<p>Cible 1.a : Garantir une mobilisation importante de ressources provenant
+SDG_GOAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout
+  dans le monde</p>'
+SDG_TARGET: '<p>Cible 1.a : Garantir une mobilisation importante de ressources provenant
   de sources multiples, y compris par le renforcement de la coopération pour le développement,
   afin de doter les pays en développement, en particulier les pays les moins avancés,
   de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques
   visant à mettre fin à la pauvreté sous toutes ses formes.</p>'
-SDG_INDICATOR: '<p>Indicateur 1.a.1 : Total des dons d’aide publique au développement
+SDG_INDICATOR: '<p>Indicateur 1.a.1 : Total des dons d’aide publique au développement
   axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion
   du revenu national brut du pays bénéficiaire</p>'
 STAT_CONC_DEF: >-
@@ -28,14 +28,14 @@ STAT_CONC_DEF: >-
 DATA_COMP: |
   L'indicateur est calculé en proportion du RNB du Canada, conformément aux rapports des autres pays.
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: <p>Objectif 1. Éliminer la pauvreté sous toutes ses formes et
-  partout dans le monde</p>
-SDG_TARGET__GLOBAL: '<p>Cible 1.a : Garantir une mobilisation importante de ressources
+SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et
+  partout dans le monde</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 1.a : Garantir une mobilisation importante de ressources
   provenant de sources multiples, y compris par le renforcement de la coopération
   pour le développement, afin de doter les pays en développement, en particulier les
   pays les moins avancés, de moyens adéquats et prévisibles de mettre en œuvre des
   programmes et politiques visant à mettre fin à la pauvreté sous toutes ses formes.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.a.1 : Total des dons d’aide publique au développement
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.a.1 : Total des dons d’aide publique au développement
   axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion
   du revenu national brut du pays bénéficiaire</p>'
 
@@ -54,3 +54,7 @@ source_url_2: https://stats.oecd.org/Index.aspx?lang=fr&SubSessionId=13c084e5-51
 source_organisation_2: OCDE
 source_geographical_coverage_2: Canada
 
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation de coopération et de développement économiques (OCDE)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

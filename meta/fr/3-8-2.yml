@@ -5,7 +5,9 @@ SDG_TARGET: '<p>Cible 3.8: Faire en sorte que chacun bénéficie d’une couvert
   universelle, comprenant une protection contre les risques financiers et donnant
   accès à des services de santé essentiels de qualité et à des médicaments et vaccins
   essentiels sûrs, efficaces, de qualité et d’un coût abordable</p>'
-SDG_INDICATOR: proxy.3-8-2-title
+SDG_INDICATOR: '<p>Indicateur 3.8.2: Proportion de la population consacrant
+  une grande part de ses dépenses ou de ses revenus domestiques aux services de soins
+  de santé</p>'
 STAT_CONC_DEF: '   '
 DATA_COMP: |
     <p>L'Enquête sur les dépenses des ménages (EDM) recueille les dépenses au moyen de deux modes de collecte : un questionnaire (utilisant des périodes de remémoration qui varient selon le type de dépense) et un journal d'une période de deux semaines.</p>
@@ -32,6 +34,11 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.8.2: Proportion de la population consacr
 source_active_1: 'true'
 source_url_text_1: meta.3-8-2-source
 source_url_1: meta.3-8-2-link
-source_organisation_1: Statistics Canada
-source_periodicity_1: Every 2 years
+source_organisation_1: Statistique Canada
+source_periodicity_1: Aux 2 ans
 source_geographical_coverage_1: Canada
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation mondiale de la Santé (OMS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-08-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

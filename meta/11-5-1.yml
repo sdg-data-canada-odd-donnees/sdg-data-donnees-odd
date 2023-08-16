@@ -1,0 +1,32 @@
+# NATIONAL
+SDG_GOAL: '<p>Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable</p>'
+SDG_TARGET: |
+    Target 11.5: By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations
+SDG_INDICATOR: |
+    Indicator 11.5.1: Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population
+STAT_CONC_DEF: '<p>This indicator measures the number of people who died, went missing or 
+  were directly affected by disasters per 100,000 population</p>' 
+DATA_COMP: '   '
+REC_USE_LIM: '   '
+SDG_GOAL__GLOBAL: '<p>Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable</p>'
+SDG_TARGET__GLOBAL: |
+    Target 11.5: By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations
+SDG_INDICATOR__GLOBAL: |
+    Indicator 11.5.1: Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population
+un_designated_tier: Tier I
+un_custodian_agency: United Nations Office for Disaster Reduction (UNISDR)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-05-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+source_active_1: 'true'
+source_url_text_1: |
+    Public Safety Canada. The Canadian Disaster Database.
+source_url_1: https://www.publicsafety.gc.ca/cnt/rsrcs/cndn-dsstr-dtbs/index-en.aspx
+source_organisation_1: Public Safety Canada
+
+source_active_2: 'true'
+source_url_text_2: Table 17-10-0005-01  Population estimates on July 1st, by age and sex
+source_url_2: https://doi.org/10.25318/1710000501-eng
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada, Province or territory

@@ -1,14 +1,28 @@
-SDG_GOAL: '<p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
-SDG_TARGET: "<p>Cible 1.5: D’ici à 2030, renforcer la résilience des pauvres et des personnes en situation vulnérable et réduire leur exposition aux phénomènes climatiques extrêmes et à d’autres chocs et catastrophes d’ordre économique, social ou environnemental et leur vulnérabilité</p>"
+SDG_GOAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
+SDG_TARGET: "<p>Cible 1.5 : D’ici à 2030, renforcer la résilience des pauvres et des personnes en situation vulnérable et réduire leur exposition aux phénomènes climatiques extrêmes et à d’autres chocs et catastrophes d’ordre économique, social ou environnemental et leur vulnérabilité</p>"
 SDG_INDICATOR: '<p>Indicateur 1.5.2 : Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB)'
 STAT_CONC_DEF: '    '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
-SDG_TARGET__GLOBAL: "<p>Cible 1.5: D’ici à 2030, renforcer la résilience des pauvres et des personnes en situation vulnérable et réduire leur exposition aux phénomènes climatiques extrêmes et à d’autres chocs et catastrophes d’ordre économique, social ou environnemental et leur vulnérabilité</p>"
+SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
+SDG_TARGET__GLOBAL: "<p>Cible 1.5 : D’ici à 2030, renforcer la résilience des pauvres et des personnes en situation vulnérable et réduire leur exposition aux phénomènes climatiques extrêmes et à d’autres chocs et catastrophes d’ordre économique, social ou environnemental et leur vulnérabilité</p>"
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.5.2 : Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB)'
-un_designated_tier: Tier II
-un_custodian_agency: United Nations International Strategy for Disaster Reduction
-  (UNISDR)
+
+un_designated_tier: Niveau II
+un_custodian_agency: Stratégie internationale de prévention des catastrophes de l’Organisation des Nations Unies (UNISDR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+source_active_1: 'true'
+source_url_text_1: |
+    Sécurité publique Canada. Stratégie de sécurité civile pour le Canada : Vers un 2030 marqué par la résilience
+source_url_1: https://www.securitepublique.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-fr.aspx
+source_organisation_1: Sécurité publique Canada
+
+source_active_2: 'true'
+source_url_text_2: >-
+    Statistique Canada. Tableau 36-10-0222-01  Produit intérieur brut, en termes de dépenses, provinciaux et territoriaux, annuel (x 1 000 000)
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada, Province ou territoire
+source_url_2: https://doi.org/10.25318/3610022201-fra

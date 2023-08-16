@@ -19,14 +19,7 @@ SDG_TARGET__GLOBAL: '<p>Target: 1.2 By 2030, reduce at least by half the proport
   to national definitions</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 1.2.1: Proportion of population living below
   the national poverty line, by sex and age</p>'
-source_active_1: 'true'
-source_url_text_1: Statistics Canada. Table 11-10-0135-01  Low income statistics by
-  age, sex and economic family type
-source_url_1: https://doi.org/10.25318/1110013501-eng
-source_organisation_1: Statistics Canada
-source_periodicity_1: Annual
-source_geographical_coverage_1: Canada, Geographical region of Canada, Province or
-  territory, Census metropolitan area
+
 reporting_status: complete
 COVERAGE: Canada, Geographical region of Canada, Province or territory, Census metropolitan
   area
@@ -35,3 +28,13 @@ un_custodian_agency: World Bank (WB)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-02-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 98.2
   KB)
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: Statistics Canada. Table 11-10-0135-01  Low income statistics by
+  age, sex and economic family type
+source_url_1: https://doi.org/10.25318/1110013501-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada, Geographical region of Canada, Province or
+  territory, Census metropolitan area

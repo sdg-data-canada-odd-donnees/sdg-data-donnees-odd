@@ -1,4 +1,4 @@
-SDG_GOAL: '<p>Objectif 9: Bâtir une infrastructure résiliente, promouvoir une industrialisation
+SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
   durable qui profite à tous et encourager l''innovation.</p>'
 SDG_TARGET: '<p>Cible 9.2 : Promouvoir une industrialisation durable qui profite à
   tous et, d''ici à 2030, augmenter nettement la contribution de l''industrie à l''emploi
@@ -11,7 +11,7 @@ STAT_CONC_DEF: >-
     Les estimations par industrie sont fondées sur le Système de classification des industries de l'Amérique du Nord (SCIAN) de 2017 version 3.0.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 9: Bâtir une infrastructure résiliente, promouvoir
+SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
   une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 9.2 : Promouvoir une industrialisation durable qui profite
   à tous et, d''ici à 2030, augmenter nettement la contribution de l''industrie à
@@ -24,8 +24,12 @@ source_active_1: 'true'
 source_url_text_1: Statistique Canada. Tableau 14-10-0202-01  Emploi selon l'industrie, données annuelles
 source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada, Province or territory
+source_geographical_coverage_1: Canada, Province ou territoire
 source_url_1: https://doi.org/10.25318/1410020201-fra
 reporting_status: complete
-COVERAGE: Canada, Province or territory
+COVERAGE: Canada, Province ou territoire
 
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation des Nations Unies pour le développement industriel (ONUDI)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

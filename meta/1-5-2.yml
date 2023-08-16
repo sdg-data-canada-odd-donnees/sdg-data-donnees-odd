@@ -1,21 +1,35 @@
 SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET: <p>1.5 By 2030, build the resilience of the poor and those in vulnerable
+SDG_TARGET: '<p>Target 1.5: By 2030, build the resilience of the poor and those in vulnerable
   situations and reduce their exposure and vulnerability to climate-related extreme
-  events and other economic, social and environmental shocks and disasters</p>
-SDG_INDICATOR: <p>Indicator 1.5.2 Direct economic loss attributed to disasters in
-  relation to global gross domestic product (GDP)</p>
+  events and other economic, social and environmental shocks and disasters</p>'
+SDG_INDICATOR: '<p>Indicator 1.5.2: Direct economic loss attributed to disasters in
+  relation to global gross domestic product (GDP)</p>'
 STAT_CONC_DEF: '    '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET__GLOBAL: <p>1.5 By 2030, build the resilience of the poor and those in
+SDG_TARGET__GLOBAL: '<p>Target 1.5: By 2030, build the resilience of the poor and those in
   vulnerable situations and reduce their exposure and vulnerability to climate-related
-  extreme events and other economic, social and environmental shocks and disasters</p>
-SDG_INDICATOR__GLOBAL: <p>Indicator 1.5.2 Direct economic loss attributed to disasters
-  in relation to global gross domestic product (GDP)</p>
+  extreme events and other economic, social and environmental shocks and disasters</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicator 1.5.2: Direct economic loss attributed to disasters
+  in relation to global gross domestic product (GDP)</p>'
 un_designated_tier: Tier II
 un_custodian_agency: United Nations International Strategy for Disaster Reduction
   (UNISDR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 65.8
   KB)
+
+source_active_1: 'true'
+source_url_text_1: |
+    Public Safety Canada. Emergency Management Strategy for Canada: Toward a Resilient 2030
+source_url_1: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
+source_organisation_1: Public Safety Canada
+
+source_active_2: 'true'
+source_url_text_2: Statistics Canada. Table 36-10-0222-01  Gross domestic product,
+  expenditure-based, provincial and territorial, annual (x 1,000,000)
+source_url_2: https://doi.org/10.25318/3610022201-eng
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada, Province or territory

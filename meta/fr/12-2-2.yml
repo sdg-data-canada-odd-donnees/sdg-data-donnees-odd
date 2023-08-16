@@ -1,7 +1,7 @@
-SDG_GOAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
-SDG_TARGET: '<p>Cible 12.2: D’ici à 2030, parvenir à une gestion durable et à une
+SDG_GOAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
+SDG_TARGET: '<p>Cible 12.2 : D’ici à 2030, parvenir à une gestion durable et à une
   utilisation rationnelle des ressources naturelles</p>'
-SDG_INDICATOR: '<p>Indicateur 12.2.2: Consommation matérielle nationale, consommation
+SDG_INDICATOR: '<p>Indicateur 12.2.2 : Consommation matérielle nationale, consommation
   matérielle nationale par habitant et consommation matérielle nationale par unité
   de PIB</p>'
 STAT_CONC_DEF: <p>La consommation matérielle nationale (CMN) est un indicateur standard
@@ -9,13 +9,37 @@ STAT_CONC_DEF: <p>La consommation matérielle nationale (CMN) est un indicateur 
   de matières dans une économie nationale. </p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production
+SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production
   durables</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 12.2: D’ici à 2030, parvenir à une gestion durable et
+SDG_TARGET__GLOBAL: '<p>Cible 12.2 : D’ici à 2030, parvenir à une gestion durable et
   à une utilisation rationnelle des ressources naturelles</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.2.2: Consommation matérielle nationale, consommation
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.2.2 : Consommation matérielle nationale, consommation
   matérielle nationale par habitant et consommation matérielle nationale par unité
   de PIB</p>'
 
-reporting_status: notstarted
+un_designated_tier: Niveau I
+un_custodian_agency: Programme des Nations Unies pour l'environnement (PNUE)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-02-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+reporting_status: complete
+
+source_active_1: 'true'
+source_url_text_1: |
+  ONU programme pour l'environnement. Totalisation personnalisée.
+source_url_1: https://www.unep.org/fr
+source_organisation_1: ONU programme pour l'environnement
+
+source_active_2: 'true'
+source_url_text_2: 'Tableau 36-10-0402-01  Produit intérieur brut (PIB) aux prix de base, par industries, provinces et territoires (x 1 000 000)'
+source_url_2: https://doi.org/10.25318/3610040201-fra
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Province ou territoire
+
+source_active_3: 'true'
+source_url_text_3: 'Tableau 17-10-0005-01  Estimations de la population au 1er juillet, par âge et sexe'
+source_url_3: https://doi.org/10.25318/1710000501-fra
+source_organisation_3: Statistique Canada
+source_periodicity_3: Annuelle
+source_geographical_coverage_3: Canada, Province ou territoire

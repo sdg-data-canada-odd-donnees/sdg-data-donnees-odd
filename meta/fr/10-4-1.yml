@@ -1,8 +1,8 @@
 SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
 SDG_TARGET: >-
-    Cible 10.4: Adopter des politiques, notamment sur les plans budgétaires, salariales et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité
+    Cible 10.4 : Adopter des politiques, notamment sur les plans budgétaires, salariales et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité
 SDG_INDICATOR: >-
-    Indicateur 10.4.1: Part du travail dans le PIB
+    Indicateur 10.4.1 : Part du travail dans le PIB
 UNIT_OF_MEASURE: Percentage
 STAT_CONC_DEF: '   '
 DATA_COMP: >-
@@ -12,15 +12,19 @@ REC_USE_LIM: >-
 SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
   à l’autre</p>'
 SDG_TARGET__GLOBAL: >-
-    Cible 10.4: Adopter des politiques, notamment sur les plans budgétaires, salariales et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité
+    Cible 10.4 : Adopter des politiques, notamment sur les plans budgétaires, salariales et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité
 SDG_INDICATOR__GLOBAL: >-
-    Indicateur 10.4.1: Part du travail dans le PIB
+    Indicateur 10.4.1 : Part du travail dans le PIB
 
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Tableau 36-10-0221-01  Produit intérieur brut, en termes de revenus, provinciaux et territoriaux, annuel (x 1 000 000)
 source_organisation_1: Statistique Canada
-source_periodicity_1: Annual
-source_geographical_coverage_1: Canada, Province or territory
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Province ou territoire
 source_url_1: https://doi.org/10.25318/3610022101-fra
-COVERAGE: Canada, Province or territory
+COVERAGE: Canada, Province ou territoire
 
+un_designated_tier: Niveau II
+un_custodian_agency: Organisation internationale du Travail
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-04-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

@@ -6,10 +6,17 @@ Value: Valeur
 Annual: Annuelle
 Statistics Canada: Statistique Canada
 
+## Tiers
+Tier I: Niveau I
+Tier II: Niveau II
+Tier III: Niveau III
+
 ## Units
 Terajoules per million dollars of real GDP: Térajoules par million de dollars du PIB réel
 Percentage: Pourcentage
 
+## Progress status
+Progress status: État du progrès
 
 ## Sex & Gender
 Sex: Sexe
@@ -214,6 +221,51 @@ Percentage of mothers with a child aged 12 months or less that received maternit
 Total: Total
 Urban: Urbain
 Rural: Rural
+Area: Région
+St. Johns (CMA): St. John's (RMR)
+Corner Brook (CA): Corner Brook (AR)
+Grand Falls-Windsor (CA): Grand Falls-Windsor (AR)
+Gander (CA): Gander (AR)
+Halifax (CMA): Halifax (RMR)
+Cape Breton (CA): Cape Breton (AR)
+Truro (CA): Truro (AR)
+New Glasgow (CA): New Glasgow (AR)
+Kentville (CA): Kentville (AR)
+Fredericton (CMA): Fredericton (RMR)
+Moncton (CMA): Moncton (RMR)
+Saint John (CMA): Saint John (RMR)
+Bathurst (CA): Bathurst (AR)
+Edmundston (CA): Edmundston (AR)
+Campbellton (New Brunswick part) (CA): Campbellton (partie du Nouveau Brunswick)(AR)
+Toronto (CMA): Toronto (RMR)
+Ottawa - Gatineau (Ontario part) (CMA): Ottawa - Gatineau (partie de l'Ontario)(RMR)
+Hamilton (CMA): Hamilton (RMR)
+Kitchener - Cambridge - Waterloo (CMA): Kitchener - Cambridge - Waterloo (RMR)
+London (CMA): London (RMR)
+St. Catharines - Niagara (CMA): St. Catharines - Niagara (RMR)
+Victoria (CMA): Victoria (RMR)
+Vancouver (CMA): Vancouver (RMR)
+Kelowna (CMA): Kelowna (RMR)
+Abbotsford - Mission (CMA): Abbotsford - Mission (RMR)
+Nanaimo (CMA): Nanaimo (RMR)
+Kamloops (CMA): Kamloops (RMR)
+Whitehorse (CA): Whitehorse (AR)
+Yellowknife (CA): Yellowknife (AR)
+Province or territory: Province ou territoire
+
+## 1-5-1
+Type of natural disaster: Type de catastrophe naturelle
+Meteorological - Flood: Météorologique - Inondation
+Meteorological - Storm: Météorologique - Tempête
+Meteorological - Tornado: Météorologique - Tornade
+Meteorological - Wildfire: Météorologique - Feu de forêt
+Meteorological - Winter storm: Météorologique - Tempête hivernale
+Meteorological - Heat event: Météorologique - Épisode de chaleur
+Meteorological - Hurricane: Météorologique - Ouragan
+Rate per 100,000 population: Taux par 100 000 personnes
+
+## 1-5-2
+Economic loss CAN dollars $/GDP: Perte économique dollars canadiens/PIB
 
 ## 1-a-1
 Basic education: Éducation de base
@@ -233,6 +285,7 @@ Social protection: "Protection sociale"
 
 ## 2-1-1
 Household food security status: Niveau de sécurité alimentaire du ménage
+Economic family type: Type de famille économique
 Food secure: Sécurité alimentaire
 Food insecure marginal: Insécurité alimentaire marginale
 Food insecure moderate and severe: Insécurité alimentaire modérée et grave
@@ -245,6 +298,49 @@ Couple with child(ren) less than 18 years old: Couple avec enfant(s) de moins de
 Female lone parent with child(ren) less than 18 years old: Mère monoparentale avec enfant(s) de moins de 18 ans
 Male lone parent with child(ren) less than 18 years old: Père monoparental avec enfant(s) de moins de 18 ans
 Other living arrangements: Autres dispositions de vie
+Persons in economic families: Personnes dans les familles économiques
+Persons in elderly families: Personnes dans les familles de personnes âgées
+Persons in other elderly families: Personnes dans les autres familles de personnes âgées
+Persons in non-elderly families: Personnes dans les familles non âgées
+Persons in couples: Personnes dans les couples
+Persons in couple families with children: Personnes dans les familles comptant un couple avec des enfants
+Persons in couple families with other relatives: Personnes dans les familles comptant un couple avec d'autres personnes apparentées
+Persons in lone-parent families: Personnes dans les familles monoparentales
+Persons in male lone-parent families: Personnes dans les familles monoparentales ayant un homme à leur tête
+Persons in female lone-parent families: Personnes dans les familles monoparentales ayant une femme à leur tête
+Persons in other non-elderly families: Personnes dans les autres familles de personnes non âgées
+Persons not in an economic family: Personnes hors famille économique
+Elderly persons not in an economic family: Personnes âgées hors famille économique
+Elderly males not in an economic family: Hommes âgés hors famille économique
+Elderly females not in an economic family: Femmes âgées hors famille économique
+Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
+Non-elderly males not in an economic family: Hommes non âgés hors famille économique
+Non-elderly females not in an economic family: Femmes non âgées hors famille économique
+
+## 2-1-2
+Economic family type: Type de famille économique
+All persons: Toutes les personnes
+Persons in economic families: Personnes dans les familles économiques
+Persons in elderly families: Personnes dans les familles de personnes âgées
+Persons in elderly couples: Personnes dans les couples de personnes âgées
+Persons in other elderly families: Personnes dans les autres familles de personnes âgées
+Persons in non-elderly families: Personnes dans les familles non âgées
+Persons in couples: Personnes dans les couples
+Persons in couple families with children: Personnes dans les familles comptant un couple avec des enfants
+Persons in couple families with other relatives: Personnes dans les familles comptant un couple avec d'autres personnes apparentées
+Persons in lone-parent families: Personnes dans les familles monoparentales
+Persons in male lone-parent families: Personnes dans les familles monoparentales ayant un homme à leur tête
+Persons in female lone-parent families: Personnes dans les familles monoparentales ayant une femme à leur tête
+Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
+Non-elderly males not in an economic family: Hommes non âgés hors famille économique
+Non-elderly females not in an economic family: Femmes non âgées hors famille économique
+Household food security status: Niveau de sécurité alimentaire du ménage
+Food secure: Sécurité alimentaire
+Food insecure: Insécurité alimentaire
+Food insecure, marginal: Insécurité alimentaire marginale
+Food insecure, moderate or severe: Insécurité alimentaire modérée ou grave
+Food insecure, moderate: Insécurité alimentaire modérée
+Food insecure, severe: Insécurité alimentaire grave
 
 ## 2-2-1
 Index: Indice
@@ -276,6 +372,10 @@ Pregnant women only: Femmes enceintes
 ## 2-3-1
 Small-scale food producers: Petits producteurs alimentaires
 Medium-Large scale food producers: Producteurs alimentaires de moyenne à grande échelle
+Under 35 years: Moins de 35 ans
+35 to 54 years: 35 à 54 ans
+55 years and over: 55 ans et plus
+
 
 ## 2-4-1
 Farm output value per hectare: Valeur de la production agricole par hectare
@@ -285,11 +385,16 @@ Risk mitigation mechanisms: Mécanismes d'atténuation des risques
 Genetic resources for food and agriculture (GRFA): Ressources génétiques pour l'alimentation et l'agriculture (RGAA)
 Accessions of plant genetic resources secured in conservation facilities: Accessions de ressources phytogénétiques dans les établissements de conservation
 Local breeds stored in genebank: Variétés et races locales conservées dans la banque de gènes
+Total Number: Nombre total
 
 ## 2-b-1
 Butter: Beurre
 Cheese: Fromage
 Other Milk Products: Autres produits laitiers
+Product: Produit
+CAD$ (Thousands): CAD$ (en milliers)
+Skim Milk Powder: Lait écrémé en poudre
+Incorporated Products: Produits incorporés
 
 ## 3-1-1
 Sex: Sexe
@@ -303,6 +408,7 @@ Total, 12 years and over: Total, 12 ans et plus
 35 to 49 years: 35 à 49 ans
 50 to 64 years: 50 à 64 ans
 65 years and over: 65 ans et plus
+Per 100,000 live births: Pour 100 000 naissances vivantes
 
 ## 3-2-1
 Grade: Niveaux de scolarité
@@ -313,6 +419,7 @@ Type of e-cigarettes: Type de cigarettes
 Both type: Les deux types
 With nicotine: Avec nicotine
 Without nicotine: Sans nicotine
+Per 1,000 live births: Pour 1 000 naissances vivantes
 
 ## 3-2-2
 Total infant deaths, age at time of death, under 1 year: Total des décès infantiles, âge au décès, moins d'un an
@@ -354,8 +461,39 @@ Ages 18 to 39: 18 à 39 ans
 Ages 40 to 59: 40 à 59 ans
 Ages 60 to 79: 60 à 79 ans
 
+## 3-3-5
+Leprosy: Lèpre
+Rabies: Rage
+
 ## 3-4-1
-## Same dimensions as above, a few are like that
+All ages: Tous les âges
+1 to 4 years: 1 à 4 ans
+5 to 9 years: 5 à 9 ans
+10 to 14 years: 10 à 14 ans
+15 to 19 years: 15 à 19 ans
+20 to 24 years: 20 à 24 ans
+25 to 29 years: 25 à 29 ans
+30 to 34 years: 30 à 34 ans
+35 to 39 years: 35 à 39 ans
+40 to 44 years: 40 à 44 ans
+45 to 49 years: 45 à 49 ans
+50 to 54 years: 50 à 54 ans
+55 to 59 years: 55 à 59 ans
+60 to 64 years: 60 à 64 ans
+65 to 69 years: 65 à 69 ans
+70 to 74 years: 70 à 74 ans
+75 to 79 years: 75 à 79 ans
+80 to 84 years: 80 à 84 ans
+85 to 89 years: 85 à 89 ans
+90 years and over: 90 ans et plus
+Malignant neoplasms: Tumeurs malignes
+In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour: Tumeurs in situ, tumeurs bénignes et tumeurs à évolution imprévisible ou inconnue
+Diabetes mellitus: Diabète sucré
+Diseases of heart: Maladies du coeur
+Influenza and pneumonia: Grippe et pneumopathie
+Acute bronchitus and bronchiolitis: Bronchite aiguë et bronchiolite aiguë
+Chronic lower respiratory diseases: Maladies chroniques des voies respiratoires inférieures
+Rate per 100,000: Taux pour 100 000
 
 ## 3-6-1
 All ages: Tous les âges
@@ -363,6 +501,17 @@ Under 1 year: Moins d'un an
 1 to 4 years: 1 à 4 ans
 5 to 9 years: 5 à 9 ans
 10 to 14 years: 10 à 14 ans
+15 to 19 years: 15 à 19 ans
+20 to 24 years: 20 à 24 ans
+25 to 29 years: 25 à 29 ans
+30 to 34 years: 30 à 34 ans
+35 to 39 years: 35 à 39 ans
+40 to 44 years: 40 à 44 ans
+45 to 49 years: 45 à 49 ans
+50 to 54 years: 50 à 54 ans
+55 to 59 years: 55 à 59 ans
+60 to 64 years: 60 à 64 ans
+65 to 69 years: 65 à 69 ans
 70 to 74 years: 70 à 74 ans
 75 to 79 years: 75 à 79 ans
 80 to 84 years: 80 à 84 ans
@@ -372,8 +521,10 @@ Not stated: Non déclaré
 Transport accidents: Accidents de transport
 Motor vehicle accidents: Accidents de véhicule à moteur
 Other land transport accidents: Autres accidents de transport terrestre
+Per 100,000 population: Pour 100 000 habitants
 
-
+## 3-7-2
+Per 1000 females (15-19 years): Pour 1000 femmes (15-19 ans)
 
 ## 3-8-1
 Selected diseases: Antigène ou vaccin
@@ -399,6 +550,16 @@ by 7 years of age: 7 ans
 by 14 years of age: 14 ans
 by 17 years of age: 17 ans
 Age: Âge
+
+## 3-8-2
+Proportion with share above 10%: Proportion dont la part est supérieure à 10 %
+Proportion with share above 25%: Proportion dont la part est supérieure à 25 %
+Male: Homme
+Female: Femme
+Aged below 18 years: Moins de 18 ans
+Aged 18 to 64 years: De 18 à 64 ans
+Adjusted household after-tax income in bottom 40%: Revenu après impôt ajusté du ménage dans la tranche inférieure de 40 %
+Adjusted household after-tax income in top 60%: Revenu après impôt rajusté du ménage dans la tranche supérieure de 60 %
 
 ## 3-9-1
 Disease: Maladies
@@ -453,7 +614,45 @@ Stimulant-related poisoning hospitalizations: Hospitalisations pour intoxication
 EMS responses to suspected opioid-related overdoses: Interventions des SMU pour surdoses suspectées d'être liées aux opioïdes
 Apparent stimulant toxicity deaths: Décès totaux apparemment liés à une intoxication aux stimulants
 
+## 3-a-1
+Sex: Sexe
+Both sexes: Les deux sexes
+Female: Femme
+Male: Homme
+Age Group: Groupe d’âge
+All age groups: Tous les groupes d’âge
+15-19: 15 à 19 ans
+20-24: 20 à 24 ans
+25+: 25+ ans
+25-44: 25 à 44 ans
+45+: 45+ ans
+Tobacco Product: Produits du tabac
+Cigarettes: Cigarettes
+Cigars: Cigares
+Little cigars or cigarillos: Petits cigares ou cigarillos
+Pipe: Pipe
+Smokeless tobacco: Tabac sans fumée
+Water pipe with tobacco: Pipe à eau avec du tabac
+Any tobacco product: Tout produit du tabac
+Chewing tobacco: Tabac à chiquer
+E-cigarettes: Cigarettes électroniques
+Vaping: Vapotage
+
 ## 3-b-1
+Antigen or vaccine: Antigène ou vaccin
+Diphtheria: Diphtérie
+Pertussis (whooping cough): Coqueluche	
+Tetanus: Tétanos
+Polio: Poliomyélite (polio)
+Haemophilus influenzae type B (Hib): Haemophilus influenzae de type B (Hib)
+Measles: Rougeole
+Mumps: Oreillons
+Rubella: Rubéole
+Hepatitis B: Hépatite B
+Varicella: Varicelle
+Meningococcal type C: Méningocoque de type C
+Pneumococcal: Pneumocoque
+Rotavirus: Rotavirus
 Diphtheria 4 doses: Diphtérie 4 doses
 Pertussis 4 doses: Coqueluche 4 doses
 Tetanus 4 doses: Tétanos 4 doses
@@ -534,6 +733,7 @@ Children in Grade 4 achieving at least a minimum proficiency level in mathematic
 Children in Grade 4 achieving at least a minimum proficiency level in reading: Enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimum de compétence en mathématiques
+Proportion of children achieving at least a minimum proficiency level: Proportion d’enfants atteignant au moins un niveau minimal de compétence
 
 ## 4-1-2
 Educational attainment level: Educational attainment level
@@ -605,6 +805,7 @@ Gender Parity Index: Indice de parité entre les sexes
 Economic, Social and Cultural Status Index (ESCS): Indice de statut économique, social et culturel (SESC)
 Location Parity Index: Indice de parité entre millieu urban et rural (IPM)
 Parental Education Attainment Parity Index: Indice de parité du niveau de formation des parents
+Participation rate in organized learning: Taux de participation à l’apprentissage organisé
 
 ##4-6-1
 Educational subject: Matière éducative
@@ -614,6 +815,15 @@ Literacy: Alphabétisme
 Numeracy: Arithmétique 
 2 or below: 2 ou moins
 3 or above: 3 ou plus
+Total age groups: Groupe d'âge totale
+16 to 24 years: 16 à 24 ans
+25 to 34 years: 25 à 34 ans
+35 to 44 years: 35 à 44 ans
+45 to 54 years: 45 à 54 ans
+55 to 65 years: 55 à 65 ans
+
+## 4-b-1
+USD Millions: USD Millions
 
 ## 5-1-1
 Type of perpetrator: Type d'auteur présumé
@@ -652,6 +862,7 @@ Care of household adults: Soins à un adulte du ménage
 Shopping for goods or services: Magasinage de biens ou de services
 
 ## 5-5-1
+Elected officials: Élus
 Members of Parliament: Parlement national
 Members of Cabinet: Cabinet fédéral
 Chiefs in First Nation communities: Chefs dans les communautés des Premières Nations
@@ -736,11 +947,50 @@ Lake water quality, trophic state: Qualité de l’eau du lac, l'état trophique
 Lake water quality, trophic state and turbidity: Qualité de l’eau du lac, l'état trophique et la turbidité
 Lake water quality, no or improving condition: Qualité de l’eau du lac, état nul ou amélioration
 Square kilometers: Kilomètres carrés
+Permanent water: Eau permanente
+Seasonal water: Eau saisonnière
+Seasonal transition, seasonal: Transition saisonnière, saisonnière
+Seasonal transition, new seasonal: Transition saisonnière, nouvelle saison
+Seasonal transition, seasonal to permanent: Transition saisonnière, saisonnière à permanente
+Reservoirs, maximum water extent dynamics: Réservoirs, dynamique de l’étendue maximale de l’eau
+Reservoirs, minimum water extent dynamics: Réservoirs, dynamique de l’étendue minimale de l’eau
+Reservoirs, maximum water extent: Réservoirs, étendue maximale de l’eau
+Reservoirs, minimum water extent: Réservoirs, étendue minimale d’eau
+Lake water quality, low turbidity: Qualité de l’eau du lac, faible turbidité
+Lake water quality, medium turbidity: Qualité de l’eau du lac, turbidité moyenne
+Lake water quality, high turbidity: Qualité de l’eau du lac, turbidité élevée
+Lake water quality, extreme turbidity: Qualité de l’eau du lac, turbidité extrême
+Lake water quality, turbidity state: Qualité de l’eau du lac, état de turbidité
+Lake water quality, trophic state: Qualité de l’eau du lac, état trophique
+Reservoir extent: Étendue du réservoir
+Maximum: Maximum
+Minimum: Minimum
 
 ## 6-a-1
 Water Supply & Sanitation, Total: Approvisionnement en eau et assainissement, total
 Agriculture water resources: Ressources en eau agricoles
 Hydro-electric power plants: Centrales hydroélectriques
+
+## 7-1-1
+Type of dwelling: Type de logement
+Energy type: |
+    Type d'énergie
+Single-detached: Maison individuelle
+Double: Maison double
+Row or terrace: Maison en rangée
+Duplex: Duplex
+Low-rise apartment (fewer than 5 stories): |
+    Immeuble d'appartements (moins de 5 étages)
+High-rise apartment (5 stories or more): |
+    Immeuble d'appartements (5 étages ou plus)
+Mobile home: Maison mobile
+Total, all energy types: |
+    Total, tous les types d'énergie	
+Electricity: Électricité
+Natural gas: Gaz naturel
+Heating oil: Mazout
+Gigajoules per household: Gigajoules par ménage
+
 
 ## 7-2-1
 Demand characteristics: Caractéristiques d’écoulement
@@ -779,7 +1029,11 @@ Total hydro, tidal, wind, solar and other generation: Total, tous les genres de 
 ##  rien de nouveau
 
 ## 8-4-1
-##  rien de nouveau
+Material footprint: Empreinte matérielle
+Million metric tonnes: Millions de tonnes métriques
+Material footprint per capita: Empreinte matérielle par habitant
+Material footprint per unit of GDP: Empreinte matérielle par unité de PIB
+Metric tonnes per GDP (millions of dollars CAD): Tonnes métriques par PIB (millions de dollars CAD)
 
 ## 8-5-1
 Total employees, all occupations: Total des employés, toutes les professions
@@ -1087,6 +1341,7 @@ Person(s) with a disability: Personnes ayant une incapacité
 
 
 ## 9-4-1
+Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP: Mégatonnes d'équivalent en dioxyde de carbone (Mt éq. CO2) par milliard de dollars du PIB
 Metric tonnes (x1,000) per million dollars of GDP: Tonnes métriques (x1 000) par million de dollars de PIB
 
 ## 9-5-1
@@ -1273,6 +1528,16 @@ Type of commute: Type de navettage
 Public transit: Transport en commun
 Active transport: Transport actif
 Trois-Rivieres, Quebec: Trois-Rivières, Québec
+Mortality rate per 100,000 population: Taux de mortalité pour 100 000 habitants
+Number of deaths: Nombre de décès
+Type of natural disaster: Type de catastrophe naturelle
+Meteorological - Flood: Météorologique - Inondation
+Meteorological - Storm: Météorologique - Tempête
+Meteorological - Tornado: Météorologique - Tornade
+Meteorological - Wildfire: Météorologique - Feu de forêt
+Meteorological - Winter storm: Météorologique - Tempête hivernale
+Meteorological - Heat event: Météorologique - Épisode de chaleur
+Meteorological - Hurricane: Météorologique - Ouragan
 
 ## 11-6-1
 Sources of waste for disposal: Sources des déchets à des fins d'élimination
@@ -1432,6 +1697,17 @@ Table: Tableau
 Tourism Satellite Account (TSA): Compte satellite du tourisme (CST)
 System of Environmental Economic Accounting (SEEA): Système de comptabilité économique et environnementale (SCEE)
 
+## 13-1-1
+Rate per 100,000 population: Taux pour 100 000 habitants
+Type of natural disaster: Type de catastrophe naturelle
+Meteorological - Flood: Météorologique - Inondation
+Meteorological - Heat Event: Météorologique - Épisode de chaleur
+Meteorological - Hurricane: Météorologique - Ouragan
+Meteorological - Storm: Météorologique - Tempête
+Meteorological - Tornado: Météorologique - Tornade
+Meteorological - Wildfire: Météorologique - Feu de forêt
+Meteorological - Winter Storm: Météorologique - Tempête hivernale
+
 ## 13-2-2
 Source: Source
 Provincial Inventory Total: Inventaire provincial
@@ -1547,10 +1823,17 @@ Mixed evidence: Preuves mitigées
 Not on track: Non
 Percentage (%): Pourcentage (%)
 Forest area net change rate: Taux de variation nette de la superficie forestière
+Forest area net change rate (Percentage): Taux de variation nette de la superficie forestière (Pourcentage)
 Above-ground biomass stock in forest: Stock de biomasse aérienne en forêt
+Above-ground biomass stock in forest (Tonnes/hectares): Stock de biomasse aérienne en forêt (Tonnes/hectares)
 Proportion of forest area located within legally established protected areas: Proportion de la superficie forestière située dans des aires protégées légalement établies
+Proportion of forest area located within legally established protected areas (Percentage): Proportion de la superficie forestière située dans des aires protégées légalement établies (Pourcentage)
 Proportion of forest area under a long term forest management plan: Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme
-Forest area under an independently verified forest management certification scheme: Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante
+Proportion of forest area under a long term forest management plan (Percentage): Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme (Pourcentage)
+Forest area under an independently verified forest management certification scheme: |
+  Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante
+Forest area under an independently verified forest management certification scheme (Hectares): |
+  Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante (Hectares)
 
 ## 15-3-1
 National terrestrial: National terrestrial
@@ -1572,6 +1855,10 @@ Rate of incidents per 1,000 population 15 years of age and older: Taux d'affaire
 
 ## 16-1-4
 Demographic: Ethnicité
+Racialized groups: Groupes racialisés
+Sociodemographic characteristics: Caractéristiques sociodémographiques
+Men+: Hommes+
+Women+: Femmes+
 Total visible minority: |
     Total minorités visibles
 South Asian: |
@@ -1711,3 +1998,22 @@ America: Amerique
 Europe: Europe
 Middle East: Moyen-Orient
 Oceania: Océanie
+
+## 17-6-1
+Population centres: Centres de population
+First Nations reserves: Réserves des Premières Nations
+First Nations reserves Urban centres: Réserves des Premières Nations Régions urbaines
+First Nations reserves Rural areas: Réserves des Premières Nations Régions rurales
+All regions: Toutes les régions
+Large population centres: Grands centres de population
+Medium population centres: Moyens centres de population
+Small population centres: Petits centres de population
+Rural areas: Régions rurales
+Urban centres: Régions urbaines
+Rural communities: Communautés rurales
+Major roads and highways: Principales routes et autoroutes
+Total population centre: Total centre de population 
+Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps: |
+    Proportion des ménages qui ont accès à des services Internet à large bande à des vitesses de 50/10 Mbps
+Number of fixed Internet broadband subscriptions: |
+    Abonnements à une connexion à Internet à haut débit fixe

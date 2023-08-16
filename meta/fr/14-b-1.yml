@@ -1,22 +1,34 @@
-SDG_GOAL: '<p>Objectif 14 : Conserver et exploiter de manière durable les océans,
-  les mers et les ressources marines aux fins du développement durable</p>'
-SDG_TARGET: '<p>Cible 14.b : Garantir aux petits pêcheurs l’accès aux ressources marines
-  et aux marchés</p>'
-SDG_INDICATOR: '<p>Indicateur 14.b.1 : État d’avancement de la mise en œuvre d’un
+SDG_GOAL: |
+  Objectif 14 : Conserver et exploiter de manière durable les océans,
+  les mers et les ressources marines aux fins du développement durable
+SDG_TARGET: |
+  Cible 14.b : Garantir aux petits pêcheurs l’accès aux ressources marines
+  et aux marchés
+SDG_INDICATOR: |
+  Indicateur 14.b.1 : État d’avancement de la mise en œuvre d’un
   cadre juridique, réglementaire, politique ou institutionnel reconnaissant et protégeant
-  les droits d’accès des petits pêcheurs</p>'
-STAT_CONC_DEF: <p>Progrès par nombre de pays dans le degré d'application d'un cadre
+  les droits d’accès des petits pêcheurs
+STAT_CONC_DEF: |
+  Progrès par nombre de pays dans le degré d'application d'un cadre
   juridique/réglementaire/politique/institutionnel qui reconnaît et protège les droits
-  d'accès à la pêche artisanale.</p>
+  d'accès à la pêche artisanale.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 14 : Conserver et exploiter de manière durable les
-  océans, les mers et les ressources marines aux fins du développement durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 14.b : Garantir aux petits pêcheurs l’accès aux ressources
-  marines et aux marchés</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 14.b.1 : État d’avancement de la mise en œuvre
+SDG_GOAL__GLOBAL: |
+  Objectif 14 : Conserver et exploiter de manière durable les
+  océans, les mers et les ressources marines aux fins du développement durable
+SDG_TARGET__GLOBAL: |
+  Cible 14.b : Garantir aux petits pêcheurs l’accès aux ressources
+  marines et aux marchés
+SDG_INDICATOR__GLOBAL: |
+  Indicateur 14.b.1 : État d’avancement de la mise en œuvre
   d’un cadre juridique, réglementaire, politique ou institutionnel reconnaissant et
-  protégeant les droits d’accès des petits pêcheurs</p>'
+  protégeant les droits d’accès des petits pêcheurs
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-14-0b-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 reporting_status: notstarted
 

@@ -1,16 +1,16 @@
-def measure_indicator_progress(indicator, all_calcs=False):
+def measure_indicator_progress(data, config):
     """Sets up all needed parameters and data for progress calculation, determines methodology for calculation,
     and returns progress measure as an output.
 
     Args:
-        all_calcs: indicates if returning a dictionary of all calcs or just the progress status
-        indicator: Indicator for which the progress is being calculated for.
+        data:
+        config:
     Returns:
         output: str. A string indicating the progress measurement for the indicator.
     """
 
-    data = indicator['data']    # get indicator data
-    config = indicator['meta']  # get configurations
+    # data = indicator['data']    # get indicator data
+    # config = indicator['meta']  # get configurations
 
     # checks if progress calculation is turned on
     if 'auto_progress_calculation' in config.keys():
@@ -38,10 +38,9 @@ def measure_indicator_progress(indicator, all_calcs=False):
     if data is None:
         return None
 
-    # get years that exist in the data
+    # get years that exist in the data & set current year
+    # to be the most recent year that exists in data
     years = data["Year"]
-
-    # set current year to be the most recent year that exists in data
     current_year = {'current_year': years.max()}
 
     # update the calculation inputs with the current year
@@ -62,26 +61,53 @@ def measure_indicator_progress(indicator, all_calcs=False):
         return None
 
     # determine which methodology to run
-    # if no target exists, run methodology for qualitative target. else run methodology for quantitative target.
+    # if no target exists, run methodology for qualitative target.
+    # else run methodology for quantitative target.
     if config['target'] is None:
         # update progress thresholds for qualitative target
         config = update_progress_thresholds(config, method=1)
-        if all_calcs:
-            output = get_all_progress_calculations(data=data, config=config, method=1)
-        else:
-            # do progress calculation according to methodology for qualitative target
-            output = methodology_1(data=data, config=config)
+        # do progress calculation according to methodology for qualitative target
+        value = methodology_1(data=data, config=config)
 
     else:
         # update progress thresholds for quantitative target
         config = update_progress_thresholds(config, method=2)
-        if all_calcs:
-            output = get_all_progress_calculations(data=data, config=config, method=1)
-        else:
-            # do progress calculation according to methodology for quantitative target
-            output = methodology_2(data=data, config=config)
+        # do progress calculation according to methodology for quantitative target
+        value = methodology_2(data=data, config=config)
 
-    return output
+    return {'value': value, 'config': config}
+
+
+def get_progress_status(value, config):
+
+    x = float(config['high'])
+    y = float(config['med'])
+    z = float(config['low'])
+
+    # compare value to progress thresholds to return progress measure
+    if config['target'] is None:
+        if value >= x:
+            return "substantial_progress"
+        elif y <= value < x:
+            return "moderate_progress"
+        elif z <= value < y:
+            return "negligible_progress"
+        elif value < z:
+            return "deterioration"
+        else:
+            return None
+
+    else:
+        if value >= x:
+            return "substantial_progress"
+        elif y <= value < x:
+            return "moderate_progress"
+        elif z <= value < y:
+            return "negligible_progress"
+        elif value < z:
+            return "deterioration"
+        else:
+            return None
 
 
 def config_defaults(config):
@@ -132,7 +158,7 @@ def update_progress_thresholds(config, method):
     if ('progress_thresholds' in config.keys()) & (bool(config['progress_thresholds'])):
         progress_thresholds = config['progress_thresholds']
     elif method == 1:
-        progress_thresholds = {'high': 0.01, 'med': 0, 'low': -0.01}
+        progress_thresholds = {'high': 0.015, 'med': 0.005, 'low': 0}
     elif method == 2:
         progress_thresholds = {'high': 0.95, 'med': 0.6, 'low': 0}
     else:
@@ -226,17 +252,7 @@ def methodology_1(data, config):
     if direction == "negative":
         cagr_o = -1 * cagr_o
 
-    # compare growth rate to progress thresholds to return progress measure
-    if cagr_o > x:
-        return "substantial_progress"
-    elif y < cagr_o <= x:
-        return "moderate_progress"
-    elif z <= cagr_o <= y:
-        return "moderate_deterioration"
-    elif cagr_o < z:
-        return "substantial_deterioration"
-    else:
-        return None
+    return cagr_o
 
 
 def methodology_2(data, config):
@@ -258,9 +274,6 @@ def methodology_2(data, config):
     t_0 = float(config['base_year'])
     target = float(config['target'])
     t_tao = float(config['target_year'])
-    x = float(config['high'])
-    y = float(config['med'])
-    z = float(config['low'])
 
     # get current value from data
     current_value = data.Value[data.Year == t].values[0]
@@ -269,7 +282,8 @@ def methodology_2(data, config):
 
     # check if the target is achieved
     if (direction == "negative" and current_value <= target) or (direction == "positive" and current_value >= target):
-        return "target_achieved"
+        # None value indicates that target has been achieved
+        return None 
 
     # calculate observed growth
     cagr_o = growth_calculation(current_value, base_value, t, t_0)
@@ -278,120 +292,72 @@ def methodology_2(data, config):
     # calculating growth ratio
     ratio = cagr_o / cagr_r
 
-    # compare growth ratio to progress thresholds to return progress measure
-    if ratio >= x:
-        return "substantial_progress"
-    elif y <= ratio < x:
-        return "moderate_progress"
-    elif z <= ratio < y:
-        return "negligible_progress"
-    elif ratio < z:
-        return "deterioration"
-    else:
+    return ratio
+
+
+def progress_measure(indicator):
+
+    if indicator is None:
         return None
 
+    data = indicator['data']  # get indicator data
+    config = indicator['meta']  # get configurations
 
-def get_all_progress_calculations(data, config, method):
+    progress_calc = measure_indicator_progress(data, config)
 
-    direction = str(config['direction'])
-    t = float(config['current_year'])
-    t_0 = float(config['base_year'])
-    t_tao = None
-    x = float(config['high'])
-    y = float(config['med'])
-    z = float(config['low'])
-    target = None
-    cagr_o = None
-    cagr_r = None
-    ratio = None
-    status = None
+    if progress_calc is None:
+        return None
 
-    # get current value from data
-    current_value = data.Value[data.Year == t].values[0]
-    # get value from base year from data
-    base_value = data.Value[data.Year == t_0].values[0]
+    value = progress_calc['value']
+    config = progress_calc['config']
 
-    if method == 1:
-        direction = str(config['direction'])
-        t = float(config['current_year'])
-        t_0 = float(config['base_year'])
-        x = float(config['high'])
-        y = float(config['med'])
-        z = float(config['low'])
-
-        # get current value from data
-        current_value = data.Value[data.Year == t].values[0]
-        # get value from base year from data
-        base_value = data.Value[data.Year == t_0].values[0]
-        # calculate growth
-        cagr_o = growth_calculation(current_value, base_value, t, t_0)
-
-        # use negative growth value if desired direction of progress is negative
-        if direction == "negative":
-            cagr_o = -1 * cagr_o
-
-        # compare growth rate to progress thresholds to return progress measure
-        if cagr_o > x:
-            status = "substantial_progress"
-        elif y < cagr_o <= x:
-            status = "moderate_progress"
-        elif z <= cagr_o <= y:
-            status = "moderate_deterioration"
-        elif cagr_o < z:
-            status = "substantial_deterioration"
-        else:
-            status = None
-
+    if value is None:
+        output = "target_achieved"
     else:
-        direction = str(config['direction'])
-        t = float(config['current_year'])
-        t_0 = float(config['base_year'])
-        target = float(config['target'])
-        t_tao = float(config['target_year'])
-        x = float(config['high'])
-        y = float(config['med'])
-        z = float(config['low'])
+        output = get_progress_status(value, config)
 
-        # get current value from data
-        current_value = data.Value[data.Year == t].values[0]
-        # get base value from data
-        base_value = data.Value[data.Year == t_0].values[0]
+    return output
 
-        # check if the target is achieved
-        if (direction == "negative" and current_value <= target) or (
-                direction == "positive" and current_value >= target):
-            status = "target_achieved"
+
+def score_calculation(value, target):
+
+    if value is None:
+        return None
+    elif target is None:
+        if value > 0:
+            return min(value * 250, 5)
         else:
-            # calculate observed growth
-            cagr_o = growth_calculation(current_value, base_value, t, t_0)
-            # calculate theoretical growth
-            cagr_r = growth_calculation(target, base_value, t_tao, t_0)
-            # calculating growth ratio
-            ratio = cagr_o / cagr_r
+            return max(value * 250, -5)
+    elif bool(target):
+        if value > 0.6:
+            return min((7.1429 * value) - 4.2857, 5)
+        else:
+            return max((4.1667 * value) - 2.5, -5)
 
-            # compare growth ratio to progress thresholds to return progress measure
-            if ratio >= x:
-                status = "substantial_progress"
-            elif y <= ratio < x:
-                status = "moderate_progress"
-            elif z <= ratio < y:
-                status = "negligible_progress"
-            elif ratio < z:
-                status = "deterioration"
-            else:
-                status = None
 
-    calcs = {
-        'base_year': config['base_year'],
-        'current_year': config['current_year'],
-        'direction': direction,
-        'target': target,
-        'current_value': current_value,
-        'base_value': base_value,
-        'cagr_o': cagr_o,
-        'cagr_r': cagr_r,
-        'ratio': ratio,
-        "status": status
-    }
+def get_indicator_score(indicator):
 
-    return calcs
+    if indicator is None:
+        return None
+
+    data = indicator['data']  # get indicator data
+    config = indicator['meta']  # get configurations
+
+    progress = measure_indicator_progress(data, config)
+
+    if progress is None:
+        return None
+
+    config = progress['config']
+    value = progress['value']
+    target = config['target']
+
+    if value is None:
+        return 5
+
+    if not bool(target):
+        target = None
+    else:
+        target = float(target)
+
+    return float(score_calculation(value, target))

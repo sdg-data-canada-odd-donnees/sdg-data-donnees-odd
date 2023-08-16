@@ -1,7 +1,7 @@
 SDG_GOAL: '<p>Goal 13: Take urgent action to combat climate change and its impacts</p>'
-SDG_TARGET: '<p>Target: 13.2 Integrate climate change measures into national policies,
+SDG_TARGET: '<p>Target 13.2: Integrate climate change measures into national policies,
   strategies and planning</p>'
-SDG_INDICATOR: '<p>Indicator: 13.2.2 Total greenhouse gas emissions per year</p>'
+SDG_INDICATOR: '<p>Indicator 13.2.2: Total greenhouse gas emissions per year</p>'
 STAT_CONC_DEF: |
     This indicator measures greenhouse gas emissions. Greenhouse gases (GHGs) are the atmospheric gases responsible for causing global warming and climate change. The major GHGs are carbon dioxide (CO2), methane (CH4) and nitrous oxide (N20). <em>(definition from United Nations Climate Change)</em>
 DATA_COMP: |
@@ -10,10 +10,15 @@ REC_USE_LIM: |
     The Greenhouse gas emissions indicators are comprehensive but some emission sources have not been included in the indicators because they are not reported in the National Inventory Report. Owing to their relatively small contributions to the total emissions, these excluded sources do not significantly affect the overall completeness of the inventory. A detailed explanation of the excluded emission sources can be found in Annex 5 of the National Inventory Report. Although reported in the National Inventory Report, emissions and removals from the land use, land use change and forestry sector are excluded from national totals and subsequently not reported as part of the Greenhouse gas emissions indicators. <em>(ECCC)</em>
 SDG_GOAL__GLOBAL: '<p>Goal 13: Take urgent action to combat climate change and its
   impacts</p>'
-SDG_TARGET__GLOBAL: '<p>Target: 13.2 Integrate climate change measures into national
+SDG_TARGET__GLOBAL: '<p>Target 13.2: Integrate climate change measures into national
   policies, strategies and planning</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator: 13.2.2 Total greenhouse gas emissions per year</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicator 13.2.2: Total greenhouse gas emissions per year</p>'
 un_custodian_agency: UN Climate Change (UNFCCC Secretariat)
+
+un_designated_tier: Tier I
+un_custodian_agency:  UN Climate Change (UNFCCC) Secretariat
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-13-02-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals metadata
 
 # SOURCE(S)
 source_active_1: true

@@ -2,7 +2,7 @@ SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pa
 SDG_TARGET: '<p>Cible 10.c : D’ici à 2030, faire baisser au-dessous de 3 pour cent
   les coûts de transaction des envois de fonds effectués par les migrants et éliminer
   les circuits d’envois de fonds dont les coûts sont supérieurs à 5 pour cent</p>'
-SDG_INDICATOR: '<p>Indicateur 10.c.1: Coûts des envois de fonds en proportion du montant
+SDG_INDICATOR: '<p>Indicateur 10.c.1 : Coûts des envois de fonds en proportion du montant
   transféré</p>'
 STAT_CONC_DEF: <p> La cible comprend deux composantes. D'une part, les coûts de transaction
   pour les envois de fonds des migrants devraient être de 3 % ou moins d'ici 2030.
@@ -24,7 +24,7 @@ SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d
 SDG_TARGET__GLOBAL: '<p>Cible 10.c : D’ici à 2030, faire baisser au-dessous de 3 pour cent
   les coûts de transaction des envois de fonds effectués par les migrants et éliminer
   les circuits d’envois de fonds dont les coûts sont supérieurs à 5 pour cent</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 10.c.1: Coûts des envois de fonds en proportion
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 10.c.1 : Coûts des envois de fonds en proportion
   du montant transféré</p>'
 source_active_1: 'true'
 source_url_text_1: "Étude sur les transferts de fonds internationaux"
@@ -35,3 +35,7 @@ source_url_1: https://www150.statcan.gc.ca/n1/pub/75-006-x/2020001/article/00006
 COVERAGE: Canada
 UNIT_OF_MEASURE: Percentage
 
+un_designated_tier: Niveau I 
+un_custodian_agency:  La Banque Mondiale
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-0C-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

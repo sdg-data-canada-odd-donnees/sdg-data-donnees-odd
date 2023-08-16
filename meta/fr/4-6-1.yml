@@ -3,7 +3,7 @@ SDG_GOAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualit
   de la vie.</p>'
 SDG_TARGET: '<p>Cible 4.6 : D’ici à 2030, faire en sorte que tous les jeunes et une 
   proportion considérable d’adultes, hommes et femmes, sachent lire, écrire et compter.</p>'
-SDG_INDICATOR: '<p>Indicateur 4.6.1: Proportion de la population d’un groupe d’âge donné
+SDG_INDICATOR: '<p>Indicateur 4.6.1 : Proportion de la population d’un groupe d’âge donné
   ayant les compétences voulues à au moins un niveau d’aptitude fixé a) en alphabétisme et 
   b) arithmétique fonctionnels, par sexe</p>'
 STAT_CONC_DEF: |
@@ -19,7 +19,7 @@ SDG_GOAL__GLOBAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation d
   long de la vie.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 4.6 : D’ici à 2030, faire en sorte que tous les jeunes et une 
   proportion considérable d’adultes, hommes et femmes, sachent lire, écrire et compter.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 4.6.1: Proportion de la population d’un groupe d’âge donné
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 4.6.1 : Proportion de la population d’un groupe d’âge donné
   ayant les compétences voulues à au moins un niveau d’aptitude fixé a) en alphabétisme et 
   b) arithmétique fonctionnels, par sexe</p>'
 
@@ -30,6 +30,11 @@ source_active_1: 'true'
 source_url_text_1: |
     Statistique Canada. Littératie, numératie - Scores moyens et répartition des niveaux de compétence, selon le sexe et le groupe d'âge.
 source_organisation_1: Statistique Canada
-source_geographical_coverage_1: Canada, Province or territory
+source_geographical_coverage_1: Canada, Province ou territoire
 source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/cv!recreate.action?pid=3710004701&selectedNodeIds=5D2,5D3&checkedLevels=0D1,0D2,1D1,1D2,2D1,2D2,3D1&refPeriods=20120101,20120101&dimensionLayouts=layout2,layout2,layout3,layout2,layout2,layout2&vectorDisplay=false&request_locale=fr
 source_periodicity_1: Occasionnelle
+
+un_designated_tier: Niveau II
+un_custodian_agency: Institut de statistique de l'UNESCO (ISU)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-06-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

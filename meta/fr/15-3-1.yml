@@ -2,11 +2,11 @@ SDG_GOAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres
   veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
   et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET: '<p>Cible 15.3: D’ici à 2030, lutter contre la désertification, restaurer
+SDG_TARGET: '<p>Cible 15.3 : D’ici à 2030, lutter contre la désertification, restaurer
   les terres et sols dégradés, notamment les terres touchées par la désertification,
   la sécheresse et les inondations, et s’efforcer de parvenir à un monde sans dégradation
   des terres</p>'
-SDG_INDICATOR: '<p>Indicateur 15.3.1: Surface des terres dégradées, en proportion
+SDG_INDICATOR: '<p>Indicateur 15.3.1 : Surface des terres dégradées, en proportion
   de la surface terrestre</p>'
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
@@ -15,12 +15,17 @@ SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes te
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
   et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 15.3: D’ici à 2030, lutter contre la désertification,
+SDG_TARGET__GLOBAL: '<p>Cible 15.3 : D’ici à 2030, lutter contre la désertification,
   restaurer les terres et sols dégradés, notamment les terres touchées par la désertification,
   la sécheresse et les inondations, et s’efforcer de parvenir à un monde sans dégradation
   des terres</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 15.3.1: Surface des terres dégradées, en proportion
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 15.3.1 : Surface des terres dégradées, en proportion
   de la surface terrestre</p>'
+
+un_designated_tier: Niveau I
+un_custodian_agency: La Convention des Nations Unies sur la lutte contre la désertification (UNCCD)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-03-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 source_active_1: 'true'
 source_url_text_1: "United Nations Convention to Combat Desertification. Totalisation personnalisée."

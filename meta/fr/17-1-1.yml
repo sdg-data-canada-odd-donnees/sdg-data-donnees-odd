@@ -1,10 +1,10 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+SDG_GOAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET: '<p>Cible 17.1: Améliorer, notamment grâce à l’aide internationale aux
+SDG_TARGET: '<p>Cible 17.1 : Améliorer, notamment grâce à l’aide internationale aux
   pays en développement, la mobilisation de ressources nationales en vue de renforcer
   les capacités nationales de collecte de l’impôt et d’autres recettes</p>'
-SDG_INDICATOR: '<p>Indicateur 17.1.1: Total des recettes publiques en proportion du
+SDG_INDICATOR: '<p>Indicateur 17.1.1 : Total des recettes publiques en proportion du
   PIB, par source</p>'
 STAT_CONC_DEF: '    '
 DATA_COMP: '   '
@@ -12,12 +12,12 @@ REC_USE_LIM: '   '
 COVERAGE: Canada
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 17: Renforcer les moyens de mettre en œuvre le Partenariat
+SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 17.1: Améliorer, notamment grâce à l’aide internationale
+SDG_TARGET__GLOBAL: '<p>Cible 17.1 : Améliorer, notamment grâce à l’aide internationale
   aux pays en développement, la mobilisation de ressources nationales en vue de renforcer
   les capacités nationales de collecte de l’impôt et d’autres recettes</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.1.1: Total des recettes publiques en proportion
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.1.1 : Total des recettes publiques en proportion
   du PIB, par source</p>'
 
 # SOURCE(S)
@@ -49,3 +49,8 @@ source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS
 source_organisation_1: Statistique Canada
 source_periodicity_1: Trimestrielle
 source_geographical_coverage_1: Canada, Province ou territoire
+
+un_designated_tier: Niveau I
+un_custodian_agency: Fonds Monétaire International (FMI)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-01-01.pdf 
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

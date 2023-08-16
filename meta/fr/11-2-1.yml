@@ -1,27 +1,45 @@
 SDG_GOAL: >-
-    Objectif 11: Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
+    Objectif 11 : Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
 SDG_TARGET: >-
-    Cible 11.2: D’ici à 2030, assurer l’accès de tous à des systèmes de transport sûrs, accessibles et viables, à un coût abordable, en améliorant la sécurité routière, notamment en développant les transports publics, une attention particulière devant être accordée aux besoins des personnes en situation vulnérable, des femmes, des enfants, des personnes handicapées et des personnes âgées
+    Cible 11.2 : D’ici à 2030, assurer l’accès de tous à des systèmes de transport sûrs, accessibles et viables, à un coût abordable, en améliorant la sécurité routière, notamment en développant les transports publics, une attention particulière devant être accordée aux besoins des personnes en situation vulnérable, des femmes, des enfants, des personnes handicapées et des personnes âgées
 SDG_INDICATOR: >-
-    Indicateur 11.2.1: Proportion de la population ayant aisément accès aux transports publics, par âge, sexe et situation au regard du handicap
+    Indicateur 11.2.1 : Proportion de la population ayant aisément accès aux transports publics, par âge, sexe et situation au regard du handicap
 UNIT_OF_MEASURE: Percentage
 COVERAGE: Province ou territoire, Subdivision de recensement, Région métropolitaine de recensement
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: >-
-    Le 6 novembre 2020, 30 noms de subdivision de recensement (SDR) dans les régions métropolitaines de recensement de Regina et Saskatoon (Saskatchewan), Edmonton et Lethbridge (Alberta) et Kelowna (Colombie-Britannique) ont été corrigés. Les valeurs des données étaient correctes mais elles étaient assignées à la mauvaise SDR. Les erreurs n’ont pas affecté les totaux des niveaux géographiques supérieurs.
+STAT_CONC_DEF: |
+  L'accès au transport en commun est considéré comme pratique lorsqu'un arrêt est accessible à une distance de marche de 
+  500 mètres d'un point de référence le long du réseau routier.
+DATA_COMP: |
+  La méthode utilisée pour estimer le pourcentage de Canadiens vivant à moins de 500 mètres d'un point d'accès au transport en commun était 
+  la suivante : 1. Les emplacements des arrêts de transports en commun de toutes sortes (bus, tramway, métro de surface ou souterrain) ont 
+  été obtenus à partir des sites Web des villes ou des autorités locales de transport. Une couverture complète des données a été atteinte 
+  pour les municipalités constituant les 41 régions métropolitaines de recensement (RMR). D'autres municipalités au sein de certaines 
+  agglomération de recensement (AR) ont été incluses lorsque les données étaient disponibles. 2. Les emplacements des arrêts de transport 
+  en commun ont été intégrés aux données sur les chiffres de population du Recensement de 2021 de Statistique Canada au niveau géographique 
+  des côtés d'îlot. La proportion de la population située dans une zone de service située à 500 mètres de distance à pied (par exemple, 
+  un accès pratique) des arrêts de transport en commun a été calculée à l'aide du réseau routier national. Sur la base de ces estimations, 
+  la population ayant un accès pratique aux transports en commun a été estimée pour chaque municipalité à l'intérieur des RMR et AR. 3. 
+  Dans la dernière étape, la population totale ayant un accès pratique aux transports en commun a été divisée par la population totale de 
+  l'ensemble de la RMR pour produire l'indicateur 11.2.1, conformément aux directives des objectifs de développement durable des Nations 
+  Unies.
+REC_USE_LIM: |
+  Source : Statistique Canada, Recensement de la population de 2021. Les totaux agrégés ont été basés sur la somme des valeurs faisant partie 
+  du cadre de l'analyse uniquement. Ce cadre d'analyse comprenait les municipalités où un service régulier de transport en commun a été identifié.
 SDG_GOAL__GLOBAL: >-
-    Objectif 11: Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
+    Objectif 11 : Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
 SDG_TARGET__GLOBAL: >-
-    Cible 11.2: D’ici à 2030, assurer l’accès de tous à des systèmes de transport sûrs, accessibles et viables, à un coût abordable, en améliorant la sécurité routière, notamment en développant les transports publics, une attention particulière devant être accordée aux besoins des personnes en situation vulnérable, des femmes, des enfants, des personnes handicapées et des personnes âgées
+    Cible 11.2 : D’ici à 2030, assurer l’accès de tous à des systèmes de transport sûrs, accessibles et viables, à un coût abordable, en améliorant la sécurité routière, notamment en développant les transports publics, une attention particulière devant être accordée aux besoins des personnes en situation vulnérable, des femmes, des enfants, des personnes handicapées et des personnes âgées
 SDG_INDICATOR__GLOBAL: >-
-    Indicateur 11.2.1: Proportion de la population ayant aisément accès aux transports publics, par âge, sexe et situation au regard du handicap
+    Indicateur 11.2.1 : Proportion de la population ayant aisément accès aux transports publics, par âge, sexe et situation au regard du handicap
 
 source_active_1: 'true'
-source_url_text_1: Statistique Canada. Tableau 23-10-0286-01  Proximité au transport en commun dans les villes métropolitaines cannadiennes, et des données reliées
+source_url_text_1: Statistique Canada. Tableau 23-10-0311-01  Accès pratique au transport en commun par géographie, genre, âge, revenu après impôt
 source_organisation_1: Statistique Canada
 source_periodicity_1: Occasionnelle
-source_geographical_coverage_1: Province ou territoire, Subdivision de recensement, Région métropolitaine de recensement, Partie de région métropolitaine de recensement
-source_url_1: https://doi.org/10.25318/2310028601-fra
+source_geographical_coverage_1: Canada, Province ou territoire, Subdivision de recensement, Région métropolitaine de recensement, Agglomération de recensement, Partie de région métropolitaine de recensement
+source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=2310031101&request_locale=fr
 
-
+un_designated_tier: Niveau II
+un_custodian_agency: Programme des Nations Unies pour les établissements humains (ONU-Habitat)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-02-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

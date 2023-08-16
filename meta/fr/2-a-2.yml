@@ -5,7 +5,7 @@ SDG_TARGET: '<p>Cible 2.a : Accroître, notamment grâce au renforcement de la c
   et de vulgarisation agricoles et la mise au point de technologies et de banques
   de plantes et de gènes d’animaux d’élevage, afin de renforcer les capacités productives
   agricoles des pays en développement, en particulier des pays les moins avancés.</p>'
-SDG_INDICATOR: '<p>Indicateur 2.a.2  : Total des apports publics (aide publique au
+SDG_INDICATOR: '<p>Indicateur 2.a.2 : Total des apports publics (aide publique au
   développement plus autre apports publics) alloués au secteur agricole.</p>'
 STAT_CONC_DEF: "<p>Décaissements bruts du total de l'Aide publique au développement (APD) et des
   autres apports du secteur public de tous les donateurs en faveur du secteur agricole.</p>"
@@ -19,11 +19,17 @@ SDG_TARGET__GLOBAL: '<p>Cible 2.a : Accroître, notamment grâce au renforcement
   et de banques de plantes et de gènes d’animaux d’élevage, afin de renforcer les
   capacités productives agricoles des pays en développement, en particulier des pays
   les moins avancés.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.a.2  : Total des apports publics (aide publique
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.a.2 : Total des apports publics (aide publique
   au développement plus autre apports publics) alloués au secteur agricole.</p>'
 
 # Source(s)
 source_active_1: 'true'
-source_organisation_1: <a href="https://www.oecd.org/"> Organisation de coopération et de développement économiques (OCDE) </a>
+source_organisation_1: |
+  Organisation de coopération et de développement économiques (OCDE)
 source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
 source_url_text_1: OCDE - Système de notification des pays créanciers (SNPC)
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation de coopération et de développement économiques (OCDE)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-0A-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

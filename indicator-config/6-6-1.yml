@@ -7,7 +7,23 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values: []
+data_start_values: 
+- field: Series
+  value: Lake water quality, turbidity
+- field: Water quality
+  value: Low
+- field: Water quality
+  value: Medium
+- field: Water quality
+  value: High
+- field: Water quality
+  value: Extreme
+- field: Series
+  value: Reservoir extent
+- field: Water extent
+  value: Maximum
+- field: Water extent
+  value: Minimum
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -19,7 +35,7 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.6-6-1-title
 graph_titles: []
-graph_type: bar
+graph_type: line
 indicator_name: global_indicators.6-6-1-title
 indicator_number: 6.6.1
 national_geographical_coverage: Canada

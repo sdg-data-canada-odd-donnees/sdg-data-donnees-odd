@@ -1,24 +1,24 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
+SDG_GOAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET: '<p>Cible 6.4: D’ici à 2030, faire en sorte que les ressources en eau
+SDG_TARGET: '<p>Cible 6.4 : D’ici à 2030, faire en sorte que les ressources en eau
   soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir la
   viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier
   à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau</p>'
-SDG_INDICATOR: '<p>Indicateur 6.4.1: Variation de l’efficacité de l’utilisation des
+SDG_INDICATOR: '<p>Indicateur 6.4.1 : Variation de l’efficacité de l’utilisation des
   ressources en eau</p>'
 STAT_CONC_DEF: '   '
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 6: Garantir l''accès de tous à des services d''alimentation
+SDG_GOAL__GLOBAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 6.4: D’ici à 2030, faire en sorte que les ressources
+SDG_TARGET__GLOBAL: '<p>Cible 6.4 : D’ici à 2030, faire en sorte que les ressources
   en eau soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir
   la viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier
   à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.4.1: Variation de l’efficacité de l’utilisation
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.4.1 : Variation de l’efficacité de l’utilisation
   des ressources en eau</p>'
 
 # SOURCE(S)
@@ -26,3 +26,8 @@ source_active_1: 'true'
 source_url_text_1: Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO). FAO AQUASTAT. 
 source_url_1: https://sdg6data.org/fr/tables
 source_organisation_1: Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

@@ -1,9 +1,9 @@
 SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '<p>Cible 10.6: Faire en sorte que les pays en développement soient davantage
+SDG_TARGET: '<p>Cible 10.6 : Faire en sorte que les pays en développement soient davantage
   représentés et entendus lors de la prise de décisions dans les institutions économiques
   et financières internationales, afin que celles-ci soient plus efficaces, crédibles,
   transparentes et légitimes</p>'
-SDG_INDICATOR: '<p>Indicateur 10.6.1: Proportion de pays en développement qui sont
+SDG_INDICATOR: '<p>Indicateur 10.6.1 : Proportion de pays en développement qui sont
   membres d’organisations internationales et y disposent du droit de vote</p>'
 STAT_CONC_DEF: '<p>Cet indicateur inclut deux composantes : la proportion des droits
   de vote appartenant aux pays en développement et la proportion des membres qui sont
@@ -13,12 +13,17 @@ DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
   à l’autre</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 10.6: Faire en sorte que les pays en développement soient
+SDG_TARGET__GLOBAL: '<p>Cible 10.6 : Faire en sorte que les pays en développement soient
   davantage représentés et entendus lors de la prise de décisions dans les institutions
   économiques et financières internationales, afin que celles-ci soient plus efficaces,
   crédibles, transparentes et légitimes</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 10.6.1: Proportion de pays en développement
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 10.6.1 : Proportion de pays en développement
   qui sont membres d’organisations internationales et y disposent du droit de vote</p>'
 
 reporting_status: notstarted
 
+un_designated_tier: Niveau I
+un_custodian_agency: Département des affaires économiques et sociales de l'ONU (DESA) / Bureau 
+  du financement du développement 
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-06-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

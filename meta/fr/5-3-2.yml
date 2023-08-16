@@ -1,19 +1,25 @@
 SDG_GOAL: '<p>Objectif 5 : Parvenir à l''égalité des sexes et autonomiser toutes les
   femmes et les filles.</p>'
-SDG_TARGET: '<p>Cible 5.3: Éliminer toutes les pratiques préjudiciables, telles que
+SDG_TARGET: '<p>Cible 5.3 : Éliminer toutes les pratiques préjudiciables, telles que
   le mariage des enfants, le mariage précoce ou forcé et la mutilation génitale féminine</p>'
-SDG_INDICATOR: '<p>Indicateur 5.3.2: Proportion de filles et de femmes âgées de 15
+SDG_INDICATOR: '<p>Indicateur 5.3.2 : Proportion de filles et de femmes âgées de 15
   à 49 ans ayant subi une mutilation ou une ablation génitale, par âge</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: |
+  Proportion de filles et de femmes âgées de 15 à 49 ans ayant subi
+  mutilations génitales féminines.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l''égalité des sexes et autonomiser
   toutes les femmes et les filles.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 5.3: Éliminer toutes les pratiques préjudiciables, telles
+SDG_TARGET__GLOBAL: '<p>Cible 5.3 : Éliminer toutes les pratiques préjudiciables, telles
   que le mariage des enfants, le mariage précoce ou forcé et la mutilation génitale
   féminine</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.3.2: Proportion de filles et de femmes âgées
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.3.2 : Proportion de filles et de femmes âgées
   de 15 à 49 ans ayant subi une mutilation ou une ablation génitale, par âge</p>'
 
 reporting_status: notstarted
 
+un_designated_tier: Niveau I
+un_custodian_agency: Fonds des Nations unies pour l'enfance (UNICEF)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

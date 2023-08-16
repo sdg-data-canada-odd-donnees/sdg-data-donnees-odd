@@ -4,6 +4,14 @@
 Year: Year
 Value: Value
 
+## Tiers
+Tier I: Tier I
+Tier II: Tier II
+Tier III: Tier III
+
+## Progress status
+Progress status: Progress status
+
 ## Sex
 Sex: Sex
 Men: Men
@@ -142,6 +150,37 @@ Asset resilient for at least six months: Asset resilient for at least six months
 Total: Total
 Urban: Urban
 Rural: Rural
+Area: Area
+St. Johns (CMA): St. John's (CMA)
+Corner Brook (CA): Corner Brook (CA)
+Grand Falls-Windsor (CA): Grand Falls-Windsor (CA)
+Gander (CA): Gander (CA)
+Halifax (CMA): Halifax (CMA)
+Cape Breton (CA): Cape Breton (CA)
+Truro (CA): Truro (CA)
+New Glasgow (CA): New Glasgow (CA)
+Kentville (CA): Kentville (CA)
+Fredericton (CMA): Fredericton (CMA)
+Moncton (CMA): Moncton (CMA)
+Saint John (CMA): Saint John (CMA)
+Bathurst (CA): Bathurst (CA)
+Edmundston (CA): Edmunston (CA)
+Campbellton (New Brunswick part) (CA): Campbellton (New Brunswick part)(CA)
+Toronto (CMA): Toronto (CMA)
+Ottawa - Gatineau (Ontario part) (CMA): Ottawa - Gatineau (Ontario part) (CMA)
+Hamilton (CMA): Hamilton (CMA)
+Kitchener - Cambridge - Waterloo (CMA): Kitchener - Cambridge - Waterloo (CMA)
+London (CMA): London (CMA)
+St. Catharines - Niagara (CMA): St. Catharines - Niagara (CMA)
+Victoria (CMA): Victoria (CMA)
+Vancouver (CMA): Vancouver (CMA)
+Kelowna (CMA): Kelowna (CMA)
+Abbotsford - Mission (CMA): Abbotsford - Mission (CMA)
+Nanaimo (CMA): Nanaimo (CMA)
+Kamloops (CMA): Kamloops (CMA)
+Whitehorse (CA): Whitehorse (CA)
+Yellowknife (CA): Yellowknife (CA)
+Province or territory: Province or territory
 
 ## 1-a-1
 Basic education: Basic education
@@ -165,11 +204,26 @@ Proportion of older persons receiving a pension: |
 Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits: |
     Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits
 
+## 1-5-1
+Type of natural disaster: Type of natural disaster
+Meteorological - Flood: Meteorological - Flood
+Meteorological - Storm: Meteorological - Storm
+Meteorological - Tornado: Meteorological - Tornado
+Meteorological - Wildfire: Meteorological - Wildfire
+Meteorological - Winter storm: Meteorological - Winter storm
+Meteorological - Heat event: Meteorological - Heat event
+Meteorological - Hurricane: Meteorological - Hurricane
+Mortality rate per 100,000 population: Mortality rate per 100,000 population
+
+## 1-5-2
+Economic loss CAN dollars $/GDP: Economic loss CAN dollars $/GDP
+
 ## 2-1-1
 Household food security status: Household food security status
+Economic family type: Economic family type
 Food secure: Food secure
-Food insecure marginal: Food insecure marginal
-Food insecure moderate and severe: Food insecure moderate and severe
+Food insecure, marginal: Food insecure, marginal
+Food insecure, moderate or severe: Food insecure, moderate or severe
 Living arrangement: Living arrangement
 Total all living arrangements: All living arrangements
 Female living alone: Female living alone
@@ -179,6 +233,49 @@ Couple with child(ren) less than 18 years old: Couple with child(ren) less than 
 Female lone parent with child(ren) less than 18 years old: Female lone parent with child(ren) less than 18 years old
 Male lone parent with child(ren) less than 18 years old: Male lone parent with child(ren) less than 18 years old
 Other living arrangements: Other living arrangements
+Persons in economic families: Persons in economic families
+Persons in elderly families: Persons in elderly families
+Persons in other elderly families: Persons in other elderly families
+Persons in non-elderly families: Persons in non-elderly families
+Persons in couples: Persons in couples
+Persons in couple families with children: Persons in couple families with children
+Persons in couple families with other relatives: Persons in couple families with other relatives
+Persons in lone-parent families: Persons in lone-parent families
+Persons in male lone-parent families: Persons in male lone-parent families
+Persons in female lone-parent families: Persons in female lone-parent families
+Persons in other non-elderly families: Persons in other non-elderly families
+Persons not in an economic family: Persons not in an economic family
+Elderly persons not in an economic family: Elderly persons not in an economic family
+Elderly males not in an economic family: Elderly males not in an economic family
+Elderly females not in an economic family: Elderly females not in an economic family
+Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
+Non-elderly males not in an economic family: Non-elderly males not in an economic family
+Non-elderly females not in an economic family: Non-elderly females not in an economic family
+
+## 2-1-2
+Economic family type: Economic family type
+All persons: All persons
+Persons in economic families: Persons in economic families
+Persons in elderly families: Persons in elderly families
+Persons in elderly couples: Persons in elderly couples
+Persons in other elderly families: Persons in other elderly families
+Persons in non-elderly families: Persons in non-elderly families
+Persons in couples: Persons in couples
+Persons in couple families with children: Persons in couple families with children
+Persons in couple families with other relatives: Persons in couple families with other relatives
+Persons in lone-parent families: Persons in lone-parent families
+Persons in male lone-parent families: Persons in male lone-parent families
+Persons in female lone-parent families: Persons in female lone-parent families
+Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
+Non-elderly males not in an economic family: Non-elderly males not in an economic family
+Non-elderly females not in an economic family: Non-elderly females not in an economic family
+Household food security status: Household food security status
+Food secure: Food secure
+Food insecure: Food insecure
+Food insecure, marginal: Food insecure, marginal
+Food insecure, moderate or severe: Food insecure, moderate or severe
+Food insecure, moderate: Food insecure, moderate
+Food insecure, severe: Food insecure, severe
 
 ## 2-2-1
 Index: Index
@@ -218,11 +315,22 @@ Risk mitigation mechanisms: Risk mitigation mechanisms
 Genetic resources for food and agriculture (GRFA): Genetic resources for food and agriculture (GRFA)
 Accessions of plant genetic resources secured in conservation facilities: Accessions of plant genetic resources secured in conservation facilities
 Local breeds stored in genebank: Local breeds stored in genebank
+Total Number: Total Number
 
 ## 2-b-1
 Butter: Butter
 Cheese: Cheese
 Other Milk Products: Other Milk Products
+Product: Product
+CAD$ (Thousands): CAD$ (Thousands)
+Skim Milk Powder: Skim Milk Powder
+Incorporated Products: Incorporated Products
+
+## 3-1-1
+Per 100,000 live births: Per 100,000 live births
+
+## 3-2-1
+Per 1,000 live births: Per 1,000 live births
 
 ## 3-3-1
 Grade: Grade
@@ -234,18 +342,70 @@ Both type: Both type
 With nicotine: With nicotine
 Without nicotine: Without nicotine
 
+## 3-3-5
+Leprosy: Leprosy
+Rabies: Rabies
+
 ## 3-4-1
-Measures: Measures
-Overweight: Overweight
-Obese: Obese
-Ages 5 to 79: Ages 5 to 79
-Ages 5 to 17: Ages 5 to 17
-Ages 5 to 11: Ages 5 to 11
-Ages 12 to 17: Ages 12 to 17
-Ages 18 to 79: Ages 18 to 79
-Ages 18 to 39: Ages 18 to 39
-Ages 40 to 59: Ages 40 to 59
-Ages 60 to 79: Ages 60 to 79
+All ages: All ages
+1 to 4 years: 1 to 4 years
+5 to 9 years: 5 to 9 years
+10 to 14 years: 10 to 14 years
+15 to 19 years: 15 to 19 years
+20 to 24 years: 20 to 24 years
+25 to 29 years: 25 to 29 years
+30 to 34 years: 30 to 34 years
+35 to 39 years: 35 to 39 years
+40 to 44 years: 40 to 44 years
+45 to 49 years: 45 to 49 years
+50 to 54 years: 50 to 54 years
+55 to 59 years: 55 to 59 years
+60 to 64 years: 60 to 64 years
+65 to 69 years: 65 to 69 years
+70 to 74 years: 70 to 74 years
+75 to 79 years: 75 to 79 years
+80 to 84 years: 80 to 84 years
+85 to 89 years: 85 to 89 years
+90 years and over: 90 years and over
+Malignant neoplasms: Malignant neoplasms
+In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour: In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour
+Diabetes mellitus: Diabetes mellitus
+Diseases of heart: Diseases of heart
+Influenza and pneumonia: Influenza and pneumonia
+Acute bronchitus and bronchiolitis: Acute bronchitus and bronchiolitis
+Chronic lower respiratory diseases: Chronic lower respiratory diseases
+Rate per 100,000: Rate per 100,000
+
+## 3-6-1
+All ages: All ages
+Under 1 year: Under 1 year
+1 to 4 years: 1 to 4 years
+5 to 9 years: 5 to 9 years
+10 to 14 years: 10 to 14 years
+15 to 19 years: 15 to 19 years
+20 to 24 years: 20 to 24 years
+25 to 29 years: 25 to 29 years
+30 to 34 years: 30 to 34 years
+35 to 39 years: 35 to 39 years
+40 to 44 years: 40 to 44 years
+45 to 49 years: 45 to 49 years
+50 to 54 years: 50 to 54 years
+55 to 59 years: 55 to 59 years
+60 to 64 years: 60 to 64 years
+65 to 69 years: 65 to 69 years
+70 to 74 years: 70 to 74 years
+75 to 79 years: 75 to 79 years
+80 to 84 years: 80 to 84 years
+85 to 89 years: 85 to 89 years
+90 years and over: 90 years and over
+Not stated: Not stated
+Transport accidents: Transport accidents
+Motor vehicle accidents: Motor vehicle accidents
+Other land transport accidents: Other land transport accidents
+Per 100,000 population: Per 100,000 population
+
+## 3-7-2
+Per 1000 females (15-19 years): Per 1000 females (15-19 years)
 
 ## 3-8-1
 Selected diseases: Selected diseases
@@ -270,6 +430,16 @@ by 2 years of age: by 2 years of age
 by 7 years of age: by 7 years of age
 by 14 years of age: by 14 years of age
 by 17 years of age: by 17 years of age
+
+## 3-8-2
+Proportion with share above 10%: Proportion with share above 10%
+Proportion with share above 25%: Proportion with share above 25%
+Male: Male
+Female: Female
+Aged below 18 years: Aged below 18 years
+Aged 18 to 64 years: Aged 18 to 64 years
+Adjusted household after-tax income in bottom 40%: Adjusted household after-tax income in bottom 40%
+Adjusted household after-tax income in top 60%: Adjusted household after-tax income in top 60%
 
 ## 3-9-1
 Disease: Disease
@@ -322,6 +492,49 @@ Opioid-related poisoning hospitalizations: Opioid-related poisoning hospitalizat
 Stimulant-related poisoning hospitalizations: Stimulant-related poisoning hospitalizations
 EMS responses to suspected opioid-related overdoses: EMS responses to suspected opioid-related overdoses
 Apparent stimulant toxicity deaths: Apparent stimulant toxicity deaths
+
+## 3-a-1
+Sex: Sex
+Both sexes: Both sexes
+Female: Female
+Male: Male
+Age Group: Age Group
+All age groups: All age groups
+15-19 years-old: |
+  15-19 years-old
+20-24 years-old: |
+  20-24 years-old
+25+: 25+ years-old
+25-44: |
+  25-44 years-old
+45+: 45+ years-old
+Tobacco Product: Tobacco Product
+Cigarettes: Cigarettes
+Cigars: Cigars
+Little cigars or cigarillos: Little cigars or cigarillos
+Pipe: Pipe
+Smokeless tobacco: Smokeless tobacco
+Water pipe with tobacco: Water pipe with tobacco
+Any tobacco product: Any tobacco product
+Chewing tobacco: Chewing tobacco
+E-cigarettes: E-cigarettes
+Vaping: Vaping
+
+## 3-b-1
+Antigen or vaccine: Antigen or vaccine
+Diphtheria: Diphtheria
+Pertussis (whooping cough): Pertussis (whooping cough)	
+Tetanus: Tetanus
+Polio: Polio
+Haemophilus influenzae type B (Hib): Haemophilus influenzae type B (Hib)
+Measles: Measles
+Mumps: Mumps
+Rubella: Rubella
+Hepatitis B: Hepatitis B
+Varicella: Varicella
+Meningococcal type C: Meningococcal type C
+Pneumococcal: Pneumococcal
+Rotavirus: Rotavirus
 
 # 3-b-2
 Assistance type: Assistance type
@@ -389,6 +602,7 @@ Children in Grade 4 achieving at least a minimum proficiency level in mathematic
 Children in Grade 4 achieving at least a minimum proficiency level in reading: Children in Grade 4 achieving at least a minimum proficiency level in reading
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
+Proportion of children achieving at least a minimum proficiency level: Proportion of children achieving at least a minimum proficiency level
 
 ## 4-1-2
 Educational attainment level: Educational attainment level
@@ -459,6 +673,7 @@ Gender Parity Index: Gender Parity Index
 Economic, Social and Cultural Status Index (ESCS): Economic, Social and Cultural Status Index (ESCS)
 Location Parity Index: Location Parity Index
 Parental Education Attainment Parity Index: Parental Education Attainment Parity Index
+Participation rate in organized learning: Participation rate in organized learning
 
 ##4-6-1
 Educational subject: Educational subject
@@ -468,6 +683,15 @@ Literacy: Literacy
 Numeracy: Numeracy
 2 or below: 2 or below
 3 or above: 3 or above
+Total age groups: Total age groups
+16 to 24 years: 16 to 24 years
+25 to 34 years: 25 to 34 years
+35 to 44 years: 35 to 44 years
+45 to 54 years: 45 to 54 years
+55 to 65 years: 55 to 65 years
+
+## 4-b-1
+USD Millions: USD Millions
 
 ## 5-1-1
 Type of perpetrator: Type of perpetrator
@@ -511,6 +735,11 @@ Household chores: Household chores
 Care of household children under 18 years: Care of household children under 18 years
 Care of household adults: Care of household adults
 Shopping for goods or services: Shopping for goods or services
+
+## 5-5-1
+Elected officials: Elected officials
+Members of Parliament: Members of Parliament
+Members of Cabinet: Members of Cabinet
 
 ## 6-3-1
 Sector: Sector
@@ -578,6 +807,24 @@ Lake water quality, trophic state: Lake water quality, trophic state
 Lake water quality, trophic state and turbidity: Lake water quality, trophic state and turbidity
 Lake water quality, no or improving condition: Lake water quality, no or improving condition
 Square kilometers: Square kilometers
+Permanent water: Permanent water
+Seasonal water: Seasonal water
+Seasonal transition, seasonal: Seasonal transition, seasonal
+Seasonal transition, new seasonal: Seasonal transition, new seasonal
+Seasonal transition, seasonal to permanent: Seasonal transition, seasonal to permanent
+Reservoirs, maximum water extent dynamics: Reservoirs, maximum water extent dynamics
+Reservoirs, minimum water extent dynamics: Reservoirs, minimum water extent dynamics
+Reservoirs, maximum water extent: Reservoirs, maximum water extent
+Reservoirs, minimum water extent: Reservoirs, minimum water extent
+Lake water quality, low turbidity: Lake water quality, low turbidity
+Lake water quality, medium turbidity: Lake water quality, medium turbidity
+Lake water quality, high turbidity: Lake water quality, high turbidity
+Lake water quality, extreme turbidity: Lake water quality, extreme turbidity
+Lake water quality, turbidity state: Lake water quality, turbidity state
+Lake water quality, trophic state: Lake water quality, trophic state
+Reservoir extent: Reservoir extent
+Maximum: Maximum
+Minimum: Minimum
 
 ## 6-a-1
 Water Supply & Sanitation, Total: Water Supply & Sanitation, Total
@@ -621,7 +868,11 @@ Total hydro, tidal, wind, solar and other generation: Total hydro, tidal, wind, 
 ## nothing new
 
 ## 8-4-1
-## nothing new
+Material footprint: Material footprint
+Million metric tonnes: Million metric tonnes
+Material footprint per capita: Material footprint per capita
+Material footprint per unit of GDP: Material footprint per unit of GDP
+Metric tonnes per GDP (millions of dollars CAD): Metric tonnes per GDP (millions of dollars CAD)
 
 ## 8-5-1
 Total employees, all occupations: Total employees, all occupations
@@ -805,6 +1056,7 @@ Person(s) with a disability: Person(s) with a disability
 
 
 ## 9-4-1
+Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP: Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP
 Metric tonnes (x1,000) per million dollars of GDP: Metric tonnes (x1,000) per million dollars of GDP
 
 ## 9-5-1
@@ -984,6 +1236,16 @@ Type of commute: Type of commute
 Public transit: Public transit
 Active transport: Active transport
 Trois-Rivieres, Quebec: Trois-Rivieres, Quebec
+Mortality rate per 100,000 population: Mortality rate per 100,000 population
+Number of deaths: Number of deaths
+Type of natural disaster: Type of natural disaster
+Meteorological - Flood: Meteorological - Flood
+Meteorological - Storm: Meteorological - Storm
+Meteorological - Tornado: Meteorological - Tornado
+Meteorological - Wildfire: Meteorological - Wildfire
+Meteorological - Winter storm: Meteorological - Winter storm
+Meteorological - Heat event: Meteorological - Heat event
+Meteorological - Hurricane: Meteorological - Hurricane
 
 ## 11-6-1
 Sources of waste for disposal: Sources of waste for disposal
@@ -1083,6 +1345,17 @@ Non-residential sources of diverted materials: Non-residential sources of divert
 Table: Table
 Tourism Satellite Account (TSA): Tourism Satellite Account (TSA)
 System of Environmental Economic Accounting (SEEA): System of Environmental Economic Accounting (SEEA)
+
+## 13-1-1
+Rate per 100,000 population: Rate per 100,000 population
+Type of natural disaster: Type of natural disaster
+Meteorological - Flood: Meteorological - Flood
+Meteorological - Heat Event: Meteorological - Heat Event
+Meteorological - Hurricane: Meteorological - Hurricane
+Meteorological - Storm: Meteorological - Storm
+Meteorological - Tornado: Meteorological - Tornado
+Meteorological - Wildfire: Meteorological - Wildfire
+Meteorological - Winter Storm: Meteorological - Winter Storm
 
 ## 13-2-2
 Source: Source
@@ -1201,10 +1474,15 @@ Mixed evidence: Mixed evidence
 Not on track: Not on track
 Percentage (%): Percentage (%)
 Forest area net change rate: Forest area net change rate
+Forest area net change rate (Percentage): Forest area net change rate (Percentage)
 Above-ground biomass stock in forest: Above-ground biomass stock in forest
+Above-ground biomass stock in forest (Tonnes/hectares): Above-ground biomass stock in forest (Tonnes/hectares)
 Proportion of forest area located within legally established protected areas: Proportion of forest area located within legally established protected areas
+Proportion of forest area located within legally established protected areas (Percentage): Proportion of forest area located within legally established protected areas (Percentage)
 Proportion of forest area under a long term forest management plan: Proportion of forest area under a long term forest management plan
+Proportion of forest area under a long term forest management plan (Percentage): Proportion of forest area under a long term forest management plan (Percentage)
 Forest area under an independently verified forest management certification scheme: Forest area under an independently verified forest management certification scheme
+Forest area under an independently verified forest management certification scheme (Hectares): Forest area under an independently verified forest management certification scheme (Hectares)
 
 ## 15-3-1
 National terrestrial: National terrestrial
@@ -1230,6 +1508,10 @@ Arab: Arab
 Latin American: Latin American
 Southeast Asian: Southeast Asian
 Not a visible minority: Not a visible minority
+Racialized groups: Racialized groups
+Sociodemographic characteristics: Sociodemographic characteristics
+Men+: Men+
+Women+: Women+
 
 ## 16-2-1
 Index: Index

@@ -1,0 +1,35 @@
+SDG_GOAL: '<p>Objectif 13 : Prendre d’urgence des mesures pour lutter contre les changements 
+  climatiques et leurs répercussions</p>'
+SDG_TARGET: '<p>Cible 13.1 : Renforcer, dans tous les pays, la résilience et les capacités 
+  d’adaptation face aux aléas climatiques et aux catastrophes naturelles liées au climat</p>'
+SDG_INDICATOR: '<p>Indicateur 13.1.1 : Nombre de personnes décédées, disparues ou directement 
+  touchées lors de catastrophes, pour 100 000 personnes</p>'
+STAT_CONC_DEF: '   '
+DATA_COMP: '   '
+REC_USE_LIM: '   '
+SDG_GOAL__GLOBAL: '<p>Objectif 13 : Prendre d’urgence des mesures pour lutter contre les changements 
+  climatiques et leurs répercussions</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 13.1 : Renforcer, dans tous les pays, la résilience et les capacités 
+  d’adaptation face aux aléas climatiques et aux catastrophes naturelles liées au climat</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 13.1.1 : Nombre de personnes décédées, disparues ou directement 
+  touchées lors de catastrophes, pour 100 000 personnes</p>'
+
+reporting_status: notstarted
+
+source_active_1: 'true'
+source_url_text_1: |
+    Sécurité publique Canada. Base de données canadienne sur les catastrophes
+source_url_1: https://www.securitepublique.gc.ca/cnt/rsrcs/cndn-dsstr-dtbs/index-fr.aspx
+source_organisation_1: Sécurité publique Canada
+
+source_active_2: 'true'
+source_url_text_2: 'Tableau 17-10-0005-01  Estimations de la population au 1er juillet, par âge et sexe'
+source_url_2: https://doi.org/10.25318/1710000501-fra
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada, Province or territory
+
+un_designated_tier: Niveau I
+un_custodian_agency: Bureau des Nations Unies pour la Réduction des Risques de Catastrophes (UNDRR)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-13-01-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies 
