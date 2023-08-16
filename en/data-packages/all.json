@@ -216,12 +216,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of employed labour force eligible for workers compensation benefits",
-                "Proportion of economic families with children receiving a child benefit",
-                "Ratio of unemployed receiving benefits",
-                "Proportion of the unemployed eligible for Employment Insurance benefits",
-                "Proportion of older persons receiving a pension",
-                "Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits",
+                "Proportion of employed labour force eligible for workers' compensation benefits\n",
+                "Proportion of economic families with children receiving a child benefit\n",
+                "Ratio of unemployed receiving benefits\n",
+                "Proportion of the unemployed eligible for Employment Insurance benefits\n",
+                "Proportion of older persons receiving a pension\n",
+                "Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits\n",
                 ""
               ]
             },
@@ -1106,10 +1106,10 @@
                 "Abbotsford - Mission (CMA)",
                 "Bathurst (CA)",
                 "British Columbia",
-                "Campbellton (New Brunswick part) (CA)",
+                "Campbellton (New Brunswick part)(CA)",
                 "Cape Breton (CA)",
                 "Corner Brook (CA)",
-                "Edmundston (CA)",
+                "Edmunston (CA)",
                 "Fredericton (CMA)",
                 "Gander (CA)",
                 "Grand Falls-Windsor (CA)",
@@ -1132,7 +1132,7 @@
                 "Ottawa - Gatineau (Ontario part) (CMA)",
                 "Saint John (CMA)",
                 "St. Catharines - Niagara (CMA)",
-                "St. Johns (CMA)",
+                "St. John's (CMA)",
                 "Toronto (CMA)",
                 "Truro (CA)",
                 "Vancouver (CMA)",
@@ -3575,7 +3575,7 @@
                 "Newfoundland and Labrador",
                 "Nova Scotia",
                 "Ontario",
-                "Ottawa-Gatineau, Ontario/Quebec",
+                "Ontario/Quebec, Ottawa-Gatineau",
                 "Prairie provinces",
                 "Prince Edward Island",
                 "Quebec",
@@ -3912,9 +3912,9 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Québec, Quebec",
-                "Montréal, Quebec",
-                "Ottawa-Gatineau, Ontario/Quebec",
+                "Quebec, Québec",
+                "Quebec, Montréal",
+                "Ontario/Quebec, Ottawa-Gatineau",
                 "Toronto, Ontario",
                 "Winnipeg, Manitoba",
                 "Calgary, Alberta",
@@ -4289,11 +4289,11 @@
                 "Moncton, New Brunswick",
                 "Saint John, New Brunswick",
                 "Saguenay, Quebec",
-                "Québec, Quebec",
+                "Quebec, Québec",
                 "Sherbrooke, Quebec",
                 "Trois-Rivières, Quebec",
-                "Montréal, Quebec",
-                "Ottawa-Gatineau, Ontario/Quebec",
+                "Quebec, Montréal",
+                "Ontario/Quebec, Ottawa-Gatineau",
                 "Ottawa-Gatineau (Quebec part)",
                 "Ottawa-Gatineau (Ontario part)",
                 "Kingston, Ontario",
@@ -4829,7 +4829,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, not in employment, education or training (NEET)",
+                "Sub-total, not in employment, education or training (NEET)",
                 "Unemployed, Not in employment, education or training (NEET)",
                 "Not in the labour force, Not in employment, education or training (NEET)",
                 ""
@@ -5701,7 +5701,7 @@
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           },
           {
             "name": "data.Economic family type",
@@ -5731,7 +5731,7 @@
                 ""
               ]
             },
-            "title": "data.Economic family type"
+            "title": "Economic family type"
           },
           {
             "name": "data.Household food security status",
@@ -5747,7 +5747,7 @@
                 ""
               ]
             },
-            "title": "data.Household food security status"
+            "title": "Household food security status"
           },
           {
             "name": "GeoCode",
@@ -6149,7 +6149,7 @@
                 "Total, highest certificate, diploma or degree completed",
                 "High school or less",
                 "College, trade school or some university",
-                "Bachelors degree or higher",
+                "Bachelor's degree or higher",
                 ""
               ]
             },
@@ -7006,8 +7006,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15-19 years-old",
-                "20-24 years-old",
+                "15-19 years-old\n",
+                "20-24 years-old\n",
                 "25+ years-old",
                 "25-44 years-old",
                 "45+ years-old",

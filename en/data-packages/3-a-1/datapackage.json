@@ -33,8 +33,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15-19 years-old",
-                "20-24 years-old",
+                "15-19 years-old\n",
+                "20-24 years-old\n",
                 "25+ years-old",
                 "25-44 years-old",
                 "45+ years-old",
