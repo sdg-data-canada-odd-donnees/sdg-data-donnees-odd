@@ -20,32 +20,32 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Women",
-                "Men",
+                "Femmes",
+                "Hommes",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Sexe"
           },
           {
             "name": "Unwanted or inappropriate behaviour",
             "type": "string",
             "constraints": {
               "enum": [
-                "Sexual assault",
-                "Physical assault",
-                "Unwanted or inappropriate behaviour in public",
-                "Unwanted or inappropriate behaviour online",
-                "Unwanted or inappropriate behaviour in the workplace",
+                "Agression sexuelle",
+                "Agression physique",
+                "Comportements non désirés ou inappropriés en public",
+                "Comportements non désirés ou inappropriés en ligne",
+                "Comportements non désirés ou inappropriés dans le milieu de travail",
                 ""
               ]
             },
-            "title": "Unwanted or inappropriate behaviour"
+            "title": "Comportements non désirés ou inappropriés"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

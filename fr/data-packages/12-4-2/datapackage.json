@@ -21,27 +21,27 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "British Columbia",
+                "Colombie-Britannique",
                 "All census metropolitan areas",
-                "St. John's, Newfoundland and Labrador",
-                "Halifax, Nova Scotia",
-                "Moncton, New Brunswick",
-                "Saint John, New Brunswick",
-                "Saguenay, Quebec",
-                "Québec, Quebec",
-                "Sherbrooke, Quebec",
-                "Trois-Rivières, Quebec",
-                "Montréal, Quebec",
-                "Ottawa-Gatineau, Ontario/Quebec",
+                "St. John's, Terre-Neuve-et-Labrador",
+                "Halifax, Nouvelle-Écosse",
+                "Moncton, Nouveau-Brunswick",
+                "Saint John, Nouveau-Brunswick",
+                "Saguenay, Québec",
+                "Québec, Québec",
+                "Sherbrooke, Québec",
+                "Trois-Rivières, Québec",
+                "Montréal, Québec",
+                "Ottawa-Gatineau, Ontario/Québec",
                 "Ottawa-Gatineau (Quebec part)",
                 "Ottawa-Gatineau (Ontario part)",
                 "Kingston, Ontario",
@@ -56,37 +56,37 @@
                 "London, Ontario",
                 "Windsor, Ontario",
                 "Barrie, Ontario",
-                "Greater Sudbury, Ontario",
+                "Grand Sudbury, Ontario",
                 "Thunder Bay, Ontario",
                 "Winnipeg, Manitoba",
                 "Regina, Saskatchewan",
                 "Saskatoon, Saskatchewan",
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
-                "Kelowna, British Columbia",
+                "Kelowna, Colombie-Britannique",
                 "Abbotsford-Mission, British Columbia",
-                "Vancouver, British Columbia",
-                "Victoria, British Columbia",
+                "Vancouver, Colombie-Britannique",
+                "Victoria, Colombie-Britannique",
                 "Non-census metropolitan areas",
                 "Belleville, Ontario",
                 "Lethbridge, Alberta",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Household hazardous waste",
             "type": "string",
             "constraints": {
               "enum": [
-                "Leftover or expired medication",
-                "Medical sharps",
-                "Leftover paint or solvents",
-                "Unwanted engine oil or anti-freeze",
-                "Dead or unwanted batteries (excluding car batteries)",
-                "Leftover pesticides",
-                "Mattresses",
+                "Des restes de médicaments ou des médicaments périmés",
+                "Des objets médicaux piquants ou tranchants",
+                "Restes de peinture ou solvants",
+                "Huiles pour moteur ou de l'antigel",
+                "Piles déchargées, excluant les batteries de voiture",
+                "Pesticides",
+                "Matelas",
                 "Textiles",
                 ""
               ]
@@ -101,7 +101,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

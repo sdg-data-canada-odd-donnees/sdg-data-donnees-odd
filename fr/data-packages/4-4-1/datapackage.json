@@ -20,58 +20,58 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Copied or moved files or folders digitally",
-                "Used word processing software",
-                "Created presentations, or documents with text and pictures, tables or charts",
-                "Used spreadsheet software basic functions",
-                "Used spreadsheet software advanced functions to organize and analyze data",
-                "Used software to edit photos, video or audio files",
-                "Written code in a programming language",
-                "Uploaded files or photos to an online data storage space",
-                "Downloaded files from the Internet to your computer or other devices",
-                "Shared files using an online data storage space",
-                "Connected a new device to a Wi-Fi network",
-                "Used the Internet to transfer photos or videos from one device to another",
-                "Used your smartphone as a GPS device for directions",
-                "Connected a new device via Bluetooth",
+                "Copié ou déplacé des fichiers ou des dossiers numériques",
+                "Utilisé un logiciel de traitement de texte",
+                "Créé des présentations, ou des documents comprenant du texte et des images, des tableaux ou des graphiques",
+                "Utilisé les fonctions de base d’un logiciel tableur",
+                "Utilisé des fonctions avancées d’un logiciel tableur pour organiser et analyser des données",
+                "Utilisé un logiciel pour modifier des photos, des vidéos ou des fichiers audio",
+                "Écrit du code dans un langage de programmation",
+                "Téléchargé des fichiers ou des photos vers un espace de stockage de données en ligne",
+                "Téléchargé des fichiers de l’Internet vers votre ordinateur ou d’autres appareils",
+                "Partagé des fichiers à l’aide d’un service de stockage de données en ligne",
+                "Connecté un nouvel appareil à un réseau Wi-Fi",
+                "Utilisé Internet pour transférer des photos ou des vidéos d’un appareil à un autre",
+                "Utilisé votre téléphone intelligent comme appareil GPS pour obtenir des indications",
+                "Connecté un nouvel appareil par Bluetooth",
                 ""
               ]
             },
-            "title": "Activity related to digital skills"
+            "title": "Activité liée à des compétences numériques"
           },
           {
             "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, Internet users aged 15 years and over",
-                "Internet users aged 15 to 24 years",
-                "Internet users aged 25 to 44 years",
-                "Internet users aged 45 to 64 years",
-                "Internet users aged 65 years and over",
+                "Total, tous les utilisateurs d'Internet âgés de 15 ans et plus",
+                "Utilisateurs d'Internet âgés de 15 ans à 24 ans",
+                "Utilisateurs d'Internet âgés de 25 ans à 44 ans",
+                "Utilisateurs d'Internet âgés de 45 ans à 64 ans",
+                "Utilisateurs d'Internet âgés de 65 ans et plus",
                 ""
               ]
             },
-            "title": "Age group"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Level of education",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, highest certificate, diploma or degree completed",
-                "High school or less",
-                "College, trade school or some university",
-                "Bachelors degree or higher",
+                "Total, plus haut certificat, diplôme ou grade obtenu",
+                "Un diplôme d'études secondaires ou moins",
+                "Un diplôme d'un collège ou d'une école de métiers, ou études universitaires partielles",
+                "Un baccalauréat ou diplôme supérieur",
                 ""
               ]
             },
-            "title": "Level of education"
+            "title": "Niveau de scolarité"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

@@ -20,17 +20,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tourism Satellite Account (TSA)",
-                "System of Environmental Economic Accounting (SEEA)",
+                "Compte satellite du tourisme (CST)",
+                "Système de comptabilité économique et environnementale (SCEE)",
                 ""
               ]
             },
-            "title": "Table"
+            "title": "Tableau"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

@@ -20,18 +20,18 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Women of reproductive age",
-                "Non-pregnant women only",
-                "Pregnant women only",
+                "Femmes en âge de procréer",
+                "Femmes non enceintes",
+                "Femmes enceintes",
                 ""
               ]
             },
-            "title": "Population group"
+            "title": "Groupe de population"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

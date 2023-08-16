@@ -21,50 +21,50 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "British Columbia",
+                "Colombie-Britannique",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Type of work",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both full- and part-time employees",
-                "Full-time employees",
-                "Part-time employees",
+                "Ensemble des employés à temps plein et à temps partiel",
+                "Employés à temps plein",
+                "Employés à temps partiel",
                 ""
               ]
             },
-            "title": "Type of work"
+            "title": "Genre de travail"
           },
           {
             "name": "Occupation",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total employees, all occupations",
-                "Management occupations",
-                "Business, finance and administration occupations, except management",
-                "Natural and applied sciences and related occupations, except management",
-                "Health occupations, except management",
-                "Occupations in education, law and social, community and government services, except management",
-                "Occupations in art, culture, recreation and sport, except management",
-                "Sales and service occupations, except management",
-                "Trades, transport and equipment operators and related occupations, except management",
-                "Natural resources, agriculture and related production occupations, except management",
-                "Occupations in manufacturing and utilities, except management",
+                "Total des employés, toutes les professions",
+                "Gestion",
+                "Affaires, finance et administration, sauf les gestionnaires",
+                "Sciences naturelles et appliquées et domaines apparentés, sauf les gestionnaires",
+                "Secteur de la santé, sauf les gestionnaires",
+                "Enseignement, droit et services sociaux, communautaires et gouvernementaux, sauf les gestionnaires",
+                "Arts, culture, sports et loisirs, sauf les gestionnaires",
+                "Vente et services, sauf les gestionnaires",
+                "Métiers, transport, machinerie et domaines apparentés, sauf les gestionnaires",
+                "Ressources naturelles, agriculture et production connexe, sauf les gestionnaires",
+                "Fabrication et services d'utilité publique, sauf les gestionnaires",
                 ""
               ]
             },
@@ -75,27 +75,27 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
+                "Les deux sexes",
+                "Hommes",
+                "Femmes",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Sexe"
           },
           {
             "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "15 to 24 years",
-                "25 to 54 years",
-                "55 years and over",
-                "15 years and over",
+                "15 à 24 ans",
+                "25 à 54 ans",
+                "55 ans et plus",
+                "15 ans et plus",
                 ""
               ]
             },
-            "title": "Age group"
+            "title": "Groupe d'âge"
           },
           {
             "name": "GeoCode",
@@ -105,7 +105,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

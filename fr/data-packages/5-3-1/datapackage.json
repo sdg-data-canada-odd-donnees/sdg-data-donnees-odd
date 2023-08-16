@@ -21,32 +21,32 @@
             "constraints": {
               "enum": [
                 "Alberta",
-                "British Columbia",
+                "Colombie-Britannique",
                 "Canada",
                 "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
                 "Ontario",
-                "Prince Edward Island",
-                "Quebec",
+                "Île-du-Prince-Édouard",
+                "Québec",
                 "Saskatchewan",
                 "Yukon",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Marital status",
             "type": "string",
             "constraints": {
               "enum": [
-                "Married or living common law",
-                "Married",
-                "Living common law",
+                "Marié ou vivant en union libre",
+                "Marié",
+                "Vivant en union libre",
                 ""
               ]
             },
@@ -57,17 +57,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15 to 19 years",
-                "20 to 24 years",
+                "15 à 19 ans",
+                "20 à 24 ans",
                 ""
               ]
             },
-            "title": "Age group"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

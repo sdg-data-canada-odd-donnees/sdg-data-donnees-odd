@@ -21,40 +21,40 @@
             "constraints": {
               "enum": [
                 "Alberta",
-                "British Columbia",
+                "Colombie-Britannique",
                 "Canada",
                 "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
                 "Nunavut",
                 "Ontario",
-                "Prince Edward Island",
-                "Quebec",
+                "Île-du-Prince-Édouard",
+                "Québec",
                 "Saskatchewan",
                 "Yukon",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Type of electricity generation",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hydraulic turbine",
+                "Turbine à hydraulique",
                 "Total renewable and non-greenhouse gas emitting sources",
-                "Wind power turbine",
+                "Turbine éolienne",
                 "Nuclear steam turbine",
-                "Solar",
-                "Tidal power turbine",
+                "Solaire",
+                "Turbine marémotrice",
                 "Total electricity production from biomass",
                 ""
               ]
             },
-            "title": "Type of electricity generation"
+            "title": "Type de production d'électricité"
           },
           {
             "name": "GeoCode",
@@ -64,7 +64,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

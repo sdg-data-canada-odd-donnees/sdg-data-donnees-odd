@@ -20,28 +20,28 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Diphtheria",
-                "Pertussis (whooping cough)",
-                "Tetanus",
-                "Polio",
-                "Haemophilus influenzae type B (Hib)",
-                "Measles",
-                "Mumps",
-                "Rubella",
-                "Hepatitis B",
-                "Varicella",
-                "Meningococcal type C",
-                "Pneumococcal",
+                "Diphtérie",
+                "Coqueluche",
+                "Tétanos",
+                "Poliomyélite (polio)",
+                "Haemophilus influenzae de type B (Hib)",
+                "Rougeole",
+                "Oreillons",
+                "Rubéole",
+                "Hépatite B",
+                "Varicelle",
+                "Méningocoque de type C",
+                "Pneumocoque",
                 "Rotavirus",
                 ""
               ]
             },
-            "title": "Antigen or vaccine"
+            "title": "Antigène ou vaccin"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

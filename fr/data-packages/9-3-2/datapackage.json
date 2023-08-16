@@ -34,49 +34,49 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "1 to 4 employees",
-                "5 to 19 employees",
-                "20 to 99 employees",
-                "100 to 499 employees",
+                "1 à 4 employés",
+                "5 à 19 employés",
+                "20 à 99 employés",
+                "100 à 499 employés",
                 ""
               ]
             },
-            "title": "Employment size"
+            "title": "Tranches d'effectif\n"
           },
           {
             "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Atlantic Region",
-                "Quebec Region",
-                "Ontario Region",
-                "Prairies Region",
-                "British Columbia and Territories Region",
+                "Région de l'Atlantique",
+                "Région de Québec\n",
+                "Région de l'Ontario\n",
+                "Région des Prairies",
+                "Région de la Colombie-Britannique et des Territoires",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Industries",
             "type": "string",
             "constraints": {
               "enum": [
-                "Construction (NAICS 23)",
-                "Manufacturing (NAICS 31-33)",
-                "Wholesale trade (NAICS 41)",
-                "Retail trade (NAICS 44-45)",
-                "Transportation and warehousing (NAICS 48-49)",
-                "Scientific and technical services (NAICS 54)",
-                "Accommodation and food services (NAICS 72)",
-                "Other services (NAICS 81)",
-                "Other industries from the North American Industrial Classification System (NAICS)",
-                "Tourism",
-                "Information and communication technologies (ICT)",
-                "Knowledge-based industries (KBI)",
-                "Advanced technology",
-                "Advanced manufacturing",
+                "Construction (SCIAN 23)",
+                "Fabrication (SCIAN 31-33)",
+                "Commerce de gros (SCIAN 41)",
+                "Commerce de détail (SCIAN 44-45)",
+                "Transport et entreposage (SCIAN 48-49)",
+                "Services professionnels, scientifiques et techniques (SCIAN 54)",
+                "Services d'hébergement et de restauration (SCIAN 72)\n",
+                "Autres services (SCIAN 81)",
+                "Autres industries du Système de Classification des Industries de l'Amérique du Nord (SCIAN)",
+                "Tourisme",
+                "Technologies de l’information et des communications (TIC)\n",
+                "Industries fondées sur le savoir (IFS)",
+                "Technologie de pointe",
+                "Fabrication de pointe",
                 ""
               ]
             },
@@ -87,15 +87,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Younger than 30 years old",
-                "30 to 39 years old",
-                "40 to 49 years old",
-                "50 to 64 years old",
-                "65 years old and older",
+                "Moins de 30 ans",
+                "30 à 39 ans",
+                "40 à 49 ans",
+                "50 à 64 ans",
+                "65 ans et plus",
                 ""
               ]
             },
-            "title": "Age of primary decision maker"
+            "title": "Âge de la personne principalement responsable de la prise de décision"
           },
           {
             "name": "Ownership demographics",
@@ -103,18 +103,18 @@
             "constraints": {
               "enum": [
                 "Small and medium enterprises",
-                "Indigenous",
-                "Visible minority",
-                "Person(s) with a disability",
+                "Autochtone",
+                "Minorité visible",
+                "Personnes ayant une incapacité",
                 ""
               ]
             },
-            "title": "Ownership demographics"
+            "title": "Information démographique, l’entreprise est majoritairement détenue\n"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

@@ -20,49 +20,49 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Food products",
-                "Beverages",
+                "Produits alimentaires",
+                "Boissons",
                 "Textiles",
-                "Wood products, excluding furniture",
-                "Paper and paper products",
-                "Printing and reproduction of recorded media",
-                "Coke and refined petroleum products",
-                "Rubber and plastics products",
-                "Other non-metallic mineral products",
-                "Basic metals",
-                "Fabricated metal products, except machinery",
-                "Computer, electronic and optical products",
-                "Electrical equipment",
-                "Machinery and equipment n.e.c.",
-                "Motor vehicles, trailers and semi-trailers",
-                "Furniture",
-                "Other manufacturing",
-                "Total manufacturing",
+                "Produits du bois, à l’exclusion des meubles",
+                "Papier et produits du papier",
+                "Impression et reproduction de supports enregistrés",
+                "Coke et produits pétroliers raffinés",
+                "Produits en caoutchouc et en plastique",
+                "Autres produits minéraux non métalliques",
+                "Métaux de base",
+                "Ouvrages en métaux, à l’exception des machines",
+                "Produits informatiques, électroniques et optiques",
+                "Matériel électrique",
+                "Machines et équipements n.c.a.",
+                "Véhicules automobiles, remorques et semi-remorques",
+                "Mobilier",
+                "Autres industries manufacturières",
+                "Total de l’industrie manufacturière",
                 ""
               ]
             },
-            "title": "Industry"
+            "title": "Industrie"
           },
           {
             "name": "Size",
             "type": "string",
             "constraints": {
               "enum": [
-                "1-9 employees",
-                "10-19 employees",
-                "20-49 employees",
-                "50-249 employees",
-                "250 employees and more",
+                "1-9 employés",
+                "10-19 employés",
+                "20-49 employés",
+                "50-249 employés",
+                "250 employés et plus",
                 "All enterprises",
                 ""
               ]
             },
-            "title": "Size"
+            "title": "Taille"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

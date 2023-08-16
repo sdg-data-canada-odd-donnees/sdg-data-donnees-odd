@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Household expenditure per capita",
-                "Income per capita",
+                "Dépenses des ménages par habitant",
+                "Revenu par habitant",
                 ""
               ]
             },
@@ -32,23 +32,23 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "All quintiles",
-                "Lowest quintile",
-                "Second quintile",
-                "Total deciles",
-                "Lowest decile",
-                "Second decile",
-                "Third decile",
-                "Fourth decile",
+                "Tous les quintiles",
+                "Quintile inférieur",
+                "Deuxième quintile",
+                "Total des déciles",
+                "Décile inférieur",
+                "Deuxième décile",
+                "Troisième décile",
+                "Quatrième décile",
                 ""
               ]
             },
-            "title": "Percentile"
+            "title": "Centile"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

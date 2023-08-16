@@ -20,29 +20,29 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Participation rate in organized learning",
-                "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics",
-                "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading",
-                "Proportion of adults (25-to-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional numeracy skills",
-                "Proportion of adults (25-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional literacy skills",
+                "Taux de participation à l’apprentissage organisé",
+                "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en mathématiques",
+                "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en lecture",
+                "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA score de 226) en compétences en numératie fonctionnelle",
+                "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA un score 226) en compétences en littératie",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unités"
           },
           {
             "name": "Parity index",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gender Parity Index",
-                "Economic, Social and Cultural Status Index (ESCS)",
-                "Location Parity Index",
-                "Parental Education Attainment Parity Index",
+                "Indice de parité entre les sexes",
+                "Indice de statut économique, social et culturel (SESC)",
+                "Indice de parité entre millieu urban et rural (IPM)",
+                "Indice de parité du niveau de formation des parents",
                 ""
               ]
             },
-            "title": "Parity index"
+            "title": "Indice de parité"
           },
           {
             "name": "Geography",
@@ -50,23 +50,23 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "British Columbia",
+                "Colombie-Britannique",
                 "Yukon",
-                "Northwest Territories",
+                "Territoires du Nord-Ouest",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "GeoCode",
@@ -76,7 +76,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

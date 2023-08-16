@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Mortality rate per 100,000 population",
-                "Number of deaths",
+                "Taux de mortalité pour 100 000 habitants",
+                "Nombre de décès",
                 ""
               ]
             },
@@ -32,34 +32,34 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate per 100,000 population",
-                "Number",
+                "Taux pour 100 000 habitants",
+                "Nombre",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unités"
           },
           {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Tornado",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Heat event",
-                "Meteorological - Hurricane",
+                "Météorologique - Inondation",
+                "Météorologique - Tempête",
+                "Météorologique - Tornade",
+                "Météorologique - Feu de forêt",
+                "Météorologique - Tempête hivernale",
+                "Météorologique - Épisode de chaleur",
+                "Météorologique - Ouragan",
                 ""
               ]
             },
-            "title": "Type of natural disaster"
+            "title": "Type de catastrophe naturelle"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

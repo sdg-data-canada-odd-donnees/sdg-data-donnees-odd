@@ -20,20 +20,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Skim Milk Powder",
-                "Cheese",
-                "Other Milk Products",
-                "Incorporated Products",
-                "Butter",
+                "Lait écrémé en poudre",
+                "Fromage",
+                "Autres produits laitiers",
+                "Produits incorporés",
+                "Beurre",
                 ""
               ]
             },
-            "title": "Product"
+            "title": "Produit"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

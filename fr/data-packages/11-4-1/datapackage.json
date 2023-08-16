@@ -21,55 +21,55 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "British Columbia",
+                "Colombie-Britannique",
                 "Yukon",
-                "Northwest Territories",
+                "Territoires du Nord-Ouest",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Level of government",
             "type": "string",
             "constraints": {
               "enum": [
-                "Consolidated Canadian general government",
-                "Consolidated provincial-territorial and local governments",
+                "Administration publique générale canadienne consolidée",
+                "Administrations publiques provinciales-territoriales et locales consolidées",
                 ""
               ]
             },
-            "title": "Level of government"
+            "title": "Niveau de gouvernement"
           },
           {
             "name": "Type of heritage",
             "type": "string",
             "constraints": {
               "enum": [
-                "Protection of biodiversity and landscape",
-                "Cultural services",
-                "Broadcasting and publishing services",
-                "Recreation, culture, and religion not elsewhere classified",
-                "Total cultural and natural heritage",
+                "Préservation de la diversité biologique et protection de la nature",
+                "Services culturels",
+                "Services de radiodiffusion, de television et d'édition\n",
+                "Loisirs, culture et religion non classés ailleurs",
+                "Ensemble du patrimoine culturel et naturel",
                 ""
               ]
             },
-            "title": "Type of heritage"
+            "title": "Type de patrimoine"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

@@ -20,19 +20,19 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Evolved High-Speed Packet Access (HSPA+)",
-                "Long-Term Evolution (LTE)",
-                "Long-Term Evolution - A (LTE-A)",
+                "Accès haute vitesse évolué par paquets (HSPA+)",
+                "Évolution à long terme (LTE)",
+                "Évolution à long terme - A (LTE-A)",
                 "5G",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unités"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

@@ -20,17 +20,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Terrestrial KBAs",
-                "Freshwater KBAs",
+                "Terrestre ZCBs",
+                "Eau Douce ZCBs",
                 ""
               ]
             },
-            "title": "Key Biodiversity Areas (KBAs)"
+            "title": "Zones clés pour la biodiversité (ZCBs)"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

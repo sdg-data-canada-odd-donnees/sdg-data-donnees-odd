@@ -20,13 +20,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Male",
-                "Female",
+                "Les deux sexes",
+                "Homme",
+                "Femme",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Sexe"
           },
           {
             "name": "Age Group",
@@ -38,36 +38,36 @@
                 "25+ years-old",
                 "25-44 years-old",
                 "45+ years-old",
-                "All age groups",
+                "Tous les groupes d’âge",
                 ""
               ]
             },
-            "title": "Age Group"
+            "title": "Groupe d’âge"
           },
           {
             "name": "Tobacco Product",
             "type": "string",
             "constraints": {
               "enum": [
-                "Any tobacco product",
+                "Tout produit du tabac",
                 "Cigarettes",
-                "Cigars",
-                "E-cigarettes",
-                "Little cigars or cigarillos",
-                "Smokeless tobacco",
-                "Vaping",
-                "Water pipe with tobacco",
+                "Cigares",
+                "Cigarettes électroniques",
+                "Petits cigares ou cigarillos",
+                "Tabac sans fumée",
+                "Vapotage",
+                "Pipe à eau avec du tabac",
                 "Pipe",
-                "Chewing tobacco",
+                "Tabac à chiquer",
                 ""
               ]
             },
-            "title": "Tobacco Product"
+            "title": "Produits du tabac"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

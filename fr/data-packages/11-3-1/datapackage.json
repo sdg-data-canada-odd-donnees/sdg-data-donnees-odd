@@ -20,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Land Consumption Rate",
-                "Population Growth Rate",
-                "Ratio of land consumption rate to population growth rate",
+                "Taux de consommation des terres",
+                "Taux de croissance démographique",
+                "Rapport entre le taux de consommation des terres et le taux de croissance démographique",
                 ""
               ]
             },
@@ -33,61 +33,61 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate of growth",
+                "Taux de croissance",
                 "Ratio",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unités"
           },
           {
             "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Abbotsford - Mission, British Columbia",
+                "Abbotsford - Mission, Colombie-Britannique",
                 "Barrie, Ontario",
                 "Brantford, Ontario",
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
-                "Greater Sudbury, Ontario",
+                "Grand Sudbury, Ontario",
                 "Guelph, Ontario",
-                "Halifax, Nova Scotia",
+                "Halifax, Nouvelle-Écosse",
                 "Hamilton, Ontario",
-                "Kelowna, British Columbia",
+                "Kelowna, Colombie-Britannique",
                 "Kingston, Ontario",
                 "Kitchener - Cambridge - Waterloo, Ontario",
                 "London, Ontario",
-                "Moncton, New Brunswick",
+                "Moncton, Nouveau-Brunswick",
                 "Montreal, Quebec",
                 "Oshawa, Ontario",
-                "Ottawa - Gatineau (Ontario part), Ontario",
-                "Ottawa - Gatineau (Quebec part), Quebec",
+                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
+                "Ottawa - Gatineau (partie du Québec), Québec",
                 "Peterborough, Ontario",
-                "Quebec, Quebec",
+                "Québec, Québec",
                 "Regina, Saskatchewan",
-                "Saguenay, Quebec",
-                "Saint John, New Brunswick",
+                "Saguenay, Québec",
+                "Saint John, Nouveau-Brunswick",
                 "Saskatoon, Saskatchewan",
-                "Sherbrooke, Quebec",
+                "Sherbrooke, Québec",
                 "St. Catharines - Niagara, Ontario",
-                "St. John's, Newfoundland and Labrador",
+                "St. John's, Terre-Neuve-et-Labrador",
                 "Thunder Bay, Ontario",
                 "Toronto, Ontario",
-                "Trois-Rivières, Quebec",
-                "Vancouver, British Columbia",
-                "Victoria, British Columbia",
+                "Trois-Rivières, Québec",
+                "Vancouver, Colombie-Britannique",
+                "Victoria, Colombie-Britannique",
                 "Windsor, Ontario",
                 "Winnipeg, Manitoba",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

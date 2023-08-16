@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps",
-                "Number of fixed Internet broadband subscriptions",
+                "Proportion des ménages qui ont accès à des services Internet à large bande à des vitesses de 50/10 Mbps\n",
+                "Abonnements à une connexion à Internet à haut débit fixe\n",
                 ""
               ]
             },
@@ -33,39 +33,39 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "New Brunswick",
-                "British Columbia",
-                "Quebec",
-                "Nova Scotia",
+                "Nouveau-Brunswick",
+                "Colombie-Britannique",
+                "Québec",
+                "Nouvelle-Écosse",
                 "Saskatchewan",
                 "Ontario",
                 "Manitoba",
-                "Prince Edward Island",
-                "Northwest Territories",
+                "Île-du-Prince-Édouard",
+                "Territoires du Nord-Ouest",
                 "Alberta",
-                "Newfoundland and Labrador",
+                "Terre-Neuve-et-Labrador",
                 "Yukon",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Population centres",
             "type": "string",
             "constraints": {
               "enum": [
-                "First Nations reserves",
-                "First Nations reserves Urban centres",
-                "First Nations reserves Rural areas",
-                "Urban centres",
-                "Rural areas",
-                "Total population centre",
+                "Réserves des Premières Nations",
+                "Réserves des Premières Nations Régions urbaines",
+                "Réserves des Premières Nations Régions rurales",
+                "Régions urbaines",
+                "Régions rurales",
+                "Total centre de population",
                 ""
               ]
             },
-            "title": "Population centres"
+            "title": "Centres de population"
           },
           {
             "name": "GeoCode",
@@ -75,7 +75,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

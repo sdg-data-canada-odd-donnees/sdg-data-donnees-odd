@@ -20,10 +20,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Acute respiratory infections",
-                "Diarrhoea",
-                "Intestinal nematode infections",
-                "Protein-energy malnutrition",
+                "Affections aiguës des voies respiratoires supérieures\n",
+                "Diarrhée",
+                "Infections intestinales à nématodes",
+                "Malnutrition protéino-énergétique",
                 ""
               ]
             },
@@ -32,7 +32,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Age",
-                "Gender",
+                "Âge",
+                "Genre",
                 "Total",
                 ""
               ]
@@ -34,10 +34,10 @@
             "constraints": {
               "enum": [
                 "0 to 14 years",
-                "15 to 64 years",
-                "65 years and over",
-                "Men+",
-                "Women+",
+                "15 à 64 ans",
+                "65 ans et plus",
+                "Hommes+",
+                "Femmes+",
                 "Percentage of population within 500 metres of a public transit stop",
                 ""
               ]
@@ -50,22 +50,22 @@
             "constraints": {
               "enum": [
                 "Alberta",
-                "British Columbia",
+                "Colombie-Britannique",
                 "Canada",
                 "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
                 "Ontario",
-                "Prince Edward Island",
-                "Quebec",
+                "Île-du-Prince-Édouard",
+                "Québec",
                 "Saskatchewan",
                 "Yukon",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "GeoCode",
@@ -75,7 +75,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

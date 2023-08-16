@@ -20,30 +20,30 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Number of fatality claims, by sex",
-                "Number of lost time claims, by sex",
+                "Nombre de demandes d’indemnisation pour décès, selon le sexe",
+                "Nombre de réclamations avec perte de temps, selon le sexe",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unités"
           },
           {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "Homme",
+                "Femme",
                 "Unknown",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Sexe"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

@@ -20,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Material footprint",
-                "Material footprint per capita",
-                "Material footprint per unit of GDP",
+                "Empreinte matérielle",
+                "Empreinte matérielle par habitant",
+                "Empreinte matérielle par unité de PIB",
                 ""
               ]
             },
@@ -33,18 +33,18 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Million metric tonnes",
-                "Metric tonnes",
-                "Metric tonnes per GDP (millions of dollars CAD)",
+                "Millions de tonnes métriques",
+                "Tonnes métriques",
+                "Tonnes métriques par PIB (millions de dollars CAD)",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unités"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

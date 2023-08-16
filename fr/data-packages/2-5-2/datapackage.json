@@ -20,16 +20,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Pourcentage",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unités"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

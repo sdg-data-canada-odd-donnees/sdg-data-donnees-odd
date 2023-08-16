@@ -20,21 +20,21 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Contact a lawyer, paralegal, or law student",
-                "Contact a court or tribunal",
-                "Contact a community organization",
-                "Contact a government department/agency",
-                "Contact a labour union",
-                "Other action to resolve problem",
+                "Communiquez avec un avocat, un parajuriste ou un étudiant en droit",
+                "Communiquer avec une cour ou un tribunal",
+                "Communiquez avec un organisme communautaire",
+                "Communiquer avec un ministère ou un organisme gouvernemental",
+                "Communiquer avec un syndicat",
+                "Autres mesures pour résoudre le problème",
                 ""
               ]
             },
-            "title": "Resolution mechanism"
+            "title": "Mécanisme de résolution"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

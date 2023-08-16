@@ -20,13 +20,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Small-scale food producers",
-                "Medium-Large scale food producers",
+                "Petits producteurs alimentaires",
+                "Producteurs alimentaires de moyenne à grande échelle",
                 "Total",
                 ""
               ]
             },
-            "title": "Size"
+            "title": "Taille"
           },
           {
             "name": "Characteristics",
@@ -34,20 +34,20 @@
             "constraints": {
               "enum": [
                 "Total",
-                "Male",
-                "Female",
-                "Under 35 years",
-                "35 to 54 years",
-                "55 years and over",
+                "Homme",
+                "Femme",
+                "Moins de 35 ans",
+                "35 à 54 ans",
+                "55 ans et plus",
                 ""
               ]
             },
-            "title": "Characteristics"
+            "title": "Caractéristiques"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

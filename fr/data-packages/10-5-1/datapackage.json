@@ -20,21 +20,21 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Ratio of regulatory capital to risk-weighted assets",
-                "Ratio of non-performing loans net of provisions to capital",
-                "Ratio of non-performing loans to total gross loans",
-                "Earnings and profitability, return on assets",
-                "Ratio of liquid assets to short-term liabilities",
-                "Ratio of regulatory capital to assets",
+                "Ratio des fonds propres réglementaires de base aux actifs pondérés en fonction des risques",
+                "Ratio des créances improductives moins provisions aux fonds propres",
+                "Ratio des créances improductives au total des prêts bruts",
+                "Rentabilité des actifs",
+                "Ratio des actifs liquides aux passifs à court terme",
+                "Ratio des fonds propres réglementaires de base aux actifs",
                 ""
               ]
             },
-            "title": "Indicator"
+            "title": "Indicateur"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

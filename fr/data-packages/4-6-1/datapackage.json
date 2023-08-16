@@ -21,23 +21,23 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "British Columbia",
+                "Colombie-Britannique",
                 "Yukon",
-                "Northwest Territories",
+                "Territoires du Nord-Ouest",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "GeoCode",
@@ -49,58 +49,58 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
+                "Les deux sexes",
+                "Hommes",
+                "Femmes",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Sexe"
           },
           {
             "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total age groups",
-                "16 to 24 years",
-                "25 to 34 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 to 65 years",
+                "Groupe d'âge totale",
+                "16 à 24 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 65 ans",
                 ""
               ]
             },
-            "title": "Age group"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Skill",
             "type": "string",
             "constraints": {
               "enum": [
-                "Literacy",
-                "Numeracy",
+                "Alphabétisme",
+                "Arithmétique",
                 ""
               ]
             },
-            "title": "Skill"
+            "title": "Compétences"
           },
           {
             "name": "Proficiency level",
             "type": "string",
             "constraints": {
               "enum": [
-                "2 or below",
-                "3 or above",
+                "2 ou moins",
+                "3 ou plus",
                 ""
               ]
             },
-            "title": "Proficiency level"
+            "title": "Niveau de compétence"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }
