@@ -2,13 +2,19 @@ instructions: Select each goal to access the data
 heading: Welcome to the data hub reporting Canada's progress on the Sustainable Development Goals
 download_all: Download all data
 second_header: "Domestic Indicators Data Hub"
-second_content: "Canada's reporting on the Canadian Indicator Framework for the Sustainable Development Goals"
-second_text: "Access Data Hub"
-second_link: <a href="https://sdgcif-data-canada-oddcic-donnee.github.io/">Canadian Indicator Framework Data Hub</a>
+second_content: |
+    Canada's reporting on the Canadian Indicator Framework for the Sustainable Development Goals  
+      
+    [Access Data Hub](https://sdgcif-data-canada-oddcic-donnee.github.io)
+# second_text: "Access Data Hub"
+# second_link: <a href="https://sdgcif-data-canada-oddcic-donnee.github.io/">Canadian Indicator Framework Data Hub</a>
 third_header: "About Canada and the SDGs"
-third_content: "Learn more about Canada and the Sustainable Development Goals"
-third_text: "About Canada and the Sustainable Development Goals"
-third_link: <a href="https://https://www144.statcan.gc.ca/sdg-odd/about-apercu-eng.htm">About Canada and the SDGs</a>
+third_content: |
+    Learn more about Canada and the Sustainable Development Goals
+    
+    [Read more](https://www144.statcan.gc.ca/sdg-odd/about-apercu-eng.htm)
+#third_text: "About Canada and the Sustainable Development Goals"
+#third_link: <a href="https://https://www144.statcan.gc.ca/sdg-odd/about-apercu-eng.htm">About Canada and the SDGs</a>
 zip_file: ZIP file
 intro_title: 17 goals to transform our world
 intro_body: The <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">Sustainable Development Goals (SDGs)</a> are a universal call to action to end poverty, protect the planet and improve the lives and prospects of everyone, everywhere. It consist of 17 Goals and 169 Targets which were adopted by all UN Member States in 2015 as part of the <a href="https://sdgs.un.org/2030agenda">2030 Agenda for Sustainable Development</a>.
