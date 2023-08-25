@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "number"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Official development assistance on conservation and sustainable use of biodiversity",
+                "Revenue generated and finance mobilized from biodiversity-relevant economic instruments",
+                ""
+              ]
+            }
           },
           {
             "name": "Geography",
