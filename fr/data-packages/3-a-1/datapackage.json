@@ -21,8 +21,9 @@
             "constraints": {
               "enum": [
                 "Les deux sexes",
-                "Homme",
                 "Femme",
+                "Homme",
+                "Hommes",
                 ""
               ]
             },
@@ -55,9 +56,9 @@
                 "Cigarettes électroniques",
                 "Petits cigares ou cigarillos",
                 "Tabac sans fumée",
-                "Vapotage",
                 "Pipe à eau avec du tabac",
                 "Pipe",
+                "Vapotage",
                 "Tabac à chiquer",
                 ""
               ]

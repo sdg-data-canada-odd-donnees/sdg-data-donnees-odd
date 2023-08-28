@@ -21,8 +21,9 @@
             "constraints": {
               "enum": [
                 "Both sexes",
-                "Male",
                 "Female",
+                "Male",
+                "Men",
                 ""
               ]
             },
@@ -55,9 +56,9 @@
                 "E-cigarettes",
                 "Little cigars or cigarillos",
                 "Smokeless tobacco",
-                "Vaping",
                 "Water pipe with tobacco",
                 "Pipe",
+                "Vaping",
                 "Chewing tobacco",
                 ""
               ]
