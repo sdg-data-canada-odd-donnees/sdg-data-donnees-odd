@@ -12,7 +12,7 @@ STAT_CONC_DEF: |
     L'anémie est définie comme la prévalence des concentrations d'hémoglobine inférieures à 110 g / L pour les femmes enceintes et 120 g / L pour les femmes non enceintes.
 DATA_COMP: '   '
 REC_USE_LIM: |
-    Tous les résultats avec des taux d'hémoglobine invraisemblables (<25 ou >200 g / L) ont été supprimés des données.<br><br>Les femmes qui ont déclaré leur état de grossesse comme « ne sait pas » ont été exclues de l'analyse.<br><br>Les femmes qui étaient enceintes mais ne savaient pas combien de semaines elles étaient enceintes ont été exclues de l'analyse.
+    Les données pour le groupe de population « Femmes enceintes » étaient trop peu fiables pour être publiées.<br><br>Tous les résultats avec des taux d'hémoglobine invraisemblables (<25 ou >200 g / L) ont été supprimés des données.<br><br>Les femmes qui ont déclaré leur état de grossesse comme « ne sait pas » ont été exclues de l'analyse.<br><br>Les femmes qui étaient enceintes mais ne savaient pas combien de semaines elles étaient enceintes ont été exclues de l'analyse.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
