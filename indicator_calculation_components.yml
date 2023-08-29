@@ -489,7 +489,15 @@
   target: None
   target_year: '2030'
 17-9-1:
-  progress_status: not_available
+  base_value: '289.82'
+  base_year: '2018'
+  current_value: '353.4'
+  current_year: '2019'
+  direction: positive
+  progress_calculation_value: null
+  progress_status: None
+  target: None
+  target_year: '2030'
 2-1-1:
   base_value: '11.6'
   base_year: '2018'
