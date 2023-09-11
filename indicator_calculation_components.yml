@@ -607,15 +607,7 @@
   target: '12'
   target_year: '2030'
 3-3-1:
-  base_value: '5.4'
-  base_year: '2015'
-  current_value: '3.8'
-  current_year: '2021'
-  direction: negative
-  progress_calculation_value: '0.13042766282688117'
-  progress_status: negligible_progress
-  target: '0'
-  target_year: '2030'
+  progress_status: not_available
 3-3-2:
   base_value: '4.6'
   base_year: '2015'
