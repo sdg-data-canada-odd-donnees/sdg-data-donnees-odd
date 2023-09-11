@@ -8,7 +8,7 @@ STAT_CONC_DEF: '<p>The number of new HIV infections per 1,000 uninfected populat
 defined as the number of new HIV infections per 1,000 persons among the uninfected population</p>'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-UNIT_OF_MEASURE: Rate per 100,000
+UNIT_OF_MEASURE: Rate per 1,000 uninfected population
 COVERAGE: Canada
 
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
@@ -26,17 +26,8 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 
 
 # Source(s)
 source_active_1: 'true'
-source_url_text_1: HIV in Canada, Surveillance Report to December 31, 2020
-source_organisation_1: Public Health Agency of Canada
+source_url_text_1: HIV estimates with uncertainty bounds 1990-Present
+source_organisation_1: UNAIDS
 source_periodicity_1: Annual 
 source_geographical_coverage_1: Canada
-source_url_1: https://www.canada.ca/en/public-health/services/publications/diseases-conditions/hiv-canada-surveillance-report-december-31-2020.html#dtbl1
-
-# Source(s)
-source_active_2: 'true'
-source_url_text_2: |
-    HIV in Canada: 2021 surveillance highlights
-source_organisation_2: Public Health Agency of Canada
-source_periodicity_2: Annual 
-source_geographical_coverage_2: Canada
-source_url_2: https://www.canada.ca/en/public-health/services/publications/diseases-conditions/hiv-2021-surveillance-highlights.html#:~:text=National%20HIV%20diagnosis%20rate%20%2D%204.5
+source_url_1: https://www.unaids.org/en/resources/documents/2023/HIV_estimates_with_uncertainty_bounds_1990-present
