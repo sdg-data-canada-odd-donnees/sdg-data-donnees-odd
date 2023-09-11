@@ -6926,7 +6926,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "cp1252",
       "schema": {
         "fields": [
           {
@@ -6939,7 +6939,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les âges",
                 "Adultes (15-49)",
                 ""
               ]
