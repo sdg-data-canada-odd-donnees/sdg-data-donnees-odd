@@ -675,7 +675,15 @@
   target: '3.2'
   target_year: '2020'
 3-7-1:
-  progress_status: not_available
+  base_value: '92.5'
+  base_year: '2015'
+  current_value: '92.4'
+  current_year: '2023'
+  direction: positive
+  progress_calculation_value: null
+  progress_status: None
+  target: None
+  target_year: '2030'
 3-7-2:
   base_value: '9.5'
   base_year: '2015'
