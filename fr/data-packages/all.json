@@ -6899,6 +6899,18 @@
             "title": "Année"
           },
           {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tous les âges",
+                "Adultes (15-49)",
+                ""
+              ]
+            },
+            "title": "Âge"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
