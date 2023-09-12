@@ -3370,6 +3370,52 @@
       "title": "Variation de l’efficacité de l’utilisation des ressources en eau"
     },
     {
+      "path": "17-3-1/data.csv",
+      "name": "17-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Aide publique au développement (APD)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pourcentage (%)",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Investissements étrangers directs, aide publique au développement et coopération Sud-Sud, en proportion du revenu national brut"
+    },
+    {
       "path": "15-3-1/data.csv",
       "name": "15-3-1",
       "profile": "tabular-data-resource",
@@ -8335,30 +8381,6 @@
         ]
       },
       "title": "Répartition des postes dans les institutions nationales et locales, y compris : a) les organes législatifs ; b) la fonction publique ; c) les organes judiciaires, par rapport à la répartition nationale, par sexe, âge, situation au regard du handicap et groupe de population"
-    },
-    {
-      "path": "17-3-1/data.csv",
-      "name": "17-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Investissements étrangers directs, aide publique au développement et coopération Sud-Sud, en proportion du revenu national brut"
     },
     {
       "path": "3-5-1/data.csv",
