@@ -798,21 +798,21 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Population group",
+            "name": "Severity",
             "type": "string",
             "constraints": {
               "enum": [
-                "Women of reproductive age",
-                "Non-pregnant women only",
-                "Pregnant women only",
+                "Severe",
+                "Moderate",
+                "Mild",
                 ""
               ]
             },
-            "title": "Population group"
+            "title": "Severity"
           },
           {
             "name": "Value",
