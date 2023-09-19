@@ -12,8 +12,99 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Access to basic drinking water services",
+                "Access to basic sanitation services",
+                "Access to clean fuels and technology",
+                "Access to basic mobility",
+                "Access to basic education",
+                "Access to basic information services",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Basic services",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of population using basic drinking water services",
+                "Proportion of population using basic sanitation services",
+                "Proportion of population with primary reliance on clean fuels and technology",
+                "Proportion of the rural population who live within 2 km of an all-season road",
+                "Proportion of population within 500 metres of a public transit stop",
+                "Proportion of children in Grade 4 achieving at least a minimum proficiency level in mathematics",
+                "Proportion of children in Grade 4 achieving at least a minimum proficiency level in reading",
+                "Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading",
+                "Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics",
+                "Proportion of population covered by Evolved High-Speed Packet Access (HSPA+)",
+                "Proportion of population covered by Long-Term Evolution (LTE)",
+                "Proportion of population covered by Long-Term Evolution - A (LTE-A)",
+                "Proportion of population covered by 5G",
+                ""
+              ]
+            },
+            "title": "Basic services"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

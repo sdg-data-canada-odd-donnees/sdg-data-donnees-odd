@@ -12,8 +12,99 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Accès aux services d’eau potable de base",
+                "Accès aux services d’assainissement de base",
+                "Accès à des carburants et technologies propres",
+                "Accès à la mobilité de base",
+                "Access to basic education",
+                "Accès aux services d’information de base",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Basic services",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion de la population utilisant les services d’eau potable de base",
+                "Proportion de la population utilisant les services d’assainissement de base",
+                "Proportion de la population qui dépend principalement des combustibles et des technologies propres",
+                "Proportion de la population rurale vivant à moins de 2 km d’une route praticable toute l’année",
+                "Proportion de la population située dans un rayon de 500 mètres d’un arrêt de transport en commun",
+                "Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques",
+                "Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture",
+                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture",
+                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en mathématiques",
+                "Proportion de la population couverte par l’accès haute vitesse évolué par paquets (HSPA+)",
+                "Proportion de la population couverte par l’évolution à long terme (LTE)",
+                "Proportion de la population couverte par l’évolution à long terme - A (LTE-A)",
+                "Proportion de la population couverte par la 5G",
+                ""
+              ]
+            },
+            "title": "Services de base"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pourcentage",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
