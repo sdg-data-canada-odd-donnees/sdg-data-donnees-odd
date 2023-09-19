@@ -371,7 +371,7 @@
             "title": "Année"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -379,6 +379,17 @@
                 "Évolution à long terme (LTE)",
                 "Évolution à long terme - A (LTE-A)",
                 "5G",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pourcentage",
                 ""
               ]
             },

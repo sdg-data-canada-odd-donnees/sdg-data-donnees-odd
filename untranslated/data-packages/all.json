@@ -345,7 +345,7 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -353,6 +353,16 @@
                 "Long-Term Evolution (LTE)",
                 "Long-Term Evolution - A (LTE-A)",
                 "5G",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage",
                 ""
               ]
             }
