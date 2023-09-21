@@ -6,11 +6,30 @@ SDG_TARGET: '<p>Target 1.4: By 2030, ensure that all men and women, in particula
   including microfinance</p>'
 SDG_INDICATOR: '<p>Indicator 1.4.1: Proportion of population living in households
   with access to basic services</p>'
-STAT_CONC_DEF: <p>Basic Services refer to public service provision systems that meet
+STAT_CONC_DEF: |
+  Basic Services refer to public service provision systems that meet
   human basic needs including drinking water, sanitation, hygiene, energy, mobility,
   waste collection, health care, education and information technologies. Access to
   basic services implies that sufficient and affordable service is reliably available
-  with adequate quality.</p>
+  with adequate quality.
+  <br>
+  <br>Basic Services refer to public service provision systems that meet human basic needs 
+  including drinking water, sanitation, hygiene, energy, mobility, waste collection, health 
+  care, education and information technologies. This indicator is based on 9 components which 
+  are captured in various standalone indicators of the SDGs which each have their own indicator 
+  page.
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/3-7-1/">Indicator 3.7.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/3-8-1/">Indicator 3.8.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/4-1-1/">Indicator 4.1.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/5-b-1/">Indicator 5.b.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/6-2-1/">Indicator 6.2.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/6-1-1/">Indicator 6.1.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/7-1-1/">Indicator 7.1.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/7-1-2/">Indicator 7.1.2</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/9-1-1/">Indicator 9.1.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/9-c-1/">Indicator 9.c.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/11-2-1/">Indicator 11.2.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/11-6-1/">Indicator 11.6.1</a>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
