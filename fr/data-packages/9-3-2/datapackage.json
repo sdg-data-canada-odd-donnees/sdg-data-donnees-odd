@@ -20,10 +20,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Request rate, line of credit",
-                "Request rate, term loan",
-                "Overall approval rate, line of credit",
-                "Overall approval rate, term loan",
+                "Taux de demande, marge de crédit",
+                "Taux de demande, prêt à terme",
+                "Taux général d’approbation, marge de crédit",
+                "Taux général d’approbation, prêt à terme",
                 ""
               ]
             },
@@ -102,7 +102,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Small and medium enterprises",
+                "Petites et moyennes entreprises",
                 "Autochtone",
                 "Minorité visible",
                 "Personnes ayant une incapacité",
