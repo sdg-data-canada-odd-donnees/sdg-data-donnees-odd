@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Tonnes
+computation_units: Pourcentage
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -9,9 +9,9 @@ data_notice_text: ''
 data_show_map: true
 data_start_values:
 - field: Geography
-  value: Canada
-- field: Sources of waste for disposal
-  value: All sources of waste for disposal
+  value: Total, large urban population centres
+- field: Tenure
+  value: Total, tenure
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -19,25 +19,24 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
 - Geography
-- Sources of waste for disposal
+- Tenure
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.11-6-1-title
+graph_title: global_indicators.11-1-1-title
 graph_titles: []
-graph_type: line
-indicator_available: '    '
-indicator_name: global_indicators.11-6-1-title
-indicator_number: 11.6.1
-national_geographical_coverage: Canada, Geographical region of Canada, Province or
-  territory
+graph_type: bar
+indicator_name: global_indicators.11-1-1-title
+indicator_number: 11.1.1
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
-- direction: positive
+- direction: negative
+  target: 0
   target_year: 2030
-progress_status: moderate_progress
+progress_status: negligible_progress
 reporting_status: complete
 sort: ''
 standalone: false
