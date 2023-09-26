@@ -1,10 +1,10 @@
 Year,Series,Units,Type of natural disaster,Value
-2015,"Mortality rate per 100,000 population","Rate per 100,000 population",,1995.19
-2016,"Mortality rate per 100,000 population","Rate per 100,000 population",,4845.27
-2017,"Mortality rate per 100,000 population","Rate per 100,000 population",,920.81
-2018,"Mortality rate per 100,000 population","Rate per 100,000 population",,5815.98
-2019,"Mortality rate per 100,000 population","Rate per 100,000 population",,29.8
-2020,"Mortality rate per 100,000 population","Rate per 100,000 population",,1330.34
+2015,"Rate per 100,000 population","Rate per 100,000 population",,1995.19
+2016,"Rate per 100,000 population","Rate per 100,000 population",,4845.27
+2017,"Rate per 100,000 population","Rate per 100,000 population",,920.81
+2018,"Rate per 100,000 population","Rate per 100,000 population",,5815.98
+2019,"Rate per 100,000 population","Rate per 100,000 population",,29.8
+2020,"Rate per 100,000 population","Rate per 100,000 population",,1330.34
 2015,Number of deaths,Number,,712343.0
 2016,Number of deaths,Number,,1749602.0
 2017,Number of deaths,Number,,336511.0
@@ -40,32 +40,32 @@ Year,Series,Units,Type of natural disaster,Value
 2020,Number of deaths,Number,Meteorological - Storm,493604.0
 2020,Number of deaths,Number,Meteorological - Wildfire,12021.0
 2020,Number of deaths,Number,Meteorological - Winter storm,0.0
-2015,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,8.96
-2015,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,1557.47
-2015,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Tornado,420.15
-2015,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,1.61
-2015,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,7.0
-2016,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,95.08
-2016,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,3415.03
-2016,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Tornado,5.73
-2016,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,214.76
-2016,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,1114.67
-2017,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,63.05
-2017,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,12.23
-2017,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,845.53
-2017,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,0.0
-2018,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,165.2
-2018,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Heat event,315.66
-2018,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,5050.58
-2018,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Tornado,0.81
-2018,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,283.73
-2018,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,0.0
-2019,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,4.76
-2019,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Hurricane,13.3
-2019,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,0.01
-2019,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,0.53
-2019,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,15.96
-2020,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,0.0
-2020,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,1298.71
-2020,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,31.63
-2020,"Mortality rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,0.0
+2015,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,8.96
+2015,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,1557.47
+2015,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Tornado,420.15
+2015,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,1.61
+2015,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,7.0
+2016,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,95.08
+2016,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,3415.03
+2016,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Tornado,5.73
+2016,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,214.76
+2016,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,1114.67
+2017,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,63.05
+2017,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,12.23
+2017,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,845.53
+2017,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,0.0
+2018,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,165.2
+2018,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Heat event,315.66
+2018,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,5050.58
+2018,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Tornado,0.81
+2018,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,283.73
+2018,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,0.0
+2019,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,4.76
+2019,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Hurricane,13.3
+2019,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,0.01
+2019,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,0.53
+2019,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,15.96
+2020,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Flood,0.0
+2020,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Storm,1298.71
+2020,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Wildfire,31.63
+2020,"Rate per 100,000 population","Rate per 100,000 population",Meteorological - Winter storm,0.0
