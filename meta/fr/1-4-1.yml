@@ -1,4 +1,4 @@
-SDG_GOAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
+SDG_GOAL: <p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
 SDG_TARGET: '<p>Cible 1.4 : D''ici à 2030, faire en sorte que tous les hommes et les
   femmes, en particulier les pauvres et les personnes vulnérables, aient les mêmes
   droits aux ressources économiques et qu''ils aient accès aux services de base, à
@@ -7,16 +7,32 @@ SDG_TARGET: '<p>Cible 1.4 : D''ici à 2030, faire en sorte que tous les hommes e
   services financiers adaptés à leurs besoins, y compris la microfinance</p>'
 SDG_INDICATOR: '<p>Indicateur 1.4.1 : Proportion de la population vivant dans des
   ménages ayant accès aux services de base </p>'
-STAT_CONC_DEF: "<p>Les services de base désignent les systèmes fournissant les
-  services publics qui répondent aux besoins fondamentaux humains, notamment l'eau
-  potable, les services sanitaires, l'hygiène, l'énergie, la mobilité, la collecte
-  des déchets, les soins de santé, l'éducation et les technologies de l'information.</p>
-
-  <p>L'accès aux services de base signifie qu'un service suffisant
-  et abordable soit disponible de manière fiable avec une qualité adéquate.</p>"
+STAT_CONC_DEF: |
+  Les services de base désignent les systèmes fournissant les services publics qui 
+  répondent aux besoins fondamentaux humains, notamment l'eau potable, les services 
+  sanitaires, l'hygiène, l'énergie, la mobilité, la collecte des déchets, les soins 
+  de santé, l'éducation et les technologies de l'information. L'accès aux services 
+  de base signifie qu'un service suffisant et abordable soit disponible de manière 
+  fiable avec une qualité adéquate.
+  <br>
+  <br>Basic Services refer to public service provision systems that meet human basic needs 
+  including drinking water, sanitation, hygiene, energy, mobility, waste collection, health 
+  care, education and information technologies. This indicator is based on 9 components which 
+  are captured in various standalone indicators of the SDGs which each have their own indicator 
+  page.
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/3-8-1/">Indicateur 3.8.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/4-1-1/">Indicateur 4.1.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/6-2-1/">Indicateur 6.2.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/6-1-1/">Indicateur 6.1.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/7-1-1/">Indicateur 7.1.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/7-1-2/">Indicateur 7.1.2</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/9-1-1/">Indicateur 9.1.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/9-c-1/">Indicateur 9.c.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/11-2-1/">Indicateur 11.2.1</a>
+  <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/11-6-1/">Indicateur 11.6.1</a>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: <p>Éliminer la pauvreté sous toutes ses formes et partout dans
+SDG_GOAL__GLOBAL: <p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans
   le monde</p>
 SDG_TARGET__GLOBAL: '<p>Cible 1.4 : D''ici à 2030, faire en sorte que tous les hommes
   et les femmes, en particulier les pauvres et les personnes vulnérables, aient les
