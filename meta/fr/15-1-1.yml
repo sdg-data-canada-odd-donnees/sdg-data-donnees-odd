@@ -11,12 +11,12 @@ SDG_INDICATOR: '<p>Indicateur 15.1.1 : Surface des zones forestières, en propor
 STAT_CONC_DEF: |
   Surface forestière en proportion de la surface terrestre totale.
   <br>
-  <br>Selon la FAO, la forêt est définie comme: « des terres s’étendant sur plus de 0,5 hectare 
+  <br>Selon la FAO, <b>la forêt</b> est définie comme: « des terres s’étendant sur plus de 0,5 hectare 
   avec des arbres de plus de 5 mètres de haut et un couvert forestier de plus de 10 pour cent, 
   ou des arbres capables d’atteindre ces seuils in situ. Il n’inclut pas les terres qui sont 
   principalement utilisées à des fins agricoles ou urbaines.
   <br>
-  <br>La superficie terrestre est la superficie du pays, à l’exclusion de la superficie des eaux
+  <br><b>La superficie terrestre</b> est la superficie du pays, à l’exclusion de la superficie des eaux
   intérieures et des eaux côtières.
 DATA_COMP: |
   Superficie forestière (superficie de référence) / Superficie terrestre (année de référence) * 100
