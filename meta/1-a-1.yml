@@ -1,5 +1,6 @@
 SDG_GOAL: |
   Goal 1: End poverty in all its forms everywhere
+<<<<<<< HEAD
 SDG_TARGET: |
   Target 1.a: Ensure significant mobilization of resources from a variety
   of sources, including through enhanced development cooperation, in order to provide
@@ -9,6 +10,15 @@ SDG_INDICATOR: |
   Indicator 1.a.1: Total official development assistance
   (ODA) grants from all donors that focus on poverty reduction as a share of the recipient
   country's gross national income.
+=======
+SDG_TARGET: '<p>Target 1.a: Ensure significant mobilization of resources from a variety
+  of sources, including through enhanced development cooperation, in order to provide
+  adequate and predictable means for developing countries, in particular least developed
+  countries, to implement programmes and policies to end poverty in all its dimensions</p>'
+SDG_INDICATOR: '<p>Indicator 1.a.1: Total official development assistance (ODA)
+  grants from all donors that focus on poverty reduction as a share of the recipient
+  country''s gross national income</p>'
+>>>>>>> 3386c115e8fbfcfe2ca36b5ac6eb9a7fd4a28cff
 STAT_CONC_DEF: '<p>The OECD/Development Assistance Committee (DAC) defines ODA as
   &#x201C;flows to countries and territories on the DAC List of ODA Recipients and
   to multilateral institutions which are i) provided by official agencies, including
@@ -25,6 +35,7 @@ DATA_COMP: |
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: |
   Goal 1: End poverty in all its forms everywhere
+<<<<<<< HEAD
 SDG_TARGET__GLOBAL: |
   Target 1.a: Ensure significant mobilization of resources from a variety
   of sources, including through enhanced development cooperation, in order to provide
@@ -34,6 +45,16 @@ SDG_INDICATOR__GLOBAL: |
   Indicator 1.a.1: Total official development assistance
   (ODA) grants from all donors that focus on poverty reduction as a share of the recipient
   country's gross national income.
+=======
+SDG_TARGET__GLOBAL: '<p>Target 1.a: Ensure significant mobilization of resources from
+  a variety of sources, including through enhanced development cooperation, in order
+  to provide adequate and predictable means for developing countries, in particular
+  least developed countries, to implement programmes and policies to end poverty in
+  all its dimensions</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicator 1.a.1: Total official development assistance
+  (ODA) grants from all donors that focus on poverty reduction as a share of the recipient
+  country''s gross national income</p>'
+>>>>>>> 3386c115e8fbfcfe2ca36b5ac6eb9a7fd4a28cff
 un_designated_tier: Tier I
 un_custodian_agency: Organisation for Economic Co-operation and Development (OECD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-01.pdf
