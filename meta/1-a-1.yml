@@ -1,6 +1,7 @@
 SDG_GOAL: |
   Goal 1: End poverty in all its forms everywhere
 <<<<<<< HEAD
+<<<<<<< HEAD
 SDG_TARGET: |
   Target 1.a: Ensure significant mobilization of resources from a variety
   of sources, including through enhanced development cooperation, in order to provide
@@ -12,9 +13,13 @@ SDG_INDICATOR: |
   country's gross national income.
 =======
 SDG_TARGET: '<p>Target 1.a: Ensure significant mobilization of resources from a variety
+=======
+SDG_TARGET: |
+  Target 1.a: Ensure significant mobilization of resources from a variety
+>>>>>>> ca7b9a8b54565b8beed665a53ef65a6c8da2df5f
   of sources, including through enhanced development cooperation, in order to provide
   adequate and predictable means for developing countries, in particular least developed
-  countries, to implement programmes and policies to end poverty in all its dimensions</p>'
+  countries, to implement programmes and policies to end poverty in all its dimensions.
 SDG_INDICATOR: '<p>Indicator 1.a.1: Total official development assistance (ODA)
   grants from all donors that focus on poverty reduction as a share of the recipient
   country''s gross national income</p>'
