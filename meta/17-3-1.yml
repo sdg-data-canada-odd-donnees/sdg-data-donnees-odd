@@ -6,7 +6,8 @@ SDG_INDICATOR: '<p>Indicator 17.3.1: Foreign direct investments (FDI), official 
   assistance and South-South Cooperation as a proportion of gross national income
   (GNI)</p>'
 STAT_CONC_DEF: '<p>FDI part: FDI inflows (expressed in millions of US dollars)</p>'
-DATA_COMP: '   '
+DATA_COMP: '<p>Foreign Direct Investment as a proportion of Gross National Income (GNI) is 
+  calculated as (FDI/GNI) x 100.</p>'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the Global Partnership for Sustainable Development</p>'
@@ -21,3 +22,20 @@ un_custodian_agency: Organisation for Economic Co-operation and Development (OEC
   United Nations Conference on Trade and Development (UNCTAD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    International investment position, Canadian direct investment abroad and foreign direct investment in Canada, by country, annual (x 1,000,000)
+source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610000801&cubeTimeFrame.startYear=2015&cubeTimeFrame.endYear=2022&referencePeriods=20150101%2C20220101
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: |
+    Total flows by donor (ODA+OOF+Private) [DAC1]
+source_url_2: https://stats.oecd.org/Index.aspx?ThemeTreeId=3#
+source_organisation_2: OECD
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada

@@ -11,7 +11,7 @@ STAT_CONC_DEF: |
     Anaemia is defined as the prevalence of haemoglobin concentrations below 110 g/L for pregnant women and 120 g/L for non-pregnant women.b  4
 DATA_COMP: '   '
 REC_USE_LIM: |
-    Any results with implausible Haemoglobin levels (<25 or >200 g/L) were removed from the data.<br><br>Women who reported their pregnancy status as "don't know" were removed from the analysis.<br><br>Women who were pregnant but did not know how many weeks pregnant they were, were removed from the analysis.
+    Data for the population group "Pregnant women only" were too unreliable to be published.<br><br>Any results with implausible Haemoglobin levels (<25 or >200 g/L) were removed from the data.<br><br>Women who reported their pregnancy status as "don't know" were removed from the analysis.<br><br>Women who were pregnant but did not know how many weeks pregnant they were, were removed from the analysis.
 COVERAGE: Canada
 
 # GLOBAL
@@ -30,7 +30,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF)
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: Canadian Health Measures Survey (CHMS) - Custom tabulation.
-source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5071
-source_organisation_1: Statistics Canada
-source_periodicity_1: Every 2 years
+source_url_text_1: Prevalence of anaemia in women of reproductive age (aged 15-49) (%)
+source_url_1: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-anaemia-in-women-of-reproductive-age-(-)
+source_organisation_1: WHO
+source_periodicity_1: Every year

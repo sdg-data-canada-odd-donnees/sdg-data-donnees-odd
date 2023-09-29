@@ -11,15 +11,17 @@ STAT_CONC_DEF: |
   500 mètres d'un point de référence le long du réseau routier.
 DATA_COMP: |
   La méthode utilisée pour estimer le pourcentage de Canadiens vivant à moins de 500 mètres d'un point d'accès au transport en commun était 
-  la suivante : 1. Les emplacements des arrêts de transports en commun de toutes sortes (bus, tramway, métro de surface ou souterrain) ont 
+  la suivante : 
+  <br>1. Les emplacements des arrêts de transports en commun de toutes sortes (bus, tramway, métro de surface ou souterrain) ont 
   été obtenus à partir des sites Web des villes ou des autorités locales de transport. Une couverture complète des données a été atteinte 
   pour les municipalités constituant les 41 régions métropolitaines de recensement (RMR). D'autres municipalités au sein de certaines 
-  agglomération de recensement (AR) ont été incluses lorsque les données étaient disponibles. 2. Les emplacements des arrêts de transport 
+  agglomération de recensement (AR) ont été incluses lorsque les données étaient disponibles. 
+  <br>2. Les emplacements des arrêts de transport 
   en commun ont été intégrés aux données sur les chiffres de population du Recensement de 2021 de Statistique Canada au niveau géographique 
   des côtés d'îlot. La proportion de la population située dans une zone de service située à 500 mètres de distance à pied (par exemple, 
   un accès pratique) des arrêts de transport en commun a été calculée à l'aide du réseau routier national. Sur la base de ces estimations, 
-  la population ayant un accès pratique aux transports en commun a été estimée pour chaque municipalité à l'intérieur des RMR et AR. 3. 
-  Dans la dernière étape, la population totale ayant un accès pratique aux transports en commun a été divisée par la population totale de 
+  la population ayant un accès pratique aux transports en commun a été estimée pour chaque municipalité à l'intérieur des RMR et AR. 
+  <br>3. Dans la dernière étape, la population totale ayant un accès pratique aux transports en commun a été divisée par la population totale de 
   l'ensemble de la RMR pour produire l'indicateur 11.2.1, conformément aux directives des objectifs de développement durable des Nations 
   Unies.
 REC_USE_LIM: |

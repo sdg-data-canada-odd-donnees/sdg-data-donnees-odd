@@ -146,6 +146,30 @@ Asset resilient for at least one month: Asset resilient for at least one month
 Asset resilient for at least three months: Asset resilient for at least three months
 Asset resilient for at least six months: Asset resilient for at least six months
 
+## 1-4-1
+Basic services: Basic services
+Access to basic drinking water services: Access to basic drinking water services
+Proportion of population using basic drinking water services: Proportion of population using basic drinking water services
+Access to basic sanitation services: Access to basic sanitation services
+Proportion of population using basic sanitation services: Proportion of population using basic sanitation services
+Access to clean fuels and technology: Access to clean fuels and technology
+Proportion of population with primary reliance on clean fuels and technology: Proportion of population with primary reliance on clean fuels and technology
+Access to basic mobility: Access to basic mobility
+Proportion of the rural population who live within 2 km of an all-season road: Proportion of the rural population who live within 2 km of an all-season road
+Proportion of population within 500 metres of a public transit stop: Proportion of population within 500 metres of a public transit stop
+Proportion of children in Grade 4 achieving at least a minimum proficiency level in mathematics: Proportion of children in Grade 4 achieving at least a minimum proficiency level in mathematics
+Proportion of children in Grade 4 achieving at least a minimum proficiency level in reading: Proportion of children in Grade 4 achieving at least a minimum proficiency level in reading
+Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading
+Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
+Access to basic information services: Access to basic information services
+Proportion of population covered by Evolved High-Speed Packet Access (HSPA+): Proportion of population covered by Evolved High-Speed Packet Access (HSPA+)
+Proportion of population covered by Long-Term Evolution (LTE): Proportion of population covered by Long-Term Evolution (LTE)
+Proportion of population covered by Long-Term Evolution - A (LTE-A): Proportion of population covered by Long-Term Evolution - A (LTE-A)
+Proportion of population covered by 5G: Proportion of population covered by 5G
+Proportion of population with access to electricity: Proportion of population with access to electricity
+Access to Basic Health Care Services: Access to Basic Health Care Services
+Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning satisfied with modern methods: Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning satisfied with modern methods
+
 ## 1-4-2
 Total: Total
 Urban: Urban
@@ -185,9 +209,9 @@ Province or territory: Province or territory
 ## 1-a-1
 Basic education: Basic education
 Basic health: Basic health
-Water supply and sanitation: Water supply and sanitation 
+Water supply and sanitation: Water supply and sanitation
 Multisector aid for basic social services: Multisector aid for basic social services
-Development food aid: Development food aid 
+Development food aid: Development food aid
 Poverty reduction aid type: Poverty reduction aid type
 
 ## 1-3-1
@@ -306,6 +330,9 @@ Population group: Population group
 Women of reproductive age: Women of reproductive age
 Non-pregnant women only: Non-pregnant women only
 Pregnant women only: Pregnant women only
+Severe: Severe
+Moderate: Moderate
+Mild: Mild
 
 ## 2-4-1
 Farm output value per hectare: Farm output value per hectare
@@ -333,6 +360,9 @@ Per 100,000 live births: Per 100,000 live births
 Per 1,000 live births: Per 1,000 live births
 
 ## 3-3-1
+Rate per 1,000 uninfected population: Rate per 1,000 uninfected population
+All ages: All ages
+Adults (15-49): Adults (15-49)
 Grade: Grade
 All grades: All grades
 Grades 7-9: Grades 7-9
@@ -403,6 +433,11 @@ Transport accidents: Transport accidents
 Motor vehicle accidents: Motor vehicle accidents
 Other land transport accidents: Other land transport accidents
 Per 100,000 population: Per 100,000 population
+
+## 3-7-1
+Marital status: Marital status
+Married or in a union: Married or in a union
+Unmarried: Unmarried
 
 ## 3-7-2
 Per 1000 females (15-19 years): Per 1000 females (15-19 years)
@@ -504,10 +539,10 @@ All age groups: All age groups
   15-19 years-old
 20-24 years-old: |
   20-24 years-old
-25+: 25+ years-old
-25-44: |
+25+ years-old: 25+ years-old
+25-44 years-old: |
   25-44 years-old
-45+: 45+ years-old
+45+ years-old: 45+ years-old
 Tobacco Product: Tobacco Product
 Cigarettes: Cigarettes
 Cigars: Cigars
@@ -559,12 +594,12 @@ Medical radiation technologists: Medical radiation technologists
 Midwives: Midwives
 Occupational therapists: Occupational therapists
 Opticians: Opticians
-Optometrists: Optometrists 
+Optometrists: Optometrists
 Paramedics: Paramedics
 Pharmacists: Pharmacists
 Pharmacy technicians: Pharmacy technicians
 Physician assistants: Physician assistants
-Physicians: Physicians 
+Physicians: Physicians
 Family medicine: Family medicine
 Specialists: Specialists
 Physiotherapists: Physiotherapists
@@ -649,7 +684,7 @@ Shared files using an online data storage space: Shared files using an online da
 Connected a new device to a Wi-Fi network: Connected a new device to a Wi-Fi network 
 Used the Internet to transfer photos or videos from one device to another: Used the Internet to transfer photos or videos from one device to another 
 Used your smartphone as a GPS device for directions: Used your smartphone as a GPS device for directions 
-Connected a new device via Bluetooth: Connected a new device via Bluetooth  
+Connected a new device via Bluetooth: Connected a new device via Bluetooth
 Total, Internet users aged 15 years and over: Total, Internet users aged 15 years and over
 Internet users aged 15 to 24 years: Internet users aged 15 to 24 years
 Internet users aged 25 to 44 years: Internet users aged 25 to 44 years
@@ -1053,7 +1088,11 @@ Ownership demographics: Ownership demographics
 Women: Women
 Indigenous: Indigenous
 Person(s) with a disability: Person(s) with a disability
-
+Overall approval rate, line of credit: Overall approval rate, line of credit
+Overall approval rate, term loan: Overall approval rate, term loan
+Request rate, line of credit: Request rate, line of credit
+Request rate, term loan: Request rate, term loan
+Small and medium enterprises: Small and medium enterprises
 
 ## 9-4-1
 Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP: Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP
@@ -1318,6 +1357,9 @@ Sources of materials prepared for recycling: Sources of materials prepared for r
 All sources of diverted materials: All sources of diverted materials
 Residential sources of diverted materials: Residential sources of diverted materials
 Non-residential sources of diverted materials: Non-residential sources of diverted materials
+
+## 12-4-2
+Household hazardous waste: Household hazardous waste
 
 ## 12-5-1
 Type of materials diverted: Type of materials diverted
@@ -1620,3 +1662,14 @@ Other revenue: Other revenue
 ## 17-2-1
 ODA as a share of GNI: ODA as a share of GNI
 Total ODA to least developed countries as a share of GNI: Total ODA to least developed countries as a share of GNI
+
+## 17-3-1
+Official Development Assistance (ODA): Official Development Assistance (ODA)
+Foreign Direct Investment (FDI) inflow: Foreign Direct Investment (FDI) inflow
+
+## 17-5-1
+Total value of the supported investment projects : Total value of the supported investment projects 
+Number of projects: Number of projects
+Millions $ CAD: Millions $ CAD
+Number: Number
+Total value of the supported investment projects: Total value of the supported investment projects

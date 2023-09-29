@@ -18,7 +18,17 @@ embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations: []
-graph_annotations: []
+graph_annotations: 
+- field: Series
+  value: ODA as a share of GNI
+  unit: Percentage
+  value: 0.7
+  preset: target_line
+- field: Series
+  value: Total ODA to least developed countries as a share of GNI
+  unit: Percentage
+  value: 0.2
+  preset: target_line
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.17-2-1-title

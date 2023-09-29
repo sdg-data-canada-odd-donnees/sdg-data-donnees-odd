@@ -7,8 +7,16 @@ SDG_TARGET: '<p>Cible 15.5 : Prendre d’urgence des mesures énergiques pour r�
   et, d’ici à 2020, protéger les espèces menacées et prévenir leur extinction</p>'
 SDG_INDICATOR: '<p>Indicateur 15.5.1 : Indice de la Liste rouge</p>'
 STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+DATA_COMP: |
+  Le calcul est basé sur la variation proportionnelle de la population des 
+  espèces de vertébrés surveillées. Toutes les espèces sont pondérées de manière égale, de
+  sorte qu'une espèce dont la population a doublé sera contrebalancée par une espèce qui a 
+  diminué de moitié. Un déclin à long terme par rapport au niveau de référence de 1970 semble 
+  être continu. Toutefois, des fluctuations à court terme ne devraient pas être interprétées 
+  comme une forte indication de récent changement environnemental.
+REC_USE_LIM: |
+  Il s'agit d'un indicateur de substitution. L'indicateur mondial des Nations 
+  Unies porte sur l' « Indice de la Liste roug ».
 SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
@@ -33,4 +41,4 @@ source_geographical_coverage_1: Canada
 COVERAGE: Canada
 UNIT_OF_MEASURE: Percentage change from 1970 baseline
 
-
+proxy: proxy

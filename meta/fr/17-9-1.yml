@@ -22,10 +22,19 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.9.1 : Valeur en dollars de l’aide fin
   et technique promise aux pays en développement (notamment dans le cadre de la coopération
   Nord-Sud et Sud-Sud et de la coopération triangulaire)</p>'
 
-reporting_status: notstarted
+reporting_status: complete
 
 un_designated_tier: Niveau I
 un_custodian_agency: L’Organisation de coopération et de développement économiques (OCDE), Programme 
   des Nations Unies pour l'environnement (PNUE), Banque mondiale 
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-09-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    OCDE Statistiques
+source_url_1: https://stats.oecd.org/?lang=fr&SubSessionId=368e563f-b9c2-48d3-97ed-0ebd17019f8b&themetreeid=-200
+source_organisation_1: OCDE
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada

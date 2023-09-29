@@ -16,10 +16,27 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.3.1 : Investissements étrangers direct
   publique au développement et coopération Sud-Sud, en proportion du revenu national
   brut</p>'
 
-reporting_status: notstarted
+reporting_status: complete
 
 un_designated_tier: Niveau I (FDI)/Niveau II (ODA, SSC)
 un_custodian_agency: L’Organisation de coopération et de développement économiques (OCDE),
   Conférence des Nations Unies sur le commerce et le développement (CNUCED)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Bilan des investissements internationaux, investissements directs canadiens à l'étranger et investissements directs étrangers au Canada, par pays, annuel (x 1 000 000)
+source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=3610000801&cubeTimeFrame.startYear=2015&cubeTimeFrame.endYear=2022&referencePeriods=20150101%2C20220101&request_locale=fr
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: |
+    Flux totaux par donneur (APD+AASP+privé) [CAD1] 
+source_url_2: https://stats.oecd.org/Index.aspx?lang=fr&SubSessionId=aa2dae0c-feea-41fa-8c77-2df459f128c5&themetreeid=3
+source_organisation_2: OCDE
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada

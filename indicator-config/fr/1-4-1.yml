@@ -1,0 +1,75 @@
+computation_units: 'Pourcentage'
+copyright: ''
+data_footnote: ''
+data_non_statistical: false
+#data_notice_class: success
+#data_notice_heading: Explorer les sources de données
+#data_notice_text: |
+#  <br>Statistique Canada n'a pas encore trouvé de sources de données appropriées pour rendre compte de cet indicateur. 
+#  <br>N'hésitez pas à <a href="mailto:statcan.sdg-odd.statcan@statcan.gc.ca">communiquer avec nous</a> pour nous faire part de vos suggestions.
+data_show_map: false
+data_start_values:
+- field: Series
+  value: Access to basic drinking water services
+- field: Basic services
+  value: Proportion of population using basic drinking water services
+- field: Series
+  value: Access to basic sanitation services
+- field: Basic services
+  value: Proportion of population using basic sanitation services
+- field: Series
+  value: Access to clean fuels and technology
+- field: Basic services
+  value: Proportion of population with access to electricity
+- field: Series
+  value: Access to basic mobility
+- field: Basic services
+  value: Proportion of population within 500 metres of a public transit stop
+- field: Series
+  value: Access to basic education
+- field: Basic services
+  value: Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
+- field: Sex
+  value: Total
+- field: Series
+  value: Access to basic information services
+- field: Basic services
+  value: Proportion of population covered by Evolved High-Speed Packet Access (HSPA+)
+- field: Series
+  value: Access to Basic Health Care Services
+- field: Basic services
+  value: Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning satisfied with modern methods
+- field: Series
+  value: Access to clean fuels and technology
+- field: Basic services
+  value: Proportion of individuals who own a mobile telephone
+embedded_feature_footer: ''
+embedded_feature_html: ''
+embedded_feature_tab_title: ''
+embedded_feature_title: ''
+embedded_feature_url: ''
+expected_disaggregations: []
+graph_annotations: []
+graph_limits: []
+graph_stacked_disaggregation: ''
+graph_title: global_indicators.1-4-1-title
+graph_titles: []
+graph_type: line
+indicator_name: global_indicators.1-4-1-title
+indicator_number: 1.4.1
+national_geographical_coverage: ' '
+page_content: ''
+#page_content: |
+#  <strong>Explorer les sources de données</strong>
+#  <br>
+#  <br>Statistique Canada n'a pas encore trouvé de sources de données appropriées pour rendre compte de cet indicateur. 
+#  <br>N'hésitez pas à <a href="mailto:statcan.sdg-odd.statcan@statcan.gc.ca">nous faire part</a> de vos suggestions.
+permalink: ''
+precision: []
+progress_calculation_options:
+- direction: positive
+reporting_status: complete
+sort: ''
+standalone: false
+tags: []
+"\xEF\xBB\xBFcomposite_breakdown_label": ''

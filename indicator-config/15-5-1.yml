@@ -24,7 +24,7 @@ graph_title: Canadian species index, percentage change, 1970 to 2016
 graph_titles: []
 graph_type: line
 indicator_available: ''
-indicator_name: global_indicators.15-5-1-title
+indicator_name: Canadian species index
 indicator_number: 15.5.1
 national_geographical_coverage: Canada
 page_content: ''
@@ -37,5 +37,6 @@ progress_status: substantial_progress
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+- Proxy
 "\xEF\xBB\xBFcomposite_breakdown_label": ''

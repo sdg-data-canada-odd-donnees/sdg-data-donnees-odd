@@ -217,6 +217,31 @@ Proportion of older persons receiving a pension: |
 Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits: |
     Pourcentage de mères d'enfants de 12 mois ou moins qui ont reçu des prestations de maternité ou parentales
 
+## 1-4-1
+Basic services: Services de base
+Access to basic drinking water services: Accès aux services d’eau potable de base
+Proportion of population using basic drinking water services: Proportion de la population utilisant les services d’eau potable de base
+Access to basic sanitation services: Accès aux services d’assainissement de base
+Proportion of population using basic sanitation services: Proportion de la population utilisant les services d’assainissement de base
+Access to clean fuels and technology: Accès à des carburants et technologies propres
+Proportion of population with primary reliance on clean fuels and technology: Proportion de la population qui dépend principalement des combustibles et des technologies propres
+Access to basic mobility: Accès à la mobilité de base
+Proportion of the rural population who live within 2 km of an all-season road: Proportion de la population rurale vivant à moins de 2 km d’une route praticable toute l’année
+Proportion of population within 500 metres of a public transit stop: Proportion de la population située dans un rayon de 500 mètres d’un arrêt de transport en commun
+Proportion of children in Grade 4 achieving at least a minimum proficiency level in mathematics: Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques
+Proportion of children in Grade 4 achieving at least a minimum proficiency level in reading: Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture
+Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture
+Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en mathématiques
+Access to basic information services: Accès aux services d’information de base
+Proportion of population covered by Evolved High-Speed Packet Access (HSPA+): Proportion de la population couverte par l’accès haute vitesse évolué par paquets (HSPA+)
+Proportion of population covered by Long-Term Evolution (LTE): Proportion de la population couverte par l’évolution à long terme (LTE)
+Proportion of population covered by Long-Term Evolution - A (LTE-A): Proportion de la population couverte par l’évolution à long terme - A (LTE-A)
+Proportion of population covered by 5G: Proportion de la population couverte par la 5G
+Proportion of population with access to electricity: Proportion de la population ayant accès à l’électricité
+Access to Basic Health Care Services: Accès aux services de soins de santé de base
+Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning satisfied with modern methods: Proportion de femmes en âge de procréer (15 à 49 ans) qui utilisent des méthodes modernes de planification familiale
+
+
 ## 1-4-2
 Total: Total
 Urban: Urbain
@@ -368,6 +393,9 @@ Population group: Groupe de population
 Women of reproductive age: Femmes en âge de procréer
 Non-pregnant women only: Femmes non enceintes
 Pregnant women only: Femmes enceintes
+Severe: Sévère
+Moderate: Modéré
+Mild: Doux
 
 ## 2-3-1
 Small-scale food producers: Petits producteurs alimentaires
@@ -449,6 +477,9 @@ Post-neonatal, age at time of death, 11 months: Post-néonatal, âge au décès,
 
 
 ## 3-3-1
+Rate per 1,000 uninfected population: Taux pour 1 000 habitants non infectés
+All ages: Tous les âges
+Adults (15-49): Adultes (15-49) 
 Measures: Mesures
 Overweight: Embonpoint
 Obese: Obèse
@@ -522,6 +553,11 @@ Transport accidents: Accidents de transport
 Motor vehicle accidents: Accidents de véhicule à moteur
 Other land transport accidents: Autres accidents de transport terrestre
 Per 100,000 population: Pour 100 000 habitants
+
+## 3-7-1
+Marital status: Situation de famille
+Married or in a union: Marié ou en union
+Unmarried: Célibataire
 
 ## 3-7-2
 Per 1000 females (15-19 years): Pour 1000 femmes (15-19 ans)
@@ -621,11 +657,14 @@ Female: Femme
 Male: Homme
 Age Group: Groupe d’âge
 All age groups: Tous les groupes d’âge
-15-19: 15 à 19 ans
-20-24: 20 à 24 ans
-25+: 25+ ans
-25-44: 25 à 44 ans
-45+: 45+ ans
+15-19 years-old: |
+  15-19 ans
+20-24 years-old: |
+  20-24 ans
+25+ years-old: 25+ ans
+25-44 years-old: |
+  25-44 ans
+45+ years-old: 45+ ans
 Tobacco Product: Produits du tabac
 Cigarettes: Cigarettes
 Cigars: Cigares
@@ -1338,7 +1377,11 @@ Ownership demographics: |
 Women: Femmes
 Indigenous: Autochtone
 Person(s) with a disability: Personnes ayant une incapacité
-
+Overall approval rate, line of credit: Taux général d’approbation, marge de crédit
+Overall approval rate, term loan: Taux général d’approbation, prêt à terme
+Request rate, line of credit: Taux de demande, marge de crédit
+Request rate, term loan: Taux de demande, prêt à terme
+Small and medium enterprises: Petites et moyennes entreprises
 
 ## 9-4-1
 Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP: Mégatonnes d'équivalent en dioxyde de carbone (Mt éq. CO2) par milliard de dollars du PIB
@@ -1668,7 +1711,7 @@ Sold textiles: "Vendus les textiles"
 Still had textiles at the time of interview: "Avait encore des textiles lors de l'entrevue"
 Did something else with textiles: "Autres destinations pour les textiles"
 Donated or gave leftover paint or solvents away: "Offerts des restes de peinture ou solvants gratuitement ou données"
-
+Household hazardous waste: Déchets ménagers dangereux
 
 ## 12-5-1
 Type of materials diverted: Type de matières récupérées
@@ -1831,9 +1874,9 @@ Proportion of forest area located within legally established protected areas (Pe
 Proportion of forest area under a long term forest management plan: Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme
 Proportion of forest area under a long term forest management plan (Percentage): Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme (Pourcentage)
 Forest area under an independently verified forest management certification scheme: |
-  Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante
+    Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante
 Forest area under an independently verified forest management certification scheme (Hectares): |
-  Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante (Hectares)
+    Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante (Hectares)
 
 ## 15-3-1
 National terrestrial: National terrestrial
@@ -1998,6 +2041,18 @@ America: Amerique
 Europe: Europe
 Middle East: Moyen-Orient
 Oceania: Océanie
+
+## 17-3-1
+## 17-3-1
+Official Development Assistance (ODA): Aide publique au développement (APD)
+Foreign Direct Investment (FDI) inflow: Entrées d’investissement étranger direct (IDE)
+
+## 17-5-1
+Total value of the supported investment projects : Valeur totale des projets d’investissement soutenus 
+Number of projects: Nombre de projets
+Millions $ CAD: Millions $ CAD
+Number: Nombre
+Total value of the supported investment projects: Valeur totale des projets d’investissement soutenus
 
 ## 17-6-1
 Population centres: Centres de population

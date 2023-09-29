@@ -7,7 +7,22 @@ SDG_TARGET: '<p>Target 2.4: By 2030, ensure sustainable food production systems 
   improve land and soil quality</p>'
 SDG_INDICATOR: '<p>Indicator 2.4.1: Proportion of agricultural area under productive
   and sustainable agriculture</p>'
-STAT_CONC_DEF: 'Farm output value per hectare includes both crops and livestock. Land productivity is a measure of agricultural value of outputs obtained on a given area of land. Maintaining or improving the output over time relative to the area of land used is an important aspect in sustainability for a range of reasons. At farm level, the land productivity reflects technology and production processes for given agro-ecological conditions. In a broader sense, an increase in the level of land productivity enables higher production while reducing pressure on increasingly scarce land resources, commonly linked to deforestation and associated losses of ecosystem services and biodiversity. Risk mitigation mechanisms measures whether the farm has the mitigation measures to cope with external shocks: 1. access to or availed credit, 2. access to or availed insurance, 3. on farm diversification (share of a single agricultural commodity not greater than 60% in the total value of production of the holding.'
+STAT_CONC_DEF: |
+  Farm output value per hectare includes both crops and livestock. Land productivity is 
+  a measure of agricultural value of outputs obtained on a given area of land. Maintaining 
+  or improving the output over time relative to the area of land used is an important aspect 
+  in sustainability for a range of reasons. At farm level, the land productivity reflects 
+  technology and production processes for given agro-ecological conditions. In a broader 
+  sense, an increase in the level of land productivity enables higher production while 
+  reducing pressure on increasingly scarce land resources, commonly linked to deforestation 
+  and associated losses of ecosystem services and biodiversity. 
+  <br>
+  <br>Risk mitigation mechanisms measures whether the farm has the mitigation measures to 
+  cope with external shocks: 
+  <br>1. access to or availed credit 
+  <br>2. access to or availed insurance
+  <br>3. on farm diversification (share of a single agricultural commodity not greater than 
+  60% in the total value of production of the holding.
 DATA_COMP: '   '
 REC_USE_LIM:
 REC_USE_LIM: |

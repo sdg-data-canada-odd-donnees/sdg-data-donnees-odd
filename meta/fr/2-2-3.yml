@@ -12,7 +12,7 @@ STAT_CONC_DEF: |
     L'anémie est définie comme la prévalence des concentrations d'hémoglobine inférieures à 110 g / L pour les femmes enceintes et 120 g / L pour les femmes non enceintes.
 DATA_COMP: '   '
 REC_USE_LIM: |
-    Tous les résultats avec des taux d'hémoglobine invraisemblables (<25 ou >200 g / L) ont été supprimés des données.<br><br>Les femmes qui ont déclaré leur état de grossesse comme « ne sait pas » ont été exclues de l'analyse.<br><br>Les femmes qui étaient enceintes mais ne savaient pas combien de semaines elles étaient enceintes ont été exclues de l'analyse.
+    Les données pour le groupe de population « Femmes enceintes » étaient trop peu fiables pour être publiées.<br><br>Tous les résultats avec des taux d'hémoglobine invraisemblables (<25 ou >200 g / L) ont été supprimés des données.<br><br>Les femmes qui ont déclaré leur état de grossesse comme « ne sait pas » ont été exclues de l'analyse.<br><br>Les femmes qui étaient enceintes mais ne savaient pas combien de semaines elles étaient enceintes ont été exclues de l'analyse.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
@@ -28,10 +28,17 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.2.3 : Prévalence de l’anémie chez le
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: |
-    Enquête canadienne sur les mesures de la santé (ECMS) - Totalisation personnalisée.
-source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=5071
-source_organisation_1: Statistique Canada
-source_periodicity_1: Aux 2 ans
+    Prévalence de l’anémie chez les femmes en âge de procréer (15-49 ans) (%)
+source_url_1: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-anaemia-in-women-of-reproductive-age-(-)
+source_organisation_1: Organisation mondiale de la Santé
+source_periodicity_1: Annuelle
+
+#source_active_1: 'true'
+#source_url_text_1: |
+#    Enquête canadienne sur les mesures de la santé (ECMS) - Totalisation personnalisée.
+#source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=5071
+#source_organisation_1: Statistique Canada
+#source_periodicity_1: Aux 2 ans
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation Mondiale de la Santé (OMS)
