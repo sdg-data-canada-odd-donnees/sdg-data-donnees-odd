@@ -6,7 +6,9 @@ SDG_TARGET: |
 SDG_INDICATOR: '<p>Indicator 1.5.3: Number of countries that adopt and implement national
   disaster risk reduction strategies in line with the Sendai Framework for Disaster
   Risk Reduction 2015–2030</p>'
-STAT_CONC_DEF: '    '
+STAT_CONC_DEF: 'This indicator measures the number of countries that adopt and implement national
+  disaster risk reduction strategies in line with the Sendai Framework for Disaster
+  Risk Reduction 2015–2030'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
@@ -22,4 +24,9 @@ un_custodian_agency: United Nations International Strategy for Disaster Reductio
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 217
   KB)
+source_active_1: 'true'
+source_url_text_1: |
+    Public Safety Canada. Emergency Management Strategy for Canada: Toward a Resilient 2030
+source_url_1: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
+source_organisation_1: Public Safety Canada
 proxy: proxy

@@ -4,7 +4,10 @@ SDG_TARGET: '<p>Target 5.c: Adopt and strengthen sound policies and enforceable 
   at all levels</p>'
 SDG_INDICATOR: '<p>Indicator 5.c.1: Percentage of countries with systems to track
   and make public allocations for gender equality and women&#x2019;s empowerment</p>'
-STAT_CONC_DEF: '  '
+STAT_CONC_DEF: 'Sustainable Development Goal (SDG) Indicator 5.c.1 seeks to measure government efforts to track 
+budget allocations for gender equality throughout the public finance management cycle and to make 
+these publicly available. This is an indicator of the characteristics of the fiscal system. It is not an indicator 
+of the quantity or quality of finance allocated for gender equality and women’s empowerment (GEWE).'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
@@ -21,3 +24,10 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 
   MB)
 
 reporting_status: complete
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: The Government of Canada's Gender Results Framework
+source_url_1: https://women-gender-equality.canada.ca/en/gender-results-framework.html
+source_organisation_1: Government of Canada
+source_geographical_coverage_1: Canada

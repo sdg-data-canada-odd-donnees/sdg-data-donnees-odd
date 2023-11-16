@@ -1,7 +1,14 @@
 SDG_GOAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
 SDG_TARGET: '<p>Target 5.b: Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women</p>'
 SDG_INDICATOR: '<p>Indicator 5.b.1: Proportion of individuals who own a mobile telephone, by sex</p>'
-STAT_CONC_DEF: '    '
+STAT_CONC_DEF: '<strong><p>Definition:</p></strong> <p>This indicator measures the proportion of individuals who own a mobile telephone, by sex.</p> <strong><p>Concepts:</p></strong> <p>An individual owns a mobile cellular phone if he/she has a mobile cellular phone device with at least one 
+active SIM card for personal use. Mobile cellular phones supplied by employers that can be used for 
+personal reasons (to make personal calls, access the Internet, etc.) are included. Individuals who have only 
+active SIM card(s) and not a mobile phone device are excluded. Individuals who have a mobile phone for 
+personal use that is not registered under his/her name are also included. An active SIM card is a SIM card 
+that has been used in the last three months.</p> <p>A mobile (cellular) telephone refers to a portable telephone subscribing to a public mobile telephone 
+service using cellular technology, which provides access to the Public Switched Telephone Network (PSTN). 
+This includes analogue and digital cellular systems and technologies such as IMT-2000 (3G) and IMT-Advanced. Users of both postpaid subscriptions and prepaid accounts are included.</p>'
 DATA_COMP: '   '
 REC_USE_LIM: 'Starting with the 2017 reference year, the Survey of Household Spending is conducted every two years.'
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
