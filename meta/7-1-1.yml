@@ -2,7 +2,11 @@
 SDG_GOAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all</p>'
 SDG_TARGET: '<p>Target 7.1: By 2030, ensure universal access to affordable, reliable and modern energy services</p>'
 SDG_INDICATOR: '<p>Indicator 7.1.1: Proportion of population with access to electricity</p>'
-STAT_CONC_DEF: ' '
+STAT_CONC_DEF: '<p>Proportion of population with access to electricity is the percentage of population with access to 
+electricity.</p> <p>SDG7 ensures access to affordable, reliable, sustainable and modern energy for all. Specifically, Indicator 
+7.1.1 refers to the proportion of population with access to electricity. This is expressed in percentage 
+figures and is disaggregated by total, urban and rural access rates per country, as well as by UN regional 
+and global classifications. </p>'
 DATA_COMP: '   '
 REC_USE_LIM: |
   Countries classified as “High Income” based on the World Bank Country and Lending Groups are assumed to reach universal 
