@@ -6,7 +6,7 @@ SDG_TARGET: '<p>Target 11.7: By 2030, provide universal access to safe, inclusiv
 SDG_INDICATOR: '<p>Indicator 11.7.2: Proportion of persons victim of physical or
   sexual harassment, by sex, age, disability status and place of occurrence, in the
   previous 12 months</p>'
-STAT_CONC_DEF: <p></p>
+STAT_CONC_DEF: Number of persons who have been victims of physical harassment and/or sexual harassment, as a percentage of the total population of the relevant area. 
 DATA_COMP: '   '
 REC_USE_LIM: >-
     <p>Percent calculation for Unwanted or inapproproate behaviour online excludes those who said they did not use the internet in the 12 months preceding the survey.
@@ -25,6 +25,8 @@ un_designated_tier: Tier II
 un_custodian_agency: United Nations Office on Drugs and Crime (UNODC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-07-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 245 KB)
+
+COVERAGE: Canada
 
 source_active_1: 'true'
 source_url_text_1: 'Statistics Canada. Gender-based violence and unwanted sexual behaviour in Canada, 2018: Initial findings from the Survey of Safety in Public and Private Spaces'

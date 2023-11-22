@@ -8,6 +8,9 @@ SDG_TARGET: '<p>Target 9.5: Enhance scientific research, upgrade the technologic
 SDG_INDICATOR: '<p>Indicator 9.5.1: Research and development expenditure as a proportion
   of GDP</p>'
 UNIT_OF_MEASURE: Proportion of GDP (%)
+STAT_CONC_DEF: Research and experimental development (R&D) expenditure as a proportion of Gross Domestic Product 
+(GDP) is the amount of Research and experimental development (R&D) expenditure divided by the total 
+output of the economy.
 DATA_COMP: >-
     ((Performer: Total, all sectors) / (Gross domestic product at market prices)) * 100
 REC_USE_LIM: '   '

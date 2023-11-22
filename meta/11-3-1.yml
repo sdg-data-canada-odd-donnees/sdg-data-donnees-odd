@@ -7,7 +7,7 @@ SDG_INDICATOR: '<p>Indicator 11.3.1: Ratio of land consumption rate to populatio
   growth rate</p>'
 STAT_CONC_DEF: '<p>The indicator is defined as the ratio of land consumption rate to
   population growth rate.</p>'
-DATA_COMP: ''
+DATA_COMP: '    '
 REC_USE_LIM: '<p> This study combines data from the 1971, 1991, 2001 and 2011 Census of Population
   with special data sets providing information on land cover and land use, in order to analyze the
   evoluation of built-up areas around Census metropolitan areas (CMAs).
@@ -25,6 +25,8 @@ un_custodian_agency: United Nations Human Settlements Programme (UN-Habitat)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 245
   KB)
+
+COVERAGE: Canada, Census metropolitan area
 
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Custom Tabulation.

@@ -4,8 +4,8 @@ SDG_TARGET: '<p>Target 1.5: By 2030, build the resilience of the poor and those 
   events and other economic, social and environmental shocks and disasters</p>'
 SDG_INDICATOR: '<p>Indicator 1.5.2: Direct economic loss attributed to disasters in
   relation to global gross domestic product (GDP)</p>'
-STAT_CONC_DEF: '<strong><p>Definition:</p></strong> <p>This indicator measures the ratio of direct economic loss attributed to disasters in relation to GDP.</p> <strong><p>Concepts:</p></strong> <p>Economic Loss: Total economic impact that consists of direct economic loss and indirect economic loss.</p> <p>Direct economic loss: the monetary value of total or partial destruction of physical assets existing in 
-the affected area. Direct economic loss is nearly equivalent to physical damage.</p> <p>Indirect economic loss: a decline in economic value added as a consequence of direct economic loss and/or human and environmental impacts.</p>'
+STAT_CONC_DEF: '<strong>Definition:</strong><br> This indicator measures the ratio of direct economic loss attributed to disasters in relation to GDP. <br><br> <strong>Concepts:</strong> <br>Economic Loss: Total economic impact that consists of direct economic loss and indirect economic loss.<br><br> Direct economic loss: the monetary value of total or partial destruction of physical assets existing in 
+the affected area. Direct economic loss is nearly equivalent to physical damage.<br><br> Indirect economic loss: a decline in economic value added as a consequence of direct economic loss and/or human and environmental impacts.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
@@ -20,12 +20,14 @@ un_custodian_agency: United Nations International Strategy for Disaster Reductio
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 65.8
   KB)
+COVERAGE: Canada
 
 source_active_1: 'true'
 source_url_text_1: |
     Public Safety Canada. Emergency Management Strategy for Canada: Toward a Resilient 2030
 source_url_1: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
 source_organisation_1: Public Safety Canada
+source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: Statistics Canada. Table 36-10-0222-01  Gross domestic product,

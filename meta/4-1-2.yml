@@ -1,28 +1,30 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promote
-  lifelong learning opportunities for all</p>'
-SDG_TARGET: '<p>Target 4.1: By 2030, ensure that all girls and boys complete free,
+SDG_GOAL: 'Goal 4: Ensure inclusive and equitable quality education and promote
+  lifelong learning opportunities for all'
+SDG_TARGET: 'Target 4.1: By 2030, ensure that all girls and boys complete free,
   equitable and quality primary and secondary education leading to relevant and effective
-  learning outcomes</p>'
-SDG_INDICATOR: '<p>Indicator 4.1.2: Educational attainment of the population aged 25 to 64, by age group and sex</p>'
-STAT_CONC_DEF: '<strong><p>Definition:</p></strong> <p>Percentage of a cohort of children or young people aged 3-5 years above the intended age for the last grade of each level of education who have completed that grade.</p> <strong><p>Concepts</p></strong> <p>The intended age for the last grade of each level of education is the age at which pupils would enter the 
-grade if they had started school at the official primary entrance age, had studied full-time and had progressed without repeating or skipping a grade.</p> <p>For example, if the official age of entry into primary education is 6 years, and if primary education has 6 grades, the intended age for the last grade of primary education is 11 years. In this case, 14-16 years (11 + 3 = 14 and 11 + 5 = 16) would be the reference age group for calculation of the primary completion rate.</p>'
+  learning outcomes'
+SDG_INDICATOR: 'Indicator 4.1.2: Educational attainment of the population aged 25 to 64, by age group and sex'
+STAT_CONC_DEF: '<strong>Definition:</strong><br> Percentage of a cohort of children or young people aged 3-5 years above the intended age for the last grade of each level of education who have completed that grade. <br><br><strong>Concepts:</strong><br> The intended age for the last grade of each level of education is the age at which pupils would enter the 
+grade if they had started school at the official primary entrance age, had studied full-time and had progressed without repeating or skipping a grade. For example, if the official age of entry into primary education is 6 years, and if primary education has 6 grades, the intended age for the last grade of primary education is 11 years. In this case, 14-16 years (11 + 3 = 14 and 11 + 5 = 16) would be the reference age group for calculation of the primary completion rate.'
 DATA_COMP: '   '
 REC_USE_LIM: |
-    This data table comes from the publication <a href="https://www150.statcan.gc.ca/n1/en/catalogue/81-582-X">Education Indicators in Canada: the Pan-Canadian Education Indicators Program</a>, section D6: Educational attainment of the population aged 25 to 64. For a brief description of this indicator, including the methodology, please see the <a href="https://www150.statcan.gc.ca/n1/en/catalogue/81-582-G">Handbook for the Pan-Canadian Education Indicators Program</a>.
+    This data table comes from the publication <a href="https://www.150.statcan.gc.ca/n1/en/catalogue/81-582-X">Education Indicators in Canada: the Pan-Canadian Education Indicators Program</a>, section D6: Educational attainment of the population aged 25 to 64. For a brief description of this indicator, including the methodology, please see the <a href="https://www150.statcan.gc.ca/n1/en/catalogue/81-582-G">Handbook for the Pan-Canadian Education Indicators Program</a>.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
-  promote lifelong learning opportunities for all</p>'
-SDG_TARGET__GLOBAL: '<p>Target 4.1: By 2030, ensure that all girls and boys complete
+SDG_GOAL__GLOBAL: 'Goal 4: Ensure inclusive and equitable quality education and
+  promote lifelong learning opportunities for all'
+SDG_TARGET__GLOBAL: 'Target 4.1: By 2030, ensure that all girls and boys complete
   free, equitable and quality primary and secondary education leading to relevant
-  and effective learning outcomes</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 4.1.2: Completion rate (primary education, lower
-  secondary education, upper secondary education)</p>'
+  and effective learning outcomes'
+SDG_INDICATOR__GLOBAL: 'Indicator 4.1.2: Completion rate (primary education, lower
+  secondary education, upper secondary education)'
 un_designated_tier: Tier I 
 un_custodian_agency: UNESCO Institute for Statistics
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF)
+
+COVERAGE: Canada
 
 # SOURCE(S)
 source_active_1: 'true'

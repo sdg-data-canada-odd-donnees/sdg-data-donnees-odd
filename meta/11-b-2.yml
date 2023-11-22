@@ -8,7 +8,13 @@ SDG_TARGET: '<p>Target 11.b: By 2020, substantially increase the number of citie
 SDG_INDICATOR: '<p>Indicator 11.b.2: Proportion of local governments that adopt and 
   implement local disaster risk reduction strategies in line with national disaster 
   risk reduction strategies </p>'
-STAT_CONC_DEF: '  '
+STAT_CONC_DEF: 'The Sendai Framework for Disaster Risk Reduction 2015-2030 was adopted by UN Member States in 
+March 2015 as a global policy of disaster risk reduction. One of the targets is: “Substantially increase the 
+number of countries with national and local disaster risk reduction strategies by 2020”.
+In line with the Sendai Framework for Disaster Risk Reduction 2015-2030, disaster risk reduction 
+strategies and policies should mainstream and integrate disaster risk reduction within and across all 
+sectors, across different timescales and with targets, indicators and time frames. These strategies should be aimed at preventing the creation of disaster risk, the reduction of existing risk and the strengthening 
+of economic, social, health and environmental resilience.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal: 11: Make cities inclusive, safe, resilient, and sustainable
@@ -25,12 +31,15 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 11.b.2: Proportion of local governments tha
 un_designated_tier: Tier II
 un_custodian_agency: United Nations International Strategy for Disaster Reduction (UNISDR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-0b-02.pdf
-goal_meta_link_text: ~
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+COVERAGE: Canada
 
 source_active_1: 'true'
 source_url_text_1: |
     Public Safety Canada. Emergency Management Strategy for Canada: Toward a Resilient 2030
 source_url_1: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
 source_organisation_1: Public Safety Canada
+source_geographical_coverage_1: Canada
 
 reporting_status: complete

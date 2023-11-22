@@ -31,6 +31,9 @@ un_custodian_agency: World Health Organization (WHO),  United Nations Internatio
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+
+COVERAGE: Canada
+
 source_active_1: 'true'
 source_url_text_1: Childhood National Immunization Coverage Survey (CNICS)
 source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5185
@@ -39,4 +42,4 @@ source_periodicity_1: Every 2 years
 source_geographical_coverage_1: Canada
 
 reporting_status: complete
-UNIT_MEASURE: Percentage
+UNIT_MEASURE: Percentage (%)
