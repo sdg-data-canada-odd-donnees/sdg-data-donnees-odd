@@ -6,8 +6,8 @@ SDG_TARGET: 'Target 3.8: Achieve universal health coverage, including financial 
 SDG_INDICATOR: '<p>Indicator 3.8.2: Proportion of population (individuals) with large 
   household expenditures on select health care items as a share of total after-tax income</p>'
 STAT_CONC_DEF: 'Proportion of the population with large household expenditure on health as a share of total household 
-expenditure or income. Two thresholds are used to define “large household expenditure on health”: 
-greater than 10% and greater than 25% of total household expenditure or income.'
+  expenditure or income. Two thresholds are used to define “large household expenditure on health”: 
+  greater than 10% and greater than 25% of total household expenditure or income.'
 DATA_COMP: |
     <p>The Survey of Household Spending collects expenditures using two collection modes:  a questionnaire (using recall periods that vary based on the type of expenditure) and a two-week diary.</p>
     <p>For methodological reasons, health care expenditures collected through the two-week diary were excluded from the numerator in the calculation of each household's proportion of income spent on health care. The excluded health care items are: non-prescribed medicines and pharmaceutical products; health care supplies; other health care equipment (i.e. other than major equipment); and non-prescription eye wear and other eye-care goods. Since these items were excluded, the definition of health care spending used for this indicator is therefore not consistent with the Classification of Individual Consumption According to Purpose (COICOP) classification.</p>
