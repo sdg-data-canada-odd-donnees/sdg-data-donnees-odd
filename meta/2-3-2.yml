@@ -9,8 +9,8 @@ SDG_TARGET: '<p>Target 2.3: By 2030, double the agricultural productivity and in
 SDG_INDICATOR: '<p>Indicator 2.3.2: Average income of small-scale food producers,
   by sex and indigenous status</p>'
 STAT_CONC_DEF: 'This indicator measures income from on-farm production activities, which is related to the 
-production of food and agricultural products. This includes income from crop production, livestock 
-production, fisheries and aquaculture production, and from forestry production. The indicator is computed as annual income.'
+  production of food and agricultural products. This includes income from crop production, livestock 
+  production, fisheries and aquaculture production, and from forestry production. The indicator is computed as annual income.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 UNIT_OF_MEASURE: 2011 $PPP (annual)
@@ -30,6 +30,7 @@ un_custodian_agency: Food and Agriculture Organization (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-03-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+COVERAGE: Canada
 
 # SOURCE(S)
 source_active_1: 'true'

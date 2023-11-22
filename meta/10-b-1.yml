@@ -7,7 +7,10 @@ SDG_TARGET: '<p>Target 10.b: Encourage official development assistance and finan
 SDG_INDICATOR: '<p>Indicator 10.b.1: Total resource flows for development, by recipient
   and donor countries and type of flow (e.g., official development assistance, foreign
   direct investment and other flows)</p>'
-STAT_CONC_DEF: '    '
+STAT_CONC_DEF: <strong>Definition:</strong><br>Total resource flows for development, by recipient and donor countries and type of flow comprises of 
+  Official Development Assistance (ODA), other official flows (OOF) and private flows.<br><br><strong>Concepts:</strong><br>Official and private flows, both concessional and non-concessional to developing countries. For official 
+  flows the major distinction is between official development assistance (ODA) and other official flows OOF, while private flows are broken down into flows at market terms and charitable grants. Flows include 
+  contributions to multilateral development agencies, which are themselves official bodies.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
@@ -24,6 +27,8 @@ un_custodian_agency: Organisation for Economic Co-operation and Development (OEC
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-0B-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 202
   KB)
+
+COVERAGE: Canada
 
 # Source(s)
 source_active_1: 'true'

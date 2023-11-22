@@ -6,7 +6,18 @@ SDG_TARGET: |
   into their reporting cycle
 SDG_INDICATOR: |
   Indicator 12.6.1: Number of companies publishing sustainability reports
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: <u>Sustainability Reports:</u><br>
+  <p>For the purposes of this indicator, ‘sustainability reports’ will not be limited to stand-alone sustainability 
+  reports produced by companies, but will be considered as ‘reporting sustainability information’ and 
+  expanded to other forms of reporting sustainability information, such as publishing sustainability 
+  information as part of the company’s annual reports or reporting sustainability information to the 
+  national government. This is to ensure that the focus of the indicator is on tracking the publishing of
+  sustainability information, rather than on the practice of publishing stand-alone sustainability reports. It also ensures that the indicator interpretation is aligned with the wording of Target 12.6 which refers to 
+  promoting “the integration of sustainability information into the annual reporting cycle of companies”.</p><br><br> <u>Company:</u><br><p>While many companies report at the group level, many of their impacts will be local, and some 
+  subsidiaries or franchises produce separate sustainability reports. As a practice that should be 
+  encouraged, and one that is useful to monitor, it is therefore proposed to count both the group and 
+  subsidiary/franchise level separately, as separate entities. “Company” can therefore apply to either the 
+  parent company, or a franchise or subsidiary, depending on their reporting practices.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: |
@@ -20,6 +31,8 @@ SDG_INDICATOR__GLOBAL: |
 un_designated_tier: Tier II
 un_custodian_agency: UN Environment (UNEP), United Nations Conference on Trade and
   Development (UNCTAD)
-goal_meta_link: https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-12-06-01.pdf
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-06-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+
+COVERAGE: Canada

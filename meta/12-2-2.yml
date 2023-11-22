@@ -1,5 +1,5 @@
 SDG_GOAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
-SDG_TARGET: '<p>Target 12.2: By 2020, achieve the sustainable management and efficient
+SDG_TARGET: '<p>Target 12.2: By 2030, achieve the sustainable management and efficient
   use of natural resources.</p>'
 SDG_INDICATOR: '<p>Indicator 12.2.2: Domestic material consumption, domestic material 
   consumption per capita, and domestic material consumption per GDP </p>'
@@ -9,7 +9,7 @@ STAT_CONC_DEF: '<p>Domestic Material Consumption (DMC) is a standard material fl
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
-SDG_TARGET__GLOBAL: '<p>Target 12.2: By 2020, achieve the sustainable management and efficient
+SDG_TARGET__GLOBAL: '<p>Target 12.2: By 2030, achieve the sustainable management and efficient
   use of natural resources.</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 12.2.2: Domestic material consumption, domestic material 
   consumption per capita, and domestic material consumption per GDP </p>'
@@ -17,6 +17,8 @@ un_designated_tier: Tier I
 un_custodian_agency: United Nations Environment Programme (UNEP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-02-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 783 KB)
+
+COVERAGE: Canada
 
 source_active_1: 'true'
 source_url_text_1: United Nations Environment Programme. Custom Tabulation.
@@ -28,7 +30,7 @@ source_url_text_2: Table 36-10-0402-01  Gross domestic product (GDP) at basic pr
 source_url_2: https://doi.org/10.25318/3610040201-eng
 source_organisation_2: Statistics Canada
 source_periodicity_2: Annual
-source_geographical_coverage_2: Province or territory
+source_geographical_coverage_2: Canada, Province or territory
 
 source_active_3: 'true'
 source_url_text_3: Table 17-10-0005-01  Population estimates on July 1st, by age and sex

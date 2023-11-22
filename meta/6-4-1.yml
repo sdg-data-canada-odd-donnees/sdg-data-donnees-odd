@@ -6,8 +6,7 @@ SDG_TARGET: '<p>Target 6.4: By 2030, substantially increase water-use efficiency
   water scarcity and substantially reduce the number of people suffering from water
   scarcity</p>'
 SDG_INDICATOR: '<p>Indicator 6.4.1: Change in water-use efficiency over time</p>'
-STAT_CONC_DEF: 'Change in water use efficiency over time (CWUE): The change in the ratio of the value added to the 
-volume of water use, over time.'
+STAT_CONC_DEF: 'Change in water use efficiency over time (CWUE): The change in the ratio of the value added to the volume of water use, over time.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 
@@ -24,6 +23,8 @@ un_custodian_agency: Food and Agriculture Organization (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
   MB)
+
+COVERAGE: Canada
 
 # SOURCE(S)
 source_active_1: 'true'
