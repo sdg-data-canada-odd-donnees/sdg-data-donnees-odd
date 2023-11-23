@@ -5,7 +5,7 @@ SDG_TARGET: '<p>Target 17.11: Significantly increase the exports of developing c
   of global exports by 2020</p>'
 SDG_INDICATOR: '<p>Indicator 17.11.1: Developing countries&apos; and least developed
   countries&apos; share of global exports</p>'
-STAT_CONC_DEF: <p>Exports by developing countries and LDCs as a share of global exports
+STAT_CONC_DEF: <p>Exports by developing countries and least developed countries (LDCs) as a share of global exports
   of goods and services</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
@@ -22,3 +22,5 @@ un_custodian_agency: World Trade Organization (WTO), The International Trade Cen
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-11-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 216
   KB)
+
+COVERAGE: Canada

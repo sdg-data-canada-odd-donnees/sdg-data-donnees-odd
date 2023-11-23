@@ -7,7 +7,7 @@ SDG_TARGET: '<p>Target 17.9 : Enhance international support for implementing eff
 SDG_INDICATOR: '<p>Indicator 17.9.1: Dollar value of financial and technical assistance
   (including through North-South, South-South and triangular cooperation) committed
   to developing countries</p>'
-STAT_CONC_DEF: <p>Gross disbursements of total ODA and other official flows from all
+STAT_CONC_DEF: <p>Gross disbursements of total official development assistance (ODA) and other official flows from all
   donors for capacity building and national planning.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
@@ -26,6 +26,8 @@ un_custodian_agency: Organisation for Economic Co-operation and Development (OEC
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-09-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 209
   KB)
+
+COVERAGE: Canada
 
 # SOURCE(S)
 source_active_1: 'true'

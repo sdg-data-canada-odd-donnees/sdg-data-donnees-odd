@@ -5,7 +5,7 @@ SDG_TARGET: '<p>Target 17.10: Promote a universal, rules-based, open, non-discri
   through the conclusion of negotiations under its Doha Development Agenda</p>'
 SDG_INDICATOR: '<p>Indicator 17.10.1: Worldwide weighted tariff-average</p>'
 STAT_CONC_DEF: <p>Value in percentage of weighted average tariffs applied to the imports
-  of goods in HS chapter 01-97.</p>
+  of goods in the Harmonized System (HS) chapter 01-97.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
@@ -20,3 +20,5 @@ un_custodian_agency: World Trade Organization (WTO), The International Trade Cen
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-10-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 210
   KB)
+
+COVERAGE: Canada

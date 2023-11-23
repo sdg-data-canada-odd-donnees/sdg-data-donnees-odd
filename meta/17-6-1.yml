@@ -7,7 +7,8 @@ SDG_TARGET: '<p>Target 17.6: Enhance North-South, South-South and triangular reg
   coordination among existing mechanisms, in particular at the United Nations level,
   and through a global technology facilitation mechanism</p>'
 SDG_INDICATOR: |
-    Indicator 17.6.1: Number of fixed Internet broadband subscriptions
+    Indicator 17.6.1: Fixed Internet broadband subscriptions per 100 inhabitants, by speed
+
 STAT_CONC_DEF: |
     <p><b>Urban centres</b>, also known as small/medium/large population centres, are defined as follows: small centres have populations between 1,000 and 29,999, medium centres have populations between 30,000 and 99,999, and large centres have populations greater than 100,000. <br><br><b>Rural areas</b> have populations of less than 1,000, or fewer than 400 people per square kilometre.</p>
 DATA_COMP: '   '
@@ -37,3 +38,5 @@ source_url_1: https://crtc.gc.ca/eng/publications/reports/PolicyMonitoring/ban.h
 source_organisation_1: Canadian Radio-television and Telecommunications Commission
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, provinces and territories
+
+COVERAGE: Canada
