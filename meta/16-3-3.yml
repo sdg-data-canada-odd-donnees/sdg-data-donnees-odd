@@ -6,7 +6,9 @@ SDG_TARGET: '<p>Target 16.3: Promote the rule of law at the national and interna
   levels and ensure equal access to justice for all</p>'
 SDG_INDICATOR: |
     Indicator 16.3.3: Proportion of the population who have experienced a dispute in the past three years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism
-STAT_CONC_DEF: '    '
+STAT_CONC_DEF: 'Number of persons who experienced a dispute during the past two years who accessed a formal or
+  informal dispute resolution mechanism, as a percentage of all those who experienced a dispute in 
+  the past two years, by type of mechanism.'
 DATA_COMP: '   '
 REC_USE_LIM: |
     Note that the national data for indicator 16.3.3 measures the population who have experienced a dispute in the past <i>three</i> years, where the global indicator measures the population who have experienced a dispute in the past <i>two</i> years.

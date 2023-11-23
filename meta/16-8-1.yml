@@ -5,7 +5,10 @@ SDG_TARGET: '<p>Target 16.8: Broaden and strengthen the participation of develop
   in the institutions of global governance</p>'
 SDG_INDICATOR: '<p>Indicator 16.8.1: Proportion of members and voting rights of developing 
   countries in international organizations</p>'
-STAT_CONC_DEF: '  '
+STAT_CONC_DEF: 'The indicator Proportion of members and voting rights of developing countries in international
+  organizations has two separate components: the developing country proportion of voting rights and 
+  the developing country proportion of membership in international organisations. In some institutions,
+  these two components are identical.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
@@ -21,5 +24,7 @@ un_custodian_agency: United Nations Department of Economic and Social Affairs (D
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-08-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 1.3
   MB)
+
+COVERAGE: Canada
 
 reporting_status: notapplicable
