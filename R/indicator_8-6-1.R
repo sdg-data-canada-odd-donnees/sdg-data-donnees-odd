@@ -57,7 +57,8 @@ data_final <- bind_rows(
           Sex == "Both sexes" &
           `Age group` == "Total, 15 to 29 years"
       )
-    )
+    ) %>%
+    filter(!is.na(Value))
 )
 
 write.csv(
