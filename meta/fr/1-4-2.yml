@@ -10,7 +10,7 @@ SDG_INDICATOR: '<p>Indicateur 1.4.2 : Proportion de la population adulte totale 
 STAT_CONC_DEF: "Cet indicateur mesure la proportion de la population adulte totale qui dispose de la sécurité des droits fonciers a) de documents légalement authentifiés et b) qui considère que ses droits sur la terre sont sûrs, par sexe et par type"
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-COVERAGE: Province ou territoire
+COVERAGE: Canada, partie rurale ou urbaine du Canada, province ou territoire, partie rurale ou urbaine de la province ou du territoire et subdivision de recensement (SDR)
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans
@@ -33,9 +33,11 @@ source_url_text_1: Recensement de la population. Totalisation personnalisée.
 source_url_1: https://www12.statcan.gc.ca/census-recensement/index-fra.cfm
 source_organisation_1: Statistics Canada
 source_periodicity_1: Aux 5 ans
+source_geographical_coverage_1: Canada, Région géographique du Canada, Province ou territoire, Région métropolitaine de recensement
 
 source_active_2: 'true'
 source_url_text_2: Programme de la statistique du logement canadien (PSLC). Totalisation personnalisée.
 source_url_2: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&amp;SDDS=5257
 source_organisation_2: Statistics Canada
 source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada, partie rurale ou urbaine du Canada, province ou territoire, partie rurale ou urbaine de la province ou du territoire et subdivision de recensement (SDR)

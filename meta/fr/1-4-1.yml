@@ -59,60 +59,56 @@ source_organisation_1: Joint Monitoring Programme for Water Supply, Sanitation a
 source_periodicity_1: Annuelle
 
 source_active_2: 'true'
-source_url_text_2: Statistique Canada
-source_url_2: https://www.statcan.gc.ca/fr/debut
+source_url_text_2: |
+    Statistique Canada. Indice d'accès rural par géographie.
+source_url_2: https://www150.statcan.gc.ca/t1/tbl1/fr/cv.action?pid=2310031001&request_locale=fr
 source_organisation_2: Statistique Canada
-source_geographical_coverage_2: Canada
+source_periodicity_2: Occasionnelle
+source_geographical_coverage_2: Canada, Province ou territoire, Subdivision de recensement
 
 source_active_3: 'true'
-source_url_text_3: |
-    Statistique Canada. Indice d'accès rural par géographie.
-source_url_3: https://www150.statcan.gc.ca/t1/tbl1/fr/cv.action?pid=2310031001&request_locale=fr
+source_url_text_3: Statistique Canada. Tableau 23-10-0311-01  Accès pratique au transport en commun par géographie, genre, âge, revenu après impôt
 source_organisation_3: Statistique Canada
 source_periodicity_3: Occasionnelle
-source_geographical_coverage_3: Canada, Province ou territoire, Subdivision de recensement
+source_geographical_coverage_3: Canada, Province ou territoire, Subdivision de recensement, Région métropolitaine de recensement, Agglomération de recensement, Partie de région métropolitaine de recensement
+source_url_3: https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=2310031101&request_locale=fr
 
 source_active_4: 'true'
-source_url_text_4: Statistique Canada. Tableau 23-10-0311-01  Accès pratique au transport en commun par géographie, genre, âge, revenu après impôt
-source_organisation_4: Statistique Canada
+source_url_text_4: |
+    TEIMS 2019: Résultats canadiens de l'étude Tendances de l'enquête internationale sur les mathématiques et les sciences
+source_url_4: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_FR.pdf
+source_organisation_4: Conseil des ministres de l’Éducation (Canada)
 source_periodicity_4: Occasionnelle
-source_geographical_coverage_4: Canada, Province ou territoire, Subdivision de recensement, Région métropolitaine de recensement, Agglomération de recensement, Partie de région métropolitaine de recensement
-source_url_4: https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=2310031101&request_locale=fr
+source_geographical_coverage_4: Canada, Province ou territoire
 
 source_active_5: 'true'
 source_url_text_5: |
-    TEIMS 2019: Résultats canadiens de l'étude Tendances de l'enquête internationale sur les mathématiques et les sciences
-source_url_5: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_FR.pdf
+    IRLS/ePIRLS 2016 Le contexte au Canada: Résultats canadiens du Programme international de recherche en lecture scolaire
+source_url_5: https://cmec.ca/Publications/Lists/Publications/Attachments/385/PIRLS2016-Report-FR.pdf
 source_organisation_5: Conseil des ministres de l’Éducation (Canada)
 source_periodicity_5: Occasionnelle
 source_geographical_coverage_5: Canada, Province ou territoire
 
 source_active_6: 'true'
 source_url_text_6: |
-    IRLS/ePIRLS 2016 Le contexte au Canada: Résultats canadiens du Programme international de recherche en lecture scolaire
-source_url_6: https://cmec.ca/Publications/Lists/Publications/Attachments/385/PIRLS2016-Report-FR.pdf
+    À la hauteur : Résultats canadiens de l'étude PISA 2018 de l'OCDE
+source_url_6: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_FR.pdf
 source_organisation_6: Conseil des ministres de l’Éducation (Canada)
 source_periodicity_6: Occasionnelle
 source_geographical_coverage_6: Canada, Province ou territoire
 
 source_active_7: 'true'
-source_url_text_7: |
-    À la hauteur : Résultats canadiens de l'étude PISA 2018 de l'OCDE
-source_url_7: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_FR.pdf
-source_organisation_7: Conseil des ministres de l’Éducation (Canada)
-source_periodicity_7: Occasionnelle
-source_geographical_coverage_7: Canada, Province ou territoire
+source_url_text_7: "Rapport de surveillance des communications 2020"
+source_url_7: https://crtc.gc.ca/fra/publications/reports/policymonitoring/2020/index.htm
+source_organisation_7: Conseil de la radiodiffusion et des télécommunications canadiennes
+source_geographical_coverage_7: Canada
 
 source_active_8: 'true'
-source_url_text_8: "Rapport de surveillance des communications 2020"
-source_url_8: https://crtc.gc.ca/fra/publications/reports/policymonitoring/2020/index.htm
-source_organisation_8: Conseil de la radiodiffusion et des télécommunications canadiennes
+source_url_text_8: |
+  Accès à l’électricité (% de la population) - Canada
+source_url_8: https://donnees.banquemondiale.org/indicateur/EG.ELC.ACCS.ZS?end=2020&locations=CA&name_desc=false&start=2015
+source_organisation_8: La Banque Mondiale
+source_periodicity_8: Annuelle
 source_geographical_coverage_8: Canada
 
-source_active_9: 'true'
-source_url_text_9: |
-  Accès à l’électricité (% de la population) - Canada
-source_url_9: https://donnees.banquemondiale.org/indicateur/EG.ELC.ACCS.ZS?end=2020&locations=CA&name_desc=false&start=2015
-source_organisation_9: La Banque Mondiale
-source_periodicity_9: Annuelle
-source_geographical_coverage_9: Canada
+COVERAGE: Canada, Province ou territoire

@@ -7,7 +7,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >- 
     Indicator 11.2.1: Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities
 UNIT_OF_MEASURE: Percentage (%)
-COVERAGE: Canada, Province or territory, Census subdivision, Census metropolitan area
+COVERAGE: Canada, Province or territory
 STAT_CONC_DEF: |
   The access to public transport is considered convenient when a stop is accessible within a walking distance along the street network 
   of 500 meters from a reference point.
@@ -45,6 +45,6 @@ source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 23-10-0311-01  Convenient access to public transport by geography, gender, age, income after tax
 source_organisation_1: Statistics Canada
 source_periodicity_1: Occasional
-source_geographical_coverage_1: Canada, Province or territory
+source_geographical_coverage_1: Canada, Province or territory, Census subdivision, Census metropolitan area, Census agglomeration, Census metropolitan area part
 source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310031101
 
