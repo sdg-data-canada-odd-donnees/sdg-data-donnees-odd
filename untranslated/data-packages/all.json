@@ -3147,7 +3147,7 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
@@ -7074,7 +7074,7 @@
           }
         ]
       },
-      "title": "Canadian species index"
+      "title": "Red List Index"
     },
     {
       "path": "12-1-1/data.csv",
