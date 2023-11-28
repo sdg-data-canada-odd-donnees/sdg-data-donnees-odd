@@ -10,8 +10,7 @@ STAT_CONC_DEF: <p><strong><em>Land degradation</em></strong> is defined as the r
   or loss of the biological or economic productivity and complexity of rain fed cropland,
   irrigated cropland, or range, pasture, forest and woodlands resulting from a combination
   of pressures, including land use and management practices. This definition was adopted
-  by and is used by the 196 countries that are Party to the UNCCD.<sup><sup><a href="#footnote-2"
-  id="footnote-ref-2">[1]</a></sup></sup> (see also Figure 1)</p>
+  by and is used by the 196 countries that are Party to the United Nations Convention to Combat Desertification (UNCCD).</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
@@ -25,11 +24,13 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 15.3.1: Proportion of land that is degraded
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Convention to Combat Desertification (UNCCD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-03-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
-  MB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 source_active_1: 'true'
 source_url_text_1: United Nations Convention to Combat Desertification. Custom Tabulation.
 source_url_1: https://www.unccd.int/#
 source_organisation_1: UNCCD
+source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada
+
+COVERAGE: Canada

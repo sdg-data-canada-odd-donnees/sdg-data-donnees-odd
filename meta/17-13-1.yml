@@ -3,7 +3,7 @@ SDG_GOAL: '<p>Goal 17: Strengthen the means of implementation and revitalize the
 SDG_TARGET: '<p>Target 17.13: Enhance global macroeconomic stability, including through 
   policy coordination and policy coherence</p>'
 SDG_INDICATOR: '<p>Indicator 17.13.1. Macroeconomic Dashboard</p>'
-STAT_CONC_DEF: '  '
+STAT_CONC_DEF: "Indicators for the current and capital & financial accounts are included to monitor each country's trade and balance of payments. The sustainability of the balance of payments depends on both the current account and the capital and financial account balances, including foreign reserves"
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
@@ -14,4 +14,5 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 17.13.1. Macroeconomic Dashboard</p>'
 un_designated_tier: Tier II
 un_custodian_agency: World Bank (WB)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-13-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 257 KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+COVERAGE: Canada

@@ -6,7 +6,10 @@ SDG_TARGET: '<p>Target 16.b: Promote and enforce non-discriminatory laws and pol
 SDG_INDICATOR: '<p>Indicator 16.b.1: Proportion of population reporting having personally felt 
   discriminated against or harassed in the previous 12 months on the basis of a ground of 
   discrimination prohibited under international human rights law</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: 'This indicator is defined as the proportion of the population (adults) who self-report that they personally 
+  experienced discrimination or harassment during the last 12 months based on ground(s) prohibited by 
+  international human rights law. International human rights law refers to the body of international legal instruments aiming to promote and protect human rights, including the Universal Declaration of Human 
+  Rights and subsequent international human rights treaties adopted by the United Nations.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
@@ -20,4 +23,6 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 16.b.1: Proportion of population reporting 
 un_designated_tier: Tier II
 un_custodian_agency: Office of the United Nations High Commissioner for Human Rights (OHCHR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-0b-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 202 KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+COVERAGE: Canada

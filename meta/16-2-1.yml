@@ -6,7 +6,10 @@ SDG_TARGET: '<p>Target 16.2: End abuse, exploitation, trafficking and all forms 
 SDG_INDICATOR: '<p>Indicator 16.2.1: Proportion of children aged 1-17 years who experienced
   any physical punishment and/or psychological aggression by caregivers in the past
   month</p>'
-STAT_CONC_DEF: '  '
+STAT_CONC_DEF: 'Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological 
+  aggression by caregivers in the past month is currently being measured by the Proportion of children 
+  aged 1-14 years who experienced any physical punishment and/or psychological aggression by caregivers 
+  in the past month.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
@@ -20,7 +23,8 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 16.2.1: Proportion of children aged 1-17 ye
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Children's Fund (UNICEFF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 209
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+COVERAGE: Canada
 
 reporting_status: notapplicable

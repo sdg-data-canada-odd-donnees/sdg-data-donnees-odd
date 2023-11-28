@@ -1,7 +1,9 @@
 SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</p>'
 SDG_TARGET: '<p>Target 16.3: Promote the rule of law at the national and international levels and ensure equal access to justice for all</p>'
 SDG_INDICATOR: '<p>Indicator 16.3.1: Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms</p>'
-STAT_CONC_DEF: '    '
+STAT_CONC_DEF: 'Number of victims of violent crime in the previous 12 months who reported their victimization to 
+  competent authorities or other officially recognized conflict resolution mechanisms, as a percentage of all 
+  victims of violent crime in the previous 12 months.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</p>'
@@ -10,8 +12,8 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 16.3.1: Proportion of victims of violence i
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Office on Drugs and Crime (UNODC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 133 
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
 source_active_1: 'true'
 source_url_text_1: "Victimization incidents reported by Canadians, by type of offence, 2019"
 source_url_1: https://www150.statcan.gc.ca/n1/pub/85-002-x/2021001/article/00014-eng.htm
