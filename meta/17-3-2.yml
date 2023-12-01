@@ -3,9 +3,12 @@ SDG_GOAL: '<p>Goal 17: Strengthen the means of implementation and revitalize the
 SDG_TARGET: '<p>Target 17.3: Mobilize additional financial resources for developing
   countries from multiple sources</p>'
 SDG_INDICATOR: '<p>Indicator 17.3.2: PR Total amount of remittances sent to ODA-eligible countries</p>'
-STAT_CONC_DEF: <p>Personal remittances received as proportion of GDP is the inflow
-  of personal remittances expressed as a percentage of Gross Domestic Product (GDP).
-  </p>
+STAT_CONC_DEF: "<strong>Definition:</strong><br> Personal remittances received as proportion of GDP is the inflow of personal remittances expressed as a percentage of Gross Domestic Product (GDP). <br><br>
+  <strong>Concepts:</strong> Personal remittances comprise of personal transfers and compensation of employees. Personal transfers 
+  consist of all current transfers in cash or in kind made or received by resident households to or from non-resident households. Personal transfers thus include all current transfers between resident and non-resident individuals. Compensation of employees refers to the income of border, seasonal, and other 
+  short-term workers who are employed in an economy where they are not resident and of residents 
+  employed by non-resident entities. Data are the sum of two items defined in the sixth edition of the IMF's Balance of Payments Manual: personal transfers and compensation of employees."
+ 
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
