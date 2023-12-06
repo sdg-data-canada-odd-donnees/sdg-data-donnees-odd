@@ -3,6 +3,7 @@ SDG_GOAL: |
     Goal 6: Ensure availability and sustainable management of water and sanitation for all
 SDG_TARGET: |
     Target 6.3: By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally.
+indicator_available: Water quality in Canadian rivers
 SDG_INDICATOR: |
     Indicator 6.3.2: Proportion of bodies of water with good ambient water quality
 STAT_CONC_DEF: |
@@ -10,7 +11,7 @@ STAT_CONC_DEF: |
 DATA_COMP: |
     Water quality is reported in these indicators by measuring a number of chemical and physical properties (parameters) in water. The results for each parameter are compared to its water quality guideline. <em>(ECCC)</em>
 REC_USE_LIM: |
-    <p>These indicators reflect the state of water quality in rivers in southern Canada. Northern Canada is under-represented.<br><br> The indicators only use data for a subset of variables where guidelines exist. They do not cover all potential water quality issues in Canada.<br><br> The indicators are based on the impacts of a number of parameters at each site. These concentrations do not show the effect of spills or other transient events unless samples were collected right after the spill happened or their effect on water quality is long-lasting. <em>(ECCC)</em></p>
+    <p>This is a proxy indicator. The UN Global indicator states: "Proportion of bodies of water with good ambient water quality".</p> <p>These indicators reflect the state of water quality in rivers in southern Canada. Northern Canada is under-represented.<br><br> The indicators only use data for a subset of variables where guidelines exist. They do not cover all potential water quality issues in Canada.<br><br> The indicators are based on the impacts of a number of parameters at each site. These concentrations do not show the effect of spills or other transient events unless samples were collected right after the spill happened or their effect on water quality is long-lasting. <em>(ECCC)</em></p>
 
 # GLOBAL
 SDG_GOAL__GLOBAL: |

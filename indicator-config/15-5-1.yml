@@ -20,11 +20,11 @@ graph_stacked_disaggregation: ''
 graph_target_lines:
 - label_content: 1970 baseline
   value: 0
-graph_title: Canadian species index, percentage change, 1970 to 2016
+graph_title: Canadian Species Index, Percentage Change, 1970 to 2016
 graph_titles: []
 graph_type: line
-indicator_available: ''
-indicator_name: Red List Index
+indicator_available: proxy.15-5-1-title
+indicator_name: global_indicators.15-5-1-title
 indicator_number: 15.5.1
 national_geographical_coverage: Canada
 page_content: ''
