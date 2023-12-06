@@ -2,7 +2,8 @@ SDG_GOAL: '<p>Goal 11: Make cities and human settlements inclusive, safe, resili
   and sustainable</p>'
 SDG_TARGET: '<p>Target 11.1: By 2030, ensure access for all to adequate, safe and
   affordable housing and basic services and upgrade slums</p>'
-SDG_INDICATOR: '<p>Indicator 11.1.1: Proportion of urban population in core housing need</p>'
+indicator_available: Proportion of urban population in core housing need
+SDG_INDICATOR: '<p>Indicator 11.1.1: Proportion of urban population living in slums, informal settlements or inadequate housing</p>'
 DATA_COMP: '     '
 STAT_CONC_DEF: >-
     <p>A household is said to be in "core housing need" if its housing falls below at least one of the adequacy, affordability or suitability standards and it would have to spend 30% or more of its total before-tax income to pay the median rent of alternative local housing that is acceptable (meets all three housing standards). 
@@ -14,7 +15,7 @@ STAT_CONC_DEF: >-
     </ul>
     <p>Only private, non-farm, non-reserve and owner- or renter-households with incomes greater than zero and shelter-cost-to-income ratios less than 100% are assessed for "core housing need."</p>
     <p>Non-family households with at least one maintainer aged 15 to 29 attending school are considered not to be in "core housing need" regardless of their housing circumstances. Attending school is considered a transitional phase, and low incomes earned by student households are viewed as being a temporary condition.</p>
-REC_USE_LIM: '   '
+REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: "Proportion of urban population living in slums, informal settlements or inadequate housing".'
 SDG_GOAL__GLOBAL: '<p>Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable</p>'
 SDG_TARGET__GLOBAL: '<p>Target 11.1: By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 11.1.1: Proportion of urban population living in slums, informal settlements or inadequate housing</p>'

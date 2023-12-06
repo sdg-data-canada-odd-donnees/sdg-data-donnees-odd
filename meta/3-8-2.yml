@@ -3,8 +3,10 @@ SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all
 SDG_TARGET: 'Target 3.8: Achieve universal health coverage, including financial risk
   protection, access to quality essential health-care services and access to safe,
   effective, quality and affordable essential medicines and vaccines for all'
-SDG_INDICATOR: '<p>Indicator 3.8.2: Proportion of population (individuals) with large 
-  household expenditures on select health care items as a share of total after-tax income</p>'
+indicator_available: Proportion of population (individuals) with large 
+  household expenditures on select health care items as a share of total after-tax income
+SDG_INDICATOR: '<p>Indicator 3.8.2: Proportion of population with large household
+  expenditure on health as a share of total household expenditure or income</p>'
 STAT_CONC_DEF: 'Proportion of the population with large household expenditure on health as a share of total household 
   expenditure or income. Two thresholds are used to define “large household expenditure on health”: 
   greater than 10% and greater than 25% of total household expenditure or income.'
@@ -16,7 +18,8 @@ DATA_COMP: |
     <p>After-tax household income was used for the denominator, since a measure of annual total consumption is not available at the individual household level due to design of the survey.</p>
     
 REC_USE_LIM: |
-    SHS estimates exclude households in Canada's three territories.
+    This is a proxy indicator. The UN Global indicator states: "Proportion of population with large household
+    expenditure on health as a share of total household expenditure or income". SHS estimates exclude households in Canada's three territories.
 
 ## GLOBAL METADATA
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
