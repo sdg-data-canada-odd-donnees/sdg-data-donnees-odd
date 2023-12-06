@@ -2384,7 +2384,7 @@
           }
         ]
       },
-      "title": "Proportion of population (individuals) with large household expenditures on select health care items as a share of total after-tax income"
+      "title": "Proportion of population with large household expenditures on health as a share of total household expenditure or income"
     },
     {
       "path": "6-4-2/data.csv",
@@ -2888,7 +2888,7 @@
           }
         ]
       },
-      "title": "Malaria incidence per 100,000 population"
+      "title": "Malaria incidence per 1,000 population"
     },
     {
       "path": "5-2-2/data.csv",
@@ -4221,7 +4221,7 @@
           }
         ]
       },
-      "title": "Proportion of the population who have experienced a dispute in the past three years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism\n"
+      "title": "Proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism"
     },
     {
       "path": "11-5-1/data.csv",
@@ -5079,51 +5079,28 @@
             "title": "Year"
           },
           {
-            "name": "Age",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total infant deaths under 1 year",
-                "Neonatal 0 to 27 days",
-                "Neonatal under 1 day",
-                "Neonatal 1 day",
-                "Neonatal 2 days",
-                "Neonatal 3 days",
-                "Neonatal 4 days",
-                "Neonatal 5 days",
-                "Neonatal 6 days",
-                "Neonatal 7 to 13 days",
-                "Neonatal 14 to 20 days",
-                "Neonatal 21 to 27 days",
-                "Post-neonatal 1 to 11 months",
-                "Post-neonatal 1 month",
-                "Post-neonatal 2 months",
-                "Post-neonatal 3 months",
-                "Post-neonatal 4 months",
-                "Post-neonatal 5 months",
-                "Post-neonatal 6 months",
-                "Post-neonatal 7 months",
-                "Post-neonatal 8 months",
-                "Post-neonatal 9 months",
-                "Post-neonatal 10 months",
-                "Post-neonatal 11 months",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                "Northwest Territories including Nunavut",
                 ""
               ]
             },
-            "title": "Age"
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Males",
-                "Females",
-                "Both sexes",
-                ""
-              ]
-            },
-            "title": "Sex"
+            "title": "Geography"
           },
           {
             "name": "Value",
@@ -5440,7 +5417,7 @@
           }
         ]
       },
-      "title": "Percentage of households that disposed of hazardous waste, by type and method of disposal"
+      "title": "(a) Hazardous waste generated per capita; and (b) proportion of hazardous waste treated, by type of treatment"
     },
     {
       "path": "3-3-5/data.csv",
@@ -6950,7 +6927,7 @@
           }
         ]
       },
-      "title": "Water quality in Canadian rivers"
+      "title": "Proportion of bodies of water with good ambient water quality"
     },
     {
       "path": "17-1-2/data.csv",
