@@ -18,7 +18,7 @@ def measure_indicator_progress(data, config):
         # checks if any inputs have been configured
         if config['auto_progress_calculation']:
 
-            if 'progress_calculation_options' in config.keys():
+            if 'progress_calculation_options' in config.keys() and len(config['progress_calculation_options']) > 0:
                 # take manual user inputs
                 config = config['progress_calculation_options'][0]
 

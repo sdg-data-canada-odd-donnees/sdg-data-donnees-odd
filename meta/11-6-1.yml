@@ -4,7 +4,7 @@ SDG_TARGET: '<p>Target 11.6: By 2030, reduce the adverse per capita environmenta
   impact of cities, including by paying special attention to air quality and municipal
   and other waste management</p>'
 indicator_available: Total amount of waste sent to disposal via the waste management industry
-SDG_INDICATOR: '<p>Indicator 11.6.1: Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities</p>'
+SDG_INDICATOR: '<p>Indicator 11.6.1: Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities</p> <p>Proxy Indicator: Total amount of waste sent to disposal via the waste management industry</p>'
 STAT_CONC_DEF: >-
     <p>Total amount of non-hazardous waste disposal in public and private waste disposal facilities includes waste that is exported out of the source province or out of the country for disposal. This does not include waste disposal in hazardous waste disposal facilities or waste managed by the waste generator on site.</p>
 UNIT_OF_MEASURE: Tonnes

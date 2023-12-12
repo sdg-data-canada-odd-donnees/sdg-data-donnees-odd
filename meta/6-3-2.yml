@@ -5,7 +5,7 @@ SDG_TARGET: |
     Target 6.3: By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally.
 indicator_available: Water quality in Canadian rivers
 SDG_INDICATOR: |
-    Indicator 6.3.2: Proportion of bodies of water with good ambient water quality
+    <p>Indicator 6.3.2: Proportion of bodies of water with good ambient water quality</p><p>Proxy Indicator: Water quality in Canadian rivers</p>
 STAT_CONC_DEF: |
     <p>These indicators provide a measure of the ability of river water across Canada to support plants and animals. At each monitoring site, specific water quality data are compared to water quality guidelines to create a rating for the site. If measured water quality remains within the guidelines, it can maintain a healthy ecosystem.<br><br> Water quality at a monitoring site is considered excellent when parameters in a river almost always meet their guidelines. Conversely, water quality is rated poor when parameters usually do not meet their guidelines, sometimes by a wide margin. (<em>Environment and Climate Change Canada (ECCC)</em>)</p>
 DATA_COMP: |
