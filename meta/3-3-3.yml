@@ -7,7 +7,7 @@ SDG_INDICATOR: '<p>Indicator 3.3.3: Malaria incidence per 100,000 population </p
 STAT_CONC_DEF: <p>Incidence of malaria is defined as the number of new cases of malaria
   per 100,000 people at risk each year. </p>
 DATA_COMP: 'Rate per 100,000 population'
-REC_USE_LIM: 'Note that the national data for indicator 16.3.3 measures malaria incidence per <i>100,000</i> population, where the global indicator measures malaria incidence per <i>1,000</i> population.'
+REC_USE_LIM: 'Note that the national data for indicator 3.3.3 measures malaria incidence per <i>100,000</i> population, where the global indicator measures malaria incidence per <i>1,000</i> population.'
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis,
@@ -16,13 +16,13 @@ SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tubercul
 SDG_INDICATOR__GLOBAL: '<p>Indicator 3.3.3: Malaria incidence per 1,000 population
   </p>'
 un_designated_tier: Tier I
-un_custodian_agency: World Health Organisation (WHO)
+un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-03.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 source_active_1: true
 source_url_text_1: 'Reported cases from 1991 to 2021 in Canada - Notifiable diseases on-line'
 source_url_1: https://diseases.canada.ca/notifiable/charts?c=yl
-source_organisation_1: "Public Health Agency of Canada"
+source_organisation_1: "Public Health Agency of Canada (PHAC)"
 source_periodicity_1: Annual
 source_geographical_coverage_1: 'Canada'
 reporting_status: complete
