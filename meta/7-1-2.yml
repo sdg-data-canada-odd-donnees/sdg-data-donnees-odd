@@ -18,15 +18,15 @@ SDG_TARGET__GLOBAL: '<p>Target 7.1: By 2030, ensure universal access to affordab
 SDG_INDICATOR__GLOBAL: '<p>Indicator 7.1.2: Proportion of population with primary
   reliance on clean fuels and technology</p>'
 un_designated_tier: Tier I
-un_custodian_agency: International Trade Centre (ITC), United Nations Conference on
-  Trade and Development (UNCTAD), The World Trade Organization (WTO)
+un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 COVERAGE: Canada
 
 source_active_1: 'true'
-source_url_text_1: Statistics Canada
-source_url_1: https://www.statcan.gc.ca/en/start
-source_organisation_1: Statistics Canada
+source_url_text_1: Proportion of population with primary reliance on clean fuels (%)
+source_url_1: https://data.who.int/indicators/i/6A64C9A
+source_organisation_1: World Health Organization
+source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
