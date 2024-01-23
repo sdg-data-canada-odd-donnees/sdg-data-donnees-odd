@@ -3,6 +3,7 @@
 
 library(cansim)
 library(dplyr)
+# library(stringr)
 
 neonat_mortality_data <- get_cansim("13-10-0712-01", factors = FALSE)
 

@@ -7,7 +7,7 @@ SDG_INDICATOR: |
     Indicator: 6.3.1: Proportion of domestic and industrial wastewater flows safely treated
 STAT_CONC_DEF: 'This indicator measures the volumes of wastewater which are generated through different activities, and 
     the volumes of wastewater which are safely treated before discharge into the environment. Both of 
-    these indicators are measured in units of 1000 m3/day, although some data sources may use other units 
+    these indicators are measured in units of 1000 m<sup>3</sup>/day, although some data sources may use other units 
     that require conversion. The ratio of the volume treated to the volume generated is taken as the ‘proportion of wastewater flow safely treated’.'
 DATA_COMP: |
     (Primary treatment + Secondary treatment + Tertiary treatment) / Total volumes
