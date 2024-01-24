@@ -8,7 +8,7 @@ indicator_available: Proportion of family living with food insecurity
 SDG_INDICATOR: '<p>Indicator 2.1.2: Prevalence of moderate or severe food
   insecurity in the population, based on the Food Insecurity Experience Scale (FIES)</p><p>Proxy Indicator: Proportion of family living with food insecurity</p>'
 STAT_CONC_DEF: |
-  The levels of food security are defined as: <br>1- Food secure: No indication of difficulty with income-related food access; <br>2- Marginally food insecure: Exactly one indication of difficulty with income-related food access; <br>3- Moderately food insecure: Indication of compromise in quality and/or quantity of food consumed; <br>4- Severely food insecure: Indication of reduced food intake and disrupted eating patterns.
+  The levels of food security are defined as: <br>1- Food secure: No indication of difficulty with income-related food access; <br>2- Food insecure: Includes marginal, moderate and severe food insecurity; <br>3- Marginally food insecure: Exactly one indication of difficulty with income-related food access; <br>4- Moderately food insecure: Indication of compromise in quality and/or quantity of food consumed; <br>5- Severely food insecure: Indication of reduced food intake and disrupted eating patterns.
 DATA_COMP: '   '
 REC_USE_LIM: |
       This is a proxy indicator. The UN Global indicator states: "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)". 

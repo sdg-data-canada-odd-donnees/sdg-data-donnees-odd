@@ -5,19 +5,11 @@ SDG_TARGET: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévent
   et promouvoir la santé mentale et le bien-être</p>'
 SDG_INDICATOR: '<p>Indicateur 3.4.1 : Taux de mortalité attribué aux maladies cardiovasculaires,
   au cancer, au diabète ou aux maladies respiratoires chroniques.</p>'
-STAT_CONC_DEF: <p>Probabilité de mourir
-  entre 30 et 70 ans de maladies cardiovasculaires, de cancer, de diabète ou de maladies
-  respiratoires chroniques, définie comme le pourcentage de personnes âgées de 30
-  ans qui mourraient avant leur 70e anniversaire de maladies cardiovasculaires, de
-  cancer, de diabète ou de maladies respiratoires chroniques, en supposant qu'elles
-  connaissent les taux de mortalité actuels à chaque âge et qu'elles ne meurent pas
-  d'une autre cause de décès (par exemple, de blessures ou du VIH/sida). Cet indicateur
-  est calculé à l'aide des méthodes des tables de survie (voir les détails au point
-  3.3). </p>
+STAT_CONC_DEF: <p>Cet indicateur mesure le taux de mortalité attribuable à des maladies cardiovasculaires, au cancer, au diabète ou à des maladies respiratoires chroniques.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 COVERAGE: Canada
-UNIT_MEASURE: Percentage (%)
+UNIT_MEASURE: Percentage
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention
