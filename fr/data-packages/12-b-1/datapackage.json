@@ -16,16 +16,16 @@
             "title": "Année"
           },
           {
-            "name": "Table",
+            "name": "Standard Accounting Tools",
             "type": "string",
             "constraints": {
               "enum": [
-                "Compte satellite du tourisme (CST)",
-                "Système de comptabilité économique et environnementale (SCEE)",
+                "Tourism Satellite Account Tables (TSA)",
+                "System of Environmental Economic Accounting Tables (SEEA)",
                 ""
               ]
             },
-            "title": "Tableau"
+            "title": "Standard Accounting Tools"
           },
           {
             "name": "Value",

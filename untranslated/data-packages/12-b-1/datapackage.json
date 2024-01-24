@@ -15,12 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "Table",
+            "name": "Standard Accounting Tools",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tourism Satellite Account (TSA)",
-                "System of Environmental Economic Accounting (SEEA)",
+                "Tourism Satellite Account Tables (TSA)",
+                "System of Environmental Economic Accounting Tables (SEEA)",
                 ""
               ]
             }

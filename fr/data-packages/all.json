@@ -18,16 +18,16 @@
             "title": "Année"
           },
           {
-            "name": "Table",
+            "name": "Standard Accounting Tools",
             "type": "string",
             "constraints": {
               "enum": [
-                "Compte satellite du tourisme (CST)",
-                "Système de comptabilité économique et environnementale (SCEE)",
+                "Tourism Satellite Account Tables (TSA)",
+                "System of Environmental Economic Accounting Tables (SEEA)",
                 ""
               ]
             },
-            "title": "Tableau"
+            "title": "Standard Accounting Tools"
           },
           {
             "name": "Value",
@@ -417,7 +417,7 @@
               "enum": [
                 "Millions de tonnes métriques",
                 "Tonnes métriques",
-                "Tonnes métriques par PIB (millions de dollars CAD)",
+                "Tonnes métriques par PIB (millions de dollars)",
                 ""
               ]
             },
@@ -1426,7 +1426,7 @@
               "enum": [
                 "Millions de tonnes métriques",
                 "Tonnes métriques",
-                "Tonnes métriques par PIB (millions de dollars CAD)",
+                "Tonnes métriques par PIB (millions de dollars)",
                 ""
               ]
             },
@@ -1778,7 +1778,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage (%)",
+                "Pourcentage",
                 "Tonnes/hectare",
                 "Hectares",
                 ""
@@ -2571,7 +2571,7 @@
               "enum": [
                 "Millions de tonnes métriques",
                 "Tonnes métriques",
-                "Tonnes métriques par PIB (millions de dollars CAD)",
+                "Tonnes métriques par PIB (millions de dollars)",
                 ""
               ]
             },
@@ -3054,6 +3054,7 @@
               "enum": [
                 "Homme",
                 "Femme",
+                "Total",
                 "Unknown",
                 ""
               ]
@@ -3104,7 +3105,7 @@
               "enum": [
                 "Millions de tonnes métriques",
                 "Tonnes métriques",
-                "Tonnes métriques par PIB (millions de dollars CAD)",
+                "Tonnes métriques par PIB (millions de dollars)",
                 ""
               ]
             },
@@ -4728,7 +4729,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage (%)",
+                "Pourcentage",
                 ""
               ]
             },
