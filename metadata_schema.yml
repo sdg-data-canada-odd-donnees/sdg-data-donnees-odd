@@ -552,7 +552,7 @@ prose:
             options:
               - name: 'complete'
                 value: 'complete'
-                translation_key: status.reported
+                translation_key: status.reported_online
               - name: 'inprogress'
                 value: 'inprogress'
                 translation_key: status.statistics_in_progress
