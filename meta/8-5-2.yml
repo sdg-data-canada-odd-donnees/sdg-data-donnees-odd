@@ -6,8 +6,8 @@ SDG_TARGET: '<p>Target 8.5: By 2030, achieve full and productive employment and 
 SDG_INDICATOR: '<p>Indicator 8.5.2: Unemployment rate, by sex, age and persons with
   disabilities </p>'
 STAT_CONC_DEF: |
-  The unemployment rate is the number of unemployed persons expressed as a percentage of the labour force. The unemployment rate for a particular group (age, sex, marital status, etc.) is the number unemployed in that group expressed as a percentage of the labour force for that group.
-DATA_COMP: '   '
+  The unemployment rate is the number of unemployed persons expressed as a percentage of the labour force. 
+DATA_COMP: 'The unemployment rate for a particular group (age, sex, marital status, etc.) is the number unemployed in that group expressed as a percentage of the labour force for that group.'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all </p>'

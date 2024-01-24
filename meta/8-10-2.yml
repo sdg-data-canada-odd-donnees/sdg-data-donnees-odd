@@ -8,7 +8,9 @@ SDG_INDICATOR: '<p>Indicator 8.10.2: Proportion of adults (15 years and older) w
   an account at a bank or other financial institution or with a mobile-money-service
   provider</p>'
 STAT_CONC_DEF: |
-        Data are the percentage of family units (economic families or persons not in economic families) that have a chequing or savings account whether or not the balance is positive, negative or zero.
+  The percentage of adults (ages 15+) who report having an account (by themselves or together with 
+  someone else) at a bank or another type of financial institution or personally using a mobile money 
+  service in the past 12 months. The data represent the percentage of family units (economic families or individuals outside economic families) holding a checking or savings account, whether the balance is positive, negative or zero.
 DATA_COMP: '   '
 REC_USE_LIM: '  '
 

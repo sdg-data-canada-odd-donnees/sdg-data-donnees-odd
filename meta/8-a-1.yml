@@ -6,7 +6,9 @@ SDG_TARGET: '<p>Target 8.a: Increase Aid for Trade support for developing countr
 SDG_INDICATOR: '<p>Indicator 8.a.1: Aid for Trade commitments and disbursements</p>'
 STAT_CONC_DEF: <p>Aid for Trade commitments and disbursements is the gross disbursements
   and commitments of total Official Development Assistance (ODA) from all donors for
-  aid for trade.</p>
+  aid for trade. Other official flows (OOF), excluding officially supported export credits, are defined as transactions by the 
+  official sector which do not meet the conditions for eligibility as ODA, either because they are not 
+  primarily aimed at development, or because they are not sufficiently concessional.</p>
 DATA_COMP: '<p>The sum of ODA and OOF flows from all donors to developing countries for aid for trade.</p>'
 REC_USE_LIM: '<p>Data in the Creditor Reporting System are available from 1973. However, the data coverage is considered 
   complete from 1995 for commitments at an activity level and 2002 for disbursements.</p>'
