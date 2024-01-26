@@ -5,12 +5,8 @@ SDG_TARGET: '<p>Target 1.4: By 2030, ensure that all men and women, in particula
   access to basic services, ownership and control over land and other forms of property,
   inheritance, natural resources, appropriate new technology and financial services,
   including microfinance</p>'
-SDG_INDICATOR: '<p>Indicator 1.4.2: Proportion of total adult population with secure
-  tenure rights to land, with (a) legally recognized documentation and (b) who perceive
-  their rights to land as secure, by sex and by type of tenure</p>'
-STAT_CONC_DEF: 'This indicator measures the proportion of total adult population with secure
-  tenure rights to land, with (a) legally recognized documentation and (b) who perceive
-  their rights to land as secure, by sex and by type of tenure'
+SDG_INDICATOR: '<p>Indicator 1.4.2: Percentage of adult population with legally recognized documentation over land</p>'
+STAT_CONC_DEF: 'This indicator measures the percentage of adult population with legally recognized documentation over land.'
 DATA_COMP: '   '
 REC_USE_LIM: |
     For this comparison the 2021 Canadian Census was used to provide the entire universe of Canadians as it encompasses both owners and non-owners, whereas the 2020 Canadian Housing Statistics Program (CHSP) has the subset of this universe representing owners for the jurisdictions available. The Census data used here are limited to adults over 18 years of age. <br><br>The CHSP concepts in this analysis are resident individual owners of residential property. Residential property refers to all land and structures intended for private occupancy, whether on a permanent or a temporary basis. A residential property may have more than one owner. <br><br>A property is considered owned by an "individual" if all owners of a property are individuals. The CHSP does not have additional information on tenure type. <br><br>For both the Census and the CHSP, rural areas are those not within a Census Metropolitan Area (CMA) or Census Agglomeration (CA).<br><br>The Census uses gender, whereas the CHSP uses sex of the owner.<br><br>In Nunavut there are no locations that are either a CMA or CA, as such, the entire territory can be considered rural.

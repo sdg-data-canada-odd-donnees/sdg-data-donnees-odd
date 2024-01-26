@@ -40,9 +40,10 @@ expected_disaggregations:
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-4-2-title
+graph_title: proxy.1-4-2-title
 graph_titles: []
 graph_type: bar
+indicator_available: proxy.1-4-2-title
 indicator_name: global_indicators.1-4-2-title
 indicator_number: 1.4.2
 national_geographical_coverage: Canada, rural or urban part of Canada, province or territory, rural or urban part of province or territory, and census subdivision (CSD)
@@ -54,5 +55,6 @@ progress_calculation_options:
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+- Proxy
 "\xEF\xBB\xBFcomposite_breakdown_label": ''
