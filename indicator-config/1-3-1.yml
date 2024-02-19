@@ -17,8 +17,19 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-3-1-title
-graph_titles: []
+graph_titles:
+  - series: Proportion of employed labour force eligible for workers' compensation benefits
+    title: Proportion of employed labour force eligible for workers' compensation benefits
+  - series: Proportion of economic families with children receiving a child benefit
+    title: Proportion of economic families with children receiving a child benefit
+  - series: Ratio of unemployed receiving benefits
+    title: Ratio of unemployed receiving benefits
+  - series: Proportion of the unemployed eligible for Employment Insurance benefits
+    title: Proportion of the unemployed eligible for Employment Insurance benefits
+  - series: Proportion of older persons receiving a pension
+    title: Proportion of older persons receiving a pension
+  - series: Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits
+    title: Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits
 graph_type: line
 indicator_name: global_indicators.1-3-1-title
 indicator_number: 1.3.1
