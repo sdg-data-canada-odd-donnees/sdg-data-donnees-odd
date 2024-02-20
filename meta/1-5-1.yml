@@ -6,13 +6,14 @@ SDG_INDICATOR: '<p>Indicator 1.5.1: Number of deaths, missing persons and direct
   persons attributed to disasters per 100,000 population</p>'
 STAT_CONC_DEF: '<strong>Definition:</strong> <br>This indicator measures the number of people who died, went missing or
   were directly affected by disasters per 100,000 population.<br><br><strong>Concepts:</strong><br> Death: The number of people who died during the disaster, or directly after, as a direct result of the 
-  hazardous event. <br><br> Missing: The number of people whose whereabouts is unknown since the hazardous event. It includes people who are presumed dead, for whom there is no physical evidence such as a body, and for which an official/legal report has been filed with competent authorities.<br><br> Directly affected: The number of people who have suffered injury, illness or other health effects; who were evacuated, displaced, relocated or have suffered direct damage to their livelihoods, economic, physical, social, cultural and environmental assets. Indirectly affected are people who have suffered consequences, other than or in addition to direct effects, over time, due to disruption or changes in economy, critical infrastructure, basic services, commerce or work, or social, health and psychological consequences.'
-DATA_COMP: 'The Canadian Disaster Database (CDD) tracks significant disaster events that conform to the Emergency Management Framework for Canada definition of a disaster and meet one or more of the following criteria:
+  hazardous event. <br><br> Missing: The number of people whose whereabouts is unknown since the hazardous event. It includes people who are presumed dead, for whom there is no physical evidence such as a body, and for which an official/legal report has been filed with competent authorities.<br><br> Directly affected: The number of people who have suffered injury, illness or other health effects; who were evacuated, displaced, relocated or have suffered direct damage to their livelihoods, economic, physical, social, cultural and environmental assets. Indirectly affected are people who have suffered consequences, other than or in addition to direct effects, over time, due to disruption or changes in economy, critical infrastructure, basic services, commerce or work, or social, health and psychological consequences. <br>
+  The Canadian Disaster Database (CDD) tracks significant disaster events that conform to the Emergency Management Framework for Canada definition of a disaster and meet one or more of the following criteria:
   <br> - 10 or more people killed;
   <br> - 100 or more people affected/injured/infected/evacuated or homeless;
   <br> - an appeal for national/international assistance;
   <br> - historical significance;
   <br> - significant damage/interruption of normal processes such that the community affected cannot recover on its own. (Public Safety Canada)'
+DATA_COMP: '((Number of deaths, missing persons and directly affected persons attributed to disasters) / Population) x 100,000 = Rate per 100,000 population'
 REC_USE_LIM: 'It is important to note that the Canadian Disaster Database may not be suitable for comparative analysis because of differences in jurisdictional responsibilities, the type of data that is available, and how it is collected and used over time.
   <br><br> The information contained in the Canadian Disaster Database is based on information that is sourced from outside parties and may not be accurate and should therefore be interpreted with caution. (Public Safety Canada)'
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
@@ -25,7 +26,7 @@ un_designated_tier: Tier I
 un_custodian_agency: United Nations Office for Disaster Reduction (UNISDR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-COVERAGE: Canada, Geographical region of Canada, Province or territory
+ 
 
 source_active_1: 'true'
 source_url_text_1: |

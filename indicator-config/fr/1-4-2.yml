@@ -1,42 +1,21 @@
-auto_progress_calculation: true
-computation_units: 'Percentage'
+auto_progress_calculation: false
+computation_units: ''
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
-data_notice_class: ''
-data_notice_heading: ''
-data_notice_text: ''
-data_show_map: true
-data_start_values:
-- field: Geography
-  value: Newfoundland and Labrador
-- field: Geography
-  value: Nova Scotia
-- field: Geography
-  value: New Brunswick
-- field: Geography
-  value: Ontario
-- field: Geography
-  value: British Columbia
-- field: Geography
-  value: Yukon
-- field: Geography
-  value: Northwest Territories
-- field: Geography
-  value: Nunavut
-- field: Area
-  value: Total
-- field: Gender
-  value: Total
+data_notice_class: success
+data_notice_heading: Exploring data sources
+data_notice_text: |
+  <br>Statistique Canada n'a pas encore trouvé de sources de données appropriées pour rendre compte de cet indicateur. 
+  <br>N'hésitez pas à <a href="mailto:statcan.sdg-odd.statcan@statcan.gc.ca">communiquer avec nous</a> pour nous faire part de vos suggestions.
+data_show_map: false
+data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations:
-- Geography
-- Area
-- Gender
+expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
@@ -45,13 +24,13 @@ graph_titles: []
 graph_type: bar
 indicator_name: global_indicators.1-4-2-title
 indicator_number: 1.4.2
-national_geographical_coverage: Canada, rural or urban part of Canada, province or territory, rural or urban part of province or territory, and census subdivision (CSD)
+national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-progress_calculation_options:
-- direction: positive
-reporting_status: complete
+progress_calculation_options: []
+progress_status: not_available
+reporting_status: notstarted
 sort: ''
 standalone: false
 tags: []

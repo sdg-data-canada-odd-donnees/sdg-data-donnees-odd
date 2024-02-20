@@ -8,12 +8,11 @@ SDG_TARGET: '<p>Target 2.2: By 2030, end all forms of malnutrition, including ac
 SDG_INDICATOR: '<p>Indicator 2.2.3: Prevalence of anaemia in women aged 15-49 years,
   by pregnancy status (percentage)</p>'
 STAT_CONC_DEF: |
-    Anaemia is defined as the prevalence of haemoglobin concentrations below 110 g/L for pregnant women and 120 g/L for non-pregnant women.b  4
-DATA_COMP: '   '
+    Anaemia is defined as the prevalence of haemoglobin concentrations below 110 g/L for pregnant women and 120 g/L for non-pregnant women.
+DATA_COMP: 'Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: |
     Data for the population group "Pregnant women only" were too unreliable to be published.<br><br>Any results with implausible Haemoglobin levels (<25 or >200 g/L) were removed from the data.<br><br>Women who reported their pregnancy status as "don't know" were removed from the analysis.<br><br>Women who were pregnant but did not know how many weeks pregnant they were, were removed from the analysis.
-COVERAGE: Canada
-
+ 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'

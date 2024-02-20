@@ -9,7 +9,7 @@ SDG_INDICATOR: '<p>Indicator 2.1.2: Prevalence of moderate or severe food
   insecurity in the population, based on the Food Insecurity Experience Scale (FIES)</p><p>Proxy Indicator: Proportion of family living with food insecurity</p>'
 STAT_CONC_DEF: |
   The levels of food security are defined as: <br>1- Food secure: No indication of difficulty with income-related food access; <br>2- Food insecure: Includes marginal, moderate and severe food insecurity; <br>3- Marginally food insecure: Exactly one indication of difficulty with income-related food access; <br>4- Moderately food insecure: Indication of compromise in quality and/or quantity of food consumed; <br>5- Severely food insecure: Indication of reduced food intake and disrupted eating patterns.
-DATA_COMP: '   '
+DATA_COMP: 'Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: |
       This is a proxy indicator. The UN Global indicator states: "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)". 
       The survey is conducted nationwide, in both the provinces and
@@ -17,7 +17,7 @@ REC_USE_LIM: |
       reserves and other Indigenous settlements in the provinces, the institutionalized
       population, and households in extremely remote areas with very low population density.
       Overall, these exclusions amount to less than two percent of the population. 
-COVERAGE: Canada, Geographical region of Canada, Province or territory
+ 
 
 ## GLOBAL METADATA
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
