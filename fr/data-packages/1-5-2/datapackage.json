@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Perte économique dollars canadiens/PIB",
+                "Pourcentage",
                 ""
               ]
             },
@@ -33,9 +33,10 @@
               "enum": [
                 "Météorologique - Inondation",
                 "Météorologique - Tempête",
-                "Météorologique - Tempête hivernale",
                 "Météorologique - Feu de forêt",
-                "Météorologique - Épisode de chaleur",
+                "Météorologique - Tempête hivernale",
+                "Meteorological - Epidemic",
+                "Météorologique - Tornade",
                 ""
               ]
             },

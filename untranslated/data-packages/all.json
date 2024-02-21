@@ -4068,7 +4068,7 @@
           }
         ]
       },
-      "title": "Proportion of total government spending on essential services (education, health and social protection)"
+      "title": "global_indicators.1-a-2-title"
     },
     {
       "path": "3-7-2/data.csv",
@@ -6488,7 +6488,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Economic loss CAN dollars $/GDP",
+                "Percentage",
                 ""
               ]
             }
@@ -6500,9 +6500,10 @@
               "enum": [
                 "Meteorological - Flood",
                 "Meteorological - Storm",
-                "Meteorological - Winter storm",
                 "Meteorological - Wildfire",
-                "Meteorological - Heat event",
+                "Meteorological - Winter storm",
+                "Meteorological - Epidemic",
+                "Meteorological - Tornado",
                 ""
               ]
             }

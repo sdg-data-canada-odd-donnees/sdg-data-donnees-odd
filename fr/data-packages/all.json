@@ -4394,7 +4394,7 @@
           }
         ]
       },
-      "title": "Proportion of total government spending on essential services (education, health and social protection)"
+      "title": "Proportion des dépenses publiques totales affectée aux services essentiels (éducation, santé et protection sociale)"
     },
     {
       "path": "3-7-2/data.csv",
@@ -6992,7 +6992,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Perte économique dollars canadiens/PIB",
+                "Pourcentage",
                 ""
               ]
             },
@@ -7005,9 +7005,10 @@
               "enum": [
                 "Météorologique - Inondation",
                 "Météorologique - Tempête",
-                "Météorologique - Tempête hivernale",
                 "Météorologique - Feu de forêt",
-                "Météorologique - Épisode de chaleur",
+                "Météorologique - Tempête hivernale",
+                "Meteorological - Epidemic",
+                "Météorologique - Tornade",
                 ""
               ]
             },

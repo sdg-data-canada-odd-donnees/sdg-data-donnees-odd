@@ -19,7 +19,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Economic loss CAN dollars $/GDP",
+                "Percentage",
                 ""
               ]
             }
@@ -31,9 +31,10 @@
               "enum": [
                 "Meteorological - Flood",
                 "Meteorological - Storm",
-                "Meteorological - Winter storm",
                 "Meteorological - Wildfire",
-                "Meteorological - Heat event",
+                "Meteorological - Winter storm",
+                "Meteorological - Epidemic",
+                "Meteorological - Tornado",
                 ""
               ]
             }
