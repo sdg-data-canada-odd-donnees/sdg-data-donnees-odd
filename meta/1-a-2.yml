@@ -8,9 +8,8 @@ SDG_INDICATOR: '<p>Indicator 1.a.2: Proportion of total government spending on e
   services (education, health and social protection)</p>'
 STAT_CONC_DEF: |
     This indicator measures the proportion of total government spending on essential services.
-DATA_COMP: 'Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of total general government expenditure on all sectors (including health, education, social services, etc.).'
+DATA_COMP: 'Total government spending on essential services (education, health and social protection) expressed as a percentage of total general government expenditures.'
 REC_USE_LIM: '  '
- 
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
@@ -35,8 +34,8 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 # source_periodicity_1: Annual
 # source_geographical_coverage_1: Canada, Province or territory
 source_active_1: 'true'
-source_url_text_1: Government Finance Statistics (GFS) - International Monetary Fund, Classification of Functions of Government (COFOG). Custom tabulation.
-source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5174
+source_url_text_1: Statistics Canada. Table 10-10-0005-01  Canadian Classification of Functions of Government (CCOFOG) by consolidated government component (x 1,000,000)
+source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010000501
 source_organisation_1: Statistics Canada
-source_periodicity_1: Quarterly
+source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
