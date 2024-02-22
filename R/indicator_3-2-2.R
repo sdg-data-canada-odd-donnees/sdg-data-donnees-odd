@@ -3,7 +3,7 @@
 
 library(cansim)
 library(dplyr)
-# library(stringr)
+library(stringr)
 
 neonat_mortality_data <- get_cansim("13-10-0712-01", factors = FALSE)
 
@@ -11,7 +11,8 @@ neonat_mort_rate <-
   neonat_mortality_data %>%
   filter(
     REF_DATE >= 2015,
-    UOM == "Rate per 1,000 live births"
+    UOM == "Rate per 1,000 live births",
+    `Age at time of death` == "Neonatal, age at time of death, 0 to 27 days"
   ) %>%
   mutate(
     `Age at time of death` = str_remove(`Age at time of death`, ", age at time of death,")
