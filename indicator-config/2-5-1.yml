@@ -1,6 +1,6 @@
 auto_progress_calculation: true
 composite_breakdown_label: 'Number'
-computation_units: 'Economic loss CAN dollars $/GDP'
+computation_units: 'Number'
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -18,8 +18,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.2-5-1-title
-graph_titles: []
+graph_titles:
+  - series: Accessions of plant genetic resources secured in conservation facilities
+    title: Accessions of plant genetic resources secured in conservation facilities
+  - series: Local breeds stored in genebank
+    title: Local breeds stored in genebank
 graph_type: bar
 indicator_name: global_indicators.2-5-1-title
 indicator_number: 2.5.1
