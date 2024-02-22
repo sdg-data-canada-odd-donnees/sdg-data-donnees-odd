@@ -34,6 +34,7 @@
               "enum": [
                 "Homme",
                 "Femme",
+                "Unknown",
                 ""
               ]
             },
@@ -41,7 +42,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Valeur"
           }
         ]

@@ -15,7 +15,7 @@
             "type": "string"
           },
           {
-            "name": "Genetic resources for food and agriculture (GRFA)",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -30,7 +30,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total Number",
+                "Number",
                 ""
               ]
             }

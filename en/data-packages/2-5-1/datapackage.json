@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "Genetic resources for food and agriculture (GRFA)",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -25,14 +25,14 @@
                 ""
               ]
             },
-            "title": "Genetic resources for food and agriculture (GRFA)"
+            "title": "Series"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total Number",
+                "Number",
                 ""
               ]
             },

@@ -1140,7 +1140,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -2065,7 +2064,7 @@
             "title": "Année"
           },
           {
-            "name": "Genetic resources for food and agriculture (GRFA)",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2074,14 +2073,14 @@
                 ""
               ]
             },
-            "title": "Ressources génétiques pour l'alimentation et l'agriculture (RGAA)"
+            "title": "Series"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Nombre total",
+                "Nombre",
                 ""
               ]
             },
@@ -3475,7 +3474,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "cp1252",
       "schema": {
         "fields": [
           {
@@ -3484,28 +3483,28 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                "Northwest Territories including Nunavut",
+                "Neonatal 0 to 27 days",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Âge"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Les deux sexes",
+                "Hommes",
+                "Femmes",
+                ""
+              ]
+            },
+            "title": "Sexe"
           },
           {
             "name": "Value",
@@ -4340,6 +4339,34 @@
             "title": "Année"
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -4758,6 +4785,7 @@
               "enum": [
                 "Femme",
                 "Homme",
+                "Unknown",
                 ""
               ]
             },
@@ -6631,6 +6659,7 @@
               "enum": [
                 "Homme",
                 "Femme",
+                "Unknown",
                 ""
               ]
             },
@@ -6638,7 +6667,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Valeur"
           }
         ]

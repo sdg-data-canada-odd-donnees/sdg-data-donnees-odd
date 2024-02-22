@@ -32,13 +32,14 @@
               "enum": [
                 "Male",
                 "Female",
+                "Unknown",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

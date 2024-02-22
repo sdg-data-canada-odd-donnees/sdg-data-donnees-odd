@@ -1140,7 +1140,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -2065,7 +2064,7 @@
             "title": "Year"
           },
           {
-            "name": "Genetic resources for food and agriculture (GRFA)",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2074,14 +2073,14 @@
                 ""
               ]
             },
-            "title": "Genetic resources for food and agriculture (GRFA)"
+            "title": "Series"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total Number",
+                "Number",
                 ""
               ]
             },
@@ -3484,28 +3483,28 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
+            "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                "Northwest Territories including Nunavut",
+                "Neonatal 0 to 27 days",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Age"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Both sexes",
+                "Males",
+                "Females",
+                ""
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",
@@ -4340,6 +4339,34 @@
             "title": "Year"
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
@@ -4758,6 +4785,7 @@
               "enum": [
                 "Female",
                 "Male",
+                "Unknown",
                 ""
               ]
             },
@@ -6631,6 +6659,7 @@
               "enum": [
                 "Male",
                 "Female",
+                "Unknown",
                 ""
               ]
             },
@@ -6638,7 +6667,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
