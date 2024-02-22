@@ -4,13 +4,11 @@ SDG_TARGET: '<p>Target 3.d: Strengthen the capacity of all countries, in particu
   and global health risks</p>'
 SDG_INDICATOR: '<p>Indicator 3.d.1: International Health Regulations (IHR) capacity
   and health emergency preparedness</p>'
-STAT_CONC_DEF: <p>The revised International Health Regulations (IHR) were adopted
-  in 2005 and entered into force in 2007. Under the IHR, States Parties are obliged
-  to develop and maintain minimum core capacities for surveillance and response, including
-  at points of entry, in order to early detect, assess, notify, and respond to any
-  potential public health events of international concern.</p>
+STAT_CONC_DEF: |
+  <p>The revised International Health Regulations (IHR) were adopted in 2005 and entered into force in 2007. Under the IHR, States Parties are obliged to develop and maintain minimum core capacities for surveillance and response, including at points of entry, in order to early detect, assess, notify, and respond to any potential public health events of international concern.</p>
+  <p>For each of the 15 capacities, one to five indicators are used to measure implementation status. For each indicator, the reporting State Party is asked to select which of the five levels best describes the State Party's current status. The score of each indicator level is classified as a percentage of performance along the "1 to 5" scale. The level of capacity is expressed as the average of all indicators.</p>
 UNIT_MEASURE: Percentage
-DATA_COMP: '   '
+DATA_COMP: 'Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
