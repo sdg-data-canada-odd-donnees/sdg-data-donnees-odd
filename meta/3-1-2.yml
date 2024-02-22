@@ -2,8 +2,7 @@ SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all
   </p>'
 SDG_TARGET: '<p>Target 3.1: By 2030, reduce the global maternal mortality ratio to
   less than 70 per 100,000 live births </p>'
-SDG_INDICATOR: '<p>Indicator 3.1.2: Proportion of births attended by skilled health
-  personnel </p>'
+SDG_INDICATOR: '<p>Indicator 3.1.2: Proportion of births in hospital </p>'
 STAT_CONC_DEF: 'Proportion of births attended by skilled health personnel (generally doctors, nurses or midwives but can 
   refer to other health professionals providing childbirth care) is the proportion of childbirths attended 
   by professional health personnel. According to the current definition (1) these are competent maternal 
@@ -11,9 +10,13 @@ STAT_CONC_DEF: 'Proportion of births attended by skilled health personnel (gener
   standards. They are competent to: (i) provide and promote evidence-based, human-rights based, quality, 
   socio-culturally sensitive and dignified care to women and newborns; (ii) facilitate physiological processes 
   during labour and delivery to ensure a clean and positive childbirth experience; and (iii) identify and 
-  manage or refer women and/or newborns with complications.'
-DATA_COMP: 'All births - % of non-hospital births'
-REC_USE_LIM: '   '
+  manage or refer women and/or newborns with complications. <br> '
+DATA_COMP: 'Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+REC_USE_LIM: 'The proportion of births in hospital includes live births and fetal deaths (stillbirths). <br> 
+  Prior to April 30, 2015, three forms - a medical certificate of stillbirth, a notice of livebirth or stillbirth and a statement of stillbirth - were required in order to register a stillbirth in Ontario. As of April 30, 2015, registration can occur in the absence of one or two of the forms, thus contributing to the increase observed between 2011 and 2012. <br>
+  Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. As a result, there may have been fewer births and stillbirths captured by the time of the release. The 2022 data are considered preliminary. <br>
+  As a result of delays with birth and stillbirth registrations, fewer births and stillbirths have been captured, to date, for Manitoba in 2022. There were also fewer births captured for Nova Scotia in 2021 due to coverage issues. <br>
+  2017 to 2022 data for Yukon are not available.'
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
@@ -27,13 +30,11 @@ un_custodian_agency: United Nations Children's Fund (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
- 
-
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: |
-    Statistics Canada. Births, 2021. Chart 2. Percentage of non-hospital births, Canada, 2011 to 2021
-source_url_1: https://www150.statcan.gc.ca/n1/daily-quotidien/220928/cg-d002-eng.htm
+    Statistics Canada. Table 13-10-0429-01  Live births and fetal deaths (stillbirths), by place of birth (hospital or non-hospital)
+source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310042901
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
