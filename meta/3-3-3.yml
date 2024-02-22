@@ -6,8 +6,8 @@ SDG_TARGET: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, ma
 SDG_INDICATOR: '<p>Indicator 3.3.3: Malaria incidence per 100,000 population </p>'
 STAT_CONC_DEF: <p>Incidence of malaria is defined as the number of new cases of malaria
   per 100,000 people at risk each year. </p>
-DATA_COMP: 'Rate per 100,000 population'
-REC_USE_LIM: 'Note that the national data for indicator 3.3.3 measures malaria incidence per <i>100,000</i> population, where the global indicator measures malaria incidence per <i>1,000</i> population.'
+DATA_COMP: 'Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+REC_USE_LIM: 'Note that the national data for indicator 3.3.3 measures malaria incidence per 100,000 population rather than the rate per 1,000 population as specified in the metadata.'
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis,
