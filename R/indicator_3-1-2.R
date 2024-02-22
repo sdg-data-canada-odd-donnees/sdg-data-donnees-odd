@@ -5,10 +5,14 @@ library(dplyr)
 library(stringr)
 
 birth_data <- get_cansim("13-10-0429-01", factors = FALSE)
-geocodes <- read.csv("geocodes.csv")
+geocodes <- read.csv("C:\\Users\\wangziq\\Documents\\sdg-data-donnees-odd\\geocodes.csv")
 
 excluded_dimensions <- c(
   "Unknown province or territory, place of residence of mother"
+)
+
+exclude_Canada <- c(
+  "Canada"
 )
 
 hospital <- 
@@ -33,11 +37,17 @@ hospital <-
 total_line <- 
   hospital %>%
   filter(
-    Geography == "Canada",
+    Geography == "Canada"
   ) %>%
   mutate(Geography = "")  
 
-data_final <- bind_rows(total_line, hospital) 
+data_with_Canada <- bind_rows(total_line, hospital)
+
+data_final <-
+  data_with_Canada %>%
+  filter(
+    !Geography %in% exclude_Canada
+  )
 
 write.csv(
   data_final,
