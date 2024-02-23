@@ -2,34 +2,44 @@
 
 library(dplyr)
 library(cansim)
+library(stringr)
 
-completion_rate <- get_cansim("37-10-0130-01", factors = FALSE)
+completion_rate <- get_cansim("37-10-0221-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
 
-education_lvls <- c(
-  "Pre-primary and primary",
-  "Lower secondary",
-  "Upper secondary and post-secondary non-tertiary",
-  "Tertiary education"
+exclude_Canada <- c(
+  "Canada"
 )
 
-data_final <-
-  completion_rate %>% 
-  filter(
-    REF_DATE >= 2015,
-    GEO != "Organisation for Economic Co-operation and Development (OECD) - average",
-    `Educational attainment level` %in% education_lvls
-  ) %>% 
+rate <- 
+  completion_rate %>%
+  mutate(
+    Gender = str_remove(Gender, " gender")
+  ) %>%
   select(
     Year = REF_DATE,
     Geography = GEO,
-    `Educational attainment level`,
-    `Age group`,
-    Sex,
+    `Graduation rate`,
+    Gender,
     Value = VALUE
   ) %>% 
   left_join(geocodes) %>% 
   relocate(GeoCode, .before = Value)
+
+total_line <- 
+  rate %>%
+  filter(
+    Geography == "Canada"
+  ) %>%
+  mutate(Geography = "")  
+
+data_with_Canada <- bind_rows(total_line, rate)
+
+data_final <-
+  data_with_Canada %>%
+  filter(
+    !Geography %in% exclude_Canada
+  ) 
 
 write.csv(
   data_final,
@@ -38,4 +48,3 @@ write.csv(
   row.names = FALSE,
   fileEncoding = "UTF-8"
 )
-  
