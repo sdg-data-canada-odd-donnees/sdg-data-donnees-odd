@@ -8,8 +8,8 @@ SDG_TARGET: '<p>Target 4.b: By 2020, substantially expand globally the number of
   countries</p>'
 SDG_INDICATOR: '<p>Indicator 4.b.1: Volume of official development assistance flows
   for scholarships by sector and type of study</p>'
-STAT_CONC_DEF: <p>Gross disbursements of total ODA from all donors for scholarships.</p>
-DATA_COMP: '   '
+STAT_CONC_DEF: <p>Gross disbursements of total official development assistance (ODA) from all donors for scholarships.</p>
+DATA_COMP: 'Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
   promote lifelong learning opportunities for all</p>'
@@ -25,8 +25,6 @@ un_designated_tier: Tier I
 un_custodian_agency: Organisation for Economic Co-operation and Development (OECD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-0B-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
- 
 
 # SOURCE(S)
 source_active_1: 'true'
