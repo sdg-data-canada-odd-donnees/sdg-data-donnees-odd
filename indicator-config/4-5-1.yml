@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Percentage
+computation_units: Ratio
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -23,9 +23,6 @@ expected_disaggregations:
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_target_lines:
-- label_content: Target
-  value: 1.0
 graph_title: global_indicators.4-5-1-title
 graph_titles: []
 graph_type: bar
