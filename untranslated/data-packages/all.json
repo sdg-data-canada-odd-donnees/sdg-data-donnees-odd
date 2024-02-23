@@ -1367,7 +1367,6 @@
               "enum": [
                 "Excellent",
                 "Good",
-                "Fair",
                 "Total",
                 ""
               ]
@@ -4612,8 +4611,8 @@
                 "Manitoba",
                 "Maritime Coastal drainage region",
                 "New Brunswick",
-                "Newfoundland-Labrador drainage region",
                 "Newfoundland and Labrador",
+                "Newfoundland-Labrador drainage region",
                 "North Saskatchewan drainage region",
                 "North Shore-Gaspé drainage region",
                 "Northern Ontario drainage region",
@@ -5685,14 +5684,13 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -5703,7 +5701,6 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
                 "Northwest Territories",
                 "Nunavut",
                 ""
@@ -5711,39 +5708,22 @@
             }
           },
           {
-            "name": "Educational attainment level",
+            "name": "Graduation rate",
             "type": "string",
             "constraints": {
               "enum": [
-                "Pre-primary and primary",
-                "Lower secondary",
-                "Upper secondary and post-secondary non-tertiary",
-                "Tertiary education",
+                "On-time",
+                "Extended-time",
                 ""
               ]
             }
           },
           {
-            "name": "Age group",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 25 to 64 years",
-                "25 to 34 years",
-                "30 to 34 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 to 64 years",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Both sexes",
+                "Total",
                 "Male",
                 "Female",
                 ""

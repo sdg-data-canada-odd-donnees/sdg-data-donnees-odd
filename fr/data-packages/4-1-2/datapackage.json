@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Année"
           },
           {
@@ -20,7 +20,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -31,7 +30,6 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
                 ""
@@ -40,47 +38,29 @@
             "title": "Géographie"
           },
           {
-            "name": "Educational attainment level",
+            "name": "Graduation rate",
             "type": "string",
             "constraints": {
               "enum": [
-                "Pré-primaire et primaire",
-                "Premier cycle du secondaire",
-                "Deuxième cycle du secondaire et postsecondaires non tertiaire",
-                "Études tertiaires",
+                "On-time",
+                "Extended-time",
                 ""
               ]
             },
-            "title": "Niveau de scolarité atteint"
+            "title": "Graduation rate"
           },
           {
-            "name": "Age group",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 25 à 64 ans",
-                "25 à 34 ans",
-                "30 à 34 ans",
-                "35 à 44 ans",
-                "45 à 54 ans",
-                "55 à 64 ans",
-                ""
-              ]
-            },
-            "title": "Groupe d'âge"
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Les deux sexes",
+                "Total",
                 "Homme",
                 "Femme",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
           },
           {
             "name": "GeoCode",
