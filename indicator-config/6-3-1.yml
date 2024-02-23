@@ -17,8 +17,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.6-3-1-title
-graph_titles: []
+graph_titles:
+  - series: Wastewater discharge from manufacturing industries
+    title: Wastewater discharge from manufacturing industries
+  - series: Wastewater discharged from municipal sewage systems
+    title: Wastewater discharged from municipal sewage systems
 graph_type: line
 indicator_name: global_indicators.6-3-1-title
 indicator_number: '6.3.1'
