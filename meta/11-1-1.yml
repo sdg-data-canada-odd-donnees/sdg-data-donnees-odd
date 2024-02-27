@@ -3,7 +3,7 @@ SDG_GOAL: '<p>Goal 11: Make cities and human settlements inclusive, safe, resili
 SDG_TARGET: '<p>Target 11.1: By 2030, ensure access for all to adequate, safe and
   affordable housing and basic services and upgrade slums</p>'
 indicator_available: Proportion of urban population in core housing need
-SDG_INDICATOR: '<p>Indicator 11.1.1: Proportion of urban population living in slums, informal settlements or inadequate housing</p>'
+SDG_INDICATOR: '<p>Indicator 11.1.1: Proportion of urban population in core housing need</p>'
 DATA_COMP: '     '
 STAT_CONC_DEF: >-
     <p>A household is said to be in "core housing need" if its housing falls below at least one of the adequacy, affordability or suitability standards and it would have to spend 30% or more of its total before-tax income to pay the median rent of alternative local housing that is acceptable (meets all three housing standards). 
@@ -23,8 +23,6 @@ un_designated_tier: Tier I
 un_custodian_agency: United Nations Human Settlements Programme (UN-Habitat)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-01-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
- 
 
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 46-10-0065-01  Core housing need, by tenure including first-time homebuyer and social and affordable housing status
