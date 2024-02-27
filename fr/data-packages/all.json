@@ -1075,7 +1075,7 @@
             "title": "Année"
           },
           {
-            "name": "Location",
+            "name": "Economic activity",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1085,7 +1085,7 @@
                 ""
               ]
             },
-            "title": "Location"
+            "title": "Economic activity"
           },
           {
             "name": "Value",
@@ -3260,7 +3260,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Cadres supérieures",
+                "Membres des corps législatifs et cadres supérieurs/cadres supérieures",
                 "Cadres intermédiaires spécialisés/cadres intermédiaires spécialisées",
                 "Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle",
                 "Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique",

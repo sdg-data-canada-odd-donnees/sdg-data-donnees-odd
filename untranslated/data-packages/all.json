@@ -998,7 +998,7 @@
             "type": "integer"
           },
           {
-            "name": "Location",
+            "name": "Economic activity",
             "type": "string",
             "constraints": {
               "enum": [
@@ -3018,7 +3018,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Senior management occupations",
+                "Legislative and senior management occupations",
                 "Specialized middle management occupations",
                 "Middle management occupations in retail and wholesale trade and customer services",
                 "Middle management occupations in trades, transportation, production and utilities",
