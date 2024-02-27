@@ -4,12 +4,10 @@ SDG_GOAL: |-
 SDG_TARGET: |-
   Target 8.1: Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries
 SDG_INDICATOR: '<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p>'
-STAT_CONC_DEF: <p>this indicator measures the annual growth rate of real GDP per capita.</p>
-DATA_COMP: 'Annual growth rate of real Gross Domestic Product (GDP) per capita
-  is calculated as the percentage change in the real GDP per capita between two consecutive
-  years. Real GDP per capita is calculated by dividing GDP at constant prices by the
-  population of the country or region.'
-REC_USE_LIM: '   '
+STAT_CONC_DEF: <p>This indicator measures the annual growth rate of real GDP per capita.</p>
+DATA_COMP: 'Real GDP per capita in time t = Real GDP in time t / total population in time <br><br> 
+  Annual growth rate of real GPD per capita (in %) = (((Real GDP per capita at time t)-(Real GDP per capita at time t-1))/(Real GDP per capita at time t-1))x100'
+REC_USE_LIM: 'GDP data for this indicator is calculated using 2017 chained Canadian dollars as opposed to 2015 US dollars as stated in the global metadata.'
  
 
 # GLOBAL
