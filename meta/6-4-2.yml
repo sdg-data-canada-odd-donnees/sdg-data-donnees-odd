@@ -13,7 +13,7 @@ STAT_CONC_DEF: '<p>The level of water stress: freshwater withdrawal as a proport
   include agriculture; forestry and fishing; manufacturing; electricity industry;
   and services. This indicator is also known as water withdrawal intensity.
   <br>
-  <br>Above 25% of water stress, four classes have been identified to signal different levels of stress severity;
+  <br>Above 25% of water stress, four classes have been identified to signal different levels of stress severity:
   <br>
   <br>- No stress <25%
   <br>
@@ -24,7 +24,7 @@ STAT_CONC_DEF: '<p>The level of water stress: freshwater withdrawal as a proport
   <br>- High 75-100%
   <br>
   <br>- Critical >100%</p>'
-DATA_COMP: '   '
+DATA_COMP: 'Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: '<p>Freshwater withdrawal as a percentage of renewable freshwater resources is a good indicator of pressure 
   on limited water resources, one of the most important natural resources. However, it only partially 
   addresses the issues related to sustainable water management.
@@ -45,11 +45,9 @@ un_custodian_agency: Food and Agriculture Organization of the United Nations (FA
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
- 
-
 source_active_1: 'true'
-source_url_text_1: UN-Water. SDG 6 snapshot in Canada.
-source_url_1: https://www.sdg6data.org/en/country-or-area/Canada#anchor_6.3.2:~:text=Water%20resources%20and%20withdrawal%20in%20Canada%2C%20total%20and%20per%20capita
-source_organisation_1: UN-Water
+source_url_text_1: UN Water
+source_url_1: https://sdg6data.org/en/tables
+source_organisation_1: Food and Agriculture Organisation of United Nations (FAO)
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
