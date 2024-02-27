@@ -7,7 +7,7 @@ STAT_CONC_DEF: <p>The proportion of seats held by women in (a) national parliame
   currently as at 1 January of reporting year, is currently measured as the number
   of seats held by women members in single or lower chambers of national parliaments,
   expressed as a percentage of all occupied seats.</p>
-DATA_COMP: '   '
+DATA_COMP: 'Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
 SDG_TARGET__GLOBAL: '<p>Target 5.5: Ensure women&#x2019;s full and effective participation
@@ -20,7 +20,6 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=5&Target=5.5
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 reporting_status: complete
-UNIT_MEASURE: Percentage
 
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 10-10-0137-01  Representation of women and men elected to national Parliament and of ministers appointed to federal Cabinet

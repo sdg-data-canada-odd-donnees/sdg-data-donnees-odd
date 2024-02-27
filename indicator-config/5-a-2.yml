@@ -21,6 +21,7 @@ graph_title: global_indicators.5-a-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.5-a-2-title
+indicator_available: proxy.5-a-2-title
 indicator_number: 5.a.2
 national_geographical_coverage: ''
 page_content: |
@@ -34,5 +35,6 @@ progress_status: not_available
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+- Proxy
 "\xEF\xBB\xBFcomposite_breakdown_label": ''

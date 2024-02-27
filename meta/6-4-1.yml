@@ -6,8 +6,12 @@ SDG_TARGET: '<p>Target 6.4: By 2030, substantially increase water-use efficiency
   water scarcity and substantially reduce the number of people suffering from water
   scarcity</p>'
 SDG_INDICATOR: '<p>Indicator 6.4.1: Change in water-use efficiency over time</p>'
-STAT_CONC_DEF: 'Change in water use efficiency over time (CWUE): The change in the ratio of the value added to the volume of water use, over time.'
-DATA_COMP: '   '
+STAT_CONC_DEF: 'Change in water use efficiency over time (CWUE): The change in the ratio of the value added to the volume of water use, over time. <br> <br> Water Use Efficiency (WUE) is defined as the value added of a given major sector divided by the volume
+  of water used. <br> <br> Following the United Nations International Standard Industrial Classification of All Economic Activities ISIC 4 coding, sectors are defined as: <br>
+  1. agriculture; forestry; fishing (ISIC A), hereinafter “agriculture”; <br>
+  2. mining and quarrying; manufacturing; electricity, gas, steam and air conditioning supply; constructions (ISIC B, C, D and F), hereinafter “MIMEC”; <br>
+  3. all the service sectors (ISIC E and ISIC G-T), hereinafter “services'
+DATA_COMP: 'Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: '   '
 
 # GLOBAL
@@ -27,7 +31,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: Food and Agriculture Organization of the United Nations (FAO). FAO AQUASTAT. 
+source_url_text_1: UN Water
 source_url_1: https://sdg6data.org/en/tables
 source_organisation_1: Food and Agriculture Organization of the United Nations (FAO)
 source_periodicity_1: Annual
