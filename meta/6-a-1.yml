@@ -10,7 +10,7 @@ STAT_CONC_DEF: <p>Amount of water- and sanitation-related official development a
   that is part of a government-coordinated spending plan is defined as the proportion
   of total water and sanitation-related Official Development Assistance (ODA) disbursements
   that are included in the government budget.</p>
-DATA_COMP: '   '
+DATA_COMP: 'Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
   and sanitation for all</p>'
@@ -25,8 +25,6 @@ un_designated_tier: Tier I
 un_custodian_agency: World Health Organization (WHO), United Nations Environment Programme (UNEP), Organisation for Economic Co-operation and Development (OECD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-0A-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
- 
 
 # SOURCE(S)
 source_active_1: 'true'
