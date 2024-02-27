@@ -5,11 +5,9 @@ SDG_TARGET: '<p>Target 7.1: By 2030, ensure universal access to affordable, reli
 SDG_INDICATOR: '<p>Indicator 7.1.2: Proportion of population with primary reliance
   on clean fuels and technology</p>'
 STAT_CONC_DEF: |
-  Countries classified as high-income according to the World Bank 
-  country classification (80 countries) in the 2020 fiscal year were assumed to have
-  fully transitioned to clean household energy and therefore are reported as >95% 
-  access to clean technologies.
-DATA_COMP: '   '
+  This indicator measures the proportion of the population with primary reliance on clean fuels and technology. <br><br>
+  Countries classified as “High Income” based on the World Bank Country and Lending Groups are assumed to reach universal access from the first year the country joined the category.
+DATA_COMP: 'Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and
   modern energy for all</p>'
