@@ -17,10 +17,7 @@ STAT_CONC_DEF: |
   <p>The agriculture sector is as defined by the DAC and comprises all CRS sector codes in the 311 series (see here: http://www.oecd.org/dac/stats/purposecodessectorclassification.htm)</p>
 DATA_COMP: |
   <p>Data were readily available to report to this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.</p> 
-  <p>To access the data through the original data source, go to the OECD's website and follow these steps:</p>
-  <p>   1. Browse by topic and select Official Development Assistance (ODA) </p>
-  <p>   2. In filters, select Canada as donor and Agriculture as sector </p>
-  <p>   3. Select "Bilateral ODA commitments" and "Bilateral Other Official Flows (OOF)" as measure </p>
+  <p>Data are from the Creditor Reporting System from the OECD. Select Donor = "Canada", Sector = "311: III.1.a. Agrigulture", Total, Flow = "Official Development Assistance", Amount type = "Constant Prices", and Flow type = "Gross Disbursements".</p>>
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
@@ -36,12 +33,10 @@ un_custodian_agency: Organisation for Economic Co-operation and Development (OEC
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-0A-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
- 
-
 # Source(s)
 source_active_1: 'true'
 source_organisation_1: Organisation for Economic Co-operation and Development (OECD)
-source_url_1: https://data-explorer.oecd.org/vis?fs[0]=Topic%2C1%7CDevelopment%23DEV%23%7COfficial%20Development%20Assistance%20%28ODA%29%23DEV_ODA%23&fs[1]=Donor%2C0%7CCanada%23CAN%23&fs[2]=Sector%2C4%7CAll%20sectors%231000%23%7CSector%20allocable%23450%23%7CProduction%20sectors%23300%23%7CAgriculture&pg=0&fc=Sector&snb=1&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_DAC1%40DF_DAC5&df[ag]=OECD.DCD.FSD&df[vs]=1.0&pd=%2C&dq=CAN.530%2B528....Q.311&ly[rw]=SECTOR&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false&lo=5&lom=LASTNPERIODS
-source_url_text_1: OECD Data Explorer
+source_url_1: https://stats.oecd.org/#
+source_url_text_1: OECD. Creditor Reporting System (CRS).
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
