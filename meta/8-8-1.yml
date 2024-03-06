@@ -8,7 +8,7 @@ STAT_CONC_DEF: <p>This indicator provides information on the number of fatal and
   occupational injuries per 100,000 workers in the reference group during the reference
   period. It is a measure of the personal likelihood or risk of having a fatal or
   a non-fatal occupational injury for each worker in the reference group.</p>
-DATA_COMP: '   '
+DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status".'
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all</p>'
@@ -28,8 +28,5 @@ source_url_1: https://awcbc.org/en/statistics/national-work-injury-disease-and-f
 source_organisation_1: Association of Workers' Compensation Boards of Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
-
- 
- 
 
 proxy: proxy
