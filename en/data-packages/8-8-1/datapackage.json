@@ -16,16 +16,16 @@
             "title": "Year"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Number of fatality claims, by sex",
-                "Number of lost time claims, by sex",
+                "Fatality claims",
+                "Lost time claims",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Series"
           },
           {
             "name": "Sex",

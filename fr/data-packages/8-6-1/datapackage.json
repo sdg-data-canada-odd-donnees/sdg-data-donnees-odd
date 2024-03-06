@@ -20,7 +20,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -40,20 +39,6 @@
             "title": "Géographie"
           },
           {
-            "name": "Educational attainment level",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, tous les niveaux de scolarité",
-                "Inférieur aux études secondaires",
-                "Deuxième cycle du secondaire et postsecondaires non tertiaire",
-                "Études tertiaires",
-                ""
-              ]
-            },
-            "title": "Niveau de scolarité atteint"
-          },
-          {
             "name": "Status",
             "type": "string",
             "constraints": {
@@ -71,9 +56,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Les deux sexes",
                 "Hommes",
                 "Femmes",
-                "Les deux sexes",
                 ""
               ]
             },
@@ -84,12 +69,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 15 to 29 years",
                 "15 à 19 ans",
                 "15 à 24 ans",
                 "18 à 24 ans",
                 "20 à 24 ans",
-                "25 à 29 ans",
                 ""
               ]
             },
