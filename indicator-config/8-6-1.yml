@@ -1,6 +1,6 @@
 auto_progress_calculation: true
 composite_breakdown_label: ''
-computation_units: Percentage
+computation_units: Percent (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -11,14 +11,12 @@ data_show_map: true
 data_start_values:
 - field: Geography
   value: Canada
-- field: Educational attainment level
-  value: Total, all education levels
 - field: Status
   value: Total, not in employment, education or training (NEET)
 - field: Sex
   value: Both sexes
 - field: Age group
-  value: Total, 15 to 29 years
+  value: 15 to 24 years
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
