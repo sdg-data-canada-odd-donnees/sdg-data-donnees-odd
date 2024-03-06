@@ -9,7 +9,7 @@ STAT_CONC_DEF: 'The number of commercial bank branches per 100,000 adults.
   <br><br> The number of automated teller machines (ATMs) per 100,000 adults.
   <br><br> Adult population refers to the total population in the reporting jurisdiction of individuals 15 years old and 
   above.'
-DATA_COMP: '   '
+DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all</p>'
@@ -25,7 +25,7 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 source_active_1: 'true'
 source_url_text_1: "Financial Access Survey"
-source_url_1: http://data.imf.org/?sk=E5DCAB7E-A5CA-4892-A6EA-598B5463A34C
+source_url_1: https://data.imf.org/?sk=be8ea177-8830-46e8-9a2d-86c22a73308d&hide_uv=1
 source_organisation_1: International Monetary Fund
 source_geographical_coverage_1: Canada
 source_periodicity_1: Annual

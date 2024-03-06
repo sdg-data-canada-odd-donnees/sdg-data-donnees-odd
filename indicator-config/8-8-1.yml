@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Number
+computation_units: Number of claims
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -20,8 +20,11 @@ expected_disaggregations:
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: proxy.8-8-1-title
-graph_titles: []
+graph_titles:
+  - series: Fatality claims
+    title: Fatality claims
+  - series: Lost time claims
+    title: Lost time claims
 graph_type: line
 indicator_available: proxy.8-8-1-title
 indicator_name: global_indicators.8-8-1-title
@@ -38,5 +41,4 @@ sort: ''
 standalone: false
 tags: 
 - Proxy
-
 "\xEF\xBB\xBFcomposite_breakdown_label": ''

@@ -5,18 +5,16 @@ library(dplyr)
 library(cansim)
 library(stringr)
 
-national_gdp <- get_cansim("36-10-0434-03", factors = FALSE)
-pt_gdp <- get_cansim("36-10-0402-01", factors = FALSE)
+real_gdp <- get_cansim("36-10-0222-01", factors = FALSE)
 pop_ests <- get_cansim("17-10-0005-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
 
 national_gdp <-
-  national_gdp %>% 
+  real_gdp %>% 
   filter(
     substr(REF_DATE, 1, 4) >= 2014,
-    `Seasonal adjustment` == "Seasonally adjusted at annual rates",
-    Prices == "Chained (2012) dollars",
-    `North American Industry Classification System (NAICS)` == "All industries [T001]"
+    Estimates == "Gross domestic product at market prices",
+    Prices == "Chained (2017) dollars"
   ) %>% 
   select(
     REF_DATE,
@@ -29,25 +27,13 @@ national_gdp <-
   group_by(Year, Geography) %>% 
   summarise(GDP = mean(VALUE), .groups = "drop")
 
-pt_gdp <-
-  pt_gdp %>% 
-  filter(
-    REF_DATE >= 2014,
-    Value == "Chained (2012) dollars",
-    `North American Industry Classification System (NAICS)` == "All industries [T001]"
-  ) %>% 
-  select(
-    Year = REF_DATE,
-    Geography = GEO,
-    GDP = VALUE
-  )
-
 pop_ests <- 
   pop_ests %>% 
   filter(
     REF_DATE >= 2014,
-    Sex == "Both sexes",
-    `Age group` == "All ages"
+    Gender == "Total - gender",
+    `Age group` == "All ages",
+    UOM == "Persons"
   ) %>% 
   select(
     Year = REF_DATE,
@@ -57,8 +43,7 @@ pop_ests <-
 
 all_gdp <- 
   bind_rows(
-    national_gdp,
-    pt_gdp
+    national_gdp
   ) %>% 
   left_join(pop_ests) %>% 
   mutate(
