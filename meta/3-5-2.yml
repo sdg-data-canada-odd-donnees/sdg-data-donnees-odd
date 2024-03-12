@@ -5,7 +5,7 @@ SDG_TARGET: '<p>Target 3.5: Strengthen the prevention and treatment of substance
 SDG_INDICATOR: '<p>Indicator 3.5.2: Alcohol per capita consumption (aged 15 years
   and older) within a calendar year in litres of pure alcohol </p>'
 STAT_CONC_DEF: <p>This indicator measures the alcohol per capita consumption in litres.</p>
-DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'

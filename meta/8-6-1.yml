@@ -6,7 +6,7 @@ SDG_INDICATOR: '<p>Indicator 8.6.1: Proportion of youth (aged 15-24 years) not i
   education, employment or training </p>'
 STAT_CONC_DEF: |
   This indicator conveys the proportion of youth (aged 15-24 years) not in education, employment or training (also known as "the youth NEET rate").
-DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |
  Not in employment, education or training (NEET) rates for the provinces are the average rate of the first three months of the calendar year (first quarter), which excludes summer employment. For the territories, the average is calculated over 8 months (September to April) as the survey sample and data collection differs meaningfully from those of the provinces.
 

@@ -9,7 +9,7 @@ SDG_INDICATOR: '<p>Indicator 8.4.1: Material footprint, material footprint per c
 STAT_CONC_DEF: <p>Material Footprint (MF) is the attribution of global material extraction
   to domestic final demand of a country. The total material footprint is the sum of
   the material footprint for biomass, fossil fuels, metal ores and non-metal ores.</p>
-DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic growth, 
   full and productive employment and decent work for all</p>'

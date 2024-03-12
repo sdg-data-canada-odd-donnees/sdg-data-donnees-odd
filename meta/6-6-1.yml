@@ -69,7 +69,7 @@ DATA_COMP: |
   Combined surface-water changes = permanent + seasonal + reservoir changes. Changes
   in surface-water area are observed in 2015 and 2020, which are compared against a 20-year
   reference period.
-REC_USE_LIM: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+REC_USE_LIM: custom.data-comp
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
   and sanitation for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 6.6: By 2030 protect and restore water-related ecosystems,

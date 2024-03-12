@@ -24,7 +24,7 @@ STAT_CONC_DEF: '<p>The level of water stress: freshwater withdrawal as a proport
   <br>- High 75-100%
   <br>
   <br>- Critical >100%</p>'
-DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '<p>Freshwater withdrawal as a percentage of renewable freshwater resources is a good indicator of pressure 
   on limited water resources, one of the most important natural resources. However, it only partially 
   addresses the issues related to sustainable water management.

@@ -8,7 +8,7 @@ SDG_INDICATOR: '<p>Indicator 3.3.5: Number of people requiring interventions aga
 STAT_CONC_DEF: <p>Number of people requiring treatment and care for any one of the
   neglected tropical diseases (NTDs) targeted by the WHO NTD Roadmap and World Health
   Assembly resolutions and reported to WHO. </p>
-DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'

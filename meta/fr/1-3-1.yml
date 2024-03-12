@@ -12,7 +12,7 @@ STAT_CONC_DEF: |
     Une famille économique est constituée d'un groupe de deux personnes ou plus qui vivent dans le même logement et qui sont apparentées par le sang, par alliance, par union libre, par adoption ou par une relation de famille d'accueil.<br><br>Les « personnes plus âgées » comprennent les personnes de 65 ans et plus et « pension » renvoie à celles qui reçoivent des pensions du RPC ou du RRQ seulement (ne comprend pas la SV, le SRG, ni les Régimes de pension privés).<br><br>Pourcentage de la main-d'œuvre qui est couverte par le régime d'indemnité pour accident de travail. Le nombre de personnes assurées représente la somme de deux éléments principaux : 1) les employés d'employeurs assurables ainsi que les travailleurs autonomes qui souscrivent à une assurance; et 2) les employés d'employeurs auto-assurés ainsi que les employés du gouvernement du Canada. Sont exclues les personnes admissibles à une couverture personnelle qui ne prennent pas la couverture, ainsi que les travailleurs explicitement exclus en vertu des lois provinciales.
 
 # GLOBAL
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et
   partout dans le monde</p>'

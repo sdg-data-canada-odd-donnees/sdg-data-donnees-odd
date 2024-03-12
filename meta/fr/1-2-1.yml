@@ -7,7 +7,7 @@ SDG_INDICATOR: '<p>Indicateur 1.2.1 : Proportion de la population vivant au-dess
 STAT_CONC_DEF: |
   <p>Cet indicateur mesure le pourcentage de personnes à faible revenu à l’aide des mesures du panier de consommation (MPC), qui ont été adoptées comme seuil officiel de pauvreté au Canada. Selon le MPC, une famille vit dans la pauvreté si elle ne dispose pas de revenus suffisants pour acheter un panier spécifique de biens et de services dans sa communauté.</p>
   <p>La Mesure du panier de consommation (MPC) est fondée sur le coût d'un panier de biens et de services précis correspondant à un niveau de vie de base modeste. Le panier comprend la nourriture, les vêtements, le transport, le logement et d'autres dépenses pour une famille de référence. Ces coûts sont comparés au revenu disponible des famille pour déterminer si elles vivent ou non sous le seuil de la pauvreté.</p>
-DATA_COMP: 'Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: "Ceci couvre tous les individus au Canada, sauf ceux qui vivent dans les réserves et dans d'autres peuplements autochtones des provinces, les pensionnaires d'établissements institutionnels et les ménages situés dans des régions extrêmement éloignées où la densité de population est très faible. Dans l'ensemble, ces exclusions représentent moins de 2 % de la population."
 SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans
   le monde</p>'
