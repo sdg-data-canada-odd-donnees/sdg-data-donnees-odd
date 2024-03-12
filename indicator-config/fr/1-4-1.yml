@@ -1,4 +1,4 @@
-computation_units: 'Percentage'
+computation_units: Percentage
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -52,12 +52,23 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-4-1-title
-graph_titles: []
+graph_titles:
+  - series: Access to basic drinking water services
+    title: Access to basic drinking water services
+  - series: Access to basic sanitation services
+    title: Access to basic sanitation services
+  - series: Access to clean fuels and technology
+    title: Access to clean fuels and technology
+  - series: Access to basic mobility
+    title: Access to basic mobility
+  - series: Access to basic education
+    title: Access to basic education
+  - series: Access to basic information services
+    title: Access to basic information services
 graph_type: line
 indicator_name: global_indicators.1-4-1-title
 indicator_number: 1.4.1
-national_geographical_coverage: ' '
+national_geographical_coverage: Canada
 page_content: ''
 #page_content: |
 #  <strong>Explorer les sources de données</strong>
