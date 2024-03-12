@@ -7,7 +7,7 @@ SDG_INDICATOR: '<p>Indicator 8.5.1: Average hourly earnings of employees, by sex
   age, occupation and persons with disabilities</p>'
 STAT_CONC_DEF: 'This indicator provides information on the mean hourly earnings from paid employment of employees by 
   sex, occupation, age, and disability status.'
-DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 UOM: CAD ($)
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic

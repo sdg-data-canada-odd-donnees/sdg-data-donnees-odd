@@ -34,19 +34,14 @@ loading: Chargement
 loading_map: Chargement de la carte
 map: Carte
 national_metadata: Métadonnées nationales
-national_metadata_blurb: Cette table fournit des métadonnées pour l&#39;indicateur
-  réel disponible à partir des statistiques %country.name les plus proches de l&#39;indicateur
-  SDG global correspondant. Veuillez noter que même lorsque l&#39;indicateur global
-  des ODD est entièrement disponible à partir des statistiques %country.adjective,
-  ce tableau devrait être consulté pour obtenir des informations sur la méthodologie
-  nationale et d&#39;autres informations sur les métadonnées spécifiques à un pays_adjectif.
+national_metadata_blurb: La section ci-dessous fournit de l'information sur l’indicateur.
 no_data_hint: Aucune option disponible en raison des filtres ci-dessus
 select_all: Tout sélectionner
 series: Séries
 series_help: Choisissez des catégories dans les listes déroulantes ci-dessous pour
-  voir différentes répartitions des données. Certains ne seront pas disponibles jusqu&#39;à
+  voir différentes répartitions des données. Certaines ne seront pas disponibles jusqu&#39;à
   ce qu&#39;un niveau supérieur soit choisi.
-source: La source
+source: Source
 sources: Sources
 sub_categories: Sous-catégories
 table: Table

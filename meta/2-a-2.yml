@@ -16,7 +16,8 @@ STAT_CONC_DEF: |
   <p>Other official flows (OOF): Other official flows (excluding officially supported export credits) are defined as transactions by the official sector which do not meet the conditions for eligibility as ODA, either because they are not primarily aimed at development, or because they are not sufficiently concessional. (See http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf, Para 24).</p> <br>
   <p>The agriculture sector is as defined by the DAC and comprises all CRS sector codes in the 311 series (see here: http://www.oecd.org/dac/stats/purposecodessectorclassification.htm)</p>
 DATA_COMP: |
-  <p>Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.</p> 
+  custom.data-comp
+  <br>
   <p>Data are from the Creditor Reporting System from the OECD. Select Donor = "Canada", Sector = "311: III.1.a. Agrigulture, Total", Flow = "Official Development Assistance", Amount type = "Constant Prices", and Flow type = "Gross Disbursements".</p>>
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition

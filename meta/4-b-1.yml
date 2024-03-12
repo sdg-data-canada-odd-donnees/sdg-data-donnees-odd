@@ -9,7 +9,7 @@ SDG_TARGET: '<p>Target 4.b: By 2020, substantially expand globally the number of
 SDG_INDICATOR: '<p>Indicator 4.b.1: Volume of official development assistance flows
   for scholarships by sector and type of study</p>'
 STAT_CONC_DEF: <p>Gross disbursements of total official development assistance (ODA) from all donors for scholarships.</p>
-DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source. <br><br>
+DATA_COMP: 'custom.data-comp <br><br>
   Data are from the Creditor Reporting System from the OECD. Select Donor = "Canada", Sector = "110: I.1. Education, Total", Flow = "Official Development Assistance", Amount type = "Constant Prices", Flow type = "Gross Disbursements", and Type of aid = "Scholarships and student costs in donor countries".'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and

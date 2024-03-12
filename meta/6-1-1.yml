@@ -5,7 +5,7 @@ STAT_CONC_DEF: >-
     The indicator is defined as the proportion of the population using safely managed drinking water services is defined as the 
     proportion of population using an improved drinking water source which is accessible on premises, 
     available when needed and free from faecal and priority chemical contamination.
-DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water and sanitation for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 6.1: By 2030, achieve universal and equitable access to safe and affordable drinking water for all.</p>'

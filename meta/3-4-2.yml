@@ -5,7 +5,7 @@ SDG_TARGET: '<p>Target 3.4: By 2030, reduce by one third premature mortality fro
   and well-being </p>'
 SDG_INDICATOR: '<p>Indicator 3.4.2: Suicide mortality rate </p>'
 STAT_CONC_DEF: <p>This indicator measures the suicide mortality rate per 100,000 population.</p>
-DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'

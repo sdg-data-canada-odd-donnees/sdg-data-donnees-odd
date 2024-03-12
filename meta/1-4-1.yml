@@ -13,10 +13,7 @@ STAT_CONC_DEF: |
   basic services implies that sufficient and affordable service is reliably available
   with adequate quality.
   <br>
-  <br>Basic Services refer to public service provision systems that meet human basic needs 
-  including drinking water, sanitation, hygiene, energy, mobility, waste collection, health 
-  care, education and information technologies. This indicator is based on 9 components which 
-  are captured in various standalone indicators of the SDGs which each have their own indicator 
+  <br>This indicator is based on 9 components which are captured in various standalone indicators of the SDGs which each have their own indicator 
   page.<br>
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/3-8-1/">Indicator 3.8.1</a>
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/4-1-1/">Indicator 4.1.1</a>
@@ -28,7 +25,7 @@ STAT_CONC_DEF: |
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/9-c-1/">Indicator 9.c.1</a>
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/11-2-1/">Indicator 11.2.1</a>
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/11-6-1/">Indicator 11.6.1</a>
-DATA_COMP: 'Data were readily available to report for this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
 SDG_TARGET__GLOBAL: '<p>Target 1.4: By 2030, ensure that all men and women, in particular
