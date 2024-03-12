@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux pour 100 000 habitants",
+                "Taux par 100 000 habitants",
                 "Nombre de décès",
                 ""
               ]
@@ -32,7 +32,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux pour 100 000 habitants",
+                "Taux par 100 000 habitants",
                 "Nombre",
                 ""
               ]
@@ -67,5 +67,5 @@
   ],
   "profile": "data-package",
   "name": "11-5-1",
-  "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes"
+  "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, par 100 000 personnes"
 }

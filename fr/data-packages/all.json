@@ -203,7 +203,7 @@
           }
         ]
       },
-      "title": "Nombre de victimes d’homicide volontaire pour 100 000 habitants, par sexe et âge"
+      "title": "Nombre de victimes d’homicide volontaire par 100 000 habitants, par sexe et âge"
     },
     {
       "path": "17-1-1/data.csv",
@@ -372,7 +372,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Nombre de succursales de banques commerciales pour 100 000 adultes",
+                "Nombre de succursales de banques commerciales par 100 000 adultes",
                 "Nombre de guichets automatiques bancaires (GAB) par 100 000 adultes",
                 ""
               ]
@@ -386,7 +386,7 @@
           }
         ]
       },
-      "title": "a) Nombre de succursales de banques commerciales pour 100 000 adultes et b) nombre de distributeurs automatiques de billets pour 100 000 adultes"
+      "title": "a) Nombre de succursales de banques commerciales par 100 000 adultes et b) nombre de distributeurs automatiques de billets par 100 000 adultes"
     },
     {
       "path": "1-4-2/data.csv",
@@ -878,7 +878,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux pour 100 000 habitants",
+                "Taux par 100 000 habitants",
                 "Nombre de décès",
                 ""
               ]
@@ -890,7 +890,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux pour 100 000 habitants",
+                "Taux par 100 000 habitants",
                 "Nombre",
                 ""
               ]
@@ -921,7 +921,7 @@
           }
         ]
       },
-      "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes"
+      "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, par 100 000 personnes"
     },
     {
       "path": "11-6-1/data.csv",
@@ -1153,7 +1153,7 @@
                 "Kitchener - Cambridge - Waterloo, Ontario",
                 "London, Ontario",
                 "Moncton, Nouveau-Brunswick",
-                "Montreal, Quebec",
+                "Montréal, Québec",
                 "Oshawa, Ontario",
                 "Ottawa - Gatineau (partie de l'Ontario), Ontario",
                 "Ottawa - Gatineau (partie du Québec), Québec",
@@ -1447,7 +1447,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Nunavut/Northwest Territories",
+                "Territoires du Nord-Ouest et Nunavut",
                 "Yukon",
                 ""
               ]
@@ -2100,7 +2100,7 @@
                 "Canada",
                 "Edmonton, Alberta",
                 "Manitoba",
-                "Montreal, Quebec",
+                "Montréal, Québec",
                 "Nouveau-Brunswick",
                 "Terre-Neuve-et-Labrador",
                 "Nouvelle-Écosse",
@@ -2429,7 +2429,7 @@
                 "Météorologique - Tempête",
                 "Météorologique - Feu de forêt",
                 "Météorologique - Tempête hivernale",
-                "Meteorological - Epidemic",
+                "Météorologique - Épidémie",
                 "Météorologique - Tornade",
                 ""
               ]
@@ -3374,7 +3374,7 @@
           }
         ]
       },
-      "title": "Incidence de l’hépatite B pour 100 000 habitants"
+      "title": "Incidence de l’hépatite B par 100 000 habitants"
     },
     {
       "path": "6-3-1/data.csv",
@@ -3795,7 +3795,7 @@
           }
         ]
       },
-      "title": "Nombre de victimes de la traite d’êtres humains pour 100 000 habitants, par sexe, âge et forme d’exploitation"
+      "title": "Nombre de victimes de la traite d’êtres humains par 100 000 habitants, par sexe, âge et forme d’exploitation"
     },
     {
       "path": "4-1-2/data.csv",
@@ -4102,7 +4102,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux pour 100 000 habitants",
+                "Taux par 100 000 habitants",
                 "Nombre de décès",
                 ""
               ]
@@ -4114,7 +4114,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux pour 100 000 habitants",
+                "Taux par 100 000 habitants",
                 "Nombre",
                 ""
               ]
@@ -4145,7 +4145,7 @@
           }
         ]
       },
-      "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes"
+      "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, par 100 000 personnes"
     },
     {
       "path": "2-1-1/data.csv",
@@ -4701,7 +4701,7 @@
           }
         ]
       },
-      "title": "Abonnements à une connexion à Internet à haut débit fixe pour 100 habitants, par vitesse de connexion"
+      "title": "Abonnements à une connexion à Internet à haut débit fixe par 100 habitants, par vitesse de connexion"
     },
     {
       "path": "7-2-1/data.csv",
@@ -5045,7 +5045,7 @@
           }
         ]
       },
-      "title": "Incidence de la tuberculose pour 100 000 habitants"
+      "title": "Incidence de la tuberculose par 100 000 habitants"
     },
     {
       "path": "4-4-1/data.csv",
@@ -6359,7 +6359,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux pour 100 000 habitants",
+                "Taux par 100 000 habitants",
                 "Nombre",
                 ""
               ]
@@ -6371,7 +6371,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux pour 100 000 habitants",
+                "Taux par 100 000 habitants",
                 "Nombre",
                 ""
               ]
@@ -6402,7 +6402,7 @@
           }
         ]
       },
-      "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes"
+      "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, par 100 000 personnes"
     },
     {
       "path": "4-5-1/data.csv",
@@ -8725,7 +8725,7 @@
           }
         ]
       },
-      "title": "Nombre de décès liés à des conflits pour 100 000 habitants, par sexe, âge et cause"
+      "title": "Nombre de décès liés à des conflits par 100 000 habitants, par sexe, âge et cause"
     },
     {
       "path": "5-a-2/data.csv",
