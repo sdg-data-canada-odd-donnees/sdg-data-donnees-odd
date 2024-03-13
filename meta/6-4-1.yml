@@ -6,8 +6,9 @@ SDG_TARGET: '<p>Target 6.4: By 2030, substantially increase water-use efficiency
   water scarcity and substantially reduce the number of people suffering from water
   scarcity</p>'
 SDG_INDICATOR: '<p>Indicator 6.4.1: Change in water-use efficiency over time</p>'
-STAT_CONC_DEF: 'Change in water use efficiency over time (CWUE): The change in the ratio of the value added to the volume of water use, over time. <br> <br> Water Use Efficiency (WUE) is defined as the value added of a given major sector divided by the volume
-  of water used. <br> <br> Following the United Nations International Standard Industrial Classification of All Economic Activities ISIC 4 coding, sectors are defined as: <br>
+STAT_CONC_DEF: 'Change in water use efficiency over time (CWUE): The change in the ratio of the value added to the volume of water use, over time. 
+  <br><br> Water-use efficiency measured as the ratio of dollar value added to the volume of water used. It considers water use by all economic activities, with a focus on agriculture, industry and the service sectors.
+  <br><br> Following the United Nations International Standard Industrial Classification of All Economic Activities ISIC 4 coding, sectors are defined as: <br>
   1. agriculture; forestry; fishing (ISIC A), hereinafter “agriculture”; <br>
   2. mining and quarrying; manufacturing; electricity, gas, steam and air conditioning supply; constructions (ISIC B, C, D and F), hereinafter “MIMEC”; <br>
   3. all the service sectors (ISIC E and ISIC G-T), hereinafter “services'
@@ -26,8 +27,6 @@ un_designated_tier: Tier I
 un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
- 
 
 # SOURCE(S)
 source_active_1: 'true'
