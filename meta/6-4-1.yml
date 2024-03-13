@@ -11,7 +11,7 @@ STAT_CONC_DEF: 'Change in water use efficiency over time (CWUE): The change in t
   1. agriculture; forestry; fishing (ISIC A), hereinafter “agriculture”; <br>
   2. mining and quarrying; manufacturing; electricity, gas, steam and air conditioning supply; constructions (ISIC B, C, D and F), hereinafter “MIMEC”; <br>
   3. all the service sectors (ISIC E and ISIC G-T), hereinafter “services'
-DATA_COMP: custom.data-comp
+DATA_COMP: Data are from the UN Water database. Select Country=Canada, under Indicator to display, click on "Water availability and use", then on 6.4.1 Change in water-use efficiency over time. <br><br> Change in water use efficiency (CWUE) (in %) = [(WUE in time t - WUE in time t-1)/(WUE in time t-1)]*100
 REC_USE_LIM: '   '
 
 # GLOBAL
