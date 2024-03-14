@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Growth rate
+computation_units: Percent (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -33,8 +33,12 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.10-1-1-title
-graph_titles: []
+graph_title: ''
+graph_titles:
+  - series: Household expenditure per capita
+    title: Growth rates of household expenditure per capita among the bottom 40 per cent of the population and the total population
+  - series: Income per capita
+    title: Growth rates of income per capita among the bottom 40 per cent of the population and the total population
 graph_type: line
 indicator_name: global_indicators.10-1-1-title
 indicator_number: 10.1.1
