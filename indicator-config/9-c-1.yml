@@ -7,7 +7,8 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values: []
+data_start_values:
+  - series: Long-Term Evolution (LTE)
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -17,8 +18,16 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.9-c-1-title
-graph_titles: []
+graph_title: ''
+graph_titles:
+  - series: Long-Term Evolution (LTE)
+    title: Proportion of population covered by Long-Term Evolution (LTE)
+  - series: Long-Term Evolution - A (LTE-A)
+    title: Proportion of population covered by Long-Term Evolution - A (LTE-A)
+  - series: 5G
+    title: Proportion of population covered by 5G
+  - series: Evolved High-Speed Packet Access (HSPA+)
+    title: Proportion of population covered by Evolved High-Speed Packet Access (HSPA+)
 graph_type: line
 indicator_name: global_indicators.9-c-1-title
 indicator_number: 9.c.1
