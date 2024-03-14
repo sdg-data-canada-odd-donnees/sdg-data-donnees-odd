@@ -8,8 +8,7 @@ SDG_TARGET: '<p>Target 9.5: Enhance scientific research, upgrade the technologic
 SDG_INDICATOR: '<p>Indicator 9.5.2: Researchers (in full-time equivalent) per million inhabitants</p>'
 STAT_CONC_DEF: 'The researchers (in full-time equivalent - FTE) per million inhabitants is a direct measure of the number of 
   research and experimental development (R&D) workers per 1 million people.'
-
-DATA_COMP: ((Researchers + On-site Contractors) / Population estimate, Ages 15 and above) * 1,000,000
+DATA_COMP: Researchers per million inhabitants = (Researchers / Total population) x 1,000,000
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
   sustainable industrialization and foster innovation</p>'
