@@ -9,9 +9,8 @@ SDG_INDICATOR: '<p>Indicator 9.b.1: Proportion of medium and high-tech industry 
 STAT_CONC_DEF: 'The proportion of medium-high and high-tech industry (MHT hereafter) value added in total value added 
   of manufacturing (MVA hereafter) is a ratio value between the value added of MHT industry and MVA.'
 DATA_COMP: |
-    Manufactured value added = <i>Production</i> - <i>consumption</i>, where <br><br><i>Production</i> = (Revenue from goods manufactured + (Closing inventories, goods or work in process + Closing inventories, finished goods manufactured) - (Opening inventories, goods or work in process + Opening inventories, finished goods manufactured)<br><br><i>Consumption</i> = (Opening inventories, raw materials + Cost of materials and supplies + Total cost of energy, water utility and vehicle fuel - Closing inventories of raw materials).
+    Proportion of medium and high-tech industry value added in total value added = (Manufacturing value added (MVA) of medium and high-tech industries (NAICS 325, 333, 334, 335, 336, 3391) / (MVA of Manufacturing industries (NAICS 31-33)) x 100
 REC_USE_LIM: '   '
- 
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
