@@ -6,10 +6,9 @@ SDG_TARGET: '<p>Target 9.2: Promote inclusive and sustainable industrialization 
   countries</p>'
 SDG_INDICATOR: '<p>Indicator 9.2.2: Manufacturing employment as a proportion of total
   employment</p>'
- 
 STAT_CONC_DEF: 'This indicator presents the share of manufacturing employment in total employment.'
-DATA_COMP: '   '
-REC_USE_LIM: 'Industry estimates in this table are based on the 2017 North American Industry Classification System (NAICS) Version 3.0.'
+DATA_COMP: 'Manufacturing employment as a proportion of total employment = (Employment in manufacturing (NAICS 31-33) / Total employment) x 100'
+REC_USE_LIM: '    '
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
   sustainable industrialization and foster innovation</p>'
 SDG_TARGET__GLOBAL: '<p>Target 9.2: Promote inclusive and sustainable industrialization
