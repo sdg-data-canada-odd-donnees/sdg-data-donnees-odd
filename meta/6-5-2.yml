@@ -14,7 +14,7 @@ STAT_CONC_DEF: <p>The proportion of transboundary basin area with an operational
   the aggregate total area in a country of all transboundary basins (both catchments
   and aquifers). The result is multiplied by 100 to obtain it expressed as percentage
   share.</p>
-DATA_COMP: custom.data-comp
+DATA_COMP: custom.data-tabulated
 REC_USE_LIM: '   '
  
  

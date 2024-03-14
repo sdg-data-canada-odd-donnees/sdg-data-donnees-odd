@@ -3,7 +3,7 @@ SDG_TARGET: '<p>Target 10.2: By 2030, empower and promote the social, economic a
 SDG_INDICATOR: '<p>Indicator 10.2.1: Proportion of people living below 50 percent of median income, by sex, age and persons with disabilities</p>'
 STAT_CONC_DEF: >-
     Low income measures (LIMs), are relative measures of low income, set at 50% of adjusted median household income. These measures are categorized according to the number of persons present in the household, reflecting the economies of scale inherent in household size.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
  
 REC_USE_LIM: >-
     Low income measures for Canada do not include the territories.
@@ -17,7 +17,6 @@ source_url_1: https://doi.org/10.25318/1110013501-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Geographical region of Canada, Province or territory, Census metropolitan area
-
  
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Children’s Fund (UNICEF), World Bank (WB)

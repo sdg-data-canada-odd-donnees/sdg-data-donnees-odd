@@ -11,7 +11,7 @@ STAT_CONC_DEF: <strong>Definition:</strong><br>Total resource flows for developm
   Official Development Assistance (ODA), other official flows (OOF) and private flows.<br><br><strong>Concepts:</strong><br>Official and private flows, both concessional and non-concessional to developing countries. For official 
   flows the major distinction is between official development assistance (ODA) and other official flows (OOF), while private flows are broken down into flows at market terms and charitable grants. Flows include 
   contributions to multilateral development agencies, which are themselves official bodies.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
 SDG_TARGET__GLOBAL: '<p>Target 10.b: Encourage official development assistance and

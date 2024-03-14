@@ -18,8 +18,12 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.2-4-1-title
-graph_titles: []
+graph_title: ''
+graph_titles:
+  - series: Farm output value per hectare
+    title: Proportion of agricultural land area that has achieved an acceptable or desirable level of farm output value per hectare
+  - series: Risk mitigation mechanisms
+    title: Proportion of agricultural land area that has achieved an acceptable or desirable level of risk mitigation mechanisms
 graph_type: bar
 indicator_name: global_indicators.2-4-1-title
 indicator_number: 2.4.1

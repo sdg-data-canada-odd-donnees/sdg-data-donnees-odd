@@ -10,7 +10,7 @@ STAT_CONC_DEF: <p>Labour share of Gross Domestic Product (GDP) is the total comp
   in the production process for a given reference period.</p>
 DATA_COMP: >-
     (Compensation of employees/Gross domestic product at market prices) x 100
-REC_USE_LIM: 'Canada totals in the provincial and territorial gross domestic product by income and by expenditure accounts (PTEA) do not correspond to the national gross domestic product by income and by expenditure accounts (IEA) estimates at certain times of the year. The two accounts are brought back in line when annual revisions are incorporated.'
+REC_USE_LIM: 'Canada totals in the provincial and territorial gross domestic product by income and by expenditure accounts (PTEA) do not correspond to the national gross domestic product by income and by expenditure accounts (IEA) estimates at certain times of the year. The two accounts are brought back in line when annual revisions are incorporated. <br><br> The data does not include the Labour income of the self-employed.'
 SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
 SDG_TARGET__GLOBAL: '<p>Target 10.4: Adopt policies, especially fiscal, wage and social
   protection policies, and progressively achieve greater equality</p>'

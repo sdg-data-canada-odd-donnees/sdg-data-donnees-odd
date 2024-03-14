@@ -10,6 +10,8 @@ data_show_map: true
 data_start_values:
 - field: Geography
   value: Canada
+- field: Graduation rate
+  value: Extended-time
 - field: Gender
   value: Total
 embedded_feature_footer: ''

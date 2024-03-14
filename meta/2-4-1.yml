@@ -23,9 +23,9 @@ STAT_CONC_DEF: |
   <br>2. access to or availed insurance
   <br>3. on farm diversification (share of a single agricultural commodity not greater than 
   60% in the total value of production of the holding.
-DATA_COMP: '   '
+DATA_COMP: custom.data-tabulated
 REC_USE_LIM: |
-    Census of Agriculture's (CEAG) 'gross farm receipts' is used as a proxy to 'farm output value'. This variable may not exactly coincide with the FAO's 'farm output value' definition. <br><br> All farms have access to credit and insurance. They can apply to income, and commodity insurance programs developed by federal and provincial governments.
+    Data is only available to report on selected supplementary series. <br><br> Census of Agriculture's (CEAG) 'gross farm receipts' is used as a proxy to 'farm output value'. This variable may not exactly coincide with the FAO's 'farm output value' definition. <br><br> All farms have access to credit and insurance. They can apply to income, and commodity insurance programs developed by federal and provincial governments.
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
 SDG_TARGET__GLOBAL: '<p>Target 2.4: By 2030, ensure sustainable food production systems
@@ -35,8 +35,6 @@ SDG_TARGET__GLOBAL: '<p>Target 2.4: By 2030, ensure sustainable food production 
   improve land and soil quality</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 2.4.1: Proportion of agricultural area under
   productive and sustainable agriculture</p>'
-
- 
   
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Census of Agriculture. Custom Tabulation.

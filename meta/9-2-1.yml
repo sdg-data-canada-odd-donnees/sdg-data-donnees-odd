@@ -7,12 +7,11 @@ SDG_TARGET: '<p>Target 9.2: Promote inclusive and sustainable industrialization 
   countries</p>'
 SDG_INDICATOR: '<p>Indicator 9.2.1: Manufacturing value added as a proportion of GDP
   and per capita</p>'
-STAT_CONC_DEF: 'Manufacturing value added (MVA) as a proportion of gross domestic product (GDP) is a ratio between MVA 
-  and GDP, both reported in constant 2015 USD. <br><br> MVA per capita is calculated by dividing MVA in constant 2015 USD by population of a country or area.'
+STAT_CONC_DEF: 'This indicator measure the manufacturing value added (MVA) as a proportion of gross domestic product (GDP) and on a per capita basis. The share of MVA in GDP reflects the role of manufacturing in the economy and a country’s national development in general. MVA per capita is the basic indicator of a country’s level of industrialization adjusted for the size of the economy.'
 DATA_COMP: |
-    Manufactured value added = <i>Production</i> - <i>consumption</i>, where <br><br><i>Production</i> = (Revenue from goods manufactured + (Closing inventories, goods or work in process + Closing inventories, finished goods manufactured) - (Opening inventories, goods or work in process + Opening inventories, finished goods manufactured)<br><br><i>Consumption</i> = (Opening inventories, raw materials + Cost of materials and supplies + Total cost of energy, water utility and vehicle fuel - Closing inventories of raw materials).
-REC_USE_LIM: '   '
- 
+    Manufacturing Value Added as a proportion of GDP = (Manufacturing Value Added / GDP at market prices in current dollars) x 100 <br><br>
+    Manufacturing Value Added per capita = Manufacturing Value Added / Population
+REC_USE_LIM: 'Manufacturing value added on a per capita basis is presented in current dollars rather than in constant dollars.'
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
