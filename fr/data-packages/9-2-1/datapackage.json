@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion du PIB",
-                "Par habitant",
+                "Pourcentage",
+                "Dollar",
                 ""
               ]
             },

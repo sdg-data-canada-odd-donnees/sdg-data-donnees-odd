@@ -20,7 +20,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -31,27 +30,11 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon, Territoires du Nord-Ouest et Nunavut",
-                "National Capital Region, Ontario/Quebec",
-                "National Capital Region, Quebec",
-                "National Capital Region, Ontario",
+                "Total, Organisation for Economic Co-operation and Development (OECD)",
                 ""
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Science type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Sciences naturelles et génie",
-                "Sciences sociales, humaines et les arts",
-                "Sciences totales",
-                ""
-              ]
-            },
-            "title": "Type de science"
           },
           {
             "name": "GeoCode",

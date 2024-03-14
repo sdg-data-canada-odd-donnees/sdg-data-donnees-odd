@@ -21,7 +21,7 @@
               "enum": [
                 "Material footprint",
                 "Material footprint per capita",
-                "Material footprint per unit of GDP",
+                "Material footprint per GDP",
                 ""
               ]
             }
@@ -31,9 +31,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Million metric tonnes",
-                "Metric tonnes",
-                "Metric tonnes per GDP (millions of dollars)",
+                "Tonnes (million)",
+                "Tonnes per capita",
+                "Tonnes per dollar",
                 ""
               ]
             }

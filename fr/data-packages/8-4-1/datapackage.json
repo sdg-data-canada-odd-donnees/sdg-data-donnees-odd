@@ -22,7 +22,7 @@
               "enum": [
                 "Empreinte matérielle",
                 "Empreinte matérielle par habitant",
-                "Empreinte matérielle par unité de PIB",
+                "Empreinte matérielle par PIB",
                 ""
               ]
             },
@@ -33,9 +33,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Millions de tonnes métriques",
-                "Tonnes métriques",
-                "Tonnes métriques par PIB (millions de dollars)",
+                "Tonnes (million)",
+                "Tonnes par habitant",
+                "Tonnes par dollar",
                 ""
               ]
             },

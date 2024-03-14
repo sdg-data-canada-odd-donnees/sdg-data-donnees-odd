@@ -57,27 +57,27 @@ Indicator,Disaggregations,Number of disaggregations
 #3-b-2,Assistance type,1
 #3-c-1,"Geography, Type of provider",2
 #4-1-1,Sex,1
-#4-1-2,"Geography, Gender, Graduation rate",3
+#4-1-2,"Geography, Graduation rate, Gender",3
 #4-2-2,Sex,1
 #4-3-1,"Geography, Age group, Type of institution attended",3
 #4-4-1,"Age group, Activity related to digital skills, Level of education",3
-#4-5-1,"Geography, Parity index",2
+#4-5-1,Geography,1
 #4-6-1,"Geography, Sex, Age group, Skill, Proficiency level",5
 #5-2-1,"Type of intimate partner violence, Selected characteristic",2
 #5-3-1,"Geography, Age group, Marital status",3
-#5-4-1,"Geography, Sex, Activity group, Age group",4
+#5-4-1,"Geography, Sex, Age group, Activity group",4
 #5-5-1,"Geography, Government, Elected officials",3
 #5-5-2,"Geography, Occupation",2
 #5-b-1,Geography,1
 #6-3-1,Geography,1
 #6-3-2,"Geography, Land use category, Water quality category",3
 #6-4-1,Economic activity,1
-#6-6-1,"Water extent, Water quality",2
+#6-4-2,Economic activity,1
 #6-a-1,Sector,1
 #7-2-1,"Geography, Type of electricity generation",2
 #8-1-1,Geography,1
 #8-2-1,Geography,1
-#8-5-1,"Geography, Sex, Age group, Type of work, Occupation",5
+#8-5-1,"Geography, Sex, Type of work, Occupation, Age group",5
 #8-5-2,"Geography, Sex, Age group",3
 #8-6-1,"Geography, Sex, Age group, Status",4
 #8-8-1,Sex,1
@@ -85,7 +85,7 @@ Indicator,Disaggregations,Number of disaggregations
 #9-1-1,Geography,1
 #9-2-1,Geography,1
 #9-2-2,"Geography, Industry",2
-#9-3-1,"Size, Industry",2
+#9-3-1,"Industry, Size",2
 #9-3-2,"Geography, Employment size, Industries, Age of primary decision maker, Ownership demographics",5
-#9-5-1,"Geography, Science type",2
+#9-5-1,Geography,1
 #9-b-1,Geography,1

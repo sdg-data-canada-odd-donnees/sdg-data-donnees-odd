@@ -19,7 +19,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -30,22 +29,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon, Northwest Territories and Nunavut",
-                "National Capital Region, Ontario/Quebec",
-                "National Capital Region, Quebec",
-                "National Capital Region, Ontario",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Science type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Natural sciences and engineering",
-                "Social sciences, humanities and the arts",
-                "Total sciences",
+                "Total, Organisation for Economic Co-operation and Development (OECD)",
                 ""
               ]
             }

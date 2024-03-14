@@ -31,7 +31,7 @@
             "title": "Units"
           },
           {
-            "name": "Parity index",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -42,7 +42,7 @@
                 ""
               ]
             },
-            "title": "Parity index"
+            "title": "Series"
           },
           {
             "name": "Geography",

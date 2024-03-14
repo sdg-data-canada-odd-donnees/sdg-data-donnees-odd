@@ -19,8 +19,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of GDP",
-                "Per capita",
+                "Percentage",
+                "Dollar",
                 ""
               ]
             }
