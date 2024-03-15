@@ -19,9 +19,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Ratio of land consumption rate to population growth rate",
                 "Land Consumption Rate",
                 "Population Growth Rate",
-                "Ratio of land consumption rate to population growth rate",
                 ""
               ]
             }
@@ -31,8 +31,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate of growth",
                 "Ratio",
+                "Percentage",
                 ""
               ]
             }

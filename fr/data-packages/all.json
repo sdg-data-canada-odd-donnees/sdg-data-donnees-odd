@@ -285,7 +285,7 @@
             "constraints": {
               "enum": [
                 "Taux par 100 000 habitants",
-                "Nombre de décès",
+                "Nombre",
                 ""
               ]
             },
@@ -1281,7 +1281,7 @@
             "constraints": {
               "enum": [
                 "Taux par 100 000 habitants",
-                "Nombre de décès",
+                "Nombre",
                 ""
               ]
             },
@@ -2590,7 +2590,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Perte économique dollars canadiens/PIB",
+                "Pourcentage",
                 ""
               ]
             },
@@ -2603,9 +2603,10 @@
               "enum": [
                 "Météorologique - Inondation",
                 "Météorologique - Tempête",
-                "Météorologique - Tempête hivernale",
                 "Météorologique - Feu de forêt",
-                "Météorologique - Épisode de chaleur",
+                "Météorologique - Tempête hivernale",
+                "Météorologique - Épidémie",
+                "Météorologique - Tornade",
                 ""
               ]
             },
@@ -2881,9 +2882,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Rapport entre le taux de consommation des terres et le taux de croissance démographique",
                 "Taux de consommation des terres",
                 "Taux de croissance démographique",
-                "Rapport entre le taux de consommation des terres et le taux de croissance démographique",
                 ""
               ]
             },
@@ -2894,8 +2895,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux de croissance",
                 "Ratio",
+                "Pourcentage",
                 ""
               ]
             },
@@ -3433,6 +3434,24 @@
             "name": "Year",
             "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "data.Stock group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mammifères marins",
+                "Poissons de fond",
+                "Petits poissons pélagiques",
+                "Grands poissons pélagiques",
+                "Salmonidés",
+                "Crustacés",
+                "Mollusques",
+                "Autres",
+                ""
+              ]
+            },
+            "title": "Groupe de stocks"
           },
           {
             "name": "Value",
@@ -4793,7 +4812,7 @@
               "enum": [
                 "Empreinte matérielle",
                 "Empreinte matérielle par habitant",
-                "Material footprint per unit of GDP",
+                "Empreinte matérielle par PIB",
                 ""
               ]
             },
@@ -4804,9 +4823,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Millions de tonnes métriques",
-                "Tonnes métriques",
-                "Tonnes métriques par PIB (millions de dollars)",
+                "Tonnes (million)",
+                "Tonnes par habitant",
+                "Tonnes par dollar",
                 ""
               ]
             },
@@ -4938,9 +4957,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Empreinte matérielle",
-                "Empreinte matérielle par habitant",
-                "Material footprint per unit of GDP",
+                "Consommation intérieure de matières",
+                "Consommation intérieure de matières par habitant",
+                "Consommation intérieure de matières par PIB",
                 ""
               ]
             },
@@ -4951,9 +4970,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Millions de tonnes métriques",
-                "Tonnes métriques",
-                "Tonnes métriques par PIB (millions de dollars)",
+                "Tonnes (million)",
+                "Tonnes par habitant",
+                "Tonnes par dollar",
                 ""
               ]
             },
@@ -5211,13 +5230,53 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-1",
       "schema": {
         "fields": [
           {
             "name": "Year",
             "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Atlantic Canada",
+                "Southern Quebec",
+                "Southern Ontario",
+                "Prairies and northern Ontario",
+                "Colombie-Britannique",
+                "Windsor, ON",
+                "Hamilton, ON",
+                "Barrie, ON",
+                "Kitchener, ON",
+                "Toronto, ON",
+                "St. Catharines - Niagara Falls, ON",
+                "London, ON",
+                "Oshawa, ON",
+                "Ottawa, ON",
+                "Quebec, QC",
+                "Montreal, QC",
+                "Gatineau, QC",
+                "Edmonton, AB",
+                "Calgary, AB",
+                "Vancouver, BC",
+                "Victoria, BC",
+                "Saskatoon, SK",
+                "Regina, SK",
+                "Winnipeg, MB",
+                "Charlottetown, PE",
+                "Fredericton, NB",
+                "Halifax, NS",
+                "St. John's, NL",
+                "Yellowknife, NT",
+                "Whitehorse, YT",
+                ""
+              ]
+            },
+            "title": "Géographie"
           },
           {
             "name": "Value",
@@ -6188,20 +6247,19 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
                 "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
                 "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
@@ -6212,7 +6270,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Administration publique générale canadienne consolidée",
                 "Administrations publiques provinciales-territoriales et locales consolidées",
                 ""
               ]
@@ -6224,15 +6281,18 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Ensemble du patrimoine culturel et naturel",
                 "Préservation de la diversité biologique et protection de la nature",
                 "Services culturels",
-                "Services de radiodiffusion, de television et d'édition\n",
-                "Loisirs, culture et religion non classés ailleurs",
-                "Ensemble du patrimoine culturel et naturel",
                 ""
               ]
             },
             "title": "Type de patrimoine"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

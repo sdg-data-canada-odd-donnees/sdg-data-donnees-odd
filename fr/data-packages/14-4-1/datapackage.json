@@ -16,6 +16,24 @@
             "title": "Année"
           },
           {
+            "name": "data.Stock group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mammifères marins",
+                "Poissons de fond",
+                "Petits poissons pélagiques",
+                "Grands poissons pélagiques",
+                "Salmonidés",
+                "Crustacés",
+                "Mollusques",
+                "Autres",
+                ""
+              ]
+            },
+            "title": "Groupe de stocks"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

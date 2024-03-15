@@ -20,20 +20,19 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
                 "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
                 "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
@@ -44,7 +43,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Administration publique générale canadienne consolidée",
                 "Administrations publiques provinciales-territoriales et locales consolidées",
                 ""
               ]
@@ -56,15 +54,18 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Ensemble du patrimoine culturel et naturel",
                 "Préservation de la diversité biologique et protection de la nature",
                 "Services culturels",
-                "Services de radiodiffusion, de television et d'édition\n",
-                "Loisirs, culture et religion non classés ailleurs",
-                "Ensemble du patrimoine culturel et naturel",
                 ""
               ]
             },
             "title": "Type de patrimoine"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

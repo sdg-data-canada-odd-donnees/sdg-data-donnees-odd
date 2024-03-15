@@ -263,7 +263,7 @@
             "constraints": {
               "enum": [
                 "Rate per 100,000 population",
-                "Number of deaths",
+                "Number",
                 ""
               ]
             }
@@ -1184,7 +1184,7 @@
             "constraints": {
               "enum": [
                 "Rate per 100,000 population",
-                "Number of deaths",
+                "Number",
                 ""
               ]
             }
@@ -2397,7 +2397,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Economic loss CAN dollars $/GDP",
+                "Percentage",
                 ""
               ]
             }
@@ -2409,9 +2409,10 @@
               "enum": [
                 "Meteorological - Flood",
                 "Meteorological - Storm",
-                "Meteorological - Winter storm",
                 "Meteorological - Wildfire",
-                "Meteorological - Heat event",
+                "Meteorological - Winter storm",
+                "Meteorological - Epidemic",
+                "Meteorological - Tornado",
                 ""
               ]
             }
@@ -2668,9 +2669,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Ratio of land consumption rate to population growth rate",
                 "Land Consumption Rate",
                 "Population Growth Rate",
-                "Ratio of land consumption rate to population growth rate",
                 ""
               ]
             }
@@ -2680,8 +2681,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate of growth",
                 "Ratio",
+                "Percentage",
                 ""
               ]
             }
@@ -3182,6 +3183,23 @@
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "data.Stock group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Marine mammals",
+                "data.Groundfish",
+                "data.Small pelagics",
+                "data.Large pelagics",
+                "data.Salmonids",
+                "data.Crustaceans",
+                "data.Molluscs",
+                "data.Others",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -4450,7 +4468,7 @@
               "enum": [
                 "Material footprint",
                 "Material footprint per capita",
-                "Material footprint per unit of GDP",
+                "Material footprint per GDP",
                 ""
               ]
             }
@@ -4460,9 +4478,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Million metric tonnes",
-                "Metric tonnes",
-                "Metric tonnes per GDP (millions of dollars)",
+                "Tonnes (million)",
+                "Tonnes per capita",
+                "Tonnes per dollar",
                 ""
               ]
             }
@@ -4583,9 +4601,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Material footprint",
-                "Material footprint per capita",
-                "Material footprint per unit of GDP",
+                "Domestic material consumption",
+                "Domestic material consumption per capita",
+                "Domestic material consumption per GDP",
                 ""
               ]
             }
@@ -4595,9 +4613,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Million metric tonnes",
-                "Metric tonnes",
-                "Metric tonnes per GDP (millions of dollars)",
+                "Tonnes (million)",
+                "Tonnes per capita",
+                "Tonnes per dollar",
                 ""
               ]
             }
@@ -4841,6 +4859,45 @@
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Atlantic Canada",
+                "Southern Quebec",
+                "Southern Ontario",
+                "Prairies and northern Ontario",
+                "British Columbia",
+                "Windsor, ON",
+                "Hamilton, ON",
+                "Barrie, ON",
+                "Kitchener, ON",
+                "Toronto, ON",
+                "St. Catharines - Niagara Falls, ON",
+                "London, ON",
+                "Oshawa, ON",
+                "Ottawa, ON",
+                "Quebec, QC",
+                "Montreal, QC",
+                "Gatineau, QC",
+                "Edmonton, AB",
+                "Calgary, AB",
+                "Vancouver, BC",
+                "Victoria, BC",
+                "Saskatoon, SK",
+                "Regina, SK",
+                "Winnipeg, MB",
+                "Charlottetown, PE",
+                "Fredericton, NB",
+                "Halifax, NS",
+                "St. John's, NL",
+                "Yellowknife, NT",
+                "Whitehorse, YT",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -5743,20 +5800,19 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
                 "Northwest Territories",
+                "Nova Scotia",
                 "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             }
@@ -5766,7 +5822,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Consolidated Canadian general government",
                 "Consolidated provincial-territorial and local governments",
                 ""
               ]
@@ -5777,14 +5832,16 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total cultural and natural heritage",
                 "Protection of biodiversity and landscape",
                 "Cultural services",
-                "Broadcasting and publishing services",
-                "Recreation, culture, and religion not elsewhere classified",
-                "Total cultural and natural heritage",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

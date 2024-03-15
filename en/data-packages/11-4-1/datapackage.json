@@ -20,20 +20,19 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
                 "Northwest Territories",
+                "Nova Scotia",
                 "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
@@ -44,7 +43,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Consolidated Canadian general government",
                 "Consolidated provincial-territorial and local governments",
                 ""
               ]
@@ -56,15 +54,18 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total cultural and natural heritage",
                 "Protection of biodiversity and landscape",
                 "Cultural services",
-                "Broadcasting and publishing services",
-                "Recreation, culture, and religion not elsewhere classified",
-                "Total cultural and natural heritage",
                 ""
               ]
             },
             "title": "Type of heritage"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

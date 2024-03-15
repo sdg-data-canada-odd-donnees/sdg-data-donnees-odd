@@ -16,6 +16,24 @@
             "title": "Year"
           },
           {
+            "name": "data.Stock group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Marine mammals",
+                "Groundfish",
+                "Small pelagics",
+                "Large pelagics",
+                "Salmonids",
+                "Crustaceans",
+                "Molluscs",
+                "Others",
+                ""
+              ]
+            },
+            "title": "Stock group"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

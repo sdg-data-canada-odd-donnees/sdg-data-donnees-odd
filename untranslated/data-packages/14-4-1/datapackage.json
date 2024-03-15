@@ -15,6 +15,23 @@
             "type": "integer"
           },
           {
+            "name": "data.Stock group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Marine mammals",
+                "data.Groundfish",
+                "data.Small pelagics",
+                "data.Large pelagics",
+                "data.Salmonids",
+                "data.Crustaceans",
+                "data.Molluscs",
+                "data.Others",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

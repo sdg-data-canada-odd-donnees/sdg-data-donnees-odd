@@ -20,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Rapport entre le taux de consommation des terres et le taux de croissance démographique",
                 "Taux de consommation des terres",
                 "Taux de croissance démographique",
-                "Rapport entre le taux de consommation des terres et le taux de croissance démographique",
                 ""
               ]
             },
@@ -33,8 +33,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux de croissance",
                 "Ratio",
+                "Pourcentage",
                 ""
               ]
             },

@@ -20,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Empreinte matérielle",
-                "Empreinte matérielle par habitant",
-                "Material footprint per unit of GDP",
+                "Consommation intérieure de matières",
+                "Consommation intérieure de matières par habitant",
+                "Consommation intérieure de matières par PIB",
                 ""
               ]
             },
@@ -33,9 +33,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Millions de tonnes métriques",
-                "Tonnes métriques",
-                "Tonnes métriques par PIB (millions de dollars)",
+                "Tonnes (million)",
+                "Tonnes par habitant",
+                "Tonnes par dollar",
                 ""
               ]
             },

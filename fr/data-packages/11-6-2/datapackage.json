@@ -7,13 +7,53 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-1",
       "schema": {
         "fields": [
           {
             "name": "Year",
             "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Atlantic Canada",
+                "Southern Quebec",
+                "Southern Ontario",
+                "Prairies and northern Ontario",
+                "Colombie-Britannique",
+                "Windsor, ON",
+                "Hamilton, ON",
+                "Barrie, ON",
+                "Kitchener, ON",
+                "Toronto, ON",
+                "St. Catharines - Niagara Falls, ON",
+                "London, ON",
+                "Oshawa, ON",
+                "Ottawa, ON",
+                "Quebec, QC",
+                "Montreal, QC",
+                "Gatineau, QC",
+                "Edmonton, AB",
+                "Calgary, AB",
+                "Vancouver, BC",
+                "Victoria, BC",
+                "Saskatoon, SK",
+                "Regina, SK",
+                "Winnipeg, MB",
+                "Charlottetown, PE",
+                "Fredericton, NB",
+                "Halifax, NS",
+                "St. John's, NL",
+                "Yellowknife, NT",
+                "Whitehorse, YT",
+                ""
+              ]
+            },
+            "title": "Géographie"
           },
           {
             "name": "Value",
