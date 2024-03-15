@@ -8,7 +8,7 @@ SDG_INDICATOR: '<p>Indicator 11.6.2 : Annual mean levels of fine particulate mat
   (e.g. PM2.5 and PM10) in cities (population weighted)</p>'
 STAT_CONC_DEF: |
     The national average PM2.5 concentration indicator is based on the annual average of the daily 24-hour average concentrations for PM2.5 recorded at 145 monitoring stations across Canada.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp 
 REC_USE_LIM: '  '
 
 # GLOBAL
@@ -28,7 +28,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1:  National Air Pollution Surveillance Program (NAPS)
-source_url_1: https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/air-quality.html#summary-details1
+source_url_1: https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/air-quality.html
 source_organisation_1: Environment and Climate Change Canada (ECCC)
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
