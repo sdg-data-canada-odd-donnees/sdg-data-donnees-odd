@@ -7,14 +7,29 @@ SDG_TARGET: '<p>Target 14.4: By 2020, effectively regulate harvesting and end ov
   yield as determined by their biological characteristics</p>'
 SDG_INDICATOR: '<p>Indicator 14.4.1: Proportion of fish stocks within biologically
   sustainable levels</p>'
-STAT_CONC_DEF: <p>The indicator, Proportion of marine fish stocks within biologically
-  sustainable levels, measures the sustainability of the world&apos;s marine capture
-  fisheries by their abundance. A fish stock whose abundance is at or greater than
-  the level that can produce the maximum sustainable yield (MSY) is classified as
-  biologically sustainable. In contrast, when abundance falls below the MSY level,
-  the stock is considered biologically unsustainable. </p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: <p>The indicator compares harvest rates with established
+  harvest limits. These limits are based on scientific information, providing a direct
+  measure of whether we are managing the use of these resources within ecosystem limits.
+  It is one measure of fishing pressure on wild fish stocks. <em>Environment and Climate
+  Change Canada (ECCC)</em></p>
+DATA_COMP: 'The indicator compares harvest rates with harvest limits.
+  These limits are based on scientific information and provide a direct measure of
+  whether we are managing the use of these resources within ecosystem limits. The
+  indicator is a simple tabulation of stocks based on whether harvest levels are within
+  removal reference levels, within other harvest limits, or over harvest limits. <em>(ECCC)</em>'
+REC_USE_LIM: 'Overharvest in a single year does not mean that a stock is
+  harvested unsustainably. Rather, it leads to a management response. Stocks managed
+  through quotas, for example, are subject to quota reconciliation, meaning that any
+  overharvest of a stock in one year is deducted from the harvest limit established
+  for the following year. <br><br>The Sustainability Survey for Fisheries is completed
+  with the best available information. Since the oceans are wide and deep, and fish
+  move between habitats, their populations are difficult to monitor. <br><br>The survey
+  summarizes information across a wide variety of species, management regimes, types
+  of fisheries, geographic regions, and socio-economic contexts. Small changes in
+  the set of surveyed stocks occur due to changes in the way stocks are assessed or
+  managed. Results should be interpreted with this in mind. <br><br>The indicator
+  does not account for fished stocks that do not meet the criteria for major stocks.
+  Seaweeds and other aquatic plants are also excluded. <em>(ECCC)</em>'
 SDG_GOAL__GLOBAL: '<p>Goal 14: Conserve and sustainably use the oceans, seas and marine
   resources for sustainable development</p>'
 SDG_TARGET__GLOBAL: '<p>Target 14.4: By 2020, effectively regulate harvesting and
