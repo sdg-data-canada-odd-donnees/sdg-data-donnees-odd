@@ -3,10 +3,7 @@ SDG_TARGET: '<p>Target 12.4: By 2020, achieve the environmentally sound manageme
   of chemicals and all wastes throughout their life cycle, in accordance with agreed
   international frameworks, and significantly reduce their release to air, water and
   soil in order to minimize their adverse impacts on human health and the environment</p>'
-SDG_INDICATOR: '<p>Indicator 12.4.1: Number of parties to international multilateral
-  environmental agreements on hazardous waste, and other chemicals that meet their
-  commitments and obligations in transmitting information as required by each relevant
-  agreement</p>'
+SDG_INDICATOR: '<p>Indicator 12.4.1: Does Canada meet commitments and obligations in transmitting information as required by international agreements on hazardous waste and other chemicals</p>'
 STAT_CONC_DEF: |
   The indicator refers to the number of parties (=countries that have ratified, accepted, approved or accessed), to the following Multilateral Environmental Agreements (MEAs): <br><br>
   1. The Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their 
@@ -19,7 +16,7 @@ STAT_CONC_DEF: |
   which have submitted the information to the Secretariat of each MEA, as required by each of the 
   agreements.
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement".'
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET__GLOBAL: '<p>Target 12.4: By 2020, achieve the environmentally sound management
   of chemicals and all wastes throughout their life cycle, in accordance with agreed
@@ -34,8 +31,6 @@ un_custodian_agency: UN Environment (UNEP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-04-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
- 
-
 source_active_1: 'true'
 source_url_text_1:  Federal Hazardous Waste Regulations
 source_url_1: https://www.canada.ca/en/environment-climate-change/services/canadian-environmental-protection-act-registry/historical/public-consultations/federal-hazardous-waste-regulations.html
@@ -43,3 +38,5 @@ source_organisation_1: Canadian Environmental Protection Act Registry
 source_geographical_coverage_1: Canada
 
 reporting_status: complete
+
+proxy: proxy

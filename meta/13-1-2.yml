@@ -4,11 +4,10 @@ SDG_TARGET: '<p>Target 13.1: Strengthen resilience and adaptive capacity to
 SDG_INDICATOR: '<p>Indicator 13.1.2: Number of countries that adopt and implement national disaster 
   risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 
   2015–2030</p>'
-STAT_CONC_DEF: 'An open-ended intergovernmental expert working group on indicators and terminology relating to 
-  disaster risk reduction established by the General Assembly (resolution 69/284) is developing a set of 
-  indicators to measure global progress in the implementation of the Sendai Framework. These indicators 
-  will eventually reflect the agreements on the Sendai Framework indicators.' 
-DATA_COMP: '   '
+STAT_CONC_DEF: 'This indicator measures the number of countries that adopt and implement national
+  disaster risk reduction strategies in line with the Sendai Framework for Disaster
+  Risk Reduction 2015–2030.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 13: Take urgent action to combat climate change and its impacts</p>'
 SDG_TARGET__GLOBAL: '<p>Target 13.1: Strengthen resilience and adaptive capacity to 
@@ -20,8 +19,6 @@ un_designated_tier: Tier II
 un_custodian_agency: United Nations International Strategy for Disaster Reduction (UNISDR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-13-01-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata 
-
- 
 
 source_active_1: 'true'
 source_url_text_1: |
