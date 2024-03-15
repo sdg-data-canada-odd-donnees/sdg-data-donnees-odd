@@ -3,10 +3,9 @@ SDG_TARGET: '<p>Target 12.7: Promote public procurement practices that are susta
   in accordance with national policies and priorities</p>'
 SDG_INDICATOR: '<p>Indicator 12.7.1: Degree of sustainable public procurement policies
   and action plan implementation</p>'
-STAT_CONC_DEF: <p>The indicator measures the number of countries implementing Sustainable Public Procurement (SPP) policies and action plans, by assessing the degree of implementation through an index. To produce the index, countries self-assess the following main elements:</p> <ul><li>Public procurement legal and regulatory framework</li><li>Practical support delivered for the implementation of SPP</li> <li>SPP priority products1 and corresponding sustainable procurement criteria</li> <li>Existence of SPP monitoring system</li> <li>Measurement of actual SPP outcome</li> </ul>
-
-DATA_COMP: '   '
-REC_USE_LIM: 'The index for this indicator was calculated in the year of 2022.'
+STAT_CONC_DEF: <p>The indicator measures the number of countries implementing Sustainable Public Procurement (SPP) policies and action plans, by assessing the degree of implementation through an index. To produce the index, countries self-assess the following main elements:</p> <ul><li>Public procurement legal and regulatory framework</li><li>Practical support delivered for the implementation of SPP</li> <li>SPP priority products and corresponding sustainable procurement criteria</li> <li>Existence of SPP monitoring system</li> <li>Measurement of actual SPP outcome</li> </ul>
+DATA_COMP: custom.data-tabulated
+REC_USE_LIM: '    '
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET__GLOBAL: '<p>Target 12.7: Promote public procurement practices that are sustainable,
   in accordance with national policies and priorities</p>'
@@ -17,8 +16,6 @@ un_custodian_agency: Organisation for Economic Co-operation and Development (OEC
   United Nations Development Programme (UNDP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-07-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
- 
 
 source_active_1: 'true'
 source_url_text_1: Treasury Board Secretariat. Policy on Green Procurement. Custom Tabulation.
