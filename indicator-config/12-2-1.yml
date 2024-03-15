@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: 'Million metric tonnes'
+computation_units: 'Tonnes (million)'
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -17,8 +17,14 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.12-2-1-title
-graph_titles: []
+graph_title: ''
+graph_titles:
+  - series: Material footprint
+    title: Material footprint
+  - series: Material footprint per capita
+    title: Material footprint per capita
+  - series: Material footprint per GDP
+    title: Material footprint per GDP
 graph_type: line
 indicator_name: global_indicators.12-2-1-title
 indicator_number: 12.2.1

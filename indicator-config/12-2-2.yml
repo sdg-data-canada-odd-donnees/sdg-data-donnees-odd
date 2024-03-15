@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: 'Million metric tonnes'
+computation_units: 'Tonnes (million)'
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -17,8 +17,14 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.12-2-2-title
-graph_titles: []
+graph_title: ''
+graph_titles:
+  - series: Domestic material consumption
+    title: Domestic material consumption
+  - series: Domestic material consumption per capita
+    title: Domestic material consumption per capita
+  - series: Domestic material consumption per GDP
+    title: Domestic material consumption per GDP
 graph_type: line
 indicator_name: global_indicators.12-2-2-title
 indicator_number: 12.2.2
