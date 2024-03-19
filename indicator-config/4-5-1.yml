@@ -10,6 +10,10 @@ data_show_map: true
 data_start_values:
 - field: Geography
   value: Canada
+- field: Education indicator
+  value: Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics
+- field: Education indicator
+  value: Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -17,7 +21,7 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
 - Geography
-- Units
+- Education indicator
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
