@@ -8,7 +8,18 @@ SDG_INDICATOR: '<p>Indicator 16.3.2: Unsentenced detainees as a proportion of ov
   prison population</p>'
 STAT_CONC_DEF: <p>The total number of persons held in detention who have not yet been
   sentenced, as a percentage of the total number of persons held in detention.</p>
-DATA_COMP: '   '
+DATA_COMP: |
+  Total prison population equals the sum of these 3 components:<br><br>
+  (1) Provincial/territorial adults (source 1): ‘Total actual-in count’ – ‘Other statuses, actual-in count’<br>
+  (2) Federal adults (source 3): ‘Actual-in count’ <br>
+  (3) Youth (source 2): ‘Total actual-in count’ – ‘Sentenced open custody, actual-in count’<br><br>
+
+  The Unsentenced population equals the sum of these 2 components:<br><br>
+  (1) Provincial/territorial adults (source 1): ‘Remand, actual-in count’ <br>
+  (2) Youth (source 2): ‘Pre-trial detention and other temporary detention, actual-in count’<br><br>
+
+  Unsentenced detainees as a proportion of overall prison population = Unsentenced population/Total prison population
+
 REC_USE_LIM: '   '
  
 

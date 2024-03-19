@@ -13,7 +13,6 @@ STAT_CONC_DEF: 'This indicator measures income from on-farm production activitie
   production, fisheries and aquaculture production, and from forestry production. The indicator is computed as annual income.'
 DATA_COMP: 'The data for this indicator has been converted from CAD to USD at 2017 $PPP.'
 REC_USE_LIM: '   '
- 
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
@@ -32,9 +31,9 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
  
 
 # SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: Census of Agriculture. Custom tabulation.
-source_url_1: https://www.statcan.gc.ca/en/census-agriculture
-source_organisation_1: Statistics Canada
-source_periodicity_1: Every 5 years
-source_geographical_coverage_1: Canada
+# source_active_1: 'true'
+# source_url_text_1: Census of Agriculture. Custom tabulation.
+# source_url_1: https://www.statcan.gc.ca/en/census-agriculture
+# source_organisation_1: Statistics Canada
+# source_periodicity_1: Every 5 years
+# source_geographical_coverage_1: Canada

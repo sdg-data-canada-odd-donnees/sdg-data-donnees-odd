@@ -19,7 +19,6 @@ neonat_mort_rate <-
   ) %>%
   select(
     Year = REF_DATE,
-    Age = `Age at time of death`,
     Sex,
     Value = VALUE
   )
@@ -28,15 +27,14 @@ total_line <-
   neonat_mort_rate %>%
   filter(
     Sex == "Both sexes", 
-    Age == "Total infant deaths under 1 year"
   ) %>%
-  mutate_at(c("Sex", "Age"), ~ "")
+  mutate_at(c("Sex"), ~ "")
 
 data_final <-
   bind_rows(
     total_line,
     neonat_mort_rate %>%
-      filter(!(Sex == "Both sexes" & Age == "Total infant deaths under 1 year"))
+      filter(!(Sex == "Both sexes"))
   )
 
 write.csv(

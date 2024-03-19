@@ -9,7 +9,7 @@ SDG_INDICATOR: '<p>Indicator 16.1.1: Number of victims of intentional homicide p
 STAT_CONC_DEF: >-
     <p>The indicator is defined as the total count of victims of intentional homicide divided by the total population, expressed per 100,000 population.</p>
     <p> Homicide includes Criminal Code offences of murder, manslaughter and infanticide. </p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
     <p>The total count of a given year's number of homicides could include incidents that occurred in previous years. Homicides are allotted to the year in which they become known to or are deemed homicides by police, according to the report date submitted to Statistics Canada.</p>
     <p> Indigenous identity is reported by the police and is determined through information found with the victim, such as status cards, or through information supplied by the victims' families, community members, or other sources (i.e., such as band records, or forensic evidence such as genetic testing).</p>
