@@ -3,12 +3,8 @@ SDG_TARGET: |
   Target 1.5: By 2030, build the resilience of the poor and those in vulnerable
   situations and reduce their exposure and vulnerability to climate-related extreme
   events and other economic, social and environmental shocks and disasters
-SDG_INDICATOR: '<p>Indicator 1.5.3: Number of countries that adopt and implement national
-  disaster risk reduction strategies in line with the Sendai Framework for Disaster
-  Risk Reduction 2015–2030</p>'
-STAT_CONC_DEF: 'This indicator measures the number of countries that adopt and implement national
-  disaster risk reduction strategies in line with the Sendai Framework for Disaster
-  Risk Reduction 2015–2030.'
+SDG_INDICATOR: '<p>Indicator 1.5.3: National disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030 adopted and implemented</p>'
+STAT_CONC_DEF: 'This indicator informs on the adoption and implemention of national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030.'
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
@@ -31,3 +27,4 @@ source_url_1: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-str
 source_organisation_1: Public Safety Canada
 source_geographical_coverage_1: Canada
 
+proxy: proxy

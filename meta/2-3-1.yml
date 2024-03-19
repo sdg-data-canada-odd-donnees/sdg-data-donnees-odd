@@ -14,7 +14,6 @@ STAT_CONC_DEF: |
 DATA_COMP: '   '
 REC_USE_LIM: '   '
  
-
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
@@ -29,13 +28,11 @@ un_designated_tier: Tier II
 un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
- 
   
 # SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: Census of Agriculture. Custom tabulation.
-source_url_1: https://www.statcan.gc.ca/en/census-agriculture
-source_organisation_1: Statistics Canada
-source_periodicity_1: Every 5 years
-source_geographical_coverage_1: Canada
+# source_active_1: 'true'
+# source_url_text_1: Census of Agriculture. Custom tabulation.
+# source_url_1: https://www.statcan.gc.ca/en/census-agriculture
+# source_organisation_1: Statistics Canada
+# source_periodicity_1: Every 5 years
+# source_geographical_coverage_1: Canada
