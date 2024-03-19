@@ -11,9 +11,9 @@ geocodes <- read.csv("geocodes.csv")
 age <- c(
   "Total, age",
   "15 to 24 years",
-  "15 to 24 years",
-  "15 to 24 years",
-  "15 to 24 years",
+  "25 to 34 years",
+  "35 to 44 years",
+  "45 to 54 years",
   "55 years and older" 
 )
 
