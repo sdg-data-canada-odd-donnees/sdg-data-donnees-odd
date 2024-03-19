@@ -19,9 +19,8 @@ STAT_CONC_DEF: 'Revenue is defined in Chapter 4 (paragraph 4.23) of Government F
   property income; (ii) sales of goods and services; (iii) fines, penalties, and forfeits; (iv) transfers not 
   elsewhere classified; and (v) premiums, fees, and claims related to non-life insurance and standardized 
   guarantee schemes.'
-DATA_COMP: '   '
-REC_USE_LIM: '   '
- 
+DATA_COMP: custom.data-tabulated
+REC_USE_LIM: '"Data for a given reference year (t) will not be finalized until year t-4. Use of preliminary information results in major advances in timeliness that improve its relevance; this trade-off is in the interests of data users.'
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
@@ -63,8 +62,8 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 # source_geographical_coverage_3: Canada
 
 source_active_1: 'true'
-source_url_text_1: Government Finance Statistics (GFS) - International Monetary Fund. Custom tabulation.
+source_url_text_1: Government Finance Statistics (GFS). Custom tabulation.
 source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5174
 source_organisation_1: Statistics Canada
 source_periodicity_1: Quarterly
-source_geographical_coverage_1: Canada, Province or territory
+source_geographical_coverage_1: Canada
