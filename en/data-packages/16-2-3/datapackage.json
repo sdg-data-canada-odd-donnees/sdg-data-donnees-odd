@@ -16,20 +16,59 @@
             "title": "Year"
           },
           {
-            "name": "Sex",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Men",
-                "Women",
+                "Canada",
+                "Nova Scotia",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Geography"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 to 24 years",
+                "25 to 34 years",
+                ""
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male gender",
+                "Female gender",
+                "Total, gender",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

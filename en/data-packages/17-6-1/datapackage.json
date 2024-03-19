@@ -28,6 +28,18 @@
             "title": "Series"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage",
+                "Number",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {

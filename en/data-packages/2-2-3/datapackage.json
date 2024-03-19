@@ -16,6 +16,18 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Prevalence of anaemia in women of reproductive age",
+                "Prevalence of anaemia in pregnant women",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Severity",
             "type": "string",
             "constraints": {

@@ -181,7 +181,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Millions $ CAD",
+                "CAD (Millions)",
                 "Number",
                 ""
               ]
@@ -526,6 +526,17 @@
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Physical violence",
+                "Sexual violence",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -3642,6 +3653,161 @@
       "title": "global_indicators.15-4-1-title"
     },
     {
+      "path": "16-2-1/data.csv",
+      "name": "16-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of childhood maltreatment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Physical or sexual abuse",
+                "Physical abuse",
+                "Sexual abuse",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male gender",
+                "Female gender",
+                "Total, gender",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, age",
+                "15 to 24 years",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, immigrant status",
+                "Immigrants",
+                "Not stated, immigrant status",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, visible minority population",
+                "Visible minority population",
+                "Not a visible minority",
+                "Not stated, visible minority population",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Indigenous identity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "First Nations (North American Indian)",
+                "Métis",
+                "Inuk (Inuit)",
+                "Non-indigenous identity",
+                "Not stated, population by indigenous identity",
+                "Other Indigenous identity",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Disability status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, disability status",
+                "Has a disability",
+                "Does not have a disability",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sexual orientation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, sexual orientation",
+                "Heterosexual",
+                "Sexual minority",
+                "Lesbian or gay",
+                "Bisexual or pansexual",
+                "Not stated, sexual orientation",
+                "Sexual orientation not elsewhere classified",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.16-2-1-title"
+    },
+    {
       "path": "2-3-1/data.csv",
       "name": "2-3-1",
       "profile": "tabular-data-resource",
@@ -5005,10 +5171,10 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total",
                 "Agriculture (ISIC4 A01 A0210 A0322)",
                 "Industries",
                 "Services (ISIC4 G to T)",
-                "Total",
                 ""
               ]
             }
@@ -5099,7 +5265,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of children achieving at least a minimum proficiency level",
+                "Percent (%)",
                 ""
               ]
             }
@@ -5322,12 +5488,21 @@
             "type": "integer"
           },
           {
-            "name": "Series",
+            "name": "Official development assistance",
             "type": "string",
             "constraints": {
               "enum": [
                 "ODA as a share of GNI",
-                "Total ODA to least developed countries as a share of GNI",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Least developed countries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ODA to least developed countries as a share of GNI",
                 ""
               ]
             }
@@ -5949,6 +6124,16 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Ratio",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Educational indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Participation rate in organized learning",
                 "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics",
                 "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading",
@@ -6346,21 +6531,10 @@
             "type": "integer"
           },
           {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Neonatal 0 to 27 days",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
                 "Males",
                 "Females",
                 ""
@@ -6442,7 +6616,7 @@
             "constraints": {
               "enum": [
                 "United States dollars per cubic meter (USD/m3)",
-                "Change in water-use efficiency over time (%)",
+                "Percent change in water-use efficiency over time (%)",
                 ""
               ]
             }
@@ -6636,6 +6810,17 @@
             "type": "integer"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Prevalence of anaemia in women of reproductive age",
+                "Prevalence of anaemia in pregnant women",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Severity",
             "type": "string",
             "constraints": {
@@ -6731,6 +6916,17 @@
               "enum": [
                 "Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps",
                 "Number of fixed Internet broadband subscriptions",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage",
+                "Number",
                 ""
               ]
             }
@@ -6987,19 +7183,55 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Men",
-                "Women",
+                "Canada",
+                "Nova Scotia",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }
           },
           {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 to 24 years",
+                "25 to 34 years",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male gender",
+                "Female gender",
+                "Total, gender",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
@@ -7996,28 +8228,6 @@
         ]
       },
       "title": "global_indicators.14-a-1-title"
-    },
-    {
-      "path": "16-2-1/data.csv",
-      "name": "16-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.16-2-1-title"
     },
     {
       "path": "5-c-1/data.csv",

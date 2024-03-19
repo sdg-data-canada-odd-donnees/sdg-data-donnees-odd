@@ -16,22 +16,10 @@
             "title": "Year"
           },
           {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Neonatal 0 to 27 days",
-                ""
-              ]
-            },
-            "title": "Age"
-          },
-          {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
                 "Males",
                 "Females",
                 ""

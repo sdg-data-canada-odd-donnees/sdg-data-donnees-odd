@@ -20,6 +20,17 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Ratio",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Educational indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Taux de participation à l’apprentissage organisé",
                 "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en mathématiques",
                 "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en lecture",
@@ -28,7 +39,7 @@
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Educational indicator"
           },
           {
             "name": "Series",

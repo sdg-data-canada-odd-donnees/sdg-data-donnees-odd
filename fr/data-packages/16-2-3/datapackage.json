@@ -16,20 +16,59 @@
             "title": "Année"
           },
           {
-            "name": "Sex",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
+                "Canada",
+                "Nouvelle-Écosse",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Géographie"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 à 24 ans",
+                "25 à 34 ans",
+                ""
+              ]
+            },
+            "title": "Âge"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male gender",
+                "Female gender",
+                "Total, gender",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]

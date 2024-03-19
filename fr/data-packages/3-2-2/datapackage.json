@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "cp1252",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -16,22 +16,10 @@
             "title": "Année"
           },
           {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Neonatal 0 to 27 days",
-                ""
-              ]
-            },
-            "title": "Âge"
-          },
-          {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
                 "Hommes",
                 "Femmes",
                 ""

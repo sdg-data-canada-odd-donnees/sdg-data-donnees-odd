@@ -16,16 +16,26 @@
             "title": "Année"
           },
           {
-            "name": "Series",
+            "name": "Official development assistance",
             "type": "string",
             "constraints": {
               "enum": [
                 "APD en pourcentage du RNB",
-                "APD totale aux PMA, en pourcentage du RNB",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Official development assistance"
+          },
+          {
+            "name": "Least developed countries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ODA to least developed countries as a share of GNI",
+                ""
+              ]
+            },
+            "title": "Least developed countries"
           },
           {
             "name": "Value",

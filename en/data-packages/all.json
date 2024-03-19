@@ -196,7 +196,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Millions $ CAD",
+                "CAD (Millions)",
                 "Number",
                 ""
               ]
@@ -570,6 +570,18 @@
             "name": "Year",
             "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Physical violence",
+                "Sexual violence",
+                ""
+              ]
+            },
+            "title": "Series"
           },
           {
             "name": "Value",
@@ -3929,6 +3941,173 @@
       "title": "Coverage by protected areas of important sites for mountain biodiversity"
     },
     {
+      "path": "16-2-1/data.csv",
+      "name": "16-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Type of childhood maltreatment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Physical or sexual abuse",
+                "Physical abuse",
+                "Sexual abuse",
+                ""
+              ]
+            },
+            "title": "Type of childhood maltreatment"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male gender",
+                "Female gender",
+                "Total, gender",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, age",
+                "15 to 24 years",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                ""
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, immigrant status",
+                "Immigrants",
+                "Not stated, immigrant status",
+                ""
+              ]
+            },
+            "title": "Immigrant status"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, visible minority population",
+                "Visible minority population",
+                "Not a visible minority",
+                "Not stated, visible minority population",
+                ""
+              ]
+            },
+            "title": "Visible minority"
+          },
+          {
+            "name": "Indigenous identity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "First Nations (North American Indian)",
+                "Métis",
+                "Inuk (Inuit)",
+                "Non-indigenous identity",
+                "Not stated, population by indigenous identity",
+                "Other Indigenous identity",
+                ""
+              ]
+            },
+            "title": "Indigenous identity"
+          },
+          {
+            "name": "Disability status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, disability status",
+                "Has a disability",
+                "Does not have a disability",
+                ""
+              ]
+            },
+            "title": "Disability status"
+          },
+          {
+            "name": "Sexual orientation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, sexual orientation",
+                "Heterosexual",
+                "Sexual minority",
+                "Lesbian or gay",
+                "Bisexual or pansexual",
+                "Not stated, sexual orientation",
+                "Sexual orientation not elsewhere classified",
+                ""
+              ]
+            },
+            "title": "Sexual orientation"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month"
+    },
+    {
       "path": "2-3-1/data.csv",
       "name": "2-3-1",
       "profile": "tabular-data-resource",
@@ -5071,7 +5250,7 @@
           }
         ]
       },
-      "title": "Proportion of population that feel safe walking alone around the area they live"
+      "title": "Proportion of population that feel safe walking alone around the area they live after dark"
     },
     {
       "path": "8-4-1/data.csv",
@@ -5393,10 +5572,10 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total",
                 "Agriculture (ISIC4 A01 A0210 A0322)",
                 "Industries",
                 "Services (ISIC4 G to T)",
-                "Total",
                 ""
               ]
             },
@@ -5496,7 +5675,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of children achieving at least a minimum proficiency level",
+                "Percent (%)",
                 ""
               ]
             },
@@ -5733,16 +5912,26 @@
             "title": "Year"
           },
           {
-            "name": "Series",
+            "name": "Official development assistance",
             "type": "string",
             "constraints": {
               "enum": [
                 "ODA as a share of GNI",
-                "Total ODA to least developed countries as a share of GNI",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Official development assistance"
+          },
+          {
+            "name": "Least developed countries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ODA to least developed countries as a share of GNI",
+                ""
+              ]
+            },
+            "title": "Least developed countries"
           },
           {
             "name": "Value",
@@ -6409,6 +6598,17 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Ratio",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Educational indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Participation rate in organized learning",
                 "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics",
                 "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading",
@@ -6417,7 +6617,7 @@
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Educational indicator"
           },
           {
             "name": "Series",
@@ -6837,22 +7037,10 @@
             "title": "Year"
           },
           {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Neonatal 0 to 27 days",
-                ""
-              ]
-            },
-            "title": "Age"
-          },
-          {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
                 "Males",
                 "Females",
                 ""
@@ -6941,7 +7129,7 @@
             "constraints": {
               "enum": [
                 "United States dollars per cubic meter (USD/m3)",
-                "Change in water-use efficiency over time (%)",
+                "Percent change in water-use efficiency over time (%)",
                 ""
               ]
             },
@@ -7152,6 +7340,18 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Prevalence of anaemia in women of reproductive age",
+                "Prevalence of anaemia in pregnant women",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Severity",
             "type": "string",
             "constraints": {
@@ -7259,6 +7459,18 @@
               ]
             },
             "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage",
+                "Number",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Geography",
@@ -7533,20 +7745,59 @@
             "title": "Year"
           },
           {
-            "name": "Sex",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Men",
-                "Women",
+                "Canada",
+                "Nova Scotia",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Geography"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 to 24 years",
+                "25 to 34 years",
+                ""
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male gender",
+                "Female gender",
+                "Total, gender",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
@@ -8631,30 +8882,6 @@
         ]
       },
       "title": "Proportion of total research budget allocated to research in the field of marine technology"
-    },
-    {
-      "path": "16-2-1/data.csv",
-      "name": "16-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month"
     },
     {
       "path": "5-c-1/data.csv",
