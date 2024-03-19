@@ -6,8 +6,8 @@ SDG_TARGET: '<p>Target 16.2: End abuse, exploitation, trafficking and all forms 
 SDG_INDICATOR: '<p>Indicator 16.2.3: Proportion of young women and men aged 18-29
   years who experienced sexual violence by age 18</p>'
 STAT_CONC_DEF: 'This indicator measures the proportion of young women and men aged 18-29 years who experienced sexual violence by age 18.'
-DATA_COMP: '   '
-REC_USE_LIM: 'Percent calculation includes all Canadians 15 years of age and older. Sexual violence includes incidents which occurred before the victim was 15 years of age, and only those incidents committed by an adult.'
+DATA_COMP: custom.data-comp
+REC_USE_LIM: 'Data are reported for age 15-24 and 25-34 years old on the date of the survey who experienced sexual violence before the age of 15 instead of 18-29 years old who experienced sexual violence by age 18.'
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
   development, provide access to justice for all and build effective, accountable
   and inclusive institutions at all levels</p>'
