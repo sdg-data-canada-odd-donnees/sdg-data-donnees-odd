@@ -10,7 +10,7 @@ data_show_map: true
 data_start_values:
 - field: Series
   value: Gender Parity Index
-- field: Education indicator
+- field: Educational indicator
   value: Participation rate in organized learning
 - field: Geography
   value: Canada
@@ -21,7 +21,7 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
 - Geography
-- Education indicator
+- Educational indicator
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
