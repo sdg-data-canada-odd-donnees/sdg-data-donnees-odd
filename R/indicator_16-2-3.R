@@ -13,7 +13,7 @@ age <- c(
   "25 to 34 years"
 )
 
-data_filtered <-
+data_final <-
   sexual_violence_data %>%
   filter(
     `Selected demographic characteristics` %in% age,
@@ -30,30 +30,10 @@ data_filtered <-
     Geography = GEO,
     Age,
     Gender,
-    Value = VALUE    
+    Value = VALUE
   ) %>%
   left_join(geocodes) %>%
   relocate(GeoCode, .before = Value)
-  
-data_final <- 
-  bind_rows(
-    # total line
-    data_filtered %>%
-      filter(
-        Geography == "Canada" &
-        Gender == "Total, gender"
-      ) %>% 
-      mutate_at(2:4, ~ ""),
-    
-    # disaggregates
-    data_filtered %>%
-      filter(
-        !(
-          Geography == "Canada" &
-          Gender == "Total, gender"
-        )
-      )
-  )
 
 write.csv(
   data_final, 
