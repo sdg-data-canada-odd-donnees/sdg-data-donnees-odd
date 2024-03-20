@@ -1,7 +1,7 @@
 SDG_GOAL: 'Goal 5: Achieve gender equality and empower all women and girls'
 SDG_TARGET: 'Target 5.b: Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women'
-SDG_INDICATOR: 'Indicator 5.b.1: Proportion of individuals who own a mobile telephone, by sex'
-STAT_CONC_DEF: '<strong>Definition:</strong><br> This indicator measures the proportion of individuals who own a mobile telephone, by sex. <br><br><strong>Concepts:</strong><br> An individual owns a mobile cellular phone if he/she has a mobile cellular phone device with at least one 
+SDG_INDICATOR: 'Indicator 5.b.1: Proportion of households with cellular telephones'
+STAT_CONC_DEF: '<strong>Definition:</strong><br>This indicator measures the proportion of households with cellular telephones.<br><br><strong>Concepts:</strong><br> An individual owns a mobile cellular phone if he/she has a mobile cellular phone device with at least one 
   active SIM card for personal use. Mobile cellular phones supplied by employers that can be used for 
   personal reasons (to make personal calls, access the Internet, etc.) are included. Individuals who have only 
   active SIM card(s) and not a mobile phone device are excluded. Individuals who have a mobile phone for 
@@ -10,7 +10,7 @@ STAT_CONC_DEF: '<strong>Definition:</strong><br> This indicator measures the pro
   service using cellular technology, which provides access to the Public Switched Telephone Network (PSTN). 
   This includes analogue and digital cellular systems and technologies such as IMT-2000 (3G) and IMT-Advanced. Users of both postpaid subscriptions and prepaid accounts are included.'
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'Starting with the 2017 reference year, the Survey of Household Spending is conducted every two years.'
+REC_USE_LIM: 'Starting with the 2017 reference year, the Survey of Household Spending is conducted every two years. <br><br> This indicator measures the proportion of households with cellular telephones rather than the proportion of individuals who own a mobile telephone as specified by the metadata.'
 SDG_GOAL__GLOBAL: 'Goal 5: Achieve gender equality and empower all women and girls'
 SDG_TARGET__GLOBAL: 'Target 5.b: Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women'
 SDG_INDICATOR__GLOBAL: 'Indicator 5.b.1: Proportion of individuals who own a mobile telephone, by sex'
@@ -27,3 +27,5 @@ source_organisation_1: Statistics Canada
 source_periodicity_1: Every 2 years
 source_geographical_coverage_1: Canada, Geographical region of Canada, Province or territory
 source_url_1: https://doi.org/10.25318/1110022801-eng
+
+proxy: proxy
