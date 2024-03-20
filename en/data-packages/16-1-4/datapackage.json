@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total visible minority",
+                "Canada total",
                 "Total visible minority population",
                 "South Asian",
                 "Chinese",
@@ -40,7 +40,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 15 years and over",
                 "Men+",
                 "Women+",
                 "15 to 24 years",
@@ -48,6 +47,7 @@
                 "65 years and over",
                 "Non-immigrants",
                 "Immigrants",
+                "Total, 15 years and over",
                 ""
               ]
             },
