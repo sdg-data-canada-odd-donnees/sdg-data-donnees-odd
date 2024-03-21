@@ -4,9 +4,7 @@ SDG_GOAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestri
 SDG_TARGET: '<p>Target 15.8: By 2020, introduce measures to prevent the introduction
   and significantly reduce the impact of invasive alien species on land and water
   ecosystems and control or eradicate the priority species</p>'
-SDG_INDICATOR: '<p>Indicator 15.8.1: Proportion of countries adopting relevant national
-  legislation and adequately resourcing the prevention or control of invasive alien
-  species</p>'
+SDG_INDICATOR: '<p>Indicator 15.8.1: Does Canada adopt relevant national legislation for the prevention or control of invasive alien species?</p>'
 STAT_CONC_DEF: |
   This indicator aims to quantify trends in: 
   <br>Commitment by countries to relevant multinational agreements, specifically:
@@ -17,7 +15,7 @@ STAT_CONC_DEF: |
   <br>The translation of policy arrangements into action by countries to implement policy and actively 
   prevent and control invasive alien species (IAS) and the resourcing of this action, specifically:
   <br>(2) National allocation of resources towards the prevention or control of IAS.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
   ecosystems, sustainably manage forests, combat desertification, and halt and reverse
@@ -33,8 +31,6 @@ un_custodian_agency: International Union for Conservation of Nature (IUCN)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-08-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
- 
-
 source_active_1: 'true'
 source_url_text_1: "An invasive alien species strategy for Canada"
 source_url_1: https://publications.gc.ca/site/eng/462217/publication.html
@@ -42,3 +38,5 @@ source_organisation_1: Government of Canada
 source_geographical_coverage_1: Canada
 
 reporting_status: complete
+
+proxy: proxy
