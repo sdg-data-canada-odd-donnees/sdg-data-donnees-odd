@@ -43,7 +43,7 @@ data_final <-
       filter(!is.na(gdp)) %>% 
       transmute(
         Year = REF_DATE, 
-        Units = "Percentage",
+        Units = "Percentage (%)",
         Geography = GEO,
         Value = round(((mva*1000)/(gdp*1000000))*100, 2)
       ),
