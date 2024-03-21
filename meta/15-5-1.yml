@@ -5,11 +5,17 @@ SDG_TARGET: '<p>Target 15.5: Take urgent and significant action to reduce the de
   of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent
   the extinction of threatened species</p>'
 SDG_INDICATOR: '<p>Indicator 15.5.1: Canadian Species Index</p>'
-STAT_CONC_DEF: |
-  The Canadian species index represents the average percent change in the abundances of Canadian vertebrate species' populations since 1970. The index is an "average of trends", rather than a measure of change in the total number of animals: each species, whether it is common or rare, has the same effect on the index. The index reports general trends rather than progress towards desired levels.
-DATA_COMP: custom.data-comp
+STAT_CONC_DEF: The Red List Index measures change in aggregate extinction risk across groups of species. It is based on 
+  genuine changes in the number of species in each category of extinction risk on The IUCN Red List of 
+  Threatened Species (www.iucnredlist.org) is expressed as changes in an index ranging from 0 to 1.
+DATA_COMP: |
+  Calculated based on the proportional change in population size for monitored 
+  vertebrate species. All species are weighted equally, such that a species that doubled in 
+  population would be balanced out by a species that declined by half. A long-term decline 
+  from the 1970 baseline appears to be continuing. However, short-term fluctuations should 
+  not be interpreted as strong evidence of recent environmental change.
 REC_USE_LIM: |
-  This is a proxy indicator presenting the Canadian Species Index rather than the Red List Index as specified by the metadata.
+  This is a proxy indicator. The UN Global indicator states: "Red List Index".
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
   ecosystems, sustainably manage forests, combat desertification, and halt and reverse
   land degradation and halt biodiversity loss</p>'
