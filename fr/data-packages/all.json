@@ -584,6 +584,111 @@
             "title": "Series"
           },
           {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hommes",
+                "Femmes",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 à 24 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                "65 years and older",
+                ""
+              ]
+            },
+            "title": "Âge"
+          },
+          {
+            "name": "Sexual orientation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Heterosexual",
+                "Lesbian or gay",
+                "Bisexual",
+                ""
+              ]
+            },
+            "title": "Sexual orientation"
+          },
+          {
+            "name": "First Nations, Metis, or Inuit identity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Autochtone",
+                "First Nations",
+                "Metis",
+                "Inuit",
+                "Personne non autochtone",
+                ""
+              ]
+            },
+            "title": "First Nations, Metis, or Inuit identity"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Minorité visible",
+                "N’appartenant pas à une minorité visible",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Person with disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Has a disability",
+                "Does not have a disability",
+                ""
+              ]
+            },
+            "title": "Person with disability"
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Immigrant",
+                "Non-immigrant",
+                ""
+              ]
+            },
+            "title": "Immigrant status"
+          },
+          {
+            "name": "Marital status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Married or common-law",
+                "Separated, divorced, or widowed",
+                "Single, never married",
+                ""
+              ]
+            },
+            "title": "Situation de famille"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Valeur"
@@ -1229,7 +1334,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 "Nombre",
                 "Kilomètres carrés",
                 ""
@@ -2194,6 +2299,32 @@
             "title": "Année"
           },
           {
+            "name": "Systems",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terrestrial index",
+                "Freshwater index",
+                "Marine index",
+                ""
+              ]
+            },
+            "title": "Systems"
+          },
+          {
+            "name": "Species",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Birds index",
+                "Mammals index",
+                "Fish index",
+                ""
+              ]
+            },
+            "title": "Species"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -2233,7 +2364,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 ""
               ]
             },
@@ -2602,7 +2733,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 ""
               ]
             },
@@ -2908,7 +3039,7 @@
             "constraints": {
               "enum": [
                 "Ratio",
-                "Pourcentage",
+                "Pour cent (%)",
                 ""
               ]
             },
@@ -2999,7 +3130,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 ""
               ]
             },
@@ -3628,7 +3759,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 ""
               ]
             },
@@ -3862,7 +3993,7 @@
                 "Ratio de chômeurs recevant des prestations\n",
                 "Proportion de chômeurs admissibles aux prestations d'assurance-emploi\n",
                 "Proportion de personnes plus âgées recevant une pension\n",
-                "Pourcentage de mères d'enfants de 12 mois ou moins qui ont reçu des prestations de maternité ou parentales\n",
+                "Percentage (%) of mothers with a child aged 12 months or less that received maternity or parental benefits",
                 ""
               ]
             },
@@ -3873,7 +4004,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 "Ratio",
                 ""
               ]
@@ -4180,9 +4311,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 "Tonnes/hectare",
-                "Hectares",
+                "Hectares (Millions)",
                 ""
               ]
             },
@@ -4576,7 +4707,7 @@
                 "65 ans et plus",
                 "Hommes+",
                 "Femmes+",
-                "Percentage of population within 500 metres of a public transit stop",
+                "Percentage (%) of population within 500 metres of a public transit stop",
                 ""
               ]
             },
@@ -4849,7 +4980,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 ""
               ]
             },
@@ -4925,7 +5056,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 "Dollar",
                 ""
               ]
@@ -5101,7 +5232,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 ""
               ]
             },
@@ -5210,7 +5341,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada total",
+                "Total - Canada",
                 "Total de la population des minorités visibles",
                 "Sud-Asiatique\n",
                 "Chinois\n",
@@ -5226,7 +5357,7 @@
             "title": "Groupes racialisés"
           },
           {
-            "name": "Sociodemographic characteristics",
+            "name": "Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5241,7 +5372,7 @@
                 ""
               ]
             },
-            "title": "Caractéristiques sociodémographiques"
+            "title": "Selected sociodemographic characteristics"
           },
           {
             "name": "Value",
@@ -5586,7 +5717,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 ""
               ]
             },
@@ -5675,7 +5806,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pour cent (%)",
+                "Percentage (%) (%)",
                 ""
               ]
             },
@@ -6070,7 +6201,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 ""
               ]
             },
@@ -6235,7 +6366,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 ""
               ]
             },
@@ -7176,7 +7307,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 ""
               ]
             },
@@ -7465,7 +7596,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 "Nombre",
                 ""
               ]
@@ -7821,7 +7952,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]

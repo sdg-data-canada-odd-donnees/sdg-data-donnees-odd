@@ -28,6 +28,111 @@
             "title": "Series"
           },
           {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hommes",
+                "Femmes",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 à 24 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                "65 years and older",
+                ""
+              ]
+            },
+            "title": "Âge"
+          },
+          {
+            "name": "Sexual orientation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Heterosexual",
+                "Lesbian or gay",
+                "Bisexual",
+                ""
+              ]
+            },
+            "title": "Sexual orientation"
+          },
+          {
+            "name": "First Nations, Metis, or Inuit identity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Autochtone",
+                "First Nations",
+                "Metis",
+                "Inuit",
+                "Personne non autochtone",
+                ""
+              ]
+            },
+            "title": "First Nations, Metis, or Inuit identity"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Minorité visible",
+                "N’appartenant pas à une minorité visible",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Person with disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Has a disability",
+                "Does not have a disability",
+                ""
+              ]
+            },
+            "title": "Person with disability"
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Immigrant",
+                "Non-immigrant",
+                ""
+              ]
+            },
+            "title": "Immigrant status"
+          },
+          {
+            "name": "Marital status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Married or common-law",
+                "Separated, divorced, or widowed",
+                "Single, never married",
+                ""
+              ]
+            },
+            "title": "Situation de famille"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Valeur"

@@ -539,6 +539,103 @@
             }
           },
           {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Men",
+                "Women",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 to 24 years",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 64 years",
+                "65 years and older",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sexual orientation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Heterosexual",
+                "Lesbian or gay",
+                "Bisexual",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "First Nations, Metis, or Inuit identity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indigenous person",
+                "First Nations",
+                "Metis",
+                "Inuit",
+                "Non-Indigenous person",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Visible minority",
+                "Non-visible minority",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Person with disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Has a disability",
+                "Does not have a disability",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Immigrant",
+                "Non-immigrant",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Marital status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Married or common-law",
+                "Separated, divorced, or widowed",
+                "Single, never married",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
@@ -1136,7 +1233,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 "Number",
                 "Square kilometers",
                 ""
@@ -2031,6 +2128,30 @@
             "type": "integer"
           },
           {
+            "name": "Systems",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terrestrial index",
+                "Freshwater index",
+                "Marine index",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Species",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Birds index",
+                "Mammals index",
+                "Fish index",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
@@ -2067,7 +2188,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 ""
               ]
             }
@@ -2408,7 +2529,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 ""
               ]
             }
@@ -2693,7 +2814,7 @@
             "constraints": {
               "enum": [
                 "Ratio",
-                "Percentage",
+                "Percentage (%)",
                 ""
               ]
             }
@@ -2779,7 +2900,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 ""
               ]
             }
@@ -3364,7 +3485,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 ""
               ]
             }
@@ -3581,7 +3702,7 @@
                 "Ratio of unemployed receiving benefits",
                 "Proportion of the unemployed eligible for Employment Insurance benefits",
                 "Proportion of older persons receiving a pension",
-                "Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits",
+                "Percentage (%) of mothers with a child aged 12 months or less that received maternity or parental benefits",
                 ""
               ]
             }
@@ -3591,7 +3712,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 "Ratio",
                 ""
               ]
@@ -3875,9 +3996,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 "Tonnes/hectare",
-                "Hectares",
+                "Hectares (Millions)",
                 ""
               ]
             }
@@ -4249,7 +4370,7 @@
                 "65 years and over",
                 "Men+",
                 "Women+",
-                "Percentage of population within 500 metres of a public transit stop",
+                "Percentage (%) of population within 500 metres of a public transit stop",
                 ""
               ]
             }
@@ -4503,7 +4624,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 ""
               ]
             }
@@ -4573,7 +4694,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 "Dollar",
                 ""
               ]
@@ -4735,7 +4856,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 ""
               ]
             }
@@ -4835,7 +4956,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada total",
+                "Total - Canada",
                 "Total visible minority population",
                 "South Asian",
                 "Chinese",
@@ -4850,7 +4971,7 @@
             }
           },
           {
-            "name": "Sociodemographic characteristics",
+            "name": "Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5184,7 +5305,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 ""
               ]
             }
@@ -5265,7 +5386,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent (%)",
+                "Percentage (%) (%)",
                 ""
               ]
             }
@@ -5635,7 +5756,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 ""
               ]
             }
@@ -5789,7 +5910,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 ""
               ]
             }
@@ -6659,7 +6780,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 ""
               ]
             }
@@ -6925,7 +7046,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage",
+                "Percentage (%)",
                 "Number",
                 ""
               ]
@@ -7253,7 +7374,7 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },

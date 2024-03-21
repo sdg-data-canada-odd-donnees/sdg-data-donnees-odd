@@ -20,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
+                "Pour cent (%)",
                 "Tonnes/hectare",
-                "Hectares",
+                "Hectares (Millions)",
                 ""
               ]
             },

@@ -16,6 +16,32 @@
             "title": "Year"
           },
           {
+            "name": "Systems",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terrestrial index",
+                "Freshwater index",
+                "Marine index",
+                ""
+              ]
+            },
+            "title": "Systems"
+          },
+          {
+            "name": "Species",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Birds index",
+                "Mammals index",
+                "Fish index",
+                ""
+              ]
+            },
+            "title": "Species"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
