@@ -4,13 +4,14 @@ SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable 
   institutions at all levels</p>'
 SDG_TARGET: '<p>Target 16.2: End abuse, exploitation, trafficking and all forms of
   violence against and torture of children</p>'
-SDG_INDICATOR: '<p>Indicator 16.2.2: Number of human trafficking incidents reported per 100,000 population</p>'
-STAT_CONC_DEF: 'This indicator measures the number of human trafficking incidents reported per 100,000 population.'
-DATA_COMP: 'Number of human trafficking incidents reported per 100,000 population = (Number of human trafficking incidents reported / Total population) x 100,000'
+SDG_INDICATOR: '<p>Indicator 16.2.2: Number of victims of human trafficking per 100,000 
+  population, by sex, age and form of exploitation</p>'
+STAT_CONC_DEF: 'The indicator is defined as the ratio between the total number of victims of trafficking in persons in a 
+  country and the population resident in that country, expressed per 100,000 population.'
+DATA_COMP: '   '
 REC_USE_LIM: |
     "Total Human Trafficking" is comprised of two violation codes, 1525 "Trafficking in Persons" (S.279.01, 279.011, 279.02, 279.03 of the Criminal Code) and 6510 "Human Trafficking" from S.117 of the Immigration and Refugee Protection Act.<br><br>
-    Human trafficking incidents reported to the Uniform Crime Reporting (UCR) Survey may be undercounted due to differences in police reporting practices for this violation. <br><br>
-    This is a proxy indicator measuring the number of human trafficking incidents reported rather than the number of victims of human trafficking as specified by the metadata.
+    Human trafficking incidents reported to the Uniform Crime Reporting (UCR) Survey may be undercounted due to differences in police reporting practices for this violation.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
@@ -40,5 +41,3 @@ source_url_2: https://doi.org/10.25318/1710000501-eng
 source_organisation_2: Statistics Canada
 source_periodicity_2: Annual
 source_geographical_coverage_2: Canada, Province or territory
-
-proxy: proxy

@@ -1,6 +1,6 @@
 auto_progress_calculation: true
 composite_breakdown_label: ''
-computation_units: Percentage (%)
+computation_units: Percent (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -10,7 +10,11 @@ data_notice_text: ''
 data_show_map: false
 data_start_values:
 - field: Racialized groups
-  value: Total - Canada
+  value: Total visible minority
+- field: Sociodemographic characteristics
+  value: Total, 15 years and over
+- field: Racialized groups
+  value: Not a visible minority
 - field: Sociodemographic characteristics
   value: Total, 15 years and over
 embedded_feature_footer: ''

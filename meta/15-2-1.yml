@@ -8,16 +8,11 @@ SDG_TARGET: >-
       increase afforestation and reforestation globally</p>
 SDG_INDICATOR: >-
     <p>Indicator 15.2.1: Progress towards sustainable forest management</p>
-STAT_CONC_DEF: |
-  The indicator is composed of five sub-indicators that measure progress towards all dimensions of sustainable forest management. The environmental values of forests are covered by three sub-indicators focused on the extension of forest area, biomass within the forest area and protection and maintenance of biological diversity, and of natural and associated cultural resources. Social and economic values of forests are reconciled with environmental values through sustainable management plans. The sub-indicator provides further qualification to the management of forest areas, by assessing areas which are independently verified for compliance with a set of national or international standards. <br><br>
-  The sub-indicators are: <br>
-  1. Annual forest area change rate <br>
-  2. Above-ground biomass in forest <br>
-  3. Proportion of forest area within legally established protected areas <br>
-  4. Proportion of forest area under a long-term management plan <br>
-  5. Forest area under an independently verified forest management certification scheme
-DATA_COMP: custom.data-comp
-REC_USE_LIM: 'Forest area under an independently verified forest management certification scheme is measured in millions of hectares rather than thousands as specified in the metadata.'
+STAT_CONC_DEF: '“Sustainable forest management” (SFM) is a central concept for Goal 15 and target 15.1 as well as for 
+  target 15.2. It has been formally defined, by the UN General Assembly, as follows: <br> <i>[a] dynamic and evolving concept [that] aims to maintain and enhance the economic, social and 
+  environmental values of all types of forests, for the benefit of present and future generations</i> (Resolution A/RES/62/98)'
+DATA_COMP: '   '
+REC_USE_LIM: '   '
  
 SDG_GOAL__GLOBAL: >-
     <p>Goal 15: Protect, restore and promote sustainable use of terrestrial

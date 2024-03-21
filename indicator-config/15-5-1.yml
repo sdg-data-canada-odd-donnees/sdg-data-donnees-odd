@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Percentage (%)
+computation_units: Percentage change from 1970 baseline
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -20,7 +20,7 @@ graph_stacked_disaggregation: ''
 graph_target_lines:
 - label_content: 1970 baseline
   value: 0
-graph_title: chart.15-5-1-title
+graph_title: Canadian Species Index, Percentage Change, 1970 to 2016
 graph_titles: []
 graph_type: line
 indicator_available: proxy.15-5-1-title
