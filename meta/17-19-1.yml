@@ -11,7 +11,7 @@ STAT_CONC_DEF: 'The indicator Dollar value of all resources made available to st
   countries is based on the Partner Report on Support to Statistics (PRESS) that is designed and 
   administered by PARIS21 to provide a snapshot of the US dollar value of ongoing statistical support in 
   developing countries.'
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 
 ## GLOBAL METADATA
@@ -27,8 +27,6 @@ un_custodian_agency: Partnership in Statistics for Development in the 21st Centu
   (PARIS21)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
- 
 
 ## SOURCE(S)    
 reporting_status: complete
