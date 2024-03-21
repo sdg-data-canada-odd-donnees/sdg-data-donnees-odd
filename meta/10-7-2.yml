@@ -10,7 +10,7 @@ STAT_CONC_DEF: <p>SDG Indicator 10.7.2 aims to describe the state of national mi
   for actionable recommendations for the implementation of SDG target 10.7. The indicator
   also serves for the future thematic reviews at the High-level Political Forum on
   Sustainable Development (HLPF).</p>
-DATA_COMP: '   '
+DATA_COMP: custom.information-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
 SDG_TARGET__GLOBAL: '<p>Target 10.7: Facilitate orderly, safe, regular and responsible
@@ -23,8 +23,6 @@ un_custodian_agency: United Nations Department of Economic and Social Affairs (D
   International Organization for Migration (IOM)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
- 
 
 source_active_1: 'true'
 source_url_text_1: Immigrate to Canada

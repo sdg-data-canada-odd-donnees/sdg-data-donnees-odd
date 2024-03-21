@@ -21,6 +21,7 @@ graph_title: chart.16-2-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.16-2-2-title
+indicator_available: proxy.16-2-2-title
 indicator_number: '16.2.2'
 national_geographical_coverage: Canada
 page_content: ''
@@ -29,4 +30,5 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+  - Proxy

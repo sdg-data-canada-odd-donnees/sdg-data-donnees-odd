@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Percentage
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -20,15 +20,15 @@ graph_stacked_disaggregation: ''
 graph_title: global_indicators.15-2-1-title
 graph_titles:
 - series: Forest area net change rate
-  title: Forest area net change rate (Percentage)
+  title: Forest area net change rate
 - series: Above-ground biomass stock in forest
-  title: Above-ground biomass stock in forest (Tonnes/hectares)
+  title: Above-ground biomass stock in forest
 - series: Proportion of forest area located within legally established protected areas
-  title: Proportion of forest area located within legally established protected areas (Percentage)
+  title: Proportion of forest area located within legally established protected areas
 - series: Proportion of forest area under a long term forest management plan
-  title: Proportion of forest area under a long term forest management plan (Percentage)
+  title: Proportion of forest area under a long term forest management plan
 - series: Forest area under an independently verified forest management certification scheme
-  title: Forest area under an independently verified forest management certification scheme (Hectares)
+  title: Forest area under an independently verified forest management certification scheme
 graph_type: line
 indicator_name: global_indicators.15-2-1-title
 indicator_number: 15.2.1

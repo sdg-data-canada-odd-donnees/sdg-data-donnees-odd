@@ -1,11 +1,58 @@
-"Year","Series","Value"
-1999,Physical violence,80
-2004,Physical violence,75
-2009,Physical violence,80
-2014,Physical violence,48
-2019,Physical violence,46
-1999,Sexual violence,21
-2004,Sexual violence,21
-2009,Sexual violence,24
-2014,Sexual violence,22
-2019,Sexual violence,30
+Year,Series,Gender,Age,Sexual orientation,"First Nations, Métis, or Inuit identity",Visible minority,Person with disability,Immigrant status,Marital status,Value
+1999,Physical violence,,,,,,,,,80
+2004,Physical violence,,,,,,,,,75
+2009,Physical violence,,,,,,,,,80
+2014,Physical violence,,,,,,,,,48
+2019,Physical violence,,,,,,,,,46
+1999,Sexual violence,,,,,,,,,21
+2004,Sexual violence,,,,,,,,,21
+2009,Sexual violence,,,,,,,,,24
+2014,Sexual violence,,,,,,,,,22
+2019,Sexual violence,,,,,,,,,30
+2019,Physical violence,Men,,,,,,,,43
+2019,Physical violence,Women,,,,,,,,49
+2019,Sexual violence,Men,,,,,,,,9
+2019,Sexual violence,Women,,,,,,,,50
+2019,Physical violence,,15 to 24 years,,,,,,,34
+2019,Physical violence,,25 to 34 years,,,,,,,53
+2019,Physical violence,,35 to 44 years,,,,,,,34
+2019,Physical violence,,45 to 54 years,,,,,,,33
+2019,Physical violence,,55 to 64 years,,,,,,,22
+2019,Physical violence,,65 years and older,,,,,,,9
+2019,Sexual violence,,15 to 24 years,,,,,,,103
+2019,Sexual violence,,25 to 34 years,,,,,,,50
+2019,Sexual violence,,35 to 44 years,,,,,,,19
+2019,Sexual violence,,45 to 54 years,,,,,,,13
+2019,Sexual violence,,55 to 64 years,,,,,,,7
+2019,Sexual violence,,65 years and older,,,,,,,2
+2019,Physical violence,,,Heterosexual,,,,,,38
+2019,Physical violence,,,Lesbian or gay,,,,,,18
+2019,Physical violence,,,Bisexual,,,,,,30
+2019,Sexual violence,,,Heterosexual,,,,,,19
+2019,Sexual violence,,,Lesbian or gay,,,,,,55
+2019,Sexual violence,,,Bisexual,,,,,,541
+2019,Physical violence,,,,Indigenous person,,,,,121
+2019,Physical violence,,,,First Nations,,,,,63
+2019,Physical violence,,,,Metis,,,,,181
+2019,Physical violence,,,,Inuit,,,,,185
+2019,Physical violence,,,,Non-Indigenous person,,,,,44
+2019,Sexual violence,,,,Indigenous person,,,,,35
+2019,Sexual violence,,,,Non-Indigenous person,,,,,30
+2019,Physical violence,,,,,Visible minority,,,,66
+2019,Physical violence,,,,,Non-visible minority,,,,36
+2019,Sexual violence,,,,,Visible minority,,,,60
+2019,Sexual violence,,,,,Non-visible minority,,,,14
+2019,Physical violence,,,,,,Has a disability,,,66
+2019,Physical violence,,,,,,Does not have a disability,,,36
+2019,Sexual violence,,,,,,Has a disability,,,60
+2019,Sexual violence,,,,,,Does not have a disability,,,14
+2019,Physical violence,,,,,,,Immigrant,,29
+2019,Physical violence,,,,,,,Non-immigrant,,52
+2019,Sexual violence,,,,,,,Immigrant,,12
+2019,Sexual violence,,,,,,,Non-immigrant,,36
+2019,Physical violence,,,,,,,,Married or common-law,40
+2019,Physical violence,,,,,,,,"Separated, divorced, or widowed",46
+2019,Physical violence,,,,,,,,"Single, never married",60
+2019,Sexual violence,,,,,,,,Married or common-law,9
+2019,Sexual violence,,,,,,,,"Separated, divorced, or widowed",15
+2019,Sexual violence,,,,,,,,"Single, never married",81
