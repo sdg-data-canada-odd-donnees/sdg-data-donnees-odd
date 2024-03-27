@@ -60,7 +60,7 @@ pop <-
   filter(
     REF_DATE >= 2010,
     GEO == "Canada",
-    Sex == "Both sexes",
+    Gender == "Total - gender",
     `Age group` == "All ages"
   ) %>% 
   select(
