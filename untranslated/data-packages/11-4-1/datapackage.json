@@ -21,6 +21,7 @@
               "enum": [
                 "Alberta",
                 "British Columbia",
+                "Canada",
                 "Manitoba",
                 "New Brunswick",
                 "Newfoundland and Labrador",
@@ -42,6 +43,7 @@
             "constraints": {
               "enum": [
                 "Consolidated provincial-territorial and local governments",
+                "Consolidated Canadian general government",
                 ""
               ]
             }

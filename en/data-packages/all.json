@@ -280,18 +280,6 @@
             "title": "Year"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Rate per 100,000 population",
-                "Number",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Units",
             "type": "string",
             "constraints": {
@@ -343,18 +331,6 @@
             "name": "Year",
             "type": "integer",
             "title": "Year"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Rate per 100,000 population",
-                "Number",
-                ""
-              ]
-            },
-            "title": "Series"
           },
           {
             "name": "Units",
@@ -6569,6 +6545,7 @@
               "enum": [
                 "Alberta",
                 "British Columbia",
+                "Canada",
                 "Manitoba",
                 "New Brunswick",
                 "Newfoundland and Labrador",
@@ -6591,6 +6568,7 @@
             "constraints": {
               "enum": [
                 "Consolidated provincial-territorial and local governments",
+                "Consolidated Canadian general government",
                 ""
               ]
             },

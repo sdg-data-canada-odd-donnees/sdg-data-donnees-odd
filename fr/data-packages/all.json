@@ -280,18 +280,6 @@
             "title": "Année"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Taux par 100 000 habitants",
-                "Nombre",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Units",
             "type": "string",
             "constraints": {
@@ -343,18 +331,6 @@
             "name": "Year",
             "type": "integer",
             "title": "Année"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Taux par 100 000 habitants",
-                "Nombre",
-                ""
-              ]
-            },
-            "title": "Series"
           },
           {
             "name": "Units",
@@ -6569,6 +6545,7 @@
               "enum": [
                 "Alberta",
                 "Colombie-Britannique",
+                "Canada",
                 "Manitoba",
                 "Nouveau-Brunswick",
                 "Terre-Neuve-et-Labrador",
@@ -6591,6 +6568,7 @@
             "constraints": {
               "enum": [
                 "Administrations publiques provinciales-territoriales et locales consolidées",
+                "Administration publique générale canadienne consolidée",
                 ""
               ]
             },

@@ -16,18 +16,6 @@
             "title": "Année"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Taux par 100 000 habitants",
-                "Nombre",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Units",
             "type": "string",
             "constraints": {
