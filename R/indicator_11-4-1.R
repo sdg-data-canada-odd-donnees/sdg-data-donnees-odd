@@ -74,17 +74,21 @@ total_line <-
   join_total %>%
   filter(Geography == "Canada",
          `Level of government` == "Consolidated Canadian general government",
-         `Type of heritage` == "Total cultural and natural heritage") %>%
-  mutate(Geography = "", `Level of government` = "", `Type of heritage` = "") %>%
-  filter(!is.na(Value))
+         `Type of heritage` == "Total cultural and natural heritage") %>% 
+  mutate_at(2:4, ~ "") %>%
+  filter(!is.na(Value)) 
 
-data_with_Canada <- bind_rows(total_line, join_total)
-
-data_final <-
-  data_with_Canada %>%
+disaggregate <-
+  join_total %>%
   filter(
-    !Geography %in% exclude_Canada
-  ) 
+    !(
+      Geography == "Canada"&
+      `Level of government` == "Consolidated Canadian general government"&
+      `Type of heritage` == "Total cultural and natural heritage"
+    )
+  )
+
+data_final <- bind_rows(total_line, disaggregate)
 
 write.csv(
   data_final,

@@ -7,13 +7,12 @@ SDG_INDICATOR: 'Indicator 11.1.1: Proportion of urban population in core housing
 DATA_COMP: custom.data-comp
 STAT_CONC_DEF: >-
     This indicator measures the proportion of urban population in core housing need. The urban population is defined as the population living in "large urban population centres" as defined by the Canadian Housing Survey. <br><br>
-    A household is said to be in "core housing need" if its housing falls below at least one of the adequacy, affordability or suitability standards and it would have to spend 30% or more of its total before-tax income to pay the median rent of alternative local housing that is acceptable (meets all three housing standards). 
-    Housing standards are defined as follows: <br>
-    <ul>
-    <li>Adequate housing is reported by their residents as not requiring any major repairs.</li>
-    <li>Affordable housing has shelter costs equal to less than 30% of total before-tax household income.</li>
-    <li>Suitable housing has enough bedrooms for the size and composition of resident households according to National Occupancy Standard (NOS) requirements.</li>
-    </ul>   
+    A household is said to be in "core housing need" if its housing falls below at least one of the adequacy, affordability or suitability standards and it would have to spend 30% or more of its total before-tax income to pay the median rent of alternative local housing that is acceptable (meets all three housing standards). <br><br>
+    Housing standards are defined as follows: <br><br>
+      - Adequate housing is reported by their residents as not requiring any major repairs.<br><br>
+      - Affordable housing has shelter costs equal to less than 30% of total before-tax household income.<br><br>
+      - Suitable housing has enough bedrooms for the size and composition of resident households according to National Occupancy Standard (NOS) requirements.
+  
 REC_USE_LIM: |
   This is a proxy indicator. The UN Global indicator states: "Proportion of urban population living in slums, informal settlements or inadequate housing". <br><br>
   Only private, non-farm, non-reserve and owner- or renter-households with incomes greater than zero and shelter-cost-to-income ratios less than 100% are assessed for "core housing need."
