@@ -25,7 +25,7 @@
                 "Ratio de chômeurs recevant des prestations\n",
                 "Proportion de chômeurs admissibles aux prestations d'assurance-emploi\n",
                 "Proportion de personnes plus âgées recevant une pension\n",
-                "Percentage (%) of mothers with a child aged 12 months or less that received maternity or parental benefits",
+                "Pourcentage de mères d'enfants de 12 mois ou moins qui ont reçu des prestations de maternité ou parentales\n",
                 ""
               ]
             },
@@ -36,7 +36,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pour cent (%)",
+                "Pourcentage (%)",
                 "Ratio",
                 ""
               ]
