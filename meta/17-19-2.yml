@@ -6,8 +6,18 @@ SDG_TARGET: '<p>Target 17.19: By 2030, build on existing initiatives to develop 
 SDG_INDICATOR: '<p>Indicator 17.19.2: Proportion of countries that (a) have conducted
   at least one population and housing census in the last 10 years; and (b) have achieved
   100 per cent birth registration and 80 per cent death registration</p>'
-STAT_CONC_DEF: '    '
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+  The indicator 17.19.2 (a) tracks the proportion of countries that have conducted at least one population and housing 
+  census in the last 10 years. This also includes countries which compile their detailed population and 
+  housing statistics from population registers, administrative records, sample surveys or other sources or a 
+  combination of those sources</p><p>Indicator 17.19.02b has two parts; the first concerning the birth registration and the second concerning the death registration of each individual country or area. <br><br>
+  According to the Principles and Recommendations for a Vital Statistics System, Revision 3 (<a href="https://unstats.un.org/unsd/demographic/standmeth/principles/M19Rev3en.pdf">https://unstats.un.org/unsd/demographic/standmeth/principles/M19Rev3en.pdf)</a>, a complete civil 
+  registration is defined as: “The registration in the civil registration system of every vital event that has occurred to the members of the population of a particular country (or area), within a specified period as a 
+  result of which every such event has a vital registration record and the system has attained 100 per cent 
+  coverage.” <br><br>
+  In a given country or area, the level of completeness of birth registration can be different from the level 
+  of completeness of death registration.
+DATA_COMP: '     '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the Global Partnership for Sustainable Development</p>'
@@ -21,7 +31,27 @@ un_designated_tier: Tier I
 un_custodian_agency: United Nations Statistics Division (UNSD), Department of Economic
   and Social Affairs, United Nations
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.19
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 469
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+source_active_1: 'true'
+source_url_text_1: Census of Population
+source_url_1: https://www12.statcan.gc.ca/census-recensement/index-eng.cfm
+source_organisation_1: Statistics Canada
+source_periodicity_1: Every 5 years
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Vital Statistics - Death Database (CVSD)
+source_url_2: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=3233
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: Vital Statistics - Birth database (CVSB)
+source_url_3: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=1528597
+source_organisation_3: Statistics Canada
+source_periodicity_3: Annual
+source_geographical_coverage_3: Canada
 
 reporting_status: complete

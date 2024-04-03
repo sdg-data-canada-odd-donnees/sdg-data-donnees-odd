@@ -110,7 +110,7 @@ Shopping for goods or services: Magasinage de biens ou de services
 
 ## Metadata fields
 Canada, Geographical region of Canada, Province or territory: Canada, Région géographique du Canada, Province ou territoire
-Public Health Agency of Canada: "Agence de la santé publique du Canada"
+Public Health Agency of Canada (PHAC): "Agence de la santé publique du Canada (ASPC)"
 
 
 Every 2 years: Aux 2 ans
@@ -121,13 +121,12 @@ United Nations Sustainable Development Goals Metadata (PDF 98.2 KB): 'Métadonn�
 United Nations Sustainable Development Goals Metadata (PDF): 'Métadonnées des objectifs de développement durable des Nations Unies (PDF)'
 
 
-World Bank (WB): La Banque mondiale
+World Bank (WB): Banque Mondiale
 UNESCO Institute for Statistics (UNESCO-UIS): Institut de statistique de l’UNESCO
-World Health Organisation (WHO): Organisation mondiale de la Santé (OMS)
 World Health Organization (WHO): Organisation mondiale de la Santé (OMS)
 United Nations Children’s Fund (UNICEFF): Le Fonds des Nations Unies pour l'enfance (UNICEF)
 UN-Habitat: UN-Habitat
-Food and Agriculture Organization (FAO): Organisation pour l'alimentation et l'agriculture (FAO)
+Food and Agriculture Organization of the United Nations (FAO): Organisation des Nations unies pour l'alimentation et l'agriculture (FAO)
 World Trade Organization (WTO): Organisation mondiale du commerce (OMC)
 United Nations International Strategy for Disaster Reduction (UNISDR): Stratégie internationale des Nations Unies pour la prévention des catastrophes (UNISDR)
 Organisation for Economic Co-operation and Development (OECD):  L'Organisation de coopération et de développement économiques (OCDE)
@@ -135,11 +134,11 @@ Inter-Parliamentary Union (IPU): Union Interparlementaire (UIP)
 UN Women: ONU Femmes
 
 Department of Economic and Social Affairs (DESA), United Nations Population Fund (UNFPA): Département des affaires économiques et sociales (DAES), Fonds des Nations Unies pour la population (UNFPA)
-World Bank (WB), International Labour Organisation (ILO): La Banque mondiale, Organisation internationale du Travail (OIT)
-United Nations Children’s Fund (UNICEFF), World Bank (WB), United Nations Development Programme (UNDP): Le Fonds des Nations Unies pour l'enfance (UNICEF), La Banque mondiale, Programme des Nations Unies pour le Développement (PNUD)
-International Labour Organization (ILO), World Bank (WB): Organisation internationale du Travail (OIT), La Banque mondiale
-United Nations Children’s Fund (UNICEF), World Health Organisation (WHO), World Bank (WB): Le Fonds des Nations Unies pour l'enfance (UNICEF), Organisation mondiale de la Santé (OMS), La Banque mondiale
-United Nations Children’s Fund (UNICEFF), World Health Organisation (WHO): Le Fonds des Nations Unies pour l'enfance (UNICEF), Organisation mondiale de la Santé (OMS)
+World Bank (WB), International Labour Organisation (ILO): Banque Mondiale, Organisation internationale du Travail (OIT)
+United Nations Children’s Fund (UNICEFF), World Bank (WB), United Nations Development Programme (UNDP): Le Fonds des Nations Unies pour l'enfance (UNICEF), Banque Mondiale, Programme des Nations Unies pour le Développement (PNUD)
+International Labour Organization (ILO), World Bank (WB): Organisation internationale du Travail (OIT), Banque Mondiale
+United Nations Children’s Fund (UNICEF), World Health Organization (WHO), World Bank (WB): Le Fonds des Nations Unies pour l'enfance (UNICEF), Organisation mondiale de la Santé (OMS), Banque Mondiale
+United Nations Children’s Fund (UNICEF), World Health Organization (WHO): Le Fonds des Nations Unies pour l'enfance (UNICEF), Organisation mondiale de la Santé (OMS)
 World Health Organization (WHO), United Nations International Children’s Emergency Fund (UNICEF): Organisation mondiale de la Santé (OMS), Le Fonds des Nations Unies pour l'enfance (UNICEF)
 World Health Organization (WHO), Framework Convention on Tobacco Control (FCTC): Organisation mondiale de la Santé (OMS), Convention-cadre de l’OMS pour la lutte antitabac
 UN Environment World Conservation Monitoring Centre (UNEP-WCMC), BirdLife International (BLI), International Union for Conservation of Nature (IUCN): Centre mondial de surveillance continue de la conservation des Nations Unies pour l'environnement, BirdLife International (BLI), L’Union internationale pour la conservation de la nature (UICN)
@@ -287,6 +286,7 @@ Meteorological - Wildfire: Météorologique - Feu de forêt
 Meteorological - Winter storm: Météorologique - Tempête hivernale
 Meteorological - Heat event: Météorologique - Épisode de chaleur
 Meteorological - Hurricane: Météorologique - Ouragan
+Meteorological - Epidemic: Météorologique - Épidémie
 Rate per 100,000 population: Taux par 100 000 personnes
 
 ## 1-5-2
@@ -436,7 +436,7 @@ Total, 12 years and over: Total, 12 ans et plus
 35 to 49 years: 35 à 49 ans
 50 to 64 years: 50 à 64 ans
 65 years and over: 65 ans et plus
-Per 100,000 live births: Pour 100 000 naissances vivantes
+Per 100,000 live births: Par 100 000 naissances vivantes
 
 ## 3-2-1
 Grade: Niveaux de scolarité
@@ -524,7 +524,7 @@ Diseases of heart: Maladies du coeur
 Influenza and pneumonia: Grippe et pneumopathie
 Acute bronchitus and bronchiolitis: Bronchite aiguë et bronchiolite aiguë
 Chronic lower respiratory diseases: Maladies chroniques des voies respiratoires inférieures
-Rate per 100,000: Taux pour 100 000
+Rate per 100,000: Taux par 100 000
 
 ## 3-6-1
 All ages: Tous les âges
@@ -552,7 +552,7 @@ Not stated: Non déclaré
 Transport accidents: Accidents de transport
 Motor vehicle accidents: Accidents de véhicule à moteur
 Other land transport accidents: Autres accidents de transport terrestre
-Per 100,000 population: Pour 100 000 habitants
+Per 100,000 population: Par 100 000 habitants
 
 ## 3-7-1
 Marital status: Situation de famille
@@ -1071,8 +1071,14 @@ Total hydro, tidal, wind, solar and other generation: Total, tous les genres de 
 Material footprint: Empreinte matérielle
 Million metric tonnes: Millions de tonnes métriques
 Material footprint per capita: Empreinte matérielle par habitant
-Material footprint per unit of GDP: Empreinte matérielle par unité de PIB
-Metric tonnes per GDP (millions of dollars CAD): Tonnes métriques par PIB (millions de dollars CAD)
+Material footprint per GDP: Empreinte matérielle par PIB
+Metric tonnes per GDP (millions of dollars): Tonnes métriques par PIB (millions de dollars)
+Domestic material consumption: Consommation intérieure de matières
+Domestic material consumption per capita: Consommation intérieure de matières par habitant
+Domestic material consumption per GDP: Consommation intérieure de matières par PIB
+Tonnes (million): Tonnes (million)
+Tonnes per dollar: Tonnes par dollar
+Tonnes per capita: Tonnes par habitant
 
 ## 8-5-1
 Total employees, all occupations: Total des employés, toutes les professions
@@ -1156,7 +1162,7 @@ Number of fatality claims, by sex: Nombre de demandes d’indemnisation pour dé
 Number of lost time claims, by sex: Nombre de réclamations avec perte de temps, selon le sexe
 
 ## 8-10-1
-Number of commercial bank branches per 100,000 adults: Nombre de succursales de banques commerciales pour 100 000 adultes
+Number of commercial bank branches per 100,000 adults: Nombre de succursales de banques commerciales par 100 000 adultes
 Number of automated teller machines (ATMs) per 100,000 adults: Nombre de guichets automatiques bancaires (GAB) par 100 000 adultes
 
 ## 8-a-1
@@ -1385,6 +1391,7 @@ Small and medium enterprises: Petites et moyennes entreprises
 
 ## 9-4-1
 Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP: Mégatonnes d'équivalent en dioxyde de carbone (Mt éq. CO2) par milliard de dollars du PIB
+Mt CO2 eq. per billion dollars GDP: Mt d'éq. CO2 par milliard de dollars de PIB
 Metric tonnes (x1,000) per million dollars of GDP: Tonnes métriques (x1 000) par million de dollars de PIB
 
 ## 9-5-1
@@ -1523,7 +1530,7 @@ St. John's, Newfoundland and Labrador: St. John's, Terre-Neuve-et-Labrador
 Halifax, Nova Scotia: Halifax, Nouvelle-Écosse
 Moncton, New Brunswick: Moncton, Nouveau-Brunswick
 Saint John, New Brunswick: Saint John, Nouveau-Brunswick
-Montreal, Quebec: Montreal, Quebec
+Montreal, Quebec: Montréal, Québec
 Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (partie du Québec), Québec
 Quebec, Quebec: Québec, Québec
 Saguenay, Quebec: Saguenay, Québec
@@ -1571,7 +1578,7 @@ Type of commute: Type de navettage
 Public transit: Transport en commun
 Active transport: Transport actif
 Trois-Rivieres, Quebec: Trois-Rivières, Québec
-Mortality rate per 100,000 population: Taux de mortalité pour 100 000 habitants
+Mortality rate per 100,000 population: Taux de mortalité par 100 000 habitants
 Number of deaths: Nombre de décès
 Type of natural disaster: Type de catastrophe naturelle
 Meteorological - Flood: Météorologique - Inondation
@@ -1741,7 +1748,7 @@ Tourism Satellite Account (TSA): Compte satellite du tourisme (CST)
 System of Environmental Economic Accounting (SEEA): Système de comptabilité économique et environnementale (SCEE)
 
 ## 13-1-1
-Rate per 100,000 population: Taux pour 100 000 habitants
+Rate per 100,000 population: Taux par 100 000 habitants
 Type of natural disaster: Type de catastrophe naturelle
 Meteorological - Flood: Météorologique - Inondation
 Meteorological - Heat Event: Météorologique - Épisode de chaleur
@@ -1878,6 +1885,8 @@ Forest area under an independently verified forest management certification sche
 Forest area under an independently verified forest management certification scheme (Hectares): |
     Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante (Hectares)
 
+Hectares (Millions): Hectares (Millions)
+
 ## 15-3-1
 National terrestrial: National terrestrial
 National marine: National marine
@@ -1895,6 +1904,7 @@ Unknown Indigenous identity: Identité autochtone inconnue
 
 ## 16-1-3
 Rate of incidents per 1,000 population 15 years of age and older: Taux d'affaires pour 1 000 personnes âgées de 15 ans et plus
+Rate per 1,000 population: Taux par 1000 personnes
 
 ## 16-1-4
 Demographic: Ethnicité

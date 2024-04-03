@@ -7,10 +7,8 @@ SDG_INDICATOR: '<p>Indicator 3.9.2: Mortality rate attributed to unsafe water, u
   for All (WASH) services)</p>'
 STAT_CONC_DEF: |
     Deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services, expressed per 100,000 population; The included diseases are diarrhoea (GHE code 110 which includes ICD-10 codes A00, A01, A03, A04, A06-A09), acute respiratory infections (GHE code 380 which includes ICD-10 codes H65-H66, J00-J22, P23, and U04), intestinal nematode infections (GHE codes 340, 350 and 360 which include ICD-10 codes B76-B77, and B79) and protein-energy malnutrition (GHE code 550 which includes ICD-10 codes E40-E46).
-DATA_COMP: '   '
+DATA_COMP: 'Mortality rate per 100,000 population = (Number of deaths / population) x 100,000'
 REC_USE_LIM: '   '
-COVERAGE: Canada
-UNIT_OF_MEASURE: Mortality rate (Deaths per 100,000 population)
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
@@ -21,10 +19,9 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 3.9.2: Mortality rate attributed to unsafe 
   unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and
   Hygiene for All (WASH) services)</p>'
 un_designated_tier: Tier I
-un_custodian_agency: World Health Organisation (WHO)
+un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 214
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # SOURCE(S)
 source_active_1: 'true'
@@ -74,3 +71,11 @@ source_url_6: https://doi.org/10.25318/1310039101-eng
 source_organisation_6: Statistics Canada
 source_periodicity_6: Annual
 source_geographical_coverage_6: Canada
+
+source_active_7: 'true'
+source_url_text_7: |
+    Statistics Canada. Table 17-10-0005-01  Population estimates on July 1, by age and gender
+source_url_7: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000501
+source_organisation_7: Statistics Canada
+source_periodicity_7: Annual
+source_geographical_coverage_7: Canada, Province or territory

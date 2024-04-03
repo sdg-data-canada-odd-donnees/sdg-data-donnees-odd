@@ -10,7 +10,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-  
     <p>Indicateur 9.5.2 : Nombre de chercheurs (équivalent plein temps) par million d’habitants</p>
 STAT_CONC_DEF: '   '
-UNIT_OF_MEASURE: Rate per 1,000,000
+
 DATA_COMP: >-
     (Chercheurs + consultants de recherche sur site divisés par âge 15 ans et plus) * 1 000 000
 REC_USE_LIM: '   '
@@ -41,7 +41,7 @@ source_geographical_coverage_2: Canada, Province ou territoire
 source_url_1: https://doi.org/10.25318/2710002201-fra
 source_url_2: https://doi.org/10.25318/1710000501-fra
 
-COVERAGE: Canada
+ 
 
 un_designated_tier: Niveau I
 un_custodian_agency: L'Organisation des Nations unies pour l’éducation, la science et la culture (UNESCO)

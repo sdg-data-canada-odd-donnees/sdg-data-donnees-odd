@@ -1,19 +1,19 @@
 # Indicator 5.5.2 ---------------------------------------------------------
 
-# 14-10-0335-01
+# 14-10-0416-01
 
 library(cansim)
 library(dplyr)
 library(stringr)
 
-repr_in_mgmt <- get_cansim("14-10-0335-01", factors = FALSE)
+repr_in_mgmt <- get_cansim("14-10-0416-01", factors = FALSE)
 
 occupations <- c(
-  "Management occupations [0]",                                                 
-  "Senior management occupations [00]",
-  "Specialized middle management occupations [01-05]",
-  "Middle management occupations in retail and wholesale trade and customer services [06]",
-  "Middle management occupations in trades, transportation, production and utilities [07-09]"
+  "Management occupations [00, 10, 20, 30, 40, 50, 60, 70, 80, 90]",                                                 
+  "Legislative and senior management occupations [00]",
+  "Specialized middle management occupations [10, 20, 30, 40, 50]",
+  "Middle management occupations in retail and wholesale trade and customer services [60]",
+  "Middle management occupations in trades, transportation, production and utilities [70, 80, 90]"
 )
 
 clean_repr_in_mgmt <-

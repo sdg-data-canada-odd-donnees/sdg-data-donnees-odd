@@ -6,8 +6,8 @@ SDG_INDICATOR: '<p>Indicator 3.7.2: Adolescent birth rate (aged 10-14 years; age
   15-19 years) per 1,000 women in that age group</p>'
 STAT_CONC_DEF: <p>Annual number of births to females aged 10-14 or 15-19 years per
   1,000 females in the respective age group.</p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+DATA_COMP: custom.data-comp
+REC_USE_LIM: 'Data are only available for females aged 15-19 years. From 2017 to 2022 inclusive, births for Yukon are not available.'
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.7: By 2030, ensure universal access to sexual and
@@ -24,10 +24,9 @@ source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
 reporting_status: complete
-COVERAGE: Canada, Province or territory
+ 
 un_designated_tier: Tier I
 un_custodian_agency: Department of Economic and Social Affairs (DESA), United Nations
   Population Fund (UNFPA)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 90.8
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata

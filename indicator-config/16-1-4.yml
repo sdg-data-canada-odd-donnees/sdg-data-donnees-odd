@@ -10,11 +10,7 @@ data_notice_text: ''
 data_show_map: false
 data_start_values:
 - field: Racialized groups
-  value: Total visible minority
-- field: Sociodemographic characteristics
-  value: Total, 15 years and over
-- field: Racialized groups
-  value: Not a visible minority
+  value: Total - Canada
 - field: Sociodemographic characteristics
   value: Total, 15 years and over
 embedded_feature_footer: ''
@@ -26,7 +22,7 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.16-1-4-title
+graph_title: chart.16-1-4-title
 graph_titles: []
 graph_type: bar
 indicator_name: global_indicators.16-1-4-title

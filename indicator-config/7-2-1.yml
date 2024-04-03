@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Percentage
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -21,9 +21,10 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.7-2-1-title
+graph_title: proxy.7-2-1-title
 graph_titles: []
 graph_type: line
+indicator_available: proxy.7-2-1-title
 indicator_name: global_indicators.7-2-1-title
 indicator_number: 7.2.1
 national_geographical_coverage: Canada
@@ -32,7 +33,7 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-progress_status: negligible_progress
+progress_status: deterioration
 reporting_status: complete
 sort: ''
 standalone: false

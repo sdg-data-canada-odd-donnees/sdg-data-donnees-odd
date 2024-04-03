@@ -2,26 +2,39 @@ SDG_GOAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
 SDG_TARGET: '<p>Target 10.7: Facilitate orderly, safe, regular and responsible migration
   and mobility of people, including through the implementation of planned and well-managed
   migration policies</p>'
-SDG_INDICATOR: '<p>Indicator 10.7.2: Number of countries with migration policies to
-  facilitate orderly, safe, regular and responsible migration and mobility of people</p>'
+SDG_INDICATOR: "<p>Indicator 10.7.2: Canada's established and well-managed immigration and refugee programs and policies</p>"
 STAT_CONC_DEF: <p>SDG Indicator 10.7.2 aims to describe the state of national migration
   policies and how such policies change over time. The information collected seeks
   to identify both progress made and gaps, thus contributing to the evidence base
   for actionable recommendations for the implementation of SDG target 10.7. The indicator
   also serves for the future thematic reviews at the High-level Political Forum on
-  Sustainable Development (HLPF). </p>
-DATA_COMP: '   '
+  Sustainable Development (HLPF).</p>
+DATA_COMP: '     '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
 SDG_TARGET__GLOBAL: '<p>Target 10.7: Facilitate orderly, safe, regular and responsible
   migration and mobility of people, including through the implementation of planned
   and well-managed migration policies</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 10.7.2: Number of countries with migration policies
+SDG_INDICATOR__GLOBAL: '<p>Indicator 10.7.2: Proportion of countries with migration policies
   to facilitate orderly, safe, regular and responsible migration and mobility of people</p>'
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Department of Economic and Social Affairs (DESA), 
   International Organization for Migration (IOM)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+source_active_1: 'true'
+source_url_text_1: Immigrate to Canada
+source_url_1: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html
+source_organisation_1: Immigration, Refugees and Citizenship Canada
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Refugees and asylum
+source_url_2: https://www.canada.ca/en/immigration-refugees-citizenship/services/refugees.html
+source_organisation_2: Immigration, Refugees and Citizenship Canada
+source_geographical_coverage_2: Canada
 
 reporting_status: complete
+
+proxy: proxy

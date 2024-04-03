@@ -6,7 +6,10 @@ SDG_TARGET: '<p>Target 16.5: Substantially reduce corruption and bribery in all 
 SDG_INDICATOR: '<p>Indicator 16.5.1: Proportion of persons who had at least one contact
   with a public official and who paid a bribe to a public official, or were asked for a 
   bribe by those public officials, during the previous 12 months</p>'
-STAT_CONC_DEF: '  '
+STAT_CONC_DEF: 'This indicator is defined as the percentage of persons who paid at least one bribe (gave a public official 
+  money, a gift or counter favour) to a public official, or were asked for a bribe by these public officials, in 
+  the last 12 months, as a percentage of persons who had at least one contact with a public official in the 
+  same period.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
@@ -20,4 +23,6 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 16.5.1: Proportion of persons who had at le
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Office on Drugs and Crime (UNODC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-05-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 219 KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+ 

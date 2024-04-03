@@ -2,11 +2,10 @@ SDG_GOAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p
 SDG_TARGET: '<p>Target 5.c: Adopt and strengthen sound policies and enforceable legislation
   for the promotion of gender equality and the empowerment of all women and girls
   at all levels</p>'
-SDG_INDICATOR: '<p>Indicator 5.c.1: Percentage of countries with systems to track
-  and make public allocations for gender equality and women&#x2019;s empowerment</p>'
-STAT_CONC_DEF: '  '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+SDG_INDICATOR: "Indicator 5.c.1: Does Canada have a system to track and make public allocations for gender equality and women's empowerment"
+STAT_CONC_DEF: "This indicator reports on whether Canada has a system to track and make public allocations for gender equality and women's empowerment."
+DATA_COMP: '     '
+REC_USE_LIM: '<p>This is a proxy indicator. The UN Global indicator states: "Percentage of countries with systems to track and make public allocations for gender equality and women&#x2019;s empowerment"</p>'
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
 SDG_TARGET__GLOBAL: '<p>Target 5.c: Adopt and strengthen sound policies and enforceable
   legislation for the promotion of gender equality and the empowerment of all women
@@ -17,7 +16,15 @@ un_designated_tier: Tier II
 un_custodian_agency: UN Women, Organisation for Economic Co-operation and Development
   (OECD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-0c-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
-  MB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 reporting_status: complete
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: The Government of Canada's Gender Results Framework
+source_url_1: https://women-gender-equality.canada.ca/en/gender-results-framework.html
+source_organisation_1: Women and Gender Equality Canada
+source_geographical_coverage_1: Canada
+
+proxy: proxy

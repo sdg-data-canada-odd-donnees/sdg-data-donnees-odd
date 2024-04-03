@@ -11,7 +11,7 @@ SDG_INDICATOR: '<p>Indicator 2.5.2: Proportion of local breeds classified as bei
 STAT_CONC_DEF: <p>The indicator presents the percentage of local livestock breeds
   among local breeds with known risk status classified as being at risk of extinctions
   at a certain moment in time, as well as the trends for this percentage.</p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
@@ -24,13 +24,13 @@ SDG_TARGET__GLOBAL: '<p>Target 2.5: By 2020, maintain the genetic diversity of s
 SDG_INDICATOR__GLOBAL: '<p>Indicator 2.5.2: Proportion of local breeds classified
   as being at risk of extinction</p>'
 un_designated_tier: Tier II
-un_custodian_agency: Food and Agriculture Organization (FAO)
+un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-05-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 220
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 source_active_1: 'true'
 source_url_text_1: Agriculture and Agri-Food Canada. Animal Genetic Resources of Canada.
 source_url_1: https://agriculture.canada.ca/en/science/agriculture-and-agri-food-research-centres/animal-genetic-resources-canada
-source_organisation_1: Agriculture and Agri-Food Canada
+source_organisation_1: Agriculture and Agri-Food Canada (AAFC)
+source_periodicity_1: Every 3 years
 source_geographical_coverage_1: Canada

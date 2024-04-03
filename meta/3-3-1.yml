@@ -4,13 +4,10 @@ SDG_TARGET: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, ma
   communicable diseases </p>'
 SDG_INDICATOR: '<p>Indicator 3.3.1: Number of new HIV infections per 100,000 uninfected
   population, by sex, age and key populations </p>'
-STAT_CONC_DEF: '<p>The number of new HIV infections per 1,000 uninfected population, by sex, age and key populations as 
-defined as the number of new HIV infections per 1,000 persons among the uninfected population</p>'
-DATA_COMP: '   '
+STAT_CONC_DEF: '<p>This indicator measures the number of new HIV infections per 1,000 uninfected population as defined as the number of new HIV infections per 1,000 persons among the uninfected population.</p>'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-UNIT_OF_MEASURE: Rate per 1,000 uninfected population
-COVERAGE: Canada
-
+ 
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages.</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis,
@@ -21,13 +18,12 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 3.3.1: Number of new HIV infections per 1,0
 un_designated_tier: Tier I
 un_custodian_agency: The Joint United Nations Programme on HIV/AIDS (UNAIDS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 372
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # Source(s)
 source_active_1: 'true'
 source_url_text_1: HIV estimates with uncertainty bounds 1990-Present
-source_organisation_1: UNAIDS
+source_organisation_1: Joint United Nations Programme on HIV/AIDS (UNAIDS)
 source_periodicity_1: Annual 
 source_geographical_coverage_1: Canada
 source_url_1: https://www.unaids.org/en/resources/documents/2023/HIV_estimates_with_uncertainty_bounds_1990-present

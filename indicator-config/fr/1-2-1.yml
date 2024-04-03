@@ -27,7 +27,8 @@ graph_type: line
 indicator_name: global_indicators.1-2-1-title
 indicator_number: 1.2.1
 national_geographical_coverage: ''
-page_content: ''
+page_content: |
+  <p>Cet indicateur s'aligne sur les cadres suivants : Qualité de vie, <a href="https://www160.statcan.gc.ca/prosperity-prosperite/poverty-pauvrete-eng.htm"><em>Pauvreté</em></a></p>
 permalink: ''
 precision: []
 progress_calculation_options:
@@ -38,5 +39,3 @@ progress_status: substantial_progress
 reporting_status: complete
 sort: ''
 standalone: false
-tags:
-- Proxy

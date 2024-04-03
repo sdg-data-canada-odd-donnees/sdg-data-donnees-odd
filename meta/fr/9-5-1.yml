@@ -9,7 +9,7 @@ SDG_TARGET: >-
       à la recherche-développement d'ici à 2030</p>
 SDG_INDICATOR: >-
     <p>Indicateur 9.5.1 : Dépenses de recherche-développement en proportion du PIB</p>
-UNIT_OF_MEASURE: Percentage
+ 
 STAT_CONC_DEF: '   '
 DATA_COMP: >-
     ((Exécution total, tout les secteurs) / (Produit intérieur brut aux prix du marché)) * 100
@@ -43,7 +43,7 @@ source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada, Province ou territoire
 source_url_2: https://doi.org/10.25318/3610022201-fra
 
-COVERAGE: Canada, Province ou territoire
+ 
 
 un_designated_tier: Niveau I
 un_custodian_agency: L'Organisation des Nations unies pour l’éducation, la science et la culture (UNESCO)

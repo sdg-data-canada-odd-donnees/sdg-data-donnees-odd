@@ -5,13 +5,10 @@ SDG_TARGET: '<p>Target 9.4: By 2030, upgrade infrastructure and retrofit industr
   of clean and environmentally sound technologies and industrial processes, with all
   countries taking action in accordance with their respective capabilities</p>'
 SDG_INDICATOR: '<p>Indicator 9.4.1: CO<sub>2</sub> emission per unit of value added</p>'
-STAT_CONC_DEF: <p>Carbon dioxide (here after, CO<sub>2</sub>) emissions per unit of
-  value added is an indicator computed as ratio between CO<sub>2</sub> emissions from
-  fuel combustion and the value added of associated economic activities. The indicator
-  can be computed for the whole economy (total CO<sub>2</sub> emissions/GDP) or for
-  specific sectors, notably the manufacturing sector (CO<sub>2</sub> emissions from
-  manufacturing industries per manufacturing value added (MVA). </p>
-DATA_COMP: ''
+STAT_CONC_DEF: |
+  This indicator measures the GHG emission intensity relative to Canada’s economic activity. A decreasing trend would mean that less GHG emissions are emitted for one unit of GDP. <br><br>
+  The data are presented in megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
   sustainable industrialization and foster innovation</p>'
@@ -25,12 +22,13 @@ un_designated_tier: Tier I
 un_custodian_agency: International Energy Agency (IEA), United Nations Industrial
   Development Organization (UNIDO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 516
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+ 
 
 source_active_1: 'true'
 source_url_text_1: Environment and Climate Change Canada. Greenhouse gas emissions.
 source_url_1: https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/greenhouse-gas-emissions.html
-source_organisation_1: Environment and Climate Change Canada
+source_organisation_1: Environment and Climate Change Canada (ECCC)
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada

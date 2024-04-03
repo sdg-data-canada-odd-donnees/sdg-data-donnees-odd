@@ -6,14 +6,18 @@ SDG_TARGET: '<p>Target 9.3: Increase the access of small-scale industrial and ot
   affordable credit, and their integration into value chains and markets</p>'
 SDG_INDICATOR: '<p>Indicator 9.3.1: Proportion of small-scale industries in total
   industry value added</p>'
-STAT_CONC_DEF: ''
+STAT_CONC_DEF: 'Small-scale industrial enterprises, in the SDG framework also called “small-scale industries”, defined here 
+  for the purpose of statistical data collection and compilation refer to statistical units, generally enterprises, 
+  engaged in production of goods and services for market below a designated size class. <br><br> Proportion of “small-scale industries” in total industry value added represents an indicator calculating the 
+  share of manufacturing value added of small-scale manufacturing enterprises in the total manufacturing 
+  value added.'
 DATA_COMP: |
     The proportion of “small-scale industries” in total value added is an indicator calculated as a share of value added for small-scale manufacturing enterprises in total manufacturing value added: <i>Manufactured value added of "small-scale industries" / Total Manufacturing value added</i>
     <br><br><b>Manufactured value added</b> is production less consumption. 
     <br><br><b>Production</b> = (Revenue from goods manufactured + (Closing inventories, goods or work in process + Closing inventories, finished goods manufactured) - (Opening inventories, goods or work in process + Opening inventories, finished goods manufactured))
     <br><br><b>Consumption</b> = (Opening inventories, raw materials + Cost of materials and supplies + Total cost of energy, water utility and vehicle fuel - Closing inventories of raw materials)
 REC_USE_LIM: '   '
-COVERAGE: Canada
+ 
 
 # GLOBAL METADATA
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
@@ -26,8 +30,7 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 9.3.1: Proportion of small-scale industries
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Industrial Development Organization (UNIDO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
-  MB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
  
  # SOURCE(S)
 source_active_1: 'true'

@@ -4,10 +4,10 @@ SDG_TARGET: '<p>Cible 8.10 : Renforcer la capacité des institutions financière
   de favoriser et généraliser l’accès de tous aux services bancaires et financiers
   et aux services d’assurance.</p>'
 SDG_INDICATOR: '<p>Indicateur 8.10.1 : a) Nombre de succursales de banques commerciales
-  pour 100 000 adultes et b) nombre de distributeurs automatiques de billets pour
+  par 100 000 adultes et b) nombre de distributeurs automatiques de billets pour
   100 000 adultes.</p>'
 STAT_CONC_DEF: |
-  'Nombre de distributeurs automatiques de billets pour 100 000 adultes' est équivalent à 'Nombre de guichets automatiques bancaires par 100 000 adultes'
+  'Nombre de distributeurs automatiques de billets par 100 000adultes' est équivalent à 'Nombre de guichets automatiques bancaires par 100 000 adultes'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
@@ -16,15 +16,13 @@ SDG_TARGET__GLOBAL: '<p>Cible 8.10 : Renforcer la capacité des institutions fin
   nationales de favoriser et généraliser l’accès de tous aux services bancaires et
   financiers et aux services d’assurance.</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.10.1 : a) Nombre de succursales de banques
-  commerciales pour 100 000 adultes et b) nombre de distributeurs automatiques de
-  billets pour 100 000 adultes.</p>'
+  commerciales par 100 000 adultes et b) nombre de distributeurs automatiques de
+  billets par 100 000adultes.</p>'
 source_active_1: 'true'
 source_url_text_1: "Enquête sur l'accès aux services financiers"
 source_url_1: http://data.imf.org/?sk=E5DCAB7E-A5CA-4892-A6EA-598B5463A34C
 source_organisation_1: Fonds Monétaire International
 source_geographical_coverage_1: Canada
-COVERAGE: Canada
-UNIT_OF_MEASURE: Rate (per 100,000)
 
 un_designated_tier: Niveau I
 un_custodian_agency: Fonds monétaire international (FMI)

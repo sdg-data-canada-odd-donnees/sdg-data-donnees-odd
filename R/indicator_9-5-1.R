@@ -4,64 +4,34 @@
 library(cansim)
 library(dplyr)
 
-rd_gdp <- get_cansim("27-10-0273-01", factors = FALSE)
-annual_gdp <- get_cansim("36-10-0222-01", factors = FALSE)
+rd_gdp <- get_cansim("27-10-0359-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
 
-table_filter <- function(table) {
-  
-  table %>%
-    filter(
-      REF_DATE >= 2015,
-      Prices == "Current prices"
-    )
-  
-}
+exclude_geos <- c(
+  "France",
+  "Germany",
+  "Italy",
+  "Japan",
+  "United Kingdom",
+  "United States"
+)
 
-
-rd_gdp_data <- 
-  left_join(
-  # Research & dev gdp data
+data_final <-
   rd_gdp %>%
-    table_filter() %>%
-    filter(
-      Funder == "Funder: total, all sectors",
-      Performer == "Performer: total, all sectors",
-      !is.na(VALUE)
-    ) %>%
-    select(
-      Year = REF_DATE,
-      Geography = GEO,
-      `Science type`,
-      rd_gdp = VALUE
-    ),
-  # Annual gdp data
-  annual_gdp %>% 
-    table_filter() %>% 
-    filter(Estimates == "Gross domestic product at market prices") %>% 
-    select(
-      Year = REF_DATE,
-      Geography = GEO,
-      annual_gdp = VALUE
-    ),
-  by = c("Year", "Geography")
-  ) %>%
-  transmute(
-    Year, Geography, `Science type`,
-    Value = round((rd_gdp/annual_gdp)*100, 2)
+  filter(
+    REF_DATE >= 2015,
+    !GEO %in% exclude_geos
+  )%>% 
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    Value = VALUE
   ) %>% 
-  left_join(geocodes) %>%
-  mutate(GeoCode = ifelse(`Science type` == "Total sciences", GeoCode, NA)) %>%
+  mutate(
+    Geography = recode(Geography, Canada = "")
+  )%>%
+  left_join(geocodes) %>% 
   relocate(GeoCode, .before = Value)
-
-data_final <- 
-  bind_rows(
-    rd_gdp_data %>%
-      filter(Geography == "Canada", `Science type` == "Total sciences") %>%
-      mutate(across(2:(ncol(.)-2), ~ "")),
-    rd_gdp_data %>%
-      filter(!(Geography == "Canada" & `Science type` == "Total sciences"))
-  )  
 
 write.csv(
   data_final, 
@@ -70,4 +40,3 @@ write.csv(
   row.names = FALSE,
   fileEncoding = "UTF-8"
 )
-

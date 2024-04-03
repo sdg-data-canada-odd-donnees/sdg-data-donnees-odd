@@ -4,7 +4,7 @@ SDG_TARGET: '<p>Target 3.6: By 2020, halve the number of global deaths and injur
 SDG_INDICATOR: '<p>Indicator 3.6.1: Death rate due to road traffic injuries </p>'
 STAT_CONC_DEF: Death rate due to road traffic injuries as defined as the number of
   road traffic fatal injury deaths per 100,000 population.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
@@ -20,9 +20,8 @@ source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
 reporting_status: complete
-COVERAGE: Canada
+ 
 un_designated_tier: Tier I
-un_custodian_agency: World Health Organisation (WHO)
+un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-06-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 213
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata

@@ -5,9 +5,12 @@ SDG_TARGET: |
     Target: 6.3: By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally.
 SDG_INDICATOR: |
     Indicator: 6.3.1: Proportion of domestic and industrial wastewater flows safely treated
-STAT_CONC_DEF: '    '
+STAT_CONC_DEF: 'This indicator measures the volumes of wastewater which are generated through different activities, and 
+    the volumes of wastewater which are safely treated before discharge into the environment. Both of 
+    these indicators are measured in units of 1000 m<sup>3</sup>/day, although some data sources may use other units 
+    that require conversion. The ratio of the volume treated to the volume generated is taken as the ‘proportion of wastewater flow safely treated’.'
 DATA_COMP: |
-    (Primary treatment + Secondary treatment + Tertiary treatment) / Total volumes
+    Proportion of domestic and industrial wastewater flows safely treated = ((Primary treatment + Secondary treatment + Tertiary treatment) / Total volumes) x 100
 REC_USE_LIM: '  '
 
 # GLOBAL
@@ -19,19 +22,22 @@ SDG_INDICATOR__GLOBAL: |
     Indicator: 6.3.1: Proportion of domestic and industrial wastewater flows safely treated
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Environment Programme (UNEP) (GEMS/Water)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
-  MB)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
  
+
 # SOURCE(S)
 source_active_1: true
 source_url_text_1: Statistics Canada. Table 38-10-0124-01  Wastewater volumes discharged from municipal sewage systems by treatment category (x 1,000,000)
 source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810012401
 source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
 
 source_active_2: true
 source_url_text_2: Statistics Canada. Table 38-10-0060-01  Water discharge in manufacturing industries, by type of final treatment and industry (x 1,000,000)
 source_url_2: https://doi.org/10.25318/3810006001-eng
 source_organisation_2: Statistics Canada
+source_periodicity_2: Occasional
 source_geographical_coverage_2: Canada

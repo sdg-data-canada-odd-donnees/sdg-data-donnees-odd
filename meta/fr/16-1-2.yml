@@ -3,11 +3,11 @@ SDG_GOAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifique
   à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
 SDG_TARGET: '<p>Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de 
   violence et les taux de mortalité qui y sont associés</p>'
-SDG_INDICATOR: '<p>Indicateur 16.1.2 : Nombre de décès liés à des conflits pour 100 000 
+SDG_INDICATOR: '<p>Indicateur 16.1.2 : Nombre de décès liés à des conflits par 100 000 
   habitants, par sexe, âge et cause</p>'
 STAT_CONC_DEF: |
   Cet indicateur est défini comme le nombre total de décès liés au conflit divisé par la 
-  population totale, exprimé pour 100 000 habitants.
+  population totale, exprimé par 100 000 habitants.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux 
@@ -15,7 +15,7 @@ SDG_GOAL__GLOBAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés p
   à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de 
   violence et les taux de mortalité qui y sont associés</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.1.2 : Nombre de décès liés à des conflits pour 100 000 
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.1.2 : Nombre de décès liés à des conflits par 100 000 
   habitants, par sexe, âge et cause</p>'
 
 un_designated_tier: Niveau II
@@ -25,3 +25,4 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 reporting_status: notstarted
 
+ 

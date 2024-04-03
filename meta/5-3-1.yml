@@ -1,13 +1,10 @@
 SDG_GOAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
 SDG_TARGET: '<p>Target 5.3: Eliminate all harmful practices, such as child, early
   and forced marriage and female genital mutilation</p>'
-SDG_INDICATOR: '<p>Indicator 5.3.1: Proportion of women aged 20-24 years who were
-  married or in a union before age 15 and before age 18</p>'
-STAT_CONC_DEF: <p>Proportion of women aged 20-24 years who were married or in a union
-  before age 15 and before age 18</p>
-UNIT_OF_MEASURE: Percentage
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+SDG_INDICATOR: '<p>Indicator 5.3.1: Proportion of women aged 15-19 or 20-24 married or living common-law</p>'
+STAT_CONC_DEF: <p>This proxy indicator measures the proportion of women aged 15-19 or 20-24 married or living common-law.</p>
+DATA_COMP: 'Proportion of women aged 15-19 or 20-24 married or living common-law = (number of women married or living common-law / number of women in that age group) x 100'
+REC_USE_LIM: 'Due to data limitations, this indicator is measured through a proxy measuring the proportion of women aged 15-19 or 20-24 married or living common-law rather than the proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18 as specified in the metadata.'
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
 SDG_TARGET__GLOBAL: '<p>Target 5.3: Eliminate all harmful practices, such as child,
   early and forced marriage and female genital mutilation</p>'
@@ -16,8 +13,7 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 5.3.1: Proportion of women aged 20-24 years
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Children's Fund (UNICEFF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 207
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 source_active_1: 'true'
 source_url_text_1: Census of Population
@@ -25,3 +21,12 @@ source_url_1: https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/dt-td/Rp
 source_organisation_1: Statistics Canada
 source_periodicity_1: Every 5 years
 source_geographical_coverage_1: Canada, Province or territory
+
+source_active_2: 'true'
+source_url_text_2: 'Statistics Canada. Table 98-10-0127-01  Marital status, age group and gender: Canada, provinces and territories, census metropolitan areas, census agglomerations and census subdivisions'
+source_url_2: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810012701
+source_organisation_2: Statistics Canada
+source_periodicity_2: Occasional
+source_geographical_coverage_2: Canada, Province or territory, Census subdivision, Census metropolitan area, Census agglomeration
+
+proxy: proxy

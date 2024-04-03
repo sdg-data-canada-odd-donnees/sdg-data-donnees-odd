@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Number
+computation_units: Number of claims
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -9,9 +9,7 @@ data_notice_text: ''
 data_show_map: false
 data_start_values:
 - field: Sex
-  value: Male
-- field: Sex
-  value: Female
+  value: Total
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -22,11 +20,14 @@ expected_disaggregations:
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: Number of fatality and lost time claims, by sex
-graph_titles: []
+graph_titles:
+  - series: Fatality claims
+    title: Fatality claims
+  - series: Lost time claims
+    title: Lost time claims
 graph_type: line
-indicator_available: Number of fatality and lost time claims, by sex
-indicator_name: Number of fatality and lost time claims, by sex
+indicator_available: proxy.8-8-1-title
+indicator_name: global_indicators.8-8-1-title
 indicator_number: 8.8.1.a
 national_geographical_coverage: Canada
 page_content: ''
@@ -40,5 +41,4 @@ sort: ''
 standalone: false
 tags: 
 - Proxy
-
 "\xEF\xBB\xBFcomposite_breakdown_label": ''

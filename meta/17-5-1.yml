@@ -1,7 +1,4 @@
-SDG_GOAL: '<p>Goal 17: Strengthen the means of implementation and revitalize the global
-  partnership for sustainable development: Promote peaceful and inclusive societies
-  for sustainable development, provide access to justice for all and build effective,
-  accountable and inclusive institutions at all levels</p>'
+SDG_GOAL: '<p>Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development</p>'
 SDG_TARGET: '<p>Target 17.5: Adopt and implement investment promotion regimes for
   least developed countries</p>'
 SDG_INDICATOR: '<p>Indicator 17.5.1: Number of countries that adopt and implement
@@ -12,7 +9,7 @@ STAT_CONC_DEF: <p>The indicator provides the number of countries that have adopt
   least developed countries.</p>
 DATA_COMP: |
   Includes assistance provided in the form of repayable instruments, loans, guarantees and 
-  equity; It also includes grants provided to a group of sectors related to the improvement 
+  equity. It also includes grants provided to a group of sectors related to the improvement 
   of the investment context or to support local and external investors to participate in projects.
   <br>
   <br>The number of projects is calculated based on the number of project disbursing during the year.
@@ -29,7 +26,9 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 17.5.1: Number of countries that adopt and 
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Conference on Trade and Development (UNCTAD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-05-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+ 
 
 # SOURCE(S)
 source_active_1: 'true'
@@ -37,3 +36,5 @@ source_url_text_1: |
     Global Affairs Canada
 source_url_1: https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng
 source_organisation_1: Global Affairs Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada

@@ -6,7 +6,17 @@ SDG_TARGET: '<p>Target 8.b: By 2020, develop and operationalize a global strateg
 SDG_INDICATOR: '<p>Indicator 8.b.1: Existence of a developed and operationalized national
   strategy for youth employment, as a distinct strategy or as part of a national employment
   strategy </p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: 'The proposed methodology draws on:
+  <br><br>
+  1. Global policy instruments, notably:
+  <br>
+  <i>Resolution on The youth employment crisis: A call for action</i>, adopted at the 101<sup>st</sup> session of the International Labour Conference (ILC) in June 2012. In calling for vigorous, collective action to address an aggravated youth employment crisis, this resolution advocates for a multi-pronged approach with policy measures that are context-specific and integrated, entailing strategies which bring together in a coherent manner a variety of instruments to increase the demand, enhance the supply and improve matching in youth labour markets. 
+  <br><br>
+  <i>Recovering from the crisis: A Global Jobs Pact</i> adopted by the ILC at its June 2009 session. Based on the ILO’s Decent Work Agenda, the Global Jobs Pact presents an integrated portfolio of policies that puts employment and social protection at the centre of crisis response, recognising the critical role of participation and social dialogue.
+  <br><br>
+  2. ILO databases: 
+  <br>
+  International monitoring of youth employment policies was carried out over the period 2010-2012 by the Youth Employment Network (YEN) – a partnership between the ILO, United Nations and World Bank – utilising a questionnaire sent to national authorities. This evolved into YouthPOL, an inventory of youth employment policies and programmes maintained by the ILO (65 countries covered to date). The ILO also maintains EmPol, a dataset of broader national employment policies (143 countries covered).'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
@@ -20,7 +30,12 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 8.b.1: Existence of a developed and operati
 un_designated_tier: Tier II
 un_custodian_agency: International Labour Organization (ILO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-0b-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 526
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
-reporting_status: complete
+# source_active_1: 'true'
+# source_url_text_1: "Youth Employment and Skills Strategy"
+# source_url_1: https://www.canada.ca/en/employment-social-development/services/funding/youth-employment-strategy.html
+# source_organisation_1: Employment and Social Development Canada
+# source_geographical_coverage_1: Canada
+# 
+# reporting_status: complete

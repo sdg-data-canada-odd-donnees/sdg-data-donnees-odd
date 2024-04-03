@@ -6,11 +6,15 @@ SDG_INDICATOR: |
     Indicator 10.1.1: Growth rates of household expenditure or income per capita among the bottom 40 percent of the population and the total population
 STAT_CONC_DEF: |
     The bottom 40% refers to individuals in the population whose adjusted household after-tax income falls in the lowest 40% of the distribution.<br><br>Total consumption refers to the sum of current expenditures for food, shelter, household operations, household furnishings and equipment, clothing and accessories, transportation, health care, personal care, recreation, education, reading materials and other printed matter, tobacco products and alcoholic beverages, games of chance, and miscellaneous expenditures. It does not include the imputed values of goods and services that are not purchased but procured otherwise for consumption.
-DATA_COMP: '   '
-UNIT_OF_MEASURE: Growth rate
+DATA_COMP: |
+    Household expenditure per capita is calulated by dividing the total expenditure by the total population. <br><br>
+    Income per capita is calculated by dividing the adjusted after-tax income (average income) by the total population. <br><br>
+    The growth is calculated as follow:<br>
+    Growth in income or consumption (in %) = [(Value in time t - Value in time t-1)/(Value in time t-1)]*100
+
 REC_USE_LIM: |
-    Survey of Household Spending (SHS) estimates exclude households in Canada's three territories.<br><br>Starting with the 2017 reference year, the Survey of Household Spending is conducted every two years.
-COVERAGE: Canada
+    Survey of Household Spending (SHS) estimates exclude households in Canada's three territories.<br><br>Canada's data is presently disaggregated by decile or quintile as opposed to being aggregated like the metadata states. <br><br>
+    Data is reported by quintile or decile separately instead to being reported for the bottom 40%.
 
 # GLOBAL    
 SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'

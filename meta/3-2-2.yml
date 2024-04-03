@@ -8,8 +8,8 @@ STAT_CONC_DEF: <p>The neonatal mortality rate is the probability that a child bo
   in a specific year or period will die during the first 28 completed days of life
   if subject to age-specific mortality rates of that period, expressed per 1000 live
   births.</p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+DATA_COMP: custom.data-comp
+REC_USE_LIM: '2017, 2018, 2019, 2020, 2021 and 2022 data for Yukon are not available.'
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.2: By 2030, end preventable deaths of newborns and
@@ -25,8 +25,8 @@ source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
 reporting_status: complete
-COVERAGE: Canada
+ 
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Children's Fund (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-02-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata

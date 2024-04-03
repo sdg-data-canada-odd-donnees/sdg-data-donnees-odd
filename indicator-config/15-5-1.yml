@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Percentage change from 1970 baseline
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -20,11 +20,11 @@ graph_stacked_disaggregation: ''
 graph_target_lines:
 - label_content: 1970 baseline
   value: 0
-graph_title: Canadian species index, percentage change, 1970 to 2016
+graph_title: chart.15-5-1-title
 graph_titles: []
 graph_type: line
-indicator_available: ''
-indicator_name: Canadian species index
+indicator_available: proxy.15-5-1-title
+indicator_name: global_indicators.15-5-1-title
 indicator_number: 15.5.1
 national_geographical_coverage: Canada
 page_content: ''
@@ -33,7 +33,7 @@ precision: []
 progress_calculation_options:
 - direction: negative
   target_year: 2020
-progress_status: substantial_progress
+progress_status: deterioration
 reporting_status: complete
 sort: ''
 standalone: false

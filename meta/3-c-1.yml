@@ -9,7 +9,8 @@ STAT_CONC_DEF: '<p><strong>Density of medical doctors: </strong>The density of m
   medical practitioners per 10,000 population in the given national and/or subnational
   area.'
 DATA_COMP: 'Calculated by dividing the number of health care professionals working in direct care in each health region or province/territory by population estimates and multiplying by 100,000<br><br>(Number of health care professionals employed in the profession and working in direct care by health region or province/territory / Population estimate) x 100,000'
-REC_USE_LIM: 'Caution must be exercised when comparing change over time at both the provincial/territorial and national levels, as some data may have been submitted by data providers using varying supply definitions or collected under different regulatory environments from different data sources or at different time points during a given year.'
+REC_USE_LIM: 'Caution must be exercised when comparing change over time at both the provincial/territorial and national levels, as some data may have been submitted by data providers using varying supply definitions or collected under different regulatory environments from different data sources or at different time points during a given year. <br> <br>
+  This indicator is measured in the number of service providers by 100,000 population rather than by 10,000 population as specified in the metadata.'
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.c: Substantially increase health financing and the recruitment, development, training and 
@@ -18,12 +19,9 @@ SDG_TARGET__GLOBAL: '<p>Target 3.c: Substantially increase health financing and 
 SDG_INDICATOR__GLOBAL: '<p>Indicator 3.c.1: Health worker density and distribution
   </p>'
 un_designated_tier: Tier I
-un_custodian_agency: World Health Organisation (WHO)
+un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0C-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 207
-  KB)
-
-COVERAGE: Canada, Province or territory
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 source_active_1: 'true'
 source_url_text_1: Health Workforce Database
@@ -33,5 +31,3 @@ source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
 
 reporting_status: complete
-
-UNIT_MEASURE: Service provider per 100,000 population

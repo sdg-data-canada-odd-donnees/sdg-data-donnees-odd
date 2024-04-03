@@ -11,7 +11,7 @@ STAT_CONC_DEF: <p>The percentage of women of reproductive age (15-49 years) curr
   using a modern method of contraception among those who desire either to have no
   (additional) children or to postpone the next pregnancy. The indicator is also referred
   to as the demand for family planning satisfied with modern methods. </p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
@@ -25,13 +25,14 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 3.7.1: Proportion of women of reproductive 
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Population Fund UNFPA
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 357
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+ 
 
 # Source(s)
 source_active_1: 'true'
 source_url_text_1: Demand for family planning satisfied by any modern method (Percent)
-source_organisation_1: UN Population Division
+source_organisation_1: United Nations Population Division
 source_periodicity_1: Annual 
 source_geographical_coverage_1: Canada
 source_url_1: https://population.un.org/dataportal/data/indicators/8,7/locations/124/start/1990/end/2023/table/pivotbylocation

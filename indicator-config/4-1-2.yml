@@ -1,5 +1,5 @@
 auto_progress_calculation: false
-computation_units: Percentage
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -10,18 +10,10 @@ data_show_map: true
 data_start_values:
 - field: Geography
   value: Canada
-- field: Educational attainment level
-  value: Pre-primary and primary
-- field: Educational attainment level
-  value: Lower secondary
-- field: Educational attainment level
-  value: Upper secondary and post-secondary non-tertiary
-- field: Educational attainment level
-  value: Tertiary education
-- field: Age group
-  value: Total, 25 to 64 years
-- field: Sex
-  value: Both sexes
+- field: Graduation rate
+  value: Extended-time
+- field: Gender
+  value: Total
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -30,13 +22,13 @@ embedded_feature_url: ''
 expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
-graph_stacked_disaggregation: Educational attainment level
+graph_stacked_disaggregation: Graduation rate
 graph_title: global_indicators.4-1-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.4-1-2-title
 indicator_number: 4.1.2
-national_geographical_coverage: Canada, Province or territory
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []

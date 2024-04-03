@@ -3,18 +3,18 @@ SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouv
 SDG_TARGET: '<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose,
   au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies
   transmises par l’eau et autres maladies transmissibles.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.3.3 : Incidence du paludisme pour 100 000 habitants</p>'
+SDG_INDICATOR: '<p>Indicateur 3.3.3 : Incidence du paludisme par 100 000 habitants</p>'
 STAT_CONC_DEF: <p>L'incidence du paludisme est définie comme le nombre de nouveaux
-  cas de paludisme pour 100 000 personnes à risque chaque année.</p>
+  cas de paludisme par 100 000 personnes à risque chaque année.</p>
 DATA_COMP: |
-  Taux pour 100 000 habitants
+  Taux par 100 000 habitants
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à
   la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite,
   les maladies transmises par l’eau et autres maladies transmissibles.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.3.3 : Incidence du paludisme pour 100 000 habitants</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.3.3 : Incidence du paludisme par 100 000 habitants</p>'
 
 source_active_1: true
 source_url_text_1: 'Nombre de cas signalés de maladies de 1924 à 2020 au Canada - maladies à déclaration obligatoire en direct'
@@ -22,7 +22,7 @@ source_url_1: https://maladies.canada.ca/declaration-obligatoire/graphiques?c=yl
 source_organisation_1: |
   Agence de la santé publique du Canada
 source_periodicity_1: Annuelle
-source_geographical_coverage_1: 'Canada'
+source_geographical_coverage_1: Canada
 
 reporting_status: complete
 
@@ -30,3 +30,5 @@ un_designated_tier: Niveau I
 un_custodian_agency: Organisation Mondiale de la Santé (OMS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-03.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+ 

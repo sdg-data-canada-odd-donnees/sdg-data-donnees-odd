@@ -5,10 +5,10 @@ SDG_TARGET: '<p>Target 8.6: By 2020, substantially reduce the proportion of yout
 SDG_INDICATOR: '<p>Indicator 8.6.1: Proportion of youth (aged 15-24 years) not in
   education, employment or training </p>'
 STAT_CONC_DEF: |
-  <b>Unemployed</b>, Not in employment, education or training = Individuals who were, during the survey reference week, without work, actively seeking employment and currently available to start work.<br><br><b>Not in the labour force</b>, Not in employment, education or training (NEET) = Individuals who were not working and who were not unemployed, that is, individuals who were not looking for a job.
-DATA_COMP: '   '
+  This indicator conveys the proportion of youth (aged 15-24 years) not in education, employment or training (also known as "the youth NEET rate").
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |
-  Given that the vast majority of youth aged 25 to 29 have completed their education, it is relevant to measure Not in employment, education or training (NEET) rates by the highest level of education attained within this age group. This measure is not presented for 15 to 24 year olds, as the majority of youth in this age group are still in school.<br><br>Estimates are based on an 8-month average for the calendar year (i.e. January to April and September to December).<br><br>Non-students are people who are not enrolled at an educational institution, as per Labour Force Survey (LFS) concepts.
+ Not in employment, education or training (NEET) rates for the provinces are the average rate of the first three months of the calendar year (first quarter), which excludes summer employment. For the territories, the average is calculated over 8 months (September to April) as the survey sample and data collection differs meaningfully from those of the provinces.
 
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all </p>'
@@ -27,10 +27,8 @@ source_organisation_1: Statistics Canada
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada, Province or territory
 
-
-COVERAGE: Canada, Province or territory
+ 
 un_designated_tier: Tier I
 un_custodian_agency: International Labour Organization (ILO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-06-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 382
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata

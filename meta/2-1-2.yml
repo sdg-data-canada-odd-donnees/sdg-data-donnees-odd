@@ -4,18 +4,17 @@ SDG_GOAL: |
 SDG_TARGET: '<p>Target 2.1: By 2030, end hunger and ensure access by all people, in
   particular the poor and people in vulnerable situations, including infants, to safe,
   nutritious and sufficient food all year round</p>'
-SDG_INDICATOR: '<p>Indicator 2.1.2: Prevalence of moderate or severe food
-  insecurity in the population, based on the Food Insecurity Experience Scale (FIES)</p>'
+SDG_INDICATOR: '<p>Indicator 2.1.2: Proportion of family living with food insecurity</p>'
 STAT_CONC_DEF: |
-  The levels of food security are defined as: <br>1- Food secure: No indication of difficulty with income-related food access; <br>2- Marginally food insecure: Exactly one indication of difficulty with income-related food access; <br>3- Moderately food insecure: Indication of compromise in quality and/or quantity of food consumed; <br>4- Severely food insecure: Indication of reduced food intake and disrupted eating patterns.
-DATA_COMP: '   '
+  The levels of food security are defined as: <br>1- Food secure: No indication of difficulty with income-related food access; <br>2- Food insecure: Includes marginal, moderate and severe food insecurity; <br>3- Marginally food insecure: Exactly one indication of difficulty with income-related food access; <br>4- Moderately food insecure: Indication of compromise in quality and/or quantity of food consumed; <br>5- Severely food insecure: Indication of reduced food intake and disrupted eating patterns.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |
+      This is a proxy indicator. The UN Global indicator states: "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)". 
       The survey is conducted nationwide, in both the provinces and
       the territories. It covers all individuals in Canada, excluding persons living on
       reserves and other Indigenous settlements in the provinces, the institutionalized
       population, and households in extremely remote areas with very low population density.
-      Overall, these exclusions amount to less than two percent of the population.
-COVERAGE: Canada, Geographical region of Canada, Province or territory
+      Overall, these exclusions amount to less than two percent of the population. 
 
 ## GLOBAL METADATA
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
@@ -26,10 +25,9 @@ SDG_TARGET__GLOBAL: '<p>Target 2.1: By 2030, end hunger and ensure access by all
 SDG_INDICATOR__GLOBAL: '<p>Indicator 2.1.2: Prevalence of moderate or severe food
   insecurity in the population, based on the Food Insecurity Experience Scale (FIES)</p>'
 un_designated_tier: Tier II
-un_custodian_agency: Food and Agriculture Organization (FAO)
+un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 426
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
   
 ## SOURCE
 reporting_status: complete

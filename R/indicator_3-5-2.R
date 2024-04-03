@@ -7,6 +7,10 @@ library(dplyr)
 alc_sales <- get_cansim("10-10-0010-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
 
+exclude_Canada <- c(
+  "Canada"
+)
+
 alc_sales_total <-
   alc_sales %>%
   filter(
@@ -31,7 +35,13 @@ total_line <-
   ) %>%
   mutate(Geography = "")  
 
-data_final <- bind_rows(total_line, alc_sales_total)  
+data_with_Canada <- bind_rows(total_line, alc_sales_total) 
+
+data_final <-
+  data_with_Canada %>%
+  filter(
+    !Geography %in% exclude_Canada
+  )
 
 write.csv(
   data_final,

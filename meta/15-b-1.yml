@@ -8,8 +8,11 @@ SDG_TARGET: '<p>Target 15.b: Mobilize significant resources from all sources and
 SDG_INDICATOR: '<p>Indicator 15.b.1<strong>: </strong>(a) Official development assistance
   on conservation and sustainable use of biodiversity; and (b) revenue generated and
   finance mobilized from biodiversity-relevant economic instruments</p>'
-STAT_CONC_DEF: '    '
-DATA_COMP: '   '
+STAT_CONC_DEF: <p>This is a twin indicator consisting of:</p>
+  a. Official development assistance on conservation and sustainable use of biodiversity, defined as gross disbursements of total Official Development Assistance (ODA) from all donors for biodiversity.
+  <br><br>
+  b. Revenue generated and finance mobilised from biodiversity-relevant economic instruments, defined as revenue generated and finance mobilised from biodiversity-relevant economic instruments, covering biodiversity-relevant taxes, fees and charges, and positive subsidies. (New on-going work is underway to collect data on payments for ecosystem services and biodiversity offsets -- including the finance they mobilise for biodiversity).
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
   ecosystems, sustainably manage forests, combat desertification, and halt and reverse
@@ -30,5 +33,6 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 source_active_1: 'true'
 source_url_text_1: OECD. Creditor Reporting System (CRS).
 source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1#
-source_organisation_1: OECD
+source_organisation_1: Organisation for Economic Co-operation and Development (OECD)
+source_periodicity_1: Annual
 source_geographical_coverage_1: Canada

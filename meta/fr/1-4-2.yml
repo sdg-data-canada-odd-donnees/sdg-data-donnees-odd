@@ -7,10 +7,8 @@ SDG_TARGET: '<p>Cible 1.4 : D''ici à 2030, faire en sorte que tous les hommes e
   à l''héritage, aux ressources naturelles et à des nouvelles technologies et des
   services financiers adaptés à leurs besoins, y compris la microfinance</p>'
 SDG_INDICATOR: '<p>Indicateur 1.4.2 : Proportion de la population adulte totale qui dispose de la sécurité des droits fonciers a) de documents légalement authentifiés et b) qui considère que ses droits sur la terre sont sûrs, par sexe et par type</p>'
-STAT_CONC_DEF: "    "
+STAT_CONC_DEF: "Cet indicateur mesure la proportion de la population adulte totale qui dispose de la sécurité des droits fonciers a) de documents légalement authentifiés et b) qui considère que ses droits sur la terre sont sûrs, par sexe et par type"
 DATA_COMP: '   '
-REC_USE_LIM: '   '
-COVERAGE: Province ou territoire
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans
@@ -21,21 +19,23 @@ SDG_TARGET__GLOBAL: '<p>Cible 1.4 : D''ici à 2030, faire en sorte que tous les 
   à la propriété foncière, au contrôle des terres et à d''autres formes de propriété,
   à l''héritage, aux ressources naturelles et à des nouvelles technologies et des
   services financiers adaptés à leurs besoins, y compris la microfinance</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.4.1 : Proportion de la population adulte totale qui dispose de la sécurité des droits fonciers a) de documents légalement authentifiés et b) qui considère que ses droits sur la terre sont sûrs, par sexe et par type </p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.4.2 : Proportion de la population adulte totale qui dispose de la sécurité des droits fonciers a) de documents légalement authentifiés et b) qui considère que ses droits sur la terre sont sûrs, par sexe et par type </p>'
 un_designated_tier: Niveau II
-un_custodian_agency: La Banque Mondiale
+un_custodian_agency: Banque Mondiale
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: Recensement de la population. Totalisation personnalisée.
-source_url_1: https://www12.statcan.gc.ca/census-recensement/index-fra.cfm
-source_organisation_1: Statistics Canada
-source_periodicity_1: Aux 5 ans
+#source_active_1: 'true'
+#source_url_text_1: Recensement de la population. Totalisation personnalisée.
+#source_url_1: https://www12.statcan.gc.ca/census-recensement/index-fra.cfm
+#source_organisation_1: Statistics Canada
+#source_periodicity_1: Aux 5 ans
+#source_geographical_coverage_1: Canada, Région géographique du Canada, Province ou territoire, Région métropolitaine de recensement
 
-source_active_2: 'true'
-source_url_text_2: Programme de la statistique du logement canadien (PSLC). Totalisation personnalisée.
-source_url_2: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&amp;SDDS=5257
-source_organisation_2: Statistics Canada
-source_periodicity_2: Annuelle
+#source_active_2: 'true'
+#source_url_text_2: Programme de la statistique du logement canadien (PSLC). Totalisation personnalisée.
+#source_url_2: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&amp;SDDS=5257
+#source_organisation_2: Statistics Canada
+#source_periodicity_2: Annuelle
+#source_geographical_coverage_2: Canada, partie rurale ou urbaine du Canada, province ou territoire, partie rurale ou urbaine de la province ou du territoire et subdivision de recensement (SDR)

@@ -1,13 +1,19 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
-data_show_map: false
-data_start_values: []
+data_show_map: true
+data_start_values:
+  - field: Geography
+    value: Canada
+  - field: Type of childhood maltreatment
+    value: Physical or sexual abuse
+  - field: Gender
+    value: Total, gender
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -19,14 +25,14 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.16-2-1-title
 graph_titles: []
-graph_type: line
+graph_type: bar
 indicator_name: global_indicators.16-2-1-title
 indicator_number: '16.2.1'
 national_geographical_coverage: ''
-page_content: ''
+page_content: '<p>This indicator aligns with the following frameworks: - Quality of Life, <a href="https://www160.statcan.gc.ca/good-governance-saine-gouvernance/childhood-maltreatment-mauvais-traitements-enfance-eng.htm"><em>Childhood maltreatment</em></a></p>'
 permalink: ''
 precision: []
-reporting_status: notapplicable
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []

@@ -65,11 +65,11 @@ STAT_CONC_DEF: |
   <br><b>New water</b>is an area of land that has transitioned to water.
   <br>
   <br><b>Lost water</b> is an area of water that has transitioned to land.
-DATA_COMP: |
-  Combined surface-water changes = permanent + seasonal + reservoir changes. Changes
-  in surface-water area are observed in 2015 and 2020, which are compared against a 20-year
-  reference period.
-REC_USE_LIM: '   '
+DATA_COMP: '    ' # |
+  # Combined surface-water changes = permanent + seasonal + reservoir changes. Changes
+  # in surface-water area are observed in 2015 and 2020, which are compared against a 20-year
+  # reference period.
+REC_USE_LIM: '    ' # custom.data-comp
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
   and sanitation for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 6.6: By 2030 protect and restore water-related ecosystems,
@@ -77,13 +77,13 @@ SDG_TARGET__GLOBAL: '<p>Target 6.6: By 2030 protect and restore water-related ec
 SDG_INDICATOR__GLOBAL: '<p>Indicator 6.6.1: Change in the extent of water-related
   ecosystems over time</p>'
 un_designated_tier: Tier I
-un_custodian_agency: UN Environment (UNEP), Ramsar
+un_custodian_agency: United Nations Environment Programme (UNEP), Secretariat of the Ramsar Convention on Wetlands
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
-  MB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
-source_active_1: 'true'
-source_url_text_1: Freshwater Ecosystems Explorer.
-source_url_1: https://www.sdg661.app/
-source_organisation_1: UN environment programme
-source_geographical_coverage_1: Canada and global
+# source_active_1: 'true'
+# source_url_text_1: Freshwater Ecosystems Explorer.
+# source_url_1: https://www.sdg661.app/
+# source_organisation_1: United Nations Environment Programme (UNEP)
+# source_periodicity_1: Annual
+# source_geographical_coverage_1: Canada

@@ -5,8 +5,10 @@ SDG_TARGET: '<p>Target 1.5: By 2030, build the resilience of the poor and those 
 SDG_INDICATOR: '<p>Indicator 1.5.4: Proportion of local governments that adopt and implement
   local disaster risk reduction strategies in line with national disaster risk reduction
   strategies</p>'
-STAT_CONC_DEF: '    '
-DATA_COMP: '   '
+STAT_CONC_DEF: 'This indicator measures the proportion of local governments that adopt and implement
+  local disaster risk reduction strategies in line with national disaster risk reduction
+  strategies.'
+DATA_COMP: '     '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
 SDG_TARGET__GLOBAL: '<p>Target 1.5: By 2030, build the resilience of the poor and those in
@@ -19,11 +21,24 @@ un_designated_tier: Tier II
 un_custodian_agency: United Nations International Strategy for Disaster Reduction
   (UNISDR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-04.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 217
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 source_active_1: 'true'
 source_url_text_1: |
     Public Safety Canada. Emergency Management Strategy for Canada: Toward a Resilient 2030
 source_url_1: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
 source_organisation_1: Public Safety Canada
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: |
+    Government of British Columbia. Modernizing BC’s Emergency Management Legislation
+source_url_2: hhttps://www2.gov.bc.ca/assets/gov/public-safety-and-emergency-services/emergency-preparedness-response-recovery/modernizing_bcs_emergencymanagement_legislation.pdf
+source_organisation_2: Government of British Columbia
+source_geographical_coverage_2: British Columbia
+
+source_active_3: 'true'
+source_url_text_3: |
+source_organisation_3: Government of Quebec
+source_url_3: https://www.quebec.ca/gouvernement/ministere/securite-publique/publications/politique-quebecoise-securite-civile-2014-2024
+source_geographical_coverage_3: Quebec

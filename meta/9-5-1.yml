@@ -7,10 +7,12 @@ SDG_TARGET: '<p>Target 9.5: Enhance scientific research, upgrade the technologic
   research and development spending</p>'
 SDG_INDICATOR: '<p>Indicator 9.5.1: Research and development expenditure as a proportion
   of GDP</p>'
-UNIT_OF_MEASURE: Proportion of GDP (%)
-DATA_COMP: >-
-    ((Performer: Total, all sectors) / (Gross domestic product at market prices)) * 100
-REC_USE_LIM: '   '
+
+STAT_CONC_DEF: Research and experimental development (R&D) expenditure as a proportion of Gross Domestic Product 
+  (GDP) is the amount of Research and experimental development (R&D) expenditure divided by the total 
+  output of the economy.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: 'Due to data limitations, data for the provinces are not available for the latest reference year as they are compiled and released a year later.'
 SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
   sustainable industrialization and foster innovation</p>'
 SDG_TARGET__GLOBAL: '<p>Target 9.5: Enhance scientific research, upgrade the technological
@@ -26,24 +28,12 @@ STAT_CONC_DEF__GLOBAL: >-
     total output of the economy.</p>
   
 source_active_1: 'true'
-source_url_text_1: Statistics Canada. Table 27-10-0273-01  Gross domestic expenditures
-  on research and development, by science type and by funder and performer sector
-  (x 1,000,000)
-source_url_1: https://doi.org/10.25318/2710027301-eng
+source_url_text_1: Statistics Canada. Table 27-10-0359-01  Total domestic expenditures on research and development (R&D) as percentage of gross domestic product (GDP), Canada and provinces, and G-7 countries
+source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2710035901
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
-source_geographical_coverage_1: Canada, Geographical region of Canada, Province or
-  territory, Census metropolitan area, Census metropolitan area part
-  
-source_active_2: 'true'
-source_url_text_2: Statistics Canada. Table 36-10-0222-01  Gross domestic product,
-  expenditure-based, provincial and territorial, annual (x 1,000,000)
-source_url_2: https://doi.org/10.25318/3610022201-eng
-source_organisation_2: Statistics Canada
-source_periodicity_2: Annual
-source_geographical_coverage_2: Canada, Province or territory
+source_geographical_coverage_1: Canada, Province or territory
 
-COVERAGE: Canada, Province or territory
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Educational, Scientific and Cultural Organization
   (UNESCO)

@@ -8,7 +8,7 @@ SDG_INDICATOR: '<p>Indicator 3.3.5: Number of people requiring interventions aga
 STAT_CONC_DEF: <p>Number of people requiring treatment and care for any one of the
   neglected tropical diseases (NTDs) targeted by the WHO NTD Roadmap and World Health
   Assembly resolutions and reported to WHO. </p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
@@ -18,16 +18,15 @@ SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tubercul
 SDG_INDICATOR__GLOBAL: '<p>Indicator 3.3.5: Number of people requiring interventions
   against neglected tropical diseases </p>'
 un_designated_tier: Tier I
-un_custodian_agency: World Health Organisation (WHO)
+un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 390
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 source_active_1: true
-source_url_text_1: 'Reported cases from 1991 to 2020 in Canada - Notifiable diseases on-line'
+source_url_text_1: 'Reported cases from 1991 to 2021 in Canada - Notifiable diseases on-line'
 source_url_1: 'https://diseases.canada.ca/notifiable/charts?c=yl'
-source_organisation_1: "Public Health Agency of Canada"
+source_organisation_1: "Public Health Agency of Canada (PHAC)"
 source_periodicity_1: Annual
-source_geographical_coverage_1: 'Canada'
+source_geographical_coverage_1: Canada
 reporting_status: complete
-COVERAGE: Canada
+ 

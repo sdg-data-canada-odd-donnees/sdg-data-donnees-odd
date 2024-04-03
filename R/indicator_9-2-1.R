@@ -31,7 +31,7 @@ pop <-
   pop %>% 
   filter(
     REF_DATE > 2014,
-    Sex == "Both sexes",
+    Gender == "Total - gender",
     `Age group` == "All ages"
   ) %>% 
   select(1:2, pop = VALUE)
@@ -43,18 +43,18 @@ data_final <-
       filter(!is.na(gdp)) %>% 
       transmute(
         Year = REF_DATE, 
-        Units = "Proportion of GDP",
+        Units = "Percentage (%)",
         Geography = GEO,
-        Value = round(mva/gdp, 2)
+        Value = round(((mva*1000)/(gdp*1000000))*100, 2)
       ),
     mva %>% 
       left_join(pop) %>%
       filter(!is.na(pop)) %>% 
       transmute(
         Year = REF_DATE, 
-        Units = "Per capita",
+        Units = "Dollar",
         Geography = GEO,
-        Value = round(mva/pop, 2)
+        Value = round((mva*1000)/pop, 2)
       )
   ) %>% 
   left_join(geocodes) %>% 

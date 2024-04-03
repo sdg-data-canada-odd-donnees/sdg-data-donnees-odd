@@ -4,7 +4,10 @@ SDG_TARGET: '<p>Target 10.7: Facilitate orderly, safe, regular and responsible m
   migration policies</p>'
 SDG_INDICATOR: '<p>Indicator 10.7.1: Recruitment cost borne by employee as a proportion of 
   monthly income earned in country of destination</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: 'SDG indicator 10.7.1 is defined as: “Recruitment cost borne by employee as a proportion of monthly 
+  income earned in country of destination”, i.e. a ratio between a cost measure and an income measure. 
+  The statistics used for the numerators and denominators for indicator 10.7.1 should be based on costs 
+  and earnings observed for the same individual international migrant worker.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
@@ -16,4 +19,6 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 10.7.1: Recruitment cost borne by employee 
 un_designated_tier: Tier II
 un_custodian_agency: International Labour Organization (ILO), World Bank (WB)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+ 

@@ -1,4 +1,4 @@
-computation_units: 'Percentage'
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -16,12 +16,21 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.9-3-2-title
-graph_titles: []
+graph_title: ''
+graph_titles:
+  - series: Request rate, line of credit
+    title: Proportion of small-scale industries requesting a line of credit
+  - series: Request rate, term loan
+    title: Proportion of small-scale industries requesting a term loan
+  - series: Overall approval rate, line of credit
+    title: Proportion of small-scale industries approved for a line of credit
+  - series: Overall approval rate, term loan
+    title: Proportion of small-scale industries approved for a term loan
 graph_type: bar
 indicator_name: global_indicators.9-3-2-title
+indicator_available: proxy.9-3-2-title
 indicator_number: 9.3.2
-national_geographical_coverage: ''
+national_geographical_coverage: Canada, Geographical region of Canada
 page_content: ''
 permalink: ''
 precision: []
@@ -30,5 +39,6 @@ progress_calculation_options:
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+  - Proxy
 "\xEF\xBB\xBFcomposite_breakdown_label": ''

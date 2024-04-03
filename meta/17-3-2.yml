@@ -2,11 +2,14 @@ SDG_GOAL: '<p>Goal 17: Strengthen the means of implementation and revitalize the
   Partnership for Sustainable Development</p>'
 SDG_TARGET: '<p>Target 17.3: Mobilize additional financial resources for developing
   countries from multiple sources</p>'
-SDG_INDICATOR: '<p>Indicator 17.3.2: PR Total amount of remittances sent to ODA-eligible countries</p>'
-STAT_CONC_DEF: <p>Personal remittances received as proportion of GDP is the inflow
-  of personal remittances expressed as a percentage of Gross Domestic Product (GDP).
-  </p>
-DATA_COMP: '   '
+SDG_INDICATOR: '<p>Indicator 17.3.2: Volume of remittances (in United States dollars) as a proportion of total GDP</p>'
+STAT_CONC_DEF: "<strong>Definition:</strong><br> Personal remittances received as proportion of GDP is the inflow of personal remittances expressed as a percentage of Gross Domestic Product (GDP). <br><br>
+  <strong>Concepts:</strong> Personal remittances comprise of personal transfers and compensation of employees. Personal transfers 
+  consist of all current transfers in cash or in kind made or received by resident households to or from non-resident households. Personal transfers thus include all current transfers between resident and non-resident individuals. Compensation of employees refers to the income of border, seasonal, and other 
+  short-term workers who are employed in an economy where they are not resident and of residents 
+  employed by non-resident entities. Data are the sum of two items defined in the sixth edition of the IMF's Balance of Payments Manual: personal transfers and compensation of employees."
+ 
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the Global Partnership for Sustainable Development</p>'
@@ -17,12 +20,13 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 17.3.2: Volume of remittances (in United St
 un_designated_tier: Tier I
 un_custodian_agency: World Bank (WB)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 207
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
 source_active_1: 'true'
 source_url_text_1: "Personal remittances, received (% of GDP) - Canada"
 source_url_1: https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?end=2021&locations=CA&name_desc=true&start=1995&view=chart
-source_organisation_1: The World Bank
+source_organisation_1: World Bank (WB)
+source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
-COVERAGE: Canada
-UNIT_OF_MEASURE: Percentage (%)
+ 
+ 

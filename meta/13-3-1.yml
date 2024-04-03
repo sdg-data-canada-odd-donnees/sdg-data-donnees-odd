@@ -5,7 +5,12 @@ SDG_TARGET: '<p>Target 13.3: Improve education, awareness-raising and human and
 SDG_INDICATOR: '<p>Indicator 13.3.1: Extent to which (i) global citizenship education 
   and (ii) education for sustainable development are mainstreamed in (a) national 
   education policies; (b) curricula; (c) teacher education; and (d) student assessment</p>'
-STAT_CONC_DEF: ''
+STAT_CONC_DEF: 'Indicator 4.7.1/12.8.1/13.3.1 measures the extent to which countries mainstream Global Citizenship 
+  Education (GCED) and Education for Sustainable Development (ESD) in their education systems. This is an 
+  indicator of characteristics of different aspects of education systems: education policies, curricula, teacher 
+  training and student assessment as reported by government officials, ideally following consultation with 
+  other government ministries, national human rights institutes, the education sector and civil society organizations. It measures what governments intend and not what is implemented in practice in schools 
+  and classrooms.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 13: Take urgent action to combat climate change and its impacts</p>'
@@ -19,6 +24,7 @@ un_designated_tier: Tier III
 un_custodian_agency: United Nations Framework Convention on Climate Change (UNFCCC),
   United Nations Educational, Scientific and Cultural Organization - Institute for
   Statistics (UNESCO-UIS)
-goal_meta_link: https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-13-03-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
-  MB)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-13-03-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+ 

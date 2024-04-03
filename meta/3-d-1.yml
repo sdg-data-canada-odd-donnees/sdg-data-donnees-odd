@@ -4,13 +4,10 @@ SDG_TARGET: '<p>Target 3.d: Strengthen the capacity of all countries, in particu
   and global health risks</p>'
 SDG_INDICATOR: '<p>Indicator 3.d.1: International Health Regulations (IHR) capacity
   and health emergency preparedness</p>'
-STAT_CONC_DEF: <p>The revised International Health Regulations (IHR) were adopted
-  in 2005 and entered into force in 2007. Under the IHR, States Parties are obliged
-  to develop and maintain minimum core capacities for surveillance and response, including
-  at points of entry, in order to early detect, assess, notify, and respond to any
-  potential public health events of international concern.</p>
-UNIT_MEASURE: Percentage
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+  <p>The revised International Health Regulations (IHR) were adopted in 2005 and entered into force in 2007. Under the IHR, States Parties are obliged to develop and maintain minimum core capacities for surveillance and response, including at points of entry, in order to early detect, assess, notify, and respond to any potential public health events of international concern.</p>
+  <p>For each of the 15 capacities, one to five indicators are used to measure implementation status. For each indicator, the reporting State Party is asked to select which of the five levels best describes the State Party's current status. The score of each indicator level is classified as a percentage of performance along the "1 to 5" scale. The level of capacity is expressed as the average of all indicators.</p>
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
@@ -20,15 +17,15 @@ SDG_TARGET__GLOBAL: '<p>Target 3.d: Strengthen the capacity of all countries, in
 SDG_INDICATOR__GLOBAL: '<p>Indicator 3.d.1: International Health Regulations (IHR)
   capacity and health emergency preparedness</p>'
 un_designated_tier: Tier I
-un_custodian_agency: World Health Organisation (WHO)
+un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0D-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 58.0
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 reporting_status: complete
-COVERAGE: Canada
+ 
 
 source_active_1: 'true'
 source_url_text_1: World Health Statistics data visualizations dashboard
 source_url_1: https://apps.who.int/gho/data/view.sdg.3-d-data-ctry?lang=en
 source_organisation_1: World Health Organization - Global Health Observatory
+source_periodicity_1: Annual
 source_geographical_coverage_1: Canada

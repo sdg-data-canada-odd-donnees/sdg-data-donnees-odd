@@ -13,7 +13,7 @@ STAT_CONC_DEF: <p>The conservation of plant and animal genetic resources for foo
   in genebanks) represents the most trusted means of conserving genetic resources
   worldwide. Plant and animal GRFA conserved in these facilities can be easily used
   in breeding programmes as well, even directly on-farm.</p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
@@ -26,19 +26,20 @@ SDG_TARGET__GLOBAL: '<p>Target 2.5: By 2020, maintain the genetic diversity of s
 SDG_INDICATOR__GLOBAL: '<p>Indicator 2.5.1: Number of plant and animal genetic resources
   for food and agriculture secured in either medium or long-term conservation facilities</p>'
 un_designated_tier: Tier I
-un_custodian_agency: Food and Agriculture Organization (FAO)
+un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.5
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 334
-  KB)
-  
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
 source_active_1: 'true'
 source_url_text_1: Agriculture and Agri-Food Canada. Animal Genetic Resources of Canada.
 source_url_1: https://agriculture.canada.ca/en/science/agriculture-and-agri-food-research-centres/animal-genetic-resources-canada
-source_organisation_1: Agriculture and Agri-Food Canada
+source_organisation_1: Agriculture and Agri-Food Canada (AAFC)
+source_periodicity_1: Every 2 years
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: Agriculture and Agri-Food Canada. Canadian national genebank information system – GRIN-Global-CA.
 source_url_2: https://pgrc-rpc.agr.gc.ca/gringlobal/landing
-source_organisation_2: Agriculture and Agri-Food Canada
+source_organisation_2: Agriculture and Agri-Food Canada (AAFC)
+source_periodicity_2: Every 2 years
 source_geographical_coverage_2: Canada

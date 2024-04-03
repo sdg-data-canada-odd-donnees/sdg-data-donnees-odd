@@ -8,7 +8,7 @@ SDG_TARGET: '<p>Cible 15.a : Mobiliser des ressources financières de toutes pro
 SDG_INDICATOR: '<p>Indicateur 15.a.1 : (a) aide publique au développement consacrée
   à la préservation et à l’exploitation durable de la biodiversité et b) recettes
   générées et fonds mobilisés par les instruments économiques liés à la biodiversité</p>'
-UNIT_OF_MEASURE: Dollars canadiens ($)
+
 STAT_CONC_DEF: >-
     Il s'agit de la somme des dépenses publiques que le Canada verse en conservation et en utilisation de la biodiversité et des écosystèmes au pays.
 DATA_COMP: '   '
@@ -35,5 +35,5 @@ source_url_1: https://doi.org/10.25318/1010000501-fra
 source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada, Province ou territoire
-COVERAGE: Canada, Province or territory
+ 
 

@@ -7,29 +7,6 @@ library(dplyr)
 rd_personnel <- get_cansim("27-10-0022-01", factors = FALSE)
 pop_ests <- get_cansim("17-10-0005-01", factors = FALSE)
 
-
-age_hierarchy <-
-  c(
-    "1.25",
-    "1.31",
-    "1.37",
-    "1.43",
-    "1.49",
-    "1.55",
-    "1.61",
-    "1.67",
-    "1.73",
-    "1.79",
-    "1.85",
-    "1.86",
-    "1.87",
-    "1.88",
-    "1.89",
-    "1.126",
-    "1.132",
-    "1.138"
-  )
-
 rd_personnel %>% 
   distinct(GEO)
 
@@ -37,7 +14,7 @@ researchers <-
   rd_personnel %>%
   filter(
     REF_DATE >= 2010,
-    `Occupational category` %in% c("Researchers", "On-site research consultants"),
+    `Occupational category` == "Researchers",
     `Performing sector` == "Total, performing sectors",
     `Type of science` == "Total sciences"
   ) %>%
@@ -55,8 +32,8 @@ population <-
   filter(
     REF_DATE >= 2010,
     GEO == "Canada",
-    Sex == "Both sexes",
-    `Age group` %in% c("15 to 64 years", "65 years and over")
+    Gender == "Total - gender",
+    `Age group` == "All ages"
   ) %>%
   select(
     Year = REF_DATE,

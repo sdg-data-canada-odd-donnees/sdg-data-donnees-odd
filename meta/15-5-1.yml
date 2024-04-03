@@ -4,16 +4,12 @@ SDG_GOAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestri
 SDG_TARGET: '<p>Target 15.5: Take urgent and significant action to reduce the degradation
   of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent
   the extinction of threatened species</p>'
-SDG_INDICATOR: '<p>Indicator 15.5.1: Red List Index</p>'
-STAT_CONC_DEF: <p></p>
-DATA_COMP: |
-  Calculated based on the proportional change in population size for monitored 
-  vertebrate species. All species are weighted equally, such that a species that doubled in 
-  population would be balanced out by a species that declined by half. A long-term decline 
-  from the 1970 baseline appears to be continuing. However, short-term fluctuations should 
-  not be interpreted as strong evidence of recent environmental change.
+SDG_INDICATOR: '<p>Indicator 15.5.1: Canadian Species Index</p>'
+STAT_CONC_DEF: |
+  The Canadian species index represents the average percent change in the abundances of Canadian vertebrate species' populations since 1970. The index is an "average of trends", rather than a measure of change in the total number of animals: each species, whether it is common or rare, has the same effect on the index. The index reports general trends rather than progress towards desired levels.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |
-  This is a proxy indicator. The UN Global indicator states: "Red List Index".
+  This is a proxy indicator presenting the Canadian Species Index rather than the Red List Index as specified by the metadata.
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
   ecosystems, sustainably manage forests, combat desertification, and halt and reverse
   land degradation and halt biodiversity loss</p>'
@@ -25,14 +21,13 @@ un_designated_tier: Tier I
 un_custodian_agency: International Union for Conservation of Nature (IUCN), BirdLife
   International (BLI)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-05-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 440
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
 source_active_1: 'true'
 source_url_text_1: "Canadian species index"
 source_url_1: https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/canadian-species-index.html
-source_organisation_1: Environment and Climate Change Canada
+source_organisation_1: Environment and Climate Change Canada (ECCC)
+source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
-COVERAGE: Canada
-UNIT_OF_MEASURE: Percentage change from 1970 baseline
 
 proxy: proxy

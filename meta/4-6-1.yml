@@ -8,7 +8,7 @@ SDG_INDICATOR: '<p>Indicator 4.6.1: Proportion of population in a given age grou
 STAT_CONC_DEF: <p>The proportion of youth (aged 15-24 years) and of adults (aged 15
   years and above) who have achieved or exceeded a fixed level of proficiency in (a)
   literacy and (b) numeracy. </p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
   promote lifelong learning opportunities for all</p>'
@@ -21,8 +21,9 @@ un_designated_tier: Tier II
 un_custodian_agency: United Nations Education and Scientific Cultural Organisation
   - Institute of Statistics (UNESCO-UIS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-06-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 57.8
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+ 
 
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Literacy, numeracy - Average scores and distribution of proficiency levels, by sex and age group.

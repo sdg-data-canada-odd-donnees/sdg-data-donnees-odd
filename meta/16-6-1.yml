@@ -8,10 +8,11 @@ SDG_INDICATOR: |
 STAT_CONC_DEF: |
     Main budget estimates, authorities used in the current year (expenditures as per the Public Accounts). The indicator measures the extent to which aggregate budget expenditure outturn reflects the amount originally approved, as defined in government budget documentation and fiscal reports.  This indicator is part of Pillar I of PEFA performance which measures budget reliability.
 DATA_COMP: |
+    Data are from the Treasury Board Secretariat. Click on the latest 'Public Accounts of Canada', then select 'Volume II: Details of Expenses and Revenues'. From there, select the section 'Summary tables and Appendices' and click on 'Table 5 — Source and disposition of budgetary authorities by ministry'. <br><br>
     (Authorities used in the current year/Main estimates) × 100
+    
 REC_USE_LIM: |
     <p>Actual expenditure outturns can significantly deviate from the originally approved budget for reasons unrelated to the accuracy of forecasts, for example, as a result of a major macroeconomic shock.</p><p>The Public Accounts expenditures are cash-based and presented of a net basis (gross expenditures less revenues netted against expenditures). Federal (and provincial-territorial) budget estimates and public accounts are produced based on a fiscal year basis, ending March 31st.  For reporting purposes in the Statistics Canada' SDGs data hub, figures will be presented as if the end of fiscal year would be December 31st. For example, the year 2016 corresponds to the figures reported in the 2016-17  Public Accounts, since 2016 would cover 3 ouf of 4 quarters for the fiscal year 2016-17.</p>
-COVERAGE: Budgetary central (federal) government
 
 # GLOBAL
 SDG_GOAL__GLOBAL: |
@@ -22,14 +23,13 @@ SDG_INDICATOR__GLOBAL: |
     Indicator 16.6.1: Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Development Programme (UNDP)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
-  MB)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: |
-    Public Accounts of Canada, Volume II, Details of Expenses and Revenues, Summary Tables and Appendices, Table 5 - Source and disposition of budgetary authorities by ministry
+    Public Accounts of Canada
 source_organisation_1: Treasury Board Secretariat
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada

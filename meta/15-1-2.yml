@@ -19,7 +19,7 @@ STAT_CONC_DEF: |
   persistence of biodiversity in terrestrial, freshwater and marine ecosystems. They are 
   identified through national processes by local stakeholders using a set of globally 
   agreed scientific criteria.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
   ecosystems, sustainably manage forests, combat desertification, and halt and reverse
@@ -34,11 +34,11 @@ un_designated_tier: Tier I
 un_custodian_agency: UN Environment (UNEP)-World Conservation Monitoring Centre (WCMC),
   UN Environment (UNEP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 455
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 source_active_1: 'true'
 source_url_text_1: "Information About Key Biodiversity Areas"
 source_url_1: https://www.ibat-alliance.org/country_profiles/CAN
-source_organisation_1: Integrated Biodiversity Assessment Tool (IBAT) 
+source_organisation_1: Integrated Biodiversity Assessment Tool (IBAT)
+source_periodicity_1: Annual 
 source_geographical_coverage_1: Canada

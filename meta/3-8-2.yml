@@ -3,9 +3,12 @@ SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all
 SDG_TARGET: 'Target 3.8: Achieve universal health coverage, including financial risk
   protection, access to quality essential health-care services and access to safe,
   effective, quality and affordable essential medicines and vaccines for all'
-SDG_INDICATOR: '<p>Indicateur 3.8.2: Proportion of population (individuals) with large 
-  household expenditures on select health care items as a share of total after-tax income</p>'
-STAT_CONC_DEF: '    '
+indicator_available: Proportion of population (individuals) with large 
+  household expenditures on select health care items as a share of total after-tax income
+SDG_INDICATOR: '<p>Indicator 3.8.2: Proportion of population (individuals) with large household expenditures on select health care items as a share of total after-tax income</p>'
+STAT_CONC_DEF: 'Proportion of the population with large household expenditure on health as a share of total household 
+  expenditure or income. Two thresholds are used to define “large household expenditure on health”: 
+  greater than 10% and greater than 25% of total household expenditure or income.'
 DATA_COMP: |
     <p>The Survey of Household Spending collects expenditures using two collection modes:  a questionnaire (using recall periods that vary based on the type of expenditure) and a two-week diary.</p>
     <p>For methodological reasons, health care expenditures collected through the two-week diary were excluded from the numerator in the calculation of each household's proportion of income spent on health care. The excluded health care items are: non-prescribed medicines and pharmaceutical products; health care supplies; other health care equipment (i.e. other than major equipment); and non-prescription eye wear and other eye-care goods. Since these items were excluded, the definition of health care spending used for this indicator is therefore not consistent with the Classification of Individual Consumption According to Purpose (COICOP) classification.</p>
@@ -14,7 +17,8 @@ DATA_COMP: |
     <p>After-tax household income was used for the denominator, since a measure of annual total consumption is not available at the individual household level due to design of the survey.</p>
     
 REC_USE_LIM: |
-    SHS estimates exclude households in Canada's three territories.
+    This is a proxy indicator. The UN Global indicator states: "Proportion of population with large household
+    expenditure on health as a share of total household expenditure or income". SHS estimates exclude households in Canada's three territories.
 
 ## GLOBAL METADATA
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
@@ -24,10 +28,11 @@ SDG_TARGET__GLOBAL: 'Target 3.8: Achieve universal health coverage, including fi
 SDG_INDICATOR__GLOBAL: 'Indicator 3.8.2: Proportion of population with large household
   expenditure on health as a share of total household expenditure or income'
 un_designated_tier: Tier I
-un_custodian_agency: World Health Organisation (WHO)
+un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-08-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
-  MB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+ 
 
 ## SOURCE(S)
 source_active_1: 'true'

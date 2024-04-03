@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Percentage
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -13,7 +13,7 @@ data_start_values:
 - field: Type of employee
   value: All employees
 - field: Industry
-  value: Manufacturing
+  value: Total manufacturing
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -31,7 +31,7 @@ graph_titles: []
 graph_type: line
 indicator_name: global_indicators.9-2-2-title
 indicator_number: 9.2.2
-national_geographical_coverage: Canada, Province or territory
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []

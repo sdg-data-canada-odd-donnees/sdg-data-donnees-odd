@@ -4,9 +4,8 @@ SDG_TARGET: '<p>Target 3.4: By 2030, reduce by one third premature mortality fro
   non-communicable diseases through prevention and treatment and promote mental health
   and well-being </p>'
 SDG_INDICATOR: '<p>Indicator 3.4.2: Suicide mortality rate </p>'
-STAT_CONC_DEF: <p>The Suicide mortality rate as defined as the number of suicide deaths
-  in a year, divided by the population, and multiplied by 100 000. </p>
-DATA_COMP: '   '
+STAT_CONC_DEF: <p>This indicator measures the suicide mortality rate per 100,000 population.</p>
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
@@ -22,9 +21,8 @@ source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
 reporting_status: complete
-COVERAGE: Canada, Province or territory
+ 
 un_designated_tier: Tier I
-un_custodian_agency: World Health Organisation (WHO)
+un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 65.1
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata

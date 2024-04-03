@@ -1,5 +1,5 @@
 auto_progress_calculation: false
-computation_units: Percentage
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -8,28 +8,32 @@ data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
 data_start_values:
-- field: Series
+- field: Official development assistance
   value: ODA as a share of GNI
-- field: Series
-  value: Total ODA to least developed countries as a share of GNI
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
-graph_annotations: 
-- field: Series
-  value: ODA as a share of GNI
-  unit: Percentage
-  value: 0.7
-  preset: target_line
-- field: Series
-  value: Total ODA to least developed countries as a share of GNI
-  unit: Percentage
-  value: 0.2
-  preset: target_line
+expected_disaggregations:
+  - ODA to least developed countries as a share of GNI
+graph_annotations: []
+#- field: Series
+#  value: ODA as a share of GNI
+#  unit: Percentage (%)
+#  value: 0.7
+#  preset: target_line
+#- field: Series
+#  value: Total ODA to least developed countries as a share of GNI
+#  unit: Percentage (%)
+#  value: 0.2
+#  preset: target_line
 graph_limits: []
+graph_target_lines:
+- label_content: 'Target - ODA as a share of GNI'
+  value: 0.7
+- label_content: 'Target - Total ODA to least developed countries as a share of GNI'
+  value: 0.2
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.17-2-1-title
 graph_titles: []

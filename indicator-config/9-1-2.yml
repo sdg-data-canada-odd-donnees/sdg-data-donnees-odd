@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: ''
+computation_units: 'Metric tonnes'
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -17,10 +17,21 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.9-1-2-title
-graph_titles: []
+graph_title: ''
+graph_titles:
+  - series: Air freight volume
+    title: Air freight volume
+  - series: Air passengers
+    title: Air passengers
+  - series: Rail freight volume
+    title: Rail freight volume
+  - series: Rail passengers
+    title: Rail passengers
+  - series: Road freight volume
+    title: Road freight volume
 graph_type: line
 indicator_name: global_indicators.9-1-2-title
+indicator_available: proxy.9-1-2-title
 indicator_number: 9.1.2
 national_geographical_coverage: Canada
 page_content: ''
@@ -29,5 +40,6 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+- Proxy
 "\xEF\xBB\xBFcomposite_breakdown_label": ''

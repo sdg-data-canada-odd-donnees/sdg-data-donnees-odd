@@ -8,8 +8,8 @@ SDG_INDICATOR: '<p>Indicator 8.10.2: Proportion of adults (15 years and older) w
   an account at a bank or other financial institution or with a mobile-money-service
   provider</p>'
 STAT_CONC_DEF: |
-        Data are the percentage of family units (economic families or persons not in economic families) that have a chequing or savings account whether or not the balance is positive, negative or zero.
-DATA_COMP: '   '
+  The percentage of adults (ages 15+) who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or personally using a mobile money service in the past 12 months. The data represent the percentage of family units (economic families or individuals outside economic families) holding a checking or savings account, whether the balance is positive, negative or zero.
+DATA_COMP: custom.data-tabulated
 REC_USE_LIM: '  '
 
 # GLOBAL
@@ -24,14 +24,13 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 8.10.2: Proportion of adults (15 years and 
 un_designated_tier: Tier I
 un_custodian_agency: World Bank (WB)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 210
-  KB)
-  
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: |
     Statistics Canada. Survey of Financial Security (SFS) - Custom tabulation.
-source_url_1: https://www.statcan.gc.ca/en/survey/household/2620
+source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&amp;SDDS=2620
 source_organisation_1: Statistics Canada
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada

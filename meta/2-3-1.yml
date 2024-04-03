@@ -13,8 +13,7 @@ STAT_CONC_DEF: |
   number of working days in one year.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-UNIT_OF_MEASURE: 2011 $PPP (annual)
-
+ 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
@@ -26,14 +25,14 @@ SDG_TARGET__GLOBAL: '<p>Target 2.3: By 2030, double the agricultural productivit
 SDG_INDICATOR__GLOBAL: '<p>Indicator 2.3.1: Volume of production per labour unit by
   classes of farming/pastoral/forestry enterprise size</p>'
 un_designated_tier: Tier II
-un_custodian_agency: Food and Agriculture Organization (FAO)
+un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-03-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
-  MB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
   
 # SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: Census of Agriculture. Custom tabulation.
-source_url_1: https://www.statcan.gc.ca/en/census-agriculture
-source_organisation_1: Statistics Canada
-source_periodicity_1: Every 5 years
+# source_active_1: 'true'
+# source_url_text_1: Census of Agriculture. Custom tabulation.
+# source_url_1: https://www.statcan.gc.ca/en/census-agriculture
+# source_organisation_1: Statistics Canada
+# source_periodicity_1: Every 5 years
+# source_geographical_coverage_1: Canada

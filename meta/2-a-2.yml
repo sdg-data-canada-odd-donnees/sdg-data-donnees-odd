@@ -6,9 +6,19 @@ SDG_TARGET: '<p>Target 2.a: Increase investment, including through enhanced inte
   productive capacity in developing countries, in particular least developed countries</p>'
 SDG_INDICATOR: '<p>Indicator 2.a.2: Total official flows (official development assistance
   plus other official flows) to the agriculture sector</p>'
-STAT_CONC_DEF: <p>Gross disbursements of total ODA and other official flows from all
-  donors to the agriculture sector.</p>
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+  <strong>Definition:</strong><br>
+  Gross disbursements of total ODA and other official flows from Canada to the agriculture sector.
+  <br>
+  <strong>Concepts</strong> <br>ODA: The DAC defines ODA as “those flows to countries and territories on the DAC List of ODA Recipients and to multilateral institutions which are<br>
+  <p>i) provided by official agencies, including state and local governments, or by their executive agencies; and</p>
+  <p>ii) each transaction is administered with the promotion of the economic development and welfare of developing countries as its main objective; and is concessional in character and conveys a grant element of at least 25 per cent (calculated at a rate of discount of 10 per cent). (See http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm)</p> <br>
+  <p>Other official flows (OOF): Other official flows (excluding officially supported export credits) are defined as transactions by the official sector which do not meet the conditions for eligibility as ODA, either because they are not primarily aimed at development, or because they are not sufficiently concessional. (See http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf, Para 24).</p> <br>
+  <p>The agriculture sector is as defined by the DAC and comprises all CRS sector codes in the 311 series (see here: http://www.oecd.org/dac/stats/purposecodessectorclassification.htm)</p>
+DATA_COMP: |
+  Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.
+  <br>
+  <p>Data are from the Creditor Reporting System from the OECD. Select Donor = "Canada", Sector = "311: III.1.a. Agrigulture, Total", Flow = "Official Development Assistance", Amount type = "Constant Prices", and Flow type = "Gross Disbursements".</p>>
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
@@ -22,11 +32,12 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 2.a.2: Total official flows (official devel
 un_designated_tier: Tier I
 un_custodian_agency: Organisation for Economic Co-operation and Development (OECD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-0A-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 210
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # Source(s)
 source_active_1: 'true'
-source_organisation_1: <a href="https://www.oecd.org/"> Organisation for Economic Co-operation and Development (OECD) </a>
-source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
-source_url_text_1: OECD - Creditor Reporting System (CRS)
+source_organisation_1: Organisation for Economic Co-operation and Development (OECD)
+source_url_1: https://stats.oecd.org/#
+source_url_text_1: OECD. Creditor Reporting System (CRS).
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada

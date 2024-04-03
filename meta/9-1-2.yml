@@ -4,9 +4,9 @@ SDG_GOAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and sust
 SDG_TARGET: '<p>Target 9.1: Develop quality, reliable, sustainable and resilient infrastructure,
   including regional and trans-border infrastructure, to support economic development
   and human well-being, with a focus on affordable and equitable access for all</p>'
-SDG_INDICATOR: '<p>Indicator 9.1.2: Passenger and freight volumes, by mode of transport</p>'
-STAT_CONC_DEF: '    '
-DATA_COMP: '   '
+SDG_INDICATOR: 'Indicator 9.1.2: Passenger and freight volumes'
+STAT_CONC_DEF: 'This indicator measures passenger and freight volumes for air, rail and road transportation.'
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 
 # GLOBAL
@@ -21,8 +21,9 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 9.1.2: Passenger and freight volumes, by mo
 un_designated_tier: Tier I
 un_custodian_agency: International Civil Aviation Organization (ICAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-01-02.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 375
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+proxy: proxy
 
 # SOURCE(S)
 source_active_1: 'true'

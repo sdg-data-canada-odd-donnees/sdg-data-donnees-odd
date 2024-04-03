@@ -5,11 +5,10 @@ SDG_TARGET: '<p>Target 14.5: By 2020, conserve at least 10 per cent of coastal a
   available scientific information</p>'
 SDG_INDICATOR: '<p>Indicator 14.5.1: Coverage of protected areas in relation to marine
   areas</p>'
-STAT_CONC_DEF: <p>The indicator Coverage of protected areas in relation to marine
-  areas shows temporal trends in the mean percentage of each important site for marine
-  biodiversity (i.e., those that contribute significantly to the global persistence
-  of biodiversity) that is covered by designated protected areas and Other Effective
-  Area-based Conservation Measures (OECMs).</p>
+STAT_CONC_DEF: <p>This indicator measures the proportion of Canada's
+  marine area that is conserved. Conserved areas are lands and waters where human
+  use is limited. They include protected areas as well as other effective area-based
+  conservation measures. <em>Environment and Climate Change Canada (ECCC)</em></p>
 DATA_COMP: 'The area conserved is estimated by means of a geographical analysis based on reported boundaries, accounting for overlaps. <em>(ECCC)</em>'
 REC_USE_LIM: "<p>Land and/or water access and use within protected areas are controlled primarily for the purpose of conserving nature 
     (for example, a park, a conservation area or a wildlife reserve). Other effective area-based conservation measures are also managed 
@@ -26,22 +25,20 @@ SDG_TARGET__GLOBAL: '<p>Target 14.5: By 2020, conserve at least 10 per cent of c
   best available scientific information</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 14.5.1: Coverage of protected areas in relation
   to marine areas</p>'
-COVERAGE: Canada
+ 
 reporting_status: complete
 
 # data source
 source_active_1: true
 source_url_text_1: "Environment and Climate Change Canada. Canada's conserved areas, Canadian Environmental Sustainability Indicators"
 source_url_1: 'https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/conserved-areas.html'
-source_organisation_1: "Environment and Climate Change Canada"
+source_organisation_1: Environment and Climate Change Canada (ECCC)
 source_periodicity_1: Annual
-source_geographical_coverage_1: 'Canada'
+source_geographical_coverage_1: Canada
 
 # UN metadata
 un_designated_tier: Tier I
 un_custodian_agency: UN Environment World Conservation Monitoring Centre (UNEP-WCMC),
   BirdLife International (BLI), International Union for Conservation of Nature (IUCN)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-14-05-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 293
-  KB)
-
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata

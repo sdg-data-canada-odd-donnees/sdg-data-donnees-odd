@@ -17,22 +17,22 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-5-3-title
+graph_title: proxy.1-5-3-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.1-5-3-title
-indicator_number: 1.5.3
+indicator_available: proxy.1-5-3-title
+indicator_number: '1.5.3'
 national_geographical_coverage: ''
 page_content: |
   <strong>Non-statistical indicator</strong>
   <br>
-  <br>We have identified the following to be relevant to this indicator - <a href="https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx">Emergency Management Strategy for Canada: Toward a Resilient 2030</a>.
+  <br>We have identified the following to be relevant for reporting on this indicator - <a href="https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx">Emergency Management Strategy for Canada: Toward a Resilient 2030</a>.
 permalink: ''
 precision: []
 progress_status: target_achieved
 reporting_status: complete
 sort: ''
 standalone: false
-#tags:
-#- Proxy
-proxy: proxy
+tags:
+  - Proxy

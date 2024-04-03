@@ -3,7 +3,7 @@ SDG_TARGET: >-
     Cible 10.4 : Adopter des politiques, notamment sur les plans budgétaires, salariales et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité
 SDG_INDICATOR: >-
     Indicateur 10.4.1 : Part du travail dans le PIB
-UNIT_OF_MEASURE: Percentage
+ 
 STAT_CONC_DEF: '   '
 DATA_COMP: >-
     ( Rémunération des salariés / Produit intérieur brut aux prix du marché ) * 100
@@ -22,7 +22,7 @@ source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada, Province ou territoire
 source_url_1: https://doi.org/10.25318/3610022101-fra
-COVERAGE: Canada, Province ou territoire
+ 
 
 un_designated_tier: Niveau II
 un_custodian_agency: Organisation internationale du Travail

@@ -7,8 +7,8 @@ SDG_TARGET: '<p>Target 3.9: By 2030, substantially reduce the number of deaths a
 SDG_INDICATOR: '<p>Indicator 3.9.3: Mortality rate attributed to unintentional poisoning
   </p>'
 STAT_CONC_DEF: |
-    The International Classification of Diseases, Tenth Revision (ICD-10) codes corresponding to unintentional poisoning includes X40, X43, X46-X48, X49.
-DATA_COMP: '   '
+    This indicator measures the mortality rate attributed to unintentional poisoning. Unintentional poisoning is measured as defined by the International classification of Diseases, Tenth Revision (ICD-10) codes corresponding to the indicator includes X40, X43, X46-X48, X49.
+DATA_COMP: 'Mortality rate per 100,000 population = (Number of deaths / population) x 100,000'
 REC_USE_LIM: '   '
 
 # GLOBAL
@@ -20,10 +20,11 @@ SDG_TARGET__GLOBAL: '<p>Target 3.9: By 2030, substantially reduce the number of 
 SDG_INDICATOR__GLOBAL: '<p>Indicator 3.9.3: Mortality rate attributed to unintentional
   poisoning </p>'
 un_designated_tier: Tier I
-un_custodian_agency: World Health Organisation (WHO)
+un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-03.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 213
-  KB)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+ 
 
 # SOURCE(S)
 source_active_1: 'true'
@@ -33,3 +34,11 @@ source_url_1: https://doi.org/10.25318/1310015601-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: |
+    Statistics Canada. Table 17-10-0005-01  Population estimates on July 1, by age and gender
+source_url_2: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000501
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada, Province or territory

@@ -8,11 +8,12 @@ SDG_TARGET: '<p>Target 11.b: By 2020, substantially increase the number of citie
 SDG_INDICATOR: '<p>Indicator 11.b.2: Proportion of local governments that adopt and 
   implement local disaster risk reduction strategies in line with national disaster 
   risk reduction strategies </p>'
-STAT_CONC_DEF: '  '
-DATA_COMP: '   '
+STAT_CONC_DEF: 'This indicator measures the proportion of local governments that adopt and implement
+  local disaster risk reduction strategies in line with national disaster risk reduction
+  strategies.'
+DATA_COMP: '     '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal: 11: Make cities inclusive, safe, resilient, and sustainable
-  </p>'
+SDG_GOAL__GLOBAL: '<p>Goal: 11: Make cities inclusive, safe, resilient, and sustainable</p>'
 SDG_TARGET__GLOBAL: '<p>Target 11.b: By 2020, substantially increase the number of cities and 
   human settlements adopting and implementing integrated policies and plans towards 
   inclusion, resource efficiency, mitigation and adaptation to climate change, 
@@ -25,12 +26,20 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 11.b.2: Proportion of local governments tha
 un_designated_tier: Tier II
 un_custodian_agency: United Nations International Strategy for Disaster Reduction (UNISDR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-0b-02.pdf
-goal_meta_link_text: ~
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 source_active_1: 'true'
 source_url_text_1: |
     Public Safety Canada. Emergency Management Strategy for Canada: Toward a Resilient 2030
 source_url_1: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
 source_organisation_1: Public Safety Canada
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: |
+    Government of British Columbia. Modernizing BC’s Emergency Management Legislation
+source_url_2: hhttps://www2.gov.bc.ca/assets/gov/public-safety-and-emergency-services/emergency-preparedness-response-recovery/modernizing_bcs_emergencymanagement_legislation.pdf
+source_organisation_2: Government of British Columbia
+source_geographical_coverage_2: British Columbia
 
 reporting_status: complete

@@ -5,24 +5,24 @@ data_not_available: Ces données ne sont pas disponibles. Veuillez choisir des d
   alternatives à afficher.
 dataset_size_warning: Il y a trop de jeux de données à afficher sur le graphique.
   Tout ne sera pas affiché jusqu&#39;à ce que vous supprimiez certaines sélections.
-download_chart: Télécharger les données du graphique (CSV)
+download_chart: Télécharger le graphique CSV
 download_csv: Télécharger CSV
 download_csv_title: Télécharger en format CSV
 download_headline: Télécharger Headline CSV
 download_headline_title: Télécharger les données de titre au format CSV
-download_source: Télécharger toutes les données (CSV)
+download_source: Télécharger Source CSV
 download_source_title: Télécharger les données source au format CSV
 download_source_sdmx: Télécharger Source SDMX
 download_source_sdmx_title: Télécharger les données source au format SDMX
-download_table: Télécharger le tableau (CSV)
-download_chart_image: Télécharger le graphique
+download_table: Télécharger le tableau CSV
+download_chart_image: Télécharger l'image graphique
 download_chart_image_title: Télécharger le graphique en image
 download_geojson: Télécharger GeoJSON
 download_geojson_title: Télécharger en format GeoJSON
 edit: Modifier
 edit_data: Modifier les données
 edit_metadata: Modifier les métadonnées
-footnote: Note de bas de page
+footnote: note de bas de page
 geographical_area: Zone géographique
 global_metadata: Métadonnées globales
 global_metadata_blurb: Ce tableau fournit des informations sur les métadonnées pour
@@ -34,17 +34,17 @@ loading: Chargement
 loading_map: Chargement de la carte
 map: Carte
 national_metadata: Métadonnées nationales
-national_metadata_blurb: La section ci-dessous fournit une description de l'indicateur.
+national_metadata_blurb: La section ci-dessous fournit de l'information sur l’indicateur.
 no_data_hint: Aucune option disponible en raison des filtres ci-dessus
 select_all: Tout sélectionner
 series: Séries
 series_help: Choisissez des catégories dans les listes déroulantes ci-dessous pour
   voir différentes répartitions des données. Certaines ne seront pas disponibles jusqu&#39;à
   ce qu&#39;un niveau supérieur soit choisi.
-source: Source(s)
-sources: Source(s)
+source: Source
+sources: Sources
 sub_categories: Sous-catégories
-table: Tableau
+table: Table
 unit_of_measurement: Unité de mesure
 units_type: Type d&#39;unités
 variable_hint: Disponible lorsque le champ '%field' est sélectionné
@@ -52,7 +52,7 @@ view_indicator_list: Voir la liste des indicateurs de cet objectif
 announce_data_not_available: Le graphique et le tableau ne montrent aucune donnée.
 map_year_slider: Curseur d’année
 chart_annotation: Annotation du graphique
-annotation_2030_target: Cible
+annotation_2030_target: Objectif 2030
 plot_legend_description: 'Légende du tracé : liste des lignes incluses dans le graphique'
 data_keyboard_navigation: Appuyez sur Entrée pour parcourir les points de données
   avec les touches fléchées gauche et droite.
@@ -71,3 +71,32 @@ edit_configuration: Modifier la configuration
 next: Indicateur suivant
 previous: Indicateur précédent
 unit: Unité
+headline_data: Données d'en-tête
+no_headline_data: Aucune donnée principale disponible
+download_source_for_disaggregations: Télécharger le CSV source pour les désagrégations
+apply: Appliquer
+cancel: Annuler
+change_breakdowns: Ventilation des changements
+empty_metadata_placeholder: Non disponible pour cet indicateur
+total: Total
+map_zoom_home: Rétablir le zoom par défaut de la carte
+map_slider_back: Visualiser les données de la carte pour la période précédente
+map_slider_mouse: Naviguer dans les données cartographiques par période de temps
+map_search_cancel: Recherche claire sur la carte
+map_zoom_in: Zoom sur la carte
+map_zoom_out: Zoom arrière sur la carte
+map_fullscreen: Afficher la carte en plein écran
+map_fullscreen_exit: Quitter la carte en plein écran
+map_slider_forward: Afficher les données cartographiques pour la période suivante
+map_slider_keyboard: Visualisez les données de la carte sur une période donnée en
+  utilisant les touches fléchées gauche et droite.
+empty_metadata_placeholder_sources: Non disponible pour cette source
+proxy: Proxy
+proxy_description: Cet indicateur contient des données alternatives à celles spécifiées
+  par les Nations Unies (NU). Cet indicateur est la meilleure correspondance actuellement
+  disponible.
+announce_series_switched: Le graphique et le tableau ont été mis à jour pour afficher
+  une série différente.
+announce_unit_switched: Le graphique et le tableau ont été mis à jour pour afficher
+  une unité différente.
+note: note

@@ -1,9 +1,20 @@
 SDG_GOAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
 SDG_TARGET: "<p>Cible 1.5 : D’ici à 2030, renforcer la résilience des pauvres et des personnes en situation vulnérable et réduire leur exposition aux phénomènes climatiques extrêmes et à d’autres chocs et catastrophes d’ordre économique, social ou environnemental et leur vulnérabilité</p>"
 SDG_INDICATOR: '<p>Indicateur 1.5.2 : Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB)'
-STAT_CONC_DEF: '    '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: |
+    <strong>Définition:</strong><br>Cet indicateur mesure les pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB).
+    <br><br> <strong>Concepts:</strong> <br>Perte économique : impact économique total composé d’une perte économique directe et d’une perte économique indirecte.
+    <br><br> Perte économique directe : la valeur monétaire de la destruction totale ou partielle des actifs physiques existant dans la zone touchée. Les pertes économiques directes sont presque équivalentes aux dommages physiques.
+    <br><br> Perte économique indirecte : baisse de la valeur économique ajoutée résultant d’une perte économique directe et/ou d’impacts humains et environnementaux.
+    <br><br> La Base de données canadienne sur les catastrophes (BDC) permet de trouver les « catastrophes importantes » qui correspondent à la définition utilisée dans le document Un cadre de sécurité civile pour le Canada et satisfont à l'un ou à plusieurs des critères suivants :<br>
+    <br> - dix personnes ou plus ont été tuées;
+    <br> - cent personnes ou plus ont été touchées, blessées, infectées, évacuées ou se sont trouvées sans logement;
+    <br> - une demande d'aide a été effectuée à l'échelle nationale ou internationale;
+    <br> - la catastrophe revêt une importance historique;
+    <br> - les dommages ou l'interruption des processus normaux étaient tels que la collectivité touchée n'a pu se rétablir seule. (Sécurité publique Canada)
+DATA_COMP: 'Coût total par an / Produit intérieur brut (PIB)'
+REC_USE_LIM: 'Il est important de noter que la BDC pourrait ne pas convenir aux analyses comparatives en raison des écarts de responsabilités entre les différentes administrations, du type de données disponibles et des façons de les recueillir et les utiliser au fil du temps. 
+  <br><br> Les renseignements présentés dans la Banque de données canadienne sur les catastrophes sont fondés sur des données fournies par des tiers et pourraient ne pas être exacts. (Sécurité publique Canada)'
 SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
 SDG_TARGET__GLOBAL: "<p>Cible 1.5 : D’ici à 2030, renforcer la résilience des pauvres et des personnes en situation vulnérable et réduire leur exposition aux phénomènes climatiques extrêmes et à d’autres chocs et catastrophes d’ordre économique, social ou environnemental et leur vulnérabilité</p>"
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.5.2 : Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB)'
@@ -24,5 +35,7 @@ source_url_text_2: >-
     Statistique Canada. Tableau 36-10-0222-01  Produit intérieur brut, en termes de dépenses, provinciaux et territoriaux, annuel (x 1 000 000)
 source_organisation_2: Statistique Canada
 source_periodicity_2: Annuelle
-source_geographical_coverage_2: Canada, Province ou territoire
+source_geographical_coverage_2: Canada
 source_url_2: https://doi.org/10.25318/3610022201-fra
+
+ 
