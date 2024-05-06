@@ -16,16 +16,28 @@
             "title": "Année"
           },
           {
-            "name": "Sex",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Northwest Territories including Nunavut",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Géographie"
           },
           {
             "name": "Value",

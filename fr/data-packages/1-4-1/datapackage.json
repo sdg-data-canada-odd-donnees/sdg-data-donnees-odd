@@ -42,10 +42,6 @@
                 "Proportion de la population ayant accès à l’électricité",
                 "Proportion de la population rurale vivant à moins de 2 km d’une route praticable toute l’année",
                 "Proportion de la population située dans un rayon de 500 mètres d’un arrêt de transport en commun",
-                "Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques",
-                "Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture",
-                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture",
-                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en mathématiques",
                 "Proportion de la population couverte par l’accès haute vitesse évolué par paquets (HSPA+)",
                 "Proportion de la population couverte par l’évolution à long terme (LTE)",
                 "Proportion de la population couverte par l’évolution à long terme - A (LTE-A)",
@@ -54,6 +50,21 @@
               ]
             },
             "title": "Services de base"
+          },
+          {
+            "name": "Proficiency level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pourcentage (%)",
+                "Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques",
+                "Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture",
+                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture",
+                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en mathématiques",
+                ""
+              ]
+            },
+            "title": "Niveau de compétence"
           },
           {
             "name": "Units",
@@ -71,19 +82,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
-                "Homme",
-                "Femme",
-                ""
-              ]
-            },
-            "title": "Sexe"
-          },
-          {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -97,6 +95,32 @@
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
+                "Total",
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "10.0",
+                "11.0",
+                "12.0",
+                "13.0",
+                "24.0",
+                "35.0",
+                "46.0",
+                "47.0",
+                "48.0",
+                "59.0",
+                "60.0",
+                "61.0",
+                "62.0",
                 ""
               ]
             },

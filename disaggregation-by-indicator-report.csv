@@ -1,7 +1,7 @@
 Indicator,Disaggregations,Number of disaggregations
 #1-2-1,"Geography, Persons in low income",2
 #1-3-1,Geography,1
-#1-4-1,"Geography, Sex, Basic services",3
+#1-4-1,"Geography, Sex, Proficiency level, Basic services",4
 #1-5-1,Type of natural disaster,1
 #1-5-2,Type of natural disaster,1
 #1-a-1,Poverty reduction aid type,1
@@ -25,10 +25,10 @@ Indicator,Disaggregations,Number of disaggregations
 #15-5-1,"Systems, Species",2
 #15-a-1,"Geography, Public sector components",2
 #16-1-1,"Geography, Gender, Indigenous identity",3
-#16-1-3,"Gender, Age, Sexual orientation, First Nations, Metis, or Inuit identity, Visible minority, Person with disability, Immigrant status, Marital status",8
+#16-1-3,"Marital status, Age, Gender, Sexual orientation, First Nations, Metis, or Inuit identity, Visible minority, Person with disability, Immigrant status",8
 #16-1-4,"Racialized groups, Selected sociodemographic characteristics",2
-#16-2-1,"Geography, Gender, Age, Sexual orientation, Visible minority, Immigrant status, Type of childhood maltreatment, Indigenous identity, Disability status",9
-#16-2-3,"Geography, Gender, Age",3
+#16-2-1,"Geography, Age, Gender, Sexual orientation, Visible minority, Immigrant status, Type of childhood maltreatment, Indigenous identity, Disability status",9
+#16-2-3,"Geography, Age, Gender",3
 #16-3-3,Resolution mechanism,1
 #17-1-1,Component,1
 #17-2-1,"Official development assistance, Least developed countries",2
@@ -39,7 +39,7 @@ Indicator,Disaggregations,Number of disaggregations
 #2-b-1,Product,1
 #3-1-2,Geography,1
 #3-2-1,Geography,1
-#3-2-2,Sex,1
+#3-2-2,Geography,1
 #3-3-1,Age,1
 #3-3-2,Sex,1
 #3-3-3,Sex,1
@@ -48,7 +48,7 @@ Indicator,Disaggregations,Number of disaggregations
 #3-4-1,"Sex, Age at time of death, Causes of death",3
 #3-4-2,"Geography, Sex",2
 #3-5-2,Geography,1
-#3-6-1,"Age, Sex, Cause of death",3
+#3-6-1,"Sex, Age, Cause of death",3
 #3-7-1,Marital status,1
 #3-7-2,Geography,1
 #3-8-2,Population,1
@@ -65,7 +65,7 @@ Indicator,Disaggregations,Number of disaggregations
 #4-5-1,"Geography, Educational indicator",2
 #4-6-1,"Geography, Sex, Age group, Skill, Proficiency level",5
 #5-2-1,"Type of intimate partner violence, Selected characteristic",2
-#5-3-1,"Geography, Marital status, Age group",3
+#5-3-1,"Geography, Age group, Marital status",3
 #5-4-1,"Geography, Sex, Age group, Activity group",4
 #5-5-1,"Geography, Government, Elected officials",3
 #5-5-2,"Geography, Occupation",2
@@ -78,7 +78,7 @@ Indicator,Disaggregations,Number of disaggregations
 #7-2-1,"Geography, Type of electricity generation",2
 #8-1-1,Geography,1
 #8-2-1,Geography,1
-#8-5-1,"Geography, Sex, Type of work, Occupation, Age group",5
+#8-5-1,"Geography, Type of work, Occupation, Sex, Age group",5
 #8-5-2,"Geography, Sex, Age group",3
 #8-6-1,"Geography, Sex, Age group, Status",4
 #8-8-1,Sex,1
