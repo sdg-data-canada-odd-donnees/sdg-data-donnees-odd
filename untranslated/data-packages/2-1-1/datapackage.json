@@ -15,74 +15,14 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Atlantic provinces",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Prairie provinces",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
+                "Percentage (%)",
                 ""
               ]
             }
-          },
-          {
-            "name": "data.Economic family type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "All persons",
-                "Persons in economic families",
-                "Persons in elderly families",
-                "Persons in elderly couples",
-                "Persons in other elderly families",
-                "Persons in non-elderly families",
-                "Persons in couples",
-                "Persons in couple families with children",
-                "Persons in couple families with other relatives",
-                "Persons in lone-parent families",
-                "Persons in male lone-parent families",
-                "Persons in female lone-parent families",
-                "Persons in other non-elderly families",
-                "Persons not in an economic family",
-                "Elderly persons not in an economic family",
-                "Elderly males not in an economic family",
-                "Elderly females not in an economic family",
-                "Non-elderly persons not in an economic family",
-                "Non-elderly males not in an economic family",
-                "Non-elderly females not in an economic family",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Household food security status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Food secure",
-                "Food insecure",
-                "Food insecure, marginal",
-                "Food insecure, moderate or severe",
-                "Food insecure, moderate",
-                "Food insecure, severe",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
           },
           {
             "name": "Value",

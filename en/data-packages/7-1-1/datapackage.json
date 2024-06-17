@@ -16,6 +16,18 @@
             "title": "Year"
           },
           {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Urban",
+                "Rural",
+                ""
+              ]
+            },
+            "title": "Area"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
