@@ -10,7 +10,8 @@ STAT_CONC_DEF: <p>The prevalence of undernourishment (PoU) is an estimate of the
   life. It is expressed as a percentage.</p>
 DATA_COMP: '   '
 REC_USE_LIM: For each year, the observation represents the 3-year average of the previous year, the reference year, and the following year. For example, the observation for 2015 represents the 3-year average of the period 2014-2016. <br><br>
-             Starting from 2019, estimates are based on projected values.
+             Starting from 2019, estimates are based on projected values. <br><br>
+             The data should show "<2.5". However, due to limitations, special symbols are omitted. 
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
 SDG_TARGET__GLOBAL: '<p>Target 2.1: By 2030, end hunger and ensure access by all people,

@@ -21,9 +21,10 @@ data_final <-
     Value = ObsValue
   ) %>% 
   mutate(
-    Units = "Percentage (%)"
-  )
-
+    Units = "Percentage (%)",
+    Value = str_remove(Value, '<')
+  ) 
+  
 write.csv(
   data_final,
   "data/indicator_2-1-1.csv",
