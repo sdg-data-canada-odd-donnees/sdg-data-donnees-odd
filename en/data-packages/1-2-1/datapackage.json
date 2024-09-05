@@ -30,7 +30,9 @@
                 "Quebec, Montréal",
                 "New Brunswick",
                 "Newfoundland and Labrador",
+                "Northwest Territories",
                 "Nova Scotia",
+                "Nunavut",
                 "Ontario",
                 "Ontario/Quebec, Ottawa-Gatineau",
                 "Prairie provinces",
@@ -41,6 +43,8 @@
                 "Toronto, Ontario",
                 "Vancouver, British Columbia",
                 "Winnipeg, Manitoba",
+                "Yukon",
+                "Yukon and Northwest Territories",
                 ""
               ]
             },
@@ -67,6 +71,11 @@
               ]
             },
             "title": "Persons in low income"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

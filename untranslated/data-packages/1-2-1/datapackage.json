@@ -29,7 +29,9 @@
                 "Montréal, Quebec",
                 "New Brunswick",
                 "Newfoundland and Labrador",
+                "Northwest Territories",
                 "Nova Scotia",
+                "Nunavut",
                 "Ontario",
                 "Ottawa-Gatineau, Ontario/Quebec",
                 "Prairie provinces",
@@ -40,6 +42,8 @@
                 "Toronto, Ontario",
                 "Vancouver, British Columbia",
                 "Winnipeg, Manitoba",
+                "Yukon",
+                "Yukon and Northwest Territories",
                 ""
               ]
             }
@@ -64,6 +68,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
