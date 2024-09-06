@@ -6,8 +6,9 @@ SDG_TARGET: |
 SDG_INDICATOR: |
   Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)
 STAT_CONC_DEF: |
-    Dépenses totales des administrations publiques (locales, régionales et centrales) en matière d'éducation (dépenses courantes, dépenses en capital et transferts), exprimées en pourcentage des dépenses totales des administrations publiques dans tous les secteurs (y compris la santé, l'enseignement, les services sociaux, etc.).
-DATA_COMP: '   '
+    Cet indicateur mesure la proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale).
+DATA_COMP: |
+    Total des dépenses publiques consacrées aux services essentiels (éducation, santé et protection sociale), exprimées en pourcentage des dépenses totales des administrations publiques.
 REC_USE_LIM: '   '
 
 # GLOBAL
@@ -19,7 +20,7 @@ SDG_INDICATOR__GLOBAL: |
   Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)
 un_designated_tier: Niveau II
 un_custodian_agency: Institut de statistique de l'UNESCO
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-02.pdf
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-02a.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE(S)
