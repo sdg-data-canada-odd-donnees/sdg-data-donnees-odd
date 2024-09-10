@@ -17,10 +17,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-5-3-title
+graph_title: proxy.1-5-3-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.1-5-3-title
+indicator_available: proxy.1-5-3-title
 indicator_number: '1.5.3'
 national_geographical_coverage: ''
 page_content: |
@@ -32,4 +33,5 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+  - Proxy
