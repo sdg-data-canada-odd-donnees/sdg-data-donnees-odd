@@ -53,7 +53,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage (%)",
                 "Proportion of children in Grade 4 achieving at least a minimum proficiency level in mathematics",
                 "Proportion of children in Grade 4 achieving at least a minimum proficiency level in reading",
                 "Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading",
@@ -77,6 +76,18 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total",
+                "Male",
+                "Female",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -90,31 +101,39 @@
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
-                "Total",
-                "Male",
-                "Female",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "10.0",
-                "11.0",
-                "12.0",
-                "13.0",
-                "24.0",
-                "35.0",
-                "46.0",
-                "47.0",
-                "48.0",
-                "59.0",
-                "60.0",
-                "61.0",
-                "62.0",
+                "St. John's, Newfoundland and Labrador",
+                "Halifax, Nova Scotia",
+                "Moncton, New Brunswick",
+                "Saint John, New Brunswick",
+                "Ottawa - Gatineau (Quebec part), Quebec",
+                "Saguenay, Quebec",
+                "Sherbrooke, Quebec",
+                "Barrie, Ontario",
+                "Belleville, Ontario",
+                "Brantford, Ontario",
+                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Hamilton, Ontario",
+                "Kingston, Ontario",
+                "Kitchener - Cambridge - Waterloo, Ontario",
+                "London, Ontario",
+                "Oshawa, Ontario",
+                "Ottawa - Gatineau (Ontario part), Ontario",
+                "Peterborough, Ontario",
+                "St. Catharines - Niagara, Ontario",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
+                "Windsor, Ontario",
+                "Winnipeg, Manitoba",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Lethbridge, Alberta",
+                "Abbotsford - Mission, British Columbia",
+                "Kelowna, British Columbia",
+                "Vancouver, British Columbia",
+                "Victoria, British Columbia",
                 ""
               ]
             }
