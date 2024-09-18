@@ -19,8 +19,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-5-1-title
-graph_titles: []
+graph_titles:
+- unit: Rate per 100,000 population
+  title: chart.1-5-1-title-rate_per_100thousand
+- unit: Number
+  title: chart.1-5-1-title-number
 graph_type: line
 indicator_name: global_indicators.1-5-1-title
 indicator_number: 1.5.1
