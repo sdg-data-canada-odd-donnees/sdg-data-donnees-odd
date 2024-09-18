@@ -23,6 +23,7 @@ STAT_CONC_DEF: |
   and developmental food aid (see here: <a href="http://www.oecd.org/dac/stats/purposecodessectorclassification.htm">http://www.oecd.org/dac/stats/purposecodessectorclassification.htm</a>).
 DATA_COMP: |
   The total of official development assistance grants that focus on poverty reduction is calculated as a proportion of Canada's GNI, in line with other countries' reporting.
+  100 &times (Basic Education + Basic Health + Water Supply and Sanitation + Development Food Aid) / GNI
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: |
   Goal 1: End poverty in all its forms everywhere
