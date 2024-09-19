@@ -1199,4 +1199,162 @@ prose:
             label: "Other information"
             translation_key: metadata_fields.source_other_info_1
             scope: source_8
+      ## Source 9
+      - name: source_active_9
+        field:
+            element: checkbox
+            label: Source 9 active
+            translation_key: metadata_fields.source_active_1
+            help: Whether or not to display this source
+            value: false
+      - name: source_organisation_9
+        field:
+            element: text
+            label: "Organisation"
+            translation_key: metadata_fields.source_organisation_1
+            scope: source_9
+      - name: "source_periodicity_9"
+        field:
+            element: text
+            label: "Periodicity"
+            translation_key: metadata_fields.source_periodicity_1
+            scope: source_9
+      - name: "source_earliest_available_9"
+        field:
+            element: text
+            label: "Earliest available data"
+            translation_key: metadata_fields.source_earliest_available_1
+            scope: source_9
+      - name: "source_geographical_coverage_9"
+        field:
+            element: text
+            label: "Geographical coverage"
+            translation_key: metadata_fields.source_geographical_coverage_1
+            scope: source_9
+      - name: "source_url_9"
+        field:
+            element: text
+            label: "Link to data source"
+            translation_key: metadata_fields.source_url_1
+            scope: source_9
+      - name: "source_url_text_9"
+        field:
+            element: text
+            label: "Link to data source text"
+            translation_key: metadata_fields.source_url_text_1
+            value: "Link to source"
+            scope: source_9
+      - name: "source_release_date_9"
+        field:
+            element: text
+            label: "Release date"
+            translation_key: metadata_fields.source_release_date_1
+            help: "A date in YYYY-MM-DD format"
+            placeholder: "YYYY-MM-DD"
+            scope: source_9
+      - name: "source_next_release_9"
+        field:
+            element: text
+            label: "Next release"
+            translation_key: metadata_fields.source_next_release_1
+            help: "A date in YYYY-MM-DD format"
+            placeholder: "YYYY-MM-DD"
+            scope: source_9
+      - name: "source_statistical_classification_9"
+        field:
+            element: text
+            label: "Statistical classification"
+            translation_key: metadata_fields.source_statistical_classification_1
+            scope: source_9
+      - name: "source_contact_9"
+        field:
+            element: text
+            label: "Contact details"
+            translation_key: metadata_fields.source_contact_1
+            scope: source_9
+      - name: "source_other_info_9"
+        field:
+            element: textarea
+            label: "Other information"
+            translation_key: metadata_fields.source_other_info_1
+            scope: source_9
+      ## Source 10
+      - name: source_active_10
+        field:
+            element: checkbox
+            label: Source 10 active
+            translation_key: metadata_fields.source_active_1
+            help: Whether or not to display this source
+            value: false
+      - name: source_organisation_10
+        field:
+            element: text
+            label: "Organisation"
+            translation_key: metadata_fields.source_organisation_1
+            scope: source_10
+      - name: "source_periodicity_10"
+        field:
+            element: text
+            label: "Periodicity"
+            translation_key: metadata_fields.source_periodicity_1
+            scope: source_10
+      - name: "source_earliest_available_10"
+        field:
+            element: text
+            label: "Earliest available data"
+            translation_key: metadata_fields.source_earliest_available_1
+            scope: source_10
+      - name: "source_geographical_coverage_10"
+        field:
+            element: text
+            label: "Geographical coverage"
+            translation_key: metadata_fields.source_geographical_coverage_1
+            scope: source_10
+      - name: "source_url_10"
+        field:
+            element: text
+            label: "Link to data source"
+            translation_key: metadata_fields.source_url_1
+            scope: source_10
+      - name: "source_url_text_10"
+        field:
+            element: text
+            label: "Link to data source text"
+            translation_key: metadata_fields.source_url_text_1
+            value: "Link to source"
+            scope: source_10
+      - name: "source_release_date_10"
+        field:
+            element: text
+            label: "Release date"
+            translation_key: metadata_fields.source_release_date_1
+            help: "A date in YYYY-MM-DD format"
+            placeholder: "YYYY-MM-DD"
+            scope: source_10
+      - name: "source_next_release_10"
+        field:
+            element: text
+            label: "Next release"
+            translation_key: metadata_fields.source_next_release_1
+            help: "A date in YYYY-MM-DD format"
+            placeholder: "YYYY-MM-DD"
+            scope: source_10
+      - name: "source_statistical_classification_10"
+        field:
+            element: text
+            label: "Statistical classification"
+            translation_key: metadata_fields.source_statistical_classification_1
+            scope: source_10
+      - name: "source_contact_10"
+        field:
+            element: text
+            label: "Contact details"
+            translation_key: metadata_fields.source_contact_1
+            scope: source_10
+      - name: "source_other_info_10"
+        field:
+            element: textarea
+            label: "Other information"
+            translation_key: metadata_fields.source_other_info_1
+            scope: source_10
   ignore: ['/scripts', '/.github']
