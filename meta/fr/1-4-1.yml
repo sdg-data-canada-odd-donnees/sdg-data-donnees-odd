@@ -41,6 +41,9 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.4.1 : Proportion de la population vivant
 
 reporting_status: complete
 
+proxy: both
+proxy_series:
+  - Access to basic waste collection services
 
 un_designated_tier: Niveau I
 un_custodian_agency: ONU-Habitat

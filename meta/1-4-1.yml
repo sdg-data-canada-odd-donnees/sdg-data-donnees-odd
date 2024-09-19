@@ -42,6 +42,10 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 reporting_status: complete
 
+proxy: both
+proxy_series:
+  - Access to basic waste collection services
+
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: Trends in drinking water and sanitation service levels, 2000-2022
