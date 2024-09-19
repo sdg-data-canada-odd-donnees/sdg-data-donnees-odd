@@ -24,7 +24,8 @@
                 "Accès aux services d’assainissement de base",
                 "Accès à des carburants et technologies propres",
                 "Accès à la mobilité de base",
-                "Access to basic education",
+                "Access to basic waste collection services",
+                "Accès à l'éducation de base",
                 "Accès aux services d’information de base",
                 ""
               ]
@@ -39,7 +40,6 @@
                 "Proportion de la population utilisant les services d’eau potable de base",
                 "Proportion de la population utilisant les services d’assainissement de base",
                 "Proportion de la population qui dépend principalement des combustibles et des technologies propres",
-                "Proportion de la population ayant accès à l’électricité",
                 "Proportion de la population rurale vivant à moins de 2 km d’une route praticable toute l’année",
                 "Proportion de la population située dans un rayon de 500 mètres d’un arrêt de transport en commun",
                 "Proportion de la population couverte par l’accès haute vitesse évolué par paquets (HSPA+)",
@@ -71,6 +71,7 @@
             "constraints": {
               "enum": [
                 "Pourcentage (%)",
+                "Tonnes",
                 ""
               ]
             },
@@ -140,10 +141,25 @@
                 "Kelowna, Colombie-Britannique",
                 "Vancouver, Colombie-Britannique",
                 "Victoria, Colombie-Britannique",
+                "Canada",
+                "Yukon, Territoires du Nord-Ouest et Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "Sources of waste for disposal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sources de déchets non résidentielles à des fins d'élimination",
+                "Sources de déchets résidentielles à des fins d'élimination",
+                "Toutes les sources de déchets à des fins d'élimination",
+                ""
+              ]
+            },
+            "title": "Sources des déchets à des fins d'élimination"
           },
           {
             "name": "GeoCode",
