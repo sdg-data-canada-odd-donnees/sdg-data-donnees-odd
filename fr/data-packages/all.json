@@ -6056,28 +6056,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion de la population active occupée admissible à l'indemnité d'accident du travail\n",
-                "Portion de familles économiques qui reçoivent des prestations pour enfants\n",
-                "Ratio de chômeurs recevant des prestations\n",
-                "Proportion de chômeurs admissibles aux prestations d'assurance-emploi\n",
+                "Proportion de la population couverte par au moins une prestation de protection sociale en espèces",
+                "Proportion d'enfants couverts par des prestations de protection sociale",
+                "Proportion de personnes handicapées bénéficiant de prestations",
+                "Proportion de travailleurs couverts en cas d'accident du travail",
                 "Proportion de personnes plus âgées recevant une pension\n",
-                "Pourcentage de mères d'enfants de 12 mois ou moins qui ont reçu des prestations de maternité ou parentales\n",
+                "Proportion de personnes vulnérables recevant des allocations",
+                "Proportion de la population pauvre recevant une prestation de l'aide sociale en espèces",
                 ""
               ]
             },
             "title": "Series"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Pourcentage (%)",
-                "Ratio",
-                ""
-              ]
-            },
-            "title": "Unités"
           },
           {
             "name": "Geography",

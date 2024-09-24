@@ -6056,28 +6056,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of employed labour force eligible for workers' compensation benefits\n",
-                "Proportion of economic families with children receiving a child benefit\n",
-                "Ratio of unemployed receiving benefits\n",
-                "Proportion of the unemployed eligible for Employment Insurance benefits\n",
+                "Proportion of population covered by at least one social protection cash benefit",
+                "Proportion of children covered by social protection benefits",
+                "Proportion of persons with disabilities receiving benefits",
+                "Proportion of workers covered in case of employment injury",
                 "Proportion of older persons receiving a pension\n",
-                "Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits\n",
+                "Proportion of vulnerable persons receiving benefits",
+                "Proportion of poor population receiving social assistance cash benefit",
                 ""
               ]
             },
             "title": "Series"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                "Ratio",
-                ""
-              ]
-            },
-            "title": "Units"
           },
           {
             "name": "Geography",
