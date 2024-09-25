@@ -8,13 +8,13 @@ SDG_TARGET: '<p>Cible 2.b : Corriger et prévenir les restrictions et distorsion
 SDG_INDICATOR: '<p>Indicateur 2.b.1 : Subventions à l’exportation dans le secteur
   agricole</p>'
 STAT_CONC_DEF: |
- La période de référence pour les engagements en matière de subventions à l'exportation pour 2020 
- s'étend uniquement d'août à décembre 2020. Aucune subvention à l'exportation n'a été accordée 
- (modifiée à zéro) aux produits agricoles au cours de l'année civile 2021.
+  Les subventions agricoles à l'exportation sont définies comme les dépenses budgétaires et les 
+  quantités de subventions à l'exportation telles que notifiées par les membres de l'OMC dans les 
+  tableaux ES:1 et les tableaux complémentaires ES:2.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
-  La période de déclaration des engagements en matière de subventions à l'exportation pour 2020 
-  est seulement d'août à décembre 2020. Aucune subvention à l'exportation n'a été accordée aux 
+  La période de référence pour les engagements en matière de subventions à l'exportation pour 2020 
+  s'étend uniquement d'août à décembre 2020. Aucune subvention à l'exportation n'a été accordée aux 
   produits agricoles au cours des années civiles 2021, 2022 et 2023.
   
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
