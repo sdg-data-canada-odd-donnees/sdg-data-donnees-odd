@@ -3,6 +3,8 @@
 ## Global
 Year: Year
 Value: Value
+Annual: Annual
+Statistics Canada: Statistics Canada
 
 ## Tiers
 Tier I: Tier I
@@ -11,6 +13,15 @@ Tier III: Tier III
 
 ## Progress status
 Progress status: Progress status
+
+## Units
+Terajoules per million dollars of real GDP: Terajoules per million dollars of real GDP
+Number: Number
+Total Number: Total Number
+Percentage: Percentage
+Percentage (%): Percentage (%)
+Index: Index
+CAD (Thousands): CAD (Thousands)
 
 ## Sex
 Sex: Sex
@@ -22,6 +33,8 @@ Female: Female
 Females: Females
 Both: Both
 Both sexes: Both sexes
+Gender: Gender
+All genders: All genders
 
 ## Geo
 Geography: Geography
@@ -315,7 +328,6 @@ Food insecure, moderate: Food insecure, moderate
 Food insecure, severe: Food insecure, severe
 
 ## 2-2-1
-Index: Index
 Biodiversity: Biodiversity
 Soil Quality: Soil Quality
 Water Quality: Water Quality
@@ -355,19 +367,19 @@ Risk mitigation mechanisms: Risk mitigation mechanisms
 Genetic resources for food and agriculture (GRFA): Genetic resources for food and agriculture (GRFA)
 Accessions of plant genetic resources secured in conservation facilities: Accessions of plant genetic resources secured in conservation facilities
 Local breeds stored in genebank: Local breeds stored in genebank
-Total Number: Total Number
+
+## 2-a-1
+Agriculture orientation index for government expenditures [2.a.1]: Agriculture orientation index for government expenditures
+Agriculture value added share of GDP: Agriculture value added share of GDP
+Agriculture share of Government Expenditure: Agriculture share of Government Expenditure
 
 ## 2-b-1
 Butter: Butter
 Cheese: Cheese
 Other Milk Products: Other Milk Products
 Product: Product
-CAD (Thousands): CAD (Thousands)
 Skim Milk Powder: Skim Milk Powder
 Incorporated Products: Incorporated Products
-
-## 2-c-1
-Index: Index
 
 ## 3-1-1
 Per 100,000 live births: Per 100,000 live births
@@ -830,7 +842,6 @@ Wholesale trade: Wholesale trade
 ## 6-4-1
 Land use category: Land use category
 Water quality: Water quality
-Percentage: Percentage
 Number of sites: Number of sites
 Atlantic Ocean: Atlantic Ocean
 Great Lakes and St. Lawrence River: Great Lakes and St. Lawrence River
@@ -1456,8 +1467,7 @@ Heat Event: Heat Event
 Event sub-type: Event sub-type
 
 # 13-3-1
-Number: Number
-Percentage: Percentage
+
 Core public infrastructure assets: Core public infrastructure assets
 Bridges and tunnels: Bridges and tunnels
 Culture, recreation and sports facilities: Culture, recreation and sports facilities
@@ -1537,7 +1547,6 @@ Population and distribution trends consistent with objectives: Population and di
 On track: On track
 Mixed evidence: Mixed evidence
 Not on track: Not on track
-Percentage (%): Percentage (%)
 Forest area net change rate: Forest area net change rate
 Forest area net change rate (Percentage): Forest area net change rate (Percentage)
 Above-ground biomass stock in forest: Above-ground biomass stock in forest
@@ -1581,7 +1590,6 @@ Men+: Men+
 Women+: Women+
 
 ## 16-2-1
-Index: Index
 Crime severity index: Crime severity index
 Violent crime severity index: Violent crime severity index
 Youth crime severity index: Youth crime severity index
@@ -1696,5 +1704,4 @@ Foreign Direct Investment (FDI) inflow: Foreign Direct Investment (FDI) inflow
 Total value of the supported investment projects : Total value of the supported investment projects 
 Number of projects: Number of projects
 Millions $ CAD: Millions $ CAD
-Number: Number
 Total value of the supported investment projects: Total value of the supported investment projects
