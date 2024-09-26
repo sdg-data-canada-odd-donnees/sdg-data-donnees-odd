@@ -18,12 +18,12 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_titles:
-- series: Agriculture orientation index for government expenditures
-  title: chart.2-a-1-title-1
+- series: Agriculture orientation index for government expenditures [2.a.1]
+  title: Agriculture orientation index for government expenditures
 - series: Agriculture value added share of GDP
-  title: chart.2-a-1-title-2
+  title: Agriculture value added share of GDP
 - series: Agriculture share of Government Expenditure
-  title: chart.2-a-1-title-3
+  title: Agriculture value added share of GDP
 graph_type: line
 indicator_name: global_indicators.2-a-1-title
 indicator_number: 2.a.1
