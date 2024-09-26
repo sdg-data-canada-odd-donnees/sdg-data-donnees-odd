@@ -28,9 +28,20 @@ SDG_TARGET__GLOBAL: '<p>Cible 2.a : Accroître, notamment grâce au renforcement
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.a.1 : Indice d’orientation agricole des dépenses
   publiques</p>'
 
-un_designated_tier: Niveau I
-un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-0A-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    2.a.1 Agriculture orientation index for government expenditures (Primary series) (en anglais seulement)
+source_url_1: https://de-public-statsuite.fao.org/vis?df[ds]=ds-release&df[id]=DF_AG_PRD_ORTIND_2A1&df[ag]=FAO&df[vs]=1.0&pd=2015%2C&dq=A...124........&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false&vw=tb&lc=fr&pg=0
+
+source_active_2: 'true'
+source_url_text_2: |
+    2.a.1 Agriculture value added share of GDP (Complementary series) (en anglais seulement)
+source_url_2: https://de-public-statsuite.fao.org/vis?df[ds]=ds-release&df[id]=DF_AG_PRD_AGVAS_2A1&df[ag]=FAO&df[vs]=1.0&pd=2015%2C&dq=A...124........&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false&vw=tb&lc=fr&pg=0
+
+source_active_3: 'true'
+source_url_text_3: |
+    2.a.1 Agriculture share of Government Expenditure (Complementary series) (en anglais seulement)
+source_url_3: https://de-public-statsuite.fao.org/vis?df[ds]=ds-release&df[id]=DF_AG_XPD_AGSGB_2A1&df[ag]=FAO&df[vs]=1.0&pd=2015%2C&dq=A...124........&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false&vw=tb&lc=fr&pg=0
