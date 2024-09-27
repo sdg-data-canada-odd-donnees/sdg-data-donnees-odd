@@ -25,8 +25,11 @@ ODA_OOF_flows_agriculture <- raw_data %>%
       "14" ~ "Other Official Flows (non Export Credit)",
       .default = Measure
     ),
+    # Get year base for USD prices from data
     Units = paste("US dollar, Millions,", Units, "constant prices"),
-  )
+  ) %>%
+  # Sort so ODA appears before OOF
+  arrange(Measure)
 
 # Sum ODA and OOF flows
 total <- ODA_OOF_flows_agriculture %>%
