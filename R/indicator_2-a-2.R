@@ -14,6 +14,7 @@ raw_data$ObsValue <- as.numeric(raw_data$ObsValue)
 ODA_OOF_flows_agriculture <- raw_data %>%
   select(
     Year = TIME_PERIOD,
+    Units = BASE_PER,
     Measure = MEASURE,
     Value = ObsValue
   ) %>%
@@ -23,12 +24,13 @@ ODA_OOF_flows_agriculture <- raw_data %>%
       "100" ~ "Official Development Assistance",
       "14" ~ "Other Official Flows (non Export Credit)",
       .default = Measure
-    )
+    ),
+    Units = paste("US dollar, Millions,", Units, "constant prices"),
   )
 
 # Sum ODA and OOF flows
 total <- ODA_OOF_flows_agriculture %>%
-  summarise(Value = sum(Value), .by = c("Year"))
+  summarise(Value = sum(Value), .by = c("Year", "Units"))
   
 
 data_final <- bind_rows(ODA_OOF_flows_agriculture, total)
