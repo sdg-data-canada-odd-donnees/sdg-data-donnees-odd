@@ -1,36 +1,33 @@
-SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
-  la nutrition et promouvoir l’agriculture durable</p>'
-SDG_TARGET: '<p>Cible 2.a : Accroître, notamment grâce au renforcement de la coopération
+SDG_GOAL: 'Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
+  la nutrition et promouvoir l’agriculture durable'
+SDG_TARGET: 'Cible 2.a : Accroître, notamment grâce au renforcement de la coopération
   internationale, l’investissement dans l’infrastructure rurale, les services de recherche
   et de vulgarisation agricoles et la mise au point de technologies et de banques
   de plantes et de gènes d’animaux d’élevage, afin de renforcer les capacités productives
-  agricoles des pays en développement, en particulier des pays les moins avancés.</p>'
-SDG_INDICATOR: '<p>Indicateur 2.a.2 : Total des apports publics (aide publique au
-  développement plus autre apports publics) alloués au secteur agricole.</p>'
-STAT_CONC_DEF: |
-  <strong>Définition : </strong>
+  agricoles des pays en développement, en particulier des pays les moins avancés.'
+SDG_INDICATOR: 'Indicateur 2.a.2 : Total des apports publics (aide publique au
+  développement plus autre apports publics) alloués au secteur agricole.'
+STAT_CONC_DEF: >
+  <strong>Définition : </strong><br>
+  Décaissements bruts du total de l'aide publique au développement (APD) et des autres apports du secteur public du Canada vers le secteur agricole.
   <br><br>
-  Décaissements bruts de l’apport d'aide publique au développement (APD) totale et d’autres flux officiels du Canada vers le secteur agricole.
+  <strong>Concepts : </strong><br>
+  APD : Le Comité d'aide au développement (CAD) définit l'APD comme « les flux vers les pays et territoires figurant sur la liste du CAD des bénéficiaires de l'APD et vers les institutions multilatérales, qui sont
   <br><br>
-  <strong>Concepts : </strong>
+  i) fournis par des agences officielles, y compris les gouvernements des États et des collectivités locales, ou par leurs agences exécutives; et
   <br><br>
-  APD: Le CAD définit l’APD comme "tous les apports de ressources qui sont fournis aux pays et territoires sur la Liste des bénéficiaires d'APD, ou à des institutions multilatérales, et qui répondent aux critères suivants :
-  <br>
-  <ol type="i">
-    <li>émaner d'organismes publics, y compris les États et les collectivités locales, ou d'organismes agissant pour le compte d'organismes publics ;</li>
-    <li>sachant que chaque opération doit en outre :</li>
-      <ol type="a">
-        <li>avoir pour but essentiel de favoriser le développement économique et l'amélioration du niveau de vie des pays en développement ;</li>
-        <li>être assortie de conditions favorables et comporter un élément de libéralité au moins égal à 25 pour cent (sur la base d'un taux d'actualisation de 10 pour cent). (voir https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/aidepubliqueaudeveloppementdefinitionetchampcouvert.htm)</li>
-      </ol>
-  </ol>
+  ii) chaque transaction est administrée avec pour principal objectif la promotion du développement économique et du bien-être des pays en développement; et
   <br><br>
-  Autres apports du secteur public (AASP) : les AASP (à l'exclusion des crédits à l'exportation bénéficiant d'un soutien public) sont définis comme des opérations du secteur public qui ne satisfont pas aux critères d'éligibilité à l'APD, soit parce qu'elles ne sont pas principalement destinées au développement, soit parce qu'elles sont pas suffisamment assortis. (voir http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf, Para 24) (voir aussi https://data.oecd.org/fr/drf/autres-apports-du-secteur-public-aasp.htm)
+  iii) est de nature concessionnelle et comporte un élément de subvention d'au moins 25 % (calculé à un taux d'actualisation de 10 %) ». (Consulter http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/aidepubliqueaudeveloppementdefinitionetchampcouvert.htm).
   <br><br>
-  Le secteur agricole est tel que défini par le CAD et comprend tous les codes sectoriels de la série 311 du Système de notification des pays créanciers – SNPC. (voir https://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/codes-objetclassificationsectorielle.htm)
-DATA_COMP: |
+  Autres apports du secteur public : Les autres apports du secteur public (à l'exclusion des crédits à l'exportation bénéficiant d'un soutien public) sont définis comme des transactions du secteur public qui ne remplissent pas les conditions d'éligibilité à l'APD, soit parce qu'elles ne visent pas principalement le développement, soit parce qu'elles ne sont pas suffisamment concessionnelles.
+  <br><br>
+  (Consulter http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf (en anglais), paragraphe 24)
+  <br><br>
+  Le secteur de l'agriculture est tel que défini par le CAD et comprend tous les codes sectoriels des système de notification des pays créanciers de la série 311 (consulter le lien : http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/codes-objetclassificationsectorielle.htm).
+DATA_COMP: >
   Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
-  <br>
+  <br><br>
   Les données proviennent du Système de notification des pays créanciers de l'OCDE. Sélectionnez Donneur = « Canada », Receveur = « Pays en développement », Secteur = « Agriculture », Mesure = « Aide publique au développement » et « AASP (autre que crédits à l'exportation) », Type de flux = « Versements », et Type de prix = « Prix constants ». 
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
