@@ -29,8 +29,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Other Official Flows (non Export Credit)",
                 "Official Development Assistance",
+                "Other Official Flows (non Export Credit)",
                 ""
               ]
             }
