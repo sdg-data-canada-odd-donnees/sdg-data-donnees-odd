@@ -982,6 +982,29 @@
             "title": "Year"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2022 constant prices",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Other Official Flows (non Export Credit)",
+                "Official Development Assistance",
+                ""
+              ]
+            },
+            "title": "Measure"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
