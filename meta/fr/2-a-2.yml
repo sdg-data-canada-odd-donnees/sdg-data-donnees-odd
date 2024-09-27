@@ -22,16 +22,9 @@ SDG_TARGET__GLOBAL: '<p>Cible 2.a : Accroître, notamment grâce au renforcement
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.a.2 : Total des apports publics (aide publique
   au développement plus autre apports publics) alloués au secteur agricole.</p>'
 
-# Source(s)
-source_active_1: 'true'
-source_organisation_1: |
-  Organisation de coopération et de développement économiques (OCDE)
-source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
-source_url_text_1: OCDE - Système de notification des pays créanciers (SNPC)
-
-un_designated_tier: Niveau I
-un_custodian_agency: Organisation de coopération et de développement économiques (OCDE)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-0A-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+source_url_1: https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=19&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.1&dq=CAN.DPGC.311.14%2B100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&ly[cl]=TIME_PERIOD&ly[rw]=MEASURE&vw=tb&lc=fr
+source_url_text_1: 'SNPC: Système de notification des pays créanciers (flux)'
  
