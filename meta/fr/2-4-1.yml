@@ -1,27 +1,31 @@
-SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
-  la nutrition et promouvoir l’agriculture durable</p>'
+SDG_GOAL: 'Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
+  la nutrition et promouvoir l’agriculture durable'
 SDG_TARGET: 'Cible 2.4 : D’ici à 2030, assurer la viabilité des systèmes de production alimentaire et mettre en œuvre des pratiques agricoles résilientes qui permettent d’accroître la productivité et la production, contribuent à la préservation des écosystèmes, renforcent la capacité d’adaptation aux changements climatiques, aux phénomènes météorologiques extrêmes, à la sécheresse, aux inondations et à d’autres catastrophes et améliorent progressivement la qualité des terres et des sols'
 SDG_INDICATOR: 'Indicateur 2.4.1 : Proportion des zones agricoles exploitées de manière productive et durable'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
-  améliorer la nutrition et promouvoir l’agriculture durable</p>'
+STAT_CONC_DEF: >
+  La valeur de la production agricole par hectare comprend à la fois les cultures et le bétail. La productivité des terres est une mesure de la valeur agricole des productions obtenues sur une superficie donnée. Maintenir ou améliorer la production au fil du temps par rapport à la superficie des terres utilisées est un aspect important de la durabilité pour diverses raisons. Au niveau de l'exploitation agricole, la productivité des terres reflète la technologie et les processus de production pour des conditions agro-écologiques données. Dans un sens plus large, une augmentation du niveau de productivité des terres permet une production plus élevée tout en réduisant la pression sur des ressources terrestres de plus en plus rares, généralement liées à la déforestation et aux pertes associées de services écosystémiques et de biodiversité.
+  <br><br>
+  Les mécanismes d’atténuation des risques mesurent si l’exploitation agricole dispose des mesures d’atténuation nécessaires pour faire face aux chocs externes :
+  1. accès au crédit ou utilisation du crédit
+  2. accès ou utilisation d'une assurance
+  3. diversification de l'exploitation (part d'un seul produit agricole ne dépassant pas 60 % dans la valeur totale de la production de l'exploitation).
+DATA_COMP: custom.data-tabulated
+REC_USE_LIM: >
+  Les données ne sont disponibles que pour des séries supplémentaires sélectionnées.
+  <br><br>
+  Les « recettes agricoles brutes » du Recensement de l’agriculture (REAG) sont utilisées comme approximation de la « valeur de la production agricole ». Cette variable peut ne pas coïncider exactement avec la définition de la « valeur de la production agricole » de la FAO.
+  <br><br>
+  Toutes les exploitations agricoles ont accès au crédit et à l'assurance. Ils peuvent s'appliquer aux programmes d'assurance du revenu et des produits développés par les gouvernements fédéral et provinciaux.
+SDG_GOAL__GLOBAL: 'Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
+  améliorer la nutrition et promouvoir l’agriculture durable'
 SDG_TARGET__GLOBAL: 'Cible 2.4 : D’ici à 2030, assurer la viabilité des systèmes de production alimentaire et mettre en œuvre des pratiques agricoles résilientes qui permettent d’accroître la productivité et la production, contribuent à la préservation des écosystèmes, renforcent la capacité d’adaptation aux changements climatiques, aux phénomènes météorologiques extrêmes, à la sécheresse, aux inondations et à d’autres catastrophes et améliorent progressivement la qualité des terres et des sols'
 SDG_INDICATOR__GLOBAL: 'Indicateur 2.4.1 : Proportion des zones agricoles exploitées de manière productive et durable'
 
 source_active_1: 'true'
 source_url_text_1: "Statistique Canada. Recensement de l'agriculture. Totalisation personnalisée."
-source_url_1: https://www.statcan.gc.ca/fr/census-agriculture
+source_url_1: https://www.statcan.gc.ca/fr/recensement-agriculture
 source_organisation_1: Statistique Canada
 source_periodicity_1: Aux 5 ans
 source_geographical_coverage_1: Canada
-
-reporting_status: complete
-
-un_designated_tier: Niveau II
-un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-04-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
  

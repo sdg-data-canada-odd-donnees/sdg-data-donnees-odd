@@ -1,13 +1,13 @@
-SDG_GOAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition and
-  promote sustainable agriculture</p>'
-SDG_TARGET: '<p>Target 2.4: By 2030, ensure sustainable food production systems and
+SDG_GOAL: 'Goal 2: End hunger, achieve food security and improved nutrition and
+  promote sustainable agriculture'
+SDG_TARGET: 'Target 2.4: By 2030, ensure sustainable food production systems and
   implement resilient agricultural practices that increase productivity and production,
   that help maintain ecosystems, that strengthen capacity for adaptation to climate
   change, extreme weather, drought, flooding and other disasters and that progressively
-  improve land and soil quality</p>'
-SDG_INDICATOR: '<p>Indicator 2.4.1: Proportion of agricultural area under productive
-  and sustainable agriculture</p>'
-STAT_CONC_DEF: |
+  improve land and soil quality'
+SDG_INDICATOR: 'Indicator 2.4.1: Proportion of agricultural area under productive
+  and sustainable agriculture'
+STAT_CONC_DEF: >
   Farm output value per hectare includes both crops and livestock. Land productivity is 
   a measure of agricultural value of outputs obtained on a given area of land. Maintaining 
   or improving the output over time relative to the area of land used is an important aspect 
@@ -16,34 +16,38 @@ STAT_CONC_DEF: |
   sense, an increase in the level of land productivity enables higher production while 
   reducing pressure on increasingly scarce land resources, commonly linked to deforestation 
   and associated losses of ecosystem services and biodiversity. 
-  <br>
-  <br>Risk mitigation mechanisms measures whether the farm has the mitigation measures to 
+  <br><br>
+  Risk mitigation mechanisms measures whether the farm has the mitigation measures to 
   cope with external shocks: 
-  <br>1. access to or availed credit 
-  <br>2. access to or availed insurance
-  <br>3. on farm diversification (share of a single agricultural commodity not greater than 
+  1. access to or availed credit 
+  2. access to or availed insurance
+  3. on farm diversification (share of a single agricultural commodity not greater than 
   60% in the total value of production of the holding.
 DATA_COMP: custom.data-tabulated
-REC_USE_LIM: |
-    Data is only available to report on selected supplementary series. <br><br> Census of Agriculture's (CEAG) 'gross farm receipts' is used as a proxy to 'farm output value'. This variable may not exactly coincide with the FAO's 'farm output value' definition. <br><br> All farms have access to credit and insurance. They can apply to income, and commodity insurance programs developed by federal and provincial governments.
-SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
-  and promote sustainable agriculture</p>'
-SDG_TARGET__GLOBAL: '<p>Target 2.4: By 2030, ensure sustainable food production systems
+REC_USE_LIM: >
+  Data is only available to report on selected supplementary series.
+  <br><br>
+  The Census of Agriculture's (CEAG) 'gross farm receipts' is used as a proxy to 'farm output value'. This variable may not exactly coincide with the FAO's 'farm output value' definition.
+  <br><br>
+  All farms have access to credit and insurance. They can apply to income, and commodity insurance programs developed by federal and provincial governments.
+SDG_GOAL__GLOBAL: 'Goal 2: End hunger, achieve food security and improved nutrition
+  and promote sustainable agriculture'
+SDG_TARGET__GLOBAL: 'Target 2.4: By 2030, ensure sustainable food production systems
   and implement resilient agricultural practices that increase productivity and production,
   that help maintain ecosystems, that strengthen capacity for adaptation to climate
   change, extreme weather, drought, flooding and other disasters and that progressively
-  improve land and soil quality</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 2.4.1: Proportion of agricultural area under
-  productive and sustainable agriculture</p>'
-  
+  improve land and soil quality'
+SDG_INDICATOR__GLOBAL: 'Indicator 2.4.1: Proportion of agricultural area under
+  productive and sustainable agriculture'
+
+un_designated_tier: Tier II
+un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-04-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Census of Agriculture. Custom Tabulation.
 source_url_1: https://www.statcan.gc.ca/en/census-agriculture
 source_organisation_1: Statistics Canada
 source_periodicity_1: Every 5 years
 source_geographical_coverage_1: Canada
-  
-un_designated_tier: Tier II
-un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-04-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata
