@@ -11,12 +11,19 @@ Tier I: Niveau I
 Tier II: Niveau II
 Tier III: Niveau III
 
-## Units
-Terajoules per million dollars of real GDP: Térajoules par million de dollars du PIB réel
-Percentage: Pourcentage
-
 ## Progress status
 Progress status: État du progrès
+
+## Units
+Terajoules per million dollars of real GDP: Térajoules par million de dollars du PIB réel
+Number: Nombre
+Total Number: Nombre total
+Percentage: Pourcentage
+Percentage (%): Pourcentage (%)
+Index: Indice
+CAD (Thousands): CAD (en milliers)
+US dollar, Millions, 2022 constant prices: Dollars des É-U, millions, prix constants 2022
+US dollar, Millions, 2023 constant prices: Dollars des É-U, millions, prix constants 2023
 
 ## Sex & Gender
 Sex: Sexe
@@ -60,6 +67,7 @@ Winnipeg Manitoba: Winnipeg Manitoba
 Northern and Rural Manitoba: Régions rurales et du nord du Manitoba
 Whitehorse Yukon: Whitehorse Yukon
 Yellowknife Northwest Territories: Yellowknife Territoires du Nord-Ouest
+Yukon and Northwest Territories: Yukon et les Territoires du Nord-Ouest
 
 
 ## Age
@@ -114,22 +122,22 @@ Public Health Agency of Canada (PHAC): "Agence de la santé publique du Canada (
 
 
 Every 2 years: Aux 2 ans
-Tier I: Niveau I
-Tier II: Niveau II
+
 United Nations Sustainable Development Goals Metadata: 'Métadonnées des objectifs de développement durable des Nations Unies'
 United Nations Sustainable Development Goals Metadata (PDF 98.2 KB): 'Métadonnées des objectifs de développement durable des Nations Unies (PDF 98.2 KB)'
 United Nations Sustainable Development Goals Metadata (PDF): 'Métadonnées des objectifs de développement durable des Nations Unies (PDF)'
 
-
-World Bank (WB): Banque Mondiale
+World Bank: Banque mondiale
+World Bank (WB): Banque mondiale
+World Bank Group: Groupe de la Banque mondiale
 UNESCO Institute for Statistics (UNESCO-UIS): Institut de statistique de l’UNESCO
 World Health Organization (WHO): Organisation mondiale de la Santé (OMS)
 United Nations Children’s Fund (UNICEFF): Le Fonds des Nations Unies pour l'enfance (UNICEF)
 UN-Habitat: UN-Habitat
-Food and Agriculture Organization of the United Nations (FAO): Organisation des Nations unies pour l'alimentation et l'agriculture (FAO)
+Food and Agriculture Organization of the United Nations (FAO): Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)
 World Trade Organization (WTO): Organisation mondiale du commerce (OMC)
 United Nations International Strategy for Disaster Reduction (UNISDR): Stratégie internationale des Nations Unies pour la prévention des catastrophes (UNISDR)
-Organisation for Economic Co-operation and Development (OECD):  L'Organisation de coopération et de développement économiques (OCDE)
+Organisation for Economic Co-operation and Development (OECD): Organisation de coopération et de développement économiques (OCDE)
 Inter-Parliamentary Union (IPU): Union Interparlementaire (UIP)
 UN Women: ONU Femmes
 
@@ -215,6 +223,12 @@ Proportion of older persons receiving a pension: |
     Proportion de personnes plus âgées recevant une pension
 Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits: |
     Pourcentage de mères d'enfants de 12 mois ou moins qui ont reçu des prestations de maternité ou parentales
+Proportion of population covered by at least one social protection cash benefit: Proportion de la population couverte par au moins une prestation de protection sociale en espèces
+Proportion of children covered by social protection benefits: Proportion d'enfants couverts par des prestations de protection sociale
+Proportion of persons with disabilities receiving benefits: Proportion de personnes handicapées bénéficiant de prestations
+Proportion of workers covered in case of employment injury: Proportion de travailleurs couverts en cas d'accident du travail
+Proportion of vulnerable persons receiving benefits: Proportion de personnes vulnérables recevant des allocations
+Proportion of poor population receiving social assistance cash benefit: Proportion de la population pauvre recevant une prestation de l'aide sociale en espèces
 
 ## 1-4-1
 Basic services: Services de base
@@ -239,7 +253,9 @@ Proportion of population covered by 5G: Proportion de la population couverte par
 Proportion of population with access to electricity: Proportion de la population ayant accès à l’électricité
 Access to Basic Health Care Services: Accès aux services de soins de santé de base
 Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning satisfied with modern methods: Proportion de femmes en âge de procréer (15 à 49 ans) qui utilisent des méthodes modernes de planification familiale
-
+Access to basic education: Accès à l'éducation de base
+Access to basic waste collection services: Access to basic waste collection services
+Access to basic waste collection services (Proxy): Accès aux services de base de collecte des déchets (proxy)
 
 ## 1-4-2
 Total: Total
@@ -368,7 +384,6 @@ Food insecure, moderate: Insécurité alimentaire modérée
 Food insecure, severe: Insécurité alimentaire grave
 
 ## 2-2-1
-Index: Indice
 Biodiversity: Biodiversité
 Soil Quality: Qualité des sols
 Water Quality: Qualité de l'eau
@@ -404,7 +419,6 @@ Under 35 years: Moins de 35 ans
 35 to 54 years: 35 à 54 ans
 55 years and over: 55 ans et plus
 
-
 ## 2-4-1
 Farm output value per hectare: Valeur de la production agricole par hectare
 Risk mitigation mechanisms: Mécanismes d'atténuation des risques
@@ -413,14 +427,22 @@ Risk mitigation mechanisms: Mécanismes d'atténuation des risques
 Genetic resources for food and agriculture (GRFA): Ressources génétiques pour l'alimentation et l'agriculture (RGAA)
 Accessions of plant genetic resources secured in conservation facilities: Accessions de ressources phytogénétiques dans les établissements de conservation
 Local breeds stored in genebank: Variétés et races locales conservées dans la banque de gènes
-Total Number: Nombre total
+
+## 2-a-1
+Agriculture orientation index for government expenditures [2.a.1]: Indice d’orientation agricole des dépenses publiques
+Agriculture value added share of GDP: Part de la valeur ajoutée de l’agriculture dans le PIB (%)
+Agriculture share of Government Expenditure: Part de l’agriculture dans les dépenses publiques (%)
+
+## 2-a-2
+Measure: Mesure
+Official Development Assistance: Aide publique au développement
+Other Official Flows (non Export Credit): Autres apports du secteur public (autre que crédits à l'exportation)
 
 ## 2-b-1
 Butter: Beurre
 Cheese: Fromage
 Other Milk Products: Autres produits laitiers
 Product: Produit
-CAD$ (Thousands): CAD$ (en milliers)
 Skim Milk Powder: Lait écrémé en poudre
 Incorporated Products: Produits incorporés
 
@@ -1793,7 +1815,6 @@ Event sub-type: Événement
 
 
 # 13-3-1
-Number: Nombre
 Percentage: Pourcentage
 Type of municipality by population size: Type de municipalité par taille de population
 All municipalities: Toutes les municipalités
@@ -1871,7 +1892,6 @@ Population and distribution trends consistent with objectives: Les tendances des
 On track: Oui
 Mixed evidence: Preuves mitigées
 Not on track: Non
-Percentage (%): Pourcentage (%)
 Forest area net change rate: Taux de variation nette de la superficie forestière
 Forest area net change rate (Percentage): Taux de variation nette de la superficie forestière (Pourcentage)
 Above-ground biomass stock in forest: Stock de biomasse aérienne en forêt
@@ -1932,7 +1952,6 @@ Not a visible minority: |
     Pas une minorité visible
 
 ## 16-2-1
-Index: Indice
 Crime severity index: Indice de gravité de la criminalité
 Violent crime severity index: Indice des crimes avec violence
 Youth crime severity index: Indice de gravité de la criminalité chez les jeunes
@@ -2061,7 +2080,6 @@ Foreign Direct Investment (FDI) inflow: Entrées d’investissement étranger di
 Total value of the supported investment projects : Valeur totale des projets d’investissement soutenus 
 Number of projects: Nombre de projets
 Millions $ CAD: Millions $ CAD
-Number: Nombre
 Total value of the supported investment projects: Valeur totale des projets d’investissement soutenus
 
 ## 17-6-1

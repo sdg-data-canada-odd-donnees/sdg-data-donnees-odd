@@ -17,8 +17,13 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.2-a-1-title
-graph_titles: []
+graph_titles:
+- series: Agriculture orientation index for government expenditures [2.a.1]
+  title: Agriculture orientation index for government expenditures
+- series: Agriculture value added share of GDP
+  title: Agriculture value added share of GDP
+- series: Agriculture share of Government Expenditure
+  title: Agriculture share of Government Expenditure
 graph_type: line
 indicator_name: global_indicators.2-a-1-title
 indicator_number: 2.a.1

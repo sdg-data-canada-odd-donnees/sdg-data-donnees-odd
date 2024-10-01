@@ -1,24 +1,33 @@
-SDG_GOAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition and
-  promote sustainable agriculture</p>'
-SDG_TARGET: '<p>Target 2.a: Increase investment, including through enhanced international
+SDG_GOAL: 'Goal 2: End hunger, achieve food security and improved nutrition and
+  promote sustainable agriculture'
+SDG_TARGET: 'Target 2.a: Increase investment, including through enhanced international
   cooperation, in rural infrastructure, agricultural research and extension services,
   technology development and plant and livestock gene banks in order to enhance agricultural
-  productive capacity in developing countries, in particular least developed countries</p>'
-SDG_INDICATOR: '<p>Indicator 2.a.2: Total official flows (official development assistance
-  plus other official flows) to the agriculture sector</p>'
-STAT_CONC_DEF: |
+  productive capacity in developing countries, in particular least developed countries'
+SDG_INDICATOR: 'Indicator 2.a.2: Total official flows (official development assistance
+  plus other official flows) to the agriculture sector'
+STAT_CONC_DEF: >
   <strong>Definition:</strong><br>
-  Gross disbursements of total ODA and other official flows from Canada to the agriculture sector.
-  <br>
-  <strong>Concepts</strong> <br>ODA: The DAC defines ODA as “those flows to countries and territories on the DAC List of ODA Recipients and to multilateral institutions which are<br>
-  <p>i) provided by official agencies, including state and local governments, or by their executive agencies; and</p>
-  <p>ii) each transaction is administered with the promotion of the economic development and welfare of developing countries as its main objective; and is concessional in character and conveys a grant element of at least 25 per cent (calculated at a rate of discount of 10 per cent). (See http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm)</p> <br>
-  <p>Other official flows (OOF): Other official flows (excluding officially supported export credits) are defined as transactions by the official sector which do not meet the conditions for eligibility as ODA, either because they are not primarily aimed at development, or because they are not sufficiently concessional. (See http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf, Para 24).</p> <br>
-  <p>The agriculture sector is as defined by the DAC and comprises all CRS sector codes in the 311 series (see here: http://www.oecd.org/dac/stats/purposecodessectorclassification.htm)</p>
-DATA_COMP: |
+  Gross disbursements of total official development assistance (ODA) and other official flows from Canada to the agriculture sector.
+  <br><br>
+  <strong>Concepts:</strong><br>
+  ODA: The Development Assistance Committee (DAC) defines ODA as “those flows to countries and territories on the DAC List of ODA Recipients and to multilateral institutions which are
+  <br><br>
+  i) provided by official agencies, including state and local governments, or by their executive agencies; and
+  <br><br>
+  ii) each transaction is administered with the promotion of the economic development and welfare of developing countries as its main objective; and 
+  <br><br>
+  iii) is concessional in character and conveys a grant element of at least 25 per cent (calculated at a rate of discount of 10 per cent)”. (See http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm)
+  <br><br>
+  Other official flows (OOF): Other official flows (excluding officially supported export credits) are defined as transactions by the official sector which do not meet the conditions for eligibility as ODA, either because they are not primarily aimed at development, or because they are not sufficiently concessional.
+  <br><br>
+  (See http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf, Para 24).
+  <br><br>
+  The agriculture sector is as defined by the DAC and comprises all CRS sector codes in the 311 series (see here: http://www.oecd.org/dac/stats/purposecodessectorclassification.htm).
+DATA_COMP: >
   Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.
-  <br>
-  <p>Data are from the Creditor Reporting System from the OECD. Select Donor = "Canada", Sector = "311: III.1.a. Agrigulture, Total", Flow = "Official Development Assistance", Amount type = "Constant Prices", and Flow type = "Gross Disbursements".</p>>
+  <br><br>
+  Data are from the Creditor Reporting System from the OECD. Select Donor = "Canada", Recipient = "Developing countries", Sector = "Agrigulture", Measure = "Official Development Assistance" and "Other Official Flows (non Export Credit)", Flow type = "Disbursements", and Price base = "Constant prices".
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
@@ -37,7 +46,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 # Source(s)
 source_active_1: 'true'
 source_organisation_1: Organisation for Economic Co-operation and Development (OECD)
-source_url_1: https://stats.oecd.org/#
-source_url_text_1: OECD. Creditor Reporting System (CRS).
+source_url_1: https://data-explorer.oecd.org/vis?fs[0]=Topic%2C1%7CDevelopment%23DEV%23%7COfficial%20Development%20Assistance%20%28ODA%29%23DEV_ODA%23&pg=0&fc=Topic&bp=true&snb=19&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.1&dq=CAN.DPGC.311.14%2B100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&ly[cl]=TIME_PERIOD&ly[rw]=MEASURE&vw=tb
+source_url_text_1: 'CRS: Creditor Reporting System (flows)'
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada

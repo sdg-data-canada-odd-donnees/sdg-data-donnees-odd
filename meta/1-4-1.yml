@@ -42,6 +42,10 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 reporting_status: complete
 
+proxy: both
+proxy_series:
+  - Access to basic waste collection services
+
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: Trends in drinking water and sanitation service levels, 2000-2022
@@ -98,8 +102,8 @@ source_geographical_coverage_7: Canada
 
 source_active_8: 'true'
 source_url_text_8: |
-  Access to electricity (% of population) - Canada
-source_url_8: https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?end=2020&locations=CA&name_desc=false&start=2015
-source_organisation_8: World Bank (WB)
-source_periodicity_8: Annual
-source_geographical_coverage_8: Canada
+  Statistics Canada. Table 38-10-0032-01  Disposal of waste, by source
+source_url_8: https://doi.org/10.25318/3810003201-eng
+source_organisation_8: Statistics Canada
+source_periodicity_8: Every 2 years
+source_geographical_coverage_8: Canada, Geographical region of Canada, Province or territory

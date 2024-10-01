@@ -59,13 +59,29 @@ graph_titles:
     title: Access to basic sanitation services
   - series: Access to clean fuels and technology
     title: Access to clean fuels and technology
+  - series: Access to basic waste collection services
+    title: Access to basic waste collection services
   - series: Access to basic mobility
     title: Access to basic mobility
   - series: Access to basic education
     title: Access to basic education
   - series: Access to basic information services
     title: Access to basic information services
-graph_type: line
+graph_types:
+  - series: Access to basic drinking water services
+    type: line
+  - series: Access to basic sanitation services
+    type: line
+  - series: Access to clean fuels and technology
+    type: line
+  - series: Access to basic waste collection services
+    type: bar
+  - series: Access to basic mobility
+    type: bar
+  - series: Access to basic education
+    type: bar
+  - series: Access to basic information services
+    type: bar
 indicator_name: global_indicators.1-4-1-title
 indicator_number: 1.4.1
 national_geographical_coverage: Canada

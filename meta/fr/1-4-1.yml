@@ -41,6 +41,9 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.4.1 : Proportion de la population vivant
 
 reporting_status: complete
 
+proxy: both
+proxy_series:
+  - Access to basic waste collection services
 
 un_designated_tier: Niveau I
 un_custodian_agency: ONU-Habitat
@@ -101,9 +104,9 @@ source_geographical_coverage_7: Canada
 
 source_active_8: 'true'
 source_url_text_8: |
-  Accès à l’électricité (% de la population) - Canada
-source_url_8: https://donnees.banquemondiale.org/indicateur/EG.ELC.ACCS.ZS?end=2020&locations=CA&name_desc=false&start=2015
-source_organisation_8: Banque Mondiale
-source_periodicity_8: Annuelle
-source_geographical_coverage_8: Canada
+  Statistique Canada. Tableau 38-10-0032-01  Élimination de déchets, selon la source
+source_url_8: https://doi.org/10.25318/3810003201-fra
+source_organisation_8: Statistique Canada
+source_periodicity_8: Aux 2 ans
+source_geographical_coverage_8: Canada, Région géographique du Canada, Province ou territoire
 

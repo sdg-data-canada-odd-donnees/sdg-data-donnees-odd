@@ -3,6 +3,8 @@
 ## Global
 Year: Year
 Value: Value
+Annual: Annual
+Statistics Canada: Statistics Canada
 
 ## Tiers
 Tier I: Tier I
@@ -11,6 +13,17 @@ Tier III: Tier III
 
 ## Progress status
 Progress status: Progress status
+
+## Units
+Terajoules per million dollars of real GDP: Terajoules per million dollars of real GDP
+Number: Number
+Total Number: Total Number
+Percentage: Percentage
+Percentage (%): Percentage (%)
+Index: Index
+CAD (Thousands): CAD (Thousands)
+US dollar, Millions, 2022 constant prices: US dollar, Millions, 2022 constant prices
+US dollar, Millions, 2023 constant prices: US dollar, Millions, 2023 constant prices
 
 ## Sex
 Sex: Sex
@@ -22,6 +35,8 @@ Female: Female
 Females: Females
 Both: Both
 Both sexes: Both sexes
+Gender: Gender
+All genders: All genders
 
 ## Geo
 Geography: Geography
@@ -52,6 +67,7 @@ Winnipeg Manitoba: Winnipeg Manitoba
 Northern and Rural Manitoba: Northern and Rural Manitoba
 Whitehorse Yukon: Whitehorse Yukon
 Yellowknife Northwest Territories: Yellowknife Northwest Territories
+Yukon and Northwest Territories: Yukon and Northwest Territories
 
 ## Age
 Age: Age
@@ -146,6 +162,15 @@ Asset resilient for at least one month: Asset resilient for at least one month
 Asset resilient for at least three months: Asset resilient for at least three months
 Asset resilient for at least six months: Asset resilient for at least six months
 
+## 1-3-1
+Proportion of population covered by at least one social protection cash benefit: Proportion of population covered by at least one social protection cash benefit
+Proportion of children covered by social protection benefits: Proportion of children covered by social protection benefits
+Proportion of persons with disabilities receiving benefits: Proportion of persons with disabilities receiving benefits
+Proportion of workers covered in case of employment injury: Proportion of workers covered in case of employment injury
+Proportion of older persons receiving a pension: Proportion of older persons receiving a pension
+Proportion of vulnerable persons receiving benefits: Proportion of vulnerable persons receiving benefits
+Proportion of poor population receiving social assistance cash benefit: Proportion of poor population receiving social assistance cash benefit
+
 ## 1-4-1
 Basic services: Basic services
 Access to basic drinking water services: Access to basic drinking water services
@@ -169,6 +194,9 @@ Proportion of population covered by 5G: Proportion of population covered by 5G
 Proportion of population with access to electricity: Proportion of population with access to electricity
 Access to Basic Health Care Services: Access to Basic Health Care Services
 Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning satisfied with modern methods: Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning satisfied with modern methods
+Access to basic education: Access to basic education
+Access to basic waste collection services: Access to basic waste collection services
+Access to basic waste collection services (Proxy): Access to basic waste collection services (Proxy)
 
 ## 1-4-2
 Total: Total
@@ -302,7 +330,6 @@ Food insecure, moderate: Food insecure, moderate
 Food insecure, severe: Food insecure, severe
 
 ## 2-2-1
-Index: Index
 Biodiversity: Biodiversity
 Soil Quality: Soil Quality
 Water Quality: Water Quality
@@ -342,14 +369,22 @@ Risk mitigation mechanisms: Risk mitigation mechanisms
 Genetic resources for food and agriculture (GRFA): Genetic resources for food and agriculture (GRFA)
 Accessions of plant genetic resources secured in conservation facilities: Accessions of plant genetic resources secured in conservation facilities
 Local breeds stored in genebank: Local breeds stored in genebank
-Total Number: Total Number
+
+## 2-a-1
+Agriculture orientation index for government expenditures [2.a.1]: Agriculture orientation index for government expenditures
+Agriculture value added share of GDP: Agriculture value added share of GDP
+Agriculture share of Government Expenditure: Agriculture share of Government Expenditure
+
+## 2-a-2
+Measure: Measure
+Official Development Assistance: Official Development Assistance
+Other Official Flows (non Export Credit): Other Official Flows (non Export Credit)
 
 ## 2-b-1
 Butter: Butter
 Cheese: Cheese
 Other Milk Products: Other Milk Products
 Product: Product
-CAD$ (Thousands): CAD$ (Thousands)
 Skim Milk Powder: Skim Milk Powder
 Incorporated Products: Incorporated Products
 
@@ -814,7 +849,6 @@ Wholesale trade: Wholesale trade
 ## 6-4-1
 Land use category: Land use category
 Water quality: Water quality
-Percentage: Percentage
 Number of sites: Number of sites
 Atlantic Ocean: Atlantic Ocean
 Great Lakes and St. Lawrence River: Great Lakes and St. Lawrence River
@@ -1440,8 +1474,7 @@ Heat Event: Heat Event
 Event sub-type: Event sub-type
 
 # 13-3-1
-Number: Number
-Percentage: Percentage
+
 Core public infrastructure assets: Core public infrastructure assets
 Bridges and tunnels: Bridges and tunnels
 Culture, recreation and sports facilities: Culture, recreation and sports facilities
@@ -1521,7 +1554,6 @@ Population and distribution trends consistent with objectives: Population and di
 On track: On track
 Mixed evidence: Mixed evidence
 Not on track: Not on track
-Percentage (%): Percentage (%)
 Forest area net change rate: Forest area net change rate
 Forest area net change rate (Percentage): Forest area net change rate (Percentage)
 Above-ground biomass stock in forest: Above-ground biomass stock in forest
@@ -1565,7 +1597,6 @@ Men+: Men+
 Women+: Women+
 
 ## 16-2-1
-Index: Index
 Crime severity index: Crime severity index
 Violent crime severity index: Violent crime severity index
 Youth crime severity index: Youth crime severity index
@@ -1680,5 +1711,4 @@ Foreign Direct Investment (FDI) inflow: Foreign Direct Investment (FDI) inflow
 Total value of the supported investment projects : Total value of the supported investment projects 
 Number of projects: Number of projects
 Millions $ CAD: Millions $ CAD
-Number: Number
 Total value of the supported investment projects: Total value of the supported investment projects
