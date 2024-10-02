@@ -1305,6 +1305,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 "Canada",
                 "Atlantic provinces",
                 "Newfoundland and Labrador",
@@ -1352,12 +1355,59 @@
             }
           },
           {
+            "name": "Demographic characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Persons under 18 years",
+                "Persons 18 to 64 years",
+                "Persons 18 to 24 years",
+                "Persons 25 to 34 years",
+                "Persons 35 to 44 years",
+                "Persons 45 to 54 years",
+                "Persons 55 to 64 years",
+                "Persons 65 years and over",
+                "Males",
+                "Males, under 18 years",
+                "Males, 18 to 64 years",
+                "Males, 65 years and over",
+                "Females",
+                "Females, under 18 years",
+                "Females, 18 to 64 years",
+                "Females, 65 years and over",
+                "Visible minority population",
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Southeast Asian",
+                "Other visible minority",
+                "Not a visible minority",
+                "Indigenous population",
+                "Non-Indigenous population",
+                "Not a visible minority nor Indigenous",
+                "All persons aged 15 years and over",
+                "Indigenous population aged 15 years and over",
+                "First Nations aged 15 years and over",
+                "Métis aged 15 years and over",
+                "Non-Indigenous population aged 15 years and over",
+                "Immigrants aged 15 years and over",
+                "Recent immigrants (10 years or less) aged 15 years and over",
+                "Very recent immigrants (5 years or less) aged 15 years and over",
+                "Persons aged 15 years and over born in Canada",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Household food security status",
             "type": "string",
             "constraints": {
               "enum": [
-                "Food secure",
                 "Food insecure",
+                "Food secure",
                 "Food insecure, marginal",
                 "Food insecure, moderate",
                 "Food insecure, severe",
