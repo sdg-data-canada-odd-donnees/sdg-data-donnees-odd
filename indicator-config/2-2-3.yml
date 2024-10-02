@@ -17,12 +17,7 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: ''
-graph_titles:
-  - series: Prevalence of anaemia in women of reproductive age
-    title: Prevalence of anaemia in women of reproductive age (aged 15-49)
-  - series: Prevalence of anaemia in pregnant women
-    title: Prevalence of anaemia in pregnant women (aged 15-49)
+graph_title: chart.2-2-3-title
 graph_type: line
 indicator_name: global_indicators.2-2-3-title
 indicator_number: 2.2.3

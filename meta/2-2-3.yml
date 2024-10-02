@@ -1,26 +1,27 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition and
-  promote sustainable agriculture</p>'
-SDG_TARGET: '<p>Target 2.2: By 2030, end all forms of malnutrition, including achieving,
+SDG_GOAL: 'Goal 2: End hunger, achieve food security and improved nutrition and
+  promote sustainable agriculture'
+SDG_TARGET: 'Target 2.2: By 2030, end all forms of malnutrition, including achieving,
   by 2025, the internationally agreed targets on stunting and wasting in children
   under 5 years of age, and address the nutritional needs of adolescent girls, pregnant
-  and lactating women and older persons</p>'
-SDG_INDICATOR: '<p>Indicator 2.2.3: Prevalence of anaemia in women aged 15-49 years,
-  by pregnancy status (percentage)</p>'
+  and lactating women and older persons'
+SDG_INDICATOR: 'Indicator 2.2.3: Prevalence of anaemia in women aged 15-49 years,
+  by pregnancy status (percentage)'
 STAT_CONC_DEF: |
     Anaemia is defined as the prevalence of haemoglobin concentrations below 110 g/L for pregnant women and 120 g/L for non-pregnant women.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '    '
  
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
-  and promote sustainable agriculture</p>'
-SDG_TARGET__GLOBAL: '<p>Target 2.2: By 2030, end all forms of malnutrition, including
+SDG_GOAL__GLOBAL: 'Goal 2: End hunger, achieve food security and improved nutrition
+  and promote sustainable agriculture'
+SDG_TARGET__GLOBAL: 'Target 2.2: By 2030, end all forms of malnutrition, including
   achieving, by 2025, the internationally agreed targets on stunting and wasting in
   children under 5 years of age, and address the nutritional needs of adolescent girls,
-  pregnant and lactating women and older persons</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 2.2.3: Prevalence of anaemia in women aged 15-49
-  years, by pregnancy status (percentage)</p>'
+  pregnant and lactating women and older persons'
+SDG_INDICATOR__GLOBAL: 'Indicator 2.2.3: Prevalence of anaemia in women aged 15-49
+  years, by pregnancy status (percentage)'
+
 un_designated_tier: Tier I
 un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-03.pdf
@@ -40,3 +41,10 @@ source_url_2: https://www.who.int/data/gho/data/indicators/indicator-details/GHO
 source_organisation_2: World Health Organization (WHO)
 source_periodicity_2: Annual
 source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: Prevalence of anaemia in non-pregnant women (aged 15-49) (%)
+source_url_3: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/anaemia-in-non-pregnant-women-prevalence-(-)
+source_organisation_3: World Health Organization (WHO)
+source_periodicity_3: Annual
+source_geographical_coverage_3: Canada
