@@ -1,23 +1,29 @@
-SDG_GOAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition and
-  promote sustainable agriculture</p>'
-SDG_TARGET: '<p>Target 2.1: By 2030, end hunger and ensure access by all people, in
+SDG_GOAL: 'Goal 2: End hunger, achieve food security and improved nutrition and
+  promote sustainable agriculture'
+SDG_TARGET: 'Target 2.1: By 2030, end hunger and ensure access by all people, in
   particular the poor and people in vulnerable situations, including infants, to safe,
-  nutritious and sufficient food all year round</p>'
-SDG_INDICATOR: '<p>Indicator 2.1.1: Prevalence of undernourishment</p>'
-STAT_CONC_DEF: <p>The prevalence of undernourishment (PoU) is an estimate of the proportion
-  of the population whose habitual food consumption is insufficient to provide the
-  dietary energy levels that are required to maintain a normal active and healthy
-  life. It is expressed as a percentage.</p>
-DATA_COMP: '   '
-REC_USE_LIM: For each year, the observation represents the 3-year average of the previous year, the reference year, and the following year. For example, the observation for 2015 represents the 3-year average of the period 2014-2016. <br><br>
-             Starting from 2019, estimates are based on projected values. <br><br>
-             The data should show "<2.5". However, due to limitations, special symbols are omitted. 
-SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
-  and promote sustainable agriculture</p>'
-SDG_TARGET__GLOBAL: '<p>Target 2.1: By 2030, end hunger and ensure access by all people,
+  nutritious and sufficient food all year round'
+SDG_INDICATOR: 'Indicator 2.1.1: Prevalence of undernourishment'
+STAT_CONC_DEF: >
+  The prevalence of undernourishment (PoU) is an estimate of the proportion 
+  of the population whose habitual food consumption is insufficient to provide the 
+  dietary energy levels that are required to maintain a normal active and healthy 
+  life. It is expressed as a percentage.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: >
+  For each year, the observation represents the 3-year average of the previous year, the reference year, and the following year. For example, the observation for 2015 represents the 3-year average of the period 2014-2016.
+  <br><br>
+  Starting from 2019, estimates are based on projected values.
+  <br><br>
+  The data should show "< 2.5". However, due to limitations, special symbols are omitted. 
+
+SDG_GOAL__GLOBAL: 'Goal 2: End hunger, achieve food security and improved nutrition
+  and promote sustainable agriculture'
+SDG_TARGET__GLOBAL: 'Target 2.1: By 2030, end hunger and ensure access by all people,
   in particular the poor and people in vulnerable situations, including infants, to
-  safe, nutritious and sufficient food all year round</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 2.1.1: Prevalence of undernourishment</p>'
+  safe, nutritious and sufficient food all year round'
+SDG_INDICATOR__GLOBAL: 'Indicator 2.1.1: Prevalence of undernourishment'
+
 un_designated_tier: Tier I
 un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-01.pdf
@@ -25,9 +31,8 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    2.1.1 Prevalence of undernourishment (Primary series)
-source_url_1: https://de-public-statsuite.fao.org/vis?fs[0]=Domain%2C1%7CFood%20Security%20and%20Nutrition%23FOODS%23%7C2.1.1%20Hunger%23FOODS_SDG_G2_211%23&pg=0&fc=Domain&bp=true&snb=2&vw=tb&df[ds]=ds-release&df[id]=DF_SN_ITK_DEFC_211&df[ag]=FAO&df[vs]=1.0&pd=2015%2C&dq=A...124........&ly[rw]=REF_AREA&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false
+source_url_text_1: 2.1.1 Prevalence of undernourishment (Primary series)
+source_url_1: https://de-public-statsuite.fao.org/vis?pg=0&bp=true&snb=2&vw=tb&df[ds]=ds-release&df[id]=DF_SN_ITK_DEFC_211&df[ag]=FAO&df[vs]=1.0&pd=2015%2C&dq=A...124........&to[TIME_PERIOD]=false&lc=en
 source_organisation_1: Food and Agriculture Organization of the United Nations (FAO)
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
