@@ -1,3 +1,4 @@
+auto_progress_calculation: false
 computation_units: ''
 copyright: ''
 data_footnote: ''
@@ -25,7 +26,8 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-progress_calculation_options: ''
+progress_calculation_options:
+- direction: negative
 reporting_status: complete
 sort: ''
 standalone: false
