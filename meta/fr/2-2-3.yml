@@ -7,11 +7,11 @@ SDG_TARGET: 'Cible 2.2 : D’ici 2030, mettre fin à toutes les formes de malnut
   ans, et répondre aux besoins nutritionnels des adolescentes, des femmes enceintes
   ou allaitantes et des personnes âgées'
 SDG_INDICATOR: 'Indicateur 2.2.3 : Prévalence de l’anémie chez les femmes âgées
-  de 15 à 49 ans, selon l''état de grossesse (pourcentage)'
+  de 15 à 49 ans, selon l’état de grossesse (pourcentage)'
 STAT_CONC_DEF: |
     L'anémie est définie comme la prévalence des concentrations d'hémoglobine inférieures à 110 g / L pour les femmes enceintes et 120 g / L pour les femmes non enceintes.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: ''
+REC_USE_LIM: '    '
 
 # GLOBAL
 SDG_GOAL__GLOBAL: 'Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
