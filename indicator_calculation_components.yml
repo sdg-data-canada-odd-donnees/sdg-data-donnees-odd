@@ -515,7 +515,15 @@
 2-2-2:
   progress_status: not_available
 2-2-3:
-  progress_status: not_available
+  base_value: '9.3'
+  base_year: '2015'
+  current_value: '10.4'
+  current_year: '2019'
+  direction: negative
+  progress_calculation_value: '-0.028342056524340187'
+  progress_status: deterioration
+  target: None
+  target_year: '2030'
 2-3-1:
   base_value: '319872'
   base_year: '2016'
