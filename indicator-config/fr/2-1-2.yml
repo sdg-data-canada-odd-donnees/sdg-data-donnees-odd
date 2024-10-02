@@ -23,13 +23,15 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: Prévalence d'une insécurité alimentaire modérée ou grave
+graph_title: proxy.2-1-2-title
 graph_titles: []
 graph_type: line
-indicator_name: Prévalence d’une insécurité alimentaire modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle FIES)
+indicator_available: proxy.2-1-2-title
+indicator_name: global_indicators.2-1-2-title
 indicator_number: 2.1.2
 national_geographical_coverage: Canada
-page_content: ''
+page_content: |
+  Cet indicateur s'aligne sur les cadres suivants : Qualité de vie, <a href="https://www160.statcan.gc.ca/prosperity-prosperite/food-security-securite-alimentaire-fra.htm"><em>Sécurité alimentaire</em></a>
 permalink: ''
 precision: []
 progress_calculation_options:
