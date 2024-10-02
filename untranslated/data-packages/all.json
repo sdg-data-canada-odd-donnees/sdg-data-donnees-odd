@@ -7498,12 +7498,13 @@
             "type": "integer"
           },
           {
-            "name": "Series",
+            "name": "Population group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Prevalence of anaemia in women of reproductive age",
-                "Prevalence of anaemia in pregnant women",
+                "Women of reproductive age",
+                "Pregnant women only",
+                "Non-pregnant women only",
                 ""
               ]
             }
@@ -7516,6 +7517,7 @@
                 "Severe",
                 "Moderate",
                 "Mild",
+                "Total",
                 ""
               ]
             }
