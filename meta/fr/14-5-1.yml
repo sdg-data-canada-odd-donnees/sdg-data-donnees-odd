@@ -1,33 +1,21 @@
-SDG_GOAL: 'Objectif 14 : Conserver et exploiter de manière durable les océans,
-  les mers et les ressources marines aux fins du développement durable'
-SDG_TARGET: 'Cible 14.5 : D’ici à 2020, préserver au moins 10 pour cent des zones
-  marines et côtières, conformément au droit national et international et compte tenu
-  des meilleures informations scientifiques disponibles'
-SDG_INDICATOR: 'Indicateur 14.5.1 : Surface des aires marines protégées, en proportion
-  de la surface totale'
-STAT_CONC_DEF: >
-  L'indicateur Couverture des aires protégées par rapport aux aires marines montre les 
-  tendances temporelles du pourcentage moyen de chaque site important pour la 
-  biodiversité marine (c'est-à-dire ceux qui contribuent de manière significative à la 
-  persistance de la biodiversité mondiale) qui est couvert par des aires protégées 
-  désignées.
-DATA_COMP: >
+SDG_GOAL: 'Objectif 14 : Conserver et exploiter de manière durable les océans, les mers et les ressources marines aux fins du développement durable'
+SDG_TARGET: 'Cible 14.5 : D’ici à 2020, préserver au moins 10 pour cent des zones marines et côtières, conformément au droit national et international et compte tenu des meilleures informations scientifiques disponibles'
+SDG_INDICATOR: 'Indicateur 14.5.1 : Surface des aires marines protégées, en proportion de la surface totale'
+STAT_CONC_DEF: >-
+  L'indicateur Couverture des aires protégées par rapport aux aires marines montre les tendances temporelles du pourcentage moyen de chaque site important pour la biodiversité marine (c'est-à-dire ceux qui contribuent de manière significative à la persistance de la biodiversité mondiale) qui est couvert par des aires protégées désignées.
+DATA_COMP: >-
   On estime la superficie conservée au moyen d'une analyse géographique fondée sur les limites déclarées, en tenant compte des chevauchements. <em>(ECCC)</em>
   <br><br>
   Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
-REC_USE_LIM: >
+REC_USE_LIM: >-
   L'accès aux terres ou à l'eau et leur utilisation à l'intérieur d'une aire conservée sont restreints, principalement dans le but de conserver la nature (par exemple, un parc, une aire de conservation ou une réserve faunique). D'autres mesures de conservation efficaces par zone sont également gérées à long terme de manière à assurer la conservation efficace de la biodiversité. Cependant, les aires de conservation peuvent avoir été établies à d'autres fins. Dans certains cas, certaines activités commerciales et l'exploitation de ressources biologiques peuvent être permises tant qu'il n'y ait pas d'impact négatif majeur sur les objectifs de conservation de l'aire.
   <br><br>
   Les tendances sont estimées en fonction de la date à laquelle un site a été établi, plutôt que de la date à laquelle il a été reconnu comme une aire protégée ou une autre mesure de conservation efficace par zone (AMCEZ). Ainsi, les totaux d'une année précédente peuvent changer à mesure que les données sont mises à jour.
   <br><br>
   Les données sont régulièrement révisées et mises à jour. L'exhaustivité de la base de données est constamment améliorée à mesure que les aires conservées existantes sont examinées et ajoutées à la base de données, le cas échéant. <em>(ECCC)</em>
-SDG_GOAL__GLOBAL: 'Objectif 14 : Conserver et exploiter de manière durable les
-  océans, les mers et les ressources marines aux fins du développement durable'
-SDG_TARGET__GLOBAL: 'Cible 14.5 : D’ici à 2020, préserver au moins 10 pour cent
-  des zones marines et côtières, conformément au droit national et international et
-  compte tenu des meilleures informations scientifiques disponibles'
-SDG_INDICATOR__GLOBAL: 'Indicateur 14.5.1 : Surface des aires marines protégées,
-  en proportion de la surface totale'
+SDG_GOAL__GLOBAL: 'Objectif 14 : Conserver et exploiter de manière durable les océans, les mers et les ressources marines aux fins du développement durable'
+SDG_TARGET__GLOBAL: 'Cible 14.5 : D’ici à 2020, préserver au moins 10 pour cent des zones marines et côtières, conformément au droit national et international et compte tenu des meilleures informations scientifiques disponibles'
+SDG_INDICATOR__GLOBAL: 'Indicateur 14.5.1 : Surface des aires marines protégées, en proportion de la surface totale'
 
 un_designated_tier: Niveau I
 un_custodian_agency: UN Environment World Conservation Monitoring Centre (UNEP-WCMC), BirdLife International (BLI), International Union for Conservation of Nature (IUCN)
@@ -38,9 +26,9 @@ reporting_status: complete
 
 # SOURCE(S)
 source_active_1: true
-source_url_text_1: "Environnement et Changement climatique Canada. Aires conservées au Canada"
+source_url_text_1: "Programme des Indicateurs canadiens de durabilité de l’environnement, Aires conservées au Canada"
 source_url_1: 'https://www.canada.ca/fr/environnement-changement-climatique/services/indicateurs-environnementaux/aires-conservees.html'
-source_organisation_1: "Environnement et Changement climatique Canada"
+source_organisation_1: Environnement et Changement climatique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
 

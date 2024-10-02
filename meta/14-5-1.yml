@@ -5,18 +5,18 @@ SDG_TARGET: 'Target 14.5: By 2020, conserve at least 10 per cent of coastal and
   available scientific information'
 SDG_INDICATOR: 'Indicator 14.5.1: Coverage of protected areas in relation to marine
   areas'
-STAT_CONC_DEF: >
+STAT_CONC_DEF: >-
   This indicator measures the proportion of Canada's marine area that is conserved. 
   Conserved areas are lands and waters where human use is limited. They include protected 
   areas as well as other effective area-based conservation measures. <em>Environment and 
   Climate Change Canada (ECCC)</em>
-DATA_COMP: >
+DATA_COMP: >-
   The area conserved is estimated by means of a geographical analysis based on reported 
   boundaries, accounting for overlaps. <em>(ECCC)</em>
   <br><br>
   Data were readily available to report to this indicator as specified by the metadata. 
   Please refer to the sources to access additional information on the metadata or source.
-REC_USE_LIM: >
+REC_USE_LIM: >-
   Land and/or water access and use within protected areas are controlled primarily for the 
   purpose of conserving nature (for example, a park, a conservation area or a wildlife 
   reserve). Other effective area-based conservation measures are also managed over the long 
@@ -30,7 +30,7 @@ REC_USE_LIM: >
   Comparisons with previous reports should be made with caution, as data quality and 
   completeness continue to improve. Privately protected land and other effective area-based 
   conservation measures contribute to achievement of Canada's targets, but many are not yet 
-  captured within the database. <em>(ECCC)</em>"
+  captured within the database. <em>(ECCC)</em>
 SDG_GOAL__GLOBAL: 'Goal 14: Conserve and sustainably use the oceans, seas and marine
   resources for sustainable development'
 SDG_TARGET__GLOBAL: 'Target 14.5: By 2020, conserve at least 10 per cent of coastal
@@ -49,7 +49,7 @@ reporting_status: complete
 
 # SOURCE(S)
 source_active_1: true
-source_url_text_1: "Environment and Climate Change Canada. Canada's conserved areas, Canadian Environmental Sustainability Indicators"
+source_url_text_1: Canadian Environmental Sustainability Indicators, Canada's conserved areas
 source_url_1: 'https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/conserved-areas.html'
 source_organisation_1: Environment and Climate Change Canada (ECCC)
 source_periodicity_1: Annual
