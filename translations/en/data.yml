@@ -20,6 +20,10 @@ Number: Number
 Total Number: Total Number
 Percentage: Percentage
 Percentage (%): Percentage (%)
+Rate per 100,000: Rate per 100,000
+Rate per 1,000,000: Rate per 1,000,000
+Rate per 1,000 population: Rate per 1,000 population
+Rate per 100,000 population: Rate per 100,000 population
 Index: Index
 CAD (Thousands): CAD (Thousands)
 US dollar, Millions, 2022 constant prices: US dollar, Millions, 2022 constant prices
@@ -239,7 +243,7 @@ Basic education: Basic education
 Basic health: Basic health
 Water supply and sanitation: Water supply and sanitation
 Multisector aid for basic social services: Multisector aid for basic social services
-Development food aid: Development food aid
+Development food assistance: Development food assistance
 Poverty reduction aid type: Poverty reduction aid type
 
 ## 1-3-1
@@ -440,7 +444,6 @@ Diseases of heart: Diseases of heart
 Influenza and pneumonia: Influenza and pneumonia
 Acute bronchitus and bronchiolitis: Acute bronchitus and bronchiolitis
 Chronic lower respiratory diseases: Chronic lower respiratory diseases
-Rate per 100,000: Rate per 100,000
 
 ## 3-6-1
 All ages: All ages
@@ -556,7 +559,6 @@ Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (unintentional 
 Intentional self-harm (suicide) [X60-X84, Y87.0]: Intentional self-harm (suicide)
 
 ## 3-12-1
-Rate per 100,000 population: Rate per 100,000 population
 Type of event: Type of event
 Apparent opioid toxicity deaths: Apparent opioid toxicity deaths
 Opioid-related poisoning hospitalizations: Opioid-related poisoning hospitalizations
@@ -1145,9 +1147,6 @@ Natural sciences and engineering: Natural sciences and engineering
 Social sciences, humanities and the arts: Social sciences, humanities and the arts
 Science type: Science type
 
-## 9-5-2
-Rate per 1,000,000: Rate per 1,000,000
-
 ## 9-7-1
 Type of charging stations: Type of charging stations
 Electric: Electric
@@ -1430,7 +1429,6 @@ Tourism Satellite Account (TSA): Tourism Satellite Account (TSA)
 System of Environmental Economic Accounting (SEEA): System of Environmental Economic Accounting (SEEA)
 
 ## 13-1-1
-Rate per 100,000 population: Rate per 100,000 population
 Type of natural disaster: Type of natural disaster
 Meteorological - Flood: Meteorological - Flood
 Meteorological - Heat Event: Meteorological - Heat Event
@@ -1579,7 +1577,6 @@ Public sector components: Public sector components
 
 ## 16-1-3
 Rate of incidents per 1,000 population 15 years of age and older: Rate of incidents per 1,000 population 15 years of age and older
-Rate per 1,000 population: Rate per 1,000 population
 
 ## 16-1-4
 Demographic: Demographic
