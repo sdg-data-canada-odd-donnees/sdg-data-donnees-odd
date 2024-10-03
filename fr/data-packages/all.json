@@ -2040,7 +2040,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux par 100 000 habitants",
+                "Taux par 100 000 personnes",
                 "Nombre",
                 ""
               ]
@@ -3932,7 +3932,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux par 100 000 habitants",
+                "Taux par 100 000 personnes",
                 "Nombre",
                 ""
               ]
@@ -7019,7 +7019,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux par 100 000 habitants",
+                "Taux par 100 000 personnes",
                 "Nombre",
                 ""
               ]
@@ -7527,9 +7527,9 @@
               "enum": [
                 "Éducation de base",
                 "Santé de base",
-                "Approvisionnement en eau et assainissement",
-                "Aide multisectorielle pour les services sociaux de base",
-                "Aide alimentaire au développement",
+                "Distribution d'eau et assainissement",
+                "Aide alimentaire dévelopmentale",
+                "Aide plurisectorielle pour les services sociaux de base",
                 ""
               ]
             },
