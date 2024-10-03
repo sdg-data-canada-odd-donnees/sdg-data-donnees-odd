@@ -10,11 +10,13 @@ STAT_CONC_DEF: >-
   Les éléments de réduction de la pauvreté peuvent être définis comme l'APD aux services sociaux de base (santé de base, éducation de base, eau et assainissement de base, programmes de population et santé reproductive) et l'aide alimentaire dévelopmentale.
   <br><br>
   Les services sociaux de base et l'aide alimentaire dévelopmentale, qui sont axés sur la réduction de la pauvreté, sont définis à l'aide des codes d'objectif suivants du Système de notification des pays créanciers de l'OCDE, qui identifient le secteur que l'activité est censée cibler :
-  <br>* Éducation de base (codes SNPC 112xx)
-  <br>* Santé de base (codes SNPC 122xx)
-  <br>* Distribution d'eau et assainissement (codes SNPC 140xx)
-  <br>* Aide plurisectorielle pour les services sociaux de base (code SNPC 16050)
-  <br>* Aide alimentaire dévelopmentale (codes SNPC 520xx)
+  <ul>
+    <li>Éducation de base (codes SNPC 112xx)</li>
+    <li>Santé de base (codes SNPC 122xx)</li>
+    <li>Distribution d'eau et assainissement (codes SNPC 140xx)</li>
+    <li>Aide plurisectorielle pour les services sociaux de base (code SNPC 16050)</li>
+    <li>Aide alimentaire dévelopmentale (codes SNPC 520xx)</li>
+  </ul>
 DATA_COMP: >-
   Le total des dons d'aide publique au développement axées sur la réduction de la pauvreté est calculé en proportion du revenu national brut (RNB) du Canada, conformément aux rapports des autres pays.
   <br><br>
