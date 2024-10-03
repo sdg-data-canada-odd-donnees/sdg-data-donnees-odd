@@ -10,7 +10,7 @@ STAT_CONC_DEF: <p>The indicator of food price anomalies (IFPA) identifies market
   evaluates growth in prices over a particular month over many years, taking into
   account seasonality in agricultural markets and inflation, allowing to answer the
   question of whether or not a change in price is abnormal for any particular period.</p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
