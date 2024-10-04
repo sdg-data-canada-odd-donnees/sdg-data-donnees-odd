@@ -1,31 +1,55 @@
+# National
 SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
 SDG_TARGET: '<p>Target 1.5: By 2030, build the resilience of the poor and those in vulnerable
   situations and reduce their exposure and vulnerability to climate-related extreme
   events and other economic, social and environmental shocks and disasters</p>'
 SDG_INDICATOR: '<p>Indicator 1.5.2: Direct economic loss attributed to disasters in
-  relation to global gross domestic product (GDP)</p>'
-STAT_CONC_DEF: '<strong>Definition:</strong><br> This indicator measures the ratio of direct economic loss attributed to disasters in relation to GDP. <br><br> <strong>Concepts:</strong> <br>Economic Loss: Total economic impact that consists of direct economic loss and indirect economic loss.<br><br> Direct economic loss: the monetary value of total or partial destruction of physical assets existing in the affected area. Direct economic loss is nearly equivalent to physical damage.<br><br> Indirect economic loss: a decline in economic value added as a consequence of direct economic loss and/or human and environmental impacts.
-  <br><br> The Canadian Disaster Database (CDD) tracks significant disaster events that conform to the Emergency Management Framework for Canada definition of a disaster and meet one or more of the following criteria: <br>
-    - 10 or more people killed; <br>
-    - 100 or more people affected/injured/infected/evacuated or homeless; <br>
-    - an appeal for national/international assistance; <br>
-    - historical significance; <br>
-    - significant damage/interruption of normal processes such that the community affected cannot recover on its own. (Public Safety Canada)'
-DATA_COMP: 'Direct economic loss attributed to disasters in relation to gross domestic product (GDP) (in %) = (Total cost per year / GDP) * 100'
-REC_USE_LIM: 'It is important to note that the Canadian Disaster Database may not be suitable for comparative analysis because of differences in jurisdictional responsibilities, the type of data that is available, and how it is collected and used over time.
-  <br><br> The information contained in the Canadian Disaster Database is based on information that is sourced from outside parties and may not be accurate and should therefore be interpreted with caution. (Public Safety Canada)'
+  relation to gross domestic product (GDP)</p>'
+STAT_CONC_DEF: >-
+  <p><strong>Definition:</strong><br>
+  This indicator measures the ratio of direct economic loss attributed to disasters in relation to gross domestic product (GDP).</p>
+  <p><strong>Concepts:</strong><br>
+  Economic Loss: Total economic impact that consists of direct economic loss and indirect economic loss.
+  <br><br>
+  Direct economic loss: the monetary value of total or partial destruction of physical assets existing in the affected area. Direct economic loss is nearly equivalent to physical damage.
+  <br><br>
+  Indirect economic loss: a decline in economic value added as a consequence of direct economic loss and/or human and environmental impacts.</p>
+  <p>The Canadian Disaster Database (CDD) tracks significant disaster events that conform to the Emergency Management Framework for Canada definition of a disaster and meet one or more of the following criteria:</p>
+  <ul>
+  <li>10 or more people killed;</li>
+  <li>100 or more people affected/injured/infected/evacuated or homeless;</li>
+  <li>an appeal for national/international assistance;</li>
+  <li>historical significance;</li>
+  <li>significant damage/interruption of normal processes such that the community affected cannot recover on its own. (Public Safety Canada)</li>
+  </ul>
+DATA_COMP: >-
+  Direct economic loss attributed to disasters is calculated as a percentage of the gross domestic product (GDP) in current prices: 
+  <br>
+  Direct economic loss attributed to disasters / GDP in current prices × 100
+REC_USE_LIM: >-
+  This is a proxy indicator that measures direct economic loss attributed to disasters in relation to Canada's gross domestic product (GDP) whereas the UN Global indicator states: "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)".
+  <br><br>
+  It is important to note that the Canadian Disaster Database may not be suitable for comparative analysis because of differences in jurisdictional responsibilities, the type of data that is available, and how it is collected and used over time.
+  <br><br>
+  The information contained in the Canadian Disaster Database is based on information that is sourced from outside parties and may not be accurate and should therefore be interpreted with caution. (Public Safety Canada)
+
+proxy: proxy
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
 SDG_TARGET__GLOBAL: '<p>Target 1.5: By 2030, build the resilience of the poor and those in
   vulnerable situations and reduce their exposure and vulnerability to climate-related
   extreme events and other economic, social and environmental shocks and disasters</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 1.5.2: Direct economic loss attributed to disasters
   in relation to global gross domestic product (GDP)</p>'
+
 un_designated_tier: Tier II
 un_custodian_agency: United Nations International Strategy for Disaster Reduction
   (UNISDR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: |
     Public Safety Canada. The Canadian Disaster Database
