@@ -1,15 +1,19 @@
-SDG_GOAL: global_goals.1-2-2-title
-SDG_TARGET: global_targets.1-2-title
-SDG_INDICATOR: global_indicators.1-2-2-title
+SDG_GOAL: "Goal 1: End poverty in all its forms everywhere"
+SDG_TARGET: >-
+  Target 1.2: By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions
+SDG_INDICATOR: >-
+  Indicator 1.2.2: Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions
 
 STAT_CONC_DEF: 'This indicator measures the proportion of men, women and children of all
   ages living in poverty in all its dimensions according to national definitions.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 
-SDG_GOAL__GLOBAL: global_goals.1-2-2-title
-SDG_TARGET__GLOBAL: global_targets.1-2-title
-SDG_INDICATOR__GLOBAL: global_indicators.1-2-2-title
+SDG_GOAL__GLOBAL: "Goal 1: End poverty in all its forms everywhere"
+SDG_TARGET__GLOBAL: >-
+  Target 1.2: By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 1.2.2: Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions
 
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Children's Fund (UNICEFF), World Bank (WB), United
