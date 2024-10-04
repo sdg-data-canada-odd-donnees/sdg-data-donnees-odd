@@ -4933,12 +4933,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tourism Satellite Account Tables (TSA)",
-                "System of Environmental Economic Accounting Tables (SEEA)",
+                "Tableaux du Compte satellite du tourisme",
+                "Tableaux du Système de comptabilité économique et environnementale",
                 ""
               ]
             },
-            "title": "Standard Accounting Tools"
+            "title": "Outils de comptabilité standards"
           },
           {
             "name": "Value",
@@ -9676,7 +9676,7 @@
           }
         ]
       },
-      "title": "Puissance installée du parc d’énergie renouvelable dans les pays en développement (en watts par habitant)(identique à l’indicateur proposé en remplacement de l’indicateur 7.b.1 ci-dessus)"
+      "title": "Puissance installée du parc d’énergie renouvelable dans les pays en développement (en watts par habitant)"
     },
     {
       "path": "13-b-1/data.csv",

@@ -20,12 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tourism Satellite Account Tables (TSA)",
-                "System of Environmental Economic Accounting Tables (SEEA)",
+                "Tableaux du Compte satellite du tourisme",
+                "Tableaux du Système de comptabilité économique et environnementale",
                 ""
               ]
             },
-            "title": "Standard Accounting Tools"
+            "title": "Outils de comptabilité standards"
           },
           {
             "name": "Value",
