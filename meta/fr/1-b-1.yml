@@ -6,7 +6,9 @@ SDG_TARGET: |
   problématique hommes-femmes, afin d’accélérer l’investissement dans des mesures d’élimination 
   de la pauvreté.
 SDG_INDICATOR: '<p>Indicateur 1.b.1  : Dépenses sociales publiques favorables aux pauvres</p>'
-STAT_CONC_DEF: '    '
+STAT_CONC_DEF: |
+  <strong>Définition :</strong><br>Proportion des dépenses publiques qui bénéficient directement aux pauvres en termes monétaires dans les domaines de la santé, de l'éducation et des transferts directs. Les dépenses gouvernementales mesurent les dépenses publiques consacrées aux services de santé et d'éducation. Les transferts directs se réfèrent aux transferts en espèces et aux transferts quasi-espèces. La définition des pauvres monétaires suit les normes nationales, les niveaux de pauvreté étant déterminés par la définition nationale de la pauvreté monétaire ou de la pauvreté de consommation (conformément à l'ODD 1.2.1).
+  <br><br><strong>Concepts :</strong><br>Proportion des dépenses publiques : Dépenses des gouvernements pour la santé, l'éducation et les transferts directs (transferts monétaires et quasi monétaires).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout
