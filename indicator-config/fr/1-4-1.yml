@@ -10,6 +10,8 @@ data_non_statistical: false
 data_show_map: false
 data_start_values:
 - field: Series
+  value: Access to basic drinking water services
+- field: Series
   value: Access to basic mobility
 - field: Basic services
   value: Proportion of population within 500 metres of a public transit stop
