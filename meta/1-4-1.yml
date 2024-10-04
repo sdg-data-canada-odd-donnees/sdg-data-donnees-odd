@@ -26,7 +26,7 @@ STAT_CONC_DEF: |
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/11-2-1/">Indicator 11.2.1</a>
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/11-6-1/">Indicator 11.6.1</a>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: '   '
+REC_USE_LIM: 'Access to basic waste collection system is measured via the proxy series "Total amount of waste sent to disposal via the waste management industry". The UN Global series uses indicator 11.6.1 "Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities”.'
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
 SDG_TARGET__GLOBAL: '<p>Target 1.4: By 2030, ensure that all men and women, in particular
   the poor and the vulnerable, have equal rights to economic resources, as well as
@@ -48,11 +48,11 @@ proxy_series:
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: Trends in drinking water and sanitation service levels, 2000-2022
-source_url_1: https://washdata.org/
-source_organisation_1: Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP)
-source_geographical_coverage_1: Canada
+source_url_text_1: "JMP global database"
+source_url_1: https://washdata.org/data/household#!/can
+source_organisation_1: WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP)
 source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: |
