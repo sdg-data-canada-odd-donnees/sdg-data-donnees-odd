@@ -1,7 +1,8 @@
 # National
 SDG_GOAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
 SDG_TARGET: "<p>Cible 1.5 : D’ici à 2030, renforcer la résilience des pauvres et des personnes en situation vulnérable et réduire leur exposition aux phénomènes climatiques extrêmes et à d’autres chocs et catastrophes d’ordre économique, social ou environnemental et leur vulnérabilité</p>"
-SDG_INDICATOR: '<p>Indicateur 1.5.2 : Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut (PIB)'
+SDG_INDICATOR: >-
+  Indicateur 1.5.2 : Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut (PIB)
 STAT_CONC_DEF: >-
   <p>strong>Définition :</strong><br>
   Cet indicateur mesure les pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB).
@@ -34,10 +35,11 @@ proxy: proxy
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
 SDG_TARGET__GLOBAL: "<p>Cible 1.5 : D’ici à 2030, renforcer la résilience des pauvres et des personnes en situation vulnérable et réduire leur exposition aux phénomènes climatiques extrêmes et à d’autres chocs et catastrophes d’ordre économique, social ou environnemental et leur vulnérabilité</p>"
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.5.2 : Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB)'
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 1.5.2 : Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB)
 
-un_designated_tier: Niveau II
-un_custodian_agency: Stratégie internationale de prévention des catastrophes de l’Organisation des Nations Unies (UNISDR)
+un_designated_tier: Niveau I
+un_custodian_agency: Bureau des Nations Unies pour la réduction des risques des catastrophes (UNDRR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
@@ -51,7 +53,7 @@ source_geographical_coverage_1: Canada, région géographique du Canada, provinc
 
 source_active_2: 'true'
 source_url_text_2: >-
-    Statistique Canada. Tableau 36-10-0222-01  Produit intérieur brut, en termes de dépenses, provinciaux et territoriaux, annuel (x 1 000 000)
+  Statistique Canada. Tableau 36-10-0222-01  Produit intérieur brut, en termes de dépenses, provinciaux et territoriaux, annuel (x 1 000 000)
 source_organisation_2: Statistique Canada
 source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada
