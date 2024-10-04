@@ -4,18 +4,15 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   Indicator 1.a.1: Total official development assistance (ODA) grants from all donors that focus on poverty reduction as a share of the recipient country's gross national income.
 STAT_CONC_DEF: >-
-  The OECD/Development Assistance Committee (DAC) defines ODA as "flows to countries and territories on the DAC List of ODA Recipients and to multilateral institutions which are i) provided by official agencies, including state and local governments, or by their executive agencies; and ii) each transaction is administered with the promotion of the economic development and welfare of developing countries as its main objective; and is concessional in character and conveys a grant element of at least 25 per cent (calculated at a rate of discount of 10 per cent)". (See <a href="https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>).
-  <br><br>
-  Poverty reduction items can be defined as ODA to basic social services (basic health, basic education, basic water and sanitation, population programmes and reproductive health) and developmental food aid.
-  <br><br>
-  Basic social services and development food aid, which focus on poverty reduction, are defined using the following OECD Creditor Reporting System purpose codes, which identify the sector the activity is intended to target:
-  <br>
+  <p>The OECD/Development Assistance Committee (DAC) defines ODA as "flows to countries and territories on the DAC List of ODA Recipients and to multilateral institutions which are i) provided by official agencies, including state and local governments, or by their executive agencies; and ii) each transaction is administered with the promotion of the economic development and welfare of developing countries as its main objective; and is concessional in character and conveys a grant element of at least 25 per cent (calculated at a rate of discount of 10 per cent)". (See <a href="https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>).</p>
+  <p>Poverty reduction items can be defined as ODA to basic social services (basic health, basic education, basic water and sanitation, population programmes and reproductive health) and developmental food aid.</p>
+  <p>Basic social services and development food aid, which focus on poverty reduction, are defined using the following OECD Creditor Reporting System purpose codes, which identify the sector the activity is intended to target:</p>
   <ul>
-    <li>Basic Education (CRS codes 112xx)</li>
-    <li>Basic Health (CRS codes 122xx)</li>
-    <li>Water Supply and Sanitation (CRS codes 140xx)</li>
-    <li>Multisector aid for basic social services (CRS code 16050)</li>
-    <li>Development Food Aid (CRS codes 520xx)</li>
+  <li>Basic Education (CRS codes 112xx)</li>
+  <li>Basic Health (CRS codes 122xx)</li>
+  <li>Water Supply and Sanitation (CRS codes 140xx)</li>
+  <li>Multisector aid for basic social services (CRS code 16050)</li>
+  <li>Development Food Aid (CRS codes 520xx)</li>
   </ul>
 DATA_COMP: >-
   The total of official development assistance grants that focus on poverty reduction is calculated as a proportion of Canada's gross national income (GNI), in line with other countries' reporting.
