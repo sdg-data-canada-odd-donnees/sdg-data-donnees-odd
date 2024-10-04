@@ -37,9 +37,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion de la population utilisant les services d’eau potable de base",
-                "Proportion de la population utilisant les services d’assainissement de base",
-                "Proportion de la population qui dépend principalement des combustibles et des technologies propres",
                 "Proportion de la population rurale vivant à moins de 2 km d’une route praticable toute l’année",
                 "Proportion de la population située dans un rayon de 500 mètres d’un arrêt de transport en commun",
                 "Proportion de la population couverte par l’accès haute vitesse évolué par paquets (HSPA+)",
