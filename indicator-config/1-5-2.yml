@@ -16,10 +16,10 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-5-2-title
+graph_title: proxy.1-5-2-title
 graph_titles: []
 graph_type: line
-indicator_name: global_indicators.1-5-2-title
+indicator_name: proxy.1-5-2-title
 indicator_number: 1.5.2
 national_geographical_coverage: Canada
 page_content: ''
@@ -30,5 +30,6 @@ progress_calculation_options:
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+  - Proxy
 "\xEF\xBB\xBFcomposite_breakdown_label": ''
