@@ -8,7 +8,7 @@ SDG_TARGET: '<p>Target 11.b: By 2020, substantially increase the number of citie
 SDG_INDICATOR: '<p>Indicator 11.b.2: Local governments that adopted and implemented local disaster risk reduction strategies in line with national disaster risk reduction strategies</p>'
 STAT_CONC_DEF: 'This indicator informs on local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies.'
 DATA_COMP: '     '
-REC_USE_LIM: '   '
+REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: “Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies”.'
 SDG_GOAL__GLOBAL: '<p>Goal: 11: Make cities inclusive, safe, resilient, and sustainable</p>'
 SDG_TARGET__GLOBAL: '<p>Target 11.b: By 2020, substantially increase the number of cities and 
   human settlements adopting and implementing integrated policies and plans towards 
@@ -34,7 +34,7 @@ source_geographical_coverage_1: British Columbia
 source_active_2: 'true'
 source_url_text_2: |
     Gouvernement of Quebec. Politique québécoise de sécurité civile 2014-2024 (French Only)
-source_url_2: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
+source_url_2: https://www.quebec.ca/gouvernement/ministere/securite-publique/publications/politique-quebecoise-securite-civile-2014-2024
 source_organisation_2: Gouvernement of Quebec
 source_geographical_coverage_2: Quebec
 

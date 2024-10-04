@@ -8,9 +8,9 @@ SDG_TARGET: '<p>Cible 11.b : D’ici à 2020, accroître nettement le nombre d
   au Cadre de Sendai pour la réduction des risques de catastrophe (2015‐2030), une gestion 
   globale des risques de catastrophe à tous les niveaux</p>'
 SDG_INDICATOR: '<p>Indicateur 11.b.2 : Administrations locales ayant adopté et mis en place des stratégies locales de réduction des risques de catastrophe, conformément aux stratégies suivies à l’échelle nationale</p>'
-STAT_CONC_DEF: "Cet indicateur informe sur les administrations locales ayant adopté et mis en place des stratégies locales de réduction des risques de catastrophe, conformément au Cadre de Sendai pour la réduction des risques de catastrophe (2015‐2030)."
+STAT_CONC_DEF: "Cet indicateur informe sur les administrations locales ayant adopté et mis en place des stratégies locales de réduction des risques de catastrophe, conformément aux stratégies suivies à l’échelle nationale."
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: 'Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : “Proportion d’administrations locales ayant adopté et mis en place des stratégies locales de réduction des risques de catastrophe, conformément aux stratégies suivies à l’échelle nationale”.'
 SDG_GOAL__GLOBAL: '<p>Objectif 11 : Faire en sorte que les villes et les établissements
   humains soient ouverts à tous, sûrs, résilients et durables</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 11.b : D’ici à 2020, accroître nettement le nombre de villes et 
@@ -33,8 +33,16 @@ reporting_status: complete
 
 source_active_1: 'true'
 source_url_text_1: |
-    Sécurité publique Canada. Stratégie de sécurité civile pour le Canada : Vers un 2030 marqué par la résilience
-source_url_1: https://www.securitepublique.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-fr.aspx
-source_organisation_1: Sécurité publique Canada
+    Gouvernement de la Colombie-Britannique. Modernizing BC’s Emergency Management Legislation (En anglais seulement)
+source_url_1: https://www2.gov.bc.ca/gov/content/safety/emergency-management/emergency-management/legislation-and-regulations
+source_organisation_1: Gouvernement de la Colombie-Britannique
+source_geographical_coverage_1: Colombie-Britannique
+
+source_active_2: 'true'
+source_url_text_2: |
+    Gouvernement du Québec. Politique québécoise de sécurité civile 2014-2024 (En français seulement)
+source_url_2: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
+source_organisation_2: Gouvernement du Québec
+source_geographical_coverage_2: Québec
 
 proxy: proxy

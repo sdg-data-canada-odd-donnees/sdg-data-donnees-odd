@@ -1,9 +1,9 @@
 SDG_GOAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
 SDG_TARGET: "<p>Cible 1.5 : D’ici à 2030, renforcer la résilience des pauvres et des personnes en situation vulnérable et réduire leur exposition aux phénomènes climatiques extrêmes et à d’autres chocs et catastrophes d’ordre économique, social ou environnemental et leur vulnérabilité</p>"
 SDG_INDICATOR:  '<p>Indicateur 1.5.4 : Administrations locales ayant adopté et mis en place des stratégies locales de réduction des risques de catastrophe, conformément aux stratégies suivies à l’échelle nationale'
-STAT_CONC_DEF: "Cet indicateur informe sur les administrations locales ayant adopté et mis en place des stratégies locales de réduction des risques de catastrophe, conformément au Cadre de Sendai pour la réduction des risques de catastrophe (2015‐2030)."
+STAT_CONC_DEF: "Cet indicateur informe sur les administrations locales ayant adopté et mis en place des stratégies locales de réduction des risques de catastrophe, conformément aux stratégies suivies à l’échelle nationale."
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: 'Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : “Proportion d’administrations locales ayant adopté et mis en place des stratégies locales de réduction des risques de catastrophe, conformément aux stratégies suivies à l’échelle nationale”.'
 SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
 SDG_TARGET__GLOBAL: "<p>Cible 1.5 : D’ici à 2030, renforcer la résilience des pauvres et des personnes en situation vulnérable et réduire leur exposition aux phénomènes climatiques extrêmes et à d’autres chocs et catastrophes d’ordre économique, social ou environnemental et leur vulnérabilité</p>"
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.5.4 : Proportion d’administrations locales ayant adopté et mis en place des stratégies locales de réduction des risques de catastrophe, conformément aux stratégies suivies à l’échelle nationale'
@@ -25,7 +25,7 @@ source_url_text_2: |
     Gouvernement du Québec. Politique québécoise de sécurité civile 2014-2024 (En français seulement)
 source_url_2: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
 source_organisation_2: Gouvernement du Québec
-source_geographical_coverage_2: Quebec
+source_geographical_coverage_2: Québec
 
 reporting_status: complete
 
