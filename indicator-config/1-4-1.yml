@@ -11,26 +11,16 @@ data_show_map: false
 data_start_values:
 - field: Series
   value: Access to basic drinking water services
-- field: Series
-  value: Access to basic mobility
 - field: Basic services
   value: Proportion of population within 500 metres of a public transit stop
-- field: Series
-  value: Access to basic waste collection services
 - field: Geography
   value: Canada
 - field: Sources of waste disposal
   value: All sources of waste for disposal
-- field: Series
-  value: Access to basic education
-- field: Basic services
+- field: Proficiency level
   value: Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
 - field: Sex
   value: Total
-- field: Series
-  value: Access to basic information services
-- field: Basic services
-  value: Proportion of population covered by Evolved High-Speed Packet Access (HSPA+)
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
