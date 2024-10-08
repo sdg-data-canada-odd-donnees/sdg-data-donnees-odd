@@ -1,7 +1,7 @@
 Indicator,Disaggregations,Number of disaggregations
 #1-2-1,"Geography, Persons in low income",2
 #1-3-1,Geography,1
-#1-4-1,"Geography, Sex, Basic services, Proficiency level, Sources of waste for disposal",5
+#1-4-1,"Geography, Sex, Proficiency level, Basic services, Sources of waste for disposal",5
 #1-5-1,Type of natural disaster,1
 #1-5-2,Type of natural disaster,1
 #1-a-1,Poverty reduction aid type,1
@@ -25,10 +25,10 @@ Indicator,Disaggregations,Number of disaggregations
 #15-5-1,"Systems, Species",2
 #15-a-1,"Geography, Public sector components",2
 #16-1-1,"Geography, Gender, Indigenous identity",3
-#16-1-3,"Marital status, Gender, Age, Sexual orientation, First Nations, Metis, or Inuit identity, Visible minority, Person with disability, Immigrant status",8
+#16-1-3,"Age, Gender, Marital status, Immigrant status, Visible minority, Sexual orientation, First Nations, Metis, or Inuit identity, Person with disability",8
 #16-1-4,"Racialized groups, Selected sociodemographic characteristics",2
-#16-2-1,"Geography, Gender, Indigenous identity, Age, Sexual orientation, Visible minority, Immigrant status, Type of childhood maltreatment, Disability status",9
-#16-2-3,"Geography, Gender, Age",3
+#16-2-1,"Geography, Age, Gender, Indigenous identity, Type of childhood maltreatment, Immigrant status, Visible minority, Disability status, Sexual orientation",9
+#16-2-3,"Geography, Age, Gender",3
 #16-3-3,Resolution mechanism,1
 #17-1-1,Component,1
 #17-2-1,"Official development assistance, Least developed countries",2
@@ -64,10 +64,10 @@ Indicator,Disaggregations,Number of disaggregations
 #4-3-1,"Geography, Age group, Type of institution attended",3
 #4-4-1,"Age group, Activity related to digital skills, Level of education",3
 #4-5-1,"Geography, Educational indicator",2
-#4-6-1,"Geography, Age group, Sex, Proficiency level, Skill",5
+#4-6-1,"Geography, Sex, Age group, Skill, Proficiency level",5
 #5-2-1,"Type of intimate partner violence, Selected characteristic",2
-#5-3-1,"Geography, Marital status, Age group",3
-#5-4-1,"Geography, Age group, Sex, Activity group",4
+#5-3-1,"Geography, Age group, Marital status",3
+#5-4-1,"Geography, Sex, Age group, Activity group",4
 #5-5-1,"Geography, Government, Elected officials",3
 #5-5-2,"Geography, Occupation",2
 #5-b-1,Geography,1
@@ -81,9 +81,9 @@ Indicator,Disaggregations,Number of disaggregations
 #7-2-1,"Geography, Type of electricity generation",2
 #8-1-1,Geography,1
 #8-2-1,Geography,1
-#8-5-1,"Geography, Age group, Sex, Occupation, Type of work",5
-#8-5-2,"Geography, Age group, Sex",3
-#8-6-1,"Geography, Age group, Sex, Status",4
+#8-5-1,"Geography, Sex, Age group, Type of work, Occupation",5
+#8-5-2,"Geography, Sex, Age group",3
+#8-6-1,"Geography, Sex, Age group, Status",4
 #8-8-1,Sex,1
 #8-a-1,Aid for trade flows of official development assistance (ODA),1
 #9-1-1,Geography,1
