@@ -756,27 +756,20 @@
             "title": "Year"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Epidemic",
-                "Meteorological - Tornado",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
+                "Epidemic",
+                "Landslide",
                 ""
               ]
             },
@@ -789,7 +782,7 @@
           }
         ]
       },
-      "title": "Direct economic loss attributed to disasters in relation to gross domestic product (GDP)"
+      "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)"
     },
     {
       "path": "1-4-1/data.csv",
@@ -2036,8 +2029,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate per 100,000 population",
                 "Number",
+                "Rate per 100,000 population",
                 ""
               ]
             },
@@ -2048,13 +2041,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Tornado",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Heat event",
-                "Meteorological - Hurricane",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
                 ""
               ]
             },
@@ -3928,8 +3922,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate per 100,000 population",
                 "Number",
+                "Rate per 100,000 population",
                 ""
               ]
             },
@@ -3940,13 +3934,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Tornado",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Heat event",
-                "Meteorological - Hurricane",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
                 ""
               ]
             },
@@ -4305,27 +4300,20 @@
             "title": "Year"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Epidemic",
-                "Meteorological - Tornado",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
+                "Epidemic",
+                "Landslide",
                 ""
               ]
             },
@@ -4338,7 +4326,7 @@
           }
         ]
       },
-      "title": "Direct economic loss attributed to disasters in relation to gross domestic product (GDP)"
+      "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)"
     },
     {
       "path": "2-4-1/data.csv",
@@ -7015,8 +7003,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate per 100,000 population",
                 "Number",
+                "Rate per 100,000 population",
                 ""
               ]
             },
@@ -7027,13 +7015,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Tornado",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Heat event",
-                "Meteorological - Hurricane",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
                 ""
               ]
             },

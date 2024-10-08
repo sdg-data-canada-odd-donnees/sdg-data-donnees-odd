@@ -1,31 +1,44 @@
-Year,Units,Type of natural disaster,Value
-2015,Percentage (%),,0.024
-2016,Percentage (%),,0.2503
-2017,Percentage (%),,0.025
-2018,Percentage (%),,0.064
-2019,Percentage (%),,0.007
-2020,Percentage (%),,0.0
-2015,Percentage (%),Meteorological - Flood,0.019
-2015,Percentage (%),Meteorological - Storm,0.006
-2016,Percentage (%),Meteorological - Flood,0.0275
-2016,Percentage (%),Meteorological - Storm,0.0197
-2016,Percentage (%),Meteorological - Wildfire,0.2009
-2016,Percentage (%),Meteorological - Winter storm,0.0014
-2016,Percentage (%),Meteorological - Epidemic,0.0008
-2017,Percentage (%),Meteorological - Flood,0.014
-2017,Percentage (%),Meteorological - Storm,0.002
-2017,Percentage (%),Meteorological - Wildfire,0.006
-2017,Percentage (%),Meteorological - Winter storm,0.003
-2018,Percentage (%),Meteorological - Flood,0.004
-2018,Percentage (%),Meteorological - Tornado,0.015
-2018,Percentage (%),Meteorological - Storm,0.037
-2018,Percentage (%),Meteorological - Wildfire,0.0
-2018,Percentage (%),Meteorological - Winter storm,0.008
-2019,Percentage (%),Meteorological - Flood,0.0
-2019,Percentage (%),Meteorological - Storm,0.0
-2019,Percentage (%),Meteorological - Wildfire,0.0
-2019,Percentage (%),Meteorological - Winter storm,0.007
-2020,Percentage (%),Meteorological - Flood,0.0
-2020,Percentage (%),Meteorological - Storm,0.0
-2020,Percentage (%),Meteorological - Wildfire,0.0
-2020,Percentage (%),Meteorological - Winter storm,0.0
+Year,Type of natural disaster,Value
+2020,Storm - Unspecified / Other,
+2020,Wildfire,
+2020,Storms and Severe Thunderstorms,
+2020,Flood,
+2020,Winter Storm,
+2019,Storm - Unspecified / Other,
+2019,Winter Storm,0.0070454100450257
+2019,Hurricane / Typhoon / Tropical Storm,
+2019,Storms and Severe Thunderstorms,
+2019,Wildfire,
+2019,Flood,0.0
+2018,Storms and Severe Thunderstorms,0.0068330593668578
+2018,Tornado,0.0149395596408244
+2018,Wildfire,0.0
+2018,Flood,0.0035783376385208
+2018,Heat Event,0.0
+2018,Storm - Unspecified / Other,0.0304158699274268
+2018,Winter Storm,0.0084985518914869
+2017,Storm - Unspecified / Other,
+2017,Wildfire,0.0060729473087734
+2017,Flood,0.0135006290171963
+2017,Storms and Severe Thunderstorms,0.0021488890477198
+2017,Winter Storm,0.0028028987578954
+2016,Storm - Unspecified / Other,0.0
+2016,Winter Storm,0.0013516922689561
+2016,Flood,0.0275487710654222
+2016,Epidemic,0.0008244735341527
+2016,Wildfire,0.200869301196968
+2016,Tornado,0.0
+2016,Storms and Severe Thunderstorms,0.0197048187269043
+2016,Landslide,0.0
+2015,Storm - Unspecified / Other,0.0017467485848613
+2015,Storms and Severe Thunderstorms,0.0170959099013736
+2015,Tornado,0.0
+2015,Flood,0.0
+2015,Wildfire,0.0056566358912421
+2015,Winter Storm,0.0
+2020,,
+2019,,0.0070454100450257
+2018,,0.0642653784651168
+2017,,0.0245253641315849
+2016,,0.250299056792403
+2015,,0.0244992943774772

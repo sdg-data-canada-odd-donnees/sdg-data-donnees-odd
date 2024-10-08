@@ -756,27 +756,20 @@
             "title": "Année"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Pourcentage (%)",
-                ""
-              ]
-            },
-            "title": "Unités"
-          },
-          {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Météorologique - Inondation",
-                "Météorologique - Tempête",
-                "Météorologique - Feu de forêt",
-                "Météorologique - Tempête hivernale",
-                "Météorologique - Épidémie",
-                "Météorologique - Tornade",
+                "Tempête-non précisée/autre",
+                "Feu de forêt",
+                "Orages et orages graves",
+                "Inondation",
+                "Tempête hivernale",
+                "Ouragan / ouragan / tempête tropicale",
+                "Tornade",
+                "Épisode de chaleur",
+                "Épidémie",
+                "Éboulement",
                 ""
               ]
             },
@@ -789,7 +782,7 @@
           }
         ]
       },
-      "title": "Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB)"
+      "title": "Pertes économiques directes mesurées par rapport au PIB mondial, dommages causés aux infrastructures critiques et nombre de perturbations des services de base résultant de catastrophes"
     },
     {
       "path": "1-4-1/data.csv",
@@ -2036,8 +2029,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux par 100 000 personnes",
                 "Nombre",
+                "Taux par 100 000 personnes",
                 ""
               ]
             },
@@ -2048,13 +2041,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Météorologique - Inondation",
-                "Météorologique - Tempête",
-                "Météorologique - Tornade",
-                "Météorologique - Feu de forêt",
-                "Météorologique - Tempête hivernale",
-                "Météorologique - Épisode de chaleur",
-                "Météorologique - Ouragan",
+                "Tempête-non précisée/autre",
+                "Feu de forêt",
+                "Orages et orages graves",
+                "Inondation",
+                "Tempête hivernale",
+                "Ouragan / ouragan / tempête tropicale",
+                "Tornade",
+                "Épisode de chaleur",
                 ""
               ]
             },
@@ -3928,8 +3922,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux par 100 000 personnes",
                 "Nombre",
+                "Taux par 100 000 personnes",
                 ""
               ]
             },
@@ -3940,13 +3934,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Météorologique - Inondation",
-                "Météorologique - Tempête",
-                "Météorologique - Tornade",
-                "Météorologique - Feu de forêt",
-                "Météorologique - Tempête hivernale",
-                "Météorologique - Épisode de chaleur",
-                "Météorologique - Ouragan",
+                "Tempête-non précisée/autre",
+                "Feu de forêt",
+                "Orages et orages graves",
+                "Inondation",
+                "Tempête hivernale",
+                "Ouragan / ouragan / tempête tropicale",
+                "Tornade",
+                "Épisode de chaleur",
                 ""
               ]
             },
@@ -4305,27 +4300,20 @@
             "title": "Année"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Pourcentage (%)",
-                ""
-              ]
-            },
-            "title": "Unités"
-          },
-          {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Météorologique - Inondation",
-                "Météorologique - Tempête",
-                "Météorologique - Feu de forêt",
-                "Météorologique - Tempête hivernale",
-                "Météorologique - Épidémie",
-                "Météorologique - Tornade",
+                "Tempête-non précisée/autre",
+                "Feu de forêt",
+                "Orages et orages graves",
+                "Inondation",
+                "Tempête hivernale",
+                "Ouragan / ouragan / tempête tropicale",
+                "Tornade",
+                "Épisode de chaleur",
+                "Épidémie",
+                "Éboulement",
                 ""
               ]
             },
@@ -4338,7 +4326,7 @@
           }
         ]
       },
-      "title": "Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut (PIB)"
+      "title": "Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB)"
     },
     {
       "path": "2-4-1/data.csv",
@@ -7015,8 +7003,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux par 100 000 personnes",
                 "Nombre",
+                "Taux par 100 000 personnes",
                 ""
               ]
             },
@@ -7027,13 +7015,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Météorologique - Inondation",
-                "Météorologique - Tempête",
-                "Météorologique - Tornade",
-                "Météorologique - Feu de forêt",
-                "Météorologique - Tempête hivernale",
-                "Météorologique - Épisode de chaleur",
-                "Météorologique - Ouragan",
+                "Tempête-non précisée/autre",
+                "Feu de forêt",
+                "Orages et orages graves",
+                "Inondation",
+                "Tempête hivernale",
+                "Ouragan / ouragan / tempête tropicale",
+                "Tornade",
+                "Épisode de chaleur",
                 ""
               ]
             },

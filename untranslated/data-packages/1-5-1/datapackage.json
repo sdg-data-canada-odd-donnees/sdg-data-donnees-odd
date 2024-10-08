@@ -19,8 +19,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate per 100,000 population",
                 "Number",
+                "Rate per 100,000 population",
                 ""
               ]
             }
@@ -30,13 +30,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Tornado",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Heat event",
-                "Meteorological - Hurricane",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
                 ""
               ]
             }

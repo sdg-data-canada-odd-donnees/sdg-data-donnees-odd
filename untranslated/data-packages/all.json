@@ -703,26 +703,20 @@
             "type": "integer"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Epidemic",
-                "Meteorological - Tornado",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
+                "Epidemic",
+                "Landslide",
                 ""
               ]
             }
@@ -733,7 +727,7 @@
           }
         ]
       },
-      "title": "proxy.11-5-2-title"
+      "title": "global_indicators.11-5-2-title"
     },
     {
       "path": "1-4-1/data.csv",
@@ -1895,8 +1889,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate per 100,000 population",
                 "Number",
+                "Rate per 100,000 population",
                 ""
               ]
             }
@@ -1906,13 +1900,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Tornado",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Heat event",
-                "Meteorological - Hurricane",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
                 ""
               ]
             }
@@ -3644,8 +3639,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate per 100,000 population",
                 "Number",
+                "Rate per 100,000 population",
                 ""
               ]
             }
@@ -3655,13 +3650,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Tornado",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Heat event",
-                "Meteorological - Hurricane",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
                 ""
               ]
             }
@@ -3993,26 +3989,20 @@
             "type": "integer"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Epidemic",
-                "Meteorological - Tornado",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
+                "Epidemic",
+                "Landslide",
                 ""
               ]
             }
@@ -4023,7 +4013,7 @@
           }
         ]
       },
-      "title": "proxy.1-5-2-title"
+      "title": "global_indicators.1-5-2-title"
     },
     {
       "path": "2-4-1/data.csv",
@@ -6513,8 +6503,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate per 100,000 population",
                 "Number",
+                "Rate per 100,000 population",
                 ""
               ]
             }
@@ -6524,13 +6514,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Tornado",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Heat event",
-                "Meteorological - Hurricane",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
                 ""
               ]
             }

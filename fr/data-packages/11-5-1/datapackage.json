@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux par 100 000 personnes",
                 "Nombre",
+                "Taux par 100 000 personnes",
                 ""
               ]
             },
@@ -32,13 +32,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Météorologique - Inondation",
-                "Météorologique - Tempête",
-                "Météorologique - Tornade",
-                "Météorologique - Feu de forêt",
-                "Météorologique - Tempête hivernale",
-                "Météorologique - Épisode de chaleur",
-                "Météorologique - Ouragan",
+                "Tempête-non précisée/autre",
+                "Feu de forêt",
+                "Orages et orages graves",
+                "Inondation",
+                "Tempête hivernale",
+                "Ouragan / ouragan / tempête tropicale",
+                "Tornade",
+                "Épisode de chaleur",
                 ""
               ]
             },

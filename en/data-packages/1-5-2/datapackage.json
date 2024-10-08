@@ -16,27 +16,20 @@
             "title": "Year"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Epidemic",
-                "Meteorological - Tornado",
+                "Storm - Unspecified / Other",
+                "Wildfire",
+                "Storms and Severe Thunderstorms",
+                "Flood",
+                "Winter Storm",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Tornado",
+                "Heat Event",
+                "Epidemic",
+                "Landslide",
                 ""
               ]
             },
@@ -53,5 +46,5 @@
   ],
   "profile": "data-package",
   "name": "1-5-2",
-  "title": "Direct economic loss attributed to disasters in relation to gross domestic product (GDP)"
+  "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)"
 }

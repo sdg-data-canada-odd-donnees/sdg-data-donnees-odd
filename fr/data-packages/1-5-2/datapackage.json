@@ -16,27 +16,20 @@
             "title": "Année"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Pourcentage (%)",
-                ""
-              ]
-            },
-            "title": "Unités"
-          },
-          {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Météorologique - Inondation",
-                "Météorologique - Tempête",
-                "Météorologique - Feu de forêt",
-                "Météorologique - Tempête hivernale",
-                "Météorologique - Épidémie",
-                "Météorologique - Tornade",
+                "Tempête-non précisée/autre",
+                "Feu de forêt",
+                "Orages et orages graves",
+                "Inondation",
+                "Tempête hivernale",
+                "Ouragan / ouragan / tempête tropicale",
+                "Tornade",
+                "Épisode de chaleur",
+                "Épidémie",
+                "Éboulement",
                 ""
               ]
             },
@@ -53,5 +46,5 @@
   ],
   "profile": "data-package",
   "name": "1-5-2",
-  "title": "Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut (PIB)"
+  "title": "Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB)"
 }
