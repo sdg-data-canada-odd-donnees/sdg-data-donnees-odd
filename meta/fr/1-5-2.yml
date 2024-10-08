@@ -4,9 +4,10 @@ SDG_TARGET: "<p>Cible 1.5 : D’ici à 2030, renforcer la résilience des pauv
 SDG_INDICATOR: >-
   Indicateur 1.5.2 : Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut (PIB)
 STAT_CONC_DEF: >-
-  <p>strong>Définition :</strong><br>
-  Cet indicateur mesure les pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB).
-  <p><strong>Concepts :</strong><br>Perte économique : impact économique total composé d’une perte économique directe et d’une perte économique indirecte.
+  <p><strong>Définition :</strong><br>
+  Cet indicateur mesure les pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB).</p>
+  <p><strong>Concepts :</strong><br>
+  Perte économique : impact économique total composé d’une perte économique directe et d’une perte économique indirecte.
   <br><br>
   Perte économique directe : la valeur monétaire de la destruction totale ou partielle des actifs physiques existant dans la zone touchée. Les pertes économiques directes sont presque équivalentes aux dommages physiques.
   <br><br>
@@ -14,21 +15,21 @@ STAT_CONC_DEF: >-
   <p>La Base de données canadienne sur les catastrophes (BDC) permet de trouver les « catastrophes importantes » qui correspondent à la définition utilisée dans le document Un cadre de sécurité civile pour le Canada et satisfont à l'un ou à plusieurs des critères suivants :</p>
   <ul>
   <li>dix personnes ou plus ont été tuées ;</li>
-  <li>cent personnes ou plus ont été touchées, blessées, infectées, évacuées ou se sont trouvées sans logement;</li>
+  <li>cent personnes ou plus ont été touchées, blessées, infectées, évacuées ou se sont trouvées sans logement ;</li>
   <li>une demande d'aide a été effectuée à l'échelle nationale ou internationale ;</li>
   <li>la catastrophe revêt une importance historique ;</li>
   <li>les dommages ou l'interruption des processus normaux étaient tels que la collectivité touchée n'a pu se rétablir seule. (Sécurité publique Canada)</li>
   </ul>
 DATA_COMP: >-
-  Les pertes économiques directement attribuables à des catastrophes sont calculées comme un pourcentage du produit intérieur brut (PIB) en prix courants :
+  Pour chaque année, les pertes économiques directement attribuables à des catastrophes sont calculées comme un pourcentage du produit intérieur brut (PIB) en prix courants :
   <br>
-  Pertes économiques directement attribuables à des catastrophes / PIB en prix courants × 100
+  Coût total estimé / PIB en prix courants × 100
 REC_USE_LIM: >-
   Cet indicateur est un proxy mesurant les pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut (PIB) du Canada, tandis que l'indicateur global de l'ONU indique : « Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB) »
   <br><br>
   Il est important de noter que la BDC pourrait ne pas convenir aux analyses comparatives en raison des écarts de responsabilités entre les différentes administrations, du type de données disponibles et des façons de les recueillir et les utiliser au fil du temps. 
   <br><br>
-  Les renseignements présentés dans la BDC sont fondés sur des données fournies par des tiers et pourraient ne pas être exacts. (Sécurité publique Canada)'
+  Les renseignements présentés dans la BDC sont fondés sur des données fournies par des tiers et pourraient ne pas être exacts. (Sécurité publique Canada)
 
 proxy: proxy
 
@@ -58,5 +59,4 @@ source_organisation_2: Statistique Canada
 source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada
 source_url_2: https://doi.org/10.25318/3610022201-fra
-
  

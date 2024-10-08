@@ -19,7 +19,8 @@ graph_stacked_disaggregation: ''
 graph_title: proxy.1-5-2-title
 graph_titles: []
 graph_type: line
-indicator_name: proxy.1-5-2-title
+indicator_name: global_indicators.1-5-2-title
+indicator_available: proxy.1-5-2-title
 indicator_number: 1.5.2
 national_geographical_coverage: Canada
 page_content: ''
@@ -32,4 +33,3 @@ sort: ''
 standalone: false
 tags:
   - Proxy
-"\xEF\xBB\xBFcomposite_breakdown_label": ''
