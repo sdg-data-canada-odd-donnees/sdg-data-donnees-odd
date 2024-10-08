@@ -9,12 +9,8 @@ data_non_statistical: false
 #  <br>Please <a href="mailto:statcan.sdg-odd.statcan@statcan.gc.ca">contact us</a> if you have any suggestions.
 data_show_map: false
 data_start_values:
-- field: Series
-  value: Access to basic drinking water services
 - field: Basic services
   value: Proportion of population within 500 metres of a public transit stop
-- field: Geography
-  value: Canada
 - field: Sources of waste disposal
   value: All sources of waste for disposal
 - field: Proficiency level
