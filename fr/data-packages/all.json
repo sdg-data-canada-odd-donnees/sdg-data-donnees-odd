@@ -816,6 +816,18 @@
             "title": "Series"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pourcentage (%)",
+                "Tonnes",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
             "name": "Basic services",
             "type": "string",
             "constraints": {
@@ -832,6 +844,19 @@
             "title": "Services de base"
           },
           {
+            "name": "Sources of waste for disposal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sources de déchets non résidentielles à des fins d'élimination",
+                "Sources de déchets résidentielles à des fins d'élimination",
+                "Toutes les sources de déchets à des fins d'élimination",
+                ""
+              ]
+            },
+            "title": "Sources des déchets à des fins d'élimination"
+          },
+          {
             "name": "Proficiency level",
             "type": "string",
             "constraints": {
@@ -844,18 +869,6 @@
               ]
             },
             "title": "Niveau de compétence"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Pourcentage (%)",
-                "Tonnes",
-                ""
-              ]
-            },
-            "title": "Unités"
           },
           {
             "name": "Sex",
@@ -926,19 +939,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Sources of waste for disposal",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Sources de déchets non résidentielles à des fins d'élimination",
-                "Sources de déchets résidentielles à des fins d'élimination",
-                "Toutes les sources de déchets à des fins d'élimination",
-                ""
-              ]
-            },
-            "title": "Sources des déchets à des fins d'élimination"
           },
           {
             "name": "GeoCode",

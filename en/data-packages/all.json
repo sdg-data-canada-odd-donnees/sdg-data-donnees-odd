@@ -816,6 +816,18 @@
             "title": "Series"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage (%)",
+                "Tonnes",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Basic services",
             "type": "string",
             "constraints": {
@@ -832,6 +844,19 @@
             "title": "Basic services"
           },
           {
+            "name": "Sources of waste for disposal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Residential sources of waste for disposal",
+                "Non-residential sources of waste for disposal",
+                "All sources of waste for disposal",
+                ""
+              ]
+            },
+            "title": "Sources of waste for disposal"
+          },
+          {
             "name": "Proficiency level",
             "type": "string",
             "constraints": {
@@ -844,18 +869,6 @@
               ]
             },
             "title": "Proficiency level"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                "Tonnes",
-                ""
-              ]
-            },
-            "title": "Units"
           },
           {
             "name": "Sex",
@@ -926,19 +939,6 @@
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "Sources of waste for disposal",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Residential sources of waste for disposal",
-                "Non-residential sources of waste for disposal",
-                "All sources of waste for disposal",
-                ""
-              ]
-            },
-            "title": "Sources of waste for disposal"
           },
           {
             "name": "GeoCode",

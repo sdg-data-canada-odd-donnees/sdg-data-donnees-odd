@@ -759,6 +759,17 @@
             }
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage (%)",
+                "Tonnes",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Basic services",
             "type": "string",
             "constraints": {
@@ -774,6 +785,18 @@
             }
           },
           {
+            "name": "Sources of waste for disposal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Residential sources of waste for disposal",
+                "Non-residential sources of waste for disposal",
+                "All sources of waste for disposal",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Proficiency level",
             "type": "string",
             "constraints": {
@@ -782,17 +805,6 @@
                 "Proportion of children in Grade 4 achieving at least a minimum proficiency level in reading",
                 "Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading",
                 "Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                "Tonnes",
                 ""
               ]
             }
@@ -861,18 +873,6 @@
                 "Vancouver, British Columbia",
                 "Victoria, British Columbia",
                 "Yukon, Northwest Territories and Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Sources of waste for disposal",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Residential sources of waste for disposal",
-                "Non-residential sources of waste for disposal",
-                "All sources of waste for disposal",
                 ""
               ]
             }
