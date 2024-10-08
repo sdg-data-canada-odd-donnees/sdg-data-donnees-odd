@@ -9,14 +9,21 @@ data_non_statistical: false
 #  <br>Please <a href="mailto:statcan.sdg-odd.statcan@statcan.gc.ca">contact us</a> if you have any suggestions.
 data_show_map: false
 data_start_values:
-- field: Basic services
+- series: Access to basic mobility
+  field: Basic services
   value: Proportion of population within 500 metres of a public transit stop
-- field: Sources of waste disposal
+- series: Access to basic waste collection services
+  field: Sources of waste disposal
   value: All sources of waste for disposal
-- field: Proficiency level
+- series: Access to basic education
+  field: Proficiency level
   value: Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
-- field: Sex
+- series: Access to basic education
+  field: Sex
   value: Total
+- series: Access to basic information
+  field: Basic services
+  value: Proportion of population covered by Evolved High-Speed Packet Access (HSPA+)
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
