@@ -19,14 +19,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Storm - Unspecified / Other",
-                "Wildfire",
-                "Storms and Severe Thunderstorms",
-                "Flood",
                 "Winter Storm",
-                "Hurricane / Typhoon / Tropical Storm",
+                "Flood",
+                "Storms and Severe Thunderstorms",
                 "Tornado",
+                "Wildfire",
                 "Heat Event",
+                "Storm - Unspecified / Other",
                 "Epidemic",
                 "Landslide",
                 ""

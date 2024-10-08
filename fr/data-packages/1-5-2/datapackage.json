@@ -20,14 +20,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tempête-non précisée/autre",
-                "Feu de forêt",
-                "Orages et orages graves",
-                "Inondation",
                 "Tempête hivernale",
-                "Ouragan / ouragan / tempête tropicale",
+                "Inondation",
+                "Orages et orages graves",
                 "Tornade",
+                "Feu de forêt",
                 "Épisode de chaleur",
+                "Tempête-non précisée/autre",
                 "Épidémie",
                 "Éboulement",
                 ""
