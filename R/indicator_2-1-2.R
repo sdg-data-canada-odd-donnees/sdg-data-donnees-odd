@@ -3,6 +3,8 @@
 # load libraries
 library(dplyr)
 library(cansim)
+library(stringr)
+library(tidyr)
 
 # load CODR table from stc api
 economic_families <- get_cansim("13-10-0834-01", factors = FALSE)
@@ -11,6 +13,63 @@ demographic_characteristics <- get_cansim("13-10-0835-01", factors = FALSE)
 # load geocode
 geocodes <- read.csv("geocodes.csv")
 
+age <-c(
+  "under 18 years",
+  "18 to 64 years",
+  "18 to 24 years",
+  "25 to 34 years",
+  "35 to 44 years",
+  "45 to 54 years",
+  "55 to 64 years",
+  "65 years and over"
+)
+
+female <- c(
+  "Persons in female lone-parent families",
+  "Elderly females not in an economic family",
+  "Non-elderly females not in an economic family"
+) %>% 
+  append(paste("Females", age, sep = ", "))
+
+male <- c(
+  "Persons in male lone-parent families",
+  "Elderly males not in an economic family",
+  "Non-elderly males not in an economic family"
+) %>% 
+  append(paste("Males", age, sep = ", "))
+
+persons <- paste("Persons", age, sep = " ")
+
+vismin <- c(
+  "Visible minority population",
+  "South Asian",
+  "Chinese",
+  "Black",
+  "Filipino",
+  "Arab",
+  "Latin American",
+  "Southeast Asian",
+  "Other visible minority",
+  "Not a visible minority"
+)
+
+indigenous <- c(
+  "Indigenous population",
+  "Non-Indigenous population",
+  "Not a visible minority nor Indigenous"
+)
+
+pop_aged_15_plus <- c(
+  "All persons aged 15 years and over",
+  "Indigenous population aged 15 years and over",
+  "First Nations aged 15 years and over",
+  "Métis aged 15 years and over",
+  "Non-Indigenous population aged 15 years and over",
+  "Immigrants aged 15 years and over",
+  "Recent immigrants (10 years or less) aged 15 years and over",
+  "Very recent immigrants (5 years or less) aged 15 years and over",
+  "Persons aged 15 years and over born in Canada"
+)
 
 # Manual input data for territories
 # Sources
@@ -36,11 +95,11 @@ values_secure <- 100 - values_insecure
 
 # Build data frame for manually input data for territories
 df_territories <- tibble(
-    Year = rep(years, each = nterritories),
-    Geography = rep(territories, nyears),
-    `Household food security status` = "Food insecure",
-    Value = values_insecure,
-  ) %>%
+  Year = rep(years, each = nterritories),
+  Geography = rep(territories, nyears),
+  `Household food security status` = "Food insecure",
+  Value = values_insecure,
+) %>%
   add_row(
     Year = rep(years, each = nterritories),
     Geography = rep(territories, nyears),
@@ -59,7 +118,22 @@ filter_economic_families <-
          Geography = GEO, 
          `Economic family type`, 
          `Household food security status`, 
-         Value = VALUE)
+         Value = VALUE) %>%
+  na.omit() %>%
+  mutate(
+    Sex = case_when(
+      `Economic family type` %in% female ~ "Female",
+      `Economic family type` %in% male ~ "Male",
+      TRUE ~ "Both sexes"
+    ),
+    `Economic family type` = str_remove_all(`Economic family type`,"female " ),
+    `Economic family type` = str_remove_all(`Economic family type`,"females " ),
+    `Economic family type` = str_remove_all(`Economic family type`,"male " ),
+    `Economic family type` = str_remove_all(`Economic family type`,"males " ),
+    `Economic family type` = str_replace_all(`Economic family type`,"Elderly not ", "Elderly persons not " ),
+    `Economic family type` = str_replace_all(`Economic family type`,"Non-elderly not ", "Non-elderly persons not " )
+  ) %>%
+  relocate(Sex, .before = `Household food security status`)
 
 filter_demographic_characteristics <-
   demographic_characteristics %>%
@@ -69,25 +143,64 @@ filter_demographic_characteristics <-
          Geography = GEO, 
          `Demographic characteristics`, 
          `Household food security status`, 
-         Value = VALUE)
-  
+         Value = VALUE) %>%
+  na.omit() %>%
+  mutate(
+    Sex = case_when(
+      `Demographic characteristics` %in% female ~ "Female",
+      `Demographic characteristics` %in% male ~ "Male",
+      `Demographic characteristics` %in% persons ~ "Both sexes",
+      `Demographic characteristics` == "Females" ~ "Female",
+      `Demographic characteristics` == "Males" ~ "Male"
+    ),
+    `Age group` = case_when(
+      `Demographic characteristics` %in% female ~ str_to_sentence(str_remove_all(`Demographic characteristics`,"Females, ")),
+      `Demographic characteristics` %in% male ~ str_to_sentence(str_remove_all(`Demographic characteristics`,"Males, ")),
+      `Demographic characteristics` %in% persons ~ str_to_sentence(str_remove_all(`Demographic characteristics`,"Persons "))
+    ),
+    `Economic family type` = case_when(
+      `Demographic characteristics` == "Females" ~ "All persons",
+      `Demographic characteristics` == "Males" ~ "All persons"
+    ),
+    `Visible minority` = case_when(
+      `Demographic characteristics` %in% vismin ~ `Demographic characteristics`
+    ),
+    `Indigenous population` = case_when(
+      `Demographic characteristics` %in% indigenous ~ `Demographic characteristics`
+    ),
+    `Population aged 15 years and over` = case_when(
+      `Demographic characteristics` %in% pop_aged_15_plus ~ str_remove_all(`Demographic characteristics`," aged 15 years and over")
+    )
+  )
+
 food_insecurity <- bind_rows(filter_economic_families,
                              filter_demographic_characteristics) %>%
+  select(
+    Year,
+    Geography,
+    `Economic family type`,
+    `Sex`,
+    `Age group`,
+    `Visible minority`,
+    `Indigenous population`,
+    `Population aged 15 years and over`,
+    `Household food security status`,
+    Value
+  ) %>%
   left_join(geocodes, by = "Geography") %>%
-  relocate(GeoCode, .before = Value) %>%
-  relocate(`Demographic characteristics`, .before = `Household food security status`)
+  relocate(GeoCode, .before = Value)
 
 # Create the aggregate line
 total_line <- 
   food_insecurity %>%
-  filter(Geography == "Canada", `Economic family type` == "All persons",
+  filter(Geography == "Canada", `Economic family type` == "All persons", Sex == "Both sexes",
          `Household food security status` == "Food insecure, moderate or severe") %>%
   mutate_at(2:(ncol(.)-2), ~ NA)
 
 # Create the non - aggregate data 
 food_insecurity <-
   food_insecurity %>%
-  filter(!(Geography == "Canada" & `Economic family type` == "All persons" & 
+  filter(!(Geography == "Canada" & `Economic family type` == "All persons" & Sex == "Both sexes" & 
              `Household food security status` == "Food insecure, moderate or severe"))
 
 # Add the aggregate and non - aggregate data
