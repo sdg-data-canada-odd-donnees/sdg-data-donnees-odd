@@ -12,6 +12,8 @@ data_start_values:
   value: Canada
 - field: Economic family type
   value: All persons
+- field: Sex
+  value: Both sexes
 - field: Household food security status
   value: Food insecure, moderate or severe
 embedded_feature_footer: ''
