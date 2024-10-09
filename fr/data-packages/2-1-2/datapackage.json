@@ -56,43 +56,52 @@
                 "Personnes dans les familles comptant un couple avec des enfants",
                 "Personnes dans les familles comptant un couple avec d'autres personnes apparentées",
                 "Personnes dans les familles monoparentales",
-                "Personnes dans les familles monoparentales ayant un homme à leur tête",
-                "Personnes dans les familles monoparentales ayant une femme à leur tête",
                 "Personnes dans les autres familles de personnes non âgées",
                 "Personnes hors famille économique",
                 "Personnes âgées hors famille économique",
-                "Hommes âgés hors famille économique",
-                "Femmes âgées hors famille économique",
                 "Personnes non âgées hors famille économique",
-                "Hommes non âgés hors famille économique",
-                "Femmes non âgées hors famille économique",
                 ""
               ]
             },
             "title": "Type de famille économique"
           },
           {
-            "name": "Demographic characteristics",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Personnes de moins de 18 ans",
-                "Personnes de 18 à 64 ans",
-                "Persons 18 to 24 years",
-                "Persons 25 to 34 years",
-                "Persons 35 to 44 years",
-                "Persons 45 to 54 years",
-                "Persons 55 to 64 years",
-                "Personnes de 65 ans et plus",
-                "Hommes",
-                "Hommes, moins de 18 ans",
-                "Hommes, 18 à 64 ans",
-                "Hommes, 65 ans et plus",
-                "Femmes",
-                "Femmes, moins de 18 ans",
-                "Femmes, 18 à 64 ans",
-                "Femmes, 65 ans et plus",
-                "Visible minority population",
+                "Les deux sexes",
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Moins de 18 ans",
+                "18 à 64 ans",
+                "18 à 24 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                "65 ans et plus",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population des minorités visibles",
                 "Sud-Asiatique\n",
                 "Chinois\n",
                 "Noir\n",
@@ -100,24 +109,44 @@
                 "Arabe\n",
                 "Latino-Américain\n",
                 "Asiatique du Sud-Est\n",
-                "Other visible minority",
+                "Autre minorité visible",
                 "Pas une minorité visible\n",
-                "Indigenous population",
-                "Non-Indigenous population",
-                "Not a visible minority nor Indigenous",
-                "All persons aged 15 years and over",
-                "Indigenous population aged 15 years and over",
-                "First Nations aged 15 years and over",
-                "Métis aged 15 years and over",
-                "Non-Indigenous population aged 15 years and over",
-                "Immigrants aged 15 years and over",
-                "Recent immigrants (10 years or less) aged 15 years and over",
-                "Very recent immigrants (5 years or less) aged 15 years and over",
-                "Persons aged 15 years and over born in Canada",
                 ""
               ]
             },
-            "title": "Demographic characteristics"
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Indigenous population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population autochtone",
+                "Population non autochtone",
+                "Pas une minorité visible ni autochtone",
+                ""
+              ]
+            },
+            "title": "Population autochtone"
+          },
+          {
+            "name": "Population aged 15 years and over",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les personnes",
+                "Population autochtone",
+                "Premières Nations",
+                "Métis",
+                "Population non autochtone",
+                "Immigrants",
+                "Immigrants récents (10 ans ou moins)",
+                "Immigrants très récents (5 ans ou moins)",
+                "Personnes nées au Canada",
+                ""
+              ]
+            },
+            "title": "Population âgée de 15 ans et plus"
           },
           {
             "name": "Household food security status",

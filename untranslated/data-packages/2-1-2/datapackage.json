@@ -54,41 +54,48 @@
                 "Persons in couple families with children",
                 "Persons in couple families with other relatives",
                 "Persons in lone-parent families",
-                "Persons in male lone-parent families",
-                "Persons in female lone-parent families",
                 "Persons in other non-elderly families",
                 "Persons not in an economic family",
                 "Elderly persons not in an economic family",
-                "Elderly males not in an economic family",
-                "Elderly females not in an economic family",
                 "Non-elderly persons not in an economic family",
-                "Non-elderly males not in an economic family",
-                "Non-elderly females not in an economic family",
                 ""
               ]
             }
           },
           {
-            "name": "Demographic characteristics",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Persons under 18 years",
-                "Persons 18 to 64 years",
-                "Persons 18 to 24 years",
-                "Persons 25 to 34 years",
-                "Persons 35 to 44 years",
-                "Persons 45 to 54 years",
-                "Persons 55 to 64 years",
-                "Persons 65 years and over",
-                "Males",
-                "Males, under 18 years",
-                "Males, 18 to 64 years",
-                "Males, 65 years and over",
-                "Females",
-                "Females, under 18 years",
-                "Females, 18 to 64 years",
-                "Females, 65 years and over",
+                "Both sexes",
+                "Male",
+                "Female",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Under 18 years",
+                "18 to 64 years",
+                "18 to 24 years",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 64 years",
+                "65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Visible minority population",
                 "South Asian",
                 "Chinese",
@@ -99,18 +106,36 @@
                 "Southeast Asian",
                 "Other visible minority",
                 "Not a visible minority",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Indigenous population",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Indigenous population",
                 "Non-Indigenous population",
                 "Not a visible minority nor Indigenous",
-                "All persons aged 15 years and over",
-                "Indigenous population aged 15 years and over",
-                "First Nations aged 15 years and over",
-                "Métis aged 15 years and over",
-                "Non-Indigenous population aged 15 years and over",
-                "Immigrants aged 15 years and over",
-                "Recent immigrants (10 years or less) aged 15 years and over",
-                "Very recent immigrants (5 years or less) aged 15 years and over",
-                "Persons aged 15 years and over born in Canada",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Population aged 15 years and over",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All persons",
+                "Indigenous population",
+                "First Nations",
+                "Métis",
+                "Non-Indigenous population",
+                "Immigrants",
+                "Recent immigrants (10 years or less)",
+                "Very recent immigrants (5 years or less)",
+                "Persons born in Canada",
                 ""
               ]
             }
