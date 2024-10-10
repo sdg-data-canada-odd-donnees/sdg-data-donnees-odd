@@ -20,6 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -42,12 +43,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "On-time",
-                "Extended-time",
+                "Délai prévu",
+                "Délai plus long",
                 ""
               ]
             },
-            "title": "Graduation rate"
+            "title": "Taux d'obtention du diplôme"
           },
           {
             "name": "Gender",
