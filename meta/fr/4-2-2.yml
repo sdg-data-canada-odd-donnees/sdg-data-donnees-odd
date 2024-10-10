@@ -10,7 +10,7 @@ SDG_INDICATOR: '<p>Indicateur 4.2.2 : Taux de participation à des activités d�
   organisées (un an avant l’âge officiel de scolarisation dans le primaire), par sexe.</p>'
 STAT_CONC_DEF: |
     Le taux de participation à l'apprentissage organisé (un an avant l'âge officiel d'entrée dans le primaire), par sexe, défini comme le pourcentage d'enfants d'une tranche d'âge donnée qui participent à un ou plusieurs programmes d'apprentissage organisé, y compris les programmes qui offrent une combinaison d'éducation et de soins.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 
 # GLOBAL
