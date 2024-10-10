@@ -9,9 +9,13 @@ SDG_INDICATOR: '<p>Indicateur 4.1.1 : Proportion d''enfants et de jeunes (a) en 
   élémentaire; (b) en fin de cycle primaire; c) en fin de premier cycle du secondaire
   qui maîtrisent au moins les normes d''aptitudes minimales en i) lecture et ii) mathématiques,
   par sexe</p>'
-STAT_CONC_DEF: '    '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: |
+  Pourcentage d’enfants et de jeunes atteignant au moins un niveau minimum de compétence en (i) lecture et (ii) mathématiques au cours de l’enseignement primaire (2e ou 3e année), à ​​la fin de l’enseignement primaire et à la fin du premier cycle du secondaire. Le niveau de compétence minimum sera mesuré par rapport aux nouvelles échelles communes de lecture et de mathématiques actuellement en développement.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |
+  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : "Proportion d'enfants et de jeunes (a) en cours élémentaire; (b) en fin de cycle primaire; c) en fin de premier cycle du secondaire qui maîtrisent au moins les normes d'aptitudes minimales en i) lecture et ii) mathématiques, par sexe".
+  <br>
+  <br> La proportion d'enfants et de jeunes est indiquée pour la 4e année au lieu de la série d'indicateurs (a) pour les 2e et 3e années.
 SDG_GOAL__GLOBAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité,
   sur un pied d''égalité, et à promouvoir les possibilités d''apprentissage tout au
   long de la vie.</p>'
@@ -54,3 +58,5 @@ un_designated_tier: Niveau I
 un_custodian_agency: Institut de statistique de l’UNESCO
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+proxy: proxy
