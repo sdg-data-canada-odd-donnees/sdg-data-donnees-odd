@@ -8,7 +8,10 @@ SDG_INDICATOR: '<p>Indicator 4.3.1: Participation rate of youth and adults in fo
 STAT_CONC_DEF: |
     The participation rate in education reflects the total enrolment in an elementary/high school, college, or university as a percentage of the total population for each age group. Includes full- and part-time students who were taking a "credit course"; i.e., a course or program of instruction that could be counted towards a degree, certificate or diploma. The number of students is based on a monthly average from September to April.<br><br>Captures public and private educational establishments: elementary, junior high school, high school or equivalent; community college, junior college or CEGEP; and university. Other types of schools, such as private institutes or vocational or secretarial schools, are excluded from the numerators for the totals.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'This indicator has data on the participation rate of youth and adults in formal education and training only.'
+REC_USE_LIM: |
+  This is a proxy indicator. The UN Global indicator states: “Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex”.
+  <br>
+  <br> This indicator has data on the participation rate of youth and adults in formal education and training only.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
@@ -40,3 +43,5 @@ source_url_2: https://doi.org/10.25318/3710010301-eng
 source_organisation_2: Statistics Canada
 source_periodicity_2: Occasional
 source_geographical_coverage_2: Canada, Province or territory
+
+proxy: proxy
