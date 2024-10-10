@@ -1,4 +1,4 @@
-# 4.1.2 ------------------------------------------------------------------
+# GIF 4.1.2 ------------------------------------------------------------------
 
 library(dplyr)
 library(cansim)
@@ -6,10 +6,6 @@ library(stringr)
 
 completion_rate <- get_cansim("37-10-0221-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
-
-exclude_Canada <- c(
-  "Canada"
-)
 
 rate <- 
   completion_rate %>%
@@ -22,24 +18,26 @@ rate <-
     `Graduation rate`,
     Gender,
     Value = VALUE
-  ) %>% 
-  left_join(geocodes) %>% 
-  relocate(GeoCode, .before = Value)
+  )
 
 total_line <- 
   rate %>%
   filter(
-    Geography == "Canada"
+    Geography == "Canada",
+    `Graduation rate` == "Extended-time",
+    Gender == "Total"
   ) %>%
-  mutate(Geography = "")  
-
-data_with_Canada <- bind_rows(total_line, rate)
+  mutate_at(2:4, ~ "")
 
 data_final <-
-  data_with_Canada %>%
+  bind_rows(total_line, rate) %>%
   filter(
-    !Geography %in% exclude_Canada
-  ) 
+    !(Geography == "Canada" &
+      `Graduation rate` == "Extended-time" &
+      Gender == "Total")
+  ) %>% 
+  left_join(geocodes) %>% 
+  relocate(GeoCode, .before = Value)
 
 write.csv(
   data_final,
