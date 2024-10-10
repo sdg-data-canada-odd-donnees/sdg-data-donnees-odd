@@ -769,7 +769,15 @@
 4-1-1:
   progress_status: not_available
 4-1-2:
-  progress_status: not_available
+  base_value: '87.0'
+  base_year: '2016'
+  current_value: '89.0'
+  current_year: '2020'
+  direction: positive
+  progress_calculation_value: null
+  progress_status: None
+  target: None
+  target_year: '2030'
 4-2-1:
   progress_status: not_available
 4-2-2:
