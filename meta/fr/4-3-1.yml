@@ -1,15 +1,19 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité, sur
-  un pied d''égalité, et à promouvoir les possibilités d''apprentissage tout au long
-  de la vie.</p>'
+SDG_GOAL: |
+    '<p>Objectif 4 : Assurer l'accès de tous à une éducation de qualité, sur
+     un pied d''égalité, et à promouvoir les possibilités d''apprentissage tout au long
+    de la vie.</p>'
 SDG_TARGET: |
     Cible 4.3 : D'ici à 2030, faire en sorte que toutes les femmes et tous les hommes aient accès dans des conditions d'égalité à un enseignement technique, professionnel ou tertiaire, y compris universitaire, de qualité et d'un coût abordable
 SDG_INDICATOR: |
     Indicateur 4.3.1 : Taux de participation des jeunes et des adultes à un programme d'éducation et de formation scolaire ou non scolaire au cours des 12 mois précédents, par sexe
 STAT_CONC_DEF: |
     Le taux de participation aux études reflète le total d'inscriptions au niveau primaire-secondaire, collégial ou universitaire exprimé en pourcentage de la population totale de chaque groupe d'âge. Comprend les étudiants à temps plein et à temps partiel qui suivaient un « cours donnant droit à des crédits », c'est-à-dire, un cours ou un programme d'études pouvant mener à l'obtention d'un grade, d'un certificat ou d'un diplôme. Le nombre d'étudiants est basé sur une moyenne mensuelle de septembre à avril.<br><br>Comprend les établissements d'enseignement privés ou publics : école primaire, intermédiaire, secondaire ou équivalent; collège communautaire ou Cégep; et université. Les autres types d'écoles, comme les écoles de secrétariat et les écoles de formation professionnelle, sont exclus des numérateurs pour les totaux.
-DATA_COMP: '   '
-REC_USE_LIM: '  '
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |
+    Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : "Taux de participation des jeunes et des adultes à un programme d’éducation et de formation scolaire ou non scolaire au cours des 12 mois précédents, par sexe".
+    <br>
+    <br> Cet indicateur contient uniquement des données sur le taux de participation des jeunes et des adultes à l’éducation et à la formation formelles.
     
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité, sur
@@ -41,4 +45,4 @@ source_organisation_2: Statistique Canada
 source_periodicity_2: Occasionnelle
 source_geographical_coverage_2: Canada, Province ou territoire
 
- 
+proxy: proxy
