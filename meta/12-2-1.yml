@@ -11,7 +11,8 @@ DATA_COMP: |
   <br><br> Material footprint (MF) = Domestic extraction of materials + raw material equivalent of imports - raw material equivalent of exports
   <br><br> MF per capita = DMC/Total population
   <br><br> DMC per GDP = DMC/GDP in chained 2017 dollars
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  The series <i>Material footprint per GDP</i> is reported in tonnes per chained 2017 canadian dollars, as opposed to "Kilograms per constant United States dollar" as per the official metadata.
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET__GLOBAL: '<p>Target 12.2: By 2030, achieve the sustainable management and
   efficient use of natural resources.</p>'
