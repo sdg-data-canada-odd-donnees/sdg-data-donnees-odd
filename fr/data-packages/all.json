@@ -3108,9 +3108,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Consommation intérieure de matières",
-                "Consommation intérieure de matières par habitant",
-                "Consommation intérieure de matières par PIB",
+                "Consommation matérielle nationale",
+                "Consommation matérielle nationale par habitant",
+                "Consommation matérielle nationale par unité de PIB",
                 ""
               ]
             },
@@ -6143,9 +6143,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Consommation intérieure de matières",
-                "Consommation intérieure de matières par habitant",
-                "Consommation intérieure de matières par PIB",
+                "Consommation matérielle nationale",
+                "Consommation matérielle nationale par habitant",
+                "Consommation matérielle nationale par unité de PIB",
                 ""
               ]
             },
