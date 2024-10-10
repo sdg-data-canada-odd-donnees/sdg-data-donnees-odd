@@ -12,7 +12,13 @@ STAT_CONC_DEF: 'Percentage of children and young people achieving at least a min
   of lower secondary education. The minimum proficiency level will be measured relative to new common 
   reading and mathematics scales currently in development.'
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'The proportion of children and young people is reported for grade 4 instead indicator series (a) in grades 2/3.'
+REC_USE_LIM: |
+  This is a proxy indicator. The UN Global indicator states: Proportion of children and young people:
+  (a) in grades 2/3; (b) at the end of primary; education and (c) at the end of lower
+  secondary education achieving at least a minimum proficiency level in (i) reading
+  and (ii) mathematics, by sex".
+  <br>
+  <br> The proportion of children and young people is reported for grade 4 instead indicator series (a) in grades 2/3.
  
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
   promote lifelong learning opportunities for all</p>'
@@ -52,3 +58,5 @@ source_url_3: https://www.cmec.ca/Publications/Lists/Publications/Attachments/39
 source_organisation_3: Council of Ministers of Education, Canada (CMEC)
 source_periodicity_3: Occasional
 source_geographical_coverage_3: Canada, Province or territory
+
+proxy: proxy
