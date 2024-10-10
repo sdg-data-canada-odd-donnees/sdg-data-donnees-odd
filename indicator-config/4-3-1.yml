@@ -33,6 +33,7 @@ graph_title: chart.4-3-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.4-3-1-title
+indicator_available: proxy.4-3-1-title
 indicator_number: 4.3.1
 national_geographical_coverage: Canada
 page_content: ''
@@ -42,5 +43,5 @@ progress_status: moderate_progress
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
-"\xEF\xBB\xBFcomposite_breakdown_label": Percentage (%)
+tags: 
+  - Proxy
