@@ -5,10 +5,7 @@ SDG_TARGET: '<p>Cible 4.1 : D’ici à 2030, faire en sorte que toutes les fille
   tous les garçons suivent, sur un pied d’égalité, un cycle complet d’enseignement
   primaire et secondaire gratuit et de qualité, les dotant d’acquis véritablement
   utiles.</p>'
-SDG_INDICATOR: '<p>Indicateur 4.1.1 : Proportion d''enfants et de jeunes (a) en cours
-  élémentaire; (b) en fin de cycle primaire; c) en fin de premier cycle du secondaire
-  qui maîtrisent au moins les normes d''aptitudes minimales en i) lecture et ii) mathématiques,
-  par sexe</p>'
+SDG_INDICATOR: '<p>Indicateur 4.1.1 : Proportion d’enfants et de jeunes a) en4e année de cycle primaire ; et c) en fin de premier cycle du secondaire qui maîtrisent au moins les normes d’aptitudes minimales en i) lecture et ii) mathématiques, par sexe</p>'
 STAT_CONC_DEF: |
   Pourcentage d’enfants et de jeunes atteignant au moins un niveau minimum de compétence en (i) lecture et (ii) mathématiques au cours de l’enseignement primaire (2e ou 3e année), à ​​la fin de l’enseignement primaire et à la fin du premier cycle du secondaire. Le niveau de compétence minimum sera mesuré par rapport aux nouvelles échelles communes de lecture et de mathématiques actuellement en développement.
 DATA_COMP: custom.data-comp
