@@ -8,7 +8,13 @@ SDG_TARGET: '<p>Cible 4.c : D’ici à 2030, accroître nettement le nombre d�
   et les petits États insulaires en développement</p>'
 SDG_INDICATOR: |
     <p>Indicateur 4.c.1 : Proportion d'enseignants possédant les qualifications minimales requises, par niveau d’études</p>
-STAT_CONC_DEF: '    '
+STAT_CONC_DEF: |
+  <strong>Définition:</strong>
+  <br> Le pourcentage d'enseignants, par niveau scolaire enseigné (enseignement préscolaire, primaire, secondaire inférieur et secondaire supérieur) qui ont reçu au moins la formation pédagogique organisée minimale avant et pendant l'exercice des fonctions pédagogiques requise pour enseigner au niveau concerné dans un pays donné. 
+  <br>
+  <br>
+  <strong>Concepts</strong>
+  <br> Un enseignant est formé s’il a reçu au moins la formation pédagogique organisée minimale avant et en cours d’emploi requise pour enseigner au niveau pertinent dans un pays donné.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 
