@@ -30,6 +30,7 @@ graph_titles:
     title: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
 graph_type: bar
 indicator_name: global_indicators.4-1-1-title
+indicator_available: proxy.4-1-1-title
 indicator_number: 4.1.1
 national_geographical_coverage: Canada
 page_content: ''
@@ -40,5 +41,5 @@ progress_calculation_options:
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
-"\xEF\xBB\xBFcomposite_breakdown_label": ''
+tags: 
+  - Proxy
