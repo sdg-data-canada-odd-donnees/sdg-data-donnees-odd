@@ -11,7 +11,9 @@ SDG_INDICATOR: '<p>Indicateur 4.b.1 : Volume de l’aide publique au développem
   aux bourses d’études, par secteur et type de formation</p>'
 STAT_CONC_DEF: <p>Décaissements bruts de l'APD totale de tous les donateurs pour les
   bourses d'études.</p>
-DATA_COMP: '   '
+DATA_COMP: |
+  Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source. <br><br>
+  Les données proviennent du Système de notification des pays créanciers (flux) de l'OCDE. Sélectionnez Donneur = "Canada", Receveur = "Pays en développement", Sector = "Éducation", Mesure = "Aide publique au développement", Channel = "Tous channels", Modalité = "Bourses et autres frais d’étude dans les pays donneurs", Type de flux = "Versements", and Type de prix = "Prix constants".'
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité,
   sur un pied d''égalité, et à promouvoir les possibilités d''apprentissage tout au
@@ -28,8 +30,9 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 4.b.1 : Volume de l’aide publique au dé
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: OCDE. Système de notification des pays créanciers (SNPC).
-source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
+source_url_1: https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalBoost&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&dq=CAN.DPGC.110.100._T.E.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&ly[rw]=TIME_PERIOD&vw=tb&lc=fr&pg=0
 source_organisation_1: OCDE
+source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
 
 un_designated_tier: Niveau I
