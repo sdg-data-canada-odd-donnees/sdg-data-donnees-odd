@@ -29,6 +29,15 @@ CAD (Thousands): CAD (en milliers)
 US dollar, Millions, 2022 constant prices: Dollars des É-U, millions, prix constants 2022
 US dollar, Millions, 2023 constant prices: Dollars des É-U, millions, prix constants 2023
 
+## ODA sectors
+Sector: Secteur
+Basic education: Éducation de base
+Basic health: Santé de base
+Water supply and sanitation: Distribution d'eau et assainissement 
+Multisector aid for basic social services: Aide plurisectorielle pour les services sociaux de base
+Development food assistance: Aide alimentaire dévelopmentale
+Agricultural water resources: Ressources en eau à usage agricole
+
 ## Sex & Gender
 Sex: Sexe
 Men: Hommes
@@ -321,11 +330,6 @@ Tsunami: Tsunami
 Volcano: Volcan
 
 ## 1-a-1
-Basic education: Éducation de base
-Basic health: Santé de base
-Water supply and sanitation: Distribution d'eau et assainissement 
-Multisector aid for basic social services: Aide plurisectorielle pour les services sociaux de base
-Development food assistance: Aide alimentaire dévelopmentale
 Poverty reduction aid type: Type d’aide à la réduction de la pauvreté
 
 ## 1-a-2
@@ -1057,26 +1061,17 @@ Reservoir extent: Étendue du réservoir
 Maximum: Maximum
 Minimum: Minimum
 
-## 6-a-1
-Water Supply & Sanitation, Total: Approvisionnement en eau et assainissement, total
-Agriculture water resources: Ressources en eau agricoles
-Hydro-electric power plants: Centrales hydroélectriques
-
 ## 7-1-1
 Type of dwelling: Type de logement
-Energy type: |
-    Type d'énergie
+Energy type: Type d'énergie
 Single-detached: Maison individuelle
 Double: Maison double
 Row or terrace: Maison en rangée
 Duplex: Duplex
-Low-rise apartment (fewer than 5 stories): |
-    Immeuble d'appartements (moins de 5 étages)
-High-rise apartment (5 stories or more): |
-    Immeuble d'appartements (5 étages ou plus)
+Low-rise apartment (fewer than 5 stories): Immeuble d'appartements (moins de 5 étages)
+High-rise apartment (5 stories or more): Immeuble d'appartements (5 étages ou plus)
 Mobile home: Maison mobile
-Total, all energy types: |
-    Total, tous les types d'énergie	
+Total, all energy types: Total, tous les types d'énergie	
 Electricity: Électricité
 Natural gas: Gaz naturel
 Heating oil: Mazout
