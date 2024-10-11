@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Année"
           },
           {
@@ -36,10 +36,24 @@
                 "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en lecture",
                 "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA score de 226) en compétences en numératie fonctionnelle",
                 "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA un score 226) en compétences en littératie",
+                "Taux de participation aux études postsecondaires des jeunes adultes âgés de 18 à 24 ans",
                 ""
               ]
             },
             "title": "Educational indicator"
+          },
+          {
+            "name": "Level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Postsecondary",
+                "Collège",
+                "Université",
+                ""
+              ]
+            },
+            "title": "Niveau de scolarité"
           },
           {
             "name": "Series",
@@ -48,7 +62,7 @@
               "enum": [
                 "Indice de parité entre les sexes",
                 "Indice de statut économique, social et culturel (SESC)",
-                "Indice de parité entre millieu urban et rural (IPM)",
+                "Indice de parité entre milieu urbain et rural (IPM)",
                 "Indice de parité du niveau de formation des parents",
                 ""
               ]

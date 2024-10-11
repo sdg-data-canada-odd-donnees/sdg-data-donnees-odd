@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "Units",
@@ -34,6 +34,19 @@
                 "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading",
                 "Proportion of adults (25-to-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional numeracy skills",
                 "Proportion of adults (25-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional literacy skills",
+                "Postsecondary participation rate of young adults aged 18 to 24",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Postsecondary",
+                "College",
+                "University",
                 ""
               ]
             }
