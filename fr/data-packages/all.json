@@ -4289,11 +4289,6 @@
             "title": "Géographie"
           },
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
             "name": "Sex",
             "type": "string",
             "constraints": {
@@ -4311,7 +4306,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Groupe d'âge totale",
+                "Total",
                 "16 à 24 ans",
                 "25 à 34 ans",
                 "35 à 44 ans",
@@ -4345,6 +4340,11 @@
               ]
             },
             "title": "Niveau de compétence"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
