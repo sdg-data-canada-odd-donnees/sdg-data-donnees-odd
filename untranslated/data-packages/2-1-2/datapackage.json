@@ -123,24 +123,6 @@
             }
           },
           {
-            "name": "Population aged 15 years and over",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "All persons",
-                "Indigenous population",
-                "First Nations",
-                "Métis",
-                "Non-Indigenous population",
-                "Immigrants",
-                "Recent immigrants (10 years or less)",
-                "Very recent immigrants (5 years or less)",
-                "Persons born in Canada",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Household food security status",
             "type": "string",
             "constraints": {

@@ -8160,25 +8160,6 @@
             "title": "Population autochtone"
           },
           {
-            "name": "Population aged 15 years and over",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Toutes les personnes",
-                "Population autochtone",
-                "Premières Nations",
-                "Métis",
-                "Population non autochtone",
-                "Immigrants",
-                "Immigrants récents (10 ans ou moins)",
-                "Immigrants très récents (5 ans ou moins)",
-                "Personnes nées au Canada",
-                ""
-              ]
-            },
-            "title": "Population âgée de 15 ans et plus"
-          },
-          {
             "name": "Household food security status",
             "type": "string",
             "constraints": {
