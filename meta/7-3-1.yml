@@ -4,12 +4,13 @@ SDG_GOAL: >-
 SDG_TARGET: >-
     Target 7.3: By 2030, double the global rate of improvement in energy efficiency
 SDG_INDICATOR: >-
-    Indicator 7.3.1: Energy intensity measured in terms of primary energy and GDP
+    Indicator 7.3.1: Energy intensity measured in terms of GDP
 STAT_CONC_DEF: >-
     This indicator measures the total energy use intensity in terms of GDP. This is expressed as Terajoules per million dollars of real GDP.
 DATA_COMP: >-
-    Total energy use per unit of GDP = Total energy use / Real GDP, expenditure based, at market prices (chained 2017 dollars)
-REC_USE_LIM: 'This indicator measures the total energy use intensity in terms of GDP rather than the energy supplied to the economy per unit value of economic output as specified in the metadata.'
+    Total energy use per unit of GDP = Total energy use / Real GDP, expenditure based, at market prices (chained 2017 Canadian dollars)
+REC_USE_LIM: >-
+    This is a proxy indicator. The UN Global indicator states: “Energy intensity measured in terms of primary energy and GDP”. This indicator measures the total energy use intensity in terms of GDP rather than the energy supplied to the economy per unit value of economic output as specified in the metadata.
 reporting_status: complete
 
 # GLOBAL --- 
@@ -19,6 +20,7 @@ SDG_TARGET__GLOBAL: >-
     Target 7.3: By 2030, double the global rate of improvement in energy efficiency
 SDG_INDICATOR__GLOBAL: >-
     Indicator 7.3.1: Energy intensity measured in terms of primary energy and GDP 
+
 un_designated_tier: Tier I
 un_custodian_agency: International Energy Agency (IEA) and United Nations Statistics Division (UNSD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-03-01.pdf
@@ -38,5 +40,3 @@ source_url_2: https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=361
 source_organisation_2: Statistics Canada
 source_periodicity_2: Annual
 source_geographical_coverage_2: Canada
-
-
