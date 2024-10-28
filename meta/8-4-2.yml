@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic growth,
   full and productive employment and decent work for all </p>'
 SDG_TARGET: '<p>Target 8.4: Improve progressively, through 2030, global resource efficiency
@@ -15,6 +16,7 @@ DATA_COMP: |
   DMC per GDP = DMC/GDP in chained 2017 dollars
 REC_USE_LIM: |
   The series <i>Domestic material consumption per GDP</i> is reported in tonnes per chained 2017 canadian dollars, as opposed to "Kilograms per constant United States dollar" as per the official metadata.
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all </p>'
 SDG_TARGET__GLOBAL: '<p>Target 8.4: Improve progressively, through 2030, global resource
@@ -24,11 +26,13 @@ SDG_TARGET__GLOBAL: '<p>Target 8.4: Improve progressively, through 2030, global 
   </p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 8.4.2: Domestic material consumption, domestic
   material consumption per capita, and domestic material consumption per GDP </p>'
+
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Environment Programme (UNEP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-04-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: United Nations Environment Programme. Custom Tabulation.
 source_url_1: https://www.unep.org/

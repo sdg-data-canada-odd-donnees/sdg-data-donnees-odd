@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET: '<p>Target 12.2: By 2030, achieve the sustainable management and efficient
   use of natural resources.</p>'
@@ -13,16 +14,20 @@ DATA_COMP: |
   <br><br> DMC per GDP = DMC/GDP in chained 2017 dollars
 REC_USE_LIM: |
   The series <i>Material footprint per GDP</i> is reported in tonnes per chained 2017 canadian dollars, as opposed to "Kilograms per constant United States dollar" as per the official metadata.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET__GLOBAL: '<p>Target 12.2: By 2030, achieve the sustainable management and
   efficient use of natural resources.</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 12.2.1: Material Footprint, material footprint
   per capita, and material footprint per GDP</p>'
+
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Environment Programme (UNEP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-02-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: United Nations Environment Programme. Custom Tabulation.
 source_url_1: https://www.unep.org/

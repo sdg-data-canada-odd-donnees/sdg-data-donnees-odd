@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
   et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET: '<p>Cible 8.4 : Améliorer progressivement, jusqu’en 2030, l’efficacité
@@ -17,6 +18,8 @@ DATA_COMP: |
   CMN par PIB = CMN/PIB en dollars chaînés de 2017
 REC_USE_LIM: |
   La série <i>Consommation intérieure de matières par PIB</i> est rapportée en tonnes par dollars canadien enchaîné de 2017, plutôt que par "Kilogrammes par dollars américain constant" tel que stipulé dans les métadonnées officielles.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
   partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.4 : Améliorer progressivement, jusqu’en 2030, l’efficacité
@@ -30,11 +33,12 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.4.2 : Consommation matérielle nationale
 
 reporting_status: complete
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: |
-  ONU programme pour l'environnement. Totalisation personnalisée.
+  Programme des Nations Unies pour l'environnement. Totalisation personnalisée.
 source_url_1: https://www.unep.org/fr
-source_organisation_1: ONU programme pour l'environnement
+source_organisation_1: Programme des Nations Unies pour l'environnement
 
 source_active_2: 'true'
 source_url_text_2: 'Tableau 36-10-0402-01  Produit intérieur brut (PIB) aux prix de base, par industries, provinces et territoires (x 1 000 000)'

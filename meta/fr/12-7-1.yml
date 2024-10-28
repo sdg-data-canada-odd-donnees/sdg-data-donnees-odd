@@ -1,20 +1,23 @@
+# National
 SDG_GOAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
 SDG_TARGET: '<p>Cible 12.7 : Promouvoir des pratiques durables dans le cadre de la passation 
   des marchés publics, conformément aux politiques et priorités nationales</p>'
 SDG_INDICATOR: '<p>Indicateur 12.7.1 : Degré de mise en œuvre des politiques et plans d’action 
   relatifs aux pratiques durables de passation des marchés publics</p>'
-STAT_CONC_DEF: |
-  <p>L'indicateur mesure le nombre de pays qui mettent en œuvre des politiques et des plans d'action en matière de marchés publics durables (MDP), en évaluant le degré de mise en œuvre au moyen d'un indice. Pour produire cet indice, les pays évaluent eux-mêmes les principaux éléments suivants :</p> 
-  <ul><li>Cadre juridique et réglementaire des marchés publics</li>
-  <li>Soutien pratique apporté à la mise en œuvre des marchés publics durables</li> 
-  <li>Produits prioritaires du MDP et critères correspondants en matière d'achats durables</li> 
-  <li>Existence d'un système de suivi du MDP</li> 
-  <li>Mesure des résultats réels du MDP</li> </ul>
+STAT_CONC_DEF: >-
+  <p>L'indicateur mesure le nombre de pays qui mettent en œuvre des politiques et des plans d'action en matière de marchés publics durables (MDP), en évaluant le degré de mise en œuvre au moyen d'un indice. Pour produire cet indice, les pays évaluent eux-mêmes les principaux éléments suivants :</p> 
+  <ul>
+  <li>Cadre juridique et réglementaire des marchés publics</li>
+  <li>Soutien pratique apporté à la mise en œuvre des marchés publics durables</li>
+  <li>Produits prioritaires du MDP et critères correspondants en matière d'achats durables</li>
+  <li>Existence d'un système de suivi du MDP</li>
+  <li>Mesure des résultats réels du MDP</li>
+  </ul>
 DATA_COMP: custom.data-tabulated
-REC_USE_LIM: |
-  L’indice de cet indicateur a été calculé en 2022.
-SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production
-  durables</p>'
+REC_USE_LIM: '    '
+
+# Global
+SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 12.7 : Promouvoir des pratiques durables dans le cadre de la passation 
   des marchés publics, conformément aux politiques et priorités nationales</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.7.1 : Degré de mise en œuvre des politiques et plans d’action 
@@ -27,6 +30,7 @@ un_custodian_agency: |
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-07-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Secrétariat du Conseil du Trésor. Politique d'achats écologiques. Totalisation personnalisée.
 source_url_1: https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32573
