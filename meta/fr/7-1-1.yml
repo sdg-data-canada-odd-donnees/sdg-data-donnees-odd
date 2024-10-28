@@ -4,9 +4,13 @@ SDG_GOAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergét
 SDG_TARGET: '<p>Cible 7.1 : D’ici à 2030, garantir l’accès de tous à des services
   énergétiques fiables et modernes, à un coût abordable.</p>'
 SDG_INDICATOR: '<p>Indicateur 7.1.1 : Proportion de la population ayant accès à l’électricité</p>'
-STAT_CONC_DEF: '    '
-DATA_COMP: '   '
-REC_USE_LIM: '    '
+STAT_CONC_DEF: >-
+  Cet indicateur mesure la proportion de la population ayant accès à l'électricité.
+  <br><br>
+  Les pays classés « à haut revenu » selon la classification des pays de la Banque mondiale (80 pays) au cours de l'exercice 2020 étaient supposés avoir complètement fait la transition vers une énergie domestique propre et sont donc signalés comme ayant un accès > 95 % aux technologies propres.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: >-
+  Les pays classés « à haut revenu » selon les groupes de pays et de prêt de la Banque mondiale sont censés atteindre l'accès universel dès la première année où le pays a rejoint la catégorie.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques
@@ -16,18 +20,16 @@ SDG_TARGET__GLOBAL: '<p>Cible 7.1 : D’ici à 2030, garantir l’accès de tous
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.1.1 : Proportion de la population ayant accès
   à l’électricité.</p>'
 
-# SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: |
-  Accès à l’électricité (% de la population) - Canada
-source_url_1: https://donnees.banquemondiale.org/indicateur/EG.ELC.ACCS.ZS?end=2020&locations=CA&name_desc=false&start=2015
-source_organisation_1: Banque Mondiale
-source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada
-
 un_designated_tier: Niveau I
 un_custodian_agency: Banque Mondiale
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: >-
+  Accès à l’électricité (% de la population) - Canada
+source_url_1: https://donnees.banquemondiale.org/indicateur/EG.ELC.ACCS.ZS?end=2020&locations=CA&name_desc=false&start=2015
+source_organisation_1: Banque Mondiale
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada 
