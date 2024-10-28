@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
   et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET: '<p>Cible 8.4 : Améliorer progressivement, jusqu’en 2030, l’efficacité
@@ -15,6 +16,9 @@ DATA_COMP: |
   <br><br> DMC par PIB = DMC/PIB en dollars enchaînés de 2017
 REC_USE_LIM: |
   La série <i>Empreinte matérielle par unité de PIB</i> est rapportée en tonnes par dollars canadien enchaîné de 2017, plutôt que par "Kilogrammes par dollars américain constant" tel que stipulé dans les métadonnées officielles.
+
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
   et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.4 : Améliorer progressivement, jusqu’en 2030, l’efficacité
@@ -26,6 +30,7 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.4.1 : Empreinte matérielle, empreinte 
 
 reporting_status: complete
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: |
   Programme des Nations Unies pour l’environnement. Totalisation personnalisée.

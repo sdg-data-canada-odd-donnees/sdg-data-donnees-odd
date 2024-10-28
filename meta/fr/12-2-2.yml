@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
 SDG_TARGET: '<p>Cible 12.2 : D’ici à 2030, parvenir à une gestion durable et à une
   utilisation rationnelle des ressources naturelles</p>'
@@ -13,6 +14,8 @@ DATA_COMP: |
   CMN par PIB = CMN/PIB en dollars chaînés de 2017
 REC_USE_LIM: |
   La série <i>Consommation intérieure de matières par PIB</i> est rapportée en tonnes par dollars canadien enchaîné de 2017, plutôt que par "Kilogrammes par dollars américain constant" tel que stipulé dans les métadonnées officielles.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production
   durables</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 12.2 : D’ici à 2030, parvenir à une gestion durable et
@@ -28,11 +31,12 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 reporting_status: complete
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: |
-  ONU programme pour l'environnement. Totalisation personnalisée.
+  Programme des Nations Unies pour l'environnement. Totalisation personnalisée.
 source_url_1: https://www.unep.org/fr
-source_organisation_1: ONU programme pour l'environnement
+source_organisation_1: Programme des Nations Unies pour l'environnement
 
 source_active_2: 'true'
 source_url_text_2: 'Tableau 36-10-0402-01  Produit intérieur brut (PIB) aux prix de base, par industries, provinces et territoires (x 1 000 000)'

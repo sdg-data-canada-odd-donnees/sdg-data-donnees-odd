@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
 SDG_TARGET: '<p>Cible 12.2 : D’ici à 2030, parvenir à une gestion durable et à une
   utilisation rationnelle des ressources naturelles</p>'
@@ -12,6 +13,8 @@ DATA_COMP: |
   <br><br> DMC par PIB = DMC/PIB en dollars enchaînés de 2017
 REC_USE_LIM: |
   La série <i>Empreinte matérielle par unité de PIB</i> est rapportée en tonnes par dollars canadien enchaîné de 2017, plutôt que par "Kilogrammes par dollars américain constant" tel que stipulé dans les métadonnées officielles.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 12.2 : D’ici à 2030, parvenir à une gestion durable et à une
   utilisation rationnelle des ressources naturelles</p>'
@@ -25,6 +28,7 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 reporting_status: complete
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: |
   Programme des Nations Unies pour l’environnement. Totalisation personnalisée.
