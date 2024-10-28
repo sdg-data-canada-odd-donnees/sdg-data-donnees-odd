@@ -6,10 +6,9 @@ options(timeout = 300)
 library(dplyr)
 library(readsdmx)
 
-# API URLs for ODA grants and GNI
-
 # CRS: Creditor Reporting System (flows)
 # See https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=19&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.1&dq=DAC..1000.100._T._T.D.Q._T..&lom=LASTNPERIODS&lo=5&to[TIME_PERIOD]=false&lc=en
+# Applied filters: Donor = Canada, Recipient = Developing countries, Sector = Water supply & sanitation/Agricultural water resources, Measure = Official Development Assistance, Price base = Constant prices
 url_oda <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.1/DAC..31140+140.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 
 oda_raw <- read_sdmx(url_oda)
