@@ -37,7 +37,7 @@ gni <- gni_raw %>%
 
 oda <- oda_raw %>%
   mutate(
-    `Poverty reduction aid type` = case_match(
+    Sector = case_match(
       SECTOR,
       "112" ~ "Basic education",
       "122" ~ "Basic health",
@@ -48,7 +48,7 @@ oda <- oda_raw %>%
   ) %>%
   select(
     Year = TIME_PERIOD,
-    `Poverty reduction aid type`,
+    Sector,
     ODA = ObsValue,
   ) %>%
   mutate_at("ODA", as.numeric) %>%
@@ -63,7 +63,7 @@ data_final <- bind_rows(oda, oda_total) %>%
   mutate(Value = ODA / GNI * 100) %>%
   select(
     Year,
-    `Poverty reduction aid type`,
+    Sector,
     Value
   )
 
