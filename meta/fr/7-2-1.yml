@@ -1,26 +1,34 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques fiables,
-  durables et modernes, à un coût abordable.</p>'
-SDG_TARGET: '<p>Cible 7.2 : D’ici à 2030, accroître nettement la part de l’énergie
-  renouvelable dans le bouquet énergétique mondial.</p>'
-SDG_INDICATOR: |
-    <p>Indicateur 7.2.1 : Proportion de l’électricité produite à partir de sources renouvelables et non émettrices de gaz à effet de serre</p>
-STAT_CONC_DEF: '    '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
- 
- 
+SDG_GOAL: >-
+  Objectif 7 : Garantir l’accès de tous à des services énergétiques fiables, durables et modernes, à un coût abordable.
+SDG_TARGET: >-
+  Cible 7.2 : D’ici à 2030, accroître nettement la part de l’énergie renouvelable dans le bouquet énergétique mondial.
+SDG_INDICATOR: >-
+  Indicateur 7.2.1 : Proportion de l’électricité produite à partir de sources renouvelables et autres sources non émettrices de gaz à effet de serre
+STAT_CONC_DEF: >-
+  Cet indicateur mesure la proportion de l'électricité produite à partir de sources renouvelables et non émettrices de gaz à effet de serre, qui comprend l'énergie produite à partir de turbines hydrauliques, solaires, marémotrices, éoliennes, nucléaires à vapeur et toute l'électricité produite à partir de combustible.
+DATA_COMP: >-
+  Les données mensuelles sur la production d'énergie électrique sont annualisées et la somme des mégawattheures produits par des sources renouvelables et non émettrices de gaz à effet de serre est exprimée en proportion de l'électricité totale produite.
+REC_USE_LIM: >-
+  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique: « Part de l’énergie renouvelable dans la consommation finale d’énergie ».
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques
-  fiables, durables et modernes, à un coût abordable.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 7.2 : D’ici à 2030, accroître nettement la part de l’énergie
-  renouvelable dans le bouquet énergétique mondial.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.2.1 : Part de l’énergie renouvelable dans la
-  consommation finale d’énergie.</p>'
+SDG_GOAL__GLOBAL: >-
+  Objectif 7 : Garantir l’accès de tous à des services énergétiques fiables, durables et modernes, à un coût abordable.
+SDG_TARGET__GLOBAL: >-
+  Cible 7.2 : D’ici à 2030, accroître nettement la part de l’énergie renouvelable dans le bouquet énergétique mondial.
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 7.2.1 : Part de l’énergie renouvelable dans la consommation finale d’énergie.
+
+un_designated_tier: Niveau I
+un_custodian_agency: Agence internationale de l’énergie (AIE), Division de statistique de l’ONU,
+  Mécanisme interinstitutions des Nations Unies sur l’énergie (ONU Énergie), SE4ALL Global Tracking Framework Consortium
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-02-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistique Canada. Tableau 25-10-0015-01  Production de l'énergie électrique, production mensuelle selon le type d'électricité
+source_url_text_1: Statistique Canada. Tableau 25-10-0015-01  Production de l'énergie électrique, production mensuelle selon le type d'électricité
 source_url_1: https://doi.org/10.25318/2510001501-fra
 source_organisation_1: Statistique Canada
 source_periodicity_1: Mensuelle
@@ -40,11 +48,5 @@ source_geographical_coverage_1: Canada, Province ou territoire
 # source_url_3: https://www.rncan.gc.ca/sites/nrcan/files/energy/energy_fact/2022-2023/PDF/Energy-factbook-2022-2023-FRENCH.pdf
 # source_organisation_3: Ressources naturelles Canada (RNCan)
 # source_geographical_coverage_3: Canada
-
-un_designated_tier: Niveau I
-un_custodian_agency: Agence internationale de l’énergie (AIE), Division de statistique de l’ONU,
-  Mécanisme interinstitutions des Nations Unies sur l’énergie (ONU Énergie), SE4ALL Global Tracking Framework Consortium
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-02-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 proxy: proxy

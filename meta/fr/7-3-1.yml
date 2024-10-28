@@ -4,12 +4,13 @@ SDG_GOAL: >-
 SDG_TARGET: >-
     Cible 7.3 : D’ici à 2030, multiplier par deux le taux mondial d’amélioration de l’efficacité énergétique
 SDG_INDICATOR: >-
-    Indicateur 7.3.1 : Intensité énergétique [rapport entre énergie primaire et produit intérieur brut (PIB)]
+    Indicateur 7.3.1 : Intensité totale de la consommation d’énergie en termes de PIB
 STAT_CONC_DEF: >-
-    L'intensité énergétique est définie comme l'énergie fournie à l'économie par valeur unitaire de la production économique.
+    Cet indicateur mesure l’intensité totale de la consommation d’énergie en termes de PIB. Ceci est exprimé en térajoules par million de dollars de PIB réel.
 DATA_COMP: >-
-    L'indicateur est obtenu en divisant l'approvisionnement énergétique total par le PIB.
-REC_USE_LIM: '   '
+    Consommation totale d'énergie par unité de PIB = Consommation totale d'énergie / PIB réel, basé sur les dépenses, aux prix du marché (dollars canadiens enchaînés de 2017)
+REC_USE_LIM: >-
+    Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : « Intensité énergétique [rapport entre énergie primaire et produit intérieur brut (PIB)] ». Cet indicateur mesure l’intensité totale de la consommation d’énergie en termes de PIB plutôt que l’énergie fournie à l’économie par valeur unitaire de production économique, comme spécifié dans les métadonnées.
 reporting_status: complete
 
 # GLOBAL --- 
