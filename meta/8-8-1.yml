@@ -1,14 +1,19 @@
+# National
 SDG_GOAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic growth,
   full and productive employment and decent work for all</p>'
 SDG_TARGET: '<p>Target 8.8: Protect labour rights and promote safe and secure working
   environments for all workers, including migrant workers, in particular women migrants,
   and those in precarious employment</p>'
 SDG_INDICATOR: '<p>Indicator 8.8.1: Number of fatality and lost time claims, by sex</p>'
-STAT_CONC_DEF: |
-  Fatality is defined as a death resulting from a work-related incident (including disease) that has been accepted for compensation by a Board/Commission. <br><br>
+STAT_CONC_DEF: >-
+  Fatality is defined as a death resulting from a work-related incident (including disease) that has been accepted for compensation by a Board/Commission.
+  <br><br>
   A lost time claim is an injury where a worker is compensated by a Board/Commission for a loss of wages following a work-related injury (or exposure to a noxious substance), or receives compensation for a permanent disability with or without any time lost in his or her employment (for example, if a worker is compensated for a loss of hearing resulting from excessive noise in the work place).
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status".'
+REC_USE_LIM: >-
+  This is a proxy indicator. The UN Global indicator states: "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status".
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 8.8: Protect labour rights and promote safe and secure
@@ -16,11 +21,13 @@ SDG_TARGET__GLOBAL: '<p>Target 8.8: Protect labour rights and promote safe and s
   migrants, and those in precarious employment</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 8.8.1: Fatal and non-fatal occupational injuries
   per 100,000 workers, by sex and migrant status</p>'
+
 un_designated_tier: Tier II
 un_custodian_agency: International Labour Organization (ILO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-08-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: "National Work Injury, Disease and Fatality Statistics (NWISP) - Year At A Glance"
 source_url_1: https://awcbc.org/en/statistics/national-work-injury-disease-and-fatality-statistics-nwisp-year-at-a-glance/
