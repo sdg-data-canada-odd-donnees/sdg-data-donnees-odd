@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic growth,
   full and productive employment and decent work for all </p>'
 SDG_TARGET: '<p>Target 8.3: Promote development-oriented policies that support productive
@@ -6,11 +7,12 @@ SDG_TARGET: '<p>Target 8.3: Promote development-oriented policies that support p
   including through access to financial services </p>'
 SDG_INDICATOR: '<p>Indicator: 8.3.1: Proportion of informal employment in total employment,
   by sector and sex</p>'
-STAT_CONC_DEF: <p>This indicator presents the share of employment which is classified
-  as informal employment in the total economy, and separately in agriculture and in
-  non-agriculture.</p>
+STAT_CONC_DEF: >-
+  This indicator presents the share of employment which is classified as informal employment in the total economy, and separately in agriculture and in non-agriculture.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all </p>'
 SDG_TARGET__GLOBAL: '<p>Target 8.3: Promote development-oriented policies that support
@@ -19,9 +21,9 @@ SDG_TARGET__GLOBAL: '<p>Target 8.3: Promote development-oriented policies that s
   including through access to financial services </p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator: 8.3.1: Proportion of informal employment in
   total employment, by sector and sex</p>'
+
 un_designated_tier: Tier II
 un_custodian_agency: International Labour Organization (ILO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
  
