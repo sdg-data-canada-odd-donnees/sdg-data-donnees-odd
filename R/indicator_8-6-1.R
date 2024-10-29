@@ -59,14 +59,14 @@ total_line <-
 
 data_with_Canada <- bind_rows(total_line, NEET_filtered)
 
-data_final <-
-  data_with_Canada %>%
-  filter(
-    !Geography %in% exclude_Canada
-  ) 
+# data_final <-
+#   data_with_Canada %>%
+#   filter(
+#     !Geography %in% exclude_Canada
+#   ) 
 
 write.csv(
-  data_final,
+  data_with_Canada,
   "data/indicator_8-6-1.csv",
   na = "",
   row.names = FALSE,
