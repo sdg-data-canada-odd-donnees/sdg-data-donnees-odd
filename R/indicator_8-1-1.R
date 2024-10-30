@@ -9,8 +9,7 @@ real_gdp <- get_cansim("36-10-0222-01", factors = FALSE)
 pop_ests <- get_cansim("17-10-0005-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
 
-national_gdp <-
-  real_gdp %>% 
+national_gdp <- real_gdp %>% 
   filter(
     substr(REF_DATE, 1, 4) >= 2014,
     Estimates == "Gross domestic product at market prices",
@@ -25,10 +24,10 @@ national_gdp <-
     Year = substr(REF_DATE, 1, 4)
   ) %>% 
   group_by(Year, Geography) %>% 
-  summarise(GDP = mean(VALUE), .groups = "drop")
+  summarise(GDP = mean(VALUE), .groups = "drop") %>%
+  na.omit()
 
-pop_ests <- 
-  pop_ests %>% 
+pop_ests <- pop_ests %>% 
   filter(
     REF_DATE >= 2014,
     Gender == "Total - gender",
@@ -41,11 +40,8 @@ pop_ests <-
     Population = VALUE
   )
 
-all_gdp <- 
-  bind_rows(
-    national_gdp
-  ) %>% 
-  left_join(pop_ests) %>% 
+all_gdp <- national_gdp %>% 
+  inner_join(pop_ests) %>% 
   mutate(
     gdp_per_cap = (GDP*1000000)/Population
   ) %>% 

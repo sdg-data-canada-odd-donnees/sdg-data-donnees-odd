@@ -1,16 +1,30 @@
+# National
 SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
-  et durable, le plein emploi productif et un travail décent pour tous.</p>'
+  et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET: '<p>Cible 8.b : D’ici à 2020, élaborer et mettre en œuvre une stratégie
   mondiale en faveur de l’emploi des jeunes et appliquer le Pacte mondial pour l’emploi
   de l’Organisation internationale du Travail</p>'
 SDG_INDICATOR: '<p>Indicateur 8.b.1 : Existence d’une stratégie nationale de promotion 
   de l’emploi des jeunes, qu’il s’agisse d’une stratégie à part entière ou d’une composante 
   d’une stratégie nationale de promotion de l’emploi, et application de cette stratégie</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: >-
+  La méthodologie proposée s'appuie sur :
+  <br><br>
+  Les instruments politiques mondiaux, notamment :
+  <br>
+  <i>La résolution sur La crise de l'emploi des jeunes : Un appel à l'action</i>, adoptée lors de la 101e session de la Conférence internationale du travail (CIT) en juin 2012. En appelant à une action collective vigoureuse pour faire face à l'aggravation de la crise de l'emploi des jeunes, cette résolution préconise une approche sur plusieurs fronts avec des mesures politiques spécifiques au contexte et intégrées, impliquant des stratégies qui rassemblent de manière cohérente une variété d'instruments pour accroître la demande, renforcer l'offre et améliorer l'adéquation sur les marchés du travail des jeunes.
+  <br><br>
+  <i>Se remettre de la crise : Un Pacte mondial pour l'emploi</i> adopté par la CIT lors de sa session de juin 2009. Fondé sur l'Agenda pour le travail décent de l'OIT, le Pacte mondial pour l'emploi présente un portefeuille intégré de politiques qui place l'emploi et la protection sociale au cœur de la réponse à la crise, en reconnaissant le rôle essentiel de la participation et du dialogue social.
+  <br><br>
+  2. Bases de données de l'OIT :
+  <br>
+  Le suivi international des politiques d'emploi des jeunes a été réalisé au cours de la période 2010-2012 par le Réseau pour l'emploi des jeunes (YEN) - un partenariat entre l'OIT, les Nations unies et la Banque mondiale - à l'aide d'un questionnaire envoyé aux autorités nationales. Ce questionnaire est devenu YouthPOL, un inventaire des politiques et programmes pour l'emploi des jeunes tenu par l'OIT (65 pays couverts à ce jour). L'OIT gère également EmPol, un ensemble de données sur les politiques nationales de l'emploi au sens large (143 pays couverts).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
-  et durable, le plein emploi productif et un travail décent pour tous.</p>'
+  et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.b : D’ici à 2020, élaborer et mettre en œuvre une stratégie
   mondiale en faveur de l’emploi des jeunes et appliquer le Pacte mondial pour l’emploi
   de l’Organisation internationale du Travail</p>'
@@ -18,11 +32,9 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.b.1 : Existence d’une stratégie nati
   de l’emploi des jeunes, qu’il s’agisse d’une stratégie à part entière ou d’une composante 
   d’une stratégie nationale de promotion de l’emploi, et application de cette stratégie</p>'
 
-reporting_status: complete
-
 un_designated_tier: Niveau II
 un_custodian_agency: Organisation internationale du Travail
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-0b-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+# Source(s)

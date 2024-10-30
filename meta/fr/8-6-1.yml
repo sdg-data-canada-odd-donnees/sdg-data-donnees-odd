@@ -1,21 +1,28 @@
+# National
 SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
-  et durable, le plein emploi productif et un travail décent pour tous.</p>'
-SDG_TARGET: '<p>Cible 8.6 : D’ici à 2020, réduire nettement la proportion de jeunes
+  et durable, le plein emploi productif et un travail décent pour tous.</p>'
+SDG_TARGET: '<p>Cible 8.6 : D’ici à 2020, réduire nettement la proportion de jeunes
   non scolarisés et sans emploi ni formation</p>'
-SDG_INDICATOR: '<p>Indicateur 8.6.1 : Proportion de jeunes (âgés de 15 à 24 ans) non scolarisés
+SDG_INDICATOR: '<p>Indicateur 8.6.1 : Proportion de jeunes (âgés de 15 à 24 ans) non scolarisés
   et sans emploi ni formation</p>'
-STAT_CONC_DEF: |
-  <b>Chômeurs</b>, Ni en emploi, ni aux études, ni en formation (NEET) = Les personnes qui, durant la semaine de référence, étaient sans travail, étaient disponibles pour travailler, et recherchaient activement un emploi.<br><br><b>Inactifs</b>, Ni en emploi, ni aux études, ni en formation (NEET) = Les individus qui ne travaillent pas et qui ne sont pas au chômage, soit ceux qui ne sont pas à la recherche d’un emploi.
-DATA_COMP: '   '
-REC_USE_LIM: |
-  Puisque la majorité des jeunes âgés de 25 à 29 ans ont terminé leurs études, il est approprié de mesurer les taux Ni en emploi, ni aux études, ni en formation (NEET) selon le plus haut niveau de scolarité atteint au sein de ce groupe d’âge. Le groupe des 15 à 24 ans est exclu puisque la majorité de ces jeunes sont encore aux études.<br><br>Les estimations sont fondées sur une moyenne de huit mois au cours d'une année civile (c.-à-d. de janvier à avril et de septembre à décembre). Les non-étudiants sont des personnes qui ne sont pas inscrites à un établissement d'enseignement, conformément aux concepts de l'Enquête sur la population active (EPA).
-  
+STAT_CONC_DEF: >-
+  Cet indicateur reflète la proportion de jeunes (âgés de 15 à 24 ans) qui ne sont ni étudiants, ni employés, ni stagiaires (également connu sous le nom de « taux de jeunes NEET »).
+DATA_COMP: custom.data-comp
+REC_USE_LIM: >-
+  Les taux de personnes qui sont ni étudiants, ni employés, ni stagiaires (NEET) pour les provinces correspondent au taux moyen des trois premiers mois de l'année civile (premier trimestre), qui exclut les emplois d'été. Pour les territoires, la moyenne est calculée sur 8 mois (septembre à avril) puisque l'échantillon de l'enquête et la collecte des données diffèrent significativement de ceux des provinces.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
-  partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
+  partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.6 : D’ici à 2020, réduire nettement la proportion
-  de jeunes non scolarisés et sans emploi ni formation</p>'
+  de jeunes non scolarisés et sans emploi ni formation</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.6.1 : Proportion de jeunes (âgés de 15 à 24 ans)
-  non scolarisés et sans emploi ni formation</p>'
+  non scolarisés et sans emploi ni formation</p>'
+
+un_designated_tier: Niveau I
+un_custodian_agency:  Organisation internationale du Travail
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-06-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE(S)
 source_active_1: 'true'
@@ -24,10 +31,3 @@ source_organisation_1: Statistique Canada
 source_periodicity_1: Occasionnelle
 source_geographical_coverage_1: Canada, Province ou territoire
 source_url_1: https://doi.org/10.25318/3710019601-fra
-
- 
-
-un_designated_tier: Niveau I
-un_custodian_agency:  Organisation internationale du Travail
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-06-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

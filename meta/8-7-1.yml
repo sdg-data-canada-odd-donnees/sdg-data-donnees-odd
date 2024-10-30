@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic growth,
   full and productive employment and decent work for all </p>'
 SDG_TARGET: '<p>Target 8.7: Take immediate and effective measures to eradicate forced
@@ -9,6 +10,8 @@ SDG_INDICATOR: '<p>Indicator 8.7.1: Proportion and number of children aged 5-17 
 STAT_CONC_DEF: The number of children engaged in child labour corresponds to the number of children reported to be in child labour during the reference period (usually the week prior to the survey). The proportion of children in child labour is calculated as the number of children in child labour divided by the total number of children in the population. For the purposes of this indicator, children include all persons aged 5 to 17.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all </p>'
 SDG_TARGET__GLOBAL: '<p>Target 8.7: Take immediate and effective measures to eradicate
@@ -17,10 +20,8 @@ SDG_TARGET__GLOBAL: '<p>Target 8.7: Take immediate and effective measures to era
   of child soldiers, and by 2025 end child labour in all its forms </p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 8.7.1: Proportion and number of children aged
   5-17 years engaged in child labour, by sex and age </p>'
+
 un_designated_tier: Tier II
 un_custodian_agency: International Labour Organization (ILO),
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-07-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
- 
-
-reporting_status: notapplicable

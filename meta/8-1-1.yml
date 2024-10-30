@@ -1,21 +1,25 @@
 # NATIONAL
-SDG_GOAL: |-
+SDG_GOAL: >-
   Goal 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all.
-SDG_TARGET: |-
+SDG_TARGET: >-
   Target 8.1: Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries
 SDG_INDICATOR: '<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p>'
-STAT_CONC_DEF: <p>This indicator measures the annual growth rate of real GDP per capita.</p>
-DATA_COMP: 'Real GDP per capita in time t = Real GDP in time t / total population in time <br><br> 
-  Annual growth rate of real GPD per capita (in %) = (((Real GDP per capita at time t)-(Real GDP per capita at time t-1))/(Real GDP per capita at time t-1))x100'
-REC_USE_LIM: 'GDP data for this indicator is calculated using 2017 chained Canadian dollars as opposed to 2015 US dollars as stated in the global metadata.'
+STAT_CONC_DEF: >-
+  This indicator measures the annual growth rate of real GDP per capita.
+DATA_COMP: >-
+  Real GDP per capita in time t = Real GDP in time t / total population in time t
+  <br><br>
+  Annual growth rate of real GPD per capita (in %) = (((Real GDP per capita at time t) - (Real GDP per capita at time t-1)) / (Real GDP per capita at time t-1)) × 100
+REC_USE_LIM: >-
+  GDP data for this indicator is calculated using 2017 chained Canadian dollars as opposed to 2015 US dollars as stated in the global metadata.
  
-
 # GLOBAL
-SDG_GOAL__GLOBAL: |-
+SDG_GOAL__GLOBAL: >-
   Goal 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all.
-SDG_TARGET__GLOBAL: |-
+SDG_TARGET__GLOBAL: >-
   Target 8.1: Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries
 SDG_INDICATOR__GLOBAL: '<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p>'
+
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Statistics Division (UNSD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-01-01.pdf
@@ -24,7 +28,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 36-10-0222-01  Gross domestic product, expenditure-based, provincial and territorial, annual (x 1,000,000)
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610022201
+source_url_1: https://doi.org/10.25318/3610022201-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
@@ -35,6 +39,3 @@ source_url_2: https://doi.org/10.25318/1710000501-eng
 source_organisation_2: Statistics Canada
 source_periodicity_2: Annual
 source_geographical_coverage_2: Canada, Province or territory
-
-
-
