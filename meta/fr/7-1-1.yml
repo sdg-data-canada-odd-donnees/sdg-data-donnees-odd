@@ -3,11 +3,9 @@ SDG_GOAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergét
   durables et modernes, à un coût abordable.</p>'
 SDG_TARGET: '<p>Cible 7.1 : D’ici à 2030, garantir l’accès de tous à des services
   énergétiques fiables et modernes, à un coût abordable.</p>'
-SDG_INDICATOR: '<p>Indicateur 7.1.1 : Proportion de la population ayant accès à l’électricité</p>'
+SDG_INDICATOR: '<p>Indicateur 7.1.1 : Proportion de la population ayant accès à l’électricité</p>'
 STAT_CONC_DEF: >-
-  Cet indicateur mesure la proportion de la population ayant accès à l'électricité.
-  <br><br>
-  Les pays classés « à haut revenu » selon la classification des pays de la Banque mondiale (80 pays) au cours de l'exercice 2020 étaient supposés avoir complètement fait la transition vers une énergie domestique propre et sont donc signalés comme ayant un accès > 95 % aux technologies propres.
+  Cet indicateur mesure la proportion de la population ayant accès à des sources consistentes d'électricité.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   Les pays classés « à haut revenu » selon les groupes de pays et de prêt de la Banque mondiale sont censés atteindre l'accès universel dès la première année où le pays a rejoint la catégorie.
@@ -18,7 +16,7 @@ SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services �
 SDG_TARGET__GLOBAL: '<p>Cible 7.1 : D’ici à 2030, garantir l’accès de tous à des services
   énergétiques fiables et modernes, à un coût abordable.</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.1.1 : Proportion de la population ayant accès
-  à l’électricité.</p>'
+  à l’électricité.</p>'
 
 un_designated_tier: Niveau I
 un_custodian_agency: Banque Mondiale
