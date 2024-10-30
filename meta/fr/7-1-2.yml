@@ -6,11 +6,10 @@ SDG_TARGET: '<p>Cible 7.1 : D’ici à 2030, garantir l’accès de tous à des 
 SDG_INDICATOR: '<p>Indicateur 7.1.2 : Proportion de la population utilisant principalement
   des carburants et technologies propres.</p>'
 STAT_CONC_DEF: >-
-  Cet indicateur mesure la proportion de la population utilisant principalement des carburants et technologies propres.
-  <br><br>
-  Les pays classés « à haut revenu » selon les groupes de pays et de prêt de la Banque mondiale sont censés atteindre l'accès universel dès la première année où le pays a rejoint la catégorie.
+  Cet indicateur mesure la proportion de la population utilisant principalement des carburants et technologies propres. Le terme « propre » est défini par les objectifs de taux d'émissions et les recommandations spécifiques concernant les combustibles (contre le charbon non traité et le kérosène) figurant dans les lignes directrices normatives de l'OMS relatives à la qualité de l'air intérieur : consommation de combustibles domestiques.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: '   '
+REC_USE_LIM: >-
+  Les pays classifiés à revenu élevé selon la classification de la Banque mondiale (81 pays) au cours de l'année fiscale 2022 ont été considérés comme ayant entièrement complété la transition vers l'énergie domestique propre et sont donc rapporté comme ayant un accès aux technologies propres de 100 %.
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques

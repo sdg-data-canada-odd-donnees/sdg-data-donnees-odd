@@ -3,14 +3,10 @@ SDG_GOAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and mod
 SDG_TARGET: '<p>Target 7.1: By 2030, ensure universal access to affordable, reliable and modern energy services</p>'
 SDG_INDICATOR: '<p>Indicator 7.1.1: Proportion of population with access to electricity</p>'
 STAT_CONC_DEF: >-
-  This indicator measures the proportion of the population with access to electricity.
-  <br><br>
-  Countries classified as high-income according to the World Bank country classification (80 countries) in the 2020 fiscal year were assumed to have fully transitioned to clean household energy and therefore are reported as > 95 % access to clean technologies.
+  This indicator measures the proportion of the population that has access to consistent sources of electricity.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
-  Countries classified as “High Income” based on the World Bank Country and Lending Groups are assumed to reach universal access from the first year the country joined the category.
- 
- 
+  Countries classified as “High Income” based on the World Bank Country and Lending Groups are assumed to reach universal access from the first year the country joined the category. 
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all</p>'
