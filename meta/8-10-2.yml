@@ -4,13 +4,13 @@ SDG_GOAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic grow
 SDG_TARGET: '<p>Target 8.10: Strengthen the capacity of domestic financial institutions
   to encourage and expand access to banking, insurance and financial services for
   all</p>'
-SDG_INDICATOR: '<p>Indicator 8.10.2: Proportion of adults (15 years and older) with
-  an account at a bank or other financial institution or with a mobile-money-service
-  provider</p>'
+SDG_INDICATOR: >-
+  Indicator 8.10.2: Proportion of family units with a chequing or savings account
 STAT_CONC_DEF: >-
   This indicator measures the percentage of family units (economic families or individuals outside economic families) holding a checking or savings account, whether the balance is positive, negative or zero.
 DATA_COMP: custom.data-tabulated
-REC_USE_LIM: '  '
+REC_USE_LIM: >-
+  This is a proxy indicator. The UN Global indicator states: "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider".
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
