@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Fatality claims",
-                "Lost time claims",
+                "Réclamations de décès",
+                "Réclamations de pertes de temps",
                 ""
               ]
             },
@@ -34,8 +34,7 @@
               "enum": [
                 "Homme",
                 "Femme",
-                "Total",
-                "Unknown",
+                "Inconnu",
                 ""
               ]
             },

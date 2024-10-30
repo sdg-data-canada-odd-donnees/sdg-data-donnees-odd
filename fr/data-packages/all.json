@@ -2899,8 +2899,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Fatality claims",
-                "Lost time claims",
+                "Réclamations de décès",
+                "Réclamations de pertes de temps",
                 ""
               ]
             },
@@ -2913,8 +2913,7 @@
               "enum": [
                 "Homme",
                 "Femme",
-                "Total",
-                "Unknown",
+                "Inconnu",
                 ""
               ]
             },
@@ -4221,11 +4220,9 @@
                 "Nouveau-Brunswick",
                 "Terre-Neuve-et-Labrador",
                 "Territoires du Nord-Ouest",
-                "Northwest Territories including Nunavut",
                 "Nouvelle-Écosse",
                 "Nunavut",
                 "Ontario",
-                "Outside Canada",
                 "Île-du-Prince-Édouard",
                 "Québec",
                 "Saskatchewan",
@@ -4803,7 +4800,7 @@
               "enum": [
                 "Femme",
                 "Homme",
-                "Unknown",
+                "Inconnu",
                 ""
               ]
             },
@@ -5078,7 +5075,7 @@
               "enum": [
                 "Homme",
                 "Femme",
-                "Unknown",
+                "Inconnu",
                 ""
               ]
             },
@@ -6899,7 +6896,7 @@
           }
         ]
       },
-      "title": "Taux de croissance annuelle du PIB réel par personne pourvue d’un emplo"
+      "title": "Taux de croissance annuelle du PIB réel par personne pourvue d’un emploi"
     },
     {
       "path": "2-3-2/data.csv",
@@ -7693,6 +7690,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",

@@ -2699,7 +2699,6 @@
               "enum": [
                 "Male",
                 "Female",
-                "Total",
                 "Unknown",
                 ""
               ]
@@ -3911,11 +3910,9 @@
                 "New Brunswick",
                 "Newfoundland and Labrador",
                 "Northwest Territories",
-                "Northwest Territories including Nunavut",
                 "Nova Scotia",
                 "Nunavut",
                 "Ontario",
-                "Outside Canada",
                 "Prince Edward Island",
                 "Quebec",
                 "Saskatchewan",
@@ -7138,6 +7135,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
