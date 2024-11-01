@@ -13,7 +13,7 @@ DATA_COMP: >-
   <br><br>
   Annual growth rate of real GDP per employed person (in %) = (((Real GDP per employed person in year n) - (Real GDP per employed person in year n-1)) / (Real GDP per employed person in year n-1)) × 100
 REC_USE_LIM: >-
-  GDP data for this indicator is calculated using 2017 chained Canadian dollars as opposed to 2015 US dollars as stated in the global metadata.
+  GDP data for this indicator is calculated using 2017 chained Canadian dollars as opposed to constant US dollars at 2015 prices as stated in the global metadata.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic

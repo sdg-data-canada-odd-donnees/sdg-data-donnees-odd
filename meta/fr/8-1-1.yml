@@ -12,7 +12,7 @@ DATA_COMP: >-
   <br><br>
   Taux de croissance annuel du PIB réel par habitant (en %) = (((PIB réel par habitant au temps t) - (PIB réel par habitant au temps t-1)) / (PIB réel par habitant au temps t-1)) × 100
 REC_USE_LIM: >-
-  Les données relatives au PIB pour cet indicateur sont calculées en dollars canadiens enchaînés (2017) et non en dollars américains de 2015, comme indiqué dans les métadonnées globales.
+  Les données relatives au PIB pour cet indicateur sont calculées en dollars canadiens enchaînés (2017) et non en dollars américains aux prix constants de 2015, comme indiqué dans les métadonnées globales.
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
