@@ -11,7 +11,7 @@ DATA_COMP: >-
   <br><br>
   Annual growth rate of real GPD per capita (in %) = (((Real GDP per capita at time t) - (Real GDP per capita at time t-1)) / (Real GDP per capita at time t-1)) × 100
 REC_USE_LIM: >-
-  GDP data for this indicator is calculated using 2017 chained Canadian dollars as opposed to 2015 US dollars as stated in the global metadata.
+  GDP data for this indicator is calculated using 2017 chained Canadian dollars as opposed to constant US dollars at 2015 prices as stated in the global metadata.
  
 # GLOBAL
 SDG_GOAL__GLOBAL: >-
