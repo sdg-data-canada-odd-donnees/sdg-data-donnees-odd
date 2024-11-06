@@ -16,65 +16,42 @@
             "title": "Année"
           },
           {
-            "name": "Series",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Wastewater discharge from manufacturing industries",
-                "Wastewater discharged from municipal sewage systems",
+                "Pourcentage (%)",
+                "Millions de mètres cubes",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Unités"
           },
           {
-            "name": "Geography",
+            "name": "Source",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "Assiniboine-Red drainage region",
-                "Colombie-Britannique",
-                "Churchill drainage region",
-                "Columbia drainage region",
-                "Fraser-Lower Mainland drainage region",
-                "Great Lakes drainage region",
-                "Lower Mackenzie drainage region",
-                "Lower Saskatchewan-Nelson drainage region",
-                "Manitoba",
-                "Maritime Coastal drainage region",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Newfoundland-Labrador drainage region",
-                "North Saskatchewan drainage region",
-                "North Shore-Gaspé drainage region",
-                "Northern Ontario drainage region",
-                "Northern Quebec drainage region",
-                "Nouvelle-Écosse",
-                "Okanagan-Similkameen drainage region",
-                "Ontario",
-                "Ottawa drainage region",
-                "Pacific Coastal drainage region",
-                "Peace-Athabasca drainage region",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saint John-St. Croix drainage region",
-                "Saskatchewan",
-                "South Saskatchewan drainage region",
-                "St. Lawrence drainage region",
-                "Total drainage regions",
-                "Winnipeg drainage region",
-                "Yukon",
-                "Yukon drainage region",
+                "Industries",
+                "Municipal",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Source"
           },
           {
-            "name": "GeoCode",
+            "name": "Wastewater treatment level",
             "type": "string",
-            "title": "GeoCode"
+            "constraints": {
+              "enum": [
+                "Aucun traitement",
+                "Traitées sans danger",
+                "Traitées",
+                "Eaux usées générées",
+                ""
+              ]
+            },
+            "title": "Niveau de traitement des eaux usées"
           },
           {
             "name": "Value",
