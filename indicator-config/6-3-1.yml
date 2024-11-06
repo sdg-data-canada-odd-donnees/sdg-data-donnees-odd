@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: Percentage (%)
+computation_units: ''
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -7,7 +7,13 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: true
-data_start_values: []
+data_start_values:
+- field: Source
+  value: Industries
+- field: Source
+  value: Municipal
+- field: Wastewater treatment level
+  value: Safely treated
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -18,10 +24,10 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_titles:
-  - series: Wastewater discharge from manufacturing industries
-    title: Wastewater discharge from manufacturing industries
-  - series: Wastewater discharged from municipal sewage systems
-    title: Wastewater discharged from municipal sewage systems
+  - unit: Percentage (%)
+    title: proxy.6-3-1-title
+  - unit: Million cubic metres
+    title: Total municipal and manufacturing wastewater safely treated
 graph_type: line
 indicator_available: proxy.6-3-1-title
 indicator_name: global_indicators.6-3-1-title
