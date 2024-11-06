@@ -23,6 +23,7 @@ graph_titles:
   - series: Wastewater discharged from municipal sewage systems
     title: Wastewater discharged from municipal sewage systems
 graph_type: line
+indicator_available: proxy.6-3-1-title
 indicator_name: global_indicators.6-3-1-title
 indicator_number: '6.3.1'
 national_geographical_coverage: Canada
@@ -32,4 +33,6 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+  - Proxy
+proxy: proxy
