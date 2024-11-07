@@ -1,27 +1,26 @@
-SDG_GOAL: '<p>Goal 6: Ensure availability and sustainable management of water and
-  sanitation for all</p>'
-SDG_TARGET: '<p>Target 6.a: By 2030, expand international cooperation and capacity-building
-  support to developing countries in water- and sanitation-related activities and
-  programmes, including water harvesting, desalination, water efficiency, wastewater
-  treatment, recycling and reuse technologies</p>'
-SDG_INDICATOR: '<p>Indicator 6.a.1: Amount of water- and sanitation-related official
-  development assistance that is part of a government-coordinated spending plan</p>'
-STAT_CONC_DEF: <p>Amount of water- and sanitation-related official development assistance
-  that is part of a government-coordinated spending plan is defined as the proportion
-  of total water and sanitation-related Official Development Assistance (ODA) disbursements
-  that are included in the government budget.</p>
-DATA_COMP: 'Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.<br><br>
-  Data are from the Creditor Reporting System from the OECD. The codes correspond to the full 140 series for the water supply and sanitation sector, CRS code 23220 for hydro-electric power plants, and CRS code 31140 for agricultural water resources. The gross ODA across these codes is summed for the headline Canada data.'
+# National
+SDG_GOAL: >-
+  Goal 6: Ensure availability and sustainable management of water and sanitation for all
+SDG_TARGET: >-
+  Target 6.a: By 2030, expand international cooperation and capacity-building support to developing countries in water- and sanitation-related activities and programmes, including water harvesting, desalination, water efficiency, wastewater treatment, recycling and reuse technologies
+SDG_INDICATOR: >-
+  Indicator 6.a.1: Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan
+STAT_CONC_DEF: >-
+  Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan is defined as the proportion of total water and sanitation-related Official Development Assistance (ODA) disbursements that are included in the government budget.
+DATA_COMP: >-
+  Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.
+  <br><br>
+  Data are from the Creditor Reporting System from the OECD. The codes correspond to the full 140 series for the water supply and sanitation sector and CRS code 31140 for agricultural water resources. The gross ODA across these codes is summed for the headline Canada data.
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
-  and sanitation for all</p>'
-SDG_TARGET__GLOBAL: '<p>Target 6.a: By 2030, expand international cooperation and
-  capacity-building support to developing countries in water- and sanitation-related
-  activities and programmes, including water harvesting, desalination, water efficiency,
-  wastewater treatment, recycling and reuse technologies</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 6.a.1: Amount of water- and sanitation-related
-  official development assistance that is part of a government-coordinated spending
-  plan</p>'
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 6: Ensure availability and sustainable management of water and sanitation for all
+SDG_TARGET__GLOBAL: >-
+  Target 6.a: By 2030, expand international cooperation and capacity-building support to developing countries in water- and sanitation-related activities and programmes, including water harvesting, desalination, water efficiency, wastewater treatment, recycling and reuse technologies
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 6.a.1: Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan
+
 un_designated_tier: Tier I
 un_custodian_agency: World Health Organization (WHO), United Nations Environment Programme (UNEP), Organisation for Economic Co-operation and Development (OECD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-0A-01.pdf
@@ -29,8 +28,8 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: OECD. Creditor Reporting System (CRS).
-source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1#
+source_url_text_1: 'CRS: Creditor Reporting System (flows)'
+source_url_1: https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=19&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.2&dq=CAN.DPGC.140%2B31140.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&lc=en
 source_organisation_1: Organisation for Economic Co-operation and Development (OECD)
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada

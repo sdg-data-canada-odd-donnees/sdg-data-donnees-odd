@@ -36,6 +36,15 @@ US dollar, Millions, 2022 constant prices: US dollar, Millions, 2022 constant pr
 US dollar, Millions, 2023 constant prices: US dollar, Millions, 2023 constant prices
 Million cubic metres: Million cubic metres
 
+## ODA sectors
+Sector: Sector
+Basic education: Basic education
+Basic health: Basic health
+Water supply and sanitation: Water supply and sanitation
+Multisector aid for basic social services: Multisector aid for basic social services
+Development food assistance: Development food assistance
+Agricultural water resources: Agricultural water resources
+
 ## Sex
 Sex: Sex
 Men: Men
@@ -244,14 +253,6 @@ Kamloops (CMA): Kamloops (CMA)
 Whitehorse (CA): Whitehorse (CA)
 Yellowknife (CA): Yellowknife (CA)
 Province or territory: Province or territory
-
-## 1-a-1
-Basic education: Basic education
-Basic health: Basic health
-Water supply and sanitation: Water supply and sanitation
-Multisector aid for basic social services: Multisector aid for basic social services
-Development food assistance: Development food assistance
-Poverty reduction aid type: Poverty reduction aid type
 
 ## 1-3-1
 Proportion of employed labour force eligible for workers compensation benefits: |
@@ -853,7 +854,6 @@ Members of Cabinet: Members of Cabinet
 ## 6-3-1
 Wastewater discharge from manufacturing industries: Wastewater discharge from manufacturing industries
 Wastewater discharged from municipal sewage systems: Wastewater discharged from municipal sewage systems
-
 Source: Source
 Municipal: Municipal
 Industries: Industries
@@ -863,40 +863,6 @@ Treated: Treated
 Safely treated: Safely treated
 Generated: Generated
 Total volume of municipal and manufacturing wastewater safely treated: Total volume of municipal and manufacturing wastewater safely treated
-
-Sector: Sector
-Accommodation and food services: Accommodation and food services
-Administrative and support, waste management and remediation services: Administrative and support, waste management and remediation services
-Agriculture, forestry, fishing and hunting: Agriculture, forestry, fishing and hunting
-Arts, entertainment and recreation: Arts, entertainment and recreation
-Construction: Construction
-Educational services: Educational services
-Finance and insurance: Finance and insurance
-Government Education Services: Government Education Services
-Government Health Services: Government Health Services
-Health care and social assistance: Health care and social assistance
-Households: Households
-Information and cultural industries: Information and cultural industries
-Manufacturing: Manufacturing
-Mining, quarrying, and oil and gas extraction: Mining, quarrying, and oil and gas extraction
-Miscellaneous non-profit institutions serving households: Miscellaneous non-profit institutions serving households
-Non-profit arts, entertainment and recreation: Non-profit arts, entertainment and recreation
-Non-Profit Education Services: Non-Profit Education Services
-Non-Profit Social Assistance: Non-Profit Social Assistance
-Other Aboriginal Government Services: Other Aboriginal Government Services
-Other federal government services: Other federal government services
-Other finance, insurance and real estate services and management of companies and enterprises: Other finance, insurance and real estate services and management of companies and enterprises
-Other Municipal Government Services: Other Municipal Government Services
-Other provincial and territorial government services: Other provincial and territorial government services
-Other services (except public administration): Other services (except public administration)
-Professional, scientific and technical services: Professional, scientific and technical services
-Real estate and rental and leasing: Real estate and rental and leasing
-Religious organizations: Religious organizations
-Retail trade: Retail trade
-Total, industries: Total, industries
-Transportation and warehousing: Transportation and warehousing
-Utilities: Utilities
-Wholesale trade: Wholesale trade
 
 ## 6-3-2
 Great Lakes and St. Lawrence River: Great Lakes and St. Lawrence River
@@ -949,11 +915,6 @@ Lake water quality, trophic state: Lake water quality, trophic state
 Reservoir extent: Reservoir extent
 Maximum: Maximum
 Minimum: Minimum
-
-## 6-a-1
-Water Supply & Sanitation, Total: Water Supply & Sanitation, Total
-Agriculture water resources: Agriculture water resources
-Hydro-electric power plants: Hydro-electric power plants
 
 ## 7-2-1
 Type of electricity generation: Type of electricity generation
