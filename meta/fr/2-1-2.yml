@@ -1,27 +1,32 @@
 ## National metadata
-
 SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
-  la nutrition et promouvoir l’agriculture durable</p>'
+  la nutrition et promouvoir l’agriculture durable</p>'
 SDG_TARGET: '<p>Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte que chacun,
-  en particulier les pauvres et les personnes en situation vulnérable, y compris les
+  en particulier les pauvres et les personnes en situation vulnérable, y compris les
   nourrissons, ait accès toute l’année à une alimentation saine, nutritive et suffisante</p>'
-SDG_INDICATOR: |
+SDG_INDICATOR: >-
   <p>Indicateur 2.1.2 : Pourcentage de personnes vivant avec de l'insécurité alimentaire</p>
-STAT_CONC_DEF: |
-    Les niveaux de la sécurité alimentaire se définissent comme: <br>1 - Sécurité alimentaire : Aucun signe d'un problème concernant l'accès à la nourriture lié au revenu; <br>2- Insécurité alimentaire : Comprend l'insécurité alimentaire marginale, modérée et sévère; <br>3- Insécurité alimentaire marginale : Exactement un signe d'un problème concernant l'accès à la nourriture lié au revenu; <br>4 - Insécurité alimentaire modérée : Signe de compromis en matière de qualité et/ou de quantité d'aliments consommés; <br>5 - Insécurité alimentaire grave : Signe de consommation alimentaire réduite et d'habitudes alimentaires perturbées.
+STAT_CONC_DEF: >-
+  <p>Les niveaux de la sécurité alimentaire se définissent comme :</p>
+  <ol>
+  <li>Sécurité alimentaire : Aucun signe d'un problème concernant l'accès à la nourriture lié au revenu ;</li> <li>Insécurité alimentaire : Comprend l'insécurité alimentaire marginale, modérée et sévère ;</li>
+  <li>Insécurité alimentaire marginale : Exactement un signe d'un problème concernant l'accès à la nourriture lié au revenu ;</li>
+  <li>Insécurité alimentaire modérée : Signe de compromis en matière de qualité et/ou de quantité d'aliments consommés ;</li>
+  <li>Insécurité alimentaire grave : Signe de consommation alimentaire réduite et d'habitudes alimentaires perturbées.</li>
+  </ol>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
-    Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : "Prévalence d’une insécurité alimentaire modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle FIES)". <br><br>
-    L'enquête est menée dans l'ensemble du pays, tant dans les provinces que dans les territoires. Sont exclus du champ de l'enquête les personnes qui vivent dans les réserves et dans d'autres peuplements autochtones des provinces, les pensionnaires d'établissements institutionnels et les ménages situés dans des régions extrêmement éloignées où la densité de population est très faible. Dans l'ensemble, ces exclusions représentent moins de deux pourcent de la population.
+REC_USE_LIM: >-
+  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : « Prévalence d’une insécurité alimentaire modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle FIES) ».
+  <br><br>
+  L'enquête est menée dans l'ensemble du pays, tant dans les provinces que dans les territoires. Exclus du champ de l'enquête sont les personnes qui vivent dans les réserves et dans d'autres peuplements autochtones des provinces, les pensionnaires d'établissements institutionnels et les ménages situés dans des régions extrêmement éloignées où la densité de population est très faible. Dans l'ensemble, ces exclusions représentent moins de deux pour cent de la population.
  
 
 ## Global metadata
-
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
-  améliorer la nutrition et promouvoir l’agriculture durable</p>'
+  améliorer la nutrition et promouvoir l’agriculture durable</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte
   que chacun, en particulier les pauvres et les personnes en situation vulnérable,
-  y compris les nourrissons, ait accès toute l’année à une alimentation saine, nutritive
+  y compris les nourrissons, ait accès toute l’année à une alimentation saine, nutritive
   et suffisante</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.1.2 : Prévalence d’une insécurité alimentaire
   modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire

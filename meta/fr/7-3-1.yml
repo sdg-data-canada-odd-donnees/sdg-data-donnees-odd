@@ -4,12 +4,13 @@ SDG_GOAL: >-
 SDG_TARGET: >-
     Cible 7.3 : D’ici à 2030, multiplier par deux le taux mondial d’amélioration de l’efficacité énergétique
 SDG_INDICATOR: >-
-    Indicateur 7.3.1 : Intensité énergétique [rapport entre énergie primaire et produit intérieur brut (PIB)]
+    Indicateur 7.3.1 : Intensité totale de la consommation d’énergie en termes de PIB
 STAT_CONC_DEF: >-
-    L'intensité énergétique est définie comme l'énergie fournie à l'économie par valeur unitaire de la production économique.
+    Cet indicateur mesure l’intensité totale de la consommation d’énergie en termes de PIB. Ceci est exprimé en térajoules par million de dollars de PIB réel.
 DATA_COMP: >-
-    L'indicateur est obtenu en divisant l'approvisionnement énergétique total par le PIB.
-REC_USE_LIM: '   '
+    Consommation totale d'énergie par unité de PIB = Consommation totale d'énergie / PIB réel, basé sur les dépenses, aux prix du marché (dollars canadiens enchaînés de 2017)
+REC_USE_LIM: >-
+    Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : « Intensité énergétique [rapport entre énergie primaire et produit intérieur brut (PIB)] ». Cet indicateur mesure l’intensité totale de la consommation d’énergie en termes de PIB plutôt que l’énergie fournie à l’économie par valeur unitaire de production économique, comme spécifié dans les métadonnées.
 reporting_status: complete
 
 # GLOBAL --- 
@@ -20,23 +21,22 @@ SDG_TARGET__GLOBAL: >-
 SDG_INDICATOR__GLOBAL: >-
     Indicateur 7.3.1 : Intensité énergétique [rapport entre énergie primaire et produit intérieur brut (PIB)]
 
+un_designated_tier: Niveau I
+un_custodian_agency: Agence internationale de l’énergie (AIE), Division de statistique de l’ONU
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-03-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
 # SOURCE(S) ---
 source_active_1: 'true'
-source_url_text_1: >-
-    Statistique Canada. Tableau 38-10-0096-01  Compte de flux physique d'utilisation d'énergie
+source_url_text_1: Statistique Canada. Tableau 38-10-0096-01  Compte des flux physiques de l'utilisation de l'énergie
 source_url_1: https://doi.org/10.25318/3810009601-fra
 source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
-source_url_text_2: Produit intérieur brut (PIB) aux prix de base, par industries, moyenne annuelle
-source_url_2: https://doi.org/10.25318/3610043401-fra
+source_url_text_2: Statistique Canada. Tableau 36-10-0222-01  Produit intérieur brut, en termes de dépenses, provinciaux et territoriaux, annuel (x 1 000 000)
+source_url_2: https://doi.org/10.25318/3610022201-fra
 source_organisation_2: Statistique Canada
 source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada
-
-un_designated_tier: Niveau I
-un_custodian_agency: Agence internationale de l’énergie (AIE), Division de statistique de l’ONU
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-03-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

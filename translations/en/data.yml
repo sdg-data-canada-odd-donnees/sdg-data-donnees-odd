@@ -15,6 +15,9 @@ Tier III: Tier III
 Progress status: Progress status
 
 ## Units
+Units: Units
+Terajoules: Terajoules
+Per capita: Per capita
 Terajoules per million dollars of real GDP: Terajoules per million dollars of real GDP
 Number: Number
 Total Number: Total Number
@@ -25,9 +28,13 @@ Rate per 1,000,000: Rate per 1,000,000
 Rate per 1,000 population: Rate per 1,000 population
 Rate per 100,000 population: Rate per 100,000 population
 Index: Index
+Canadian dollars ($): Canadian dollars ($)
+Canadian dollars: Canadian dollars
 CAD (Thousands): CAD (Thousands)
+US dollar, Millions, 2021 constant prices: US dollar, Millions, 2021 constant prices
 US dollar, Millions, 2022 constant prices: US dollar, Millions, 2022 constant prices
 US dollar, Millions, 2023 constant prices: US dollar, Millions, 2023 constant prices
+Million cubic metres: Million cubic metres
 
 ## ODA sectors
 Sector: Sector
@@ -794,6 +801,7 @@ Total age groups: Total age groups
 
 ## 4-b-1
 USD Millions: USD Millions
+US dollar (millions): US dollar (millions)
 
 ## 5-1-1
 Type of perpetrator: Type of perpetrator
@@ -844,6 +852,19 @@ Members of Parliament: Members of Parliament
 Members of Cabinet: Members of Cabinet
 
 ## 6-3-1
+Wastewater discharge from manufacturing industries: Wastewater discharge from manufacturing industries
+Wastewater discharged from municipal sewage systems: Wastewater discharged from municipal sewage systems
+
+Source: Source
+Municipal: Municipal
+Industries: Industries
+Wastewater treatment level: Wastewater treatment level
+Not treated: Not treated
+Treated: Treated
+Safely treated: Safely treated
+Generated: Generated
+Total volume of municipal and manufacturing wastewater safely treated: Total volume of municipal and manufacturing wastewater safely treated
+
 Sector: Sector
 Accommodation and food services: Accommodation and food services
 Administrative and support, waste management and remediation services: Administrative and support, waste management and remediation services
@@ -877,6 +898,9 @@ Total, industries: Total, industries
 Transportation and warehousing: Transportation and warehousing
 Utilities: Utilities
 Wholesale trade: Wholesale trade
+
+## 6-3-2
+Great Lakes and St. Lawrence River: Great Lakes and St. Lawrence River
 
 ## 6-4-1
 Land use category: Land use category
@@ -928,30 +952,6 @@ Maximum: Maximum
 Minimum: Minimum
 
 ## 7-2-1
-Demand characteristics: Demand characteristics
-Energy use - final demand: Energy use - final demand
-Total industrial: Total industrial
-Total transportation: Total transportation
-Agriculture: Agriculture
-Residential: Residential
-Public administration: Public administration
-Commercial and other institutional: Commercial and other institutional
-Fuel type: Fuel type
-Total primary and secondary energy: Total primary and secondary energy
-Total coal: Total coal
-Natural gas: Natural gas
-Gas plant natural gas liquids (NGL's): Gas plant natural gas liquids (NGL's)
-Hydroelectricity: Hydroelectricity
-Nuclear: Nuclear
-Steam: Steam
-Coke: Coke
-Coke oven gas: Coke oven gas
-Total refined petroleum products: Total refined petroleum products
-Units: Units
-Terajoules: Terajoules
-Per capita: Per capita
-
-## 7-3-1
 Type of electricity generation: Type of electricity generation
 Hydraulic turbine: Hydraulic turbine
 Tidal power turbine: Tidal power turbine
@@ -959,6 +959,8 @@ Wind power turbine: Wind power turbine
 Solar: Solar
 Other types of electricity generation: Other types of electricity generation
 Total hydro, tidal, wind, solar and other generation: Total hydro, tidal, wind, solar and other generation
+Nuclear steam turbine: Nuclear steam turbine
+Total electricity production from biomass: Total electricity production from biomass
 
 ## 8-3-1
 ## nothing new
@@ -1052,12 +1054,15 @@ Unemployed, Not in employment, education or training (NEET): Unemployed, Not in 
 Not in the labour force, Not in employment, education or training (NEET): Not in the labour force, Not in employment, education or training (NEET)
 
 ## 8-8-1
-Number of fatality claims, by sex: Number of fatality claims, by sex
-Number of lost time claims, by sex: Number of lost time claims, by sex
+Fatality claims: Fatality claims
+Lost time claims: Lost time claims
+Number of claims: Number of claims
+Unknown: Unknown
 
 ## 8-10-1
 Number of commercial bank branches per 100,000 adults: Number of commercial bank branches per 100,000 adults
 Number of automated teller machines (ATMs) per 100,000 adults: Number of automated teller machines (ATMs) per 100,000 adults
+Number per 100,000 adults: Number per 100,000 adults
 
 ## 8-a-1
 Aid for trade flows of official development assistance (ODA): Aid for trade flows of official development assistance (ODA)

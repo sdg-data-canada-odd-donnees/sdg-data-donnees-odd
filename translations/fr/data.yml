@@ -15,6 +15,9 @@ Tier III: Niveau III
 Progress status: État du progrès
 
 ## Units
+Units: Unités
+Terajoules: Térajoules
+Per capita: Par habitant
 Terajoules per million dollars of real GDP: Térajoules par million de dollars du PIB réel
 Number: Nombre
 Total Number: Nombre total
@@ -25,9 +28,13 @@ Rate per 1,000,000: Taux pour 1 000 000
 Rate per 1,000 population: Taux par 1000 personnes
 Rate per 100,000 population: Taux par 100 000 personnes
 Index: Indice
+Canadian dollars ($): Dollars canadiens ($)
+Canadian dollars: Dollars canadiens
 CAD (Thousands): CAD (en milliers)
-US dollar, Millions, 2022 constant prices: Dollars des É-U, millions, prix constants 2022
-US dollar, Millions, 2023 constant prices: Dollars des É-U, millions, prix constants 2023
+US dollar, Millions, 2021 constant prices: Dollar américain, millions, prix constants de 2021
+US dollar, Millions, 2022 constant prices: Dollar américain, millions, prix constants de 2022
+US dollar, Millions, 2023 constant prices: Dollar américain, millions, prix constants de 2023
+Million cubic metres: Millions de mètres cubes
 
 ## ODA sectors
 Sector: Secteur
@@ -916,6 +923,7 @@ Total age groups: Groupe d'âge totale
 
 ## 4-b-1
 USD Millions: USD Millions
+US dollar (millions): Dollars US (million)
 
 ## 5-1-1
 Type of perpetrator: Type d'auteur présumé
@@ -974,6 +982,19 @@ Middle management occupations in retail and wholesale trade and customer service
 Middle management occupations in trades, transportation, production and utilities: Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique
 
 ## 6-3-1
+Wastewater discharge from manufacturing industries: Déversement d'eaux usées provenant des industries manufacturières
+Wastewater discharged from municipal sewage systems: Déversement d'eaux usées provenant des systèmes d'assainissement municipaux
+
+Source: Source
+Municipal: Municipale
+Industries: Industries
+Wastewater treatment level: Niveau de traitement des eaux usées
+Not treated: Aucun traitement
+Treated: Traitées
+Safely treated: Traitées sans danger
+Generated: Eaux usées générées
+Total volume of municipal and manufacturing wastewater safely treated: Volume total des eaux usées d’origine municipale et de la fabrication traitées sans danger
+
 Sector: Secteur
 Accommodation and food services: Hébergement et services de restauration
 Administrative and support, waste management and remediation services: Services administratifs et services de soutien et services de gestion des déchets et d'assainissement
@@ -1030,6 +1051,7 @@ Good: Bonne
 Fair: Satisfaisante
 Marginal: Douteuse
 Poor: Mauvaise
+Great Lakes and St. Lawrence River: Grands Lacs et fleuve Saint-Laurent
 
 ## 6-6-1
 Number of (shared) basins showing high surface-water extent changes: Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface
@@ -1076,30 +1098,6 @@ Gigajoules per household: Gigajoules par ménage
 
 
 ## 7-2-1
-Demand characteristics: Caractéristiques d’écoulement
-Energy use - final demand: Consommation énergétique finale
-Total industrial: Total industriel
-Total transportation: Total transport
-Agriculture: Agriculture
-Residential: Résidentiel
-Public administration: Administrations publiques
-Commercial and other institutional: Commerces et autres institutions
-Fuel type: Type de combustible
-Total primary and secondary energy: Énergie primaire et secondaire totale
-Total coal: Total charbon
-Natural gas: Gaz naturel
-Gas plant natural gas liquids (NGL's): Liquides de gaz naturel des usines de gaz (LGN)
-Hydroelectricity: Hydroélectricité
-Nuclear: Nucléaire
-Steam: Vapeur
-Coke: Coke
-Coke oven gas: Gaz de cokerie
-Total refined petroleum products: Total des produits pétroliers raffinés
-Units: Unités
-Terajoules: Térajoules
-Per capita: Par habitant
-
-## 7-3-1
 Type of electricity generation: Type de production d'électricité
 Hydraulic turbine: Turbine à hydraulique
 Tidal power turbine: Turbine marémotrice
@@ -1107,6 +1105,8 @@ Wind power turbine: Turbine éolienne
 Solar: Solaire
 Other types of electricity generation: Autres types de production électrique
 Total hydro, tidal, wind, solar and other generation: Total, tous les genres de production d'électricité
+Nuclear steam turbine: Turbine à vapeur - nucléaire
+Total electricity production from biomass: Production totale d’électricité provenant de la biomasse
 
 ## 8-3-1
 ##  rien de nouveau
@@ -1202,12 +1202,15 @@ Unemployed, Not in employment, education or training (NEET): Chômeurs, Ni en em
 Not in the labour force, Not in employment, education or training (NEET): Inactifs, Ni en emploi, ni aux études, ni en formation (NEET)
 
 ## 8-8-1
-Number of fatality claims, by sex: Nombre de demandes d’indemnisation pour décès, selon le sexe
-Number of lost time claims, by sex: Nombre de réclamations avec perte de temps, selon le sexe
+Fatality claims: Réclamations de décès
+Lost time claims: Réclamations de pertes de temps
+Number of claims: Nombre de réclamations
+Unknown: Inconnu
 
 ## 8-10-1
 Number of commercial bank branches per 100,000 adults: Nombre de succursales de banques commerciales par 100 000 adultes
 Number of automated teller machines (ATMs) per 100,000 adults: Nombre de guichets automatiques bancaires (GAB) par 100 000 adultes
+Number per 100,000 adults: Nombre par 100 000 adultes
 
 ## 8-a-1
 Aid for trade flows of official development assistance (ODA): Flux d'aide publique au développement (APD) pour l'aide pour le commerce

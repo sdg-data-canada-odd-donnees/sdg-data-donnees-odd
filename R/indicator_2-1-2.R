@@ -183,7 +183,7 @@ food_insecurity <- bind_rows(filter_economic_families,
     `Age group`,
     `Visible minority`,
     `Indigenous population`,
-    `Population aged 15 years and over`,
+    # `Population aged 15 years and over`,
     `Household food security status`,
     Value
   ) %>%

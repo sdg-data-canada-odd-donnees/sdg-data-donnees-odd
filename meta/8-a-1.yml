@@ -1,31 +1,55 @@
+# National
 SDG_GOAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic growth,
   full and productive employment and decent work for all</p>'
 SDG_TARGET: '<p>Target 8.a: Increase Aid for Trade support for developing countries,
   in particular least developed countries, including through the Enhanced Integrated
   Framework for Trade-related Technical Assistance to Least Developed Countries</p>'
 SDG_INDICATOR: '<p>Indicator 8.a.1: Aid for Trade commitments and disbursements</p>'
-STAT_CONC_DEF: <p>Aid for Trade commitments and disbursements is the gross disbursements
-  and commitments of total Official Development Assistance (ODA) from all donors for
-  aid for trade. Other official flows (OOF), excluding officially supported export credits, are defined as transactions by the 
-  official sector which do not meet the conditions for eligibility as ODA, either because they are not 
-  primarily aimed at development, or because they are not sufficiently concessional.</p>
-DATA_COMP: '<p>The sum of ODA and OOF flows from all donors to developing countries for aid for trade.</p>'
-REC_USE_LIM: '<p>Data in the Creditor Reporting System are available from 1973. However, the data coverage is considered 
-  complete from 1995 for commitments at an activity level and 2002 for disbursements.</p>'
+STAT_CONC_DEF: >-
+  <p>This indicator measures gross disbursements and commitments of total Official Development Assistance (ODA) for aid for trade.
+  <br><br>
+  <i>Aid for trade</i> is captured in the OECD's Creditor Reporting System (CRS) under the following categories:</p>
+  <ul>
+  <li>Trade policy and regulations and trade-related adjustment: captures trade policy and administrative management, trade facilitation, regional trade agreements, multilateral trade negociations, trade-related adjustment, and trade education/training.</li>
+  <li>Economic infrastructure: covers the transport and storage sector, the communications sector, and the energy sector.</li>
+  <li>Building productive capacity (including trade development): includes all activities in the productive and services sector. These are captured by the banking and financial services sector, business and other services, agriculture, forestry, fishing, industry, mineral resources and mining, and tourism sectors.</li>
+  </ul>
+DATA_COMP: >-
+  <p>Gross disbursements and commitments of ODA for aid for trade are calculated as the sum of all ODA disbursements or commitments belonging to these sectors:</p>
+  <ul>
+  <li>Trade policies and regulations (CRS code 331)</li>
+  <li>Transport and storage (CRS code 210)</li>
+  <li>Communications (CRS code 220)</li>
+  <li>Energy (CRS code 230)</li>
+  <li>Banking and financial services (CRS code 240)</li>
+  <li>Business and other services (CRS code 250)</li>
+  <li>Agriculture (CRS code 311)</li>
+  <li>Forestry (CRS code 312)</li>
+  <li>Fishing (CRS code 313)</li>
+  <li>Industry (CRS code 321)</li>
+  <li>Mineral resources and mining (CRS code 322)</li>
+  <li>Tourism (CRS code 332)</li>
+  </ul>
+REC_USE_LIM: >-
+  Aid for trade flows may be overestimated as the CRS purpose codes mentioned above are included regardless of whether there is an actual aid for trade contribution.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 8.a: Increase Aid for Trade support for developing
   countries, in particular least developed countries, including through the Enhanced
   Integrated Framework for Trade-related Technical Assistance to Least Developed Countries</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 8.a.1: Aid for Trade commitments and disbursements</p>'
+
 un_designated_tier: Tier I
 un_custodian_agency: Organisation for Economic Co-operation and Development (OECD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-0A-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: OECD. Creditor Reporting System (CRS).
-source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
+source_url_text_1: "CRS: Creditor Reporting System (flows)"
+source_url_1: https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=19&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.1&dq=CAN.DPGC.210%2B220%2B230%2B240%2B250%2B311%2B312%2B313%2B321%2B322%2B331%2B332.100._T._T.D%2BC.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&vw=tb&lc=en
 source_organisation_1: Organisation for Economic Co-operation and Development (OECD)
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada

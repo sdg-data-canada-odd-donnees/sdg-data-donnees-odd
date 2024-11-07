@@ -1,23 +1,30 @@
+# National
 SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous</p>'
 SDG_TARGET: '<p>Cible 8.8 : Défendre les droits des travailleurs, promouvoir la sécurité sur le lieu de travail et assurer la protection de tous les travailleurs, y compris les migrants, en particulier les femmes, et ceux qui ont un emploi précaire</p>'
 SDG_INDICATOR: '<p>Indicateur 8.8.1 : Nombre de réclamations pour décès et pertes de temps, selon le sexe</p>'
-STAT_CONC_DEF: '<p>Accidents du travail mortels et non mortels par 100 000 travailleurs, par sex et statut de migrant</p>'
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: >-
+  Un décès est défini comme un décès résultant d'un incident lié au travail (y compris une maladie) si une demande de réclamation a été acceptée par une commission.
+  <br><br>
+  Une demande de réclamations pour perte de temps est une blessure pour laquelle un travailleur est indemnisé par une commission pour une perte de salaire à la suite d'une blessure liée au travail (ou d'une exposition à une substance nocive), ou reçoit une indemnisation pour une incapacité permanente avec ou sans perte de temps dans son emploi (par exemple, si un travailleur est indemnisé pour une perte d'audition résultant d'un bruit excessif sur le lieu de travail).
+DATA_COMP: custom.data-comp
+REC_USE_LIM: >-
+  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique: « Nombre d’accidents du travail mortels et non mortels par 100 000 travailleurs, par sexe et statut au regard de l’immigration ».
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.8 : Défendre les droits des travailleurs, promouvoir la sécurité sur le lieu de travail et assurer la protection de tous les travailleurs, y compris les migrants, en particulier les femmes, et ceux qui ont un emploi précaire</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.8.1 : Nombre de réclamations pour décès et pertes de temps, selon le sexe</p>'
-source_active_1: 'true'
-source_url_text_1: "Programme national de statistiques sur les accidents du travail / maladies (PNSAT) - L'année en un coup d'oeil"
-source_url_1: https://awcbc.org/fr/statistiques/programme-national-de-statistiques-sur-les-accidents-du-travail-maladies-pnsat-lannee-en-un-coup-doeil/
-source_organisation_1: Association des commissions des accidents du travail du Canada
-source_geographical_coverage_1: Canada
- 
- 
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.8.1 : Nombre d’accidents du travail mortels et non mortels par 100 000 travailleurs, par sexe et statut au regard de l’immigration</p>'
 
 un_designated_tier: Niveau II
 un_custodian_agency:  Organisation internationale du Travail
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-08-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: "Programme national de statistiques sur les accidents du travail / maladies (PNSAT) - L'année en un coup d'oeil"
+source_url_1: https://awcbc.org/fr/statistiques/programme-national-de-statistiques-sur-les-accidents-du-travail-maladies-pnsat-lannee-en-un-coup-doeil/
+source_organisation_1: Association des commissions des accidents du travail du Canada
+source_geographical_coverage_1: Canada
 
 proxy: proxy

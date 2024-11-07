@@ -31,7 +31,9 @@ progress_calculation_options:
 - direction: positive
   target_year: 2030
 progress_status: substantial_progress
+proxy: proxy
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+- Proxy

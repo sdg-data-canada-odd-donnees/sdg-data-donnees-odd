@@ -48,22 +48,30 @@ NEET_filtered <-
   left_join(geocodes) %>% 
   relocate(GeoCode, .before = Value)
 
-total_line <-
-  NEET_filtered %>%
-  filter(Geography == "Canada",
-         Status == "Total, not in employment, education or training (NEET)",
-         Sex == "Both sexes",
-         `Age group` == "15 to 24 years") %>%
-  mutate(Geography = "", Status = "", Sex = "", `Age group` = "") %>%
-  filter(!is.na(Value))
+data_final <- NEET_filtered %>%
+  mutate(
+    across(
+      c("Geography", "Status", "Sex", "Age group"),
+      ~ replace(., `Geography` == "Canada" & Status == "Total, not in employment, education or training (NEET)" & Sex == "Both sexes" & `Age group` == "15 to 24 years", NA)
+    )
+  )
 
-data_with_Canada <- bind_rows(total_line, NEET_filtered)
+# total_line <-
+#   NEET_filtered %>%
+#   filter(Geography == "Canada",
+#          Status == "Total, not in employment, education or training (NEET)",
+#          Sex == "Both sexes",
+#          `Age group` == "15 to 24 years") %>%
+#   mutate(Geography = "", Status = "", Sex = "", `Age group` = "") %>%
+#   filter(!is.na(Value))
+# 
+# data_with_Canada <- bind_rows(total_line, NEET_filtered)
 
-data_final <-
-  data_with_Canada %>%
-  filter(
-    !Geography %in% exclude_Canada
-  ) 
+# data_final <-
+#   data_with_Canada %>%
+#   filter(
+#     !Geography %in% exclude_Canada
+#   ) 
 
 write.csv(
   data_final,

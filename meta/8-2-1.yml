@@ -6,13 +6,14 @@ SDG_TARGET: '<p>Target 8.2: Achieve higher levels of economic productivity throu
   added and labour-intensive sectors </p>'
 SDG_INDICATOR: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed person
   </p>'
-STAT_CONC_DEF: |
-  <p>The annual growth rate of real GDP per employed person conveys the annual percentage change in real Gross Domestic Product (GDP) per employed person.</p>
-DATA_COMP: |
-  Real GDP per employed person = GDP at market prices (chained 2017 dollars) / Total number of employed persons (15 years and over) <br><br>
-  Annual growth rate of real GDP per employed person (in %) = (((Real GDP per employed person in year n)-(Real GDP per employed person in year n-1))/(Real GDP per employed person in year n-1))x100
-REC_USE_LIM: 'GDP data for this indicator is calculated using 2017 chained Canadian dollars as opposed to 2015 US dollars as stated in the global metadata.'
- 
+STAT_CONC_DEF: >-
+  The annual growth rate of real GDP per employed person conveys the annual percentage change in real Gross Domestic Product (GDP) per employed person.
+DATA_COMP: >-
+  Real GDP per employed person = GDP at market prices (chained 2017 dollars) / Total number of employed persons (15 years and over)
+  <br><br>
+  Annual growth rate of real GDP per employed person (in %) = (((Real GDP per employed person in year n) - (Real GDP per employed person in year n-1)) / (Real GDP per employed person in year n-1)) × 100
+REC_USE_LIM: >-
+  GDP data for this indicator is calculated using 2017 chained Canadian dollars as opposed to constant US dollars at 2015 prices as stated in the global metadata.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
@@ -22,6 +23,7 @@ SDG_TARGET__GLOBAL: '<p>Target 8.2: Achieve higher levels of economic productivi
   on high-value added and labour-intensive sectors </p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed
   person </p>'
+
 un_designated_tier: Tier I
 un_custodian_agency: International Labour Organization (ILO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-02-01.pdf
@@ -30,7 +32,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 36-10-0222-01  Gross domestic product, expenditure-based, provincial and territorial, annual (x 1,000,000)
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610022201
+source_url_1: https://doi.org/10.25318/3610022201-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
