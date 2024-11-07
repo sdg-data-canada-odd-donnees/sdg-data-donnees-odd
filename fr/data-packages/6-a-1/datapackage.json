@@ -20,9 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Water Supply and Sanitation, Total",
-                "Agricultural water resources",
-                "Centrales hydroélectriques",
+                "Ressources en eau à usage agricole",
+                "Distribution d'eau et assainissement",
                 ""
               ]
             },
