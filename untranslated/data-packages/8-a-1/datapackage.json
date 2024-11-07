@@ -15,12 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "Aid for trade flows of official development assistance (ODA)",
+            "name": "Flow type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gross disbursements",
                 "Commitments",
+                "Disbursements",
                 ""
               ]
             }

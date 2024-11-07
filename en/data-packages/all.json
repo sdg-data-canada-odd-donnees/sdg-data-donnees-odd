@@ -667,16 +667,16 @@
             "title": "Year"
           },
           {
-            "name": "Aid for trade flows of official development assistance (ODA)",
+            "name": "Flow type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gross disbursements",
                 "Commitments",
+                "Disbursements",
                 ""
               ]
             },
-            "title": "Aid for trade flows of official development assistance (ODA)"
+            "title": "Flow type"
           },
           {
             "name": "Value",

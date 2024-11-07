@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -16,16 +16,16 @@
             "title": "Année"
           },
           {
-            "name": "Aid for trade flows of official development assistance (ODA)",
+            "name": "Flow type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Versements bruts",
                 "Engagements",
+                "Versements",
                 ""
               ]
             },
-            "title": "Flux d'aide publique au développement (APD) pour l'aide pour le commerce"
+            "title": "Type de flux"
           },
           {
             "name": "Value",
