@@ -1,35 +1,42 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
-  en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET: '<p>Cible 6.4 : D’ici à 2030, faire en sorte que les ressources en eau
-  soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir la
-  viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier
-  à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau</p>'
-SDG_INDICATOR: '<p>Indicateur 6.4.1 : Variation de l’efficacité de l’utilisation des
-  ressources en eau</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
+SDG_GOAL: >-
+  Objectif 6 : Garantir l'accès de tous à des services d'alimentation en eau et d'assainissement gérés de façon durable
+SDG_TARGET: >-
+  Cible 6.4 : D’ici à 2030, faire en sorte que les ressources en eau soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir la viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau
+SDG_INDICATOR: >-
+  Indicateur 6.4.1 : Variation de l’efficacité de l’utilisation des ressources en eau
+STAT_CONC_DEF: >-
+  <p>Variation de l'efficacité de l'utilisation des ressources en eau (Change in water use efficiency over time (CWUE)) : ​​La variation du rapport entre la valeur ajoutée et le volume d'eau utilisé, au fil du temps.
+  <br><br>
+  L’efficacité d’utilisation de l’eau (Water Use Efficiency (WUE)) est définie comme la valeur ajoutée d’un secteur majeur donné divisée par le volume d’eau utilisé.
+  <br><br>
+  Conformément à la classification internationale type, par industrie, de toutes les branches d'activité économique (CITI 4) des Nations Unies, les branches d'activités sont définies comme suit :
+  <ol>
+  <li>agriculture; sylviculture; pêche (CITI A), ci-après « agriculture »;</li>
+  <li>mines et carrières; fabrication; production et distribution d'électricité, de gaz, de vapeur et de climatisation; construction (CITI B, C, D et F), ci-après « MIMEC »;</li>
+  <li>tous les secteurs de services (CITI E et CITI G-T), ci-après « services ».</li>
+  </ol>
+DATA_COMP: >-
+  Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
+  <br><br>
+  Variation de l’efficacité de l’utilisation des ressources en eau en pourcentage (CWUE) (in %) = (WUE au temps t - WUE au temps t-1) / (WUE au temps t-1) × 100
 REC_USE_LIM: '   '
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
-  en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 6.4 : D’ici à 2030, faire en sorte que les ressources
-  en eau soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir
-  la viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier
-  à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.4.1 : Variation de l’efficacité de l’utilisation
-  des ressources en eau</p>'
-
-# SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO). FAO AQUASTAT. 
-source_url_1: https://sdg6data.org/fr/tables
-source_organisation_1: Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)
+SDG_GOAL__GLOBAL: >-
+  Objectif 6 : Garantir l'accès de tous à des services d'alimentation en eau et d'assainissement gérés de façon durable
+SDG_TARGET__GLOBAL: >-
+  Cible 6.4 : D’ici à 2030, faire en sorte que les ressources en eau soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir la viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 6.4.1 : Variation de l’efficacité de l’utilisation des ressources en eau
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# SOURCE(S)
+source_url_text_1: ONU-EAU
+source_url_1: https://sdg6data.org/fr/tables
+source_organisation_1: ONU-EAU
  
