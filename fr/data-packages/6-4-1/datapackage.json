@@ -16,30 +16,42 @@
             "title": "Année"
           },
           {
-            "name": "Economic activity",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Agriculture (ISIC4 A01 A0210 A0322)",
-                "Industries",
-                "Total (Overall)",
-                "Services (ISIC4 G to T)",
+                "Variation de l'efficacité de l'utilisation des ressources en eau en pourcentage (%)",
+                "Efficacité de l'utilisation des ressources en eau (USD par mètre cube)",
                 ""
               ]
             },
-            "title": "Economic activity"
+            "title": "Series"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "United States dollars per cubic meter (USD/m3)",
-                "Percent change in water-use efficiency over time (%)",
+                "Variation en pourcentage (%)",
+                "Dollars américains par mètre cube",
                 ""
               ]
             },
             "title": "Unités"
+          },
+          {
+            "name": "Economic activity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ensemble",
+                "Services",
+                "Industrie",
+                "Agriculture, sylviculture et pêche",
+                ""
+              ]
+            },
+            "title": "Activité économique"
           },
           {
             "name": "Value",

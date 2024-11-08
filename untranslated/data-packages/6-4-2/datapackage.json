@@ -19,20 +19,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
-                "Agriculture (ISIC4 A01 A0210 A0322)",
-                "Industries",
-                "Services (ISIC4 G to T)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
+                "Agriculture, forestry and fishing",
+                "Industry",
+                "Services",
                 ""
               ]
             }

@@ -3627,14 +3627,12 @@
             "type": "integer"
           },
           {
-            "name": "Economic activity",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Agriculture (ISIC4 A01 A0210 A0322)",
-                "Industries",
-                "Total (Overall)",
-                "Services (ISIC4 G to T)",
+                "Percent change in water-use efficiency over time (%)",
+                "Water-use efficiency (USD per cubic metre)",
                 ""
               ]
             }
@@ -3644,8 +3642,21 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "United States dollars per cubic meter (USD/m3)",
-                "Percent change in water-use efficiency over time (%)",
+                "Percent change (%)",
+                "USD per cubic metre",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Economic activity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Overall",
+                "Services",
+                "Industry",
+                "Agriculture, forestry and fishing",
                 ""
               ]
             }
@@ -4083,20 +4094,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
-                "Agriculture (ISIC4 A01 A0210 A0322)",
-                "Industries",
-                "Services (ISIC4 G to T)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
+                "Agriculture, forestry and fishing",
+                "Industry",
+                "Services",
                 ""
               ]
             }
