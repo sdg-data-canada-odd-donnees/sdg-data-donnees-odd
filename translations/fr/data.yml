@@ -4,6 +4,8 @@
 Year: Année
 Value: Valeur
 Annual: Annuelle
+Occasional: Occasionnelle
+Total: Total
 Statistics Canada: Statistique Canada
 
 ## Tiers
@@ -281,7 +283,6 @@ Access to basic waste collection services: Access to basic waste collection serv
 Access to basic waste collection services (Proxy): Accès aux services de base de collecte des déchets (proxy)
 
 ## 1-4-2
-Total: Total
 Urban: Urbain
 Rural: Rural
 Area: Région
@@ -1007,7 +1008,6 @@ Great Lakes and St. Lawrence River: Grands Lacs et fleuve Saint-Laurent
 Hudson Bay: Baie d'Hudson
 Mackenzie River: Fleuve Mackenzie
 Pacific Ocean: Océan Pacifique
-Total: Total
 Agriculture: Agriculture
 Forestry: Foresterie
 Mining: Exploitation minière
@@ -1020,6 +1020,17 @@ Fair: Satisfaisante
 Marginal: Douteuse
 Poor: Mauvaise
 Great Lakes and St. Lawrence River: Grands Lacs et fleuve Saint-Laurent
+
+## 6-4-1
+Water-use efficiency (USD per cubic metre): Efficacité de l'utilisation des ressources en eau (USD par mètre cube)
+Percent change in water-use efficiency over time (%):  Variation de l'efficacité de l'utilisation des ressources en eau en pourcentage (%)
+USD per cubic metre: Dollars américains par mètre cube
+Percent change (%): Variation en pourcentage (%)
+Economic activity: Economic activity
+Agriculture, forestry and fishing: Agriculture, sylviculture et pêche
+Industry: Industrie
+Services: Services
+Overall: Ensemble
 
 ## 6-6-1
 Number of (shared) basins showing high surface-water extent changes: Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface

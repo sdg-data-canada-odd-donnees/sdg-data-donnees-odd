@@ -4,6 +4,8 @@
 Year: Year
 Value: Value
 Annual: Annual
+Occasional: Occasional
+Total: Total
 Statistics Canada: Statistics Canada
 
 ## Tiers
@@ -222,7 +224,6 @@ Access to basic waste collection services: Access to basic waste collection serv
 Access to basic waste collection services (Proxy): Access to basic waste collection services (Proxy)
 
 ## 1-4-2
-Total: Total
 Urban: Urban
 Rural: Rural
 Area: Area
@@ -869,8 +870,6 @@ Total volume of municipal and manufacturing wastewater safely treated: Total vol
 
 ## 6-3-2
 Great Lakes and St. Lawrence River: Great Lakes and St. Lawrence River
-
-## 6-4-1
 Land use category: Land use category
 Water quality: Water quality
 Number of sites: Number of sites
@@ -879,7 +878,6 @@ Great Lakes and St. Lawrence River: Great Lakes and St. Lawrence River
 Hudson Bay: Hudson Bay
 Mackenzie River: Mackenzie River
 Pacific Ocean: Pacific Ocean
-Total: Total
 Agriculture: Agriculture
 Forestry: Forestry
 Mining: Mining
@@ -891,6 +889,17 @@ Good: Good
 Fair: Fair
 Marginal: Marginal
 Poor: Poor
+
+## 6-4-1
+Water-use efficiency (USD per cubic metre): Water-use efficiency (USD per cubic metre)
+Percent change in water-use efficiency over time (%): Percent change in water-use efficiency over time (%)
+USD per cubic metre: USD per cubic metre
+Percent change (%): Percent change (%)
+Economic activity: Economic activity
+Agriculture, forestry and fishing: Agriculture, forestry and fishing
+Industry: Industry
+Services: Services
+Overall: Overall
 
 ## 6-6-1
 Number of (shared) basins showing high surface-water extent changes: Number of (shared) basins showing high surface-water extent changes
