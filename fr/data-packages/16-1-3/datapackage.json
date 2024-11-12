@@ -60,13 +60,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Heterosexual",
+                "Hétérosexuel",
                 "Lesbian or gay",
-                "Bisexual",
+                "Bisexuel",
                 ""
               ]
             },
-            "title": "Sexual orientation"
+            "title": "Orientation sexuelle"
           },
           {
             "name": "First Nations, Metis, or Inuit identity",
@@ -105,7 +105,7 @@
                 ""
               ]
             },
-            "title": "Person with disability"
+            "title": "Personne ayant une incapacité"
           },
           {
             "name": "Immigrant status",
@@ -117,20 +117,20 @@
                 ""
               ]
             },
-            "title": "Immigrant status"
+            "title": "Statut d’immigrant"
           },
           {
             "name": "Marital status",
             "type": "string",
             "constraints": {
               "enum": [
-                "Married or common-law",
-                "Separated, divorced, or widowed",
-                "Single, never married",
+                "Marié ou vivant en union libre",
+                "Séparé, divorcé ou veuf",
+                "Célibataire, jamais marié",
                 ""
               ]
             },
-            "title": "Situation de famille"
+            "title": "État matrimonial"
           },
           {
             "name": "Value",

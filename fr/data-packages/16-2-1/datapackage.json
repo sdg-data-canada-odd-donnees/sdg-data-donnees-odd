@@ -91,7 +91,7 @@
                 ""
               ]
             },
-            "title": "Immigrant status"
+            "title": "Statut d’immigrant"
           },
           {
             "name": "Visible minority",
@@ -142,16 +142,16 @@
             "constraints": {
               "enum": [
                 "Total, sexual orientation",
-                "Heterosexual",
+                "Hétérosexuel",
                 "Sexual minority",
                 "Lesbian or gay",
                 "Bisexual or pansexual",
                 "Not stated, sexual orientation",
-                "Sexual orientation not elsewhere classified",
+                "Orientation sexuelle non classée ailleurs",
                 ""
               ]
             },
-            "title": "Sexual orientation"
+            "title": "Orientation sexuelle"
           },
           {
             "name": "GeoCode",

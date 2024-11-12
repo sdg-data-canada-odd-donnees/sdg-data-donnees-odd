@@ -16,6 +16,152 @@
             "title": "Année"
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 à 24 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                "65 à 74 ans",
+                "75 ans et plus",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Indigenous identity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Autochtone",
+                "Premières Nations",
+                "Métis",
+                "Inuit",
+                "Nombreuses identités autochtones ou groupe particulier non précisé",
+                "Personne non autochtone",
+                ""
+              ]
+            },
+            "title": "Identité autochtone"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Minorité visible",
+                "Pas une minorité visible\n",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Immigrant",
+                "Non-immigrant",
+                ""
+              ]
+            },
+            "title": "Statut d’immigrant"
+          },
+          {
+            "name": "Sexual orientation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hétérosexuel",
+                "Gai ou lesbienne",
+                "Bisexuel",
+                "Orientation sexuelle non classée ailleurs",
+                "Orientation sexuelle non précisée",
+                ""
+              ]
+            },
+            "title": "Orientation sexuelle"
+          },
+          {
+            "name": "Disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personne ayant une incapacité",
+                "Personne ne présentant aucune incapacité",
+                ""
+              ]
+            },
+            "title": "Incapacité"
+          },
+          {
+            "name": "Employed in past 12 months",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Employé au cours des 12 mois précédant",
+                "Sans emploi au cours des 12 mois précédant",
+                ""
+              ]
+            },
+            "title": "Employé au cours des 12 mois précédant"
+          },
+          {
+            "name": "Educational status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Actuellement aux études",
+                "Pas actuellement aux études",
+                ""
+              ]
+            },
+            "title": "Situation relativement aux études"
+          },
+          {
+            "name": "Marital status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Marié ou vivant en union libre",
+                "Séparé, divorcé ou veuf",
+                "Célibataire, jamais marié",
+                ""
+              ]
+            },
+            "title": "État matrimonial"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
