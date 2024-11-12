@@ -117,6 +117,7 @@ Total 15 to 29 years: Total 15 to 29 years
 25 to 34 years: 25 to 34 years
 25 to 44 years: 25 to 44 years
 25 to 54 years: 25 to 54 years
+25 to 64 years: 25 to 64 years
 30 to 34 years: 30 to 34 years
 35 to 39 years: 35 to 39 years
 35 to 44 years: 35 to 44 years
@@ -131,6 +132,8 @@ Total 15 to 29 years: Total 15 to 29 years
 55 to 64 years: 55 to 64 years
 60 to 64 years: 60 to 64 years
 65 to 69 years: 65 to 69 years
+65 to 74 years: 65 to 74 years
+75 years and over: 75 years and over
 
 ## 1-1-1
 Québec, Quebec: Quebec, Québec
@@ -146,11 +149,9 @@ All persons: All persons
 Persons under 18 years: Persons under 18 years
 Persons 18 to 64 years: Persons 18 to 64 years
 Persons 65 years and over: Persons 65 years and over
-Males: Males
 Males, under 18 years: Males, under 18 years
 Males, 18 to 64 years: Males, 18 to 64 years
 Males, 65 years and over: Males, 65 years and over
-Females: Females
 Females, under 18 years: Females, under 18 years
 Females, 18 to 64 years: Females, 18 to 64 years
 Females, 65 years and over: Females, 65 years and over
@@ -544,8 +545,6 @@ by 17 years of age: by 17 years of age
 ## 3-8-2
 Proportion with share above 10%: Proportion with share above 10%
 Proportion with share above 25%: Proportion with share above 25%
-Male: Male
-Female: Female
 Aged below 18 years: Aged below 18 years
 Aged 18 to 64 years: Aged 18 to 64 years
 Adjusted household after-tax income in bottom 40%: Adjusted household after-tax income in bottom 40%
@@ -579,7 +578,6 @@ all ages: all ages
 35 to 44 years: 35 to 44 years
 45 to 54 years: 45 to 54 years
 55 to 64 years: 55 to 64 years
-65 to 74 years: 65 to 74 years
 75 to 84 years: 75 to 84 years
 85 and over: 85 and over
 Leading causes of death (ICD-10): Leading causes of death
@@ -603,10 +601,6 @@ EMS responses to suspected opioid-related overdoses: EMS responses to suspected 
 Apparent stimulant toxicity deaths: Apparent stimulant toxicity deaths
 
 ## 3-a-1
-Sex: Sex
-Both sexes: Both sexes
-Female: Female
-Male: Male
 Age Group: Age Group
 All age groups: All age groups
 15-19 years-old: |
@@ -689,12 +683,7 @@ Speech language pathologists: Speech language pathologists
 Psychotherapists: Psychotherapists
 
 ## 4-1-1
-Age group: Age group
 Total, persons aged 15 years and over: Total, persons aged 15 years and over
-15 to 24 years: 15 to 24 years
-25 to 64 years: 25 to 64 years
-65 to 74 years: 65 to 74 years
-75 years and over: 75 years and over
 Selected demographic characteristics: Selected demographic characteristics
 Total, all persons: Total, all persons
 Non immigrants: Non immigrants
@@ -841,6 +830,38 @@ Middle management occupations in retail and wholesale trade and customer service
 Middle management occupations in trades - transportation - production and utilities: Middle management occupations in trades - transportation - production and utilities
 Judges - Federal government public administration: Judges - Federal government public administration
 Judges - Provincial and territorial public administration: Judges - Provincial and territorial public administration
+
+## 5-2-2
+Indigenous identity: Indigenous identity
+Indigenous person: Indigenous person
+First Nations: First Nations
+Métis: Métis
+Inuk: Inuk
+Multiple Indigenous identities or specific group not stated: Multiple Indigenous identities or specific group not stated
+Non-Indigenous person: Non-Indigenous person
+Visible minority: Visible minority
+Not a visible minority: Not a visible minority
+Immigrant status: Immigrant status
+Immigrant: Immigrant
+Non-immigrant: Non-immigrant
+Sexual orientation: Sexual orientation
+Heterosexual: Heterosexual
+Gay or lesbian: Gay or lesbian
+Bisexual: Bisexual
+Sexual orientation not elsewhere classified: Sexual orientation not elsewhere classified
+Sexual orientation not stated: Sexual orientation not stated
+Disability: Disability
+Person with disability: Person with disability
+Person without disability: Person without disability
+Employed in past 12 months: Employed in past 12 months
+Not employed in past 12 months: Not employed in past 12 months
+Educational status: Educational status
+Currently attending school: Currently attending school
+Not currently attending school: Not currently attending school
+Marital status: Marital status
+Married or common-law: Married or common-law
+Separated, divorced, or widowed: Separated, divorced, or widowed
+Single, never married: Single, never married
 
 ## 5-3-1
 Activity group: Activity group
@@ -1663,8 +1684,6 @@ Institutions: Institutions
 Police: Police
 Characteristics: Characteristics
 Total population: Total population
-Male: Male
-Female: Female
 Indigenous person: Indigenous person
 Non-Indigenous person: Non-Indigenous person
 Visible minority: Visible minority
