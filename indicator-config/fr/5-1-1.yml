@@ -21,15 +21,18 @@ graph_title: global_indicators.5-1-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.5-1-1-title
+indicator_available: proxy.5-1-1-title
 indicator_number: '5.1.1'
 national_geographical_coverage: ''
 page_content: |
-    <strong>Indicateur non statistique</strong>
-    <br>
-    <br>Nous avons identifié les éléments suivants comme étant pertinents pour cet indicateur - <a href="https://www.canada.ca/fr/patrimoine-canadien/services/droits-femmes.html#a1">Droits des femmes: Protéger les droits des femmes</a>.
+  <strong>Indicateur non statistique</strong>
+  <br><br>
+  Nous avons identifié les éléments suivants comme étant pertinents pour cet indicateur - <a href="https://www.canada.ca/fr/patrimoine-canadien/services/droits-femmes.html#a1">Droits des femmes: Protéger les droits des femmes</a>.
 permalink: ''
 precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags: 
+- Proxy
+proxy: proxy
