@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
 SDG_TARGET: '<p>Cible 6.6 : D’ici à 2020, protéger et restaurer les écosystèmes liés
@@ -17,6 +18,8 @@ STAT_CONC_DEF: '<p>L''indicateur comprend cinq catégories : 1) zones humides v�
   progressive à deux niveaux est proposée : </p>'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 6.6 : D’ici à 2020, protéger et restaurer les écosystèmes
@@ -25,17 +28,15 @@ SDG_TARGET__GLOBAL: '<p>Cible 6.6 : D’ici à 2020, protéger et restaurer les 
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.6.1 : Variation de l’étendue des écosystèmes
   tributaires de l’eau</p>'
 
-reporting_status: complete
-
-source_active_1: 'true'
-source_url_text_1: Explorateur des écosystèmes d’eau douce.
-source_url_1: https://www.sdg661.app/
-source_organisation_1: ONU programme pour l'environnement
-source_geographical_coverage_1: Canada
-
 un_designated_tier: Niveau I
 un_custodian_agency: Le Programme des Nations Unies pour l'environnement (PNUE), Secrétariat de la Convention de Ramsar sur les zones humides
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+# source_active_1: 'true'
+# source_url_text_1: Explorateur des écosystèmes d’eau douce
+# source_url_1: https://www.sdg661.app/
+# source_organisation_1: ONU programme pour l'environnement
+# source_geographical_coverage_1: Canada
  
