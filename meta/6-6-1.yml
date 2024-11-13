@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Goal 6: Ensure availability and sustainable management of water and
   sanitation for all</p>'
 SDG_TARGET: '<p>Target 6.6: By 2030 protect and restore water-related ecosystems,
@@ -70,19 +71,23 @@ DATA_COMP: '    ' # |
   # in surface-water area are observed in 2015 and 2020, which are compared against a 20-year
   # reference period.
 REC_USE_LIM: '    ' # custom.data-comp
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
   and sanitation for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 6.6: By 2030 protect and restore water-related ecosystems,
   including mountains, forests, wetlands, rivers, aquifers and lakes</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 6.6.1: Change in the extent of water-related
   ecosystems over time</p>'
+
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Environment Programme (UNEP), Secretariat of the Ramsar Convention on Wetlands
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 # source_active_1: 'true'
-# source_url_text_1: Freshwater Ecosystems Explorer.
+# source_url_text_1: Freshwater Ecosystems Explorer
 # source_url_1: https://www.sdg661.app/
 # source_organisation_1: United Nations Environment Programme (UNEP)
 # source_periodicity_1: Annual
