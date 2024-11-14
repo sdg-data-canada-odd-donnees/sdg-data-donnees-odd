@@ -1,29 +1,49 @@
+# National
 SDG_GOAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
 SDG_TARGET: '<p>Target 5.4: Recognize and value unpaid care and domestic work through the 
   provision of public services, infrastructure and social protection policies and the promotion 
   of shared responsibility within the household and the family as nationally appropriate</p>'
 SDG_INDICATOR: '<p>Indicator 5.4.1: Proportion of time spent on unpaid domestic and care work, by
   sex, age and location</p>'
-STAT_CONC_DEF: "This indicator is defined as the proportion of time spent in a day on unpaid domestic and care work by men and women. Unpaid domestic and care work refers to activities related to the provision of services for own final use by household members, or by family members living in other households. These activities are listed in ICATUS 2016 under the major divisions “3. Unpaid domestic services for household and family members” and “4. Unpaid caregiving services for household and family members”. <br><br>
-  The average time spent on an activity is a daily average based on a seven day week and the proportion of day is based on a 24 hour day."
+STAT_CONC_DEF: >-
+  This indicator is defined as the proportion of time spent in a day on unpaid domestic and care work by men and women. Unpaid domestic and care work refers to activities related to the provision of services for own final use by household members, or by family members living in other households. These activities are listed in ICATUS 2016 under the major divisions “3. Unpaid domestic services for household and family members” and “4. Unpaid caregiving services for household and family members”.
+  <br><br>
+  The average time spent on an activity is a daily average based on a seven day week and the proportion of day is based on a 24 hour day.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'Excludes territories and institutionalized population.'
+REC_USE_LIM: >-
+  Excludes territories and institutionalized population.
+  <br><br>
+  Given that the non-binary population is small, data aggregation to a two-category gender variable is sometimes necessary to protect the confidentiality of responses provided. In these cases, individuals in the category “non-binary persons” are distributed into the other two gender categories and are denoted by the “+” symbol.
+  <br><br>
+  The sex variable in the 2015 Time Use Survey and the two-category gender variable in the 2022 Time Use Survey are included together in this indicator. Although sex and gender refer to two different concepts, the introduction of gender is not expected to have a significant impact on data analysis and historical comparability, given the small size of the transgender and non-binary populations. For additional information on changes of concepts over time, please consult the Age, Sex at Birth and Gender Reference Guide.
+  <br><br>
+  The 2022 Time Use Survey offered both telephone and Internet modes of data collection in recognition of the need to adapt to the changing use of technology and the ever-present demands on Canadians’ time. Any significant change in survey methodology can affect the comparability of the data over time. It is impossible to determine with certainty whether, and to what extent, differences in a variable are attributable to an actual change in the population or to changes in the survey methodology. However, there are reasons to believe that the use of an electronic questionnaire might have an impact on the estimations. As a result, trend analysis on unpaid work and care should be done with caution and this visualization product does not provide a comparison between years for disaggregated data.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
 SDG_TARGET__GLOBAL: '<p>Target 5.4: Recognize and value unpaid care and domestic work through the 
   provision of public services, infrastructure and social protection policies and the promotion 
   of shared responsibility within the household and the family as nationally appropriate</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 5.4.1: Proportion of time spent on unpaid domestic and care work, by
   sex, age and location</p>'
+
 un_designated_tier: Tier I
-un_custodian_agency: Inter-Parliamentary Union (IPU), UN Women
+un_custodian_agency: Inter-Parliamentary Union (IPU), United Nations Entity
+  for Gender Equality and the Empowerment of Women (UN Women)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-04-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: Statistics Canada. Table 45-10-0014-01  Daily average time spent in hours on various activities by age group and sex, 15 years and over, Canada and provinces
+source_url_text_1: Statistics Canada. Table 45-10-0014-01  Daily average time spent on various activities by age group and sex, 2015, inactive
 source_organisation_1: Statistics Canada
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada, Geographical region of Canada, Province or territory
 source_url_1: https://doi.org/10.25318/4510001401-eng
-reporting_status: complete
  
+source_active_2: 'true'
+source_url_text_2: Statistics Canada. Table 45-10-0104-01  Daily average time spent on various activities, by age group and gender, 2022
+source_organisation_2: Statistics Canada
+source_periodicity_2: Occasional
+source_geographical_coverage_2: Canada, Geographical region of Canada, Province or territory
+source_url_2: https://doi.org/10.25318/4510010401-eng
