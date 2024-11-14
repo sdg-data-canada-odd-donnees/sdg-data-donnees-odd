@@ -7499,10 +7499,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Activités de travail non-rémunéré",
-                "Tâches domestiques",
-                "Soins à un enfant du ménage de moins de 18 ans",
-                "Soins à un adulte du ménage",
+                "Total, activités de travail non-rémunéré",
+                "Tâches ménagères",
+                "Soins des enfants de moins de 18 ans",
+                "Soins des adultes",
                 "Magasinage de biens ou de services",
                 ""
               ]
@@ -7528,16 +7528,22 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Homme",
-                "Femme",
+                "Hommes+",
+                "Femmes+",
+                "Total, toutes les personnes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

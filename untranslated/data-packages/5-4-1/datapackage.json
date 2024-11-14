@@ -34,10 +34,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Unpaid work activities",
-                "Household chores",
-                "Care of household children under 18 years",
-                "Care of household adults",
+                "Total, unpaid work activities",
+                "Unpaid household work",
+                "Care of children under 18 years",
+                "Care of adults",
                 "Shopping for goods or services",
                 ""
               ]
@@ -61,15 +61,20 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "Men+",
+                "Women+",
+                "Total, all persons",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
