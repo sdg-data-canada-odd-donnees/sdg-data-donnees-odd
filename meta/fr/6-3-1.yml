@@ -6,7 +6,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
     Indicateur 6.3.1 : Proportion des eaux usées d’origine municipale et de la fabrication traitées sans danger
 STAT_CONC_DEF: >-
-    Cet indicateur mesure les volumes d’eaux usées générés par différentes activités et les volumes d’eaux usées qui sont traités en toute sécurité avant d’être rejetés dans l’environnement. Ces deux indicateurs sont mesurés en unités de 1000 m3/jour, bien que certaines sources de données puissent utiliser d’autres unités nécessitant une conversion. Le rapport entre le volume traité et le volume généré est considéré comme la « proportion des flux d’eaux usées traités en toute sécurité ».
+    Cet indicateur mesure les volumes d’eaux usées générés par différentes activités et les volumes d’eaux usées qui sont traités en toute sécurité avant d’être rejetés dans l’environnement. Ces deux indicateurs sont mesurés en unités de 1000 m<sup>3</sup>/jour, bien que certaines sources de données puissent utiliser d’autres unités nécessitant une conversion. Le rapport entre le volume traité et le volume généré est considéré comme la « proportion des flux d’eaux usées traités en toute sécurité ».
 DATA_COMP: >-
     Total des eaux usées traitées = Traitement primaire + Traitement secondaire + Traitement tertiaire
     <br><br>

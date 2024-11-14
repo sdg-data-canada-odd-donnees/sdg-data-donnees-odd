@@ -1,88 +1,93 @@
+# National
 SDG_GOAL: '<p>Goal 6: Ensure availability and sustainable management of water and
   sanitation for all</p>'
 SDG_TARGET: '<p>Target 6.6: By 2030 protect and restore water-related ecosystems,
   including mountains, forests, wetlands, rivers, aquifers and lakes</p>'
 SDG_INDICATOR: '<p>Indicator 6.6.1: Change in the extent of water-related ecosystems
   over time</p>'
-STAT_CONC_DEF: |
-  Indicator 6.6.1 tracks the extent to which different types of water-related
-  ecosystems are changing in extent over time. The indicator is multifaceted capturing
-  data on different types of freshwater ecosystems and to measure extent change the
-  indicator considers spatial area changes, water quality and water quantity changes.
-  The indicator uses satellite based Earth observations to globally monitor different
-  freshwater ecosystems types Earth observation data series on surface area are available
-  on permanent water, seasonal water, reservoirs, wetlands, mangroves; as well as
-  generating data on water quality the using trophic state and turbidity of water
-  bodies. Satellite images can be represented as numerical data, which in turn are
-  aggregated into meaningful statistics of ecosystem change attributed to administrative
-  areas such as national, sub-national (e.g. regions and provinces) and river basin
-  boundaries. Global data products for river flows and groundwater level have not
-  yet been produced at useful spatial and temporal resolutions to be incorporated
-  into this SDG 6.6.1 methodology. Currently, these data should continue to be provided
-  from modelling or from ground-based measurements and required from the countries.
-  <br>
-  <br><b>Extent</b> - As used in the title of this indicator, 'extent' is expanded beyond spatial extent
-  to capture additional basic parameters needed for the protection and restoration of water-related
-  ecosystems. Extent includes three components - the spatial extent or surface area, the quality, 
-  and the quantity of water-related ecosystems.
-  <br>
-  <br><b>Surface Water</b> refers to any area of surface water unobstructed by aquatic vegetation. This includes the 
-  following 3 water-related ecosystem categories: rivers and estuaries, lakes, and artificial waterbodies.
-  <br>
-  <br><b>Reservoirs</b> are artificial (or human-made) bodies of freshwater, as opposed to lakes which are naturally 
-  occurring. The reservoirs dataset represents surface area data on artificial water bodies including reservoirs 
-  formed by dams, flooded areas such as opencast mines and quarries, flood irrigation areas, and water 
-  bodies created by hydro-engineering projects such as waterway and harbour construction.
-  <br>
-  <br><b>Maximum water extent dynamics</b> is an intra-annual measurement corresponding to the highest observed (or 
-  maximum) extent a reservoir reaches within a year. The data shows the extent to which the annual maximum surface area 
-  of reservoirs has changed compared to a reference period. This change is calculated by comparing the maximum area of 
-  the most recent five years against a five year reference period (2000-2004).
-  <br>
-  <br><b>Minimum water extent dynamics</b> is the lowest observed (or minimum) surface area of reservoirs in a year 
-  (intra-annual measurement). This minimum extent varies from one year to another. The data shows the extent to which the 
-  annual minimum surface area of reservoirs has changed compared to a reference period. This change is calculated by 
-  comparing the minimum extent of the most recent five years against a five year reference period (2000-2004).
-  <br>
-  <br><b>Turbidity</b> is an indicator of water clarity, quantifying the haziness of the water and acting as an indicator of 
-  underwater light availability. <b>Trophic State</b> refers to the degree at which organic matter accumulates in the water body and is most 
-  commonly used in relation to monitoring eutrophication. Both water parameters may be used to infer a particular state, or quality, of a 
-  freshwater body.
-  <br>
-  <br><b>Turbidity state</b> and <b>trophic state</b> show the total percentage deviation, from a baseline. A five year baseline (2006-2010), 
-  per lake, has been produced for both parameters. This is used to measure change against recent years (2017-2019). The data represent the 
-  number of lakes impacted by a degradation of their environmental conditions (i.e. showing a deviation in turbidity and trophic state from 
-  the baseline) compared to the total number of lakes within a country. The values produced account for different sized lakes.
-  <br>
-  <br><b>Change</b> means a shift from one condition of extent to another over time within a water-related ecosystem, 
-  measured against a point of reference. Surface-water extent changes are compared against a 20-year reference 
-  period (baseline).
-  <br>
-  <br><b>Permanent water</b> is defined as being present all 12 months per year.
-  <br>
-  <br><b>Seasonal water</b> is defined as being present less than 12 months per year.
-  <br>
-  <br><b>New water</b>is an area of land that has transitioned to water.
-  <br>
-  <br><b>Lost water</b> is an area of water that has transitioned to land.
+STAT_CONC_DEF: '   ' # |
+  # Indicator 6.6.1 tracks the extent to which different types of water-related
+  # ecosystems are changing in extent over time. The indicator is multifaceted capturing
+  # data on different types of freshwater ecosystems and to measure extent change the
+  # indicator considers spatial area changes, water quality and water quantity changes.
+  # The indicator uses satellite based Earth observations to globally monitor different
+  # freshwater ecosystems types Earth observation data series on surface area are available
+  # on permanent water, seasonal water, reservoirs, wetlands, mangroves; as well as
+  # generating data on water quality the using trophic state and turbidity of water
+  # bodies. Satellite images can be represented as numerical data, which in turn are
+  # aggregated into meaningful statistics of ecosystem change attributed to administrative
+  # areas such as national, sub-national (e.g. regions and provinces) and river basin
+  # boundaries. Global data products for river flows and groundwater level have not
+  # yet been produced at useful spatial and temporal resolutions to be incorporated
+  # into this SDG 6.6.1 methodology. Currently, these data should continue to be provided
+  # from modelling or from ground-based measurements and required from the countries.
+  # <br>
+  # <br><b>Extent</b> - As used in the title of this indicator, 'extent' is expanded beyond spatial extent
+  # to capture additional basic parameters needed for the protection and restoration of water-related
+  # ecosystems. Extent includes three components - the spatial extent or surface area, the quality, 
+  # and the quantity of water-related ecosystems.
+  # <br>
+  # <br><b>Surface Water</b> refers to any area of surface water unobstructed by aquatic vegetation. This includes the 
+  # following 3 water-related ecosystem categories: rivers and estuaries, lakes, and artificial waterbodies.
+  # <br>
+  # <br><b>Reservoirs</b> are artificial (or human-made) bodies of freshwater, as opposed to lakes which are naturally 
+  # occurring. The reservoirs dataset represents surface area data on artificial water bodies including reservoirs 
+  # formed by dams, flooded areas such as opencast mines and quarries, flood irrigation areas, and water 
+  # bodies created by hydro-engineering projects such as waterway and harbour construction.
+  # <br>
+  # <br><b>Maximum water extent dynamics</b> is an intra-annual measurement corresponding to the highest observed (or 
+  # maximum) extent a reservoir reaches within a year. The data shows the extent to which the annual maximum surface area 
+  # of reservoirs has changed compared to a reference period. This change is calculated by comparing the maximum area of 
+  # the most recent five years against a five year reference period (2000-2004).
+  # <br>
+  # <br><b>Minimum water extent dynamics</b> is the lowest observed (or minimum) surface area of reservoirs in a year 
+  # (intra-annual measurement). This minimum extent varies from one year to another. The data shows the extent to which the 
+  # annual minimum surface area of reservoirs has changed compared to a reference period. This change is calculated by 
+  # comparing the minimum extent of the most recent five years against a five year reference period (2000-2004).
+  # <br>
+  # <br><b>Turbidity</b> is an indicator of water clarity, quantifying the haziness of the water and acting as an indicator of 
+  # underwater light availability. <b>Trophic State</b> refers to the degree at which organic matter accumulates in the water body and is most 
+  # commonly used in relation to monitoring eutrophication. Both water parameters may be used to infer a particular state, or quality, of a 
+  # freshwater body.
+  # <br>
+  # <br><b>Turbidity state</b> and <b>trophic state</b> show the total percentage deviation, from a baseline. A five year baseline (2006-2010), 
+  # per lake, has been produced for both parameters. This is used to measure change against recent years (2017-2019). The data represent the 
+  # number of lakes impacted by a degradation of their environmental conditions (i.e. showing a deviation in turbidity and trophic state from 
+  # the baseline) compared to the total number of lakes within a country. The values produced account for different sized lakes.
+  # <br>
+  # <br><b>Change</b> means a shift from one condition of extent to another over time within a water-related ecosystem, 
+  # measured against a point of reference. Surface-water extent changes are compared against a 20-year reference 
+  # period (baseline).
+  # <br>
+  # <br><b>Permanent water</b> is defined as being present all 12 months per year.
+  # <br>
+  # <br><b>Seasonal water</b> is defined as being present less than 12 months per year.
+  # <br>
+  # <br><b>New water</b>is an area of land that has transitioned to water.
+  # <br>
+  # <br><b>Lost water</b> is an area of water that has transitioned to land.
 DATA_COMP: '    ' # |
   # Combined surface-water changes = permanent + seasonal + reservoir changes. Changes
   # in surface-water area are observed in 2015 and 2020, which are compared against a 20-year
   # reference period.
 REC_USE_LIM: '    ' # custom.data-comp
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
   and sanitation for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 6.6: By 2030 protect and restore water-related ecosystems,
   including mountains, forests, wetlands, rivers, aquifers and lakes</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 6.6.1: Change in the extent of water-related
   ecosystems over time</p>'
+
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Environment Programme (UNEP), Secretariat of the Ramsar Convention on Wetlands
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 # source_active_1: 'true'
-# source_url_text_1: Freshwater Ecosystems Explorer.
+# source_url_text_1: Freshwater Ecosystems Explorer
 # source_url_1: https://www.sdg661.app/
 # source_organisation_1: United Nations Environment Programme (UNEP)
 # source_periodicity_1: Annual

@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
 SDG_TARGET: '<p>Cible 6.6 : D’ici à 2020, protéger et restaurer les écosystèmes liés
@@ -5,18 +6,20 @@ SDG_TARGET: '<p>Cible 6.6 : D’ici à 2020, protéger et restaurer les écosyst
   aquifères et les lacs</p>'
 SDG_INDICATOR: '<p>Indicateur 6.6.1 : Variation de l’étendue des écosystèmes tributaires
   de l’eau</p>'
-STAT_CONC_DEF: '<p>L''indicateur comprend cinq catégories : 1) zones humides végétalisées,
-  2) rivières et estuaires, 3) lacs, 4) aquifères, et 5) masses d''eau artificielles.
-  Pour les besoins de cette méthodologie, le texte se réfère uniquement à ces cinq
-  catégories d''écosystèmes. Pour faire face à sa complexité, l''Indicateur 6.6.1
-  a été divisé en 5 sous-indicateurs afin de saisir les différentes sources de données
-  et méthodologies nécessaires à la surveillance des composantes de l''Indicateur.
-  Les sources de données proviennent d''une combinaison d''échantillonnage et d''observation
-  de la terre. Selon le type d''écosystème et le type d''étendue mesurée, la méthodologie
-  de collecte des données peut également être très différente. Une approche de surveillance
-  progressive à deux niveaux est proposée : </p>'
+STAT_CONC_DEF: '   ' # '<p>L''indicateur comprend cinq catégories : 1) zones humides végétalisées,
+#   2) rivières et estuaires, 3) lacs, 4) aquifères, et 5) masses d''eau artificielles.
+#   Pour les besoins de cette méthodologie, le texte se réfère uniquement à ces cinq
+#   catégories d''écosystèmes. Pour faire face à sa complexité, l''Indicateur 6.6.1
+#   a été divisé en 5 sous-indicateurs afin de saisir les différentes sources de données
+#   et méthodologies nécessaires à la surveillance des composantes de l''Indicateur.
+#   Les sources de données proviennent d''une combinaison d''échantillonnage et d''observation
+#   de la terre. Selon le type d''écosystème et le type d''étendue mesurée, la méthodologie
+#   de collecte des données peut également être très différente. Une approche de surveillance
+#   progressive à deux niveaux est proposée : </p>'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
   en eau et d''assainissement gérés de façon durable</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 6.6 : D’ici à 2020, protéger et restaurer les écosystèmes
@@ -25,17 +28,15 @@ SDG_TARGET__GLOBAL: '<p>Cible 6.6 : D’ici à 2020, protéger et restaurer les 
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.6.1 : Variation de l’étendue des écosystèmes
   tributaires de l’eau</p>'
 
-reporting_status: complete
-
-source_active_1: 'true'
-source_url_text_1: Explorateur des écosystèmes d’eau douce.
-source_url_1: https://www.sdg661.app/
-source_organisation_1: ONU programme pour l'environnement
-source_geographical_coverage_1: Canada
-
 un_designated_tier: Niveau I
 un_custodian_agency: Le Programme des Nations Unies pour l'environnement (PNUE), Secrétariat de la Convention de Ramsar sur les zones humides
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+# source_active_1: 'true'
+# source_url_text_1: Explorateur des écosystèmes d’eau douce
+# source_url_1: https://www.sdg661.app/
+# source_organisation_1: ONU programme pour l'environnement
+# source_geographical_coverage_1: Canada
  

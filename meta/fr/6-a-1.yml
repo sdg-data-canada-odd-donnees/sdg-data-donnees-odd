@@ -11,7 +11,8 @@ DATA_COMP: >-
   Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
   <br><br>
   Les données proviennent du système de notification des créanciers de l'OCDE. Les codes correspondent à la série complète 140 pour le secteur de la distribution d'eau et de l'assainissement et au code CRS 31140 pour les ressources en eau à usage agricole. L’APD brute pour ces codes est additionnée pour les données du Canada.
-REC_USE_LIM: '   '
+REC_USE_LIM: >-
+  Il s'agit d'un indicateur de subsitution mesurant le montant total d'aide publique au développement liée à l'eau et à l'assainissement, tandis que les métadonnées globales de l'ONU précisent : « L'indicateur est calculé comme la proportion de l'APD totale liée à l'eau et à l'assainissement qui est incluse dans le budget du gouvernement, c'est-à-dire le montant de l'APD liée à l'eau et à l'assainissement dans le budget du gouvernement divisé par le montant total de l'APD liée à l'eau et à l'assainissement. »
 
 # Global
 SDG_GOAL__GLOBAL: >-
