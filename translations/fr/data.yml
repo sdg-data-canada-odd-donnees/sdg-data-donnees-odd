@@ -55,13 +55,16 @@ Sex: Sexe
 Men: Hommes
 Male: Homme
 Males: Hommes
+Men+: Hommes+
 Women: Femmes
 Female: Femme
 Females: Femmes
+Women+: Femmes+
 Both: Les deux sexes
 Both sexes: Les deux sexes
 Gender: Genre
 All genders: Toutes les identités de genre
+Total, all persons: Total, toutes les personnes
 
 ## Geo
 Geography: Géographie
@@ -135,14 +138,6 @@ Total 15 to 29 years: Total 15 à 29 ans
 65 to 69 years: 65 à 69 ans
 65 to 74 years: 65 à 74 ans
 75 years and over: 75 ans et plus
-
-## Random
-Activity group: Groupe d'activité
-Unpaid work activities: Activités de travail non-rémunéré 
-Household chores: Tâches domestiques
-Care of household children under 18 years: Soins à un enfant du ménage de moins de 18 ans
-Care of household adults: Soins à un adulte du ménage
-Shopping for goods or services: Magasinage de biens ou de services
 
 ## Metadata fields
 Canada, Geographical region of Canada, Province or territory: Canada, Région géographique du Canada, Province ou territoire
@@ -990,10 +985,10 @@ Living common law: Vivant en union libre
 
 ## 5-4-1
 Activity group: Groupe d'activité
-Unpaid work activities: Activités de travail non-rémunéré
-Household chores: Tâches domestiques
-Care of household children under 18 years: Soins à un enfant du ménage de moins de 18 ans
-Care of household adults: Soins à un adulte du ménage
+Total, unpaid work activities: Total, activités de travail non-rémunéré
+Unpaid household work: Tâches ménagères
+Care of children under 18 years: Soins des enfants de moins de 18 ans
+Care of adults: Soins des adultes
 Shopping for goods or services: Magasinage de biens ou de services
 
 ## 5-5-1
