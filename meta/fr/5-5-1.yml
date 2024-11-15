@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Objectif 5 : Parvenir à l''égalité des sexes et autonomiser toutes les
   femmes et les filles.</p>'
 SDG_TARGET: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement et effectivement
@@ -5,13 +6,13 @@ SDG_TARGET: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement 
   économique et publique, et y accèdent sur un pied d’égalité.</p>'
 SDG_INDICATOR: '<p>Indicateur 5.5.1 : Proportion de sièges occupés par des femmes
   dans a) les parlements nationaux et b) les administrations locales.</p>'
-STAT_CONC_DEF: <p> La proportion de sièges occupés par des femmes dans a) les parlements
-  nationaux, actuellement au 1er janvier de l'année de référence, est actuellement
-  mesurée comme le nombre de sièges occupés par des femmes membres dans les chambres
-  uniques ou basses des parlements nationaux, exprimé en pourcentage de tous les sièges
-  occupés. </p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: >-
+  La proportion de sièges occupés par des femmes dans a) les parlements nationaux, actuellement au 1er janvier de l'année de référence, est actuellement mesurée comme le nombre de sièges occupés par des femmes membres dans les chambres uniques ou basses des parlements nationaux, exprimé en pourcentage de tous les sièges occupés.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: >-
+  Seulement les données pour la séries dans a) les parlements nationaux sont présentement disponibles.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l''égalité des sexes et autonomiser
   toutes les femmes et les filles.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement
@@ -20,6 +21,12 @@ SDG_TARGET__GLOBAL: '<p>Cible 5.5 : Veiller à ce que les femmes participent ple
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.5.1 : Proportion de sièges occupés par des femmes
   dans a) les parlements nationaux et b) les administrations locales.</p>'
 
+un_designated_tier: Niveau I
+un_custodian_agency: Union Interparlementaire (UIP), Entité des Nations Unies pour l’égalité des sexes et l’autonomisation des femmes (ONU Femmes)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=5&Target=5.5
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: "Statistique Canada. Tableau 10-10-0137-01  Représentation des femmes et des hommes élus au Parlement national et des ministres nommés au sein du Cabinet fédéral"
 source_organisation_1: Statistique Canada
@@ -33,11 +40,3 @@ source_url_2: 'https://doi.org/10.25318/4110004801-fra'
 source_organisation_2: Statistique Canada
 source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada
-
-reporting_status: complete
- 
-
-un_designated_tier: Niveau I
-un_custodian_agency: ONU Femmes, Union Interparlementaire (UIP)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=5&Target=5.5
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
