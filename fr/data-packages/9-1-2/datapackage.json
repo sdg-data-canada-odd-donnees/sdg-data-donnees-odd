@@ -23,7 +23,7 @@
                 "Volume de fret aérien",
                 "Passagers aériens",
                 "Volume de fret ferroviaire",
-                "Voyageurs ferroviaires",
+                "Passagers ferroviaires",
                 "Volume de fret routier",
                 ""
               ]
@@ -36,8 +36,7 @@
             "constraints": {
               "enum": [
                 "Tonnes métriques",
-                "Number of passengers",
-                "Metric tonnes of cargo",
+                "Nombre de passagers",
                 ""
               ]
             },

@@ -1307,7 +1307,6 @@
               "enum": [
                 "Metric tonnes",
                 "Number of passengers",
-                "Metric tonnes of cargo",
                 ""
               ]
             },
@@ -8107,16 +8106,16 @@
             "title": "Year"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage (%)",
-                "Dollar",
+                "MVA as a proportion of GDP",
+                "MVA per capita",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Series"
           },
           {
             "name": "Geography",
