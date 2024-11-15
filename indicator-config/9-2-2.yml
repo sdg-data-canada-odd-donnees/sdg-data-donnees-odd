@@ -10,8 +10,6 @@ data_show_map: true
 data_start_values:
 - field: Geography
   value: Canada
-- field: Type of employee
-  value: All employees
 - field: Industry
   value: Total manufacturing
 embedded_feature_footer: ''
@@ -21,7 +19,6 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
 - Geography
-- Type of employee
 - Industry
 graph_annotations: []
 graph_limits: []
@@ -31,7 +28,7 @@ graph_titles: []
 graph_type: line
 indicator_name: global_indicators.9-2-2-title
 indicator_number: 9.2.2
-national_geographical_coverage: Canada, Province or territory
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
