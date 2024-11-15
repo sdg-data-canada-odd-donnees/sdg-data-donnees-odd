@@ -1,24 +1,32 @@
-SDG_GOAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles</p>'
-SDG_TARGET: '<p>Cible 5.c : Adopter des politiques bien conçues et des dispositions législatives applicables 
-  en faveur de la promotion de l’égalité des sexes et de l’autonomisation de toutes les femmes et de toutes 
-  les filles à tous les niveaux et renforcer celles qui existent</p>'
-SDG_INDICATOR: '<p>Indicateur 5.c.1 : Proportion de pays dotés de systèmes permettant de suivre et de rendre 
-  public le montant des ressources allouées à l’égalité des sexes et à l’autonomisation des femmes</p>'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: >-
+  Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles
+SDG_TARGET: >-
+  Cible 5.c : Adopter des politiques bien conçues et des dispositions législatives applicables en faveur de la promotion de l’égalité des sexes et de l’autonomisation de toutes les femmes et de toutes les filles à tous les niveaux et renforcer celles qui existent
+SDG_INDICATOR: >-
+  Indicateur 5.c.1 : Systèmes canadiens permettant de suivre et de rendre public le montant des ressources allouées à l’égalité des sexes et à l’autonomisation des femmes
+STAT_CONC_DEF: >-
+  Cet indicateur indique si le Canada s’est doté d'un système permettant de suivre et de rendre public le montant des ressources allouées à l’égalité des sexes et à l’autonomisation des femmes.
 DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 5.c : Adopter des politiques bien conçues et des dispositions législatives applicables 
-  en faveur de la promotion de l’égalité des sexes et de l’autonomisation de toutes les femmes et de toutes 
-  les filles à tous les niveaux et renforcer celles qui existent</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.c.1 : Proportion de pays dotés de systèmes permettant de suivre et de rendre 
-  public le montant des ressources allouées à l’égalité des sexes et à l’autonomisation des femmes</p>'
+REC_USE_LIM: >-
+  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique: « Proportion de pays dotés de systèmes permettant de suivre et de rendre public le montant des ressources allouées à l’égalité des sexes et à l’autonomisation des femmes ».
 
-reporting_status: complete
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles
+SDG_TARGET__GLOBAL: >-
+  Cible 5.c : Adopter des politiques bien conçues et des dispositions législatives applicables en faveur de la promotion de l’égalité des sexes et de l’autonomisation de toutes les femmes et de toutes les filles à tous les niveaux et renforcer celles qui existent
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 5.c.1 : Proportion de pays dotés de systèmes permettant de suivre et de rendre public le montant des ressources allouées à l’égalité des sexes et à l’autonomisation des femmes
 
 un_designated_tier: Niveau II
-un_custodian_agency: ONU Femmes, Organisation de coopération et de développement économiques (OCDE)
+un_custodian_agency: Entité des Nations Unies pour l’égalité des sexes et l’autonomisation des femmes (ONU Femmes), Organisation de coopération et de développement économiques (OCDE), Programme des Nations Unies pour le développement (PNUD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-0c-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+# Source(s) 
+source_active_1: 'true'
+source_url_text_1: Cadre des résultats relatifs aux genres
+source_url_1: https://www.canada.ca/fr/femmes-egalite-genres/egalite-genres/cadre-resultats-relatifs-genres.html
+source_organisation_1: Femmes et Égalité des genres Canada
+source_geographical_coverage_1: Canada
