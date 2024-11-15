@@ -1,27 +1,27 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and sustainable
-  industrialization and foster innovation</p>'
-SDG_TARGET: '<p>Target 9.2: Promote inclusive and sustainable industrialization and,
-  by 2030, significantly raise industry&apos;s share of employment and gross domestic
-  product, in line with national circumstances, and double its share in least developed
-  countries</p>'
-SDG_INDICATOR: '<p>Indicator 9.2.1: Manufacturing value added as a proportion of GDP
-  and per capita</p>'
-STAT_CONC_DEF: 'This indicator measure the manufacturing value added (MVA) as a proportion of gross domestic product (GDP) and on a per capita basis. The share of MVA in GDP reflects the role of manufacturing in the economy and a country’s national development in general. MVA per capita is the basic indicator of a country’s level of industrialization adjusted for the size of the economy.'
-DATA_COMP: |
-    Manufacturing Value Added as a proportion of GDP = (Manufacturing Value Added / GDP at market prices in current dollars) x 100 <br><br>
-    Manufacturing Value Added per capita = Manufacturing Value Added / Population
-REC_USE_LIM: 'Manufacturing value added on a per capita basis is presented in current dollars rather than in constant dollars.'
+SDG_GOAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET: >-
+  Target 9.2: Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry&apos;s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries
+SDG_INDICATOR: >-
+  Indicator 9.2.1: Manufacturing value added as a proportion of GDP and per capita
+STAT_CONC_DEF: >-
+  This indicator measure the manufacturing value added (MVA) as a proportion of gross domestic product (GDP) and on a per capita basis. The share of MVA in GDP reflects the role of manufacturing in the economy and a country’s national development in general. MVA per capita is the basic indicator of a country’s level of industrialization adjusted for the size of the economy.
+DATA_COMP: >-
+  Manufacturing Value Added as a proportion of GDP = (Manufacturing Value Added / GDP at market prices in current dollars) × 100
+  <br><br>
+  Manufacturing Value Added per capita = Manufacturing Value Added / Population
+REC_USE_LIM: >-
+  Manufacturing value added on a per capita basis is presented in current dollars rather than in constant dollars.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
-  sustainable industrialization and foster innovation</p>'
-SDG_TARGET__GLOBAL: '<p>Target 9.2: Promote inclusive and sustainable industrialization
-  and, by 2030, significantly raise industry&apos;s share of employment and gross
-  domestic product, in line with national circumstances, and double its share in least
-  developed countries</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 9.2.1: Manufacturing value added as a proportion
-  of GDP and per capita</p>'
+SDG_GOAL__GLOBAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET__GLOBAL: >-
+  Target 9.2: Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry&apos;s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 9.2.1: Manufacturing value added as a proportion of GDP and per capita
+
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Industrial Development Organization (UNIDO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-01.pdf
@@ -29,16 +29,14 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
   
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistics Canada. Table 16-10-0117-01  Principal statistics for manufacturing industries, by North American Industry Classification System (NAICS) (x 1,000)
+source_url_text_1: Statistics Canada. Table 16-10-0117-01  Principal statistics for manufacturing industries, by North American Industry Classification System (NAICS) (x 1,000)
 source_url_1: https://doi.org/10.25318/1610011701-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Monthly
-source_geographical_coverage_1: Canada, Province or territory
+source_geographical_coverage_1: Canada, Geographical region of Canada, Province or territory
 
 source_active_2: 'true'
-source_url_text_2: Statistics Canada. Table 36-10-0222-01  Gross domestic product,
-  expenditure-based, provincial and territorial, annual (x 1,000,000)
+source_url_text_2: Statistics Canada. Table 36-10-0222-01  Gross domestic product, expenditure-based, provincial and territorial, annual (x 1,000,000)
 source_url_2: https://doi.org/10.25318/3610022201-eng
 source_organisation_2: Statistics Canada
 source_periodicity_2: Annual
