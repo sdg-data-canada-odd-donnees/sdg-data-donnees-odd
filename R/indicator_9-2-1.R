@@ -1,4 +1,6 @@
 # 9.2.1 ------------------------------------------------------------------
+# Manufacturing value added as a proportion of GDP and per capita
+
 library(cansim)
 library(dplyr)
 
@@ -43,7 +45,7 @@ data_final <-
       filter(!is.na(gdp)) %>% 
       transmute(
         Year = REF_DATE, 
-        Units = "Percentage (%)",
+        Series = "MVA as a proportion of GDP",
         Geography = GEO,
         Value = round(((mva*1000)/(gdp*1000000))*100, 2)
       ),
@@ -52,14 +54,14 @@ data_final <-
       filter(!is.na(pop)) %>% 
       transmute(
         Year = REF_DATE, 
-        Units = "Dollar",
+        Series = "MVA per capita",
         Geography = GEO,
         Value = round((mva*1000)/pop, 2)
       )
   ) %>% 
   left_join(geocodes) %>% 
   relocate(GeoCode, .before = "Value") %>% 
-  mutate(Geography = ifelse(Geography == "Canada", "", Geography))
+  mutate(Geography = ifelse(Geography == "Canada", NA, Geography))
 
 write.csv(
   data_final,
