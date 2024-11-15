@@ -1,35 +1,33 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and sustainable
-  industrialization and foster innovation</p>'
-SDG_TARGET: '<p>Target 9.1: Develop quality, reliable, sustainable and resilient infrastructure,
-  including regional and trans-border infrastructure, to support economic development
-  and human well-being, with a focus on affordable and equitable access for all</p>'
-SDG_INDICATOR: '<p>Indicator 9.1.1: Proportion of the rural population who live 
-  within 2 km of an all-season road</p>'
-STAT_CONC_DEF: '<p>The indicator (commonly known as the Rural Access Index or RAI) measures the 
-  share of a country’s rural population that lives within 2 km of an all-season road.</p>'
+SDG_GOAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET: >-
+  Target 9.1: Develop quality, reliable, sustainable and resilient infrastructure, including regional and trans-border infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all
+SDG_INDICATOR: >-
+  Indicator 9.1.1: Proportion of the rural population who live within 2 km of an all-season road
+STAT_CONC_DEF: >-
+  The indicator (commonly known as the Rural Access Index or RAI) measures the share of a country’s rural population that lives within 2 km of an all-season road.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'The aggregate totals were calculated based on the sum of values within the scope of analysis only (outside of population centres) using the Census of Population.'
+REC_USE_LIM: >-
+  The scope of analysis includes only the areas located outside of population centres. The provincial/territorial aggregate totals also include the population counts of the census subdivisions, for which individual count values were suppressed.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
-  sustainable industrialization and foster innovation</p>'
-SDG_TARGET__GLOBAL: '<p>Target 9.1: Develop quality, reliable, sustainable and resilient
-  infrastructure, including regional and trans-border infrastructure, to support economic
-  development and human well-being, with a focus on affordable and equitable access
-  for all</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 9.1.1: Proportion of the rural population who live 
-  within 2 km of an all-season road</p>'
+SDG_GOAL__GLOBAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET__GLOBAL: >-
+  Target 9.1: Develop quality, reliable, sustainable and resilient infrastructure, including regional and trans-border infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 9.1.1: Proportion of the rural population who live within 2 km of an all-season road
+
 un_designated_tier: Tier II
-un_custodian_agency: World Bank (WB)
+un_custodian_agency: World Bank
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-01-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistics Canada. Rural Access Index by geography.
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=2310031001
+source_url_text_1: Statistics Canada. Table 23-10-0310-01  Rural Access Index by geography
+source_url_1: https://doi.org/10.25318/2310031001-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada, Province or territory, Census subdivision

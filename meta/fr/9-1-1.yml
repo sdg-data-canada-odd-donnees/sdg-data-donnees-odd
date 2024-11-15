@@ -1,30 +1,23 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
-  durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET: '<p>Cible 9.1 : Mettre en place une infrastructure de qualité, fiable,
-  durable et résiliente, y compris une infrastructure régionale et transfrontière,
-  pour favoriser le développement économique et le bien-être de l''être humain, en
-  privilégiant un accès universel, financièrement abordable et équitable</p>'
-SDG_INDICATOR: '<p> Indicateur 9.1.1 :  Proportion de la population rurale vivant à moins de 
-  2 km d’une route praticable toute l’année</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: |
-  L'indice d'accès rural (IAR) est un pourcentage calculé en divisant la population rurale à 
-  moins de 2 kilomètres du réseau routier (avec accès) par la population rurale totale x 100.
-REC_USE_LIM: |
-  Source : Statistique Canada, Recensement de la population de 2021 (avec arrondissements). 
-  Les totaux agrégés ont été basés sur la somme des valeurs faisant partie du cadre de l'analyse 
-  uniquement (à l'extérieur des centres de population).
+SDG_GOAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET: >-
+  Cible 9.1 : Mettre en place une infrastructure de qualité, fiable, durable et résiliente, y compris une infrastructure régionale et transfrontière, pour favoriser le développement économique et le bien-être de l''être humain, en privilégiant un accès universel, financièrement abordable et équitable
+SDG_INDICATOR: >-
+  Indicateur 9.1.1 : Proportion de la population rurale vivant à moins de 2 km d’une route praticable toute l’année
+STAT_CONC_DEF: >-
+  L’indicateur (communément appelé Indice d’accès rural ou RAI) mesure la part de la population rurale d’un pays qui vit à moins de 2 km d’une route toutes saisons.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: >-
+  Le cadre d'analyse inclut uniquement les régions situées à l'extérieur des centres de population. Les totaux agrégés des provinces/territoires comprennent également les chiffres de population des subdivisions de recensement, pour lesquelles les valeurs individuelles ont été supprimées.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
-  une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 9.1 : Mettre en place une infrastructure de qualité,
-  fiable, durable et résiliente, y compris une infrastructure régionale et transfrontière,
-  pour favoriser le développement économique et le bien-être de l''être humain, en
-  privilégiant un accès universel, financièrement abordable et équitable</p>'
-SDG_INDICATOR__GLOBAL: '<p> Indicateur 9.1.1 :  Proportion de la population rurale vivant à moins de 
-  2 km d’une route praticable toute l’année</p>'
+SDG_GOAL__GLOBAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET__GLOBAL: >-
+  Cible 9.1 : Mettre en place une infrastructure de qualité, fiable, durable et résiliente, y compris une infrastructure régionale et transfrontière, pour favoriser le développement économique et le bien-être de l''être humain, en privilégiant un accès universel, financièrement abordable et équitable
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 9.1.1 :  Proportion de la population rurale vivant à moins de 2 km d’une route praticable toute l’année
 
 un_designated_tier: Niveau II
 un_custodian_agency: Banque Mondiale
@@ -33,9 +26,8 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistique Canada. Indice d'accès rural par géographie.
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/cv.action?pid=2310031001&request_locale=fr
+source_url_text_1: Statistique Canada. Tableau 23-10-0310-01  Indice d'accès rural par géographie
+source_url_1: https://doi.org/10.25318/2310031001-fra
 source_organisation_1: Statistique Canada
 source_periodicity_1: Occasionnelle
 source_geographical_coverage_1: Canada, Province ou territoire, Subdivision de recensement
