@@ -1,70 +1,61 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
-  durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET: '<p>Cible 9.1 : Mettre en place une infrastructure de qualité, fiable,
-  durable et résiliente, y compris une infrastructure régionale et transfrontière,
-  pour favoriser le développement économique et le bien-être de l''être humain, en
-  privilégiant un accès universel, financièrement abordable et équitable</p>'
-SDG_INDICATOR: '<p>Indicateur 9.1.2 :  Nombre de passagers et volume de fret transportés,
-  par mode de transport</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
+SDG_GOAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET: >-
+  Cible 9.1 : Mettre en place une infrastructure de qualité, fiable, durable et résiliente, y compris une infrastructure régionale et transfrontière, pour favoriser le développement économique et le bien-être de l'être humain, en privilégiant un accès universel, financièrement abordable et équitable
+SDG_INDICATOR: >-
+  Indicateur 9.1.2 :  Nombre de passagers et volume de fret transportés, par mode de transport
+STAT_CONC_DEF: >-
+  Cet indicateur mesure les volumes de passagers et de fret pour le transport aérien, ferroviaire et routier.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
-  une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 9.1 : Mettre en place une infrastructure de qualité,
-  fiable, durable et résiliente, y compris une infrastructure régionale et transfrontière,
-  pour favoriser le développement économique et le bien-être de l''être humain, en
-  privilégiant un accès universel, financièrement abordable et équitable</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.1.2 :  Nombre de passagers et volume de fret
-  transportés, par mode de transport</p>'
+SDG_GOAL__GLOBAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET__GLOBAL: >-
+  Cible 9.1 : Mettre en place une infrastructure de qualité, fiable, durable et résiliente, y compris une infrastructure régionale et transfrontière, pour favoriser le développement économique et le bien-être de l'être humain, en privilégiant un accès universel, financièrement abordable et équitable
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 9.1.2 :  Nombre de passagers et volume de fret transportés, par mode de transport
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation de l'aviation civile internationale (OACI), Forum international des transports (FIT)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-01-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistique Canada. Tableau 23-10-0253-01  Trafic aérien de passagers aux aéroports canadiens, annuel
+source_url_text_1: Statistique Canada. Tableau 23-10-0253-01  Trafic aérien de passagers aux aéroports canadiens, annuel
 source_url_1: https://doi.org/10.25318/2310025301-fra
 source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada, Province ou territoire
 
 source_active_2: 'true'
-source_url_text_2: |
-    Statistique Canada. Tableau 23-10-0254-01  Trafic aérien des marchandises aux aéroports canadiens, annuel
+source_url_text_2: Statistique Canada. Tableau 23-10-0254-01  Trafic aérien des marchandises aux aéroports canadiens, annuel
 source_url_2: https://doi.org/10.25318/2310025401-fra
 source_organisation_2: Statistique Canada
 source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada, Province ou territoire
 
 source_active_3: 'true'
-source_url_text_3: |
-    Statistique Canada. Tableau 23-10-0057-01  Sommaire des statistiques sur le transport de marchandises et de voyageurs de l'industrie ferroviaire
+source_url_text_3: Statistique Canada. Tableau 23-10-0057-01  Sommaire des statistiques sur le transport de marchandises et de voyageurs de l'industrie ferroviaire
 source_url_3: https://doi.org/10.25318/2310005701-fra
 source_organisation_3: Statistique Canada
 source_periodicity_3: Annuelle
 source_geographical_coverage_3: Canada
 
 source_active_4: 'true'
-source_url_text_4: |
-    Statistique Canada. Tableau 23-10-0062-01  Origine et destination des marchandises transportées par l'industrie ferroviaire
+source_url_text_4: Statistique Canada. Tableau 23-10-0062-01  Origine et destination des marchandises transportées par l'industrie ferroviaire
 source_url_4: https://doi.org/10.25318/2310006201-fra
 source_organisation_4: Statistique Canada
 source_periodicity_4: Annuelle
 source_geographical_coverage_4: Région géographique du Canada, Province ou territoire
 
 source_active_5: 'true'
-source_url_text_5: |
-    Statistique Canada. Tableau 23-10-0219-01  Activités de l'industrie du camionnage
+source_url_text_5: Statistique Canada. Tableau 23-10-0219-01  Activités de l'industrie du camionnage
 source_url_5: https://doi.org/10.25318/2310021901-fra
 source_organisation_5: Statistique Canada
 source_periodicity_5: Annuelle
 source_geographical_coverage_5: Canada
-
-un_designated_tier: Niveau I
-un_custodian_agency: Organisation de l'aviation civile internationale
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-01-02.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
  
