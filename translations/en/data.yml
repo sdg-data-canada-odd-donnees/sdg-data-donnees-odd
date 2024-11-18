@@ -59,13 +59,16 @@ Sex: Sex
 Men: Men
 Male: Male
 Males: Males
+Men+: Men+
 Women: Women
 Female: Female
 Females: Females
+Women+: Women+
 Both: Both
 Both sexes: Both sexes
 Gender: Gender
 All genders: All genders
+Total, all persons: Total, all persons
 
 ## Geo
 Geography: Geography
@@ -84,8 +87,8 @@ Ontario: Ontario
 Ontario Region: Ontario Region
 Prairies: Prairies
 Prairie provinces: Prairie provinces
-Prairies Region: Prairies Region
 Prairie Region: Prairie Region
+Prairies Region: Prairies Region
 Manitoba: Manitoba
 Saskatchewan: Saskatchewan
 Alberta: Alberta
@@ -873,11 +876,17 @@ Separated, divorced, or widowed: Separated, divorced, or widowed
 Single, never married: Single, never married
 
 ## 5-3-1
+Marital status: Marital status
+Married or living common law: Married or living common law
+Married: Married
+Living common law: Living common law
+
+## 5-4-1
 Activity group: Activity group
-Unpaid work activities: Unpaid work activities
-Household chores: Household chores
-Care of household children under 18 years: Care of household children under 18 years
-Care of household adults: Care of household adults
+Total, unpaid work activities: Total, unpaid work activities
+Unpaid household work: Unpaid household work
+Care of children under 18 years: Care of children under 18 years
+Care of adults: Care of adults
 Shopping for goods or services: Shopping for goods or services
 
 ## 5-5-1

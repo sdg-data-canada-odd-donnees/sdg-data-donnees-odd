@@ -1,32 +1,42 @@
+# National
 SDG_GOAL: 'Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles'
 SDG_TARGET: 'Cible 5.4 : Prendre en compte et valoriser les soins et travaux domestiques non rémunérés, par la mise en place de services publics, d’infrastructures et de politiques de protection sociale et par la promotion du partage des responsabilités dans le ménage et la famille, en fonction du contexte national'
 SDG_INDICATOR: 'Indicateur 5.4.1 : Proportion du temps consacré à des soins et travaux domestiques non rémunérés, par sexe, âge et lieu de résidence'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: >-
+  Cet indicateur est défini comme la proportion de temps passé dans une journée à faire du travail domestique et prodiguer des soins de façon non rémunérée par les hommes et les femmes. Le travail domestique et les soins non rémunérés font référence aux activités liées à la fourniture de services pour l’usage final par des membres du ménage ou par des membres de la famille vivant dans d’autres ménages. Ces activités sont répertoriées dans la Classification internationale des activités à prendre en compte dans les statistiques du budget-temps (ICATUS 2016) sous les principales divisions « 3. Services domestiques non rémunérés aux membres du ménage et de la famille » et « 4. Services de soins non rémunérés aux membres du ménage et de la famille ».
+  <br><br>
+  La moyenne de temps consacré à une activité est une moyenne quotidienne basée sur les sept jours de la semaine.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: >-
+  Exclut la population des territoires et les personnes institutionalisées.
+  <br><br>
+  Étant donné que la taille de la population non binaire est petite, il est parfois nécessaire d’agréger les données dans une variable sur le genre à deux catégories pour protéger la confidentialité des réponses fournies. Dans ces cas, les personnes dans la catégorie « personnes non binaires » sont réparties dans les deux autres catégories de genre et sont désignées par le signe +.
+  <br><br>
+  La variable « sexe » dans l’Enquête sur l’emploi du temps de 2015 et la variable sur le genre à deux catégories dans l’Enquête sur l’emploi du temps de 2022 sont incluses ensemble dans cet indicateur. Bien que le sexe et le genre soient deux concepts différents, l’introduction du genre ne devrait pas avoir d’incidence importante sur l’analyse de données et la comparabilité historique, étant donné la petite taille des populations transgenre et non binaire. Pour obtenir de plus amples renseignements sur les changements dans les concepts au fil du temps, veuillez consulter le Guide de référence sur l’âge, le sexe à la naissance et le genre.
+  <br><br>
+  La collecte de l'Enquête sur l'emploi du temps de 2022 avait deux modes de collecte : par téléphone et par Internet. Cette approche répondait à la nécessité de s’adapter aux changements dans l’utilisation des technologies et aux contraintes de temps des répondants. Toute modification importante apportée à la méthodologie de l’enquête peut avoir une incidence sur la comparabilité des données au fil du temps. Il est impossible de déterminer avec certitude si, et dans quelle mesure, les différences concernant une variable sont attribuables à un changement réel dans la population ou à des changements dans la méthodologie d’enquête. Il y a cependant des raisons de croire que l’utilisation du questionnaire électronique pourrait avoir eu une incidence sur les estimations. Par conséquent, la comparaison entre l'Enquête sur l'emploi du temps de 2022 et les cycles précédents en ce qui concerne les résultats des activités de travail et des soins non-rémunérés, doit être faite avec prudence. Ce produit de visualisation ne fournit pas une comparaison entre les années pour les données désagrégées.
+
+# Global
 SDG_GOAL__GLOBAL: 'Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles'
 SDG_TARGET__GLOBAL: 'Cible 5.4 : Prendre en compte et valoriser les soins et travaux domestiques non rémunérés, par la mise en place de services publics, d’infrastructures et de politiques de protection sociale et par la promotion du partage des responsabilités dans le ménage et la famille, en fonction du contexte national'
 SDG_INDICATOR__GLOBAL: 'Indicateur 5.4.1 : Proportion du temps consacré à des soins et travaux domestiques non rémunérés, par sexe, âge et lieu de résidence'
 
+un_designated_tier: Niveau II
+un_custodian_agency: Division de statistique de l’ONU, Entité des Nations Unies pour l’égalité des sexes et l’autonomisation des femmes (ONU Femmes)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-04-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: Statistique Canada. Table 45-10-0014-01  Daily average time spent
-  in hours on various activities by age group and sex, 15 years and over, Canada and
-  provinces
+source_url_text_1: Statistique Canada. Tableau 45-10-0014-01  Temps moyen consacré par jour à diverses activités par groupe d'âge et sexe, 2015, inactif
 source_organisation_1: Statistique Canada
-source_periodicity_1: Occasional
+source_periodicity_1:  Occasionnelle
 source_geographical_coverage_1: Canada, Région géographique du Canada, Province ou territoire
-source_url_1: https://doi.org/10.25318/4510001401-fra
-reporting_status: complete
- 
+source_url_1: https://doi.org/10.25318/4510001401-fra 
 
 source_active_2: 'true'
-source_url_text_2: Statistique Canada. Moyenne de temps consacré en heures par jour à diverses activités par groupe d'âge et sexe, 15 ans et plus, Canada et provinces
+source_url_text_2: Statistique Canada. Tableau 45-10-0104-01  Temps moyen consacré par jour à diverses activités, par groupe d'âge et le genre, 2022
 source_organisation_2: Statistique Canada
 source_periodicity_2: Occasionnelle
 source_geographical_coverage_2: Canada, Région géographique du Canada, Province ou territoire
-source_url_2: https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=4510001401
-
-un_designated_tier: Niveau I
-un_custodian_agency: ONU Femmes, Union Interparlementaire (UIP)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-04-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+source_url_2: https://doi.org/10.25318/4510010401-fra
