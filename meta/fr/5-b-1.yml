@@ -1,27 +1,41 @@
-SDG_GOAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles</p>'
-SDG_TARGET: '<p>Cible 5.b : Renforcer l’utilisation des technologies clefs, en particulier de l’informatique 
-  et des communications, pour favoriser l’autonomisation des femmes</p>'
-SDG_INDICATOR: '<p>Indicateur 5.b.1 : Proportion de la population possédant un téléphone portable, par sexe</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: 'À partir de l’année de référence 2017, l’Enquête sur les dépenses des ménages est menée à tous les deux ans.'
-SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 5.b : Renforcer l’utilisation des technologies clefs, en particulier de l’informatique 
-  et des communications, pour favoriser l’autonomisation des femmes</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.b.1 : Proportion de la population possédant un téléphone portable, par sexe</p>'
+# National
+SDG_GOAL: >-
+  Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles
+SDG_TARGET: >-
+  Cible 5.b : Renforcer l’utilisation des technologies clefs, en particulier de l’informatique et des communications, pour favoriser l’autonomisation des femmes
+SDG_INDICATOR: >-
+  Indicateur 5.b.1 : Proportion de ménages qui possèdent un téléphone mobile
+STAT_CONC_DEF: >-
+  <strong>Définition :</strong><br>
+  Cet indicateur mesure la proportion de ménages qui possèdent un téléphone mobile.
+  <br><br>
+  <strong>Concepts :</strong><br>
+  Une personne possède un téléphone cellulaire mobile si elle possède un appareil de téléphonie cellulaire mobile avec au moins une carte SIM active pour un usage personnel. Les téléphones cellulaires mobiles fournis par les employeurs qui peuvent être utilisés à des fins personnelles (pour passer des appels personnels, accéder à Internet, etc.) sont inclus. Les personnes qui n’ont qu’une ou plusieurs cartes SIM actives et n'ont pas un appareil de téléphonie mobile sont exclues. Les personnes qui ont un téléphone portable pour un usage personnel qui n’est pas enregistré sous leur nom sont également incluses. Une carte SIM active est une carte SIM qui a été utilisée au cours des trois derniers mois.
+  <br><br>
+  Un téléphone mobile (cellulaire) fait référence à un téléphone portable qui souscrit à un service public de téléphonie mobile à l’aide de la technologie cellulaire, qui donne accès au Réseau téléphonique commuté public (RTCP). Cela comprend les systèmes et technologies cellulaires analogiques et numériques tels que IMT-2000 (3G) et IMT-Advanced. Les utilisateurs d’abonnements postpayés et de comptes prépayés sont inclus.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: >-
+  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : « Proportion de la population possédant un téléphone portable, par sexe ». Cet indicateur mesure la proportion de ménages disposant d'un téléphone mobile plutôt que la proportion d'individus possédant un téléphone mobile, comme le précisent les métadonnées.
+  <br><br>
+  À partir de l'année de référence 2017, l'enquête sur les dépenses des ménages est réalisée tous les deux ans.
 
-reporting_status: complete
- 
- 
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles
+SDG_TARGET__GLOBAL: >-
+  Cible 5.b : Renforcer l’utilisation des technologies clefs, en particulier de l’informatique et des communications, pour favoriser l’autonomisation des femmes
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 5.b.1 : Proportion de la population possédant un téléphone portable, par sexe
 
+un_designated_tier: Niveau II
+un_custodian_agency: Union internationale des télécommunications (UIT)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-0b-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Tableau 11-10-0228-01  Caractéristiques du logement et équipement ménager au moment de l’entrevue, Canada, régions et provinces
 source_organisation_1: Statistique Canada
 source_periodicity_1: Aux 2 ans
 source_geographical_coverage_1: Canada, Région géographique du Canada, Province ou territoire
 source_url_1: https://doi.org/10.25318/1110022801-fra
-
-un_designated_tier: Niveau II
-un_custodian_agency: l'Union internationale des télécommunications (UIT)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-0b-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

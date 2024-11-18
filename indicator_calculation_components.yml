@@ -825,7 +825,15 @@
 5-3-2:
   progress_status: not_available
 5-4-1:
-  progress_status: not_available
+  base_value: '12.5'
+  base_year: '2015'
+  current_value: '13.3'
+  current_year: '2022'
+  direction: None
+  progress_calculation_value: '-0.008901584247234418'
+  progress_status: deterioration
+  target: None
+  target_year: '2030'
 5-5-1:
   progress_status: not_available
 5-5-2:

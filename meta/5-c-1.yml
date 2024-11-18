@@ -1,30 +1,31 @@
-SDG_GOAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
-SDG_TARGET: '<p>Target 5.c: Adopt and strengthen sound policies and enforceable legislation
-  for the promotion of gender equality and the empowerment of all women and girls
-  at all levels</p>'
-SDG_INDICATOR: "Indicator 5.c.1: Does Canada have a system to track and make public allocations for gender equality and women's empowerment"
+# National
+SDG_GOAL: >-
+  Goal 5: Achieve gender equality and empower all women and girls
+SDG_TARGET: >-
+  Target 5.c: Adopt and strengthen sound policies and enforceable legislation for the promotion of gender equality and the empowerment of all women and girls at all levels
+SDG_INDICATOR: >-
+  Indicator 5.c.1: Canada's systems to track and make public allocations for gender equality and women’s empowerment
 STAT_CONC_DEF: "This indicator reports on whether Canada has a system to track and make public allocations for gender equality and women's empowerment."
 DATA_COMP: '     '
-REC_USE_LIM: '<p>This is a proxy indicator. The UN Global indicator states: "Percentage of countries with systems to track and make public allocations for gender equality and women&#x2019;s empowerment"</p>'
-SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
-SDG_TARGET__GLOBAL: '<p>Target 5.c: Adopt and strengthen sound policies and enforceable
-  legislation for the promotion of gender equality and the empowerment of all women
-  and girls at all levels</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 5.c.1: Percentage of countries with systems to
-  track and make public allocations for gender equality and women&#x2019;s empowerment</p>'
+REC_USE_LIM: >-
+  This is a proxy indicator. The UN Global indicator states: "Percentage of countries with systems to track and make public allocations for gender equality and women&#x2019;s empowerment".
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 5: Achieve gender equality and empower all women and girls
+SDG_TARGET__GLOBAL: >-
+  Target 5.c: Adopt and strengthen sound policies and enforceable legislation for the promotion of gender equality and the empowerment of all women and girls at all levels
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 5.c.1: Percentage of countries with systems to track and make public allocations for gender equality and women’s empowerment
+
 un_designated_tier: Tier II
-un_custodian_agency: UN Women, Organisation for Economic Co-operation and Development
-  (OECD)
+un_custodian_agency: United Nations Entity for Gender Equality and the Empowerment of Women (UN Women), Organisation for Economic Co-operation and Development (OECD), United Nations Development Programme (UNDP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-0c-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
-reporting_status: complete
-
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: The Government of Canada's Gender Results Framework
+source_url_text_1: Gender Results Framework
 source_url_1: https://women-gender-equality.canada.ca/en/gender-results-framework.html
 source_organisation_1: Women and Gender Equality Canada
 source_geographical_coverage_1: Canada
-
-proxy: proxy
