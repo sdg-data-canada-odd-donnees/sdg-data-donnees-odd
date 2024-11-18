@@ -1,39 +1,36 @@
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
-  durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET: '<p>Cible 9.a : Faciliter la mise en place d’une infrastructure durable
-  et résiliente dans les pays en développement en renforçant l’appui financier, technologique
-  et technique apporté aux pays d’Afrique, aux pays les moins avancés, aux pays en
-  développement sans littoral et aux petits États insulaires en développement</p>'
-SDG_INDICATOR: '<p>Indicateur 9.a.1 : Montant total de l’aide publique internationale
-  (aide publique au développement et autres apports du secteur public) alloué aux
-  infrastructures</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '<p>Les données du Système de notification des pays créanciers sont disponibles
-  à partir de 1973. Toutefois, la couverture des données est considérée comme achevée depuis 
-  1995 pour les engagements au niveau des activités et 2002 pour les décaissements.</p>'
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
-  une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 9.a : Faciliter la mise en place d’une infrastructure
-  durable et résiliente dans les pays en développement en renforçant l’appui financier,
-  technologique et technique apporté aux pays d’Afrique, aux pays les moins avancés,
-  aux pays en développement sans littoral et aux petits États insulaires en développement</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.a.1 : Montant total de l’aide publique internationale
-  (aide publique au développement et autres apports du secteur public) alloué aux
-  infrastructures</p>'
+# National
+SDG_GOAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET: >-
+  Cible 9.a : Faciliter la mise en place d’une infrastructure durable et résiliente dans les pays en développement en renforçant l’appui financier, technologique et technique apporté aux pays d’Afrique, aux pays les moins avancés, aux pays en développement sans littoral et aux petits États insulaires en développement
+SDG_INDICATOR: >-
+  Indicateur 9.a.1 : Montant total de l’aide publique internationale (aide publique au développement et autres apports du secteur public) alloué aux infrastructures
+STAT_CONC_DEF: >-
+  Décaissements bruts de l’aide publique au développement (APD) totale et des autres apports du secteur public (AASP) du Canada vers l'infrastructure des pays en développement.
+DATA_COMP: >-
+  La somme totale des décaissements bruts d'APD et d'AASP vers les pays en développement pour l'infrastructure (codes SNPC 200).
+  <br><br>
+  Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
+REC_USE_LIM: '   '
 
-reporting_status: complete
-
-source_active_1: 'true'
-source_url_text_1: OCDE. Système de notification des pays créanciers (SNPC).
-source_url_1: https://stats.oecd.org/Index.aspx?lang=fr&SubSessionId=111532ff-5f59-4eb4-95a4-1add8fd27ed6&themetreeid=3
-source_organisation_1: OCDE
-source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET__GLOBAL: >-
+  Cible 9.a : Faciliter la mise en place d’une infrastructure durable et résiliente dans les pays en développement en renforçant l’appui financier, technologique et technique apporté aux pays d’Afrique, aux pays les moins avancés, aux pays en développement sans littoral et aux petits États insulaires en développement
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 9.a.1 : Montant total de l’aide publique internationale (aide publique au développement et autres apports du secteur public) alloué aux infrastructures
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation de coopération et de développement économiques (OCDE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-0A-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: 'SNPC: Système de notification des pays créanciers (flux)'
+source_url_1: https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=19&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.1&dq=CAN.DPGC.200.14%2B100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&ly[cl]=TIME_PERIOD&ly[rw]=MEASURE&vw=tb&lc=fr
+source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
  
