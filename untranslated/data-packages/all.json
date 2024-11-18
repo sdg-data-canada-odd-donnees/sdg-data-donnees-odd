@@ -6608,6 +6608,17 @@
             "type": "integer"
           },
           {
+            "name": "Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Official Development Assistance",
+                "Other Official Flows (non Export Credit)",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

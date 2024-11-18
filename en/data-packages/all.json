@@ -7133,6 +7133,18 @@
             "title": "Year"
           },
           {
+            "name": "Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Official Development Assistance",
+                "Other Official Flows (non Export Credit)",
+                ""
+              ]
+            },
+            "title": "Measure"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

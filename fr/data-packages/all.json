@@ -499,7 +499,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Total, Organisation for Economic Co-operation and Development (OECD)",
+                "Total, Organisation de coopération et de développement économiques (OCDE)",
                 ""
               ]
             },
@@ -3318,7 +3318,7 @@
                 ""
               ]
             },
-            "title": "Tranches d'effectif\n"
+            "title": "Tranches d'effectif"
           },
           {
             "name": "Geography",
@@ -3326,8 +3326,8 @@
             "constraints": {
               "enum": [
                 "Région de l'Atlantique",
-                "Région de Québec\n",
-                "Région de l'Ontario\n",
+                "Région de Québec",
+                "Région de l'Ontario",
                 "Région des Prairies",
                 "Région de la Colombie-Britannique et des Territoires",
                 ""
@@ -3346,11 +3346,11 @@
                 "Commerce de détail (SCIAN 44-45)",
                 "Transport et entreposage (SCIAN 48-49)",
                 "Services professionnels, scientifiques et techniques (SCIAN 54)",
-                "Services d'hébergement et de restauration (SCIAN 72)\n",
+                "Services d'hébergement et de restauration (SCIAN 72)",
                 "Autres services (SCIAN 81)",
                 "Autres industries du Système de Classification des Industries de l'Amérique du Nord (SCIAN)",
                 "Tourisme",
-                "Technologies de l’information et des communications (TIC)\n",
+                "Technologies de l’information et des communications (TIC)",
                 "Industries fondées sur le savoir (IFS)",
                 "Technologie de pointe",
                 "Fabrication de pointe",
@@ -3386,7 +3386,7 @@
                 ""
               ]
             },
-            "title": "Information démographique, l’entreprise est majoritairement détenue\n"
+            "title": "Information démographique, l’entreprise est majoritairement détenue"
           },
           {
             "name": "Value",
@@ -4932,7 +4932,7 @@
                 "Manitoba",
                 "Nouveau-Brunswick",
                 "Terre-Neuve-et-Labrador",
-                "Northern Territories",
+                "Territories du Nord",
                 "Territoires du Nord-Ouest",
                 "Nouvelle-Écosse",
                 "Nunavut",
@@ -7133,6 +7133,18 @@
             "title": "Année"
           },
           {
+            "name": "Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Aide publique au développement",
+                "Autres apports du secteur public (autre que crédits à l'exportation)",
+                ""
+              ]
+            },
+            "title": "Mesure"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -8123,7 +8135,7 @@
             "constraints": {
               "enum": [
                 "Pourcentage (%)",
-                "Current dollars",
+                "Dollars courants",
                 ""
               ]
             },
