@@ -46,6 +46,7 @@ data_final <-
       transmute(
         Year = REF_DATE, 
         Series = "MVA as a proportion of GDP",
+        Units = "Percentage (%)",
         Geography = GEO,
         Value = round(((mva*1000)/(gdp*1000000))*100, 2)
       ),
@@ -55,6 +56,7 @@ data_final <-
       transmute(
         Year = REF_DATE, 
         Series = "MVA per capita",
+        Units = "Current dollars",
         Geography = GEO,
         Value = round((mva*1000)/pop, 2)
       )
