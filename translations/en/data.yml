@@ -30,6 +30,7 @@ Rate per 1,000,000: Rate per 1,000,000
 Rate per 1,000 population: Rate per 1,000 population
 Rate per 100,000 population: Rate per 100,000 population
 Index: Index
+Current dollars: Current dollars
 Canadian dollars ($): Canadian dollars ($)
 Canadian dollars: Canadian dollars
 CAD (Thousands): CAD (Thousands)
@@ -46,6 +47,9 @@ Water supply and sanitation: Water supply and sanitation
 Multisector aid for basic social services: Multisector aid for basic social services
 Development food assistance: Development food assistance
 Agricultural water resources: Agricultural water resources
+Measure: Measure
+Official Development Assistance: Official Development Assistance
+Other Official Flows (non Export Credit): Other Official Flows (non Export Credit)
 Flow type: Flow type
 Disbursements: Disbursements
 Commitments: Commitments
@@ -78,7 +82,9 @@ Prince Edward Island: Prince Edward Island
 Nova Scotia: Nova Scotia
 New Brunswick: New Brunswick
 Quebec: Quebec
+Quebec Region: Quebec Region
 Ontario: Ontario
+Ontario Region: Ontario Region
 Prairies: Prairies
 Prairie provinces: Prairie provinces
 Prairie Region: Prairie Region
@@ -88,7 +94,9 @@ Saskatchewan: Saskatchewan
 Alberta: Alberta
 British Columbia: British Columbia
 British Columbia and the Territories: British Columbia and the Territories
+British Columbia and Territories Region: British Columbia and Territories Region
 Territories: Territories
+Northern Territories: Northern Territories
 Yukon: Yukon
 Northwest Territories: Northwest Territories
 Northwest Territories and Nunavut: Northwest Territories and Nunavut
@@ -424,9 +432,7 @@ Agriculture value added share of GDP: Agriculture value added share of GDP
 Agriculture share of Government Expenditure: Agriculture share of Government Expenditure
 
 ## 2-a-2
-Measure: Measure
-Official Development Assistance: Official Development Assistance
-Other Official Flows (non Export Credit): Other Official Flows (non Export Credit)
+## nothing new
 
 ## 2-b-1
 Butter: Butter
@@ -1140,11 +1146,6 @@ Employment size: Employment size
 5 to 19 employees: 5 to 19 employees
 20 to 99 employees: 20 to 99 employees
 100 to 499 employees: 100 to 499 employees
-Atlantic Region: Atlantic Region
-Quebec Region: Quebec Region
-Ontario Region: Ontario Region
-Prairies Region: Prairies Region
-British Columbia and Territories Region: British Columbia and Territories Region
 Industries: Industries
 Construction (NAICS 23): Construction (NAICS 23)
 Manufacturing (NAICS 31-33): Manufacturing (NAICS 31-33)
@@ -1167,7 +1168,6 @@ Younger than 30 years old: Younger than 30 years old
 50 to 64 years old: 50 to 64 years old
 65 years old and older: 65 years old and older
 Ownership demographics: Ownership demographics
-Women: Women
 Indigenous: Indigenous
 Person(s) with a disability: Person(s) with a disability
 Overall approval rate, line of credit: Overall approval rate, line of credit
@@ -1175,6 +1175,10 @@ Overall approval rate, term loan: Overall approval rate, term loan
 Request rate, line of credit: Request rate, line of credit
 Request rate, term loan: Request rate, term loan
 Small and medium enterprises: Small and medium enterprises
+Proportion of small-scale industries requesting a line of credit: Proportion of small-scale industries requesting a line of credit
+Proportion of small-scale industries requesting a term loan: Proportion of small-scale industries requesting a term loan
+Proportion of small-scale industries approved for a line of credit: Proportion of small-scale industries approved for a line of credit
+Proportion of small-scale industries approved for a term loan: Proportion of small-scale industries approved for a term loan
 
 ## 9-4-1
 Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP: Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP
@@ -1186,6 +1190,7 @@ Total sciences: Total sciences
 Natural sciences and engineering: Natural sciences and engineering
 Social sciences, humanities and the arts: Social sciences, humanities and the arts
 Science type: Science type
+Total, Organisation for Economic Co-operation and Development (OECD): Total, Organisation for Economic Co-operation and Development (OECD)
 
 ## 9-7-1
 Type of charging stations: Type of charging stations

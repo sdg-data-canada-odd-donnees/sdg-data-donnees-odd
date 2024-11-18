@@ -1,39 +1,35 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
-  durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET: '<p>Cible 9.b : Soutenir les activités de recherche-développement et d’innovation
-  des pays en développement dans le secteur technologique, notamment en instaurant
-  des conditions propices, entre autres, à la diversification industrielle et à l’ajout
-  de valeur aux marchandises</p>'
-SDG_INDICATOR: '<p>Indicateur 9.b.1 : Proportion dans la valeur ajoutée totale de
-  la valeur ajoutée des secteurs de moyenne et haute technologie</p>'
-STAT_CONC_DEF: '    '
-DATA_COMP: |
-    La valeur ajoutée manufacturière est égale à la <i>production</i> moins la <i>consommation</i>, où la production est = (revenus des biens fabriqués + (stocks de fermeture, biens en cours de fabrication ou travaux en cours + stocks de fermeture, produits finis fabriqués) - (stocks d'ouverture, biens en cours de fabrication ou travaux en cours + stocks d'ouverture, produits finis fabriqués)). La consommation est calculée comme suit : (stocks d'ouverture, matières premières + coût des matières et fournitures + coût total d'énergie, d'approvisionnement en eau et de carburant pour véhicules - stocks de fermeture, matières premières).
-REC_USE_LIM: '   '
+SDG_GOAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET: >-
+  Cible 9.b : Soutenir les activités de recherche-développement et d’innovation des pays en développement dans le secteur technologique, notamment en instaurant des conditions propices, entre autres, à la diversification industrielle et à l’ajout de valeur aux marchandises
+SDG_INDICATOR: >-
+  Indicateur 9.b.1 : Proportion dans la valeur ajoutée totale de la valeur ajoutée des secteurs de moyenne et haute technologie
+STAT_CONC_DEF: >-
+  La proportion de la valeur ajoutée de l'industrie de moyenne-haute et haute technologie (MHT ci-après) dans la valeur ajoutée totale de l'industrie manufacturière (MVA ci-après) est une valeur de rapport entre la valeur ajoutée de l'industrie MHT et la MVA.
+DATA_COMP: >-
+  Proportion de la valeur ajoutée des industries de moyenne et haute technologie dans la valeur ajoutée totale = (Valeur ajoutée manufacturière (VAM) des industries de moyenne et haute technologie (SCIAN 325, 333, 334, 335, 336, 3391) / (VAM des industries manufacturières ( SCIAN 31-33)) × 100
+REC_USE_LIM: >-
+  Les estimations pour l'année la plus récente sont des résultats provisoires, susceptibles d'être révisées.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
-  une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 9.b : Soutenir les activités de recherche-développement
-  et d’innovation des pays en développement dans le secteur technologique, notamment
-  en instaurant des conditions propices, entre autres, à la diversification industrielle
-  et à l’ajout de valeur aux marchandises</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.b.1 : Proportion dans la valeur ajoutée totale
-  de la valeur ajoutée des secteurs de moyenne et haute technologie</p>'
-
-# SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: |
-    Statistique Canada. Tableau 16-10-0117-01  Statistiques principales pour les industries manufacturières, selon le Système de classification des industries de l'Amérique du Nord (SCIAN) (x 1 000)
-source_url_1: https://doi.org/10.25318/1610011701-fra
-source_organisation_1: Statistique Canada
-source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada, Région géographique du Canada, Province ou territoire
+SDG_GOAL__GLOBAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET__GLOBAL: >-
+  Cible 9.b : Soutenir les activités de recherche-développement et d’innovation des pays en développement dans le secteur technologique, notamment en instaurant des conditions propices, entre autres, à la diversification industrielle et àl’ajout de valeur aux marchandises
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 9.b.1 : Proportion dans la valeur ajoutée totale de la valeur ajoutée des secteurs de moyenne et haute technologie
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation des Nations Unies pour le développement industriel (ONUDI)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-0B-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Tableau 16-10-0117-01  Statistiques principales pour les industries manufacturières, selon le Système de classification des industries de l'Amérique du Nord (SCIAN) (x 1 000)
+source_url_1: https://doi.org/10.25318/1610011701-fra
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Région géographique du Canada, Province ou territoire
  

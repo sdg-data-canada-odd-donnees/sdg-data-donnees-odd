@@ -1,25 +1,25 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and sustainable
-  industrialization and foster innovation</p>'
-SDG_TARGET: '<p>Target 9.b: Support domestic technology development, research and
-  innovation in developing countries, including by ensuring a conducive policy environment
-  for, inter alia, industrial diversification and value addition to commodities</p>'
-SDG_INDICATOR: '<p>Indicator 9.b.1: Proportion of medium and high-tech industry value
-  added in total value added</p>'
-STAT_CONC_DEF: 'The proportion of medium-high and high-tech industry (MHT hereafter) value added in total value added 
-  of manufacturing (MVA hereafter) is a ratio value between the value added of MHT industry and MVA.'
-DATA_COMP: |
-    Proportion of medium and high-tech industry value added in total value added = (Manufacturing value added (MVA) of medium and high-tech industries (NAICS 325, 333, 334, 335, 336, 3391) / (MVA of Manufacturing industries (NAICS 31-33)) x 100
-REC_USE_LIM: '   '
+SDG_GOAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET: >-
+  Target 9.b: Support domestic technology development, research and innovation in developing countries, including by ensuring a conducive policy environment for, inter alia, industrial diversification and value addition to commodities
+SDG_INDICATOR: >-
+  Indicator 9.b.1: Proportion of medium and high-tech industry value added in total value added
+STAT_CONC_DEF: >-
+  The proportion of medium-high and high-tech industry (MHT hereafter) value added in total value added of manufacturing (MVA hereafter) is a ratio value between the value added of MHT industry and MVA.
+DATA_COMP: >-
+  Proportion of medium and high-tech industry value added in total value added = (Manufacturing value added (MVA) of medium and high-tech industries (NAICS 325, 333, 334, 335, 336, 3391) / (MVA of Manufacturing industries (NAICS 31-33)) × 100
+REC_USE_LIM: >-
+  Estimates for the most recent year are preliminary, subject to revision.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
-  sustainable industrialization and foster innovation</p>'
-SDG_TARGET__GLOBAL: '<p>Target 9.b: Support domestic technology development, research
-  and innovation in developing countries, including by ensuring a conducive policy
-  environment for, inter alia, industrial diversification and value addition to commodities</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 9.b.1: Proportion of medium and high-tech industry
-  value added in total value added</p>'
+SDG_GOAL__GLOBAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET__GLOBAL: >-
+  Target 9.b: Support domestic technology development, research and innovation in developing countries, including by ensuring a conducive policy environment for, inter alia, industrial diversification and value addition to commodities
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 9.b.1: Proportion of medium and high-tech industry value added in total value added
+
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Industrial Development Organization (UNIDO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-0B-01.pdf
@@ -27,8 +27,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
   
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistics Canada. Table 16-10-0117-01  Principal statistics for manufacturing industries, by North American Industry Classification System (NAICS) (x 1,000)
+source_url_text_1: Statistics Canada. Table 16-10-0117-01  Principal statistics for manufacturing industries, by North American Industry Classification System (NAICS) (x 1,000)
 source_url_1: https://doi.org/10.25318/1610011701-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual

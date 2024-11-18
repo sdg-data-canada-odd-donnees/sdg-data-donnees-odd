@@ -1,27 +1,31 @@
-SDG_GOAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and sustainable
-  industrialization and foster innovation</p>'
-SDG_TARGET: '<p>Target 9.c: Significantly increase access to information and communications
-  technology and strive to provide universal and affordable access to the Internet
-  in least developed countries by 2020</p>'
-SDG_INDICATOR: '<p>Indicator 9.c.1: Proportion of population covered by a mobile network,
-  by technology</p>'
-STAT_CONC_DEF: Proportion of population covered by a mobile network, broken down by technology, refers to the percentage of inhabitants living within range of a mobile-cellular signal, irrespective of whether or not they are mobile phone subscribers or users.
+# National
+SDG_GOAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET: >-
+  Target 9.c: Significantly increase access to information and communications technology and strive to provide universal and affordable access to the Internet in least developed countries by 2020
+SDG_INDICATOR: >-
+  Indicator 9.c.1: Proportion of population covered by a mobile network, by technology
+STAT_CONC_DEF: >-
+  Proportion of population covered by a mobile network, broken down by technology, refers to the percentage of inhabitants living within range of a mobile-cellular signal, irrespective of whether or not they are mobile phone subscribers or users.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
-  sustainable industrialization and foster innovation</p>'
-SDG_TARGET__GLOBAL: '<p>Target 9.c: Significantly increase access to information and
-  communications technology and strive to provide universal and affordable access
-  to the Internet in least developed countries by 2020</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 9.c.1: Proportion of population covered by a
-  mobile network, by technology</p>'
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET__GLOBAL: >-
+  Target 9.c: Significantly increase access to information and communications technology and strive to provide universal and affordable access to the Internet in least developed countries by 2020
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 9.c.1: Proportion of population covered by a mobile network, by technology
+
 un_designated_tier: Tier I
 un_custodian_agency: International Telecommunication Union (ITU)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-0C-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: Current trends - Mobile wireless
+source_url_text_1: Canadian Radio-television and Telecommunications Commission. Current trends - Mobile wireless
 source_url_1: https://crtc.gc.ca/eng/publications/reports/PolicyMonitoring/mob.htm
 source_organisation_1: Canadian Radio-television and Telecommunications Commission (CRTC)
 source_geographical_coverage_1: Canada

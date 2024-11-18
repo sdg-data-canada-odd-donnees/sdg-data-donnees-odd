@@ -1,41 +1,37 @@
-SDG_GOAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and sustainable
-  industrialization and foster innovation</p>'
-SDG_TARGET: '<p>Target 9.5: Enhance scientific research, upgrade the technological
-  capabilities of industrial sectors in all countries, in particular developing countries,
-  including, by 2030, encouraging innovation and substantially increasing the number
-  of research and development workers per 1 million people and public and private
-  research and development spending</p>'
-SDG_INDICATOR: '<p>Indicator 9.5.1: Research and development expenditure as a proportion
-  of GDP</p>'
-
-STAT_CONC_DEF: Research and experimental development (R&D) expenditure as a proportion of Gross Domestic Product 
-  (GDP) is the amount of Research and experimental development (R&D) expenditure divided by the total 
-  output of the economy.
+# National
+SDG_GOAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET: >-
+  Target 9.5: Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private
+  research and development spending
+SDG_INDICATOR: >-
+  Indicator 9.5.1: Research and development expenditure as a proportion of GDP
+STAT_CONC_DEF: >-
+  Research and experimental development (R&D) expenditure as a proportion of Gross Domestic Product (GDP) is the amount of Research and experimental development (R&D) expenditure divided by the total output of the economy.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'Due to data limitations, data for the provinces are not available for the latest reference year as they are compiled and released a year later.'
-SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
-  sustainable industrialization and foster innovation</p>'
-SDG_TARGET__GLOBAL: '<p>Target 9.5: Enhance scientific research, upgrade the technological
-  capabilities of industrial sectors in all countries, in particular developing countries,
-  including, by 2030, encouraging innovation and substantially increasing the number
-  of research and development workers per 1 million people and public and private
-  research and development spending</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 9.5.1: Research and development expenditure as
-  a proportion of GDP</p>'
+REC_USE_LIM: >-
+  Due to data limitations, data for the provinces are not available for the latest reference year as they are compiled and released a year later.
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET__GLOBAL: >-
+  Target 9.5: Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private
+  research and development spending
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 9.5.1: Research and development expenditure as a proportion of GDP
 STAT_CONC_DEF__GLOBAL: >-
-    <p>Research and development (R&D) expenditure as a proportion of
-    Gross Domestic Product (GDP) is the amount of R&D expenditure divided by the
-    total output of the economy.</p>
-  
+  Research and development (R&D) expenditure as a proportion of Gross Domestic Product (GDP) is the amount of R&D expenditure divided by the total output of the economy.
+
+un_designated_tier: Tier I
+un_custodian_agency: UNESCO Institute for Statistics (UIS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-05-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 27-10-0359-01  Total domestic expenditures on research and development (R&D) as percentage of gross domestic product (GDP), Canada and provinces, and G-7 countries
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2710035901
+source_url_1: https://doi.org/10.25318/2710035901-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
-
-un_designated_tier: Tier I
-un_custodian_agency: United Nations Educational, Scientific and Cultural Organization
-  (UNESCO)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-05-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata

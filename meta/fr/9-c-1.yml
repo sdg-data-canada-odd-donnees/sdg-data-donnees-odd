@@ -1,40 +1,31 @@
+# National
 SDG_GOAL: >-
-    <p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
-    durable qui profite à tous et encourager l'innovation.</p>
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
 SDG_TARGET: >-
-    <p>Cible 9.c : Accroître nettement l’accès aux technologies de l’information
-      et des communications et faire en sorte que tous les habitants des pays les moins
-      avancés aient accès à Internet à un coût abordable d’ici à 2020</p>
+  Cible 9.c : Accroître nettement l’accès aux technologies de l’information et des communications et faire en sorte que tous les habitants des pays les moins avancés aient accès à Internet à un coût abordable d’ici à 2020
 SDG_INDICATOR: >-
-    <p>Indicateur 9.c.1 : Proportion de la population ayant accès à un
-      réseau mobile, par type de technologie</p>
+  Indicateur 9.c.1 : Proportion de la population ayant accès à un réseau mobile, par type de technologie
 STAT_CONC_DEF: >-
-    <p>La proportion de la population couverte par un réseau mobile, ventilée
-      par technologie, désigne le pourcentage d'habitants vivant à portée d'un signal
-      de téléphonie mobile, qu'ils soient ou non abonnés ou utilisateurs de téléphones
-      mobiles. Ce pourcentage est calculé en divisant le nombre d'habitants à portée d'un
-      signal mobile-cellulaire par la population totale et en multipliant par 100.</p>
-DATA_COMP: '   '
+  La proportion de la population couverte par un réseau mobile, ventilée par technologie, fait référence au pourcentage d'habitants vivant à portée d'un signal cellulaire mobile, qu'ils soient ou non abonnés ou utilisateurs de téléphonie mobile.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+
+# Global
 SDG_GOAL__GLOBAL: >-
-    <p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
-    durable qui profite à tous et encourager l'innovation.</p>
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
 SDG_TARGET__GLOBAL: >-
-    <p>Cible 9.c : Accroître nettement l’accès aux technologies de l’information
-      et des communications et faire en sorte que tous les habitants des pays les moins
-      avancés aient accès à Internet à un coût abordable d’ici à 2020</p>
+  Cible 9.c : Accroître nettement l’accès aux technologies de l’information et des communications et faire en sorte que tous les habitants des pays les moins avancés aient accès à Internet à un coût abordable d’ici à 2020
 SDG_INDICATOR__GLOBAL: >-
-    <p>Indicateur 9.c.1 : Proportion de la population ayant accès à un
-      réseau mobile, par type de technologie</p>
-source_active_1: 'true'
-source_url_text_1: "Rapport de surveillance des communications 2020"
-source_url_1: https://crtc.gc.ca/fra/publications/reports/policymonitoring/2020/index.htm
-source_organisation_1: Conseil de la radiodiffusion et des télécommunications canadiennes
-source_geographical_coverage_1: Canada
- 
- 
+  Indicateur 9.c.1 : Proportion de la population ayant accès à un réseau mobile, par type de technologie
 
 un_designated_tier: Niveau I
 un_custodian_agency: Union internationale des télécommunications (UIT)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-0C-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: Conseil de la radiodiffusion et des télécommunications canadiennes. Tendances actuelles - Services sans fil mobiles
+source_url_1: https://crtc.gc.ca/fra/publications/reports/policymonitoring/mob.htm
+source_organisation_1: Conseil de la radiodiffusion et des télécommunications canadiennes
+source_geographical_coverage_1: Canada

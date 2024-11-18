@@ -1,31 +1,35 @@
-SDG_GOAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and sustainable
-  industrialization and foster innovation</p>'
-SDG_TARGET: '<p>Target 9.a: Facilitate sustainable and resilient infrastructure development
-  in developing countries through enhanced financial, technological and technical
-  support to African countries, least developed countries, landlocked developing countries
-  and small island developing States</p>'
-SDG_INDICATOR: '<p>Indicator 9.a.1: Total official international support (official
-  development assistance plus other official flows) to infrastructure</p>'
-STAT_CONC_DEF: <p>Gross disbursements of total official development assistance (ODA) and other official flows (OOF) from all
-  donors in support of infrastructure.</p>
-DATA_COMP: '<p>The sum of ODA and OOF flows from all donors to developing countries for infrastructure.</p>'
+# National
+SDG_GOAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET: >-
+  Target 9.a: Facilitate sustainable and resilient infrastructure development in developing countries through enhanced financial, technological and technical support to African countries, least developed countries, landlocked developing countries and small island developing States
+SDG_INDICATOR: >-
+  Indicator 9.a.1: Total official international support (official development assistance plus other official flows) to infrastructure
+STAT_CONC_DEF: >-
+  Gross disbursements of total official development assistance (ODA) and other official flows (OOF) from all donors in support of infrastructure.
+DATA_COMP: >-
+  The total sum of gross ODA and OOF disbursements to developing countries for infrastructure (CRS codes 200).
+  <br><br>
+  Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.
 REC_USE_LIM: '    '
-SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
-  sustainable industrialization and foster innovation</p>'
-SDG_TARGET__GLOBAL: '<p>Target 9.a: Facilitate sustainable and resilient infrastructure
-  development in developing countries through enhanced financial, technological and
-  technical support to African countries, least developed countries, landlocked developing
-  countries and small island developing States</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 9.a.1: Total official international support (official
-  development assistance plus other official flows) to infrastructure</p>'
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET__GLOBAL: >-
+  Target 9.a: Facilitate sustainable and resilient infrastructure development in developing countries through enhanced financial, technological and technical support to African countries, least developed countries, landlocked developing countries and small island developing States
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 9.a.1: Total official international support (official development assistance plus other official flows) to infrastructure
+
 un_designated_tier: Tier I
 un_custodian_agency: Organisation for Economic Co-operation and Development (OECD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-0A-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: OECD. Creditor Reporting System (CRS).
-source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
+source_url_text_1: 'CRS: Creditor Reporting System (flows)'
+source_url_1: https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=19&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.1&dq=CAN.DPGC.200.14%2B100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&ly[cl]=TIME_PERIOD&ly[rw]=MEASURE&vw=tb&lc=en
 source_organisation_1: Organisation for Economic Co-operation and Development (OECD)
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
