@@ -34,5 +34,5 @@ oda_total <- oda %>%
 
 data_final <- bind_rows(oda, oda_total)
 
-write.csv(oda_total, "./data/indicator_8-a-1.csv",
+write.csv(data_final, "./data/indicator_9-a-1.csv",
           row.names = FALSE, na = "", fileEncoding = "UTF-8")
