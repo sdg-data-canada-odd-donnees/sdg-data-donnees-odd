@@ -1,42 +1,37 @@
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
-  durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET: '<p>Cible 9.4 : D’ici à 2030, moderniser l’infrastructure et adapter les
-  industries afin de les rendre durables, par une utilisation plus rationnelle des
-  ressources et un recours accru aux technologies et procédés industriels propres
-  et respectueux de l’environnement, chaque pays agissant dans la mesure de ses moyens.</p>'
-SDG_INDICATOR: '<p>Indicateur 9.4.1 : Émissions de CO<sub>2</sub> par unité de valeur
-  ajoutée.</p>'
-STAT_CONC_DEF: <p>Les émissions de dioxyde de carbone (ci-après, CO<sub>2</sub>) par
-  unité de valeur ajoutée est un indicateur calculé comme le rapport entre les émissions
-  de CO<sub>2</sub> provenant de la combustion de combustibles et la valeur ajoutée
-  des activités économiques associées. Cet indicateur peut être calculé pour l'ensemble
-  de l'économie (émissions totales de CO<sub>2</sub> / PIB) ou pour des secteurs spécifiques,
-  notamment le secteur manufacturier (émissions de CO<sub>2</sub> des industries manufacturières
-  par valeur ajoutée manufacturière (VAM)). </p>
-DATA_COMP: '  '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
-  une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 9.4 : D’ici à 2030, moderniser l’infrastructure et adapter
-  les industries afin de les rendre durables, par une utilisation plus rationnelle
-  des ressources et un recours accru aux technologies et procédés industriels propres
-  et respectueux de l’environnement, chaque pays agissant dans la mesure de ses moyens.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.4.1 : Émissions de CO<sub>2</sub> par unité
-  de valeur ajoutée.</p>'
+# National
+SDG_GOAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET: >-
+  Cible 9.4 : D’ici à 2030, moderniser l’infrastructure et adapter les industries afin de les rendre durables, par une utilisation plus rationnelle des ressources et un recours accru aux technologies et procédés industriels propres et respectueux de l’environnement, chaque pays agissant dans la mesure de ses moyens.
+SDG_INDICATOR: >-
+  Indicateur 9.4.1 : Émissions de CO<sub>2</sub> par unité de valeur ajoutée.
+STAT_CONC_DEF: >-
+  Cet indicateur mesure l’intensité des émissions de gaz à effet de serre (GES) par rapport à l’activité économique du Canada. Une tendance à la baisse signifierait que moins d’émissions de GES sont émises pour une unité de PIB.
+  <br><br>
+  Les données sont présentées en mégatonnes d’équivalent dioxyde de carbone (Mt CO<sub>2</sub> eq.) par milliard de dollars de PIB.
+DATA_COMP: >-
+  Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées nationales. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
+REC_USE_LIM: >-
+  Les émissions de gaz à effet de serre par unité de PIB sont calculées à partir du PIB réel ajusté en fonction de l'inflation, en dollars de 2017 et ne sont pas mesurés en dollars américains comme spécifiés dans les métadonnées.
 
-reporting_status: complete
+# Global 
+SDG_GOAL__GLOBAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET__GLOBAL: >-
+  Cible 9.4 : D’ici à 2030, moderniser l’infrastructure et adapter les industries afin de les rendre durables, par une utilisation plus rationnelle des ressources et un recours accru aux technologies et procédés industriels propres et respectueux de l’environnement, chaque pays agissant dans la mesure de ses moyens.
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 9.4.1 : Émissions de CO<sub>2</sub> par unité de valeur ajoutée.
 
+un_designated_tier: Niveau I
+un_custodian_agency: Agence internationale de l’énergie (AIE), Organisation des Nations Unies pour le développement industriel (ONUDI)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Environnement et Changement climatique Canada. Émissions de gaz à effet de serre.
 source_url_1: https://www.canada.ca/fr/environnement-changement-climatique/services/indicateurs-environnementaux/emissions-gaz-effet-serre.html
 source_organisation_1: Environnement et Changement climatique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
-
-un_designated_tier: Niveau I
-un_custodian_agency: Agence internationale de l’énergie (AIE), Organisation des Nations Unies pour 
-  le développement industriel (ONUDI)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
  
