@@ -21,11 +21,10 @@ core_housing <- raw_data %>%
   ) %>%
   mutate(
     Geography = str_remove(Geography, "Large urban population centres, "),
-    Geography = replace(Geography, Geography == "Total, large urban population centres", "Canada (provinces only)"),
     # Set headline
     across(
       c(Geography, Tenure),
-      ~ replace(., Geography == "Canada (provinces only)" & Tenure == "Total, tenure", NA)
+      ~ replace(., Geography == "Total, large urban population centres" & Tenure == "Total, tenure", NA)
     )
   ) %>%
   left_join(geocodes, by = "Geography") %>% 
