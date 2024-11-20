@@ -1,28 +1,25 @@
-SDG_GOAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles.</p>'
-SDG_TARGET: '<p>Cible 5.6 : Assurer l’accès de tous aux soins de santé sexuelle et procréative et faire en sorte 
-  que chacun puisse exercer ses droits en matière de procréation, ainsi qu’il a été décidé dans le Programme 
-  d’action de la Conférence internationale sur la population et le développement et le Programme d’action de 
-  Beijing et les documents finals des conférences d’examen qui ont suivi</p>'
-SDG_INDICATOR: '<p>Indicateur 5.6.2 : Nombre de pays dotés de textes législatifs et réglementaires garantissant 
-  aux femmes et aux hommes de 15 ans ou plus un accès équitable et sans restriction aux soins de santé sexuelle 
-  et procréative, ainsi qu’à des informations et une éducation dans ce domaine</p>'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: >-
+  Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles.
+SDG_TARGET: >-
+  Cible 5.6 : Assurer l’accès de tous aux soins de santé sexuelle et procréative et faire en sorte que chacun puisse exercer ses droits en matière de procréation, ainsi qu’il a été décidé dans le Programme d’action de la Conférence internationale sur la population et le développement et le Programme d’action de Beijing et les documents finals des conférences d’examen qui ont suivi
+SDG_INDICATOR: >-
+  Indicateur 5.6.2 : Nombre de pays dotés de textes législatifs et réglementaires garantissant aux femmes et aux hommes de 15 ans ou plus un accès équitable et sans restriction aux soins de santé sexuelle et procréative, ainsi qu’à des informations et une éducation dans ce domaine
+STAT_CONC_DEF: >-
+  L’indicateur 5.6.2 des objectifs de développement durable (ODD) vise à mesurer à quel point les pays disposent de lois et de réglementations nationales qui garantissent un accès complet et égal aux femmes et aux hommes âgés de 15 ans et plus à l'information, à l'éducation et aux soins de santé sexuelle et reproductive.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 5.6 : Assurer l’accès de tous aux soins de santé sexuelle et procréative et faire en sorte 
-  que chacun puisse exercer ses droits en matière de procréation, ainsi qu’il a été décidé dans le Programme 
-  d’action de la Conférence internationale sur la population et le développement et le Programme d’action de 
-  Beijing et les documents finals des conférences d’examen qui ont suivi</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.6.2 : Nombre de pays dotés de textes législatifs et réglementaires garantissant 
-  aux femmes et aux hommes de 15 ans ou plus un accès équitable et sans restriction aux soins de santé sexuelle 
-  et procréative, ainsi qu’à des informations et une éducation dans ce domaine</p>'
 
-reporting_status: notstarted
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles.
+SDG_TARGET__GLOBAL: >-
+  Cible 5.6 : Assurer l’accès de tous aux soins de santé sexuelle et procréative et faire en sorte que chacun puisse exercer ses droits en matière de procréation, ainsi qu’il a été décidé dans le Programme d’action de la Conférence internationale sur la population et le développement et le Programme d’action de Beijing et les documents finals des conférences d’examen qui ont suivi
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 5.6.2 : Nombre de pays dotés de textes législatifs et réglementaires garantissant aux femmes et aux hommes de 15 ans ou plus un accès équitable et sans restriction aux soins de santé sexuelle et procréative, ainsi qu’à des informations et une éducation dans ce domaine
 
 un_designated_tier: Niveau II
 un_custodian_agency: Fonds des Nations Unies pour la population (UNFPA)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
  
