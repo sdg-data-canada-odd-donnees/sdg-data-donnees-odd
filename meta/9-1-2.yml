@@ -6,9 +6,10 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   Indicator 9.1.2: Passenger and freight volumes
 STAT_CONC_DEF: >-
-  This indicator measures passenger and freight volumes for air, rail and road transportation.
+  This indicator measures passenger and freight volumes for air, rail and road transportation. A growth in passenger and freight volumes is indicative of robust infrastructure development along with resultant socio-economic benefit. Air transport is particularly important not only for the economic and job benefits but also because it is one of the only modes of transport that can be relied on during emergencies and disease outbreaks to reach food, medicines, medical personnel, vaccines, and other supplies speedily to the affected persons in the affected areas.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: '   '
+REC_USE_LIM: >-
+  This is a proxy indicator that measures passenger volumes by the number of passengers and freight volumes by metric tonnes, whereas the UN metadata states: "Passenger volumes are measured in passenger-kilometres while freight volumes are measured in tonne-kilometres". 
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-
@@ -19,7 +20,7 @@ SDG_INDICATOR__GLOBAL: >-
   Indicator 9.1.2: Passenger and freight volumes, by mode of transport
 
 un_designated_tier: Tier I
-un_custodian_agency: International Civil Aviation Organization (ICAO), International Transport Forum (ITF-OECD)
+un_custodian_agency: International Civil Aviation Organization (ICAO), International Transport Forum (ITF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-01-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
