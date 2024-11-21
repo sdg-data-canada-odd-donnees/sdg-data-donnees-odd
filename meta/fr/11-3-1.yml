@@ -1,33 +1,41 @@
-SDG_GOAL: '<p>Objectif 11 : Faire en sorte que les villes et les établissements humains
-  soient ouverts à tous, sûrs, résilients et durables</p>'
-SDG_TARGET: '<p>Cible 11.3 : D’ici à 2030, renforcer l’urbanisation durable pour tous et 
-  les capacités de planification et de gestion participatives, intégrées et durables des 
-  établissements humains dans tous les pays</p>'
+# National
+SDG_GOAL: >-
+  Objectif 11 : Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
+SDG_TARGET: >-
+  Cible 11.3 : D’ici à 2030, renforcer l’urbanisation durable pour tous et les capacités de planification et de gestion participatives, intégrées et durables des établissements humains dans tous les pays
 SDG_INDICATOR: >-
-    <p>Indicateur 11.3.1 : Ratio entre le taux d’utilisation des terres et le taux de croissance démographique »</p>
+  Indicateur 11.3.1 : Ratio entre le taux d’utilisation des terres et le taux de croissance démographique
 STAT_CONC_DEF: >-
-    <p>L'indicateur est défini comme le rapport entre le taux de consommation des terres et le taux de croissance démographique.</p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 11 : Faire en sorte que les villes et les établissements
-  humains soient ouverts à tous, sûrs, résilients et durables</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 11.3 : D’ici à 2030, renforcer l’urbanisation durable pour tous et 
-  les capacités de planification et de gestion participatives, intégrées et durables des 
-  établissements humains dans tous les pays</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 11.3.1 : Ratio entre le taux d’utilisation des terres et le 
-  taux de croissance démographique</p>'
+  L'indicateur est défini comme le rapport entre le taux de consommation des terres et le taux de croissance démographique.
+  <br><br>
+  Le taux de consommation des terres est le taux auquel les terres urbanisées ou les terres occupées par une ville ou une zone urbaine changent au cours d'une période donnée (généralement un an), exprimé en pourcentage des terres occupées par la ville ou la zone urbaine au début de cette période.
+  <br><br>
+  Le taux de croissance de la population est la variation de la population dans une zone définie (pays, ville, etc.) au cours d'une période, généralement d'un an, exprimée en pourcentage de la population au début de cette période. Il reflète le nombre de naissances et de décès au cours d'une période et le nombre de personnes qui migrent vers et depuis la zone concernée. Pour l'ODD 11.3.1, il est calculé au niveau de la zone définie comme urbaine/ville.
+DATA_COMP: >-
+  Pour toutes les villes, les points de recensement de la population de Statistique Canada ont été utilisés pour le dénombrement de la population (https://www12.statcan.gc.ca/census-recensement/2021/geo/index-fra.cfm), et la série chronologique de l'utilisation des terres v4 à une résolution de 30 m, produite par Agriculture et Agroalimentaire Canada, a été utilisée pour les zones bâties (https://ouvert.canada.ca/data/fr/dataset/fa84a70f-03ad-4946-b0f8-a3b481dd5248).
+REC_USE_LIM: >-
+  Les données sur la population datent de 2011 et 2021. Les données sur l'utilisation des sols datent de 2010 et 2020.
+  <br><br>
+  Seulement les villes ayant une population de 100 000 habitants ou plus en 2011 et/ou en 2021 sont inclues.
 
-reporting_status: complete
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 11 : Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
+SDG_TARGET__GLOBAL: >-
+  Cible 11.3 : D’ici à 2030, renforcer l’urbanisation durable pour tous et les capacités de planification et de gestion participatives, intégrées et durables des établissements humains dans tous les pays
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 11.3.1 : Ratio entre le taux d’utilisation des terres et le taux de croissance démographique
 
-source_active_1: 'true'
-source_url_text_1: Statistique Canada. Totalisation personnalisée.
-source_url_1: https://www.statcan.gc.ca/fr/debut
-source_organisation_1: Statistique Canada
-source_geographical_coverage_1: Canada
-
-un_designated_tier: Niveau II
+un_designated_tier: Niveau I
 un_custodian_agency: Programme des Nations Unies pour les établissements humains (ONU-Habitat)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-03-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Totalisation personnalisée.
+source_url_1: https://www.statcan.gc.ca/fr/debut
+source_organisation_1: Statistique Canada
+source_periodicity_1: Occasionnelle
+source_geographical_coverage_1: Canada
  
