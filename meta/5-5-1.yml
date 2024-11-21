@@ -9,8 +9,7 @@ STAT_CONC_DEF: <p>The proportion of seats held by women in (a) national parliame
   of seats held by women members in single or lower chambers of national parliaments,
   expressed as a percentage of all occupied seats.</p>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: >-
-  Only data for the series (a) national parliaments is currently available.
+REC_USE_LIM: '   '
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'

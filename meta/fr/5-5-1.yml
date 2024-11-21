@@ -9,8 +9,7 @@ SDG_INDICATOR: '<p>Indicateur 5.5.1 : Proportion de sièges occupés par des fem
 STAT_CONC_DEF: >-
   La proportion de sièges occupés par des femmes dans a) les parlements nationaux, actuellement au 1er janvier de l'année de référence, est actuellement mesurée comme le nombre de sièges occupés par des femmes membres dans les chambres uniques ou basses des parlements nationaux, exprimé en pourcentage de tous les sièges occupés.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: >-
-  Seulement les données pour la séries dans a) les parlements nationaux sont présentement disponibles.
+REC_USE_LIM: '   '
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l''égalité des sexes et autonomiser
