@@ -924,7 +924,7 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Kelowna, Colombie-Britannique",
-                "Abbotsford-Mission, British Columbia",
+                "Abbotsford-Mission, Colombie-Britannique",
                 "Vancouver, Colombie-Britannique",
                 "Victoria, Colombie-Britannique",
                 "Non-census metropolitan areas",
@@ -1569,10 +1569,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15-19 ans\n",
-                "20-24 ans\n",
+                "15-19 ans",
+                "20-24 ans",
                 "25+ ans",
-                "25-44 ans\n",
+                "25-44 ans",
                 "45+ ans",
                 "Tous les groupes d’âge",
                 ""
@@ -2134,7 +2134,7 @@
                 "Barrie, Ontario",
                 "Belleville, Ontario",
                 "Brantford, Ontario",
-                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Grand Sudbury, Ontario",
                 "Guelph, Ontario",
                 "Hamilton, Ontario",
                 "Kingston, Ontario",
@@ -2423,7 +2423,7 @@
                 "Barrie, Ontario",
                 "Belleville, Ontario",
                 "Brantford, Ontario",
-                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Grand Sudbury, Ontario",
                 "Guelph, Ontario",
                 "Hamilton, Ontario",
                 "Kingston, Ontario",
@@ -4079,14 +4079,14 @@
               "enum": [
                 "Total - Canada",
                 "Total de la population des minorités visibles",
-                "Sud-Asiatique\n",
-                "Chinois\n",
-                "Noir\n",
-                "Philippin\n",
-                "Arabe\n",
-                "Latino-Américain\n",
-                "Asiatique du Sud-Est\n",
-                "Pas une minorité visible\n",
+                "Sud-Asiatique",
+                "Chinois",
+                "Noir",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Asiatique du Sud-Est",
+                "Pas une minorité visible",
                 ""
               ]
             },
@@ -4841,8 +4841,8 @@
             "constraints": {
               "enum": [
                 "Rapport entre le taux de consommation des terres et le taux de croissance démographique",
-                "Land consumption rate",
-                "Population growth rate",
+                "Taux de consommation des terres",
+                "Taux de croissance démographique",
                 ""
               ]
             },
@@ -4869,7 +4869,7 @@
                 "Montréal, Québec",
                 "Vancouver, Colombie-Britannique",
                 "Calgary, Alberta",
-                "Ottawa - Gatineau, Ontario and Quebec",
+                "Ottawa - Gatineau, Ontario et Québec",
                 "Edmonton, Alberta",
                 "Winnipeg, Manitoba",
                 "Québec, Québec",
@@ -4890,9 +4890,9 @@
                 "Kingston, Ontario",
                 "Moncton, Nouveau-Brunswick",
                 "Milton, Ontario",
-                "Saint-Jérôme, Quebec",
-                "Nanaimo, British Columbia",
-                "Chicoutimi - Jonquière, Quebec",
+                "Saint-Jérôme, Québec",
+                "Nanaimo, Colombie-Britannique",
+                "Chicoutimi - Jonquière, Québec",
                 "Brantford, Ontario",
                 "Thunder Bay, Ontario",
                 "Red Deer, Alberta",
@@ -5642,7 +5642,7 @@
             "constraints": {
               "enum": [
                 "Minorité visible",
-                "Pas une minorité visible\n",
+                "Pas une minorité visible",
                 ""
               ]
             },
@@ -6354,11 +6354,11 @@
             "constraints": {
               "enum": [
                 "Santé de base",
-                "Recherche médicale\n",
+                "Recherche médicale",
                 ""
               ]
             },
-            "title": "Type d'aide\n"
+            "title": "Type d'aide"
           },
           {
             "name": "Value",
@@ -6469,7 +6469,7 @@
               "enum": [
                 "Total, visible minority population",
                 "Population des minorités visibles",
-                "Pas une minorité visible\n",
+                "Pas une minorité visible",
                 "Not stated, visible minority population",
                 ""
               ]
@@ -8285,15 +8285,15 @@
             "constraints": {
               "enum": [
                 "Population des minorités visibles",
-                "Sud-Asiatique\n",
-                "Chinois\n",
-                "Noir\n",
-                "Philippin\n",
-                "Arabe\n",
-                "Latino-Américain\n",
-                "Asiatique du Sud-Est\n",
+                "Sud-Asiatique",
+                "Chinois",
+                "Noir",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Asiatique du Sud-Est",
                 "Autre minorité visible",
-                "Pas une minorité visible\n",
+                "Pas une minorité visible",
                 ""
               ]
             },
