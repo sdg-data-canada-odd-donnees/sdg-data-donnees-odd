@@ -1,31 +1,34 @@
-SDG_GOAL: '<p>Goal 11: Make cities and human settlements inclusive, safe, resilient
-  and sustainable</p>'
-SDG_TARGET: '<p>Target 11.7: By 2030, provide universal access to safe, inclusive and
-  accessible, green and public spaces, in particular for women and children, older
-  persons and persons with disabilities</p>'
-SDG_INDICATOR: '<p>Indicator 11.7.2: Proportion of persons victim of physical or
-  sexual harassment, by sex, age, disability status and place of occurrence, in the
-  previous 12 months</p>'
-STAT_CONC_DEF: Number of persons who have been victims of physical harassment and/or sexual harassment, as a percentage of the total population of the relevant area. 
+# National
+SDG_GOAL: >-
+  Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+SDG_TARGET: >-
+  Target 11.7: By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities
+SDG_INDICATOR: >-
+  Indicator 11.7.2: Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months
+STAT_CONC_DEF: >-
+  Number of persons who have been victims of physical harassment and/or sexual harassment, as a percentage of the total population of the relevant area. 
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
-    <p>Percent calculation for Unwanted or inapproproate behaviour online excludes those who said they did not use the internet in the 12 months preceding the survey.
-    <p>Percent calculation for Unwanted or inapproproate behaviour in the workplace excludes those who said they did not work in the 12 months preceding the survey.
-    <p>All differences between women and men are statistically significant at p < 0.05.
-SDG_GOAL__GLOBAL: '<p>Goal 11: Make cities and human settlements inclusive, safe,
-  resilient and sustainable</p>'
-SDG_TARGET__GLOBAL: '<p>Target 11.7: By 2030, provide universal access to safe, inclusive and
-  accessible, green and public spaces, in particular for women and children, older
-  persons and persons with disabilities</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 11.7.2: Proportion of persons victim of physical or
-  sexual harassment, by sex, age, disability status and place of occurrence, in the
-  previous 12 months</p>'
+    Percent calculation for Unwanted or inapproproate behaviour online excludes those who said they did not use the internet in the 12 months preceding the survey.
+    <br><br>
+    Percent calculation for Unwanted or inapproproate behaviour in the workplace excludes those who said they did not work in the 12 months preceding the survey.
+    <br><br>
+    All differences between women and men are statistically significant at p < 0.05.
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+SDG_TARGET__GLOBAL: >-
+  Target 11.7: By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 11.7.2: Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months
 
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Office on Drugs and Crime (UNODC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-07-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: 'Statistics Canada. Gender-based violence and unwanted sexual behaviour in Canada, 2018: Initial findings from the Survey of Safety in Public and Private Spaces'
 source_url_1: https://www150.statcan.gc.ca/n1/daily-quotidien/191205/dq191205b-eng.htm
