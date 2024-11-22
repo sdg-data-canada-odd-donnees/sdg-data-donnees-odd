@@ -16,52 +16,59 @@
             "title": "Année"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Âge",
-                "Genre",
-                "Total",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Demographic and geodemographic",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0 to 14 years",
-                "15 à 64 ans",
-                "65 ans et plus",
-                "Hommes+",
-                "Femmes+",
-                "Percentage of population within 500 metres of a public transit stop",
-                ""
-              ]
-            },
-            "title": "Demographic and geodemographic"
-          },
-          {
             "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
                 "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Ontario",
+                "St. John's, Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Halifax, Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Moncton, Nouveau-Brunswick",
+                "Saint John, Nouveau-Brunswick",
                 "Québec",
+                "Montréal, Québec",
+                "Ottawa - Gatineau (partie du Québec), Québec",
+                "Québec, Québec",
+                "Saguenay, Québec",
+                "Sherbrooke, Québec",
+                "Trois-Rivières, Québec",
+                "Ontario",
+                "Barrie, Ontario",
+                "Belleville, Ontario",
+                "Brantford, Ontario",
+                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Hamilton, Ontario",
+                "Kingston, Ontario",
+                "Kitchener - Cambridge - Waterloo, Ontario",
+                "London, Ontario",
+                "Oshawa, Ontario",
+                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
+                "Peterborough, Ontario",
+                "St. Catharines - Niagara, Ontario",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
+                "Windsor, Ontario",
+                "Manitoba",
+                "Winnipeg, Manitoba",
                 "Saskatchewan",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Alberta",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Lethbridge, Alberta",
+                "Colombie-Britannique",
+                "Abbotsford - Mission, Colombie-Britannique",
+                "Kelowna, Colombie-Britannique",
+                "Vancouver, Colombie-Britannique",
+                "Victoria, Colombie-Britannique",
                 "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
