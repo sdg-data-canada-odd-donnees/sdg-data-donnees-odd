@@ -9,7 +9,7 @@ STAT_CONC_DEF: >-
   Cet indicateur mesure la proportion de petites industries ayant fait la demande d'un prêt ou d'une marge de crédit ainsi que les taux d'approbation.
 DATA_COMP: '   '
 REC_USE_LIM: >-
-  Cet indicateur mesure la proportion de petites industries ayant fait la demande d'un prêt ou d'une marge de crédit et les taux d'approbation plutôt que la proportion de petites industries bénéficiant d'un prêt ou d'une ligne de crédit comme spécifié dans les métadonnées.
+  Il s'agit d'un indicateur de substitution qui mesure la proportion de petites industries ayant fait la demande d'un prêt ou d'une marge de crédit et les taux d'approbation correspondants, tandis que l'indicateur global des Nations Unies indique : « Proportion de petites industries bénéficiant d'un prêt ou d'une ligne de crédit ».
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

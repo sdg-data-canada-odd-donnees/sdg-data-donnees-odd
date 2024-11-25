@@ -12,7 +12,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: >-
   Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées nationales. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
 REC_USE_LIM: >-
-  Les émissions de gaz à effet de serre par unité de PIB sont calculées à partir du PIB réel ajusté en fonction de l'inflation, en dollars de 2017 et ne sont pas mesurés en dollars américains comme spécifiés dans les métadonnées.
+  Il s'agit d'un indicateur de substitution. Les émissions de gaz à effet de serre par unité de PIB sont calculées en utilisant le PIB réel ajusté en fonction de l'inflation exprimé en dollars canadiens à prix constants 2017, tandis que les métadonnées globales des Nations Unies précisent l'utilisation de dollars américains constants.
 
 # Global 
 SDG_GOAL__GLOBAL: >-

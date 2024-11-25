@@ -10,7 +10,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: >-
   Researchers per million inhabitants = (Researchers / Total population) × 1,000,000
 REC_USE_LIM: >-
-  This indicator measures the number of researchers per million inhabitants rather than the number of researcher in full time equivalent per million inhabitant as specified in the metadata.
+  This is a proxy indicator that measures the number of researchers per million inhabitants rather than the number of researchers in full time equivalent per million inhabitant as specified in the UN Global metadata.
 
 # Global
 SDG_GOAL__GLOBAL: >-
