@@ -6,9 +6,10 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   Indicateur 9.1.2 :  Nombre de passagers et volume de fret transportés, par mode de transport
 STAT_CONC_DEF: >-
-  Cet indicateur mesure les volumes de passagers et de fret pour le transport aérien, ferroviaire et routier.
+  Cet indicateur mesure les volumes de passagers et de fret pour le transport aérien, ferroviaire et routier. La croissance des volumes de passagers et de fret est indicatif d'un développement robuste des infrastructures ainsi que les avantages socio-économiques qui en résultent. Le transport aérien est particulièrement important non seulement pour les avantages économiques et pour l’emploi, mais aussi parce qu’il est l’un des seuls moyens de transport sur lesquels on peut compter en cas d’urgence et d’épidémie pour atteindre rapidement la nourriture, les médicaments, le personnel médical, les vaccins et d’autres fournitures aux personnes touchées dans les zones touchées.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: '   '
+REC_USE_LIM: >-
+  Il s'agit d'un indicateur de substitution qui mesure les volumes de passagers par le nombre de passagers et les volumes de fret par tonnes, tandis que les métadonnées de l'ONU indiquent : « Les volumes de passagers et de fret sont, respectivement, mesurés en passagers-km et en tonnes-km ».
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

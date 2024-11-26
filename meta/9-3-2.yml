@@ -9,7 +9,7 @@ STAT_CONC_DEF: >-
   This indicator measures the proportion of small-scale industries requesting a loan or line of credit as well as the approval rates.
 DATA_COMP: '   '
 REC_USE_LIM: >-
-  This indicator measures the proportion of small-scale industries requesting a loan or line of credit and the approval rates rather than the proportion of small-scale industries with a loan or line of credit as specified in the metadata.
+  This is a proxy indicator that measures the proportion of small-scale industries requesting a loan or line of credit and the corresponding approval rates, whereas the UN Global indicator states: "Proportion of small-scale industries with a loan or line of credit".
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-
