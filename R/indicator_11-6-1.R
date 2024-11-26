@@ -25,7 +25,7 @@ data_final <-
   bind_rows(
     waste_disposal %>%
       filter(Geography == "Canada", `Sources of waste for disposal` == "All sources of waste for disposal") %>%
-      mutate(across(2:(ncol(.)-2), ~ "")),
+      mutate(across(2:(ncol(.)-2), ~ NA)),
     waste_disposal %>%
       filter(
         !(Geography == "Canada" & `Sources of waste for disposal` == "All sources of waste for disposal")
