@@ -29,7 +29,9 @@ cagr_data_transform <- function(data) {
   data %>% 
     left_join(pop) %>% 
     transmute(
-      Year, Geography, Percentile, 
+      Year,
+      Geography,
+      `Household income quintile or decile`,
       Value = Value/Population
     ) %>% 
     tidyr::pivot_wider(
@@ -37,7 +39,8 @@ cagr_data_transform <- function(data) {
       values_from = "Value"
     ) %>%
     transmute(
-      Geography, Percentile,
+      Geography,
+      `Household income quintile or decile`,
       `2010-2015` = cagr(`2015`, `2010`, 5),
       `2011-2016` = cagr(`2016`, `2011`, 5),
       `2012-2017` = cagr(`2017`, `2012`, 5),
@@ -82,7 +85,7 @@ expenditure_per_cap <-
   select(
     Year = REF_DATE,
     Geography = GEO,
-    Percentile = `Before-tax household income quintile`,
+    `Household income quintile or decile` = `Before-tax household income quintile`,
     Value = VALUE
   ) %>%
   cagr_data_transform() %>% 
@@ -105,7 +108,7 @@ income_per_cap <-
   select(
     Year = REF_DATE,
     Geography = GEO,
-    Percentile = `Income decile`,
+    `Household income quintile or decile` = `Income decile`,
     Value = VALUE
   ) %>% 
  cagr_data_transform() %>% 
