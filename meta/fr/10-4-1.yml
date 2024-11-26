@@ -1,30 +1,36 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
+# National
+SDG_GOAL: >-
+  Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre
 SDG_TARGET: >-
-    Cible 10.4 : Adopter des politiques, notamment sur les plans budgétaires, salariales et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité
+  Cible 10.4 : Adopter des politiques, notamment sur les plans budgétaires, salariales et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité
 SDG_INDICATOR: >-
-    Indicateur 10.4.1 : Part du travail dans le PIB
- 
-STAT_CONC_DEF: '   '
+  Indicateur 10.4.1 : Part du travail dans le PIB
+STAT_CONC_DEF: >-
+  La part du travail dans le produit intérieur brut (PIB) est la rémunération totale des salariés et le revenu du travail des travailleurs indépendants exprimé en pourcentage du PIB, qui est une mesure de la production totale. Il fournit des informations sur la part relative de la production qui revient aux travailleurs par rapport à la part qui revient au capital dans le processus de production pour une période de référence donnée.
 DATA_COMP: >-
-    ( Rémunération des salariés / Produit intérieur brut aux prix du marché ) * 100
+  ( Rémunération des salariés / Produit intérieur brut aux prix du marché ) × 100
 REC_USE_LIM: >-
-    Dans les Comptes provinciaux et territoriaux du produit intérieur brut en termes de revenus et de dépenses (CEPT) les totaux pour le Canada diffèrent des estimations des Comptes nationaux du produit intérieur brut en termes de revenus et de dépenses (CRD), à certains moments de l'année. Les deux comptes sont réalignés lorsque les révisions annuelles sont incorporées.
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: >-
-    Cible 10.4 : Adopter des politiques, notamment sur les plans budgétaires, salariales et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité
-SDG_INDICATOR__GLOBAL: >-
-    Indicateur 10.4.1 : Part du travail dans le PIB
+  Dans les Comptes provinciaux et territoriaux du produit intérieur brut en termes de revenus et de dépenses (CEPT) les totaux pour le Canada diffèrent des estimations des Comptes nationaux du produit intérieur brut en termes de revenus et de dépenses (CRD), à certains moments de l'année. Les deux comptes sont réalignés lorsque les révisions annuelles sont incorporées.
+  <br><br>
+  Les données n'incluent pas le revenu du travail des travailleurs indépendants.
 
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre
+SDG_TARGET__GLOBAL: >-
+  Cible 10.4 : Adopter des politiques, notamment sur les plans budgétaires, salariales et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 10.4.1 : Part du travail dans le PIB
+
+un_designated_tier: Niveau II
+un_custodian_agency: Organisation internationale du Travail
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-04-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Tableau 36-10-0221-01  Produit intérieur brut, en termes de revenus, provinciaux et territoriaux, annuel (x 1 000 000)
 source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada, Province ou territoire
 source_url_1: https://doi.org/10.25318/3610022101-fra
- 
-
-un_designated_tier: Niveau II
-un_custodian_agency: Organisation internationale du Travail
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-04-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
