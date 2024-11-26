@@ -7,9 +7,9 @@ SDG_INDICATOR: >-
   Indicateur 11.6.1 : Proportion de déchets municipaux solides collectés et gérés dans des installations contrôlées sur le total des déchets municipaux générés, par ville
 STAT_CONC_DEF: >-
   La quantité totale de déchets non dangereux éliminés dans des installations d'élimination des déchets publics et privés inclut les déchets exportés à l'extérieur de la province productrice ou à l'extérieur du pays en vue d'être éliminés. Ceci n'inclut pas les déchets éliminés dans des installations d'élimination de déchets dangereux ni les déchets produits sur un site industriel et éliminés sur place.
-DATA_COMP: custom.data-comp
+DATA_COMP: custom.data-comp-national
 REC_USE_LIM: >-
-  Il s'agit d'un indicateur Proxy. L'indicateur global des Nations unies est le suivant : « Proportion des déchets solides municipaux collectés et gérés dans des installations contrôlées par rapport au total des déchets municipaux produits, par ville ».
+  Il s'agit d'un indicateur de substitution. L'indicateur global des Nations Unies est le suivant : « Proportion des déchets solides municipaux collectés et gérés dans des installations contrôlées par rapport au total des déchets municipaux produits, par ville ».
 
 # Global
 SDG_GOAL__GLOBAL: >-
