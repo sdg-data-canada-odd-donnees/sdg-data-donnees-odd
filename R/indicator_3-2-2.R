@@ -19,7 +19,7 @@ neonat_mort_rate <-
   select(
     Year = REF_DATE,
     Sex,
-    Units = UOM,
+    Units = Characteristics,
     Value = VALUE
   )
 
