@@ -6,7 +6,7 @@ SDG_INDICATOR: '<p>Indicateur 3.1.2 : Pourcentage de naissances ayant eu lieu 
 STAT_CONC_DEF: |
   La proportion d'accouchements assistés par du personnel de santé qualifié (généralement des médecins, des infirmières ou des sages-femmes, mais peuvent faire référence à d'autres professionnels de la santé fournissant des soins d'accouchement) est la proportion d'accouchements assistés par du personnel de santé professionnel. <br><br>
   Selon la définition actuelle (1), il s’agit de professionnels compétents de la santé maternelle et néonatale (SMN), formés et réglementés selon les normes nationales et internationales. Ils sont compétents pour : (i) fournir et promouvoir des soins de qualité, fondés sur des données probantes, fondés sur les droits de l'homme, sensibles à la culture socioculturelle et dignes aux femmes et aux nouveau-nés ; (ii) faciliter les processus physiologiques pendant le travail et l'accouchement pour garantir une expérience d'accouchement propre et positive ; et (iii) identifier et prendre en charge ou orienter les femmes et/ou les nouveau-nés présentant des complications.
-DATA_COMP: custom.data-comp
+DATA_COMP: custom.data-comp-national
 REC_USE_LIM: |
   La proportion de naissances à l’hôpital comprend les naissances vivantes et les décès fœtaux (mortinaissances). 
   <br><br> Avant le 30 avril 2015, trois formulaires – un certificat médical de mortinatalité, un avis de naissance vivante ou de mortinatalité et une déclaration de mortinatalité – étaient requis pour enregistrer une mortinatalité en Ontario. Depuis le 30 avril 2015, l'inscription peut avoir lieu en l'absence d'un ou deux des formulaires, contribuant ainsi à l'augmentation observée entre 2011 et 2012.
@@ -34,4 +34,4 @@ un_custodian_agency: Fonds des Nations unies pour l'enfance (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+ proxy: proxy
