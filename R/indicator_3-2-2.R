@@ -11,7 +11,6 @@ neonat_mort_rate <-
   neonat_mortality_data %>%
   filter(
     REF_DATE >= 2015,
-    UOM == "Rate per 1,000 live births",
     `Age at time of death` == "Neonatal, age at time of death, 0 to 27 days"
   ) %>%
   mutate(
@@ -20,6 +19,7 @@ neonat_mort_rate <-
   select(
     Year = REF_DATE,
     Sex,
+    Units = UOM,
     Value = VALUE
   )
 
