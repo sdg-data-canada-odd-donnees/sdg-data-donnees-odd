@@ -24,8 +24,8 @@ graph_target_lines:
 graph_title: proxy.3-2-1-title
 graph_titles: []
 graph_type: line
-indicator_name: global_indicators.3-2-1-title
 indicator_available: proxy.3-2-1-title
+indicator_name: global_indicators.3-2-1-title
 indicator_number: 3.2.1
 national_geographical_coverage: Canada, Province or territory
 page_content: ''
@@ -39,5 +39,5 @@ progress_status: target_achieved
 reporting_status: complete
 sort: ''
 standalone: false
-tags: 
-  - Proxy
+tags:
+- Proxy
