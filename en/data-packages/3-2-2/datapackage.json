@@ -16,28 +16,28 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                "Northwest Territories including Nunavut",
+                "Males",
+                "Females",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Sex"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number",
+                "Rate per 1,000 live births",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

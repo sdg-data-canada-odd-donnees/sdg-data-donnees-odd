@@ -16,28 +16,28 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                "Northwest Territories including Nunavut",
+                "Hommes",
+                "Femmes",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Sexe"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nombre",
+                "Rate per 1,000 live births",
+                ""
+              ]
+            },
+            "title": "Unités"
           },
           {
             "name": "Value",
