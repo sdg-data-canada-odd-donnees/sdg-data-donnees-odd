@@ -21,7 +21,8 @@ neonat_mort_rate <-
     Sex,
     Units = Characteristics,
     Value = VALUE
-  )
+  ) %>%
+  arrange(Units) 
 
 total_line <-
   neonat_mort_rate %>%
