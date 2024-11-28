@@ -32,8 +32,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Nombre",
-                "Rate per 1,000 live births",
+                "Taux de mortalité pour 1 000 naissances vivantes",
+                "Nombre de décès",
                 ""
               ]
             },
