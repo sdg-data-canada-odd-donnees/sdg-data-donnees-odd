@@ -11,7 +11,7 @@ STAT_CONC_DEF: <p>Pourcentage de femmes en âge de procréer (15-49 ans) qui sou
   enfant et qui utilisent actuellement une méthode moderne de contraception. L'indicateur
   est également appelé demande de planification familiale satisfaite par des méthodes
   modernes.</p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
