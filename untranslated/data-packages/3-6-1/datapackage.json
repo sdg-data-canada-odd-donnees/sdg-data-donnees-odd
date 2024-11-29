@@ -50,21 +50,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
                 "Males",
                 "Females",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Cause of death",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Motor vehicle accidents",
-                "Other land transport accidents",
-                "Transport accidents",
+                "Both sexes",
                 ""
               ]
             }

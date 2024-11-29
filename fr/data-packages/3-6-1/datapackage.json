@@ -52,26 +52,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
                 "Hommes",
                 "Femmes",
+                "Les deux sexes",
                 ""
               ]
             },
             "title": "Sexe"
-          },
-          {
-            "name": "Cause of death",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Accidents de véhicule à moteur",
-                "Autres accidents de transport terrestre",
-                "Accidents de transport",
-                ""
-              ]
-            },
-            "title": "Cause of death"
           },
           {
             "name": "Value",
