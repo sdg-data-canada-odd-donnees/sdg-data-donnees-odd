@@ -3807,6 +3807,21 @@
             "title": "Année"
           },
           {
+            "name": "Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Aide publique au développement (APD)",
+                "Crédits à l'exportation bénéficiant de support public",
+                "Autres apports du secteur public (AASP)",
+                "Apports du secteur privé aux conditions du marché",
+                "Dons privés, net",
+                ""
+              ]
+            },
+            "title": "Mesure"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -4993,7 +5008,7 @@
             "title": "Series"
           },
           {
-            "name": "Percentile",
+            "name": "Household income quintile or decile",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5008,7 +5023,7 @@
                 ""
               ]
             },
-            "title": "Centile"
+            "title": "Quintile ou décile de revenu du ménage"
           },
           {
             "name": "Value",
@@ -6751,8 +6766,7 @@
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
-                "Outside Canada",
-                "Northwest Territories including Nunavut",
+                "Extérieur du Canada",
                 ""
               ]
             },
@@ -7774,7 +7788,7 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "Place of residence of mother",
             "type": "string",
             "constraints": {
               "enum": [
@@ -7795,7 +7809,7 @@
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Lieu de résidence de la mère"
           },
           {
             "name": "Value",

@@ -28,7 +28,7 @@
             "title": "Series"
           },
           {
-            "name": "Percentile",
+            "name": "Household income quintile or decile",
             "type": "string",
             "constraints": {
               "enum": [
@@ -43,7 +43,7 @@
                 ""
               ]
             },
-            "title": "Centile"
+            "title": "Quintile ou décile de revenu du ménage"
           },
           {
             "name": "Value",

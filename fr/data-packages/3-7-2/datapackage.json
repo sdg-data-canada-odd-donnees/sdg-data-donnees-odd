@@ -16,7 +16,7 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "Place of residence of mother",
             "type": "string",
             "constraints": {
               "enum": [
@@ -37,7 +37,7 @@
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Lieu de résidence de la mère"
           },
           {
             "name": "Value",

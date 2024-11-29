@@ -16,6 +16,21 @@
             "title": "Year"
           },
           {
+            "name": "Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Official Development Assistance (ODA)",
+                "Officially supported export credits",
+                "Other Official Flows (OOF)",
+                "Private flows at market terms",
+                "Private grants, net",
+                ""
+              ]
+            },
+            "title": "Measure"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

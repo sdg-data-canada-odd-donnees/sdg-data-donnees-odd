@@ -16,6 +16,21 @@
             "title": "Année"
           },
           {
+            "name": "Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Aide publique au développement (APD)",
+                "Crédits à l'exportation bénéficiant de support public",
+                "Autres apports du secteur public (AASP)",
+                "Apports du secteur privé aux conditions du marché",
+                "Dons privés, net",
+                ""
+              ]
+            },
+            "title": "Mesure"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

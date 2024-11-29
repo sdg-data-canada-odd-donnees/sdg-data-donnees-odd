@@ -3807,6 +3807,21 @@
             "title": "Year"
           },
           {
+            "name": "Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Official Development Assistance (ODA)",
+                "Officially supported export credits",
+                "Other Official Flows (OOF)",
+                "Private flows at market terms",
+                "Private grants, net",
+                ""
+              ]
+            },
+            "title": "Measure"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
@@ -4993,7 +5008,7 @@
             "title": "Series"
           },
           {
-            "name": "Percentile",
+            "name": "Household income quintile or decile",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5008,7 +5023,7 @@
                 ""
               ]
             },
-            "title": "Percentile"
+            "title": "Household income quintile or decile"
           },
           {
             "name": "Value",
@@ -6752,7 +6767,6 @@
                 "Northwest Territories",
                 "Nunavut",
                 "Outside Canada",
-                "Northwest Territories including Nunavut",
                 ""
               ]
             },
@@ -7774,7 +7788,7 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
+            "name": "Place of residence of mother",
             "type": "string",
             "constraints": {
               "enum": [
@@ -7795,7 +7809,7 @@
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Place of residence of mother"
           },
           {
             "name": "Value",
