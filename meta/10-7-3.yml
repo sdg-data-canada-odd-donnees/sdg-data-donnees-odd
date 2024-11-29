@@ -1,22 +1,25 @@
-SDG_GOAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
-SDG_TARGET: '<p>Target 10.7: Facilitate orderly, safe, regular and responsible migration
-  and mobility of people, including through the implementation of planned and well-managed
-  migration policies</p>'
-SDG_INDICATOR: '<p>Indicator: 10.7.3: Number of people who died or disappeared in the 
-  process of migration towards an international destination</p>'
-STAT_CONC_DEF: <p>The indicator measures the number of people who died or disappeared in the 
-  process of migration towards an international destination.</p>
+# National
+SDG_GOAL: >-
+  Goal 10: Reduce inequality within and among countries
+SDG_TARGET: >-
+  Target 10.7: Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies
+SDG_INDICATOR: >-
+  Indicator: 10.7.3: Number of people who died or disappeared in the process of migration towards an international destination
+STAT_CONC_DEF: >-
+  The indicator measures the number of people who died or disappeared in the process of migration towards an international destination.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
-SDG_TARGET__GLOBAL: '<p>Target 10.7: Facilitate orderly, safe, regular and responsible
-  migration and mobility of people, including through the implementation of planned
-  and well-managed migration policies</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator: 10.7.3: Number of people who died or disappeared in the 
-  process of migration towards an international destination</p>'
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 10: Reduce inequality within and among countries
+SDG_TARGET__GLOBAL: >-
+  Target 10.7: Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies
+SDG_INDICATOR__GLOBAL: >-
+  Indicator: 10.7.3: Number of people who died or disappeared in the process of migration towards an international destination
+
 un_designated_tier: Tier I
-un_custodian_agency: International Organization for Migration
+un_custodian_agency: International Organization for Migration (IOM)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-03.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
  

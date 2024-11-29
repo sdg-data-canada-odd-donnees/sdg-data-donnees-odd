@@ -1,22 +1,25 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '<p>Cible 10.7 : Faciliter la migration et la mobilité de façon ordonnée, sûre, 
-  régulière et responsable, notamment par la mise en œuvre de politiques migratoires planifiées
-  et bien gérées.</p>'
-SDG_INDICATOR: '<p>Indicateur 10.7.4 : Proportion de réfugiés dans la population, par pays d’origine.</p>'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: >-
+  Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre
+SDG_TARGET: >-
+  Cible 10.7 : Faciliter la migration et la mobilité de façon ordonnée, sûre, régulière et responsable, notamment par la mise en œuvre de politiques migratoires planifiées et bien gérées.
+SDG_INDICATOR: >-
+  Indicateur 10.7.4 : Proportion de réfugiés dans la population, par pays d’origine.
+STAT_CONC_DEF: >-
+  L'indicateur est défini comme le nombre total de personnes reconnues comme réfugiés par rapport à la population totale de leur pays d'origine, exprimé pour 100 000 habitants.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 10.7 : Faciliter la migration et la mobilité de façon ordonnée, sûre, 
-  régulière et responsable, notamment par la mise en œuvre de politiques migratoires planifiées
-  et bien gérées.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 10.7.4 : Proportion de réfugiés dans la population, par pays d’origine.</p>'
 
-reporting_status: notstarted
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre
+SDG_TARGET__GLOBAL: >-
+  Cible 10.7 : Faciliter la migration et la mobilité de façon ordonnée, sûre, régulière et responsable, notamment par la mise en œuvre de politiques migratoires planifiées et bien gérées.
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 10.7.4 : Proportion de réfugiés dans la population, par pays d’origine.
 
 un_designated_tier: Niveau I
-un_custodian_agency: Le Haut Commissariat des Nations Unies pour les réfugiés (HCR)
+un_custodian_agency: Haut-Commissariat pour les réfugiés (HCR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-04.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
  
