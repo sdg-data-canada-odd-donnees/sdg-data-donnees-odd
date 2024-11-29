@@ -23,7 +23,11 @@ expected_disaggregations:
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-3-5-title
+graph_title:
+  - series: Leprosy
+    title: Number of people requiring interventions against leprosy
+  - series: Rabies
+    title: Number of people requiring interventions against rabies
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-3-5-title
