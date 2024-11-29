@@ -12,7 +12,7 @@ STAT_CONC_DEF: >-
   <br><br>
   Le taux de croissance de la population est la variation de la population dans une zone définie (pays, ville, etc.) au cours d'une période, généralement d'un an, exprimée en pourcentage de la population au début de cette période. Il reflète le nombre de naissances et de décès au cours d'une période et le nombre de personnes qui migrent vers et depuis la zone concernée. Pour l'ODD 11.3.1, il est calculé au niveau de la zone définie comme urbaine/ville.
 DATA_COMP: >-
-  Pour toutes les villes, les points de recensement de la population de Statistique Canada ont été utilisés pour le dénombrement de la population (https://www12.statcan.gc.ca/census-recensement/2021/geo/index-fra.cfm), et la série chronologique de l'utilisation des terres v4 à une résolution de 30 m, produite par Agriculture et Agroalimentaire Canada, a été utilisée pour les zones bâties (https://ouvert.canada.ca/data/fr/dataset/fa84a70f-03ad-4946-b0f8-a3b481dd5248).
+  Pour toutes les villes, les points de recensement de la population de Statistique Canada ont été utilisés pour le dénombrement de la population ([Géographie du recensement](https://www12.statcan.gc.ca/census-recensement/2021/geo/index-fra.cfm)), et la série chronologique de l'utilisation des terres v4 à une résolution de 30 m, produite par Agriculture et Agroalimentaire Canada, a été utilisée pour les zones bâties ([L'utilisation des terres d'AAC](https://ouvert.canada.ca/data/fr/dataset/fa84a70f-03ad-4946-b0f8-a3b481dd5248)).
 REC_USE_LIM: >-
   Les données sur la population datent de 2011 et 2021. Les données sur l'utilisation des sols datent de 2010 et 2020.
   <br><br>

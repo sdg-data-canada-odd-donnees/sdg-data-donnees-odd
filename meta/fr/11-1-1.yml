@@ -6,7 +6,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   Indicateur 11.1.1 : Proportion de la population urbaine ayant des « besoins impérieux en matière de logement »
 STAT_CONC_DEF: >-
-  <p>Cet indicateur mesure la proportion de la population urbaine ayant des besoins impérieux en matière de logement. La population urbaine est définie comme la population vivant dans les « grands centres de population urbains » tels que définis par l'Enquête canadienne sur le logement.
+  <p>Cet indicateur mesure la proportion de la population urbaine ayant des besoins impérieux en matière de logement. La population urbaine est définie comme la population vivant dans les grands centres de population urbains tels que définis par l'Enquête canadienne sur le logement.
   <br><br>
   On dit d'un ménage qu'il éprouve des « besoins impérieux en matière de logement » si son habitation n'est pas conforme à au moins une des normes d'acceptabilité (qualité, taille et abordabilité) et si 30 % de son revenu total avant impôt serait insuffisant pour payer le loyer médian des logements acceptables (répondant aux trois normes d'occupation) situés dans sa localité.
   <br><br>
@@ -20,7 +20,7 @@ DATA_COMP: custom.data-comp-national
 REC_USE_LIM: >-
   Il s’agit d’un indicateur proxy. L’indicateur mondial des Nations Unies indique : « Proportion de la population urbaine vivant dans des quartiers de taudis, des implantations sauvages ou des logements inadéquats ».
   <br><br>
-  Seuls les ménages privés, non agricoles, hors réserve et les ménages propriétaires ou locataires dont les revenus sont supérieurs à zéro et dont le ratio des frais de logement au revenu est inférieur à 100 % sont évalués pour les « besoins impérieux en matière de logement ». Les ménages non familiaux dont au moins un soutien âgé de 15 à 29 ans fréquente l’école sont considérés comme n’ayant pas de « besoins impérieux en matière de logement », quelle que soit leur situation de logement. La fréquentation de l'école est considérée comme une phase de transition et les faibles revenus gagnés par les ménages étudiants sont considérés comme une condition temporaire.
+  Seuls les ménages privés, non agricoles, hors réserve et les ménages propriétaires ou locataires dont les revenus sont supérieurs à zéro et dont le ratio des frais de logement au revenu est inférieur à 100 % sont évalués pour les besoins impérieux en matière de logement. Les ménages non familiaux dont au moins un soutien âgé de 15 à 29 ans fréquente l’école sont considérés comme n’ayant pas de besoins impérieux en matière de logement, quelle que soit leur situation de logement. La fréquentation de l'école est considérée comme une phase de transition et les faibles revenus gagnés par les ménages étudiants sont considérés comme une condition temporaire.
 
 # Global
 SDG_GOAL__GLOBAL: >-
