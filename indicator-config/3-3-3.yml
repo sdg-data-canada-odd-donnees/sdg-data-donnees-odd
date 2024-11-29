@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Rate per 100,000 population
+computation_units: Malaria incidence per 100,000 population
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -31,7 +31,7 @@ progress_calculation_options:
 - direction: negative
   target: 0
   target_year: 2030
-progress_status: negligible_progress
+progress_status: deterioration
 reporting_status: complete
 sort: ''
 standalone: false
