@@ -8,27 +8,21 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values:
-- field: Disease
-  value: Leprosy
-- field: Disease
-  value: Rabies
+data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations:
-- Disease
+expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title:
+graph_titles: 
   - series: Leprosy
     title: Number of people requiring interventions against leprosy
   - series: Rabies
     title: Number of people requiring interventions against rabies
-graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-3-5-title
 indicator_number: 3.3.5
