@@ -4,13 +4,13 @@ SDG_GOAL: >-
 SDG_TARGET: >-
   Target 11.4: Strengthen efforts to protect and safeguard the world's cultural and natural heritage
 SDG_INDICATOR: >-
-  Indicator 11.4.1: Total per capita expenditure spent on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)
+  Indicator 11.4.1: Public per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage
 STAT_CONC_DEF: >-
-  This indicator measures total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage. Preservation, protection and conservation of all cultural and natural heritage is defined using the following Canadian Classification of Functions of Government (CCOFOG) codes: Protection of biodiversity and landscape [7054] and Cultural services [7082].
+  This indicator measures public per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage. Preservation, protection and conservation of all cultural and natural heritage is defined using the following Canadian Classification of Functions of Government (CCOFOG) codes: Protection of biodiversity and landscape [7054] and Cultural services [7082].
 DATA_COMP: >-
-  Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage = Total expenditure on the preservation, protection and conservation of all cultural and natural heritage (COFOG = 7054 + 7082) / Total population
+  Public per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage = Total expenditure on the preservation, protection and conservation of all cultural and natural heritage (COFOG = 7054 + 7082) / Total population
 REC_USE_LIM: >-
-  This is a proxy indicator that measures the total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage but excludes private heritage expenditures. Further, this indicator is reported in Canadian dollars and not constant 2017 United States dollars as specified in the UN Global metadata.
+  This indicator measures public expenditure per capita on the preservation, protection, and conservation of all cultural and natural heritage. Private expenditures related to heritage preservation, protection, and conservation are not currently available. Further, this indicator is reported in current Canadian dollars and not constant 2017 US dollars as specified in the UN Global metadata.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-
@@ -18,7 +18,7 @@ SDG_GOAL__GLOBAL: >-
 SDG_TARGET__GLOBAL: >-
   Target 11.4: Strengthen efforts to protect and safeguard the world's cultural and natural heritage
 SDG_INDICATOR__GLOBAL: >-
-  Indicator 11.4.1: Total expenditure per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)
+  Indicator 11.4.1: Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)
 
 un_designated_tier: Tier II
 un_custodian_agency: UNESCO Institute for Statistics (UIS)
