@@ -19,7 +19,10 @@ STAT_CONC_DEF: >-
   Rendement des actifs : Cet ISF est calculé en divisant le bénéfice net annualisé avant éléments extraordinaires et impôts (comme recommandé dans le Guide de l'ISF) par la valeur moyenne du total des actifs (financiers et non financiers) sur la même période.
   <br><br>
   Actifs liquides sur passifs à court terme : Cet ISF est calculé en utilisant les actifs liquides comme numérateur et les passifs à court terme comme dénominateur. Les composantes des actifs liquides sont définies dans le Guide de compilation des ISF 2019 du FMI (Guide des ISF 2019).
-DATA_COMP: custom.data-comp
+DATA_COMP: >-
+  Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
+  <br><br>
+  Les données à la source sont rapportées trimestriellement. Les données annnualisées présentées ici prennent les valeurs du dernier trimestre de chaque année.
 REC_USE_LIM: >-
   En raison du manque de données, la série sur la position ouverte nette en devises par rapport au capital n'est pas incluse.
 
