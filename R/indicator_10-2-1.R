@@ -2,14 +2,12 @@
 # 10.2.1 Proportion of people living below 50 percent of median income, by sex, age and persons with disabilities
 
 library(cansim)
-library(here)
 library(dplyr)
 library(stringr)
-library(readr)
 
 low_income_data <- get_cansim("11-10-0135-01", factors = FALSE)
 
-geocodes <- read_csv("geocodes.csv")
+geocodes <- read.csv("geocodes.csv")
 
 persons_in_low_income <- 
   low_income_data %>%
@@ -37,9 +35,10 @@ data_final <-
   bind_rows(
     persons_in_low_income %>%
       filter(Geography == "Canada", `Persons in low income` == "All persons") %>%
-      mutate(across(Geography: `Persons in low income`, ~ "")),
+      mutate(across(Geography: `Persons in low income`, ~ NA)),
     persons_in_low_income %>%
       filter(!(Geography == "Canada" & `Persons in low income` == "All persons"))
   )
 
-write_csv(data_final, here("data", "indicator_10-2-1.csv"), na = "")
+write.csv(data_final, "data/indicator_10-2-1.csv", 
+          na = "", row.names = FALSE, fileEncoding = "UTF-8")
