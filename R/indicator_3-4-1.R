@@ -1,4 +1,3 @@
-
 # Indicator 3.4.1 ---------------------------------------------------------
 # Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease
 
@@ -12,12 +11,15 @@ mortality_data <- get_cansim("13-10-0394-01", factors = FALSE)
 # diseases considered in this indicator
 diseases <- c(
   "Malignant neoplasms [C00-C97]",
-  "In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour [D00-D48]",
   "Diabetes mellitus [E10-E14]",
   "Diseases of heart [I00-I09, I11, I13, I20-I51]",
-  "Influenza and pneumonia [J09-J18]",
-  "Acute bronchitis and bronchiolitis [J20-J21]",
-  "Chronic lower respiratory diseases [J40-J47]"
+  "Essential hypertension and hypertensive renal disease [I10, I12, I15]",
+  "Cerebrovascular diseases [I60-I69]",
+  "Atherosclerosis [I70]",
+  "Aortic aneurysm and dissection [I71]",
+  "Chronic lower respiratory diseases [J40-J47]",
+  "Pneumoconioses and chemical effects [J60-J66, J68]",
+  "Pneumonitis due to solids and liquids [J69]"
 )
 
 data_final <- 

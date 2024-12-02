@@ -9,7 +9,7 @@ STAT_CONC_DEF: <p>Nombre de personnes nécessitant un traitement et des soins po
   l'une des maladies tropicales négligées (ATN) visées par la feuille de route de
   l'OMS sur les ATN et les résolutions de l'Assemblée mondiale de la santé et signalées
   à l'OMS.</p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
@@ -20,7 +20,7 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.3.5: Nombre de personnes pour lesquelles
   interventions contre les maladies tropicales négligées sont nécessaires</p>'
 
 source_active_1: true
-source_url_text_1: 'Nombre de cas signalés de maladies de 1991 à 2020 au Canada - maladies à déclaration obligatoire en direct'
+source_url_text_1: Maladies à déclaration obligatoire en direct
 source_url_1: 'https://maladies.canada.ca/declaration-obligatoire/graphiques?c=yl'
 source_organisation_1: |
   Agence de la santé publique du Canada

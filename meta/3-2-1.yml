@@ -3,12 +3,14 @@ SDG_TARGET: '<p>Target 3.2: By 2030, end preventable deaths of newborns and chil
   under 5 years of age, with all countries aiming to reduce neonatal mortality to
   at least as low as 12 per 1,000 live births and under-5 mortality to at least as
   low as 25 per 1,000 live births</p>'
-SDG_INDICATOR: '<p>Indicator 3.2.1: Under-5 mortality rate</p>'
+SDG_INDICATOR: '<p>Indicator 3.2.1: Number of deaths of children aged under 5 per 1,000 live births</p>'
 STAT_CONC_DEF: <p>Under-5 mortality is the probability of a child born in a specific
   year or period dying before reaching the age of 5 years, if subject to age specific
   mortality rates of that period, expressed per 1000 live births.</p>
-DATA_COMP: 'Under-5 mortality rate per 1,000 live births = (Number of deaths of children aged under 5 / Number of live births) x 1,000'
-REC_USE_LIM: '<p>2017 to 2021 data for Yukon are not available.</p>'
+DATA_COMP: ' Number of deaths of children aged under 5 per 1,000 live births = (Number of deaths of children aged under 5 / Number of live births) x 1,000'
+REC_USE_LIM: |
+  This is a proxy indicator that measures the number of deaths of children aged under 5 per 1,000 live births, whereas the UN Global indicator states: "Under-5 mortality rate".
+  <br><br> The latest four reference years are considered preliminary. Data for 2017 to 2022 are not available for Yukon.
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.2: By 2030, end preventable deaths of newborns and
@@ -38,3 +40,5 @@ un_designated_tier: Tier I
 un_custodian_agency: United Nations Children's Fund (UNICEFF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-02-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+proxy: proxy

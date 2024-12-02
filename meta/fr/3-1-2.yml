@@ -2,11 +2,17 @@ SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouv
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET: '<p>Cible 3.1 : D’ici à 2030, faire passer le taux mondial de mortalité
   maternelle au-dessous de 70 par 100 000naissances vivantes.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.1.2 : Proportion d’accouchements assistés par du personnel
-  de santé qualifié.</p>'
-STAT_CONC_DEF: '    '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+SDG_INDICATOR: '<p>Indicateur 3.1.2 : Pourcentage de naissances ayant eu lieu en milieu hospitalier</p>'
+STAT_CONC_DEF: |
+  La proportion d'accouchements assistés par du personnel de santé qualifié (généralement des médecins, des infirmières ou des sages-femmes, mais peuvent faire référence à d'autres professionnels de la santé fournissant des soins d'accouchement) est la proportion d'accouchements assistés par du personnel de santé professionnel. <br><br>
+  Selon la définition actuelle (1), il s’agit de professionnels compétents de la santé maternelle et néonatale (SMN), formés et réglementés selon les normes nationales et internationales. Ils sont compétents pour : (i) fournir et promouvoir des soins de qualité, fondés sur des données probantes, fondés sur les droits de l'homme, sensibles à la culture socioculturelle et dignes aux femmes et aux nouveau-nés ; (ii) faciliter les processus physiologiques pendant le travail et l'accouchement pour garantir une expérience d'accouchement propre et positive ; et (iii) identifier et prendre en charge ou orienter les femmes et/ou les nouveau-nés présentant des complications.
+DATA_COMP: custom.data-comp-national
+REC_USE_LIM: |
+  La proportion de naissances à l’hôpital comprend les naissances vivantes et les décès fœtaux (mortinaissances). 
+  <br><br> Avant le 30 avril 2015, trois formulaires – un certificat médical de mortinatalité, un avis de naissance vivante ou de mortinatalité et une déclaration de mortinatalité – étaient requis pour enregistrer une mortinatalité en Ontario. Depuis le 30 avril 2015, l'inscription peut avoir lieu en l'absence d'un ou deux des formulaires, contribuant ainsi à l'augmentation observée entre 2011 et 2012.
+  <br><br> En raison des améliorations apportées à la méthodologie et au respect des délais, la durée de la collecte des données a été raccourcie par rapport aux années précédentes. En conséquence, il se peut qu’il y ait eu moins de naissances et de mortinaissances enregistrées au moment de la diffusion. Les données de 2022 sont considérées comme préliminaires.
+  <br><br> En raison des retards dans l’enregistrement des naissances et des mortinaissances, moins de naissances et de mortinaissances ont été enregistrées jusqu’à présent au Manitoba en 2022. Il y a également eu moins de naissances enregistrées en Nouvelle-Écosse en 2021 en raison de problèmes de couverture.
+  <br><br> Les données de 2017 à 2022 pour le Yukon ne sont pas disponibles.
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.1 : D’ici à 2030, faire passer le taux mondial de mortalité
@@ -17,13 +23,15 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.1.2 : Proportion d’accouchements ass
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: |
-    Statistique Canada. Naissances, 2021. Graphique 2. Pourcentage de naissances ayant eu lieu ailleurs qu'en milieu hospitalier, Canada, 2011 à 2021
-source_url_1: https://www150.statcan.gc.ca/n1/daily-quotidien/220928/cg-d002-fra.htm
+    Statistique Canada. Tableau 13-10-0429-01  Naissances vivantes et morts foetales (mortinaissances), selon le lieu de naissance (hôpital ou non-hôpital)
+source_url_1: https://doi.org/10.25318/1310042901-fra
 source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Province ou territoire
 
 un_designated_tier: Niveau I
 un_custodian_agency: Fonds des Nations unies pour l'enfance (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+proxy: proxy

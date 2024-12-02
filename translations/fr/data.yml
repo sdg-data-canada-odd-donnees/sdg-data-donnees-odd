@@ -624,6 +624,7 @@ Both type: Les deux types
 With nicotine: Avec nicotine
 Without nicotine: Sans nicotine
 Per 1,000 live births: Pour 1 000 naissances vivantes
+Number of deaths per 1,000 live births: Nombre de décès pour 1 000 naissances vivantes
 
 ## 3-2-2
 Total infant deaths, age at time of death, under 1 year: Total des décès infantiles, âge au décès, moins d'un an
@@ -650,10 +651,13 @@ Post-neonatal, age at time of death, 8 months: Post-néonatal, âge au décès, 
 Post-neonatal, age at time of death, 9 months: Post-néonatal, âge au décès, 9 mois
 Post-neonatal, age at time of death, 10 months: Post-néonatal, âge au décès, 10 mois
 Post-neonatal, age at time of death, 11 months: Post-néonatal, âge au décès, 11 mois
-
+Mortality rate per 1,000 live births: Taux de mortalité pour 1 000 naissances vivantes
+Number of deaths: Nombre de décès
 
 ## 3-3-1
 Rate per 1,000 uninfected population: Taux pour 1 000 habitants non infectés
+Number of newly infected people per 1,000 uninfected population: Nombre de nouvelles infections au VIH pour 1 000 habitants non infectés
+Number of newly infected people per 100,000 uninfected population: Nombre de nouvelles infections au VIH pour 100 000 habitants non infectés
 All ages: Tous les âges
 Adults (15-49): Adultes (15-49) 
 Measures: Mesures
@@ -668,9 +672,16 @@ Ages 18 to 39: 18 à 39 ans
 Ages 40 to 59: 40 à 59 ans
 Ages 60 to 79: 60 à 79 ans
 
+## 3-3-3
+Malaria incidence per 100,000 population: Incidence du paludisme pour 100 000 habitants
+
 ## 3-3-5
 Leprosy: Lèpre
 Rabies: Rage
+Number of people requiring interventions against leprosy: Nombre de personnes pour lesquelles des interventions contre la lèpre sont nécessaires
+Number of people requiring interventions against rabies: Nombre de personnes pour lesquelles des interventions contre la rage sont nécessaires
+Unknown: Inconnu
+Number of people: Nombre de personnes
 
 ## 3-4-1
 All ages: Tous les âges
@@ -700,6 +711,10 @@ Diseases of heart: Maladies du coeur
 Influenza and pneumonia: Grippe et pneumopathie
 Acute bronchitus and bronchiolitis: Bronchite aiguë et bronchiolite aiguë
 Chronic lower respiratory diseases: Maladies chroniques des voies respiratoires inférieures
+Age-specific mortality rate per 100,000 population: Taux de mortalité selon l'âge pour 100 000 personnes
+
+## 3-5-2
+Number of litres of pure alcohol sales per person aged 15 years and older in a year: Nombre de litres d’alcool pur vendus par personne âgée de 15 ans et plus au cours d’une année
 
 ## 3-6-1
 All ages: Tous les âges
