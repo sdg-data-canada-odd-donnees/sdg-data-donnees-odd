@@ -27,8 +27,11 @@ graph_stacked_disaggregation: ''
 graph_target_lines:
   - unit: Mortality rate per 1,000 live births
     value: 12
-graph_title: global_indicators.3-2-2-title
-graph_titles: []
+graph_titles:
+  - unit: Mortality rate per 1,000 live births
+    title: Neonatal mortality rate per 1,000 live births
+  - unit: Number of deaths
+    title: Number of neonatal deaths
 graph_type: line
 indicator_name: global_indicators.3-2-2-title
 indicator_number: 3.2.2
