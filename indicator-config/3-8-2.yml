@@ -18,8 +18,11 @@ expected_disaggregations:
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: proxy.3-8-2-title
-graph_titles: []
+graph_titles: 
+  - series: Proportion with share above 10%
+    title: Proportion of population (individuals) with share above 10% with large household expenditures on select health care items as a share of total after-tax income
+  - series: Proportion with share above 25%
+    title: Proportion of population (individuals) with share above 25% with large household expenditures on select health care items as a share of total after-tax income
 graph_type: line
 indicator_available: proxy.3-8-2-title
 indicator_name: global_indicators.3-8-2-title
