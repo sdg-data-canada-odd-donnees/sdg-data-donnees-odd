@@ -5,10 +5,9 @@ SDG_TARGET: '<p>Cible 3.8 : Faire en sorte que chacun bénéficie d’une couver
   universelle, comprenant une protection contre les risques financiers et donnant
   accès à des services de santé essentiels de qualité et à des médicaments et vaccins
   essentiels sûrs, efficaces, de qualité et d’un coût abordable</p>'
-SDG_INDICATOR: '<p>Indicateur 3.8.2 : Proportion de la population consacrant
-  une grande part de ses dépenses ou de ses revenus domestiques aux services de soins
-  de santé</p>'
-STAT_CONC_DEF: '   '
+SDG_INDICATOR: '<p>Indicateur 3.8.2 : Proportion de la population (personnes) consacrant une grande part de ses dépenses du ménage à certains articles de soins de santé en proportion du revenu total après impôt</p>'
+STAT_CONC_DEF: |
+  Proportion de la population dont les ménages consacrent d'importantes dépenses de santé à la part des dépenses ou des revenus totaux des ménages. Deux seuils sont utilisés pour définir les « dépenses de santé importantes des ménages » : supérieures à 10 % et supérieures à 25 % des dépenses ou revenus totaux des ménages.
 DATA_COMP: |
     <p>L'Enquête sur les dépenses des ménages (EDM) recueille les dépenses au moyen de deux modes de collecte : un questionnaire (utilisant des périodes de remémoration qui varient selon le type de dépense) et un journal d'une période de deux semaines.</p>
     <p>Pour des raisons de méthodologie, les dépenses en soins de santé recueillies à l'aide du journal portant sur deux semaines ont été exclues du numérateur dans le calcul de chaque proportion du revenu du ménage dépensée en soins de santé. Les articles de soins de santé exclus sont les médicaments et produits pharmaceutiques sans ordonnance, les fournitures en soins de santé, d'autres appareils de soins de santé (c.-à-d., autres que les principaux) et les articles de lunetterie et autres articles de soins des yeux sans ordonnance. Puisque ces articles ont été exclus, la définition de dépenses en soins de santé utilisée pour cet indicateur ne correspond donc pas à la Classification des fonctions de la consommation individuelle (COICOP).</p>
@@ -17,7 +16,7 @@ DATA_COMP: |
     <p>Le revenu du ménage après impôt a été utilisé pour le dénominateur, puisqu'aucune mesure de la consommation totale annuelle n'est disponible au niveau du ménage individuel en raison de la conception de l'enquête.</p>
 
 REC_USE_LIM: |
-    <p>Les estimations de l'EDM excluent les ménages dans les trois territoires du Canada.</p>
+    Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique: "Proportion de la population consacrant une grande part de ses dépenses ou de ses revenus domestiques aux services de soins de santé". Les estimations de l’enquête sur les dépenses des ménages (EDM) excluent les trois territoires du Canada.
 
 ## GLOBAL METADATA
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
