@@ -826,7 +826,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux par 100 000 personnes",
+                "Taux pour 100 000 personnes",
                 "Nombre",
                 ""
               ]
@@ -3857,7 +3857,7 @@
                 ""
               ]
             },
-            "title": "Type of disease"
+            "title": "Type de maladie"
           },
           {
             "name": "Value",
@@ -3888,7 +3888,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux par 100 000 personnes",
+                "Taux pour 100 000 personnes",
                 "Nombre",
                 ""
               ]
@@ -5260,7 +5260,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux par 100 000 personnes",
+                "Taux pour 100 000 personnes",
                 "Nombre",
                 ""
               ]
