@@ -1,34 +1,38 @@
-SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET: '<p>Target 1.5: By 2030, build the resilience of the poor and those in vulnerable
-  situations and reduce their exposure and vulnerability to climate-related extreme
-  events and other economic, social and environmental shocks and disasters</p>'
-SDG_INDICATOR: '<p>Indicator 1.5.4: Local governments that adopted and implemented local disaster risk reduction strategies in line with national disaster risk reduction strategies</p>'
-STAT_CONC_DEF: 'This indicator informs on local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies.'
+# National
+SDG_GOAL: >-
+  Goal 1: End poverty in all its forms everywhere
+SDG_TARGET: >-
+  Target 1.5: By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters
+SDG_INDICATOR: >-
+  Indicator 1.5.4: Local governments that adopted and implemented local disaster risk reduction strategies in line with national disaster risk reduction strategies
+STAT_CONC_DEF: >-
+  This indicator informs on local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies.
 DATA_COMP: '     '
-REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: “Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies”.'
-SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET__GLOBAL: '<p>Target 1.5: By 2030, build the resilience of the poor and those in
-  vulnerable situations and reduce their exposure and vulnerability to climate-related
-  extreme events and other economic, social and environmental shocks and disasters</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 1.5.4: Proportion of local governments that adopt
-  and implement local disaster risk reduction strategies in line with national disaster
-  risk reduction strategies</p>'
+REC_USE_LIM: >-
+  This is a proxy indicator. The UN Global indicator states: “Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies”.
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 1: End poverty in all its forms everywhere
+SDG_TARGET__GLOBAL: >-
+  Target 1.5: By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 1.5.4: Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies
+
 un_designated_tier: Tier II
-un_custodian_agency: United Nations International Strategy for Disaster Reduction
-  (UNISDR)
+un_custodian_agency: United Nations International Strategy for Disaster Reduction (UNISDR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-04.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: |
-    Government of British Columbia. Modernizing BC’s Emergency Management Legislation (English Only)
+source_url_text_1: Government of British Columbia. Emergency Management Legislation (English Only)
 source_url_1: https://www2.gov.bc.ca/gov/content/safety/emergency-management/emergency-management/legislation-and-regulations
 source_organisation_1: Government of British Columbia
 source_geographical_coverage_1: British Columbia
 
 source_active_2: 'true'
-source_url_text_2: |
-    Gouvernement of Quebec. Politique québécoise de sécurité civile 2014-2024 (French Only)
+source_url_text_2: Gouvernement of Quebec. Politique québécoise de sécurité civile 2014-2024 (French Only)
 source_url_2: https://www.quebec.ca/gouvernement/ministere/securite-publique/publications/politique-quebecoise-securite-civile-2014-2024
 source_organisation_2: Gouvernement of Quebec
 source_geographical_coverage_2: Quebec
