@@ -9,14 +9,19 @@ SDG_TARGET: '<p>Target 3.b: Support the research and development of vaccines and
   for all</p>'
 SDG_INDICATOR: '<p>Indicator 3.b.1: Proportion of the target population covered by
   all vaccines included in their national programme</p>'
-STAT_CONC_DEF: 'This indicator measures the proportion of the target population covered by
-  all vaccines included in their national programme.'
+STAT_CONC_DEF: This indicator measures the childhood vaccination
+  rates for selected diseases. The Public Health Agency of Canada routinely monitors
+  childhood vaccination coverage in Canada through the childhood National Immunization
+  Coverage Survey.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: "In the CNICs 2015, the survey reported on HPV vaccination coverage for girls aged 13-14, as the vaccine was only publicly funded for girls at that time. In the CNICs 2017, the HPV vaccine estimates represents the coverage for 14-year-olds of all genders. <br><br>Pneumococcal 3 doses* - Three doses by 2nd birthday for all provinces and territories, except Nunavut and Northwest Territories where four doses are required by the child's 2nd birthday. <br><br>Estimates for the varicella vaccine are not shown for 2013 and 2015 due to data quality concerns."
+REC_USE_LIM: The childhood vaccines included were those that are publicly
+  funded under provincial/territorial programs. Vaccines recommended only for travel
+  and some high-risk groups were excluded. The survey excluded First Nations on-reserve
+  communities and institutionalized children.
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.b: Support the research and development of vaccines
-  and medicines for the communicable and non&#x2011;communicable diseases that primarily
+  and medicines for the communicable and non-communicable diseases that primarily
   affect developing countries, provide access to affordable essential medicines and
   vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public
   Health, which affirms the right of developing countries to use to the full the provisions
@@ -31,12 +36,12 @@ un_custodian_agency: World Health Organization (WHO),  United Nations Internatio
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
-source_active_1: 'true'
-source_url_text_1: Childhood National Immunization Coverage Survey (CNICS)
-source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5185
+source_active_1: true
+source_url_text_1: Statistics Canada. Table 13-10-0870-01  Vaccine coverage estimates for recommended vaccines in children and pregnant women
+source_url_1: https://doi.org/10.25318/1310087001-eng
 source_organisation_1: Statistics Canada
-source_periodicity_1: Every 2 years
-source_geographical_coverage_1: Canada
+source_periodicity_1: Occasional
+source_geographical_coverage_1: Canada, provinces and territories
 
 reporting_status: complete
 

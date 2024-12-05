@@ -6,27 +6,35 @@ data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
-data_show_map: false
+data_show_map: true
 data_start_values:
-- field: Antigen or vaccine
-  value: Diphtheria
-- field: Antigen or vaccine
-  value: Haemophilus influenzae type B (Hib)
-- field: Antigen or vaccine
+- field: Geography
+  value: Canada
+- field: Selected diseases
+  value: Meningococcal type C
+- field: Selected diseases
   value: Hepatitis B
-- field: Antigen or vaccine
-  value: Mumps
+- field: Selected diseases
+  value: Polio
+- field: Selected diseases
+  value: Measles
+- field: Selected diseases
+  value: Varicella
+- field: Target population
+  value: Recommended vaccines for 2-year-old children
+- field: Gender
+  value: Total - Gender
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
-- Antigen
+- Selected diseases
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-b-1-title
+graph_title: chart.3-b-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-b-1-title
