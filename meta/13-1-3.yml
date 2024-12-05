@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Goal 13: Take urgent action to combat climate change and its impacts</p>'
 SDG_TARGET: '<p>Target 13.1: Strengthen resilience and adaptive capacity to 
   climate-related hazards and natural disasters in all countries</p>'
@@ -5,26 +6,28 @@ SDG_INDICATOR: '<p>Indicator 13.1.3: Local governments that adopted and implemen
 STAT_CONC_DEF: 'This indicator informs on local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies.'
 DATA_COMP: '     '
 REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: “Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies”.'
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 13: Take urgent action to combat climate change and its impacts</p>'
 SDG_TARGET__GLOBAL: '<p>Target 13.1: Strengthen resilience and adaptive capacity to 
   climate-related hazards and natural disasters in all countries</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 13.1.3: Proportion of local governments that adopt and implement local
   disaster risk reduction strategies in line with national disaster risk reduction strategies</p>'
+
 un_designated_tier: Tier II
 un_custodian_agency: United Nations International Strategy for Disaster Reduction (UNISDR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-13-01-03.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: |
-    Government of British Columbia. Modernizing BC’s Emergency Management Legislation (English Only)
+source_url_text_1: Government of British Columbia. Emergency Management Legislation (English Only)
 source_url_1: https://www2.gov.bc.ca/gov/content/safety/emergency-management/emergency-management/legislation-and-regulations
 source_organisation_1: Government of British Columbia
 source_geographical_coverage_1: British Columbia
 
 source_active_2: 'true'
-source_url_text_2: |
-    Gouvernement of Quebec. Politique québécoise de sécurité civile 2014-2024 (French Only)
+source_url_text_2: Gouvernement of Quebec. Politique québécoise de sécurité civile 2014-2024 (French Only)
 source_url_2: https://www.quebec.ca/gouvernement/ministere/securite-publique/publications/politique-quebecoise-securite-civile-2014-2024
 source_organisation_2: Gouvernement of Quebec
 source_geographical_coverage_2: Quebec

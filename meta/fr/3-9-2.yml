@@ -9,7 +9,7 @@ SDG_INDICATOR: '<p>Indicateur 3.9.2 : Taux de mortalité attribuable à l’insa
   à des services WASH inadéquats)</p>'
 STAT_CONC_DEF: |
     Décès attribuables à des services inadéquats d'eau, de système sanitaire et d'hygiène (en particulier les services WASH), exprimés par 100 000 habitants. Les maladies incluses sont les diarrhées (codes de la CIM-10 A00, A01, A03, A04, A06-A09), les infections intestinales à nématodes (codes de la CIM-10 B76-B77, B79) et la malnutrition protéino-énergétique (codes de la CIM-10 E40-E46) attribuables à des lacunes au niveau des services WASH.
-DATA_COMP: '   '
+DATA_COMP: 'Taux de mortalité pour 100 000 personnes = (Nombre de décès / population) x 100 000'
 REC_USE_LIM: '   '
 
 # GLOBAL
@@ -29,49 +29,57 @@ source_active_1: 'true'
 source_url_text_1: |
     Statistique Canada. Tableau 13-10-0141-01  Décès, selon la cause, Chapitre I : Certaines maladies infectieuses et parasitaires (A00 à B99)
 source_url_1: https://doi.org/10.25318/1310014101-fra
-source_organisation_1: Statistics Canada
-source_periodicity_1: Annual
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: |
     Statistique Canada. Tableau 13-10-0144-01  Décès, selon la cause, Chapitre IV : Maladies endocriniennes, nutritionnelles et métaboliques (E00 à E90)
 source_url_2: https://doi.org/10.25318/1310014401-fra
-source_organisation_2: Statistics Canada
-source_periodicity_2: Annual
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada
 
 source_active_3: 'true'
 source_url_text_3: |
     Statistique Canada. Tableau 13-10-0780-01  Décès, selon la cause, Chapitre VIII : Maladies de l'oreille et de l'apophyse mastoïde (H60 à H95)
 source_url_3: https://doi.org/10.25318/1310078001-fra
-source_organisation_3: Statistics Canada
-source_periodicity_3: Annual
+source_organisation_3: Statistique Canada
+source_periodicity_3: Annuelle
 source_geographical_coverage_3: Canada
 
 source_active_4: 'true'
 source_url_text_4: |
     Statistique Canada. Tableau 13-10-0782-01  Décès, selon la cause, Chapitre X : Maladies de l'appareil respiratoire (J00 à J99)
 source_url_4: https://doi.org/10.25318/1310078201-fra
-source_organisation_4: Statistics Canada
-source_periodicity_4: Annual
+source_organisation_4: Statistique Canada
+source_periodicity_4: Annuelle
 source_geographical_coverage_4: Canada
 
 source_active_5: 'true'
 source_url_text_5: |
     Statistique Canada. Tableau 13-10-0153-01  Décès, selon la cause, Chapitre XVI : Certaines affections dont l'origine se situe dans la période périnatale (P00 à P96)
 source_url_5: https://doi.org/10.25318/1310015301-fra
-source_organisation_5: Statistics Canada
-source_periodicity_5: Annual
+source_organisation_5: Statistique Canada
+source_periodicity_5: Annuelle
 source_geographical_coverage_5: Canada
 
 source_active_6: 'true'
 source_url_text_6: |
     Statistique Canada. Tableau 13-10-0391-01  Décès, selon la cause, Chapitre XXII : Codes pour besoins spéciaux (U00 à U99)
 source_url_6: https://doi.org/10.25318/1310039101-fra
-source_organisation_6: Statistics Canada
-source_periodicity_6: Annual
+source_organisation_6: Statistique Canada
+source_periodicity_6: Annuelle
 source_geographical_coverage_6: Canada
+
+source_active_7: 'true'
+source_url_text_7: |
+    Statistique Canada. Tableau 17-10-0005-01 Estimations de la population au 1er juillet, par âge et genre
+source_url_7: https://doi.org/10.25318/1710000501-fra
+source_organisation_7: Statistique Canada
+source_periodicity_7: Annuelle
+source_geographical_coverage_7: Canada, Province ou territoire
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation mondiale de la Santé (OMS)
