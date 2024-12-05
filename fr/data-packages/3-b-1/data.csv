@@ -1,53 +1,487 @@
-Year,Antigène ou vaccin,Value
-2015,Diphtérie,76.9
-2015,Coqueluche,77.0
-2015,Tétanos,76.7
-2015,Poliomyélite (polio),91.2
-2015,Haemophilus influenzae de type B (Hib),71.9
-2015,Rougeole,89.2
-2015,Oreillons,88.9
-2015,Rubéole,88.9
-2015,Hépatite B,69.2
-2015,Varicelle,74.8
-2015,Méningocoque de type C,87.8
-2015,Pneumocoque,80.3
-2015,Rotavirus,75.4
-2017,Diphtérie,75.8
-2017,Coqueluche,75.8
-2017,Tétanos,75.8
-2017,Poliomyélite (polio),90.7
-2017,Haemophilus influenzae de type B (Hib),73.4
-2017,Rougeole,90.2
-2017,Oreillons,89.9
-2017,Rubéole,90.0
-2017,Hépatite B,74.1
-2017,Varicelle,82.9
-2017,Méningocoque de type C,87.6
-2017,Pneumocoque,81.4
-2017,Rotavirus,78.8
-2019,Diphtérie,77.5
-2019,Coqueluche,77.5
-2019,Tétanos,77.5
-2019,Poliomyélite (polio),91.9
-2019,Haemophilus influenzae de type B (Hib),74.4
-2019,Rougeole,90.2
-2019,Oreillons,89.2
-2019,Rubéole,89.4
-2019,Hépatite B,83.6
-2019,Varicelle,82.7
-2019,Méningocoque de type C,91.1
-2019,Pneumocoque,84.4
-2019,Rotavirus,84.5
-2021,Diphtérie,77.1
-2021,Coqueluche,77.1
-2021,Tétanos,77.1
-2021,Poliomyélite (polio),91.8
-2021,Haemophilus influenzae de type B (Hib),75.3
-2021,Rougeole,91.6
-2021,Oreillons,91.5
-2021,Rubéole,91.5
-2021,Hépatite B,82.6
-2021,Varicelle,87.5
-2021,Méningocoque de type C,90.5
-2021,Pneumocoque,85.1
-2021,Rotavirus,85.6
+Year,Géographie,Antigène ou vaccin,Population cible,Genre,GeoCode,Value
+2015,Canada,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,76.9
+2015,Canada,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,77.0
+2015,Canada,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,76.7
+2015,Canada,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,,91.2
+2015,Canada,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,,71.9
+2015,Canada,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,89.2
+2015,Canada,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,88.9
+2015,Canada,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,88.9
+2015,Canada,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,69.2
+2015,Canada,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,74.8
+2015,Canada,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,87.8
+2015,Canada,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,80.3
+2015,Canada,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,75.4
+2015,Canada,Diphtérie,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,74.6
+2015,Canada,Coqueluche,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,74.9
+2015,Canada,Tétanos,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,74.6
+2015,Canada,Poliomyélite (polio),Vaccins recommandés aux enfants de 7 ans,Total - Gender,,90.2
+2015,Canada,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 7 ans,Total - Gender,,77.3
+2015,Canada,Rougeole,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,85.8
+2015,Canada,Oreillons,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,86.2
+2015,Canada,Rubéole,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,93.5
+2015,Canada,Virus du papillome humain (VPH),Vaccins recommandés aux enfants de 14 ans,Femmes+,,74.6
+2015,Canada,Diphtérie,Vaccins recommandés aux enfants de 17 ans,Total - Gender,,62.2
+2015,Canada,Coqueluche,Vaccins recommandés aux enfants de 17 ans,Total - Gender,,60.2
+2015,Canada,Tétanos,Vaccins recommandés aux enfants de 17 ans,Total - Gender,,60.9
+2015,Canada,Poliomyélite (polio),Vaccins recommandés aux enfants de 17 ans,Total - Gender,,87.2
+2015,Canada,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 17 ans,Total - Gender,,74.9
+2015,Canada,Rougeole,Vaccins recommandés aux enfants de 17 ans,Total - Gender,,89.2
+2015,Canada,Oreillons,Vaccins recommandés aux enfants de 17 ans,Total - Gender,,87.7
+2015,Canada,Rubéole,Vaccins recommandés aux enfants de 17 ans,Total - Gender,,95.1
+2015,Canada,Hépatite B,Vaccins recommandés aux enfants de 17 ans,Total - Gender,,88.1
+2017,Canada,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,75.8
+2017,Canada,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,75.8
+2017,Canada,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,75.8
+2017,Canada,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,,90.7
+2017,Canada,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,,73.4
+2017,Canada,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,90.2
+2017,Canada,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,89.9
+2017,Canada,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,90.0
+2017,Canada,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,74.1
+2017,Canada,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,82.9
+2017,Canada,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,87.6
+2017,Canada,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,81.4
+2017,Canada,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,78.8
+2017,Canada,Diphtérie,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,80.5
+2017,Canada,Coqueluche,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,80.5
+2017,Canada,Tétanos,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,80.5
+2017,Canada,Poliomyélite (polio),Vaccins recommandés aux enfants de 7 ans,Total - Gender,,92.3
+2017,Canada,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 7 ans,Total - Gender,,83.9
+2017,Canada,Rougeole,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,87.0
+2017,Canada,Oreillons,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,86.4
+2017,Canada,Rubéole,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,94.5
+2017,Canada,Hépatite B,Vaccins recommandés aux enfants de 14 ans,Total - Gender,,83.1
+2017,Canada,Hépatite B,Vaccins recommandés aux enfants de 14 ans,Hommes+,,82.1
+2017,Canada,Hépatite B,Vaccins recommandés aux enfants de 14 ans,Femmes+,,84.1
+2017,Canada,Virus du papillome humain (VPH),Vaccins recommandés aux enfants de 14 ans,Femmes+,,83.0
+2017,Canada,"Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",Vaccins recommandés aux enfants de 17 ans,Total - Gender,,89.3
+2017,Terre-Neuve-et-Labrador,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,88.9
+2017,Terre-Neuve-et-Labrador,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,88.9
+2017,Terre-Neuve-et-Labrador,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,88.9
+2017,Terre-Neuve-et-Labrador,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,96.9
+2017,Terre-Neuve-et-Labrador,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,87.7
+2017,Terre-Neuve-et-Labrador,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,96.9
+2017,Terre-Neuve-et-Labrador,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,96.9
+2017,Terre-Neuve-et-Labrador,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,96.9
+2017,Terre-Neuve-et-Labrador,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,95.1
+2017,Terre-Neuve-et-Labrador,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,93.2
+2017,Terre-Neuve-et-Labrador,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,90.2
+2017,Île-du-Prince-Édouard,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,81.2
+2017,Île-du-Prince-Édouard,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,81.2
+2017,Île-du-Prince-Édouard,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,81.2
+2017,Île-du-Prince-Édouard,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,93.9
+2017,Île-du-Prince-Édouard,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,79.8
+2017,Île-du-Prince-Édouard,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,93.2
+2017,Île-du-Prince-Édouard,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,92.6
+2017,Île-du-Prince-Édouard,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,92.6
+2017,Île-du-Prince-Édouard,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,86.7
+2017,Île-du-Prince-Édouard,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,92.0
+2017,Île-du-Prince-Édouard,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,92.7
+2017,Île-du-Prince-Édouard,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,89.5
+2017,Île-du-Prince-Édouard,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,85.9
+2017,Nouvelle-Écosse,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,73.8
+2017,Nouvelle-Écosse,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,73.8
+2017,Nouvelle-Écosse,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,73.8
+2017,Nouvelle-Écosse,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,93.5
+2017,Nouvelle-Écosse,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,68.5
+2017,Nouvelle-Écosse,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,87.1
+2017,Nouvelle-Écosse,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,86.8
+2017,Nouvelle-Écosse,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,86.8
+2017,Nouvelle-Écosse,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,84.8
+2017,Nouvelle-Écosse,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,81.8
+2017,Nouvelle-Écosse,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,80.4
+2017,Nouveau-Brunswick,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,75.5
+2017,Nouveau-Brunswick,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,75.5
+2017,Nouveau-Brunswick,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,75.5
+2017,Nouveau-Brunswick,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,90.1
+2017,Nouveau-Brunswick,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,74.7
+2017,Nouveau-Brunswick,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,92.0
+2017,Nouveau-Brunswick,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,92.0
+2017,Nouveau-Brunswick,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,92.0
+2017,Nouveau-Brunswick,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,81.0
+2017,Nouveau-Brunswick,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,90.9
+2017,Nouveau-Brunswick,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,88.3
+2017,Nouveau-Brunswick,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,82.2
+2017,Ontario,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,75.7
+2017,Ontario,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,75.7
+2017,Ontario,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,75.7
+2017,Ontario,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,91.0
+2017,Ontario,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,72.9
+2017,Ontario,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,90.9
+2017,Ontario,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,90.5
+2017,Ontario,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,90.5
+2017,Ontario,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,84.3
+2017,Ontario,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,85.7
+2017,Ontario,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,80.5
+2017,Ontario,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,77.7
+2017,Québec,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,73.7
+2017,Québec,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,73.7
+2017,Québec,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,73.7
+2017,Québec,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,90.9
+2017,Québec,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,71.3
+2017,Québec,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,91.0
+2017,Québec,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,90.5
+2017,Québec,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,90.5
+2017,Québec,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,75.7
+2017,Québec,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,76.1
+2017,Québec,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,89.9
+2017,Québec,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,83.3
+2017,Québec,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,81.0
+2017,Manitoba,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,67.5
+2017,Manitoba,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,67.5
+2017,Manitoba,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,67.5
+2017,Manitoba,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,85.6
+2017,Manitoba,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,62.2
+2017,Manitoba,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,86.1
+2017,Manitoba,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,85.9
+2017,Manitoba,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,86.2
+2017,Manitoba,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,81.6
+2017,Manitoba,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,82.2
+2017,Manitoba,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,74.6
+2017,Manitoba,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,68.4
+2017,Saskatchewan,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,78.6
+2017,Saskatchewan,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,78.6
+2017,Saskatchewan,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,78.6
+2017,Saskatchewan,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,90.0
+2017,Saskatchewan,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,75.1
+2017,Saskatchewan,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,89.5
+2017,Saskatchewan,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,89.5
+2017,Saskatchewan,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,89.5
+2017,Saskatchewan,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,84.8
+2017,Saskatchewan,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,81.1
+2017,Saskatchewan,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,83.7
+2017,Saskatchewan,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,84.0
+2017,Alberta,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,79.9
+2017,Alberta,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,79.9
+2017,Alberta,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,79.9
+2017,Alberta,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,93.0
+2017,Alberta,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,79.1
+2017,Alberta,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,91.7
+2017,Alberta,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,91.4
+2017,Alberta,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,91.4
+2017,Alberta,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,86.7
+2017,Alberta,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,91.0
+2017,Alberta,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,82.6
+2017,Colombie-Britannique,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,76.6
+2017,Colombie-Britannique,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,76.6
+2017,Colombie-Britannique,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,76.6
+2017,Colombie-Britannique,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,87.5
+2017,Colombie-Britannique,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,74.4
+2017,Colombie-Britannique,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,86.1
+2017,Colombie-Britannique,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,86.1
+2017,Colombie-Britannique,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,86.1
+2017,Colombie-Britannique,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,69.7
+2017,Colombie-Britannique,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,83.7
+2017,Colombie-Britannique,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,89.3
+2017,Colombie-Britannique,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,80.3
+2017,Colombie-Britannique,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,80.2
+2017,Yukon,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,70.7
+2017,Yukon,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,70.7
+2017,Yukon,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,70.7
+2017,Yukon,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,93.7
+2017,Yukon,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,69.3
+2017,Yukon,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,91.0
+2017,Yukon,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,91.0
+2017,Yukon,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,91.0
+2017,Yukon,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,62.8
+2017,Yukon,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,85.5
+2017,Yukon,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,93.7
+2017,Yukon,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,83.2
+2017,Yukon,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,76.6
+2017,Territoires du Nord-Ouest,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,76.7
+2017,Territoires du Nord-Ouest,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,76.7
+2017,Territoires du Nord-Ouest,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,76.7
+2017,Territoires du Nord-Ouest,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,91.1
+2017,Territoires du Nord-Ouest,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,75.5
+2017,Territoires du Nord-Ouest,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,91.8
+2017,Territoires du Nord-Ouest,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,91.8
+2017,Territoires du Nord-Ouest,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,91.8
+2017,Territoires du Nord-Ouest,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,80.5
+2017,Territoires du Nord-Ouest,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,88.9
+2017,Territoires du Nord-Ouest,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,95.2
+2017,Territoires du Nord-Ouest,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,63.8
+2017,Territoires du Nord-Ouest,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,66.3
+2017,Nunavut,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,63.8
+2017,Nunavut,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,63.8
+2017,Nunavut,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,63.8
+2017,Nunavut,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,82.1
+2017,Nunavut,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,57.2
+2017,Nunavut,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,88.7
+2017,Nunavut,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,88.7
+2017,Nunavut,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,88.7
+2017,Nunavut,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,70.8
+2017,Nunavut,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,82.1
+2017,Nunavut,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,80.1
+2017,Nunavut,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,62.4
+2019,Canada,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,,43.5
+2019,Canada,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,,45.0
+2019,Canada,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,77.5
+2019,Canada,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,77.5
+2019,Canada,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,77.5
+2019,Canada,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,,91.9
+2019,Canada,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,,74.4
+2019,Canada,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,90.2
+2019,Canada,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,89.2
+2019,Canada,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,89.4
+2019,Canada,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,83.6
+2019,Canada,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,82.7
+2019,Canada,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,91.1
+2019,Canada,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,84.4
+2019,Canada,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,84.5
+2019,Canada,Diphtérie,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,78.1
+2019,Canada,Coqueluche,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,78.1
+2019,Canada,Tétanos,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,78.1
+2019,Canada,Poliomyélite (polio),Vaccins recommandés aux enfants de 7 ans,Total - Gender,,89.3
+2019,Canada,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 7 ans,Total - Gender,,80.0
+2019,Canada,Rougeole,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,83.3
+2019,Canada,Oreillons,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,83.1
+2019,Canada,Rubéole,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,95.9
+2019,Canada,Hépatite B,Vaccins recommandés aux enfants de 14 ans,Total - Gender,,84.5
+2019,Canada,Virus du papillome humain (VPH),Vaccins recommandés aux enfants de 14 ans,Total - Gender,,80.2
+2019,Canada,Hépatite B,Vaccins recommandés aux enfants de 14 ans,Hommes+,,83.0
+2019,Canada,Virus du papillome humain (VPH),Vaccins recommandés aux enfants de 14 ans,Hommes+,,73.0
+2019,Canada,Hépatite B,Vaccins recommandés aux enfants de 14 ans,Femmes+,,86.0
+2019,Canada,Virus du papillome humain (VPH),Vaccins recommandés aux enfants de 14 ans,Femmes+,,87.1
+2019,Canada,Méningocoque de type C,Vaccins recommandés aux enfants de 17 ans,Total - Gender,,89.3
+2019,Canada,"Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",Vaccins recommandés aux enfants de 17 ans,Total - Gender,,95.3
+2019,Terre-Neuve-et-Labrador,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,10,15.9
+2019,Terre-Neuve-et-Labrador,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,10,41.4
+2019,Île-du-Prince-Édouard,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,11,76.2
+2019,Île-du-Prince-Édouard,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,11,75.2
+2019,Nouvelle-Écosse,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,12,62.2
+2019,Nouvelle-Écosse,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,12,71.5
+2019,Nouveau-Brunswick,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,13,71.0
+2019,Nouveau-Brunswick,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,13,58.4
+2019,Ontario,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,35,40.3
+2019,Ontario,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,35,43.3
+2019,Québec,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,24,48.8
+2019,Québec,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,24,32.9
+2019,Manitoba,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,46,57.0
+2019,Manitoba,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,46,48.8
+2019,Saskatchewan,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,47,74.0
+2019,Saskatchewan,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,47,64.9
+2019,Alberta,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,48,37.9
+2019,Alberta,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,48,49.4
+2019,Colombie-Britannique,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,59,25.6
+2019,Colombie-Britannique,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,59,49.8
+2019,Yukon,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,60,56.5
+2019,Yukon,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,60,66.0
+2019,Territoires du Nord-Ouest,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,61,80.1
+2019,Territoires du Nord-Ouest,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,61,84.8
+2021,Canada,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,,64.8
+2021,Canada,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,,52.7
+2021,Canada,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,77.1
+2021,Canada,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,77.1
+2021,Canada,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,77.1
+2021,Canada,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,,91.8
+2021,Canada,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,,75.3
+2021,Canada,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,91.6
+2021,Canada,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,91.5
+2021,Canada,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,91.5
+2021,Canada,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,82.6
+2021,Canada,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,87.5
+2021,Canada,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,90.5
+2021,Canada,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,85.1
+2021,Canada,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,,85.6
+2021,Canada,Diphtérie,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,71.9
+2021,Canada,Coqueluche,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,71.9
+2021,Canada,Tétanos,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,71.9
+2021,Canada,Poliomyélite (polio),Vaccins recommandés aux enfants de 7 ans,Total - Gender,,87.3
+2021,Canada,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 7 ans,Total - Gender,,78.5
+2021,Canada,Rougeole,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,79.2
+2021,Canada,Oreillons,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,79.5
+2021,Canada,Rubéole,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,94.0
+2021,Canada,Hépatite B,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,78.4
+2021,Canada,Varicelle,Vaccins recommandés aux enfants de 7 ans,Total - Gender,,90.7
+2021,Canada,Hépatite B,Vaccins recommandés aux enfants de 14 ans,Total - Gender,,89.0
+2021,Canada,Virus du papillome humain (VPH),Vaccins recommandés aux enfants de 14 ans,Total - Gender,,84.0
+2021,Canada,Hépatite B,Vaccins recommandés aux enfants de 14 ans,Hommes+,,86.5
+2021,Canada,Virus du papillome humain (VPH),Vaccins recommandés aux enfants de 14 ans,Hommes+,,81.5
+2021,Canada,Hépatite B,Vaccins recommandés aux enfants de 14 ans,Femmes+,,91.5
+2021,Canada,Virus du papillome humain (VPH),Vaccins recommandés aux enfants de 14 ans,Femmes+,,86.4
+2021,Canada,Méningocoque de type C,Vaccins recommandés aux enfants de 17 ans,Total - Gender,,89.0
+2021,Canada,"Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",Vaccins recommandés aux enfants de 17 ans,Total - Gender,,92.8
+2021,Terre-Neuve-et-Labrador,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,10,79.0
+2021,Terre-Neuve-et-Labrador,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,10,63.6
+2021,Terre-Neuve-et-Labrador,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,80.0
+2021,Terre-Neuve-et-Labrador,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,80.0
+2021,Terre-Neuve-et-Labrador,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,80.0
+2021,Terre-Neuve-et-Labrador,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,95.4
+2021,Terre-Neuve-et-Labrador,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,76.8
+2021,Terre-Neuve-et-Labrador,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,97.0
+2021,Terre-Neuve-et-Labrador,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,97.0
+2021,Terre-Neuve-et-Labrador,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,97.0
+2021,Terre-Neuve-et-Labrador,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,96.4
+2021,Terre-Neuve-et-Labrador,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,93.6
+2021,Terre-Neuve-et-Labrador,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,87.8
+2021,Terre-Neuve-et-Labrador,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,10,93.3
+2021,Île-du-Prince-Édouard,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,11,80.4
+2021,Île-du-Prince-Édouard,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,11,77.3
+2021,Île-du-Prince-Édouard,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,95.8
+2021,Île-du-Prince-Édouard,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,95.8
+2021,Île-du-Prince-Édouard,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,95.8
+2021,Île-du-Prince-Édouard,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,95.8
+2021,Île-du-Prince-Édouard,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,98.0
+2021,Île-du-Prince-Édouard,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,98.0
+2021,Île-du-Prince-Édouard,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,98.0
+2021,Île-du-Prince-Édouard,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,97.7
+2021,Île-du-Prince-Édouard,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,96.7
+2021,Île-du-Prince-Édouard,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,97.4
+2021,Île-du-Prince-Édouard,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,11,96.4
+2021,Nouvelle-Écosse,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,12,80.4
+2021,Nouvelle-Écosse,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,12,82.5
+2021,Nouvelle-Écosse,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,70.3
+2021,Nouvelle-Écosse,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,70.3
+2021,Nouvelle-Écosse,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,70.3
+2021,Nouvelle-Écosse,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,87.9
+2021,Nouvelle-Écosse,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,66.8
+2021,Nouvelle-Écosse,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,93.6
+2021,Nouvelle-Écosse,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,93.6
+2021,Nouvelle-Écosse,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,93.6
+2021,Nouvelle-Écosse,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,93.2
+2021,Nouvelle-Écosse,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,89.4
+2021,Nouvelle-Écosse,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,12,79.0
+2021,Nouveau-Brunswick,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,13,79.5
+2021,Nouveau-Brunswick,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,13,59.1
+2021,Nouveau-Brunswick,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,78.1
+2021,Nouveau-Brunswick,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,78.1
+2021,Nouveau-Brunswick,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,78.1
+2021,Nouveau-Brunswick,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,89.6
+2021,Nouveau-Brunswick,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,75.9
+2021,Nouveau-Brunswick,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,94.3
+2021,Nouveau-Brunswick,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,94.3
+2021,Nouveau-Brunswick,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,94.3
+2021,Nouveau-Brunswick,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,79.8
+2021,Nouveau-Brunswick,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,91.2
+2021,Nouveau-Brunswick,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,90.6
+2021,Nouveau-Brunswick,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,86.7
+2021,Nouveau-Brunswick,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,13,66.6
+2021,Ontario,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,35,60.0
+2021,Ontario,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,35,48.9
+2021,Ontario,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,76.7
+2021,Ontario,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,76.7
+2021,Ontario,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,76.7
+2021,Ontario,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,94.4
+2021,Ontario,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,73.8
+2021,Ontario,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,92.0
+2021,Ontario,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,91.7
+2021,Ontario,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,91.7
+2021,Ontario,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,85.9
+2021,Ontario,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,90.1
+2021,Ontario,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,86.1
+2021,Ontario,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,35,84.7
+2021,Québec,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,24,75.2
+2021,Québec,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,24,44.2
+2021,Québec,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,76.2
+2021,Québec,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,76.2
+2021,Québec,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,76.2
+2021,Québec,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,91.7
+2021,Québec,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,75.8
+2021,Québec,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,93.2
+2021,Québec,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,93.2
+2021,Québec,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,93.2
+2021,Québec,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,80.6
+2021,Québec,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,89.9
+2021,Québec,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,90.2
+2021,Québec,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,85.3
+2021,Québec,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,24,86.0
+2021,Manitoba,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,46,69.6
+2021,Manitoba,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,46,59.2
+2021,Manitoba,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,75.5
+2021,Manitoba,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,75.5
+2021,Manitoba,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,75.5
+2021,Manitoba,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,87.9
+2021,Manitoba,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,75.3
+2021,Manitoba,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,87.1
+2021,Manitoba,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,86.6
+2021,Manitoba,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,86.6
+2021,Manitoba,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,86.9
+2021,Manitoba,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,88.8
+2021,Manitoba,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,81.7
+2021,Manitoba,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,46,82.2
+2021,Saskatchewan,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,47,78.0
+2021,Saskatchewan,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,47,64.8
+2021,Saskatchewan,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,80.9
+2021,Saskatchewan,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,80.9
+2021,Saskatchewan,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,80.9
+2021,Saskatchewan,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,91.0
+2021,Saskatchewan,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,80.6
+2021,Saskatchewan,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,91.4
+2021,Saskatchewan,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,91.0
+2021,Saskatchewan,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,91.0
+2021,Saskatchewan,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,80.9
+2021,Saskatchewan,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,89.1
+2021,Saskatchewan,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,83.7
+2021,Saskatchewan,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,47,88.2
+2021,Alberta,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,48,60.1
+2021,Alberta,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,48,58.3
+2021,Alberta,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,74.6
+2021,Alberta,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,74.6
+2021,Alberta,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,74.6
+2021,Alberta,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,85.7
+2021,Alberta,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,71.1
+2021,Alberta,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,88.4
+2021,Alberta,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,88.4
+2021,Alberta,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,88.4
+2021,Alberta,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,83.3
+2021,Alberta,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,89.8
+2021,Alberta,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,81.3
+2021,Alberta,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,48,84.8
+2021,Colombie-Britannique,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,59,52.4
+2021,Colombie-Britannique,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,59,61.0
+2021,Colombie-Britannique,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,83.6
+2021,Colombie-Britannique,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,83.6
+2021,Colombie-Britannique,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,83.6
+2021,Colombie-Britannique,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,92.6
+2021,Colombie-Britannique,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,82.8
+2021,Colombie-Britannique,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,91.3
+2021,Colombie-Britannique,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,91.3
+2021,Colombie-Britannique,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,91.3
+2021,Colombie-Britannique,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,87.1
+2021,Colombie-Britannique,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,91.0
+2021,Colombie-Britannique,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,94.2
+2021,Colombie-Britannique,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,88.2
+2021,Colombie-Britannique,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,59,91.2
+2021,Yukon,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,60,77.2
+2021,Yukon,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,60,66.8
+2021,Yukon,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,66.6
+2021,Yukon,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,66.6
+2021,Yukon,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,66.6
+2021,Yukon,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,86.3
+2021,Yukon,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,64.0
+2021,Yukon,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,85.3
+2021,Yukon,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,85.3
+2021,Yukon,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,85.3
+2021,Yukon,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,71.3
+2021,Yukon,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,81.8
+2021,Yukon,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,90.0
+2021,Yukon,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,73.2
+2021,Yukon,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,60,86.7
+2021,Territoires du Nord-Ouest,"Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",Vaccins recommandés pendant la grossesse,Total - Gender,61,59.3
+2021,Territoires du Nord-Ouest,Grippe,Vaccins recommandés pendant la grossesse,Total - Gender,61,71.7
+2021,Territoires du Nord-Ouest,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,66.0
+2021,Territoires du Nord-Ouest,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,66.0
+2021,Territoires du Nord-Ouest,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,66.0
+2021,Territoires du Nord-Ouest,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,80.4
+2021,Territoires du Nord-Ouest,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,60.0
+2021,Territoires du Nord-Ouest,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,90.8
+2021,Territoires du Nord-Ouest,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,89.5
+2021,Territoires du Nord-Ouest,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,88.2
+2021,Territoires du Nord-Ouest,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,81.0
+2021,Territoires du Nord-Ouest,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,80.2
+2021,Territoires du Nord-Ouest,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,88.8
+2021,Territoires du Nord-Ouest,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,59.9
+2021,Territoires du Nord-Ouest,Rotavirus,Vaccins recommandés aux enfants de 2 ans,Total - Gender,61,75.6
+2021,Nunavut,Diphtérie,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,24.1
+2021,Nunavut,Coqueluche,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,24.1
+2021,Nunavut,Tétanos,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,24.1
+2021,Nunavut,Poliomyélite (polio),Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,33.5
+2021,Nunavut,Haemophilus influenzae de type B (Hib),Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,24.1
+2021,Nunavut,Rougeole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,34.6
+2021,Nunavut,Oreillons,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,34.6
+2021,Nunavut,Rubéole,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,34.6
+2021,Nunavut,Hépatite B,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,32.5
+2021,Nunavut,Varicelle,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,21.2
+2021,Nunavut,Méningocoque de type C,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,34.5
+2021,Nunavut,Pneumocoque,Vaccins recommandés aux enfants de 2 ans,Total - Gender,62,21.0
