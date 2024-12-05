@@ -7,10 +7,9 @@ SDG_INDICATOR: '<p>Indicateur 3.a.1 : Prévalence de la consommation actuelle de
 STAT_CONC_DEF: <p> L'indicateur est défini comme le pourcentage de la population âgée
   de 15 ans et plus qui utilise actuellement un produit du tabac (tabac fumé et /
   ou sans fumée) quotidiennement ou non. </p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |
-  Les données fournies par Santé Canada pour l’indicateur 3.a.1 reflètent la prévalence 
-  de la population par opposition à la prévalence normalisée selon l’âge.
+  Les données fournies par Santé Canada pour l’indicateur 3.a.1 reflètent la prévalence de la population pour chaque groupe d'âge ainsi que la population totale comparée à la prévalence normalisée selon l’âge spécifié dans les métadonnées.
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.a : Renforcer dans tous les pays, selon qu’il convient,
@@ -21,14 +20,14 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.a.1 : Prévalence de la consommation act
   
 source_active_1: 'true'
 source_url_text_1: Enquête canadienne sur le tabac, l'alcool et les drogues (ECTAD)
-source_url_1: https://www.canada.ca/en/health-canada/services/canadian-alcohol-drugs-survey.html
+source_url_1: https://www.canada.ca/fr/sante-canada/services/enquete-canadienne-alcool-drogues.html
 source_organisation_1: Statistique Canada, Santé Canada
 source_periodicity_1: Aux 2 ans
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: Enquête canadienne sur le tabac et la nicotine (ECTN)
-source_url_2: https://www.canada.ca/en/health-canada/services/canadian-tobacco-nicotine-survey.html
+source_url_2: https://www.canada.ca/fr/sante-canada/services/enquete-canadienne-tabac-nicotine.html
 source_organisation_2: Statistique Canada, Santé Canada
 source_periodicity_2: Occasionnelle
 source_geographical_coverage_2: Canada
