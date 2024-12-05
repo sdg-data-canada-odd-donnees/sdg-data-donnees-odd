@@ -7,8 +7,8 @@ SDG_TARGET: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de dé
 SDG_INDICATOR: '<p>Indicateur 3.9.3 : Taux de mortalité attribuable à un empoisonnement
   accidentel</p>'
 STAT_CONC_DEF: |
-    Les codes de la dixième révision de la Classification internationale des maladies (CIM-10) correspondant à l'indicateur comprennent X40, X43, X46-X48, X49.
-DATA_COMP: '   '
+    Cet indicateur mesure le taux de mortalité attribué à un empoisonnement accidentel. Les empoisonnements accidentels comprennent les codes X40, X43, X46-X48, X49 de la dixième révision de la Classification internationale des maladies (CIM-10).
+DATA_COMP: Taux de mortalité pour 100 000 personnes = (Nombre de décès / population) x 100 000
 REC_USE_LIM: '   '
 
 # GLOBAL
@@ -30,6 +30,14 @@ source_url_1: https://doi.org/10.25318/1310015601-fra
 source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: |
+    Statistique Canada. Tableau 17-10-0005-01 Estimations de la population au 1er juillet, par âge et genre
+source_url_2: https://doi.org/10.25318/1710000501-fra
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada, Province ou territoire
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation mondiale de la Santé (OMS)
