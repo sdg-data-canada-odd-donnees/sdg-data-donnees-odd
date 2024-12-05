@@ -496,8 +496,54 @@
             "type": "integer"
           },
           {
+            "name": "Method",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Non-electronic methods",
+                "Electronic methods",
+                "All methods",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Destination region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All regions",
+                "Americas",
+                "Eastern and Southern Europe",
+                "Sub-Saharan Africa",
+                "North Africa",
+                "West Central Asia and the Middle East",
+                "Eastern Asia",
+                "Southest Asia and Oceania",
+                "Southern Asia",
+                "Countries not eligible for official development assistance",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Amount last sent",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "$100 or less",
+                "$101 to $200",
+                "$201 to $300",
+                "$301 to $500",
+                "$501 to $1,000",
+                "$1,001 or more",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },

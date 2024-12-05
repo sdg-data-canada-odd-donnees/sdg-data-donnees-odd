@@ -535,8 +535,57 @@
             "title": "Année"
           },
           {
+            "name": "Method",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Méthodes traditionnelles",
+                "Méthodes électroniques",
+                "Toutes les méthodes",
+                ""
+              ]
+            },
+            "title": "Méthode"
+          },
+          {
+            "name": "Destination region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les régions",
+                "Amériques",
+                "Europe de l'Est et Europe du Sud",
+                "Afrique subsaharienne",
+                "Afrique du Nord",
+                "Asie de l'Ouest et centrale et Moyen-Orient",
+                "Asie de l'Est",
+                "Southest Asia and Oceania",
+                "Southern Asia",
+                "Pays non admissibles à l'aide publique au développement",
+                ""
+              ]
+            },
+            "title": "Région de destination"
+          },
+          {
+            "name": "Amount last sent",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "100 $ ou moins",
+                "101 $ à 200 $",
+                "201 $ à 300 $",
+                "301 $ à 500 $",
+                "501 $ à 1 000 $",
+                "1 001 $ ou plus",
+                ""
+              ]
+            },
+            "title": "Montant d'argent envoyé lors du dernier transfert de fonds"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]
