@@ -10,7 +10,17 @@ data_notice_text: ''
 data_show_map: false
 data_start_values: 
 - field: Indicator
+  value: Ratio of regulatory capital to risk-weighted assets
+- field: Indicator
+  value: Ratio of non-performing loans net of provisions to capital
+- field: Indicator
+  value: Ratio of non-performing loans to total gross loans
+- field: Indicator
+  value: Earnings and profitability, return on assets
+- field: Indicator
   value: Ratio of liquid assets to short-term liabilities
+- field: Indicator
+  value: Ratio of regulatory capital to assets
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -36,4 +46,3 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-"\xEF\xBB\xBFauto_progress_calculation": true

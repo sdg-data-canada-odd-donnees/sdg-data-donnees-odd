@@ -1,30 +1,48 @@
-SDG_GOAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
-SDG_TARGET: '<p>Target 10.5: Improve the regulation and monitoring of global financial
-  markets and institutions and strengthen the implementation of such regulations</p>'
-SDG_INDICATOR: '<p>Indicator 10.5.1: Financial Soundness Indicators (FSIs)</p>'
-STAT_CONC_DEF: |
+# National
+SDG_GOAL: >-
+  Goal 10: Reduce inequality within and among countries
+SDG_TARGET: >-
+  Target 10.5: Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations
+SDG_INDICATOR: >-
+  Indicator 10.5.1: Financial Soundness Indicators (FSIs)
+STAT_CONC_DEF: >-
   Seven FSIs are included as SDG indicators for 10.5.1 and expressed as percent. 
-  <br><br> Regulatory Tier 1 capital to assets: This is the ratio of the core capital (Tier 1) to total (balance sheet) assets. For jurisdictions that have implemented the Basel III leverage ratio, this indicator would be calculated using Tier 1 capital as the numerator and the exposure measure as the denominator, which comprises balance sheet assets, derivatives exposures, securities financing transaction exposures, and off-balance-sheet items.
-  <br><br> Regulatory Tier 1 capital to risk-weighted assets: It is calculated using regulatory Tier 1 capital as the numerator and risk-weighted assets as the denominator. The data for this FSI are compiled in accordance with the implemented Basel Accord (i.e., Basel I, Basel II, or Basel III).
-  <br><br> Nonperforming loans net of provisions to capital: This FSI is calculated by taking the value of nonperforming loans (NPLs) less the value of specific provisions for NPLs as the numerator and total regulatory capital as the denominator.
-  <br><br> Nonperforming loans to total gross loans: This FSI is calculated by using the value of NPLs as the numerator and the total value of the loan portfolio (including NPLs, and before the deduction of specific provisions for NPLs) as the denominator. 
-  <br><br> Return on assets: This FSI is calculated by dividing annualized net income before taxes by the average value of total assets (financial and nonfinancial) over the same period.
-  <br><br> Liquid assets to short-term liabilities: This FSI is calculated by using liquid assets as the numerator and short-term liabilities as the denominator. The components of liquid assets are defined in the IMF’s 2019 FSIs Compilation Guide (2019 FSIs Guide).
-  <br><br> Net open position in foreign exchange to capital: The net open position in foreign exchange should be calculated based on the guidance in the 2019 FSIs Guide. Capital should be total regulatory capital as net open position in foreign exchange is a supervisory concept.
-DATA_COMP: custom.data-comp
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
-SDG_TARGET__GLOBAL: '<p>Target 10.5: Improve the regulation and monitoring of global
-  financial markets and institutions and strengthen the implementation of such regulations</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 10.5.1: Financial Soundness Indicators (FSIs)</p>'
+  <br><br>
+  Regulatory Tier 1 capital to assets: This is the ratio of the core capital (Tier 1) to total (balance sheet) assets. For jurisdictions that have implemented the Basel III leverage ratio, this indicator would be calculated using Tier 1 capital as the numerator and the exposure measure as the denominator, which comprises balance sheet assets, derivatives exposures, securities financing transaction exposures, and off-balance-sheet items.
+  <br><br>
+  Regulatory Tier 1 capital to risk-weighted assets: It is calculated using regulatory Tier 1 capital as the numerator and risk-weighted assets as the denominator. The data for this FSI are compiled in accordance with the implemented Basel Accord (i.e., Basel I, Basel II, or Basel III).
+  <br><br>
+  Nonperforming loans net of provisions to capital: This FSI is calculated by taking the value of nonperforming loans (NPLs) less the value of specific provisions for NPLs as the numerator and total regulatory capital as the denominator.
+  <br><br>
+  Nonperforming loans to total gross loans: This FSI is calculated by using the value of NPLs as the numerator and the total value of the loan portfolio (including NPLs, and before the deduction of specific provisions for NPLs) as the denominator. 
+  <br><br>
+  Return on assets: This FSI is calculated by dividing annualized net income before taxes by the average value of total assets (financial and nonfinancial) over the same period.
+  <br><br>
+  Liquid assets to short-term liabilities: This FSI is calculated by using liquid assets as the numerator and short-term liabilities as the denominator. The components of liquid assets are defined in the IMF’s 2019 FSIs Compilation Guide (2019 FSIs Guide).
+DATA_COMP: >-
+  Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.
+  <br><br>
+  The data at the source is reported quarterly. The annualized data presented here takes the values from the final quarter of each year. 
+REC_USE_LIM: >-
+  Due to data limitations, the series on net open position in foreign exchange to capital is not included.
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 10: Reduce inequality within and among countries
+SDG_TARGET__GLOBAL: >-
+  Target 10.5: Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 10.5.1: Financial Soundness Indicators (FSIs)
+
 un_designated_tier: Tier I
 un_custodian_agency: International Monetary Fund (IMF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-05-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: Statistics Canada. Financial Soundness Indicators, Canada.
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010014601&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2020&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2022&referencePeriods=20200101%2C20221001&request_locale=en
+source_url_text_1: Statistics Canada. Table 10-10-0146-01  Financial Soundness Indicators, Canada
+source_url_1: https://doi.org/10.25318/1010014601-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Quarterly
 source_geographical_coverage_1: Canada

@@ -1,29 +1,49 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '<p>Cible 10.5 : Améliorer la réglementation et la surveillance des institutions
-  et marchés financiers mondiaux et renforcer l’application des règles.</p>'
-SDG_INDICATOR: '<p>Indicateur 10.5.1 : Indicateurs de solidité financière</p>'
-STAT_CONC_DEF: <p>Sept ISF sont inclus en tant qu'indicateurs des ODD pour 10.5.1
-  et exprimés en pourcentage.</p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 10.5 : Améliorer la réglementation et la surveillance
-  des institutions et marchés financiers mondiaux et renforcer l’application des règles.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 10.5.1 : Indicateurs de solidité financière</p>'
+# National
+SDG_GOAL: >-
+  Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre
+SDG_TARGET: >-
+  Cible 10.5 : Améliorer la réglementation et la surveillance des institutions et marchés financiers mondiaux et renforcer l’application des règles
+SDG_INDICATOR: >-
+  Indicateur 10.5.1 : Indicateurs de solidité financière
+STAT_CONC_DEF: >-
+  Sept ISF sont inclus en tant qu'indicateurs des ODD pour 10.5.1 et exprimés en pourcentage.
+  <br><br>
+  Fonds propres réglementaires de catégorie 1 sur l'actif : Il s'agit du rapport entre les fonds propres de base (catégorie 1) et le total des actifs (bilan). Pour les juridictions qui ont mis en œuvre le ratio de levier de Bâle III, cet indicateur serait calculé en utilisant les fonds propres de catégorie 1 comme numérateur et la mesure de l'exposition comme dénominateur, qui comprend les actifs du bilan, les expositions aux produits dérivés, les expositions aux opérations de financement de titres et les éléments hors bilan.
+  <br><br>
+  Fonds propres réglementaires de catégorie 1 par rapport aux actifs pondérés en fonction des risques : Il est calculé en utilisant le total des fonds propres réglementaires de catégorie 1 comme numérateur et les actifs pondérés en fonction des risques comme dénominateur. Les données de cet ISF sont compilées conformément aux directives de Bâle I, Bâle II ou Bâle III.
+  <br><br>
+  Prêts non performants nets de provisions par rapport au capital : Cet ISF est calculé en prenant la valeur des prêts non performants (PNP) moins la valeur des provisions spécifiques pour pertes sur prêts comme numérateur et le capital comme dénominateur. Le capital est mesuré en tant que capital réglementaire total.
+  <br><br>
+  Prêts non performants par rapport au total des prêts bruts : Cet ISF est calculé en utilisant la valeur des PNP comme numérateur et la valeur totale du portefeuille de prêts (y compris les PNP, et avant la déduction des provisions spécifiques pour pertes sur prêts) comme dénominateur.
+  <br><br>
+  Rendement des actifs : Cet ISF est calculé en divisant le bénéfice net annualisé avant éléments extraordinaires et impôts (comme recommandé dans le Guide de l'ISF) par la valeur moyenne du total des actifs (financiers et non financiers) sur la même période.
+  <br><br>
+  Actifs liquides sur passifs à court terme : Cet ISF est calculé en utilisant les actifs liquides comme numérateur et les passifs à court terme comme dénominateur. Les composantes des actifs liquides sont définies dans le Guide de compilation des ISF 2019 du FMI (Guide des ISF 2019).
+DATA_COMP: >-
+  Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
+  <br><br>
+  Les données à la source sont rapportées trimestriellement. Les données annnualisées présentées ici prennent les valeurs du dernier trimestre de chaque année.
+REC_USE_LIM: >-
+  En raison du manque de données, la série sur la position ouverte nette en devises par rapport au capital n'est pas incluse.
 
-reporting_status: complete
-
-source_active_1: 'true'
-source_url_text_1: Statistique Canada. Indicateurs de solidité financière, Canada.
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=1010014601&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2020&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2022&referencePeriods=20200101%2C20221001&request_locale=fr
-source_organisation_1: Statistique Canada
-source_periodicity_1: Trimestrielle
-source_geographical_coverage_1: Canada
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre
+SDG_TARGET__GLOBAL: >-
+  Cible 10.5 : Améliorer la réglementation et la surveillance des institutions et marchés financiers mondiaux et renforcer l’application des règles
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 10.5.1 : Indicateurs de solidité financière
 
 un_designated_tier: Niveau I
 un_custodian_agency: Fonds Monétaire International (FMI)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-05-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Tableau 10-10-0146-01  Indicateurs de solidité financière, Canada
+source_url_1: https://doi.org/10.25318/1010014601-fra
+source_organisation_1: Statistique Canada
+source_periodicity_1: Trimestrielle
+source_geographical_coverage_1: Canada
  
