@@ -2644,19 +2644,19 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
                 "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
                 "Nunavut",
                 ""
               ]
@@ -2668,16 +2668,14 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Inventaire provincial",
                 "Exploitation pétrolière et gazière",
-                "Électricité",
                 "Transports",
                 "Industrie lourde",
-                "Bâtiments",
-                "Agriculture",
-                "Déchets et autres",
-                "Production de charbon",
                 "Fabrication légère, construction et ressources forestières",
-                "Inventaire provincial",
+                "Bâtiments",
+                "Déchets et autres",
+                "Agriculture",
                 "Inventaire territorial",
                 ""
               ]
@@ -9445,7 +9443,7 @@
           }
         ]
       },
-      "title": "Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans a) les politiques nationales d’éducation, b) les programmes d’enseignement, c) la formation des enseignants et d) l’évaluation des étudiants (identique à l’amélioration à apporter aux indicateurs 4.7.1 et 12.8.1, figurant à l’annexe III)"
+      "title": "Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans a) les politiques nationales d’éducation, b) les programmes d’enseignement, c) la formation des enseignants et d) l’évaluation des étudiants"
     },
     {
       "path": "14-a-1/data.csv",
@@ -9637,7 +9635,7 @@
           }
         ]
       },
-      "title": "Nombre de pays ayant prévu des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, tel qu’il ressort des communications relatives à l’adaptation et des communications nationales (repris à l’indicateur proposé en remplacement de l’indicateur 13.b.1, avec une modification mineure)"
+      "title": "Nombre de pays ayant prévu des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, tel qu’il ressort des communications relatives à l’adaptation et des communications nationales"
     },
     {
       "path": "10-7-1/data.csv",
@@ -9949,7 +9947,7 @@
           }
         ]
       },
-      "title": "Nombre de pays les moins avancés et de petits États insulaires en développement ayant prévu des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, tel qu’il ressort des communications relatives à l’adaptation et des communications nationales (reprend l’indicateur proposé en remplacement de l’indicateur 13.2.1, avec une modification mineure)"
+      "title": "Nombre de pays les moins avancés et de petits États insulaires en développement ayant prévu des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, tel qu’il ressort des communications relatives à l’adaptation et des communications nationales"
     },
     {
       "path": "14-6-1/data.csv",

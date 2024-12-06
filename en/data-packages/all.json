@@ -2644,19 +2644,19 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
                 "Northwest Territories",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
                 "Nunavut",
                 ""
               ]
@@ -2668,16 +2668,14 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Provincial Inventory Total",
                 "Oil and Gas",
-                "Electricity",
                 "Transport",
                 "Heavy Industry",
-                "Buildings",
-                "Agriculture",
-                "Waste",
-                "Coal Production",
                 "Light Manufacturing, Construction and Forest Resources",
-                "Provincial Inventory Total",
+                "Buildings",
+                "Waste",
+                "Agriculture",
                 "Territorial Inventory Total",
                 ""
               ]
