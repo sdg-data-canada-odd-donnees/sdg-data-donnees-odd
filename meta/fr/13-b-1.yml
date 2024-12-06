@@ -1,30 +1,25 @@
-SDG_GOAL: '<p>Objectif 13 : Prendre d’urgence des mesures pour lutter contre les changements climatiques et leurs répercussions</p>'
-SDG_TARGET: '<p>Cible 13.b : Promouvoir des mécanismes de renforcement des capacités afin que les pays les moins avancés et les 
-  petits États insulaires en développement se dotent de moyens efficaces de planification et de gestion pour faire face aux 
-  changements climatiques, l’accent étant mis, notamment, sur les femmes, les jeunes, la population locale et les groupes 
-  marginalisés</p>'
-SDG_INDICATOR: '<p>Indicateur 13.b.1 : Nombre de pays les moins avancés et de petits États insulaires en développement ayant prévu 
-  des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, 
-  tel qu’il ressort des communications relatives à l’adaptation et des communications nationales (reprend l’indicateur proposé en 
-  remplacement de l’indicateur 13.2.1, avec une modification mineure)</p>'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: |-
+  Objectif 13 : Prendre d’urgence des mesures pour lutter contre les changements climatiques et leurs répercussions
+SDG_TARGET: |-
+  Cible 13.b : Promouvoir des mécanismes de renforcement des capacités afin que les pays les moins avancés et les petits États insulaires en développement se dotent de moyens efficaces de planification et de gestion pour faire face aux changements climatiques, l’accent étant mis, notamment, sur les femmes, les jeunes, la population locale et les groupes marginalisés
+SDG_INDICATOR: |-
+  Indicateur 13.b.1 : Nombre de pays les moins avancés et de petits États insulaires en développement ayant prévu des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, tel qu’il ressort des communications relatives à l’adaptation et des communications nationales
+STAT_CONC_DEF: |-
+  Cet objectif mesure le nombre de pays les moins avancés et de petits États insulaires en développement ayant des contributions déterminées au niveau national, des stratégies à long terme, des plans d'adaptation nationaux et des communications sur l'adaptation, comme indiqué au secrétariat de la convention-cadre des Nations unies sur les changements climatiques.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 13 : Prendre d’urgence des mesures pour lutter contre les changements climatiques et leurs répercussions</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 13.b : Promouvoir des mécanismes de renforcement des capacités afin que les pays les moins avancés et les 
-  petits États insulaires en développement se dotent de moyens efficaces de planification et de gestion pour faire face aux 
-  changements climatiques, l’accent étant mis, notamment, sur les femmes, les jeunes, la population locale et les groupes 
-  marginalisés</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 13.b.1 : Nombre de pays les moins avancés et de petits États insulaires en développement ayant prévu 
-  des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, 
-  tel qu’il ressort des communications relatives à l’adaptation et des communications nationales (reprend l’indicateur proposé en 
-  remplacement de l’indicateur 13.2.1, avec une modification mineure)</p>'
 
-reporting_status: notapplicable
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 13 : Prendre d’urgence des mesures pour lutter contre les changements climatiques et leurs répercussions
+SDG_TARGET__GLOBAL: |-
+  Cible 13.b : Promouvoir des mécanismes de renforcement des capacités afin que les pays les moins avancés et les petits États insulaires en développement se dotent de moyens efficaces de planification et de gestion pour faire face aux changements climatiques, l’accent étant mis, notamment, sur les femmes, les jeunes, la population locale et les groupes marginalisés
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 13.b.1 : Nombre de pays les moins avancés et de petits États insulaires en développement ayant prévu des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, tel qu’il ressort des communications relatives à l’adaptation et des communications nationales
 
 un_designated_tier: Niveau II
-un_custodian_agency: Le secrétariat de la Convention-cadre des Nations unies sur les changements climatiques (CCNUCC) 
+un_custodian_agency: ONU Changements climatiques (Secrétariat de la CCNUCC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-13-0b-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
  
