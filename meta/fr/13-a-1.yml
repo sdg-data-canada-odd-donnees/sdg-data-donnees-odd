@@ -1,28 +1,24 @@
-SDG_GOAL: '<p>Objectif 13 : Prendre d’urgence des mesures pour lutter contre les changements climatiques et leurs répercussions</p>'
-SDG_TARGET: '<p>Cible 13.a : Mettre en œuvre l’engagement que les pays développés parties à la Convention-cadre des Nations Unies 
-  sur les changements climatiques ont pris de mobiliser ensemble auprès de multiples sources 100 milliards de dollars par an d’ici 
-  à 2020 pour répondre aux besoins des pays en développement en ce qui concerne les mesures concrètes d’atténuation et la 
-  transparence de leur mise en œuvre et rendre le Fonds vert pour le climat pleinement opérationnel en le dotant dans les plus brefs 
-  délais des moyens financiers nécessaires</p>'
-SDG_INDICATOR: '<p>Indicateur 13.a.1 : Montant (en dollars des États-Unis) des ressources fournies et mobilisées par année relativement
-  à l’objectif collectif actuel de mobilisation, soit 100 milliards de dollars jusqu’en 2025</p>'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: |-
+  Objectif 13 : Prendre d’urgence des mesures pour lutter contre les changements climatiques et leurs répercussions
+SDG_TARGET: |-
+  Cible 13.a : Mettre en œuvre l’engagement que les pays développés parties à la Convention-cadre des Nations Unies sur les changements climatiques ont pris de mobiliser ensemble auprès de multiples sources 100 milliards de dollars par an d’ici à 2020 pour répondre aux besoins des pays en développement en ce qui concerne les mesures concrètes d’atténuation et la transparence de leur mise en œuvre et rendre le Fonds vert pour le climat pleinement opérationnel en le dotant dans les plus brefs délais des moyens financiers nécessaires
+SDG_INDICATOR: |-
+  Indicateur 13.a.1 : Montant (en dollars des États-Unis) des ressources fournies et mobilisées par année relativement à l’objectif collectif actuel de mobilisation, soit 100 milliards de dollars jusqu’en 2025
+STAT_CONC_DEF: |-
+  Dans le cadre du processus de la Convention-cadre des Nations unies sur les changements climatiques (CCNUCC), le Code de conduite (COP) a demandé au Comité permanent des finances (SCF) de préparer une évaluation biennale et une vue d'ensemble des flux financiers liés au climat (BA) ([décision 2/CP.17](https://unfccc.int/resource/docs/2011/cop17/fre/09f.pdf) paragraphe 121(f)), en s'appuyant sur les sources d'information disponibles, et en incluant des informations sur l'équilibre géographique et thématique des flux. Il n'existe pas de définition convenue dans le cadre de la CCNUCC sur ce qui doit être pris en compte pour évaluer les progrès accomplis dans la réalisation de l'engagement de 100 milliards de dollars. Les données du secrétariat de la CCNUCC se réfèrent au soutien financier spécifique au climat accordé aux pays en développement parties, communiqué par les parties visées à l'annexe I dans leurs rapports biennaux. Seules les parties visées à l'annexe II sont tenues de rendre compte de l'aide financière fournie et les autres parties visées à l'annexe I fournissent également ces informations sur une base volontaire. Par conséquent, ces données ne doivent pas être interprétées comme un indicateur de la réalisation de l'objectif de mobilisation collective de 100 milliards de dollars.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 13 : Prendre d’urgence des mesures pour lutter contre les changements climatiques et leurs répercussions</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 13.a : Mettre en œuvre l’engagement que les pays développés parties à la Convention-cadre des Nations Unies 
-  sur les changements climatiques ont pris de mobiliser ensemble auprès de multiples sources 100 milliards de dollars par an d’ici 
-  à 2020 pour répondre aux besoins des pays en développement en ce qui concerne les mesures concrètes d’atténuation et la 
-  transparence de leur mise en œuvre et rendre le Fonds vert pour le climat pleinement opérationnel en le dotant dans les plus brefs 
-  délais des moyens financiers nécessaires</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 13.a.1 : Montant (en dollars des États-Unis) des ressources fournies et mobilisées par année relativement
-  à l’objectif collectif actuel de mobilisation, soit 100 milliards de dollars jusqu’en 2025</p>'
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 13 : Prendre d’urgence des mesures pour lutter contre les changements climatiques et leurs répercussions
+SDG_TARGET__GLOBAL: |-
+  Cible 13.a : Mettre en œuvre l’engagement que les pays développés parties à la Convention-cadre des Nations Unies sur les changements climatiques ont pris de mobiliser ensemble auprès de multiples sources 100 milliards de dollars par an d’ici à 2020 pour répondre aux besoins des pays en développement en ce qui concerne les mesures concrètes d’atténuation et la transparence de leur mise en œuvre et rendre le Fonds vert pour le climat pleinement opérationnel en le dotant dans les plus brefs délais des moyens financiers nécessaires
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 13.a.1 : Montant (en dollars des États-Unis) des ressources fournies et mobilisées par année relativement à l’objectif collectif actuel de mobilisation, soit 100 milliards de dollars jusqu’en 2025
 
 un_designated_tier: Niveau II
-un_custodian_agency: Le secrétariat de la Convention-cadre des Nations unies sur les changements climatiques (CCNUCC) 
+un_custodian_agency: ONU Changements climatiques (Secrétariat de la CCNUCC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-13-0a-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
-reporting_status: notstarted
-
- 
