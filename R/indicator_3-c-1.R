@@ -116,6 +116,12 @@ health_worker_gender <- health_density_filtered %>%
     Gender == c("Men+","Women+"),
     Occupation %in% c(medical_doctors, nursing)
   ) %>%
+  mutate (
+    `Type of occupation` = case_when(
+      Occupation %in% medical_doctors ~ "Medical doctors",
+      Occupation %in% nursing ~ "Nursing and midwifery personnel"
+    )
+  ) %>%
   group_by(Year, Geography, `Type of occupation`, Gender) %>%
   summarize(Total_Count = sum(Count, na.rm = TRUE), .groups = "drop")
 
