@@ -95,26 +95,38 @@ health_worker_density <- health_density_filtered %>%
   select(Year, Geography, Series, Units, `Type of occupation`, Value)
 
 # Second Series: Health worker distribution by sex
-health_worker_distribution <- health_density_filtered %>%
-  filter(Occupation %in% c(medical_doctors, nursing)) %>%
-  group_by(Year, Geography, Occupation, Gender) %>%
-  summarize(Total_Count = sum(Count, na.rm = TRUE), .groups = "drop") %>%
-  group_by(Year, Geography, Occupation) %>%
-  mutate(
-    Total_Gender_Count = sum(Total_Count[Gender == "Total - Gender"], na.rm = TRUE),
-    Percentage = (Total_Count / Total_Gender_Count) * 100
-  ) %>%
-  ungroup() %>%
-  filter(Gender %in% c("Male", "Female")) %>%
-  mutate(
+health_gender <- health_density_filtered %>%
+  filter(
+    Geography == "Canada",
+    Gender == "Total - Gender",
+    Occupation %in% c(medical_doctors, nursing)
+  ) %>% 
+  mutate (
     `Type of occupation` = case_when(
       Occupation %in% medical_doctors ~ "Medical doctors",
       Occupation %in% nursing ~ "Nursing and midwifery personnel"
-    ),
+    )
+  ) %>%
+  group_by(Year, Geography, `Type of occupation`) %>%
+  summarize(Total_Gender_Count = sum(Count, na.rm = TRUE), .groups = "drop")
+
+health_worker_gender <- health_density_filtered %>%
+  filter(
+    Geography == "Canada",
+    Gender == c("Men+","Women+"),
+    Occupation %in% c(medical_doctors, nursing)
+  ) %>%
+  group_by(Year, Geography, `Type of occupation`, Gender) %>%
+  summarize(Total_Count = sum(Count, na.rm = TRUE), .groups = "drop")
+
+health_worker_distribution <-
+  left_join(health_worker_gender, health_gender) %>%
+  mutate(
+    Value = (Total_Count / Total_Gender_Count) * 100,
     Series = "Health worker distribution, by sex and type of occupation",
     Units = "Percentage (%)"
   ) %>%
-  select(Year, Geography, Series, Units, `Type of occupation`, Gender, Value = Percentage)
+  select(Year, Geography, Series, Units, `Type of occupation`, Gender, Value)
 
 data_final <-
   bind_rows(health_worker_density, health_worker_distribution)
