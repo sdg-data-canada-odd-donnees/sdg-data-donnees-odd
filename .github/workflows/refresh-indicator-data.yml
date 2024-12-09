@@ -9,8 +9,11 @@
 name: Data update
 
 on:
- schedule:
+  workflow_dispatch:
+    
+  schedule:
 # run at 9:30am on tuesday
+# edit cron helper: https://crontab.guru/
    - cron: '30 13 * * 2'
     
 # on:
@@ -20,7 +23,7 @@ on:
 
 jobs:
   data-update:
-    runs-on: windows-2019
+    runs-on: macos-latest
     
     steps:
     - uses: actions/checkout@v3
@@ -44,7 +47,7 @@ jobs:
     - name: Install dependencies
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
-        install.packages(c("dplyr", "RSQLite", "readr", "cansim", "stringr", "lubridate", "tidyr"))
+        install.packages(c("dplyr", "RSQLite", "readr", "cansim", "stringr", "lubridate", "tidyr", "httr", "jsonlite", "dotenv", "archive", "hablar", "dbplyr"))
       shell: Rscript {0}
 
     - name: Updating data and cleaning 
