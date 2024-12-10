@@ -1,27 +1,38 @@
-SDG_GOAL: '<p>Objectif 16 : Paix, justice et institutions efficaces</p>'
-SDG_TARGET: '<p>Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de violence et les taux de mortalité qui y sont associés</p>'
-SDG_INDICATOR: '<p>Indicateur 16.1.4 : Nombre de personnes considérant qu’il n’y a pas de danger à se déplacer seules à pied dans leur zone de résidence,
-  en proportion de la population totale</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 16 : Paix, justice et institutions efficaces</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de violence et les taux de mortalité qui y sont associés</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.1.4 : Nombre de personnes considérant qu’il n’y a pas de danger à se déplacer seules à pied dans leur zone de résidence,
-  en proportion de la population totale</p>'
+# National
+SDG_GOAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET: |-
+  Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de violence et les taux de mortalité qui y sont associés
+SDG_INDICATOR: |-
+  Indicateur 16.1.4 : Nombre de personnes considérant qu’il n’y a pas de danger à se déplacer seules à pied dans leur zone de résidence, en proportion de la population totale
+STAT_CONC_DEF: |-
+  Cet indicateur se réfère à la proportion de la population adulte qui se sent en sécurité lorsqu'elle se promène seule dans son quartier la nuit.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |-
+  Les enquêtes de victimisation (en tant qu'enquêtes spécifiques ou modules d'enquêtes sur les ménages) sont généralement limitées à la population générale vivant dans des ménages d'un certain âge (généralement 15 ou 18 ans), bien qu'une limite d'âge supérieure soit parfois appliquée (généralement 65, 70 ou 75 ans).
+  <br><br>
+  La formulation de la question utilisée pour mesurer la peur de la criminalité ("Dans quelle mesure vous sentez-vous en sécurité lorsque vous marchez seul(e) dans votre quartier après la tombée de la nuit ? Tout d'abord, la question suppose que les répondants font ce qui suit : (1) sortent, (2) sortent seuls, (3) sortent dans leur quartier, et (4) sortent après la tombée de la nuit. Pour de nombreux répondants, les raisons pour lesquelles ils ne sortent pas seuls dans leur quartier après la tombée de la nuit peuvent n'avoir que peu ou pas de rapport avec la criminalité et davantage avec des questions personnelles et circonstancielles, telles que le manque de mobilité, les obligations de garde d'enfants ou l'utilisation d'une voiture qui leur permet de se déplacer plus loin. Deuxièmement, la question ne définit pas le sens du terme « quartier », qui peut avoir une signification différente selon les personnes interrogées, même si elles vivent dans la même rue. Troisièmement, la question ne fait pas explicitement référence à la « criminalité », mais celle-ci est implicite dans la question. Il peut y avoir d'autres raisons non liées à la criminalité (par exemple les animaux sauvages, la circulation, etc.) pour lesquelles les répondants ne se sentent pas en sécurité lorsqu'ils se promènent dans leur quartier après la tombée de la nuit.
+  <br><br>
+  « Total - Canada » comprend la population âgée de 15 ans et plus. L'expression « minorité visible » fait référence au fait qu'une personne appartient ou non à une minorité visible, selon la définition de la loi sur l'équité en matière d'emploi. La loi sur l'équité en matière d'emploi définit les minorités visibles comme « les personnes, autres que les Autochtones, qui ne sont pas de race blanche ou qui n'ont pas la peau blanche ». La population des minorités visibles se compose principalement des groupes suivants : Asiatiques du Sud, Chinois, Noirs, Philippins, Arabes, Latino-Américains, Asiatiques du Sud-Est, Asiatiques de l'Ouest, Coréens et Japonais. Les données relatives aux catégories « Asiatique occidental », « Coréen », « Japonais », « Minorité visible », « Non inclus ailleurs », « Minorités visibles multiples » et « Non indiqué » sont incluses dans le « Total - Minorité visible ».
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET__GLOBAL: |-
+  Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de violence et les taux de mortalité qui y sont associés
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 16.1.4 : Nombre de personnes considérant qu’il n’y a pas de danger à se déplacer seules à pied dans leur zone de résidence, en proportion de la population totale
 
 un_designated_tier: Niveau II
 un_custodian_agency: Office des Nations Unies contre la drogue et le crime (ONUDC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-04.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
-reporting_status: complete
-
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: Statistique Canada. Satisfaction à l’égard du sentiment d’appartenance à la communauté et du quartier, sentiment de sécurité et difficultés économiques, selon la minorité visible et certaines caractéristiques.
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/cv!recreate-nonTraduit.action?pid=4310005801&selectedNodeIds=3D8%2C4D3%2C5D1&checkedLevels=0D1%2C1D1%2C1D2%2C1D3&refPeriods=20210101%2C20210101&dimensionLayouts=layout2%2Clayout3%2Clayout2%2Clayout2%2Clayout2%2Clayout2&vectorDisplay=false&request_locale=fr
+source_url_text_1: Statistique Canada. Tableau 43-10-0058-01  Satisfaction à l’égard du sentiment d’appartenance à la communauté et du quartier, sentiment de sécurité et difficultés économiques, selon la minorité visible et certaines caractéristiques
+source_url_1: https://doi.org/10.25318/4310005801-fra
 source_organisation_1: Statistique Canada
 source_periodicity_1: Occasionnelle
 source_geographical_coverage_1: Canada
-
  
