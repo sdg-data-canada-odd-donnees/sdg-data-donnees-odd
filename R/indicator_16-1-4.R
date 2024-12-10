@@ -14,7 +14,7 @@ exclude_vismin <- c(
 community_filtered <-
   community_data %>%
   filter(
-    Indicators == "Feeling safe walking in their area alone after dark",
+    Indicators == "Feeling safe walking in the neighbourhood alone after dark",
     Statistics == "Percentage of persons"
   ) %>%
   mutate(
