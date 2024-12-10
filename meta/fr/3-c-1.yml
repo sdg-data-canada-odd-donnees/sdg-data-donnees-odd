@@ -5,12 +5,19 @@ SDG_TARGET: '<p>Cible 3.c : Accroître considérablement le budget de la santé 
   dans les pays en développement, notamment dans les pays les moins avancés et les
   petits États insulaires en développement.</p>'
 SDG_INDICATOR: '<p>Indicateur 3.c.1 : Densité et répartition du personnel de santé</p>'
-STAT_CONC_DEF: <p><strong><em>Densité de médecins :</em> </strong>La densité de médecins
-  est définie comme le nombre de médecins, y compris les généralistes et les médecins
-  spécialistes, pour 10 000 habitants dans une zone nationale et/ou sous-nationale
-  donnée.<br></p>
-DATA_COMP: "On calcule l'indicateur en divisant le nombre de professionnels de la santé qui travaillent en soins directs dans chaque région sanitaire ou province et territoire par les estimations démographiques, puis en multipliant le résultat obtenu par 100 000.<br><br>(Nombre de professionnels de la santé qui travaillent en soins directs dans la profession selon la région sanitaire ou la province et le territoire ÷ Estimation démographique) × 100 000<br>"
-REC_USE_LIM: "La comparaison des changements au fil du temps, tant à l’échelle provinciale ou territoriale que nationale, doit être effectuée avec prudence, puisque certaines données pourraient avoir été soumises selon une définition d’effectif différente ou avoir été recueillies dans différents contextes réglementaires, de sources différentes, ou à des moments différents au cours d’une année donnée."
+STAT_CONC_DEF: |
+  Cet indicateur mesure les densités de médecins, de personnel infirmier et de sages-femmes, de dentistes et de pharmaciens pour 10 000 habitants. L'indicateur mesure également la répartition des travailleurs de la santé par sexe pour certaines professions. Les professions sont basées sur les codes des professions de la Classification nationale des professions [CNP] 2021, version 1.0, mis en correspondance avec la Classification internationale type des professions (CITP-08).
+DATA_COMP: |
+  Calculé en divisant le nombre de professionnels de la santé travaillant dans les soins directs dans chaque région sanitaire ou province/territoire par les estimations de population et en multipliant le résultat par 10 000.
+  <br><br>
+  Densité de médecins = ((CNP : 31101 Spécialistes en chirurgie + CNP : 31102 Médecins généralistes et médecins de famille) / Population) x 10 000.
+  <br><br>
+  Densité du personnel infirmier et des sages-femmes = ((CNP : 31301 Infirmiers autorisés et infirmiers psychiatriques autorisés + CNP : 31302 Infirmiers praticiens + CNP : 31303 Assistants médicaux, sages-femmes et professionnels paramédicaux) / Population) x 10 000.
+  <br><br>
+  Densité de dentistes = (CNP : 31110 Dentistes / Population) x 10 000
+  <br><br>
+  Densité de pharmaciens = (CNP : 31120 Pharmaciens / Population) x 10 000
+REC_USE_LIM: '    '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.c : Accroître considérablement le budget de la santé
@@ -22,13 +29,19 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.c.1 : Densité et répartition du person
 
 reporting_status: complete 
  
-
 source_active_1: 'true'
-source_url_text_1: Base de données sur la main-d’œuvre de la santé
-source_url_1: https://www.cihi.ca/fr/metadonnees-de-la-base-de-donnees-sur-la-main-doeuvre-de-la-sante
-source_organisation_1: Institut canadien d'information sur la santé (ICIS)
-source_periodicity_1: Annuelle
+source_url_text_1: "Statistique Canada. Tableau 98-10-0447-01  Groupe de base des professions selon le plus haut niveau de scolarité, le principal domaine d’études, l’âge et le genre : Canada, provinces et territoires"
+source_url_1: https://doi.org/10.25318/9810044701-fra
+source_organisation_1: Statistique Canada
+source_periodicity_1: Occasionnelle
 source_geographical_coverage_1: Canada, Province ou territoire
+
+source_active_2: true
+source_url_text_2: Statistique Canada. Tableau 17-10-0005-01 Estimations de la population au 1er juillet, par âge et genre
+source_url_2: https://doi.org/10.25318/1710000501-fra
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada, Province ou territoire
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation mondiale de la Santé (OMS)
