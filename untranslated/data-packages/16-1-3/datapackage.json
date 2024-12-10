@@ -64,13 +64,13 @@
             }
           },
           {
-            "name": "First Nations, Metis, or Inuit identity",
+            "name": "First Nations, Métis, or Inuit identity",
             "type": "string",
             "constraints": {
               "enum": [
                 "Indigenous person",
                 "First Nations",
-                "Metis",
+                "Métis",
                 "Inuit",
                 "Non-Indigenous person",
                 ""

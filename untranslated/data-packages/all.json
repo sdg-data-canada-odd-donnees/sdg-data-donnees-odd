@@ -1402,13 +1402,13 @@
             }
           },
           {
-            "name": "First Nations, Metis, or Inuit identity",
+            "name": "First Nations, Métis, or Inuit identity",
             "type": "string",
             "constraints": {
               "enum": [
                 "Indigenous person",
                 "First Nations",
-                "Metis",
+                "Métis",
                 "Inuit",
                 "Non-Indigenous person",
                 ""
@@ -3889,11 +3889,11 @@
             "type": "integer"
           },
           {
-            "name": "Racialized groups",
+            "name": "Visible minority",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total - Canada",
+                "Total population",
                 "Total visible minority population",
                 "South Asian",
                 "Chinese",
@@ -3908,7 +3908,7 @@
             }
           },
           {
-            "name": "Selected sociodemographic characteristics",
+            "name": "Sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [

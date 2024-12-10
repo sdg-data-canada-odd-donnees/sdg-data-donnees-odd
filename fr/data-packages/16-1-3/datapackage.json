@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Physical violence",
-                "Sexual violence",
+                "Violence physique",
+                "Violence sexuelle",
                 ""
               ]
             },
@@ -49,7 +49,7 @@
                 "35 à 44 ans",
                 "45 à 54 ans",
                 "55 à 64 ans",
-                "65 years and older",
+                "65 ans et plus",
                 ""
               ]
             },
@@ -61,7 +61,7 @@
             "constraints": {
               "enum": [
                 "Hétérosexuel",
-                "Lesbian or gay",
+                "Lesbienne ou gai",
                 "Bisexuel",
                 ""
               ]
@@ -69,19 +69,19 @@
             "title": "Orientation sexuelle"
           },
           {
-            "name": "First Nations, Metis, or Inuit identity",
+            "name": "First Nations, Métis, or Inuit identity",
             "type": "string",
             "constraints": {
               "enum": [
                 "Autochtone",
                 "Premières Nations",
-                "Metis",
+                "Métis",
                 "Inuit",
                 "Personne non autochtone",
                 ""
               ]
             },
-            "title": "First Nations, Metis, or Inuit identity"
+            "title": "Identité autochtone"
           },
           {
             "name": "Visible minority",
@@ -100,8 +100,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Has a disability",
-                "Does not have a disability",
+                "Personne ayant une incapacité",
+                "Personne n'ayant aucune incapacité",
                 ""
               ]
             },

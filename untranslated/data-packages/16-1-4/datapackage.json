@@ -15,11 +15,11 @@
             "type": "integer"
           },
           {
-            "name": "Racialized groups",
+            "name": "Visible minority",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total - Canada",
+                "Total population",
                 "Total visible minority population",
                 "South Asian",
                 "Chinese",
@@ -34,7 +34,7 @@
             }
           },
           {
-            "name": "Selected sociodemographic characteristics",
+            "name": "Sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [

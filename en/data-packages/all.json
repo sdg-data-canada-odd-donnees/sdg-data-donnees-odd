@@ -1513,19 +1513,19 @@
             "title": "Sexual orientation"
           },
           {
-            "name": "First Nations, Metis, or Inuit identity",
+            "name": "First Nations, Métis, or Inuit identity",
             "type": "string",
             "constraints": {
               "enum": [
                 "Indigenous person",
                 "First Nations",
-                "Metis",
+                "Métis",
                 "Inuit",
                 "Non-Indigenous person",
                 ""
               ]
             },
-            "title": "First Nations, Metis, or Inuit identity"
+            "title": "First Nations, Métis, or Inuit identity"
           },
           {
             "name": "Visible minority",
@@ -4196,11 +4196,11 @@
             "title": "Year"
           },
           {
-            "name": "Racialized groups",
+            "name": "Visible minority",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total - Canada",
+                "Total population",
                 "Total visible minority population",
                 "South Asian",
                 "Chinese",
@@ -4213,10 +4213,10 @@
                 ""
               ]
             },
-            "title": "Racialized groups"
+            "title": "Visible minority"
           },
           {
-            "name": "Selected sociodemographic characteristics",
+            "name": "Sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4231,7 +4231,7 @@
                 ""
               ]
             },
-            "title": "Selected sociodemographic characteristics"
+            "title": "Sociodemographic characteristics"
           },
           {
             "name": "Value",

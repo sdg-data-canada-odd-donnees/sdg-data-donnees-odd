@@ -129,8 +129,8 @@
             "constraints": {
               "enum": [
                 "Total, disability status",
-                "Has a disability",
-                "Does not have a disability",
+                "Personne ayant une incapacité",
+                "Personne n'ayant aucune incapacité",
                 ""
               ]
             },
@@ -144,7 +144,7 @@
                 "Total, sexual orientation",
                 "Hétérosexuel",
                 "Sexual minority",
-                "Lesbian or gay",
+                "Lesbienne ou gai",
                 "Bisexual or pansexual",
                 "Not stated, sexual orientation",
                 "Orientation sexuelle non classée ailleurs",

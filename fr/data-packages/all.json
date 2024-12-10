@@ -1464,8 +1464,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Physical violence",
-                "Sexual violence",
+                "Violence physique",
+                "Violence sexuelle",
                 ""
               ]
             },
@@ -1493,7 +1493,7 @@
                 "35 à 44 ans",
                 "45 à 54 ans",
                 "55 à 64 ans",
-                "65 years and older",
+                "65 ans et plus",
                 ""
               ]
             },
@@ -1505,7 +1505,7 @@
             "constraints": {
               "enum": [
                 "Hétérosexuel",
-                "Lesbian or gay",
+                "Lesbienne ou gai",
                 "Bisexuel",
                 ""
               ]
@@ -1513,19 +1513,19 @@
             "title": "Orientation sexuelle"
           },
           {
-            "name": "First Nations, Metis, or Inuit identity",
+            "name": "First Nations, Métis, or Inuit identity",
             "type": "string",
             "constraints": {
               "enum": [
                 "Autochtone",
                 "Premières Nations",
-                "Metis",
+                "Métis",
                 "Inuit",
                 "Personne non autochtone",
                 ""
               ]
             },
-            "title": "First Nations, Metis, or Inuit identity"
+            "title": "Identité autochtone"
           },
           {
             "name": "Visible minority",
@@ -1544,8 +1544,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Has a disability",
-                "Does not have a disability",
+                "Personne ayant une incapacité",
+                "Personne n'ayant aucune incapacité",
                 ""
               ]
             },
@@ -4196,11 +4196,11 @@
             "title": "Année"
           },
           {
-            "name": "Racialized groups",
+            "name": "Visible minority",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total - Canada",
+                "Population totale",
                 "Total de la population des minorités visibles",
                 "Sud-Asiatique",
                 "Chinois",
@@ -4213,10 +4213,10 @@
                 ""
               ]
             },
-            "title": "Groupes racialisés"
+            "title": "Minorité visible"
           },
           {
-            "name": "Selected sociodemographic characteristics",
+            "name": "Sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4231,7 +4231,7 @@
                 ""
               ]
             },
-            "title": "Selected sociodemographic characteristics"
+            "title": "Caractéristiques sociodémographiques"
           },
           {
             "name": "Value",
@@ -6623,8 +6623,8 @@
             "constraints": {
               "enum": [
                 "Total, disability status",
-                "Has a disability",
-                "Does not have a disability",
+                "Personne ayant une incapacité",
+                "Personne n'ayant aucune incapacité",
                 ""
               ]
             },
@@ -6638,7 +6638,7 @@
                 "Total, sexual orientation",
                 "Hétérosexuel",
                 "Sexual minority",
-                "Lesbian or gay",
+                "Lesbienne ou gai",
                 "Bisexual or pansexual",
                 "Not stated, sexual orientation",
                 "Orientation sexuelle non classée ailleurs",
