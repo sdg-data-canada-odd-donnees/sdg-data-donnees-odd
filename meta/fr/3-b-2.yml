@@ -12,8 +12,18 @@ SDG_TARGET: '<p>Cible 3.b : Appuyer la recherche et le développement de vaccins
   universel aux médicaments.</p>'
 SDG_INDICATOR: '<p>Indicateur 3.b.2 : Montant total net de l’aide publique au développement
   consacré à la recherche médicale et aux soins de santé de base.</p>'
-STAT_CONC_DEF: '    '
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+  <strong>Définition :</strong><br>Décaissements bruts de l’apport d'aide publique au développement (APD) totale et d’autres flux officiels du Canada vers le secteur agricole.
+  <br><br><strong>Concepts :</strong><br>ODA: APD: Le Comité d'aide au développement (CAD) définit l’APD comme "tous les apports de ressources qui sont fournis aux pays et territoires sur la Liste des bénéficiaires d'APD, ou à des institutions multilatérales, et qui répondent aux critères suivants : 
+  <br><br>
+  i) émaner d'organismes publics, y compris les États et les collectivités locales, ou d'organismes agissant pour le compte d'organismes publics ;
+  <br><br>
+  ii) sachant que chaque opération doit en outre : <br>
+  a) avoir pour but essentiel de favoriser le développement économique et l'amélioration du niveau de vie des pays en développement ; <br>
+  b) être assortie de conditions favorables et comporter un élément de libéralité au moins égal à 25 pour cent (sur la base d'un taux d'actualisation de 10 pour cent). (voir <a href="https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html)</a>
+  <br><br>
+  Les secteurs de la recherche médicale et de la santé de base sont tels que définis par le CAD. La recherche médicale fait référence au code sectoriel CRS 12182 et la santé de base couvre tous les codes de la série 122 (voir ici (en anglais seulement) : <a href="https://www.oecd.org/development/financing-sustainable-development/development-finance-standards/purposecodessectorclassification.htm">https://www.oecd.org/development/financing-sustainable-development/development-finance-standards/purposecodessectorclassification.htm)</a>
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 
 # GLOBAL
@@ -33,9 +43,9 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.b.2 : Montant total net de l’aide publ
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: OCDE. Système de notification des pays créanciers (SNPC).
-source_url_1: https://stats.oecd.org/Index.aspx?lang=fr&SubSessionId=035b0717-6e18-403c-a835-a7c8c1034554&themetreeid=3
-source_organisation_1: OCDE
+source_url_text_1: OCDE. Système de notification des pays créanciers (flux) (SNPC).
+source_url_1: https://data-explorer.oecd.org/vis?lc=fr&pg=0&bp=true&snb=19&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.2&dq=CAN.DPGC.122%2B12182.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false
+source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
 source_geographical_coverage_1: Canada
 
 un_designated_tier: Niveau I
