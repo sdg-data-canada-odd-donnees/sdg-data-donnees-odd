@@ -9,8 +9,8 @@ data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
 data_start_values:
-- field: Racialized groups
-  value: Total - Canada
+- field: Visible minority
+  value: Total population
 - field: Sociodemographic characteristics
   value: Total, 15 years and over
 embedded_feature_footer: ''
@@ -37,4 +37,3 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-"\xEF\xBB\xBFauto_progress_calculation": true

@@ -1,36 +1,39 @@
-SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
-  provide access to justice for all and build effective, accountable and inclusive
-  institutions at all levels</p>'
-SDG_TARGET: '<p>Target 16.1: Significantly reduce all forms of violence and related
-  death rates everywhere</p>'
-SDG_INDICATOR: '<p>Indicator 16.1.1: Number of victims of intentional homicide per
-  100,000 population, by sex and age</p>'
+# National
+SDG_GOAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET: |-
+  Target 16.1: Significantly reduce all forms of violence and related death rates everywhere
+SDG_INDICATOR: |-
+  Indicator 16.1.1: Number of victims of intentional homicide per 100,000 population, by sex and age
 
 STAT_CONC_DEF: >-
-    <p>The indicator is defined as the total count of victims of intentional homicide divided by the total population, expressed per 100,000 population.</p>
-    <p> Homicide includes Criminal Code offences of murder, manslaughter and infanticide. </p>
+  The indicator is defined as the total count of victims of intentional homicide divided by the total population, expressed per 100,000 population.
+  <br><br>
+  Homicide includes Criminal Code offences of murder, manslaughter and infanticide.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
-    <p>The total count of a given year's number of homicides could include incidents that occurred in previous years. Homicides are allotted to the year in which they become known to or are deemed homicides by police, according to the report date submitted to Statistics Canada.</p>
-    <p> Indigenous identity is reported by the police and is determined through information found with the victim, such as status cards, or through information supplied by the victims' families, community members, or other sources (i.e., such as band records, or forensic evidence such as genetic testing).</p>
-    <p>The year 2019 marked the first cycle of collection of the Homicide Survey data for which information on gender identity was reported for victims of homicide. Gender refers to the gender a person publicly expresses in their daily life, including at work, while shopping or accessing other services, in their housing environment or in the broader community. Prior to 2019, Homicide Survey data was presented by the sex of the victims. Sex and gender refer to two different concepts. Caution should be exercised when comparing counts for sex with those for gender.</p>
-    <p>Given that small counts of victims identified as "gender diverse" may exist, the aggregate Homicide Survey data available to the public has been recoded to assign these counts to either "male" or "female" in order to ensure the protection of confidentiality and privacy. Victims identified as gender diverse have been assigned to either male or female based on the regional distribution of victims’ gender.</p>
-    
-SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
-  development, provide access to justice for all and build effective, accountable
-  and inclusive institutions at all levels</p>'
-SDG_TARGET__GLOBAL: '<p>Target 16.1: Significantly reduce all forms of violence and
-  related death rates everywhere</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 16.1.1: Number of victims of intentional homicide
-  per 100,000 population, by sex and age</p>'
+  <p>The total count of a given year's number of homicides could include incidents that occurred in previous years. Homicides are allotted to the year in which they become known to or are deemed homicides by police, according to the report date submitted to Statistics Canada.</p>
+  <p>Indigenous identity is reported by the police and is determined through information found with the victim, such as status cards, or through information supplied by the victims' families, community members, or other sources (i.e., such as band records, or forensic evidence such as genetic testing).</p>
+  <p>The year 2019 marked the first cycle of collection of the Homicide Survey data for which information on gender identity was reported for victims of homicide. Gender refers to the gender a person publicly expresses in their daily life, including at work, while shopping or accessing other services, in their housing environment or in the broader community. Prior to 2019, Homicide Survey data was presented by the sex of the victims. Sex and gender refer to two different concepts. Caution should be exercised when comparing counts for sex with those for gender.</p>
+  <p>Given that small counts of victims identified as "gender diverse" may exist, the aggregate Homicide Survey data available to the public has been recoded to assign these counts to either "male" or "female" in order to ensure the protection of confidentiality and privacy. Victims identified as gender diverse have been assigned to either male or female based on the regional distribution of victims’ gender.</p>
+
+# Global   
+SDG_GOAL__GLOBAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET__GLOBAL: |-
+  Target 16.1: Significantly reduce all forms of violence and related death rates everywhere
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 16.1.1: Number of victims of intentional homicide per 100,000 population, by sex and age
+
+un_designated_tier: Tier I
+un_custodian_agency: United Nations Office on Drugs and Crime (UNODC), World Health Organization (WHO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 35-10-0156-01  Number, percentage and rate of homicide victims, by gender and Indigenous identity
 source_url_1: https://doi.org/10.25318/3510015601-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
- 
-un_designated_tier: Tier I
-un_custodian_agency: United Nations Office on Drugs and Crime (UNODC), World Health Organization (WHO)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata
