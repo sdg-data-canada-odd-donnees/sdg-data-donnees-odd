@@ -6681,68 +6681,76 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Newfoundland",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
                 "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "Type of provider",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Audiologistes",
-                "Chiropraticiens",
-                "Assistants dentaires",
-                "Hygiénistes dentaires",
-                "Dentistes",
-                "Diététistes",
-                "Professionnels de la santé publique environnementale",
-                "Médecins de famille",
-                "Conseillers en génétique",
-                "Professionnels de la gestion de l’information sur la santé",
-                "Infirmières auxiliaires autorisées",
-                "Technologistes de laboratoire médical",
-                "Physiciens médicaux",
-                "Technologues en radiation médicale",
-                "Sages-femmes",
-                "Infirmières praticiennes",
-                "Ergothérapeutes",
-                "Opticiens",
-                "Optométristes",
-                "Ambulanciers paramédicaux",
-                "Pharmaciens",
-                "Techniciens en pharmacie",
-                "Adjoints au médecin",
-                "Médecins",
-                "Physiothérapeutes",
-                "Psychologues",
-                "Infirmières autorisées",
-                "Infirmières psychiatriques autorisées",
-                "Personnel infirmier réglementé",
-                "Inhalothérapeutes",
-                "Travailleurs sociaux",
-                "Spécialistes",
-                "Orthophonistes",
-                "Psychotherapists/counselling therapists",
+                "Densité du personnel de santé, par type de profession (pour 10 000 habitants)",
+                "Health worker distribution, by sex and type of occupation",
                 ""
               ]
             },
-            "title": "Type of provider"
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Per 10,000 population",
+                "Pourcentage (%)",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Type of occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Densité de médecins",
+                "Densité du personnel infirmier et des sages-femmes",
+                "Densité de dentistes",
+                "Densité de pharmaciens",
+                "Medical doctors",
+                "Nursing and midwifery personnel",
+                ""
+              ]
+            },
+            "title": "Type de profession"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Genre"
           },
           {
             "name": "Value",
