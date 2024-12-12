@@ -1,5 +1,5 @@
 auto_progress_calculation: false
-computation_units: Service provider per 100,000 population
+computation_units: Per 10,000 population
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -8,10 +8,18 @@ data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
 data_start_values:
+- field: Series
+  value: Health worker density, by type of occupation (per 10,000 population)
 - field: Geography
   value: Canada
-- field: Type of provider
-  value: Physicians
+- field: Type of occupation
+  value: Density of medical doctors
+- field: Type of occupation
+  value: Density of nursing and midwifery personnel
+- field: Type of occupation
+  value: Density of dentists
+- field: Type of occupation
+  value: Density of pharmacists
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -19,12 +27,16 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
 - Geography
-- Type of provider
+- Type of occupation
+- Gender
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-c-1-title
-graph_titles: []
+graph_titles:
+  - series: Health worker density, by type of occupation (per 10,000 population)
+    title: Health worker density, by type of occupation (per 10,000 population)
+  - series: Health worker distribution, by sex and type of occupation
+    title: Health worker distribution, by sex and type of occupation
 graph_type: line
 indicator_name: global_indicators.3-c-1-title
 indicator_number: 3.c.1
