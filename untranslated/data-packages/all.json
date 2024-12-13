@@ -4672,7 +4672,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Per 10,000 population",
+                "Rate per 10,000 population",
                 "Percentage (%)",
                 ""
               ]
