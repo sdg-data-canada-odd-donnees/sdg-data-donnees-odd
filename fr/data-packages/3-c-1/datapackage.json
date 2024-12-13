@@ -45,7 +45,7 @@
             "constraints": {
               "enum": [
                 "Densité du personnel de santé, par type de profession (pour 10 000 habitants)",
-                "Health worker distribution, by sex and type of occupation",
+                "Répartition du personnel de santé, par sexe et par type de profession",
                 ""
               ]
             },
@@ -72,15 +72,15 @@
                 "Densité du personnel infirmier et des sages-femmes",
                 "Densité de dentistes",
                 "Densité de pharmaciens",
-                "Medical doctors",
-                "Nursing and midwifery personnel",
+                "Médecins",
+                "Personnel infirmier et sages-femmes",
                 ""
               ]
             },
             "title": "Type de profession"
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -89,7 +89,7 @@
                 ""
               ]
             },
-            "title": "Genre"
+            "title": "Sexe"
           },
           {
             "name": "Value",
