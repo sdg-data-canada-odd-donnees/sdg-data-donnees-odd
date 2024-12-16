@@ -1,28 +1,37 @@
-SDG_GOAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins 
-  du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les 
-  niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
-SDG_TARGET: '<p>Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, 
-  et à toutes les formes de violence et de torture dont sont victimes les enfants</p>'
-SDG_INDICATOR: '<p>Indicateur 16.2.1 : Proportion des enfants âgés de 1 à 17 ans ayant subi des 
-  châtiments corporels ou des agressions psychologiques infligés par une personne s’occupant 
-  d’eux au cours du mois précédent</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins 
-  du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les 
-  niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, 
-  et à toutes les formes de violence et de torture dont sont victimes les enfants</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.2.1 : Proportion des enfants âgés de 1 à 17 ans ayant subi des 
-  châtiments corporels ou des agressions psychologiques infligés par une personne s’occupant 
-  d’eux au cours du mois précédent</p>'
+# National
+SDG_GOAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET: |-
+  Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, et à toutes les formes de violence et de torture dont sont victimes les enfants
+SDG_INDICATOR: |-
+  Indicateur 16.2.1 : Proportion de la population âgée de 15 et plus ayant subi des agressions physiques ou sexuelles avant l'âge de 15 ans
+STAT_CONC_DEF: |-
+  La proportion des enfants âgés de 1 à 17 ans ayant subi des châtiments corporels ou des agressions psychologiques infligés par une personne s’occupant d’eux au cours du mois précédent est actuellement mesurée par la proportion d'enfants âgés de 1 à 14 ans ayant subi des châtiments corporels ou des agressions psychologiques infligés par une personne s’occupant d’eux au cours du mois précédent.
+  <br><br>
+  La maltraitance des enfants comprend les abus physiques et/ou sexuels commis par une personne âgée de 18 ans ou plus, et/ou le fait d'être témoin d'actes de violence commis par un parent ou un tuteur à l'encontre d'un autre adulte.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |-
+  Il s'agit d'un indicateur de subsitution. L'indicateur global des Nations Unies indiquent: « Proportion des enfants âgés de 1 à 17 ans ayant subi des châtiments corporels ou des agressions psychologiques infligés par une personne s’occupant d’eux au cours du mois précédent ».
+  <br><br>
+  Les données sont rapportées pour les adultes (15 ans et plus) répondant avoir subi des mauvais traitements dans leur enfance avant l'âge de 15 ans.
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET__GLOBAL: |-
+  Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, et à toutes les formes de violence et de torture dont sont victimes les enfants
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 16.2.1 : Proportion des enfants âgés de 1 à 17 ans ayant subi des châtiments corporels ou des agressions psychologiques infligés par une personne s’occupant d’eux au cours du mois précédent
 
 un_designated_tier: Niveau II
 un_custodian_agency: Fonds des Nations Unies pour l’enfance (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
-reporting_status: notapplicable
-
- 
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Tableau 35-10-0167-01  Agressions physiques ou sexuelles autodéclarées survenues pendant l'enfance
+source_url_1: https://doi.org/10.25318/3510016701-fra
+source_organisation_1: Statistique Canada
+source_periodicity_1: Aux 5 ans
+source_geographical_coverage_1: Canada, Province ou territoire
