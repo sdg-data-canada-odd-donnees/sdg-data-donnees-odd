@@ -5558,6 +5558,30 @@
             "type": "integer"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Forest area as a proportion of total land area",
+                "Forest area",
+                "Land area",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage (%)",
+                "Hectares (Millions)",
+                "Hectares",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

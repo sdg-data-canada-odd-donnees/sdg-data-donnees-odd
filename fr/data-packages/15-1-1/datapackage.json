@@ -16,6 +16,32 @@
             "title": "Année"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Superficie forestière en proportion de la superficie terrestre totale",
+                "Superficie forestière",
+                "Superficie terrestre",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pourcentage (%)",
+                "Hectares (Millions)",
+                "Hectares",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
