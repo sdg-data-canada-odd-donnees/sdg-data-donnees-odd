@@ -6,9 +6,7 @@ SDG_TARGET: |-
 SDG_INDICATOR: |-
   Indicateur 16.2.1 : Proportion de la population âgée de 15 et plus ayant subi des agressions physiques ou sexuelles avant l'âge de 15 ans
 STAT_CONC_DEF: |-
-  La proportion des enfants âgés de 1 à 17 ans ayant subi des châtiments corporels ou des agressions psychologiques infligés par une personne s’occupant d’eux au cours du mois précédent est actuellement mesurée par la proportion d'enfants âgés de 1 à 14 ans ayant subi des châtiments corporels ou des agressions psychologiques infligés par une personne s’occupant d’eux au cours du mois précédent.
-  <br><br>
-  La maltraitance des enfants comprend les abus physiques et/ou sexuels commis par une personne âgée de 18 ans ou plus, et/ou le fait d'être témoin d'actes de violence commis par un parent ou un tuteur à l'encontre d'un autre adulte.
+  Cet indicateur mesure la proportion de la population âgée de 15 ans et plus qui a subi des violences physiques ou sexuelles avant l'âge de 15 ans.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   Il s'agit d'un indicateur de subsitution. L'indicateur global des Nations Unies indiquent: « Proportion des enfants âgés de 1 à 17 ans ayant subi des châtiments corporels ou des agressions psychologiques infligés par une personne s’occupant d’eux au cours du mois précédent ».
