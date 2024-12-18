@@ -4111,20 +4111,19 @@
             "title": "Year"
           },
           {
-            "name": "Systems",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terrestrial index",
-                "Freshwater index",
-                "Marine index",
+                "By species group",
+                "By system",
                 ""
               ]
             },
-            "title": "Systems"
+            "title": "Series"
           },
           {
-            "name": "Species",
+            "name": "Species group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4134,7 +4133,20 @@
                 ""
               ]
             },
-            "title": "Species"
+            "title": "Species group"
+          },
+          {
+            "name": "System",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terrestrial index",
+                "Freshwater index",
+                "Marine index",
+                ""
+              ]
+            },
+            "title": "System"
           },
           {
             "name": "Value",

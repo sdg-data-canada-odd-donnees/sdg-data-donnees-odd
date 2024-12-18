@@ -4111,30 +4111,42 @@
             "title": "Année"
           },
           {
-            "name": "Systems",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terrestrial index",
-                "Freshwater index",
-                "Marine index",
+                "Par groupe d'espèces",
+                "Par système",
                 ""
               ]
             },
-            "title": "Systems"
+            "title": "Series"
           },
           {
-            "name": "Species",
+            "name": "Species group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Birds index",
-                "Mammals index",
-                "Fish index",
+                "Indice des oiseaux",
+                "Indice des mammifères",
+                "Indice des poissons",
                 ""
               ]
             },
-            "title": "Species"
+            "title": "Groupe d'espèces"
+          },
+          {
+            "name": "System",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indice terrestre",
+                "Indice d'eau douce",
+                "Indice marin",
+                ""
+              ]
+            },
+            "title": "Système"
           },
           {
             "name": "Value",
@@ -7948,7 +7960,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total - Gender",
+                "Total - Genre",
                 "Femmes+",
                 "Hommes+",
                 ""

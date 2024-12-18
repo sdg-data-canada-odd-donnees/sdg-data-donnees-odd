@@ -15,25 +15,36 @@
             "type": "integer"
           },
           {
-            "name": "Systems",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terrestrial index",
-                "Freshwater index",
-                "Marine index",
+                "By species group",
+                "By system",
                 ""
               ]
             }
           },
           {
-            "name": "Species",
+            "name": "Species group",
             "type": "string",
             "constraints": {
               "enum": [
                 "Birds index",
                 "Mammals index",
                 "Fish index",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "System",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terrestrial index",
+                "Freshwater index",
+                "Marine index",
                 ""
               ]
             }
