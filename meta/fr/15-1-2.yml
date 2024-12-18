@@ -9,8 +9,11 @@ SDG_TARGET: '<p>Cible 15.1 : D’ici à 2020, garantir la préservation, la rest
 SDG_INDICATOR: '<p>Indicateur 15.1.2 : Proportion des sites importants pour la biodiversité
   terrestre et la biodiversité des eaux douces qui se trouvent dans des aires protégées
   (par type d’écosystème)</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+  Cet indicateur Proportion de sites importants pour la biodiversité terrestre et d'eau douce qui sont couverts par des aires protégées montre les tendances temporelles du pourcentage moyen de chaque site important pour la biodiversité terrestre et d'eau douce (c'est-à-dire ceux qui contribuent de manière significative à la persistance de la biodiversité mondiale) qui est couvert par des aires protégées désignées.
+  <br><br>
+  Les sites importants pour la biodiversité (SIB) sont des sites qui contribuent de manière significative à la persistance mondiale de la biodiversité dans les écosystèmes terrestres, d'eau douce et marins. Elles sont identifiées par les parties prenantes locales dans le cadre de processus nationaux, sur la base d'un ensemble de critères scientifiques reconnus au niveau mondial.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
