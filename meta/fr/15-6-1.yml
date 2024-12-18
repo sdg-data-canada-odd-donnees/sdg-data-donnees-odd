@@ -8,7 +8,8 @@ SDG_TARGET: '<p>Cible 15.6 : Favoriser le partage juste et équitable des béné
 SDG_INDICATOR: '<p>Indicateur 15.6.1 : Nombre de pays ayant adopté des cadres législatifs,
   administratifs et opérationnels destinés à assurer un partage juste et équitable
   des bénéfices</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: |
+  L'indicateur est défini comme le nombre de pays qui ont adopté des cadres législatifs, administratifs et politiques pour assurer un partage juste et équitable des avantages. Il fait référence aux efforts déployés par les pays pour mettre en œuvre le Protocole de Nagoya sur l'accès aux ressources génétiques et le partage juste et équitable des avantages découlant de leur utilisation à la Convention sur la diversité biologique (2010) et le Traité international sur les ressources phytogénétiques pour l'alimentation et l'agriculture (2001).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
@@ -26,6 +27,12 @@ un_designated_tier: Niveau I
 un_custodian_agency: Secrétariat de la Convention sur la Diversité Biologique (CDB)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-06-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+source_active_1: 'true'
+source_url_text_1: "Accès et partage des avantages centre d'échange d'informations"
+source_url_1: https://absch.cbd.int/en/search/nationalRecords?currentPage=1
+source_organisation_1: Convention sur la diversité biologique
+source_geographical_coverage_1: Canada
 
 reporting_status: complete
 
