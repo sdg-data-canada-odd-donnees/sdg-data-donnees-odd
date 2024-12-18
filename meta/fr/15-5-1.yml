@@ -5,18 +5,17 @@ SDG_GOAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres
 SDG_TARGET: '<p>Cible 15.5 : Prendre d’urgence des mesures énergiques pour réduire
   la dégradation du milieu naturel, mettre un terme à l’appauvrissement de la biodiversité
   et, d’ici à 2020, protéger les espèces menacées et prévenir leur extinction</p>'
-SDG_INDICATOR: '<p>Indicateur 15.5.1 : Indice de la Liste rouge</p>'
-STAT_CONC_DEF: '   '
+SDG_INDICATOR: '<p>Indicateur 15.5.1 : Indice des espèces canadiennes</p>'
+STAT_CONC_DEF: |
+  L'Indice des espèces canadiennes représente la variation proportionnelle moyenne de l'abondance des populations d'espèces de vertébrés au Canada depuis 1970. L'indice correspond à une « moyenne des tendances », plutôt qu'à une mesure des changements dans le nombre total d'animaux : chaque espèce, commune ou rare, a le même effet sur l'indice. 
+  <br><br>
+  Les populations d'animaux sauvages dépendent d'habitats sains et sont susceptibles de subir les effets négatifs de menaces telles que la pollution, la dégradation d'habitat ou la chasse excessive. Les tendances dans les populations animales peuvent indiquer la santé de la biodiversité et des écosystèmes au Canada. <em>Environnement et Changement climatique Canada (ECCC)</em>
 DATA_COMP: |
-  Le calcul est basé sur la variation proportionnelle de la population des 
-  espèces de vertébrés surveillées. Toutes les espèces sont pondérées de manière égale, de
-  sorte qu'une espèce dont la population a doublé sera contrebalancée par une espèce qui a 
-  diminué de moitié. Un déclin à long terme par rapport au niveau de référence de 1970 semble 
-  être continu. Toutefois, des fluctuations à court terme ne devraient pas être interprétées 
-  comme une forte indication de récent changement environnemental.
+  L'indice national comprend 928 espèces d'oiseaux, de poissons, de mammifères, d'amphibiens et de reptiles. Le nombre d'espèces correspond à 52 % des 1 798 espèces indigènes de vertébrés régulièrement observées au Canada. Les oiseaux sont le groupe d'espèces le mieux représenté, environ 89 % de l'ensemble des espèces d'oiseaux observées régulièrement au Canada étant représenté. 35% des espèces indigènes de poissons ainsi que 55% des espèces indigènes de mammifères sont représentées. Les amphibiens et les reptiles sont les groupes d'espèces les moins bien représentés, étant donné que les données sur ces espèces régulièrement observables au Canada couvrent une étendue géographique restreinte pour la période visée. <em>(ECCC)</em>
 REC_USE_LIM: |
-  Il s'agit d'un indicateur de substitution. L'indicateur mondial des Nations 
-  Unies porte sur l' « Indice de la Liste roug ».
+  La tendance nationale est le taux moyen de changement pour toutes les espèces de vertébrés surveillées. Les indices peuvent refléter des changements dans la disponibilité des données. Les données ne sont pas disponibles pour toutes les espèces, et les données existantes ne couvrent pas toujours la zone géographique ou la période complète de chaque espèce. Il faut donc tenir compte de ces lacunes pour l'interprétation de l'indice. <em>(ECCC)</em>
+  <br><br>
+  Il s'agit d'un indicateur de substitution qui correspond à l'indice des espèces canadiennes plutôt que l'indice de la Liste rouge, comme spécifié dans les métadonnées.
 SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
@@ -33,10 +32,11 @@ un_custodian_agency: Union internationale pour la conservation de la nature (UIC
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-05-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
-source_active_1: 'true'
-source_url_text_1: "Indice des espèces canadiennes"
-source_url_1: https://www.canada.ca/fr/environnement-changement-climatique/services/indicateurs-environnementaux/indice-especes-canadiennes.html
-source_organisation_1: Environnement et Changement climatique Canada
-source_geographical_coverage_1: Canada
+source_active_1: true
+source_url_text_1: "Programme des Indicateurs canadiens de durabilité de l’environnement, Indice des espèces canadiennes"
+source_url_1: 'https://www.canada.ca/fr/environnement-changement-climatique/services/indicateurs-environnementaux/indice-especes-canadiennes.html'
+source_organisation_1: "Environnement et Changement climatique Canada"
+source_periodicity_1:
+source_geographical_coverage_1: 'Canada'
 
 proxy: proxy
