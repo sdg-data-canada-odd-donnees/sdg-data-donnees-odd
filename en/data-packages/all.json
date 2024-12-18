@@ -3717,8 +3717,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Terrestrial KBAs",
-                "Freshwater KBAs",
+                "Terrestrial Key Biodiversity Areas",
+                "Freshwater Key Biodiversity Areas",
                 ""
               ]
             },
@@ -5072,6 +5072,11 @@
               ]
             },
             "title": "Sex"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

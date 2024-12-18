@@ -20,12 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Terrestre ZCBs",
-                "Eau Douce ZCBs",
+                "Sites importants pour la biodiversité terrestre",
+                "Sites importants pour la biodiversité des eaux douces",
                 ""
               ]
             },
-            "title": "Zones clés pour la biodiversité (ZCBs)"
+            "title": "Sites importants pour la biodiversité (SIB)"
           },
           {
             "name": "Value",
