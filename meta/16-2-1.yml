@@ -1,32 +1,32 @@
-SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
-  provide access to justice for all and build effective, accountable and inclusive
-  institutions at all levels</p>'
-SDG_TARGET: '<p>Target 16.2: End abuse, exploitation, trafficking and all forms of
-  violence against and torture of children</p>'
-SDG_INDICATOR: '<p>Indicator 16.2.1: Proportion of children aged 1-17 years who experienced
-  any physical punishment and/or psychological aggression by caregivers in the past
-  month</p>'
-STAT_CONC_DEF: |
-  Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological 
-  aggression by caregivers in the past month is currently being measured by the Proportion of children 
-  aged 1-14 years who experienced any physical punishment and/or psychological aggression by caregivers 
-  in the past month. <br><br> 
-  Child maltreatment includes physical and/or sexual abuse by someone aged 18 or older, and/or witnessing violence by a parent or guardian against another adult.
+# National
+SDG_GOAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET: |-
+  Target 16.2: End abuse, exploitation, trafficking and all forms of violence against and torture of children
+SDG_INDICATOR: |-
+  Indicator 16.2.1: Proportion of the population aged 15 and older who experienced physical or sexual abuse before the age of 15
+STAT_CONC_DEF: |-
+  This indicator measures the proportion of the population aged 15 and older who experienced physical or sexual abuse before the age of 15.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'Data are reported for adult (15 years and older) answering having experienced child maltreatment before the age of 15.'
-SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
-  development, provide access to justice for all and build effective, accountable
-  and inclusive institutions at all levels</p>'
-SDG_TARGET__GLOBAL: '<p>Target 16.2: End abuse, exploitation, trafficking and all
-  forms of violence against and torture of children</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 16.2.1: Proportion of children aged 1-17 years
-  who experienced any physical punishment and/or psychological aggression by caregivers
-  in the past month</p>'
+REC_USE_LIM: |-
+  This is a proxy indicator. The UN Global indicator states: "Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month".
+  <br><br>
+  Data are reported for adult (15 years and older) answering having experienced child maltreatment before the age of 15.
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET__GLOBAL: |-
+  Target 16.2: End abuse, exploitation, trafficking and all forms of violence against and torture of children
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 16.2.1: Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month
+
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Children's Fund (UNICEFF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1:  Statistics Canada. Table 35-10-0167-01  Self-reported physical and sexual abuse during childhood
 source_url_1: https://doi.org/10.25318/3510016701-eng

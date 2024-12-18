@@ -1,28 +1,33 @@
-SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
-  provide access to justice for all and build effective, accountable and inclusive
-  institutions at all levels</p>'
-SDG_TARGET: '<p>Target 16.2: End abuse, exploitation, trafficking and all forms of
-  violence against and torture of children</p>'
-SDG_INDICATOR: '<p>Indicator 16.2.3: Proportion of young women and men aged 18-29
-  years who experienced sexual violence by age 18</p>'
-STAT_CONC_DEF: 'This indicator measures the proportion of young women and men aged 18-29 years who experienced sexual violence by age 18.'
+# National
+SDG_GOAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET: |-
+  Target 16.2: End abuse, exploitation, trafficking and all forms of violence against and torture of children
+SDG_INDICATOR: |-
+  Indicator 16.2.3: Proportion of young women and men who experienced sexual violence by age 15
+STAT_CONC_DEF: |-
+  This indicator is reported through a proxy indicator. This indicator measures the proportion of young women and men who experienced sexual violence by age 15.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'Data are reported for age 15-24 and 25-34 years old on the date of the survey who experienced sexual violence before the age of 15 instead of 18-29 years old who experienced sexual violence by age 18.'
-SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
-  development, provide access to justice for all and build effective, accountable
-  and inclusive institutions at all levels</p>'
-SDG_TARGET__GLOBAL: '<p>Target 16.2: End abuse, exploitation, trafficking and all
-  forms of violence against and torture of children</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 16.2.3: Proportion of young women and men aged
-  18-29 years who experienced sexual violence by age 18</p>'
+REC_USE_LIM: |-
+  Data are reported for persons who were 15-24 and 25-34 years old on the date of the survey and who experienced sexual violence before the age of 15, whereas the UN global indicator states: "Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18".
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET__GLOBAL: |-
+  Target 16.2: End abuse, exploitation, trafficking and all forms of violence against and torture of children
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 16.2.3: Proportion of young women and men aged 18-29 years who experienced sexual violence by age 18
+
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Children's Fund (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-03.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: "Self-reported child maltreatment, by sex, Canada, 2014"
-source_url_1: https://www150.statcan.gc.ca/n1/pub/85-002-x/2017001/article/14698/tbl/tbl1.1-eng.htm
+source_url_text_1: Statistics Canada. Table 35-10-0167-01  Self-reported physical and sexual abuse during childhood
+source_url_1: https://doi.org/10.25318/3510016701-eng
 source_organisation_1: Statistics Canada
-source_geographical_coverage_1: Canada
-source_periodicity_1: Occasional
+source_geographical_coverage_1: Canada, Province or territory
+source_periodicity_1: Every 5 years
