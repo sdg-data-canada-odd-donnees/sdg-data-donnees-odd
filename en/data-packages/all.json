@@ -5062,12 +5062,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Density of medical doctors",
-                "Density of nursing and midwifery personnel",
-                "Density of dentists",
-                "Density of pharmacists",
                 "Medical doctors",
                 "Nursing and midwifery personnel",
+                "Dentists",
+                "Pharmacists",
                 ""
               ]
             },
