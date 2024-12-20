@@ -9,7 +9,7 @@ SDG_INDICATOR: '<p>Indicator 15.1.1: Forest area as a proportion of total land a
 STAT_CONC_DEF: |
   This indicator measures the forest area as a proportion of total land area. According to the FAO, forest area is defined as land spanning more than 0.5 hectares with trees higher than 5 meters and a canopy cover of more than 10 percent, or trees able to reach these thresholds in situ. It does not include land that is predominantly under agricultural or urban land use. Land area is defined as the country area excluding area under inland waters and coastal waters.
 DATA_COMP: |
-  Forest area as a proportion of total land area = (Forest area / (Total vegetated area + Total non-vegetated are - water area)) x 100
+  Forest area as a proportion of total land area = (Forest area / (Total vegetated area + Total non-vegetated area - water area)) x 100
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
   ecosystems, sustainably manage forests, combat desertification, and halt and reverse
