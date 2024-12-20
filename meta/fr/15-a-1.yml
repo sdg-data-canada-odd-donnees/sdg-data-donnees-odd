@@ -10,9 +10,10 @@ SDG_INDICATOR: '<p>Indicateur 15.a.1 : (a) aide publique au développement consa
   générées et fonds mobilisés par les instruments économiques liés à la biodiversité</p>'
 
 STAT_CONC_DEF: >-
-    Il s'agit de la somme des dépenses publiques que le Canada verse en conservation et en utilisation de la biodiversité et des écosystèmes au pays.
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+    Cet indicateur mesure l'aide publique au développement pour la conservation et l'utilisation durable de la biodiversité, définie comme les versements bruts de l'aide publique au développement (APD) totale de tous les donateurs pour la biodiversité.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |
+  En raison du manque de données, produits générés et fonds mobilisés par les instruments économiques en rapport avec la biodiversité ne peuvent pas être mesurés ni faire l'objet d'un rapport maintenant.
 SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
@@ -30,10 +31,9 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-0a-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 source_active_1: 'true'
-source_url_text_1: Statistique Canada. Tableau 10-10-0005-01 Classification canadienne des fonctions des administrations publiques (CCFAP) par composante des administrations publiques consolidées (x 1 000 000)
-source_url_1: https://doi.org/10.25318/1010000501-fra
-source_organisation_1: Statistique Canada
+source_url_text_1: OCDE. Système de notification des pays créanciers (flux)
+source_url_1: https://data-explorer.oecd.org/vis?pg=0&snb=32&vw=tb&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.1&dq=CAN.DPGC.41030.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&ly[cl]=TIME_PERIOD&lc=fr
+source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
 source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada, Province ou territoire
- 
+source_geographical_coverage_1: Canada
 
