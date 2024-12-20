@@ -1,27 +1,36 @@
-SDG_GOAL: '<p>Objectif 16 : Paix, justice et institutions efficaces</p>'
-SDG_TARGET: >-
-    <p>Cible 16.3 : Promouvoir l'état de droit dans l'ordre interne et international et garantir à tous un égal accès à la justice</p>
-SDG_INDICATOR: >-
-    <p>Indicateur 16.3.1 : Proportion des personnes victimes de violences au cours des 12 mois précédents ayant signalé les faits aux autorités compétentes ou recouru à d'autres mécanismes de règlement des différends officiellement reconnus</p>
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 16 : Paix, justice et institutions efficaces</p>'
-SDG_TARGET__GLOBAL: >-
-    <p>Cible 16.3 : Promouvoir l'état de droit dans l'ordre interne et international et garantir à tous un égal accès à la justice</p>
-SDG_INDICATOR__GLOBAL: >-
-    <p>Indicateur 16.3.1 : Proportion des personnes victimes de violences au cours des 12 mois précédents ayant signalé les faits aux autorités compétentes ou recouru à d'autres mécanismes de règlement des différends officiellement reconnus</p>
-source_active_1: 'true'
-source_url_text_1: "Incidents de victimisation déclarés par les Canadiens, selon le type d'infraction, 2019"
-source_url_1: https://www150.statcan.gc.ca/n1/pub/85-002-x/2021001/article/00014-fra.htm
-source_organisation_1: Statistique Canada
-source_periodicity_1: Tous les cinq ans
-source_geographical_coverage_1: Canada
+# National
+SDG_GOAL: |-
+  Objectif 16 : Paix, justice et institutions efficaces
+SDG_TARGET: |-
+  Cible 16.3 : Promouvoir l'état de droit dans l'ordre interne et international et garantir à tous un égal accès à la justice
+SDG_INDICATOR: |-
+  Indicateur 16.3.1 : Proportion des personnes victimes de violence (a) physique, (b) psychologique et/ou (c) sexuelle au cours des 12 mois précédents ayant signalé les faits aux autorités compétentes ou recouru à d’autres mécanismes de règlement des différends officiellement reconnus
+STAT_CONC_DEF: |-
+  Nombre de victimes de crimes violents au cours des 12 mois précédents qui ont signalé leur victimisation aux autorités compétentes ou à d'autres mécanismes de résolution des conflits officiellement reconnus, en pourcentage de toutes les victimes de violence au cours des 12 mois précédents.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |-
+  Exclut les agressions sexuelles et les voies de fait entre conjoints.
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 16 : Paix, justice et institutions efficaces
+SDG_TARGET__GLOBAL: |-
+  Cible 16.3 : Promouvoir l'état de droit dans l'ordre interne et international et garantir à tous un égal accès à la justice
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 16.3.1 : Proportion des personnes victimes de violence (a) physique, (b) psychologique et/ou (c) sexuelle au cours des 12 mois précédents ayant signalé les faits aux autorités compétentes ou recouru à d’autres mécanismes de règlement des différends officiellement reconnus
 
 un_designated_tier: Niveau II
 un_custodian_agency: Office des Nations Unies contre la drogue et le crime (ONUDC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: "Incidents de victimisation déclarés par les Canadiens, selon le type d'infraction, 2019"
+source_url_1: https://www150.statcan.gc.ca/n1/pub/85-002-x/2021001/article/00014-fra.htm
+source_organisation_1: Statistique Canada
+source_periodicity_1: Aux ans
+source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: "Incidents de victimisation déclarés par les Canadiens, selon le signalement à la police et le type d'infraction, 1999, 2004, 2009 et 2014"
