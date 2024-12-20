@@ -17,8 +17,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.15-b-1-title
-graph_titles: []
+graph_titles:
+  - series: Official development assistance on conservation and sustainable use of biodiversity
+    title: Official development assistance on conservation and sustainable use of biodiversity
+  - series: Revenue generated and finance mobilized from biodiversity-relevant economic instruments
+    title: Revenue generated and finance mobilized from biodiversity-relevant economic instruments
 graph_type: line
 indicator_name: global_indicators.15-b-1-title
 indicator_number: 15.b.1
