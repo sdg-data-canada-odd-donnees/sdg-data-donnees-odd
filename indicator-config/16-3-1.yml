@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Percentage of incidents of violent crime reported to the police
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -7,7 +7,13 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values: []
+data_start_values:
+- field: Type of victimization
+  value: _Physical assault
+- field: Type of victimization
+  value: Robbery
+- field: Type of victimization
+  value: Sexual assault
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -17,8 +23,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.16-3-1-title
-graph_titles: []
+graph_titles:
+- series: Physical violence
+  title: Proportion of victims of physical violence in the previous 12 months who reported their victimization to police
+- series: Sexual violence
+  title: Proportion of victimes of sexual violence in the previous 12 months who reported their victimization to police
 graph_type: line
 indicator_name: global_indicators.16-3-1-title
 indicator_number: 16.3.1
