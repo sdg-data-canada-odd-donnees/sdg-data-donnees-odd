@@ -44,22 +44,22 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Physical or sexual abuse",
+                "Violence physique ou sexuelle",
                 "Violence physique",
                 "Violence sexuelle",
                 ""
               ]
             },
-            "title": "Type of childhood maltreatment"
+            "title": "Type de violence physique ou sexuelle subie durant l'enfance"
           },
           {
             "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male gender",
-                "Female gender",
-                "Total, gender",
+                "Genre masculin",
+                "Genre féminin",
+                "Total, genre",
                 ""
               ]
             },
@@ -70,7 +70,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, age",
+                "Total, âge",
                 "15 à 24 ans",
                 "25 à 34 ans",
                 "35 à 44 ans",
@@ -85,9 +85,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, immigrant status",
+                "Total, statut d'immigrant",
                 "Immigrants",
-                "Not stated, immigrant status",
+                "Status d'immigrant non précisée",
                 ""
               ]
             },
@@ -98,10 +98,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, visible minority population",
+                "Total, population des minorités visibles",
                 "Population des minorités visibles",
                 "Pas une minorité visible",
-                "Not stated, visible minority population",
+                "Population des minorités visibles non précisée",
                 ""
               ]
             },
@@ -115,8 +115,8 @@
                 "Première Nation (Indien de l'Amérique du Nord)",
                 "Métis",
                 "Inuk (Inuit)",
-                "Non-indigenous identity",
-                "Not stated, population by indigenous identity",
+                "Identité non autochtone",
+                "Identité autochtone non précisée",
                 "Other Indigenous identity",
                 ""
               ]
@@ -128,25 +128,25 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, disability status",
+                "Total, incapacité",
                 "Personne ayant une incapacité",
                 "Personne n'ayant aucune incapacité",
                 ""
               ]
             },
-            "title": "Disability status"
+            "title": "Incapacité"
           },
           {
             "name": "Sexual orientation",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, sexual orientation",
+                "Total, orientation sexuelle",
                 "Hétérosexuel",
-                "Sexual minority",
+                "Minorité sexuelle",
                 "Lesbienne ou gai",
-                "Bisexual or pansexual",
-                "Not stated, sexual orientation",
+                "Bisexuel ou pansexuel",
+                "Orientation sexuelle non précisée",
                 "Orientation sexuelle non classée ailleurs",
                 ""
               ]

@@ -2326,7 +2326,7 @@
                 "North Africa",
                 "West Central Asia and the Middle East",
                 "Eastern Asia",
-                "Southest Asia and Oceania",
+                "Southeast Asia and Oceania",
                 "Southern Asia",
                 "Countries not eligible for official development assistance",
                 ""
@@ -2860,13 +2860,23 @@
             "title": "Series"
           },
           {
-            "name": "Household income quintile or decile",
+            "name": "Household income quintile",
             "type": "string",
             "constraints": {
               "enum": [
                 "All quintiles",
                 "Lowest quintile",
                 "Second quintile",
+                ""
+              ]
+            },
+            "title": "Household income quintile"
+          },
+          {
+            "name": "Household income decile",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Total deciles",
                 "Lowest decile",
                 "Second decile",
@@ -2875,7 +2885,28 @@
                 ""
               ]
             },
-            "title": "Household income quintile or decile"
+            "title": "Household income decile"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                ""
+              ]
+            },
+            "title": "Geography"
           },
           {
             "name": "Value",

@@ -28,13 +28,23 @@
             "title": "Series"
           },
           {
-            "name": "Household income quintile or decile",
+            "name": "Household income quintile",
             "type": "string",
             "constraints": {
               "enum": [
                 "Tous les quintiles",
                 "Quintile inférieur",
                 "Deuxième quintile",
+                ""
+              ]
+            },
+            "title": "Quintile de revenu du ménage"
+          },
+          {
+            "name": "Household income decile",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Total des déciles",
                 "Décile inférieur",
                 "Deuxième décile",
@@ -43,7 +53,28 @@
                 ""
               ]
             },
-            "title": "Quintile ou décile de revenu du ménage"
+            "title": "Décile de revenu du ménage"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
           },
           {
             "name": "Value",
