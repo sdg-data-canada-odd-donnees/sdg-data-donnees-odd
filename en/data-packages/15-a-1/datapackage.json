@@ -21,51 +21,10 @@
             "constraints": {
               "enum": [
                 "Official development assistance on conservation and sustainable use of biodiversity",
-                "Revenue generated and finance mobilized from biodiversity-relevant economic instruments",
                 ""
               ]
             },
             "title": "Series"
-          },
-          {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "Public sector components",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Consolidated provincial-territorial and local governments",
-                ""
-              ]
-            },
-            "title": "Public sector components"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
           },
           {
             "name": "Value",
