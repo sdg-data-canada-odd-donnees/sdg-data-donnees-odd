@@ -112,7 +112,7 @@ income_per_cap <-
   income %>% 
   filter(
     REF_DATE >= 2010,
-    GEO == "Canada",
+    # GEO == "Canada",
     `Income concept` == "Adjusted after-tax income",
     Statistics == "Average income",
     `Income decile` %in% deciles
