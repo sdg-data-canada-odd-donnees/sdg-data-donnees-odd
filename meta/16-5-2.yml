@@ -1,26 +1,25 @@
-SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
-  provide access to justice for all and build effective, accountable and inclusive
-  institutions at all levels</p>'
-SDG_TARGET: '<p>Target 16.5: Substantially reduce corruption and bribery in all their
-  forms</p>'
-SDG_INDICATOR: '<p>Indicator 16.5.2: Proportion of businesses that had at least one
-  contact with a public official and that paid a bribe to a public official, or were
-  asked for a bribe by those public officials during the previous 12 months</p>'
-STAT_CONC_DEF: <p>Proportion of firms asked for a gift or informal payment when meeting
-  with tax officials. </p>
+# National
+SDG_GOAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET: |-
+  Target 16.5: Substantially reduce corruption and bribery in all their forms
+SDG_INDICATOR: |-
+  Indicator 16.5.2: Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months
+STAT_CONC_DEF: |-
+  The percent of firms experiencing at least one bribe payment request across 6 public transactions dealing with utilities access, permits, licenses, and taxes.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
-  development, provide access to justice for all and build effective, accountable
-  and inclusive institutions at all levels</p>'
-SDG_TARGET__GLOBAL: '<p>Target 16.5: Substantially reduce corruption and bribery in
-  all their forms</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 16.5.2: Proportion of businesses that had at
-  least one contact with a public official and that paid a bribe to a public official,
-  or were asked for a bribe by those public officials during the previous 12 months</p>'
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET__GLOBAL: |-
+  Target 16.5: Substantially reduce corruption and bribery in all their forms
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 16.5.2: Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months
+
 un_designated_tier: Tier I
 un_custodian_agency: World Bank (WB), United Nations Office on Drugs and Crime (UNODC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-05-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
  
