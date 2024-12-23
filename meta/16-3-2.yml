@@ -1,36 +1,39 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
-  provide access to justice for all and build effective, accountable and inclusive
-  institutions at all levels</p>'
-SDG_TARGET: '<p>Target 16.3: Promote the rule of law at the national and international
-  levels and ensure equal access to justice for all</p>'
-SDG_INDICATOR: '<p>Indicator 16.3.2: Unsentenced detainees as a proportion of overall
-  prison population</p>'
-STAT_CONC_DEF: <p>The total number of persons held in detention who have not yet been
-  sentenced, as a percentage of the total number of persons held in detention.</p>
-DATA_COMP: |
-  Total prison population equals the sum of these 3 components:<br><br>
-  (1) Provincial/territorial adults (source 1): ‘Total actual-in count’ – ‘Other statuses, actual-in count’<br>
-  (2) Federal adults (source 3): ‘Actual-in count’ <br>
-  (3) Youth (source 2): ‘Total actual-in count’ – ‘Sentenced open custody, actual-in count’<br><br>
-
-  The Unsentenced population equals the sum of these 2 components:<br><br>
-  (1) Provincial/territorial adults (source 1): ‘Remand, actual-in count’ <br>
-  (2) Youth (source 2): ‘Pre-trial detention and other temporary detention, actual-in count’<br><br>
-
+SDG_GOAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET: |-
+  Target 16.3: Promote the rule of law at the national and international levels and ensure equal access to justice for all
+SDG_INDICATOR: |-
+  Indicator 16.3.2: Unsentenced detainees as a proportion of overall prison population
+STAT_CONC_DEF: |-
+  The total number of persons held in detention who have not yet been sentenced, as a percentage of the total number of persons held in detention.
+DATA_COMP: |-
+  Total prison population equals the sum of these 3 components:
+  br><br>
+  (1) Provincial/territorial adults (source 1): ‘Total actual-in count’ – ‘Other statuses, actual-in count’
+  <br>
+  (2) Federal adults (source 3): ‘Actual-in count’
+  <br>
+  (3) Youth (source 2): ‘Total actual-in count’ – ‘Sentenced open custody, actual-in count’
+  <br><br>
+  The Unsentenced population equals the sum of these 2 components:
+  <br><br>
+  (1) Provincial/territorial adults (source 1): ‘Remand, actual-in count’
+  <br>
+  (2) Youth (source 2): ‘Pre-trial detention and other temporary detention, actual-in count’
+  <br><br>
   Unsentenced detainees as a proportion of overall prison population = Unsentenced population/Total prison population
 
 REC_USE_LIM: '   '
- 
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
-  development, provide access to justice for all and build effective, accountable
-  and inclusive institutions at all levels</p>'
-SDG_TARGET__GLOBAL: '<p>Target 16.3: Promote the rule of law at the national and international
-  levels and ensure equal access to justice for all</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 16.3.2: Unsentenced detainees as a proportion
-  of overall prison population</p>'
+SDG_GOAL__GLOBAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET__GLOBAL: |-
+  Target 16.3: Promote the rule of law at the national and international levels and ensure equal access to justice for all
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 16.3.2: Unsentenced detainees as a proportion of overall prison population
+
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Office on Drugs and Crime (UNODC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-02.pdf
@@ -38,8 +41,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
   
   # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: Statistics Canada. Table 35-10-0154-01  Average counts of adults
-  in provincial and territorial correctional programs
+source_url_text_1: Statistics Canada. Table 35-10-0154-01  Average counts of adults in provincial and territorial correctional programs
 source_url_1: https://doi.org/10.25318/3510015401-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
