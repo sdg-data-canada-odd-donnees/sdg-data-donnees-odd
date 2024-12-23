@@ -4617,13 +4617,38 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Physical violence",
+                "Sexual violence",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Type of victimization",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Physical assault",
+                "Robbery",
+                "Sexual assault",
+                ""
+              ]
+            },
+            "title": "Type of victimization"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
       },
-      "title": "Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms"
+      "title": "Proportion of victims of (a) physical, (b) psychological and/or (c) sexual violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms"
     },
     {
       "path": "6-a-1/data.csv",

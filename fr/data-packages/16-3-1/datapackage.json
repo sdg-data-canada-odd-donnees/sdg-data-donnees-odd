@@ -16,8 +16,33 @@
             "title": "Année"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Violence physique",
+                "Violence sexuelle",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Type of victimization",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Voies de fait",
+                "Vol qualifié",
+                "Agression sexuelle",
+                ""
+              ]
+            },
+            "title": "Type de victimisation"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]
@@ -26,5 +51,5 @@
   ],
   "profile": "data-package",
   "name": "16-3-1",
-  "title": "Proportion des personnes victimes de violences au cours des 12 mois précédents ayant signalé les faits aux autorités compétentes ou recouru à d’autres mécanismes de règlement des différends officiellement reconnus"
+  "title": "Proportion des personnes victimes de violence (a) physique, (b) psychologique et/ou (c) sexuelle au cours des 12 mois précédents ayant signalé les faits aux autorités compétentes ou recouru à d’autres mécanismes de règlement des différends officiellement reconnus"
 }

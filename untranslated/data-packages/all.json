@@ -4283,8 +4283,31 @@
             "type": "integer"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Physical violence",
+                "Sexual violence",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of victimization",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_Physical assault",
+                "Robbery",
+                "Sexual assault",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
