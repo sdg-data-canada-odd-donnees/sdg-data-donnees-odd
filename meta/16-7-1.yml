@@ -1,28 +1,28 @@
-SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
-  provide access to justice for all and build effective, accountable and inclusive
-  institutions at all levels</p>'
-SDG_TARGET: '<p>Target 16.7: Ensure responsive, inclusive, participatory and representative
-  decision-making at all levels</p>'
-SDG_INDICATOR: '<p>Indicator 16.7.1:  Proportions of positions in national and local institutions, including (a) the legislatures; 
-  (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with 
-  disabilities and population groups</p>'
-STAT_CONC_DEF: '<p>The legislative sub-component of indicator 16.7.1 aims to measure how representative of the general population are the individuals occupying key decision-making positions in national legislatures. More specifically, this indicator measures the proportional representation of various demographic groups (women, age groups) in the national population amongst individuals occupying the following positions in national legislatures: (1) Members, (2) Speakers and (3) Chairs of permanent committees in charge of the following portfolios: Foreign Affairs, Defence, Finance, Human Rights and Gender Equality. Furthermore, it looks at the electoral and constitutional provisions adopted by countries to secure representation in national legislatures of persons with disabilities and contextually relevant population groups.</p>
-  <p>The public service sub-component of indicator 16.7.1 measures representation in the public service with respect to the sex, age, disability and population group status of public servants, and assesses how these correspond to the proportion of these groups in society as a whole. More specifically, this indicator measures the proportional representation of various demographic groups (women, youth, persons with disability, and nationally relevant population groups) across various occupational categories as well as across two administrative levels (national and sub-national).</p>
-  <p>The judiciary sub-component of indicator 16.7.1 measures representation in the judiciary with respect to the sex, age, disability and population group status, and assesses how these correspond to the proportion of these groups in society as a whole. More specifically, this indicator measures the proportional representation of various demographic groups (women, youth, persons with disability, and nationally relevant population groups) across two key decision-making positions in the judiciary (judges and registrars) as well as across three ‘levels’ of courts, namely ‘supreme/constitutional courts,’ ‘higher-level courts’ and ‘lower-level courts’.</p>'
+# National
+SDG_GOAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET: |-
+  Target 16.7: Ensure responsive, inclusive, participatory and representative decision-making at all levels
+SDG_INDICATOR: |-
+  Indicator 16.7.1: Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups
+STAT_CONC_DEF: |-
+  The legislative sub-component of indicator 16.7.1 aims to measure how representative of the general population are the individuals occupying key decision-making positions in national legislatures. More specifically, this indicator measures the proportional representation of various demographic groups (women, age groups) in the national population amongst individuals occupying the following positions in national legislatures: (1) Members, (2) Speakers and (3) Chairs of permanent committees in charge of the following portfolios: Foreign Affairs, Defence, Finance, Human Rights and Gender Equality. Furthermore, it looks at the electoral and constitutional provisions adopted by countries to secure representation in national legislatures of persons with disabilities and contextually relevant population groups.
+  <br><br>
+  The public service sub-component of indicator 16.7.1 measures representation in the public service with respect to the sex, age, disability and population group status of public servants, and assesses how these correspond to the proportion of these groups in society as a whole. More specifically, this indicator measures the proportional representation of various demographic groups (women, youth, persons with disability, and nationally relevant population groups) across various occupational categories as well as across two administrative levels (national and sub-national).
+  <br><br>
+  The judiciary sub-component of indicator 16.7.1 measures representation in the judiciary with respect to the sex, age, disability and population group status, and assesses how these correspond to the proportion of these groups in society as a whole. More specifically, this indicator measures the proportional representation of various demographic groups (women, youth, persons with disability, and nationally relevant population groups) across two key decision-making positions in the judiciary (judges and registrars) as well as across three ‘levels’ of courts, namely ‘supreme/constitutional courts,’ ‘higher-level courts’ and ‘lower-level courts’.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
-  development, provide access to justice for all and build effective, accountable
-  and inclusive institutions at all levels</p>'
-SDG_TARGET__GLOBAL: '<p>Target 16.7: Ensure responsive, inclusive, participatory and
-  representative decision-making at all levels</p>'
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET__GLOBAL: |-
+  Target 16.7: Ensure responsive, inclusive, participatory and representative decision-making at all levels
 SDG_INDICATOR__GLOBAL: |-
-  <p>Indicator 16.7.1:  Proportions of positions in national and local institutions, including (a) the legislatures; 
-  (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with 
-  disabilities and population groups </p>
-un_designated_tier: Tier II
-un_custodian_agency: United Nations Development Programme (UNDP)
+  Indicator 16.7.1:  Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups
+
+un_designated_tier: Tier I (a) / Tier II (b, c)
+un_custodian_agency: Inter-Parliamentary Union (IPU), United Nations Development Programme (UNDP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.7
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
- 
