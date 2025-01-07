@@ -22,7 +22,10 @@ STAT_CONC_DEF: |
   Principle 9. The use by statistical agencies in each country of international concepts, classifications and methods promotes the consistency and efficiency of statistical systems at all official levels. <br><br>
   Principle 10. Bilateral and multilateral cooperation in statistics contributes to the improvement of systems of official statistics in all countries. 
 DATA_COMP: '     '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  This is a proxy indicator. The UN Global indicator states: "Number of countries that have national
+  statistical legislation that complies with the Fundamental Principles of Official
+  Statistics".
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the Global Partnership for Sustainable Development</p>'
 SDG_TARGET__GLOBAL: '<p>Target 17.18: By 2020, enhance capacity-building support to
