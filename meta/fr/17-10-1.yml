@@ -6,7 +6,8 @@ SDG_TARGET: '<p>Cible 17.10 : Promouvoir un système commercial multilatéral un
   Programme de Doha pour le développement</p>'
 SDG_INDICATOR: '<p>Indicateur 17.10.1 : Moyenne mondiale pondérée des taux de droits
   de douane</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: |
+  Valeur en pourcentage des tarifs moyens pondérés appliqués aux importations de biens relevant du chapitre 01-97 du système harmonisé (SH).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
