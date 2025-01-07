@@ -1,35 +1,33 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
-  provide access to justice for all and build effective, accountable and inclusive
-  institutions at all levels</p>'
-SDG_TARGET: '<p>Target 16.3: Promote the rule of law at the national and international
-  levels and ensure equal access to justice for all</p>'
-SDG_INDICATOR: |
-    <p>Indicator 16.3.3: Proportion of the population who have experienced a dispute in the past three years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism</p>
-STAT_CONC_DEF: 'Number of persons who experienced a dispute during the past two years who accessed a formal or
-  informal dispute resolution mechanism, as a percentage of all those who experienced a dispute in 
-  the past two years, by type of mechanism.'
+SDG_GOAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET: |-
+  Target 16.3: Promote the rule of law at the national and international levels and ensure equal access to justice for all
+SDG_INDICATOR: |-
+  Indicator 16.3.3: Proportion of the population who have experienced a serious dispute in the past three years and who accessed a formal or informal dispute resolution mechanism
+STAT_CONC_DEF: |-
+  Number of persons who experienced a dispute during the past three years who accessed a formal or informal dispute resolution mechanism, as a percentage of all those who experienced a dispute in the past three years, by type of mechanism.
 DATA_COMP: custom.data-tabulated
 REC_USE_LIM: |
-    The national data for indicator 16.3.3 measures the population who have had a dispute in the past three years rather than the past two years as indicated by the global indicator.
+  This is a proxy indicator. The national data for indicator 16.3.3 measures the population who have had a dispute in the past three years rather than the past two years as indicated by the global indicator.
  
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
-  development, provide access to justice for all and build effective, accountable
-  and inclusive institutions at all levels</p>'
-SDG_TARGET__GLOBAL: '<p>Target 16.3: Promote the rule of law at the national and international
-  levels and ensure equal access to justice for all</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 16.3.3: Proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism</p>'
-un_designated_tier: Tier I
-un_custodian_agency: United Nations Office on Drugs and Crime (UNODC)
+SDG_GOAL__GLOBAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET__GLOBAL: |-
+  Target 16.3: Promote the rule of law at the national and international levels and ensure equal access to justice for all
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 16.3.3: Proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism
+
+un_designated_tier: Tier II
+un_custodian_agency: United Nations Development Programme (UNDP), United Nations Office on Drugs and Crime (UNODC), Organization for Economic Cooperation and Development (OECD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-03.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
   
   # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistics Canada. Canadian Legal Problems Survey (CLPS), 2021 - Custom tabulation.
+source_url_text_1: Statistics Canada. Canadian Legal Problems Survey (CLPS), 2021 - Custom tabulation.
 source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5337
 source_organisation_1: Statistics Canada
 source_periodicity_1: One Time

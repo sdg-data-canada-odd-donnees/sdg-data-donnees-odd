@@ -1,26 +1,25 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
-  provide access to justice for all and build effective, accountable and inclusive
-  institutions at all levels</p>'
-SDG_TARGET: '<p>Target 16.4: By 2030, significantly reduce illicit financial and arms flows, 
-  strengthen the recovery and return of stolen assets and combat all forms of organized crime</p>'
-SDG_INDICATOR: |
-    Indicator 16.4.2: Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments
-STAT_CONC_DEF: 'This indicator measures the proportion of seized, found or surrendered arms whose illicit origin or context has been traced or 
-  established by a competent authority in line with international instruments.'
+SDG_GOAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET: |-
+  Target 16.4: By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime
+SDG_INDICATOR: |-
+  Indicator 16.4.2: Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments
+STAT_CONC_DEF: |-
+  This indicator measures the proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
  
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
-  development, provide access to justice for all and build effective, accountable
-  and inclusive institutions at all levels</p>'
-SDG_TARGET__GLOBAL: '<p>Target 16.4: By 2030, significantly reduce illicit financial and arms flows, 
-  strengthen the recovery and return of stolen assets and combat all forms of organized crime</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 16.4.2: Proportion of seized, found or surrendered arms whose
-  illicit origin or context has been traced or established by a competent authority in line with international instruments</p>'
+SDG_GOAL__GLOBAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET__GLOBAL: |-
+  Target 16.4: By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 16.4.2: Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments
+
 un_designated_tier: Tier II
-un_custodian_agency: United Nations Office on Drugs and Crime (UNODC), United Nations Conference on Trade and Development (UNCTAD)
+un_custodian_agency: United Nations Office on Drugs and Crime (UNODC), United Nations Office for Disarmement Affairs (UNODA)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-04-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata

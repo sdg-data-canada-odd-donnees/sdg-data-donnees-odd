@@ -1,31 +1,25 @@
-SDG_GOAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives
-  aux fins du développement durable, assurer l’accès de tous à la justice et mettre
-  en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes
-  à tous</p>'
-SDG_TARGET: '<p>Cible 16.5 : Réduire nettement la corruption et la pratique des pots-de-vin
-  sous toutes leurs formes</p>'
-SDG_INDICATOR: '<p>Indicateur 16.5.1 : Proportion de personnes ayant eu, au moins une fois, 
-  affaire à un agent public auquel elles ont versé un pot-de-vin ou qui leur a demandé un 
-  pot-de-vin au cours des 12 mois précédents</p>'
-STAT_CONC_DEF: <p>Proportion des entreprises qui se sont vues demandées un cadeau
-  ou un paiement informel lors d'une rencontre avec des fonctionnaires du fisc. </p>
+# National
+SDG_GOAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET: |-
+  Cible 16.5 : Réduire nettement la corruption et la pratique des pots-de-vin sous toutes leurs formes
+SDG_INDICATOR: |-
+  Indicateur 16.5.1 : Proportion de personnes ayant eu, au moins une fois, affaire à un agent public auquel elles ont versé un pot-de-vin ou qui leur a demandé un pot-de-vin au cours des 12 mois précédents
+STAT_CONC_DEF: |-
+  Cet indicateur est défini comme le pourcentage de personnes ayant versé au moins un pot-de-vin (argent, cadeau ou contre-faveur) à un agent public, ou à qui ces agents publics ont demandé un pot-de-vin, au cours des 12 derniers mois, par rapport au pourcentage de personnes ayant eu au moins un contact avec un agent public au cours de la même période.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et
-  inclusives aux fins du développement durable, assurer l’accès de tous à la justice
-  et mettre en place, à tous les niveaux, des institutions efficaces, responsables
-  et ouvertes à tous</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 16.5 : Réduire nettement la corruption et la pratique
-  des pots-de-vin sous toutes leurs formes</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.5.1 : Proportion de personnes ayant eu, au moins une fois, 
-  affaire à un agent public auquel elles ont versé un pot-de-vin ou qui leur a demandé un 
-  pot-de-vin au cours des 12 mois précédents</p>'
 
-reporting_status: notstarted
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET__GLOBAL: |-
+  Cible 16.5 : Réduire nettement la corruption et la pratique des pots-de-vin sous toutes leurs formes
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 16.5.1 : Proportion de personnes ayant eu, au moins une fois, affaire à un agent public auquel elles ont versé un pot-de-vin ou qui leur a demandé un pot-de-vin au cours des 12 mois précédents
 
-un_designated_tier: Niveau II
+un_designated_tier: Niveau I
 un_custodian_agency: Office des Nations Unies contre la drogue et le crime (ONUDC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-05-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
  

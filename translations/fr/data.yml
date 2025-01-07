@@ -1614,9 +1614,11 @@ Growth rates of income per capita among the bottom 40 per cent of the population
 Household expenditure per capita: Dépenses des ménages par habitant
 Income per capita: Revenu par habitant
 Household income quintile or decile: Quintile ou décile de revenu du ménage
+Household income quintile: Quintile de revenu du ménage
 All quintiles: Tous les quintiles
 Lowest quintile: Quintile inférieur
 Second quintile: Deuxième quintile
+Household income decile: Décile de revenu du ménage
 Total deciles: Total des déciles
 Lowest decile: Décile inférieur
 Second decile: Deuxième décile
@@ -1676,7 +1678,8 @@ Sub-Saharan Africa: Afrique subsaharienne
 North Africa: Afrique du Nord
 West Central Asia and the Middle East: Asie de l'Ouest et centrale et Moyen-Orient
 Eastern Asia: Asie de l'Est
-Southern Asia and Oceania: Asie du Sud et Océanie
+Southeast Asia and Oceania: Asie du Sud-Est et Océanie
+Southern Asia: Asie du Sud
 Countries not eligible for official development assistance: Pays non admissibles à l'aide publique au développement
 Amount last sent: Montant d'argent envoyé lors du dernier transfert de fonds
 $100 or less: 100 $ ou moins
@@ -2123,10 +2126,28 @@ Not a visible minority: Pas une minorité visible
 Sociodemographic characteristics: Caractéristiques sociodémographiques
 
 ## 16-2-1
-Crime severity index: Indice de gravité de la criminalité
-Violent crime severity index: Indice des crimes avec violence
-Youth crime severity index: Indice de gravité de la criminalité chez les jeunes
-Youth violent crime severity index: Indice des crimes avec violence chez les jeunes
+Type of childhood maltreatment: Type de violence physique ou sexuelle subie durant l'enfance
+Physical or sexual abuse: Violence physique ou sexuelle
+Physical abuse: Violence physique
+Sexual abuse: Violence sexuelle
+Male gender: Genre masculin
+Female gender: Genre féminin
+Total, gender: Total, genre
+Total, age: Total, âge
+Total, immigrant status: Total, statut d'immigrant
+Immigrants: Immigrants
+Not stated, immigrant status: Status d'immigrant non précisée
+Total, visible minority population: Total, population des minorités visibles
+Not stated, visible minority population: Population des minorités visibles non précisée
+Non-indigenous identity: Identité non autochtone
+Not stated, population by indigenous identity: Identité autochtone non précisée
+Other indigenous identity: Autre identité autochtone
+Disability status: Incapacité
+Total, disability status: Total, incapacité
+Total, sexual orientation: Total, orientation sexuelle
+Sexual minority: Minorité sexuelle
+Bisexual or pansexual: Bisexuel ou pansexuel
+Not stated, sexual orientation: Orientation sexuelle non précisée
 
 ## 16-2-3
 Percentage of Canadians 15 years of age and older: Pourcentage de Canadiens de 15 ans et plus
@@ -2147,6 +2168,16 @@ Total robbery: Total des vols qualifiés
 Uttering threats: Menaces
 Total other violent violations: Total des autres infractions avec violence
 Percentage of incidents of violent crime reported to police: Pourcentage d’affaires de crimes violents signalées à la police
+
+## 16-3-1
+Proportion of victims of physical violence in the previous 12 months who reported their victimization to police: Proportion des personnes victimes de violence physique au cours des 12 mois précédents ayant signalé les faits à la police
+Proportion of victimes of sexual violence in the previous 12 months who reported their victimization to police: Proportion des personnes victimes de violence sexuelle au cours des 12 mois précédents ayant signalé les faits à la police
+Physical violence: Violence physique
+Sexual violence: Violence sexuelle
+Type of victimization: Type de victimisation
+_Physical assault: Voies de fait
+Robbery: Vol qualifié
+Sexual assault: Agression sexuelle
 
 ## 16-3-3
 Resolution mechanism: Mécanisme de résolution

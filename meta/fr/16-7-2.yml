@@ -1,30 +1,24 @@
-SDG_GOAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives
-  aux fins du développement durable, assurer l’accès de tous à la justice et mettre
-  en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes
-  à tous</p>'
-SDG_TARGET: '<p>Cible 16.7 : Faire en sorte que le dynamisme, l’ouverture, la participation 
-  et la représentation à tous les niveaux caractérisent la prise de décisions</p>'
-SDG_INDICATOR: |
-    Indicateur 16.7.2 : Proportion de la population qui estime que la prise de décisions est 
-    ouverte et réactive, par sexe, âge, situation au regard du handicap et groupe de la population
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET: |-
+  Cible 16.7 : Faire en sorte que le dynamisme, l’ouverture, la participation et la représentation à tous les niveaux caractérisent la prise de décisions
+SDG_INDICATOR: |-
+  Indicateur 16.7.2 : Proportion de la population qui estime que la prise de décisions est ouverte et réactive, par sexe, âge, situation au regard du handicap et groupe de la population
+STAT_CONC_DEF: |-
+  Cet indicateur basé sur une enquête, mesure les niveaux déclarés d'« efficacité politique externe », c'est-à-dire la mesure dans laquelle les gens pensent que les politiciens et/ou les institutions politiques écouteront les opinions des citoyens ordinaires et agiront en conséquence.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives
-  aux fins du développement durable, assurer l’accès de tous à la justice et mettre
-  en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes
-  à tous</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 16.7 : Faire en sorte que le dynamisme, l’ouverture, la participation 
-  et la représentation à tous les niveaux caractérisent la prise de décisions</p>'
-SDG_INDICATOR__GLOBAL: |
-    Indicateur 16.7.2 : Proportion de la population qui estime que la prise de décisions est 
-    ouverte et réactive, par sexe, âge, situation au regard du handicap et groupe de la population
 
-reporting_status: notstarted
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET__GLOBAL: |-
+  Cible 16.7 : Faire en sorte que le dynamisme, l’ouverture, la participation et la représentation à tous les niveaux caractérisent la prise de décisions
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 16.7.2 : Proportion de la population qui estime que la prise de décisions est ouverte et réactive, par sexe, âge, situation au regard du handicap et groupe de la population
 
 un_designated_tier: Tier II
 un_custodian_agency: Programme des Nations Unies pour le développement (PNUD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
- 
