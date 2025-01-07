@@ -5,10 +5,14 @@ SDG_TARGET: '<p>Cible 17.16 : Renforcer le Partenariat mondial pour le dévelop
   partager des savoirs, des connaissances spécialisées, des technologies et des 
   ressources financières, afin d’aider tous les pays, en particulier les pays en 
   développement, atteindre les objectifs de développement durable</p>'
-SDG_INDICATOR: '<p>Indicateur 17.16.1 : Nombre de pays faisant état de progrès dans
-  la mise en place de cadres multipartites de suivi de l’efficacité du développement 
-  favorisant la réalisation des objectifs de développement durable</p>'
-STAT_CONC_DEF: '   '
+SDG_INDICATOR: '<p>Indicateur 17.16.1 : Les cadres et la stratégie multipartite du Canada qui soutiennent et mesurent la réalisation des objectifs nationaux de développement durable</p>'
+STAT_CONC_DEF: |
+  L’indicateur suit les cadres de suivi multipartites qui suivent la mise en œuvre des engagements en matière d’efficacité du développement soutenant la réalisation des objectifs de développement durable (ODD). <br><br>
+  Les « cadres de suivi de l'efficacité du développement » multipartites qui suivent l'efficacité de la coopération au développement sont des cadres de suivi : <br>
+    - dont les indicateurs ont été convenus sur une base volontaire ; dont les indicateurs mesurent la force de la relation entre les acteurs du développement ; <br>
+    - où la collecte et l'examen des données sont menés par les pays eux-mêmes ; et où la participation à la collecte et à l'examen des données implique des parties prenantes pertinentes représentant, au minimum, le secteur public, le secteur privé et les organisations de la société civile.
+  <br><br>
+  L'indicateur tient compte de la nécessité de saisir les rôles et responsabilités respectifs de toutes les parties impliquées dans les partenariats multipartites pour le développement. Pour ce faire, il examine les cadres d'efficacité du développement qui sont dirigés par les pays, mais qui incluent la participation de tous les partenaires de développement concernés.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
@@ -30,4 +34,22 @@ un_custodian_agency: L’Organisation de coopération et de développement écon
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-16-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+source_active_1: 'true'
+source_url_text_1: "Stratégie nationale du Canada pour le Programme 2030 : Aller de l’avant ensemble"
+source_url_1: https://www.canada.ca/fr/emploi-developpement-social/programmes/programme-2030/aller-avant.html
+source_organisation_1: Emploi et Développement social Canada
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: "Le Cadre d'indicateurs canadien : un complément aux indicateurs des objectifs mondiaux liés au développement durable axé sur les priorités canadiennes"
+source_url_2: https://www150.statcan.gc.ca/n1/daily-quotidien/210622/dq210622c-fra.htm
+source_organisation_2: Statistique Canada
+source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: Carrefour de données pour le Cadre d'indicateurs canadien lié aux objectifs de développement durable
+source_url_3: https://sdgcif-data-canada-oddcic-donnee.github.io/fr/
+source_organisation_3: Statistique Canada
+source_geographical_coverage_3: Canada
+
+proxy: proxy
