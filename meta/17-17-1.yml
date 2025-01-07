@@ -4,11 +4,11 @@ SDG_TARGET: '<p>Target 17.17: Encourage and promote effective public, public-pri
   society partnerships, building on the experience and resourcing strategies of partnerships</p>'
 SDG_INDICATOR: '<p>Indicator 17.17.1: Amount in United States dollars committed to public-private 
   partnerships for infrastructure</p>'
-STAT_CONC_DEF: '<p>Indicator based on WBG data: “Amount of United States dollars committed to public-private 
-  partnerships in infrastructure.”</p>
-  <p>The indicator by the World Bank Group defines the term Public-Private Partnership (PPPs) as “any 
-  contractual arrangement between a public entity or authority and a private entity, for providing a public 
-  asset or service, in which the private party bears significant risk and management responsibility.”</p>'
+STAT_CONC_DEF: |
+  Indicator based on World Bank data: "Amount of US dollars committed to public-private partnerships in infrastructure".
+  The indicator by the World Bank defines the term "Public-Private Partnership (PPPs)" as “any contractual
+  arrangement between a public entity or authority and a private entity, for providing a public asset or
+  service, in which the private party bears significant risk and management responsibility.”
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
