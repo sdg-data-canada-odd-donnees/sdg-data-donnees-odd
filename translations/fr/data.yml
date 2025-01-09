@@ -907,6 +907,7 @@ Rubella 1 dose: Oreillons 1 dose
 Meningococcal C 1 dose: Méningocoque C 1 dose
 Pneumococcal 3 doses: Pneumocoque 3 doses
 Varicella 1 dose: Varicelle 1 dose
+Total - Gender: Total - Genre
 
 # 3-b-2
 Assistance type: Type d'aide
@@ -954,9 +955,10 @@ Density of nursing and midwifery personnel: Densité du personnel infirmier et d
 Density of dentists: Densité de dentistes
 Density of pharmacists: Densité de pharmaciens
 Health worker density, by type of occupation (per 10,000 population): Densité du personnel de santé, par type de profession (pour 10 000 habitants)
-Répartition du personnel de santé, par sexe et par type de profession: Répartition du personnel de santé, par sexe et par type de profession
+Health worker distribution, by sex and type of occupation: Répartition du personnel de santé, par sexe et par type de profession
 Type of occupation: Type de profession
-
+Medical doctors: Médecins
+Nursing and midwifery personnel: Personnel infirmier et sages-femmes
 
 ## 4-1-1
 Total, persons aged 15 years and over: Total, personnes âgées de 15 ans et plus
@@ -1612,9 +1614,11 @@ Growth rates of income per capita among the bottom 40 per cent of the population
 Household expenditure per capita: Dépenses des ménages par habitant
 Income per capita: Revenu par habitant
 Household income quintile or decile: Quintile ou décile de revenu du ménage
+Household income quintile: Quintile de revenu du ménage
 All quintiles: Tous les quintiles
 Lowest quintile: Quintile inférieur
 Second quintile: Deuxième quintile
+Household income decile: Décile de revenu du ménage
 Total deciles: Total des déciles
 Lowest decile: Décile inférieur
 Second decile: Deuxième décile
@@ -1674,7 +1678,8 @@ Sub-Saharan Africa: Afrique subsaharienne
 North Africa: Afrique du Nord
 West Central Asia and the Middle East: Asie de l'Ouest et centrale et Moyen-Orient
 Eastern Asia: Asie de l'Est
-Southern Asia and Oceania: Asie du Sud et Océanie
+Southeast Asia and Oceania: Asie du Sud-Est et Océanie
+Southern Asia: Asie du Sud
 Countries not eligible for official development assistance: Pays non admissibles à l'aide publique au développement
 Amount last sent: Montant d'argent envoyé lors du dernier transfert de fonds
 $100 or less: 100 $ ou moins
@@ -2033,9 +2038,9 @@ Vascular plants: Plantes vasculaires
 Yellowjacket wasps: Guêpes jaunes
 
 ## 15-1-2
-Key Biodiversity Areas (KBAs): Zones clés pour la biodiversité (ZCBs)
-Terrestrial KBAs: Terrestre ZCBs
-Freshwater KBAs: Eau Douce ZCBs
+Key Biodiversity Areas (KBAs): Sites importants pour la biodiversité (SIB)
+Terrestrial Key Biodiversity Areas: Sites importants pour la biodiversité terrestre
+Freshwater Key Biodiversity Areas: Sites importants pour la biodiversité des eaux douces
 
 ## 15-2-1
 Population and distribution trends consistent with objectives: Les tendances des populations d'espèces menacées et de leur répartition sont conformes aux objectifs
@@ -2049,6 +2054,7 @@ Above-ground biomass stock in forest (Tonnes/hectares): Stock de biomasse aérie
 Proportion of forest area located within legally established protected areas: Proportion de la superficie forestière située dans des aires protégées légalement établies
 Proportion of forest area located within legally established protected areas (Percentage): Proportion de la superficie forestière située dans des aires protégées légalement établies (Pourcentage)
 Proportion of forest area under a long term forest management plan: Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme
+Proportion of forest area under a long-term forest management plan: Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme
 Proportion of forest area under a long term forest management plan (Percentage): Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme (Pourcentage)
 Forest area under an independently verified forest management certification scheme: |
     Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante
@@ -2056,6 +2062,12 @@ Forest area under an independently verified forest management certification sche
     Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante (Hectares)
 
 Hectares (Millions): Hectares (Millions)
+Hectares: Hectares
+Forest area as a proportion of total land area: Superficie forestière en proportion de la superficie terrestre totale
+Forest area: Superficie forestière
+Land area: Superficie terrestre
+Canada’s estimated forest area: Superficie forestière estimée du Canada
+Canada’s estimated land area: Superficie terrestre estimée du Canada
 
 ## 15-3-1
 National terrestrial: National terrestrial
@@ -2064,8 +2076,24 @@ National marine: National marine
 ## 15-4-1
 # rien de nouveau
 
+## 15-5-1
+Cumulative percentage change since 1970: Changement de pourcentage moyen depuis 1970
+Species group or system: Groupe d'espèces ou système
+National index: Indice national
+Birds index: Indice des oiseaux
+Mammals index: Indice des mammifères
+Fish index: Indice des poissons
+Terrestrial index: Indice terrestre
+Freshwater index: Indice d'eau douce
+Marine index: Indice marin
+By species group: Par groupe d'espèces
+By system: Par système
+System: Système
+
 ## 15-a-1
 Public sector components: Composantes du secteur public
+Official development assistance on conservation and sustainable use of biodiversity: Aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité
+Revenue generated and finance mobilized from biodiversity-relevant economic instruments: Recettes générées et fonds mobilisés par les instruments économiques liés à la biodiversité
 
 ## 16-1-1
 Indigenous identity: Identité autochtone
@@ -2098,7 +2126,28 @@ Not a visible minority: Pas une minorité visible
 Sociodemographic characteristics: Caractéristiques sociodémographiques
 
 ## 16-2-1
+Type of childhood maltreatment: Type de violence physique ou sexuelle subie durant l'enfance
+Physical or sexual abuse: Violence physique ou sexuelle
+Physical abuse: Violence physique
+Sexual abuse: Violence sexuelle
+Male gender: Genre masculin
+Female gender: Genre féminin
+Total, gender: Total, genre
+Total, age: Total, âge
+Total, immigrant status: Total, statut d'immigrant
+Immigrants: Immigrants
+Not stated, immigrant status: Status d'immigrant non précisée
+Total, visible minority population: Total, population des minorités visibles
+Not stated, visible minority population: Population des minorités visibles non précisée
+Non-indigenous identity: Identité non autochtone
+Not stated, population by indigenous identity: Identité autochtone non précisée
 Other Indigenous identity: Autre identité autochtone
+Disability status: Incapacité
+Total, disability status: Total, incapacité
+Total, sexual orientation: Total, orientation sexuelle
+Sexual minority: Minorité sexuelle
+Bisexual or pansexual: Bisexuel ou pansexuel
+Not stated, sexual orientation: Orientation sexuelle non précisée
 
 ## 16-2-3
 Percentage of Canadians 15 years of age and older: Pourcentage de Canadiens de 15 ans et plus
@@ -2210,11 +2259,11 @@ Grants: Dons
 Other revenue: Autres recettes
 
 ## 17-2-1
-ODA as a share of GNI: APD en pourcentage du RNB
-Total ODA to least developed countries as a share of GNI: APD totale aux PMA, en pourcentage du RNB
-
-
-## 17-2-1
+ODA as a share of GNI: APD en proportion du RNB
+Total ODA to least developed countries as a share of GNI: APD totale aux PMA, en proportion du RNB
+Official development assistance: Aide publique au développement
+Least developed countries: Pays les moins avancés
+ODA to least developed countries as a share of GNI: APD aux PMA, en proportion du RNB
 Pillar: Pilier
 Region: Région
 Cross-border flows to TOSSD-eligible countries: Flux transfrontaliers vers les pays admissibles au TOSSD
@@ -2228,7 +2277,6 @@ Europe: Europe
 Middle East: Moyen-Orient
 Oceania: Océanie
 
-## 17-3-1
 ## 17-3-1
 Official Development Assistance (ODA): Aide publique au développement (APD)
 Foreign Direct Investment (FDI) inflow: Entrées d’investissement étranger direct (IDE)

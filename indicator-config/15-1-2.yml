@@ -10,9 +10,9 @@ data_notice_text: ''
 data_show_map: false
 data_start_values:
 - field: Key Biodiversity Areas (KBAs)
-  value: Terrestrial KBAs
+  value: Terrestrial Key Biodiversity Areas
 - field: Key Biodiversity Areas (KBAs)
-  value: Freshwater KBAs
+  value: Freshwater Key Biodiversity Areas
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -22,7 +22,7 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.15-1-2-title
+graph_title: chart.15-1-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.15-1-2-title

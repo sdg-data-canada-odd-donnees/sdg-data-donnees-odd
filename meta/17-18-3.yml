@@ -15,7 +15,9 @@ STAT_CONC_DEF: <p>The indicator "Number of countries with a national statistical
   (i) implementing a strategy, (ii) designing one or (iii) awaiting adoption of the
   strategy in the current year.</p>
 DATA_COMP: '     '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  This is a proxy indicator. The UN Global indicator states: "Number of countries with a national
+  statistical plan that is fully funded and under implementation, by source of funding".
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the Global Partnership for Sustainable Development</p>'
 SDG_TARGET__GLOBAL: '<p>Target 17.18: By 2020, enhance capacity-building support to

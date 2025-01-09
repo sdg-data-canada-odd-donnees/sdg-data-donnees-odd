@@ -4,10 +4,29 @@ SDG_TARGET: >-
     <p>Cible 17.3 : Mobiliser des ressources financières supplémentaires de diverses provenances en faveur des pays en développement</p>
 SDG_INDICATOR: >-
     <p>Indicateur 17.3.2 : IND Volume des envois de fonds de travailleurs migrants (en dollars des États-Unis) en proportion du PIB total</p>
-STAT_CONC_DEF: <p>La part des envois de fonds reçus par les particuliers en proportion
-  du PIB correspond aux envois totaux reçus par les particuliers exprimés en pourcentage
-  du produit intérieur brut (PIB).</p>
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+ <strong>Définition :</strong>
+ <br><br>
+ La part des envois de fonds reçus par les particuliers en proportion du PIB correspond
+ aux envois totaux reçus par les particuliers exprimés en pourcentage du produit
+ intérieur brut (PIB).
+ <br><br>
+ <strong>Concepts :</strong>
+ <br><br>
+ Les envois de fonds comprennent les transferts personnels et la rémunération
+ des salariés. Pour cet indicateur, les transferts personnels comprennent tous les
+ transferts courants en espèces ou en nature reçus par des ménages résidents en provenance
+ de ménages non-résidents. La rémunération des salariés désigne quant à elle le revenu
+ de travailleurs frontaliers, saisonniers et autres travailleurs à court terme qui
+ sont employés dans une économie dont ils ne sont pas résidents, et le revenu de
+ résidents employés par des entités non-résidentes. L'indicateur représente la somme
+ de ces deux éléments, définis dans la sixième édition du <em>Manuel de la balance
+ des paiements du Fonds monétaire international : transferts personnels et rémunération
+ des salariés.</em>
+ <br><br>
+ Les concepts utilisés sont alignés avec ceux de la sixième édition du <em>Manuel
+ de la balance des paiements du Fonds monétaire international </em> (<em>MBP6</em>).
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: >-
     <p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable et le revitaliser</p>
@@ -15,13 +34,12 @@ SDG_TARGET__GLOBAL: >-
     <p>Cible 17.3 : Mobiliser des ressources financières supplémentaires de diverses provenances en faveur des pays en développement</p>
 SDG_INDICATOR__GLOBAL: >-
     <p>Indicateur 17.3.2 : IND Volume des envois de fonds de travailleurs migrants (en dollars des États-Unis) en proportion du PIB total</p>
+
 source_active_1: 'true'
 source_url_text_1: "Envois de fonds des travailleurs et rémunérations des salariés, reçus (% du PIB) - Canada"
 source_url_1: https://donnees.banquemondiale.org/indicateur/BX.TRF.PWKR.DT.GD.ZS?end=2021&locations=CA&name_desc=true&start=1995&view=chart
 source_organisation_1: Banque Mondiale
 source_geographical_coverage_1: Canada
- 
- 
 
 un_designated_tier: Niveau I
 un_custodian_agency: Banque Mondiale

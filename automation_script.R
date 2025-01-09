@@ -119,7 +119,7 @@ update_sdg_data <- function() {
     # file <- automation_scripts[1]
     
     # get indicator number from R file name
-    indicator <- stringr::str_extract(file, "[0-9]+-[0-9]+-[0-9]+")
+    indicator <- stringr::str_extract(file, "[0-9]+-.+-[0-9]+")
     print(indicator)
     
     # get data that's currently available in data hub

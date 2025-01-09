@@ -8,7 +8,14 @@ SDG_INDICATOR: '<p>Indicateur 17.19.2 : Proportion de pays qui a) ont procéde�
   moins un recensement de la population et du logement au cours des 10 dernières 
   années, et b) ont atteint un taux d’enregistrement des naissances de 100 pour cent 
   et un taux d’enregistrement des décès de 80 pour cent</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: |
+  L'indicateur 17.19.2 (a) mesure la proportion de pays qui ont effectué au moins un recensement de la population et du logement au cours des dix dernières années. Cela inclut également les pays qui compilent leurs statistiques détaillées sur la population et le logement à partir de registres de population, de dossiers administratifs, d'enquêtes par sondage ou d'autres sources, ou d'une combinaison de ces sources.
+  <br><br>
+  L'indicateur 17.19.02 (b) comporte deux parties : la première concerne l'enregistrement des naissances et la seconde l'enregistrement des décès dans chaque pays ou région.
+  <br><br>
+  Selon les Principes et recommandations pour un système de statistiques de l'état civil, révision 3 (<a href="https://unstats.un.org/unsd/demographic/standmeth/principles/M19Rev3en.pdf">https://unstats.un.org/unsd/demographic/standmeth/principles/M19Rev3en.pdf (en anglais seulement)</a>), un enregistrement complet de l'état civil est défini comme suit : « L'enregistrement dans le système d'état civil de chaque événement vital survenu chez les membres de la population d'un pays (ou d'une région) donné(e), au cours d'une période déterminée, de sorte que chacun de ces événements fait l'objet d'un enregistrement à l'état civil et que le système a atteint un taux de couverture de 100 % ».
+  <br><br>
+  Dans un pays ou une région donné(e), le niveau d'exhaustivité de l'enregistrement des naissances peut être différent du niveau d'exhaustivité de l'enregistrement des décès.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
@@ -30,4 +37,23 @@ un_custodian_agency: Division de statistique de l’ONU, Département des affair
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.19
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+source_active_1: 'true'
+source_url_text_1: Recensement de la population
+source_url_1: https://www12.statcan.gc.ca/census-recensement/index-fra.cfm?DGUID=2021A000011124
+source_organisation_1: Statistique Canada
+source_periodicity_1: Tous les 5 ans
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Base canadienne de données de l'état civil - Décès (BCDECD)
+source_url_2: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=3233
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: Base canadienne de données de l'état civil - Naissance (BCDECN)
+source_url_3: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&Id=1528597
+source_organisation_3: Statistique Canada
+source_periodicity_3: Annuelle
+source_geographical_coverage_3: Canada
