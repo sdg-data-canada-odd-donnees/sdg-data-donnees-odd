@@ -20,22 +20,22 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "APD en pourcentage du RNB",
+                "APD en proportion du RNB",
                 ""
               ]
             },
-            "title": "Official development assistance"
+            "title": "Aide publique au développement"
           },
           {
             "name": "Least developed countries",
             "type": "string",
             "constraints": {
               "enum": [
-                "ODA to least developed countries as a share of GNI",
+                "APD aux PMA, en proportion du RNB",
                 ""
               ]
             },
-            "title": "Least developed countries"
+            "title": "Pays les moins avancés"
           },
           {
             "name": "Value",
