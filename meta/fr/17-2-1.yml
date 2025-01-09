@@ -27,7 +27,7 @@ STAT_CONC_DEF: |
   Le secteur de l'agriculture est défini par le CAD et comprend tous les codes sectoriels du CRS dans la série 311 (voir ici : <a href="https://web-archive.oecd.org/temp/2019-03-28/80638-purposecodessectorclassification.htm">https://web-archive.oecd.org/temp/2019-03-28/80638-purposecodessectorclassification.htm</a>, en anglais seulement).
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
-  Les données pour 2022 sont préliminaires.
+  Les données pour la plus récente année disponible sont préliminaires.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-
@@ -50,7 +50,7 @@ SDG_INDICATOR__GLOBAL: >-
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: OCDE (2022), Les profils de coopération au développement, Résultats obtenus au regard des engagements pris et des recommandations du CAD
-source_url_1: https://www.oecd-ilibrary.org/sites/5cd4ba84-fr/1/3/2/2/index.html?itemId=/content/publication/5cd4ba84-fr&_csp_=31fc6dbc3a02e1849c8f28684147864e&itemIGO=oecd&itemContentType=book#tablegrp-d1e1692
+source_url_1: https://www.oecd.org/fr/publications/les-profils-de-cooperation-au-developpement_5cd4ba84-fr/full-report/component-5.html#chapter-d1e1225-a4fc26c145
 source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
 source_geographical_coverage_1: Canada
 
