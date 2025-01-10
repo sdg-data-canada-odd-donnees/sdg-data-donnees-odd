@@ -4,7 +4,7 @@
 # Load packages
 library(cansim)
 library(dplyr)
-library(tidyverse)
+library(readr)
 library(rvest)
 
 nunavut_url <- "https://www150.statcan.gc.ca/n1/pub/75f0002m/75f0002m2022003-eng.htm"

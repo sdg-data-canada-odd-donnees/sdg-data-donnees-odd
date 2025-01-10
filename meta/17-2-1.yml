@@ -23,11 +23,11 @@ STAT_CONC_DEF: >-
 
       <strong>Concepts</strong> <br>ODA: The DAC defines ODA as “those flows to countries and territories on the DAC List of ODA Recipients and to multilateral institutions which are <br><br>
       i) provided by official agencies, including state and local governments, or by their executive agencies; and <br>
-      ii) each transaction is administered with the promotion of the economic development and welfare of developing countries as its main objective; and is concessional in character and conveys a grant element of at least 25 per cent (calculated at a rate of discount of 10 per cent). (See http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm) <br><br>
-      Other official flows (OOF): Other official flows (excluding officially supported export credits) are defined as transactions by the official sector which do not meet the conditions for eligibility as ODA, either because they are not primarily aimed at development, or because they are not sufficiently concessional. (See http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf, Para 24). <br><br>
-      The agriculture sector is as defined by the DAC and comprises all CRS sector codes in the 311 series (see here: http://www.oecd.org/dac/stats/purposecodessectorclassification.htm)
+      ii) each transaction is administered with the promotion of the economic development and welfare of developing countries as its main objective; and is concessional in character and conveys a grant element of at least 25 per cent (calculated at a rate of discount of 10 per cent). (See <a href="https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>) <br><br>
+      Other official flows (OOF): Other official flows (excluding officially supported export credits) are defined as transactions by the official sector which do not meet the conditions for eligibility as ODA, either because they are not primarily aimed at development, or because they are not sufficiently concessional. (See <a href="https://web-archive.oecd.org/2016-06-02/239150-DCDDAC%282016%293FINAL.pdf">https://web-archive.oecd.org/2016-06-02/239150-DCDDAC%282016%293FINAL.pdf</a>, Para 24). <br><br>
+      The agriculture sector is as defined by the DAC and comprises all CRS sector codes in the 311 series (see here: <a href="https://web-archive.oecd.org/temp/2019-03-28/80638-purposecodessectorclassification.htm">https://web-archive.oecd.org/temp/2019-03-28/80638-purposecodessectorclassification.htm</a>).
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'Data for 2022 are preliminary.'
+REC_USE_LIM: 'Data for the latest available year are preliminary.'
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-
@@ -53,7 +53,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: 'OECD, Development Co-operation Profiles: Canada'
-source_url_1: https://www.oecd-ilibrary.org/sites/2dcf1367-en/1/3/2/5/index.html?itemId=/content/publication/2dcf1367-en&_csp_=177392f5df53d89c9678d0628e39a2c2&itemIGO=oecd&itemContentType=book#tablegrp-d1e11926
+source_url_1: https://www.oecd.org/en/publications/development-co-operation-profiles_2dcf1367-en/full-report/component-9.html#chapter-d1e5565-9f6d40b786
 source_organisation_1: Organization for Economic Cooperation and Development (OECD)
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada

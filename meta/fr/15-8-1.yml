@@ -5,10 +5,17 @@ SDG_GOAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres
 SDG_TARGET: '<p>Cible 15.8 : Proportion de pays ayant adopté une législation nationale 
   pertinente et allouant des ressources suffisantes à la prévention ou au contrôle des 
   espèces exotiques envahissantes'
-SDG_INDICATOR: '<p>Indicateur 15.8.1 : Proportion de pays ayant adopté une législation 
-  nationale pertinente et allouant des ressources suffisantes à la prévention ou au 
-  contrôle des espèces exotiques envahissantes'
-STAT_CONC_DEF: '   '
+SDG_INDICATOR: |
+  Indicateur 15.8.1 : L'adoption d'une législation nationale et l'affectation de ressources adéquates à la prévention et au contrôle des espèces exotiques envahissantes par le Canada
+STAT_CONC_DEF: |
+  Cet indicateur vise à quantifier les tendances en matière de :
+  <br><br> - L'engagement des pays à l'égard des accords multinationaux pertinents, en particulier :
+  <br>(1) l'adoption au niveau national d'une politique relative aux espèces exotiques envahissantes.
+  <br><br> - Pourcentage de pays ayant :
+  <br>  (a) une législation et une politique nationales relatives aux espèces exotiques envahissantes.
+  <br>  (b) les cibles et les objectifs des stratégies nationales de prévention et de contrôle des espèces exotiques envahissantes sont alignés sur l'objectif 9 d'Aichi.
+  <br><br> - La traduction des dispositions politiques en actions par les pays pour mettre en œuvre la politique et prévenir et contrôler activement les espèces exotiques envahissantes (EEE) et le financement de cette action, en particulier :
+  <br>(2) L'allocation nationale de ressources pour la prévention ou le contrôle des EEEs.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres, en
@@ -26,6 +33,12 @@ un_designated_tier: Niveau II
 un_custodian_agency: Union internationale pour la conservation de la nature (UICN)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-08-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+source_active_1: 'true'
+source_url_text_1: "Une stratégie sur les espèces exotiques envahissantes pour le Canada"
+source_url_1: https://publications.gc.ca/site/fra/9.642987/publication.html
+source_organisation_1: Gouvernement du Canada
+source_geographical_coverage_1: Canada
 
 reporting_status: complete
 
