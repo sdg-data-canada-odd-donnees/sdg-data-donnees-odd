@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "Component",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Adoption",
+                "Implementation",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

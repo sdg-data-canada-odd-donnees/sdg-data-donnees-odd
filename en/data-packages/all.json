@@ -1295,6 +1295,18 @@
             "title": "Year"
           },
           {
+            "name": "Component",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Adoption",
+                "Implementation",
+                ""
+              ]
+            },
+            "title": "Component"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
