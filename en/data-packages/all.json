@@ -2640,18 +2640,6 @@
             "title": "Year"
           },
           {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Women",
-                "Men",
-                ""
-              ]
-            },
-            "title": "Sex"
-          },
-          {
             "name": "Unwanted or inappropriate behaviour",
             "type": "string",
             "constraints": {
@@ -2665,6 +2653,18 @@
               ]
             },
             "title": "Unwanted or inappropriate behaviour"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Women",
+                "Men",
+                ""
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",

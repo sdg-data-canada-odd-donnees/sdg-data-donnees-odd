@@ -2444,17 +2444,6 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Women",
-                "Men",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Unwanted or inappropriate behaviour",
             "type": "string",
             "constraints": {
@@ -2464,6 +2453,17 @@
                 "Unwanted or inappropriate behaviour in public",
                 "Unwanted or inappropriate behaviour online",
                 "Unwanted or inappropriate behaviour in the workplace",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Women",
+                "Men",
                 ""
               ]
             }
