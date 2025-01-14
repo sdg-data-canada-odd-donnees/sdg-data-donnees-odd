@@ -26,6 +26,8 @@ STAT_CONC_DEF: |-
   Chaque question a une valeur comprise entre 0 et 2. À l'issue de l'enquête, un pays peut obtenir un score total de 0 à 9. Le score total de chaque pays ne sera pas attribué à une catégorie de niveau (par exemple : faible, moyen ou élevé). Cependant, il contribuera aux agrégats globaux.</p>
 DATA_COMP: '   '
 REC_USE_LIM: |-
+  Les réponses d'un pays à l'Enquête sur l'accès public à l'information de l'UNESCO sont évaluées sur deux composantes : l'adoption et la mise en œuvre. Un score entre 0 et 5 est attribué pour la composante de l'adoption. Un score entre 0 et 4 est attribué pour la composante de la mise en œuvre. Le score total est la somme des scores obtenus pour chaque composante, le score maximal possible étant 9.
+  <br><br>
   Les réponses du Canada au questionnaire sont basées sur les données de l'année fiscale (1 avril au 31 mars) précédant l'année de l'enquête. La fin de l'année fiscale est prise en tant qu'année de référence pour le score. Par exemple, la réponse du Canada à l'enquête sur l'accès public à l'information est basée sur les données de l'année fiscale 2019-2020 et le score correspondant est associé avec l'année de référence 2020 dans le graphique.
 
 # Global
@@ -51,5 +53,5 @@ source_geographical_coverage_1: Canada
 source_active_2: 'true'
 source_url_text_2: Loi sur l'accès à l'information
 source_url_2: https://laws-lois.justice.gc.ca/fra/lois/a-1/page-1.html
-source_organisation_2: Government of Canada - Department of Justice
+source_organisation_2: Ministère de la Justice Canada
 source_geographical_coverage_2: Canada
