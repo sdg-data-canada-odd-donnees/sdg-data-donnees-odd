@@ -16,6 +16,22 @@
             "title": "Année"
           },
           {
+            "name": "Household food security status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insécurité alimentaire",
+                "Sécurité alimentaire",
+                "Insécurité alimentaire marginale",
+                "Insécurité alimentaire modérée",
+                "Insécurité alimentaire grave",
+                "Insécurité alimentaire modérée ou grave",
+                ""
+              ]
+            },
+            "title": "Niveau de sécurité alimentaire du ménage"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -128,22 +144,6 @@
               ]
             },
             "title": "Population autochtone"
-          },
-          {
-            "name": "Household food security status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Insécurité alimentaire",
-                "Sécurité alimentaire",
-                "Insécurité alimentaire marginale",
-                "Insécurité alimentaire modérée",
-                "Insécurité alimentaire grave",
-                "Insécurité alimentaire modérée ou grave",
-                ""
-              ]
-            },
-            "title": "Niveau de sécurité alimentaire du ménage"
           },
           {
             "name": "GeoCode",

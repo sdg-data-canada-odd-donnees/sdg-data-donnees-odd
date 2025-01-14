@@ -16,6 +16,22 @@
             "title": "Year"
           },
           {
+            "name": "Household food security status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Food insecure",
+                "Food secure",
+                "Food insecure, marginal",
+                "Food insecure, moderate",
+                "Food insecure, severe",
+                "Food insecure, moderate or severe",
+                ""
+              ]
+            },
+            "title": "Household food security status"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -128,22 +144,6 @@
               ]
             },
             "title": "Indigenous population"
-          },
-          {
-            "name": "Household food security status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Food insecure",
-                "Food secure",
-                "Food insecure, marginal",
-                "Food insecure, moderate",
-                "Food insecure, severe",
-                "Food insecure, moderate or severe",
-                ""
-              ]
-            },
-            "title": "Household food security status"
           },
           {
             "name": "GeoCode",
