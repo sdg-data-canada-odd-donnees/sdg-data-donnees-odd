@@ -175,8 +175,12 @@ filter_demographic_characteristics <-
 
 food_insecurity <- bind_rows(filter_economic_families,
                              filter_demographic_characteristics) %>%
+  filter(
+    !`Demographic characteristics` %in% pop_aged_15_plus
+  ) %>%
   select(
     Year,
+    `Household food security status`,
     Geography,
     `Economic family type`,
     `Sex`,
@@ -184,8 +188,7 @@ food_insecurity <- bind_rows(filter_economic_families,
     `Visible minority`,
     `Indigenous population`,
     # `Population aged 15 years and over`,
-    `Household food security status`,
-    Value
+      Value
   ) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
@@ -198,7 +201,7 @@ total_line <-
   mutate_at(2:(ncol(.)-2), ~ NA)
 
 # Create the non - aggregate data 
-food_insecurity <-
+non_total <-
   food_insecurity %>%
   filter(!(Geography == "Canada" & `Economic family type` == "All persons" & Sex == "Both sexes" & 
              `Household food security status` == "Food insecure, moderate or severe"))
@@ -206,7 +209,7 @@ food_insecurity <-
 # Add the aggregate and non - aggregate data
 data_final <- bind_rows(total_line, 
                         df_territories, 
-                        food_insecurity)
+                        non_total)
 
 # Write the csv file
 write.csv(data_final, "data/indicator_2-1-2.csv",
