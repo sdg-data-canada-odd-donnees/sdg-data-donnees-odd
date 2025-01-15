@@ -7,12 +7,12 @@ SDG_INDICATOR: '<p>Indicator 17.5.1: Number of countries that adopt and implemen
 STAT_CONC_DEF: <p>The indicator provides the number of countries that have adopted
   and implemented investment promotion regimes for developing countries, including
   least developed countries.</p>
-DATA_COMP: |
-  Includes assistance provided in the form of repayable instruments, loans, guarantees and 
-  equity. It also includes grants provided to a group of sectors related to the improvement 
-  of the investment context or to support local and external investors to participate in projects.
-  <br>
-  <br>The number of projects is calculated based on the number of project disbursing during the year.
+DATA_COMP: '    '
+  # Includes assistance provided in the form of repayable instruments, loans, guarantees and 
+  # equity. It also includes grants provided to a group of sectors related to the improvement 
+  # of the investment context or to support local and external investors to participate in projects.
+  # <br>
+  # <br>The number of projects is calculated based on the number of project disbursing during the year.
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the global partnership for sustainable development: Promote peaceful and inclusive
@@ -31,10 +31,10 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
  
 
 # SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: |
-    Global Affairs Canada
-source_url_1: https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng
-source_organisation_1: Global Affairs Canada
-source_periodicity_1: Annual
-source_geographical_coverage_1: Canada
+# source_active_1: 'true'
+# source_url_text_1: |
+#     Global Affairs Canada
+# source_url_1: https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng
+# source_organisation_1: Global Affairs Canada
+# source_periodicity_1: Annual
+# source_geographical_coverage_1: Canada
