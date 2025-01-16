@@ -9,6 +9,8 @@ data_notice_text: ''
 data_show_map: true
 data_start_values:
 - field: Series
+  value: Number of fixed Internet broadband subscriptions
+- field: Series
   value: Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps
 - field: Geography
   value: Canada
