@@ -19,8 +19,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Number of fixed Internet broadband subscriptions",
                 "Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps",
+                "Number of fixed Internet broadband subscriptions",
                 ""
               ]
             }
@@ -30,8 +30,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Number",
                 "Percentage (%)",
+                "Number",
                 ""
               ]
             }
