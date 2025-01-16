@@ -6601,8 +6601,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion des ménages qui ont accès à des services Internet à large bande à des vitesses de 50/10 Mbps\n",
                 "Abonnements à une connexion à Internet à haut débit fixe\n",
+                "Proportion des ménages qui ont accès à des services Internet à large bande à des vitesses de 50/10 Mbps\n",
                 ""
               ]
             },
@@ -6613,8 +6613,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage (%)",
                 "Nombre",
+                "Pourcentage (%)",
                 ""
               ]
             },
