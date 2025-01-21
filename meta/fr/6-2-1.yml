@@ -1,27 +1,28 @@
-SDG_GOAL: |
-    Objectif 6 : Garantir l'accès de tous à des services d'alimentation en eau et d'assainissement gérés de façon durable.
-SDG_TARGET: |
-    Cible 6.2 : D’ici à 2030, assurer l’accès de tous, dans des conditions équitables, à des services d’assainissement et 
-    d’hygiène adéquats et mettre fin à la défécation en plein air, en accordant une attention particulière aux besoins des 
-    femmes et des filles et des personnes en situation vulnérable.
-SDG_INDICATOR: |
-    Indicateur 6.2.1 : Proportion de la population utilisant a) des services d’assainissement gérés en toute sécurité et 
-    b) notamment des équipements pour se laver les mains avec de l’eau et du savon.
-STAT_CONC_DEF: '    '
+# National
+SDG_GOAL: |-
+  Objectif 6 : Garantir l'accès de tous à des services d'alimentation en eau et d'assainissement gérés de façon durable.
+SDG_TARGET: |-
+  Cible 6.2 : D’ici à 2030, assurer l’accès de tous, dans des conditions équitables, à des services d’assainissement et d’hygiène adéquats et mettre fin à la défécation en plein air, en accordant une attention particulière aux besoins des femmes et des filles et des personnes en situation vulnérable.
+SDG_INDICATOR: |-
+  Indicateur 6.2.1 : Proportion de la population utilisant a) des services d’assainissement gérés en toute sécurité et b) notamment des équipements pour se laver les mains avec de l’eau et du savon.
+STAT_CONC_DEF: |-
+  <strong>Indicateur 6.2.1a:</strong><br>
+  La proportion de la population utilisant des services d'assainissement gérés en toute sécurité est définie comme la proportion de la population utilisant une installation sanitaire améliorée qui n'est pas partagée avec d'autres ménages et où les excréments sont éliminés en toute sécurité sur place ou enlevés et traités hors site. Les installations sanitaires « améliorées » sont celles qui sont conçues pour séparer de manière hygiénique les excréments humains du contact humain. Il s'agit de technologies d'assainissement par voie humide, telles que les toilettes à chasse d'eau et à chasse d'eau manuelle reliées aux égouts, les fosses septiques ou les latrines à fosse, et de technologies d'assainissement par voie sèche, telles que les latrines à fosse sèche avec dalles, les latrines à fosse améliorée ventilée et les toilettes à compostage.
+  <br><br>
+  <strong>Indicateur 6.2.1b:</strong><br>
+  La proportion de la population disposant de services d'hygiène de base est définie comme la proportion de la population disposant d'un dispositif de lavage des mains avec du savon et de l'eau à domicile. Les installations pour le lavage des mains peuvent être situées à l'intérieur du logement, dans la cour ou sur le terrain. Elles peuvent être fixes ou mobiles et comprendre un évier avec de l'eau au robinet, deas seaux avec des robinets, des robinets à bascule et des cruches ou des bassins destinés au lavage des mains. Le savon comprend le savon en barre, le savon liquide, le détergent en poudre et l'eau savonneuse, mais pas la cendre, la terre, le sable ou d'autres agents de lavage des mains.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: |
-    Objectif 6 : Garantir l'accès de tous à des services d'alimentation en eau et d'assainissement gérés de façon durable.
-SDG_TARGET__GLOBAL: |
-    Cible 6.2 : D’ici à 2030, assurer l’accès de tous, dans des conditions équitables, à des services d’assainissement et 
-    d’hygiène adéquats et mettre fin à la défécation en plein air, en accordant une attention particulière aux besoins des 
-    femmes et des filles et des personnes en situation vulnérable.
-SDG_INDICATOR__GLOBAL: |
-    Indicateur 6.2.1 : Proportion de la population utilisant a) des services d’assainissement gérés en toute sécurité et 
-    b) notamment des équipements pour se laver les mains avec de l’eau et du savon.
-un_designated_tier: Niveau II
-un_custodian_agency: Organisation Mondiale de la Santé (OMS), Fonds des Nations unies pour l’enfance (UNICEF)
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 6 : Garantir l'accès de tous à des services d'alimentation en eau et d'assainissement gérés de façon durable.
+SDG_TARGET__GLOBAL: |-
+  Cible 6.2 : D’ici à 2030, assurer l’accès de tous, dans des conditions équitables, à des services d’assainissement et d’hygiène adéquats et mettre fin à la défécation en plein air, en accordant une attention particulière aux besoins des femmes et des filles et des personnes en situation vulnérable.
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 6.2.1 : Proportion de la population utilisant a) des services d’assainissement gérés en toute sécurité et b) notamment des équipements pour se laver les mains avec de l’eau et du savon.
+
+un_designated_tier: Niveau I (a) / Niveau II (b)
+un_custodian_agency: Organisation mondiale de la santé (OMS), Fonds des Nations Unies pour l’enfance (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.2
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies 
-
-reporting_status: notavailable

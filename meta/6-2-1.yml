@@ -1,28 +1,28 @@
-SDG_GOAL: 'Goal 6: Ensure availability and sustainable management of water and sanitation for all.'
-SDG_TARGET: 'Target 6.2: By 2030, achieve access to adequate and equitable sanitation and hygiene for all and 
-  end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations.'
-SDG_INDICATOR: 'Indicator 6.2.1: Proportion of population using (a) safely managed sanitation services and (b) a 
-  hand-washing facility with soap and water.'
-STAT_CONC_DEF: '<strong>Indicator 6.2.1a:</strong><br> The proportion of the population using safely managed sanitation services is defined as the proportion of 
-  the population using an improved sanitation facility which is not shared with other households and where 
-  excreta are safely disposed of in situ or removed and treated off-site. ‘Improved’ sanitation facilities are 
-  those designed to hygienically separate human excreta from human contact. These include wet sanitation 
-  technologies such as flush and pour flush toilets connected to sewers, septic tanks or pit latrines, and dry sanitation technologies such as dry pit latrines with slabs, ventilated improved pit latrines and composting
-  toilets. <br><br><strong>Indicator 6.2.1b:</strong><br> The proportion of the population with basic hygiene services is defined as the proportion of population 
-  with a handwashing facility with soap and water available at home. Handwashing facilities may be 
-  located within the dwelling, yard or plot. They may be fixed or mobile and include a sink with tap water, 
-  buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other 
-  handwashing agents.'
+# National
+SDG_GOAL: |-
+  Goal 6: Ensure availability and sustainable management of water and sanitation for all.
+SDG_TARGET: |-
+  Target 6.2: By 2030, achieve access to adequate and equitable sanitation and hygiene for all and end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations.
+SDG_INDICATOR: |-
+  Indicator 6.2.1: Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water.
+STAT_CONC_DEF: |-
+  <strong>Indicator 6.2.1a:</strong><br>
+  The proportion of the population using safely managed sanitation services is defined as the proportion of the population using an improved sanitation facility which is not shared with other households and where excreta are safely disposed of in situ or removed and treated off-site. ‘Improved’ sanitation facilities are those designed to hygienically separate human excreta from human contact. These include wet sanitation technologies such as flush and pour flush toilets connected to sewers, septic tanks or pit latrines, and dry sanitation technologies such as dry pit latrines with slabs, ventilated improved pit latrines and composting toilets.
+  <br><br>
+  <strong>Indicator 6.2.1b:</strong><br>
+  The proportion of the population with basic hygiene services is defined as the proportion of population with a handwashing facility with soap and water available at home. Handwashing facilities may be located within the dwelling, yard or plot. They may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: 'Goal 6: Ensure availability and sustainable management of water and sanitation for all'
-SDG_TARGET__GLOBAL: 'Target 6.2: By 2030, achieve access to adequate and equitable sanitation and hygiene for all and 
-  end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations.'
-SDG_INDICATOR__GLOBAL: 'Indicator 6.2.1: Proportion of population using (a) safely managed sanitation services and (b) a 
-  hand-washing facility with soap and water.'
-un_designated_tier: Tier II
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 6: Ensure availability and sustainable management of water and sanitation for all
+SDG_TARGET__GLOBAL: |-
+  Target 6.2: By 2030, achieve access to adequate and equitable sanitation and hygiene for all and end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations.
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 6.2.1: Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water.
+
+un_designated_tier: Tier I (a) / Tier II (b)
 un_custodian_agency: World Health Organization (WHO), United Nations Children’s Fund (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.2
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata 
-
-reporting_status: notavailable
