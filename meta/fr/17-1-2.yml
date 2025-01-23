@@ -1,37 +1,43 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
-  mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET: '<p>Cible 17.1 : Améliorer, notamment grâce à l’aide internationale aux
-  pays en développement, la mobilisation de ressources nationales en vue de renforcer
-  les capacités nationales de collecte de l’impôt et d’autres recettes</p>'
-SDG_INDICATOR: '<p>Indicateur 17.1.2 : Proportion du budget national financé par les
-  impôts nationaux</p>'
-STAT_CONC_DEF: >-
-    <p>Comprend l'administration publique fédérale, les administrations publiques provinciales et territoriales, les établissements de santé et de services sociaux, les universités et collèges, les municipalités et autres administrations publiques locales et, les conseils scolaires. Ne comprend pas le Régime de pensions du Canada (RPC) et la Régie des rentes du Québec (RRQ).</p>
-DATA_COMP: '   '
+SDG_GOAL: |-
+  Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable et le revitaliser
+SDG_TARGET: |-
+  Cible 17.1 : Améliorer, notamment grâce à l’aide internationale aux pays en développement, la mobilisation de ressources nationales en vue de renforcer les capacités nationales de collecte de l’impôt et d’autres recettes
+SDG_INDICATOR: |-
+  Indicateur 17.1.2 : Proportion du budget national financé par les impôts nationaux
+STAT_CONC_DEF: |-
+  Comprend l'administration publique fédérale, les administrations publiques provinciales et territoriales, les établissements de santé et de services sociaux, les universités et collèges, les municipalités et autres administrations publiques locales et, les conseils scolaires. Ne comprend pas le Régime de pensions du Canada (RPC) et la Régie des rentes du Québec (RRQ).
+DATA_COMP: |-
+  La proportion du budget national financé par les impôts nationaux est calculée pour l'administration publique canadienne consolidée comme la proportion des impôts totaux par rapport aux dépenses totales, exprimée en pourcentage.
+  <br><br>
+  Dépenses financées par les impôts (%) = (Total des impôts / Total des dépenses) × 100
+  <br><br>
+  Le total des dépenses est défini comme la somme des dépenses totales courantes et des dépenses totales en capital. Les dépenses totales courantes comprennent toutes les charges, moins la consommation de capital fixe, plus la consommation de capital fixe selon les comptes du secteur public et la capitalisation des charges pour la recherche et développement. Le total des dépenses en capital est la différence des actifs non financiers selon les comptes du secteur public entre l'année actuelle et l'année précédente.
+  <br><br>
+  Total des dépenses = Total des dépenses courantes + Total des dépenses en capital
+  <br><br>
+  Total des dépenses courantes = Charges - Consommation de capital fixe + Consommation de capital fixe selon les comptes du secteur public + Capitalisation des charges pour la recherche et développement
+  <br><br>
+  Total des dépenses en capital = Actifs non financiers selon les comptes du secteur public (année actuelle) - Actifs non financiers selon les comptes du secteur public (année précédente)
 REC_USE_LIM: '   '
 
- 
-
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
-  mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 17.1 : Améliorer, notamment grâce à l’aide internationale
-  aux pays en développement, la mobilisation de ressources nationales en vue de renforcer
-  les capacités nationales de collecte de l’impôt et d’autres recettes</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.1.2 : Proportion du budget national financé
-  par les impôts nationaux</p>'
-
-# SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: |
-    Statistique Canada. Tableau 10-10-0147-01  Statistiques de finances publiques canadiennes (SFPC), situation des opérations et bilan pour les administrations publiques consolidées (x 1 000 000)
-source_organisation_1: Statistique Canada
-source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada, Province or territory
-source_url_1: https://doi.org/10.25318/1010014701-fra
+SDG_GOAL__GLOBAL: |-
+  Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable et le revitaliser
+SDG_TARGET__GLOBAL: |-
+  Cible 17.1 : Améliorer, notamment grâce à l’aide internationale aux pays en développement, la mobilisation de ressources nationales en vue de renforcer les capacités nationales de collecte de l’impôt et d’autres recettes
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 17.1.2 : Proportion du budget national financé par les impôts nationaux
 
 un_designated_tier: Niveau I
 un_custodian_agency: Fonds Monétaire International (FMI)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-01-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Tableau 10-10-0147-01  Statistiques de finances publiques canadiennes (SFPC), situation des opérations et bilan pour les administrations publiques consolidées (x 1 000 000)
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Province or territory
+source_url_1: https://doi.org/10.25318/1010014701-fra
