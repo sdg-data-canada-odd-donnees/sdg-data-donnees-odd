@@ -1,24 +1,34 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 17: Strengthen the means of implementation and revitalize the Global
-  Partnership for Sustainable Development</p>'
-SDG_TARGET: '<p>Target 17.1: Strengthen domestic resource mobilization, including
-  through international support to developing countries, to improve domestic capacity
-  for tax and other revenue collection</p>'
-SDG_INDICATOR: '<p>Indicator 17.1.2: Proportion of domestic budget funded by domestic
-  taxes</p>'
-STAT_CONC_DEF: >-
-    <p>Consolidated Canadian general government includes federal government, provincial and territorial governments, health and social service institutions, universities and colleges, municipalities and other local public administrations and, school boards. Does not include the Canada Pension Plan (CPP) and Quebec Pension Plan (QPP).</p>
-DATA_COMP: custom.data-tabulated
+SDG_GOAL: |-
+  Goal 17: Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development
+SDG_TARGET: |-
+  Target 17.1: Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection
+SDG_INDICATOR: |-
+  Indicator 17.1.2: Proportion of domestic budget funded by domestic taxes
+STAT_CONC_DEF: |-
+  Consolidated Canadian general government includes federal government, provincial and territorial governments, health and social service institutions, universities and colleges, municipalities and other local public administrations and, school boards. Does not include the Canada Pension Plan (CPP) and Quebec Pension Plan (QPP).
+DATA_COMP: |-
+  The proportion of domestic budget funded by domestic taxes is calculated for the consolidated Canadian general government as the proportion of total taxes relative to the total expenditure, expressed as a percentage.
+  <br><br>
+  Expenditures financed by taxes (%) = (Total taxes / Total expenditure) × 100
+  <br><br>
+  Total expenditure is defined as the sum of total current expenditures and total capital expenditures. Total current expenditures include all expenses, less consumption of fixed capital, plus consumption of fixed capital according to public sector accounts and capitalized research and development costs. Total capital expenditure is the difference in nonfinancial assets according to public sector accounts between the current year and the previous year.
+  <br><br>
+  Total expenditure = Total current expenditure + Total capital expenditure
+  <br><br>
+  Total current expenditure = Expenses - Consumption of fixed capital + Consumption of fixed capital according to public sector accounts + Capitalized research and development costs
+  <br><br>
+  Total capital expenditure = Nonfinancial assets according to public sector accounts (current year) - Nonfinancial assets according to public sector accounts (previous year)
 REC_USE_LIM: '   '
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
-  the Global Partnership for Sustainable Development</p>'
-SDG_TARGET__GLOBAL: '<p>Target 17.1: Strengthen domestic resource mobilization, including
-  through international support to developing countries, to improve domestic capacity
-  for tax and other revenue collection</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 17.1.2: Proportion of domestic budget funded
-  by domestic taxes</p>'
+SDG_GOAL__GLOBAL: |-
+  Goal 17: Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development
+SDG_TARGET__GLOBAL: |-
+  Target 17.1: Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 17.1.2: Proportion of domestic budget funded by domestic taxes
+
 un_designated_tier: Tier I
 un_custodian_agency: International Monetary Fund (IMF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-01-02.pdf
@@ -26,8 +36,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
   
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistics Canada. Table 10-10-0147-01  Canadian government finance statistics (CGFS), statement of operations and balance sheet for consolidated governments (x 1,000,000)
+source_url_text_1: Statistics Canada. Table 10-10-0147-01  Canadian government finance statistics (CGFS), statement of operations and balance sheet for consolidated governments (x 1,000,000)
 source_url_1: https://doi.org/10.25318/1010014701-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
