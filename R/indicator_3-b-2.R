@@ -27,16 +27,16 @@ CRS <- CRS_raw %>%
     `Assistance type`,
     Value = ObsValue,
   ) %>%
-  mutate_at("Value", as.numeric) %>%
-  arrange(Year, `Assistance type`)
+  mutate(Value = as.numeric(Value))
 
 CRS_total <- CRS %>%
   group_by(Year) %>%
   summarise(Value = sum(Value, na.rm = TRUE)) %>%
-  mutate(`Assistance type` = "") 
+  mutate(`Assistance type` = NA) 
 
-data_final <-
-  bind_rows(CRS_total, CRS)
+data_final <- bind_rows(CRS_total, CRS) %>%
+  relocate(Value, .after = "Assistance type")
+  
   
 write.csv(data_final, "./data/indicator_3-b-2.csv",
           row.names = FALSE, na = "", fileEncoding = "UTF-8")
