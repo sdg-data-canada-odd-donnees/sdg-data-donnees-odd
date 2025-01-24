@@ -5,7 +5,23 @@ SDG_TARGET: '<p>Cible 17.3 : Mobiliser des ressources financières supplémentai
 SDG_INDICATOR: '<p>Indicateur 17.3.1 : Investissements étrangers directs, aide publique
   au développement et coopération Sud-Sud, en proportion du revenu national brut</p>'
 STAT_CONC_DEF: |
-  Part IDE: entrées d’IDE (exprimées en millions de dollars EU)
+  Cet indicateur mesure les investissements étrangers directs (IED) et l’aide publique
+  au développement (APD) en proportion du revenu national brut (RNB).
+  <br><br>
+  Les investissements étrangers directs (IED) sont une catégorie d’investissement
+  qui reflète l’objectif d’établir un intérêt durable par une entreprise résidente
+  dans une économie (investisseur direct) dans une entreprise (entreprise d’investissement
+  direct) qui est résidente dans une économie autre que celle de l’investisseur direct.
+  L’intérêt durable implique l’existence d’une relation à long terme entre l’investisseur
+  direct et l’entreprise d’investissement direct et un degré significatif d’influence
+  sur la gestion de l’entreprise. La propriété directe ou indirecte de 10 % ou plus
+  du pouvoir de vote d’une entreprise résidente dans une économie par un investisseur
+  résident dans une autre économie est prise comme preuve d’une telle relation.
+  <br><br>
+  Le Comité d’aide au développement (CAD) définit l’aide publique au développement
+  (APD) comme « les flux destinés aux pays et territoires figurant sur la liste des bénéficiaires de l'APD du CAD et aux institutions multilatérales qui sont <br><br>
+  i) fournis par des agences officielles, y compris les gouvernements nationaux et locaux, ou par leurs agences exécutives ; et <br>
+  ii) chaque transaction est administrée avec pour objectif principal la promotion du développement économique et du bien-être des pays en développement ; et sont de nature concessionnelle et comportent un élément de don d'au moins 25 pour cent (calculé à un taux d'escompte de 10 pour cent). (Voir <a href="https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>)
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
