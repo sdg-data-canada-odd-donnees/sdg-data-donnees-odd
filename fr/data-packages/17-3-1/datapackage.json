@@ -20,22 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Investissement direct étranger (IDE) entrant",
                 "Aide publique au développement (APD)",
                 ""
               ]
             },
             "title": "Series"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Pourcentage (%)",
-                ""
-              ]
-            },
-            "title": "Unités"
           },
           {
             "name": "Value",

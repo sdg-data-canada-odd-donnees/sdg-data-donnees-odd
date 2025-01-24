@@ -3024,22 +3024,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Foreign Direct Investment (FDI) Inflow",
                 "Official Development Assistance (ODA)",
                 ""
               ]
             },
             "title": "Series"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                ""
-              ]
-            },
-            "title": "Units"
           },
           {
             "name": "Value",
