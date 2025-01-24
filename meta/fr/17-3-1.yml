@@ -5,10 +5,10 @@ SDG_TARGET: '<p>Cible 17.3 : Mobiliser des ressources financières supplémentai
 SDG_INDICATOR: '<p>Indicateur 17.3.1 : Investissements étrangers directs, aide publique
   au développement et coopération Sud-Sud, en proportion du revenu national brut</p>'
 STAT_CONC_DEF: |
-  Cet indicateur mesure les investissements étrangers directs (IED) et l’aide publique
+  Cet indicateur mesure les investissements directs étrangers (IDE) et l’aide publique
   au développement (APD) en proportion du revenu national brut (RNB).
   <br><br>
-  Les investissements étrangers directs (IED) sont une catégorie d’investissement
+  Les investissements directs étrangers (IDE) sont une catégorie d’investissement
   qui reflète l’objectif d’établir un intérêt durable par une entreprise résidente
   dans une économie (investisseur direct) dans une entreprise (entreprise d’investissement
   direct) qui est résidente dans une économie autre que celle de l’investisseur direct.
@@ -23,11 +23,11 @@ STAT_CONC_DEF: |
   i) fournis par des agences officielles, y compris les gouvernements nationaux et locaux, ou par leurs agences exécutives ; et <br>
   ii) chaque transaction est administrée avec pour objectif principal la promotion du développement économique et du bien-être des pays en développement ; et sont de nature concessionnelle et comportent un élément de don d'au moins 25 pour cent (calculé à un taux d'escompte de 10 pour cent). (Voir <a href="https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>)
 DATA_COMP: |
-  Les investissements étrangers directs en proportion du revenu national brut (RNB)
-  sont calculés comme suit : (IED/RNB) x 100.
+  La série « Investissements étrangers directs (IDE) en proportion du revenu national
+  brut (RNB) » est calculée comme suit : (IDE/RNB) x 100.
   <br><br>
-  L’aide publique au développement en proportion du revenu national brut (RNB) est
-  une duplication de l’indicateur 17.2.1.
+  La série « Aide publique au développement (APD) en proportion du revenu national brut
+  (RNB) » est une duplication de l’indicateur 17.2.1.
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
