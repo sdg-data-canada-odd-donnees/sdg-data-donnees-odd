@@ -1,5 +1,5 @@
 # Indicator 17.19.1 ---------------------------------------------------------
-# Official development assistance on conservation and sustainable use of biodiversity
+# Dollar value of all resources made available to strengthen statistical capacity in developing countries
 
 options(timeout = 300)
 library(dplyr)
