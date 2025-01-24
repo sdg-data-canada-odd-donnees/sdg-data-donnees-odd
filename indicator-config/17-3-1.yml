@@ -17,8 +17,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.17-3-1-title
-graph_titles: []
+graph_titles:
+  - series: Foreign Direct Investment (FDI) Inflow
+    title: Foreign Direct Investment (FDI) as a proportion of Gross National Income (GNI)
+  - series: Official Development Assistance (ODA)
+    title: Official Development Assistance (ODA) as a proportion of Gross National Income (GNI)
 graph_type: line
 indicator_name: global_indicators.17-3-1-title
 indicator_number: 17.3.1
