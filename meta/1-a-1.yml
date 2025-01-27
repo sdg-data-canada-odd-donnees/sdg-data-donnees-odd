@@ -23,11 +23,12 @@ DATA_COMP: |-
 REC_USE_LIM: |-
   This indicator refers to total official development assistance grants from Canada.
 
-# Global metadata
-SDG_GOAL__GLOBAL: "Goal 1: End poverty in all its forms everywhere"
-SDG_TARGET__GLOBAL: >-
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 1: End poverty in all its forms everywhere
+SDG_TARGET__GLOBAL: |-
   Target 1.a: Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions.
-SDG_INDICATOR__GLOBAL: >-
+SDG_INDICATOR__GLOBAL: |-
   Indicator 1.a.1: Total official development assistance (ODA) grants from all donors that focus on poverty reduction as a share of the recipient country's gross national income.
 
 un_designated_tier: Tier I
