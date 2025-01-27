@@ -1,30 +1,40 @@
-SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET: |
-  Target 1.5: By 2030, build the resilience of the poor and those in vulnerable
-  situations and reduce their exposure and vulnerability to climate-related extreme
-  events and other economic, social and environmental shocks and disasters
-SDG_INDICATOR: '<p>Indicator 1.5.3: National disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030 adopted and implemented</p>'
-STAT_CONC_DEF: 'This indicator informs on the adoption and implemention of national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030.'
+# National
+SDG_GOAL: |-
+  Goal 1: End poverty in all its forms everywhere
+SDG_TARGET: |-
+  Target 1.5: By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters
+SDG_INDICATOR: |-
+  Indicator 1.5.3: National disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030 adopted and implemented
+STAT_CONC_DEF: |-
+  This indicator informs on the adoption and implemention of national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030.
 DATA_COMP: '     '
-REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: "Number of countries that adopt and implement
-  national disaster risk reduction strategies in line with the Sendai Framework for
-  Disaster Risk Reduction 2015–2030".'
-SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET__GLOBAL: '<p>Target 1.5: By 2030, build the resilience of the poor and those in
-  vulnerable situations and reduce their exposure and vulnerability to climate-related
-  extreme events and other economic, social and environmental shocks and disasters</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 1.5.3: Number of countries that adopt and implement
-  national disaster risk reduction strategies in line with the Sendai Framework for
-  Disaster Risk Reduction 2015–2030</p>'
-un_designated_tier: Tier II
-un_custodian_agency: United Nations International Strategy for Disaster Reduction
-  (UNISDR)
+REC_USE_LIM: |-
+  This is a proxy indicator. The UN Global indicator states: "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030".
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 1: End poverty in all its forms everywhere
+SDG_TARGET__GLOBAL: |-
+  Target 1.5: By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 1.5.3: Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030
+
+un_designated_tier: Tier I
+un_custodian_agency: United Nations Office for Disaster Risk Reduction (UNDRR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: |
-    Public Safety Canada. Emergency Management Strategy for Canada: Toward a Resilient 2030
-source_url_1: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
+source_url_text_1: |-
+  Public Safety Canada. Canada's Platform for Disaster Risk Reduction
+source_url_1: https://www.publicsafety.gc.ca/cnt/mrgnc-mngmnt/dsstr-prvntn-mtgtn/pltfrm-dsstr-rsk-rdctn/index-en.aspx
 source_organisation_1: Public Safety Canada
 source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: |-
+  Public Safety Canada. Emergency Management Strategy for Canada: Toward a Resilient 2030
+source_url_2: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
+source_organisation_2: Public Safety Canada
+source_geographical_coverage_2: Canada
