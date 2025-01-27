@@ -1,10 +1,11 @@
-SDG_GOAL: 'Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout
-  dans le monde'
-SDG_TARGET: >-
+# National
+SDG_GOAL: |-
+  Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
+SDG_TARGET: |-
   Cible 1.a : Garantir une mobilisation importante de ressources provenant de sources multiples, y compris par le renforcement de la coopération pour le développement, afin de doter les pays en développement, en particulier les pays les moins avancés, de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques visant à mettre fin à la pauvreté sous toutes ses formes.
-SDG_INDICATOR: >-
+SDG_INDICATOR: |-
   Indicateur 1.a.1 : Total des dons d’aide publique au développement (APD) axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion du revenu national brut du pays bénéficiaire
-STAT_CONC_DEF: >-
+STAT_CONC_DEF: |-
   <p>Le Comité d'aide au développement (CAD) de l'OCDE définit l'APD comme « les flux vers les pays et territoires figurant sur la liste du CAD des bénéficiaires de l'APD et institutions multilatérales qui sont i) fournis par des organismes officiels, y compris les gouvernements des États et les collectivités locales, ou par leurs agences exécutives ; et ii) chaque transaction est administrée avec pour objectif principal la promotion du développement économique et du bien-être des pays en développement ; et elle est de nature concessionnelle et comporte un élément de don d'au moins 25 pour cent (calculé à un taux d'actualisation de 10 pour cent) ». (Voir <a href="https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>).</p>
   <p>Les éléments de réduction de la pauvreté peuvent être définis comme l'APD aux services sociaux de base (santé de base, éducation de base, eau et assainissement de base, programmes de population et santé reproductive) et l'aide alimentaire dévelopmentale.</p>
   <p>Les services sociaux de base et l'aide alimentaire dévelopmentale, qui sont axés sur la réduction de la pauvreté, sont définis à l'aide des codes d'objectif suivants du Système de notification des pays créanciers de l'OCDE, qui identifient le secteur que l'activité est censée cibler :</p>
@@ -15,18 +16,20 @@ STAT_CONC_DEF: >-
   <li>Aide plurisectorielle pour les services sociaux de base (code SNPC 16050)</li>
   <li>Aide alimentaire dévelopmentale (codes SNPC 520xx)</li>
   </ul>
-DATA_COMP: >-
+DATA_COMP: |-
   Le total des dons d'aide publique au développement axées sur la réduction de la pauvreté est calculé en proportion du revenu national brut (RNB) du Canada, conformément aux rapports des autres pays.
   <br><br>
   100 × (Éducation de base + Santé de base + Distribution d'eau et assainissement + Aide plurisectorielle pour les services sociaux de base + Aide alimentaire dévelopmentale) / RNB
-REC_USE_LIM: '   '
+REC_USE_LIM: |-
+  Cet indicateur se rapporte au total des dons d'aide publique au développement provenant du Canada.
 
-# Global metadata
-SDG_GOAL__GLOBAL: 'Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde'
-SDG_TARGET__GLOBAL: >-
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
+SDG_TARGET__GLOBAL: |-
   Cible 1.a : Garantir une mobilisation importante de ressources provenant de sources multiples, y compris par le renforcement de la coopération
   pour le développement, afin de doter les pays en développement, en particulier les pays les moins avancés, de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques visant à mettre fin à la pauvreté sous toutes ses formes.
-SDG_INDICATOR__GLOBAL: >-
+SDG_INDICATOR__GLOBAL: |-
   Indicateur 1.a.1 : Total des dons d’aide publique au développement axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion du revenu national brut du pays bénéficiaire
 
 # Source(s)
