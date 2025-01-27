@@ -19,7 +19,8 @@ DATA_COMP: >-
   Le total des dons d'aide publique au développement axées sur la réduction de la pauvreté est calculé en proportion du revenu national brut (RNB) du Canada, conformément aux rapports des autres pays.
   <br><br>
   100 × (Éducation de base + Santé de base + Distribution d'eau et assainissement + Aide plurisectorielle pour les services sociaux de base + Aide alimentaire dévelopmentale) / RNB
-REC_USE_LIM: '   '
+REC_USE_LIM: |-
+  Cet indicateur se rapporte au total des dons d'aide publique au développement provenant du Canada.
 
 # Global metadata
 SDG_GOAL__GLOBAL: 'Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde'
