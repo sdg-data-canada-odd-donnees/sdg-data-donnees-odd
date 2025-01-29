@@ -17,11 +17,11 @@ STAT_CONC_DEF: |-
   <li>Aide alimentaire dévelopmentale (codes SNPC 520xx)</li>
   </ul>
 DATA_COMP: |-
-  Le total des dons d'aide publique au développement axées sur la réduction de la pauvreté est calculé en proportion du revenu national brut (RNB) du Canada, conformément aux rapports des autres pays.
+  Le total des dons d'aide publique au développement axés sur la réduction de la pauvreté est calculé en proportion du revenu national brut (RNB) du Canada, conformément aux rapports des autres pays.
   <br><br>
   100 × (Éducation de base + Santé de base + Distribution d'eau et assainissement + Aide plurisectorielle pour les services sociaux de base + Aide alimentaire dévelopmentale) / RNB
 REC_USE_LIM: |-
-  Cet indicateur se rapporte au total des dons d'aide publique au développement provenant du Canada.
+  Le Canada étant un pay donateur, cet indicateur se réfère au total des dons d'aide publique au développement provenant du Canada axés sur la réduction de la pauvreté, exprimé en proportion du revenu national brut du Canada.
 
 # Global
 SDG_GOAL__GLOBAL: |-
