@@ -6916,6 +6916,27 @@
             }
           },
           {
+            "name": "COMMENT_OBS_0",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Values showing as 2.5 may signify a prevalence of undernourishment below 2.5%",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMMENT_OBS_1",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Estimated value",
+                "Estimated value. Estimates are based on projected values.",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
