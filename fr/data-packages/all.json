@@ -7474,8 +7474,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Valeur estimée",
-                "Valeur estimée. Les estimations sont basées sur des valeurs projetées.",
+                "Les estimations sont basées sur des valeurs projetées.",
                 ""
               ]
             },
