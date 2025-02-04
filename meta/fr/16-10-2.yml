@@ -8,14 +8,14 @@ SDG_INDICATOR: |-
 STAT_CONC_DEF: |-
   <p>Nombre de pays qui adoptent et mettent en œuvre des dispositions constitutionnelles, réglementaires et politiques pour garantir l’accès public à l’information.
   <br><br>
-  L'objectif de cet indicateur est d'indiquer le nombre total de pays qui ont adopté des mesures légales pour garantir l'accès à l'information (AI), ainsi que les principales tendances dans la mise en œuvre de ces garanties, qui sont sont présentées sous forme d'agrégats globaux.
+  L’objectif de cet indicateur est de déclarer le nombre total de pays qui ont adopté des mesures légales pour garantir l’accès à l’information, ainsi que les principales tendances dans la mise en œuvre de ces garanties, qui sont présentées sous forme d’agrégats mondiaux. 
   <br><br>
-  Basé sur la définition ci-dessus, l'indicateur possède deux composantes :
+  Selon la définition ci-dessus, l’indicateur comprend deux composantes : 
   <ol>
   <li>Adoption</li>
   <li>Mise en œuvre</li>
   </ol>
-  Sous chaque composante, des questions clés ont été identifiées selon les « principes de l'accès à l'information » et qui mettent en évidence les composantes essentielles pour la mise en œuvre efficace de l'accès à l'information au niveau national. Ces principes sont synthétisés à partir de cadres et de documents existants reconnus au niveau international. Dans le cadre de cette étude, les principes pertinents sont les suivants :
+  Sous chaque composante, des questions clés ont été définies selon les « principes de l’accès à l’information » et mettent en évidence les composantes essentielles pour la mise en œuvre efficace de l’accès à l’information à l’échelle nationale. Ces principes sont synthétisés à partir de cadres et de documents existants reconnus à l’échelle internationale. Dans le cadre de cette étude, les principes pertinents sont les suivants : 
   <ol>
   <li>Cadres juridiques pour l'accès à l'information</li>
   <li>Exemptions limitées</li>
@@ -23,12 +23,12 @@ STAT_CONC_DEF: |-
   <li>Mécanisme de recours</li>
   <li>Tenue de registres et établissement de rapports</li>
   </ol>
-  Chaque question a une valeur comprise entre 0 et 2. À l'issue de l'enquête, un pays peut obtenir un score total de 0 à 9. Le score total de chaque pays ne sera pas attribué à une catégorie de niveau (par exemple : faible, moyen ou élevé). Cependant, il contribuera aux agrégats globaux.</p>
+  Chaque question a une valeur comprise entre 0 et 2. À l’issue de l’enquête, un pays peut obtenir un score total de 0 à 9. Le score total de chaque pays ne sera assigné à aucune catégorie de niveau (p. ex. faible, moyen ou élevé). Cependant, il contribuera aux agrégats mondiaux.</p>
 DATA_COMP: '   '
 REC_USE_LIM: |-
-  Les réponses d'un pays à l'Enquête sur l'accès public à l'information de l'UNESCO sont évaluées sur deux composantes : l'adoption et la mise en œuvre. Un score entre 0 et 5 est attribué pour la composante de l'adoption. Un score entre 0 et 4 est attribué pour la composante de la mise en œuvre. Le score total est la somme des scores obtenus pour chaque composante, le score maximal possible étant 9.
+  Les réponses d’un pays à l’Enquête sur l’accès public à l’information de l’UNESCO sont évaluées selon deux composantes : l’adoption et la mise en œuvre. Un score entre 0 et 5 est attribué pour la composante de l’adoption. Un score entre 0 et 4 est attribué pour la composante de la mise en œuvre. Le score total est la somme des scores obtenus pour chaque composante, le score maximal possible étant 9.
   <br><br>
-  Les réponses du Canada au questionnaire sont basées sur les données de l'année fiscale (1 avril au 31 mars) précédant l'année de l'enquête. La fin de l'année fiscale est prise en tant qu'année de référence pour le score. Par exemple, la réponse du Canada à l'enquête sur l'accès public à l'information est basée sur les données de l'année fiscale 2019-2020 et le score correspondant est associé avec l'année de référence 2020 dans le graphique.
+  Les réponses du Canada au questionnaire reposent sur les données de l’année financière (1er avril au 31 mars) précédant l’année de l’enquête. La fin d’année financière est prise en tant qu’année de référence pour le score. Par exemple, la réponse du Canada à l’enquête sur l’accès public à l’information de 2021 repose sur les données de l’année financière 2019-2020 et le score correspondant est associé à l’année de référence 2020 dans le graphique. 
 
 # Global
 SDG_GOAL__GLOBAL: |-
