@@ -4,9 +4,9 @@ SDG_GOAL: |-
 SDG_TARGET: |-
   Cible 16.7 : Faire en sorte que le dynamisme, l’ouverture, la participation et la représentation à tous les niveaux caractérisent la prise de décisions
 SDG_INDICATOR: |-
-  Indicateur 16.7.2 : Proportion de la population qui estime que la prise de décisions est ouverte et réactive, par sexe, âge, situation au regard du handicap et groupe de la population
+  Indicateur 16.7.2 : Proportion de la population ayant une grande confiance envers certaines institutions gouvernementales
 STAT_CONC_DEF: |-
-  Cet indicateur basé sur une enquête, mesure les niveaux déclarés d'« efficacité politique externe », c'est-à-dire la mesure dans laquelle les gens pensent que les politiciens et/ou les institutions politiques écouteront les opinions des citoyens ordinaires et agiront en conséquence.
+  Cet indicateur mesure la proportion de la population ayant une grande confiance envers certaines institutions gouvernementales.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 
@@ -22,3 +22,21 @@ un_designated_tier: Tier II
 un_custodian_agency: Programme des Nations Unies pour le développement (PNUD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source
+
+source_active_1: true
+source_url_text_1: "Enquête sociale générale, 2019 - Tabulation spécialisé"
+source_url_1: 'https://www150.statcan.gc.ca/n1/pub/85-002-x/2020001/article/00014/tbl/tbl01-fra.htm'
+source_organisation_1: "Statistique Canada"
+source_periodicity_1: "Occasionnelle"
+source_geographical_coverage_1: 'Canada'
+
+source_active_2: true
+source_url_text_2: "Enquête sociale générale sur l’identité sociale, 2020"
+source_url_2: 'https://www150.statcan.gc.ca/n1/pub/85-002-x/2022001/article/00003/tbl/tbl01-fra.htm'
+source_organisation_2: "Statistique Canada"
+source_periodicity_2: "Aux 5 ans"
+source_geographical_coverage_2: 'Canada'
+
+proxy: proxy
