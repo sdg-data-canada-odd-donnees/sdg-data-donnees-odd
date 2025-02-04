@@ -12,8 +12,67 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Année"
+          },
+          {
+            "name": "Discrimination Indicators",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "N'ont pas été victimes de discrimination",
+                "Discrimination au travail",
+                "Discrimination à l'école",
+                "Discrimination sur Internet",
+                "Discrimination dans les rapports avec le système de soins de santé",
+                "Discrimination dans des endroits publics, un magasin, une banque ou un restaurant",
+                "Discrimination aux mains de membres de la famille ou d’amis",
+                "Discrimination en utilisant le transport en commun",
+                "Discrimination dans toute autre situation",
+                "Victimes de discrimination ou de traitement injuste par d’autres personnes au Canada",
+                ""
+              ]
+            },
+            "title": "Indicateurs de discrimination"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Hommes",
+                "Femmes",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

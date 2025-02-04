@@ -12,12 +12,50 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "data.Institutions",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Federal Parliament",
+                "Justice system and courts",
+                ""
+              ]
+            },
+            "title": "Institutions"
+          },
+          {
+            "name": "data.Characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Black",
+                "First Nations, Métis, or Inuit",
+                "Other group designated as visible minority",
+                "Non-Indigenous, non-visible minority",
+                ""
+              ]
+            },
+            "title": "Characteristics"
+          },
+          {
+            "name": "data.Level of confidence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Not confident",
+                "Confident",
+                ""
+              ]
+            },
+            "title": "Level of confidence"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

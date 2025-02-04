@@ -12,8 +12,67 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Year"
+          },
+          {
+            "name": "Discrimination Indicators",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Did not experience discrimination or unfair treatment in Canada",
+                "Discrimination at work",
+                "Discrimination at school",
+                "Discrimination on the Internet",
+                "Discrimination when interacting with the healthcare system",
+                "Discrimination in public areas, a store, bank or restaurant",
+                "Discrimination by or among friends or family",
+                "Discrimination while using public transit",
+                "Discrimination in any other situation",
+                "Experienced discrimination or unfair treatment in Canada",
+                ""
+              ]
+            },
+            "title": "Discrimination Indicators"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Men",
+                "Women",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

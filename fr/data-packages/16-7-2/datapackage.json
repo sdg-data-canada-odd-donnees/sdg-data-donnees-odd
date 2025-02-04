@@ -12,12 +12,50 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
           },
           {
+            "name": "data.Institutions",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Parlement fédéral",
+                "Système de justice et tribunaux",
+                ""
+              ]
+            },
+            "title": "Institutions"
+          },
+          {
+            "name": "data.Characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Noirs",
+                "Premières Nations, Métis ou Inuits",
+                "Autres groupes désignés comme minorités visibles",
+                "Non-Autochtones n’appartenant pas à une minorité visible",
+                ""
+              ]
+            },
+            "title": "Caractéristiques"
+          },
+          {
+            "name": "data.Level of confidence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Aucune confiance",
+                "Confiance",
+                ""
+              ]
+            },
+            "title": "Niveau de confiance"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Valeur"
           }
         ]

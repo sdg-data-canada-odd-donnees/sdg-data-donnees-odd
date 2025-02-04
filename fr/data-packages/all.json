@@ -393,6 +393,68 @@
       "title": "Consommation matérielle nationale, consommation matérielle nationale par habitant et consommation matérielle nationale par unité de PIB"
     },
     {
+      "path": "16-7-2/data.csv",
+      "name": "16-7-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Institutions",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Parlement fédéral",
+                "Système de justice et tribunaux",
+                ""
+              ]
+            },
+            "title": "Institutions"
+          },
+          {
+            "name": "data.Characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Noirs",
+                "Premières Nations, Métis ou Inuits",
+                "Autres groupes désignés comme minorités visibles",
+                "Non-Autochtones n’appartenant pas à une minorité visible",
+                ""
+              ]
+            },
+            "title": "Caractéristiques"
+          },
+          {
+            "name": "data.Level of confidence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Aucune confiance",
+                "Confiance",
+                ""
+              ]
+            },
+            "title": "Niveau de confiance"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de la population qui estime que la prise de décisions est ouverte et réactive, par sexe, âge, situation au regard du handicap et groupe de la population"
+    },
+    {
       "path": "16-10-2/data.csv",
       "name": "16-10-2",
       "profile": "tabular-data-resource",
@@ -2767,6 +2829,89 @@
         ]
       },
       "title": "Taux de mortalité attribuable à des maladies cardiovasculaires, au cancer, au diabète ou à des maladies respiratoires chroniques"
+    },
+    {
+      "path": "16-b-1/data.csv",
+      "name": "16-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "Discrimination Indicators",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "N'ont pas été victimes de discrimination",
+                "Discrimination au travail",
+                "Discrimination à l'école",
+                "Discrimination sur Internet",
+                "Discrimination dans les rapports avec le système de soins de santé",
+                "Discrimination dans des endroits publics, un magasin, une banque ou un restaurant",
+                "Discrimination aux mains de membres de la famille ou d’amis",
+                "Discrimination en utilisant le transport en commun",
+                "Discrimination dans toute autre situation",
+                "Victimes de discrimination ou de traitement injuste par d’autres personnes au Canada",
+                ""
+              ]
+            },
+            "title": "Indicateurs de discrimination"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Hommes",
+                "Femmes",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme"
     },
     {
       "path": "2-5-1/data.csv",
@@ -5473,7 +5618,7 @@
                 "Population des minorités visibles",
                 "Sud-Asiatique",
                 "Chinois",
-                "Noir",
+                "Noirs",
                 "Philippin",
                 "Arabe",
                 "Latino-Américain",
@@ -6814,7 +6959,7 @@
                 "Total de la population des minorités visibles",
                 "Sud-Asiatique",
                 "Chinois",
-                "Noir",
+                "Noirs",
                 "Philippin",
                 "Arabe",
                 "Latino-Américain",
@@ -10181,30 +10326,6 @@
       "title": "Puissance installée du parc d’énergie renouvelable dans les pays en développement (en watts par habitant)"
     },
     {
-      "path": "16-b-1/data.csv",
-      "name": "16-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme"
-    },
-    {
       "path": "17-18-2/data.csv",
       "name": "17-18-2",
       "profile": "tabular-data-resource",
@@ -10515,30 +10636,6 @@
         ]
       },
       "title": "Nombre de pays les moins avancés et de petits États insulaires en développement ayant prévu des contributions déterminées au niveau national, des stratégies à long terme, des plans nationaux d’adaptation ou des stratégies, tel qu’il ressort des communications relatives à l’adaptation et des communications nationales"
-    },
-    {
-      "path": "16-7-2/data.csv",
-      "name": "16-7-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de la population qui estime que la prise de décisions est ouverte et réactive, par sexe, âge, situation au regard du handicap et groupe de la population"
     },
     {
       "path": "14-1-1/data.csv",
