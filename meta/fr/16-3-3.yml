@@ -6,10 +6,10 @@ SDG_TARGET: |-
 SDG_INDICATOR: |-
   Indicateur 16.3.3 : Proportion de la population ayant connu un différend au cours des trois dernières années, avec saisine d’un mécanisme formel ou informel de règlement des différends
 STAT_CONC_DEF: |-
-  Nombre de personnes ayant connu un différend au cours des trois dernières années et ayant eu recours à un mécanisme formel ou informel de résolution des différends, en pourcentage de toutes les personnes ayant connu un litige au cours des trois dernières années, par type de mécanisme.
+  Nombre de personnes ayant connu un conflit au cours des trois dernières années et ayant eu recours à un mécanisme formel ou informel de résolution des conflits, en pourcentage de toutes les personnes ayant connu un conflit au cours des trois dernières années, par type de mécanisme. 
 DATA_COMP: custom.data-tabulated
 REC_USE_LIM: |-
-  Cet indicateur est un indicateur de substitution. Les données nationales pour l'indicateur 16.3.3 mesurent la population ayant eu un litige au cours des trois dernières années et non au cours des deux dernières années comme l'indique l'indicateur global.
+  Cet indicateur est un indicateur de substitution. Les données nationales pour l’indicateur 16.3.3 mesurent la population ayant eu un conflit au cours des trois dernières années et non au cours des deux dernières années comme mentionné dans l’indicateur mondial. 
 
 # GLOBAL
 SDG_GOAL__GLOBAL: |-
