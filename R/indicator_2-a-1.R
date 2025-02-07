@@ -5,9 +5,7 @@ options(timeout = 300)
 library(cansim)
 library(dplyr)
 library(stringr)
-library(devtools)
-install_github("expersso/OECD")
-library(OECD)
+library(readsdmx)
 
 primary_url <- "https://nsi-release-ro-statsuite.fao.org/rest/data/FAO,DF_AG_PRD_ORTIND_2A1,1.0/A...124........?startPeriod=2015&dimensionAtObservation=AllDimensions"
 FAO_Primary <- readsdmx::read_sdmx(primary_url)
