@@ -10,14 +10,14 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
     <p>Indicateur 15.2.1 : Progrès vers la gestion durable des forêts</p>
 STAT_CONC_DEF: |
-  L'indicateur se compose de cinq sous-indicateurs qui mesurent les progrès réalisés dans toutes les dimensions de la gestion durable des forêts. Les valeurs environnementales des forêts sont couvertes par trois sous-indicateurs axés sur l'extension de la zone forestière, la biomasse dans la zone forestière et la protection et le maintien de la diversité biologique, ainsi que des ressources naturelles et culturelles associées. Les valeurs sociales et économiques des forêts sont conciliées avec les valeurs environnementales par des plans de gestion durable. Le sous-indicateur fournit une qualification supplémentaire à la gestion des zones forestières, en évaluant les zones dont la conformité à un ensemble de normes nationales ou internationales est vérifiée de manière indépendante.
+  L’indicateur se compose de cinq sous-indicateurs qui mesurent les progrès réalisés dans toutes les dimensions de l’aménagement durable des forêts. Les valeurs environnementales des forêts comprennent trois sous-indicateurs axés sur l’élargissement de la superficie forestière, la biomasse dans la superficie forestière et la protection et le maintien de la diversité biologique, ainsi que des ressources naturelles et culturelles associées. Les valeurs sociales et économiques des forêts sont conciliées avec les valeurs environnementales par des plans d’aménagement durable. Le sous-indicateur fournit une précision supplémentaire pour l’aménagement des superficies forestières, en évaluant les superficies dont la conformité à un ensemble de normes nationales ou internationales est vérifiée de manière indépendante.
   <br><br>
   Les sous-indicateurs sont : <br>
-  1. Taux de changement net annuel de la surface forestière <br>
-  2. Stock de biomasse aérienne dans la forêt <br>
+  1. Taux de changement net annuel de la superficie forestière <br>
+  2. Stock de biomasses aériennes dans la forêt <br>
   3. Proportion de la superficie forestière située dans des zones protégées légalement établies <br>
-  4. Proportion de la superficie forestière faisant l'objet d'un plan de gestion forestière à long terme <br>
-  5. Superficie forestière soumise à un système de certification de gestion forestière vérifié de manière indépendante
+  4. Proportion de la superficie forestière faisant l'objet d’un plan d’aménagement forestier à long terme <br>
+  5. Superficie forestière soumise à un système de certification d’aménagement forestier vérifié de manière indépendante
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   La superficie forestière couverte par un système de certification de la gestion forestière vérifié de manière indépendante est mesurée en millions d'hectares et non en milliers comme indiqué dans les métadonnées.
