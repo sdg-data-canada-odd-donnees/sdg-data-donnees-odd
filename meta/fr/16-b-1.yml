@@ -22,8 +22,11 @@ STAT_CONC_DEF: |-
   - toute autre raison spécifiée.
 DATA_COMP: '   '
 REC_USE_LIM: |
-  Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme ». <br><br>
+  Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme ». 
+  <br><br>
   Le total pour le Canada n’inclut pas les données des territoires.
+  <br><br>
+  Les sous-indicateurs de la série secondaire, « Proportion d’individus dans une population déclarant avoir été victimes de discrimination ou de traitement injuste », sont calculés en utilisant le nombre d’individus déclarant avoir été victimes de discrimination ou de traitement injuste comme dénominateur, plutôt que la population totale.
 
 # Global
 SDG_GOAL__GLOBAL: |-
@@ -45,5 +48,12 @@ source_organisation_1: Statistique Canada
 source_periodicity_1: Occasionnelle trimestrielle
 source_geographical_coverage_1: Canada, Province ou territoire
 source_url_1: https://doi.org/10.25318/4510010001-fra
+
+source_active_2: 'true'
+source_url_text_2: Statistique Canada. Tableau 45-10-0101-01  Discrimination et traitement injuste selon le genre et certaines autres caractéristiques sociodémographiques
+source_organisation_2: Statistique Canada
+source_periodicity_2: Occasionnelle trimestrielle
+source_geographical_coverage_2: Canada
+source_url_2: https://doi.org/10.25318/4510010101-fra
 
 proxy: proxy
