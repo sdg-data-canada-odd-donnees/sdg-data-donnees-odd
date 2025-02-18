@@ -192,11 +192,11 @@ discrimination_disag <-
     `Main activity` = case_when(
       `Sociodemographic characteristics` %in% activity ~ `Sociodemographic characteristics`
     ),
-    `Location` = case_when(
+    `Area` = case_when(
       `Sociodemographic characteristics` %in% location ~ `Sociodemographic characteristics`
     )
   ) %>%
-  relocate(Value, .after = "Location") %>%
+  relocate(Value, .after = "Area") %>%
   select(
     -`Sociodemographic characteristics`
   )
@@ -218,7 +218,7 @@ main_series_total_line <-
     `LGBTQ2+` %in% total_disags |
     `Highest level of education` %in% total_disags |
     `Main activity` %in% total_disags |
-    `Location` %in% total_disags
+    `Area` %in% total_disags
   ) %>% 
   mutate_at(2:(ncol(.) - 1), ~ "") %>%
   distinct() %>%
@@ -241,7 +241,7 @@ main_series_non_total <-
       `LGBTQ2+` %in% total_disags |
       `Highest level of education` %in% total_disags |
       `Main activity` %in% total_disags |
-      `Location` %in% total_disags)
+      `Area` %in% total_disags)
     )
   ) %>%
   filter(
@@ -287,7 +287,7 @@ second_series_non_total <-
          `LGBTQ2+` %in% total_disags |
          `Highest level of education` %in% total_disags |
          `Main activity` %in% total_disags |
-         `Location` %in% total_disags)
+         `Area` %in% total_disags)
     )
   ) %>%
   filter(
