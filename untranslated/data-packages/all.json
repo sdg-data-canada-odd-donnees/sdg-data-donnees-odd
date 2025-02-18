@@ -2665,11 +2665,12 @@
             "type": "string"
           },
           {
-            "name": "Discrimination Indicators",
+            "name": "Discrimination indicators",
             "type": "string",
             "constraints": {
               "enum": [
                 "Did not experience discrimination or unfair treatment in Canada",
+                "Experienced discrimination or unfair treatment in Canada",
                 "Discrimination at work",
                 "Discrimination at school",
                 "Discrimination on the Internet",
@@ -2678,7 +2679,17 @@
                 "Discrimination by or among friends or family",
                 "Discrimination while using public transit",
                 "Discrimination in any other situation",
-                "Experienced discrimination or unfair treatment in Canada",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of population reporting to have experienced discrimination or unfair treatment",
+                "Proportion of individuals within a population who report experiencing discrimination or unfair treatment",
                 ""
               ]
             }
@@ -2711,6 +2722,146 @@
                 "Total",
                 "Men",
                 "Women",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 15 years and over",
+                "15 to 24 years",
+                "25 to 54 years",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 64 years",
+                "65 years and over",
+                "65 to 74 years",
+                "75 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, by immigrant status",
+                "Non-immigrants",
+                "Immigrants",
+                "Immigrants, 10 years or less in Canada",
+                "Immigrants, more than 10 years in Canada",
+                "Non-permanent residents",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, by visible minority group",
+                "Visible minority population",
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Southeast Asian",
+                "West Asian",
+                "Korean",
+                "Multiple visible minorities",
+                "Not a visible minority",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Indigenous identity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, by Indigenous identity",
+                "Indigenous identity",
+                "Single Indigenous identity",
+                "First Nations",
+                "Métis",
+                "Non-Indigenous identity",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, persons with and without a disability, difficulty or long-term condition",
+                "Persons with a disability, difficulty or long-term condition",
+                "Persons without a disability, difficulty or long-term condition",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "LGBTQ2+",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, LGBTQ2+ and non-LGBTQ2+ people",
+                "LGBTQ2+ people",
+                "Non-LGBTQ2+ people",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Highest level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, highest certificate, diploma or degree",
+                "No certificate, diploma or degree",
+                "Secondary (high) school diploma or equivalency certificate",
+                "Postsecondary certificate, diploma or degree",
+                "Postsecondary certificate or diploma below bachelor level",
+                "Apprenticeship or trades certificate or diploma",
+                "College, CEGEP or other non-university certificate or diploma",
+                "University certificate or diploma below bachelor level",
+                "Bachelor's degree or higher",
+                "Bachelor's degree",
+                "University certificate, diploma or degree above bachelor level",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Main activity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, by main activity",
+                "Working at a paid job or business",
+                "Retired",
+                "Other activity",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, urban and rural areas",
+                "Urban areas",
+                "Rural areas",
                 ""
               ]
             }

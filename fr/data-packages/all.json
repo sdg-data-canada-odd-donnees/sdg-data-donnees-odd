@@ -2881,11 +2881,12 @@
             "title": "Année"
           },
           {
-            "name": "Discrimination Indicators",
+            "name": "Discrimination indicators",
             "type": "string",
             "constraints": {
               "enum": [
                 "N'ont pas été victimes de discrimination",
+                "Victimes de discrimination ou de traitement injuste par d’autres personnes au Canada",
                 "Discrimination au travail",
                 "Discrimination à l'école",
                 "Discrimination sur Internet",
@@ -2894,11 +2895,22 @@
                 "Discrimination aux mains de membres de la famille ou d’amis",
                 "Discrimination en utilisant le transport en commun",
                 "Discrimination dans toute autre situation",
-                "Victimes de discrimination ou de traitement injuste par d’autres personnes au Canada",
                 ""
               ]
             },
             "title": "Indicateurs de discrimination"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste",
+                "Proportion d'individus au sein d'une population déclarant avoir été victimes de discrimination ou de traitement injuste",
+                ""
+              ]
+            },
+            "title": "Series"
           },
           {
             "name": "Geography",
@@ -2933,6 +2945,155 @@
               ]
             },
             "title": "Genre"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 15 ans et plus",
+                "15 à 24 ans",
+                "25 à 54 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                "65 ans et plus",
+                "65 à 74 ans",
+                "75 ans et plus",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, selon le statut d’immigrant",
+                "Non-immigrants",
+                "Immigrants",
+                "Immigrants, au Canada depuis 10 ans ou moins",
+                "Immigrants, au Canada depuis plus de 10 ans",
+                "Résidents non permanents",
+                ""
+              ]
+            },
+            "title": "Statut d’immigrant"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, selon le groupe de minorité visible",
+                "Population des minorités visibles",
+                "Sud-Asiatique",
+                "Chinois",
+                "Noirs",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Asiatique du Sud-Est",
+                "Asiatique occidental",
+                "Korean",
+                "Minorités visibles multiples",
+                "Pas une minorité visible",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Indigenous identity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, selon l’identité autochtone",
+                "Identité autochtone",
+                "Identité autochtone unique",
+                "Premières Nations",
+                "Métis",
+                "Identité non autochtone",
+                ""
+              ]
+            },
+            "title": "Identité autochtone"
+          },
+          {
+            "name": "Disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, personnes ayant une incapacité, une difficulté ou un problème de santé de longue durée ou n’en ayant pas",
+                "Personnes ayant une incapacité, une difficulté ou un problème de santé de longue durée",
+                "Personnes n’ayant pas d’incapacité, de difficulté ou de problème de santé de longue durée",
+                ""
+              ]
+            },
+            "title": "Incapacité"
+          },
+          {
+            "name": "LGBTQ2+",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, personnes LGBTQ2+ et qui ne sont pas LGBTQ2+",
+                "Personnes LGBTQ2+",
+                "Personnes qui ne sont pas LGBTQ2+",
+                ""
+              ]
+            },
+            "title": "LGBTQ2+"
+          },
+          {
+            "name": "Highest level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, plus haut certificat, diplôme ou grade",
+                "Aucun certificat, diplôme ou grade",
+                "Diplôme d’études secondaires ou attestation d’équivalence",
+                "Certificat, diplôme ou grade d’études postsecondaires",
+                "Certificat ou diplôme d’études postsecondaires inférieur au baccalauréat",
+                "Certificat ou diplôme d’apprenti ou d’une école de métiers",
+                "Certificat ou diplôme d’un collège, d’un cégep ou d’un autre établissement non universitaire",
+                "Certificat ou diplôme universitaire inférieur au baccalauréat",
+                "Baccalauréat ou grade supérieur",
+                "Baccalauréat",
+                "University certificate, diploma or degree above bachelor level",
+                ""
+              ]
+            },
+            "title": "Plus haut niveau de scolarité"
+          },
+          {
+            "name": "Main activity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, selon l’activité principale",
+                "Travailler à un emploi rémunéré ou à son propre compte",
+                "À la retraite",
+                "Autre activité",
+                ""
+              ]
+            },
+            "title": "Activité principale"
+          },
+          {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, régions urbaines et rurales",
+                "Régions urbaines",
+                "Régions rurales",
+                ""
+              ]
+            },
+            "title": "Région"
           },
           {
             "name": "GeoCode",

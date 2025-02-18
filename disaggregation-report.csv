@@ -2,12 +2,12 @@ Disaggregation,Number of indicators,Number of values
 Activity group,1,5
 Activity related to digital skills,1,14
 Age at time of death,1,29
-Age group,11,40
+Age group,12,40
 Age Group,1,6
 Age of primary decision maker,1,5
 Age,5,30
 Amount last sent,1,6
-Area,2,2
+Area,3,5
 Assistance type,1,2
 Basic services,1,6
 Causes of death,1,10
@@ -20,8 +20,8 @@ data.Level of confidence,1,2
 data.Stock group,1,8
 Destination region,1,10
 Disability status,1,3
-Disability,1,2
-Discrimination Indicators,1,10
+Disability,2,5
+Discrimination indicators,1,10
 Economic activity,2,3
 Economic family type,1,14
 Educational indicator,1,6
@@ -35,12 +35,13 @@ Gender,8,13
 Geography,49,111
 Government,1,2
 Graduation rate,1,2
+Highest level of education,1,11
 Household food security status,1,6
 Household income decile,1,5
 Household income quintile,1,3
-Immigrant status,3,5
+Immigrant status,4,10
 Indicator,1,6
-Indigenous identity,3,14
+Indigenous identity,4,16
 Indigenous population,1,3
 Industries,1,14
 Industry,2,126
@@ -49,6 +50,8 @@ Land use category,1,8
 Least developed countries,1,1
 Level of education,2,7
 Level of government,1,2
+LGBTQ2+,1,3
+Main activity,1,4
 Marital status,4,8
 Measure,3,7
 Method,1,3
@@ -95,6 +98,6 @@ Type of occupation,1,4
 Type of victimization,1,3
 Type of work,1,3
 Unwanted or inappropriate behaviour,1,5
-Visible minority,5,16
+Visible minority,6,20
 Wastewater treatment level,1,4
 Water quality category,1,3
