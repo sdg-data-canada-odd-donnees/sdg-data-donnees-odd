@@ -78,6 +78,7 @@ Both sexes: Les deux sexes
 Gender: Genre
 All genders: Toutes les identités de genre
 Total, all persons: Total, toutes les personnes
+Total, gender: Total, genre
 
 ## Geo
 Geography: Géographie
@@ -143,6 +144,7 @@ Sherbrooke, Quebec: Sherbrooke, Québec
 Barrie, Ontario: Barrie, Ontario
 Belleville, Ontario: Belleville, Ontario
 Belleville-Quinte West, Ontario: Belleville-Quinte West, Ontario
+Belleville - Quinte West, Ontario: Belleville - Quinte West, Ontario
 Brantford, Ontario: Brantford, Ontario
 Greater Sudbury, Ontario: Grand Sudbury, Ontario
 Greater Sudbury / Grand Sudbury, Ontario: Grand Sudbury, Ontario
@@ -306,24 +308,14 @@ Inter-Parliamentary Union (IPU), UN Women: Union Interparlementaire (UIP), ONU F
 
 ## 1-2-1
 Canada, Geographical region of Canada, Province or territory, Census metropolitan area: Canada, Région géographique du Canada, Province ou territoire, Région métropolitaine de recensement
-Québec, Quebec: "Québec, Québec"
-Montréal, Quebec: "Montréal, Québec"
-Ottawa-Gatineau, Ontario/Quebec: "Ottawa-Gatineau, Ontario/Québec"
-Toronto, Ontario: Toronto, Ontario
-Winnipeg, Manitoba: Winnipeg, Manitoba
-Calgary, Alberta: Calgary, Alberta
-Edmonton, Alberta: Edmonton, Alberta
-Vancouver, British Columbia: Vancouver, Colombie-Britannique
 Persons in low income: Personnes à faible revenu
 All persons: Toutes les personnes
 Persons under 18 years: Personnes de moins de 18 ans
 Persons 18 to 64 years: Personnes de 18 à 64 ans
 Persons 65 years and over: Personnes de 65 ans et plus
-Males: Hommes
 Males, under 18 years: Hommes, moins de 18 ans
 Males, 18 to 64 years: Hommes, 18 à 64 ans
 Males, 65 years and over: Hommes, 65 ans et plus
-Females: Femmes
 Females, under 18 years: Femmes, moins de 18 ans
 Females, 18 to 64 years: Femmes, 18 à 64 ans
 Females, 65 years and over: Femmes, 65 ans et plus
@@ -1705,23 +1697,16 @@ Renter in social and affordable housing: Locataire habitant dans un logement soc
 Total, large urban population centres: Total, grands centres de population urbains
 
 ## 11-2-1
-Selected housing vulnerable populations: Certaines population vulnérables en matière de logement
-All households: Tous les ménages
-Total, lone-parent family households: Tous les ménages
-Lone-parent family households whose reference person is male: Ménages comptant une famille monoparentale dont la personne de référence est un homme
-Lone-parent family households whose reference person is female: Ménages comptant une famille monoparentale dont la personne de référence est une femme
-Total, one person households: Total, ménages comptant une personne seule
-Men living alone: Hommes vivant seuls
-Women living alone: Femmes vivant seules
-Reference person who experienced homelessness: Personne de référence qui a vécu une période d’itinérance
-Living with housing problems: Éprouvant des problèmes de logement
-Living in unaffordable housing: Vivant dans un logement inabordable
-Living in unsuitable housing: Vivant dans un logement de taille non convenable
-Living in inadequate housing: Vivant dans un logement de qualité non convenable
-Living in core housing need: Ayant des besoins impérieux en matière de logement
-Census divisions: Divisions de recensement
-Census subdivisions in a census agglomeration: Subdivisions de recensement dans une agglomération de recensement
-Area outside census metropolitan areas and census agglomeration: Région à l’extérieur des régions métropolitaines de recensement et des agglomérations de recensement
+Distance-capacity public transit service area: Distance-capacité de la zone de service de transport public
+500 metres from all public transit stops: 500 mètres de tous les arrêts de transport en commun
+500 metres from low-capacity public transit stops only: 500 mètres des arrêts de transport en commun à faible capacité uniquement
+1000 metres from high-capacity public transit stops only: 1000 mètres des arrêts de transport en commun à grande capacité uniquement
+Location: Emplacement
+Total, location: Total, emplacement
+Urban: Urbain
+Rural: Rurale
+Demographic and socio-economic: Démographique and socio-économique
+Total - Age groups of the population - 100% data: Total - Groupes d'âge de la population - Données intégrales (100 %)
 
 ## 11-3-1
 Land consumption rate: Taux de consommation des terres
@@ -1741,6 +1726,7 @@ Total cultural and natural heritage: Ensemble du patrimoine culturel et naturel
 Consolidated Canadian general government: Administration publique générale canadienne consolidée
 Consolidated provincial-territorial and local governments: Administrations publiques provinciales-territoriales et locales consolidées
 Level of government: Niveau de gouvernement
+
 
 ## 11-6-1
 Sources of waste for disposal: Sources des déchets à des fins d'élimination
@@ -2136,7 +2122,6 @@ Physical abuse: Violence physique
 Sexual abuse: Violence sexuelle
 Male gender: Genre masculin
 Female gender: Genre féminin
-Total, gender: Total, genre
 Total, age: Total, âge
 Total, immigrant status: Total, statut d'immigrant
 Immigrants: Immigrants
