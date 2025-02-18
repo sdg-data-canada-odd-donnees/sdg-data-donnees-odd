@@ -3513,7 +3513,7 @@
               "enum": [
                 "Total",
                 "Urbain",
-                "Rural",
+                "Rurale",
                 ""
               ]
             },
@@ -4506,7 +4506,7 @@
             "constraints": {
               "enum": [
                 "Urbain",
-                "Rural",
+                "Rurale",
                 ""
               ]
             },
@@ -4804,19 +4804,35 @@
             "title": "Année"
           },
           {
+            "name": "Distance-capacity public transit service area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "500 mètres de tous les arrêts de transport en commun",
+                "500 mètres des arrêts de transport en commun à faible capacité uniquement",
+                "1000 mètres des arrêts de transport en commun à grande capacité uniquement",
+                ""
+              ]
+            },
+            "title": "Distance-capacité de la zone de service de transport public"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "St. John's, Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
                 "Halifax, Nouvelle-Écosse",
                 "Nouveau-Brunswick",
+                "Fredericton, Nouveau-Brunswick",
                 "Moncton, Nouveau-Brunswick",
                 "Saint John, Nouveau-Brunswick",
                 "Québec",
+                "Drummondville, Québec",
                 "Montréal, Québec",
                 "Ottawa - Gatineau (partie du Québec), Québec",
                 "Québec, Québec",
@@ -4825,7 +4841,7 @@
                 "Trois-Rivières, Québec",
                 "Ontario",
                 "Barrie, Ontario",
-                "Belleville, Ontario",
+                "Belleville - Quinte West, Ontario",
                 "Brantford, Ontario",
                 "Grand Sudbury, Ontario",
                 "Guelph, Ontario",
@@ -4849,18 +4865,63 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Lethbridge, Alberta",
+                "Red Deer, Alberta",
                 "Colombie-Britannique",
                 "Abbotsford - Mission, Colombie-Britannique",
+                "Chilliwack, Colombie-Britannique",
+                "Kamloops, Colombie-Britannique",
                 "Kelowna, Colombie-Britannique",
+                "Nanaimo, Colombie-Britannique",
                 "Vancouver, Colombie-Britannique",
                 "Victoria, Colombie-Britannique",
                 "Yukon",
                 "Territoires du Nord-Ouest",
-                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "Location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, emplacement",
+                "Urbain",
+                "Rurale",
+                ""
+              ]
+            },
+            "title": "Emplacement"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, genre",
+                "Hommes+",
+                "Femmes+",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "Demographic and socio-economic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total - Groupes d'âge de la population - Données intégrales (100 %)",
+                "0 to 14 years",
+                "15 à 64 ans",
+                "15 à 19 ans",
+                "20 à 24 ans",
+                "65 ans et plus",
+                ""
+              ]
+            },
+            "title": "Démographique and socio-économique"
           },
           {
             "name": "GeoCode",
@@ -4979,7 +5040,7 @@
             "constraints": {
               "enum": [
                 "Urbain",
-                "Rural",
+                "Rurale",
                 ""
               ]
             },
