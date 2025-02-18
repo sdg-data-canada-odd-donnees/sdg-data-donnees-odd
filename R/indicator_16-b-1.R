@@ -268,7 +268,11 @@ second_series_total_line <-
   mutate(
     Series = "Proportion of individuals within a population who report experiencing discrimination or unfair treatment"
   ) %>%
-  relocate(Series, .before = "Geography")
+  relocate(Series, .before = "Geography") %>%
+  select(
+    -`Geography`
+  )
+
 
 second_series_non_total <-
   combined %>%
@@ -293,7 +297,11 @@ second_series_non_total <-
   mutate(
     Series = "Proportion of individuals within a population who report experiencing discrimination or unfair treatment"
   ) %>%
-  relocate(Series, .before = "Geography")
+  relocate(Series, .before = "Geography") %>%
+  select(
+    -`Geography`
+  )
+
 
 data_final <-
   bind_rows(main_series_total_line,main_series_non_total,second_series_total_line,second_series_non_total) %>%
