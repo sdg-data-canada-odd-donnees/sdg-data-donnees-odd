@@ -132,7 +132,7 @@ discrimination <-
   ) %>%
   select(
     Year = REF_DATE,
-    `Discrimination Indicators` = Indicators,
+    `Discrimination indicators` = Indicators,
     Geography = GEO,
     Gender,
     Value = VALUE
@@ -157,7 +157,7 @@ discrimination_disag <-
   ) %>%
   select(
     Year = REF_DATE,
-    `Discrimination Indicators` = Indicators,
+    `Discrimination indicators` = Indicators,
     Geography = GEO,
     Gender,
     `Sociodemographic characteristics`,
@@ -207,7 +207,7 @@ combined <-
 main_series_total_line <-
   combined %>%
   filter(
-    `Discrimination Indicators` == "Experienced discrimination or unfair treatment in Canada",
+    `Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada",
     Geography == "Canada",
     Gender == "Total",
     `Age group` %in% total_disags |
@@ -230,7 +230,7 @@ main_series_total_line <-
 main_series_non_total <-
   combined %>%
   filter(
-    !(`Discrimination Indicators` == "Experienced discrimination or unfair treatment in Canada" &
+    !(`Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" &
     Geography == "Canada" &
     Gender == "Total" &
     (`Age group` %in% total_disags |
@@ -245,8 +245,8 @@ main_series_non_total <-
     )
   ) %>%
   filter(
-    `Discrimination Indicators` == "Experienced discrimination or unfair treatment in Canada" |
-      `Discrimination Indicators` == "Did not experience discrimination or unfair treatment in Canada"
+    `Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" |
+      `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada"
   ) %>%
   mutate(
     Series = "Proportion of population reporting to have experienced discrimination or unfair treatment"
@@ -261,8 +261,8 @@ second_series_total_line <-
         `Age group` == "Total, 15 years and over"
    ) %>%
   filter(
-    !(`Discrimination Indicators` == "Experienced discrimination or unfair treatment in Canada" |
-        `Discrimination Indicators` == "Did not experience discrimination or unfair treatment in Canada")
+    !(`Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" |
+        `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada")
   ) %>% 
   mutate_at(3:(ncol(.) - 1), ~ "") %>%
   mutate(
@@ -287,8 +287,8 @@ second_series_non_total <-
     )
   ) %>%
   filter(
-    !(`Discrimination Indicators` == "Experienced discrimination or unfair treatment in Canada" |
-      `Discrimination Indicators` == "Did not experience discrimination or unfair treatment in Canada")
+    !(`Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" |
+      `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada")
   ) %>%
   mutate(
     Series = "Proportion of individuals within a population who report experiencing discrimination or unfair treatment"
