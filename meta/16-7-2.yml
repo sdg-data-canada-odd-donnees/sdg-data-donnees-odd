@@ -9,7 +9,8 @@ STAT_CONC_DEF: |-
   This indicator measures the percentage of the population
   with high levels of confidence in selected government institutions.
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  This is a proxy indicator. The UN Global indicator states: “Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group”.
 
 # Global
 SDG_GOAL__GLOBAL: |-
