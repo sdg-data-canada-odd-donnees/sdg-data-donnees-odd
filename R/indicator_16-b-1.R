@@ -308,6 +308,7 @@ second_series_non_total <-
 
 data_final <-
   bind_rows(main_series_total_line,main_series_non_total,second_series_total_line,second_series_non_total) %>%
+  distinct() %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = "Value")
 
