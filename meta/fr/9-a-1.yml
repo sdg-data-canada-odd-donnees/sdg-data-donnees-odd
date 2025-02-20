@@ -10,9 +10,8 @@ STAT_CONC_DEF: >-
 DATA_COMP: >-
   La somme totale des décaissements bruts d’APD et d’autres apports du secteur public vers les pays en développement pour l’infrastructure (codes du système de notification des pays créanciers [SNPC] 200).
   <br><br>
-  Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
-REC_USE_LIM: '   '
-
+  Les données étaient disponibles pour rapporter cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
+REC_USE_LIM: "   "
 # Global
 SDG_GOAL__GLOBAL: >-
   Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
@@ -27,10 +26,9 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-0A-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # Source(s)
-source_active_1: 'true'
-source_url_text_1: 'SNPC: Système de notification des pays créanciers (flux)'
+source_active_1: "true"
+source_url_text_1: "SNPC: Système de notification des pays créanciers (flux)"
 source_url_1: https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=19&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.1&dq=CAN.DPGC.200.14%2B100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&ly[cl]=TIME_PERIOD&ly[rw]=MEASURE&vw=tb&lc=fr
 source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
- 

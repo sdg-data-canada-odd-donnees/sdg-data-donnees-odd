@@ -20,7 +20,7 @@ STAT_CONC_DEF: >-
   <br><br>
   Actifs liquides sur passifs à court terme : Cet ISF est calculé en utilisant les actifs liquides comme numérateur et les passifs à court terme comme dénominateur. Les composantes des actifs liquides sont définies dans le Guide de compilation des ISF 2019 du FMI (Guide des ISF 2019).
 DATA_COMP: >-
-  Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
+  Les données étaient disponibles pour rapporter cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
   <br><br>
   Les données à la source sont rapportées trimestriellement. Les données annnualisées présentées ici prennent les valeurs du dernier trimestre de chaque année.
 REC_USE_LIM: >-
@@ -40,10 +40,9 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-05-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # Source(s)
-source_active_1: 'true'
+source_active_1: "true"
 source_url_text_1: Statistique Canada. Tableau 10-10-0146-01  Indicateurs de solidité financière, Canada
 source_url_1: https://doi.org/10.25318/1010014601-fra
 source_organisation_1: Statistique Canada
 source_periodicity_1: Trimestrielle
 source_geographical_coverage_1: Canada
- 
