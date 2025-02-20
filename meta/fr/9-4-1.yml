@@ -10,11 +10,11 @@ STAT_CONC_DEF: >-
   <br><br>
   Les données sont présentées en mégatonnes d’équivalent dioxyde de carbone (Mt CO<sub>2</sub> eq.) par milliard de dollars de PIB.
 DATA_COMP: >-
-  Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées nationales. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
+  Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées nationales. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
 REC_USE_LIM: >-
   Il s'agit d'un indicateur de substitution. Les émissions de gaz à effet de serre par unité de PIB sont calculées en utilisant le PIB réel ajusté en fonction de l'inflation exprimé en dollars canadiens à prix constants 2017, tandis que les métadonnées globales des Nations Unies précisent l'utilisation de dollars américains constants.
 
-# Global 
+# Global
 SDG_GOAL__GLOBAL: >-
   Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
 SDG_TARGET__GLOBAL: >-
@@ -28,10 +28,9 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # Source(s)
-source_active_1: 'true'
+source_active_1: "true"
 source_url_text_1: Environnement et Changement climatique Canada. Émissions de gaz à effet de serre.
 source_url_1: https://www.canada.ca/fr/environnement-changement-climatique/services/indicateurs-environnementaux/emissions-gaz-effet-serre.html
 source_organisation_1: Environnement et Changement climatique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
- 
