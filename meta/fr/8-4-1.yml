@@ -10,17 +10,17 @@ SDG_TARGET:
   et de production durables, les pays développés montrant l’exemple en la matière</p>"
 SDG_INDICATOR: "<p>Indicateur 8.4.1 : Empreinte matérielle, empreinte matérielle par habitant et empreinte matérielle par unité de PIB</p>"
 STAT_CONC_DEF: >-
-  L'empreinte matérielle (EM) est l'attribution de l'extraction globale de matériaux à la demande finale intérieure d'un pays. L'empreinte matérielle totale est la somme des empreintes matérielles de la biomasse, des combustibles fossiles, des minerais métalliques et des minerais non métalliques.
+  L’empreinte matérielle est l’attribution de l’extraction mondiale de matériaux à la demande finale intérieure d’un pays. L’empreinte matérielle totale est la somme de l’empreinte matérielle de la biomasse, des combustibles fossiles, des minerais métalliques et des minerais non métalliques.
 DATA_COMP: >-
-  Les données ont été tabulées pour rendre compte de cet indicateur comme spécifié par les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
+  Les données ont été totalisées pour donner des précisions à propos de cet indicateur comme précisé par les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
   <br><br>
-  Empreinte matérielle (EM) = Extraction nationale de matériaux + équivalent en matières premières des importations - équivalent en matières premières des exportations
+  Empreinte matérielle = Extraction nationale de matériaux + équivalent en matières premières des importations - équivalent en matières premières des exportations
   <br><br>
-  Empreinte matérielle par habitant = DMC/population totale
+  Empreinte matérielle par habitant = Consommation matérielle nationale (CMN)/population totale
   <br><br>
-  DMC par PIB = DMC/PIB en dollars enchaînés de 2017
+  CMN par PIB = CMN/PIB en dollars enchaînés de 2017
 REC_USE_LIM: >-
-  La série <i>Empreinte matérielle par unité de PIB</i> est rapportée en tonnes par dollars canadien enchaîné de 2017, plutôt que par "Kilogrammes par dollars américain constant" tel que stipulé dans les métadonnées officielles.
+  La série <i>Empreinte matérielle par unité de produit intérieur brut (PIB)</i> est indiquée en tonnes par dollars canadiens enchaînés de 2017, plutôt qu’en « kilogrammes par dollars américains constants » comme stipulé dans les métadonnées officielles.
 
 # Global
 SDG_GOAL__GLOBAL:
