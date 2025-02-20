@@ -413,6 +413,22 @@
             "type": "integer"
           },
           {
+            "name": "Tenure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, tenure",
+                "Owner",
+                "Owner who is not a first-time homebuyer",
+                "Renter",
+                "Renter not in social and affordable housing",
+                "Renter in social and affordable housing",
+                "Owner who is a first-time homebuyer",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -426,23 +442,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Total, large urban population centres",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Tenure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, tenure",
-                "Owner",
-                "Owner who is a first-time homebuyer",
-                "Owner who is not a first-time homebuyer",
-                "Renter",
-                "Renter not in social and affordable housing",
-                "Renter in social and affordable housing",
+                "Canada",
                 ""
               ]
             }
@@ -2657,7 +2657,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-1",
       "schema": {
         "fields": [
           {
