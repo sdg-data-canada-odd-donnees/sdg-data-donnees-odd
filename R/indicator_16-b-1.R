@@ -5,6 +5,7 @@
 library(cansim)
 library(dplyr)
 library(stringr)
+library(tidyr)
 
 discrimination_raw <- get_cansim("45-10-0100-01", factors = FALSE)
 discrimination_disag_raw <- get_cansim("45-10-0101-01", factors = FALSE)
@@ -126,19 +127,25 @@ discrimination <-
     REF_DATE = str_replace_all(REF_DATE, "-04", " Q2"),
     REF_DATE = str_replace_all(REF_DATE, "-07", " Q3"),
     REF_DATE = str_replace_all(REF_DATE, "-10", " Q4"),
+    `Age group` = NA,
     Gender = str_replace_all(Gender, "Total, all persons", "Total")
-  ) %>%
+      ) %>%
   select(
     Year = REF_DATE,
     `Discrimination indicators` = Indicators,
     Geography = GEO,
     Gender,
+    `Age group`,
     Value = VALUE
   ) %>%
+  drop_na(Value) %>%
   mutate(
-    Geography = str_remove(Geography, " \\(.*\\)")
-  ) %>%
-  na.omit()
+    Geography = str_remove(Geography, " \\(.*\\)"),
+    `Age group` = case_when(
+      Geography == "Canada" & Gender == "Total" ~ "Total, 15 years and over",
+      TRUE ~ `Age group`
+    )
+  )
 
 discrimination_disag <-
   discrimination_disag_raw %>%
@@ -240,6 +247,12 @@ main_series_non_total <-
       `Highest level of education` %in% total_disags |
       `Main activity` %in% total_disags |
       `Area` %in% total_disags)
+    )
+  ) %>%
+  filter(
+    !(`Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" &
+        Geography == "Canada" &
+        Gender == "Total"
     )
   ) %>%
   filter(
