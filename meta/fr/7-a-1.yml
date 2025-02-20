@@ -11,14 +11,14 @@ SDG_INDICATOR: '<p>Indicateur 7.a.1 : Flux financiers internationaux à destinat
   des énergies propres et de la production d’énergie renouvelable, notamment au moyen
   de systèmes hybrides</p>'
 STAT_CONC_DEF: >-
-  Cet indicateur mesure la somme de tous les flux financiers définis comme tous les prêts, subventions et prises de participation officiels reçus par les pays figurant sur la liste du Comité d'aide au développement (CAD) des bénéficiaires d'aide publique au développement (APD) de la part de gouvernements étrangers et d'agences multilatérales, à des fins de recherche et développement sur les énergies propres et de production d'énergies renouvelables y compris dans les systèmes hybrides.
+  Cet indicateur mesure la somme de tous les flux financiers définis comme tous les prêts, subventions et prises de participation officiels reçus par les pays figurant sur la liste du Comité d’aide au développement (CAD) des bénéficiaires d’Aide publique au développement (APD) de la part de gouvernements étrangers et d’organismes multilatéraux, à des fins de recherche et développement sur les énergies propres et de production d’énergies renouvelables y compris dans les systèmes hybrides.
 DATA_COMP: >-
-  <p>Le total pour le Canada est calculé à partir des données compilées à partir du Système de déclaration des créanciers (CRS) du CAD de l'OCDE. Les décaissements bruts totaux de l’aide publique au développement (APD) sont ajoutés pour les codes sectoriels suivants (codes SNPC) :</p>
+  <p>Le total pour le Canada est calculé à partir des données compilées du système de notification des pays créanciers (SNPC) du CAD de l’Organisation de coopération et de développement économiques (OCDE). Les décaissements bruts totaux de l’Aide publique au développement (APD) sont ajoutés pour les codes de secteur suivants (codes du système de notification des pays créanciers [SNPC]) :</p>
   <ul>
-  <li>23182 : Recherche énergétique</li>
-  <li>232 : Production d'énergie, sources renouvelables</li>
-  <li>23410 : Centrales électriques à énergie hybride</li>
-  <li>23631 : Transport et distribution d'énergie électrique (mini-réseaux isolés)</li>
+  <li>23182 : Recherche énergétique</li>
+  <li>232 : Production d’énergie, sources renouvelables</li>
+  <li>23410 : Centrales électriques à énergie hybride</li>
+  <li>23631 : Transport et distribution d’énergie électrique (mini-réseaux isolés)</li>
   </ul>
 REC_USE_LIM: '   '
 

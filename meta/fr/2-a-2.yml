@@ -1,12 +1,14 @@
-SDG_GOAL: 'Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
-  la nutrition et promouvoir l’agriculture durable'
-SDG_TARGET: 'Cible 2.a : Accroître, notamment grâce au renforcement de la coopération
+SDG_GOAL:
+  "Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
+  la nutrition et promouvoir l’agriculture durable"
+SDG_TARGET:
+  "Cible 2.a : Accroître, notamment grâce au renforcement de la coopération
   internationale, l’investissement dans l’infrastructure rurale, les services de recherche
   et de vulgarisation agricoles et la mise au point de technologies et de banques
   de plantes et de gènes d’animaux d’élevage, afin de renforcer les capacités productives
-  agricoles des pays en développement, en particulier des pays les moins avancés.'
-SDG_INDICATOR: 'Indicateur 2.a.2 : Total des apports publics (aide publique au
-  développement plus autre apports publics) alloués au secteur agricole.'
+  agricoles des pays en développement, en particulier des pays les moins avancés."
+SDG_INDICATOR: "Indicateur 2.a.2 : Total des apports publics (aide publique au
+  développement plus autre apports publics) alloués au secteur agricole."
 STAT_CONC_DEF: >
   <strong>Définition : </strong><br>
   Décaissements bruts du total de l'aide publique au développement (APD) et des autres apports du secteur public du Canada vers le secteur agricole.
@@ -26,24 +28,26 @@ STAT_CONC_DEF: >
   <br><br>
   Le secteur de l'agriculture est tel que défini par le CAD et comprend tous les codes sectoriels des système de notification des pays créanciers de la série 311 (consulter le lien : http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/codes-objetclassificationsectorielle.htm).
 DATA_COMP: >
-  Les données étaient disponibles pour rapporter pour cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source.
+  Les données étaient disponibles pour rapporter cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
   <br><br>
-  Les données proviennent du Système de notification des pays créanciers de l'OCDE. Sélectionnez Donneur = « Canada », Receveur = « Pays en développement », Secteur = « Agriculture », Mesure = « Aide publique au développement » et « AASP (autre que crédits à l'exportation) », Type de flux = « Versements », et Type de prix = « Prix constants ». 
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
-  améliorer la nutrition et promouvoir l’agriculture durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 2.a : Accroître, notamment grâce au renforcement de
+  Les données proviennent du Système de notification des pays créanciers de l'OCDE. Sélectionnez Donneur = « Canada », Receveur = « Pays en développement », Secteur = « Agriculture », Mesure = « Aide publique au développement » et « AASP (autre que crédits à l'exportation) », Type de flux = « Versements », et Type de prix = « Prix constants ».
+REC_USE_LIM: "   "
+SDG_GOAL__GLOBAL:
+  "<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
+  améliorer la nutrition et promouvoir l’agriculture durable</p>"
+SDG_TARGET__GLOBAL:
+  "<p>Cible 2.a : Accroître, notamment grâce au renforcement de
   la coopération internationale, l’investissement dans l’infrastructure rurale, les
   services de recherche et de vulgarisation agricoles et la mise au point de technologies
   et de banques de plantes et de gènes d’animaux d’élevage, afin de renforcer les
   capacités productives agricoles des pays en développement, en particulier des pays
-  les moins avancés.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.a.2 : Total des apports publics (aide publique
-  au développement plus autre apports publics) alloués au secteur agricole.</p>'
+  les moins avancés.</p>"
+SDG_INDICATOR__GLOBAL:
+  "<p>Indicateur 2.a.2 : Total des apports publics (aide publique
+  au développement plus autre apports publics) alloués au secteur agricole.</p>"
 
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # Source(s)
 source_url_1: https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=19&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.1&dq=CAN.DPGC.311.14%2B100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&ly[cl]=TIME_PERIOD&ly[rw]=MEASURE&vw=tb&lc=fr
-source_url_text_1: 'SNPC: Système de notification des pays créanciers (flux)'
- 
+source_url_text_1: "SNPC: Système de notification des pays créanciers (flux)"
