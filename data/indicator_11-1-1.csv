@@ -1,211 +1,204 @@
-"Year","Geography","Tenure","GeoCode","Value"
-"2018","Newfoundland and Labrador","Total, tenure",10,7.1
-"2018","Newfoundland and Labrador","Owner",10,1.9
-"2018","Newfoundland and Labrador","Owner who is a first-time homebuyer",10,
-"2018","Newfoundland and Labrador","Owner who is not a first-time homebuyer",10,2.2
-"2018","Newfoundland and Labrador","Renter",10,23
-"2018","Newfoundland and Labrador","Renter not in social and affordable housing",10,20
-"2018","Newfoundland and Labrador","Renter in social and affordable housing",10,33
-"2018","Nova Scotia","Total, tenure",12,10.9
-"2018","Nova Scotia","Owner",12,3.8
-"2018","Nova Scotia","Owner who is a first-time homebuyer",12,2.6
-"2018","Nova Scotia","Owner who is not a first-time homebuyer",12,4
-"2018","Nova Scotia","Renter",12,22
-"2018","Nova Scotia","Renter not in social and affordable housing",12,21
-"2018","Nova Scotia","Renter in social and affordable housing",12,28
-"2018","New Brunswick","Total, tenure",13,6.3
-"2018","New Brunswick","Owner",13,2
-"2018","New Brunswick","Owner who is a first-time homebuyer",13,
-"2018","New Brunswick","Owner who is not a first-time homebuyer",13,2.4
-"2018","New Brunswick","Renter",13,16.7
-"2018","New Brunswick","Renter not in social and affordable housing",13,15.9
-"2018","New Brunswick","Renter in social and affordable housing",13,24
-"2018","Quebec","Total, tenure",24,5
-"2018","Quebec","Owner",24,1.1
-"2018","Quebec","Owner who is a first-time homebuyer",24,2
-"2018","Quebec","Owner who is not a first-time homebuyer",24,1
-"2018","Quebec","Renter",24,11.1
-"2018","Quebec","Renter not in social and affordable housing",24,10.7
-"2018","Quebec","Renter in social and affordable housing",24,14.4
-"2018","Ontario","Total, tenure",35,12.4
-"2018","Ontario","Owner",35,7.9
-"2018","Ontario","Owner who is a first-time homebuyer",35,10.7
-"2018","Ontario","Owner who is not a first-time homebuyer",35,7.4
-"2018","Ontario","Renter",35,25
-"2018","Ontario","Renter not in social and affordable housing",35,24
-"2018","Ontario","Renter in social and affordable housing",35,29
-"2018","Manitoba","Total, tenure",46,10.4
-"2018","Manitoba","Owner",46,5.8
-"2018","Manitoba","Owner who is a first-time homebuyer",46,13.8
-"2018","Manitoba","Owner who is not a first-time homebuyer",46,4.3
-"2018","Manitoba","Renter",46,22
-"2018","Manitoba","Renter not in social and affordable housing",46,19.2
-"2018","Manitoba","Renter in social and affordable housing",46,36
-"2018","Saskatchewan","Total, tenure",47,8.8
-"2018","Saskatchewan","Owner",47,4.5
-"2018","Saskatchewan","Owner who is a first-time homebuyer",47,6.3
-"2018","Saskatchewan","Owner who is not a first-time homebuyer",47,4
-"2018","Saskatchewan","Renter",47,21
-"2018","Saskatchewan","Renter not in social and affordable housing",47,17
-"2018","Saskatchewan","Renter in social and affordable housing",47,40
-"2018","Alberta","Total, tenure",48,8.7
-"2018","Alberta","Owner",48,5.5
-"2018","Alberta","Owner who is a first-time homebuyer",48,6.6
-"2018","Alberta","Owner who is not a first-time homebuyer",48,5.3
-"2018","Alberta","Renter",48,17.9
-"2018","Alberta","Renter not in social and affordable housing",48,16
-"2018","Alberta","Renter in social and affordable housing",48,38
-"2018","British Columbia","Total, tenure",59,12
-"2018","British Columbia","Owner",59,7.6
-"2018","British Columbia","Owner who is a first-time homebuyer",59,13.7
-"2018","British Columbia","Owner who is not a first-time homebuyer",59,6.6
-"2018","British Columbia","Renter",59,22
-"2018","British Columbia","Renter not in social and affordable housing",59,19.4
-"2018","British Columbia","Renter in social and affordable housing",59,39
+"Year","Tenure","Geography","GeoCode","Value"
+"2018","Total, tenure","Newfoundland and Labrador",10,7.1
+"2018","Owner","Newfoundland and Labrador",10,1.9
+"2018","Owner who is not a first-time homebuyer","Newfoundland and Labrador",10,2.2
+"2018","Renter","Newfoundland and Labrador",10,23
+"2018","Renter not in social and affordable housing","Newfoundland and Labrador",10,20
+"2018","Renter in social and affordable housing","Newfoundland and Labrador",10,33
+"2018","Total, tenure","Nova Scotia",12,10.9
+"2018","Owner","Nova Scotia",12,3.8
+"2018","Owner who is a first-time homebuyer","Nova Scotia",12,2.6
+"2018","Owner who is not a first-time homebuyer","Nova Scotia",12,4
+"2018","Renter","Nova Scotia",12,22
+"2018","Renter not in social and affordable housing","Nova Scotia",12,21
+"2018","Renter in social and affordable housing","Nova Scotia",12,28
+"2018","Total, tenure","New Brunswick",13,6.3
+"2018","Owner","New Brunswick",13,2
+"2018","Owner who is not a first-time homebuyer","New Brunswick",13,2.4
+"2018","Renter","New Brunswick",13,16.7
+"2018","Renter not in social and affordable housing","New Brunswick",13,15.9
+"2018","Renter in social and affordable housing","New Brunswick",13,24
+"2018","Total, tenure","Quebec",24,5
+"2018","Owner","Quebec",24,1.1
+"2018","Owner who is a first-time homebuyer","Quebec",24,2
+"2018","Owner who is not a first-time homebuyer","Quebec",24,1
+"2018","Renter","Quebec",24,11.1
+"2018","Renter not in social and affordable housing","Quebec",24,10.7
+"2018","Renter in social and affordable housing","Quebec",24,14.4
+"2018","Total, tenure","Ontario",35,12.4
+"2018","Owner","Ontario",35,7.9
+"2018","Owner who is a first-time homebuyer","Ontario",35,10.7
+"2018","Owner who is not a first-time homebuyer","Ontario",35,7.4
+"2018","Renter","Ontario",35,25
+"2018","Renter not in social and affordable housing","Ontario",35,24
+"2018","Renter in social and affordable housing","Ontario",35,29
+"2018","Total, tenure","Manitoba",46,10.4
+"2018","Owner","Manitoba",46,5.8
+"2018","Owner who is a first-time homebuyer","Manitoba",46,13.8
+"2018","Owner who is not a first-time homebuyer","Manitoba",46,4.3
+"2018","Renter","Manitoba",46,22
+"2018","Renter not in social and affordable housing","Manitoba",46,19.2
+"2018","Renter in social and affordable housing","Manitoba",46,36
+"2018","Total, tenure","Saskatchewan",47,8.8
+"2018","Owner","Saskatchewan",47,4.5
+"2018","Owner who is a first-time homebuyer","Saskatchewan",47,6.3
+"2018","Owner who is not a first-time homebuyer","Saskatchewan",47,4
+"2018","Renter","Saskatchewan",47,21
+"2018","Renter not in social and affordable housing","Saskatchewan",47,17
+"2018","Renter in social and affordable housing","Saskatchewan",47,40
+"2018","Total, tenure","Alberta",48,8.7
+"2018","Owner","Alberta",48,5.5
+"2018","Owner who is a first-time homebuyer","Alberta",48,6.6
+"2018","Owner who is not a first-time homebuyer","Alberta",48,5.3
+"2018","Renter","Alberta",48,17.9
+"2018","Renter not in social and affordable housing","Alberta",48,16
+"2018","Renter in social and affordable housing","Alberta",48,38
+"2018","Total, tenure","British Columbia",59,12
+"2018","Owner","British Columbia",59,7.6
+"2018","Owner who is a first-time homebuyer","British Columbia",59,13.7
+"2018","Owner who is not a first-time homebuyer","British Columbia",59,6.6
+"2018","Renter","British Columbia",59,22
+"2018","Renter not in social and affordable housing","British Columbia",59,19.4
+"2018","Renter in social and affordable housing","British Columbia",59,39
 "2018",,,,10
-"2018","Total, large urban population centres","Owner",,5.9
-"2018","Total, large urban population centres","Owner who is a first-time homebuyer",,8.6
-"2018","Total, large urban population centres","Owner who is not a first-time homebuyer",,5.5
-"2018","Total, large urban population centres","Renter",,19.5
-"2018","Total, large urban population centres","Renter not in social and affordable housing",,18.3
-"2018","Total, large urban population centres","Renter in social and affordable housing",,29
-"2021","Newfoundland and Labrador","Total, tenure",10,5.1
-"2021","Newfoundland and Labrador","Owner",10,1.1
-"2021","Newfoundland and Labrador","Owner who is a first-time homebuyer",10,
-"2021","Newfoundland and Labrador","Owner who is not a first-time homebuyer",10,1.1
-"2021","Newfoundland and Labrador","Renter",10,15.7
-"2021","Newfoundland and Labrador","Renter not in social and affordable housing",10,11.9
-"2021","Newfoundland and Labrador","Renter in social and affordable housing",10,33
-"2021","Nova Scotia","Total, tenure",12,7
-"2021","Nova Scotia","Owner",12,2.1
-"2021","Nova Scotia","Owner who is a first-time homebuyer",12,
-"2021","Nova Scotia","Owner who is not a first-time homebuyer",12,2.3
-"2021","Nova Scotia","Renter",12,14
-"2021","Nova Scotia","Renter not in social and affordable housing",12,12.2
-"2021","Nova Scotia","Renter in social and affordable housing",12,41
-"2021","New Brunswick","Total, tenure",13,5
-"2021","New Brunswick","Owner",13,1.3
-"2021","New Brunswick","Owner who is a first-time homebuyer",13,
-"2021","New Brunswick","Owner who is not a first-time homebuyer",13,1.6
-"2021","New Brunswick","Renter",13,13.7
-"2021","New Brunswick","Renter not in social and affordable housing",13,12.4
-"2021","New Brunswick","Renter in social and affordable housing",13,25
-"2021","Quebec","Total, tenure",24,4
-"2021","Quebec","Owner",24,1.6
-"2021","Quebec","Owner who is a first-time homebuyer",24,2
-"2021","Quebec","Owner who is not a first-time homebuyer",24,1.6
-"2021","Quebec","Renter",24,7.6
-"2021","Quebec","Renter not in social and affordable housing",24,7.4
-"2021","Quebec","Renter in social and affordable housing",24,9.7
-"2021","Ontario","Total, tenure",35,10.2
-"2021","Ontario","Owner",35,4.6
-"2021","Ontario","Owner who is a first-time homebuyer",35,3.1
-"2021","Ontario","Owner who is not a first-time homebuyer",35,4.9
-"2021","Ontario","Renter",35,23
-"2021","Ontario","Renter not in social and affordable housing",35,23
-"2021","Ontario","Renter in social and affordable housing",35,28
-"2021","Manitoba","Total, tenure",46,10.4
-"2021","Manitoba","Owner",46,5.1
-"2021","Manitoba","Owner who is a first-time homebuyer",46,6.1
-"2021","Manitoba","Owner who is not a first-time homebuyer",46,4.9
-"2021","Manitoba","Renter",46,24
-"2021","Manitoba","Renter not in social and affordable housing",46,22
-"2021","Manitoba","Renter in social and affordable housing",46,34
-"2021","Saskatchewan","Total, tenure",47,8.4
-"2021","Saskatchewan","Owner",47,4.1
-"2021","Saskatchewan","Owner who is a first-time homebuyer",47,4
-"2021","Saskatchewan","Owner who is not a first-time homebuyer",47,4.1
-"2021","Saskatchewan","Renter",47,19.3
-"2021","Saskatchewan","Renter not in social and affordable housing",47,16.7
-"2021","Saskatchewan","Renter in social and affordable housing",47,35
-"2021","Alberta","Total, tenure",48,5.8
-"2021","Alberta","Owner",48,2.1
-"2021","Alberta","Owner who is a first-time homebuyer",48,7.1
-"2021","Alberta","Owner who is not a first-time homebuyer",48,1.3
-"2021","Alberta","Renter",48,16
-"2021","Alberta","Renter not in social and affordable housing",48,14.6
-"2021","Alberta","Renter in social and affordable housing",48,29
-"2021","British Columbia","Total, tenure",59,10.5
-"2021","British Columbia","Owner",59,6.3
-"2021","British Columbia","Owner who is a first-time homebuyer",59,11.4
-"2021","British Columbia","Owner who is not a first-time homebuyer",59,5.5
-"2021","British Columbia","Renter",59,19.8
-"2021","British Columbia","Renter not in social and affordable housing",59,18.8
-"2021","British Columbia","Renter in social and affordable housing",59,30
+"2018","Owner","Canada",,5.9
+"2018","Owner who is a first-time homebuyer","Canada",,8.6
+"2018","Owner who is not a first-time homebuyer","Canada",,5.5
+"2018","Renter","Canada",,19.5
+"2018","Renter not in social and affordable housing","Canada",,18.3
+"2018","Renter in social and affordable housing","Canada",,29
+"2021","Total, tenure","Newfoundland and Labrador",10,5.1
+"2021","Owner","Newfoundland and Labrador",10,1.1
+"2021","Owner who is not a first-time homebuyer","Newfoundland and Labrador",10,1.1
+"2021","Renter","Newfoundland and Labrador",10,15.7
+"2021","Renter not in social and affordable housing","Newfoundland and Labrador",10,11.9
+"2021","Renter in social and affordable housing","Newfoundland and Labrador",10,33
+"2021","Total, tenure","Nova Scotia",12,7
+"2021","Owner","Nova Scotia",12,2.1
+"2021","Owner who is not a first-time homebuyer","Nova Scotia",12,2.3
+"2021","Renter","Nova Scotia",12,14
+"2021","Renter not in social and affordable housing","Nova Scotia",12,12.2
+"2021","Renter in social and affordable housing","Nova Scotia",12,41
+"2021","Total, tenure","New Brunswick",13,5
+"2021","Owner","New Brunswick",13,1.3
+"2021","Owner who is not a first-time homebuyer","New Brunswick",13,1.6
+"2021","Renter","New Brunswick",13,13.7
+"2021","Renter not in social and affordable housing","New Brunswick",13,12.4
+"2021","Renter in social and affordable housing","New Brunswick",13,25
+"2021","Total, tenure","Quebec",24,4
+"2021","Owner","Quebec",24,1.6
+"2021","Owner who is a first-time homebuyer","Quebec",24,2
+"2021","Owner who is not a first-time homebuyer","Quebec",24,1.6
+"2021","Renter","Quebec",24,7.6
+"2021","Renter not in social and affordable housing","Quebec",24,7.4
+"2021","Renter in social and affordable housing","Quebec",24,9.7
+"2021","Total, tenure","Ontario",35,10.2
+"2021","Owner","Ontario",35,4.6
+"2021","Owner who is a first-time homebuyer","Ontario",35,3.1
+"2021","Owner who is not a first-time homebuyer","Ontario",35,4.9
+"2021","Renter","Ontario",35,23
+"2021","Renter not in social and affordable housing","Ontario",35,23
+"2021","Renter in social and affordable housing","Ontario",35,28
+"2021","Total, tenure","Manitoba",46,10.4
+"2021","Owner","Manitoba",46,5.1
+"2021","Owner who is a first-time homebuyer","Manitoba",46,6.1
+"2021","Owner who is not a first-time homebuyer","Manitoba",46,4.9
+"2021","Renter","Manitoba",46,24
+"2021","Renter not in social and affordable housing","Manitoba",46,22
+"2021","Renter in social and affordable housing","Manitoba",46,34
+"2021","Total, tenure","Saskatchewan",47,8.4
+"2021","Owner","Saskatchewan",47,4.1
+"2021","Owner who is a first-time homebuyer","Saskatchewan",47,4
+"2021","Owner who is not a first-time homebuyer","Saskatchewan",47,4.1
+"2021","Renter","Saskatchewan",47,19.3
+"2021","Renter not in social and affordable housing","Saskatchewan",47,16.7
+"2021","Renter in social and affordable housing","Saskatchewan",47,35
+"2021","Total, tenure","Alberta",48,5.8
+"2021","Owner","Alberta",48,2.1
+"2021","Owner who is a first-time homebuyer","Alberta",48,7.1
+"2021","Owner who is not a first-time homebuyer","Alberta",48,1.3
+"2021","Renter","Alberta",48,16
+"2021","Renter not in social and affordable housing","Alberta",48,14.6
+"2021","Renter in social and affordable housing","Alberta",48,29
+"2021","Total, tenure","British Columbia",59,10.5
+"2021","Owner","British Columbia",59,6.3
+"2021","Owner who is a first-time homebuyer","British Columbia",59,11.4
+"2021","Owner who is not a first-time homebuyer","British Columbia",59,5.5
+"2021","Renter","British Columbia",59,19.8
+"2021","Renter not in social and affordable housing","British Columbia",59,18.8
+"2021","Renter in social and affordable housing","British Columbia",59,30
 "2021",,,,8.2
-"2021","Total, large urban population centres","Owner",,3.9
-"2021","Total, large urban population centres","Owner who is a first-time homebuyer",,4.7
-"2021","Total, large urban population centres","Owner who is not a first-time homebuyer",,3.7
-"2021","Total, large urban population centres","Renter",,17.4
-"2021","Total, large urban population centres","Renter not in social and affordable housing",,16.5
-"2021","Total, large urban population centres","Renter in social and affordable housing",,25
-"2022","Newfoundland and Labrador","Total, tenure",10,6.8
-"2022","Newfoundland and Labrador","Owner",10,2.4
-"2022","Newfoundland and Labrador","Owner who is a first-time homebuyer",10,
-"2022","Newfoundland and Labrador","Owner who is not a first-time homebuyer",10,2.9
-"2022","Newfoundland and Labrador","Renter",10,17.6
-"2022","Newfoundland and Labrador","Renter not in social and affordable housing",10,15.9
-"2022","Newfoundland and Labrador","Renter in social and affordable housing",10,26
-"2022","Nova Scotia","Total, tenure",12,11.4
-"2022","Nova Scotia","Owner",12,4.6
-"2022","Nova Scotia","Owner who is a first-time homebuyer",12,1.9
-"2022","Nova Scotia","Owner who is not a first-time homebuyer",12,5.1
-"2022","Nova Scotia","Renter",12,21
-"2022","Nova Scotia","Renter not in social and affordable housing",12,18
-"2022","Nova Scotia","Renter in social and affordable housing",12,63
-"2022","New Brunswick","Total, tenure",13,8.3
-"2022","New Brunswick","Owner",13,3.3
-"2022","New Brunswick","Owner who is a first-time homebuyer",13,7.9
-"2022","New Brunswick","Owner who is not a first-time homebuyer",13,2.5
-"2022","New Brunswick","Renter",13,16.5
-"2022","New Brunswick","Renter not in social and affordable housing",13,15.6
-"2022","New Brunswick","Renter in social and affordable housing",13,21
-"2022","Quebec","Total, tenure",24,3.7
-"2022","Quebec","Owner",24,2.2
-"2022","Quebec","Owner who is a first-time homebuyer",24,2.3
-"2022","Quebec","Owner who is not a first-time homebuyer",24,2.2
-"2022","Quebec","Renter",24,6
-"2022","Quebec","Renter not in social and affordable housing",24,4.9
-"2022","Quebec","Renter in social and affordable housing",24,15.9
-"2022","Ontario","Total, tenure",35,13.4
-"2022","Ontario","Owner",35,6.4
-"2022","Ontario","Owner who is a first-time homebuyer",35,2.5
-"2022","Ontario","Owner who is not a first-time homebuyer",35,7
-"2022","Ontario","Renter",35,27
-"2022","Ontario","Renter not in social and affordable housing",35,27
-"2022","Ontario","Renter in social and affordable housing",35,33
-"2022","Manitoba","Total, tenure",46,10.1
-"2022","Manitoba","Owner",46,5.1
-"2022","Manitoba","Owner who is a first-time homebuyer",46,
-"2022","Manitoba","Owner who is not a first-time homebuyer",46,5.9
-"2022","Manitoba","Renter",46,22
-"2022","Manitoba","Renter not in social and affordable housing",46,19.8
-"2022","Manitoba","Renter in social and affordable housing",46,31
-"2022","Saskatchewan","Total, tenure",47,7.1
-"2022","Saskatchewan","Owner",47,3.3
-"2022","Saskatchewan","Owner who is a first-time homebuyer",47,4.6
-"2022","Saskatchewan","Owner who is not a first-time homebuyer",47,3
-"2022","Saskatchewan","Renter",47,16.2
-"2022","Saskatchewan","Renter not in social and affordable housing",47,13.8
-"2022","Saskatchewan","Renter in social and affordable housing",47,31
-"2022","Alberta","Total, tenure",48,7.5
-"2022","Alberta","Owner",48,4.4
-"2022","Alberta","Owner who is a first-time homebuyer",48,3.4
-"2022","Alberta","Owner who is not a first-time homebuyer",48,4.5
-"2022","Alberta","Renter",48,16.2
-"2022","Alberta","Renter not in social and affordable housing",48,14.2
-"2022","Alberta","Renter in social and affordable housing",48,36
-"2022","British Columbia","Total, tenure",59,14.8
-"2022","British Columbia","Owner",59,7.1
-"2022","British Columbia","Owner who is a first-time homebuyer",59,4.3
-"2022","British Columbia","Owner who is not a first-time homebuyer",59,7.4
-"2022","British Columbia","Renter",59,29
-"2022","British Columbia","Renter not in social and affordable housing",59,27
-"2022","British Columbia","Renter in social and affordable housing",59,36
+"2021","Owner","Canada",,3.9
+"2021","Owner who is a first-time homebuyer","Canada",,4.7
+"2021","Owner who is not a first-time homebuyer","Canada",,3.7
+"2021","Renter","Canada",,17.4
+"2021","Renter not in social and affordable housing","Canada",,16.5
+"2021","Renter in social and affordable housing","Canada",,25
+"2022","Total, tenure","Newfoundland and Labrador",10,6.8
+"2022","Owner","Newfoundland and Labrador",10,2.4
+"2022","Owner who is not a first-time homebuyer","Newfoundland and Labrador",10,2.9
+"2022","Renter","Newfoundland and Labrador",10,17.6
+"2022","Renter not in social and affordable housing","Newfoundland and Labrador",10,15.9
+"2022","Renter in social and affordable housing","Newfoundland and Labrador",10,26
+"2022","Total, tenure","Nova Scotia",12,11.4
+"2022","Owner","Nova Scotia",12,4.6
+"2022","Owner who is a first-time homebuyer","Nova Scotia",12,1.9
+"2022","Owner who is not a first-time homebuyer","Nova Scotia",12,5.1
+"2022","Renter","Nova Scotia",12,21
+"2022","Renter not in social and affordable housing","Nova Scotia",12,18
+"2022","Renter in social and affordable housing","Nova Scotia",12,63
+"2022","Total, tenure","New Brunswick",13,8.3
+"2022","Owner","New Brunswick",13,3.3
+"2022","Owner who is a first-time homebuyer","New Brunswick",13,7.9
+"2022","Owner who is not a first-time homebuyer","New Brunswick",13,2.5
+"2022","Renter","New Brunswick",13,16.5
+"2022","Renter not in social and affordable housing","New Brunswick",13,15.6
+"2022","Renter in social and affordable housing","New Brunswick",13,21
+"2022","Total, tenure","Quebec",24,3.7
+"2022","Owner","Quebec",24,2.2
+"2022","Owner who is a first-time homebuyer","Quebec",24,2.3
+"2022","Owner who is not a first-time homebuyer","Quebec",24,2.2
+"2022","Renter","Quebec",24,6
+"2022","Renter not in social and affordable housing","Quebec",24,4.9
+"2022","Renter in social and affordable housing","Quebec",24,15.9
+"2022","Total, tenure","Ontario",35,13.4
+"2022","Owner","Ontario",35,6.4
+"2022","Owner who is a first-time homebuyer","Ontario",35,2.5
+"2022","Owner who is not a first-time homebuyer","Ontario",35,7
+"2022","Renter","Ontario",35,27
+"2022","Renter not in social and affordable housing","Ontario",35,27
+"2022","Renter in social and affordable housing","Ontario",35,33
+"2022","Total, tenure","Manitoba",46,10.1
+"2022","Owner","Manitoba",46,5.1
+"2022","Owner who is not a first-time homebuyer","Manitoba",46,5.9
+"2022","Renter","Manitoba",46,22
+"2022","Renter not in social and affordable housing","Manitoba",46,19.8
+"2022","Renter in social and affordable housing","Manitoba",46,31
+"2022","Total, tenure","Saskatchewan",47,7.1
+"2022","Owner","Saskatchewan",47,3.3
+"2022","Owner who is a first-time homebuyer","Saskatchewan",47,4.6
+"2022","Owner who is not a first-time homebuyer","Saskatchewan",47,3
+"2022","Renter","Saskatchewan",47,16.2
+"2022","Renter not in social and affordable housing","Saskatchewan",47,13.8
+"2022","Renter in social and affordable housing","Saskatchewan",47,31
+"2022","Total, tenure","Alberta",48,7.5
+"2022","Owner","Alberta",48,4.4
+"2022","Owner who is a first-time homebuyer","Alberta",48,3.4
+"2022","Owner who is not a first-time homebuyer","Alberta",48,4.5
+"2022","Renter","Alberta",48,16.2
+"2022","Renter not in social and affordable housing","Alberta",48,14.2
+"2022","Renter in social and affordable housing","Alberta",48,36
+"2022","Total, tenure","British Columbia",59,14.8
+"2022","Owner","British Columbia",59,7.1
+"2022","Owner who is a first-time homebuyer","British Columbia",59,4.3
+"2022","Owner who is not a first-time homebuyer","British Columbia",59,7.4
+"2022","Renter","British Columbia",59,29
+"2022","Renter not in social and affordable housing","British Columbia",59,27
+"2022","Renter in social and affordable housing","British Columbia",59,36
 "2022",,,,10.4
-"2022","Total, large urban population centres","Owner",,5.2
-"2022","Total, large urban population centres","Owner who is a first-time homebuyer",,2.8
-"2022","Total, large urban population centres","Owner who is not a first-time homebuyer",,5.6
-"2022","Total, large urban population centres","Renter",,20
-"2022","Total, large urban population centres","Renter not in social and affordable housing",,19.5
-"2022","Total, large urban population centres","Renter in social and affordable housing",,30
+"2022","Owner","Canada",,5.2
+"2022","Owner who is a first-time homebuyer","Canada",,2.8
+"2022","Owner who is not a first-time homebuyer","Canada",,5.6
+"2022","Renter","Canada",,20
+"2022","Renter not in social and affordable housing","Canada",,19.5
+"2022","Renter in social and affordable housing","Canada",,30
