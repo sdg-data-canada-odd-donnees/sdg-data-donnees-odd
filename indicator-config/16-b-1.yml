@@ -11,35 +11,26 @@ data_start_values:
   - series: Proportion of population reporting to have experienced discrimination or unfair treatment
     field: Discrimination indicators
     value: Experienced discrimination or unfair treatment in Canada
-  - series: Proportion of population reporting to have experienced discrimination or unfair treatment
-    field: Geography
+  - field: Geography
     value: Canada
-  - series: Proportion of population reporting to have experienced discrimination or unfair treatment
-    field: Gender
+  - field: Gender
     value: Total
   - series: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
     field: Geography
     value: Canada
-  - series: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
-    field: Gender
+  - field: Gender
     value: Total
-  - series: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
-    field: Discrimination indicators
+  - field: Discrimination indicators
     value: Discrimination at work
-  - series: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
-    field: Discrimination indicators
+  - field: Discrimination indicators
     value: Discrimination at school
-  - series: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
-    field: Discrimination indicators
+  - field: Discrimination indicators
     value: Discrimination on the Internet
-  - series: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
-    field: Discrimination indicators
+  - field: Discrimination indicators
     value: Discrimination when interacting with the healthcare system
-  - series: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
-    field: Discrimination indicators
+  - field: Discrimination indicators
     value: Discrimination in public areas, a store, bank or restaurant
-  - series: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
-    field: Discrimination indicators
+  - field: Discrimination indicators
     value: Discrimination by or among friends or family
 embedded_feature_footer: ''
 embedded_feature_html: ''
@@ -47,7 +38,6 @@ embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations: []
-graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_titles: 
