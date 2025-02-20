@@ -6,13 +6,13 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   Indicateur 6.a.1 : Montant de l’aide publique au développement consacrée à l’eau et à l’assainissement dans un plan de dépenses coordonné par les pouvoirs publics
 STAT_CONC_DEF: >-
-  Le montant de l'aide publique au développement liée à l'eau et à l'assainissement qui fait partie d'un plan de dépenses coordonné par le gouvernement est défini comme la proportion des décaissements totaux de l'aide publique au développement (APD) liée à l'eau et à l'assainissement qui sont inclus dans le budget du gouvernement.
+  Le montant de l’aide publique au développement liée à l’eau et à l’assainissement qui fait partie d’un plan de dépenses coordonné par le gouvernement est défini comme la proportion des décaissements totaux de l’Aide publique au développement (APD) liée à l’eau et à l’assainissement qui sont inclus dans le budget du gouvernement.
 DATA_COMP: >-
   Les données étaient disponibles pour rapporter cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
   <br><br>
-  Les données proviennent du système de notification des créanciers de l'OCDE. Les codes correspondent à la série complète 140 pour le secteur de la distribution d'eau et de l'assainissement et au code CRS 31140 pour les ressources en eau à usage agricole. L’APD brute pour ces codes est additionnée pour les données du Canada.
+  Les données proviennent du système de notification des pays créanciers de l’Organisation de coopération et de développement économiques (OCDE). Les codes correspondent à la série 140 complète pour le secteur de la distribution d’eau et de l’assainissement et au code du système de notification des pays créanciers (SNPC) 31140 pour les ressources en eau à usage agricole. L’APD brute pour ces codes est additionnée pour les données du Canada.
 REC_USE_LIM: >-
-  Il s'agit d'un indicateur de subsitution mesurant le montant total d'aide publique au développement liée à l'eau et à l'assainissement, tandis que les métadonnées globales de l'ONU précisent : « L'indicateur est calculé comme la proportion de l'APD totale liée à l'eau et à l'assainissement qui est incluse dans le budget du gouvernement, c'est-à-dire le montant de l'APD liée à l'eau et à l'assainissement dans le budget du gouvernement divisé par le montant total de l'APD liée à l'eau et à l'assainissement. »
+  Il s’agit d’un indicateur de substitution mesurant le montant total d’Aide publique au développement (APD) liée à l’eau et à l’assainissement, tandis que les métadonnées mondiales des Nations Unies précisent : « L’indicateur est calculé comme la proportion de l’APD totale liée à l’eau et à l’assainissement qui est incluse dans le budget du gouvernement, c’est-à-dire le montant de l’APD liée à l’eau et à l’assainissement dans le budget du gouvernement divisé par le montant total de l’APD liée à l’eau et à l’assainissement. »
 
 # Global
 SDG_GOAL__GLOBAL: >-
