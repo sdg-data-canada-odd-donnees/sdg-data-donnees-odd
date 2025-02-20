@@ -13,17 +13,15 @@ SDG_INDICATOR:
   matérielle nationale par habitant et consommation matérielle nationale par unité
   de PIB</p>"
 STAT_CONC_DEF:
-  <p>La consommation matérielle nationale (CMN) est un indicateur standard
-  de la comptabilité des flux de matières (CFM) et rapporte la consommation apparente
-  de matières dans une économie nationale. </p>
+  <p>La consommation matérielle nationale (CMN) est un indicateur standard de la comptabilité de flux des matières (CFM) et rend compte de la consommation apparente de matières dans une économie nationale. </p>
 DATA_COMP: >-
-  Les données ont été tabulées pour rendre compte de cet indicateur comme spécifié par les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
+  Les données ont été totalisées pour donner des précisions à propos de cet indicateur comme précisé par les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
   <br><br>
   Consommation matérielle nationale (CMN) par habitant = CMN/population totale
   <br><br>
-  CMN par PIB = CMN/PIB en dollars chaînés de 2017
+  CMN par produit intérieur brut (PIB) = CMN/PIB en dollars enchaînés de 2017
 REC_USE_LIM: >-
-  La série <i>Consommation intérieure de matières par PIB</i> est rapportée en tonnes par dollars canadien enchaîné de 2017, plutôt que par "Kilogrammes par dollars américain constant" tel que stipulé dans les métadonnées officielles.
+  La série <i>Consommation intérieure de matières par PIB</i> est indiquée en tonnes par dollars canadiens enchaînés de 2017, plutôt qu’en « kilogrammes par dollars américains constants » comme stipulé dans les métadonnées officielles.
 
 # Global
 SDG_GOAL__GLOBAL:
