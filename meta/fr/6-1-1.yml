@@ -5,7 +5,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
     <p>Indicateur 6.1.1 : Proportion de la population utilisant des services d'alimentation en eau potable gérés en toute sécurité.</p>
 STAT_CONC_DEF: |
-    L'indicateur est défini comme la proportion de la population utilisant des services d'eau potable gérés en toute sécurité, c'est-à-dire la proportion de la population utilisant une source d'eau potable améliorée, accessible sur place, disponible en cas de besoin et exempte de contamination fécale et de contamination chimique prioritaire.
+    L’indicateur est défini comme la proportion de la population qui a recours à des services d’eau potable gérés de manière sécuritaire, c’est-à-dire la proportion de la population qui a recours à une source d’eau potable améliorée, accessible sur place, disponible lorsque nécessaire et exempte de contamination fécale et de contamination chimique prioritaire.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: >-
