@@ -10,7 +10,13 @@ data_start_values:
   - field: Institutions
     value: Federal Parliament
   - field: Characteristics
-    value: All persons
+    value: Black
+  - field: Characteristics
+    value: First Nations, Métis, or Inuit
+  - field: Characteristics
+    value: Other group designated as visible minority
+  - field: Characteristics
+    value: Non-Indigenous, non-visible minority
   - field: Level of confidence
     value: Confident
 embedded_feature_footer: ''
