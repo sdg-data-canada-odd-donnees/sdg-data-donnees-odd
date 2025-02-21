@@ -250,12 +250,6 @@ main_series_non_total <-
     )
   ) %>%
   filter(
-    !(`Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" &
-        Geography == "Canada" &
-        Gender == "Total"
-    )
-  ) %>%
-  filter(
     `Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" |
       `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada"
   ) %>%
