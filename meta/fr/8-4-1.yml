@@ -11,16 +11,16 @@ SDG_TARGET:
 SDG_INDICATOR: "<p>Indicateur 8.4.1 : Empreinte matérielle, empreinte matérielle par habitant et empreinte matérielle par unité de PIB</p>"
 STAT_CONC_DEF: >-
   L’empreinte matérielle est l’attribution de l’extraction mondiale de matériaux à la demande finale intérieure d’un pays. L’empreinte matérielle totale est la somme de l’empreinte matérielle de la biomasse, des combustibles fossiles, des minerais métalliques et des minerais non métalliques.
-DATA_COMP: >-
-  Les données ont été totalisées pour donner des précisions à propos de cet indicateur comme précisé par les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
-  <br><br>
-  Empreinte matérielle = Extraction nationale de matériaux + équivalent en matières premières des importations - équivalent en matières premières des exportations
-  <br><br>
-  Empreinte matérielle par habitant = Consommation matérielle nationale (CMN)/population totale
-  <br><br>
-  CMN par PIB = CMN/PIB en dollars enchaînés de 2017
-REC_USE_LIM: >-
-  La série <i>Empreinte matérielle par unité de produit intérieur brut (PIB)</i> est indiquée en tonnes par dollars canadiens enchaînés de 2017, plutôt qu’en « kilogrammes par dollars américains constants » comme stipulé dans les métadonnées officielles.
+DATA_COMP: '   '
+#  Les données ont été totalisées pour donner des précisions à propos de cet indicateur comme précisé par les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
+#  <br><br>
+#  Empreinte matérielle = Extraction nationale de matériaux + équivalent en matières premières des importations - équivalent en matières premières des exportations
+#  <br><br>
+#  Empreinte matérielle par habitant = Consommation matérielle nationale (CMN)/population totale
+#  <br><br>
+#  CMN par PIB = CMN/PIB en dollars enchaînés de 2017
+REC_USE_LIM: '   '
+#  La série <i>Empreinte matérielle par unité de produit intérieur brut (PIB)</i> est indiquée en tonnes par dollars canadiens enchaînés de 2017, plutôt qu’en « kilogrammes par dollars américains constants » comme stipulé dans les métadonnées officielles.
 
 # Global
 SDG_GOAL__GLOBAL:
@@ -40,21 +40,21 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-04-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # Source(s)
-source_active_1: "true"
-source_url_text_1: Programme des Nations Unies pour l’environnement. Totalisation personnalisée
-source_url_1: https://www.unep.org/fr
-source_organisation_1: Programme des Nations Unies pour l’environnement
-
-source_active_2: "true"
-source_url_text_2: Statistique Canada. Tableau 36-10-0222-01  Produit intérieur brut, en termes de dépenses, provinciaux et territoriaux, annuel (x 1 000 000)
-source_url_2: https://doi.org/10.25318/3610022201-fra
-source_organisation_2: Statistique Canada
-source_periodicity_2: Annuelle
-source_geographical_coverage_2: Canada, Province ou territoire
-
-source_active_3: "true"
-source_url_text_3: Statistique Canada. Tableau 17-10-0005-01  Estimations de la population au 1er juillet, par âge et genre
-source_url_3: https://doi.org/10.25318/1710000501-fra
-source_organisation_3: Statistique Canada
-source_periodicity_3: Annuelle
-source_geographical_coverage_3: Canada, Province ou territoire
+# source_active_1: "true"
+# source_url_text_1: Programme des Nations Unies pour l’environnement. Totalisation personnalisée
+# source_url_1: https://www.unep.org/fr
+# source_organisation_1: Programme des Nations Unies pour l’environnement
+# 
+# source_active_2: "true"
+# source_url_text_2: Statistique Canada. Tableau 36-10-0222-01  Produit intérieur brut, en termes de dépenses, provinciaux et territoriaux, annuel (x 1 000 000)
+# source_url_2: https://doi.org/10.25318/3610022201-fra
+# source_organisation_2: Statistique Canada
+# source_periodicity_2: Annuelle
+# source_geographical_coverage_2: Canada, Province ou territoire
+# 
+# source_active_3: "true"
+# source_url_text_3: Statistique Canada. Tableau 17-10-0005-01  Estimations de la population au 1er juillet, par âge et genre
+# source_url_3: https://doi.org/10.25318/1710000501-fra
+# source_organisation_3: Statistique Canada
+# source_periodicity_3: Annuelle
+# source_geographical_coverage_3: Canada, Province ou territoire
