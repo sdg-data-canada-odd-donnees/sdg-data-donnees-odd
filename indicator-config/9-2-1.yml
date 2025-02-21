@@ -40,4 +40,6 @@ sort: ''
 standalone: false
 tags: 
   - Proxy
-proxy: proxy
+proxy: both
+proxy_series:
+  - MVA per capita
