@@ -6,13 +6,25 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   Indicateur 9.3.2 : Proportion des petites entreprises industrielles ayant fait la demande d'un prêt ou d'une marge de crédit
 STAT_CONC_DEF: >-
-  Cet indicateur mesure la proportion de petites industries ayant fait la demande d'un prêt ou d'une marge de crédit ainsi que les taux d'approbation.
+  Cet indicateur mesure la proportion de petites entreprises ayant fait la demande d'un prêt ou d'une marge de crédit ainsi que les taux d'approbation.
   <br><br>
-  Selon la Banque mondiale, les micro, petites et moyennes entreprises (MPME) sont définies comme suit : micro-entreprises : 1 à 9 employés ; petites entreprises : 10 à 49 employés ; et moyennes entreprises : 50 à 249 employés.
+  Les petites et moyennes entreprises (PME) au Canada sont définies comme des entreprises comptant de 1 à 499 employés rémunérés. Plus précisément :
+  <br><br>
+  - Une petite entreprise compte de 1 à 99 employés rémunérés. <br>
+  - Une entreprise de taille moyenne compte de 100 à 499 employés rémunérés. <br>
+  - Une grande entreprise compte 500 employés rémunérés ou plus.
 DATA_COMP: '   '
 REC_USE_LIM: >-
-  Il s'agit d'un indicateur de substitution qui mesure la proportion de petites industries ayant fait la demande d'un prêt ou d'une marge de crédit et les taux d'approbation correspondants, tandis que l'indicateur global des Nations Unies indique : « Proportion de petites industries bénéficiant d'un prêt ou d'une ligne de crédit ».
-
+  Il s'agit d'un indicateur de substitution qui mesure la proportion de petites entreprises ayant fait la demande d'un prêt ou d'une marge de crédit et les taux d'approbation correspondants, tandis que l'indicateur global des Nations Unies indique : « Proportion des petites entreprises industrielles ayant contracté un prêt ou une ligne de crédit ».
+  <br><br>
+  Selon la Banque mondiale, les micro, petites et moyennes entreprises (MPME) sont définies comme suit : 
+  - micro-entreprises : 1 à 9 employés ; <br>
+  - petites entreprises : 10 à 49 employés ; <br>
+  - et moyennes entreprises : 50 à 249 employés.
+  <br><br> 
+  Les données pour cet indicateur utilisent la définition des PME du Canada.
+  <br><br>
+  Les données nationales pour le Canada incluent à la fois les petites et moyennes entreprise plutôt que uniquement les petites entreprise.
 # GLOBAL
 SDG_GOAL__GLOBAL: >-
   Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
