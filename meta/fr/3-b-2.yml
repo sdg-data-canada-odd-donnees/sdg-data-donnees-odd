@@ -13,16 +13,14 @@ SDG_TARGET: '<p>Cible 3.b : Appuyer la recherche et le développement de vaccins
 SDG_INDICATOR: '<p>Indicateur 3.b.2 : Montant total net de l’aide publique au développement
   consacré à la recherche médicale et aux soins de santé de base.</p>'
 STAT_CONC_DEF: |
-  <strong>Définition :</strong><br>Décaissements bruts de l’apport d'aide publique au développement (APD) totale et d’autres flux officiels du Canada vers le secteur agricole.
-  <br><br><strong>Concepts :</strong><br>APD: Le Comité d'aide au développement (CAD) définit l’APD comme "tous les apports de ressources qui sont fournis aux pays et territoires sur la Liste des bénéficiaires d'APD, ou à des institutions multilatérales, et qui répondent aux critères suivants : 
+  <strong>Définition :</strong><br>Décaissements bruts du total de l’Aide publique au développement (APD) reçue de tous les donateurs pour les secteurs de la recherche médicale et de la santé de base.
+  <br><br><strong>Concepts :</strong><br>APD: Le Comité d’aide au développement (CAD) définit l’APD comme « les apports vers les pays et les territoires figurant sur la liste du CAD à titre de bénéficiaires de l’APD ou vers les institutions multilatérales », qui sont : 
   <br><br>
-  i) émaner d'organismes publics, y compris les États et les collectivités locales, ou d'organismes agissant pour le compte d'organismes publics ;
+  i) fournis par des organismes officiels, y compris les gouvernements des États et des collectivités locales, ou par leurs organismes de direction;
   <br><br>
-  ii) sachant que chaque opération doit en outre : <br>
-  a) avoir pour but essentiel de favoriser le développement économique et l'amélioration du niveau de vie des pays en développement ; <br>
-  b) être assortie de conditions favorables et comporter un élément de libéralité au moins égal à 25 pour cent (sur la base d'un taux d'actualisation de 10 pour cent). (voir <a href="https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html)</a>
+  ii) chaque opération est administrée avec, pour principal objectif, la promotion du développement économique et de l’amélioration des conditions de vie dans les pays en développement; et est de nature préférentielle et comporte un élément de subvention d’au moins 25 % (calculé à un taux d’actualisation de 10 %). (Consulter le <a href="https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html)</a>
   <br><br>
-  Les secteurs de la recherche médicale et de la santé de base sont tels que définis par le CAD. La recherche médicale fait référence au code sectoriel CRS 12182 et la santé de base couvre tous les codes de la série 122 (voir ici (en anglais seulement) : <a href="https://www.oecd.org/development/financing-sustainable-development/development-finance-standards/purposecodessectorclassification.htm">https://www.oecd.org/development/financing-sustainable-development/development-finance-standards/purposecodessectorclassification.htm)</a>
+  Les secteurs de la recherche médicale et de la santé de base sont définis par le CAD. La recherche médicale fait référence au code de secteur du système de notification des pays créanciers (SNPC) 12182 et la santé de base couvre tous les codes de la série 122 (consulter le (en anglais seulement) : <a href="https://www.oecd.org/development/financing-sustainable-development/development-finance-standards/purposecodessectorclassification.htm">https://www.oecd.org/development/financing-sustainable-development/development-finance-standards/purposecodessectorclassification.htm)</a>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 

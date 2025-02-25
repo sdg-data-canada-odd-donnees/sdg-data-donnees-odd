@@ -6,11 +6,8 @@ SDG_TARGET: '<p>Cible 3.7 : D''ici à 2030, assurer l''accès de tous à des ser
   santé procréative dans les stratégies et programmes nationaux</p>'
 SDG_INDICATOR: '<p>Indicateur 3.7.1 : Proportion de femmes en âge de procréer (15 à 49 ans)
   qui utilisent des méthodes modernes de planification familiale</p>'
-STAT_CONC_DEF: <p>Pourcentage de femmes en âge de procréer (15-49 ans) qui souhaitent
-  soit  de ne pas avoir d'enfant (supplémentaire), ou bien de reporter le prochain
-  enfant et qui utilisent actuellement une méthode moderne de contraception. L'indicateur
-  est également appelé demande de planification familiale satisfaite par des méthodes
-  modernes.</p>
+STAT_CONC_DEF: 
+  <p>Pourcentage de femmes en âge de procréer (15 à 49 ans) qui utilisent présentement une méthode moderne de contraception parmi celles qui souhaitent ne plus avoir d’enfant ou qui souhaitent retarder leur prochaine grossesse. Cet indicateur est également désigné comme la demande de planification familiale satisfaite par des méthodes modernes.</p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
