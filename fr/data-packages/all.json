@@ -2951,7 +2951,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 15 ans et plus",
                 "15 à 24 ans",
                 "25 à 54 ans",
                 "25 à 34 ans",
@@ -2961,6 +2960,7 @@
                 "65 ans et plus",
                 "65 à 74 ans",
                 "75 ans et plus",
+                "Total, 15 ans et plus",
                 ""
               ]
             },
@@ -2971,12 +2971,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, selon le statut d’immigrant",
                 "Non-immigrants",
                 "Immigrants",
                 "Immigrants, au Canada depuis 10 ans ou moins",
                 "Immigrants, au Canada depuis plus de 10 ans",
                 "Résidents non permanents",
+                "Total, selon le statut d’immigrant",
                 ""
               ]
             },
@@ -2987,7 +2987,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, selon le groupe de minorité visible",
                 "Population des minorités visibles",
                 "Sud-Asiatique",
                 "Chinois",
@@ -3000,6 +2999,7 @@
                 "Korean",
                 "Minorités visibles multiples",
                 "Pas une minorité visible",
+                "Total, selon le groupe de minorité visible",
                 ""
               ]
             },
@@ -3010,12 +3010,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, selon l’identité autochtone",
                 "Identité autochtone",
                 "Identité autochtone unique",
                 "Premières Nations",
                 "Métis",
                 "Identité non autochtone",
+                "Total, selon l’identité autochtone",
                 ""
               ]
             },
@@ -3026,9 +3026,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, personnes ayant une incapacité, une difficulté ou un problème de santé de longue durée ou n’en ayant pas",
                 "Personnes ayant une incapacité, une difficulté ou un problème de santé de longue durée",
                 "Personnes n’ayant pas d’incapacité, de difficulté ou de problème de santé de longue durée",
+                "Total, personnes ayant une incapacité, une difficulté ou un problème de santé de longue durée ou n’en ayant pas",
                 ""
               ]
             },
@@ -3039,9 +3039,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, personnes LGBTQ2+ et qui ne sont pas LGBTQ2+",
                 "Personnes LGBTQ2+",
                 "Personnes qui ne sont pas LGBTQ2+",
+                "Total, personnes LGBTQ2+ et qui ne sont pas LGBTQ2+",
                 ""
               ]
             },
@@ -3052,7 +3052,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, plus haut certificat, diplôme ou grade",
                 "Aucun certificat, diplôme ou grade",
                 "Diplôme d’études secondaires ou attestation d’équivalence",
                 "Certificat, diplôme ou grade d’études postsecondaires",
@@ -3063,6 +3062,7 @@
                 "Baccalauréat ou grade supérieur",
                 "Baccalauréat",
                 "University certificate, diploma or degree above bachelor level",
+                "Total, plus haut certificat, diplôme ou grade",
                 ""
               ]
             },
@@ -3073,10 +3073,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, selon l’activité principale",
                 "Travailler à un emploi rémunéré ou à son propre compte",
                 "À la retraite",
                 "Autre activité",
+                "Total, selon l’activité principale",
                 ""
               ]
             },
@@ -3087,9 +3087,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, régions urbaines et rurales",
                 "Régions urbaines",
                 "Régions rurales",
+                "Total, régions urbaines et rurales",
                 ""
               ]
             },

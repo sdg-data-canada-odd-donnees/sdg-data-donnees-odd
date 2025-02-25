@@ -86,7 +86,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 15 years and over",
                 "15 to 24 years",
                 "25 to 54 years",
                 "25 to 34 years",
@@ -96,6 +95,7 @@
                 "65 years and over",
                 "65 to 74 years",
                 "75 years and over",
+                "Total, 15 years and over",
                 ""
               ]
             },
@@ -106,12 +106,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, by immigrant status",
                 "Non-immigrants",
                 "Immigrants",
                 "Immigrants, 10 years or less in Canada",
                 "Immigrants, more than 10 years in Canada",
                 "Non-permanent residents",
+                "Total, by immigrant status",
                 ""
               ]
             },
@@ -122,7 +122,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, by visible minority group",
                 "Visible minority population",
                 "South Asian",
                 "Chinese",
@@ -135,6 +134,7 @@
                 "Korean",
                 "Multiple visible minorities",
                 "Not a visible minority",
+                "Total, by visible minority group",
                 ""
               ]
             },
@@ -145,12 +145,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, by Indigenous identity",
                 "Indigenous identity",
                 "Single Indigenous identity",
                 "First Nations",
                 "Métis",
                 "Non-Indigenous identity",
+                "Total, by Indigenous identity",
                 ""
               ]
             },
@@ -161,9 +161,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, persons with and without a disability, difficulty or long-term condition",
                 "Persons with a disability, difficulty or long-term condition",
                 "Persons without a disability, difficulty or long-term condition",
+                "Total, persons with and without a disability, difficulty or long-term condition",
                 ""
               ]
             },
@@ -174,9 +174,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, LGBTQ2+ and non-LGBTQ2+ people",
                 "LGBTQ2+ people",
                 "Non-LGBTQ2+ people",
+                "Total, LGBTQ2+ and non-LGBTQ2+ people",
                 ""
               ]
             },
@@ -187,7 +187,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, highest certificate, diploma or degree",
                 "No certificate, diploma or degree",
                 "Secondary (high) school diploma or equivalency certificate",
                 "Postsecondary certificate, diploma or degree",
@@ -198,6 +197,7 @@
                 "Bachelor's degree or higher",
                 "Bachelor's degree",
                 "University certificate, diploma or degree above bachelor level",
+                "Total, highest certificate, diploma or degree",
                 ""
               ]
             },
@@ -208,10 +208,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, by main activity",
                 "Working at a paid job or business",
                 "Retired",
                 "Other activity",
+                "Total, by main activity",
                 ""
               ]
             },
@@ -222,9 +222,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, urban and rural areas",
                 "Urban areas",
                 "Rural areas",
+                "Total, urban and rural areas",
                 ""
               ]
             },
