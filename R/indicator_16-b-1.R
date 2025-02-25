@@ -142,7 +142,7 @@ discrimination <-
   mutate(
     Geography = str_remove(Geography, " \\(.*\\)"),
     `Age group` = case_when(
-      Geography == "Canada" & Gender == "Total" & `Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" ~ "Total, 15 years and over",
+      Geography == "Canada" & Gender == "Total" & !`Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada" ~ "Total, 15 years and over",
       TRUE ~ `Age group`
     )
   )
