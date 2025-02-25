@@ -142,7 +142,7 @@ discrimination <-
   mutate(
     Geography = str_remove(Geography, " \\(.*\\)"),
     `Age group` = case_when(
-      Geography == "Canada" & Gender == "Total" ~ "Total, 15 years and over",
+      Geography == "Canada" & Gender == "Total" & `Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" ~ "Total, 15 years and over",
       TRUE ~ `Age group`
     )
   )
@@ -232,10 +232,38 @@ main_series_total_line <-
   ) %>%
   relocate(Series, .before = "Geography")
 
-main_series_non_total <-
+Q1_2023 <- 
   combined %>%
   filter(
-    !(`Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" &
+    `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada",
+    Year == "2023 Q1",
+    Geography == "Canada",
+    Gender == "Total",
+    `Age group` %in% total_disags |
+      `Immigrant status` %in% total_disags |
+      `Visible minority` %in% total_disags |
+      `Indigenous identity` %in% total_disags |
+      `Disability` %in% total_disags |
+      `LGBTQ2+` %in% total_disags |
+      `Highest level of education` %in% total_disags |
+      `Main activity` %in% total_disags |
+      `Area` %in% total_disags
+  ) %>% 
+  mutate_at(2:(ncol(.) - 1), ~ "") %>%
+  distinct() %>%
+  mutate(
+    `Discrimination indicators` = "Did not experience discrimination or unfair treatment in Canada",
+    Series = "Proportion of population reporting to have experienced discrimination or unfair treatment",
+    Geography = "Canada",
+    Gender = "Total"
+  ) %>%
+  relocate(Series, .before = "Geography")
+
+main_series_non_total <-
+  bind_rows(Q1_2023, combined) %>%
+  filter(
+    !( (`Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" |
+          `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada") &
     Geography == "Canada" &
     Gender == "Total" &
     (`Age group` %in% total_disags |
