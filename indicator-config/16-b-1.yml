@@ -41,6 +41,12 @@ data_start_values:
   - series: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
     field: Discrimination indicators
     value: Discrimination by or among friends or family
+  - series: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
+    field: Discrimination indicators
+    value: Discrimination while using public transit
+  - series: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
+    field: Discrimination indicators
+    value: Discrimination in any other situation
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
