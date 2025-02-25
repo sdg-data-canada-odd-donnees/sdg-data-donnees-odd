@@ -13,11 +13,11 @@ SDG_INDICATOR:
   "<p>Indicateur 4.b.1 : Volume de l’aide publique au développement consacrée
   aux bourses d’études, par secteur et type de formation</p>"
 STAT_CONC_DEF:
-  <p>Décaissements bruts de l'APD totale de tous les donateurs pour les
-  bourses d'études.</p>
+  <p>Décaissements bruts du total de l’Aide publique au développement (APD) reçue de tous les donateurs pour les bourses d’études.</p>
 DATA_COMP: |
-  Les données étaient disponibles pour rapporter cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source. <br><br>
-  Les données proviennent du Système de notification des pays créanciers (flux) de l'OCDE. Sélectionnez Donneur = "Canada", Receveur = "Pays en développement", Sector = "Éducation", Mesure = "Aide publique au développement", Channel = "Tous channels", Modalité = "Bourses et autres frais d’étude dans les pays donneurs", Type de flux = "Versements", and Type de prix = "Prix constants".'
+  Les données étaient disponibles pour rapporter cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source. 
+  <br><br>
+  Les données proviennent du système de notification des pays créanciers (flux) de l’Organisation de coopération et de développement économiques (OCDE). Sélectionnez Donneur = « Canada », Receveur = « Pays en développement », Secteur = « Enseignement », Mesure = « Aide publique au développement », Canal = « Tous les canaux », Modalité = « Bourses d’études et droits des étudiants dans les pays donateurs », Type de flux = « Versements », et Type de prix = « Prix constants ».
 REC_USE_LIM: "   "
 SDG_GOAL__GLOBAL:
   "<p>Objectif 4 : Assurer l'accès de tous à une éducation de qualité,
