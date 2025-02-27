@@ -381,10 +381,10 @@ Proportion of population with primary reliance on clean fuels and technology: Pr
 Access to basic mobility: Accès à la mobilité de base
 Proportion of the rural population who live within 2 km of an all-season road: Proportion de la population rurale vivant à moins de 2 km d’une route praticable toute l’année
 Proportion of population within 500 metres of a public transit stop: Proportion de la population située dans un rayon de 500 mètres d’un arrêt de transport en commun
-Proportion of children in Grade 4 achieving at least a minimum proficiency level in mathematics: Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques
-Proportion of children in Grade 4 achieving at least a minimum proficiency level in reading: Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture
-Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture
-Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en mathématiques
+Proportion of children in Grade 4 achieving at least a minimum proficiency level in mathematics: Proportion d’enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques
+Proportion of children in Grade 4 achieving at least a minimum proficiency level in reading: Proportion d’enfants de 4e année atteignant au moins un niveau minimum de compétence en lecture
+Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimum de compétence en lecture
+Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimum de compétence en mathématiques
 Access to basic information services: Accès aux services d’information de base
 Proportion of population covered by Evolved High-Speed Packet Access (HSPA+): Proportion de la population couverte par l’accès haute vitesse évolué par paquets (HSPA+)
 Proportion of population covered by Long-Term Evolution (LTE): Proportion de la population couverte par l’évolution à long terme (LTE)
@@ -970,11 +970,11 @@ First Nations (North American Indian): Première Nation (Indien de l'Amérique d
 Métis: Métis
 Inuk (Inuit): Inuk (Inuit)
 Non-Aboriginal identity: Identité non autochtone
-Children in Grade 4 achieving at least a minimum proficiency level in mathematics: Enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques
-Children in Grade 4 achieving at least a minimum proficiency level in reading: Enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture
-Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture
+Children in Grade 4 achieving at least a minimum proficiency level in mathematics: Enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques
+Children in Grade 4 achieving at least a minimum proficiency level in reading: Enfants de 4e année atteignant au moins un niveau minimum de compétence en lecture
+Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimum de compétence en lecture
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimum de compétence en mathématiques
-Proportion of children achieving at least a minimum proficiency level: Proportion d’enfants atteignant au moins un niveau minimal de compétence
+Proportion of children achieving at least a minimum proficiency level: Proportion d’enfants atteignant au moins un niveau minimum de compétence
 
 ## 4-1-2
 Educational attainment level: Educational attainment level
@@ -1051,6 +1051,50 @@ Location Parity Index: Indice de parité entre milieu urbain et rural (IPM)
 Parental Education Attainment Parity Index: Indice de parité du niveau de formation des parents
 Participation rate in organized learning: Taux de participation à l’apprentissage organisé
 Postsecondary participation rate of young adults aged 18 to 24: Taux de participation aux études postsecondaires des jeunes adultes âgés de 18 à 24 ans
+Completion rate: Taux d'achèvement
+Educational attainment rate: Taux de scolarité
+Proficiency in knowledge of environmental science and geoscience: Compétence en matière de sciences de l’environnement et de géosciences
+Proficiency in knowledge of environmental science and geoscience - Cognitive dimension: Compétence en matière de sciences de l’environnement et de géosciences - Dimension cognitive
+Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Confidence: Compétence en matière de sciences de l’environnement et de géosciences - Dimension non cognitive - Confiance
+Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Enjoyment: Compétence en matière de sciences de l’environnement et de géosciences - Dimension non cognitive - Plaisir
+Percentage of students in early grades who have their first or home language as language of instruction: Pourcentage d'élèves au début de leur scolarité dont la langue d'enseignement est la première langue ou la langue parlée à la maison
+Percentage of students at the end of lower secondary education who have their first or home language as language of instruction: Pourcentage d'élèves à la fin du premier cycle de l'enseignement secondaire dont la langue d'enseignement est la première langue ou la langue parlée à la maison
+Gross enrolment ratio for tertiary education: Taux brut de scolarisation pour l'enseignement tertiaire
+Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in mathematics: Proportion d'élèves à la fin du premier cycle de l'enseignement secondaire atteignant au moins un niveau minimum de compétence en mathématiques
+Proportion of students at the end of primary education achieving at least a minimum proficiency level in mathematics: Proportion d'élèves à la fin de l'enseignement primaire atteignant au moins un niveau minimum de compétence en mathématiques
+Proportion of children/young people at the age of primary education prepared for the future in mathematics: Proportion d'enfants/de jeunes à l'âge de l'enseignement primaire préparés pour l'avenir en mathématiques
+Proportion of children/young people at the age of lower secondary education prepared for the future in mathematics: Proportion d'enfants/de jeunes à l'âge du premier cycle de l'enseignement secondaire préparés pour l'avenir en mathématiques
+Proportion of children/young people at the age of lower secondary education prepared for the future in reading: Proportion d'enfants/de jeunes à l'âge du premier cycle de l'enseignement secondaire préparés pour l'avenir en lecture
+Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months: Taux de participation des jeunes et des adultes à l'éducation et à la formation formelles et non formelles au cours des 12 derniers mois
+Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in reading: Proportion d'élèves à la fin du premier cycle de l'enseignement secondaire atteignant au moins un niveau minimum de compétence en lecture
+Out-of-school rate for children, adolescents and youth of primary, lower secondary and upper secondary school age: Taux de non-scolarisation des enfants, des adolescents et des jeunes en âge de fréquenter l'école primaire, le premier cycle de l'enseignement secondaire et le deuxième cycle de l'enseignement secondaire
+Out-of-school rate for adolescents and youth of lower and upper secondary school age: Taux de non-scolarisation des adolescents et des jeunes en âge de fréquenter le premier et le deuxième cycle de l'enseignement secondaire
+Out-of-school rate for youth of upper secondary school age: Taux de non-scolarisation des jeunes en âge de fréquenter l'école secondaire supérieure
+Upper secondary education: Enseignement secondaire supérieur
+Lower secondary education: Enseignement secondaire inférieur
+Primary education: Enseignement primaire
+At least some primary (ISCED 1): Au moins une partie de l'enseignement primaire (CITE 1)
+Completed lower secondary education or higher: Avoir terminé le premier cycle de l'enseignement secondaire ou supérieur
+Completed upper secondary education or higher: Avoir terminé le deuxième cycle de l'enseignement secondaire ou supérieur
+Completed post-secondary non-tertiary education or higher: Avoir terminé des études post-secondaires non tertiaires ou supérieures
+Completed short-cycle tertiary education or higher: Avoir terminé des études tertiaires de cycle court ou supérieures
+Completed Bachelor's or equivalent education or higher: Avoir terminé un baccalauréat ou une formation équivalente ou supérieure
+Completed Master's or equivalent education or higher: Avoir terminé une maîtrise ou une formation équivalente ou supérieure
+Completed Doctoral or equivalent education: Avoir terminé un doctorat ou une formation équivalente
+15-24 years old: 15-24 ans
+15-64 years old: 15-64 ans
+25-54 years old: 25-54 ans
+55-64 years old: 55-64 ans
+Proportion of children/young people at the age of primary education prepared for the future in reading: Proportion d'enfants/de jeunes à l'âge de l'enseignement primaire préparés pour l'avenir en lecture
+Proportion of students at the end of primary education achieving at least a minimum proficiency level in reading: Proportion d'élèves à la fin de l'enseignement primaire atteignant au moins un niveau minimum de compétence en lecture
+Out-of-school rate for children of primary school age: Taux de non-scolarisation des enfants en âge de fréquenter l'école primaire
+Out-of-school rate for children and adolescents of primary and lower secondary school age: Taux de non-scolarisation des enfants et des adolescents en âge de fréquenter l'école primaire et le premier cycle du secondaire
+Adjusted net enrolment rate, one year before the official primary entry age: Taux net d'inscription ajusté, un an avant l'âge officiel d'entrée à l'école primaire
+Out-of-school rate for children one year before the official age: Taux de non-scolarisation des enfants un an avant l'âge officiel
+Proportion of 15-24 year-olds enrolled in vocational education: Proportion des jeunes de 15 à 24 ans inscrits à l'enseignement professionnel
+Wealth Parity Index: Indice de parité de richesse
+Speaks Language of the Test Parity Index: Indice de parité de la langue parlée lors du test
+Native Parity Index: Indice de parité natif
 
 ##4-6-1
 Educational subject: Matière éducative
@@ -1224,9 +1268,9 @@ Seasonal transition, seasonal: Transition saisonnière, saisonnière
 Seasonal transition, new seasonal: Transition saisonnière, nouvelle saison
 Seasonal transition, seasonal to permanent: Transition saisonnière, saisonnière à permanente
 Reservoirs, maximum water extent dynamics: Réservoirs, dynamique de l’étendue maximale de l’eau
-Reservoirs, minimum water extent dynamics: Réservoirs, dynamique de l’étendue minimale de l’eau
+Reservoirs, minimum water extent dynamics: Réservoirs, dynamique de l’étendue minimume de l’eau
 Reservoirs, maximum water extent: Réservoirs, étendue maximale de l’eau
-Reservoirs, minimum water extent: Réservoirs, étendue minimale d’eau
+Reservoirs, minimum water extent: Réservoirs, étendue minimume d’eau
 Lake water quality, low turbidity: Qualité de l’eau du lac, faible turbidité
 Lake water quality, medium turbidity: Qualité de l’eau du lac, turbidité moyenne
 Lake water quality, high turbidity: Qualité de l’eau du lac, turbidité élevée
