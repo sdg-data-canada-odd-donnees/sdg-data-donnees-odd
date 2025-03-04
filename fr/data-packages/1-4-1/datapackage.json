@@ -78,10 +78,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques",
-                "Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture",
-                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture",
-                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en mathématiques",
+                "Proportion d’enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques",
+                "Proportion d’enfants de 4e année atteignant au moins un niveau minimum de compétence en lecture",
+                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimum de compétence en lecture",
+                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimum de compétence en mathématiques",
                 ""
               ]
             },

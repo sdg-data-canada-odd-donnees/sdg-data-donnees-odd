@@ -20,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques",
-                "Enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture",
-                "Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture",
+                "Enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques",
+                "Enfants de 4e année atteignant au moins un niveau minimum de compétence en lecture",
+                "Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimum de compétence en lecture",
                 "Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimum de compétence en mathématiques",
                 ""
               ]
