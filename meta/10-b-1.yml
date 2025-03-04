@@ -6,10 +6,12 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   Indicator 10.b.1: Total resource flows for development, by recipient and donor countries and type of flow (e.g., official development assistance, foreign direct investment and other flows)
 STAT_CONC_DEF: >-
-  <strong>Definition:</strong><br>
+  <strong>Definition:</strong>
+  <br><br>
   Total resource flows for development, by recipient and donor countries and type of flow comprises of Official Development Assistance (ODA), other official flows (OOF) and private flows.
   <br><br>
-  <strong>Concepts:</strong><br>
+  <strong>Concepts:</strong>
+  <br><br>
   Official and private flows, both concessional and non-concessional to developing countries. For official flows the major distinction is between official development assistance (ODA) and other official flows (OOF), while private flows are broken down into flows at market terms and charitable grants. Flows include contributions to multilateral development agencies, which are themselves official bodies.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
