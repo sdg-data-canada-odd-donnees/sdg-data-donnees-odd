@@ -7,7 +7,11 @@ SDG_TARGET: '<p>Target 2.2: by 2030 end all forms of malnutrition, including ach
 SDG_INDICATOR: '<p>Indicator 2.2.2: Prevalence of malnutrition (weight for height
   &gt;+2 or &lt;-2 standard deviation from the median of the WHO Child Growth Standards)
   among children under 5 years of age, by type (wasting and overweight)</p>'
-STAT_CONC_DEF: <p>Prevalence of wasting (weight for height &lt;-2 standard deviation
+STAT_CONC_DEF: |
+  <p>Prevalence of wasting (weight for height &lt;-2 standard deviation
+  from the median of the World Health Organization (WHO) Child Growth Standards) among
+  children under 5 years of age.</p>
+  <p>Prevalence of overweight (weight for height &gt;+2 standard deviation
   from the median of the World Health Organization (WHO) Child Growth Standards) among
   children under 5 years of age.</p>
 DATA_COMP: '   '

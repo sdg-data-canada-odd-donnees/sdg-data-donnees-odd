@@ -6,22 +6,22 @@ SDG_TARGET: |-
 SDG_INDICATOR: |-
   Indicateur 1.a.1 : Total des dons d’aide publique au développement (APD) axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion du revenu national brut du pays bénéficiaire
 STAT_CONC_DEF: |-
-  <p>Le Comité d'aide au développement (CAD) de l'OCDE définit l'APD comme « les flux vers les pays et territoires figurant sur la liste du CAD des bénéficiaires de l'APD et institutions multilatérales qui sont i) fournis par des organismes officiels, y compris les gouvernements des États et les collectivités locales, ou par leurs agences exécutives ; et ii) chaque transaction est administrée avec pour objectif principal la promotion du développement économique et du bien-être des pays en développement ; et elle est de nature concessionnelle et comporte un élément de don d'au moins 25 pour cent (calculé à un taux d'actualisation de 10 pour cent) ». (Voir <a href="https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>).</p>
-  <p>Les éléments de réduction de la pauvreté peuvent être définis comme l'APD aux services sociaux de base (santé de base, éducation de base, eau et assainissement de base, programmes de population et santé reproductive) et l'aide alimentaire dévelopmentale.</p>
-  <p>Les services sociaux de base et l'aide alimentaire dévelopmentale, qui sont axés sur la réduction de la pauvreté, sont définis à l'aide des codes d'objectif suivants du Système de notification des pays créanciers de l'OCDE, qui identifient le secteur que l'activité est censée cibler :</p>
+  <p>Le Comité d’aide au développement (CAD) de l’Organisation de coopération et de développement économiques (OCDE) définit l’APD comme « les flux vers les pays et les territoires figurant sur la liste du CAD des bénéficiaires de l’APD et vers les institutions multilatérales qui sont : i) fournis par des organismes officiels, y compris les gouvernements au niveau des États et les administrations locales, ou par leurs organismes de direction; ii) chaque transaction est administrée et a comme objectif principal la promotion du développement économique et du bien-être des pays en développement; elle est assortie de conditions favorables et comporte un élément de libéralité au moins égal à 25 % (calculé à un taux d’actualisation de 10 %) ». (Voir <a href="https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>).</p>
+  <p>Les éléments de réduction de la pauvreté peuvent être définis comme l’APD aux services sociaux de base (santé de base, éducation de base, distribution d’eau et assainissement, aide plurisectorielle pour les services sociaux de base) et aide alimentaire développementale.</p>
+  <p>Les services sociaux de base et l’aide alimentaire développementale, qui sont axés sur la réduction de la pauvreté, sont définis à l’aide des codes d’objectif suivants du système de notification des pays créanciers de l’OCDE, qui désignent le secteur normalement visé par l’activité :</p>
   <ul>
-  <li>Éducation de base (codes SNPC 112xx)</li>
+  <li>Éducation de base (codes du système de notification des pays créanciers [SNPC] 112xx)</li>
   <li>Santé de base (codes SNPC 122xx)</li>
   <li>Distribution d'eau et assainissement (codes SNPC 140xx)</li>
   <li>Aide plurisectorielle pour les services sociaux de base (code SNPC 16050)</li>
   <li>Aide alimentaire dévelopmentale (codes SNPC 520xx)</li>
   </ul>
 DATA_COMP: |-
-  Le total des dons d'aide publique au développement axés sur la réduction de la pauvreté est calculé en proportion du revenu national brut (RNB) du Canada, conformément aux rapports des autres pays.
+  Le total des dons d’Aide publique au développement axés sur la réduction de la pauvreté est calculé en proportion du revenu national brut (RNB) du Canada, conformément aux rapports des autres pays.
   <br><br>
-  100 × (Éducation de base + Santé de base + Distribution d'eau et assainissement + Aide plurisectorielle pour les services sociaux de base + Aide alimentaire dévelopmentale) / RNB
+  100 × (éducation de base + santé de base + distribution d’eau et assainissement + aide plurisectorielle pour les services sociaux de base + aide alimentaire développementale) / RNB
 REC_USE_LIM: |-
-  Le Canada étant un pay donateur, cet indicateur se réfère au total des dons d'aide publique au développement provenant du Canada axés sur la réduction de la pauvreté, exprimé en proportion du revenu national brut du Canada.
+  Le Canada étant un pays donateur, cet indicateur se réfère au total des dons d'aide publique au développement provenant du Canada axés sur la réduction de la pauvreté, exprimé en proportion du revenu national brut du Canada.
 
 # Global
 SDG_GOAL__GLOBAL: |-

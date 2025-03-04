@@ -10,25 +10,27 @@ SDG_TARGET:
 SDG_INDICATOR: "Indicateur 2.a.2 : Total des apports publics (aide publique au
   développement plus autre apports publics) alloués au secteur agricole."
 STAT_CONC_DEF: >
-  <strong>Définition : </strong><br>
-  Décaissements bruts du total de l'aide publique au développement (APD) et des autres apports du secteur public du Canada vers le secteur agricole.
+  <strong>Définition :</strong>
   <br><br>
-  <strong>Concepts : </strong><br>
-  APD : Le Comité d'aide au développement (CAD) définit l'APD comme « les flux vers les pays et territoires figurant sur la liste du CAD des bénéficiaires de l'APD et vers les institutions multilatérales, qui sont
+  Décaissements bruts du total de l’Aide publique au développement (APD) et des autres apports du secteur public du Canada vers le secteur agricole.
   <br><br>
-  i) fournis par des agences officielles, y compris les gouvernements des États et des collectivités locales, ou par leurs agences exécutives; et
+  <strong>Concepts :</strong>
   <br><br>
-  ii) chaque transaction est administrée avec pour principal objectif la promotion du développement économique et du bien-être des pays en développement; et
+  APD : Le Comité d’aide au développement (CAD) définit l’APD comme « les flux vers les pays et territoires figurant sur la liste du CAD à titre de bénéficiaires de l’APD et vers les institutions multilatérales », qui sont :
   <br><br>
-  iii) est de nature concessionnelle et comporte un élément de subvention d'au moins 25 % (calculé à un taux d'actualisation de 10 %) ». (Consulter http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/aidepubliqueaudeveloppementdefinitionetchampcouvert.htm).
+  i) fournis par des organismes officiels, y compris les gouvernements des États et des collectivités locales, ou par leurs organismes de direction;
   <br><br>
-  Autres apports du secteur public : Les autres apports du secteur public (à l'exclusion des crédits à l'exportation bénéficiant d'un soutien public) sont définis comme des transactions du secteur public qui ne remplissent pas les conditions d'éligibilité à l'APD, soit parce qu'elles ne visent pas principalement le développement, soit parce qu'elles ne sont pas suffisamment concessionnelles.
+  ii) chaque opération est administrée avec, pour principal objectif, la promotion du développement économique et de l’amélioration des conditions de vie dans les pays en développement; 
+  <br><br>
+  iii) ) est de nature préférentielle et comporte un élément de subvention d’au moins 25 % (calculé à un taux d’actualisation de 10 %) ». (Consulter le http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/aidepubliqueaudeveloppementdefinitionetchampcouvert.htm).
+  <br><br>
+  Autres apports du secteur public : Les autres apports du secteur public (à l’exclusion des crédits à l’exportation bénéficiant d’un soutien public) sont définis comme des opérations du secteur public qui ne remplissent pas les conditions d’admissibilité à l’APD, soit parce qu’elles ne visent pas principalement le développement, soit parce qu’elles ne sont pas suffisamment préférentielles.
   <br><br>
   (Consulter http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf (en anglais), paragraphe 24)
   <br><br>
-  Le secteur de l'agriculture est tel que défini par le CAD et comprend tous les codes sectoriels des système de notification des pays créanciers de la série 311 (consulter le lien : http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/codes-objetclassificationsectorielle.htm).
+  Le secteur de l’agriculture repose sur la définition du CAD et comprend tous les codes sectoriels du système de notification des pays créanciers de la série 311 (consulter le lien : http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/codes-objetclassificationsectorielle.htm).
 DATA_COMP: >
-  Les données étaient disponibles pour rapporter cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
+  Les données étaient disponibles pour donner des précisions à propos de cet indicateur comme précisé dans les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
   <br><br>
   Les données proviennent du Système de notification des pays créanciers de l'OCDE. Sélectionnez Donneur = « Canada », Receveur = « Pays en développement », Secteur = « Agriculture », Mesure = « Aide publique au développement » et « AASP (autre que crédits à l'exportation) », Type de flux = « Versements », et Type de prix = « Prix constants ».
 REC_USE_LIM: "   "

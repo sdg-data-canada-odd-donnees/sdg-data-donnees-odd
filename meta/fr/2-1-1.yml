@@ -6,14 +6,14 @@ SDG_TARGET: |-
 SDG_INDICATOR: |-
   Indicateur 2.1.1 : Prévalence de la sous-alimentation
 STAT_CONC_DEF: |-
-  La prévalence de la sous-alimentation est une estimation de la proportion de la population dont la consommation alimentaire habituelle est insuffisante pour fournir les niveaux d'énergie nécessaires au maintien d'une vie normale, active et saine. Elle est exprimée en pourcentage.
+  La prévalence de la sous-alimentation est une estimation de la proportion de la population dont la consommation alimentaire habituelle est insuffisante pour fournir les niveaux d’énergie nécessaires au maintien d’une vie normale, active et saine. Elle est exprimée en pourcentage.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
-  Pour chaque année, l'observation représente la moyenne triennale de l'année précédente, l'année de référence et l'année suivante. Par exemple, l'observation de 2015 représente la moyenne triennale de la période 2014-2016.
+  Pour chaque année, l’observation représente la moyenne triennale de l’année précédente, l’année de référence et l’année suivante. Par exemple, l’observation de 2015 représente la moyenne triennale de la période de 2014 à 2016.
   <br><br>
-  Commençant en 2019, les estimations sont basées sur des valeurs projetées.
+  À partir de 2019, les estimations reposent sur des valeurs projetées.
   <br><br>
-  La FAO signale toutes les valeurs inférieures à 2,5 % comme étant « < 2,5 » en raison de la précision limitée de cette estimation.
+  Les données devraient indiquer « < 2,5 ». Cependant, en raison des limitations, les symboles particuliers sont omis.
 
 # Global
 SDG_GOAL__GLOBAL: |-

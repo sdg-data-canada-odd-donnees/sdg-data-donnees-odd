@@ -6,10 +6,12 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   Indicateur 10.b.1 : Montant total des ressources allouées au développement, par pays bénéficiaire et donateur et type d’apport (aide publique au développement, investissement étranger direct et autres).
 STAT_CONC_DEF: >-
-  <strong>Définition :</strong><br>
+  <strong>Définition :</strong>
+  <br><br>
   Le total de l’apport de ressources pour le développement, par pays bénéficiaire et donateur et par type d’apport, comprend l’Aide publique au développement (APD), les autres apports du secteur public (AASP) et les flux privés.
   <br><br>
-  <strong>Concepts :</strong><br>
+  <strong>Concepts :</strong>
+  <br><br>
   Les apports du secteur public et du secteur privé, préférentiels et non préférentiels, en faveur des pays en développement. Pour les apports du secteur public, la principale distinction se fait entre l’APD et les autres apports du secteur public, tandis que les apports du secteur privé sont décomposés en flux aux conditions du marché et en subventions caritatives. Les apports comprennent les contributions aux organismes multilatéraux de développement, qui sont eux-mêmes des organismes officiels.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
