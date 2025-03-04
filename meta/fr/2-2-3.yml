@@ -9,7 +9,7 @@ SDG_TARGET: 'Cible 2.2 : D’ici 2030, mettre fin à toutes les formes de malnut
 SDG_INDICATOR: 'Indicateur 2.2.3 : Prévalence de l’anémie chez les femmes âgées
   de 15 à 49 ans, selon l’état de grossesse (pourcentage)'
 STAT_CONC_DEF: |
-    L'anémie est définie comme la prévalence des concentrations d'hémoglobine inférieures à 110 g / L pour les femmes enceintes et 120 g / L pour les femmes non enceintes.
+    L’anémie est définie comme la prévalence des concentrations d’hémoglobine inférieures à 110 g/L pour les femmes enceintes et à 120 g/L pour les femmes non enceintes.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '    '
 
