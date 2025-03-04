@@ -9,9 +9,9 @@ SDG_INDICATOR: '<p>Indicateur 2.2.2 : Prévalence de la malnutrition (indice poi
   supérieur à +2 écarts types ou inférieur à -2 écarts types par rapport à la médiane
   des normes de croissance de l''enfant définies par l''OMS chez les enfants de moins
   de 5 ans, par forme (surpoids et émaciation)</p>'
-STAT_CONC_DEF: <p>Prévalence de l'émaciation (poids pour la taille inférieur à -2
-  écart-type par rapport à la médiane des normes de croissance de l'enfant de l'Organisation
-  mondiale de la santé (OMS)) chez les enfants de moins de 5 ans.</p>
+STAT_CONC_DEF: |
+  <p>Prévalence de l’émaciation (indice poids / taille inférieur à -2 écart-type par rapport à la médiane des normes de croissance de l’enfant de l’Organisation mondiale de la Santé [OMS]) chez les enfants de moins de 5 ans.</p>
+  <p>Prévalence du surpoids (indice poids / taille supérieur à +2 écart-type par rapport à la médiane des normes de croissance de l’enfant de l’Organisation mondiale de la Santé [OMS]) chez les enfants de moins de 5 ans.</p>
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
