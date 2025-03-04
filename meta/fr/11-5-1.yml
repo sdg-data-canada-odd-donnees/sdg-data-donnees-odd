@@ -6,27 +6,27 @@ SDG_INDICATOR: >-
   Indicateur 11.5.1 : Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, par 100 000 personnes
 STAT_CONC_DEF: >-
   <p><strong>Définition :</strong><br>
-  Cet indicateur mesure le nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, par 100 000 personnes.</p>
+  Cet indicateur mesure le nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, par 100 000 habitants.</p>
   <p><strong>Concepts :</strong><br>
-  Décédées : nombre de personnes décédées pendant la catastrophe, ou immédiatement après, en conséquence directe de l'événement dangereux. 
+  Décédées : nombre de personnes décédées pendant la catastrophe, ou immédiatement après, en conséquence directe de l’événement dangereux. 
   <br><br>
-  Disparues : nombre de personnes dont on ne sait pas où elles se trouvent depuis l'événement dangereux. Cela inclut les personnes présumées mortes, pour lesquelles il n’existe aucune preuve physique telle qu’un corps, et pour lesquelles un rapport officiel/légal a été déposé auprès des autorités compétentes.
+  Disparues : nombre de personnes dont on a perdu la trace depuis l’événement dangereux. Cela inclut les personnes présumées mortes, pour lesquelles il n’existe aucune preuve physique telle qu’un corps, et pour lesquelles un rapport officiel ou juridique a été déposé auprès des autorités compétentes.
   <br><br>
-  Directement touchées : le nombre de personnes ayant subi une blessure, une maladie ou d'autres problèmes de santé ; qui ont été évacuées, déplacées, relocalisées ou qui ont subi des dommages directs à leurs moyens de subsistance et à leurs biens économiques, physiques, sociaux, culturels et environnementaux. Sont indirectement touchées les personnes qui ont subi des conséquences, autres ou en plus des effets directs, au fil du temps, en raison de perturbations ou de changements dans l'économie, les infrastructures critiques, les services de base, le commerce ou le travail, ou de conséquences sociales, sanitaires et psychologiques.</p>
-  <p>La Base de données canadienne sur les catastrophes (BDC) permet de trouver les « catastrophes importantes » qui correspondent à la définition utilisée dans le document <a href="https://www.securitepublique.gc.ca/cnt/rsrcs/pblctns/2017-mrgnc-mngmnt-frmwrk/index-fr.aspx">Un cadre de sécurité civile pour le Canada</a> et satisfont à l'un ou à plusieurs des critères suivants :</p>
+  Directement touchées : le nombre de personnes ayant subi une blessure, une maladie ou d’autres problèmes de santé; qui ont été évacuées, déplacées, relocalisées ou qui ont subi des dommages directs causés à leurs moyens de subsistance et à leurs biens économiques, physiques, sociaux, culturels et environnementaux. Sont indirectement touchées les personnes qui ont subi des conséquences, autres ou en plus des effets directs, au fil du temps, en raison de perturbations ou de changements dans l’économie, les infrastructures essentielles, les services de base, le commerce ou le travail, ou des conséquences sociales, sanitaires et psychologiques.</p>
+  <p>La Base de données canadienne sur les catastrophes permet de suivre les catastrophes naturelles importantes qui correspondent à la définition utilisée dans le document <a href="https://www.securitepublique.gc.ca/cnt/rsrcs/pblctns/2017-mrgnc-mngmnt-frmwrk/index-fr.aspx">Un cadre de sécurité civile pour le Canada</a> et satisfont à l’un ou à plusieurs des critères suivants :</p>
   <ul>
-  <li>dix personnes ou plus ont été tuées ;</li>
-  <li>cent personnes ou plus ont été touchées, blessées, infectées, évacuées ou se sont trouvées sans logement ;</li>
-  <li>une demande d'aide a été effectuée à l'échelle nationale ou internationale ;</li>
-  <li>la catastrophe revêt une importance historique ;</li>
-  <li>les dommages ou l'interruption des processus normaux étaient tels que la collectivité touchée n'a pu se rétablir seule. (Sécurité publique Canada)</li>
+  <li>10 personnes ou plus ont été tuées;</li>
+  <li>100 personnes ou plus ont été touchées, blessées, infectées, évacuées ou se sont trouvées sans logement;</li>
+  <li>une demande d’aide a été effectuée à l’échelle nationale ou internationale;</li>
+  <li>la catastrophe revêt une importance historique;</li>
+  <li>les dommages ou l’interruption des processus normaux étaient tels que la collectivité touchée n’a pu se rétablir seule. (Sécurité publique Canada)</li>
   </ul>
 DATA_COMP: >-
-  Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes) / Population) x 100,000 = Taux par 100,000 habitants
+  Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes / Population x 100,000 = Taux pour 100 000 habitants
 REC_USE_LIM: >-
-  Il est important de noter que la BDC pourrait ne pas convenir aux analyses comparatives en raison des écarts de responsabilités entre les différentes administrations, du type de données disponibles et des façons de les recueillir et les utiliser au fil du temps. 
+  Il est important de noter que la que la Base de données canadienne sur les catastrophes pourrait ne pas convenir aux analyses comparatives en raison des écarts de responsabilités entre les différentes administrations, du type de données disponibles et des façons de les recueillir et de les utiliser au fil du temps. 
   <br><br>
-  Les renseignements présentés dans la Banque de données canadienne sur les catastrophes sont fondés sur des données fournies par des tiers et pourraient ne pas être exacts. (Sécurité publique Canada)
+  Les renseignements présentés dans la Base de données canadienne sur les catastrophes reposent sur des données fournies par des tiers et pourraient ne pas être exacts. Ces données doivent donc être interprétées avec prudence. (Sécurité publique Canada)
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 11 : Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables</p>'
