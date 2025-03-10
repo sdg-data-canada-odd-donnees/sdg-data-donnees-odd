@@ -16,8 +16,6 @@ STAT_CONC_DEF: >-
   </ol>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
-  This is a proxy indicator. The UN Global indicator states: "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)".
-  <br><br>
   The survey is conducted nationwide, in both the provinces and the territories. It covers all individuals in Canada, excluding persons living on reserves and other Indigenous settlements in the provinces, the institutionalized population, and households in extremely remote areas with very low population density. Overall, these exclusions amount to less than two per cent of the population. 
 
 ## GLOBAL METADATA
@@ -71,5 +69,3 @@ source_url_text_5: 'Canadian Income Survey: Territorial estimates, 2022'
 source_url_5: https://www150.statcan.gc.ca/n1/daily-quotidien/240619/dq240619d-eng.htm
 source_organisation_5: Statistics Canada
 source_geographical_coverage_5: Territories
-
-proxy: proxy

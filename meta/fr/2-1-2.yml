@@ -16,8 +16,6 @@ STAT_CONC_DEF: >-
   </ol>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
-  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : « Prévalence d’une insécurité alimentaire modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle FIES) ».
-  <br><br>
   L'enquête est menée dans l'ensemble du pays, tant dans les provinces que dans les territoires. Exclus du champ de l'enquête sont les personnes qui vivent dans les réserves et dans d'autres peuplements autochtones des provinces, les pensionnaires d'établissements institutionnels et les ménages situés dans des régions extrêmement éloignées où la densité de population est très faible. Dans l'ensemble, ces exclusions représentent moins de deux pour cent de la population.
  
 
@@ -72,5 +70,3 @@ un_designated_tier: Niveau II
 un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
-proxy: proxy

@@ -10,7 +10,7 @@ SDG_INDICATOR: 'Indicator 2.2.3: Prevalence of anaemia in women aged 15-49 years
 STAT_CONC_DEF: |
     Anaemia is defined as the prevalence of haemoglobin concentrations below 110 g/L for pregnant women and 120 g/L for non-pregnant women.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: '    '
+REC_USE_LIM: This indicator uses modelled data sourced from the World Health Organization.
  
 # GLOBAL
 SDG_GOAL__GLOBAL: 'Goal 2: End hunger, achieve food security and improved nutrition
