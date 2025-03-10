@@ -20,11 +20,11 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Beurre",
                 "Lait écrémé en poudre",
                 "Fromage",
                 "Autres produits laitiers",
                 "Produits incorporés",
-                "Beurre",
                 ""
               ]
             },

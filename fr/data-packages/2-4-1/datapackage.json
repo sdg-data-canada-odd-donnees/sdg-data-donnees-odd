@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Valeur de la production agricole par hectare",
-                "Mécanismes d'atténuation des risques",
+                "Score de statut actuel",
+                "Score de tendance",
                 ""
               ]
             },
@@ -32,7 +32,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage (%)",
+                "Score",
                 ""
               ]
             },

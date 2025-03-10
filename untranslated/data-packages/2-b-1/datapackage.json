@@ -19,11 +19,11 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Butter",
                 "Skim Milk Powder",
                 "Cheese",
                 "Other Milk Products",
                 "Incorporated Products",
-                "Butter",
                 ""
               ]
             }

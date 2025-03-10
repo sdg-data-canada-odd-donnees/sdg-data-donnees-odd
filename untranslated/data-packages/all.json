@@ -1299,8 +1299,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Farm output value per hectare",
-                "Risk mitigation mechanisms",
+                "Current status score",
+                "Trend score",
                 ""
               ]
             }
@@ -1310,7 +1310,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage (%)",
+                "Score",
                 ""
               ]
             }
@@ -7031,11 +7031,11 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Butter",
                 "Skim Milk Powder",
                 "Cheese",
                 "Other Milk Products",
                 "Incorporated Products",
-                "Butter",
                 ""
               ]
             }
