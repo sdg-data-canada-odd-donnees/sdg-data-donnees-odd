@@ -182,13 +182,13 @@ food_insecurity <- bind_rows(filter_economic_families,
     Year,
     `Household food security status`,
     Geography,
-    `Economic family type`,
     `Sex`,
     `Age group`,
+    `Economic family type`,
     `Visible minority`,
     `Indigenous population`,
     # `Population aged 15 years and over`,
-      Value
+    Value
   ) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
