@@ -3,6 +3,7 @@ SDG_GOAL: 'Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, am
 SDG_TARGET: "Cible 2.4 : D'ici à 2030, assurer la viabilité des systèmes de production alimentaire et mettre en œuvre des pratiques agricoles résilientes qui augmentent la productivité et la production, qui contribuent à préserver les écosystèmes, qui renforcent la capacité d'adaptation au changement climatique, aux conditions météorologiques extrêmes, à la sécheresse, aux inondations et à d'autres catastrophes, et qui améliorent progressivement la qualité des terres et des sols"
 SDG_INDICATOR: 'Indicateur 2.4.1 : Progrès vers une agriculture productive et durable'
 STAT_CONC_DEF: >
+  <p>
   Les données sur l'indicateur officiel ODD 2.4.1 sont actuellement rares, car les pays développent encore leur capacité à adapter leurs enquêtes agricoles pour collecter les informations nécessaires.
   Comme solution provisoire et palliative, la Commission de statistique des Nations Unies a approuvé l'utilisation d'un indicateur de substitution pour suivre les progrès vers une agriculture productive et durable, basé sur des statistiques nationales largement disponibles.
   <br><br>
@@ -17,9 +18,10 @@ STAT_CONC_DEF: >
   <li>Bande 4 (Score 3,5 à <4,5) : Légère amélioration vers une agriculture productive et durable</li>
   <li>Bande 5 (Score 4,5 à 5) : Amélioration vers une agriculture productive et durable</li>
   </ul>
+  </p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >
- Les données sont obtenues par une estimation utilisant la méthodologie officielle de substitution de l'ODD 2.4.1. Veuillez vous référer aux métadonnées pour plus d'informations.
+ Les données sont obtenues par une estimation utilisant la méthodologie officielle de substitution de l'ODD 2.4.1 provenant de l’Organisation pour l’alimentation et l’agriculture (FAO). Veuillez vous référer aux métadonnées pour plus d'informations.
 SDG_GOAL__GLOBAL: 'Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
   améliorer la nutrition et promouvoir l’agriculture durable'
 SDG_TARGET__GLOBAL: "Cible 2.4 : D'ici à 2030, assurer la viabilité des systèmes de production alimentaire et mettre en œuvre des pratiques agricoles résilientes qui augmentent la productivité et la production, qui contribuent à préserver les écosystèmes, qui renforcent la capacité d'adaptation au changement climatique, aux conditions météorologiques extrêmes, à la sécheresse, aux inondations et à d'autres catastrophes, et qui améliorent progressivement la qualité des terres et des sols"
