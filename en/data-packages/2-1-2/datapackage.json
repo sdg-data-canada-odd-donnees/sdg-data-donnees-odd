@@ -58,30 +58,6 @@
             "title": "Geography"
           },
           {
-            "name": "Economic family type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "All persons",
-                "Persons in economic families",
-                "Persons in elderly families",
-                "Persons in elderly couples",
-                "Persons in other elderly families",
-                "Persons in non-elderly families",
-                "Persons in couples",
-                "Persons in couple families with children",
-                "Persons in couple families with other relatives",
-                "Persons in lone-parent families",
-                "Persons in other non-elderly families",
-                "Persons not in an economic family",
-                "Elderly persons not in an economic family",
-                "Non-elderly persons not in an economic family",
-                ""
-              ]
-            },
-            "title": "Economic family type"
-          },
-          {
             "name": "Sex",
             "type": "string",
             "constraints": {
@@ -111,6 +87,30 @@
               ]
             },
             "title": "Age group"
+          },
+          {
+            "name": "Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All persons",
+                "Persons in economic families",
+                "Persons in elderly families",
+                "Persons in elderly couples",
+                "Persons in other elderly families",
+                "Persons in non-elderly families",
+                "Persons in couples",
+                "Persons in couple families with children",
+                "Persons in couple families with other relatives",
+                "Persons in lone-parent families",
+                "Persons in other non-elderly families",
+                "Persons not in an economic family",
+                "Elderly persons not in an economic family",
+                "Non-elderly persons not in an economic family",
+                ""
+              ]
+            },
+            "title": "Economic family type"
           },
           {
             "name": "Visible minority",
