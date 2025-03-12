@@ -11,7 +11,7 @@ SDG_INDICATOR: 'Indicateur 2.2.3 : Prévalence de l’anémie chez les femmes â
 STAT_CONC_DEF: |
     L’anémie est définie comme la prévalence des concentrations d’hémoglobine inférieures à 110 g/L pour les femmes enceintes et à 120 g/L pour les femmes non enceintes.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: Cet indicateur utilise des données modélisées provenant de l’Organisation mondiale de la Santé.
+REC_USE_LIM: Cet indicateur utilise des données modélisées provenant de l’Organisation mondiale de la Santé (OMS).
 
 # GLOBAL
 SDG_GOAL__GLOBAL: 'Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
