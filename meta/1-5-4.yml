@@ -111,72 +111,58 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 sources:
   - organisation: Public Safety Canada
-    source_active: 'true'
-    source_geographical_coverage: Canada
-    source_url: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/2024-ems-ctn-rs/index-en.aspx
-    source_url_text: 'Government of Canada. Advancing the Federal-Provincial-Territorial Emergency Management Strategy: Areas for Action'
+    geographical_coverage: Canada
+    url: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/2024-ems-ctn-rs/index-en.aspx
+    url_text: 'Government of Canada. Advancing the Federal-Provincial-Territorial Emergency Management Strategy: Areas for Action'
   - organisation: Government of British Columbia
-    source_active: 'true'
-    source_geographical_coverage: British Columbia
-    source_url: https://www2.gov.bc.ca/gov/content/safety/emergency-management/emergency-management/legislation-and-regulations
-    source_url_text: Government of British Columbia. Emergency Management Legislation (English only)
+    geographical_coverage: British Columbia
+    url: https://www2.gov.bc.ca/gov/content/safety/emergency-management/emergency-management/legislation-and-regulations
+    url_text: Government of British Columbia. Emergency Management Legislation (English only)
   - organisation: Government of Alberta
-    source_active: 'true'
-    source_geographical_coverage: Alberta
-    source_url: https://open.alberta.ca/publications/alberta-emergency-plan
-    source_url_text: Government of Alberta. Alberta emergency plan 2022 (English only)
+    geographical_coverage: Alberta
+    url: https://open.alberta.ca/publications/alberta-emergency-plan
+    url_text: Government of Alberta. Alberta emergency plan 2022 (English only)
   - organisation: Saskatchewan Public Safety Agency (SPSA)
-    source_active: 'true'
-    source_geographical_coverage: Saskatchewan
-    source_url: https://www.saskpublicsafety.ca/communities/emergency-declaration-and-management-planning
-    source_url_text: Saskatchewan Public Safety Agency. Emergency Declaration and Management Planning
+    geographical_coverage: Saskatchewan
+    url: https://www.saskpublicsafety.ca/communities/emergency-declaration-and-management-planning
+    url_text: Saskatchewan Public Safety Agency. Emergency Declaration and Management Planning
   - organisation: Government of Manitoba
-    source_active: 'true'
-    source_geographical_coverage: Manitoba
-    source_url: https://www.gov.mb.ca/emo/about/index.html
-    source_url_text: Government of Manitoba. Emergency Management Organization
+    geographical_coverage: Manitoba
+    url: https://www.gov.mb.ca/emo/about/index.html
+    url_text: Government of Manitoba. Emergency Management Organization
   - organisation: Government of Ontario
-    source_active: 'true'
-    source_geographical_coverage: Ontario
-    source_url: https://www.ontario.ca/page/a-safe-practiced-and-prepared-ontario
-    source_url_text: Government of Ontario. A safe, practiced and prepared Ontario
+    geographical_coverage: Ontario
+    url: https://www.ontario.ca/page/a-safe-practiced-and-prepared-ontario
+    url_text: Government of Ontario. A safe, practiced and prepared Ontario
   - organisation: Government of Quebec
-    source_active: 'true'
-    source_geographical_coverage: Quebec
-    source_url: https://www.quebec.ca/gouvernement/ministere/securite-publique/publications/politique-quebecoise-securite-civile-2014-2024
-    source_url_text: Government of Quebec. Politique québécoise de sécurité civile 2014-2024 (French only)
+    geographical_coverage: Quebec
+    url: https://www.quebec.ca/gouvernement/ministere/securite-publique/publications/politique-quebecoise-securite-civile-2014-2024
+    url_text: Government of Quebec. Politique québécoise de sécurité civile 2014-2024 (French only)
   - organisation: Government of New Brunswick
-    source_active: 'true'
-    source_geographical_coverage: New Brunswick
-    source_url: https://www2.gnb.ca/content/gnb/en/departments/emo/ndmp.html
-    source_url_text: Government of New Brunswick. Emergency Measures Organization
+    geographical_coverage: New Brunswick
+    url: https://www2.gnb.ca/content/gnb/en/departments/emo/ndmp.html
+    url_text: Government of New Brunswick. Emergency Measures Organization
   - organisation: Government of Nova Scotia
-    source_active: 'true'
-    source_geographical_coverage: Nova Scotia
-    source_url: https://beta.novascotia.ca/government/emergency-management
-    source_url_text: Government of Nova Scotia. Department of Emergency Management
+    geographical_coverage: Nova Scotia
+    url: https://beta.novascotia.ca/government/emergency-management
+    url_text: Government of Nova Scotia. Department of Emergency Management
   - organisation: Government of Prince Edward Island
-    source_active: 'true'
-    source_geographical_coverage: Prince Edward Island
-    source_url: https://www.princeedwardisland.ca/en/information/justice-and-public-safety/emergency-measures-organization
-    source_url_text: Government of Prince Edward Island. Emergency Measures Organization
+    geographical_coverage: Prince Edward Island
+    url: https://www.princeedwardisland.ca/en/information/justice-and-public-safety/emergency-measures-organization
+    url_text: Government of Prince Edward Island. Emergency Measures Organization
   - organisation: Government of Newfoundland and Labrador
-    source_active: 'true'
-    source_geographical_coverage: Newfoundland and Labrador
-    source_url: https://www.gov.nl.ca/jps/files/publications-pemp-plan.pdf
-    source_url_text: Government of Newfoundland and Labrador. Provincial Emergency Management Plan (English only)
+    geographical_coverage: Newfoundland and Labrador
+    url: https://www.gov.nl.ca/jps/files/publications-pemp-plan.pdf
+    url_text: Government of Newfoundland and Labrador. Provincial Emergency Management Plan (English only)
   - organisation: Government of Yukon
-    source_active: 'true'
-    source_geographical_coverage: Yukon
-    source_url: https://yukon.ca/sites/default/files/2025-01/Health%20and%20Social%20Services%20Emergency%20Management%20Plan%20-%20FINAL.pdf
-    source_url_text: Government of Yukon. Emergency Management Plan (English only)
+    geographical_coverage: Yukon
+    url: https://yukon.ca/sites/default/files/2025-01/Health%20and%20Social%20Services%20Emergency%20Management%20Plan%20-%20FINAL.pdf
+    url_text: Government of Yukon. Emergency Management Plan (English only)
   - organisation: Government of Northwest Territories
-    source_active: 'true'
-    source_geographical_coverage: Northwest Territories
-    source_url: https://www.maca.gov.nt.ca/en/services/emergency-management-nwt
-    source_url_text: Government of Northwest Territories. Emergency Management in the NWT
+    geographical_coverage: Northwest Territories
+    url: https://www.maca.gov.nt.ca/en/services/emergency-management-nwt
+    url_text: Government of Northwest Territories. Emergency Management in the NWT
   - organisation: Government of Nunavut
-    source_active: 'true'
-    source_geographical_coverage: Nunavut
-    source_url: https://www.gov.nu.ca/en/public-safety-and-emergencies/nunavut-emergency-management
-    source_url_text: Government of Nunavut. Nunavut Emergency Management
+    geographical_coverage: Nunavut
+    url: https://www.gov.nu.ca/en/public-safety-and-emergencies/nunavut-emergency-management
+    url_text: Government of Nunavut. Nunavut Emergency Management
