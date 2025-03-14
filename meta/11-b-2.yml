@@ -25,60 +25,8 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-0b-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # Source(s)
-sources:
-  - organisation: Public Safety Canada
-    geographical_coverage: Canada
-    url: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/2024-ems-ctn-rs/index-en.aspx
-    url_text: 'Government of Canada. Advancing the Federal-Provincial-Territorial Emergency Management Strategy: Areas for Action'
-  - organisation: Government of British Columbia
-    geographical_coverage: British Columbia
-    url: https://www2.gov.bc.ca/gov/content/safety/emergency-management/emergency-management/legislation-and-regulations
-    url_text: Government of British Columbia. Emergency Management Legislation (English only)
-  - organisation: Government of Alberta
-    geographical_coverage: Alberta
-    url: https://open.alberta.ca/publications/alberta-emergency-plan
-    url_text: Government of Alberta. Alberta emergency plan 2022 (English only)
-  - organisation: Saskatchewan Public Safety Agency (SPSA)
-    geographical_coverage: Saskatchewan
-    url: https://www.saskpublicsafety.ca/communities/emergency-declaration-and-management-planning
-    url_text: Saskatchewan Public Safety Agency. Emergency Declaration and Management Planning
-  - organisation: Government of Manitoba
-    geographical_coverage: Manitoba
-    url: https://www.gov.mb.ca/emo/about/index.html
-    url_text: Government of Manitoba. Emergency Management Organization
-  - organisation: Government of Ontario
-    geographical_coverage: Ontario
-    url: https://www.ontario.ca/page/a-safe-practiced-and-prepared-ontario
-    url_text: Government of Ontario. A safe, practiced and prepared Ontario
-  - organisation: Government of Quebec
-    geographical_coverage: Quebec
-    url: https://www.quebec.ca/gouvernement/ministere/securite-publique/publications/politique-quebecoise-securite-civile-2014-2024
-    url_text: Government of Quebec. Politique québécoise de sécurité civile 2014-2024 (French only)
-  - organisation: Government of New Brunswick
-    geographical_coverage: New Brunswick
-    url: https://www2.gnb.ca/content/gnb/en/departments/emo/ndmp.html
-    url_text: Government of New Brunswick. Emergency Measures Organization
-  - organisation: Government of Nova Scotia
-    geographical_coverage: Nova Scotia
-    url: https://beta.novascotia.ca/government/emergency-management
-    url_text: Government of Nova Scotia. Department of Emergency Management
-  - organisation: Government of Prince Edward Island
-    geographical_coverage: Prince Edward Island
-    url: https://www.princeedwardisland.ca/en/information/justice-and-public-safety/emergency-measures-organization
-    url_text: Government of Prince Edward Island. Emergency Measures Organization
-  - organisation: Government of Newfoundland and Labrador
-    geographical_coverage: Newfoundland and Labrador
-    url: https://www.gov.nl.ca/jps/files/publications-pemp-plan.pdf
-    url_text: Government of Newfoundland and Labrador. Provincial Emergency Management Plan (English only)
-  - organisation: Government of Yukon
-    geographical_coverage: Yukon
-    url: https://yukon.ca/sites/default/files/2025-01/Health%20and%20Social%20Services%20Emergency%20Management%20Plan%20-%20FINAL.pdf
-    url_text: Government of Yukon. Emergency Management Plan (English only)
-  - organisation: Government of Northwest Territories
-    geographical_coverage: Northwest Territories
-    url: https://www.maca.gov.nt.ca/en/services/emergency-management-nwt
-    url_text: Government of Northwest Territories. Emergency Management in the NWT
-  - organisation: Government of Nunavut
-    geographical_coverage: Nunavut
-    url: https://www.gov.nu.ca/en/public-safety-and-emergencies/nunavut-emergency-management
-    url_text: Government of Nunavut. Nunavut Emergency Management
+source_active_1: 'true'
+source_organisation_1: Federal, provincial, and territorial governments
+source_geographical_coverage_1: Canada, Provinces and territories
+source_other_info_1: >-
+  The sources for each government's emergency management legislation and plans are available on the indicator page.
