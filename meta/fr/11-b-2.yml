@@ -25,60 +25,8 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-0b-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # Source(s)
-sources:
-  - organisation: Sécurité publique Canada
-    geographical_coverage: Canada
-    url: https://www.securitepublique.gc.ca/cnt/rsrcs/pblctns/2024-ems-ctn-rs/index-fr.aspx
-    url_text: "Avancer la Stratégie de sécurité civile fédérale, provinciale et territoriale : Axes d’intervention"
-  - organisation: Gouvernement de la Colombie-Britannique
-    geographical_coverage: Colombie-Britannique
-    url: https://www2.gov.bc.ca/gov/content/safety/emergency-management/emergency-management/legislation-and-regulations
-    url_text: Emergency management legislation (en anglais seulement)
-  - organisation: Gouvernement de l’Alberta
-    geographical_coverage: Alberta
-    url: https://open.alberta.ca/publications/alberta-emergency-plan
-    url_text: Alberta emergency plan 2022 (en anglais seulement)
-  - organisation: Agence de sécurité publique de la Saskatchewan (ASPS)
-    geographical_coverage: Saskatchewan
-    url: https://www.saskpublicsafety.ca/communities/emergency-declaration-and-management-planning
-    url_text: Déclaration d'urgence et planification de la Gestion
-  - organisation: Gouvernement du Manitoba
-    geographical_coverage: Manitoba
-    url: https://www.gov.mb.ca/emo/about/index.fr.html
-    url_text: Organisation de gestion des situations d'urgence
-  - organisation: Gouvernement de l’Ontario
-    geographical_coverage: Ontario
-    url: https://www.ontario.ca/fr/page/un-ontario-securitaire-entraine-et-prepare
-    url_text: Un Ontario sécuritaire, entraîné et préparé
-  - organisation: Gouvernement du Québec
-    geographical_coverage: Québec
-    url: https://www.quebec.ca/gouvernement/ministere/securite-publique/publications/politique-quebecoise-securite-civile-2014-2024
-    url_text: Politique québécoise de sécurité civile 2014-2024 (en français seulement)
-  - organisation: Gouvernement du Nouveau-Brunswick
-    geographical_coverage: Nouveau-Brunswick
-    url: https://www2.gnb.ca/content/gnb/fr/ministeres/omu/pnac.html
-    url_text: Organisation des mesures d'urgence
-  - organisation: Gouvernement de la Nouvelle-Écosse
-    geographical_coverage: Nouvelle-Écosse
-    url: https://beta.novascotia.ca/fr/government/emergency-management-office
-    url_text: Ministère de la Gestion des urgences
-  - organisation: Gouvernement de l’Île-du-Prince-Édouard
-    geographical_coverage: Île-du-Prince-Édouard
-    url: https://www.princeedwardisland.ca/fr/information/justice-et-securite-publique/organisation-mesures-durgence
-    url_text: Organisation des mesures d’urgence
-  - organisation: Gouvernement de Terre-Neuve-et-Labrador
-    geographical_coverage: Terre-Neuve-et-Labrador
-    url: https://www.gov.nl.ca/jps/files/publications-pemp-plan.pdf
-    url_text: Provincial Emergency Management Plan (en anglais seulement)
-  - organisation: Gouvernement du Yukon
-    geographical_coverage: Yukon
-    url: https://yukon.ca/sites/default/files/2025-01/Health%20and%20Social%20Services%20Emergency%20Management%20Plan%20-%20FINAL.pdf
-    url_text: Emergency Management Plan (en anglais seulement)
-  - organisation: Gouvernement des Territoires du Nord-Ouest
-    geographical_coverage: Territoires du Nord-Ouest
-    url: https://www.maca.gov.nt.ca/fr/services/gestion-des-urgences-aux-tno
-    url_text: Gestion des urgences aux TNO
-  - organisation: Gouvernement du Nunavut
-    geographical_coverage: Nunavut
-    url: https://www.gov.nu.ca/fr/public-safety-and-emergencies/gestion-des-urgences-au-nunavut
-    url_text: Gestion des urgences au Nunavut
+source_active_1: 'true'
+source_organisation_1: Gouvernements fédéral, provinciaux et territoriaux
+source_geographical_coverage_1: Canada, provinces et territoires
+source_other_info_1: >-
+  Les sources de la législation et des plans de gestion des urgences de chaque gouvernement sont disponibles sur la page de l'indicateur.
