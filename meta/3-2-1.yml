@@ -4,7 +4,7 @@ SDG_TARGET: '<p>Target 3.2: By 2030, end preventable deaths of newborns and chil
   at least as low as 12 per 1,000 live births and under-5 mortality to at least as
   low as 25 per 1,000 live births</p>'
 SDG_INDICATOR: '<p>Indicator 3.2.1: Under‐5 mortality rate</p>'
-STAT_CONC_DEF: <p>This indicator measueres the under-5 mortality rate, defined as the number of deaths of children aged under 5 per 1,000 live births.</p>
+STAT_CONC_DEF: <p>This indicator measures the under-5 mortality rate, defined as the number of deaths of children aged under 5 per 1,000 live births.</p>
 DATA_COMP: 'Under‐5 mortality rate = (Number of deaths of children aged under 5 / Number of live births) x 1,000'
 REC_USE_LIM: |
   This indicator measures the mortality rate of children aged less than 5 years rather than the probability of death as derived from a life table and expressed as a rate per 1,000 live births.
