@@ -6,9 +6,13 @@ SDG_TARGET: '<p>Cible 4.6 : D’ici à 2030, faire en sorte que tous les jeunes
 SDG_INDICATOR: '<p>Indicateur 4.6.1 : Proportion de la population âgée de 16 ou plus ayant les compétences voulues à au moins un niveau d’aptitude fixé a) en alphabétisme et b) arithmétique fonctionnels, par sexe</p>'
 STAT_CONC_DEF: |
    Proportion de jeunes (âgés de 16 à 24 ans) et d'adultes (âgés de 16 ans et plus) qui ont atteint ou dépassé un niveau fixe de compétence en (a) littératie et (b) numératie.
-DATA_COMP: custom.data-comp
+DATA_COMP: Pour 2022, les données relatives au niveau de compétence 2 ou moins sont calculées comme l'agrégat des niveaux de compétence 1 ou moins et 2.
 REC_USE_LIM: |
-  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : "Proportion de la population d’un groupe d’âge donné ayant les compétences voulues à au moins un niveau d’aptitude fixé a) en alphabétisme et b) arithmétique fonctionnels, par sexe". Cet indicateur mesure les niveaux d'aptitude pour la population agée de 16 et plus plutôt que 15 ans et plus tel que stipulé dans les métadonnées officielles. 
+  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : "Proportion de la population d’un groupe d’âge donné ayant les compétences voulues à au moins un niveau d’aptitude fixé a) en alphabétisme et b) arithmétique fonctionnels, par sexe". 
+  <br>
+  <br> Cet indicateur mesure les niveaux d'aptitude pour la population agée de 16 et plus plutôt que 15 ans et plus tel que stipulé dans les métadonnées officielles. 
+  <br>
+  <br> Les statistiques pour le Canada pour 2022 incluent les 10 provinces seulement.
  
 
 ## GLOBAL
@@ -26,11 +30,19 @@ reporting_status: complete
 ## SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: |
-    Statistique Canada. Littératie, numératie - Scores moyens et répartition des niveaux de compétence, selon le sexe et le groupe d'âge.
+    Statistique Canada. Tableau 37-10-0047-01  Littératie, numératie - Scores moyens et répartition des niveaux de compétence, selon le sexe et le groupe d'âge, inactif
 source_organisation_1: Statistique Canada
 source_geographical_coverage_1: Canada, Province ou territoire
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/cv!recreate.action?pid=3710004701&selectedNodeIds=5D2,5D3&checkedLevels=0D1,0D2,1D1,1D2,2D1,2D2,3D1&refPeriods=20120101,20120101&dimensionLayouts=layout2,layout2,layout3,layout2,layout2,layout2&vectorDisplay=false&request_locale=fr
+source_url_1: https://doi.org/10.25318/3710004701-fra
 source_periodicity_1: Occasionnelle
+
+source_active_2: 'true'
+source_url_text_2: |
+    Statistique Canada. Tableau 37-10-0259-01  Scores moyens et répartition des niveaux de compétence en littératie, numératie et résolution adaptative de problèmes, selon le groupe d'âge et le genre
+source_organisation_2: Statistique Canada
+source_geographical_coverage_2: Canada, Province ou territoire
+source_url_2: https://doi.org/10.25318/3710025901-fra
+source_periodicity_2: Occasionnelle
 
 un_designated_tier: Niveau II
 un_custodian_agency: Institut de statistique de l'UNESCO (ISU)
