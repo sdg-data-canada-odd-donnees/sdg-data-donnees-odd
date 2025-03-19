@@ -29,12 +29,14 @@ graph_title: ''
 graph_titles:
   - series: Gender Parity Index
     title: Gender Parity Index
-  - series: Economic, Social and Cultural Status Index (ESCS)
-    title: Economic, Social and Cultural Status Index (ESCS)
   - series: Location Parity Index
     title: Location Parity Index
-  - series: Parental Education Attainment Parity Index
-    title: Parental Education Attainment Parity Index
+  - series: Wealth Parity Index
+    title: Wealth Parity Index
+  - series: Language Test Parity Index
+    title: Language Test Parity Index
+  - series: Native Parity Index
+    title: Native Parity Index
 graph_type: bar
 indicator_name: global_indicators.4-5-1-title
 indicator_number: 4.5.1
