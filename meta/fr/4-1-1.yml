@@ -5,14 +5,21 @@ SDG_TARGET: '<p>Cible 4.1 : D’ici à 2030, faire en sorte que toutes les fille
   tous les garçons suivent, sur un pied d’égalité, un cycle complet d’enseignement
   primaire et secondaire gratuit et de qualité, les dotant d’acquis véritablement
   utiles.</p>'
-SDG_INDICATOR: '<p>Indicateur 4.1.1 : Proportion d’enfants et de jeunes a) en4e année de cycle primaire ; et c) en fin de premier cycle du secondaire qui maîtrisent au moins les normes d’aptitudes minimales en i) lecture et ii) mathématiques, par sexe</p>'
+SDG_INDICATOR: '<p>Proportion d’enfants et de jeunes a) en 4e année de cycle primaire ; et c) âgés de 15 ans qui maîtrisent au moins les normes d’aptitudes minimales en i) lecture et ii) mathématiques, par sexe</p>'
 STAT_CONC_DEF: |
-  Pourcentage d’enfants et de jeunes atteignant au moins un niveau minimum de compétence en (i) lecture et (ii) mathématiques au cours de l’enseignement primaire (2e ou 3e année), à ​​la fin de l’enseignement primaire et à la fin du premier cycle du secondaire. Le niveau de compétence minimum sera mesuré par rapport aux nouvelles échelles communes de lecture et de mathématiques actuellement en développement.
+  Pourcentage d’enfants et de jeunes atteignant au moins un niveau minimum de compétence en (i) lecture et (ii) mathématiques au cours de l’enseignement primaire (4e année) et à la fin du premier cycle du secondaire (15 ans). Le niveau de compétence minimum sera mesuré par rapport aux nouvelles échelles communes de lecture et de mathématiques actuellement en développement.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : "Proportion d'enfants et de jeunes (a) en cours élémentaire; (b) en fin de cycle primaire; c) en fin de premier cycle du secondaire qui maîtrisent au moins les normes d'aptitudes minimales en i) lecture et ii) mathématiques, par sexe".
   <br>
-  <br> La proportion d'enfants et de jeunes est indiquée pour la 4e année au lieu de la série d'indicateurs (a) pour les 2e et 3e années.
+  <br> La proportion d'enfants et de jeunes est rapportée pour la 4e année au lieu de la 2e ou 3e année comme le précise la série d'indicateurs (a).
+  <br>
+  <br> Les données sur la série d'indicateurs (b) ne sont pas disponibles pour le Canada.
+  <br>
+  <br> La proportion d'enfants et de jeunes est rapportée pour les jeunes de 15 ans au lieu de la fin du premier cycle du secondaire comme le précise la série d'indicateurs (c).
+  <br>
+  <br> Les données pour le Canada obtenues de l'étude Tendances en mathématiques et en sciences internationales (TEIMS) ne comprennent que les provinces de l'Alberta, du Manitoba, de Terre-Neuve-et-Labrador, de l'Ontario et du Québec.
+
 SDG_GOAL__GLOBAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité,
   sur un pied d''égalité, et à promouvoir les possibilités d''apprentissage tout au
   long de la vie.</p>'
@@ -33,23 +40,47 @@ source_url_text_1: |
 source_url_1: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_FR.pdf
 source_organisation_1: Conseil des ministres de l’Éducation (Canada)
 source_periodicity_1: Occasionnelle
-source_geographical_coverage_1: Canada, Province ou territoire
+source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: |
-    IRLS/ePIRLS 2016 Le contexte au Canada: Résultats canadiens du Programme international de recherche en lecture scolaire
+    PIRLS/ePIRLS 2016 Le contexte au Canada: Résultats canadiens du Programme international de recherche en lecture scolaire
 source_url_2: https://cmec.ca/Publications/Lists/Publications/Attachments/385/PIRLS2016-Report-FR.pdf
 source_organisation_2: Conseil des ministres de l’Éducation (Canada)
 source_periodicity_2: Occasionnelle
-source_geographical_coverage_2: Canada, Province ou territoire
+source_geographical_coverage_2: Canada
 
 source_active_3: 'true'
 source_url_text_3: |
-    À la hauteur : Résultats canadiens de l'étude PISA 2018 de l'OCDE
+    À la hauteur : Résultats canadiens de l'étude PISA 2018 de l'OCDE - Le rendement des jeunes de 15 ans du Canada en mathématiques, en lecture et en sciences. Annexe B.
 source_url_3: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_FR.pdf
 source_organisation_3: Conseil des ministres de l’Éducation (Canada)
 source_periodicity_3: Occasionnelle
-source_geographical_coverage_3: Canada, Province ou territoire
+source_geographical_coverage_3: Canada
+
+source_active_4: 'true'
+source_url_text_4: |
+    À la hauteur : Résultats canadiens  de l’étude du PISA 2022 de l’OCDE - Le rendement des jeunes de 15 ans du Canada en mathématiques, en lecture et en sciences. Annexe B.
+source_url_4: https://cmec.ca/Publications/Lists/Publications/Attachments/438/PISA-2022_Canadian_Report_FR.pdf
+source_organisation_4: Conseil des ministres de l’Éducation (Canada)
+source_periodicity_4: Occasionnelle
+source_geographical_coverage_4: Canada
+
+source_active_5: 'true'
+source_url_text_5: |
+    TEIMS 2023 - Pourcentage d'élèves atteignant les critères internationaux de performance en mathématiques en 4e année d'études (en anglais seulement)
+source_url_5: https://timss2023.org/results/grade-4-math-achievement-benchmarks-distribution/
+source_organisation_5: Boston College, Centre international d'étude TEIMS & PIRLS
+source_periodicity_5: Occasionnelle
+source_geographical_coverage_5: Canada
+
+source_active_6: 'true'
+source_url_text_6: |
+    Base de données de l'ISU - Indicateurs ODD 4 (en anglais seulement)
+source_url_6: https://sdg4-data.uis.unesco.org/
+source_organisation_6: Institut de statistique de l’UNESCO
+source_periodicity_6: Occasionnelle
+source_geographical_coverage_6: Canada
 
 un_designated_tier: Niveau I
 un_custodian_agency: Institut de statistique de l’UNESCO

@@ -3,10 +3,10 @@ SDG_GOAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promo
 SDG_TARGET: '<p>Target 4.1: By 2030, ensure that all girls and boys complete free,
   equitable and quality primary and secondary education leading to relevant and effective
   learning outcomes</p>'
-SDG_INDICATOR: '<p>Indicator 4.1.1: Proportion of children and young people (a) in grades 4; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex</p>'
+SDG_INDICATOR: '<p>Indicator 4.1.1: Proportion of children and young people (a) in Grade 4; and (c) aged 15 years achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex</p>'
 STAT_CONC_DEF: 'Percentage of children and young people achieving at least a minimum proficiency level in (i) reading and 
-  (ii) mathematics during primary education (Grade 2 or 3), at the end of primary education, and at the end 
-  of lower secondary education. The minimum proficiency level will be measured relative to new common 
+  (ii) mathematics during primary education (Grade 4) and at the end 
+  of lower secondary education (15 years old). The minimum proficiency level will be measured relative to new common 
   reading and mathematics scales currently in development.'
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
@@ -15,7 +15,13 @@ REC_USE_LIM: |
   secondary education achieving at least a minimum proficiency level in (i) reading
   and (ii) mathematics, by sex".
   <br>
-  <br> The proportion of children and young people is reported for grade 4 instead indicator series (a) in grades 2/3.
+  <br> The proportion of children and young people is reported for Grade 4 instead of Grade 2 or 3 as precised by indicator series (a).
+  <br>
+  <br> Data on indicator series (b) are not available for Canada.
+  <br>
+  <br> The proportion of children and young people is reported for young people aged 15 years instead of at the end of lower secondary education as precised by indicator series (c).
+  <br>
+  <br> The data for Canada obtained from the Trends in International Mathematics and Science Study (TIMSS) includes only the provinces of Alberta, Manitoba, Newfoundland and Labrador, Ontario, and Quebec.
  
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
   promote lifelong learning opportunities for all</p>'
@@ -38,7 +44,7 @@ source_url_text_1: |
 source_url_1: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_EN.pdf
 source_organisation_1: Council of Ministers of Education, Canada (CMEC)
 source_periodicity_1: Occasional
-source_geographical_coverage_1: Canada, Province or territory
+source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: |
@@ -46,7 +52,7 @@ source_url_text_2: |
 source_url_2: https://cmec.ca/Publications/Lists/Publications/Attachments/385/PIRLS2016-Report-EN.pdf
 source_organisation_2: Council of Ministers of Education, Canada (CMEC)
 source_periodicity_2: Occasional
-source_geographical_coverage_2: Canada, Province or territory
+source_geographical_coverage_2: Canada
 
 source_active_3: 'true'
 source_url_text_3: |
@@ -54,6 +60,30 @@ source_url_text_3: |
 source_url_3: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_EN.pdf
 source_organisation_3: Council of Ministers of Education, Canada (CMEC)
 source_periodicity_3: Occasional
-source_geographical_coverage_3: Canada, Province or territory
+source_geographical_coverage_3: Canada
+
+source_active_4: 'true'
+source_url_text_4: |
+    Measuring Up: Canadian Results of the OECD PISA 2022 Study - The Performance of Canadian 15-Year-Olds in Mathematics, Reading, and Science. Appendix B.
+source_url_4: https://www.cmec.ca/Publications/Lists/Publications/Attachments/438/PISA-2022_Canadian_Report_EN.pdf
+source_organisation_4: Council of Ministers of Education, Canada (CMEC)
+source_periodicity_4: Occasional
+source_geographical_coverage_4: Canada
+
+source_active_5: 'true'
+source_url_text_5: |
+    TIMSS 2023 - Percentages of Students Reaching International Benchmarks of Mathematics Achievement in Grade 4
+source_url_5: https://timss2023.org/results/grade-4-math-achievement-benchmarks-distribution/
+source_organisation_5: Boston College, TIMSS & PIRLS International Study Center
+source_periodicity_5: Occasional
+source_geographical_coverage_5: Canada
+
+source_active_6: 'true'
+source_url_text_6: |
+    UIS Database - SDG 4 Indicators
+source_url_6: https://sdg4-data.uis.unesco.org/
+source_organisation_6: UNESCO Institute for Statistics (UIS)
+source_periodicity_6: Occasional
+source_geographical_coverage_6: Canada
 
 proxy: proxy
