@@ -6,7 +6,7 @@ data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
-data_show_map: true
+data_show_map: false
 data_start_values:
 - field: Series
   value: Gender Parity Index
@@ -29,12 +29,10 @@ graph_title: ''
 graph_titles:
   - series: Gender Parity Index
     title: Gender Parity Index
-  - series: Economic, Social and Cultural Status Index (ESCS)
-    title: Economic, Social and Cultural Status Index (ESCS)
   - series: Location Parity Index
     title: Location Parity Index
-  - series: Parental Education Attainment Parity Index
-    title: Parental Education Attainment Parity Index
+  - series: Wealth Parity Index
+    title: Wealth Parity Index
 graph_type: bar
 indicator_name: global_indicators.4-5-1-title
 indicator_number: 4.5.1
