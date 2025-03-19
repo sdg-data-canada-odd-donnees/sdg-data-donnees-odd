@@ -16,6 +16,30 @@
             "title": "Year"
           },
           {
+            "name": "Proficiency level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2 or below",
+                "3 or above",
+                ""
+              ]
+            },
+            "title": "Proficiency level"
+          },
+          {
+            "name": "Skill",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Literacy",
+                "Numeracy",
+                ""
+              ]
+            },
+            "title": "Skill"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -40,17 +64,22 @@
             "title": "Geography"
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
+                "Total",
+                "Men+",
+                "Women+",
+                "16 to 24 years",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 65 years",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
             "name": "Age group",
@@ -67,30 +96,6 @@
               ]
             },
             "title": "Age group"
-          },
-          {
-            "name": "Skill",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Literacy",
-                "Numeracy",
-                ""
-              ]
-            },
-            "title": "Skill"
-          },
-          {
-            "name": "Proficiency level",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2 or below",
-                "3 or above",
-                ""
-              ]
-            },
-            "title": "Proficiency level"
           },
           {
             "name": "GeoCode",

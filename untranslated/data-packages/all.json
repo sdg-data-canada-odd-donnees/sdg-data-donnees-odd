@@ -17,6 +17,28 @@
             "type": "integer"
           },
           {
+            "name": "Proficiency level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2 or below",
+                "3 or above",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Skill",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Literacy",
+                "Numeracy",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -40,13 +62,18 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
+                "Total",
+                "Men+",
+                "Women+",
+                "16 to 24 years",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 65 years",
                 ""
               ]
             }
@@ -62,28 +89,6 @@
                 "35 to 44 years",
                 "45 to 54 years",
                 "55 to 65 years",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Skill",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Literacy",
-                "Numeracy",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Proficiency level",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2 or below",
-                "3 or above",
                 ""
               ]
             }
