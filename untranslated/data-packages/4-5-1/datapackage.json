@@ -12,14 +12,16 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ratio",
+                "Gender Parity Index",
+                "Location Parity Index",
+                "Wealth Parity Index",
                 ""
               ]
             }
@@ -29,12 +31,32 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Participation rate in organized learning",
-                "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics",
-                "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading",
-                "Proportion of adults (25-to-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional numeracy skills",
-                "Proportion of adults (25-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional literacy skills",
-                "Postsecondary participation rate of young adults aged 18 to 24",
+                "Completion rate",
+                "Educational attainment rate",
+                "Proficiency in knowledge of environmental science and geoscience - Cognitive dimension",
+                "Proficiency in knowledge of environmental science and geoscience",
+                "Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Confidence",
+                "Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Enjoyment",
+                "Percentage of students in early grades who have their first or home language as language of instruction",
+                "Percentage of students at the end of lower secondary education who have their first or home language as language of instruction",
+                "Gross enrolment ratio for tertiary education",
+                "Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in mathematics",
+                "Proportion of students at the end of primary education achieving at least a minimum proficiency level in mathematics",
+                "Proportion of children/young people at the age of primary education prepared for the future in mathematics",
+                "Proportion of children/young people at the age of lower secondary education prepared for the future in mathematics",
+                "Proportion of children/young people at the age of lower secondary education prepared for the future in reading",
+                "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months",
+                "Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in reading",
+                "Out-of-school rate for children, adolescents and youth of primary, lower secondary and upper secondary school age",
+                "Out-of-school rate for adolescents and youth of lower and upper secondary school age",
+                "Out-of-school rate for youth of upper secondary school age",
+                "Proportion of children/young people at the age of primary education prepared for the future in reading",
+                "Proportion of students at the end of primary education achieving at least a minimum proficiency level in reading",
+                "Out-of-school rate for children of primary school age",
+                "Out-of-school rate for children and adolescents of primary and lower secondary school age",
+                "Adjusted net enrolment rate, one year before the official primary entry age",
+                "Out-of-school rate for children one year before the official age",
+                "Proportion of 15-24 year-olds enrolled in vocational education",
                 ""
               ]
             }
@@ -44,52 +66,58 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Postsecondary",
-                "College",
-                "University",
+                "Primary education",
+                "Lower secondary education",
+                "Upper secondary education",
+                "Completed primary education or higher",
+                "Completed lower secondary education or higher",
+                "Completed upper secondary education or higher",
+                "Completed post-secondary non-tertiary education or higher",
+                "Completed short-cycle tertiary education or higher",
+                "Completed Bachelor's or equivalent education or higher",
+                "Completed Master's or equivalent education or higher",
+                "At least some primary (ISCED 1)",
+                "Completed Doctoral or equivalent education",
                 ""
               ]
             }
           },
           {
-            "name": "Series",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gender Parity Index",
-                "Economic, Social and Cultural Status Index (ESCS)",
-                "Location Parity Index",
-                "Parental Education Attainment Parity Index",
+                "25 years and over",
+                "15-24 years old",
+                "15-64 years old",
+                "25-54 years old",
+                "55-64 years old",
                 ""
               ]
             }
           },
           {
-            "name": "Geography",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
+                "Female",
+                "Both sexes",
+                "Male",
                 ""
               ]
             }
           },
           {
-            "name": "GeoCode",
-            "type": "string"
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Rural",
+                "Urban",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

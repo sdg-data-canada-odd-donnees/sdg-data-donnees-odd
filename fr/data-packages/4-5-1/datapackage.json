@@ -12,31 +12,53 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Année"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ratio",
+                "Indice de parité entre les sexes",
+                "Indice de parité entre milieu urbain et rural (IPM)",
+                "Indice de parité de richesse",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Series"
           },
           {
             "name": "Educational indicator",
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux de participation à l’apprentissage organisé",
-                "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en mathématiques",
-                "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en lecture",
-                "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA score de 226) en compétences en numératie fonctionnelle",
-                "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA un score 226) en compétences en littératie",
-                "Taux de participation aux études postsecondaires des jeunes adultes âgés de 18 à 24 ans",
+                "Taux d'achèvement",
+                "Taux de scolarité",
+                "Compétence en matière de sciences de l’environnement et de géosciences - Dimension cognitive",
+                "Compétence en matière de sciences de l’environnement et de géosciences",
+                "Compétence en matière de sciences de l’environnement et de géosciences - Dimension non cognitive - Confiance",
+                "Compétence en matière de sciences de l’environnement et de géosciences - Dimension non cognitive - Plaisir",
+                "Pourcentage d'élèves au début de leur scolarité dont la langue d'enseignement est la première langue ou la langue parlée à la maison",
+                "Pourcentage d'élèves à la fin du premier cycle de l'enseignement secondaire dont la langue d'enseignement est la première langue ou la langue parlée à la maison",
+                "Taux brut de scolarisation pour l'enseignement tertiaire",
+                "Proportion d'élèves à la fin du premier cycle de l'enseignement secondaire atteignant au moins un niveau minimum de compétence en mathématiques",
+                "Proportion d'élèves à la fin de l'enseignement primaire atteignant au moins un niveau minimum de compétence en mathématiques",
+                "Proportion d'enfants/de jeunes à l'âge de l'enseignement primaire préparés pour l'avenir en mathématiques",
+                "Proportion d'enfants/de jeunes à l'âge du premier cycle de l'enseignement secondaire préparés pour l'avenir en mathématiques",
+                "Proportion d'enfants/de jeunes à l'âge du premier cycle de l'enseignement secondaire préparés pour l'avenir en lecture",
+                "Taux de participation des jeunes et des adultes à l'éducation et à la formation formelles et non formelles au cours des 12 derniers mois",
+                "Proportion d'élèves à la fin du premier cycle de l'enseignement secondaire atteignant au moins un niveau minimum de compétence en lecture",
+                "Taux de non-scolarisation des enfants, des adolescents et des jeunes en âge de fréquenter l'école primaire, le premier cycle de l'enseignement secondaire et le deuxième cycle de l'enseignement secondaire",
+                "Taux de non-scolarisation des adolescents et des jeunes en âge de fréquenter le premier et le deuxième cycle de l'enseignement secondaire",
+                "Taux de non-scolarisation des jeunes en âge de fréquenter l'école secondaire supérieure",
+                "Proportion d'enfants/de jeunes à l'âge de l'enseignement primaire préparés pour l'avenir en lecture",
+                "Proportion d'élèves à la fin de l'enseignement primaire atteignant au moins un niveau minimum de compétence en lecture",
+                "Taux de non-scolarisation des enfants en âge de fréquenter l'école primaire",
+                "Taux de non-scolarisation des enfants et des adolescents en âge de fréquenter l'école primaire et le premier cycle du secondaire",
+                "Taux net d'inscription ajusté, un an avant l'âge officiel d'entrée à l'école primaire",
+                "Taux de non-scolarisation des enfants un an avant l'âge officiel",
+                "Proportion des jeunes de 15 à 24 ans inscrits à l'enseignement professionnel",
                 ""
               ]
             },
@@ -47,56 +69,62 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Postsecondary",
-                "Collège",
-                "Université",
+                "Enseignement primaire",
+                "Enseignement secondaire inférieur",
+                "Enseignement secondaire supérieur",
+                "Completed primary education or higher",
+                "Avoir terminé l'enseignement secondaire de premier cycle ou supérieur",
+                "Avoir terminé l'enseignement secondaire de deuxième cycle ou supérieur",
+                "Avoir terminé des études post-secondaires non tertiaires ou supérieures",
+                "Avoir terminé des études tertiaires de cycle court ou supérieures",
+                "Avoir terminé un baccalauréat ou une formation équivalente ou supérieure",
+                "Avoir terminé une maîtrise ou une formation équivalente ou supérieure",
+                "Au moins une partie de l'enseignement primaire (CITE 1)",
+                "Avoir terminé un doctorat ou une formation équivalente",
                 ""
               ]
             },
             "title": "Niveau de scolarité"
           },
           {
-            "name": "Series",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Indice de parité entre les sexes",
-                "Indice de statut économique, social et culturel (SESC)",
-                "Indice de parité entre milieu urbain et rural (IPM)",
-                "Indice de parité du niveau de formation des parents",
+                "25 ans et plus",
+                "15-24 ans",
+                "15-64 ans",
+                "25-54 ans",
+                "55-64 ans",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Groupe d'âge"
           },
           {
-            "name": "Geography",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "Femme",
+                "Les deux sexes",
+                "Homme",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Sexe"
           },
           {
-            "name": "GeoCode",
+            "name": "Area",
             "type": "string",
-            "title": "GeoCode"
+            "constraints": {
+              "enum": [
+                "Rurale",
+                "Urbain",
+                ""
+              ]
+            },
+            "title": "Région"
           },
           {
             "name": "Value",
