@@ -20,14 +20,14 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_titles:
-  - series: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
-    title: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
   - series: Children in Grade 4 achieving at least a minimum proficiency level in reading
     title: Children in Grade 4 achieving at least a minimum proficiency level in reading
-  - series: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading
-    title: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading
-  - series: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
-    title: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
+  - series: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
+    title: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
+  - series: Young people aged 15 years achieving at least a minimum proficiency level in reading
+    title: Young people aged 15 years achieving at least a minimum proficiency level in reading
+  - series: Young people aged 15 years achieving at least a minimum proficiency level in mathematics
+    title: Young people aged 15 years achieving at least a minimum proficiency level in mathematics
 graph_type: bar
 indicator_name: global_indicators.4-1-1-title
 indicator_available: proxy.4-1-1-title
