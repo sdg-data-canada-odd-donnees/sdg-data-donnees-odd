@@ -23,6 +23,9 @@ data_start_values:
 - series: Wealth Parity Index
   field: Educational indicator
   value: Completion rate
+- series: Wealth Parity Index
+  field: Level of education
+  value: Upper secondary education
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
