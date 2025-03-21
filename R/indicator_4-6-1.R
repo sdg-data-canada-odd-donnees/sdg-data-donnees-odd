@@ -55,7 +55,7 @@ proficiency <-
   ) %>%
   mutate(
     `Age group` = str_remove_all(`Age group`, ", age groups"),
-    `Gender` = str_remove_all(`Age group`, ", gender"),
+    `Gender` = str_remove_all(`Gender`, ", gender"),
     `Proficiency level` = str_remove_all(`Proficiency level`, "Percentage of the population scoring at proficiency level ")
   ) %>%
   na.omit()
