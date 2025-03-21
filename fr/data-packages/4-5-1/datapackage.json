@@ -21,7 +21,7 @@
             "constraints": {
               "enum": [
                 "Indice de parité entre les sexes",
-                "Indice de parité entre milieu urbain et rural (IPM)",
+                "Indice de parité entre milieu urbain et rural",
                 "Indice de parité de richesse",
                 ""
               ]
@@ -62,7 +62,7 @@
                 ""
               ]
             },
-            "title": "Educational indicator"
+            "title": "Indicateur d'éducation"
           },
           {
             "name": "Level of education",
@@ -91,7 +91,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "25 ans et plus",
                 "15-24 ans",
                 "15-64 ans",
                 "25-54 ans",
