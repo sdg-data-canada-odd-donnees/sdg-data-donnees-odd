@@ -8,7 +8,12 @@ SDG_TARGET: '<p>Cible 4.1 : D’ici à 2030, faire en sorte que toutes les fille
 SDG_INDICATOR: '<p>Proportion d’enfants et de jeunes a) en 4e année de cycle primaire ; et c) âgés de 15 ans qui maîtrisent au moins les normes d’aptitudes minimales en i) lecture et ii) mathématiques, par sexe</p>'
 STAT_CONC_DEF: |
   Pourcentage d’enfants et de jeunes atteignant au moins un niveau minimum de compétence en (i) lecture et (ii) mathématiques au cours de l’enseignement primaire (4e année) et à la fin du premier cycle du secondaire (15 ans). Le niveau de compétence minimum sera mesuré par rapport aux nouvelles échelles communes de lecture et de mathématiques actuellement en développement.
-DATA_COMP: custom.data-comp
+DATA_COMP: |
+  Les données étaient disponibles pour donner des précisions à propos de cet indicateur comme précisé par les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
+  <br>
+  <br> Les données de la série « Enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques » peuvent être consultées aux sources suivantes : Source 2, Source 3 et Source 4 dans l'onglet Sources.
+  <br>
+  <br> Les données pour l'année 2015 de la série « Enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques » sont dérivées en agrégeant les pourcentages allant du seuil de repère bas au seuil de repère avancé.
 REC_USE_LIM: |
   Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : "Proportion d'enfants et de jeunes (a) en cours élémentaire; (b) en fin de cycle primaire; c) en fin de premier cycle du secondaire qui maîtrisent au moins les normes d'aptitudes minimales en i) lecture et ii) mathématiques, par sexe".
   <br>
@@ -36,51 +41,35 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 4.1.1 : Proportion d''enfants et de jeunes
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: |
-    TEIMS 2019: Résultats canadiens de l'étude Tendances de l'enquête internationale sur les mathématiques et les sciences
-source_url_1: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_FR.pdf
-source_organisation_1: Conseil des ministres de l’Éducation (Canada)
+    Base de données de l'ISU - Indicateurs ODD 4 (en anglais seulement)
+source_url_6: https://sdg4-data.uis.unesco.org/
+source_organisation_1: Institut de statistique de l’UNESCO
 source_periodicity_1: Occasionnelle
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: |
-    PIRLS/ePIRLS 2016 Le contexte au Canada: Résultats canadiens du Programme international de recherche en lecture scolaire
-source_url_2: https://cmec.ca/Publications/Lists/Publications/Attachments/385/PIRLS2016-Report-FR.pdf
+    TEIMS 2015 - Résultats canadiens de l’étude Tendances de l’enquête internationale sur les mathématiques et les sciences. Annexe B.
+source_url_2: https://www.cmec.ca/Publications/Lists/Publications/Attachments/373/TIMSS2015_Report_EN.pdf
 source_organisation_2: Conseil des ministres de l’Éducation (Canada)
 source_periodicity_2: Occasionnelle
 source_geographical_coverage_2: Canada
 
 source_active_3: 'true'
 source_url_text_3: |
-    À la hauteur : Résultats canadiens de l'étude PISA 2018 de l'OCDE - Le rendement des jeunes de 15 ans du Canada en mathématiques, en lecture et en sciences. Annexe B.
-source_url_3: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_FR.pdf
+    TEIMS 2019: Résultats canadiens de l'étude Tendances de l'enquête internationale sur les mathématiques et les sciences
+source_url_1: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_FR.pdf
 source_organisation_3: Conseil des ministres de l’Éducation (Canada)
 source_periodicity_3: Occasionnelle
 source_geographical_coverage_3: Canada
 
 source_active_4: 'true'
 source_url_text_4: |
-    À la hauteur : Résultats canadiens  de l’étude du PISA 2022 de l’OCDE - Le rendement des jeunes de 15 ans du Canada en mathématiques, en lecture et en sciences. Annexe B.
-source_url_4: https://cmec.ca/Publications/Lists/Publications/Attachments/438/PISA-2022_Canadian_Report_FR.pdf
-source_organisation_4: Conseil des ministres de l’Éducation (Canada)
+    TEIMS 2023 - Pourcentage d'élèves atteignant les critères internationaux de performance en mathématiques en 4e année d'études (en anglais seulement)
+source_url_4: https://timss2023.org/results/grade-4-math-achievement-benchmarks-distribution/
+source_organisation_4: Boston College, Centre international d'étude TEIMS & PIRLS
 source_periodicity_4: Occasionnelle
 source_geographical_coverage_4: Canada
-
-source_active_5: 'true'
-source_url_text_5: |
-    TEIMS 2023 - Pourcentage d'élèves atteignant les critères internationaux de performance en mathématiques en 4e année d'études (en anglais seulement)
-source_url_5: https://timss2023.org/results/grade-4-math-achievement-benchmarks-distribution/
-source_organisation_5: Boston College, Centre international d'étude TEIMS & PIRLS
-source_periodicity_5: Occasionnelle
-source_geographical_coverage_5: Canada
-
-source_active_6: 'true'
-source_url_text_6: |
-    Base de données de l'ISU - Indicateurs ODD 4 (en anglais seulement)
-source_url_6: https://sdg4-data.uis.unesco.org/
-source_organisation_6: Institut de statistique de l’UNESCO
-source_periodicity_6: Occasionnelle
-source_geographical_coverage_6: Canada
 
 un_designated_tier: Niveau I
 un_custodian_agency: Institut de statistique de l’UNESCO

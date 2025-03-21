@@ -8,7 +8,12 @@ STAT_CONC_DEF: 'Percentage of children and young people achieving at least a min
   (ii) mathematics during primary education (Grade 4) and at the end 
   of lower secondary education (15 years old). The minimum proficiency level will be measured relative to new common 
   reading and mathematics scales currently in development.'
-DATA_COMP: custom.data-comp
+DATA_COMP: |
+  Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.
+  <br>
+  <br> Data for the series "Children in Grade 4 achieving at least a minimum proficiency level in mathematics" can be accessed at the following sources: Source 2, Source 3, and Source 4 in the Sources tab.
+  <br>
+  <br> Data for the year 2015 for the series "Children in Grade 4 achieving at least a minimum proficiency level in mathematics" is derived by aggregating the percentages ranging from the Low benchmark to the Advanced benchmark.
 REC_USE_LIM: |
   This is a proxy indicator. The UN Global indicator states: Proportion of children and young people:
   (a) in grades 2/3; (b) at the end of primary; education and (c) at the end of lower
@@ -40,50 +45,34 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: |
-    TIMSS 2019 - Canadian Results from the Trends in International Mathematics and Science Study: Highlights
-source_url_1: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_EN.pdf
-source_organisation_1: Council of Ministers of Education, Canada (CMEC)
+    UIS Database - SDG 4 Indicators
+source_url_1: https://sdg4-data.uis.unesco.org/
+source_organisation_1: UNESCO Institute for Statistics (UIS)
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: |
-    PIRLS/ePIRLS 2016 Canada in Context. Appendix B.
-source_url_2: https://cmec.ca/Publications/Lists/Publications/Attachments/385/PIRLS2016-Report-EN.pdf
+    TIMSS 2015 - Canadian Results from the Trends in International Mathematics and Science Study. Appendix B - Table B.1.1
+source_url_2: https://www.cmec.ca/Publications/Lists/Publications/Attachments/373/TIMSS2015_Report_EN.pdf
 source_organisation_2: Council of Ministers of Education, Canada (CMEC)
 source_periodicity_2: Occasional
 source_geographical_coverage_2: Canada
 
 source_active_3: 'true'
 source_url_text_3: |
-    Measuring up: Canadian Results of the OECD PISA 2018 Study - The Performance of Canadian 15-Year-Olds in Reading, Mathematics, and Science. Appendix B.
-source_url_3: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_EN.pdf
+    TIMSS 2019 - Canadian Results from the Trends in International Mathematics and Science Study: Highlights
+source_url_3: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_EN.pdf
 source_organisation_3: Council of Ministers of Education, Canada (CMEC)
 source_periodicity_3: Occasional
 source_geographical_coverage_3: Canada
 
 source_active_4: 'true'
 source_url_text_4: |
-    Measuring Up: Canadian Results of the OECD PISA 2022 Study - The Performance of Canadian 15-Year-Olds in Mathematics, Reading, and Science. Appendix B.
-source_url_4: https://www.cmec.ca/Publications/Lists/Publications/Attachments/438/PISA-2022_Canadian_Report_EN.pdf
-source_organisation_4: Council of Ministers of Education, Canada (CMEC)
+    TIMSS 2023 - Percentages of Students Reaching International Benchmarks of Mathematics Achievement in Grade 4
+source_url_4: https://timss2023.org/results/grade-4-math-achievement-benchmarks-distribution/
+source_organisation_4: Boston College, TIMSS & PIRLS International Study Center
 source_periodicity_4: Occasional
 source_geographical_coverage_4: Canada
-
-source_active_5: 'true'
-source_url_text_5: |
-    TIMSS 2023 - Percentages of Students Reaching International Benchmarks of Mathematics Achievement in Grade 4
-source_url_5: https://timss2023.org/results/grade-4-math-achievement-benchmarks-distribution/
-source_organisation_5: Boston College, TIMSS & PIRLS International Study Center
-source_periodicity_5: Occasional
-source_geographical_coverage_5: Canada
-
-source_active_6: 'true'
-source_url_text_6: |
-    UIS Database - SDG 4 Indicators
-source_url_6: https://sdg4-data.uis.unesco.org/
-source_organisation_6: UNESCO Institute for Statistics (UIS)
-source_periodicity_6: Occasional
-source_geographical_coverage_6: Canada
 
 proxy: proxy
