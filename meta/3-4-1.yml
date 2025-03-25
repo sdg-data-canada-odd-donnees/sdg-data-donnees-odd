@@ -8,8 +8,7 @@ STAT_CONC_DEF: 'This indicator measures the mortality rate attributed to cardiov
   cancer, diabetes or chronic respiratory disease.'
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
-  This is a proxy indicator. The UN Global indicator states: "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease". <br><br>
-  Due to data limitations, this indicator measures the mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease per 100,000 persons rather than the probability of dying between the ages of 30 and 70 years from cardiovascular diseases, cancer, diabetes
+  This is a proxy indicator. Due to data limitations, this indicator measures the mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease per 100,000 persons rather than the probability of dying between the ages of 30 and 70 years from cardiovascular diseases, cancer, diabetes
   or chronic respiratory diseases as specified in the metadata.
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
