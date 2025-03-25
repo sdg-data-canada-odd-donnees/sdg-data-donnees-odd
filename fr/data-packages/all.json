@@ -4975,6 +4975,85 @@
       "title": "Investissements directs étrangers, aide publique au développement et coopération Sud-Sud, en proportion du revenu national brut"
     },
     {
+      "path": "12-4-1/data.csv",
+      "name": "12-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Canadian territorial enclaves abroad",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Product category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Construction materials",
+                "Electrical and electronic equipment",
+                "Matériel électronique",
+                "Major appliances",
+                "Other electrical and electronic equipment",
+                "Packaging",
+                "Bottles",
+                "Film",
+                "Non-bottle rigid",
+                "Other packaging products",
+                "Agriculture film",
+                "Textiles",
+                "Vehicles",
+                "Other products",
+                "Total, all product categories",
+                ""
+              ]
+            },
+            "title": "Product category"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Nombre de parties aux accords internationaux multilatéraux sur l’environnement relatifs aux substances chimiques et autres déchets dangereux ayant satisfait à leurs engagements et obligations en communiquant les informations requises par chaque accord"
+    },
+    {
       "path": "5-b-1/data.csv",
       "name": "5-b-1",
       "profile": "tabular-data-resource",
@@ -9900,30 +9979,6 @@
         ]
       },
       "title": "Nombre de pays dotés d’un plan statistique national intégralement financé et en cours de mise en œuvre, par source de financement"
-    },
-    {
-      "path": "12-4-1/data.csv",
-      "name": "12-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Nombre de parties aux accords internationaux multilatéraux sur l’environnement relatifs aux substances chimiques et autres déchets dangereux ayant satisfait à leurs engagements et obligations en communiquant les informations requises par chaque accord"
     },
     {
       "path": "11-7-1/data.csv",

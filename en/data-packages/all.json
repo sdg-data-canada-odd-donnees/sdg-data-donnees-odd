@@ -4975,6 +4975,85 @@
       "title": "Foreign direct investment, official development assistance and South-South cooperation as a proportion of gross national income"
     },
     {
+      "path": "12-4-1/data.csv",
+      "name": "12-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                "Canadian territorial enclaves abroad",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Product category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Construction materials",
+                "Electrical and electronic equipment",
+                "Electronics",
+                "Major appliances",
+                "Other electrical and electronic equipment",
+                "Packaging",
+                "Bottles",
+                "Film",
+                "Non-bottle rigid",
+                "Other packaging products",
+                "Agriculture film",
+                "Textiles",
+                "Vehicles",
+                "Other products",
+                "Total, all product categories",
+                ""
+              ]
+            },
+            "title": "Product category"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement"
+    },
+    {
       "path": "5-b-1/data.csv",
       "name": "5-b-1",
       "profile": "tabular-data-resource",
@@ -9900,30 +9979,6 @@
         ]
       },
       "title": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding"
-    },
-    {
-      "path": "12-4-1/data.csv",
-      "name": "12-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement"
     },
     {
       "path": "11-7-1/data.csv",

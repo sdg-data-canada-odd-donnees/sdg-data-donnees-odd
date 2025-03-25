@@ -12,7 +12,59 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                "Canadian territorial enclaves abroad",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Product category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Construction materials",
+                "Electrical and electronic equipment",
+                "Electronics",
+                "Major appliances",
+                "Other electrical and electronic equipment",
+                "Packaging",
+                "Bottles",
+                "Film",
+                "Non-bottle rigid",
+                "Other packaging products",
+                "Agriculture film",
+                "Textiles",
+                "Vehicles",
+                "Other products",
+                "Total, all product categories",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
