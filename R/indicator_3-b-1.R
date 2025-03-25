@@ -18,7 +18,7 @@ data_final <-
   select(
     Year = REF_DATE,
     Geography = GEO,
-    `Selected diseases` = `Antigen or vaccine`,
+    `Antigen or vaccine`,
     `Target population`,
     Gender = Sex,
     Value = VALUE
