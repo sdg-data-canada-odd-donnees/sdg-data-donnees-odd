@@ -17,13 +17,19 @@ data_final <-
   ) %>%
   select(
     Year = REF_DATE,
-    Geography = GEO,
-    `Selected diseases` = `Antigen or vaccine`,
+    `Antigen or vaccine`,
     `Target population`,
+    Geography = GEO,
     Gender = Sex,
     Value = VALUE
   ) %>%
   na.omit() %>%
+  mutate(
+    Gender = case_when(
+      Gender == "Total - Gender" ~ "",
+      TRUE ~ Gender
+    )
+  ) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
