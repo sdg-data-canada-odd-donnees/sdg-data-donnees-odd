@@ -24,6 +24,12 @@ data_final <-
     Value = VALUE
   ) %>%
   na.omit() %>%
+  mutate(
+    Gender = case_when(
+      Gender == "Total - Gender" ~ "",
+      TRUE ~ Gender
+    )
+  ) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
