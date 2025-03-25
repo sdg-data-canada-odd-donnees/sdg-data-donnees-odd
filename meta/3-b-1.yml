@@ -14,10 +14,15 @@ STAT_CONC_DEF: This indicator measures the childhood vaccination
   childhood vaccination coverage in Canada through the childhood National Immunization
   Coverage Survey.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: The childhood vaccines included were those that are publicly
-  funded under provincial/territorial programs. Vaccines recommended only for travel
-  and some high-risk groups were excluded. The survey excluded First Nations on-reserve
-  communities and institutionalized children.
+REC_USE_LIM: |
+  The childhood vaccines included were those that are publicly funded under provincial/territorial programs. 
+  <br>
+  <br>Vaccines recommended only for travel and some high-risk groups were excluded. 
+  <br>
+  <br>The survey excluded First Nations on-reserve communities and institutionalized children.
+  <br>
+  <br> Gender disaggregation data is available only at the national level in Canada when selecting the following categories: 
+  "Recommended vaccines for 14-year-old children," specifically for "Hepatitis B" or "Human Papillomavirus (HPV)".
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.b: Support the research and development of vaccines
