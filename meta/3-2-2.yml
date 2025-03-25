@@ -9,7 +9,15 @@ STAT_CONC_DEF: <p>The neonatal mortality rate is the probability that a child bo
   if subject to age-specific mortality rates of that period, expressed per 1000 live
   births.</p>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: During the production of each year's birth/death/stillbirth statistics, data from previous years may be revised to reflect any updates or changes that have been received from the provincial and territorial vital statistics registrars. Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. As a result, there may have been fewer deaths captured by the time of the release, therefore, the last four reference years are considered preliminary. Data for Yukon are not available for 2017, 2018, 2019, 2020, 2021 and 2022.
+REC_USE_LIM: |
+  During the production of each year's birth/death/stillbirth statistics, data from previous years may be revised to reflect any updates or changes that have been received from the provincial and territorial vital statistics registrars. 
+  <br>
+  <br>Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. 
+  As a result, there may have been fewer deaths captured by the time of the release.
+  <br>
+  <br>The 2023 data is considered preliminary. 
+  <br>
+  <br>Data for Yukon are not available for 2017, 2018, 2019, 2020, 2021 and 2022.
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.2: By 2030, end preventable deaths of newborns and
