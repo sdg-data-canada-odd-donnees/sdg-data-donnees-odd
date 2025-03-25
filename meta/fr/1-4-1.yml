@@ -26,7 +26,7 @@ STAT_CONC_DEF: |
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/9-c-1/">Indicateur 9.c.1</a>
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/11-2-1/">Indicateur 11.2.1</a>
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/11-6-1/">Indicateur 11.6.1</a>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   L'accès aux services de base de la collecte des déchets est mesuré au moyen de la série de substitution "Quantité totale de déchets éliminés dans des installations d'élimination des déchets". La série mondiale des Nations Unies repose sur l'indicateur 11.6.1 : « Proportion de déchets municipaux solides recueillis et gérés dans des installations contrôlées par rapport au total des déchets municipaux solides générés, par ville ».
 SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans
