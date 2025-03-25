@@ -27,9 +27,15 @@ total_line <-
   filter(
     `Place of residence of mother` == "Canada"
   ) %>%
-  mutate_at(c("Place of residence of mother"), ~ "")  
+  mutate_at(c("Place of residence of mother"), ~ "")
 
-data_final <- bind_rows(total_line, adolescent_birth_rates)  
+non_total <-
+  adolescent_birth_rates %>%
+  filter(
+    !`Place of residence of mother` == "Canada"
+  )
+    
+data_final <- bind_rows(total_line, non_total)  
 
 write.csv(
   data_final,
