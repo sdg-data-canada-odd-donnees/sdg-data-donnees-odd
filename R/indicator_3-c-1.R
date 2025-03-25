@@ -137,12 +137,12 @@ health_worker_distribution <-
 data_final <-
   bind_rows(health_worker_density, health_worker_distribution)
 
-write.csv(
-  data_final,
-  "data/indicator_3-c-1.csv",
-  na = "",
-  row.names = FALSE,
-  fileEncoding = "UTF-8"
-)
+#write.csv(
+#  data_final,
+#  "data/indicator_3-c-1.csv",
+#  na = "",
+#  row.names = FALSE,
+#  fileEncoding = "UTF-8"
+#)
   
 
