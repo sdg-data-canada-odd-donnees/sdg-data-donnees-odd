@@ -36,9 +36,9 @@ data_final <-
   ) %>%
   select(
     Year = REF_DATE, 
+    `Causes of death` = `Leading causes of death (ICD-10)`, 
     `Age at time of death`, 
     Sex, 
-    `Causes of death` = `Leading causes of death (ICD-10)`, 
     Value = VALUE
   )
 
