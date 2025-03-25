@@ -15,6 +15,25 @@
             "type": "integer"
           },
           {
+            "name": "Tobacco Product",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Any tobacco product",
+                "Cigarettes",
+                "Cigars",
+                "E-cigarettes",
+                "Little cigars or cigarillos",
+                "Smokeless tobacco",
+                "Water pipe with tobacco",
+                "Pipe",
+                "Vaping",
+                "Chewing tobacco",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Sex",
             "type": "string",
             "constraints": {
@@ -37,25 +56,6 @@
                 "25-44 years-old",
                 "45+ years-old",
                 "All age groups",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Tobacco Product",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Any tobacco product",
-                "Cigarettes",
-                "Cigars",
-                "E-cigarettes",
-                "Little cigars or cigarillos",
-                "Smokeless tobacco",
-                "Water pipe with tobacco",
-                "Pipe",
-                "Vaping",
-                "Chewing tobacco",
                 ""
               ]
             }

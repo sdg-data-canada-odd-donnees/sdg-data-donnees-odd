@@ -54,7 +54,7 @@ Indicator,Disaggregations,Number of disaggregations
 #3-3-3,Sex,1
 #3-3-4,Sex,1
 #3-3-5,Sex,1
-#3-4-1,"Sex, Age at time of death, Causes of death",3
+#3-4-1,"Sex, Causes of death, Age at time of death",3
 #3-4-2,"Geography, Sex",2
 #3-5-2,Geography,1
 #3-6-1,"Sex, Age",2
@@ -62,8 +62,8 @@ Indicator,Disaggregations,Number of disaggregations
 #3-7-2,Place of residence of mother,1
 #3-8-2,Population,1
 #3-9-2,Type of disease,1
-#3-a-1,"Sex, Age Group, Tobacco Product",3
-#3-b-1,"Geography, Gender, Selected diseases, Target population",4
+#3-a-1,"Tobacco Product, Sex, Age Group",3
+#3-b-1,"Geography, Gender, Antigen or vaccine, Target population",4
 #3-b-2,Assistance type,1
 #3-c-1,"Geography, Sex, Type of occupation",3
 #4-1-1,Sex,1

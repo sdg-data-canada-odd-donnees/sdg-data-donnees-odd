@@ -758,6 +758,26 @@
             "title": "Year"
           },
           {
+            "name": "Tobacco Product",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Any tobacco product",
+                "Cigarettes",
+                "Cigars",
+                "E-cigarettes",
+                "Little cigars or cigarillos",
+                "Smokeless tobacco",
+                "Water pipe with tobacco",
+                "Pipe",
+                "Vaping",
+                "Chewing tobacco",
+                ""
+              ]
+            },
+            "title": "Tobacco Product"
+          },
+          {
             "name": "Sex",
             "type": "string",
             "constraints": {
@@ -785,26 +805,6 @@
               ]
             },
             "title": "Age Group"
-          },
-          {
-            "name": "Tobacco Product",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Any tobacco product",
-                "Cigarettes",
-                "Cigars",
-                "E-cigarettes",
-                "Little cigars or cigarillos",
-                "Smokeless tobacco",
-                "Water pipe with tobacco",
-                "Pipe",
-                "Vaping",
-                "Chewing tobacco",
-                ""
-              ]
-            },
-            "title": "Tobacco Product"
           },
           {
             "name": "Value",
@@ -1913,6 +1913,26 @@
             "title": "Year"
           },
           {
+            "name": "Causes of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Malignant neoplasms",
+                "Diabetes mellitus",
+                "Diseases of heart",
+                "Essential hypertension and hypertensive renal disease",
+                "Cerebrovascular diseases",
+                "Atherosclerosis",
+                "Aortic aneurysm and dissection",
+                "Chronic lower respiratory diseases",
+                "Pneumoconioses and chemical effects",
+                "Pneumonitis due to solids and liquids",
+                ""
+              ]
+            },
+            "title": "Causes of death"
+          },
+          {
             "name": "Age at time of death",
             "type": "string",
             "constraints": {
@@ -1963,26 +1983,6 @@
               ]
             },
             "title": "Sex"
-          },
-          {
-            "name": "Causes of death",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Malignant neoplasms",
-                "Diabetes mellitus",
-                "Diseases of heart",
-                "Essential hypertension and hypertensive renal disease",
-                "Cerebrovascular diseases",
-                "Atherosclerosis",
-                "Aortic aneurysm and dissection",
-                "Chronic lower respiratory diseases",
-                "Pneumoconioses and chemical effects",
-                "Pneumonitis due to solids and liquids",
-                ""
-              ]
-            },
-            "title": "Causes of death"
           },
           {
             "name": "Value",
@@ -5204,6 +5204,20 @@
             "title": "Year"
           },
           {
+            "name": "Type of occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Medical doctors",
+                "Nursing and midwifery personnel",
+                "Dentists",
+                "Pharmacists",
+                ""
+              ]
+            },
+            "title": "Type of occupation"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -5250,20 +5264,6 @@
               ]
             },
             "title": "Units"
-          },
-          {
-            "name": "Type of occupation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Medical doctors",
-                "Nursing and midwifery personnel",
-                "Dentists",
-                "Pharmacists",
-                ""
-              ]
-            },
-            "title": "Type of occupation"
           },
           {
             "name": "Sex",
@@ -6015,7 +6015,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -7090,6 +7089,48 @@
             "title": "Year"
           },
           {
+            "name": "Antigen or vaccine",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Diphtheria",
+                "Pertussis (whooping cough)",
+                "Tetanus",
+                "Polio",
+                "Haemophilus influenzae type B (Hib)",
+                "Measles",
+                "Mumps",
+                "Rubella",
+                "Hepatitis B",
+                "Varicella",
+                "Meningococcal type C",
+                "Pneumococcal",
+                "Rotavirus",
+                "Human Papillomavirus (HPV)",
+                "Diphtheria, Tetanus, acellular Pertussis (Tdap) booster",
+                "Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)",
+                "Influenza (flu)",
+                ""
+              ]
+            },
+            "title": "Antigen or vaccine"
+          },
+          {
+            "name": "Target population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Recommended vaccines for 2-year-old children",
+                "Recommended vaccines for 7-year-old children",
+                "Recommended vaccines for 14-year-old children",
+                "Recommended vaccines for 17-year-old children",
+                "Recommended vaccines during pregnancy",
+                ""
+              ]
+            },
+            "title": "Target population"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -7114,53 +7155,10 @@
             "title": "Geography"
           },
           {
-            "name": "Selected diseases",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Diphtheria",
-                "Pertussis (whooping cough)",
-                "Tetanus",
-                "Polio",
-                "Haemophilus influenzae type B (Hib)",
-                "Measles",
-                "Mumps",
-                "Rubella",
-                "Hepatitis B",
-                "Varicella",
-                "Meningococcal type C",
-                "Pneumococcal",
-                "Rotavirus",
-                "Human Papillomavirus (HPV)",
-                "Diphtheria, Tetanus, acellular Pertussis (Tdap) booster",
-                "Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)",
-                "Influenza (flu)",
-                ""
-              ]
-            },
-            "title": "Selected diseases"
-          },
-          {
-            "name": "Target population",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Recommended vaccines for 2-year-old children",
-                "Recommended vaccines for 7-year-old children",
-                "Recommended vaccines for 14-year-old children",
-                "Recommended vaccines for 17-year-old children",
-                "Recommended vaccines during pregnancy",
-                ""
-              ]
-            },
-            "title": "Target population"
-          },
-          {
             "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total - Gender",
                 "Women+",
                 "Men+",
                 ""

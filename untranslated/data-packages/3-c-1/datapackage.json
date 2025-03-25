@@ -15,6 +15,19 @@
             "type": "integer"
           },
           {
+            "name": "Type of occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Medical doctors",
+                "Nursing and midwifery personnel",
+                "Dentists",
+                "Pharmacists",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -55,19 +68,6 @@
               "enum": [
                 "Rate per 10,000 population",
                 "Percentage (%)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of occupation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Medical doctors",
-                "Nursing and midwifery personnel",
-                "Dentists",
-                "Pharmacists",
                 ""
               ]
             }

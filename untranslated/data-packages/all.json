@@ -700,6 +700,25 @@
             "type": "integer"
           },
           {
+            "name": "Tobacco Product",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Any tobacco product",
+                "Cigarettes",
+                "Cigars",
+                "E-cigarettes",
+                "Little cigars or cigarillos",
+                "Smokeless tobacco",
+                "Water pipe with tobacco",
+                "Pipe",
+                "Vaping",
+                "Chewing tobacco",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Sex",
             "type": "string",
             "constraints": {
@@ -722,25 +741,6 @@
                 "25-44 years-old",
                 "45+ years-old",
                 "All age groups",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Tobacco Product",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Any tobacco product",
-                "Cigarettes",
-                "Cigars",
-                "E-cigarettes",
-                "Little cigars or cigarillos",
-                "Smokeless tobacco",
-                "Water pipe with tobacco",
-                "Pipe",
-                "Vaping",
-                "Chewing tobacco",
                 ""
               ]
             }
@@ -1773,6 +1773,25 @@
             "type": "integer"
           },
           {
+            "name": "Causes of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Malignant neoplasms",
+                "Diabetes mellitus",
+                "Diseases of heart",
+                "Essential hypertension and hypertensive renal disease",
+                "Cerebrovascular diseases",
+                "Atherosclerosis",
+                "Aortic aneurysm and dissection",
+                "Chronic lower respiratory diseases",
+                "Pneumoconioses and chemical effects",
+                "Pneumonitis due to solids and liquids",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Age at time of death",
             "type": "string",
             "constraints": {
@@ -1818,25 +1837,6 @@
                 "Both sexes",
                 "Males",
                 "Females",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Causes of death",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Malignant neoplasms",
-                "Diabetes mellitus",
-                "Diseases of heart",
-                "Essential hypertension and hypertensive renal disease",
-                "Cerebrovascular diseases",
-                "Atherosclerosis",
-                "Aortic aneurysm and dissection",
-                "Chronic lower respiratory diseases",
-                "Pneumoconioses and chemical effects",
-                "Pneumonitis due to solids and liquids",
                 ""
               ]
             }
@@ -4834,6 +4834,19 @@
             "type": "integer"
           },
           {
+            "name": "Type of occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Medical doctors",
+                "Nursing and midwifery personnel",
+                "Dentists",
+                "Pharmacists",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -4874,19 +4887,6 @@
               "enum": [
                 "Rate per 10,000 population",
                 "Percentage (%)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of occupation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Medical doctors",
-                "Nursing and midwifery personnel",
-                "Dentists",
-                "Pharmacists",
                 ""
               ]
             }
@@ -5584,7 +5584,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -6583,30 +6582,7 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Ontario",
-                "Quebec",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Selected diseases",
+            "name": "Antigen or vaccine",
             "type": "string",
             "constraints": {
               "enum": [
@@ -6646,11 +6622,33 @@
             }
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Ontario",
+                "Quebec",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total - Gender",
                 "Women+",
                 "Men+",
                 ""

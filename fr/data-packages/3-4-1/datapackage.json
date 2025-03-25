@@ -16,6 +16,26 @@
             "title": "Année"
           },
           {
+            "name": "Causes of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tumeurs malignes",
+                "Diabète sucré",
+                "Maladies du coeur",
+                "Hypertension essentielle et néphropathie hypertensive",
+                "Maladies cérébrovasculaires",
+                "Athérosclérose",
+                "Anévrisme aortique et dissection",
+                "Maladies chroniques des voies respiratoires inférieures",
+                "Pneumoconioses et affections respiratoires dues à des agents chimiques",
+                "Pneumopathie due à des substances solides et liquides",
+                ""
+              ]
+            },
+            "title": "Causes de décès"
+          },
+          {
             "name": "Age at time of death",
             "type": "string",
             "constraints": {
@@ -66,26 +86,6 @@
               ]
             },
             "title": "Sexe"
-          },
-          {
-            "name": "Causes of death",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Tumeurs malignes",
-                "Diabète sucré",
-                "Maladies du coeur",
-                "Essential hypertension and hypertensive renal disease",
-                "Cerebrovascular diseases",
-                "Atherosclerosis",
-                "Aortic aneurysm and dissection",
-                "Maladies chroniques des voies respiratoires inférieures",
-                "Pneumoconioses and chemical effects",
-                "Pneumonitis due to solids and liquids",
-                ""
-              ]
-            },
-            "title": "Causes of death"
           },
           {
             "name": "Value",

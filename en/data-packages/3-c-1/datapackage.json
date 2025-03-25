@@ -16,6 +16,20 @@
             "title": "Year"
           },
           {
+            "name": "Type of occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Medical doctors",
+                "Nursing and midwifery personnel",
+                "Dentists",
+                "Pharmacists",
+                ""
+              ]
+            },
+            "title": "Type of occupation"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -62,20 +76,6 @@
               ]
             },
             "title": "Units"
-          },
-          {
-            "name": "Type of occupation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Medical doctors",
-                "Nursing and midwifery personnel",
-                "Dentists",
-                "Pharmacists",
-                ""
-              ]
-            },
-            "title": "Type of occupation"
           },
           {
             "name": "Sex",

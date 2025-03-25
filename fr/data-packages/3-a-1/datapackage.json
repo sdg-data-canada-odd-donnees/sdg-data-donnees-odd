@@ -16,6 +16,26 @@
             "title": "Année"
           },
           {
+            "name": "Tobacco Product",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tout produit du tabac",
+                "Cigarettes",
+                "Cigares",
+                "Cigarettes électroniques",
+                "Petits cigares ou cigarillos",
+                "Tabac sans fumée",
+                "Pipe à eau avec du tabac",
+                "Pipe",
+                "Vapotage",
+                "Tabac à chiquer",
+                ""
+              ]
+            },
+            "title": "Produits du tabac"
+          },
+          {
             "name": "Sex",
             "type": "string",
             "constraints": {
@@ -43,26 +63,6 @@
               ]
             },
             "title": "Groupe d’âge"
-          },
-          {
-            "name": "Tobacco Product",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Tout produit du tabac",
-                "Cigarettes",
-                "Cigares",
-                "Cigarettes électroniques",
-                "Petits cigares ou cigarillos",
-                "Tabac sans fumée",
-                "Pipe à eau avec du tabac",
-                "Pipe",
-                "Vapotage",
-                "Tabac à chiquer",
-                ""
-              ]
-            },
-            "title": "Produits du tabac"
           },
           {
             "name": "Value",

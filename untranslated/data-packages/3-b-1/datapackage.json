@@ -15,30 +15,7 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Ontario",
-                "Quebec",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Selected diseases",
+            "name": "Antigen or vaccine",
             "type": "string",
             "constraints": {
               "enum": [
@@ -78,11 +55,33 @@
             }
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Ontario",
+                "Quebec",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total - Gender",
                 "Women+",
                 "Men+",
                 ""

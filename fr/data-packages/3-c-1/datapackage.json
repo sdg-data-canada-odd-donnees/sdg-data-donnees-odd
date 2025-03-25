@@ -16,6 +16,20 @@
             "title": "Année"
           },
           {
+            "name": "Type of occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Médecins",
+                "Personnel infirmier et sages-femmes",
+                "Dentistes",
+                "Pharmaciens",
+                ""
+              ]
+            },
+            "title": "Type de profession"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -62,20 +76,6 @@
               ]
             },
             "title": "Unités"
-          },
-          {
-            "name": "Type of occupation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Médecins",
-                "Personnel infirmier et sages-femmes",
-                "Dentistes",
-                "Pharmaciens",
-                ""
-              ]
-            },
-            "title": "Type de profession"
           },
           {
             "name": "Sex",
