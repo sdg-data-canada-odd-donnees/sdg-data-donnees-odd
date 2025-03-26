@@ -7,7 +7,7 @@ SDG_INDICATOR: |-
   Indicateur 16.7.2 : Proportion de la population ayant une grande confiance envers certaines institutions gouvernementales
 STAT_CONC_DEF: |-
   Cet indicateur mesure la proportion de la population ayant une grande confiance envers certaines institutions gouvernementales.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Proportion de la population qui estime que la prise de décisions est ouverte et réactive, par sexe, âge, situation au regard du handicap et groupe de la population ». 
 
