@@ -24,7 +24,7 @@ STAT_CONC_DEF: |-
   <li>Record keeping and reporting</li>
   </ol>
   Each question values between 0 and 2. Upon the completion of the survey, a country can get a total score of 0-9. The total score of each country will not be assigned to any level category (e.g.: low, medium or high). However, it will contribute to global aggregates.</p>
-DATA_COMP: '     '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   A country's responses to the UNESCO Survey on Public Access to Information are scored based on two components: adoption and implementation. A score between 0 and 5 is awarded for the adoption component. A score between 0 and 4 is awarded for the implementation component. The total score is the sum of the scores from each component with a maximum possible score of 9.
   <br><br>
@@ -48,6 +48,7 @@ source_active_1: 'true'
 source_url_text_1:  The Right to Access to Information
 source_url_1: https://www.unesco.org/en/right-access-information
 source_organisation_1: UNESCO
+source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
