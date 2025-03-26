@@ -24,10 +24,7 @@ indicator_name: global_indicators.17-18-2-title
 indicator_available: proxy.17-18-2-title
 indicator_number: 17.18.2
 national_geographical_coverage: Canada
-page_content: |
-  <strong>Non-statistical indicator</strong>
-  <br>
-  <br>We have identified the following to be relevant to this indicator - <a href="https://laws-lois.justice.gc.ca/eng/acts/S-19/FullText.html"><i>Statistics Act</i></a>.
+page_content: custom.17-18-2-page-content
 permalink: ""
 precision: []
 progress_calculation_options:
