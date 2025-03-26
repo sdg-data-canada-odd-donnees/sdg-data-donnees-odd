@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Variation de l'efficacité de l'utilisation des ressources en eau en pourcentage (%)",
+                "Variation en pourcentage de l'efficacité de l'utilisation des ressources en eau au fil du temps (%)",
                 "Efficacité de l'utilisation des ressources en eau (USD par mètre cube)",
                 ""
               ]

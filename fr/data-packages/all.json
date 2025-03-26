@@ -375,7 +375,7 @@
           }
         ]
       },
-      "title": "Proportion des dépenses publiques totales affectée aux services essentiels (éducation, santé et protection sociale)"
+      "title": "Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)"
     },
     {
       "path": "5-2-2/data.csv",
@@ -6919,7 +6919,7 @@
                 "Accès aux services d’assainissement de base",
                 "Accès à des carburants et technologies propres",
                 "Accès à la mobilité de base",
-                "Access to basic waste collection services",
+                "Accès aux services de base de collecte des déchets",
                 "Accès à l'éducation de base",
                 "Accès aux services d’information de base",
                 ""
@@ -8836,7 +8836,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Variation de l'efficacité de l'utilisation des ressources en eau en pourcentage (%)",
+                "Variation en pourcentage de l'efficacité de l'utilisation des ressources en eau au fil du temps (%)",
                 "Efficacité de l'utilisation des ressources en eau (USD par mètre cube)",
                 ""
               ]
@@ -11202,7 +11202,7 @@
           }
         ]
       },
-      "title": "Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans a) les politiques nationales d’éducation, b) les programmes d’enseignement, c) la formation des enseignants et d) l’évaluation des étudiants (identique à l’amélioration à apporter à l’indicateur 12.8.1 ci dessous et à la proposition de remplacement faite pour l’indicateur 13.3.1, figurant à la section A de l’annexe II)"
+      "title": "Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans a) les politiques nationales d’éducation, b) les programmes d’enseignement, c) la formation des enseignants et d) l’évaluation des étudiants"
     },
     {
       "path": "6-b-1/data.csv",
