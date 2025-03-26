@@ -6,7 +6,7 @@ SDG_TARGET: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de dé
 SDG_INDICATOR: '<p>Indicateur 3.9.1 : Taux de mortalité attribué à la pollution de
   l''air ambiant et des ménages. </p>'
 STAT_CONC_DEF: |
-  La mortalité attribuable aux effets conjoints de la pollution de l’air ambiant et de la pollution de l’air à l’intérieur des habitations peut être exprimée comme suit : nombre de décès, taux de mortalité. Les taux de mortalité sont calculés en divisant le nombre de décès par la population totale (ou comme indiqués si un groupe de population différent est utilisé, par exemple les enfants de moins de 5 ans).
+  Le taux de mortalité attribuable aux effets conjoints de la pollution domestique et de la pollution de l'air ambiant peut être exprimé comme suit : taux de mortalité brut ou taux de mortalité normalisé selon l'âge. Les taux de mortalité sont calculés en divisant le nombre de décès par la population totale (ou comme indiqués si un groupe de population différent est utilisé, par exemple les enfants de moins de 5 ans).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir

@@ -1,53 +1,37 @@
 auto_progress_calculation: true
-computation_units: ''
-copyright: ''
-data_footnote: ''
+computation_units: ""
+copyright: ""
+data_footnote: ""
 data_non_statistical: true
-data_notice_class: ''
-data_notice_heading: ''
-data_notice_text: ''
+data_notice_class: ""
+data_notice_heading: ""
+data_notice_text: ""
 data_show_map: false
 data_start_values: []
-embedded_feature_footer: ''
-embedded_feature_html: ''
-embedded_feature_tab_title: ''
-embedded_feature_title: ''
-embedded_feature_url: ''
+embedded_feature_footer: ""
+embedded_feature_html: ""
+embedded_feature_tab_title: ""
+embedded_feature_title: ""
+embedded_feature_url: ""
 expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
-graph_stacked_disaggregation: ''
+graph_stacked_disaggregation: ""
 graph_title: global_indicators.12-4-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.12-4-1-title
 indicator_available: proxy.12-4-1-title
 indicator_number: 12.4.1
-national_geographical_coverage: ''
-page_content: |
-  <strong>Non-statistical indicator</strong>
-  <br>
-  <br>We have identified the following to be relevant to this indicator - <a href="https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/international-commitments/overview.html">Overview of international commitments on waste</a>.
-  <br>
-  <br>Canada implements the terms of international agreements to which it is party through domestic regulations, under authority of the <a href="https://www.canada.ca/en/environment-climate-change/services/canadian-environmental-protection-act-registry/related-documents.html">Canadian Environmental Protection Act</a>, 1999 (CEPA, 1999).
-   Implementing the terms of these agreements demonstrates the intention to protect Canada's environment and the health of Canadians from risks posed by unregulated traffic in hazardous waste and hazardous recyclable material. 
-   In signing these international agreements, Canada made a commitment to develop national legislation to promote the environmentally sound management of hazardous wastes and hazardous recyclable materials.
-  <br>
-  <br>More information on the three relevant international agreements is available at the following links:
-  <br>
-  <br>The <a href="https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/international-commitments/basel-convention-control-transboundary-movements.html">United Nations Basel Convention on the Control of Transboundary of Hazardous Wastes and their Disposal</a>, 1989 (ratified by Canada in 1992);
-  <br>
-  <br>The <a href="https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/international-commitments/organization-economic-co-operation-development-decision.html">Organization for Economic Co-operation and Development (OECD) Decision of Council on the Control of Transboundary Movements of Wastes Destined for Recovery Operations</a>, OECE/LEGAL/0266, harmonized with the Basel Convention; and
-  <br>
-  <br>The <a href="https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/international-commitments/canada-united-states-agreement.html">Canada-USA Agreement on the Transboundary Movement of Hazardous Wastes</a>, 1986 (as amended in 1992).
-permalink: ''
+national_geographical_coverage: Canada
+page_content: custom.12-4-1-page-content
+permalink: ""
 precision: []
 progress_calculation_options:
-- target_year: 2020
+  - target_year: 2020
 progress_status: target_achieved
 reporting_status: complete
-sort: ''
+sort: ""
 standalone: false
 tags:
   - Proxy
-"\xEF\xBB\xBFcomposite_breakdown_label": ''
