@@ -24,10 +24,7 @@ indicator_name: global_indicators.15-8-1-title
 indicator_available: proxy.15-8-1-title
 indicator_number: 15.8.1
 national_geographical_coverage: Canada
-page_content: |
-  <strong>Non-statistical indicator</strong>
-  <br>
-  <br>We have identified the following to be relevant to this indicator - <a href="https://publications.gc.ca/site/eng/462217/publication.html">An invasive alien species strategy for Canada</a>.
+page_content: custom.15-8-1-page-content
 permalink: ""
 precision: []
 progress_calculation_options:
