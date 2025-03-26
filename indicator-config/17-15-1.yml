@@ -24,11 +24,7 @@ indicator_name: global_indicators.17-15-1-title
 indicator_available: proxy.17-15-1-title
 indicator_number: 17.15.1
 national_geographical_coverage: Canada
-page_content: |
-  <strong>Non-statistical indicator</strong>
-  <br>
-  <br>We have identified the following to be relevant to this indicator - <a href="https://www.canada.ca/en/employment-social-development/programs/poverty-reduction.html">Canadian Poverty
-  Reduction Strategy</a> and <a href="https://www.canada.ca/en/employment-social-development/programs/agenda-2030/federal-implementation-plan.html">Canada's Federal Implementation Plan for the 2030 Agenda</a>.
+page_content: custom.17-15-1-page-content
 permalink: ""
 precision: []
 progress_status: target_achieved
