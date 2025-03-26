@@ -24,13 +24,7 @@ indicator_name: global_indicators.17-16-1-title
 indicator_available: proxy.17-16-1-title
 indicator_number: 17.16.1
 national_geographical_coverage: Canada
-page_content: |
-  <strong>Non-statistical indicator</strong>
-  <br>
-  <br>We have identified the following to be relevant to this indicator - <a href="https://www.canada.ca/en/employment-social-development/programs/agenda-2030/moving-forward.html">Moving 
-  forward together: Canada's 2030 Agenda National Strategy</a> and <a href="https://www150.statcan.gc.ca/n1/daily-quotidien/210622/dq210622c-eng.htm">The 
-  Canadian Indicator Framework for the Sustainable Development Goals</a> and <a href="https://sdgcif-data-canada-oddcic-donnee.github.io/">Canadian 
-  Indicator Framework for the Sustainable Development Goals Data Hub</a>.
+page_content: custom.17-16-1-page-content
 permalink: ""
 precision: []
 progress_status: target_achieved
