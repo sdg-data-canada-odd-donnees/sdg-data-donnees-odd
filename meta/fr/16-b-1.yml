@@ -20,7 +20,7 @@ STAT_CONC_DEF: |-
   - âge; <br>
   - incapacité physique ou mentale; <br>
   - toute autre raison spécifiée.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme ». 
   <br><br>

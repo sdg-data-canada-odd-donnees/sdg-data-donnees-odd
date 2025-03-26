@@ -20,7 +20,7 @@ STAT_CONC_DEF: |-
   - Age; <br>
   - Physical or mental disability; <br>
   - Any other specified reason.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   This is a proxy indicator. The UN Global indicator states: “Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law”. 
   <br><br>
