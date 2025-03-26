@@ -24,10 +24,7 @@ indicator_name: global_indicators.17-18-3-title
 indicator_available: proxy.17-18-3-title
 indicator_number: 17.18.3
 national_geographical_coverage: Canada
-page_content: |
-  <strong>Non-statistical indicator</strong>
-  <br>
-  <br>We have identified the following to be relevant to this indicator - <a href="https://www150.statcan.gc.ca/n1/en/catalogue/11-635-X">Departmental Plan</a>.
+page_content: custom.17-18-3-page-content
 permalink: ""
 precision: []
 progress_calculation_options:
