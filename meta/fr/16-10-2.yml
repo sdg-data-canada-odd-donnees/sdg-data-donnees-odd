@@ -24,7 +24,7 @@ STAT_CONC_DEF: |-
   <li>Tenue de registres et établissement de rapports</li>
   </ol>
   Chaque question a une valeur comprise entre 0 et 2. À l’issue de l’enquête, un pays peut obtenir un score total de 0 à 9. Le score total de chaque pays ne sera assigné à aucune catégorie de niveau (p. ex. faible, moyen ou élevé). Cependant, il contribuera aux agrégats mondiaux.</p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   Les réponses d’un pays à l’Enquête sur l’accès public à l’information de l’UNESCO sont évaluées selon deux composantes : l’adoption et la mise en œuvre. Un score entre 0 et 5 est attribué pour la composante de l’adoption. Un score entre 0 et 4 est attribué pour la composante de la mise en œuvre. Le score total est la somme des scores obtenus pour chaque composante, le score maximal possible étant 9.
   <br><br>
@@ -48,6 +48,7 @@ source_active_1: 'true'
 source_url_text_1:  The Right to Access to Information (en anglais seulement)
 source_url_1: https://www.unesco.org/en/right-access-information
 source_organisation_1: UNESCO
+source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
