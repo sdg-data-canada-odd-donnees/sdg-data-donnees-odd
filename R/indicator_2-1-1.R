@@ -6,7 +6,7 @@ library(dplyr)
 library(stringr)
 library(readsdmx)
 
-primary_url <- "https://nsi-release-ro-statsuite.fao.org/rest/data/FAO,DF_SN_ITK_DEFC_211,1.0/A...124........?startPeriod=2015&dimensionAtObservation=AllDimensions"
+primary_url <- "https://nsi-release-ro-statsuite.fao.org/rest/data/FAO,DF_SDG_2_1_1,1.0/A.SN_ITK_DEFC.124.........?startPeriod=2015&dimensionAtObservation=AllDimensions"
 FAO_Primary <- read_sdmx(primary_url)
 
 data_final <-

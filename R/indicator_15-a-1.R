@@ -11,7 +11,7 @@ library(jsonlite)
 # Sector = Biodiversity
 # Flow type = Disbursements, Price base = Constant prices
 
-biodiversity_CRS_json <- fromJSON("https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.1/CAN.DPGC.41030.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions")
+biodiversity_CRS_json <- fromJSON("https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.3/CAN.DPGC.41030.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions")
 
 # Extract observations
 biodiversity <- biodiversity_CRS_json$data$dataSets$observations
