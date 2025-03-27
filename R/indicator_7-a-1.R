@@ -15,7 +15,6 @@ library(rjson)
 energy_url <- "https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.3/CAN.DPGC.23182.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 energy_json <- fromJSON(file = energy_url)
 energy_json_data <- t(as.data.frame(energy_json$data$dataSets[[1]]$observations))
-  
 energy_json_year <- as.data.frame(energy_json$data$structure$dimensions$observation[[12]]$values) %>%
   select(
     starts_with("id")
@@ -36,7 +35,6 @@ energy_data <- bind_cols(energy_json_year, energy_json_data) %>%
 generation_url <- "https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.3/CAN.DPGC.232.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 generation_json <- fromJSON(file = generation_url)
 generation_json_data <- t(as.data.frame(generation_json$data$dataSets[[1]]$observations))
-
 generation_json_year <- as.data.frame(generation_json$data$structure$dimensions$observation[[12]]$values) %>%
   select(
     starts_with("id")
