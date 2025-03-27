@@ -8,7 +8,7 @@ library(dplyr)
 library(stringr)
 library(readsdmx)
 
-primary_url <- "https://nsi-release-ro-statsuite.fao.org/rest/data/FAO,DF_AG_FPA_CFPI_2C1,1.0/A...124........?startPeriod=2015&dimensionAtObservation=AllDimensions"
+primary_url <- "https://nsi-release-ro-statsuite.fao.org/rest/data/FAO,DF_SDG_2_C_1,1.0/A.AG_FPA_CFPI.124.........?startPeriod=2015&dimensionAtObservation=AllDimensions"
 FAO_Primary <- readsdmx::read_sdmx(primary_url)
 
 data_final <-
