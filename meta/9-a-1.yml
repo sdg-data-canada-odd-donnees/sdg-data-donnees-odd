@@ -6,12 +6,13 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   Indicator 9.a.1: Total official international support (official development assistance plus other official flows) to infrastructure
 STAT_CONC_DEF: >-
-  Gross disbursements of total official development assistance (ODA) and other official flows (OOF) from all donors in support of infrastructure.
+  Gross disbursements of total official development assistance (ODA) and other official flows (OOF) from Canada in support of infrastructure.
 DATA_COMP: >-
   The total sum of gross ODA and OOF disbursements to developing countries for infrastructure (CRS codes 200).
   <br><br>
   Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.
-REC_USE_LIM: '    '
+REC_USE_LIM: |
+  Data for this indicator specifically represents the contributions made by Canada as the primary donor, rather than those from all countries.
 
 # Global
 SDG_GOAL__GLOBAL: >-
