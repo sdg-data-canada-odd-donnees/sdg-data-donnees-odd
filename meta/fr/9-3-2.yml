@@ -13,7 +13,7 @@ STAT_CONC_DEF: >-
   - Une petite entreprise compte de 1 à 99 employés rémunérés. <br>
   - Une entreprise de taille moyenne compte de 100 à 499 employés rémunérés. <br>
   - Une grande entreprise compte 500 employés rémunérés ou plus.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp-national
 REC_USE_LIM: >-
   Il s'agit d'un indicateur de substitution qui mesure la proportion de petites entreprises ayant fait la demande d'un prêt ou d'une marge de crédit et les taux d'approbation correspondants, tandis que l'indicateur global des Nations Unies indique : « Proportion des petites entreprises industrielles ayant contracté un prêt ou une ligne de crédit ».
   <br><br>
