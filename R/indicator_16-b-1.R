@@ -299,7 +299,7 @@ second_series_total_line <-
   ) %>% 
   mutate_at(3:(ncol(.) - 1), ~ "") %>%
   mutate(
-    Series = "Proportion of individuals within a population who report experiencing discrimination or unfair treatment"
+    Series = "Proportion of individuals within a population who reported experiencing discrimination or unfair treatment"
   ) %>%
   relocate(Series, .before = "Geography")
 
@@ -324,7 +324,7 @@ second_series_non_total <-
       `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada")
   ) %>%
   mutate(
-    Series = "Proportion of individuals within a population who report experiencing discrimination or unfair treatment"
+    Series = "Proportion of individuals within a population who reported experiencing discrimination or unfair treatment"
   ) %>%
   relocate(Series, .before = "Geography")
 
