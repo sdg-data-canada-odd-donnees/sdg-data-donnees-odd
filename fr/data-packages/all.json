@@ -1694,7 +1694,7 @@
             "constraints": {
               "enum": [
                 "Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste",
-                "Proportion d'individus au sein d'une population déclarant avoir été victimes de discrimination ou de traitement injuste",
+                "Proportion of individuals within a population who reported experiencing discrimination or unfair treatment",
                 ""
               ]
             },
@@ -1849,7 +1849,7 @@
                 "Certificat ou diplôme universitaire inférieur au baccalauréat",
                 "Baccalauréat ou grade supérieur",
                 "Baccalauréat",
-                "University certificate, diploma or degree above bachelor level",
+                "Certificat, diplôme ou grade universitaire supérieur au baccalauréat",
                 "Total, plus haut certificat, diplôme ou grade",
                 ""
               ]
@@ -6254,7 +6254,7 @@
                 ""
               ]
             },
-            "title": "Information démographique, l’entreprise est majoritairement détenue"
+            "title": "Information démographique"
           },
           {
             "name": "Value",
