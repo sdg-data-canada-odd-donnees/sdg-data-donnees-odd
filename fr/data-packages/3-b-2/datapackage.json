@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Santé de base",
                 "Recherche médicale",
+                "Santé de base",
                 ""
               ]
             },

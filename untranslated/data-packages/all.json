@@ -276,16 +276,6 @@
             "type": "integer"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Official development assistance on conservation and sustainable use of biodiversity",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "number"
           }
@@ -2914,11 +2904,11 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Multisector aid for basic social services",
+                "Development food assistance",
                 "Basic education",
                 "Basic health",
                 "Water supply and sanitation",
-                "Multisector aid for basic social services",
-                "Development food assistance",
                 ""
               ]
             }
@@ -3154,16 +3144,6 @@
           {
             "name": "Year",
             "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Official development assistance on conservation and sustainable use of biodiversity",
-                ""
-              ]
-            }
           },
           {
             "name": "Value",
@@ -8085,8 +8065,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Basic health",
                 "Medical research",
+                "Basic health",
                 ""
               ]
             }

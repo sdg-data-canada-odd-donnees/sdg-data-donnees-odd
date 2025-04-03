@@ -16,17 +16,6 @@
             "title": "Année"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

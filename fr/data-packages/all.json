@@ -298,17 +298,6 @@
             "title": "Année"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -3133,11 +3122,11 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Aide plurisectorielle pour les services sociaux de base",
+                "Aide alimentaire dévelopmentale",
                 "Éducation de base",
                 "Santé de base",
                 "Distribution d'eau et assainissement",
-                "Aide plurisectorielle pour les services sociaux de base",
-                "Aide alimentaire dévelopmentale",
                 ""
               ]
             },
@@ -3394,17 +3383,6 @@
             "name": "Year",
             "type": "integer",
             "title": "Année"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité",
-                ""
-              ]
-            },
-            "title": "Series"
           },
           {
             "name": "Value",
@@ -8713,8 +8691,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Santé de base",
                 "Recherche médicale",
+                "Santé de base",
                 ""
               ]
             },

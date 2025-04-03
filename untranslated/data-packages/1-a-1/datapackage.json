@@ -19,11 +19,11 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Multisector aid for basic social services",
+                "Development food assistance",
                 "Basic education",
                 "Basic health",
                 "Water supply and sanitation",
-                "Multisector aid for basic social services",
-                "Development food assistance",
                 ""
               ]
             }

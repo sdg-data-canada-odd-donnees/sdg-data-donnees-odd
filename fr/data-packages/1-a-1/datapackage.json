@@ -20,11 +20,11 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Aide plurisectorielle pour les services sociaux de base",
+                "Aide alimentaire dévelopmentale",
                 "Éducation de base",
                 "Santé de base",
                 "Distribution d'eau et assainissement",
-                "Aide plurisectorielle pour les services sociaux de base",
-                "Aide alimentaire dévelopmentale",
                 ""
               ]
             },
