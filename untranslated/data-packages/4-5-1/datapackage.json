@@ -19,56 +19,38 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Gender Parity Index",
-                "Location Parity Index",
-                "Wealth Parity Index",
+                "Completion rate",
+                "Educational attainment rate",
+                "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months",
+                "Proportion of students achieving at least a minimum proficiency level in mathematics",
+                "Proportion of students achieving at least a minimum proficiency level in reading",
                 ""
               ]
             }
           },
           {
-            "name": "Educational indicator",
+            "name": "Parity index",
             "type": "string",
             "constraints": {
               "enum": [
-                "Completion rate",
-                "Educational attainment rate",
-                "Proficiency in knowledge of environmental science and geoscience - Cognitive dimension",
-                "Proficiency in knowledge of environmental science and geoscience",
-                "Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Confidence",
-                "Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Enjoyment",
-                "Percentage of students in early grades who have their first or home language as language of instruction",
-                "Percentage of students at the end of lower secondary education who have their first or home language as language of instruction",
-                "Gross enrolment ratio for tertiary education",
-                "Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in mathematics",
-                "Proportion of students at the end of primary education achieving at least a minimum proficiency level in mathematics",
-                "Proportion of children/young people at the age of primary education prepared for the future in mathematics",
-                "Proportion of children/young people at the age of lower secondary education prepared for the future in mathematics",
-                "Proportion of children/young people at the age of lower secondary education prepared for the future in reading",
-                "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months",
-                "Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in reading",
-                "Out-of-school rate for children, adolescents and youth of primary, lower secondary and upper secondary school age",
-                "Out-of-school rate for adolescents and youth of lower and upper secondary school age",
-                "Out-of-school rate for youth of upper secondary school age",
-                "Proportion of children/young people at the age of primary education prepared for the future in reading",
-                "Proportion of students at the end of primary education achieving at least a minimum proficiency level in reading",
-                "Out-of-school rate for children of primary school age",
-                "Out-of-school rate for children and adolescents of primary and lower secondary school age",
-                "Adjusted net enrolment rate, one year before the official primary entry age",
-                "Out-of-school rate for children one year before the official age",
-                "Proportion of 15-24 year-olds enrolled in vocational education",
+                "Adjusted gender parity index",
+                "Adjusted location parity index",
+                "Adjusted wealth parity index",
+                "Adjusted language test parity index",
+                "Adjusted native parity index",
                 ""
               ]
             }
           },
           {
-            "name": "Level of education",
+            "name": "Education level",
             "type": "string",
             "constraints": {
               "enum": [
                 "Primary education",
                 "Lower secondary education",
                 "Upper secondary education",
+                "At least some primary (ISCED 1)",
                 "Completed primary education or higher",
                 "Completed lower secondary education or higher",
                 "Completed upper secondary education or higher",
@@ -76,7 +58,6 @@
                 "Completed short-cycle tertiary education or higher",
                 "Completed Bachelor's or equivalent education or higher",
                 "Completed Master's or equivalent education or higher",
-                "At least some primary (ISCED 1)",
                 "Completed Doctoral or equivalent education",
                 ""
               ]
@@ -101,19 +82,28 @@
             "constraints": {
               "enum": [
                 "Female",
-                "Both sexes",
                 "Male",
                 ""
               ]
             }
           },
           {
-            "name": "Area",
+            "name": "Location",
             "type": "string",
             "constraints": {
               "enum": [
                 "Rural",
                 "Urban",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Modelled data",
                 ""
               ]
             }

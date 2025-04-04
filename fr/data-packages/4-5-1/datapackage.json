@@ -20,67 +20,48 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Indice de parité entre les sexes",
-                "Indice de parité entre milieu urbain et rural",
-                "Indice de parité de richesse",
+                "Taux d'achèvement",
+                "Taux de scolarité",
+                "Taux de participation des jeunes et des adultes à l'éducation et à la formation formelles et non formelles au cours des 12 derniers mois",
+                "Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques",
+                "Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture",
                 ""
               ]
             },
             "title": "Series"
           },
           {
-            "name": "Educational indicator",
+            "name": "Parity index",
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux d'achèvement",
-                "Taux de scolarité",
-                "Compétence en matière de sciences de l’environnement et de géosciences - Dimension cognitive",
-                "Compétence en matière de sciences de l’environnement et de géosciences",
-                "Compétence en matière de sciences de l’environnement et de géosciences - Dimension non cognitive - Confiance",
-                "Compétence en matière de sciences de l’environnement et de géosciences - Dimension non cognitive - Plaisir",
-                "Pourcentage d'élèves au début de leur scolarité dont la langue d'enseignement est la première langue ou la langue parlée à la maison",
-                "Pourcentage d'élèves à la fin du premier cycle de l'enseignement secondaire dont la langue d'enseignement est la première langue ou la langue parlée à la maison",
-                "Taux brut de scolarisation pour l'enseignement tertiaire",
-                "Proportion d'élèves à la fin du premier cycle de l'enseignement secondaire atteignant au moins un niveau minimum de compétence en mathématiques",
-                "Proportion d'élèves à la fin de l'enseignement primaire atteignant au moins un niveau minimum de compétence en mathématiques",
-                "Proportion d'enfants/de jeunes à l'âge de l'enseignement primaire préparés pour l'avenir en mathématiques",
-                "Proportion d'enfants/de jeunes à l'âge du premier cycle de l'enseignement secondaire préparés pour l'avenir en mathématiques",
-                "Proportion d'enfants/de jeunes à l'âge du premier cycle de l'enseignement secondaire préparés pour l'avenir en lecture",
-                "Taux de participation des jeunes et des adultes à l'éducation et à la formation formelles et non formelles au cours des 12 derniers mois",
-                "Proportion d'élèves à la fin du premier cycle de l'enseignement secondaire atteignant au moins un niveau minimum de compétence en lecture",
-                "Taux de non-scolarisation des enfants, des adolescents et des jeunes en âge de fréquenter l'école primaire, le premier cycle de l'enseignement secondaire et le deuxième cycle de l'enseignement secondaire",
-                "Taux de non-scolarisation des adolescents et des jeunes en âge de fréquenter le premier et le deuxième cycle de l'enseignement secondaire",
-                "Taux de non-scolarisation des jeunes en âge de fréquenter l'école secondaire supérieure",
-                "Proportion d'enfants/de jeunes à l'âge de l'enseignement primaire préparés pour l'avenir en lecture",
-                "Proportion d'élèves à la fin de l'enseignement primaire atteignant au moins un niveau minimum de compétence en lecture",
-                "Taux de non-scolarisation des enfants en âge de fréquenter l'école primaire",
-                "Taux de non-scolarisation des enfants et des adolescents en âge de fréquenter l'école primaire et le premier cycle du secondaire",
-                "Taux net d'inscription ajusté, un an avant l'âge officiel d'entrée à l'école primaire",
-                "Taux de non-scolarisation des enfants un an avant l'âge officiel",
-                "Proportion des jeunes de 15 à 24 ans inscrits à l'enseignement professionnel",
+                "Indice de parité entre les sexes ajusté",
+                "Indice de parité entre milieu urbain et rural ajusté",
+                "Indice de parité de richesse ajusté",
+                "Indice de parité des tests de langue ajusté",
+                "Indice de parité natif ajusté",
                 ""
               ]
             },
-            "title": "Indicateur d'éducation"
+            "title": "Indice de parité"
           },
           {
-            "name": "Level of education",
+            "name": "Education level",
             "type": "string",
             "constraints": {
               "enum": [
-                "Enseignement primaire",
-                "Enseignement secondaire inférieur",
-                "Enseignement secondaire supérieur",
-                "Completed primary education or higher",
-                "Avoir terminé l'enseignement secondaire de premier cycle ou supérieur",
-                "Avoir terminé l'enseignement secondaire de deuxième cycle ou supérieur",
-                "Avoir terminé des études post-secondaires non tertiaires ou supérieures",
-                "Avoir terminé des études tertiaires de cycle court ou supérieures",
-                "Avoir terminé un baccalauréat ou une formation équivalente ou supérieure",
-                "Avoir terminé une maîtrise ou une formation équivalente ou supérieure",
-                "Au moins une partie de l'enseignement primaire (CITE 1)",
-                "Avoir terminé un doctorat ou une formation équivalente",
+                "Éducation primaire",
+                "Éducation secondaire de premier cycle",
+                "Éducation secondaire de deuxième cycle",
+                "Au moins une partie de l'éducation primaire (CITE 1)",
+                "A complété une éducation primaire ou supérieure",
+                "A complété une éducation secondaire de premier cycle ou supérieure",
+                "A complété une éducation secondaire de deuxième cycle ou supérieure",
+                "A complété une éducation post-secondaire non tertiaire ou supérieure",
+                "A complété une éducation tertiaire de cycle court ou supérieure",
+                "A complété un baccalauréat ou éducation équivalente ou supérieure",
+                "A complété une maîtrise ou éducation équivalente ou supérieure",
+                "A complété un doctorat ou éducation équivalente",
                 ""
               ]
             },
@@ -106,7 +87,6 @@
             "constraints": {
               "enum": [
                 "Femme",
-                "Les deux sexes",
                 "Homme",
                 ""
               ]
@@ -114,16 +94,27 @@
             "title": "Sexe"
           },
           {
-            "name": "Area",
+            "name": "Location",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rurale",
+                "Rural",
                 "Urbain",
                 ""
               ]
             },
-            "title": "Région"
+            "title": "Emplacement"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Donnée modélisée",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
           },
           {
             "name": "Value",
