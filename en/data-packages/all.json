@@ -6221,18 +6221,17 @@
             "title": "Age of primary decision maker"
           },
           {
-            "name": "Ownership demographics",
+            "name": "Demographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Small and medium enterprises",
                 "Indigenous",
                 "Visible minority",
                 "Person(s) with a disability",
                 ""
               ]
             },
-            "title": "Ownership demographics"
+            "title": "Demographic characteristics"
           },
           {
             "name": "Value",

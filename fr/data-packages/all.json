@@ -6221,18 +6221,17 @@
             "title": "Âge de la personne principalement responsable de la prise de décision"
           },
           {
-            "name": "Ownership demographics",
+            "name": "Demographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Petites et moyennes entreprises",
                 "Autochtone",
                 "Minorité visible",
                 "Personnes ayant une incapacité",
                 ""
               ]
             },
-            "title": "Information démographique"
+            "title": "Caractéristiques démographiques"
           },
           {
             "name": "Value",
