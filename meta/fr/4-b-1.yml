@@ -36,7 +36,7 @@ SDG_INDICATOR__GLOBAL:
 
 # SOURCE(S)
 source_active_1: "true"
-source_url_text_1: SNPC: Système de notification des pays créanciers (flux)
+source_url_text_1: "SNPC: Système de notification des pays créanciers (flux)"
 source_url_1: https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalBoost&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&dq=CAN.DPGC.110.100._T.E.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&ly[rw]=TIME_PERIOD&vw=tb&lc=fr&pg=0
 source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
 source_periodicity_1: Annuelle
