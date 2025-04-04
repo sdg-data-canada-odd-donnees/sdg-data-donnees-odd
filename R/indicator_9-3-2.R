@@ -69,7 +69,7 @@ data_final <-
     Char_type = ifelse(is.na(Char_type), "Geography", Char_type),
     Char_type = ifelse(
       Char_type %in% c("Female ownership", "Demographics"),
-      "Ownership demographics",
+      "Demographic characteristics",
       Char_type
     ), 
     Char = ifelse(Char == "Small and medium enterprises", "Woman", Char),
