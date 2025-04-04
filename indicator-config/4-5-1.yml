@@ -16,7 +16,7 @@ data_start_values:
   value: Adjusted wealth parity index
 - field: Education level
   value: Upper secondary education
-- field: Educational level
+- field: Education level
   value: Completed upper secondary education or higher
 - field: Age group
   value: 15-64 years old
@@ -45,7 +45,7 @@ graph_titles:
     title: Parity in the proportion of students achieving at least a minimum proficiency level in mathematics
   - series: Proportion of students achieving at least a minimum proficiency level in reading
     title: Parity in the proportion of students achieving at least a minimum proficiency level in reading
-graph_type: bar
+graph_type: line
 indicator_name: global_indicators.4-5-1-title
 indicator_number: 4.5.1
 national_geographical_coverage: Canada
