@@ -8,50 +8,44 @@ data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
 data_start_values:
-- series: Gender Parity Index
-  field: Educational indicator
-  value: Completion rate
-- series: Gender Parity Index
-  field: Level of education
+- field: Parity index
+  value: Adjusted gender parity index
+- field: Parity index
+  value: Adjusted location parity index
+- field: Parity index
+  value: Adjusted wealth parity index
+- field: Education level
   value: Upper secondary education
-- series: Location Parity Index
-  field: Educational indicator
-  value: Completion rate
-- series: Location Parity Index
-  field: Level of education
-  value: Upper secondary education
-- series: Wealth Parity Index
-  field: Educational indicator
-  value: Completion rate
-- series: Wealth Parity Index
-  field: Level of education
-  value: Upper secondary education
+- field: Educational level
+  value: Completed upper secondary education or higher
+- field: Age group
+  value: 15-64 years old
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
-- Geography
-- Educational indicator
+- Age group
+- Sex
+- Location
+- Education level
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: ''
 graph_titles:
-  - series: Gender Parity Index
-    title: Gender Parity Index
-  - series: Location Parity Index
-    title: Location Parity Index
-  - series: Wealth Parity Index
-    title: Wealth Parity Index
-graph_types:
-  - series: Gender Parity Index
-    type: bar
-  - series: Location Parity Index
-    type: bar
-  - series: Wealth Parity Index
-    type: bar
+  - series: Completion rate
+    title: Completion rate parity
+  - series: Educational attainment rate
+    title: Educational attainment rate parity
+  - series: Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months
+    title: Parity in the participation rate of youth and adults in formal and non-formal education and training in the previous 12 months
+  - series: Proportion of students achieving at least a minimum proficiency level in mathematics
+    title: Parity in the proportion of students achieving at least a minimum proficiency level in mathematics
+  - series: Proportion of students achieving at least a minimum proficiency level in reading
+    title: Parity in the proportion of students achieving at least a minimum proficiency level in reading
+graph_type: bar
 indicator_name: global_indicators.4-5-1-title
 indicator_number: 4.5.1
 national_geographical_coverage: Canada

@@ -80,6 +80,13 @@ All genders: Toutes les identités de genre
 Total, all persons: Total, toutes les personnes
 Total, gender: Total, genre
 
+# Area/Location
+Location: Emplacement
+Area: Région
+Urban: Urbain
+Rural: Rural
+Total, location: Total, emplacement
+
 ## Geo
 Geography: Géographie
 Canada: Canada
@@ -240,6 +247,7 @@ Total 15 to 29 years: Total 15 à 29 ans
 15 to 19 years: 15 à 19 ans
 15 to 24 years: 15 à 24 ans
 15 to 64 years: 15 à 64 ans
+16 to 24 years: 16 à 24 ans
 18 to 24 years: 18 à 24 ans
 18 to 34 years: 18 à 34 ans
 20 to 24 years: 20 à 24 ans
@@ -260,11 +268,16 @@ Total 15 to 29 years: Total 15 à 29 ans
 55 to 59 years: 55 à 59 ans
 50 to 64 years: 50 à 64 ans
 55 to 64 years: 55 à 64 ans
+55 to 65 years: 55 à 65 ans
 60 to 64 years: 60 à 64 ans
 65 to 69 years: 65 à 69 ans
 65 to 74 years: 65 à 74 ans
 65 years and older: 65 ans et plus
 75 years and over: 75 ans et plus
+15-24 years old: 15-24 ans
+15-64 years old: 15-64 ans
+25-54 years old: 25-54 ans
+55-64 years old: 55-64 ans
 
 ## Metadata fields
 Canada, Geographical region of Canada, Province or territory: Canada, Région géographique du Canada, Province ou territoire
@@ -398,9 +411,6 @@ Access to basic waste collection services: Accès aux services de base de la col
 Access to basic waste collection services (Proxy): Accès aux services de base de collecte des déchets (proxy)
 
 ## 1-4-2
-Urban: Urbain
-Rural: Rural
-Area: Région
 St. Johns (CMA): St. John's (RMR)
 Corner Brook (CA): Corner Brook (AR)
 Grand Falls-Windsor (CA): Grand Falls-Windsor (AR)
@@ -1054,65 +1064,37 @@ High school or less: Un diplôme d'études secondaires ou moins
 College, trade school or some university: Un diplôme d'un collège ou d'une école de métiers, ou études universitaires partielles
 Bachelors degree or higher: Un baccalauréat ou diplôme supérieur
 
-
 ## 4-5-1
-Educational indicator: Indicateur d'éducation
-Participation rate of adults in formal and non-formal education: Taux de participation des adultes de 25 à 64 ans à l'éducation formelle et non formelle
-Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics: La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en mathématiques
-Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading: La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en lecture
-Proportion of adults (25-to-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional numeracy skills: La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA score de 226) en compétences en numératie fonctionnelle
-Proportion of adults (25-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional literacy skills: La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA un score 226) en compétences en littératie
-Parity index: Indice de parité
-Gender Parity Index: Indice de parité entre les sexes
-Economic, Social and Cultural Status Index (ESCS): Indice de statut économique, social et culturel (SESC)
-Location Parity Index: Indice de parité entre milieu urbain et rural
-Parental Education Attainment Parity Index: Indice de parité du niveau de formation des parents
-Participation rate in organized learning: Taux de participation à l’apprentissage organisé
-Postsecondary participation rate of young adults aged 18 to 24: Taux de participation aux études postsecondaires des jeunes adultes âgés de 18 à 24 ans
 Completion rate: Taux d'achèvement
 Educational attainment rate: Taux de scolarité
-Proficiency in knowledge of environmental science and geoscience: Compétence en matière de sciences de l’environnement et de géosciences
-Proficiency in knowledge of environmental science and geoscience - Cognitive dimension: Compétence en matière de sciences de l’environnement et de géosciences - Dimension cognitive
-Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Confidence: Compétence en matière de sciences de l’environnement et de géosciences - Dimension non cognitive - Confiance
-Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Enjoyment: Compétence en matière de sciences de l’environnement et de géosciences - Dimension non cognitive - Plaisir
-Percentage of students in early grades who have their first or home language as language of instruction: Pourcentage d'élèves au début de leur scolarité dont la langue d'enseignement est la première langue ou la langue parlée à la maison
-Percentage of students at the end of lower secondary education who have their first or home language as language of instruction: Pourcentage d'élèves à la fin du premier cycle de l'enseignement secondaire dont la langue d'enseignement est la première langue ou la langue parlée à la maison
-Gross enrolment ratio for tertiary education: Taux brut de scolarisation pour l'enseignement tertiaire
-Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in mathematics: Proportion d'élèves à la fin du premier cycle de l'enseignement secondaire atteignant au moins un niveau minimum de compétence en mathématiques
-Proportion of students at the end of primary education achieving at least a minimum proficiency level in mathematics: Proportion d'élèves à la fin de l'enseignement primaire atteignant au moins un niveau minimum de compétence en mathématiques
-Proportion of children/young people at the age of primary education prepared for the future in mathematics: Proportion d'enfants/de jeunes à l'âge de l'enseignement primaire préparés pour l'avenir en mathématiques
-Proportion of children/young people at the age of lower secondary education prepared for the future in mathematics: Proportion d'enfants/de jeunes à l'âge du premier cycle de l'enseignement secondaire préparés pour l'avenir en mathématiques
-Proportion of children/young people at the age of lower secondary education prepared for the future in reading: Proportion d'enfants/de jeunes à l'âge du premier cycle de l'enseignement secondaire préparés pour l'avenir en lecture
 Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months: Taux de participation des jeunes et des adultes à l'éducation et à la formation formelles et non formelles au cours des 12 derniers mois
-Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in reading: Proportion d'élèves à la fin du premier cycle de l'enseignement secondaire atteignant au moins un niveau minimum de compétence en lecture
-Out-of-school rate for children, adolescents and youth of primary, lower secondary and upper secondary school age: Taux de non-scolarisation des enfants, des adolescents et des jeunes en âge de fréquenter l'école primaire, le premier cycle de l'enseignement secondaire et le deuxième cycle de l'enseignement secondaire
-Out-of-school rate for adolescents and youth of lower and upper secondary school age: Taux de non-scolarisation des adolescents et des jeunes en âge de fréquenter le premier et le deuxième cycle de l'enseignement secondaire
-Out-of-school rate for youth of upper secondary school age: Taux de non-scolarisation des jeunes en âge de fréquenter l'école secondaire supérieure
-Upper secondary education: Enseignement secondaire supérieur
-Lower secondary education: Enseignement secondaire inférieur
-Primary education: Enseignement primaire
-At least some primary (ISCED 1): Au moins une partie de l'enseignement primaire (CITE 1)
-Completed lower secondary education or higher: Avoir terminé l'enseignement secondaire de premier cycle ou supérieur
-Completed upper secondary education or higher: Avoir terminé l'enseignement secondaire de deuxième cycle ou supérieur
-Completed post-secondary non-tertiary education or higher: Avoir terminé des études post-secondaires non tertiaires ou supérieures
-Completed short-cycle tertiary education or higher: Avoir terminé des études tertiaires de cycle court ou supérieures
-Completed Bachelor's or equivalent education or higher: Avoir terminé un baccalauréat ou une formation équivalente ou supérieure
-Completed Master's or equivalent education or higher: Avoir terminé une maîtrise ou une formation équivalente ou supérieure
-Completed Doctoral or equivalent education: Avoir terminé un doctorat ou une formation équivalente
-15-24 years old: 15-24 ans
-15-64 years old: 15-64 ans
-25-54 years old: 25-54 ans
-55-64 years old: 55-64 ans
-Proportion of children/young people at the age of primary education prepared for the future in reading: Proportion d'enfants/de jeunes à l'âge de l'enseignement primaire préparés pour l'avenir en lecture
-Proportion of students at the end of primary education achieving at least a minimum proficiency level in reading: Proportion d'élèves à la fin de l'enseignement primaire atteignant au moins un niveau minimum de compétence en lecture
-Out-of-school rate for children of primary school age: Taux de non-scolarisation des enfants en âge de fréquenter l'école primaire
-Out-of-school rate for children and adolescents of primary and lower secondary school age: Taux de non-scolarisation des enfants et des adolescents en âge de fréquenter l'école primaire et le premier cycle du secondaire
-Adjusted net enrolment rate, one year before the official primary entry age: Taux net d'inscription ajusté, un an avant l'âge officiel d'entrée à l'école primaire
-Out-of-school rate for children one year before the official age: Taux de non-scolarisation des enfants un an avant l'âge officiel
-Proportion of 15-24 year-olds enrolled in vocational education: Proportion des jeunes de 15 à 24 ans inscrits à l'enseignement professionnel
-Wealth Parity Index: Indice de parité de richesse
-Language Test Parity Index: Indice de parité des tests de langue
-Native Parity Index: Indice de parité natif
+Proportion of students achieving at least a minimum proficiency level in mathematics: Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques
+Proportion of students achieving at least a minimum proficiency level in reading: Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture
+Parity index: Indice de parité
+Adjusted gender parity index: Indice de parité entre les sexes ajusté
+Adjusted location parity index: Indice de parité entre milieu urbain et rural ajusté
+Adjusted wealth parity index: Indice de parité de richesse ajusté
+Adjusted language test parity index: Indice de parité des tests de langue ajusté
+Adjusted native parity index: Indice de parité natif ajusté
+Education level: Niveau de scolarité
+Primary education: Éducation primaire
+Lower secondary education: Éducation secondaire de premier cycle
+Upper secondary education: Éducation secondaire de deuxième cycle
+At least some primary (ISCED 1): Au moins une partie de l'éducation primaire (CITE 1)
+Completed primary education or higher: A complété une éducation primaire ou supérieure
+Completed lower secondary education or higher: A complété une éducation secondaire de premier cycle ou supérieure
+Completed upper secondary education or higher: A complété une éducation secondaire de deuxième cycle ou supérieure
+Completed post-secondary non-tertiary education or higher: A complété une éducation post-secondaire non tertiaire ou supérieure
+Completed short-cycle tertiary education or higher: A complété une éducation tertiaire de cycle court ou supérieure
+Completed Bachelor's or equivalent education or higher: A complété un baccalauréat ou éducation équivalente ou supérieure
+Completed Master's or equivalent education or higher: A complété une maîtrise ou éducation équivalente ou supérieure
+Completed Doctoral or equivalent education: A complété un doctorat ou éducation équivalente
+Modelled data: Donnée modélisée
+Completion rate parity: Parité du taux d'achèvement
+Educational attainment rate parity: Parité du taux de scolarité
+Parity in the participation rate of youth and adults in formal and non-formal education and training in the previous 12 months: Parité du taux de participation des jeunes et des adultes à l'éducation et à la formation formelles et non formelles au cours des 12 derniers mois
+Parity in the proportion of students achieving at least a minimum proficiency level in mathematics: Parité de la proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques
+Parity in the proportion of students achieving at least a minimum proficiency level in reading: Parité de la proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture
 
 ##4-6-1
 Educational subject: Matière éducative
@@ -1123,11 +1105,6 @@ Numeracy: Arithmétique
 2 or below: 2 ou moins
 3 or above: 3 ou plus
 Total age groups: Groupe d'âge totale
-16 to 24 years: 16 à 24 ans
-25 to 34 years: 25 à 34 ans
-35 to 44 years: 35 à 44 ans
-45 to 54 years: 45 à 54 ans
-55 to 65 years: 55 à 65 ans
 
 ## 4-b-1
 USD Millions: USD Millions
@@ -1763,10 +1740,6 @@ Distance-capacity public transit service area: Distance-capacité de la zone de 
 500 metres from all public transit stops: 500 mètres de tous les arrêts de transport en commun
 500 metres from low-capacity public transit stops only: 500 mètres des arrêts de transport en commun à faible capacité uniquement
 1000 metres from high-capacity public transit stops only: 1000 mètres des arrêts de transport en commun à grande capacité uniquement
-Location: Emplacement
-Total, location: Total, emplacement
-Urban: Urbain
-Rural: Rurale
 Demographic and socio-economic: Démographique and socio-économique
 Total - Age groups of the population - 100% data: Total - Groupes d'âge de la population - Données intégrales (100 %)
 
