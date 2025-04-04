@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Ratio
+computation_units: ''
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -8,16 +8,22 @@ data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
 data_start_values:
-- field: Parity index
-  value: Adjusted gender parity index
-- field: Parity index
-  value: Adjusted location parity index
-- field: Parity index
-  value: Adjusted wealth parity index
+# - field: Parity index
+#   value: Adjusted gender parity index
+# - field: Parity index
+#   value: Adjusted location parity index
+# - field: Parity index
+#   value: Adjusted wealth parity index
+- field: Education level
+  value: Primary education
+- field: Education level
+  value: Lower secondary education
 - field: Education level
   value: Upper secondary education
 - field: Education level
-  value: Primary education
+  value: Completed primary education or higher
+- field: Education level
+  value: Completed lower secondary education or higher
 - field: Education level
   value: Completed upper secondary education or higher
 - field: Age group
@@ -37,16 +43,16 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: ''
 graph_titles:
-  - series: Completion rate
-    title: Completion rate parity
-  - series: Educational attainment rate
-    title: Educational attainment rate parity
-  - series: Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months
-    title: Parity in the participation rate of youth and adults in formal and non-formal education and training in the previous 12 months
-  - series: Proportion of students achieving at least a minimum proficiency level in mathematics
-    title: Parity in the proportion of students achieving at least a minimum proficiency level in mathematics
-  - series: Proportion of students achieving at least a minimum proficiency level in reading
-    title: Parity in the proportion of students achieving at least a minimum proficiency level in reading
+- series: Completion rate
+  title: Completion rate parity
+- series: Educational attainment rate
+  title: Educational attainment rate parity
+- series: Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months
+  title: Parity in the participation rate of youth and adults in formal and non-formal education and training in the previous 12 months
+- series: Proportion of students achieving at least a minimum proficiency level in mathematics
+  title: Parity in the proportion of students achieving at least a minimum proficiency level in mathematics
+- series: Proportion of students achieving at least a minimum proficiency level in reading
+  title: Parity in the proportion of students achieving at least a minimum proficiency level in reading
 graph_type: bar
 indicator_name: global_indicators.4-5-1-title
 indicator_number: 4.5.1
