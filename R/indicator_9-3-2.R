@@ -36,7 +36,6 @@ characteristics <- c(
   "Age of primary decision maker, 40 to 49 years old",
   "Age of primary decision maker, 50 to 64 years old",
   "Age of primary decision maker, 65 years old and older",
-  "Female ownership, 100%, small and medium enterprises",
   "Demographics, majority ownership, Indigenous",
   "Demographics, majority ownership, visible minority",
   "Demographics, majority ownership, person(s) with a disability"
@@ -68,11 +67,10 @@ data_final <-
     Char_type = str_extract(Char, "^.*?(?=,)"),
     Char_type = ifelse(is.na(Char_type), "Geography", Char_type),
     Char_type = ifelse(
-      Char_type %in% c("Female ownership", "Demographics"),
+      Char_type %in% c("Demographics"),
       "Demographic characteristics",
       Char_type
     ), 
-    Char = ifelse(Char == "Small and medium enterprises", "Woman", Char),
     Char = ifelse(Char_type == "All small and medium enterprises", "", Char),
     Char = str_remove(Char, "^.*,\\s?"),
     Char = ifelse(
@@ -87,7 +85,8 @@ data_final <-
     values_from = Char
   ) %>%
   select(-c("id", "All small and medium enterprises")) %>%
-  relocate(Value, .after = last_col())
+  relocate(Value, .after = last_col()) %>%
+  filter(!is.na(Value))
 
 write.csv(
   data_final,
