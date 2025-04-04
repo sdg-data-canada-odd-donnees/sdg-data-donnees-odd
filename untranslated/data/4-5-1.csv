@@ -1,4 +1,4 @@
-Year,Series,Parity index,Education level,Age group,Sex,Location,COMMENT_OBS,Value
+Year,Series,Units,Education level,Age group,Sex,Location,COMMENT_OBS,Value
 2015,Completion rate,Adjusted gender parity index,Primary education,,,,Modelled data,1.0
 2016,Completion rate,Adjusted gender parity index,Primary education,,,,Modelled data,1.0
 2015,Completion rate,Adjusted gender parity index,Lower secondary education,,,,Modelled data,1.01
@@ -195,16 +195,6 @@ Year,Series,Parity index,Education level,Age group,Sex,Location,COMMENT_OBS,Valu
 2015,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted wealth parity index,Lower secondary education,,,,,0.82
 2018,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted wealth parity index,Lower secondary education,,,,,0.81
 2022,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted wealth parity index,Lower secondary education,,,,,0.62
-2015,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted language test parity index,Primary education,,,,,0.76
-2019,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted language test parity index,Primary education,,,,,0.98
-2015,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted language test parity index,Lower secondary education,,,,,1.01
-2018,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted language test parity index,Lower secondary education,,,,,0.97
-2022,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted language test parity index,Lower secondary education,,,,,0.99
-2015,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted native parity index,Primary education,,,,,1.12
-2019,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted native parity index,Primary education,,,,,0.95
-2015,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted native parity index,Lower secondary education,,,,,1.03
-2018,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted native parity index,Lower secondary education,,,,,0.99
-2022,Proportion of students achieving at least a minimum proficiency level in mathematics,Adjusted native parity index,Lower secondary education,,,,,0.98
 2016,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted gender parity index,Primary education,,,,,1.01
 2021,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted gender parity index,Primary education,,,,,1.01
 2015,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted gender parity index,Lower secondary education,,,,,1.07
@@ -218,11 +208,3 @@ Year,Series,Parity index,Education level,Age group,Sex,Location,COMMENT_OBS,Valu
 2015,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted wealth parity index,Lower secondary education,,,,,0.86
 2018,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted wealth parity index,Lower secondary education,,,,,0.85
 2022,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted wealth parity index,Lower secondary education,,,,,0.7
-2016,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted language test parity index,Primary education,,,,,1.0
-2021,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted language test parity index,Primary education,,,,,1.0
-2015,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted language test parity index,Lower secondary education,,,,,0.97
-2018,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted language test parity index,Lower secondary education,,,,,0.92
-2022,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted language test parity index,Lower secondary education,,,,,0.96
-2015,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted native parity index,Lower secondary education,,,,,1.01
-2018,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted native parity index,Lower secondary education,,,,,0.98
-2022,Proportion of students achieving at least a minimum proficiency level in reading,Adjusted native parity index,Lower secondary education,,,,,0.96

@@ -31,19 +31,17 @@
             "title": "Series"
           },
           {
-            "name": "Parity index",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
                 "Indice de parité entre les sexes ajusté",
                 "Indice de parité entre milieu urbain et rural ajusté",
                 "Indice de parité de richesse ajusté",
-                "Indice de parité des tests de langue ajusté",
-                "Indice de parité natif ajusté",
                 ""
               ]
             },
-            "title": "Indice de parité"
+            "title": "Unités"
           },
           {
             "name": "Education level",

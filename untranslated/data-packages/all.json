@@ -7858,15 +7858,13 @@
             }
           },
           {
-            "name": "Parity index",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
                 "Adjusted gender parity index",
                 "Adjusted location parity index",
                 "Adjusted wealth parity index",
-                "Adjusted language test parity index",
-                "Adjusted native parity index",
                 ""
               ]
             }

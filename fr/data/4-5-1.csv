@@ -1,4 +1,4 @@
-Year,Series,Indice de parité,Niveau de scolarité,Groupe d'âge,Sexe,Emplacement,COMMENT_OBS,Value
+Year,Series,Units,Niveau de scolarité,Groupe d'âge,Sexe,Emplacement,COMMENT_OBS,Value
 2015,Taux d'achèvement,Indice de parité entre les sexes ajusté,Éducation primaire,,,,Donnée modélisée,1.0
 2016,Taux d'achèvement,Indice de parité entre les sexes ajusté,Éducation primaire,,,,Donnée modélisée,1.0
 2015,Taux d'achèvement,Indice de parité entre les sexes ajusté,Éducation secondaire de premier cycle,,,,Donnée modélisée,1.01
@@ -195,16 +195,6 @@ Year,Series,Indice de parité,Niveau de scolarité,Groupe d'âge,Sexe,Emplacemen
 2015,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité de richesse ajusté,Éducation secondaire de premier cycle,,,,,0.82
 2018,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité de richesse ajusté,Éducation secondaire de premier cycle,,,,,0.81
 2022,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité de richesse ajusté,Éducation secondaire de premier cycle,,,,,0.62
-2015,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité des tests de langue ajusté,Éducation primaire,,,,,0.76
-2019,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité des tests de langue ajusté,Éducation primaire,,,,,0.98
-2015,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité des tests de langue ajusté,Éducation secondaire de premier cycle,,,,,1.01
-2018,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité des tests de langue ajusté,Éducation secondaire de premier cycle,,,,,0.97
-2022,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité des tests de langue ajusté,Éducation secondaire de premier cycle,,,,,0.99
-2015,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité natif ajusté,Éducation primaire,,,,,1.12
-2019,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité natif ajusté,Éducation primaire,,,,,0.95
-2015,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité natif ajusté,Éducation secondaire de premier cycle,,,,,1.03
-2018,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité natif ajusté,Éducation secondaire de premier cycle,,,,,0.99
-2022,Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques,Indice de parité natif ajusté,Éducation secondaire de premier cycle,,,,,0.98
 2016,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité entre les sexes ajusté,Éducation primaire,,,,,1.01
 2021,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité entre les sexes ajusté,Éducation primaire,,,,,1.01
 2015,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité entre les sexes ajusté,Éducation secondaire de premier cycle,,,,,1.07
@@ -218,11 +208,3 @@ Year,Series,Indice de parité,Niveau de scolarité,Groupe d'âge,Sexe,Emplacemen
 2015,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité de richesse ajusté,Éducation secondaire de premier cycle,,,,,0.86
 2018,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité de richesse ajusté,Éducation secondaire de premier cycle,,,,,0.85
 2022,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité de richesse ajusté,Éducation secondaire de premier cycle,,,,,0.7
-2016,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité des tests de langue ajusté,Éducation primaire,,,,,1.0
-2021,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité des tests de langue ajusté,Éducation primaire,,,,,1.0
-2015,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité des tests de langue ajusté,Éducation secondaire de premier cycle,,,,,0.97
-2018,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité des tests de langue ajusté,Éducation secondaire de premier cycle,,,,,0.92
-2022,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité des tests de langue ajusté,Éducation secondaire de premier cycle,,,,,0.96
-2015,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité natif ajusté,Éducation secondaire de premier cycle,,,,,1.01
-2018,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité natif ajusté,Éducation secondaire de premier cycle,,,,,0.98
-2022,Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture,Indice de parité natif ajusté,Éducation secondaire de premier cycle,,,,,0.96
