@@ -28,7 +28,7 @@ data_final <-  data_raw %>%
   ) %>%
   select(
     Year = REF_DATE,
-    Insitutions = Indicators,
+    Institutions = Indicators,
     `Visible minority`,
     `Selected sociodemographic characteristics`,
     COMMENT_OBS,
