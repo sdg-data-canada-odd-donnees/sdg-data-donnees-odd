@@ -6,8 +6,10 @@ SDG_TARGET: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement 
   économique et publique, et y accèdent sur un pied d’égalité.</p>'
 SDG_INDICATOR: '<p>Indicateur 5.5.1 : Proportion de sièges occupés par des femmes
   dans a) les parlements nationaux et b) les administrations locales.</p>'
-STAT_CONC_DEF: >-
-  La proportion de sièges occupés par des femmes dans a) les parlements nationaux, actuellement au 1er janvier de l'année de référence, est actuellement mesurée comme le nombre de sièges occupés par des femmes membres dans les chambres uniques ou basses des parlements nationaux, exprimé en pourcentage de tous les sièges occupés.
+STAT_CONC_DEF: |
+  La proportion de sièges occupés par des femmes dans a) les parlements nationaux est mesurée comme le nombre de sièges occupés par des femmes membres dans les chambres uniques ou basses des parlements nationaux, exprimé en pourcentage de tous les sièges occupés au 1er juillet de l'année de référence.
+  <br><br>
+  La proportion de sièges occupés par des femmes dans (b) les administrations locales est mesurée comme le nombre de sièges occupés par des femmes dans les conseils de bande des Premières Nations et des chefs des collectivités des Premières Nations, exprimé en pourcentage de tous les sièges occupés au 31 décembre de l'année de référence.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 

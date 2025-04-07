@@ -4,10 +4,10 @@ SDG_TARGET: '<p>Target 5.5: Ensure women&#x2019;s full and effective participati
   and equal opportunities for leadership at all levels of decision-making in political,
   economic and public life</p>'
 SDG_INDICATOR: '<p>Indicator 5.5.1: Proportion of seats held by women in (a) national parliaments and (b) local governments</p>'
-STAT_CONC_DEF: <p>The proportion of seats held by women in (a) national parliaments,
-  currently as at 1 January of reporting year, is currently measured as the number
-  of seats held by women members in single or lower chambers of national parliaments,
-  expressed as a percentage of all occupied seats.</p>
+STAT_CONC_DEF: |
+  The proportion of seats held by women in (a) national parliaments is measured as the number of seats held by women members in single or lower chambers of national parliaments, expressed as a percentage of all occupied seats on July 1st of the reporting year.
+  <br><br>
+  The proportion of seats held by women in (b) local governments is measured as the number of seats held by women in First Nations Band Councils and of Chiefs in First Nations communities, expressed as a percentage of all occupied seats on December 31st of the reporting year.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 

@@ -46,8 +46,8 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.b.2 : Montant total net de l’aide publ
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: OCDE. Système de notification des pays créanciers (flux) (SNPC).
-source_url_1: https://data-explorer.oecd.org/vis?lc=fr&pg=0&bp=true&snb=19&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.2&dq=CAN.DPGC.122%2B12182.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false
+source_url_text_1: "SNPC: Système de notification des pays créanciers (flux)"
+source_url_1: https://data-explorer.oecd.org/vis?lc=fr&pg=0&snb=24&vw=tb&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.3&dq=CAN.DPGC.122%2B12182.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false
 source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
 source_geographical_coverage_1: Canada
 

@@ -10,9 +10,9 @@ library(readsdmx)
 # Applied filters: Donor = Canada, Recipient = Developing countries, 
 # Sector = Trade policies and regulations/Transport and storage/Communications/Energy/Banking and financial services/Business and other services/Agriculture/Forestry/Fishing/Industry/Mineral resources and mining/Tourism, 
 # Measure = Official Development Assistance, Flow type = Disbursements/Commitments, Price base = Constant prices
-url_oda <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.2/CAN.DPGC.210+220+230+240+250+311+312+313+321+322+331+332.100._T._T.C+D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
+url_oda <- "https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.3/CAN.DPGC.210+220+230+240+250+311+312+313+321+322+331+332.100._T._T.C+D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions&format=csvfile"
 
-oda_raw <- read_sdmx(url_oda)
+oda_raw <- read.csv(url_oda)
 
 oda <- oda_raw %>%
   mutate(
@@ -21,27 +21,26 @@ oda <- oda_raw %>%
       "C" ~ "Commitments",
       "D" ~ "Disbursements"
     ),
-    Sector = case_match(
-      SECTOR,
-      "331" ~ "Trade policies and regulations",
-      "210" ~ "Transport and storage",
-      "220" ~ "Communications",
-      "230" ~ "Energy",
-      "240" ~ "Banking and financial services",
-      "250" ~ "Business and other services",
-      "311" ~ "Agriculture",
-      "312" ~ "Forestry",
-      "313" ~ "Fishing",
-      "321" ~ "Industry",
-      "322" ~ "Mineral resources and mining",
-      "332" ~ "Tourism"
+    Sector = case_when(
+      SECTOR == "331" ~ "Trade policies and regulations",
+      SECTOR == "210" ~ "Transport and storage",
+      SECTOR == "220" ~ "Communications",
+      SECTOR == "230" ~ "Energy",
+      SECTOR == "240" ~ "Banking and financial services",
+      SECTOR == "250" ~ "Business and other services",
+      SECTOR == "311" ~ "Agriculture",
+      SECTOR == "312" ~ "Forestry",
+      SECTOR == "313" ~ "Fishing",
+      SECTOR == "321" ~ "Industry",
+      SECTOR == "322" ~ "Mineral resources and mining",
+      SECTOR == "332" ~ "Tourism"
     )
   ) %>%
   select(
     Year = TIME_PERIOD,
     `Flow type`,
     Sector,
-    Value = ObsValue,
+    Value = OBS_VALUE,
   ) %>%
   mutate_at("Value", as.numeric) %>%
   arrange(Year, `Flow type`, Sector)
