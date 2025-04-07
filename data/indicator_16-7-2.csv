@@ -1,17 +1,321 @@
-Year,data.Institutions,data.Characteristics,data.Level of confidence,Value
-2019,,,,41
-2020,data.Federal Parliament,data.Black,data.Not confident,13
-2020,data.Federal Parliament,"data.First Nations, Métis, or Inuit",data.Not confident,31
-2020,data.Federal Parliament,data.Other group designated as visible minority,data.Not confident,11
-2020,data.Federal Parliament,"data.Non-Indigenous, non-visible minority",data.Not confident,21
-2020,data.Federal Parliament,data.Black,data.Confident,52
-2020,data.Federal Parliament,"data.First Nations, Métis, or Inuit",data.Confident,28
-2020,data.Federal Parliament,data.Other group designated as visible minority,data.Confident,60
-2020,data.Federal Parliament,"data.Non-Indigenous, non-visible minority",data.Confident,41
-2020,data.Justice system and courts,"data.First Nations, Métis, or Inuit",data.Not confident,30
-2020,data.Justice system and courts,data.Other group designated as visible minority,data.Not confident,10
-2020,data.Justice system and courts,"data.Non-Indigenous, non-visible minority",data.Not confident,16
-2020,data.Justice system and courts,data.Black,data.Confident,54
-2020,data.Justice system and courts,"data.First Nations, Métis, or Inuit",data.Confident,37
-2020,data.Justice system and courts,data.Other group designated as visible minority,data.Confident,68
-2020,data.Justice system and courts,"data.Non-Indigenous, non-visible minority",data.Confident,53
+"Year","Insitutions","Visible minority","Selected sociodemographic characteristics","COMMENT_OBS","Value"
+"2020","Confidence in the justice system and courts","Total population","Total, 15 years and over",,55.2
+"2020","Confidence in Federal Parliament","Total population","Total, 15 years and over",,44.4
+"2020","Confidence in the justice system and courts","Total population","15 to 24 years",,51.5
+"2020","Confidence in Federal Parliament","Total population","15 to 24 years",,42.4
+"2020","Confidence in the justice system and courts","Total population","25 to 64 years",,54.5
+"2020","Confidence in Federal Parliament","Total population","25 to 64 years",,43.5
+"2020","Confidence in the justice system and courts","Total population","65 years and over",,59.8
+"2020","Confidence in Federal Parliament","Total population","65 years and over",,48.5
+"2020","Confidence in the justice system and courts","Total population","Men",,56.9
+"2020","Confidence in Federal Parliament","Total population","Men",,44
+"2020","Confidence in the justice system and courts","Total population","Women",,53.9
+"2020","Confidence in Federal Parliament","Total population","Women",,45.2
+"2020","Confidence in the justice system and courts","Total population","Immigrants",,68.6
+"2020","Confidence in Federal Parliament","Total population","Immigrants",,59.6
+"2020","Confidence in the justice system and courts","Total population","Non-Immigrants",,49.8
+"2020","Confidence in Federal Parliament","Total population","Non-Immigrants",,38.1
+"2020","Confidence in the justice system and courts","Total population","First generation",,69.3
+"2020","Confidence in Federal Parliament","Total population","First generation",,60.3
+"2020","Confidence in the justice system and courts","Total population","Second generation",,49.7
+"2020","Confidence in Federal Parliament","Total population","Second generation",,39.4
+"2020","Confidence in the justice system and courts","Total population","Third generation or more",,50
+"2020","Confidence in Federal Parliament","Total population","Third generation or more",,37.9
+"2020","Confidence in the justice system and courts","Total population","First official language spoken, English only",,56.3
+"2020","Confidence in Federal Parliament","Total population","First official language spoken, English only",,44.5
+"2020","Confidence in the justice system and courts","Total population","First official language spoken, French only",,57.4
+"2020","Confidence in Federal Parliament","Total population","First official language spoken, French only",,48.7
+"2020","Confidence in the justice system and courts","Total population","Secondary (high) school diploma or equivalency certificate or less",,50.3
+"2020","Confidence in Federal Parliament","Total population","Secondary (high) school diploma or equivalency certificate or less",,40.8
+"2020","Confidence in the justice system and courts","Total population","Postsecondary certificate or diploma (non-university)",,51.5
+"2020","Confidence in Federal Parliament","Total population","Postsecondary certificate or diploma (non-university)",,39.9
+"2020","Confidence in the justice system and courts","Total population","University certificate or diploma",,62.6
+"2020","Confidence in Federal Parliament","Total population","University certificate or diploma",,51.2
+"2020","Confidence in the justice system and courts","Total visible minority population","Total, 15 years and over",,65.7
+"2020","Confidence in Federal Parliament","Total visible minority population","Total, 15 years and over",,58.7
+"2020","Confidence in the justice system and courts","Total visible minority population","15 to 24 years",,56.1
+"2020","Confidence in Federal Parliament","Total visible minority population","15 to 24 years",,44.8
+"2020","Confidence in the justice system and courts","Total visible minority population","25 to 64 years",,67.7
+"2020","Confidence in Federal Parliament","Total visible minority population","25 to 64 years",,61.6
+"2020","Confidence in the justice system and courts","Total visible minority population","65 years and over",,71.1
+"2020","Confidence in Federal Parliament","Total visible minority population","65 years and over",,65.7
+"2020","Confidence in the justice system and courts","Total visible minority population","Men",,68.7
+"2020","Confidence in Federal Parliament","Total visible minority population","Men",,61.2
+"2020","Confidence in the justice system and courts","Total visible minority population","Women",,63
+"2020","Confidence in Federal Parliament","Total visible minority population","Women",,56.5
+"2020","Confidence in the justice system and courts","Total visible minority population","Immigrants",,71.2
+"2020","Confidence in Federal Parliament","Total visible minority population","Immigrants",,63
+"2020","Confidence in the justice system and courts","Total visible minority population","Non-Immigrants",,42.4
+"2020","Confidence in Federal Parliament","Total visible minority population","Non-Immigrants",,38.5
+"2020","Confidence in the justice system and courts","Total visible minority population","First generation",,71.7
+"2020","Confidence in Federal Parliament","Total visible minority population","First generation",,63.7
+"2020","Confidence in the justice system and courts","Total visible minority population","Second generation",,44.2
+"2020","Confidence in Federal Parliament","Total visible minority population","Second generation",,42.6
+"2020","Confidence in the justice system and courts","Total visible minority population","Third generation or more",,
+"2020","Confidence in Federal Parliament","Total visible minority population","Third generation or more",,
+"2020","Confidence in the justice system and courts","Total visible minority population","First official language spoken, English only",,67.2
+"2020","Confidence in Federal Parliament","Total visible minority population","First official language spoken, English only",,59.7
+"2020","Confidence in the justice system and courts","Total visible minority population","First official language spoken, French only",,68
+"2020","Confidence in Federal Parliament","Total visible minority population","First official language spoken, French only",,64.6
+"2020","Confidence in the justice system and courts","Total visible minority population","Secondary (high) school diploma or equivalency certificate or less",,60.3
+"2020","Confidence in Federal Parliament","Total visible minority population","Secondary (high) school diploma or equivalency certificate or less",,54.3
+"2020","Confidence in the justice system and courts","Total visible minority population","Postsecondary certificate or diploma (non-university)",,63.2
+"2020","Confidence in Federal Parliament","Total visible minority population","Postsecondary certificate or diploma (non-university)",,56.5
+"2020","Confidence in the justice system and courts","Total visible minority population","University certificate or diploma",,69.8
+"2020","Confidence in Federal Parliament","Total visible minority population","University certificate or diploma",,62
+"2020","Confidence in the justice system and courts","South Asian","Total, 15 years and over",,70.2
+"2020","Confidence in Federal Parliament","South Asian","Total, 15 years and over",,65
+"2020","Confidence in the justice system and courts","South Asian","15 to 24 years","Use with caution",60.8
+"2020","Confidence in Federal Parliament","South Asian","15 to 24 years","Use with caution",50.3
+"2020","Confidence in the justice system and courts","South Asian","25 to 64 years",,72.2
+"2020","Confidence in Federal Parliament","South Asian","25 to 64 years",,68.2
+"2020","Confidence in the justice system and courts","South Asian","65 years and over",,71.8
+"2020","Confidence in Federal Parliament","South Asian","65 years and over",,67.2
+"2020","Confidence in the justice system and courts","South Asian","Men",,73.9
+"2020","Confidence in Federal Parliament","South Asian","Men",,70.4
+"2020","Confidence in the justice system and courts","South Asian","Women",,66.2
+"2020","Confidence in Federal Parliament","South Asian","Women",,59.2
+"2020","Confidence in the justice system and courts","South Asian","Immigrants",,77.2
+"2020","Confidence in Federal Parliament","South Asian","Immigrants",,70.8
+"2020","Confidence in the justice system and courts","South Asian","Non-Immigrants","Use with caution",40.1
+"2020","Confidence in Federal Parliament","South Asian","Non-Immigrants","Use with caution",39.1
+"2020","Confidence in the justice system and courts","South Asian","First generation",,78
+"2020","Confidence in Federal Parliament","South Asian","First generation",,71.8
+"2020","Confidence in the justice system and courts","South Asian","Second generation","Use with caution",40.5
+"2020","Confidence in Federal Parliament","South Asian","Second generation","Use with caution",42
+"2020","Confidence in the justice system and courts","South Asian","Third generation or more",,
+"2020","Confidence in Federal Parliament","South Asian","Third generation or more",,
+"2020","Confidence in the justice system and courts","South Asian","First official language spoken, English only",,72.8
+"2020","Confidence in Federal Parliament","South Asian","First official language spoken, English only",,67.7
+"2020","Confidence in the justice system and courts","South Asian","First official language spoken, French only",,
+"2020","Confidence in Federal Parliament","South Asian","First official language spoken, French only",,
+"2020","Confidence in the justice system and courts","South Asian","Secondary (high) school diploma or equivalency certificate or less",,59.5
+"2020","Confidence in Federal Parliament","South Asian","Secondary (high) school diploma or equivalency certificate or less",,54.6
+"2020","Confidence in the justice system and courts","South Asian","Postsecondary certificate or diploma (non-university)","Use with caution",74.2
+"2020","Confidence in Federal Parliament","South Asian","Postsecondary certificate or diploma (non-university)","Use with caution",73.3
+"2020","Confidence in the justice system and courts","South Asian","University certificate or diploma",,74.7
+"2020","Confidence in Federal Parliament","South Asian","University certificate or diploma",,68.4
+"2020","Confidence in the justice system and courts","Chinese","Total, 15 years and over",,64
+"2020","Confidence in Federal Parliament","Chinese","Total, 15 years and over",,50.8
+"2020","Confidence in the justice system and courts","Chinese","15 to 24 years","Use with caution",69.9
+"2020","Confidence in Federal Parliament","Chinese","15 to 24 years","Use with caution",48.3
+"2020","Confidence in the justice system and courts","Chinese","25 to 64 years",,62.8
+"2020","Confidence in Federal Parliament","Chinese","25 to 64 years",,51
+"2020","Confidence in the justice system and courts","Chinese","65 years and over",,60
+"2020","Confidence in Federal Parliament","Chinese","65 years and over",,54.5
+"2020","Confidence in the justice system and courts","Chinese","Men",,66.8
+"2020","Confidence in Federal Parliament","Chinese","Men",,51.5
+"2020","Confidence in the justice system and courts","Chinese","Women",,61.8
+"2020","Confidence in Federal Parliament","Chinese","Women",,51.1
+"2020","Confidence in the justice system and courts","Chinese","Immigrants",,66.6
+"2020","Confidence in Federal Parliament","Chinese","Immigrants",,51.8
+"2020","Confidence in the justice system and courts","Chinese","Non-Immigrants",,52.2
+"2020","Confidence in Federal Parliament","Chinese","Non-Immigrants",,41.8
+"2020","Confidence in the justice system and courts","Chinese","First generation",,67.9
+"2020","Confidence in Federal Parliament","Chinese","First generation",,53.2
+"2020","Confidence in the justice system and courts","Chinese","Second generation","Use with caution",54.5
+"2020","Confidence in Federal Parliament","Chinese","Second generation","Use with caution",46.9
+"2020","Confidence in the justice system and courts","Chinese","Third generation or more",,
+"2020","Confidence in Federal Parliament","Chinese","Third generation or more",,
+"2020","Confidence in the justice system and courts","Chinese","First official language spoken, English only",,65.9
+"2020","Confidence in Federal Parliament","Chinese","First official language spoken, English only",,51.3
+"2020","Confidence in the justice system and courts","Chinese","First official language spoken, French only",,
+"2020","Confidence in Federal Parliament","Chinese","First official language spoken, French only",,
+"2020","Confidence in the justice system and courts","Chinese","Secondary (high) school diploma or equivalency certificate or less",,65.3
+"2020","Confidence in Federal Parliament","Chinese","Secondary (high) school diploma or equivalency certificate or less",,50.6
+"2020","Confidence in the justice system and courts","Chinese","Postsecondary certificate or diploma (non-university)",,61.5
+"2020","Confidence in Federal Parliament","Chinese","Postsecondary certificate or diploma (non-university)",,52.9
+"2020","Confidence in the justice system and courts","Chinese","University certificate or diploma",,64.1
+"2020","Confidence in Federal Parliament","Chinese","University certificate or diploma",,50.6
+"2020","Confidence in the justice system and courts","Black","Total, 15 years and over",,54.2
+"2020","Confidence in Federal Parliament","Black","Total, 15 years and over",,52.2
+"2020","Confidence in the justice system and courts","Black","15 to 24 years",,
+"2020","Confidence in Federal Parliament","Black","15 to 24 years",,
+"2020","Confidence in the justice system and courts","Black","25 to 64 years",,55.9
+"2020","Confidence in Federal Parliament","Black","25 to 64 years",,57.8
+"2020","Confidence in the justice system and courts","Black","65 years and over","Use with caution",58.9
+"2020","Confidence in Federal Parliament","Black","65 years and over","Use with caution",56.7
+"2020","Confidence in the justice system and courts","Black","Men",,53.8
+"2020","Confidence in Federal Parliament","Black","Men",,50.9
+"2020","Confidence in the justice system and courts","Black","Women",,54.9
+"2020","Confidence in Federal Parliament","Black","Women",,53.9
+"2020","Confidence in the justice system and courts","Black","Immigrants",,60.6
+"2020","Confidence in Federal Parliament","Black","Immigrants",,57.4
+"2020","Confidence in the justice system and courts","Black","Non-Immigrants","Use with caution",31.2
+"2020","Confidence in Federal Parliament","Black","Non-Immigrants","Use with caution",33.8
+"2020","Confidence in the justice system and courts","Black","First generation",,61.6
+"2020","Confidence in Federal Parliament","Black","First generation",,58.1
+"2020","Confidence in the justice system and courts","Black","Second generation",,
+"2020","Confidence in Federal Parliament","Black","Second generation",,
+"2020","Confidence in the justice system and courts","Black","Third generation or more",,
+"2020","Confidence in Federal Parliament","Black","Third generation or more",,
+"2020","Confidence in the justice system and courts","Black","First official language spoken, English only",,51.2
+"2020","Confidence in Federal Parliament","Black","First official language spoken, English only",,49.9
+"2020","Confidence in the justice system and courts","Black","First official language spoken, French only","Use with caution",67.1
+"2020","Confidence in Federal Parliament","Black","First official language spoken, French only","Use with caution",64.6
+"2020","Confidence in the justice system and courts","Black","Secondary (high) school diploma or equivalency certificate or less",,51.9
+"2020","Confidence in Federal Parliament","Black","Secondary (high) school diploma or equivalency certificate or less",,50.6
+"2020","Confidence in the justice system and courts","Black","Postsecondary certificate or diploma (non-university)","Use with caution",53.3
+"2020","Confidence in Federal Parliament","Black","Postsecondary certificate or diploma (non-university)","Use with caution",48.5
+"2020","Confidence in the justice system and courts","Black","University certificate or diploma",,57.1
+"2020","Confidence in Federal Parliament","Black","University certificate or diploma",,56.1
+"2020","Confidence in the justice system and courts","Filipino","Total, 15 years and over",,68.5
+"2020","Confidence in Federal Parliament","Filipino","Total, 15 years and over",,63.3
+"2020","Confidence in the justice system and courts","Filipino","15 to 24 years",,
+"2020","Confidence in Federal Parliament","Filipino","15 to 24 years",,
+"2020","Confidence in the justice system and courts","Filipino","25 to 64 years",,73
+"2020","Confidence in Federal Parliament","Filipino","25 to 64 years",,65.7
+"2020","Confidence in the justice system and courts","Filipino","65 years and over",,
+"2020","Confidence in Federal Parliament","Filipino","65 years and over",,
+"2020","Confidence in the justice system and courts","Filipino","Men",,74
+"2020","Confidence in Federal Parliament","Filipino","Men",,68.3
+"2020","Confidence in the justice system and courts","Filipino","Women",,64.5
+"2020","Confidence in Federal Parliament","Filipino","Women",,59.7
+"2020","Confidence in the justice system and courts","Filipino","Immigrants",,73.1
+"2020","Confidence in Federal Parliament","Filipino","Immigrants",,67.6
+"2020","Confidence in the justice system and courts","Filipino","Non-Immigrants",,
+"2020","Confidence in Federal Parliament","Filipino","Non-Immigrants",,
+"2020","Confidence in the justice system and courts","Filipino","First generation",,73
+"2020","Confidence in Federal Parliament","Filipino","First generation",,67.5
+"2020","Confidence in the justice system and courts","Filipino","Second generation",,
+"2020","Confidence in Federal Parliament","Filipino","Second generation",,
+"2020","Confidence in the justice system and courts","Filipino","Third generation or more",,
+"2020","Confidence in Federal Parliament","Filipino","Third generation or more",,
+"2020","Confidence in the justice system and courts","Filipino","First official language spoken, English only",,69.2
+"2020","Confidence in Federal Parliament","Filipino","First official language spoken, English only",,63.7
+"2020","Confidence in the justice system and courts","Filipino","First official language spoken, French only",,
+"2020","Confidence in Federal Parliament","Filipino","First official language spoken, French only",,
+"2020","Confidence in the justice system and courts","Filipino","Secondary (high) school diploma or equivalency certificate or less","Use with caution",55.6
+"2020","Confidence in Federal Parliament","Filipino","Secondary (high) school diploma or equivalency certificate or less","Use with caution",53.8
+"2020","Confidence in the justice system and courts","Filipino","Postsecondary certificate or diploma (non-university)","Use with caution",71.7
+"2020","Confidence in Federal Parliament","Filipino","Postsecondary certificate or diploma (non-university)","Use with caution",63.9
+"2020","Confidence in the justice system and courts","Filipino","University certificate or diploma",,74.3
+"2020","Confidence in Federal Parliament","Filipino","University certificate or diploma",,68.6
+"2020","Confidence in the justice system and courts","Arab","Total, 15 years and over",,78.1
+"2020","Confidence in Federal Parliament","Arab","Total, 15 years and over",,66.3
+"2020","Confidence in the justice system and courts","Arab","15 to 24 years",,
+"2020","Confidence in Federal Parliament","Arab","15 to 24 years",,
+"2020","Confidence in the justice system and courts","Arab","25 to 64 years",,78.9
+"2020","Confidence in Federal Parliament","Arab","25 to 64 years",,65.7
+"2020","Confidence in the justice system and courts","Arab","65 years and over",,
+"2020","Confidence in Federal Parliament","Arab","65 years and over",,
+"2020","Confidence in the justice system and courts","Arab","Men",,79.4
+"2020","Confidence in Federal Parliament","Arab","Men",,64.9
+"2020","Confidence in the justice system and courts","Arab","Women",,76.4
+"2020","Confidence in Federal Parliament","Arab","Women",,68.1
+"2020","Confidence in the justice system and courts","Arab","Immigrants",,77.2
+"2020","Confidence in Federal Parliament","Arab","Immigrants",,65.2
+"2020","Confidence in the justice system and courts","Arab","Non-Immigrants",,
+"2020","Confidence in Federal Parliament","Arab","Non-Immigrants",,
+"2020","Confidence in the justice system and courts","Arab","First generation",,77.6
+"2020","Confidence in Federal Parliament","Arab","First generation",,65.4
+"2020","Confidence in the justice system and courts","Arab","Second generation",,
+"2020","Confidence in Federal Parliament","Arab","Second generation",,
+"2020","Confidence in the justice system and courts","Arab","Third generation or more",,
+"2020","Confidence in Federal Parliament","Arab","Third generation or more",,
+"2020","Confidence in the justice system and courts","Arab","First official language spoken, English only",,80.9
+"2020","Confidence in Federal Parliament","Arab","First official language spoken, English only",,66.4
+"2020","Confidence in the justice system and courts","Arab","First official language spoken, French only","Use with caution",81.9
+"2020","Confidence in Federal Parliament","Arab","First official language spoken, French only","Use with caution",74.7
+"2020","Confidence in the justice system and courts","Arab","Secondary (high) school diploma or equivalency certificate or less","Use with caution",80.3
+"2020","Confidence in Federal Parliament","Arab","Secondary (high) school diploma or equivalency certificate or less","Use with caution",68.4
+"2020","Confidence in the justice system and courts","Arab","Postsecondary certificate or diploma (non-university)",,
+"2020","Confidence in Federal Parliament","Arab","Postsecondary certificate or diploma (non-university)",,
+"2020","Confidence in the justice system and courts","Arab","University certificate or diploma",,77.9
+"2020","Confidence in Federal Parliament","Arab","University certificate or diploma",,64.7
+"2020","Confidence in the justice system and courts","Latin American","Total, 15 years and over",,71.4
+"2020","Confidence in Federal Parliament","Latin American","Total, 15 years and over",,67.3
+"2020","Confidence in the justice system and courts","Latin American","15 to 24 years",,
+"2020","Confidence in Federal Parliament","Latin American","15 to 24 years",,
+"2020","Confidence in the justice system and courts","Latin American","25 to 64 years",,72
+"2020","Confidence in Federal Parliament","Latin American","25 to 64 years",,66.1
+"2020","Confidence in the justice system and courts","Latin American","65 years and over",,
+"2020","Confidence in Federal Parliament","Latin American","65 years and over",,
+"2020","Confidence in the justice system and courts","Latin American","Men",,74.3
+"2020","Confidence in Federal Parliament","Latin American","Men",,72.7
+"2020","Confidence in the justice system and courts","Latin American","Women",,68.5
+"2020","Confidence in Federal Parliament","Latin American","Women",,62.2
+"2020","Confidence in the justice system and courts","Latin American","Immigrants",,76.5
+"2020","Confidence in Federal Parliament","Latin American","Immigrants",,73.1
+"2020","Confidence in the justice system and courts","Latin American","Non-Immigrants",,
+"2020","Confidence in Federal Parliament","Latin American","Non-Immigrants",,
+"2020","Confidence in the justice system and courts","Latin American","First generation",,75.4
+"2020","Confidence in Federal Parliament","Latin American","First generation",,72.3
+"2020","Confidence in the justice system and courts","Latin American","Second generation",,
+"2020","Confidence in Federal Parliament","Latin American","Second generation",,
+"2020","Confidence in the justice system and courts","Latin American","Third generation or more",,
+"2020","Confidence in Federal Parliament","Latin American","Third generation or more",,
+"2020","Confidence in the justice system and courts","Latin American","First official language spoken, English only",,71.1
+"2020","Confidence in Federal Parliament","Latin American","First official language spoken, English only",,68.2
+"2020","Confidence in the justice system and courts","Latin American","First official language spoken, French only",,
+"2020","Confidence in Federal Parliament","Latin American","First official language spoken, French only",,
+"2020","Confidence in the justice system and courts","Latin American","Secondary (high) school diploma or equivalency certificate or less","Use with caution",61.2
+"2020","Confidence in Federal Parliament","Latin American","Secondary (high) school diploma or equivalency certificate or less","Use with caution",64.4
+"2020","Confidence in the justice system and courts","Latin American","Postsecondary certificate or diploma (non-university)","Use with caution",57.2
+"2020","Confidence in Federal Parliament","Latin American","Postsecondary certificate or diploma (non-university)","Use with caution",46.5
+"2020","Confidence in the justice system and courts","Latin American","University certificate or diploma","Use with caution",85.1
+"2020","Confidence in Federal Parliament","Latin American","University certificate or diploma","Use with caution",79.2
+"2020","Confidence in the justice system and courts","Southeast Asian","Total, 15 years and over",,68
+"2020","Confidence in Federal Parliament","Southeast Asian","Total, 15 years and over",,54.1
+"2020","Confidence in the justice system and courts","Southeast Asian","15 to 24 years",,
+"2020","Confidence in Federal Parliament","Southeast Asian","15 to 24 years",,
+"2020","Confidence in the justice system and courts","Southeast Asian","25 to 64 years",,68.9
+"2020","Confidence in Federal Parliament","Southeast Asian","25 to 64 years",,57.8
+"2020","Confidence in the justice system and courts","Southeast Asian","65 years and over",,
+"2020","Confidence in Federal Parliament","Southeast Asian","65 years and over",,
+"2020","Confidence in the justice system and courts","Southeast Asian","Men","Use with caution",69.9
+"2020","Confidence in Federal Parliament","Southeast Asian","Men","Use with caution",52.8
+"2020","Confidence in the justice system and courts","Southeast Asian","Women","Use with caution",66.4
+"2020","Confidence in Federal Parliament","Southeast Asian","Women","Use with caution",55.3
+"2020","Confidence in the justice system and courts","Southeast Asian","Immigrants",,70.1
+"2020","Confidence in Federal Parliament","Southeast Asian","Immigrants",,53.1
+"2020","Confidence in the justice system and courts","Southeast Asian","Non-Immigrants",,
+"2020","Confidence in Federal Parliament","Southeast Asian","Non-Immigrants",,
+"2020","Confidence in the justice system and courts","Southeast Asian","First generation",,71.8
+"2020","Confidence in Federal Parliament","Southeast Asian","First generation",,56
+"2020","Confidence in the justice system and courts","Southeast Asian","Second generation",,
+"2020","Confidence in Federal Parliament","Southeast Asian","Second generation",,
+"2020","Confidence in the justice system and courts","Southeast Asian","Third generation or more",,
+"2020","Confidence in Federal Parliament","Southeast Asian","Third generation or more",,
+"2020","Confidence in the justice system and courts","Southeast Asian","First official language spoken, English only",,74.2
+"2020","Confidence in Federal Parliament","Southeast Asian","First official language spoken, English only",,57.1
+"2020","Confidence in the justice system and courts","Southeast Asian","First official language spoken, French only",,
+"2020","Confidence in Federal Parliament","Southeast Asian","First official language spoken, French only",,
+"2020","Confidence in the justice system and courts","Southeast Asian","Secondary (high) school diploma or equivalency certificate or less","Use with caution",63.3
+"2020","Confidence in Federal Parliament","Southeast Asian","Secondary (high) school diploma or equivalency certificate or less","Use with caution",54.4
+"2020","Confidence in the justice system and courts","Southeast Asian","Postsecondary certificate or diploma (non-university)",,
+"2020","Confidence in Federal Parliament","Southeast Asian","Postsecondary certificate or diploma (non-university)",,
+"2020","Confidence in the justice system and courts","Southeast Asian","University certificate or diploma","Use with caution",75.2
+"2020","Confidence in Federal Parliament","Southeast Asian","University certificate or diploma","Use with caution",59.4
+"2020","Confidence in the justice system and courts","Not a visible minority","Total, 15 years and over",,52.3
+"2020","Confidence in Federal Parliament","Not a visible minority","Total, 15 years and over",,40.2
+"2020","Confidence in the justice system and courts","Not a visible minority","15 to 24 years",,50.1
+"2020","Confidence in Federal Parliament","Not a visible minority","15 to 24 years",,42
+"2020","Confidence in the justice system and courts","Not a visible minority","25 to 64 years",,50.1
+"2020","Confidence in Federal Parliament","Not a visible minority","25 to 64 years",,37
+"2020","Confidence in the justice system and courts","Not a visible minority","65 years and over",,58.8
+"2020","Confidence in Federal Parliament","Not a visible minority","65 years and over",,46.9
+"2020","Confidence in the justice system and courts","Not a visible minority","Men",,53.6
+"2020","Confidence in Federal Parliament","Not a visible minority","Men",,38.8
+"2020","Confidence in the justice system and courts","Not a visible minority","Women",,51.5
+"2020","Confidence in Federal Parliament","Not a visible minority","Women",,41.9
+"2020","Confidence in the justice system and courts","Not a visible minority","Immigrants",,63.8
+"2020","Confidence in Federal Parliament","Not a visible minority","Immigrants",,53.3
+"2020","Confidence in the justice system and courts","Not a visible minority","Non-Immigrants",,50.5
+"2020","Confidence in Federal Parliament","Not a visible minority","Non-Immigrants",,38.1
+"2020","Confidence in the justice system and courts","Not a visible minority","First generation",,65.1
+"2020","Confidence in Federal Parliament","Not a visible minority","First generation",,54.1
+"2020","Confidence in the justice system and courts","Not a visible minority","Second generation",,51.9
+"2020","Confidence in Federal Parliament","Not a visible minority","Second generation",,38.2
+"2020","Confidence in the justice system and courts","Not a visible minority","Third generation or more",,50.3
+"2020","Confidence in Federal Parliament","Not a visible minority","Third generation or more",,38.2
+"2020","Confidence in the justice system and courts","Not a visible minority","First official language spoken, English only",,52.1
+"2020","Confidence in Federal Parliament","Not a visible minority","First official language spoken, English only",,38.7
+"2020","Confidence in the justice system and courts","Not a visible minority","First official language spoken, French only",,56.2
+"2020","Confidence in Federal Parliament","Not a visible minority","First official language spoken, French only",,46.9
+"2020","Confidence in the justice system and courts","Not a visible minority","Secondary (high) school diploma or equivalency certificate or less",,47.7
+"2020","Confidence in Federal Parliament","Not a visible minority","Secondary (high) school diploma or equivalency certificate or less",,37
+"2020","Confidence in the justice system and courts","Not a visible minority","Postsecondary certificate or diploma (non-university)",,49.7
+"2020","Confidence in Federal Parliament","Not a visible minority","Postsecondary certificate or diploma (non-university)",,37.1
+"2020","Confidence in the justice system and courts","Not a visible minority","University certificate or diploma",,59.4
+"2020","Confidence in Federal Parliament","Not a visible minority","University certificate or diploma",,46.1
