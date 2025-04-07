@@ -895,7 +895,7 @@
             "title": "Year"
           },
           {
-            "name": "Insitutions",
+            "name": "Institutions",
             "type": "string",
             "constraints": {
               "enum": [
@@ -904,7 +904,7 @@
                 ""
               ]
             },
-            "title": "Insitutions"
+            "title": "Institutions"
           },
           {
             "name": "Visible minority",
