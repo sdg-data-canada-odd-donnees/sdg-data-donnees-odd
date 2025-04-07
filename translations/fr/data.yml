@@ -8,6 +8,8 @@ Occasional: Occasionnelle
 Total: Total
 Statistics Canada: Statistique Canada
 Canada – All categories: Canada – Toutes les catégories
+Total population: Population totale
+Unknown: Inconnu
 
 ## Tiers
 Tier I: Niveau I
@@ -46,6 +48,7 @@ Million cubic metres: Millions de mètres cubes
 Sector: Secteur
 Basic education: Éducation de base
 Basic health: Santé de base
+Medical research: Recherche médicale
 Water supply and sanitation: Distribution d'eau et assainissement 
 Multisector aid for basic social services: Aide plurisectorielle pour les services sociaux de base
 Development food assistance: Aide alimentaire dévelopmentale
@@ -79,6 +82,7 @@ Gender: Genre
 All genders: Toutes les identités de genre
 Total, all persons: Total, toutes les personnes
 Total, gender: Total, genre
+Total - Gender: Total - Genre
 
 # Area/Location
 Location: Emplacement
@@ -172,7 +176,7 @@ Ottawa - Gatineau, Ontario and Quebec: Ottawa - Gatineau, Ontario et Québec
 Peterborough, Ontario: Peterborough, Ontario
 St. Catharines-Niagara, Ontario: St. Catharines-Niagara, Ontario
 St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
-St. Catherines - Niagara Falls, Ontario: St. Catherines - Niagara Falls, Ontario
+St. Catharines - Niagara Falls, Ontario: St. Catharines - Niagara Falls, Ontario
 Sudbury, Ontario: Sudbury, Ontario
 Thunder Bay, Ontario: Thunder Bay, Ontario
 Toronto, Ontario: Toronto, Ontario
@@ -234,15 +238,28 @@ Victoria (CMA), B.C.: Victoria (RMR), C.-B.
 ## Age
 Age: Âge
 Age group: Groupe d'âge
+All ages: Tous les âges
+Total, age: Total, âge
 Total, 12 years and over: Total, 12 ans et plus
 Total, 15 years and over: Total, 15 ans et plus
 Total 15 to 29 years: Total 15 à 29 ans
+Total, 25 to 64 years: Total, 25 à 64 ans
+Under 1 year: Moins d'un an
+Under 18 years: Moins de 18 ans
+Under 35 years: Moins de 35 ans
 15 years and over: 15 ans et plus
 25 years and over: 25 ans et plus
 45 years and over: 45 ans et plus
 55 years and over: 55 ans et plus
+65 years and older: 65 ans et plus
 65 years and over: 65 ans et plus
 70 years and over: 70 ans et plus
+75 years and over: 75 ans et plus
+90 years and over: 90 ans et plus
+1 to 4 years: 1 à 4 ans
+1 to 14 years: 1 à 14 ans
+5 to 9 years: 5 à 9 ans
+10 to 14 years: 10 à 14 ans
 12 to 17 years: 12 à 17 ans
 15 to 19 years: 15 à 19 ans
 15 to 24 years: 15 à 24 ans
@@ -250,6 +267,7 @@ Total 15 to 29 years: Total 15 à 29 ans
 16 to 24 years: 16 à 24 ans
 18 to 24 years: 18 à 24 ans
 18 to 34 years: 18 à 34 ans
+18 to 64 years: 18 à 64 ans
 20 to 24 years: 20 à 24 ans
 25 to 29 years: 25 à 29 ans
 25 to 34 years: 25 à 34 ans
@@ -260,6 +278,7 @@ Total 15 to 29 years: Total 15 à 29 ans
 35 to 39 years: 35 à 39 ans
 35 to 44 years: 35 à 44 ans
 35 to 49 years: 35 à 49 ans
+35 to 54 years: 35 à 54 ans
 40 to 44 years: 40 à 44 ans
 45 to 49 years: 45 à 49 ans
 45 to 54 years: 45 à 54 ans
@@ -272,12 +291,74 @@ Total 15 to 29 years: Total 15 à 29 ans
 60 to 64 years: 60 à 64 ans
 65 to 69 years: 65 à 69 ans
 65 to 74 years: 65 à 74 ans
-65 years and older: 65 ans et plus
-75 years and over: 75 ans et plus
-15-24 years old: 15-24 ans
-15-64 years old: 15-64 ans
-25-54 years old: 25-54 ans
-55-64 years old: 55-64 ans
+70 to 74 years: 70 to 74 years
+75 to 79 years: 75 to 79 years
+75 to 84 years: 75 to 84 years
+80 to 84 years: 80 to 84 years
+85 to 89 years: 85 to 89 years
+
+## Indigenous groups
+Indigenous group: Groupe autochtone
+Indigenous status: Statut d'autochtone
+Indigenous peoples: Peuples autochtones
+Non-Indigenous people: Non-autochtones
+Indigenous identity: Identité autochtone
+Non-Indigenous identity: Identité non autochtone
+Non-indigenous identity: Identité non autochtone
+Indigenous person: Personne autochtone
+Non-Indigenous person: Personne non autochtone
+Indigenous population: Population autochtone
+Non-Indigenous population: Population non autochtone
+Indigenous: Autochtone
+First Nations: Premières Nations
+First Nations (North American Indian): Premières Nations (Indien de l'Amérique du Nord)
+Métis: Métis
+Inuk (Inuit): Inuk (Inuit)
+Inuit: Inuit
+Non-Inuit: Non Inuit
+First Nations, Métis, or Inuit: Premières Nations, Métis ou Inuits
+Not stated, population by indigenous identity: Identité autochtone non précisée
+Other Indigenous identity: Autre identité autochtone
+
+## Immigrant status
+Immigrant status: Status d'immigrant
+Total, immigrant status: Total, statut d'immigrant
+Landed immigrants: Immigrants reçus
+Born in Canada: Populations nées au Canada
+Immigrants, landed 5 or less years earlier: Immigrants reçus 5 ans et moins auparavant
+Immigrants, landed more than 5 to 10 years earlier: Immigrants reçus plus de 5 à 10 ans auparavant
+Immigrants, landed more than 10 years earlier: Immigrants reçus plus de 10 ans auparavant
+Immigrants: Immigrants
+Immigrant: Personne immigrante
+Non immigrants: Non-immigrants
+Non-immigrants: Non-immigrants
+Non-immigrant: Personne non immigrante
+Non-permanent residents: Résidents non permanents
+Not stated, immigrant status: Status d'immigrant non précisée
+
+## Visible minorities
+Total visible minority population: Total de la population des minorités visibles
+Total, visible minority population: Total, population des minorités visibles
+Not a visible minority: Pas une minorité visible
+Other visible minority: Autre minorité visible
+Visible minority: Minorité visible
+Non-visible minority: N’appartenant pas à une minorité visible
+Arab: Arabe
+Black: Noir
+Chinese: Chinois
+Filipino: Philippin
+Japanese: Japonais
+Korean: Coréen
+Latin American: Latino-Américain
+South Asian: Sud-Asiatique
+Southeast Asian: Asiatique du Sud-Est
+West Asian: Asiatique occidental
+Group not indicated elsewhere: Groupe non indiqué ailleurs
+Visible minority population: Population des minorités visibles
+Visible minority n.i.e: Minorité visible n.i.a
+Multiple visible minorities: Minorités visible multiples
+Other group designated as visible minority: Autres groupes désignés comme minorités visibles
+Not stated, visible minority population: Population des minorités visibles non précisée
 
 ## Metadata fields
 Canada, Geographical region of Canada, Province or territory: Canada, Région géographique du Canada, Province ou territoire
@@ -479,22 +560,13 @@ Social protection: Protection sociale
 ## 2-1-1
 Values showing as 2.5 may signify a prevalence of undernourishment below 2.5%: Les valeurs affichées de 2,5 pourraient signifier une prévalence de la sous-alimentation inférieure à 2,5 %
 Estimates are based on projected values.: Les estimations sont basées sur des valeurs projetées.
-Household food security status: Niveau de sécurité alimentaire du ménage
+
+## 2-1-2
 Economic family type: Type de famille économique
-Food secure: Sécurité alimentaire
-Food insecure marginal: Insécurité alimentaire marginale
-Food insecure moderate and severe: Insécurité alimentaire modérée et grave
-Living arrangement: Disposition de vie
-Total all living arrangements: Toutes dispositions de vie
-Female living alone: Femme vivant seule
-Male living alone: Homme vivant seul
-Couple no children: Couple sans enfant
-Couple with child(ren) less than 18 years old: Couple avec enfant(s) de moins de 18 ans
-Female lone parent with child(ren) less than 18 years old: Mère monoparentale avec enfant(s) de moins de 18 ans
-Male lone parent with child(ren) less than 18 years old: Père monoparental avec enfant(s) de moins de 18 ans
-Other living arrangements: Autres dispositions de vie
+All persons: Toutes les personnes
 Persons in economic families: Personnes dans les familles économiques
 Persons in elderly families: Personnes dans les familles de personnes âgées
+Persons in elderly couples: Personnes dans les couples de personnes âgées
 Persons in other elderly families: Personnes dans les autres familles de personnes âgées
 Persons in non-elderly families: Personnes dans les familles non âgées
 Persons in couples: Personnes dans les couples
@@ -511,24 +583,6 @@ Elderly females not in an economic family: Femmes âgées hors famille économiq
 Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
 Non-elderly males not in an economic family: Hommes non âgés hors famille économique
 Non-elderly females not in an economic family: Femmes non âgées hors famille économique
-
-## 2-1-2
-Economic family type: Type de famille économique
-All persons: Toutes les personnes
-Persons in economic families: Personnes dans les familles économiques
-Persons in elderly families: Personnes dans les familles de personnes âgées
-Persons in elderly couples: Personnes dans les couples de personnes âgées
-Persons in other elderly families: Personnes dans les autres familles de personnes âgées
-Persons in non-elderly families: Personnes dans les familles non âgées
-Persons in couples: Personnes dans les couples
-Persons in couple families with children: Personnes dans les familles comptant un couple avec des enfants
-Persons in couple families with other relatives: Personnes dans les familles comptant un couple avec d'autres personnes apparentées
-Persons in lone-parent families: Personnes dans les familles monoparentales
-Persons in male lone-parent families: Personnes dans les familles monoparentales ayant un homme à leur tête
-Persons in female lone-parent families: Personnes dans les familles monoparentales ayant une femme à leur tête
-Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
-Non-elderly males not in an economic family: Hommes non âgés hors famille économique
-Non-elderly females not in an economic family: Femmes non âgées hors famille économique
 Household food security status: Niveau de sécurité alimentaire du ménage
 Food secure: Sécurité alimentaire
 Food insecure: Insécurité alimentaire
@@ -536,19 +590,10 @@ Food insecure, marginal: Insécurité alimentaire marginale
 Food insecure, moderate or severe: Insécurité alimentaire modérée ou grave
 Food insecure, moderate: Insécurité alimentaire modérée
 Food insecure, severe: Insécurité alimentaire grave
-Under 18 years: Moins de 18 ans
-18 to 64 years: 18 à 64 ans
-Non-Indigenous population: Population non autochtone
-Indigenous population: Population autochtone
-First Nations: Premières Nations
-Immigrants: Immigrants
 Recent immigrants (10 years or less): Immigrants récents (10 ans ou moins)
 Very recent immigrants (5 years or less): Immigrants très récents (5 ans ou moins)
 Persons born in Canada: Personnes nées au Canada
-Visible minority population: Population des minorités visibles
-Other visible minority: Autre minorité visible
 Not a visible minority nor Indigenous: Pas une minorité visible ni autochtone
-Visible minority: Minorités visibles
 Population aged 15 years and over: Population âgée de 15 ans et plus
 
 ## 2-2-1
@@ -581,12 +626,10 @@ Severe: Sévère
 Moderate: Modérée
 Mild: Légère
 
-## 2-3-1
+## 2-3-1 and 2-3-2
 Small-scale food producers: Petits producteurs alimentaires
 Medium-Large scale food producers: Producteurs alimentaires de moyenne à grande échelle
-Under 35 years: Moins de 35 ans
-35 to 54 years: 35 à 54 ans
-55 years and over: 55 ans et plus
+Characteristics: Caractéristiques
 
 ## 2-4-1
 Farm output value per hectare: Valeur de la production agricole par hectare
@@ -620,13 +663,6 @@ Skim Milk Powder: Lait écrémé en poudre
 Incorporated Products: Produits incorporés
 
 ## 3-1-1
-Age group: Groupe d'âge
-Total, 12 years and over: Total, 12 ans et plus
-12 to 17 years: 12 à 17 ans
-18 to 34 years: 18 à 34 ans
-35 to 49 years: 35 à 49 ans
-50 to 64 years: 50 à 64 ans
-65 years and over: 65 ans et plus
 Per 100,000 live births: Par 100 000 naissances vivantes
 Maternal deaths per 100,000 live births: Taux de mortalité maternelle pour 100 000 naissances vivantes
 
@@ -676,7 +712,6 @@ Number of neonatal deaths: Nombre de décès néonatals
 Rate per 1,000 uninfected population: Taux pour 1 000 habitants non infectés
 Number of newly infected people per 1,000 uninfected population: Nombre de nouvelles infections au VIH pour 1 000 habitants non infectés
 Number of newly infected people per 100,000 uninfected population: Nombre de nouvelles infections au VIH pour 100 000 habitants non infectés
-All ages: Tous les âges
 Adults (15-49): Adultes (15-49) 
 Measures: Mesures
 Overweight: Embonpoint
@@ -698,30 +733,11 @@ Leprosy: Lèpre
 Rabies: Rage
 Number of people requiring interventions against leprosy: Nombre de personnes pour lesquelles des interventions contre la lèpre sont nécessaires
 Number of people requiring interventions against rabies: Nombre de personnes pour lesquelles des interventions contre la rage sont nécessaires
-Unknown: Inconnu
 Number of people: Nombre de personnes
 
 ## 3-4-1
-All ages: Tous les âges
-1 to 4 years: 1 à 4 ans
-5 to 9 years: 5 à 9 ans
-10 to 14 years: 10 à 14 ans
-15 to 19 years: 15 à 19 ans
-20 to 24 years: 20 à 24 ans
-25 to 29 years: 25 à 29 ans
-30 to 34 years: 30 à 34 ans
-35 to 39 years: 35 à 39 ans
-40 to 44 years: 40 à 44 ans
-45 to 49 years: 45 à 49 ans
-50 to 54 years: 50 à 54 ans
-55 to 59 years: 55 à 59 ans
-60 to 64 years: 60 à 64 ans
-65 to 69 years: 65 à 69 ans
-70 to 74 years: 70 à 74 ans
-75 to 79 years: 75 à 79 ans
-80 to 84 years: 80 à 84 ans
-85 to 89 years: 85 à 89 ans
-90 years and over: 90 ans et plus
+Age-specific mortality rate per 100,000 population: Taux de mortalité selon l'âge pour 100 000 personnes
+Causes of death: Causes de décès
 Malignant neoplasms: Tumeurs malignes
 In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour: Tumeurs in situ, tumeurs bénignes et tumeurs à évolution imprévisible ou inconnue
 Diabetes mellitus: Diabète sucré
@@ -729,40 +745,20 @@ Diseases of heart: Maladies du coeur
 Influenza and pneumonia: Grippe et pneumopathie
 Acute bronchitus and bronchiolitis: Bronchite aiguë et bronchiolite aiguë
 Chronic lower respiratory diseases: Maladies chroniques des voies respiratoires inférieures
-Age-specific mortality rate per 100,000 population: Taux de mortalité selon l'âge pour 100 000 personnes
-Causes of death: Causes de décès
 Essential hypertension and hypertensive renal disease: Hypertension essentielle et néphropathie hypertensive
 Cerebrovascular diseases: Maladies cérébrovasculaires
 Atherosclerosis: Athérosclérose
 Aortic aneurysm and dissection: Anévrisme aortique et dissection
 Pneumoconioses and chemical effects: Pneumoconioses et affections respiratoires dues à des agents chimiques
 Pneumonitis due to solids and liquids: Pneumopathie due à des substances solides et liquides
+Age at time of death: Âge au décès
+15 to 24: 15 à 24 ans
+85 and over: 85 ans et plus
 
 ## 3-5-2
 Number of litres of pure alcohol sales per person aged 15 years and older in a year: Nombre de litres d’alcool pur vendus par personne âgée de 15 ans et plus au cours d’une année
 
 ## 3-6-1
-All ages: Tous les âges
-Under 1 year: Moins d'un an
-1 to 4 years: 1 à 4 ans
-5 to 9 years: 5 à 9 ans
-10 to 14 years: 10 à 14 ans
-15 to 19 years: 15 à 19 ans
-20 to 24 years: 20 à 24 ans
-25 to 29 years: 25 à 29 ans
-30 to 34 years: 30 à 34 ans
-35 to 39 years: 35 à 39 ans
-40 to 44 years: 40 à 44 ans
-45 to 49 years: 45 à 49 ans
-50 to 54 years: 50 à 54 ans
-55 to 59 years: 55 à 59 ans
-60 to 64 years: 60 à 64 ans
-65 to 69 years: 65 à 69 ans
-70 to 74 years: 70 à 74 ans
-75 to 79 years: 75 à 79 ans
-80 to 84 years: 80 à 84 ans
-85 to 89 years: 85 à 89 ans
-90 years and over: 90 ans et plus
 Not stated: Non déclaré
 Transport accidents: Accidents de transport
 Motor vehicle accidents: Accidents de véhicule à moteur
@@ -780,31 +776,6 @@ Per 1000 females (15-19 years): Pour 1000 femmes (15-19 ans)
 Place of residence of mother: Lieu de résidence de la mère
 Rate per 1,000 females: Taux pour 1 000 femmes
 
-## 3-8-1
-Selected diseases: Antigène ou vaccin
-Diphtheria: Diphtérie
-Pertussis: Coqueluche
-Tetanus: Tétanos
-Polio: Polio
-Haemophilus influenzae type B: Haemophilus influenzae de type B
-Diphtheria - Pertussis and tetanus: Diphtérie, la coqueluche et le tétanos
-Measles: Rougeole
-Mumps: Rubéole
-Rubella: Oreillons
-Hepatitis B: Hépatite B
-Varicella: Varicelle
-Meningococcal type C: Méningite de type C
-Pneumococcal: Pneumocoque
-Rotavirus: Rotavirus
-Human Papillomavirus: Virus du papillome humain
-Diphtheria - Tetanus - acellular Pertussis booster: Vaccin de rappel de la diphtérie, la coqueluche et le tétanos
-All children: Tous les enfants
-by 2 years of age: 2 ans
-by 7 years of age: 7 ans
-by 14 years of age: 14 ans
-by 17 years of age: 17 ans
-Age: Âge
-
 ## 3-8-2
 Proportion with share above 10%: Proportion dont la part est supérieure à 10 %
 Proportion with share above 25%: Proportion dont la part est supérieure à 25 %
@@ -816,32 +787,6 @@ Adjusted household after-tax income in top 60%: Revenu après impôt rajusté du
 Proportion of population (individuals) with share above 10% with large household expenditures on select health care items as a share of total after-tax income: Proportion de la population (personnes) dont la part est supérieure à 10 % consacrant une grande part de ses dépenses du ménage à certains articles de soins de santé en proportion du revenu total après impôt
 Proportion of population (individuals) with share above 25% with large household expenditures on select health care items as a share of total after-tax income: Proportion de la population (personnes) dont la part est supérieure à 25 % consacrant une grande part de ses dépenses du ménage à certains articles de soins de santé en proportion du revenu total après impôt
 
-## 3-9-1
-Disease: Maladies
-Creutzfeldt-Jakob: Creutzfeldt-Jakob
-HIV and AIDS: VIH et SIDA
-Diabetes: Diabète
-Ischemic heart disease: Cardiopathies ischémiques
-Dementia, including Alzheimer's disease: Démence, y compris la maladie d'Alzheimer
-Hypertension: Hypertension
-Chronic obstructive pulmonary disease: Maladie pulmonaire obstructive chronique
-Cancer: Cancer
-Tuberculosis: Tuberculose
-Salmonella: Salmonellose
-Recommended vaccines for 2-year-old children: Vaccins recommandés aux enfants de 2 ans
-Recommended vaccines for 7-year-old children: Vaccins recommandés aux enfants de 7 ans
-Recommended vaccines for 14-year-old children: Vaccins recommandés aux enfants de 14 ans
-Recommended vaccines for 17-year-old children: Vaccins recommandés aux enfants de 17 ans
-Recommended vaccines during pregnancy: Vaccins recommandés pendant la grossesse
-Diphtheria - Tetanus - acellular Pertussis (Tdap) booster: Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)
-Haemophilus influenzae type B (Hib): Haemophilus influenzae de type B (Hib)
-Human Papillomavirus (HPV): Virus du papillome humain (VPH)
-Pertussis (whooping cough): Coqueluche
-Influenza (flu): Grippe
-Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap): Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)
-Diphtheria, Tetanus, acellular Pertussis (Tdap) booster: Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)
-Target population: Population cible
-
 ## 3-9-2
 Acute respiratory infections: |
     Affections aiguës des voies respiratoires supérieures
@@ -849,30 +794,6 @@ Diarrhea: Diarrhée
 Intestinal nematode infections: Infections intestinales à nématodes
 Protein-energy malnutrition: Malnutrition protéino-énergétique
 Type of disease: Type de maladie
-
-## 3-11-1
-Age at time of death: Âge au décès
-all ages: Tous les âges
-1 to 14 years: 1 à 14 ans
-15 to 24: 15 à 24 ans
-25 to 34 years: 25 à 34 ans
-35 to 44 years: 35 à 44 ans
-45 to 54 years: 45 à 54 ans
-55 to 64 years: 55 à 64 ans
-65 to 74 years: 65 à 74 ans
-75 to 84 years: 75 à 84 ans
-85 and over: 85 ans et plus
-Leading causes of death (ICD-10): Principales causes de décès
-Malignant neoplasms [C00-C97]: Tumeurs malignes
-Diabetes mellitus [E10-E14]: Diabète sucré
-Alzheimer's disease [G30]: Maladie d'Alzheimer
-Diseases of heart [I00-I09, I11, I13, I20-I51]: Maladies du coeur
-Cerebrovascular diseases [I60-I69]: Maladies cérébrovasculaires
-Influenza and pneumonia [J09-J18]: Grippe et pneumopathie
-Chronic lower respiratory diseases [J40-J47]: Maladies chroniques des voies respiratoires inférieures
-Chronic liver disease and cirrhosis [K70, K73-K74]: Maladie chronique et cirrhose du foie
-Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (blessures involontaires)
-Intentional self-harm (suicide) [X60-X84, Y87.0]: Lésions auto-infligées
 
 ## 3-12-1
 Type of event: Type d'événement
@@ -917,23 +838,19 @@ Varicella: Varicelle
 Meningococcal type C: Méningocoque de type C
 Pneumococcal: Pneumocoque
 Rotavirus: Rotavirus
-Diphtheria 4 doses: Diphtérie 4 doses
-Pertussis 4 doses: Coqueluche 4 doses
-Tetanus 4 doses: Tétanos 4 doses
-Polio 3 doses: Polio 3 doses
-Hib 4 doses: Hib 4 doses
-Measles 1 dose: Rougeole 1 dose
-Mumps 1 dose: Rubéole 1 dose
-Rubella 1 dose: Oreillons 1 dose
-Meningococcal C 1 dose: Méningocoque C 1 dose
-Pneumococcal 3 doses: Pneumocoque 3 doses
-Varicella 1 dose: Varicelle 1 dose
-Total - Gender: Total - Genre
+Human Papillomavirus (HPV): Virus du papillome humain (VPH)
+Diphtheria, Tetanus, acellular Pertussis (Tdap) booster: Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)
+Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap): Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)
+Influenza (flu): Grippe
+Target population: Population cible
+Recommended vaccines for 2-year-old children: Vaccins recommandés aux enfants de 2 ans
+Recommended vaccines for 7-year-old children: Vaccins recommandés aux enfants de 7 ans
+Recommended vaccines for 14-year-old children: Vaccins recommandés aux enfants de 14 ans
+Recommended vaccines for 17-year-old children: Vaccins recommandés aux enfants de 17 ans
+Recommended vaccines during pregnancy: Vaccins recommandés pendant la grossesse
 
 # 3-b-2
 Assistance type: Type d'aide
-Basic health: Santé de base
-Medical research: Recherche médicale
 
 ## 3-c-1
 Service provider per 100,000 population: Dispensateurs de services par 100 000 habitants
@@ -984,16 +901,7 @@ Nursing and midwifery personnel: Personnel infirmier et sages-femmes
 ## 4-1-1
 Total, persons aged 15 years and over: Total, personnes âgées de 15 ans et plus
 Selected demographic characteristics: Caractéristiques démographiques déterminées
-Total, all persons: Total, toutes les personnes
-Non immigrants: Non-immigrants
-Immigrants: Immigrants
-Non-permanent residents: Résidents non permanents
-Total visible minority population: Total de la population des minorités visibles
-Not a visible minority: Pas une minorité visible
 Total Aboriginal identity: Total identité autochtone
-First Nations (North American Indian): Première Nation (Indien de l'Amérique du Nord)
-Métis: Métis
-Inuk (Inuit): Inuk (Inuit)
 Non-Aboriginal identity: Identité non autochtone
 Children in Grade 4 achieving at least a minimum proficiency level in mathematics: Enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques
 Children in Grade 4 achieving at least a minimum proficiency level in reading: Enfants de 4e année atteignant au moins un niveau minimum de compétence en lecture
@@ -1004,37 +912,17 @@ Young people aged 15 years achieving at least a minimum proficiency level in rea
 Young people aged 15 years achieving at least a minimum proficiency level in mathematics: Jeunes âgés de 15 ans atteignant au moins un niveau minimum de compétence en mathématiques
 
 ## 4-1-2
-Educational attainment level: Educational attainment level
-Pre-primary and primary: Pré-primaire et primaire
-Lower secondary: Premier cycle du secondaire
-Upper secondary and post-secondary non-tertiary: Deuxième cycle du secondaire et postsecondaires non tertiaire
-Tertiary education: Études tertiaires
 Graduation rate: Taux d'obtention du diplôme
 On-time: Délai prévu
 Extended-time: Délai plus long
 
-## 4-2-1
-Educational attainment level: Niveau de scolarité
-Tertiary education: Études tertiaires
-Short-cycle tertiary: Enseignement tertiaire de cycle court
-Bachelor's level: Baccalauréat
-Master's or Doctoral level: Maîtrise ou doctorat
-25 to 34 years: 25 à 34 ans
-30 to 34 years: 30 à 34 ans
-35 to 44 years: 35 à 44 ans
-45 to 54 years: 45 à 54 ans
-55 to 64 years: 55 à 64 ans
-Total, 25 to 64 years: Total, 25 à 64 ans
-
 ## 4-3-1
-Total, type of institution attended: |
-    Total, type d'institution fréquentée
+Total, type of institution attended: Total, type d'institution fréquentée
 Elementary/High School: Primaire/Secondaire
 Elementary and/or High School: École primaire et/ou secondaire
 College: Collège
 University: Université
-Type of institution attended: |
-    Type d'institution fréquentée
+Type of institution attended: Type d'institution fréquentée
 Total participation rate: Total taux de participation
 
 ## 4-4-1
@@ -1134,18 +1022,8 @@ Immigrant women: Femmes immigrantes
 Women designated as visible minorities: Femmes désignées comme minorités visibles
 
 ## 5-2-2
-Indigenous identity: Identité autochtone
-Indigenous person: Personne autochtone
-First Nations: Premières Nations
-Métis: Métis
 Inuk: Inuit
 Multiple Indigenous identities or specific group not stated: Nombreuses identités autochtones ou groupe particulier non précisé
-Non-Indigenous person: Personne non autochtone
-Visible minority: Minorité visible
-Not a visible minority: Pas une minorité visible
-Immigrant status: Statut d’immigrant
-Immigrant: Immigrant
-Non-immigrant: Non-immigrant
 Sexual orientation: Orientation sexuelle
 Heterosexual: Hétérosexuel
 Gay or lesbian: Gai ou lesbienne
@@ -1253,7 +1131,6 @@ Overall: Ensemble
 Number of (shared) basins showing high surface-water extent changes: Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface
 Wetlands area: Étendue des millieux humides
 Lake water quality, turbidity: Qualité de l’eau du lac, la turbidité
-Lake water quality, trophic state: Qualité de l’eau du lac, l'état trophique
 Lake water quality, trophic state and turbidity: Qualité de l’eau du lac, l'état trophique et la turbidité
 Lake water quality, no or improving condition: Qualité de l’eau du lac, état nul ou amélioration
 Square kilometers: Kilomètres carrés
@@ -1400,7 +1277,6 @@ Not in the labour force, Not in employment, education or training (NEET): Inacti
 Fatality claims: Réclamations de décès
 Lost time claims: Réclamations de pertes de temps
 Number of claims: Nombre de réclamations
-Unknown: Inconnu
 
 ## 8-10-1
 Number of commercial bank branches per 100,000 adults: Nombre de succursales de banques commerciales par 100 000 adultes
@@ -1608,7 +1484,6 @@ Younger than 30 years old: Moins de 30 ans
 65 years old and older: 65 ans et plus
 Ownership demographics: Information démographique
 Demographic characteristics: Caractéristiques démographiques
-Indigenous: Autochtone
 Person(s) with a disability: Personnes ayant une incapacité
 Overall approval rate, line of credit: Taux général d’approbation, marge de crédit
 Overall approval rate, term loan: Taux général d’approbation, prêt à terme
@@ -1684,10 +1559,6 @@ Sales and service occupations [6]: Vente et services [6]
 Trades - transport and equipment operators and related occupations [7]: Métiers, transport, machinerie et domaines apparentés [7]
 Natural resources - agriculture and related production occupations [8]: Ressources naturelles, agriculture et production connexe [8]
 Occupations in manufacturing and utilities [9]: Fabrication et services d'utilité publique [9]
-15 years and over: 15 ans et plus
-15 to 24 years: 15 à 24 ans
-25 to 54 years: 25 à 54 ans
-55 years and over: 55 ans et plus
 
 ## 10-4-1
 Outside Canada: Extérieur du Canada
@@ -2127,8 +1998,6 @@ Official development assistance on conservation and sustainable use of biodivers
 Revenue generated and finance mobilized from biodiversity-relevant economic instruments: Recettes générées et fonds mobilisés par les instruments économiques liés à la biodiversité
 
 ## 16-1-1
-Indigenous identity: Identité autochtone
-Non-Indigenous identity: Identité non autochtone
 Unknown Indigenous identity: Identité autochtone inconnue
 
 ## 16-1-3
@@ -2138,22 +2007,10 @@ Physical violence: Violence physique
 Sexual violence: Violence sexuelle
 Lesbian or gay: Lesbienne ou gai
 First Nations, Métis, or Inuit identity: Identité autochtone (Première Nation, Métis ou Inuit)
-Inuit: Inuit
 Has a disability: Personne ayant une incapacité
 Does not have a disability: Personne n'ayant aucune incapacité
 
 ## 16-1-4
-Visible minority: Minorité visible
-Total population: Population totale
-Total visible minority population: Total de la population des minorités visibles
-South Asian: Sud-Asiatique
-Chinese: Chinois
-Black: Noir
-Filipino: Philippin
-Arab: Arabe
-Latin American: Latino-Américain
-Southeast Asian: Asiatique du Sud-Est
-Not a visible minority: Pas une minorité visible
 Sociodemographic characteristics: Caractéristiques sociodémographiques
 
 ## 16-2-1
@@ -2163,15 +2020,6 @@ Physical abuse: Violence physique
 Sexual abuse: Violence sexuelle
 Male gender: Genre masculin
 Female gender: Genre féminin
-Total, age: Total, âge
-Total, immigrant status: Total, statut d'immigrant
-Immigrants: Immigrants
-Not stated, immigrant status: Status d'immigrant non précisée
-Total, visible minority population: Total, population des minorités visibles
-Not stated, visible minority population: Population des minorités visibles non précisée
-Non-indigenous identity: Identité non autochtone
-Not stated, population by indigenous identity: Identité autochtone non précisée
-Other Indigenous identity: Autre identité autochtone
 Disability status: Incapacité
 Total, disability status: Total, incapacité
 Total, sexual orientation: Total, orientation sexuelle
@@ -2249,11 +2097,6 @@ Total - age of accused: Total, l'âge de l'accusé
 16 and 17 years: 16 et 17 ans
 Other ages: Autres âges
 Age not applicable: Âge n'ayant pas lieu de figurer
-18 to 24 years: 18 à 24 ans
-25 to 34 years: 25 à 34 ans
-35 to 44 years: 35 à 44 ans
-45 to 54 years: 45 à 54 ans
-55 years and over: 55 ans et plus
 Sex of accused: Sexe de l'accusé
 Total - sex of accused: Total, le sexe de l'accusé
 Company: Sociétés
@@ -2264,30 +2107,19 @@ Youth courts: Tribunaux de la jeunesse
 
 ## 16-7-2
 Institutions: Institutions
-Police: Police
-Characteristics: Caractéristiques
-Total population: Population totale
-Indigenous person: Autochtone
-Non-Indigenous person: Personne non autochtone
-Visible minority: Minorité visible
-Non-visible minority: N’appartenant pas à une minorité visible
-Level of confidence: Niveau de confiance
-A great deal of confidence: Une grande confiance
-Some confidence: Une certaine confiance
-Not very much or no confidence: Très peu confiance ou aucune confiance
-Confident: Confiance
-Not confident: Aucune confiance
-Black: Noirs
-First Nations, Métis, or Inuit: Premières Nations, Métis ou Inuits
-Other group designated as visible minority: Autres groupes désignés comme minorités visibles
-Non-Indigenous, non-visible minority: Non-Autochtones n’appartenant pas à une minorité visible
-Justice system and courts: Système de justice et tribunaux
-School system: Système scolaire
-Federal Parliament: Parlement fédéral
-Banks: Banques
-Major corporations: Grandes sociétés
-Local merchants and business people: Marchands locaux et gens d’affaires
-Canadian media: Médias canadiens
+Confidence in the justice system and courts: Confiance dans le système de justice et dans les tribunaux
+Confidence in Federal Parliament: Confiance dans le Parlement fédéral
+Selected sociodemographic characteristics: Certaines caractéristiques sociodémographiques
+Non-Immigrants: Non-immigrants
+First generation: Première génération
+Second generation: Deuxième génération
+Third generation or more: Troisième génération ou plus
+First official language spoken, English only: Première langue officielle parlée, anglais seulement
+First official language spoken, French only: Première langue officielle parlée, français seulement
+Secondary (high) school diploma or equivalency certificate or less: Diplôme d'études secondaires ou attestation d'équivalence ou moins
+Postsecondary certificate or diploma (non-university): Diplôme ou certificat postsecondaire (non universitaire)
+University certificate or diploma: Certificat ou diplôme universitaire
+Use with caution: À utiliser avec prudence
 
 ## 16-10-2
 Component: Composante
@@ -2310,14 +2142,11 @@ LGBTQ2+: LGBTQ2+
 Highest level of education: Plus haut niveau de scolarité
 Main activity: Activité principale
 Total, by immigrant status: Total, selon le statut d’immigrant
-Non-immigrants: Non-immigrants
 Immigrants, 10 years or less in Canada: Immigrants, au Canada depuis 10 ans ou moins
 Immigrants, more than 10 years in Canada: Immigrants, au Canada depuis plus de 10 ans
 Immigrants, years in Canada not stated: Immigrants, nombre d’années au Canada non précisé
 Total, by visible minority group: Total, selon le groupe de minorité visible
 Visible minority, not included elsewhere: Minorité visible, non incluse ailleurs
-Multiple visible minorities: Minorités visibles multiples
-West Asian: Asiatique occidental
 Total, by Indigenous identity: Total, selon l’identité autochtone
 Single Indigenous identity: Identité autochtone unique
 Multiple Indigenous identities: Identités autochtones multiples
@@ -2376,16 +2205,14 @@ Middle East: Moyen-Orient
 Oceania: Océanie
 
 ## 17-3-1
-Official Development Assistance (ODA): Aide publique au développement (APD)
 Foreign Direct Investment (FDI) Inflow: Investissements directs étrangers (IDE) entrants
 Foreign Direct Investment (FDI) as a proportion of Gross National Income (GNI): Investissements directs étrangers (IDE) en proportion du revenu national brut (RNB)
 Official Development Assistance (ODA) as a proportion of Gross National Income (GNI): Aide publique au développement (APD) en proportion du revenu national brut (RNB)
 
 ## 17-5-1
-Total value of the supported investment projects : Valeur totale des projets d’investissement soutenus 
+Total value of the supported investment projects: Valeur totale des projets d’investissement soutenus 
 Number of projects: Nombre de projets
 Millions $ CAD: Millions $ CAD
-Total value of the supported investment projects: Valeur totale des projets d’investissement soutenus
 
 ## 17-6-1
 Population centres: Centres de population

@@ -6,11 +6,13 @@ SDG_TARGET: |-
 SDG_INDICATOR: |-
   Indicator 16.7.2: Proportion of the population with high levels of confidence in selected government institutions
 STAT_CONC_DEF: |-
-  This indicator measures the percentage of the population
-  with high levels of confidence in selected government institutions.
+  This indicator measures the percentage of the population with high levels of confidence in selected government institutions.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   This is a proxy indicator. The UN Global indicator states: “Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group”.
+  <br><br>
+  The user is advised that the estimates flagged with [note 1] are considered to be of marginal quality due to high sampling variability, and should be used with caution.
+  
 
 # Global
 SDG_GOAL__GLOBAL: |-
@@ -28,17 +30,8 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 # Source
 
 source_active_1: true
-source_url_text_1: General Social Survey, 2019 - Custom tabulation
-source_url_1: https://www150.statcan.gc.ca/n1/pub/85-002-x/2020001/article/00014/tbl/tbl01-eng.htm
+source_url_text_1: Statistics Canada. Table 43-10-0062-01  Confidence in Canadian institutions, by groups designated as visible minorities and selected sociodemographic characteristics, 2020
+source_url_1: https://doi.org/10.25318/4310006201-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada
-
-source_active_2: true
-source_url_text_2: General Social Survey on Social Identity, 2020
-source_url_2: https://www150.statcan.gc.ca/n1/pub/85-002-x/2022001/article/00003/tbl/tbl01-eng.htm
-source_organisation_2: Statistics Canada
-source_periodicity_2: Every 5 years
-source_geographical_coverage_2: Canada
-
-proxy: proxy
