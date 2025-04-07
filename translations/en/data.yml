@@ -84,6 +84,13 @@ Total, all persons: Total, all persons
 Total, gender: Total, gender
 Total - Gender: Total - Gender
 
+# Area/Location
+Location: Location
+Area: Area
+Rural: Rural
+Urban: Urban
+Total, location: Total, location
+
 ## Geo
 Geography: Geography
 Canada: Canada
@@ -257,6 +264,7 @@ Under 35 years: Under 35 years
 15 to 19 years: 15 to 19 years
 15 to 24 years: 15 to 24 years
 15 to 64 years: 15 to 64 years
+16 to 24 years: 16 to 24 years
 18 to 24 years: 18 to 24 years
 18 to 34 years: 18 to 34 years
 18 to 64 years: 18 to 64 years
@@ -279,6 +287,7 @@ Under 35 years: Under 35 years
 55 to 59 years: 55 to 59 years
 50 to 64 years: 50 to 64 years
 55 to 64 years: 55 to 64 years
+55 to 65 years: 55 to 65 years
 60 to 64 years: 60 to 64 years
 65 to 69 years: 65 to 69 years
 65 to 74 years: 65 to 74 years
@@ -433,9 +442,6 @@ Access to basic waste collection services: Access to basic waste collection serv
 Access to basic waste collection services (Proxy): Access to basic waste collection services (Proxy)
 
 ## 1-4-2
-Urban: Urban
-Rural: Rural
-Area: Area
 St. Johns (CMA): St. John's (CMA)
 Corner Brook (CA): Corner Brook (CA)
 Grand Falls-Windsor (CA): Grand Falls-Windsor (CA)
@@ -867,42 +873,23 @@ College, trade school or some university: College, trade school or some universi
 Bachelors degree or higher: Bachelor's degree or higher
 
 ## 4-5-1
-Educational indicator: Educational indicator
-Participation rate of adults in formal and non-formal education: Participation rate of adults in formal and non-formal education
-Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics: Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics
-Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading: Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading
-Proportion of adults (25-to-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional numeracy skills: Proportion of adults (25-to-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional numeracy skills
-Proportion of adults (25-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional literacy skills: Proportion of adults (25-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional literacy skills
-Parity index: Parity index
-Gender Parity Index: Gender Parity Index
-Economic, Social and Cultural Status Index (ESCS): Economic, Social and Cultural Status Index (ESCS)
-Location Parity Index: Location Parity Index
-Parental Education Attainment Parity Index: Parental Education Attainment Parity Index
-Participation rate in organized learning: Participation rate in organized learning
-Postsecondary participation rate of young adults aged 18 to 24: Postsecondary participation rate of young adults aged 18 to 24
 Completion rate: Completion rate
 Educational attainment rate: Educational attainment rate
-Proficiency in knowledge of environmental science and geoscience: Proficiency in knowledge of environmental science and geoscience
-Proficiency in knowledge of environmental science and geoscience - Cognitive dimension: Proficiency in knowledge of environmental science and geoscience - Cognitive dimension
-Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Confidence: Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Confidence
-Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Enjoyment: Proficiency in knowledge of environmental science and geoscience - Non-cognitive dimension - Enjoyment
-Percentage of students in early grades who have their first or home language as language of instruction: Percentage of students in early grades who have their first or home language as language of instruction
-Percentage of students at the end of lower secondary education who have their first or home language as language of instruction: Percentage of students at the end of lower secondary education who have their first or home language as language of instruction
-Gross enrolment ratio for tertiary education: Gross enrolment ratio for tertiary education
-Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in mathematics: Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in mathematics
-Proportion of students at the end of primary education achieving at least a minimum proficiency level in mathematics: Proportion of students at the end of primary education achieving at least a minimum proficiency level in mathematics
-Proportion of children/young people at the age of primary education prepared for the future in mathematics: Proportion of children/young people at the age of primary education prepared for the future in mathematics
-Proportion of children/young people at the age of lower secondary education prepared for the future in mathematics: Proportion of children/young people at the age of lower secondary education prepared for the future in mathematics
-Proportion of children/young people at the age of lower secondary education prepared for the future in reading: Proportion of children/young people at the age of lower secondary education prepared for the future in reading
 Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months: Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months
-Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in reading: Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in reading
-Out-of-school rate for children, adolescents and youth of primary, lower secondary and upper secondary school age: Out-of-school rate for children, adolescents and youth of primary, lower secondary and upper secondary school age
-Out-of-school rate for adolescents and youth of lower and upper secondary school age: Out-of-school rate for adolescents and youth of lower and upper secondary school age
-Out-of-school rate for youth of upper secondary school age: Out-of-school rate for youth of upper secondary school age
-Upper secondary education: Upper secondary education
-Lower secondary education: Lower secondary education
+Proportion of students achieving at least a minimum proficiency level in mathematics: Proportion of students achieving at least a minimum proficiency level in mathematics
+Proportion of students achieving at least a minimum proficiency level in reading: Proportion of students achieving at least a minimum proficiency level in reading
+Parity index: Parity index
+Adjusted gender parity index: Adjusted gender parity index
+Adjusted location parity index: Adjusted location parity index
+Adjusted wealth parity index: Adjusted wealth parity index
+Adjusted language test parity index: Adjusted language test parity index
+Adjusted native parity index: Adjusted native parity index
+Education level: Education level
 Primary education: Primary education
+Lower secondary education: Lower secondary education
+Upper secondary education: Upper secondary education
 At least some primary (ISCED 1): At least some primary (ISCED 1)
+Completed primary education or higher: Completed primary education or higher
 Completed lower secondary education or higher: Completed lower secondary education or higher
 Completed upper secondary education or higher: Completed upper secondary education or higher
 Completed post-secondary non-tertiary education or higher: Completed post-secondary non-tertiary education or higher
@@ -910,20 +897,12 @@ Completed short-cycle tertiary education or higher: Completed short-cycle tertia
 Completed Bachelor's or equivalent education or higher: Completed Bachelor's or equivalent education or higher
 Completed Master's or equivalent education or higher: Completed Master's or equivalent education or higher
 Completed Doctoral or equivalent education: Completed Doctoral or equivalent education
-15-24 years old: 15-24 years old
-15-64 years old: 15-64 years old
-25-54 years old: 25-54 years old
-55-64 years old: 55-64 years old
-Proportion of children/young people at the age of primary education prepared for the future in reading: Proportion of children/young people at the age of primary education prepared for the future in reading
-Proportion of students at the end of primary education achieving at least a minimum proficiency level in reading: Proportion of students at the end of primary education achieving at least a minimum proficiency level in reading
-Out-of-school rate for children of primary school age: Out-of-school rate for children of primary school age
-Out-of-school rate for children and adolescents of primary and lower secondary school age: Out-of-school rate for children and adolescents of primary and lower secondary school age
-Adjusted net enrolment rate, one year before the official primary entry age: Adjusted net enrolment rate, one year before the official primary entry age
-Out-of-school rate for children one year before the official age: Out-of-school rate for children one year before the official age
-Proportion of 15-24 year-olds enrolled in vocational education: Proportion of 15-24 year-olds enrolled in vocational education
-Wealth Parity Index: Wealth Parity Index
-Language Test Parity Index: Language Test Parity Index
-Native Parity Index: Native Parity Index
+Modelled data: Modelled data
+Completion rate parity: Completion rate parity
+Educational attainment rate parity: Educational attainment rate parity
+Parity in the participation rate of youth and adults in formal and non-formal education and training in the previous 12 months: Parity in the participation rate of youth and adults in formal and non-formal education and training in the previous 12 months
+Parity in the proportion of students achieving at least a minimum proficiency level in mathematics: Parity in the proportion of students achieving at least a minimum proficiency level in mathematics
+Parity in the proportion of students achieving at least a minimum proficiency level in reading: Parity in the proportion of students achieving at least a minimum proficiency level in reading
 
 ##4-6-1
 Educational subject: Educational subject
@@ -934,8 +913,6 @@ Numeracy: Numeracy
 2 or below: 2 or below
 3 or above: 3 or above
 Total age groups: Total age groups
-16 to 24 years: 16 to 24 years
-55 to 65 years: 55 to 65 years
 
 ## 4-b-1
 USD Millions: USD Millions
@@ -1288,6 +1265,7 @@ Younger than 30 years old: Younger than 30 years old
 50 to 64 years old: 50 to 64 years old
 65 years old and older: 65 years old and older
 Ownership demographics: Ownership demographics
+Demographic characteristics: Demographic characteristics
 Person(s) with a disability: Person(s) with a disability
 Overall approval rate, line of credit: Overall approval rate, line of credit
 Overall approval rate, term loan: Overall approval rate, term loan
@@ -1417,10 +1395,6 @@ Distance-capacity public transit service area: Distance-capacity public transit 
 500 metres from all public transit stops: 500 metres from all public transit stops
 500 metres from low-capacity public transit stops only: 500 metres from low-capacity public transit stops only
 1000 metres from high-capacity public transit stops only: 1000 metres from high-capacity public transit stops only
-Location: Location
-Total, location: Total, location
-Urban: Urban
-Rural: Rural
 Demographic and socio-economic: Demographic and socio-economic
 Total - Age groups of the population - 100% data: Total - Age groups of the population - 100% data
 
@@ -1916,8 +1890,8 @@ Total, urban and rural areas: Total, urban and rural areas
 Urban areas: Urban areas
 Proportion of population reporting to have experienced discrimination or unfair treatment: Proportion of population reporting to have experienced discrimination or unfair treatment
 Proportion of population reporting to have experienced discrimination or unfair treatment in the past 5 years: Proportion of population reporting to have experienced discrimination or unfair treatment in the past 5 years
-Proportion of individuals within a population who report experiencing discrimination or unfair treatment: Proportion of individuals within a population who report experiencing discrimination or unfair treatment
-Proportion of individuals within a population who report experiencing discrimination or unfair treatment in the past 5 years: Proportion of individuals within a population who report experiencing discrimination or unfair treatment in the past 5 years
+Proportion of individuals within a population who reported experiencing discrimination or unfair treatment: Proportion of individuals within a population who reported experiencing discrimination or unfair treatment
+Proportion of individuals within a population who reported experiencing discrimination or unfair treatment in the past 5 years: Proportion of individuals within a population who reported experiencing discrimination or unfair treatment in the past 5 years
 
 ## 17-1-1
 Taxes: Taxes

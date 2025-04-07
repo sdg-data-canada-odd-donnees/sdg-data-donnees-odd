@@ -8,7 +8,8 @@ SDG_INDICATOR: '<p>Indicateur 5.2.1 : Proportion de femmes et de filles âgée
 STAT_CONC_DEF: >-
   Cet indicateur mesure le pourcentage de femmes et de filles de 15 ans ou plus qui ont été victimes de violence physique, sexuelle ou psychologique de la part d’un partenaire intime actuel ou ancien au cours des 12 derniers mois.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  La désagrégation pour la catégorie « Caractéristiques sélectionnées » n'est disponible que lorsque « Total de tous les types de violence » est sélectionné dans la catégorie « Type de violence entre partenaires intimes ».
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles</p>'

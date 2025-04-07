@@ -8,12 +8,12 @@ SDG_INDICATOR: >-
 STAT_CONC_DEF: >-
   This indicator measures the proportion of small-scale industries requesting a loan or line of credit as well as the approval rates.
   <br><br>
-  Small and Medium Sized Enterprises (SMEs) in Canada are defined as businesses with 1 to 499 paid employees. More pecifically:
+  Small and Medium Sized Enterprises (SMEs) in Canada are defined as businesses with 1 to 499 paid employees. More specifically:
   <br><br>
   - A small enterprise has 1 to 99 paid employees. <br>
   - A medium enterprise has 100 to 499 paid employees. <br>
   - A large enterprise has 500 or more paid employees.
-DATA_COMP: '   '
+DATA_COMP: custom.data-comp-national
 REC_USE_LIM: >-
   This is a proxy indicator that measures the proportion of small-scale industries requesting a loan or line of credit and the corresponding approval rates, whereas the UN Global indicator states: "Proportion of small-scale industries with a loan or line of credit".
   <br><br>
@@ -24,7 +24,9 @@ REC_USE_LIM: >-
   <br><br>
   Data for this indicator use Canada's definition of SMEs.
   <br><br>
-  National data for Canada include both small and medium-scale industries rather than just small-scale industries. 
+  National data for Canada include both small and medium-scale industries rather than just small-scale industries.
+  <br><br>
+  Data for "Demographic characteristics" refer specifically to individuals who hold majority ownership.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

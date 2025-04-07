@@ -9,20 +9,18 @@ SDG_INDICATOR: '<p>Indicator 4.5.1: Parity indices (female/male, rural/urban, bo
   wealth quintile and others such as disability status, indigenous peoples and conflict-affected,
   as data become available) for all education indicators on this list that can be
   disaggregated</p>'
-STAT_CONC_DEF: |
-    <p>The parity index is the main method chosen by the international community to measure equity across the Goal 4 indicators, and is defined by the ratio between the values of a given indicator for two different groups. An index between 0.97 and 1.03 indicates a parity between the two groups. A value that is less than 0.97 or greater than 1.03 indicates an inequity between the two groups.</p>
-    <p><b>Gender Parity Index:</b> is the ratio between the values of a given indicator of males and females. This is calculated by dividing the female value of an indicator by the male value of the same indicator. It is the main method chosen by the international community, such as UNESCO, to measure equity across the SDG-4 indicators. A GPI between 0.97 and 1.03 indicates parity between females and males. A value less than 0.97 indicates a disparity in favour of boys and a value more than 1.03 indicates a disparity in favour of girls.</p>
-    <p><b>Location Parity Index:</b> measures progress towards parity in education participation and/or learning opportunities available for children, adolescents or youth living in rural areas in relation to those living in urban areas. This is calculated by dividing the rural value of an indicator by the urban value of the same indicator. It is the main method chosen by the international community, such as UNESCO, to measure equity across the SDG-4 indicators. A location parity index between 0.97 and 1.03 indicates parity between those living in urban and rural locations. A value less than 0.97 indicates a disparity in favour of those living in urban locations and a value more than 1.03 indicates a disparity in favour of those living in rural locations.</p>
-    <p><b>Wealth Parity Index:</b> measures disparities between the poorest and richest population quintiles. This is calculated by dividing the bottom wealth quintile by the top wealth quintile of the same indicator. An index between 0.97 and 1.03 indicates parity between those children from the bottom wealth quintile and those from the top wealth quintile. A value less than 0.97 indicates a disparity in favour of children from the top quintile and a value more than 1.03 indicates a disparity in favour of those from the bottom quintile.</p>
+STAT_CONC_DEF: |-
+  <p>The parity index is the main method chosen by the international community to measure equity across the Goal 4 indicators, and is defined by the ratio between the values of a given indicator for two different groups. An index between 0.97 and 1.03 indicates a parity between the two groups. A value that is less than 0.97 or greater than 1.03 indicates an inequity between the two groups.</p>
+  <p><b>Gender Parity Index:</b> is the ratio between the values of a given indicator of males and females. This is calculated by dividing the female value of an indicator by the male value of the same indicator. It is the main method chosen by the international community, such as UNESCO, to measure equity across the SDG-4 indicators. A GPI between 0.97 and 1.03 indicates parity between females and males. A value less than 0.97 indicates a disparity in favour of boys and a value more than 1.03 indicates a disparity in favour of girls.</p>
+  <p><b>Location Parity Index:</b> measures progress towards parity in education participation and/or learning opportunities available for children, adolescents or youth living in rural areas in relation to those living in urban areas. This is calculated by dividing the rural value of an indicator by the urban value of the same indicator. It is the main method chosen by the international community, such as UNESCO, to measure equity across the SDG-4 indicators. A location parity index between 0.97 and 1.03 indicates parity between those living in urban and rural locations. A value less than 0.97 indicates a disparity in favour of those living in urban locations and a value more than 1.03 indicates a disparity in favour of those living in rural locations.</p>
+  <p><b>Wealth Parity Index:</b> measures disparities between the poorest and richest population quintiles. This is calculated by dividing the bottom wealth quintile by the top wealth quintile of the same indicator. An index between 0.97 and 1.03 indicates parity between those children from the bottom wealth quintile and those from the top wealth quintile. A value less than 0.97 indicates a disparity in favour of children from the top quintile and a value more than 1.03 indicates a disparity in favour of those from the bottom quintile.</p>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
-    The territories did not participate in PISA 2015, and as a result are not represented in some indicators.
-    <br>
-    <br> The population surveyed for the educational indicator "Educational attainment rate" is the population aged 25 years and over.
-    <br>
-    <br> Only data for lower secondary education are available for the educational indicator "Proficiency in knowledge of environmental science and geoscience" and its related indicators for the Gender Parity Index and the Location Parity Index.
-    <br>
-    <br> Only data for upper secondary education are available for the educational indicator "Completion rate" for the Location Parity Index and the Wealth Parity Index.
+REC_USE_LIM: |-
+  The territories did not participate in PISA 2015, and as a result are not represented in some indicators.
+  <br><br>
+  The population surveyed for the educational indicator "Educational attainment rate" is the population aged 25 years and over.
+  <br><br>
+  Only data for upper secondary education are available for the educational indicator "Completion rate" for the Location Parity Index and the Wealth Parity Index.
  
 
 ## GLOBAL METADATA
