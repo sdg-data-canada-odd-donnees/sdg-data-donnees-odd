@@ -91,7 +91,7 @@
                 ""
               ]
             },
-            "title": "Statut d’immigrant"
+            "title": "Status d'immigrant"
           },
           {
             "name": "Visible minority",
@@ -112,7 +112,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Première Nation (Indien de l'Amérique du Nord)",
+                "Premières Nations (Indien de l'Amérique du Nord)",
                 "Métis",
                 "Inuk (Inuit)",
                 "Identité non autochtone",

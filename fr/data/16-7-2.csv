@@ -1,17 +1,321 @@
-Year,Institutions,Caractéristiques,Niveau de confiance,Value
-2019,,,,41
-2020,Parlement fédéral,Noirs,Aucune confiance,13
-2020,Parlement fédéral,"Premières Nations, Métis ou Inuits",Aucune confiance,31
-2020,Parlement fédéral,Autres groupes désignés comme minorités visibles,Aucune confiance,11
-2020,Parlement fédéral,Non-Autochtones n’appartenant pas à une minorité visible,Aucune confiance,21
-2020,Parlement fédéral,Noirs,Confiance,52
-2020,Parlement fédéral,"Premières Nations, Métis ou Inuits",Confiance,28
-2020,Parlement fédéral,Autres groupes désignés comme minorités visibles,Confiance,60
-2020,Parlement fédéral,Non-Autochtones n’appartenant pas à une minorité visible,Confiance,41
-2020,Système de justice et tribunaux,"Premières Nations, Métis ou Inuits",Aucune confiance,30
-2020,Système de justice et tribunaux,Autres groupes désignés comme minorités visibles,Aucune confiance,10
-2020,Système de justice et tribunaux,Non-Autochtones n’appartenant pas à une minorité visible,Aucune confiance,16
-2020,Système de justice et tribunaux,Noirs,Confiance,54
-2020,Système de justice et tribunaux,"Premières Nations, Métis ou Inuits",Confiance,37
-2020,Système de justice et tribunaux,Autres groupes désignés comme minorités visibles,Confiance,68
-2020,Système de justice et tribunaux,Non-Autochtones n’appartenant pas à une minorité visible,Confiance,53
+Year,Insitutions,Minorité visible,Certaines caractéristiques sociodémographiques,COMMENT_OBS,Value
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,"Total, 15 ans et plus",,55.2
+2020,Confiance dans le Parlement fédéral,Population totale,"Total, 15 ans et plus",,44.4
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,15 à 24 ans,,51.5
+2020,Confiance dans le Parlement fédéral,Population totale,15 à 24 ans,,42.4
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,25 à 64 ans,,54.5
+2020,Confiance dans le Parlement fédéral,Population totale,25 à 64 ans,,43.5
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,65 ans et plus,,59.8
+2020,Confiance dans le Parlement fédéral,Population totale,65 ans et plus,,48.5
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,Hommes,,56.9
+2020,Confiance dans le Parlement fédéral,Population totale,Hommes,,44.0
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,Femmes,,53.9
+2020,Confiance dans le Parlement fédéral,Population totale,Femmes,,45.2
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,Immigrants,,68.6
+2020,Confiance dans le Parlement fédéral,Population totale,Immigrants,,59.6
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,Non-immigrants,,49.8
+2020,Confiance dans le Parlement fédéral,Population totale,Non-immigrants,,38.1
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,Première génération,,69.3
+2020,Confiance dans le Parlement fédéral,Population totale,Première génération,,60.3
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,Deuxième génération,,49.7
+2020,Confiance dans le Parlement fédéral,Population totale,Deuxième génération,,39.4
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,Troisième génération ou plus,,50.0
+2020,Confiance dans le Parlement fédéral,Population totale,Troisième génération ou plus,,37.9
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,"Première langue officielle parlée, anglais seulement",,56.3
+2020,Confiance dans le Parlement fédéral,Population totale,"Première langue officielle parlée, anglais seulement",,44.5
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,"Première langue officielle parlée, français seulement",,57.4
+2020,Confiance dans le Parlement fédéral,Population totale,"Première langue officielle parlée, français seulement",,48.7
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,50.3
+2020,Confiance dans le Parlement fédéral,Population totale,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,40.8
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,Diplôme ou certificat postsecondaire (non universitaire),,51.5
+2020,Confiance dans le Parlement fédéral,Population totale,Diplôme ou certificat postsecondaire (non universitaire),,39.9
+2020,Confiance dans le système de justice et dans les tribunaux,Population totale,Certificat ou diplôme universitaire,,62.6
+2020,Confiance dans le Parlement fédéral,Population totale,Certificat ou diplôme universitaire,,51.2
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,"Total, 15 ans et plus",,65.7
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,"Total, 15 ans et plus",,58.7
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,15 à 24 ans,,56.1
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,15 à 24 ans,,44.8
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,25 à 64 ans,,67.7
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,25 à 64 ans,,61.6
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,65 ans et plus,,71.1
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,65 ans et plus,,65.7
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,Hommes,,68.7
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,Hommes,,61.2
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,Femmes,,63.0
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,Femmes,,56.5
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,Immigrants,,71.2
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,Immigrants,,63.0
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,Non-immigrants,,42.4
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,Non-immigrants,,38.5
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,Première génération,,71.7
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,Première génération,,63.7
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,Deuxième génération,,44.2
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,Deuxième génération,,42.6
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,Troisième génération ou plus,,
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,Troisième génération ou plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,"Première langue officielle parlée, anglais seulement",,67.2
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,"Première langue officielle parlée, anglais seulement",,59.7
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,"Première langue officielle parlée, français seulement",,68.0
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,"Première langue officielle parlée, français seulement",,64.6
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,60.3
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,54.3
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,Diplôme ou certificat postsecondaire (non universitaire),,63.2
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,Diplôme ou certificat postsecondaire (non universitaire),,56.5
+2020,Confiance dans le système de justice et dans les tribunaux,Total de la population des minorités visibles,Certificat ou diplôme universitaire,,69.8
+2020,Confiance dans le Parlement fédéral,Total de la population des minorités visibles,Certificat ou diplôme universitaire,,62.0
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,"Total, 15 ans et plus",,70.2
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,"Total, 15 ans et plus",,65.0
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,15 à 24 ans,À utiliser avec prudence,60.8
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,15 à 24 ans,À utiliser avec prudence,50.3
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,25 à 64 ans,,72.2
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,25 à 64 ans,,68.2
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,65 ans et plus,,71.8
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,65 ans et plus,,67.2
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,Hommes,,73.9
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,Hommes,,70.4
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,Femmes,,66.2
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,Femmes,,59.2
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,Immigrants,,77.2
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,Immigrants,,70.8
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,Non-immigrants,À utiliser avec prudence,40.1
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,Non-immigrants,À utiliser avec prudence,39.1
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,Première génération,,78.0
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,Première génération,,71.8
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,Deuxième génération,À utiliser avec prudence,40.5
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,Deuxième génération,À utiliser avec prudence,42.0
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,Troisième génération ou plus,,
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,Troisième génération ou plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,"Première langue officielle parlée, anglais seulement",,72.8
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,"Première langue officielle parlée, anglais seulement",,67.7
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,"Première langue officielle parlée, français seulement",,
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,"Première langue officielle parlée, français seulement",,
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,59.5
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,54.6
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,Diplôme ou certificat postsecondaire (non universitaire),À utiliser avec prudence,74.2
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,Diplôme ou certificat postsecondaire (non universitaire),À utiliser avec prudence,73.3
+2020,Confiance dans le système de justice et dans les tribunaux,Sud-Asiatique,Certificat ou diplôme universitaire,,74.7
+2020,Confiance dans le Parlement fédéral,Sud-Asiatique,Certificat ou diplôme universitaire,,68.4
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,"Total, 15 ans et plus",,64.0
+2020,Confiance dans le Parlement fédéral,Chinois,"Total, 15 ans et plus",,50.8
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,15 à 24 ans,À utiliser avec prudence,69.9
+2020,Confiance dans le Parlement fédéral,Chinois,15 à 24 ans,À utiliser avec prudence,48.3
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,25 à 64 ans,,62.8
+2020,Confiance dans le Parlement fédéral,Chinois,25 à 64 ans,,51.0
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,65 ans et plus,,60.0
+2020,Confiance dans le Parlement fédéral,Chinois,65 ans et plus,,54.5
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,Hommes,,66.8
+2020,Confiance dans le Parlement fédéral,Chinois,Hommes,,51.5
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,Femmes,,61.8
+2020,Confiance dans le Parlement fédéral,Chinois,Femmes,,51.1
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,Immigrants,,66.6
+2020,Confiance dans le Parlement fédéral,Chinois,Immigrants,,51.8
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,Non-immigrants,,52.2
+2020,Confiance dans le Parlement fédéral,Chinois,Non-immigrants,,41.8
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,Première génération,,67.9
+2020,Confiance dans le Parlement fédéral,Chinois,Première génération,,53.2
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,Deuxième génération,À utiliser avec prudence,54.5
+2020,Confiance dans le Parlement fédéral,Chinois,Deuxième génération,À utiliser avec prudence,46.9
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,Troisième génération ou plus,,
+2020,Confiance dans le Parlement fédéral,Chinois,Troisième génération ou plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,"Première langue officielle parlée, anglais seulement",,65.9
+2020,Confiance dans le Parlement fédéral,Chinois,"Première langue officielle parlée, anglais seulement",,51.3
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,"Première langue officielle parlée, français seulement",,
+2020,Confiance dans le Parlement fédéral,Chinois,"Première langue officielle parlée, français seulement",,
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,65.3
+2020,Confiance dans le Parlement fédéral,Chinois,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,50.6
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,Diplôme ou certificat postsecondaire (non universitaire),,61.5
+2020,Confiance dans le Parlement fédéral,Chinois,Diplôme ou certificat postsecondaire (non universitaire),,52.9
+2020,Confiance dans le système de justice et dans les tribunaux,Chinois,Certificat ou diplôme universitaire,,64.1
+2020,Confiance dans le Parlement fédéral,Chinois,Certificat ou diplôme universitaire,,50.6
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,"Total, 15 ans et plus",,54.2
+2020,Confiance dans le Parlement fédéral,Noir,"Total, 15 ans et plus",,52.2
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,15 à 24 ans,,
+2020,Confiance dans le Parlement fédéral,Noir,15 à 24 ans,,
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,25 à 64 ans,,55.9
+2020,Confiance dans le Parlement fédéral,Noir,25 à 64 ans,,57.8
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,65 ans et plus,À utiliser avec prudence,58.9
+2020,Confiance dans le Parlement fédéral,Noir,65 ans et plus,À utiliser avec prudence,56.7
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,Hommes,,53.8
+2020,Confiance dans le Parlement fédéral,Noir,Hommes,,50.9
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,Femmes,,54.9
+2020,Confiance dans le Parlement fédéral,Noir,Femmes,,53.9
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,Immigrants,,60.6
+2020,Confiance dans le Parlement fédéral,Noir,Immigrants,,57.4
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,Non-immigrants,À utiliser avec prudence,31.2
+2020,Confiance dans le Parlement fédéral,Noir,Non-immigrants,À utiliser avec prudence,33.8
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,Première génération,,61.6
+2020,Confiance dans le Parlement fédéral,Noir,Première génération,,58.1
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,Deuxième génération,,
+2020,Confiance dans le Parlement fédéral,Noir,Deuxième génération,,
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,Troisième génération ou plus,,
+2020,Confiance dans le Parlement fédéral,Noir,Troisième génération ou plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,"Première langue officielle parlée, anglais seulement",,51.2
+2020,Confiance dans le Parlement fédéral,Noir,"Première langue officielle parlée, anglais seulement",,49.9
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,"Première langue officielle parlée, français seulement",À utiliser avec prudence,67.1
+2020,Confiance dans le Parlement fédéral,Noir,"Première langue officielle parlée, français seulement",À utiliser avec prudence,64.6
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,51.9
+2020,Confiance dans le Parlement fédéral,Noir,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,50.6
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,Diplôme ou certificat postsecondaire (non universitaire),À utiliser avec prudence,53.3
+2020,Confiance dans le Parlement fédéral,Noir,Diplôme ou certificat postsecondaire (non universitaire),À utiliser avec prudence,48.5
+2020,Confiance dans le système de justice et dans les tribunaux,Noir,Certificat ou diplôme universitaire,,57.1
+2020,Confiance dans le Parlement fédéral,Noir,Certificat ou diplôme universitaire,,56.1
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,"Total, 15 ans et plus",,68.5
+2020,Confiance dans le Parlement fédéral,Philippin,"Total, 15 ans et plus",,63.3
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,15 à 24 ans,,
+2020,Confiance dans le Parlement fédéral,Philippin,15 à 24 ans,,
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,25 à 64 ans,,73.0
+2020,Confiance dans le Parlement fédéral,Philippin,25 à 64 ans,,65.7
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,65 ans et plus,,
+2020,Confiance dans le Parlement fédéral,Philippin,65 ans et plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,Hommes,,74.0
+2020,Confiance dans le Parlement fédéral,Philippin,Hommes,,68.3
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,Femmes,,64.5
+2020,Confiance dans le Parlement fédéral,Philippin,Femmes,,59.7
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,Immigrants,,73.1
+2020,Confiance dans le Parlement fédéral,Philippin,Immigrants,,67.6
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,Non-immigrants,,
+2020,Confiance dans le Parlement fédéral,Philippin,Non-immigrants,,
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,Première génération,,73.0
+2020,Confiance dans le Parlement fédéral,Philippin,Première génération,,67.5
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,Deuxième génération,,
+2020,Confiance dans le Parlement fédéral,Philippin,Deuxième génération,,
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,Troisième génération ou plus,,
+2020,Confiance dans le Parlement fédéral,Philippin,Troisième génération ou plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,"Première langue officielle parlée, anglais seulement",,69.2
+2020,Confiance dans le Parlement fédéral,Philippin,"Première langue officielle parlée, anglais seulement",,63.7
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,"Première langue officielle parlée, français seulement",,
+2020,Confiance dans le Parlement fédéral,Philippin,"Première langue officielle parlée, français seulement",,
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,Diplôme d'études secondaires ou attestation d'équivalence ou moins,À utiliser avec prudence,55.6
+2020,Confiance dans le Parlement fédéral,Philippin,Diplôme d'études secondaires ou attestation d'équivalence ou moins,À utiliser avec prudence,53.8
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,Diplôme ou certificat postsecondaire (non universitaire),À utiliser avec prudence,71.7
+2020,Confiance dans le Parlement fédéral,Philippin,Diplôme ou certificat postsecondaire (non universitaire),À utiliser avec prudence,63.9
+2020,Confiance dans le système de justice et dans les tribunaux,Philippin,Certificat ou diplôme universitaire,,74.3
+2020,Confiance dans le Parlement fédéral,Philippin,Certificat ou diplôme universitaire,,68.6
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,"Total, 15 ans et plus",,78.1
+2020,Confiance dans le Parlement fédéral,Arabe,"Total, 15 ans et plus",,66.3
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,15 à 24 ans,,
+2020,Confiance dans le Parlement fédéral,Arabe,15 à 24 ans,,
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,25 à 64 ans,,78.9
+2020,Confiance dans le Parlement fédéral,Arabe,25 à 64 ans,,65.7
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,65 ans et plus,,
+2020,Confiance dans le Parlement fédéral,Arabe,65 ans et plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,Hommes,,79.4
+2020,Confiance dans le Parlement fédéral,Arabe,Hommes,,64.9
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,Femmes,,76.4
+2020,Confiance dans le Parlement fédéral,Arabe,Femmes,,68.1
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,Immigrants,,77.2
+2020,Confiance dans le Parlement fédéral,Arabe,Immigrants,,65.2
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,Non-immigrants,,
+2020,Confiance dans le Parlement fédéral,Arabe,Non-immigrants,,
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,Première génération,,77.6
+2020,Confiance dans le Parlement fédéral,Arabe,Première génération,,65.4
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,Deuxième génération,,
+2020,Confiance dans le Parlement fédéral,Arabe,Deuxième génération,,
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,Troisième génération ou plus,,
+2020,Confiance dans le Parlement fédéral,Arabe,Troisième génération ou plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,"Première langue officielle parlée, anglais seulement",,80.9
+2020,Confiance dans le Parlement fédéral,Arabe,"Première langue officielle parlée, anglais seulement",,66.4
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,"Première langue officielle parlée, français seulement",À utiliser avec prudence,81.9
+2020,Confiance dans le Parlement fédéral,Arabe,"Première langue officielle parlée, français seulement",À utiliser avec prudence,74.7
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,Diplôme d'études secondaires ou attestation d'équivalence ou moins,À utiliser avec prudence,80.3
+2020,Confiance dans le Parlement fédéral,Arabe,Diplôme d'études secondaires ou attestation d'équivalence ou moins,À utiliser avec prudence,68.4
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,Diplôme ou certificat postsecondaire (non universitaire),,
+2020,Confiance dans le Parlement fédéral,Arabe,Diplôme ou certificat postsecondaire (non universitaire),,
+2020,Confiance dans le système de justice et dans les tribunaux,Arabe,Certificat ou diplôme universitaire,,77.9
+2020,Confiance dans le Parlement fédéral,Arabe,Certificat ou diplôme universitaire,,64.7
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,"Total, 15 ans et plus",,71.4
+2020,Confiance dans le Parlement fédéral,Latino-Américain,"Total, 15 ans et plus",,67.3
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,15 à 24 ans,,
+2020,Confiance dans le Parlement fédéral,Latino-Américain,15 à 24 ans,,
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,25 à 64 ans,,72.0
+2020,Confiance dans le Parlement fédéral,Latino-Américain,25 à 64 ans,,66.1
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,65 ans et plus,,
+2020,Confiance dans le Parlement fédéral,Latino-Américain,65 ans et plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,Hommes,,74.3
+2020,Confiance dans le Parlement fédéral,Latino-Américain,Hommes,,72.7
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,Femmes,,68.5
+2020,Confiance dans le Parlement fédéral,Latino-Américain,Femmes,,62.2
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,Immigrants,,76.5
+2020,Confiance dans le Parlement fédéral,Latino-Américain,Immigrants,,73.1
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,Non-immigrants,,
+2020,Confiance dans le Parlement fédéral,Latino-Américain,Non-immigrants,,
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,Première génération,,75.4
+2020,Confiance dans le Parlement fédéral,Latino-Américain,Première génération,,72.3
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,Deuxième génération,,
+2020,Confiance dans le Parlement fédéral,Latino-Américain,Deuxième génération,,
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,Troisième génération ou plus,,
+2020,Confiance dans le Parlement fédéral,Latino-Américain,Troisième génération ou plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,"Première langue officielle parlée, anglais seulement",,71.1
+2020,Confiance dans le Parlement fédéral,Latino-Américain,"Première langue officielle parlée, anglais seulement",,68.2
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,"Première langue officielle parlée, français seulement",,
+2020,Confiance dans le Parlement fédéral,Latino-Américain,"Première langue officielle parlée, français seulement",,
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,Diplôme d'études secondaires ou attestation d'équivalence ou moins,À utiliser avec prudence,61.2
+2020,Confiance dans le Parlement fédéral,Latino-Américain,Diplôme d'études secondaires ou attestation d'équivalence ou moins,À utiliser avec prudence,64.4
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,Diplôme ou certificat postsecondaire (non universitaire),À utiliser avec prudence,57.2
+2020,Confiance dans le Parlement fédéral,Latino-Américain,Diplôme ou certificat postsecondaire (non universitaire),À utiliser avec prudence,46.5
+2020,Confiance dans le système de justice et dans les tribunaux,Latino-Américain,Certificat ou diplôme universitaire,À utiliser avec prudence,85.1
+2020,Confiance dans le Parlement fédéral,Latino-Américain,Certificat ou diplôme universitaire,À utiliser avec prudence,79.2
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,"Total, 15 ans et plus",,68.0
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,"Total, 15 ans et plus",,54.1
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,15 à 24 ans,,
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,15 à 24 ans,,
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,25 à 64 ans,,68.9
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,25 à 64 ans,,57.8
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,65 ans et plus,,
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,65 ans et plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,Hommes,À utiliser avec prudence,69.9
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,Hommes,À utiliser avec prudence,52.8
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,Femmes,À utiliser avec prudence,66.4
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,Femmes,À utiliser avec prudence,55.3
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,Immigrants,,70.1
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,Immigrants,,53.1
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,Non-immigrants,,
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,Non-immigrants,,
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,Première génération,,71.8
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,Première génération,,56.0
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,Deuxième génération,,
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,Deuxième génération,,
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,Troisième génération ou plus,,
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,Troisième génération ou plus,,
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,"Première langue officielle parlée, anglais seulement",,74.2
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,"Première langue officielle parlée, anglais seulement",,57.1
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,"Première langue officielle parlée, français seulement",,
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,"Première langue officielle parlée, français seulement",,
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,Diplôme d'études secondaires ou attestation d'équivalence ou moins,À utiliser avec prudence,63.3
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,Diplôme d'études secondaires ou attestation d'équivalence ou moins,À utiliser avec prudence,54.4
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,Diplôme ou certificat postsecondaire (non universitaire),,
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,Diplôme ou certificat postsecondaire (non universitaire),,
+2020,Confiance dans le système de justice et dans les tribunaux,Asiatique du Sud-Est,Certificat ou diplôme universitaire,À utiliser avec prudence,75.2
+2020,Confiance dans le Parlement fédéral,Asiatique du Sud-Est,Certificat ou diplôme universitaire,À utiliser avec prudence,59.4
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,"Total, 15 ans et plus",,52.3
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,"Total, 15 ans et plus",,40.2
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,15 à 24 ans,,50.1
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,15 à 24 ans,,42.0
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,25 à 64 ans,,50.1
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,25 à 64 ans,,37.0
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,65 ans et plus,,58.8
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,65 ans et plus,,46.9
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,Hommes,,53.6
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,Hommes,,38.8
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,Femmes,,51.5
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,Femmes,,41.9
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,Immigrants,,63.8
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,Immigrants,,53.3
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,Non-immigrants,,50.5
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,Non-immigrants,,38.1
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,Première génération,,65.1
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,Première génération,,54.1
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,Deuxième génération,,51.9
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,Deuxième génération,,38.2
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,Troisième génération ou plus,,50.3
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,Troisième génération ou plus,,38.2
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,"Première langue officielle parlée, anglais seulement",,52.1
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,"Première langue officielle parlée, anglais seulement",,38.7
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,"Première langue officielle parlée, français seulement",,56.2
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,"Première langue officielle parlée, français seulement",,46.9
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,47.7
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,Diplôme d'études secondaires ou attestation d'équivalence ou moins,,37.0
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,Diplôme ou certificat postsecondaire (non universitaire),,49.7
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,Diplôme ou certificat postsecondaire (non universitaire),,37.1
+2020,Confiance dans le système de justice et dans les tribunaux,Pas une minorité visible,Certificat ou diplôme universitaire,,59.4
+2020,Confiance dans le Parlement fédéral,Pas une minorité visible,Certificat ou diplôme universitaire,,46.1

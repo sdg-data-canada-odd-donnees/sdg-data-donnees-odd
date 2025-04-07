@@ -423,7 +423,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Autochtone",
+                "Personne autochtone",
                 "Premières Nations",
                 "Métis",
                 "Inuit",
@@ -451,12 +451,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Immigrant",
-                "Non-immigrant",
+                "Personne immigrante",
+                "Personne non immigrante",
                 ""
               ]
             },
-            "title": "Statut d’immigrant"
+            "title": "Status d'immigrant"
           },
           {
             "name": "Sexual orientation",
@@ -633,7 +633,7 @@
                 "Total de la population des minorités visibles",
                 "Sud-Asiatique",
                 "Chinois",
-                "Noirs",
+                "Noir",
                 "Philippin",
                 "Arabe",
                 "Latino-Américain",
@@ -895,46 +895,77 @@
             "title": "Année"
           },
           {
-            "name": "data.Institutions",
+            "name": "Insitutions",
             "type": "string",
             "constraints": {
               "enum": [
-                "Parlement fédéral",
-                "Système de justice et tribunaux",
+                "Confiance dans le système de justice et dans les tribunaux",
+                "Confiance dans le Parlement fédéral",
                 ""
               ]
             },
-            "title": "Institutions"
+            "title": "Insitutions"
           },
           {
-            "name": "data.Characteristics",
+            "name": "Visible minority",
             "type": "string",
             "constraints": {
               "enum": [
-                "Noirs",
-                "Premières Nations, Métis ou Inuits",
-                "Autres groupes désignés comme minorités visibles",
-                "Non-Autochtones n’appartenant pas à une minorité visible",
+                "Population totale",
+                "Total de la population des minorités visibles",
+                "Sud-Asiatique",
+                "Chinois",
+                "Noir",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Asiatique du Sud-Est",
+                "Pas une minorité visible",
                 ""
               ]
             },
-            "title": "Caractéristiques"
+            "title": "Minorité visible"
           },
           {
-            "name": "data.Level of confidence",
+            "name": "Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Aucune confiance",
-                "Confiance",
+                "Total, 15 ans et plus",
+                "15 à 24 ans",
+                "25 à 64 ans",
+                "65 ans et plus",
+                "Hommes",
+                "Femmes",
+                "Immigrants",
+                "Non-immigrants",
+                "Première génération",
+                "Deuxième génération",
+                "Troisième génération ou plus",
+                "Première langue officielle parlée, anglais seulement",
+                "Première langue officielle parlée, français seulement",
+                "Diplôme d'études secondaires ou attestation d'équivalence ou moins",
+                "Diplôme ou certificat postsecondaire (non universitaire)",
+                "Certificat ou diplôme universitaire",
                 ""
               ]
             },
-            "title": "Niveau de confiance"
+            "title": "Certaines caractéristiques sociodémographiques"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "À utiliser avec prudence",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]
@@ -1757,7 +1788,7 @@
                 ""
               ]
             },
-            "title": "Statut d’immigrant"
+            "title": "Status d'immigrant"
           },
           {
             "name": "Visible minority",
@@ -1767,14 +1798,14 @@
                 "Population des minorités visibles",
                 "Sud-Asiatique",
                 "Chinois",
-                "Noirs",
+                "Noir",
                 "Philippin",
                 "Arabe",
                 "Latino-Américain",
                 "Asiatique du Sud-Est",
                 "Asiatique occidental",
-                "Korean",
-                "Minorités visibles multiples",
+                "Coréen",
+                "Minorités visible multiples",
                 "Pas une minorité visible",
                 "Total, selon le groupe de minorité visible",
                 ""
@@ -1948,12 +1979,12 @@
                 "60 à 64 ans",
                 "65 à 74 ans",
                 "65 à 69 ans",
-                "70 à 74 ans",
-                "75 à 84 ans",
-                "75 à 79 ans",
-                "80 à 84 ans",
+                "70 to 74 years",
+                "75 to 84 years",
+                "75 to 79 years",
+                "80 to 84 years",
                 "85 ans et plus",
-                "85 à 89 ans",
+                "85 to 89 years",
                 "90 ans et plus",
                 ""
               ]
@@ -2324,7 +2355,7 @@
                 ""
               ]
             },
-            "title": "Type d'institution fréquentée\n"
+            "title": "Type d'institution fréquentée"
           },
           {
             "name": "GeoCode",
@@ -3513,7 +3544,7 @@
                 "Population des minorités visibles",
                 "Sud-Asiatique",
                 "Chinois",
-                "Noirs",
+                "Noir",
                 "Philippin",
                 "Arabe",
                 "Latino-Américain",
@@ -5696,10 +5727,10 @@
                 "55 à 59 ans",
                 "60 à 64 ans",
                 "65 à 69 ans",
-                "70 à 74 ans",
-                "75 à 79 ans",
-                "80 à 84 ans",
-                "85 à 89 ans",
+                "70 to 74 years",
+                "75 to 79 years",
+                "80 to 84 years",
+                "85 to 89 years",
                 "90 ans et plus",
                 "Non déclaré",
                 ""
@@ -6494,7 +6525,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Autochtone",
+                "Personne autochtone",
                 "Premières Nations",
                 "Métis",
                 "Inuit",
@@ -6533,12 +6564,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Immigrant",
-                "Non-immigrant",
+                "Personne immigrante",
+                "Personne non immigrante",
                 ""
               ]
             },
-            "title": "Statut d’immigrant"
+            "title": "Status d'immigrant"
           },
           {
             "name": "Marital status",
@@ -8508,10 +8539,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15-24 ans",
-                "15-64 ans",
-                "25-54 ans",
-                "55-64 ans",
+                "15-24 years old",
+                "15-64 years old",
+                "25-54 years old",
+                "55-64 years old",
                 ""
               ]
             },
@@ -8934,7 +8965,7 @@
                 ""
               ]
             },
-            "title": "Statut d’immigrant"
+            "title": "Status d'immigrant"
           },
           {
             "name": "Visible minority",
@@ -8955,7 +8986,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Première Nation (Indien de l'Amérique du Nord)",
+                "Premières Nations (Indien de l'Amérique du Nord)",
                 "Métis",
                 "Inuk (Inuit)",
                 "Identité non autochtone",

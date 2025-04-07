@@ -16,46 +16,77 @@
             "title": "Year"
           },
           {
-            "name": "data.Institutions",
+            "name": "Insitutions",
             "type": "string",
             "constraints": {
               "enum": [
-                "Federal Parliament",
-                "Justice system and courts",
+                "Confidence in the justice system and courts",
+                "Confidence in Federal Parliament",
                 ""
               ]
             },
-            "title": "Institutions"
+            "title": "Insitutions"
           },
           {
-            "name": "data.Characteristics",
+            "name": "Visible minority",
             "type": "string",
             "constraints": {
               "enum": [
+                "Total population",
+                "Total visible minority population",
+                "South Asian",
+                "Chinese",
                 "Black",
-                "First Nations, Métis, or Inuit",
-                "Other group designated as visible minority",
-                "Non-Indigenous, non-visible minority",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Southeast Asian",
+                "Not a visible minority",
                 ""
               ]
             },
-            "title": "Characteristics"
+            "title": "Visible minority"
           },
           {
-            "name": "data.Level of confidence",
+            "name": "Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Not confident",
-                "Confident",
+                "Total, 15 years and over",
+                "15 to 24 years",
+                "25 to 64 years",
+                "65 years and over",
+                "Men",
+                "Women",
+                "Immigrants",
+                "Non-immigrants",
+                "First generation",
+                "Second generation",
+                "Third generation or more",
+                "First official language spoken, English only",
+                "First official language spoken, French only",
+                "Secondary (high) school diploma or equivalency certificate or less",
+                "Postsecondary certificate or diploma (non-university)",
+                "University certificate or diploma",
                 ""
               ]
             },
-            "title": "Level of confidence"
+            "title": "Selected sociodemographic characteristics"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Use with caution",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

@@ -1,4 +1,4 @@
-Year,Series,Genre,Âge,Orientation sexuelle,"Identité autochtone (Première Nation, Métis ou Inuit)",Minorité visible,Personne ayant une incapacité,Statut d’immigrant,État matrimonial,Value
+Year,Series,Genre,Âge,Orientation sexuelle,"Identité autochtone (Première Nation, Métis ou Inuit)",Minorité visible,Personne ayant une incapacité,Status d'immigrant,État matrimonial,Value
 1999,Violence physique,,,,,,,,,80
 2004,Violence physique,,,,,,,,,75
 2009,Violence physique,,,,,,,,,80
@@ -31,12 +31,12 @@ Year,Series,Genre,Âge,Orientation sexuelle,"Identité autochtone (Première Nat
 2019,Violence sexuelle,,,Hétérosexuel,,,,,,19
 2019,Violence sexuelle,,,Lesbienne ou gai,,,,,,55
 2019,Violence sexuelle,,,Bisexuel,,,,,,541
-2019,Violence physique,,,,Autochtone,,,,,121
+2019,Violence physique,,,,Personne autochtone,,,,,121
 2019,Violence physique,,,,Premières Nations,,,,,63
 2019,Violence physique,,,,Métis,,,,,181
 2019,Violence physique,,,,Inuit,,,,,185
 2019,Violence physique,,,,Personne non autochtone,,,,,44
-2019,Violence sexuelle,,,,Autochtone,,,,,35
+2019,Violence sexuelle,,,,Personne autochtone,,,,,35
 2019,Violence sexuelle,,,,Personne non autochtone,,,,,30
 2019,Violence physique,,,,,Minorité visible,,,,30
 2019,Violence physique,,,,,N’appartenant pas à une minorité visible,,,,51
@@ -46,10 +46,10 @@ Year,Series,Genre,Âge,Orientation sexuelle,"Identité autochtone (Première Nat
 2019,Violence physique,,,,,,Personne n'ayant aucune incapacité,,,36
 2019,Violence sexuelle,,,,,,Personne ayant une incapacité,,,60
 2019,Violence sexuelle,,,,,,Personne n'ayant aucune incapacité,,,14
-2019,Violence physique,,,,,,,Immigrant,,29
-2019,Violence physique,,,,,,,Non-immigrant,,52
-2019,Violence sexuelle,,,,,,,Immigrant,,12
-2019,Violence sexuelle,,,,,,,Non-immigrant,,36
+2019,Violence physique,,,,,,,Personne immigrante,,29
+2019,Violence physique,,,,,,,Personne non immigrante,,52
+2019,Violence sexuelle,,,,,,,Personne immigrante,,12
+2019,Violence sexuelle,,,,,,,Personne non immigrante,,36
 2019,Violence physique,,,,,,,,Marié ou vivant en union libre,40
 2019,Violence physique,,,,,,,,"Séparé, divorcé ou veuf",46
 2019,Violence physique,,,,,,,,"Célibataire, jamais marié",60

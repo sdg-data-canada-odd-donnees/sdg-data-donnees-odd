@@ -57,7 +57,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Autochtone",
+                "Personne autochtone",
                 "Premières Nations",
                 "Métis",
                 "Inuit",
@@ -85,12 +85,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Immigrant",
-                "Non-immigrant",
+                "Personne immigrante",
+                "Personne non immigrante",
                 ""
               ]
             },
-            "title": "Statut d’immigrant"
+            "title": "Status d'immigrant"
           },
           {
             "name": "Sexual orientation",

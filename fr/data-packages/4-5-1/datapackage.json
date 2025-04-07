@@ -70,10 +70,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15-24 ans",
-                "15-64 ans",
-                "25-54 ans",
-                "55-64 ans",
+                "15-24 years old",
+                "15-64 years old",
+                "25-54 years old",
+                "55-64 years old",
                 ""
               ]
             },
