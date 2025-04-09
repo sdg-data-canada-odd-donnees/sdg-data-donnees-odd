@@ -88,7 +88,15 @@ disaggregate <-
     )
   )
 
-data_final <- bind_rows(total_line, disaggregate)
+data_final <- bind_rows(total_line, disaggregate) %>%
+select(
+  Year,
+  `Type of heritage`,
+  `Level of government`,
+  Geography,
+  GeoCode,
+  Value
+)
 
 write.csv(
   data_final,
