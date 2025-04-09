@@ -133,8 +133,8 @@ income_per_cap <-
 
 data_final <- 
   bind_rows(expenditure_per_cap, income_per_cap) %>% 
-  relocate(Series, .after = Year) %>% 
   relocate(`Household income decile`, .after = `Household income quintile`) %>%
+  relocate(Series, .after = `Household income decile`) %>% 
   relocate(Geography, .after = `Household income decile`) %>%
   left_join(geocodes) %>% 
   relocate(GeoCode, .before = "Value")
