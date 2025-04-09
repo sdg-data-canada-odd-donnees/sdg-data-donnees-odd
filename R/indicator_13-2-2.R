@@ -14,7 +14,7 @@ total_emissions_filtered <-
   total_emissions %>%
   filter(
     !Region == "Northwest Territories and Nunavut",
-    Total == "y",
+    Total %in% c("y", " y"), # both "y" and " y" have been used in the past so look for either
     Sector == "",
     Sub.sector == "",
     Sub.sub.sector == ""
@@ -24,8 +24,8 @@ total_emissions_filtered <-
   ) %>%
   select(
     Year,
-    Geography = Region,
     Source,
+    Geography = Region,
     Value
   ) %>%
   arrange(Year, Geography) %>%
