@@ -30,6 +30,13 @@ data_final <-
       filter(
         !(Geography == "Canada" & `Sources of waste for disposal` == "All sources of waste for disposal")
       )
+  ) %>%
+  select(
+    Year,
+    `Sources of waste for disposal`,
+    Geography,
+    GeoCode,
+    Value
   )
 
 write.csv(
