@@ -35,6 +35,14 @@ data_final <-
       mutate(across(Geography:`Indigenous identity`, ~ NA)),
     homicide_rates %>%
       filter(!(Geography == "Canada" & Gender == "All genders" & `Indigenous identity` == "Total"))
+  ) %>%
+  select(
+    Year,
+    Gender,
+    `Indigenous identity`,
+    Geography,
+    GeoCode,
+    Value
   )
 
 write.csv(
