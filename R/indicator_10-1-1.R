@@ -6,6 +6,9 @@ library(dplyr)
 library(cansim)
 library(tidyr)
 
+# load geocode
+geocodes <- read.csv("geocodes.csv")
+
 exp <- get_cansim("11-10-0223-01", factors = FALSE)
 income <- get_cansim("11-10-0193-01", factors = FALSE)
 pop_raw <- get_cansim("17-10-0005-01", factors = FALSE)
@@ -132,7 +135,9 @@ data_final <-
   bind_rows(expenditure_per_cap, income_per_cap) %>% 
   relocate(Series, .after = Year) %>% 
   relocate(`Household income decile`, .after = `Household income quintile`) %>%
-  relocate(Geography, .after = `Household income decile`)
+  relocate(Geography, .after = `Household income decile`) %>%
+  left_join(geocodes) %>% 
+  relocate(GeoCode, .before = "Value")
 
 write.csv(
   data_final,
