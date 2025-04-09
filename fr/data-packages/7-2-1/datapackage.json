@@ -16,6 +16,23 @@
             "title": "Année"
           },
           {
+            "name": "Type of electricity generation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Turbine à hydraulique",
+                "Total renewable and non-greenhouse gas emitting sources",
+                "Turbine éolienne",
+                "Turbine à vapeur - nucléaire",
+                "Solaire",
+                "Turbine marémotrice",
+                "Production totale d’électricité provenant de la biomasse",
+                ""
+              ]
+            },
+            "title": "Type de production d'électricité"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -38,23 +55,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Type of electricity generation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Turbine à hydraulique",
-                "Total renewable and non-greenhouse gas emitting sources",
-                "Turbine éolienne",
-                "Turbine à vapeur - nucléaire",
-                "Solaire",
-                "Turbine marémotrice",
-                "Production totale d’électricité provenant de la biomasse",
-                ""
-              ]
-            },
-            "title": "Type de production d'électricité"
           },
           {
             "name": "GeoCode",

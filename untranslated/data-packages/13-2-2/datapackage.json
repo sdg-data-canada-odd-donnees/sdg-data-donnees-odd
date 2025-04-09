@@ -15,6 +15,24 @@
             "type": "integer"
           },
           {
+            "name": "Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Provincial Inventory Total",
+                "Oil and Gas",
+                "Transport",
+                "Heavy Industry",
+                "Buildings",
+                "Agriculture",
+                "Waste",
+                "Light Manufacturing, Construction and Forest Resources",
+                "Territorial Inventory Total",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -33,24 +51,6 @@
                 "Saskatchewan",
                 "Yukon",
                 "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Source",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Provincial Inventory Total",
-                "Oil and Gas",
-                "Transport",
-                "Heavy Industry",
-                "Light Manufacturing, Construction and Forest Resources",
-                "Buildings",
-                "Waste",
-                "Agriculture",
-                "Territorial Inventory Total",
                 ""
               ]
             }

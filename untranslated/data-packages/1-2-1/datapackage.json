@@ -15,6 +15,27 @@
             "type": "integer"
           },
           {
+            "name": "Persons in low income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All persons",
+                "Females",
+                "Females, 18 to 64 years",
+                "Females, 65 years and over",
+                "Females, under 18 years",
+                "Males",
+                "Males, 18 to 64 years",
+                "Males, 65 years and over",
+                "Males, under 18 years",
+                "Persons 18 to 64 years",
+                "Persons 65 years and over",
+                "Persons under 18 years",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -44,27 +65,6 @@
                 "Winnipeg, Manitoba",
                 "Yukon",
                 "Yukon and Northwest Territories",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Persons in low income",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "All persons",
-                "Females",
-                "Females, 18 to 64 years",
-                "Females, 65 years and over",
-                "Females, under 18 years",
-                "Males",
-                "Males, 18 to 64 years",
-                "Males, 65 years and over",
-                "Males, under 18 years",
-                "Persons 18 to 64 years",
-                "Persons 65 years and over",
-                "Persons under 18 years",
                 ""
               ]
             }

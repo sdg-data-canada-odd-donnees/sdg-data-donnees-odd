@@ -15,38 +15,6 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of work",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Both full- and part-time employees",
-                "Full-time employees",
-                "Part-time employees",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Occupation",
             "type": "string",
             "constraints": {
@@ -67,13 +35,25 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Type of work",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
+                "Both full- and part-time employees",
+                "Full-time employees",
+                "Part-time employees",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total - Gender",
+                "Men+",
+                "Women+",
                 ""
               ]
             }
@@ -87,6 +67,26 @@
                 "25 to 54 years",
                 "55 years and over",
                 "15 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
                 ""
               ]
             }

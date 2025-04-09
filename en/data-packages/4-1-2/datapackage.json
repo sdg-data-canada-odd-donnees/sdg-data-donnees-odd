@@ -16,29 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Northwest Territories",
-                "Nunavut",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
             "name": "Graduation rate",
             "type": "string",
             "constraints": {
@@ -49,6 +26,29 @@
               ]
             },
             "title": "Graduation rate"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Northwest Territories",
+                "Nunavut",
+                "Nova Scotia",
+                ""
+              ]
+            },
+            "title": "Geography"
           },
           {
             "name": "Gender",
@@ -70,7 +70,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

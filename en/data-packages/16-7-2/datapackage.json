@@ -28,26 +28,6 @@
             "title": "Institutions"
           },
           {
-            "name": "Visible minority",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total population",
-                "Total visible minority population",
-                "South Asian",
-                "Chinese",
-                "Black",
-                "Filipino",
-                "Arab",
-                "Latin American",
-                "Southeast Asian",
-                "Not a visible minority",
-                ""
-              ]
-            },
-            "title": "Visible minority"
-          },
-          {
             "name": "Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
@@ -72,6 +52,26 @@
               ]
             },
             "title": "Selected sociodemographic characteristics"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total population",
+                "Total visible minority population",
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Southeast Asian",
+                "Not a visible minority",
+                ""
+              ]
+            },
+            "title": "Visible minority"
           },
           {
             "name": "COMMENT_OBS",

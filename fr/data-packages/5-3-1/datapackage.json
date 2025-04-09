@@ -16,30 +16,6 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
-                "Yukon",
-                "Nunavut",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
             "name": "Marital status",
             "type": "string",
             "constraints": {
@@ -63,6 +39,30 @@
               ]
             },
             "title": "Groupe d'âge"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "Colombie-Britannique",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
           },
           {
             "name": "Value",

@@ -16,20 +16,17 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "Water quality category",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Océan Atlantique",
-                "Grands Lacs et fleuve Saint-Laurent",
-                "Baie d'Hudson",
-                "Fleuve Mackenzie",
-                "Océan Pacifique",
+                "Excellente",
+                "Bonne",
+                "Total",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Qualité de l'eau"
           },
           {
             "name": "Land use category",
@@ -50,17 +47,20 @@
             "title": "Catégorie d'utilisation des sols"
           },
           {
-            "name": "Water quality category",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Excellente",
-                "Bonne",
-                "Total",
+                "Canada",
+                "Océan Atlantique",
+                "Grands Lacs et fleuve Saint-Laurent",
+                "Baie d'Hudson",
+                "Fleuve Mackenzie",
+                "Océan Pacifique",
                 ""
               ]
             },
-            "title": "Qualité de l'eau"
+            "title": "Géographie"
           },
           {
             "name": "Value",

@@ -16,6 +16,25 @@
             "title": "Année"
           },
           {
+            "name": "Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Inventaire provincial",
+                "Exploitation pétrolière et gazière",
+                "Transports",
+                "Industrie lourde",
+                "Bâtiments",
+                "Agriculture",
+                "Déchets et autres",
+                "Fabrication légère, construction et ressources forestières",
+                "Inventaire territorial",
+                ""
+              ]
+            },
+            "title": "Source"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -38,25 +57,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Source",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Inventaire provincial",
-                "Exploitation pétrolière et gazière",
-                "Transports",
-                "Industrie lourde",
-                "Fabrication légère, construction et ressources forestières",
-                "Bâtiments",
-                "Déchets et autres",
-                "Agriculture",
-                "Inventaire territorial",
-                ""
-              ]
-            },
-            "title": "Source"
           },
           {
             "name": "GeoCode",

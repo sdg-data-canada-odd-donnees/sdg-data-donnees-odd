@@ -16,6 +16,23 @@
             "title": "Year"
           },
           {
+            "name": "Type of electricity generation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hydraulic turbine",
+                "Total renewable and non-greenhouse gas emitting sources",
+                "Wind power turbine",
+                "Nuclear steam turbine",
+                "Solar",
+                "Tidal power turbine",
+                "Total electricity production from biomass",
+                ""
+              ]
+            },
+            "title": "Type of electricity generation"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -38,23 +55,6 @@
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "Type of electricity generation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Hydraulic turbine",
-                "Total renewable and non-greenhouse gas emitting sources",
-                "Wind power turbine",
-                "Nuclear steam turbine",
-                "Solar",
-                "Tidal power turbine",
-                "Total electricity production from biomass",
-                ""
-              ]
-            },
-            "title": "Type of electricity generation"
           },
           {
             "name": "GeoCode",

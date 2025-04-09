@@ -16,6 +16,31 @@
             "title": "Année"
           },
           {
+            "name": "Type of heritage",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ensemble du patrimoine culturel et naturel",
+                "Préservation de la diversité biologique et protection de la nature",
+                "Services culturels",
+                ""
+              ]
+            },
+            "title": "Type de patrimoine"
+          },
+          {
+            "name": "Level of government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Administrations publiques provinciales-territoriales et locales consolidées",
+                "Administration publique générale canadienne consolidée",
+                ""
+              ]
+            },
+            "title": "Niveau de gouvernement"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -38,31 +63,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Level of government",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Administrations publiques provinciales-territoriales et locales consolidées",
-                "Administration publique générale canadienne consolidée",
-                ""
-              ]
-            },
-            "title": "Niveau de gouvernement"
-          },
-          {
-            "name": "Type of heritage",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ensemble du patrimoine culturel et naturel",
-                "Préservation de la diversité biologique et protection de la nature",
-                "Services culturels",
-                ""
-              ]
-            },
-            "title": "Type de patrimoine"
           },
           {
             "name": "GeoCode",

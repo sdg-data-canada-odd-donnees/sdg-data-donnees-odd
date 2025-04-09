@@ -16,6 +16,19 @@
             "title": "Year"
           },
           {
+            "name": "Type of childhood maltreatment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Physical or sexual abuse",
+                "Physical abuse",
+                "Sexual abuse",
+                ""
+              ]
+            },
+            "title": "Type of childhood maltreatment"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -38,19 +51,6 @@
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "Type of childhood maltreatment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Physical or sexual abuse",
-                "Physical abuse",
-                "Sexual abuse",
-                ""
-              ]
-            },
-            "title": "Type of childhood maltreatment"
           },
           {
             "name": "Gender",

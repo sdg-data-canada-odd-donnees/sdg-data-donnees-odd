@@ -15,21 +15,6 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Atlantic",
-                "Quebec",
-                "Ontario",
-                "Prairies",
-                "British Columbia",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Activity group",
             "type": "string",
             "constraints": {
@@ -39,6 +24,18 @@
                 "Care of children under 18 years",
                 "Care of adults",
                 "Shopping for goods or services",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Men+",
+                "Women+",
+                "Total, all persons",
                 ""
               ]
             }
@@ -61,13 +58,16 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Men+",
-                "Women+",
-                "Total, all persons",
+                "Canada",
+                "Atlantic",
+                "Quebec",
+                "Ontario",
+                "Prairies",
+                "British Columbia",
                 ""
               ]
             }

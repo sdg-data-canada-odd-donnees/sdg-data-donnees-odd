@@ -16,6 +16,19 @@
             "title": "Year"
           },
           {
+            "name": "Sources of waste for disposal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Residential sources of waste for disposal",
+                "Non-residential sources of waste for disposal",
+                "All sources of waste for disposal",
+                ""
+              ]
+            },
+            "title": "Sources of waste for disposal"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -36,19 +49,6 @@
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "Sources of waste for disposal",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Residential sources of waste for disposal",
-                "Non-residential sources of waste for disposal",
-                "All sources of waste for disposal",
-                ""
-              ]
-            },
-            "title": "Sources of waste for disposal"
           },
           {
             "name": "GeoCode",

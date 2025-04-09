@@ -208,29 +208,6 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon",
-                "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Marital status",
             "type": "string",
             "constraints": {
@@ -249,6 +226,29 @@
               "enum": [
                 "15 to 19 years",
                 "20 to 24 years",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
+                "Nunavut",
                 ""
               ]
             }
@@ -353,6 +353,22 @@
             "type": "integer"
           },
           {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 to 24 years",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 64 years",
+                "65 to 74 years",
+                "75 years and over",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -367,22 +383,6 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 to 24 years",
-                "25 to 34 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 to 64 years",
-                "65 to 74 years",
-                "75 years and over",
                 ""
               ]
             }
@@ -758,21 +758,13 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Nova Scotia",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
+                "Total, gender",
+                "Male gender",
+                "Female gender",
                 ""
               ]
             }
@@ -789,13 +781,21 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, gender",
-                "Male gender",
-                "Female gender",
+                "Canada",
+                "Nova Scotia",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }
@@ -838,25 +838,6 @@
             }
           },
           {
-            "name": "Visible minority",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total population",
-                "Total visible minority population",
-                "South Asian",
-                "Chinese",
-                "Black",
-                "Filipino",
-                "Arab",
-                "Latin American",
-                "Southeast Asian",
-                "Not a visible minority",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
@@ -877,6 +858,25 @@
                 "Secondary (high) school diploma or equivalency certificate or less",
                 "Postsecondary certificate or diploma (non-university)",
                 "University certificate or diploma",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total population",
+                "Total visible minority population",
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Southeast Asian",
+                "Not a visible minority",
                 ""
               ]
             }
@@ -1152,6 +1152,10 @@
             }
           },
           {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "number"
           }
@@ -1424,29 +1428,6 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Gender",
             "type": "string",
             "constraints": {
@@ -1466,6 +1447,29 @@
                 "Indigenous identity",
                 "Non-Indigenous identity",
                 "Total",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }
@@ -1497,6 +1501,21 @@
             "type": "integer"
           },
           {
+            "name": "Amount last sent",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "$100 or less",
+                "$101 to $200",
+                "$201 to $300",
+                "$301 to $500",
+                "$501 to $1,000",
+                "$1,001 or more",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Method",
             "type": "string",
             "constraints": {
@@ -1523,21 +1542,6 @@
                 "Southeast Asia and Oceania",
                 "Southern Asia",
                 "Countries not eligible for official development assistance",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Amount last sent",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "$100 or less",
-                "$101 to $200",
-                "$201 to $300",
-                "$301 to $500",
-                "$501 to $1,000",
-                "$1,001 or more",
                 ""
               ]
             }
@@ -2140,6 +2144,20 @@
             "type": "string"
           },
           {
+            "name": "Type of institution attended",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total participation rate",
+                "Elementary/High School",
+                "College",
+                "University",
+                "Elementary and/or High School",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -2176,26 +2194,12 @@
             }
           },
           {
-            "name": "Type of institution attended",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total participation rate",
-                "Elementary/High School",
-                "College",
-                "University",
-                "Elementary and/or High School",
-                ""
-              ]
-            }
-          },
-          {
             "name": "GeoCode",
             "type": "string"
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
@@ -2216,6 +2220,24 @@
             "type": "integer"
           },
           {
+            "name": "Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Provincial Inventory Total",
+                "Oil and Gas",
+                "Transport",
+                "Heavy Industry",
+                "Buildings",
+                "Agriculture",
+                "Waste",
+                "Light Manufacturing, Construction and Forest Resources",
+                "Territorial Inventory Total",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -2234,24 +2256,6 @@
                 "Saskatchewan",
                 "Yukon",
                 "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Source",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Provincial Inventory Total",
-                "Oil and Gas",
-                "Transport",
-                "Heavy Industry",
-                "Light Manufacturing, Construction and Forest Resources",
-                "Buildings",
-                "Waste",
-                "Agriculture",
-                "Territorial Inventory Total",
                 ""
               ]
             }
@@ -2457,38 +2461,6 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of work",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Both full- and part-time employees",
-                "Full-time employees",
-                "Part-time employees",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Occupation",
             "type": "string",
             "constraints": {
@@ -2509,13 +2481,25 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Type of work",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
+                "Both full- and part-time employees",
+                "Full-time employees",
+                "Part-time employees",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total - Gender",
+                "Men+",
+                "Women+",
                 ""
               ]
             }
@@ -2529,6 +2513,26 @@
                 "25 to 54 years",
                 "55 years and over",
                 "15 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
                 ""
               ]
             }
@@ -2741,29 +2745,6 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Industry",
             "type": "string",
             "constraints": {
@@ -2782,7 +2763,6 @@
                 "Beverage and tobacco product manufacturing",
                 "Beverage manufacturing",
                 "Tobacco manufacturing",
-                "Cannabis product manufacturing",
                 "Textile mills",
                 "Fibre, yarn and thread mills",
                 "Fabric mills",
@@ -2877,6 +2857,29 @@
                 "Medical equipment and supplies manufacturing",
                 "Other miscellaneous manufacturing",
                 "Total manufacturing",
+                "Cannabis product manufacturing",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Northwest Territories",
+                "Yukon",
                 ""
               ]
             }
@@ -3503,33 +3506,13 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
+                "Total - Gender",
+                "Men+",
+                "Women+",
                 ""
               ]
             }
@@ -3561,6 +3544,26 @@
                 "65 to 69 years",
                 "70 years and over",
                 "15 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
                 ""
               ]
             }
@@ -3636,6 +3639,20 @@
             "type": "integer"
           },
           {
+            "name": "Occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Legislative and senior management occupations",
+                "Specialized middle management occupations",
+                "Middle management occupations in retail and wholesale trade and customer services",
+                "Middle management occupations in trades, transportation, production and utilities",
+                "Management occupations",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -3656,18 +3673,8 @@
             }
           },
           {
-            "name": "Occupation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Legislative and senior management occupations",
-                "Specialized middle management occupations",
-                "Middle management occupations in retail and wholesale trade and customer services",
-                "Middle management occupations in trades, transportation, production and utilities",
-                "Management occupations",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3897,6 +3904,29 @@
             "type": "integer"
           },
           {
+            "name": "Type of heritage",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total cultural and natural heritage",
+                "Protection of biodiversity and landscape",
+                "Cultural services",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Level of government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Consolidated provincial-territorial and local governments",
+                "Consolidated Canadian general government",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -3915,29 +3945,6 @@
                 "Quebec",
                 "Saskatchewan",
                 "Yukon",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Level of government",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Consolidated provincial-territorial and local governments",
-                "Consolidated Canadian general government",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of heritage",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total cultural and natural heritage",
-                "Protection of biodiversity and landscape",
-                "Cultural services",
                 ""
               ]
             }
@@ -4192,6 +4199,17 @@
             "type": "string"
           },
           {
+            "name": "Graduation rate",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "On-time",
+                "Extended-time",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -4199,7 +4217,6 @@
                 "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
-                "Nova Scotia",
                 "New Brunswick",
                 "Quebec",
                 "Ontario",
@@ -4209,17 +4226,7 @@
                 "British Columbia",
                 "Northwest Territories",
                 "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Graduation rate",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "On-time",
-                "Extended-time",
+                "Nova Scotia",
                 ""
               ]
             }
@@ -4242,7 +4249,7 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
@@ -4261,6 +4268,27 @@
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "Persons in low income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Persons under 18 years",
+                "Persons 18 to 64 years",
+                "Persons 65 years and over",
+                "Males",
+                "Males, under 18 years",
+                "Males, 18 to 64 years",
+                "Males, 65 years and over",
+                "Females",
+                "Females, under 18 years",
+                "Females, 18 to 64 years",
+                "Females, 65 years and over",
+                "All persons",
+                ""
+              ]
+            }
           },
           {
             "name": "Geography",
@@ -4288,27 +4316,6 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Vancouver, British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Persons in low income",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Persons under 18 years",
-                "Persons 18 to 64 years",
-                "Persons 65 years and over",
-                "Males",
-                "Males, under 18 years",
-                "Males, 18 to 64 years",
-                "Males, 65 years and over",
-                "Females",
-                "Females, under 18 years",
-                "Females, 18 to 64 years",
-                "Females, 65 years and over",
-                "All persons",
                 ""
               ]
             }
@@ -5059,6 +5066,18 @@
             "type": "integer"
           },
           {
+            "name": "Sources of waste for disposal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Residential sources of waste for disposal",
+                "Non-residential sources of waste for disposal",
+                "All sources of waste for disposal",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -5075,18 +5094,6 @@
                 "Alberta",
                 "British Columbia",
                 "Yukon, Northwest Territories and Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Sources of waste for disposal",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Residential sources of waste for disposal",
-                "Non-residential sources of waste for disposal",
-                "All sources of waste for disposal",
                 ""
               ]
             }
@@ -5118,21 +5125,6 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Atlantic",
-                "Quebec",
-                "Ontario",
-                "Prairies",
-                "British Columbia",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Activity group",
             "type": "string",
             "constraints": {
@@ -5142,6 +5134,18 @@
                 "Care of children under 18 years",
                 "Care of adults",
                 "Shopping for goods or services",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Men+",
+                "Women+",
+                "Total, all persons",
                 ""
               ]
             }
@@ -5164,13 +5168,16 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Men+",
-                "Women+",
-                "Total, all persons",
+                "Canada",
+                "Atlantic",
+                "Quebec",
+                "Ontario",
+                "Prairies",
+                "British Columbia",
                 ""
               ]
             }
@@ -5366,6 +5373,30 @@
             "type": "integer"
           },
           {
+            "name": "Government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "National",
+                "Local",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Elected officials",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Members of Parliament",
+                "Members of Cabinet",
+                "Chiefs in First Nation communities",
+                "First Nations council members",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -5389,28 +5420,8 @@
             }
           },
           {
-            "name": "Government",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "National",
-                "Local",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Elected officials",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Members of Parliament",
-                "Members of Cabinet",
-                "Chiefs in First Nation communities",
-                "First Nations council members",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -6302,16 +6313,13 @@
             "type": "string"
           },
           {
-            "name": "Geography",
+            "name": "Water quality category",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Atlantic Ocean",
-                "Great Lakes and St. Lawrence River",
-                "Hudson Bay",
-                "Mackenzie River",
-                "Pacific Ocean",
+                "Excellent",
+                "Good",
+                "Total",
                 ""
               ]
             }
@@ -6334,13 +6342,16 @@
             }
           },
           {
-            "name": "Water quality category",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Excellent",
-                "Good",
-                "Total",
+                "Canada",
+                "Atlantic Ocean",
+                "Great Lakes and St. Lawrence River",
+                "Hudson Bay",
+                "Mackenzie River",
+                "Pacific Ocean",
                 ""
               ]
             }
@@ -6584,6 +6595,27 @@
             "type": "integer"
           },
           {
+            "name": "Persons in low income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All persons",
+                "Females",
+                "Females, 18 to 64 years",
+                "Females, 65 years and over",
+                "Females, under 18 years",
+                "Males",
+                "Males, 18 to 64 years",
+                "Males, 65 years and over",
+                "Males, under 18 years",
+                "Persons 18 to 64 years",
+                "Persons 65 years and over",
+                "Persons under 18 years",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -6613,27 +6645,6 @@
                 "Winnipeg, Manitoba",
                 "Yukon",
                 "Yukon and Northwest Territories",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Persons in low income",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "All persons",
-                "Females",
-                "Females, 18 to 64 years",
-                "Females, 65 years and over",
-                "Females, under 18 years",
-                "Males",
-                "Males, 18 to 64 years",
-                "Males, 65 years and over",
-                "Males, under 18 years",
-                "Persons 18 to 64 years",
-                "Persons 65 years and over",
-                "Persons under 18 years",
                 ""
               ]
             }
@@ -6822,6 +6833,18 @@
             "type": "integer"
           },
           {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, not in employment, education or training (NEET)",
+                "Unemployed, Not in employment, education or training (NEET)",
+                "Not in the labour force, Not in employment, education or training (NEET)",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -6840,18 +6863,6 @@
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, not in employment, education or training (NEET)",
-                "Unemployed, Not in employment, education or training (NEET)",
-                "Not in the labour force, Not in employment, education or training (NEET)",
                 ""
               ]
             }
@@ -7203,6 +7214,22 @@
             "type": "integer"
           },
           {
+            "name": "Type of electricity generation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hydraulic turbine",
+                "Total renewable and non-greenhouse gas emitting sources",
+                "Wind power turbine",
+                "Nuclear steam turbine",
+                "Solar",
+                "Tidal power turbine",
+                "Total electricity production from biomass",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -7221,22 +7248,6 @@
                 "Quebec",
                 "Saskatchewan",
                 "Yukon",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of electricity generation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Hydraulic turbine",
-                "Total renewable and non-greenhouse gas emitting sources",
-                "Wind power turbine",
-                "Nuclear steam turbine",
-                "Solar",
-                "Tidal power turbine",
-                "Total electricity production from biomass",
                 ""
               ]
             }
@@ -8247,6 +8258,18 @@
             "type": "integer"
           },
           {
+            "name": "Type of childhood maltreatment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Physical or sexual abuse",
+                "Physical abuse",
+                "Sexual abuse",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -8265,18 +8288,6 @@
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of childhood maltreatment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Physical or sexual abuse",
-                "Physical abuse",
-                "Sexual abuse",
                 ""
               ]
             }

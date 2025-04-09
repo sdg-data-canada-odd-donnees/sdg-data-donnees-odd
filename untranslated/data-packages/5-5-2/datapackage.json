@@ -15,6 +15,20 @@
             "type": "integer"
           },
           {
+            "name": "Occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Legislative and senior management occupations",
+                "Specialized middle management occupations",
+                "Middle management occupations in retail and wholesale trade and customer services",
+                "Middle management occupations in trades, transportation, production and utilities",
+                "Management occupations",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -35,18 +49,8 @@
             }
           },
           {
-            "name": "Occupation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Legislative and senior management occupations",
-                "Specialized middle management occupations",
-                "Middle management occupations in retail and wholesale trade and customer services",
-                "Middle management occupations in trades, transportation, production and utilities",
-                "Management occupations",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

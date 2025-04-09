@@ -16,6 +16,31 @@
             "title": "Année"
           },
           {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, genre",
+                "Genre masculin",
+                "Genre féminin",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 à 24 ans",
+                "25 à 34 ans",
+                ""
+              ]
+            },
+            "title": "Âge"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -35,31 +60,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 à 24 ans",
-                "25 à 34 ans",
-                ""
-              ]
-            },
-            "title": "Âge"
-          },
-          {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, genre",
-                "Genre masculin",
-                "Genre féminin",
-                ""
-              ]
-            },
-            "title": "Genre"
           },
           {
             "name": "GeoCode",

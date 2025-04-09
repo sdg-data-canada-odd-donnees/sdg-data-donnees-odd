@@ -15,6 +15,18 @@
             "type": "integer"
           },
           {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, not in employment, education or training (NEET)",
+                "Unemployed, Not in employment, education or training (NEET)",
+                "Not in the labour force, Not in employment, education or training (NEET)",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -33,18 +45,6 @@
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, not in employment, education or training (NEET)",
-                "Unemployed, Not in employment, education or training (NEET)",
-                "Not in the labour force, Not in employment, education or training (NEET)",
                 ""
               ]
             }

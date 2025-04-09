@@ -16,6 +16,28 @@
             "title": "Année"
           },
           {
+            "name": "Persons in low income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les personnes",
+                "Femmes",
+                "Femmes, 18 à 64 ans",
+                "Femmes, 65 ans et plus",
+                "Femmes, moins de 18 ans",
+                "Hommes",
+                "Hommes, 18 à 64 ans",
+                "Hommes, 65 ans et plus",
+                "Hommes, moins de 18 ans",
+                "Personnes de 18 à 64 ans",
+                "Personnes de 65 ans et plus",
+                "Personnes de moins de 18 ans",
+                ""
+              ]
+            },
+            "title": "Personnes à faible revenu"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -49,28 +71,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Persons in low income",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Toutes les personnes",
-                "Femmes",
-                "Femmes, 18 à 64 ans",
-                "Femmes, 65 ans et plus",
-                "Femmes, moins de 18 ans",
-                "Hommes",
-                "Hommes, 18 à 64 ans",
-                "Hommes, 65 ans et plus",
-                "Hommes, moins de 18 ans",
-                "Personnes de 18 à 64 ans",
-                "Personnes de 65 ans et plus",
-                "Personnes de moins de 18 ans",
-                ""
-              ]
-            },
-            "title": "Personnes à faible revenu"
           },
           {
             "name": "GeoCode",

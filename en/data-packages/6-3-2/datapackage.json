@@ -16,20 +16,17 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
+            "name": "Water quality category",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Atlantic Ocean",
-                "Great Lakes and St. Lawrence River",
-                "Hudson Bay",
-                "Mackenzie River",
-                "Pacific Ocean",
+                "Excellent",
+                "Good",
+                "Total",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Water quality category"
           },
           {
             "name": "Land use category",
@@ -50,17 +47,20 @@
             "title": "Land use category"
           },
           {
-            "name": "Water quality category",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Excellent",
-                "Good",
-                "Total",
+                "Canada",
+                "Atlantic Ocean",
+                "Great Lakes and St. Lawrence River",
+                "Hudson Bay",
+                "Mackenzie River",
+                "Pacific Ocean",
                 ""
               ]
             },
-            "title": "Water quality category"
+            "title": "Geography"
           },
           {
             "name": "Value",

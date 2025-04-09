@@ -16,6 +16,25 @@
             "title": "Year"
           },
           {
+            "name": "Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Provincial Inventory Total",
+                "Oil and Gas",
+                "Transport",
+                "Heavy Industry",
+                "Buildings",
+                "Agriculture",
+                "Waste",
+                "Light Manufacturing, Construction and Forest Resources",
+                "Territorial Inventory Total",
+                ""
+              ]
+            },
+            "title": "Source"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -38,25 +57,6 @@
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "Source",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Provincial Inventory Total",
-                "Oil and Gas",
-                "Transport",
-                "Heavy Industry",
-                "Light Manufacturing, Construction and Forest Resources",
-                "Buildings",
-                "Waste",
-                "Agriculture",
-                "Territorial Inventory Total",
-                ""
-              ]
-            },
-            "title": "Source"
           },
           {
             "name": "GeoCode",

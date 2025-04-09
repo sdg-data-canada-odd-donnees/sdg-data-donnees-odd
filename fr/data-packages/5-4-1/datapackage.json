@@ -16,22 +16,6 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Atlantique",
-                "Québec",
-                "Ontario",
-                "Prairies",
-                "Colombie-Britannique",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
             "name": "Activity group",
             "type": "string",
             "constraints": {
@@ -45,6 +29,19 @@
               ]
             },
             "title": "Groupe d'activité"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hommes+",
+                "Femmes+",
+                "Total, toutes les personnes",
+                ""
+              ]
+            },
+            "title": "Genre"
           },
           {
             "name": "Age group",
@@ -65,17 +62,20 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "Gender",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes+",
-                "Femmes+",
-                "Total, toutes les personnes",
+                "Canada",
+                "Atlantique",
+                "Québec",
+                "Ontario",
+                "Prairies",
+                "Colombie-Britannique",
                 ""
               ]
             },
-            "title": "Genre"
+            "title": "Géographie"
           },
           {
             "name": "GeoCode",

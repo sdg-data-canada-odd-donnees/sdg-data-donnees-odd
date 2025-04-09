@@ -16,6 +16,21 @@
             "title": "Year"
           },
           {
+            "name": "Type of institution attended",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total participation rate",
+                "Elementary/High School",
+                "College",
+                "University",
+                "Elementary and/or High School",
+                ""
+              ]
+            },
+            "title": "Type of institution attended"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -54,28 +69,13 @@
             "title": "Age group"
           },
           {
-            "name": "Type of institution attended",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total participation rate",
-                "Elementary/High School",
-                "College",
-                "University",
-                "Elementary and/or High School",
-                ""
-              ]
-            },
-            "title": "Type of institution attended"
-          },
-          {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

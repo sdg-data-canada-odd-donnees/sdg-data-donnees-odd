@@ -16,6 +16,22 @@
             "title": "Année"
           },
           {
+            "name": "Amount last sent",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "100 $ ou moins",
+                "101 $ à 200 $",
+                "201 $ à 300 $",
+                "301 $ à 500 $",
+                "501 $ à 1 000 $",
+                "1 001 $ ou plus",
+                ""
+              ]
+            },
+            "title": "Montant d'argent envoyé lors du dernier transfert de fonds"
+          },
+          {
             "name": "Method",
             "type": "string",
             "constraints": {
@@ -47,22 +63,6 @@
               ]
             },
             "title": "Région de destination"
-          },
-          {
-            "name": "Amount last sent",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "100 $ ou moins",
-                "101 $ à 200 $",
-                "201 $ à 300 $",
-                "301 $ à 500 $",
-                "501 $ à 1 000 $",
-                "1 001 $ ou plus",
-                ""
-              ]
-            },
-            "title": "Montant d'argent envoyé lors du dernier transfert de fonds"
           },
           {
             "name": "Value",

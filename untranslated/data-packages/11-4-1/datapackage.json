@@ -15,6 +15,29 @@
             "type": "integer"
           },
           {
+            "name": "Type of heritage",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total cultural and natural heritage",
+                "Protection of biodiversity and landscape",
+                "Cultural services",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Level of government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Consolidated provincial-territorial and local governments",
+                "Consolidated Canadian general government",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -33,29 +56,6 @@
                 "Quebec",
                 "Saskatchewan",
                 "Yukon",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Level of government",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Consolidated provincial-territorial and local governments",
-                "Consolidated Canadian general government",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of heritage",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total cultural and natural heritage",
-                "Protection of biodiversity and landscape",
-                "Cultural services",
                 ""
               ]
             }

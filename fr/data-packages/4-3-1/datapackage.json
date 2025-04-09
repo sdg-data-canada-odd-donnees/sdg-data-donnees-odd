@@ -16,6 +16,21 @@
             "title": "Année"
           },
           {
+            "name": "Type of institution attended",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total taux de participation",
+                "Primaire/Secondaire",
+                "Collège",
+                "Université",
+                "École primaire et/ou secondaire",
+                ""
+              ]
+            },
+            "title": "Type d'institution fréquentée"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -54,28 +69,13 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "Type of institution attended",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total taux de participation",
-                "Primaire/Secondaire",
-                "Collège",
-                "Université",
-                "École primaire et/ou secondaire",
-                ""
-              ]
-            },
-            "title": "Type d'institution fréquentée"
-          },
-          {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Valeur"
           }
         ]

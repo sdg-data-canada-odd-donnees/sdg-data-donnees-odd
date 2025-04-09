@@ -16,6 +16,19 @@
             "title": "Année"
           },
           {
+            "name": "Type of childhood maltreatment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Violence physique ou sexuelle",
+                "Violence physique",
+                "Violence sexuelle",
+                ""
+              ]
+            },
+            "title": "Type de violence physique ou sexuelle subie durant l'enfance"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -38,19 +51,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Type of childhood maltreatment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Violence physique ou sexuelle",
-                "Violence physique",
-                "Violence sexuelle",
-                ""
-              ]
-            },
-            "title": "Type de violence physique ou sexuelle subie durant l'enfance"
           },
           {
             "name": "Gender",

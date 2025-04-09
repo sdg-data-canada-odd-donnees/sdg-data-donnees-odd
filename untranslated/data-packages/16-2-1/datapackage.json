@@ -15,6 +15,18 @@
             "type": "integer"
           },
           {
+            "name": "Type of childhood maltreatment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Physical or sexual abuse",
+                "Physical abuse",
+                "Sexual abuse",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -33,18 +45,6 @@
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of childhood maltreatment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Physical or sexual abuse",
-                "Physical abuse",
-                "Sexual abuse",
                 ""
               ]
             }

@@ -16,6 +16,21 @@
             "title": "Année"
           },
           {
+            "name": "Occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Membres des corps législatifs et cadres supérieurs/cadres supérieures",
+                "Cadres intermédiaires spécialisés/cadres intermédiaires spécialisées",
+                "Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle",
+                "Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique",
+                "Gestion",
+                ""
+              ]
+            },
+            "title": "Occupation"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -37,19 +52,9 @@
             "title": "Géographie"
           },
           {
-            "name": "Occupation",
+            "name": "GeoCode",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Membres des corps législatifs et cadres supérieurs/cadres supérieures",
-                "Cadres intermédiaires spécialisés/cadres intermédiaires spécialisées",
-                "Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle",
-                "Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique",
-                "Gestion",
-                ""
-              ]
-            },
-            "title": "Occupation"
+            "title": "GeoCode"
           },
           {
             "name": "Value",

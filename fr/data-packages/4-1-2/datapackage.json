@@ -16,29 +16,6 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
             "name": "Graduation rate",
             "type": "string",
             "constraints": {
@@ -49,6 +26,29 @@
               ]
             },
             "title": "Taux d'obtention du diplôme"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Nouvelle-Écosse",
+                ""
+              ]
+            },
+            "title": "Géographie"
           },
           {
             "name": "Gender",
@@ -70,7 +70,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Valeur"
           }
         ]

@@ -26,25 +26,6 @@
             }
           },
           {
-            "name": "Visible minority",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total population",
-                "Total visible minority population",
-                "South Asian",
-                "Chinese",
-                "Black",
-                "Filipino",
-                "Arab",
-                "Latin American",
-                "Southeast Asian",
-                "Not a visible minority",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
@@ -65,6 +46,25 @@
                 "Secondary (high) school diploma or equivalency certificate or less",
                 "Postsecondary certificate or diploma (non-university)",
                 "University certificate or diploma",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total population",
+                "Total visible minority population",
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Southeast Asian",
+                "Not a visible minority",
                 ""
               ]
             }

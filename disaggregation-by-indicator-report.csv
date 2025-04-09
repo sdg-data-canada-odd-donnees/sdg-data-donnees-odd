@@ -10,11 +10,11 @@ Indicator,Disaggregations,Number of disaggregations
 #10-4-1,Geography,1
 #10-5-1,Indicator,1
 #10-b-1,Measure,1
-#10-c-1,"Method, Destination region, Amount last sent",3
+#10-c-1,"Amount last sent, Method, Destination region",3
 #11-1-1,"Geography, Tenure",2
 #11-2-1,"Geography, Gender, Distance-capacity public transit service area, Location, Demographic and socio-economic",5
 #11-3-1,Geography,1
-#11-4-1,"Geography, Level of government, Type of heritage",3
+#11-4-1,"Geography, Type of heritage, Level of government",3
 #11-5-1,Type of natural disaster,1
 #11-5-2,Type of natural disaster,1
 #11-6-1,"Geography, Sources of waste for disposal",2
@@ -81,7 +81,7 @@ Indicator,Disaggregations,Number of disaggregations
 #5-5-2,"Geography, Occupation",2
 #5-b-1,Geography,1
 #6-3-1,"Source, Wastewater treatment level",2
-#6-3-2,"Geography, Land use category, Water quality category",3
+#6-3-2,"Geography, Water quality category, Land use category",3
 #6-4-1,Economic activity,1
 #6-4-2,Economic activity,1
 #6-a-1,Sector,1
@@ -90,8 +90,8 @@ Indicator,Disaggregations,Number of disaggregations
 #7-2-1,"Geography, Type of electricity generation",2
 #8-1-1,Geography,1
 #8-2-1,Geography,1
-#8-5-1,"Geography, Age group, Sex, Type of work, Occupation",5
-#8-5-2,"Geography, Age group, Sex",3
+#8-5-1,"Geography, Gender, Age group, Occupation, Type of work",5
+#8-5-2,"Geography, Gender, Age group",3
 #8-6-1,"Geography, Age group, Sex, Status",4
 #8-8-1,Sex,1
 #8-a-1,Flow type,1

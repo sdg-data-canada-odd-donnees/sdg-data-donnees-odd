@@ -16,6 +16,31 @@
             "title": "Year"
           },
           {
+            "name": "Type of heritage",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total cultural and natural heritage",
+                "Protection of biodiversity and landscape",
+                "Cultural services",
+                ""
+              ]
+            },
+            "title": "Type of heritage"
+          },
+          {
+            "name": "Level of government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Consolidated provincial-territorial and local governments",
+                "Consolidated Canadian general government",
+                ""
+              ]
+            },
+            "title": "Level of government"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -38,31 +63,6 @@
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "Level of government",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Consolidated provincial-territorial and local governments",
-                "Consolidated Canadian general government",
-                ""
-              ]
-            },
-            "title": "Level of government"
-          },
-          {
-            "name": "Type of heritage",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total cultural and natural heritage",
-                "Protection of biodiversity and landscape",
-                "Cultural services",
-                ""
-              ]
-            },
-            "title": "Type of heritage"
           },
           {
             "name": "GeoCode",

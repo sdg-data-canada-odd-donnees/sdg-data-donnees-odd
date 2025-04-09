@@ -15,6 +15,30 @@
             "type": "integer"
           },
           {
+            "name": "Government",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "National",
+                "Local",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Elected officials",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Members of Parliament",
+                "Members of Cabinet",
+                "Chiefs in First Nation communities",
+                "First Nations council members",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -38,28 +62,8 @@
             }
           },
           {
-            "name": "Government",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "National",
-                "Local",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Elected officials",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Members of Parliament",
-                "Members of Cabinet",
-                "Chiefs in First Nation communities",
-                "First Nations council members",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

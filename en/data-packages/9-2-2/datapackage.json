@@ -16,30 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
             "name": "Industry",
             "type": "string",
             "constraints": {
@@ -58,7 +34,6 @@
                 "Beverage and tobacco product manufacturing",
                 "Beverage manufacturing",
                 "Tobacco manufacturing",
-                "Cannabis product manufacturing",
                 "Textile mills",
                 "Fibre, yarn and thread mills",
                 "Fabric mills",
@@ -153,10 +128,34 @@
                 "Medical equipment and supplies manufacturing",
                 "Other miscellaneous manufacturing",
                 "Total manufacturing",
+                "Cannabis product manufacturing",
                 ""
               ]
             },
             "title": "Industry"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Northwest Territories",
+                "Yukon",
+                ""
+              ]
+            },
+            "title": "Geography"
           },
           {
             "name": "GeoCode",

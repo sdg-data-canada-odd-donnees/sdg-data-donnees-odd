@@ -15,6 +15,21 @@
             "type": "integer"
           },
           {
+            "name": "Amount last sent",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "$100 or less",
+                "$101 to $200",
+                "$201 to $300",
+                "$301 to $500",
+                "$501 to $1,000",
+                "$1,001 or more",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Method",
             "type": "string",
             "constraints": {
@@ -41,21 +56,6 @@
                 "Southeast Asia and Oceania",
                 "Southern Asia",
                 "Countries not eligible for official development assistance",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Amount last sent",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "$100 or less",
-                "$101 to $200",
-                "$201 to $300",
-                "$301 to $500",
-                "$501 to $1,000",
-                "$1,001 or more",
                 ""
               ]
             }

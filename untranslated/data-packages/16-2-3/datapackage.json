@@ -15,21 +15,13 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Nova Scotia",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
+                "Total, gender",
+                "Male gender",
+                "Female gender",
                 ""
               ]
             }
@@ -46,13 +38,21 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, gender",
-                "Male gender",
-                "Female gender",
+                "Canada",
+                "Nova Scotia",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }

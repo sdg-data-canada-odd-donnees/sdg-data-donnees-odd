@@ -15,6 +15,18 @@
             "type": "integer"
           },
           {
+            "name": "Sources of waste for disposal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Residential sources of waste for disposal",
+                "Non-residential sources of waste for disposal",
+                "All sources of waste for disposal",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -31,18 +43,6 @@
                 "Alberta",
                 "British Columbia",
                 "Yukon, Northwest Territories and Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Sources of waste for disposal",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Residential sources of waste for disposal",
-                "Non-residential sources of waste for disposal",
-                "All sources of waste for disposal",
                 ""
               ]
             }
