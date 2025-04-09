@@ -8,6 +8,8 @@ Occasional: Occasional
 Total: Total
 Statistics Canada: Statistics Canada
 Canada – All categories: Canada – All categories
+Total population: Total population
+Unknown: Unknown
 
 ## Tiers
 Tier I: Tier I
@@ -46,6 +48,7 @@ Million cubic metres: Million cubic metres
 Sector: Sector
 Basic education: Basic education
 Basic health: Basic health
+Medical research: Medical research
 Water supply and sanitation: Water supply and sanitation
 Multisector aid for basic social services: Multisector aid for basic social services
 Development food assistance: Development food assistance
@@ -79,6 +82,7 @@ Gender: Gender
 All genders: All genders
 Total, all persons: Total, all persons
 Total, gender: Total, gender
+Total - Gender: Total - Gender
 
 # Area/Location
 Location: Location
@@ -92,6 +96,7 @@ Geography: Geography
 Canada: Canada
 Canada (excluding territories): Canada (excluding territories)
 Canada (provinces only): Canada (provinces only)
+Canada, Province or territory: Canada, Province or territory
 Atlantic: Atlantic
 Atlantic provinces: Atlantic provinces
 Atlantic Region: Atlantic Region
@@ -171,6 +176,7 @@ Ottawa - Gatineau, Ontario and Quebec: Ottawa - Gatineau, Ontario et Québec
 Peterborough, Ontario: Peterborough, Ontario
 St. Catharines-Niagara, Ontario: St. Catharines-Niagara, Ontario
 St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
+St. Catharines - Niagara Falls, Ontario: St. Catharines - Niagara Falls, Ontario
 Sudbury, Ontario: Sudbury, Ontario
 Thunder Bay, Ontario: Thunder Bay, Ontario
 Toronto, Ontario: Toronto, Ontario
@@ -232,15 +238,28 @@ Victoria (CMA), B.C.: Victoria (CMA), B.C.
 ## Age
 Age: Age
 Age group: Age group
+All ages: All ages
+Total, age: Total, age
 Total, 12 years and over: Total, 12 years and over
 Total, 15 years and over: Total, 15 years and over
 Total 15 to 29 years: Total 15 to 29 years
+Total, 25 to 64 years: Total, 25 to 64 years
+Under 1 year: Under 1 year
+Under 18 years: Under 18 years
+Under 35 years: Under 35 years
 15 years and over: 15 years and over
 25 years and over: 25 years and over
 45 years and over: 45 years and over
 55 years and over: 55 years and over
+65 years and older: 65 years and older
 65 years and over: 65 years and over
 70 years and over: 70 years and over
+75 years and over: 75 years and over
+90 years and over: 90 years and over
+1 to 4 years: 1 to 4 years
+1 to 14 years: 1 to 14 years
+5 to 9 years: 5 to 9 years
+10 to 14 years: 10 to 14 years
 12 to 17 years: 12 to 17 years
 15 to 19 years: 15 to 19 years
 15 to 24 years: 15 to 24 years
@@ -248,6 +267,7 @@ Total 15 to 29 years: Total 15 to 29 years
 16 to 24 years: 16 to 24 years
 18 to 24 years: 18 to 24 years
 18 to 34 years: 18 to 34 years
+18 to 64 years: 18 to 64 years
 20 to 24 years: 20 to 24 years
 25 to 29 years: 25 to 29 years
 25 to 34 years: 25 to 34 years
@@ -258,6 +278,7 @@ Total 15 to 29 years: Total 15 to 29 years
 35 to 39 years: 35 to 39 years
 35 to 44 years: 35 to 44 years
 35 to 49 years: 35 to 49 years
+35 to 54 years: 35 to 54 years
 40 to 44 years: 40 to 44 years
 45 to 49 years: 45 to 49 years
 45 to 54 years: 45 to 54 years
@@ -270,12 +291,74 @@ Total 15 to 29 years: Total 15 to 29 years
 60 to 64 years: 60 to 64 years
 65 to 69 years: 65 to 69 years
 65 to 74 years: 65 to 74 years
-65 years and older: 65 years and older
-75 years and over: 75 years and over
-15-24 years old: 15-24 years old
-15-64 years old: 15-64 years old
-25-54 years old: 25-54 years old
-55-64 years old: 55-64 years old
+70 to 74 years: 70 to 74 years
+75 to 79 years: 75 to 79 years
+75 to 84 years: 75 to 84 years
+80 to 84 years: 80 to 84 years
+85 to 89 years: 85 to 89 years
+
+## Indigenous groups
+Indigenous group: Indigenous group
+Indigenous status: Indigenous status
+Indigenous peoples: Indigenous peoples
+Non-Indigenous people: Non-Indigenous people
+Indigenous identity: Indigenous identity
+Non-Indigenous identity: Non-Indigenous identity
+Non-indigenous identity: Non-indigenous identity
+Indigenous person: Indigenous person
+Non-Indigenous person: Non-Indigenous person
+Indigenous population: Indigenous population
+Non-Indigenous population: Non-Indigenous population
+Indigenous: Indigenous
+First Nations: First Nations
+First Nations (North American Indian): First Nations (North American Indian)
+Métis: Métis
+Inuk (Inuit): Inuk (Inuit)
+Inuit: Inuit
+Non-Inuit: Non-Inuit
+First Nations, Métis, or Inuit: First Nations, Métis, or Inuit
+Not stated, population by indigenous identity: Not stated, population by indigenous identity
+Other Indigenous identity: Other Indigenous identity
+
+## Immigrant status
+Immigrant status: Immigrant status
+Total, immigrant status: Total, immigrant status
+Landed immigrants: Landed immigrants
+Born in Canada: Born in Canada
+Immigrants, landed 5 or less years earlier: Immigrants, landed 5 or less years earlier
+Immigrants, landed more than 5 to 10 years earlier: Immigrants, landed more than 5 to 10 years earlier
+Immigrants, landed more than 10 years earlier: Immigrants, landed more than 10 years earlier
+Immigrants: Immigrants
+Immigrant: Immigrant
+Non immigrants: Non immigrants
+Non-immigrants: Non-immigrants
+Non-immigrant: Non-immigrant
+Non-permanent residents: Non-permanent residents
+Not stated, immigrant status: Not stated, immigrant status
+
+## Visible minorities
+Total visible minority population: Total visible minority population
+Total, visible minority population: Total, visible minority population
+Not a visible minority: Not a visible minority
+Other visible minority: Other visible minority
+Visible minority: Visible minority
+Non-visible minority: Non-visible minority
+Arab: Arab
+Black: Black
+Chinese: Chinese
+Filipino: Filipino
+Japanese: Japanese
+Korean: Korean
+Latin American: Latin American
+South Asian: South Asian
+Southeast Asian: Southeast Asian
+West Asian: West Asian
+Group not indicated elsewhere: Group not indicated elsewhere
+Visible minority population: Visible minority population
+Visible minority n.i.e: Visible minority n.i.e
+Multiple visible minorities: Multiple visible minorities
+Other group designated as visible minority: Other group designated as visible minority
+Not stated, visible minority population: Not stated, visible minority population
 
 ## 1-1-1
 Persons in low income: Persons in low income
@@ -433,22 +516,13 @@ Poverty reduction aid type: Poverty reduction aid type
 ## 2-1-1
 Values showing as 2.5 may signify a prevalence of undernourishment below 2.5%: Values showing as 2.5 may signify a prevalence of undernourishment below 2.5%
 Estimates are based on projected values.: Estimates are based on projected values.
-Household food security status: Household food security status
+
+## 2-1-2
 Economic family type: Economic family type
-Food secure: Food secure
-Food insecure, marginal: Food insecure, marginal
-Food insecure, moderate or severe: Food insecure, moderate or severe
-Living arrangement: Living arrangement
-Total all living arrangements: All living arrangements
-Female living alone: Female living alone
-Male living alone: Male living alone
-Couple no children: Couple no children
-Couple with child(ren) less than 18 years old: Couple with child(ren) less than 18 years old
-Female lone parent with child(ren) less than 18 years old: Female lone parent with child(ren) less than 18 years old
-Male lone parent with child(ren) less than 18 years old: Male lone parent with child(ren) less than 18 years old
-Other living arrangements: Other living arrangements
+All persons: All persons
 Persons in economic families: Persons in economic families
 Persons in elderly families: Persons in elderly families
+Persons in elderly couples: Persons in elderly couples
 Persons in other elderly families: Persons in other elderly families
 Persons in non-elderly families: Persons in non-elderly families
 Persons in couples: Persons in couples
@@ -465,38 +539,11 @@ Elderly females not in an economic family: Elderly females not in an economic fa
 Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
 Non-elderly males not in an economic family: Non-elderly males not in an economic family
 Non-elderly females not in an economic family: Non-elderly females not in an economic family
-Under 18 years: Under 18 years
-18 to 64 years: 18 to 64 years
-Non-Indigenous population: Non-Indigenous population
-Indigenous population: Indigenous population
-First Nations: First Nations
-Immigrants: Immigrants
 Recent immigrants (10 years or less): Recent immigrants (10 years or less)
 Very recent immigrants (5 years or less): Very recent immigrants (5 years or less)
 Persons born in Canada: Persons born in Canada
-Visible minority population: Visible minority population
-Other visible minority: Other visible minority
 Not a visible minority nor Indigenous: Not a visible minority nor Indigenous
-Visible minority: Visible minority
 Population aged 15 years and over: Population aged 15 years and over
-
-## 2-1-2
-Economic family type: Economic family type
-All persons: All persons
-Persons in economic families: Persons in economic families
-Persons in elderly families: Persons in elderly families
-Persons in elderly couples: Persons in elderly couples
-Persons in other elderly families: Persons in other elderly families
-Persons in non-elderly families: Persons in non-elderly families
-Persons in couples: Persons in couples
-Persons in couple families with children: Persons in couple families with children
-Persons in couple families with other relatives: Persons in couple families with other relatives
-Persons in lone-parent families: Persons in lone-parent families
-Persons in male lone-parent families: Persons in male lone-parent families
-Persons in female lone-parent families: Persons in female lone-parent families
-Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
-Non-elderly males not in an economic family: Non-elderly males not in an economic family
-Non-elderly females not in an economic family: Non-elderly females not in an economic family
 Household food security status: Household food security status
 Food secure: Food secure
 Food insecure: Food insecure
@@ -514,16 +561,13 @@ Indicator: Indicator
 Compound Index: Compound Index
 Soil Cover: Soil Cover
 Wildlife Habitat on Farmland: Wildlife Habitat on Farmland
-Compound Index: Compound Index
 Risk of Soil Erosion: Risk of Soil Erosion
 Soil Organic Carbon Change: Soil Organic Carbon Change
 Risk of Soil Salinization: Risk of Soil Salinization
-Compound Index: Compound Index
 Residual Soil Nitrogen: Residual Soil Nitrogen
 Risk of water contamination by phosphorus: Risk of water contamination by phosphorus
 Risk of Water Contamination by Coliforms: Risk of Water Contamination by Coliforms
 Risk of Water Contamination by Pesticides: Risk of Water Contamination by Pesticides
-Compound Index: Compound Index
 Agricultural Greenhouse gas: Agricultural Greenhouse gas
 Agricultural Ammonia Emissions: Agricultural Ammonia Emissions
 Agricultural Particulate Matter Emissions: Agricultural Particulate Matter Emissions
@@ -537,6 +581,11 @@ Severity: Severity
 Severe: Severe
 Moderate: Moderate
 Mild: Mild
+
+## 2-3-1 and 2-3-2
+Small-scale food producers: Small-scale food producers
+Medium-Large scale food producers: Medium-Large scale food producers
+Characteristics: Characteristics
 
 ## 2-4-1
 Farm output value per hectare: Farm output value per hectare
@@ -587,7 +636,6 @@ Number of neonatal deaths: Number of neonatal deaths
 Rate per 1,000 uninfected population: Rate per 1,000 uninfected population
 Number of newly infected people per 1,000 uninfected population: Number of newly infected people per 1,000 uninfected population
 Number of newly infected people per 100,000 uninfected population: Number of newly infected people per 100,000 uninfected population
-All ages: All ages
 Adults (15-49): Adults (15-49)
 Grade: Grade
 All grades: All grades
@@ -604,28 +652,13 @@ Malaria incidence per 100,000 population: Malaria incidence per 100,000 populati
 ## 3-3-5
 Leprosy: Leprosy
 Rabies: Rabies
+Number of people requiring interventions against leprosy: Number of people requiring interventions against leprosy
+Number of people requiring interventions against rabies: Number of people requiring interventions against rabies
+Number of people: Number of people
 
 ## 3-4-1
-All ages: All ages
-1 to 4 years: 1 to 4 years
-5 to 9 years: 5 to 9 years
-10 to 14 years: 10 to 14 years
-15 to 19 years: 15 to 19 years
-20 to 24 years: 20 to 24 years
-25 to 29 years: 25 to 29 years
-30 to 34 years: 30 to 34 years
-35 to 39 years: 35 to 39 years
-40 to 44 years: 40 to 44 years
-45 to 49 years: 45 to 49 years
-50 to 54 years: 50 to 54 years
-55 to 59 years: 55 to 59 years
-60 to 64 years: 60 to 64 years
-65 to 69 years: 65 to 69 years
-70 to 74 years: 70 to 74 years
-75 to 79 years: 75 to 79 years
-80 to 84 years: 80 to 84 years
-85 to 89 years: 85 to 89 years
-90 years and over: 90 years and over
+Age-specific mortality rate per 100,000 population: Age-specific mortality rate per 100,000 population
+Causes of death: Causes of death
 Malignant neoplasms: Malignant neoplasms
 In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour: In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour
 Diabetes mellitus: Diabetes mellitus
@@ -633,41 +666,20 @@ Diseases of heart: Diseases of heart
 Influenza and pneumonia: Influenza and pneumonia
 Acute bronchitus and bronchiolitis: Acute bronchitus and bronchiolitis
 Chronic lower respiratory diseases: Chronic lower respiratory diseases
-
-## 3-3-5
-Number of people requiring interventions against leprosy: Number of people requiring interventions against leprosy
-Number of people requiring interventions against rabies: Number of people requiring interventions against rabies
-Unknown: Unknown
-Number of people: Number of people
-
-## 3-4-1
-Age-specific mortality rate per 100,000 population: Age-specific mortality rate per 100,000 population
+Essential hypertension and hypertensive renal disease: Essential hypertension and hypertensive renal disease
+Cerebrovascular diseases: Cerebrovascular diseases
+Atherosclerosis: Atherosclerosis
+Aortic aneurysm and dissection: Aortic aneurysm and dissection
+Pneumoconioses and chemical effects: Pneumoconioses and chemical effects
+Pneumonitis due to solids and liquids: Pneumonitis due to solids and liquids
+Age at time of death: Age at time of death
+15 to 24: 15 to 24
+85 and over: 85 and over
 
 ## 3-5-2
 Number of litres of pure alcohol sales per person aged 15 years and older in a year: Number of litres of pure alcohol sales per person aged 15 years and older in a year
 
 ## 3-6-1
-All ages: All ages
-Under 1 year: Under 1 year
-1 to 4 years: 1 to 4 years
-5 to 9 years: 5 to 9 years
-10 to 14 years: 10 to 14 years
-15 to 19 years: 15 to 19 years
-20 to 24 years: 20 to 24 years
-25 to 29 years: 25 to 29 years
-30 to 34 years: 30 to 34 years
-35 to 39 years: 35 to 39 years
-40 to 44 years: 40 to 44 years
-45 to 49 years: 45 to 49 years
-50 to 54 years: 50 to 54 years
-55 to 59 years: 55 to 59 years
-60 to 64 years: 60 to 64 years
-65 to 69 years: 65 to 69 years
-70 to 74 years: 70 to 74 years
-75 to 79 years: 75 to 79 years
-80 to 84 years: 80 to 84 years
-85 to 89 years: 85 to 89 years
-90 years and over: 90 years and over
 Not stated: Not stated
 Transport accidents: Transport accidents
 Motor vehicle accidents: Motor vehicle accidents
@@ -685,30 +697,6 @@ Per 1000 females (15-19 years): Per 1000 females (15-19 years)
 Place of residence of mother: Place of residence of mother
 Rate per 1,000 females: Rate per 1,000 females
 
-## 3-8-1
-Selected diseases: Selected diseases
-Diphtheria: Diphtheria
-Pertussis: Pertussis
-Tetanus: Tetanus
-Polio: Polio
-Haemophilus influenzae type B: Haemophilus influenzae type B
-Diphtheria - Pertussis and tetanus: Diphtheria - Pertussis and tetanus
-Measles: Measles
-Mumps: Mumps
-Rubella: Rubella
-Hepatitis B: Hepatitis B
-Varicella: Varicella
-Meningococcal type C: Meningococcal type C
-Pneumococcal: Pneumococcal
-Rotavirus: Rotavirus
-Human Papillomavirus: Human Papillomavirus
-Diphtheria - Tetanus - acellular Pertussis booster: Diphtheria - Tetanus - acellular Pertussis booster
-All children: All children
-by 2 years of age: by 2 years of age
-by 7 years of age: by 7 years of age
-by 14 years of age: by 14 years of age
-by 17 years of age: by 17 years of age
-
 ## 3-8-2
 Proportion with share above 10%: Proportion with share above 10%
 Proportion with share above 25%: Proportion with share above 25%
@@ -720,60 +708,12 @@ Adjusted household after-tax income in top 60%: Adjusted household after-tax inc
 Proportion of population (individuals) with share above 10% with large household expenditures on select health care items as a share of total after-tax income: Proportion of population (individuals) with share above 10% with large household expenditures on select health care items as a share of total after-tax income
 Proportion of population (individuals) with share above 25% with large household expenditures on select health care items as a share of total after-tax income: Proportion of population (individuals) with share above 25% with large household expenditures on select health care items as a share of total after-tax income
 
-## 3-9-1
-Disease: Disease
-Creutzfeldt-Jakob: Creutzfeldt-Jakob
-HIV and AIDS: HIV and AIDS
-Diabetes: Diabetes
-Ischemic heart disease: Ischemic heart disease
-Dementia, including Alzheimer's disease: Dementia, including Alzheimer's disease
-Hypertension: Hypertension
-Chronic obstructive pulmonary disease: Chronic obstructive pulmonary disease
-Cancer: Cancer
-Tuberculosis: Tuberculosis
-Salmonella: Salmonella
-Recommended vaccines for 2-year-old children: Recommended vaccines for 2-year-old children
-Recommended vaccines for 7-year-old children: Recommended vaccines for 7-year-old children
-Recommended vaccines for 14-year-old children: Recommended vaccines for 14-year-old children
-Recommended vaccines for 17-year-old children: Recommended vaccines for 17-year-old children
-Recommended vaccines during pregnancy: Recommended vaccines during pregnancy
-Diphtheria - Tetanus - acellular Pertussis (Tdap) booster: Diphtheria - Tetanus - acellular Pertussis (Tdap) booster
-Haemophilus influenzae type B (Hib): Haemophilus influenzae type B (Hib)
-Human Papillomavirus (HPV): Human Papillomavirus (HPV)
-Pertussis (whooping cough): Pertussis (whooping cough)
-Influenza (flu): Influenza (flu)
-Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap): Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)
-Diphtheria, Tetanus, acellular Pertussis (Tdap) booster: Diphtheria, Tetanus, acellular Pertussis (Tdap) booster
-
 ## 3-9-2
 Acute respiratory infections: Acute respiratory infections
 Diarrhea: Diarrhea
 Intestinal nematode infections: Intestinal nematode infections
 Protein-energy malnutrition: Protein-energy malnutrition
 Type of disease: Type of disease
-
-## 3-11-1
-Age at time of death: Age at time of death
-all ages: all ages
-1 to 14 years: 1 to 14 years
-15 to 24: 15 to 24
-25 to 34 years: 25 to 34 years
-35 to 44 years: 35 to 44 years
-45 to 54 years: 45 to 54 years
-55 to 64 years: 55 to 64 years
-75 to 84 years: 75 to 84 years
-85 and over: 85 and over
-Leading causes of death (ICD-10): Leading causes of death
-Malignant neoplasms [C00-C97]: Malignant neoplasms
-Diabetes mellitus [E10-E14]: Diabetes mellitus
-Alzheimer's disease [G30]: Alzheimer's disease
-Diseases of heart [I00-I09, I11, I13, I20-I51]: Diseases of heart
-Cerebrovascular diseases [I60-I69]: Cerebrovascular diseases
-Influenza and pneumonia [J09-J18]: Influenza and pneumonia
-Chronic lower respiratory diseases [J40-J47]: Chronic lower respiratory diseases
-Chronic liver disease and cirrhosis [K70, K73-K74]: Chronic liver disease and cirrhosis
-Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (unintentional injuries)
-Intentional self-harm (suicide) [X60-X84, Y87.0]: Intentional self-harm (suicide)
 
 ## 3-12-1
 Type of event: Type of event
@@ -786,13 +726,10 @@ Apparent stimulant toxicity deaths: Apparent stimulant toxicity deaths
 ## 3-a-1
 Age Group: Age Group
 All age groups: All age groups
-15-19 years-old: |
-  15-19 years-old
-20-24 years-old: |
-  20-24 years-old
+15-19 years-old: 15-19 years-old
+20-24 years-old: 20-24 years-old
 25+ years-old: 25+ years-old
-25-44 years-old: |
-  25-44 years-old
+25-44 years-old: 25-44 years-old
 45+ years-old: 45+ years-old
 Tobacco Product: Tobacco Product
 Cigarettes: Cigarettes
@@ -821,13 +758,19 @@ Varicella: Varicella
 Meningococcal type C: Meningococcal type C
 Pneumococcal: Pneumococcal
 Rotavirus: Rotavirus
-Total - Gender: Total - Gender
+Human Papillomavirus (HPV): Human Papillomavirus (HPV)
+Diphtheria, Tetanus, acellular Pertussis (Tdap) booster: Diphtheria, Tetanus, acellular Pertussis (Tdap) booster
+Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap): Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)
+Influenza (flu): Influenza (flu)
+Target population: Target population
+Recommended vaccines for 2-year-old children: Recommended vaccines for 2-year-old children
+Recommended vaccines for 7-year-old children: Recommended vaccines for 7-year-old children
+Recommended vaccines for 14-year-old children: Recommended vaccines for 14-year-old children
+Recommended vaccines for 17-year-old children: Recommended vaccines for 17-year-old children
+Recommended vaccines during pregnancy: Recommended vaccines during pregnancy
 
 # 3-b-2
 Assistance type: Assistance type
-Basic health: Basic health
-Medical research: Medical research
-
 
 ## 3-c-1
 Service provider per 100,000 population: Service provider per 100,000 population
@@ -878,16 +821,7 @@ Nursing and midwifery personnel: Nursing and midwifery personnel
 ## 4-1-1
 Total, persons aged 15 years and over: Total, persons aged 15 years and over
 Selected demographic characteristics: Selected demographic characteristics
-Total, all persons: Total, all persons
-Non immigrants: Non immigrants
-Immigrants: Immigrants
-Non-permanent residents: Non-permanent residents
-Total visible minority population: Total visible minority population
-Not a visible minority: Not a visible minority
 Total Aboriginal identity: Total Aboriginal identity
-First Nations (North American Indian): First Nations (North American Indian)
-Métis: Métis
-Inuk (Inuit): Inuk (Inuit)
 Non-Aboriginal identity: Non-Aboriginal identity
 Children in Grade 4 achieving at least a minimum proficiency level in mathematics: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
 Children in Grade 4 achieving at least a minimum proficiency level in reading: Children in Grade 4 achieving at least a minimum proficiency level in reading
@@ -898,28 +832,9 @@ Young people aged 15 years achieving at least a minimum proficiency level in rea
 Young people aged 15 years achieving at least a minimum proficiency level in mathematics: Young people aged 15 years achieving at least a minimum proficiency level in mathematics
 
 ## 4-1-2
-Educational attainment level: Educational attainment level
-Pre-primary and primary: Pre-primary and primary
-Lower secondary: Lower secondary
-Upper secondary and post-secondary non-tertiary: Upper secondary and post-secondary non-tertiary
-Tertiary education: Tertiary education
 Graduation rate: Graduation rate
 On-time: On-time
 Extended-time: Extended-time
-
-## 4-2-1
-Educational attainment level: Educational attainment level
-Tertiary education: Tertiary education
-Short-cycle tertiary: Short-cycle tertiary
-Bachelor's level: Bachelor's level
-Master's or Doctoral level: Master's or Doctoral level
-Age group: Age group
-25 to 34 years: 25 to 34 years
-30 to 34 years: 30 to 34 years
-35 to 44 years: 35 to 44 years
-45 to 54 years: 45 to 54 years
-55 to 64 years: 55 to 64 years
-Total, 25 to 64 years: Total, 25 to 64 years
 
 ## 4-3-1
 Total, type of institution attended: Total, type of institution attended
@@ -1039,18 +954,8 @@ Judges - Federal government public administration: Judges - Federal government p
 Judges - Provincial and territorial public administration: Judges - Provincial and territorial public administration
 
 ## 5-2-2
-Indigenous identity: Indigenous identity
-Indigenous person: Indigenous person
-First Nations: First Nations
-Métis: Métis
 Inuk: Inuk
 Multiple Indigenous identities or specific group not stated: Multiple Indigenous identities or specific group not stated
-Non-Indigenous person: Non-Indigenous person
-Visible minority: Visible minority
-Not a visible minority: Not a visible minority
-Immigrant status: Immigrant status
-Immigrant: Immigrant
-Non-immigrant: Non-immigrant
 Sexual orientation: Sexual orientation
 Heterosexual: Heterosexual
 Gay or lesbian: Gay or lesbian
@@ -1160,7 +1065,6 @@ Lake water quality, medium turbidity: Lake water quality, medium turbidity
 Lake water quality, high turbidity: Lake water quality, high turbidity
 Lake water quality, extreme turbidity: Lake water quality, extreme turbidity
 Lake water quality, turbidity state: Lake water quality, turbidity state
-Lake water quality, trophic state: Lake water quality, trophic state
 Reservoir extent: Reservoir extent
 Maximum: Maximum
 Minimum: Minimum
@@ -1257,7 +1161,6 @@ Labourers in processing, manufacturing and utilities: Labourers in processing, m
 Total, all education levels: Total, all education levels
 Below upper secondary: Below upper secondary
 Upper secondary and post-secondary non-tertiary: Upper secondary and post-secondary non-tertiary
-Tertiary education: Tertiary education
 Total, in education and not in education: Total, in education and not in education
 Total, in education: Total, in education
 Employed, in education: Employed, in education
@@ -1271,7 +1174,6 @@ Not in the labour force, Not in employment, education or training (NEET): Not in
 Fatality claims: Fatality claims
 Lost time claims: Lost time claims
 Number of claims: Number of claims
-Unknown: Unknown
 
 ## 8-10-1
 Number of commercial bank branches per 100,000 adults: Number of commercial bank branches per 100,000 adults
@@ -1364,7 +1266,6 @@ Younger than 30 years old: Younger than 30 years old
 65 years old and older: 65 years old and older
 Ownership demographics: Ownership demographics
 Demographic characteristics: Demographic characteristics
-Indigenous: Indigenous
 Person(s) with a disability: Person(s) with a disability
 Overall approval rate, line of credit: Overall approval rate, line of credit
 Overall approval rate, term loan: Overall approval rate, term loan
@@ -1441,10 +1342,6 @@ Sales and service occupations [6]: Sales and service occupations [6]
 Trades - transport and equipment operators and related occupations [7]: Trades - transport and equipment operators and related occupations [7]
 Natural resources - agriculture and related production occupations [8]: Natural resources - agriculture and related production occupations [8]
 Occupations in manufacturing and utilities [9]: Occupations in manufacturing and utilities [9]
-15 years and over: 15 years and over
-15 to 24 years: 15 to 24 years
-25 to 54 years: 25 to 54 years
-55 years and over: 55 years and over
 
 ## 10-4-1
 Outside Canada: Outside Canada
@@ -1600,7 +1497,6 @@ Transportation equipment manufacturing: Transportation equipment manufacturing
 Wood product manufacturing: Wood product manufacturing
 
 ## 12-3-1
-Territories: Territories
 Type of materials diverted: Type of materials diverted
 All materials diverted: All materials diverted
 All paper fibres: All paper fibres
@@ -1826,22 +1722,10 @@ Physical violence: Physical violence
 Sexual violence: Sexual violence
 Lesbian or gay: Lesbian or gay
 First Nations, Métis, or Inuit identity: First Nations, Métis, or Inuit identity
-Inuit: Inuit
 Has a disability: Has a disability
 Does not have a disability: Does not have a disability
 
 ## 16-1-4
-Visible minority: Visible minority
-Total population: Total population
-Total visible minority population: Total visible minority population
-South Asian: South Asian
-Chinese: Chinese
-Black: Black
-Filipino: Filipino
-Arab: Arab
-Latin American: Latin American
-Southeast Asian: Southeast Asian
-Not a visible minority: Not a visible minority
 Sociodemographic characteristics: Sociodemographic characteristics
 
 ## 16-2-1
@@ -1851,16 +1735,6 @@ Physical abuse: Physical abuse
 Sexual abuse: Sexual abuse
 Male gender: Male gender
 Female gender: Female gender
-Total, gender: Total, gender
-Total, age: Total, age
-Total, immigrant status: Total, immigrant status
-Immigrants: Immigrants
-Not stated, immigrant status: Not stated, immigrant status
-Total, visible minority population: Total, visible minority population
-Not stated, visible minority population: Not stated, visible minority population
-Non-indigenous identity: Non-indigenous identity
-Not stated, population by indigenous identity: Not stated, population by indigenous identity
-Other Indigenous identity: Other Indigenous identity
 Disability status: Disability status
 Total, disability status: Total, disability status
 Total, sexual orientation: Total, sexual orientation
@@ -1938,11 +1812,6 @@ Total - age of accused: Total - age of accused
 16 and 17 years: 16 and 17 years
 Other ages: Other ages
 Age not applicable: Age not applicable
-18 to 24 years: 18 to 24 years
-25 to 34 years: 25 to 34 years
-35 to 44 years: 35 to 44 years
-45 to 54 years: 45 to 54 years
-55 years and over: 55 years and over
 Sex of accused: Sex of accused
 Total - sex of accused: Total - sex of accused
 Company: Company
@@ -1953,32 +1822,19 @@ Youth courts: Youth courts
 
 ## 16-7-2
 Institutions: Institutions
-Police: Police
-Characteristics: Characteristics
-Total population: Total population
-Male: Male
-Female: Female
-Indigenous person: Indigenous person
-Non-Indigenous person: Non-Indigenous person
-Visible minority: Visible minority
-Non-visible minority: Non-visible minority
-Level of confidence: Level of confidence
-A great deal of confidence: A great deal of confidence
-Some confidence: Some confidence
-Not very much or no confidence: Not very much or no confidence
-Confident: Confident
-Not confident: Not confident
-Black: Black
-First Nations, Métis, or Inuit: First Nations, Métis, or Inuit
-Other group designated as visible minority: Other group designated as visible minority
-Non-Indigenous, non-visible minority: Non-Indigenous, non-visible minority
-Justice system and courts: Justice system and courts
-School system: School system
-Federal Parliament: Federal Parliament
-Banks: Banks
-Major corporations: Major corporations
-Local merchants and business people: Local merchants and business people
-Canadian media: Canadian media
+Confidence in the justice system and courts: Confidence in the justice system and courts
+Confidence in Federal Parliament: Confidence in Federal Parliament
+Selected sociodemographic characteristics: Selected sociodemographic characteristics
+Non-Immigrants: Non-immigrants
+First generation: First generation
+Second generation: Second generation
+Third generation or more: Third generation or more
+First official language spoken, English only: First official language spoken, English only
+First official language spoken, French only: First official language spoken, French only
+Secondary (high) school diploma or equivalency certificate or less: Secondary (high) school diploma or equivalency certificate or less
+Postsecondary certificate or diploma (non-university): Postsecondary certificate or diploma (non-university)
+University certificate or diploma: University certificate or diploma
+Use with caution: Use with caution
 
 ## 16-10-2
 Component: Component
@@ -2001,18 +1857,14 @@ LGBTQ2+: LGBTQ2+
 Highest level of education: Highest level of education
 Main activity: Main activity
 Total, by immigrant status: Total, by immigrant status
-Non-immigrants: Non-immigrants
 Immigrants, 10 years or less in Canada: Immigrants, 10 years or less in Canada
 Immigrants, more than 10 years in Canada: Immigrants, more than 10 years in Canada
 Immigrants, years in Canada not stated: Immigrants, years in Canada not stated
 Total, by visible minority group: Total, by visible minority group
 Visible minority, not included elsewhere: Visible minority, not included elsewhere
-Multiple visible minorities: Multiple visible minorities
-West Asian: West Asian
 Total, by Indigenous identity: Total, by Indigenous identity
 Single Indigenous identity: Single Indigenous identity
 Multiple Indigenous identities: Multiple Indigenous identities
-Non-Indigenous identity: Non-Indigenous identity
 Total, persons with and without a disability, difficulty or long-term condition: Total, persons with and without a disability, difficulty or long-term condition
 Persons with a disability, difficulty or long-term condition: Persons with a disability, difficulty or long-term condition
 Persons without a disability, difficulty or long-term condition: Persons without a disability, difficulty or long-term condition
@@ -2047,7 +1899,6 @@ Social contributions: Social contributions
 Grants: Grants
 Other revenue: Other revenue
 
-
 ## 17-2-1
 ODA as a share of GNI: ODA as a share of GNI
 Total ODA to least developed countries as a share of GNI: Total ODA to least developed countries as a share of GNI
@@ -2058,13 +1909,11 @@ Target - ODA as a share of GNI: Target - ODA as a share of GNI
 Target - Total ODA to least developed countries as a share of GNI: Target - Total ODA to least developed countries as a share of GNI
 
 ## 17-3-1
-Official Development Assistance (ODA): Official Development Assistance (ODA)
 Foreign Direct Investment (FDI) Inflow: Foreign Direct Investment (FDI) Inflow
 Foreign Direct Investment (FDI) as a proportion of Gross National Income (GNI): Foreign Direct Investment (FDI) as a proportion of Gross National Income (GNI)
 Official Development Assistance (ODA) as a proportion of Gross National Income (GNI): Official Development Assistance (ODA) as a proportion of Gross National Income (GNI)
 
 ## 17-5-1
-Total value of the supported investment projects : Total value of the supported investment projects 
+Total value of the supported investment projects: Total value of the supported investment projects 
 Number of projects: Number of projects
 Millions $ CAD: Millions $ CAD
-Total value of the supported investment projects: Total value of the supported investment projects

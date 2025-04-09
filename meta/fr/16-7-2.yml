@@ -9,7 +9,9 @@ STAT_CONC_DEF: |-
   Cet indicateur mesure la proportion de la population ayant une grande confiance envers certaines institutions gouvernementales.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
-  Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Proportion de la population qui estime que la prise de décisions est ouverte et réactive, par sexe, âge, situation au regard du handicap et groupe de la population ». 
+  Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Proportion de la population qui estime que la prise de décisions est ouverte et réactive, par sexe, âge, situation au regard du handicap et groupe de la population ».
+  <br><br>
+  L’utilisateur est prié de noter que les estimations désignés par [note 1] sont considérés comme de qualité moindre en raison de la grande variabilité de l’échantillonnage et doivent donc être utilisés avec prudence.
 
 # Global
 SDG_GOAL__GLOBAL: |-
@@ -27,17 +29,8 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 # Source
 
 source_active_1: true
-source_url_text_1: "Enquête sociale générale, 2019 - Tabulation spécialisé"
-source_url_1: 'https://www150.statcan.gc.ca/n1/pub/85-002-x/2020001/article/00014/tbl/tbl01-fra.htm'
-source_organisation_1: "Statistique Canada"
-source_periodicity_1: "Occasionnelle"
-source_geographical_coverage_1: 'Canada'
-
-source_active_2: true
-source_url_text_2: "Enquête sociale générale sur l’identité sociale, 2020"
-source_url_2: 'https://www150.statcan.gc.ca/n1/pub/85-002-x/2022001/article/00003/tbl/tbl01-fra.htm'
-source_organisation_2: "Statistique Canada"
-source_periodicity_2: "Aux 5 ans"
-source_geographical_coverage_2: 'Canada'
-
-proxy: proxy
+source_url_text_1: Statistique Canada. Tableau 43-10-0062-01  Confiance envers les institutions canadiennes, selon les groupes désignés comme minorités visibles et certaines caractéristiques sociodémographiques, 2020
+source_url_1: https://doi.org/10.25318/4310006201-fra
+source_organisation_1: Statistique Canada
+source_periodicity_1: Occasionnelle
+source_geographical_coverage_1: Canada
