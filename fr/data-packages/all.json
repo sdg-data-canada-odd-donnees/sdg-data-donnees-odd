@@ -1184,18 +1184,6 @@
             "title": "Année"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Dépenses des ménages par habitant",
-                "Revenu par habitant",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Household income quintile",
             "type": "string",
             "constraints": {
@@ -1243,6 +1231,18 @@
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Dépenses des ménages par habitant",
+                "Revenu par habitant",
+                ""
+              ]
+            },
+            "title": "Series"
           },
           {
             "name": "GeoCode",

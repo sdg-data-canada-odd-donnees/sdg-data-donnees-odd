@@ -16,18 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Household expenditure per capita",
-                "Income per capita",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Household income quintile",
             "type": "string",
             "constraints": {
@@ -75,6 +63,18 @@
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Household expenditure per capita",
+                "Income per capita",
+                ""
+              ]
+            },
+            "title": "Series"
           },
           {
             "name": "GeoCode",

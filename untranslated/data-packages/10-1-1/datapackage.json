@@ -15,17 +15,6 @@
             "type": "string"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Household expenditure per capita",
-                "Income per capita",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Household income quintile",
             "type": "string",
             "constraints": {
@@ -67,6 +56,17 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Household expenditure per capita",
+                "Income per capita",
                 ""
               ]
             }
