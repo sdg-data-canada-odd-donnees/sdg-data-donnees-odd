@@ -17,7 +17,7 @@ lf_chars <-
   select(
     Year = REF_DATE,
     Geography = GEO,
-    Sex,
+    Gender,
     `Age group`,
     Value = VALUE
   ) %>% 
@@ -28,16 +28,24 @@ data_final <- bind_rows(
   #total line
   lf_chars %>%
     filter(Geography == "Canada",
-           Sex == "Both sexes",
+           Gender == "Total - Gender",
            `Age group` == "15 years and over") %>%
     mutate_at(2:4, ~ ""),
   
   lf_chars %>%
     filter(!(
       Geography == "Canada" &
-        Sex == "Both sexes" &
+        Gender == "Total - Gender" &
         `Age group` == "15 years and over"
     ))
+) %>%
+select(
+  Year,
+  Gender,
+  `Age group`,
+  Geography,
+  GeoCode,
+  Value
 )
 
 write.csv(

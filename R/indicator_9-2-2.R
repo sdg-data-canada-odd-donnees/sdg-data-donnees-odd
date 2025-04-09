@@ -26,7 +26,8 @@ manufacturing_employment <-
   ) %>%
   mutate(
     Industry = str_remove(Industry, " \\[.*\\]")
-  ) 
+  ) %>%
+  na.omit()
 
 manufacturing_employment <- 
   manufacturing_employment %>% 
@@ -52,6 +53,13 @@ data_final <-
       mutate(across(2:(ncol(.)-2), ~ "")),
     manufacturing_employment %>%
       filter(!(Geography == "Canada" & Industry == "Total manufacturing"))
+  ) %>%
+  select(
+    Year,
+    Industry,
+    Geography,
+    GeoCode,
+    Value
   )
 
 write.csv(

@@ -54,6 +54,15 @@ data_final <- NEET_filtered %>%
       c("Geography", "Status", "Sex", "Age group"),
       ~ replace(., `Geography` == "Canada" & Status == "Total, not in employment, education or training (NEET)" & Sex == "Both sexes" & `Age group` == "15 to 24 years", NA)
     )
+  ) %>%
+  select(
+    Year,
+    Status,
+    Geography,
+    Sex,
+    `Age group`,
+    GeoCode,
+    Value
   )
 
 # total_line <-

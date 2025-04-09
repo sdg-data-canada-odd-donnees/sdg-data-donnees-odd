@@ -18,7 +18,8 @@ rate <-
     `Graduation rate`,
     Gender,
     Value = VALUE
-  )
+  ) %>%
+  na.omit()
 
 total_line <- 
   rate %>%
@@ -35,6 +36,13 @@ data_final <-
     !(Geography == "Canada" &
       `Graduation rate` == "Extended-time" &
       Gender == "Total")
+  ) %>%
+  select(
+    Year,
+    `Graduation rate`,
+    Geography,
+    Gender,
+    Value
   ) %>% 
   left_join(geocodes) %>% 
   relocate(GeoCode, .before = Value)

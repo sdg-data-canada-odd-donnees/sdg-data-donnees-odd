@@ -77,6 +77,15 @@ unpaid_work_time <- bind_rows(filtered_2015, filtered_2022) %>%
                 Gender == "Total, all persons",
                 NA)
     )
+  ) %>%
+  select(
+    Year,
+    `Activity group`,
+    Gender,
+    `Age group`,
+    Geography,
+    GeoCode,
+    Value
   )
 
 write.csv(unpaid_work_time, "data/indicator_5-4-1.csv",

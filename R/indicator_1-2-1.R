@@ -253,6 +253,12 @@ data_final <-
       filter(!(Geography=="Canada" & `Persons in low income`=="All persons")) %>%
       arrange(Geography, `Persons in low income`, Year)
   ) %>%
+  select(
+    Year,
+    `Persons in low income`,
+    Geography,
+    Value
+  ) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = "Value")
 
