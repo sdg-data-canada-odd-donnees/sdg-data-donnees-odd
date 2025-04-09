@@ -175,7 +175,8 @@ childhood_disag_sexual_or <-
   ) 
 
 bind_all <- 
-  bind_rows(childhood_disag_age,childhood_disag_immig,childhood_disag_vismin,childhood_disag_ind,childhood_disag_dis,childhood_disag_sexual_or)%>%
+  bind_rows(childhood_disag_age,childhood_disag_immig,childhood_disag_vismin,childhood_disag_ind,childhood_disag_dis,childhood_disag_sexual_or) %>%
+  relocate(Geography, .after = `Type of childhood maltreatment`) %>%
   relocate(Age, .after = Gender) %>%
   relocate(`Immigrant status`, .after = Age) %>%
   relocate(`Visible minority`, .after = `Immigrant status`) %>%
