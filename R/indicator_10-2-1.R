@@ -38,6 +38,13 @@ data_final <-
       mutate(across(Geography: `Persons in low income`, ~ NA)),
     persons_in_low_income %>%
       filter(!(Geography == "Canada" & `Persons in low income` == "All persons"))
+  ) %>%
+  select(
+    Year,
+    `Persons in low income`,
+    Geography,
+    GeoCode,
+    Value
   )
 
 write.csv(data_final, "data/indicator_10-2-1.csv", 
