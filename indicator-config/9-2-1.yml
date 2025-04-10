@@ -20,23 +20,25 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: ''
 graph_titles:
-  - series: Proportion of GDP
-    title: Manufacturing value added as a proportion of GDP
-  - series: Per capita
-    title: Manufacturing value added per capita
+  - series: MVA as a proportion of GDP
+    title: Manufacturing value added (MVA) as a proportion of gross domestic product (GDP)
+  - series: MVA per capita
+    title: Manufacturing value added (MVA) per capita
 graph_type: line
 indicator_name: global_indicators.9-2-1-title
 indicator_number: 9.2.1
-national_geographical_coverage: Canada, Provinces and territories
+national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-# manual calculation
 progress_status: substantial_progress 
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
-"\xEF\xBB\xBFauto_progress_calculation": true
+tags: 
+  - Proxy
+proxy: both
+proxy_series:
+  - MVA per capita

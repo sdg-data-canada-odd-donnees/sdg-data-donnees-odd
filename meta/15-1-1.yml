@@ -1,36 +1,30 @@
-SDG_GOAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
-  ecosystems, sustainably manage forests, combat desertification, and halt and reverse
-  land degradation and halt biodiversity loss</p>'
-SDG_TARGET: '<p>Target 15.1: By 2020, ensure the conservation, restoration and sustainable
-  use of terrestrial and inland freshwater ecosystems and their services, in particular
-  forests, wetlands, mountains and drylands, in line with obligations under international
-  agreements</p>'
-SDG_INDICATOR: '<p>Indicator 15.1.1: Forest area as a proportion of total land area</p>'
-STAT_CONC_DEF: |
-  Forest area as a proportion of total land area.
-  <br>
-  <br>According to the FAO, <b>Forest</b> is defined as: “land spanning more than 0.5 hectares with trees higher than 
-  5 meters and a canopy cover of more than 10 percent, or trees able to reach these thresholds in situ. It 
-  does not include land that is predominantly under agricultural or urban land use”.
-  <br>
-  <br><b>Land area</b> is the country area excluding area under inland waters and coastal waters.
-DATA_COMP: |
-  Forest area (reference area) / Land area (reference year) * 100
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
-  ecosystems, sustainably manage forests, combat desertification, and halt and reverse
-  land degradation and halt biodiversity loss</p>'
-SDG_TARGET__GLOBAL: '<p>Target 15.1: By 2020, ensure the conservation, restoration
-  and sustainable use of terrestrial and inland freshwater ecosystems and their services,
-  in particular forests, wetlands, mountains and drylands, in line with obligations
-  under international agreements</p>'
-SDG_INDICATOR__GLOBAL: |
+# National
+SDG_GOAL: |-
+  Goal 15: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
+SDG_TARGET: |-
+  Target 15.1: By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements
+SDG_INDICATOR: |-
   Indicator 15.1.1: Forest area as a proportion of total land area
+STAT_CONC_DEF: |-
+  This indicator measures the forest area as a proportion of total land area. According to the FAO, forest area is defined as land spanning more than 0.5 hectares with trees higher than 5 meters and a canopy cover of more than 10 percent, or trees able to reach these thresholds in situ. It does not include land that is predominantly under agricultural or urban land use. Land area is defined as the country area excluding area under inland waters and coastal waters.
+DATA_COMP: |-
+  Forest area as a proportion of total land area = (Forest area / Land area) × 100
+REC_USE_LIM: '   '
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 15: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
+SDG_TARGET__GLOBAL: |-
+  Target 15.1: By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 15.1.1: Forest area as a proportion of total land area
+
 un_designated_tier: Tier I
 un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: "How much forest does Canada have?"
 source_url_1: https://www.nrcan.gc.ca/our-natural-resources/forests/state-canadas-forests-report/how-much-forest-does-canada-have/17601
@@ -38,4 +32,9 @@ source_organisation_1: Natural Resources Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
  
- 
+source_active_2: 'true'
+source_url_text_2: FAOSTAT SDG Indicators
+source_url_2: https://www.fao.org/faostat/en/#data/SDGB?area=33&elements=6120&items=24033&years=2015,2016,2017,2018,2019,2020,2021,2022,2023,2024&output_type=table&file_type=csv&submit=true
+source_organisation_2: Food and Agriculture Organization of the United Nations (FAO)
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada

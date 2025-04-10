@@ -16,14 +16,13 @@ transport_deaths <-
     ) %>%
     filter(
       REF_DATE >= 2015,
-      `Cause of death (ICD-10)` %in% c("Transport accidents", "Motor vehicle accidents", "Other land transport accidents"),
+      `Cause of death (ICD-10)` == "Motor vehicle accidents",
       Characteristics == "Age-specific mortality rate per 100,000 population"
     ) %>%
     select(
       Year = REF_DATE,
       Age = `Age at time of death`,
       Sex,
-      `Cause of death` = `Cause of death (ICD-10)`,
       Value = VALUE
     )
 
@@ -31,16 +30,15 @@ total_line <-
   transport_deaths %>%
   filter(
     Age == "All ages",
-    Sex == "Both sexes",
-    `Cause of death` == "Transport accidents"
+    Sex == "Both sexes"
   ) %>%
-  mutate_at(c("Sex", "Age", "Cause of death"), ~ "")  
+  mutate_at(c("Sex", "Age"), ~ "")  
 
 data_final <- 
   bind_rows(
     total_line, 
     transport_deaths %>%
-      filter(!(Age == "All ages" & Sex == "Both sexes" & `Cause of death` == "Transport accidents"))
+      filter(!(Age == "All ages" & Sex == "Both sexes"))
     )  
 
 write.csv(

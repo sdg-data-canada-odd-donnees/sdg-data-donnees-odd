@@ -1,32 +1,37 @@
-SDG_GOAL: '<p>Goal 11: Make cities and human settlements inclusive, safe, resilient
-  and sustainable</p>'
-SDG_TARGET: '<p>Target 11.3: By 2030, enhance inclusive and sustainable urbanization
-  and capacity for participatory, integrated and sustainable human settlement planning
-  and management in all countries</p>'
-SDG_INDICATOR: '<p>Indicator 11.3.1: Ratio of land consumption rate to population
-  growth rate</p>'
-STAT_CONC_DEF: |
-  This indicator is defined as the ratio of land consumption rate to population growth rate. <br><br>
-  Land consumption rate is the rate at which urbanized land or land occupied by a city/urban area changes during a period of time (usually one year), expressed as a percentage of the land occupied by the city/urban area at the start of that time. <br><br>
+# National
+SDG_GOAL: >-
+  Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+SDG_TARGET: >-
+  Target 11.3: By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries
+SDG_INDICATOR: >-
+  Indicator 11.3.1: Ratio of land consumption rate to population growth rate
+STAT_CONC_DEF: >-
+  This indicator is defined as the ratio of land consumption rate to population growth rate.
+  <br><br>
+  Land consumption rate is the rate at which urbanized land or land occupied by a city/urban area changes during a period of time (usually one year), expressed as a percentage of the land occupied by the city/urban area at the start of that time.
+  <br><br>
   Population growth rate is the change of a population in a defined area (country, city, etc) during a period, usually one year, expressed as a percentage of the population at the start of that period. It reflects the number of births and deaths during a period and the number of people migrating to and from the focus area. In SDG 11.3.1, this is computed at the area defined as urban/city.
-DATA_COMP: custom.data-comp
-REC_USE_LIM: '<p> This study combines data from the 1971, 1991, 2001 and 2011 Census of Population
-  with special data sets providing information on land cover and land use, in order to analyze the
-  evoluation of built-up areas around Census metropolitan areas (CMAs).
-  <br>
-  <br>2011 CMA boundaries are used for all years. Total area excludes water.</p>'
-SDG_GOAL__GLOBAL: '<p>Goal 11: Make cities and human settlements inclusive, safe,
-  resilient and sustainable</p>'
-SDG_TARGET__GLOBAL: '<p>Target 11.3: By 2030, enhance inclusive and sustainable urbanization
-  and capacity for participatory, integrated and sustainable human settlement planning
-  and management in all countries</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 11.3.1: Ratio of land consumption rate to population
-  growth rate</p>'
-un_designated_tier: Tier II
+DATA_COMP: >-
+  For all cities, Statistics Canada Census of Population block face points were used for population counts ([Census geography](https://www12.statcan.gc.ca/census-recensement/2021/geo/index-eng.cfm)), and the 30 m resolution Land Use Time Series v4 produced by Agriculture and Agri-Food Canada was used for built-up area ([AAFC Land Use](https://open.canada.ca/data/dataset/fa84a70f-03ad-4946-b0f8-a3b481dd5248)).
+REC_USE_LIM: >-
+  Population data are from 2011 and 2021. Land use data are from 2010 and 2020.
+  <br><br>
+  Only cities with a population of 100,000 or more in 2011 and/or 2021 are included. 
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+SDG_TARGET__GLOBAL: >-
+  Target 11.3: By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 11.3.1: Ratio of land consumption rate to population growth rate
+
+un_designated_tier: Tier I
 un_custodian_agency: United Nations Human Settlements Programme (UN-Habitat)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada, Environment Statistics Program Custom Tabulation
 source_url_1: https://www.statcan.gc.ca/en/subjects-start/environment

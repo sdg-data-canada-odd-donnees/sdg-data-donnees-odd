@@ -7,7 +7,11 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values: []
+data_start_values:
+- field: Method
+  value: All methods
+- field: Destination region
+  value: All regions
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -17,7 +21,7 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.10-c-1-title
+graph_title: chart.10-c-1-title
 graph_titles: []
 graph_type: bar
 indicator_name: global_indicators.10-c-1-title

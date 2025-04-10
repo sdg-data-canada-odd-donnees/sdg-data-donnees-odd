@@ -9,9 +9,11 @@ SDG_TARGET: '<p>Cible 15.b : Mobiliser d’importantes ressources de toutes prov
 SDG_INDICATOR: '<p>Indicateur 15.b.1 : a) aide publique au développement consacrée
   à la préservation et à l’exploitation durable de la biodiversité et b) produits
   générés et fonds mobilisés par les instruments économiques en rapport avec la biodiversité</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: >-
+    Cet indicateur mesure l’Aide publique au développement pour la conservation et l’utilisation durable de la biodiversité, définie comme les versements bruts du total de l’Aide publique au développement reçue de tous les donateurs pour la biodiversité.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |
+  En raison du manque de données, les produits générés et les fonds mobilisés par les instruments économiques en rapport avec la biodiversité ne peuvent pas être mesurés ni faire l’objet d’un rapport à l’heure actuelle.
 SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres
@@ -31,9 +33,10 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: OCDE. Système de notification des pays créanciers (SNPC).
-source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
-source_organisation_1: OCDE
+source_url_text_1: "SNPC: Système de notification des pays créanciers (flux)"
+source_url_1: https://data-explorer.oecd.org/vis?pg=0&snb=24&vw=tb&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.3&dq=CAN.DPGC.41030.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&lc=fr
+source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
+source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
 
  

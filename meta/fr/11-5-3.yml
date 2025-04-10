@@ -1,0 +1,35 @@
+# National
+SDG_GOAL: |-
+  Objectif 11 : Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
+SDG_TARGET: |-
+  Cible 11.5 : D’ici à 2030, réduire nettement le nombre de personnes tuées et le nombre de personnes touchées par les catastrophes, y compris celles qui sont liées à l’eau, et réduire nettement la part du produit intérieur brut mondial représentée par les pertes économiques directement imputables à ces catastrophes, l’accent étant mis sur la protection des pauvres et des personnes en situation vulnérable
+SDG_INDICATOR: |-
+  Indicateur 11.5.3 : a) Dommages causés aux infrastructures critiques et b) nombre de perturbations des services de base résultant de catastrophes
+STAT_CONC_DEF: |-
+  <p><strong>Définition :</strong>
+  <br><br>
+  Cet indicateur mesure le nombre d'infrastructures critiques endommagées ou détruites à la suite de catastrophes, y compris les installations de santé et d'éducation, ainsi que le nombre de perturbations des services de base.</p>
+  <p><strong>Concepts :</strong>
+  <br><br>
+  <b>Catastrophes :</b> Une perturbation grave du fonctionnement d'une communauté ou d'une société, à n'importe quelle échelle, due à des événements dangereux interagissant avec des conditions d'exposition, de vulnérabilité et de capacité, entraînant un ou plusieurs des pertes et impacts suivants : humains, matériels, économiques et environnementaux (<a href="https://www.preventionweb.net/terminology/disaster">UNDRR, 2017</a>).
+  <br><br>
+  <b>Infrastructures critiques :</b> Les structures physiques, les installations, les réseaux et les autres actifs qui fournissent des services essentiels au fonctionnement social et économique d'une communauté ou d'une société.
+  <br><br>
+  <b>Services de base :</b> Services nécessaires au fonctionnement efficace et approprié de l'ensemble de la société. L'approvisionnement en eau, l'assainissement, les soins de santé et l'éducation sont des exemples de services de base. Ils comprennent également les services fournis par les infrastructures critiques telles que l'électricité, les télécommunications, les transports et la gestion des déchets, qui sont nécessaires au fonctionnement de l'ensemble de la société.</p>
+DATA_COMP: '   '
+REC_USE_LIM: '   '
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 11 : Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
+SDG_TARGET__GLOBAL: |-
+  Cible 11.5 : D’ici à 2030, réduire nettement le nombre de personnes tuées et le nombre de personnes touchées par les catastrophes, y compris celles qui sont liées à l’eau, et réduire nettement la part du produit intérieur brut mondial représentée par les pertes économiques directement imputables à ces catastrophes, l’accent étant mis sur la protection des pauvres et des personnes en situation vulnérable
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 11.5.3 : a) Dommages causés aux infrastructures critiques et b) nombre de perturbations des services de base résultant de catastrophes
+
+un_designated_tier: Niveau I
+un_custodian_agency: Bureau des Nations Unies pour la réduction des risques de catastrophe (UNDRR)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-05-03.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)

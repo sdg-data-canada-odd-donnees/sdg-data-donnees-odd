@@ -1,20 +1,22 @@
 ## NATIONAL METADATA
-SDG_GOAL: |
+SDG_GOAL: >-
     Goal 2: End hunger, achieve food security and improved nutrition and promote sustainable agriculture
 SDG_TARGET: '<p>Target 2.1: By 2030, end hunger and ensure access by all people, in
   particular the poor and people in vulnerable situations, including infants, to safe,
   nutritious and sufficient food all year round</p>'
 SDG_INDICATOR: '<p>Indicator 2.1.2: Proportion of family living with food insecurity</p>'
-STAT_CONC_DEF: |
-  The levels of food security are defined as: <br>1- Food secure: No indication of difficulty with income-related food access; <br>2- Food insecure: Includes marginal, moderate and severe food insecurity; <br>3- Marginally food insecure: Exactly one indication of difficulty with income-related food access; <br>4- Moderately food insecure: Indication of compromise in quality and/or quantity of food consumed; <br>5- Severely food insecure: Indication of reduced food intake and disrupted eating patterns.
+STAT_CONC_DEF: >-
+  <p>The levels of food security are defined as:</p>
+  <ol>
+  <li>Food secure: No indication of difficulty with income-related food access;</li>
+  <li>Food insecure: Includes marginal, moderate and severe food insecurity;</li>
+  <li>Marginally food insecure: Exactly one indication of difficulty with income-related food access;</li>
+  <li>Moderately food insecure: Indication of compromise in quality and/or quantity of food consumed;</li>
+  <li>Severely food insecure: Indication of reduced food intake and disrupted eating patterns.</li>
+  </ol>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
-      This is a proxy indicator. The UN Global indicator states: "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)". 
-      The survey is conducted nationwide, in both the provinces and
-      the territories. It covers all individuals in Canada, excluding persons living on
-      reserves and other Indigenous settlements in the provinces, the institutionalized
-      population, and households in extremely remote areas with very low population density.
-      Overall, these exclusions amount to less than two percent of the population. 
+REC_USE_LIM: >-
+  The survey is conducted nationwide, in both the provinces and the territories. It covers all individuals in Canada, excluding persons living on reserves and other Indigenous settlements in the provinces, the institutionalized population, and households in extremely remote areas with very low population density. Overall, these exclusions amount to less than two per cent of the population. 
 
 ## GLOBAL METADATA
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
@@ -32,10 +34,38 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 ## SOURCE
 reporting_status: complete
 source_active_1: true
-source_url_text_1: Statistics Canada. Table 13-10-0834-01  Food insecurity by economic family type
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1310083401
+source_url_text_1: Statistics Canada. Table 13-10-0834-01  Food insecurity by economic
+  family type
+source_url_1: https://doi.org/10.25318/1310083401-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
-source_geographical_coverage_1: Canada, Geographical region of Canada, Province or territory
+source_geographical_coverage_1: Canada, Geographical region of Canada, Province or
+  territory
 
-proxy: proxy
+source_active_2: true
+source_url_text_2: 'Canadian Income Survey: Territorial estimates, 2020'
+source_url_2: 
+  https://www150.statcan.gc.ca/n1/en/daily-quotidien/221103/dq221103d-eng.pdf?st=-1WriuZ8
+source_organisation_2: Statistics Canada
+source_geographical_coverage_2: Territories
+
+source_active_3: true
+source_url_text_3: 'Canadian Income Survey: Territorial estimates, 2021'
+source_url_3: https://www150.statcan.gc.ca/n1/daily-quotidien/230621/dq230621c-eng.htm
+source_organisation_3: Statistics Canada
+source_geographical_coverage_3: Territories
+
+source_active_4: true
+source_url_text_4: Statistics Canada. Table 13-10-0835-01  Food insecurity by selected
+  demographic characteristics
+source_url_4: https://doi.org/10.25318/1310083501-eng
+source_organisation_4: Statistics Canada
+source_periodicity_4: Annual
+source_geographical_coverage_4: Canada, Geographical region of Canada, Province or
+  territory
+
+source_active_5: true
+source_url_text_5: 'Canadian Income Survey: Territorial estimates, 2022'
+source_url_5: https://www150.statcan.gc.ca/n1/daily-quotidien/240619/dq240619d-eng.htm
+source_organisation_5: Statistics Canada
+source_geographical_coverage_5: Territories

@@ -1,20 +1,20 @@
 # NATIONAL
 SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
-  et durable, le plein emploi productif et un travail décent pour tous.</p>'
+  et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET: '<p>Cible 8.10 : Renforcer la capacité des institutions financières nationales
   de favoriser et généraliser l’accès de tous aux services bancaires et financiers
   et aux services d’assurance.</p>'
-SDG_INDICATOR: '<p>Indicateur 8.10.2 : Proportion d’adultes (15 ans ou plus) possédant
-  un compte dans une banque ou dans une autre institution financière ou faisant appel
-  à des services monétaires mobiles</p>'
-STAT_CONC_DEF: |
-    Données représentent le pourcentage des unités familiales (familles économiques ou personnes hors famille économique) qui détiennent un compte de chèques ou d'épargne, que le solde soit positif, négatif ou nul.
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+SDG_INDICATOR: >-
+  Indicateur 8.10.2 : Proportion des unités familiales ayant un compte de chèques ou d'épargne
+STAT_CONC_DEF: >-
+  Cet indicateur mesure le pourcentage d'unités familiales (familles économiques ou individus hors familles économiques) détenant un compte de chèques ou un compte d'épargne, que le solde soit positif, négatif ou nul.
+DATA_COMP: custom.data-tabulated
+REC_USE_LIM: >-
+  Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique: « Proportion d’adultes (15 ans ou plus) possédant un compte dans une banque ou dans une autre institution financière ou faisant appel à des services monétaires mobiles ».
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
-  partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
+  partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.10 : Renforcer la capacité des institutions financières
   nationales de favoriser et généraliser l’accès de tous aux services bancaires et
   financiers et aux services d’assurance.</p>'
@@ -22,19 +22,16 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.10.2 : Proportion d’adultes (15 ans o
   possédant un compte dans une banque ou dans une autre institution financière ou
   faisant appel à des services monétaires mobiles</p>'
 
-
-# SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: |
-    Statistique Canada. Enquête sur la sécurité financière (ESF) - Totalisation personnalisée.
-source_url_1: https://www.statcan.gc.ca/fr/enquete/menages/2620
-source_organisation_1: Statistique Canada
-source_periodicity_1: Occasionnelle
-source_geographical_coverage_1: Canada
-
 un_designated_tier: Niveau I
 un_custodian_agency: Banque Mondiale
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Enquête sur la sécurité financière (ESF) - Totalisation personnalisée.
+source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=2620
+source_organisation_1: Statistique Canada
+source_periodicity_1: Occasionnelle
+source_geographical_coverage_1: Canada
  

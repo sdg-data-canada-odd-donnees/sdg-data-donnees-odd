@@ -1,28 +1,26 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET: |
-  Target 1.3: Implement nationally appropriate social protection systems
-  and measures for all, including floors, and by 2030 achieve substantial coverage
-  of the poor and the vulnerable.
-SDG_INDICATOR: '<p>Indicator 1.3.1: Percentage of the population covered by social
-  protection floors/systems disaggregated by sex, and distinguishing children, unemployed,
-  old age, people with disabilities, pregnant women/new-borns, work injury victims,
-  poor and vulnerable</p>'
-STAT_CONC_DEF: |
-    An economic family refers to a group of two or more persons who live in the same dwelling and are related to each other by blood, marriage, common-law, adoption or a foster relationship.<br><br>Older persons includes those 65 and older and pension refers to those receiving CPP or QPP pensions only (does not include OAS, GIS or private pensions).<br><br>Percentage of the workforce that is covered by workers' compensation. The number of persons covered is the sum of two main components: (1) the workers of assessable employers and self-employed workers opting for coverage; and (2) the workers of self-insured employers and workers of the Government of Canada. Excludes persons eligible for personal coverage not opting for coverage and workers explicitly excluded by the jurisdiction's legislation.
+SDG_GOAL: 'Goal 1: End poverty in all its forms everywhere'
+SDG_TARGET: >-
+  Target 1.3: Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable.
+SDG_INDICATOR: >-
+  Indicator 1.3.1: Percentage of the population covered by social protection floors/systems disaggregated by sex, and distinguishing children, unemployed, old age, people with disabilities, pregnant women/new-borns, work injury victims, poor and vulnerable
+STAT_CONC_DEF: >-
+  The indicator reflects the proportion of persons effectively covered by a social protection system, including social protection floors. It also reflects the main components of social protection: child and maternity benefits, support for persons without a job, persons with disabilities, victims of work injuries and older persons.
+  <br><br>
+  Older persons includes those 65 and older and pension refers to those receiving CPP or QPP pensions only (does not include OAS, GIS or private pensions).
+  <br><br>
+  Percentage of the workforce that is covered by workers' compensation. The number of persons covered is the sum of two main components: (1) the workers of assessable employers and self-employed workers opting for coverage; and (2) the workers of self-insured employers and workers of the Government of Canada. Excludes persons eligible for personal coverage not opting for coverage and workers explicitly excluded by the jurisdiction's legislation.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: '   '
+REC_USE_LIM: >-
+  Series d) "Proportion of persons with disabilities receiving benefits" reports on the proportion of the population over the age of 16 living with a disability who are receiving any type of benefits, including social assistance or disability benefits. This differs from the metadata, which focuses on the proportion of individuals with severe disabilities receiving disability cash benefits.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET__GLOBAL: |
-  Target 1.3: Implement nationally appropriate social protection systems
-  and measures for all, including floors, and by 2030 achieve substantial coverage
-  of the poor and the vulnerable.
-SDG_INDICATOR__GLOBAL: '<p>Indicator 1.3.1: Percentage of the population covered by
-  social protection floors/systems disaggregated by sex, and distinguishing children,
-  unemployed, old age, people with disabilities, pregnant women/new-borns, work injury
-  victims, poor and vulnerable</p>'
+SDG_GOAL__GLOBAL: 'Goal 1: End poverty in all its forms everywhere'
+SDG_TARGET__GLOBAL: >-
+  Target 1.3: Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable.
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 1.3.1: Percentage of the population covered by social protection floors/systems disaggregated by sex, and distinguishing children, unemployed, old age, people with disabilities, pregnant women/new-borns, work injury victims, poor and vulnerable
+
 un_designated_tier: Tier II
 un_custodian_agency: International Labour Organization (ILO), World Bank (WB)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.3

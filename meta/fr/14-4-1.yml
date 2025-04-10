@@ -1,48 +1,40 @@
 SDG_GOAL: >-
-    <p>Objectif 14 : Conserver et exploiter de manière durable les océans,
-    les mers et les ressources marines aux fins du développement durable</p>
+    Objectif 14 : Conserver et exploiter de manière durable les océans, les mers et les ressources marines aux fins du développement durable
 SDG_TARGET: >-
-    <p>Cible 14.4 : D’ici à 2020, réglementer efficacement la pêche, mettre
-      un terme à la surpêche, à la pêche illicite, non déclarée et non réglementée et
-      aux pratiques de pêche destructrices et exécuter des plans de gestion fondés sur
-      des données scientifiques, l’objectif étant de rétablir les stocks de poissons le
-      plus rapidement possible, au moins à des niveaux permettant d’obtenir un rendement
-      constant maximal compte tenu des caractéristiques biologiques</p>
-SDG_INDICATOR: '<p>Indicateur 14.4.1 : Proportion de stocks de poissons dont le niveau
-  est biologiquement viable</p>'
+  Cible 14.4 : D’ici à 2020, réglementer efficacement la pêche, mettre un terme à la surpêche, à la pêche illicite, non déclarée et non réglementée et aux pratiques de pêche destructrices et exécuter des plans de gestion fondés sur des données scientifiques, l’objectif étant de rétablir les stocks de poissons le plus rapidement possible, au moins à des niveaux permettant d’obtenir un rendement constant maximal compte tenu des caractéristiques biologiques
+SDG_INDICATOR: 'Indicateur 14.4.1 : Proportion de stocks de poissons dont le niveau
+  est biologiquement viable'
 STAT_CONC_DEF: >-
-    <p>L'indicateur Proportion de stocks de poissons marins se situant
-      dans des niveaux biologiquement viables mesure la viabilité des pêcheries de capture
-      marines du monde par leur abondance. Un stock de poissons dont l'abondance est égale
-      ou supérieure au niveau qui peut produire le rendement maximal durable (RMD) est
-      considéré comme biologiquement durable. En revanche, lorsque l'abondance tombe en
-      dessous du niveau du RMD, le stock est considéré comme biologiquement non durable.</p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+  L'indicateur permet de comparer les taux d’exploitation avec les limites de prises établies. Ces limites sont fondées sur des données scientifiques et fournissent une mesure directe indiquant si la gestion de l'utilisation de ces ressources respecte les limites des écosystèmes. Cela constitue une mesure de la pression de la pêche sur les stocks de poissons sauvages. <em>Environnement et Changement climatique Canada (ECCC)</em>
+DATA_COMP: >-
+  L'indicateur permet de comparer les taux d’exploitation avec les limites d’exploitation. Ces limites sont fondées sur des données scientifiques et permettent de déterminer directement si l'utilisation de ces ressources est gérée à l'intérieur des limites de l'écosystème.
+  <br><br>
+  L'indicateur est un simple dénombrement des stocks qui se retrouvent à l'intérieur des limites des niveaux d'exploitation de référence, à l'intérieur des autres limites d’exploitation ou au-dessus des limites d’exploitation. <em>(ECCC)</em>
+REC_USE_LIM: >-
+  Une surexploitation au cours d'une seule année ne signifie pas qu'un stock fait l'objet d'une pêche non durable. Cela entraîne plutôt une intervention de gestion. Par exemple, les stocks gérés par l'entremise de quotas sont assujettis à la conciliation des quotas, ce qui signifie que toute surexploitation d'un stock pendant une année est déduite de la limite d’exploitation établie pour l'année suivante.
+  <br><br>
+  L'[Étude sur la durabilité des pêches](https://www.dfo-mpo.gc.ca/reports-rapports/regs/sff-cpd/survey-sondage/index-fr.html) (l'étude) contient les meilleurs renseignements disponibles. Comme les océans sont vastes et profonds et que les poissons se déplacent entre les habitats, leurs populations sont difficiles à surveiller.
+  <br><br>
+  L'étude résume les renseignements sur une grande variété d'espèces, de régimes de gestion, de types de pêche, de régions géographiques et de contextes socio-économiques. De petits changements dans l'ensemble des stocks étudiés se produisent à la suite de changements dans l'évaluation ou la gestion des stocks. Il convient d'en tenir compte dans l'interprétation des résultats.
+  <br><br>
+  L'indicateur ne tient pas compte des stocks faisant l'objet d'une pêche s'ils ne répondent pas aux critères des principaux stocks. Les algues et les autres plantes aquatiques sont également exclues. <em>(ECCC)</em>
 SDG_GOAL__GLOBAL: >-
-    <p>Objectif 14 : Conserver et exploiter de manière durable les océans,
-    les mers et les ressources marines aux fins du développement durable</p>
+    Objectif 14 : Conserver et exploiter de manière durable les océans, les mers et les ressources marines aux fins du développement durable
 SDG_TARGET__GLOBAL: >-
-    <p>Cible 14.4 : D’ici à 2020, réglementer efficacement la pêche, mettre
-      un terme à la surpêche, à la pêche illicite, non déclarée et non réglementée et
-      aux pratiques de pêche destructrices et exécuter des plans de gestion fondés sur
-      des données scientifiques, l’objectif étant de rétablir les stocks de poissons le
-      plus rapidement possible, au moins à des niveaux permettant d’obtenir un rendement
-      constant maximal compte tenu des caractéristiques biologiques</p>
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 14.4.1 : Proportion de stocks de poissons dont
-  le niveau est biologiquement viable</p>'
+  Cible 14.4 : D’ici à 2020, réglementer efficacement la pêche, mettre un terme à la surpêche, à la pêche illicite, non déclarée et non réglementée et aux pratiques de pêche destructrices et exécuter des plans de gestion fondés sur des données scientifiques, l’objectif étant de rétablir les stocks de poissons le plus rapidement possible, au moins à des niveaux permettant d’obtenir un rendement constant maximal compte tenu des caractéristiques biologiques
+SDG_INDICATOR__GLOBAL: 'Indicateur 14.4.1 : Proportion de stocks de poissons dont
+  le niveau est biologiquement viable'
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-14-04-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+page_content: "Cet indicateur s'aligne sur les cadres suivants : [Programme des Indicateurs canadiens de durabilité de l’environnement, Niveaux d’exploitation des principaux stocks de poissons](https://www.canada.ca/fr/environnement-changement-climatique/services/indicateurs-environnementaux/niveaux-exploitation-principaux-stocks-poissons.html)"
+
+# SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: "Niveaux d'exploitation des principaux stocks de poissons"
+source_url_text_1: "Programme des Indicateurs canadiens de durabilité de l’environnement, Niveaux d’exploitation des principaux stocks de poissons"
 source_url_1: https://www.canada.ca/fr/environnement-changement-climatique/services/indicateurs-environnementaux/niveaux-exploitation-principaux-stocks-poissons.html
 source_organisation_1: Environnement et Changement climatique Canada
 source_geographical_coverage_1: Canada
- 
- 
-
-

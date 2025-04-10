@@ -1,31 +1,33 @@
-SDG_GOAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and sustainable
-  industrialization and foster innovation</p>'
-SDG_TARGET: '<p>Target 9.4: By 2030, upgrade infrastructure and retrofit industries
-  to make them sustainable, with increased resource-use efficiency and greater adoption
-  of clean and environmentally sound technologies and industrial processes, with all
-  countries taking action in accordance with their respective capabilities</p>'
-SDG_INDICATOR: '<p>Indicator 9.4.1: CO<sub>2</sub> emission per unit of value added</p>'
-STAT_CONC_DEF: |
-  This indicator measures the GHG emission intensity relative to Canada’s economic activity. A decreasing trend would mean that less GHG emissions are emitted for one unit of GDP. <br><br>
-  The data are presented in megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP.
-DATA_COMP: custom.data-comp
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
-  sustainable industrialization and foster innovation</p>'
-SDG_TARGET__GLOBAL: '<p>Target 9.4: By 2030, upgrade infrastructure and retrofit industries
-  to make them sustainable, with increased resource-use efficiency and greater adoption
-  of clean and environmentally sound technologies and industrial processes, with all
-  countries taking action in accordance with their respective capabilities</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 9.4.1: CO<sub>2</sub> emission per unit of value
-  added</p>'
+# National
+SDG_GOAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET: >-
+  Target 9.4: By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes, with all countries taking action in accordance with their respective capabilities
+SDG_INDICATOR: >-
+  Indicator 9.4.1: CO<sub>2</sub> emission per unit of value added
+STAT_CONC_DEF: >-
+  This indicator measures the greenhouse gas (GHG) emissions intensity relative to Canada’s economic activity. A decreasing trend would mean that less GHG emissions are emitted for one unit of GDP.
+  <br><br>
+  The data are presented in megatonnes of carbon dioxide equivalent (Mt CO<sub>2</sub> eq.) per billion dollars of gross domestic product (GDP).
+DATA_COMP: >-
+  Data were readily available to report on this indicator as specified by the national metadata. Please refer to the sources to access additional information on the metadata or source.
+REC_USE_LIM: >-
+  This is a proxy indicator. Greenhouse gas emissions per unit of GDP are calculated using real inflation-adjusted GDP values expressed in Canadian dollars at constant 2017 prices, whereas the UN Global metadata specifies the use of constant US dollars.
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET__GLOBAL: >-
+  Target 9.4: By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes, with all countries taking action in accordance with their respective capabilities
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 9.4.1: CO<sub>2</sub> emission per unit of value added
+
 un_designated_tier: Tier I
-un_custodian_agency: International Energy Agency (IEA), United Nations Industrial
-  Development Organization (UNIDO)
+un_custodian_agency: International Energy Agency (IEA), United Nations Industrial Development Organization (UNIDO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
  
-
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Environment and Climate Change Canada. Greenhouse gas emissions.
 source_url_1: https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/greenhouse-gas-emissions.html

@@ -1,39 +1,36 @@
-﻿computation_units: ''
-copyright: ''
-data_footnote: ''
+﻿computation_units: ""
+copyright: ""
+data_footnote: ""
 data_non_statistical: true
-data_notice_class: ''
-data_notice_heading: ''
-data_notice_text: ''
+data_notice_class: ""
+data_notice_heading: ""
+data_notice_text: ""
 data_show_map: false
 data_start_values: []
-embedded_feature_footer: ''
-embedded_feature_html: ''
-embedded_feature_tab_title: ''
-embedded_feature_title: ''
-embedded_feature_url: ''
+embedded_feature_footer: ""
+embedded_feature_html: ""
+embedded_feature_tab_title: ""
+embedded_feature_title: ""
+embedded_feature_url: ""
 expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
-graph_stacked_disaggregation: ''
-graph_title: global_indicators.11-b-2-title
+graph_stacked_disaggregation: ""
+graph_title: proxy.11-b-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.11-b-2-title
-indicator_number: '11.b.2'
-national_geographical_coverage: ''
-page_content: >- 
-  <p><strong>Non-statistical indicator</strong></p><p>We have identified the following to be relevant for reporting on this indicator - <a href="https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx">Emergency Management Strategy for Canada: Toward a Resilient 2030</a>.
-  <br>
-  <br>In October 2018, British Columbia adopted the <i>UN Sendai Framework for Disaster Risk Reduction (2015-2030) (Sendai Framework)</i> to align and improve its approach to all phases of emergency management.
-  <br>
-  <br>Québec adopted the 2014-2024 Québec Emergency Management Policy as well as a National Action Plan, directly inspired by the priority actions of the Hyogo Framework, the predecessor of the <i>Sendai Framework</i>.</p>
-permalink: ''
+indicator_available: proxy.11-b-2-title
+indicator_number: "11.b.2"
+national_geographical_coverage: Canada
+page_content: custom.1-5-4-page-content
+permalink: ""
 precision: []
 progress_calculation_options:
-- direction: positive
+  - direction: positive
 reporting_status: complete
-sort: ''
+sort: ""
 standalone: false
-tags: []
-"\xEF\xBB\xBFcomposite_breakdown_label": ''
+tags:
+  - Proxy
+proxy: proxy

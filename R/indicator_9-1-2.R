@@ -1,5 +1,5 @@
-
 # 9.1.2 -------------------------------------------------------------------
+# Passenger and freight volumes, by mode of transport
 
 library(dplyr)
 library(cansim)
@@ -102,7 +102,7 @@ trucking_freight <-
   ) %>% 
   mutate(
     Series = "Road freight volume",
-    Units = "Metric tonnes of cargo",
+    Units = "Metric tonnes",
     Value = Value * 0.001
   )
 

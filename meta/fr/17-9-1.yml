@@ -8,7 +8,18 @@ SDG_TARGET: '<p>Cible 17.9 : Apporter, à l’échelon international, un soutien
 SDG_INDICATOR: '<p>Indicateur 17.9.1 : Valeur en dollars de l’aide financière et technique
   promise aux pays en développement (notamment dans le cadre de la coopération Nord-Sud
   et Sud-Sud et de la coopération triangulaire)</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: |
+  <strong>Définition :</strong>
+  <br><br>
+  Décaissements bruts du total de l'aide publique au développement (APD) et des autres flux officiels provenant de tous les donateurs pour le renforcement des capacités et la planification nationale. 
+  <br><br>
+  <strong>Concepts :</strong>
+  <br><br>
+  APD : Le CAD définit l'APD comme « les flux destinés aux pays et territoires figurant sur la liste des bénéficiaires de l'APD du CAD et aux institutions multilatérales qui sont <br><br>
+  i) fournis par des agences officielles, y compris les gouvernements nationaux et locaux, ou par leurs agences exécutives ; et <br>
+  ii) chaque transaction est administrée avec pour objectif principal la promotion du développement économique et du bien-être des pays en développement ; et sont de nature concessionnelle et comportent un élément de don d'au moins 25 pour cent (calculé à un taux d'escompte de 10 pour cent). (Voir <a href="https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>) <br><br>
+  Autres flux officiels (OOF) : Les autres flux officiels (à l'exclusion des crédits à l'exportation bénéficiant d'un soutien public) sont définis comme des transactions effectuées par le secteur officiel qui ne remplissent pas les conditions d'éligibilité à l'APD, soit parce qu'elles ne sont pas principalement destinées au développement, soit parce qu'elles ne sont pas suffisamment concessionnelles. (Voir <a href="https://web-archive.oecd.org/2016-06-02/239150-DCDDAC%282016%293FINAL.pdf">https://web-archive.oecd.org/2016-06-02/239150-DCDDAC%282016%293FINAL.pdf</a>, paragraphe 24, en anglais seulement). <br><br>
+  Le secteur de l'agriculture est défini par le CAD et comprend tous les codes sectoriels du CRS dans la série 311 (voir ici : <a href="https://web-archive.oecd.org/temp/2019-03-28/80638-purposecodessectorclassification.htm">https://web-archive.oecd.org/temp/2019-03-28/80638-purposecodessectorclassification.htm</a>, en anglais seulement).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
@@ -22,8 +33,6 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.9.1 : Valeur en dollars de l’aide fin
   et technique promise aux pays en développement (notamment dans le cadre de la coopération
   Nord-Sud et Sud-Sud et de la coopération triangulaire)</p>'
 
-reporting_status: complete
-
 un_designated_tier: Niveau I
 un_custodian_agency: L’Organisation de coopération et de développement économiques (OCDE), Programme 
   des Nations Unies pour l'environnement (PNUE), Banque mondiale 
@@ -31,10 +40,10 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-09-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: |
-    OCDE Statistiques
-source_url_1: https://stats.oecd.org/?lang=fr&SubSessionId=368e563f-b9c2-48d3-97ed-0ebd17019f8b&themetreeid=-200
-source_organisation_1: OCDE
-source_periodicity_1: Annual
-source_geographical_coverage_1: Canada
+# source_active_1: 'true'
+# source_url_text_1: |
+#     OCDE Statistiques
+# source_url_1: https://stats.oecd.org/?lang=fr&SubSessionId=368e563f-b9c2-48d3-97ed-0ebd17019f8b&themetreeid=-200
+# source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
+# source_periodicity_1: Annual
+# source_geographical_coverage_1: Canada

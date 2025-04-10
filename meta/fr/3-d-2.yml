@@ -4,7 +4,8 @@ SDG_TARGET: '<p>Cible 3.d : Renforcer les moyens dont disposent tous les pays, e
   particulier les pays en développement, en matière d’alerte rapide, de réduction
   des risques et de gestion des risques sanitaires nationaux et mondiaux.</p>'
 SDG_INDICATOR: 'Indicateur 3.d.2 : Pourcentage de septicémies causées par un organisme résistant aux antimicrobiens donné'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: |
+  Pourcentage des septicémies causées par le <em>Staphylococcus aureus</em> résistant à la méthicilline (SARM) et par l’<em>Escherichia coli</em> résistant aux céphalosporines de 3e génération (p. ex. BLSE-E. coli) parmi les patients qui ont besoin de soins et dont un échantillon de sang est prélevé et testé.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir

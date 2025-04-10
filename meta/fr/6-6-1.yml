@@ -1,41 +1,42 @@
-SDG_GOAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
-  en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET: '<p>Cible 6.6 : D’ici à 2020, protéger et restaurer les écosystèmes liés
-  à l’eau, notamment les montagnes, les forêts, les zones humides, les rivières, les
-  aquifères et les lacs</p>'
-SDG_INDICATOR: '<p>Indicateur 6.6.1 : Variation de l’étendue des écosystèmes tributaires
-  de l’eau</p>'
-STAT_CONC_DEF: '<p>L''indicateur comprend cinq catégories : 1) zones humides végétalisées,
-  2) rivières et estuaires, 3) lacs, 4) aquifères, et 5) masses d''eau artificielles.
-  Pour les besoins de cette méthodologie, le texte se réfère uniquement à ces cinq
-  catégories d''écosystèmes. Pour faire face à sa complexité, l''Indicateur 6.6.1
-  a été divisé en 5 sous-indicateurs afin de saisir les différentes sources de données
-  et méthodologies nécessaires à la surveillance des composantes de l''Indicateur.
-  Les sources de données proviennent d''une combinaison d''échantillonnage et d''observation
-  de la terre. Selon le type d''écosystème et le type d''étendue mesurée, la méthodologie
-  de collecte des données peut également être très différente. Une approche de surveillance
-  progressive à deux niveaux est proposée : </p>'
+# National
+SDG_GOAL: |-
+  Objectif 6 : Garantir l'accès de tous à des services d'alimentation en eau et d'assainissement gérés de façon durable
+SDG_TARGET: |-
+  Cible 6.6 : D’ici à 2020, protéger et restaurer les écosystèmes liés à l’eau, notamment les montagnes, les forêts, les zones humides, les rivières, les aquifères et les lacs
+SDG_INDICATOR: |-
+  Indicateur 6.6.1 : Variation de l’étendue des écosystèmes tributaires de l’eau
+STAT_CONC_DEF : |-
+  L’indicateur 6.6.1 des objectifs de développement durable surveille la variation de l’étendue des différents types d’écosystèmes tributaires de l’eau au fil du temps. Il s’agit d’un indicateur à multiples facettes qui recueille des données sur différents types d’écosystèmes d’eau douce. Pour mesurer le changement d’étendue, l’indicateur prend en compte les changements de superficie, de qualité de l’eau et de quantité d’eau. L’indicateur utilise des observations terrestres par satellite pour surveiller, à l’échelle mondiale, les différents types d’écosystèmes d’eau douce.
+# '<p>L''indicateur comprend cinq catégories : 1) zones humides végétalisées,
+#   2) rivières et estuaires, 3) lacs, 4) aquifères, et 5) masses d''eau artificielles.
+#   Pour les besoins de cette méthodologie, le texte se réfère uniquement à ces cinq
+#   catégories d''écosystèmes. Pour faire face à sa complexité, l''Indicateur 6.6.1
+#   a été divisé en 5 sous-indicateurs afin de saisir les différentes sources de données
+#   et méthodologies nécessaires à la surveillance des composantes de l''Indicateur.
+#   Les sources de données proviennent d''une combinaison d''échantillonnage et d''observation
+#   de la terre. Selon le type d''écosystème et le type d''étendue mesurée, la méthodologie
+#   de collecte des données peut également être très différente. Une approche de surveillance
+#   progressive à deux niveaux est proposée : </p>'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
-  en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 6.6 : D’ici à 2020, protéger et restaurer les écosystèmes
-  liés à l’eau, notamment les montagnes, les forêts, les zones humides, les rivières,
-  les aquifères et les lacs</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.6.1 : Variation de l’étendue des écosystèmes
-  tributaires de l’eau</p>'
 
-reporting_status: complete
-
-source_active_1: 'true'
-source_url_text_1: Explorateur des écosystèmes d’eau douce.
-source_url_1: https://www.sdg661.app/
-source_organisation_1: ONU programme pour l'environnement
-source_geographical_coverage_1: Canada
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 6 : Garantir l'accès de tous à des services d'alimentation en eau et d'assainissement gérés de façon durable
+SDG_TARGET__GLOBAL: |-
+  Cible 6.6 : D’ici à 2020, protéger et restaurer les écosystèmes liés à l’eau, notamment les montagnes, les forêts, les zones humides, les rivières, les aquifères et les lacs
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 6.6.1 : Variation de l’étendue des écosystèmes tributaires de l’eau
 
 un_designated_tier: Niveau I
-un_custodian_agency: Le Programme des Nations Unies pour l'environnement (PNUE), Secrétariat de la Convention de Ramsar sur les zones humides
+un_custodian_agency: Programme des Nations Unies pour l'environnement (PNUE), Secrétariat de la Convention de Ramsar sur les zones humides
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+# source_active_1: 'true'
+# source_url_text_1: Explorateur des écosystèmes d’eau douce
+# source_url_1: https://www.sdg661.app/
+# source_organisation_1: ONU programme pour l'environnement
+# source_geographical_coverage_1: Canada
  

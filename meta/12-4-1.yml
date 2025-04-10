@@ -12,7 +12,8 @@ STAT_CONC_DEF: |
   chemicals and pesticides in international trade (Rotterdam Convention); <br>
   3. The Stockholm Convention on Persistent Organic Pollutants (Stockholm Convention); <br>
   4. The Montreal Protocol on Substances that Deplete the Ozone Layer (Montreal Protocol); <br>
-  5. Minamata Convention on Mercury (Minamata Convention), <br> <br>
+  5. Minamata Convention on Mercury (Minamata Convention),
+  <br><br>
   which have submitted the information to the Secretariat of each MEA, as required by each of the 
   agreements.
 DATA_COMP: '     '
@@ -32,10 +33,34 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-04-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 source_active_1: 'true'
-source_url_text_1:  Federal Hazardous Waste Regulations
-source_url_1: https://www.canada.ca/en/environment-climate-change/services/canadian-environmental-protection-act-registry/historical/public-consultations/federal-hazardous-waste-regulations.html
-source_organisation_1: Canadian Environmental Protection Act Registry
+source_url_text_1: Overview of international commitments on waste
+source_url_1: https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/international-commitments/overview.html
+source_organisation_1: Environment and Climate Change Canada (ECCC)
 source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Canadian Environmental Protection Act, 1999 and Bills and related documents
+source_url_2: https://www.canada.ca/en/environment-climate-change/services/canadian-environmental-protection-act-registry/related-documents.html
+source_organisation_2: Environment and Climate Change Canada (ECCC)
+source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: Basel convention on the control of transboundary movements of hazardous wastes and their disposal
+source_url_3: https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/international-commitments/basel-convention-control-transboundary-movements.html
+source_organisation_3: Environment and Climate Change Canada (ECCC)
+source_geographical_coverage_3: Canada
+
+source_active_4: 'true'
+source_url_text_4: Organization for Economic Co-operation and Development decision OECD/LEGAL/0266
+source_url_4: https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/international-commitments/organization-economic-co-operation-development-decision.html
+source_organisation_4: Environment and Climate Change Canada (ECCC)
+source_geographical_coverage_4: Canada
+
+source_active_5: 'true'
+source_url_text_5: Canada-US agreement on waste
+source_url_5: https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/international-commitments/canada-united-states-agreement.html
+source_organisation_5: Environment and Climate Change Canada (ECCC)
+source_geographical_coverage_5: Canada
 
 reporting_status: complete
 

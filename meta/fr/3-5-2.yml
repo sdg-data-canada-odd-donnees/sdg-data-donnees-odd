@@ -5,9 +5,9 @@ SDG_TARGET: '<p>Cible 3.5 : Renforcer la prévention et le traitement de l’abu
 SDG_INDICATOR: '<p>Indicateur 3.5.2 : Abus d''alcool, défini en fonction du contexte
   national par la consommation d''alcool pur (en litres) par habitant (âgé de 15 ans
   ou plus) au cours d''une année civile</p>'
-STAT_CONC_DEF: <p>Cet indicateur mesure la consommation d''alcool par habitant en litres.</p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: <p>Cet indicateur mesure le nombre de litres d’alcool pur vendus par personne âgée de 15 ans et plus au cours d’une année. Les ventes par habitant sont un indicateur indirect approprié pour la consommation par habitant. Un changement dans le volume des ventes (augmentation ou diminution) refléterait un changement similaire dans le volume de la consommation.</p>
+DATA_COMP: custom.data-comp
+REC_USE_LIM: L’indicateur couvre les ventes enregistrées d’alcool en volume par habitant par les autorités chargées de la réglementation des alcools et leurs agences, y compris les caves, les brasseries et les autres points de vente réglementés. L’indicateur ne tient pas compte de la consommation non enregistrée par habitant, telle que le brassage domestique, l’alcool produit ou vendu illégalement, ou l’alcool transporté dans une autre juridiction.
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.5 : Renforcer la prévention et le traitement de l’abus

@@ -1,43 +1,25 @@
-SDG_GOAL: '<p>Goal 13: Take urgent action to combat climate change and its impacts<p>'
-SDG_TARGET: '<p>Target 13.a: Implement the commitment undertaken by developed-country
-  parties to the United Nations Framework Convention on Climate Change to a goal of
-  mobilizing jointly $100 billion annually by 2020 from all sources to address the
-  needs of developing countries in the context of meaningful mitigation actions and
-  transparency on implementation and fully operationalize the Green Climate Fund through
-  its capitalization as soon as possible</p>'
-SDG_INDICATOR: '<p>Indicator 13.a.1: Amounts provided and mobilized in United States
-  dollars per year in relation to the continued existing collective mobilization goal
-  of the $100 billion commitment through to 2025</p>'
-STAT_CONC_DEF: <p>Under the United Nations Framework Convention on Climate Change (UNFCCC) process, the Code of Conduct (COP) requested the Standing Committee
-  on Finance (SCF) to prepare a Biennial Assessment and Overview of Climate Finance
-  Flows (BA) (<a href="http://unfccc.int/resource/docs/2011/cop17/eng/09a01.pdf#page=4"
-  target="_blank">decision 2/CP.17</a> paragraph 121(f)), drawing on the available
-  sources of information, and including information on the geographical and thematic
-  balance of flows. There is no agreed definition under the UNFCCC on what should
-  count toward assessing progress toward the $100 billion commitment. Data from the
-  UNFCCC secretariat refers to climate-specific financial support to developing country
-  Parties, reported by Annex I Parties in their Biennial Reports. Only Annex II Parties
-  are obligated to report on financial support provided and other Annex I Parties
-  also voluntarily provide this information. Consequently, this data should not be
-  interpreted as an indicator in relation to the achievement of the collective mobilization
-  goal of $100 billion commitment. </p>
+# National
+SDG_GOAL: |-
+  Goal 13: Take urgent action to combat climate change and its impacts
+SDG_TARGET: |-
+  Target 13.a: Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible
+SDG_INDICATOR: |-
+  Indicator 13.a.1: Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025
+STAT_CONC_DEF: |-
+  Under the United Nations Framework Convention on Climate Change (UNFCCC) process, the Code of Conduct (COP) requested the Standing Committee on Finance (SCF) to prepare a Biennial Assessment and Overview of Climate Finance Flows (BA) (<a href="http://unfccc.int/resource/docs/2011/cop17/eng/09a01.pdf#page=4">decision 2/CP.17</a> paragraph 121(f)), drawing on the available sources of information, and including information on the geographical and thematic balance of flows. There is no agreed definition under the UNFCCC on what should count toward assessing progress toward the $100 billion commitment. Data from the UNFCCC secretariat refers to climate-specific financial support to developing country Parties, reported by Annex I Parties in their Biennial Reports. Only Annex II Parties are obligated to report on financial support provided and other Annex I Parties also voluntarily provide this information. Consequently, this data should not be interpreted as an indicator in relation to the achievement of the collective mobilization goal of $100 billion commitment.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 13: Take urgent action to combat climate change and its
-  impacts<p>'
-SDG_TARGET__GLOBAL: '<p>Target 13.a: Implement the commitment undertaken by developed-country
-  parties to the United Nations Framework Convention on Climate Change to a goal of
-  mobilizing jointly $100 billion annually by 2020 from all sources to address the
-  needs of developing countries in the context of meaningful mitigation actions and
-  transparency on implementation and fully operationalize the Green Climate Fund through
-  its capitalization as soon as possible</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 13.a.1: Amounts provided and mobilized in United
-  States dollars per year in relation to the continued existing collective mobilization
-  goal of the $100 billion commitment through to 2025</p>'
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 13: Take urgent action to combat climate change and its impacts
+SDG_TARGET__GLOBAL: |-
+  Target 13.a: Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 13.a.1: Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025
 
 un_designated_tier: Tier II
 un_custodian_agency: UN Climate Change (UNFCCC Secretariat) 
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-13-0a-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
  

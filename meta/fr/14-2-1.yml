@@ -1,18 +1,28 @@
-SDG_GOAL: 'Objectif 14 : Conserver et exploiter de manière durable les océans, les mers et les ressources marines aux fins du développement durable'
-SDG_TARGET: 'Cible 14.2 : D’ici à 2020, gérer et protéger durablement les écosystèmes marins et côtiers, notamment en renforçant leur résilience, afin d’éviter les graves conséquences de leur dégradation et prendre des mesures en faveur de leur restauration pour rétablir la santé et la productivité des océans'
-SDG_INDICATOR: 'Indicateur 14.2.1 : Nombre de pays appliquant des approches écosystémiques à la gestion des zones marines'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: >-
+  Objectif 14 : Conserver et exploiter de manière durable les océans, les mers et les ressources marines aux fins du développement durable
+SDG_TARGET: >-
+  Cible 14.2 : D’ici à 2020, gérer et protéger durablement les écosystèmes marins et côtiers, notamment en renforçant leur résilience, afin d’éviter les graves conséquences de leur dégradation et prendre des mesures en faveur de leur restauration pour rétablir la santé et la productivité des océans
+SDG_INDICATOR: >-
+  Indicateur 14.2.1 : Nombre de pays appliquant des approches écosystémiques à la gestion des zones marines
+STAT_CONC_DEF: >-
+  L’indicateur 22 coordonné par le Programme pour les mers régionales « Gestion intégrée des zones côtières » est proposé comme indicateur principal. Pour les pays ayant mis en place une planification spatiale marine/maritime, ces plans peuvent être utiles pour évaluer la Gestion intégrée des zones côtières. Pour les autres pays, il est important de trouver les moyens de mesurer les plans existants et de renforcer les capacités de planification intégrée. Toutes les données pour cet indicateur reposeront sur les renseignements fournis par les pays au Programme pour les mers régionales.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: 'Objectif 14 : Conserver et exploiter de manière durable les océans, les mers et les ressources marines aux fins du développement durable'
-SDG_TARGET__GLOBAL: 'Cible 14.2 : D’ici à 2020, gérer et protéger durablement les écosystèmes marins et côtiers, notamment en renforçant leur résilience, afin d’éviter les graves conséquences de leur dégradation et prendre des mesures en faveur de leur restauration pour rétablir la santé et la productivité des océans'
-SDG_INDICATOR__GLOBAL: 'Indicateur 14.2.1 : Nombre de pays appliquant des approches écosystémiques à la gestion des zones marines'
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 14 : Conserver et exploiter de manière durable les océans, les mers et les ressources marines aux fins du développement durable
+SDG_TARGET__GLOBAL: >-
+  Cible 14.2 : D’ici à 2020, gérer et protéger durablement les écosystèmes marins et côtiers, notamment en renforçant leur résilience, afin d’éviter les graves conséquences de leur dégradation et prendre des mesures en faveur de leur restauration pour rétablir la santé et la productivité des océans
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 14.2.1 : Nombre de pays appliquant des approches écosystémiques à la gestion des zones marines
 
 un_designated_tier: Niveau II
-un_custodian_agency: le Programme des Nations Unies pour l'environnement (PNUE)
+un_custodian_agency: Programme des Nations Unies pour l'environnement (PNUE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-14-02-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 reporting_status: notstarted
 
- 
+# Source(s)

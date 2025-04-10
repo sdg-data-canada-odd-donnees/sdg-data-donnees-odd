@@ -4,13 +4,18 @@ SDG_TARGET: '<p>Target 3.c: Substantially increase health financing and the recr
   retention of the health workforce in developing countries, especially in least developed countries and 
   small island developing States </p>'
 SDG_INDICATOR: '<p>Indicator 3.c.1: Health worker density and distribution </p>'
-STAT_CONC_DEF: '<p><strong>Density of medical doctors: </strong>The density of medical
-  doctors is defined as the number of medical doctors, including generalists and specialist
-  medical practitioners per 10,000 population in the given national and/or subnational
-  area.'
-DATA_COMP: 'Calculated by dividing the number of health care professionals working in direct care in each health region or province/territory by population estimates and multiplying by 100,000<br><br>(Number of health care professionals employed in the profession and working in direct care by health region or province/territory / Population estimate) x 100,000'
-REC_USE_LIM: 'Caution must be exercised when comparing change over time at both the provincial/territorial and national levels, as some data may have been submitted by data providers using varying supply definitions or collected under different regulatory environments from different data sources or at different time points during a given year. <br> <br>
-  This indicator is measured in the number of service providers by 100,000 population rather than by 10,000 population as specified in the metadata.'
+STAT_CONC_DEF: "This indicator measures the densities of medical doctors, nursing and midwifery personnel, dentists as well as pharmacists per 10,000 population. The indicator also measures the health worker distribution by gender for selected occupations. The occupations are based on the National Occupational Classification [NOC] 2021 Version 1.0 occupation codes as mapped to the International Standard Classification of Occupations (ISCO-08)."
+DATA_COMP: |
+  Calculated by dividing the number of health care professionals working in direct care in each health region or province/territory by population estimates and multiplying by 10,000.
+  <br><br>
+  Density of medical doctors = ((NOC: 31101 Specialists in surgery + NOC: 31102 General practitioners and family physicians) / Population) x 10,000.
+  <br><br>
+  Density of nursing and midwifery personnel = ((NOC: 31301 Registered nurses and registered psychiatric nurses + NOC: 31302 Nurse practitioners + NOC: 31303 Physician assistants, midwives and allied health professionals) / Population) x 10,000
+  <br><br>
+  Density of dentists = (NOC: 31110 Dentists / Population) x 10,000
+  <br><br>
+  Density of pharmacists = (NOC: 31120 Pharmacists / Population) x 10,000
+REC_USE_LIM: '    '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.c: Substantially increase health financing and the recruitment, development, training and 
@@ -24,10 +29,17 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0C-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 source_active_1: 'true'
-source_url_text_1: Health Workforce Database
-source_url_1: https://www.cihi.ca/en/health-workforce-database-metadata
-source_organisation_1: Canadian Institute for Health Information (CIHI)
-source_periodicity_1: Annual
+source_url_text_1: "Statistics Canada. Table 98-10-0447-01  Occupation unit group by highest level of education, major field of study, age and gender: Canada, provinces and territories"
+source_url_1: https://doi.org/10.25318/9810044701-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada, Province or territory
+
+source_active_2: true
+source_url_text_2: Statistics Canada. Table 17-10-0005-01  Population estimates on July 1, by age and gender
+source_url_2: https://doi.org/10.25318/1710000501-eng
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada, Province or territory
 
 reporting_status: complete

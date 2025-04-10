@@ -26,7 +26,8 @@ participation_youth <-
       "Total participation rate", 
       `Type of institution attended`
     )
-  )
+  ) %>%
+  na.omit()
 
 participation_adult <- 
   participation_adult %>% 
@@ -40,10 +41,18 @@ participation_adult <-
     `Age group`,
     `Type of institution attended` = `Participation rate by type of institution attended`,
     Value = VALUE
-  )
+  ) %>%
+  na.omit()
 
 data_final <- 
-  bind_rows(participation_youth, participation_adult) %>% 
+  bind_rows(participation_youth, participation_adult) %>%
+  select(
+    Year,
+    `Type of institution attended`,
+    Geography,
+    `Age group`,
+    Value
+  ) %>%
   left_join(geocodes) %>% 
   relocate(GeoCode, .before = Value)
 

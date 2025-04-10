@@ -1,5 +1,5 @@
 auto_progress_calculation: true
-computation_units: Rate per 100,000 population
+computation_units: Malaria incidence per 100,000 population
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -18,10 +18,11 @@ expected_disaggregations:
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: chart.3-3-3-title
+graph_title: proxy.3-3-3-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-3-3-title
+indicator_available: proxy.3-3-3-title
 indicator_number: 3.3.3
 national_geographical_coverage: Canada
 page_content: ''
@@ -31,9 +32,9 @@ progress_calculation_options:
 - direction: negative
   target: 0
   target_year: 2030
-progress_status: negligible_progress
+progress_status: deterioration
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
-"\xEF\xBB\xBFcomposite_breakdown_label": ''
+tags: 
+  - Proxy

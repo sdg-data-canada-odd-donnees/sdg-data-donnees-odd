@@ -1,6 +1,6 @@
 auto_progress_calculation: true
 composite_breakdown_label: ''
-computation_units: Percentage (%)
+computation_units: Score
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -18,14 +18,14 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: ''
 graph_titles:
-  - series: Farm output value per hectare
-    title: Proportion of agricultural land area that has achieved an acceptable or desirable level of farm output value per hectare
-  - series: Risk mitigation mechanisms
-    title: Proportion of agricultural land area that has achieved an acceptable or desirable level of risk mitigation mechanisms
-graph_type: bar
+  - series: Trend score
+    title: Progress toward productive and sustainable agriculture, trend score
+  - series: Current status score
+    title: Progress toward productive and sustainable agriculture, current status score
+graph_type: line
 indicator_name: global_indicators.2-4-1-title
+indicator_available: proxy.2-4-1-title
 indicator_number: 2.4.1
 national_geographical_coverage: Canada
 page_content: ''
@@ -38,5 +38,7 @@ progress_status: moderate_progress
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags: 
+- Proxy
 "\xEF\xBB\xBFauto_progress_calculation": false
+proxy: proxy

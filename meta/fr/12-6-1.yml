@@ -1,26 +1,29 @@
-SDG_GOAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
-SDG_TARGET: '<p>Cible 12.6 : Encourager les entreprises, en particulier les grandes entreprises
-  et les sociétés transnationales, à adopter des pratiques viables et à intégrer dans les rapports 
-  qu’elles établissent des informations sur la viabilité</p>'
-SDG_INDICATOR: '<p>Indicateur 12.6.1 : Nombre d’entreprises qui publient des rapports sur le 
-  développement durable</p>'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: |-
+  Objectif 12 : Établir des modes de consommation et de production durables
+SDG_TARGET: |-
+  Cible 12.6 : Encourager les entreprises, en particulier les grandes entreprises et les sociétés transnationales, à adopter des pratiques viables et à intégrer dans les rapports qu’elles établissent des informations sur la viabilité
+SDG_INDICATOR: |-
+  Indicateur 12.6.1 : Nombre d’entreprises qui publient des rapports sur le développement durable
+STAT_CONC_DEF: |-
+  <u>Rapports sur le développement durable :</u><br>
+  Aux fins de cet indicateur, les « rapports sur le développement durable » ne seront pas limités aux rapports distincts sur le développement durable produits par les entreprises, mais seront considérés comme « rapportant des renseignements sur le développement durable » et étendus à d’autres formes de déclaration sur le développement durable, comme la publication de renseignements sur le développement durable dans les rapports annuels de l’entreprise ou la déclaration de renseignements sur le développement durable au gouvernement national. Cela vise à garantir que l’indicateur met l’accent sur le suivi de la publication de renseignements sur le développement durable, plutôt que sur la pratique de la publication de rapports distincts sur le développement durable. Cela garantit également que l’interprétation de l’indicateur est conforme à la formulation de la cible 12.6 qui fait référence à la promotion de « l’intégration de renseignements sur le développement durable dans le cycle de déclaration annuelle des entreprises ».
+  <br><br>
+  <u>Entreprise :</u><br>
+  Alors que plusieurs entreprises établissent des rapports au niveau du groupe, bon nombre de leurs répercussions se feront sentir localement, et certaines filiales ou franchises produisent des rapports de développement durable distincts. En tant que pratique à favoriser et intéressante à surveiller, il est donc proposé de comptabiliser séparément le niveau du groupe et celui de la filiale ou de la franchise en tant qu’entités distinctes. Le terme « entreprise » peut donc s’appliquer soit à la société mère, soit à une franchise ou filiale, en fonction de leurs pratiques de déclaration.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 12.6 : Encourager les entreprises, en particulier les grandes entreprises
-  et les sociétés transnationales, à adopter des pratiques viables et à intégrer dans les rapports 
-  qu’elles établissent des informations sur la viabilité</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.6.1 : Nombre d’entreprises qui publient des rapports sur le 
-  développement durable</p>'
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 12 : Établir des modes de consommation et de production durables
+SDG_TARGET__GLOBAL: |-
+  Cible 12.6 : Encourager les entreprises, en particulier les grandes entreprises et les sociétés transnationales, à adopter des pratiques viables et à intégrer dans les rapports qu’elles établissent des informations sur la viabilité
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 12.6.1 : Nombre d’entreprises qui publient des rapports sur le développement durable
 
 un_designated_tier: Niveau II
-un_custodian_agency: |
-  Programme des Nations Unies pour l'environnement (PNUE)
-  <br>Conférence des Nations Unies sur le commerce et le développement (CNUCED)
+un_custodian_agency: Programme des Nations Unies pour l'environnement (PNUE), Conférence des Nations Unies sur le commerce et le développement (CNUCED)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-06-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
-reporting_status: notstarted
-
  

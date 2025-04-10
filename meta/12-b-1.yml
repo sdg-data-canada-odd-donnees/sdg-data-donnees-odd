@@ -1,37 +1,37 @@
+# National
 SDG_GOAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
-SDG_TARGET: '<p>Target 12.b: Develop and implement tools to monitor sustainable development
-  impacts for sustainable tourism that creates jobs and promotes local culture and
-  products</p>'
-SDG_INDICATOR: '<p>Indicator 12.b.1: Implementation of standard accounting tools to
-  monitor the economic and environmental aspects of tourism sustainability</p>'
-STAT_CONC_DEF: 'The indicator “Implementation of standard accounting tools to monitor the economic and 
-  environmental aspects of tourism sustainability” relates to the degree of implementation in countries of 
-  the Tourism Satellite Account (TSA) and the System of Environmental and Economic Accounts (SEEA) tables 
-  that are to date considered most relevant and feasible for monitoring sustainability in tourism. 
-  <br>These tables are
-  <br>- TSA Table 1 on inbound tourism expenditure
-  <br>- TSA Table 2 on domestic tourism expenditure
-  <br>- TSA Table 3 on outbound tourism expenditure
-  <br>- TSA Table 4 on internal tourism expenditure
-  <br>- TSA Table 5 on production accounts of tourism industries
-  <br>- TSA Table 6 domestic supply and internal tourism consumption
-  <br>- TSA Table 7 on employment in tourism industries
-  <br>- SEEA table water flows
-  <br>- SEEA table energy flows
-  <br>- SEEA table GHG emissions
-  <br>- SEEA table solid waste'
+SDG_TARGET: '<p>Target 12.b: Develop and implement tools to monitor sustainable development impacts for sustainable tourism that creates jobs and promotes local culture and products</p>'
+SDG_INDICATOR: '<p>Indicator 12.b.1: Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability</p>'
+STAT_CONC_DEF: >-
+  <p>The indicator “Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability” relates to the degree of implementation in countries of the Tourism Satellite Account (TSA) and the System of Environmental and Economic Accounts (SEEA) tables that are to date considered most relevant and feasible for monitoring sustainability in tourism. These tables are:</p>
+  <ul>
+  <li>TSA Table 1 on inbound tourism expenditure</li>
+  <li>TSA Table 2 on domestic tourism expenditure</li>
+  <li>TSA Table 3 on outbound tourism expenditure</li>
+  <li>TSA Table 4 on internal tourism expenditure</li>
+  <li>TSA Table 5 on production accounts of tourism industries</li>
+  <li>TSA Table 6 domestic supply and internal tourism consumption</li>
+  <li>TSA Table 7 on employment in tourism industries</li>
+  <li>SEEA table water flows</li>
+  <li>SEEA table energy flows</li>
+  <li>SEEA table GHG emissions</li>
+  <li>SEEA table solid waste</li>
+  </ul>
 DATA_COMP: '   '
-REC_USE_LIM: 'The indicator in principle does not account for different degrees of consolidation in the implementation of 
-  TSA and SEEA (ranging from experimental to full-fledged implementation), which might vary between countries.'
+REC_USE_LIM: >-
+  The indicator in principle does not account for different degrees of consolidation in the implementation of TSA and SEEA (ranging from experimental to full-fledged implementation), which might vary between countries.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
-SDG_TARGET__GLOBAL: '<p>Target 12.b: Develop and implement tools to monitor sustainable
-  development impacts for sustainable tourism that creates jobs and promotes local
-  culture and products</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 12.b.1: Implementation of standard accounting
-  tools to monitor the economic and environmental aspects of tourism sustainability</p>'
+SDG_TARGET__GLOBAL: '<p>Target 12.b: Develop and implement tools to monitor sustainable development impacts for sustainable tourism that creates jobs and promotes local culture and products</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicator 12.b.1: Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability</p>'
 
- 
+un_designated_tier: Tier I
+un_custodian_agency: World Tourism Organization (UNWTO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-0b-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Canadian System of Environmental-Economic Accounts - Physical Flow Accounts (PFA). Custom Tabulation.
 source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=243710
@@ -52,8 +52,3 @@ source_url_3: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=817
 source_organisation_3: Statistics Canada
 source_periodicity_3: Quarterly
 source_geographical_coverage_3: Canada
-
-un_designated_tier: Tier I
-un_custodian_agency: World Tourism Organization (UNWTO)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-0b-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata

@@ -1,21 +1,22 @@
-SDG_GOAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
-SDG_TARGET: '<p>Cible 12.a : Aider les pays en développement à se doter des moyens
-  scientifiques et technologiques qui leur permettent de s’orienter vers des modes
-  de consommation et de production plus durables</p>'
-SDG_INDICATOR: '<p>Indicateur 12.a.1 : Puissance installée du parc d’énergie renouvelable
-  dans les pays en développement (en watts par habitant)(identique à l’indicateur
-  proposé en remplacement de l’indicateur 7.b.1 ci-dessus)</p>'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: >-
+  Objectif 12 : Établir des modes de consommation et de production durables
+SDG_TARGET: >-
+  Cible 12.a : Aider les pays en développement à se doter des moyens scientifiques et technologiques qui leur permettent de s’orienter vers des modes de consommation et de production plus durables
+SDG_INDICATOR: >-
+  Indicateur 12.a.1 : Puissance installée du parc d’énergie renouvelable dans les pays en développement (en watts par habitant)
+STAT_CONC_DEF: >-
+  L’indicateur est défini comme la puissance installée des centrales électriques produisant de l’électricité à partir de sources d’énergie renouvelable, divisée par la population totale d’un pays. La puissance est définie comme la puissance électrique maximale nette installée à la fin de l’année et les sources d’énergie renouvelable sont définies dans les statuts de l’IRENA.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production
-  durables</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 12.a : Aider les pays en développement à se doter des
-  moyens scientifiques et technologiques qui leur permettent de s’orienter vers des
-  modes de consommation et de production plus durables</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.a.1 : Puissance installée du parc d’énergie
-  renouvelable dans les pays en développement (en watts par habitant)(identique à
-  l’indicateur proposé en remplacement de l’indicateur 7.b.1 ci-dessus)</p>'
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 12 : Établir des modes de consommation et de production durables
+SDG_TARGET__GLOBAL: >-
+  Cible 12.a : Aider les pays en développement à se doter des moyens scientifiques et technologiques qui leur permettent de s’orienter vers des modes de consommation et de production plus durables
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 12.a.1 : Puissance installée du parc d’énergie renouvelable dans les pays en développement (en watts par habitant)
 
 un_designated_tier: Niveau I
 un_custodian_agency: Agence internationale pour les énergies renouvelables (IRENA)
@@ -24,4 +25,4 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 reporting_status: notapplicable
 
- 
+# Source(s)

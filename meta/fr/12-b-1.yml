@@ -1,25 +1,37 @@
+# National
 SDG_GOAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
-SDG_TARGET: '<p>Cible 12.b : Mettre au point et utiliser des outils de contrôle de l’impact
-  sur le développement durable d’un tourisme durable créateur d’emplois et valorisant
-  la culture et les produits locaux</p>'
-SDG_INDICATOR: '<p>Indicateur 12.b.1 : Application des outils comptables usuels au
-  suivi des aspects économiques et écologiques du tourisme durable</p>'
-STAT_CONC_DEF: '   '
+SDG_TARGET: '<p>Cible 12.b : Mettre au point et utiliser des outils de contrôle de l’impact sur le développement durable d’un tourisme durable créateur d’emplois et valorisant la culture et les produits locaux</p>'
+SDG_INDICATOR: '<p>Indicateur 12.b.1 : Application des outils comptables usuels au suivi des aspects économiques et écologiques du tourisme durable</p>'
+STAT_CONC_DEF: >-
+  <p>L'indicateur « Mise en œuvre d'outils comptables standard pour suivre les aspects économiques et environnementaux de la durabilité du tourisme » ; concerne le degré de mise en œuvre dans les pays des tableaux du Compte satellite du tourisme (CST) et du Système des comptes économiques et environnementaux (SCEE) qui sont à ce jour considérés comme les plus pertinents et les plus réalisables pour suivre la durabilité du tourisme. Ces tableaux sont les suivants :</p>
+  <ul>
+  <li>Tableau 1 du CST sur les dépenses du tourisme entrant</li>
+  <li>Tableau 2 du CST sur les dépenses du tourisme intérieur</li>
+  <li>Tableau 3 du CST sur les dépenses du tourisme émetteur</li>
+  <li>Tableau 4 du CST sur les dépenses touristiques internes</li>
+  <li>Tableau 5 du CST sur les comptes de production des industries touristiques</li>
+  <li>Tableau 6 du CST sur l'offre intérieure et la consommation touristique intérieure</li>
+  <li>Tableau 7 du CST sur l'emploi dans les industries du tourisme</li>
+  <li>Tableau SCEE sur les flux d'eau</li>
+  <li>Tableau SCEE flux d'énergie</li>
+  <li>Tableau SCEE des émissions de gaz à effet de serre</li>
+  <li>Tableau SCEE déchets solides</li>
+  </ul>
 DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production
-  durables</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 12.b : Mettre au point et utiliser des outils de contrôle
-  de l’impact sur le développement durable d’un tourisme durable créateur d’emplois
-  et valorisant la culture et les produits locaux</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.b.1 : Application des outils comptables usuels
-  au suivi des aspects économiques et écologiques du tourisme durable</p>'
+REC_USE_LIM: >-
+  En principe, l'indicateur ne tient pas compte des différents degrés de consolidation (d'expérimental à complet) dans la mise en œuvre de la CST et du SCEE, qui peuvent différer considérablement entre les pays.
+
+# Global
+SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
+SDG_TARGET__GLOBAL: '<p>Cible 12.b : Mettre au point et utiliser des outils de contrôle de l’impact sur le développement durable d’un tourisme durable créateur d’emplois et valorisant la culture et les produits locaux</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.b.1 : Application des outils comptables usuels au suivi des aspects économiques et écologiques du tourisme durable</p>'
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation mondiale du tourisme (OMT)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-0b-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies 
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Système de comptabilité économique et environnementale du Canada - Comptes des flux physiques (CFP). Totalisation personnalisée.
 source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&Id=243710
@@ -40,7 +52,4 @@ source_url_3: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&Id=8
 source_organisation_3: Statistique Canada
 source_periodicity_3: Trimestrielle
 source_geographical_coverage_3: Canada
-
-reporting_status: complete
-
  

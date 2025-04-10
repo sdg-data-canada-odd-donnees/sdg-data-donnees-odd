@@ -27,9 +27,9 @@ data_final <-
   ) %>%
   select(
     Year = REF_DATE,
-    Geography = GEO,
-    Age,
     Gender,
+    Age,
+    Geography = GEO,
     Value = VALUE
   ) %>%
   left_join(geocodes) %>%

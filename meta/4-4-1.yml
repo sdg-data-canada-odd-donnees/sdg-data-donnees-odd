@@ -4,11 +4,10 @@ SDG_GOAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promo
 SDG_TARGET: |
     Target 4.4: By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship
 SDG_INDICATOR: |
-    Indicator 4.4.1: Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill
-STAT_CONC_DEF: 'The proportion of youth and adults with Information and Communications Technology (ICT) skills, by type 
-  of skill defined as the percentage of individuals that have undertaken certain ICT-related activities in the last 3 months. The indicator is expressed as a percentage.'
+    Indicator 4.4.1: Proportion of internet users with information and communications technology (ICT) skills, by type of skill
+STAT_CONC_DEF: 'The indicator measures the proportion of internet users with Information and Communications Technology (ICT) skills, by type of skill defined as the percentage of internet users that have undertaken certain ICT-related activities in the last 3 months. The indicator is expressed as a percentage.'
 DATA_COMP: custom.data-comp
-REC_USE_LIM: '   ' 
+REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: “Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill”.' 
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promote
@@ -18,8 +17,7 @@ SDG_TARGET__GLOBAL: |
 SDG_INDICATOR__GLOBAL: |
     Indicator 4.4.1: Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill
 un_designated_tier: Tier II
-un_custodian_agency: United Nations Education and Scientific Cultural Organisation
-  - Institute of Statistics (UNESCO-UIS)
+un_custodian_agency: UNESCO Institute for Statistics (UIS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-04-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 

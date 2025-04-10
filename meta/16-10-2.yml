@@ -1,61 +1,58 @@
-SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
-  provide access to justice for all and build effective, accountable and inclusive
-  institutions at all levels</p>'
-SDG_TARGET: '<p>Target 16.10: Ensure public access to information and protect fundamental
-  freedoms, in accordance with national legislation and international agreements</p>'
-SDG_INDICATOR: '<p>Indicator 16.10.2: Number of countries that adopt and implement
-  constitutional, statutory and/or policy guarantees for public access to information</p>'
-STAT_CONC_DEF: |
-  Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for 
-  public access to information.
-  <br>
-  <br>The purpose of this indicator is to report the total of number of countries that adopted legal guarantees 
-  on access to information (ATI), as well as the main tendencies in the implementation of these guarantees, which 
-  are presented in global aggregates.
-  <br>
-  <br>Based on the definition above, the indicator has two components:
-  <br>1. Adoption
-  <br>2. Implementation
-  <br>
-  <br>Under each component, key questions were identified based on what can be called “Principles of Access 
-  to Information”, and which highlight essential components for effective implementation of Access to 
-  Information implementation at the country level. These Principles are synthesized from existing 
-  frameworks and documents recognised internationally. For the purpose of this survey, the principles of 
-  relevance are as follows:
-  <br>
-  <br>1. Legal frameworks for Access to Information 
-  <br>2. Limited exemptions
-  <br>3. Oversight mechanism 
-  <br>4. Appeals mechanism
-  <br>5. Record keeping and reporting
-  <br>
-  <br>Each question values between 0 and 2. Upon the completion of the survey, a country can get a total score 
-  of 0-9. The total score of each country will not be assigned to any level category (e.g.: low, medium or 
-  high). However, it will contribute to global aggregates. 
-  
-DATA_COMP: '     '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
-  development, provide access to justice for all and build effective, accountable
-  and inclusive institutions at all levels</p>'
-SDG_TARGET__GLOBAL: '<p>Target 16.10: Ensure public access to information and protect
-  fundamental freedoms, in accordance with national legislation and international
-  agreements</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 16.10.2: Number of countries that adopt and implement
-  constitutional, statutory and/or policy guarantees for public access to information</p>'
+# National
+SDG_GOAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET: |-
+  Target 16.10: Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements
+SDG_INDICATOR: |-
+  Indicator 16.10.2: Canada's adoption and implementation of constitutional, statutory and/or policy guarantees for public access to information
+STAT_CONC_DEF: |-
+  <p>Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information.
+  <br><br>
+  The purpose of this indicator is to report the total of number of countries that adopted legal guarantees on access to information (ATI), as well as the main tendencies in the implementation of these guarantees, which are presented in global aggregates.
+  <br><br>
+  Based on the definition above, the indicator has two components:
+  <ol>
+  <li>Adoption</li>
+  <li>Implementation</li>
+  </ol>
+  Under each component, key questions were identified based on what can be called “Principles of Access to Information”, and which highlight essential components for effective implementation of Access to Information implementation at the country level. These Principles are synthesized from existing frameworks and documents recognised internationally. For the purpose of this survey, the principles of relevance are as follows:
+  <ol>
+  <li>Legal frameworks for Access to Information</li>
+  <li>Limited exemptions</li>
+  <li>Oversight mechanism</li>
+  <li>Appeals mechanism</li>
+  <li>Record keeping and reporting</li>
+  </ol>
+  Each question values between 0 and 2. Upon the completion of the survey, a country can get a total score of 0-9. The total score of each country will not be assigned to any level category (e.g.: low, medium or high). However, it will contribute to global aggregates.</p>
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |-
+  A country's responses to the UNESCO Survey on Public Access to Information are scored based on two components: adoption and implementation. A score between 0 and 5 is awarded for the adoption component. A score between 0 and 4 is awarded for the implementation component. The total score is the sum of the scores from each component with a maximum possible score of 9.
+  <br><br>
+  Canada's questionnaire responses are based on data from the fiscal year (April 1 to March 31) preceding the year of the survey. The fiscal year-end is taken as the reference year for the score. For example, Canada's response to the 2021 Survey on Public Access to Information is based on data from the 2019-2020 fiscal year and the corresponding score is associated with the reference year 2020 in the chart.
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET__GLOBAL: |-
+  Target 16.10: Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 16.10.2: Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information
+
 un_designated_tier: Tier I
-un_custodian_agency: United Nations Educational, Scientific and Cultural Organization
-  - Institute for Statistics (UNESCO-UIS)
+un_custodian_agency: UNESCO Institute for Statistics (UIS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-10-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
- 
-
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1:  Access to Information Act
-source_url_1: https://laws-lois.justice.gc.ca/eng/acts/A-1/page-1.html
-source_organisation_1: Government of Canada - Department of Justice
+source_url_text_1:  The Right to Access to Information
+source_url_1: https://www.unesco.org/en/right-access-information
+source_organisation_1: UNESCO
+source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
 
-reporting_status: complete
+source_active_2: 'true'
+source_url_text_2: Access to Information Act
+source_url_2: https://laws-lois.justice.gc.ca/eng/acts/A-1/page-1.html
+source_organisation_2: Department of Justice Canada
+source_geographical_coverage_2: Canada

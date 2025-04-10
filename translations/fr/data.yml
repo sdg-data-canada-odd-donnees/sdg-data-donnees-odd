@@ -4,53 +4,122 @@
 Year: Année
 Value: Valeur
 Annual: Annuelle
+Occasional: Occasionnelle
+Total: Total
 Statistics Canada: Statistique Canada
+Canada – All categories: Canada – Toutes les catégories
+Total population: Population totale
+Unknown: Inconnu
 
 ## Tiers
 Tier I: Niveau I
 Tier II: Niveau II
 Tier III: Niveau III
 
-## Units
-Terajoules per million dollars of real GDP: Térajoules par million de dollars du PIB réel
-Percentage: Pourcentage
-
 ## Progress status
 Progress status: État du progrès
+
+## Units
+Units: Unités
+Terajoules: Térajoules
+Per capita: Par habitant
+Terajoules per million dollars of real GDP: Térajoules par million de dollars du PIB réel
+Number: Nombre
+Total Number: Nombre total
+Percentage: Pourcentage
+Percentage (%): Pourcentage (%)
+Percentage of GNI (%): Pourcentage du RNB (%)
+Rate per 100,000: Taux pour 100 000
+Rate per 1,000,000: Taux pour 1 000 000
+Rate per 1,000 population: Taux pour 1000 personnes
+Rate per 10,000 population: Taux pour 10 000 personnes
+Rate per 100,000 population: Taux pour 100 000 personnes
+Index: Indice
+Current dollars: Dollars courants
+Canadian dollars ($): Dollars canadiens ($)
+Canadian dollars: Dollars canadiens
+CAD (Thousands): CAD (en milliers)
+US dollar, Millions, 2021 constant prices: Dollar américain, millions, prix constants de 2021
+US dollar, Millions, 2022 constant prices: Dollar américain, millions, prix constants de 2022
+US dollar, Millions, 2023 constant prices: Dollar américain, millions, prix constants de 2023
+Million cubic metres: Millions de mètres cubes
+
+## OECD Data Explorer
+Sector: Secteur
+Basic education: Éducation de base
+Basic health: Santé de base
+Medical research: Recherche médicale
+Water supply and sanitation: Distribution d'eau et assainissement 
+Multisector aid for basic social services: Aide plurisectorielle pour les services sociaux de base
+Development food assistance: Aide alimentaire dévelopmentale
+Agricultural water resources: Ressources en eau à usage agricole
+Measure: Mesure
+Official and private flows: Flux public et privé
+Official Development Assistance: Aide publique au développement
+Official Development Assistance (ODA): Aide publique au développement (APD)
+Other Official Flows (non Export Credit): Autres apports du secteur public (autre que crédits à l'exportation)
+Other Official Flows (OOF): Autres apports du secteur public (AASP)
+Officially supported export credits: Crédits à l'exportation bénéficiant de support public
+Private flows at market terms: Apports du secteur privé aux conditions du marché
+Private grants, net: Dons privés, net
+Flow type: Type de flux
+Disbursements: Versements
+Commitments: Engagements
 
 ## Sex & Gender
 Sex: Sexe
 Men: Hommes
 Male: Homme
 Males: Hommes
+Men+: Hommes+
 Women: Femmes
 Female: Femme
 Females: Femmes
+Women+: Femmes+
 Both: Les deux sexes
 Both sexes: Les deux sexes
 Gender: Genre
 All genders: Toutes les identités de genre
+Total, all persons: Total, toutes les personnes
+Total, gender: Total, genre
+Total - Gender: Total - Genre
+
+# Area/Location
+Location: Emplacement
+Area: Région
+Urban: Urbain
+Rural: Rural
+Total, location: Total, emplacement
 
 ## Geo
 Geography: Géographie
 Canada: Canada
 Canada (excluding territories): Canada (sans les territoires)
+Canada (provinces only): Canada (provinces seulement)
 Canada, Province or territory: Canada, Province ou territoire
 Atlantic: Atlantique
 Atlantic provinces: Provinces de l'Atlantique
+Atlantic Region: Région de l'Atlantique
 Newfoundland and Labrador: Terre-Neuve-et-Labrador
 Prince Edward Island: Île-du-Prince-Édouard
 Nova Scotia: Nouvelle-Écosse
 New Brunswick: Nouveau-Brunswick
 Quebec: Québec
+Quebec Region: Région de Québec
 Ontario: Ontario
+Ontario Region: Région de l'Ontario
 Prairies: Prairies
 Prairie provinces: Provinces des Prairies
+Prairie Region: Région des Prairies
+Prairies Region: Région des Prairies
 Manitoba: Manitoba
 Saskatchewan: Saskatchewan
 Alberta: Alberta
 British Columbia: Colombie-Britannique
 British Columbia and the Territories: Colombie-Britannique et les Territoires
+British Columbia and Territories Region: Région de la Colombie-Britannique et des Territoires
+Territories: Territoires
+Northern Territories: Territoires du Nord
 Yukon: Yukon
 Northwest Territories: Territoires du Nord-Ouest
 Northwest Territories and Nunavut: Territoires du Nord-Ouest et Nunavut
@@ -60,35 +129,156 @@ Winnipeg Manitoba: Winnipeg Manitoba
 Northern and Rural Manitoba: Régions rurales et du nord du Manitoba
 Whitehorse Yukon: Whitehorse Yukon
 Yellowknife Northwest Territories: Yellowknife Territoires du Nord-Ouest
+Yukon and Northwest Territories: Yukon et les Territoires du Nord-Ouest
 
+## Cities and census metropolitan areas
+Total Census metropolitan area: Total pour les régions métropolitaines de recensement
+Total Non-Census metropolitan area: Total pour les régions autres que les régions métropolitaines de recensement
+St. John's, Newfoundland and Labrador: St. John's, Terre-Neuve-et-Labrador
+Halifax, Nova Scotia: Halifax, Nouvelle-Écosse
+Fredericton, New Brunswick: Fredericton, Nouveau-Brunswick
+Moncton, New Brunswick: Moncton, Nouveau-Brunswick
+Saint John, New Brunswick: Saint John, Nouveau-Brunswick
+Chicoutimi - Jonquière, Quebec: Chicoutimi - Jonquière, Québec
+Drummondville, Quebec: Drummondville, Québec
+Gatineau, Quebec: Gatineau, Québec
+Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (partie du Québec), Québec
+Ottawa-Gatineau, Quebec part: Ottawa-Gatineau, partie québécoise
+Montreal, Quebec: Montréal, Québec
+Montréal, Quebec: Montréal, Québec
+Quebec, Quebec: Québec, Québec
+Québec, Quebec: Québec, Québec
+Trois-Rivières, Quebec: Trois-Rivières, Québec
+Saguenay, Quebec: Saguenay, Québec
+Saint-Jérôme, Quebec: Saint-Jérôme, Québec
+Sherbrooke, Quebec: Sherbrooke, Québec
+Barrie, Ontario: Barrie, Ontario
+Belleville, Ontario: Belleville, Ontario
+Belleville-Quinte West, Ontario: Belleville-Quinte West, Ontario
+Belleville - Quinte West, Ontario: Belleville - Quinte West, Ontario
+Brantford, Ontario: Brantford, Ontario
+Greater Sudbury, Ontario: Grand Sudbury, Ontario
+Greater Sudbury / Grand Sudbury, Ontario: Grand Sudbury, Ontario
+Guelph, Ontario: Guelph, Ontario
+Hamilton, Ontario: Hamilton, Ontario
+Kingston, Ontario: Kingston, Ontario
+Kitchener, Ontario: Kitchener, Ontario
+Kitchener-Cambridge-Waterloo, Ontario: Kitchener-Cambridge-Waterloo, Ontario
+Kitchener - Cambridge - Waterloo, Ontario: Kitchener - Cambridge - Waterloo, Ontario
+London, Ontario: London, Ontario
+Milton, Ontario: Milton, Ontario
+Oshawa, Ontario: Oshawa, Ontario
+Ottawa, Ontario: Ottawa, Ontario
+Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (partie de l'Ontario), Ontario
+Ottawa-Gatineau, Ontario part: Ottawa-Gatineau, partie ontarienne
+Ottawa-Gatineau, Ontario/Quebec: Ottawa-Gatineau, Ontario/Québec
+Ottawa - Gatineau, Ontario and Quebec: Ottawa - Gatineau, Ontario et Québec
+Peterborough, Ontario: Peterborough, Ontario
+St. Catharines-Niagara, Ontario: St. Catharines-Niagara, Ontario
+St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
+St. Catharines - Niagara Falls, Ontario: St. Catharines - Niagara Falls, Ontario
+Sudbury, Ontario: Sudbury, Ontario
+Thunder Bay, Ontario: Thunder Bay, Ontario
+Toronto, Ontario: Toronto, Ontario
+Windsor, Ontario: Windsor, Ontario
+Winnipeg, Manitoba: Winnipeg, Manitoba
+Regina, Saskatchewan: Regina, Saskatchewan
+Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
+Calgary, Alberta: Calgary, Alberta
+Edmonton, Alberta: Edmonton, Alberta
+Lethbridge, Alberta: Lethbridge, Alberta
+Red Deer, Alberta: Red Deer, Alberta
+Abbotsford-Mission, British Columbia: Abbotsford-Mission, Colombie-Britannique
+Abbotsford - Mission, British Columbia: Abbotsford - Mission, Colombie-Britannique
+Chilliwack, British Columbia: Chilliwack, Colombie-Britannique
+Kamloops, British Columbia: Kamloops, Colombie-Britannique
+Kelowna, British Columbia: Kelowna, Colombie-Britannique
+Nanaimo, British Columbia: Nanaimo, Colombie-Britannique
+Vancouver, British Columbia: Vancouver, Colombie-Britannique
+Victoria, British Columbia: Victoria, Colombie-Britannique
+St. John's (CMA), N.L.: St. John's (RMR), T.-N.-L.
+Halifax (CMA), N.S.: Halifax (RMR), N.-É.
+Moncton (CMA), N.B.: Moncton (RMR), N.-B.
+Saint John (CMA), N.B.: Saint John (RMR), N.-B.
+Montréal (CMA), Que.: Montréal (RMR), Qc
+Québec (CMA), Que.: Québec (RMR), Qc
+Saguenay (CMA), Que.: Saguenay (RMR), Qc
+Sherbrooke (CMA), Que.: Sherbrooke (RMR), Qc
+Trois-Rivieres, Quebec: Trois-Rivières (RMR), Qc
+Trois-Rivières (CMA), Que.: Trois-Rivières (RMR), Qc
+Barrie (CMA), Ont.: Barrie (RMR), Ont.
+Belleville - Quinte West (CMA), Ont.: Belleville - Quinte West (RMR), Ont.
+Brantford (CMA), Ont.: Brantford (RMR), Ont.
+Greater Sudbury (CMA), Ont.: Grand Sudbury (RMR), Ont.
+Guelph (CMA), Ont.: Guelph (RMR), Ont.
+Hamilton (CMA), Ont.: Hamilton (RMR), Ont.
+Kingston (CMA), Ont.: Kingston (RMR), Ont.
+Kitchener - Cambridge - Waterloo (CMA), Ont.: Kitchener - Cambridge - Waterloo (RMR), Ont.
+London (CMA), Ont.: London (RMR), Ont.
+Oshawa (CMA), Ont.: Oshawa (RMR), Ont.
+Ottawa - Gatineau (CMA), Ont./Que.: Ottawa - Gatineau (RMR), Ont./Qc
+Ottawa - Gatineau (Ontario part) (CMA), Ont.: Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.
+Ottawa - Gatineau (Quebec part) (CMA), Que.: Ottawa - Gatineau (partie du Québec) (RMR), Qc
+Peterborough (CMA), Ont.: Peterborough (RMR), Ont.
+St. Catharines - Niagara (CMA), Ont.: St. Catharines - Niagara (RMR), Ont.
+Thunder Bay (CMA), Ont.: Thunder Bay (RMR), Ont.
+Toronto (CMA), Ont.: Toronto (RMR), Ont.
+Windsor (CMA), Ont.: Windsor (RMR), Ont.
+Winnipeg (CMA), Man.: Winnipeg (RMR), Man.
+Regina (CMA), Sask.: Regina (RMR), Sask.
+Saskatoon (CMA), Sask.: Saskatoon (RMR), Sask.
+Calgary (CMA), Alta.: Calgary (RMR), Alb.
+Edmonton (CMA), Alta.: Edmonton (RMR), Alb.
+Lethbridge (CMA), Alta.: Lethbridge (RMR), Alb.
+Abbotsford - Mission (CMA), B.C.: Abbotsford - Mission (RMR), C.-B.
+Kelowna (CMA), B.C.: Kelowna (RMR), C.-B.
+Vancouver (CMA), B.C.: Vancouver (RMR), C.-B.
+Victoria (CMA), B.C.: Victoria (RMR), C.-B.
 
 ## Age
 Age: Âge
 Age group: Groupe d'âge
+All ages: Tous les âges
+Total, age: Total, âge
 Total, 12 years and over: Total, 12 ans et plus
 Total, 15 years and over: Total, 15 ans et plus
 Total 15 to 29 years: Total 15 à 29 ans
+Total, 25 to 64 years: Total, 25 à 64 ans
+Under 1 year: Moins d'un an
+Under 18 years: Moins de 18 ans
+Under 35 years: Moins de 35 ans
 15 years and over: 15 ans et plus
 25 years and over: 25 ans et plus
 45 years and over: 45 ans et plus
 55 years and over: 55 ans et plus
+65 years and older: 65 ans et plus
 65 years and over: 65 ans et plus
 70 years and over: 70 ans et plus
+75 years and over: 75 ans et plus
+90 years and over: 90 ans et plus
+1 to 4 years: 1 à 4 ans
+1 to 14 years: 1 à 14 ans
+5 to 9 years: 5 à 9 ans
+10 to 14 years: 10 à 14 ans
 12 to 17 years: 12 à 17 ans
 15 to 19 years: 15 à 19 ans
 15 to 24 years: 15 à 24 ans
 15 to 64 years: 15 à 64 ans
+16 to 24 years: 16 à 24 ans
 18 to 24 years: 18 à 24 ans
 18 to 34 years: 18 à 34 ans
+18 to 64 years: 18 à 64 ans
 20 to 24 years: 20 à 24 ans
 25 to 29 years: 25 à 29 ans
 25 to 34 years: 25 à 34 ans
 25 to 44 years: 25 à 44 ans
 25 to 54 years: 25 à 54 ans
+25 to 64 years: 25 à 64 ans
 30 to 34 years: 30 à 34 ans
 35 to 39 years: 35 à 39 ans
 35 to 44 years: 35 à 44 ans
 35 to 49 years: 35 à 49 ans
+35 to 54 years: 35 à 54 ans
 40 to 44 years: 40 à 44 ans
 45 to 49 years: 45 à 49 ans
 45 to 54 years: 45 à 54 ans
@@ -97,16 +287,78 @@ Total 15 to 29 years: Total 15 à 29 ans
 55 to 59 years: 55 à 59 ans
 50 to 64 years: 50 à 64 ans
 55 to 64 years: 55 à 64 ans
+55 to 65 years: 55 à 65 ans
 60 to 64 years: 60 à 64 ans
 65 to 69 years: 65 à 69 ans
+65 to 74 years: 65 à 74 ans
+70 to 74 years: 70 à 74 ans
+75 to 79 years: 75 à 79 ans
+75 to 84 years: 75 à 84 ans
+80 to 84 years: 80 à 84 ans
+85 to 89 years: 85 à 89 ans
 
-## Random
-Activity group: Groupe d'activité
-Unpaid work activities: Activités de travail non-rémunéré 
-Household chores: Tâches domestiques
-Care of household children under 18 years: Soins à un enfant du ménage de moins de 18 ans
-Care of household adults: Soins à un adulte du ménage
-Shopping for goods or services: Magasinage de biens ou de services
+## Indigenous groups
+Indigenous group: Groupe autochtone
+Indigenous status: Statut d'autochtone
+Indigenous peoples: Peuples autochtones
+Non-Indigenous people: Non-autochtones
+Indigenous identity: Identité autochtone
+Non-Indigenous identity: Identité non autochtone
+Non-indigenous identity: Identité non autochtone
+Indigenous person: Personne autochtone
+Non-Indigenous person: Personne non autochtone
+Indigenous population: Population autochtone
+Non-Indigenous population: Population non autochtone
+Indigenous: Autochtone
+First Nations: Premières Nations
+First Nations (North American Indian): Premières Nations (Indien de l'Amérique du Nord)
+Métis: Métis
+Inuk (Inuit): Inuk (Inuit)
+Inuit: Inuit
+Non-Inuit: Non Inuit
+First Nations, Métis, or Inuit: Premières Nations, Métis ou Inuits
+Not stated, population by indigenous identity: Identité autochtone non précisée
+Other Indigenous identity: Autre identité autochtone
+
+## Immigrant status
+Immigrant status: Status d'immigrant
+Total, immigrant status: Total, statut d'immigrant
+Landed immigrants: Immigrants reçus
+Born in Canada: Populations nées au Canada
+Immigrants, landed 5 or less years earlier: Immigrants reçus 5 ans et moins auparavant
+Immigrants, landed more than 5 to 10 years earlier: Immigrants reçus plus de 5 à 10 ans auparavant
+Immigrants, landed more than 10 years earlier: Immigrants reçus plus de 10 ans auparavant
+Immigrants: Immigrants
+Immigrant: Personne immigrante
+Non immigrants: Non-immigrants
+Non-immigrants: Non-immigrants
+Non-immigrant: Personne non immigrante
+Non-permanent residents: Résidents non permanents
+Not stated, immigrant status: Status d'immigrant non précisée
+
+## Visible minorities
+Total visible minority population: Total de la population des minorités visibles
+Total, visible minority population: Total, population des minorités visibles
+Not a visible minority: Pas une minorité visible
+Other visible minority: Autre minorité visible
+Visible minority: Minorité visible
+Non-visible minority: N’appartenant pas à une minorité visible
+Arab: Arabe
+Black: Noir
+Chinese: Chinois
+Filipino: Philippin
+Japanese: Japonais
+Korean: Coréen
+Latin American: Latino-Américain
+South Asian: Sud-Asiatique
+Southeast Asian: Asiatique du Sud-Est
+West Asian: Asiatique occidental
+Group not indicated elsewhere: Groupe non indiqué ailleurs
+Visible minority population: Population des minorités visibles
+Visible minority n.i.e: Minorité visible n.i.a
+Multiple visible minorities: Minorités visible multiples
+Other group designated as visible minority: Autres groupes désignés comme minorités visibles
+Not stated, visible minority population: Population des minorités visibles non précisée
 
 ## Metadata fields
 Canada, Geographical region of Canada, Province or territory: Canada, Région géographique du Canada, Province ou territoire
@@ -114,22 +366,22 @@ Public Health Agency of Canada (PHAC): "Agence de la santé publique du Canada (
 
 
 Every 2 years: Aux 2 ans
-Tier I: Niveau I
-Tier II: Niveau II
+
 United Nations Sustainable Development Goals Metadata: 'Métadonnées des objectifs de développement durable des Nations Unies'
 United Nations Sustainable Development Goals Metadata (PDF 98.2 KB): 'Métadonnées des objectifs de développement durable des Nations Unies (PDF 98.2 KB)'
 United Nations Sustainable Development Goals Metadata (PDF): 'Métadonnées des objectifs de développement durable des Nations Unies (PDF)'
 
-
-World Bank (WB): Banque Mondiale
+World Bank: Banque mondiale
+World Bank (WB): Banque mondiale
+World Bank Group: Groupe de la Banque mondiale
 UNESCO Institute for Statistics (UNESCO-UIS): Institut de statistique de l’UNESCO
 World Health Organization (WHO): Organisation mondiale de la Santé (OMS)
 United Nations Children’s Fund (UNICEFF): Le Fonds des Nations Unies pour l'enfance (UNICEF)
 UN-Habitat: UN-Habitat
-Food and Agriculture Organization of the United Nations (FAO): Organisation des Nations unies pour l'alimentation et l'agriculture (FAO)
+Food and Agriculture Organization of the United Nations (FAO): Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)
 World Trade Organization (WTO): Organisation mondiale du commerce (OMC)
 United Nations International Strategy for Disaster Reduction (UNISDR): Stratégie internationale des Nations Unies pour la prévention des catastrophes (UNISDR)
-Organisation for Economic Co-operation and Development (OECD):  L'Organisation de coopération et de développement économiques (OCDE)
+Organisation for Economic Co-operation and Development (OECD): Organisation de coopération et de développement économiques (OCDE)
 Inter-Parliamentary Union (IPU): Union Interparlementaire (UIP)
 UN Women: ONU Femmes
 
@@ -150,24 +402,14 @@ Inter-Parliamentary Union (IPU), UN Women: Union Interparlementaire (UIP), ONU F
 
 ## 1-2-1
 Canada, Geographical region of Canada, Province or territory, Census metropolitan area: Canada, Région géographique du Canada, Province ou territoire, Région métropolitaine de recensement
-Québec, Quebec: "Québec, Québec"
-Montréal, Quebec: "Montréal, Québec"
-Ottawa-Gatineau, Ontario/Quebec: "Ottawa-Gatineau, Ontario/Québec"
-Toronto, Ontario: Toronto, Ontario
-Winnipeg, Manitoba: Winnipeg, Manitoba
-Calgary, Alberta: Calgary, Alberta
-Edmonton, Alberta: Edmonton, Alberta
-Vancouver, British Columbia: Vancouver, Colombie-Britannique
 Persons in low income: Personnes à faible revenu
 All persons: Toutes les personnes
 Persons under 18 years: Personnes de moins de 18 ans
 Persons 18 to 64 years: Personnes de 18 à 64 ans
 Persons 65 years and over: Personnes de 65 ans et plus
-Males: Hommes
 Males, under 18 years: Hommes, moins de 18 ans
 Males, 18 to 64 years: Hommes, 18 à 64 ans
 Males, 65 years and over: Hommes, 65 ans et plus
-Females: Femmes
 Females, under 18 years: Femmes, moins de 18 ans
 Females, 18 to 64 years: Femmes, 18 à 64 ans
 Females, 65 years and over: Femmes, 65 ans et plus
@@ -215,6 +457,12 @@ Proportion of older persons receiving a pension: |
     Proportion de personnes plus âgées recevant une pension
 Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits: |
     Pourcentage de mères d'enfants de 12 mois ou moins qui ont reçu des prestations de maternité ou parentales
+Proportion of population covered by at least one social protection cash benefit: Proportion de la population couverte par au moins une prestation de protection sociale en espèces
+Proportion of children covered by social protection benefits: Proportion d'enfants couverts par des prestations de protection sociale
+Proportion of persons with disabilities receiving benefits: Proportion de personnes handicapées bénéficiant de prestations
+Proportion of workers covered in case of employment injury: Proportion de travailleurs couverts en cas d'accident du travail
+Proportion of vulnerable persons receiving benefits: Proportion de personnes vulnérables recevant des allocations
+Proportion of poor population receiving social assistance cash benefit: Proportion de la population pauvre recevant une prestation de l'aide sociale en espèces
 
 ## 1-4-1
 Basic services: Services de base
@@ -227,10 +475,10 @@ Proportion of population with primary reliance on clean fuels and technology: Pr
 Access to basic mobility: Accès à la mobilité de base
 Proportion of the rural population who live within 2 km of an all-season road: Proportion de la population rurale vivant à moins de 2 km d’une route praticable toute l’année
 Proportion of population within 500 metres of a public transit stop: Proportion de la population située dans un rayon de 500 mètres d’un arrêt de transport en commun
-Proportion of children in Grade 4 achieving at least a minimum proficiency level in mathematics: Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques
-Proportion of children in Grade 4 achieving at least a minimum proficiency level in reading: Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture
-Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture
-Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en mathématiques
+Proportion of children in Grade 4 achieving at least a minimum proficiency level in mathematics: Proportion d’enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques
+Proportion of children in Grade 4 achieving at least a minimum proficiency level in reading: Proportion d’enfants de 4e année atteignant au moins un niveau minimum de compétence en lecture
+Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimum de compétence en lecture
+Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimum de compétence en mathématiques
 Access to basic information services: Accès aux services d’information de base
 Proportion of population covered by Evolved High-Speed Packet Access (HSPA+): Proportion de la population couverte par l’accès haute vitesse évolué par paquets (HSPA+)
 Proportion of population covered by Long-Term Evolution (LTE): Proportion de la population couverte par l’évolution à long terme (LTE)
@@ -239,13 +487,11 @@ Proportion of population covered by 5G: Proportion de la population couverte par
 Proportion of population with access to electricity: Proportion de la population ayant accès à l’électricité
 Access to Basic Health Care Services: Accès aux services de soins de santé de base
 Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning satisfied with modern methods: Proportion de femmes en âge de procréer (15 à 49 ans) qui utilisent des méthodes modernes de planification familiale
-
+Access to basic education: Accès à l'éducation de base
+Access to basic waste collection services: Accès aux services de base de la collecte des déchets
+Access to basic waste collection services (Proxy): Accès aux services de base de collecte des déchets (proxy)
 
 ## 1-4-2
-Total: Total
-Urban: Urbain
-Rural: Rural
-Area: Région
 St. Johns (CMA): St. John's (RMR)
 Corner Brook (CA): Corner Brook (AR)
 Grand Falls-Windsor (CA): Grand Falls-Windsor (AR)
@@ -279,52 +525,48 @@ Province or territory: Province ou territoire
 
 ## 1-5-1
 Type of natural disaster: Type de catastrophe naturelle
-Meteorological - Flood: Météorologique - Inondation
-Meteorological - Storm: Météorologique - Tempête
-Meteorological - Tornado: Météorologique - Tornade
-Meteorological - Wildfire: Météorologique - Feu de forêt
-Meteorological - Winter storm: Météorologique - Tempête hivernale
-Meteorological - Heat event: Météorologique - Épisode de chaleur
-Meteorological - Hurricane: Météorologique - Ouragan
-Meteorological - Epidemic: Météorologique - Épidémie
-Rate per 100,000 population: Taux par 100 000 personnes
-
-## 1-5-2
-Economic loss CAN dollars $/GDP: Perte économique dollars canadiens/PIB
+Epidemic: Épidémie
+Infestation: Infestation
+Pandemic: Pandémie
+Avalanche: Avalanche
+Cold Event: Épisode froid
+Drought: Sécheresse
+Flood: Inondation
+Geomagnetic Storm: Orage géomagnétique
+Heat Event: Épisode de chaleur
+Hurricane / Typhoon / Tropical Storm: Ouragan / typhon / tempête tropicale
+Storm - Unspecified / Other: Tempête-non précisée / autre
+Storm Surge: Onde de tempête
+Storms and Severe Thunderstorms: Orages et orages graves
+Tornado: Tornade
+Wildfire: Feu de forêt
+Winter Storm: Tempête hivernale
+Earthquake: Tremblement de terre
+Landslide: Éboulement
+Tsunami: Tsunami
+Volcano: Volcan
 
 ## 1-a-1
-Basic education: Éducation de base
-Basic health: Santé de base
-Water supply and sanitation: Approvisionnement en eau et assainissement 
-Multisector aid for basic social services: Aide multisectorielle pour les services sociaux de base
-Development food aid: Aide alimentaire au développement
-Poverty reduction aid type: Type d’aide à la réduction de la pauvreté
+Poverty reduction aid type: Type d'aide à la réduction de la pauvreté
 
 ## 1-a-2
-Function of Government: "Fonctions des administrations publiques"
-Education: "Enseignement"
-Health: "Santé"
-Other expenditure: "Autres dépenses"
-Social protection: "Protection sociale"
+Function of Government: Fonctions des administrations publiques
+Education: Enseignement
+Health: Santé
+Other expenditure: Autres dépenses
+Social protection: Protection sociale
 
 
 ## 2-1-1
-Household food security status: Niveau de sécurité alimentaire du ménage
+Values showing as 2.5 may signify a prevalence of undernourishment below 2.5%: Les valeurs affichées de 2,5 pourraient signifier une prévalence de la sous-alimentation inférieure à 2,5 %
+Estimates are based on projected values.: Les estimations sont basées sur des valeurs projetées.
+
+## 2-1-2
 Economic family type: Type de famille économique
-Food secure: Sécurité alimentaire
-Food insecure marginal: Insécurité alimentaire marginale
-Food insecure moderate and severe: Insécurité alimentaire modérée et grave
-Living arrangement: Disposition de vie
-Total all living arrangements: Toutes dispositions de vie
-Female living alone: Femme vivant seule
-Male living alone: Homme vivant seul
-Couple no children: Couple sans enfant
-Couple with child(ren) less than 18 years old: Couple avec enfant(s) de moins de 18 ans
-Female lone parent with child(ren) less than 18 years old: Mère monoparentale avec enfant(s) de moins de 18 ans
-Male lone parent with child(ren) less than 18 years old: Père monoparental avec enfant(s) de moins de 18 ans
-Other living arrangements: Autres dispositions de vie
+All persons: Toutes les personnes
 Persons in economic families: Personnes dans les familles économiques
 Persons in elderly families: Personnes dans les familles de personnes âgées
+Persons in elderly couples: Personnes dans les couples de personnes âgées
 Persons in other elderly families: Personnes dans les autres familles de personnes âgées
 Persons in non-elderly families: Personnes dans les familles non âgées
 Persons in couples: Personnes dans les couples
@@ -341,24 +583,6 @@ Elderly females not in an economic family: Femmes âgées hors famille économiq
 Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
 Non-elderly males not in an economic family: Hommes non âgés hors famille économique
 Non-elderly females not in an economic family: Femmes non âgées hors famille économique
-
-## 2-1-2
-Economic family type: Type de famille économique
-All persons: Toutes les personnes
-Persons in economic families: Personnes dans les familles économiques
-Persons in elderly families: Personnes dans les familles de personnes âgées
-Persons in elderly couples: Personnes dans les couples de personnes âgées
-Persons in other elderly families: Personnes dans les autres familles de personnes âgées
-Persons in non-elderly families: Personnes dans les familles non âgées
-Persons in couples: Personnes dans les couples
-Persons in couple families with children: Personnes dans les familles comptant un couple avec des enfants
-Persons in couple families with other relatives: Personnes dans les familles comptant un couple avec d'autres personnes apparentées
-Persons in lone-parent families: Personnes dans les familles monoparentales
-Persons in male lone-parent families: Personnes dans les familles monoparentales ayant un homme à leur tête
-Persons in female lone-parent families: Personnes dans les familles monoparentales ayant une femme à leur tête
-Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
-Non-elderly males not in an economic family: Hommes non âgés hors famille économique
-Non-elderly females not in an economic family: Femmes non âgées hors famille économique
 Household food security status: Niveau de sécurité alimentaire du ménage
 Food secure: Sécurité alimentaire
 Food insecure: Insécurité alimentaire
@@ -366,9 +590,13 @@ Food insecure, marginal: Insécurité alimentaire marginale
 Food insecure, moderate or severe: Insécurité alimentaire modérée ou grave
 Food insecure, moderate: Insécurité alimentaire modérée
 Food insecure, severe: Insécurité alimentaire grave
+Recent immigrants (10 years or less): Immigrants récents (10 ans ou moins)
+Very recent immigrants (5 years or less): Immigrants très récents (5 ans ou moins)
+Persons born in Canada: Personnes nées au Canada
+Not a visible minority nor Indigenous: Pas une minorité visible ni autochtone
+Population aged 15 years and over: Population âgée de 15 ans et plus
 
 ## 2-2-1
-Index: Indice
 Biodiversity: Biodiversité
 Soil Quality: Qualité des sols
 Water Quality: Qualité de l'eau
@@ -393,50 +621,50 @@ Population group: Groupe de population
 Women of reproductive age: Femmes en âge de procréer
 Non-pregnant women only: Femmes non enceintes
 Pregnant women only: Femmes enceintes
+Severity: Sévérité
 Severe: Sévère
-Moderate: Modéré
-Mild: Doux
+Moderate: Modérée
+Mild: Légère
 
-## 2-3-1
+## 2-3-1 and 2-3-2
 Small-scale food producers: Petits producteurs alimentaires
 Medium-Large scale food producers: Producteurs alimentaires de moyenne à grande échelle
-Under 35 years: Moins de 35 ans
-35 to 54 years: 35 à 54 ans
-55 years and over: 55 ans et plus
-
+Characteristics: Caractéristiques
 
 ## 2-4-1
 Farm output value per hectare: Valeur de la production agricole par hectare
 Risk mitigation mechanisms: Mécanismes d'atténuation des risques
+Trend score: Score de tendance
+Current status score: Score de statut actuel
+Progress toward productive and sustainable agriculture, trend score: Progrès vers une agriculture productive et durable, score de tendance
+Progress toward productive and sustainable agriculture, current status score: Progrès vers une agriculture productive et durable, score de statut actuel
+Score: Score
 
 ## 2-5-1
 Genetic resources for food and agriculture (GRFA): Ressources génétiques pour l'alimentation et l'agriculture (RGAA)
 Accessions of plant genetic resources secured in conservation facilities: Accessions de ressources phytogénétiques dans les établissements de conservation
 Local breeds stored in genebank: Variétés et races locales conservées dans la banque de gènes
-Total Number: Nombre total
+
+## 2-a-1
+Agriculture orientation index for government expenditures [2.a.1]: Indice d’orientation agricole des dépenses publiques
+Agriculture orientation index for government expenditures: Indice d’orientation agricole des dépenses publiques
+Agriculture value added share of GDP: Part de la valeur ajoutée de l’agriculture dans le PIB (%)
+Agriculture share of Government Expenditure: Part de l’agriculture dans les dépenses publiques (%)
+
+## 2-a-2
+## rien de nouveau
 
 ## 2-b-1
 Butter: Beurre
 Cheese: Fromage
 Other Milk Products: Autres produits laitiers
 Product: Produit
-CAD$ (Thousands): CAD$ (en milliers)
 Skim Milk Powder: Lait écrémé en poudre
 Incorporated Products: Produits incorporés
 
 ## 3-1-1
-Sex: Sexe
-Both sexes: Les deux sexes
-Males: Hommes
-Females: Femmes
-Age group: Groupe d'âge
-Total, 12 years and over: Total, 12 ans et plus
-12 to 17 years: 12 à 17 ans
-18 to 34 years: 18 à 34 ans
-35 to 49 years: 35 à 49 ans
-50 to 64 years: 50 à 64 ans
-65 years and over: 65 ans et plus
 Per 100,000 live births: Par 100 000 naissances vivantes
+Maternal deaths per 100,000 live births: Taux de mortalité maternelle pour 100 000 naissances vivantes
 
 ## 3-2-1
 Grade: Niveaux de scolarité
@@ -448,6 +676,7 @@ Both type: Les deux types
 With nicotine: Avec nicotine
 Without nicotine: Sans nicotine
 Per 1,000 live births: Pour 1 000 naissances vivantes
+Number of deaths per 1,000 live births: Nombre de décès pour 1 000 naissances vivantes
 
 ## 3-2-2
 Total infant deaths, age at time of death, under 1 year: Total des décès infantiles, âge au décès, moins d'un an
@@ -474,11 +703,15 @@ Post-neonatal, age at time of death, 8 months: Post-néonatal, âge au décès, 
 Post-neonatal, age at time of death, 9 months: Post-néonatal, âge au décès, 9 mois
 Post-neonatal, age at time of death, 10 months: Post-néonatal, âge au décès, 10 mois
 Post-neonatal, age at time of death, 11 months: Post-néonatal, âge au décès, 11 mois
-
+Mortality rate per 1,000 live births: Taux de mortalité pour 1 000 naissances vivantes
+Number of deaths: Nombre de décès
+Neonatal mortality rate per 1,000 live births: Taux de mortalité néonatale pour 1 000 naissances vivantes
+Number of neonatal deaths: Nombre de décès néonatals
 
 ## 3-3-1
 Rate per 1,000 uninfected population: Taux pour 1 000 habitants non infectés
-All ages: Tous les âges
+Number of newly infected people per 1,000 uninfected population: Nombre de nouvelles infections au VIH pour 1 000 habitants non infectés
+Number of newly infected people per 100,000 uninfected population: Nombre de nouvelles infections au VIH pour 100 000 habitants non infectés
 Adults (15-49): Adultes (15-49) 
 Measures: Mesures
 Overweight: Embonpoint
@@ -492,31 +725,19 @@ Ages 18 to 39: 18 à 39 ans
 Ages 40 to 59: 40 à 59 ans
 Ages 60 to 79: 60 à 79 ans
 
+## 3-3-3
+Malaria incidence per 100,000 population: Incidence du paludisme pour 100 000 habitants
+
 ## 3-3-5
 Leprosy: Lèpre
 Rabies: Rage
+Number of people requiring interventions against leprosy: Nombre de personnes pour lesquelles des interventions contre la lèpre sont nécessaires
+Number of people requiring interventions against rabies: Nombre de personnes pour lesquelles des interventions contre la rage sont nécessaires
+Number of people: Nombre de personnes
 
 ## 3-4-1
-All ages: Tous les âges
-1 to 4 years: 1 à 4 ans
-5 to 9 years: 5 à 9 ans
-10 to 14 years: 10 à 14 ans
-15 to 19 years: 15 à 19 ans
-20 to 24 years: 20 à 24 ans
-25 to 29 years: 25 à 29 ans
-30 to 34 years: 30 à 34 ans
-35 to 39 years: 35 à 39 ans
-40 to 44 years: 40 à 44 ans
-45 to 49 years: 45 à 49 ans
-50 to 54 years: 50 à 54 ans
-55 to 59 years: 55 à 59 ans
-60 to 64 years: 60 à 64 ans
-65 to 69 years: 65 à 69 ans
-70 to 74 years: 70 à 74 ans
-75 to 79 years: 75 à 79 ans
-80 to 84 years: 80 à 84 ans
-85 to 89 years: 85 à 89 ans
-90 years and over: 90 ans et plus
+Age-specific mortality rate per 100,000 population: Taux de mortalité selon l'âge pour 100 000 personnes
+Causes of death: Causes de décès
 Malignant neoplasms: Tumeurs malignes
 In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour: Tumeurs in situ, tumeurs bénignes et tumeurs à évolution imprévisible ou inconnue
 Diabetes mellitus: Diabète sucré
@@ -524,125 +745,57 @@ Diseases of heart: Maladies du coeur
 Influenza and pneumonia: Grippe et pneumopathie
 Acute bronchitus and bronchiolitis: Bronchite aiguë et bronchiolite aiguë
 Chronic lower respiratory diseases: Maladies chroniques des voies respiratoires inférieures
-Rate per 100,000: Taux par 100 000
+Essential hypertension and hypertensive renal disease: Hypertension essentielle et néphropathie hypertensive
+Cerebrovascular diseases: Maladies cérébrovasculaires
+Atherosclerosis: Athérosclérose
+Aortic aneurysm and dissection: Anévrisme aortique et dissection
+Pneumoconioses and chemical effects: Pneumoconioses et affections respiratoires dues à des agents chimiques
+Pneumonitis due to solids and liquids: Pneumopathie due à des substances solides et liquides
+Age at time of death: Âge au décès
+15 to 24: 15 à 24 ans
+85 and over: 85 ans et plus
+
+## 3-5-2
+Number of litres of pure alcohol sales per person aged 15 years and older in a year: Nombre de litres d’alcool pur vendus par personne âgée de 15 ans et plus au cours d’une année
 
 ## 3-6-1
-All ages: Tous les âges
-Under 1 year: Moins d'un an
-1 to 4 years: 1 à 4 ans
-5 to 9 years: 5 à 9 ans
-10 to 14 years: 10 à 14 ans
-15 to 19 years: 15 à 19 ans
-20 to 24 years: 20 à 24 ans
-25 to 29 years: 25 à 29 ans
-30 to 34 years: 30 à 34 ans
-35 to 39 years: 35 à 39 ans
-40 to 44 years: 40 à 44 ans
-45 to 49 years: 45 à 49 ans
-50 to 54 years: 50 à 54 ans
-55 to 59 years: 55 à 59 ans
-60 to 64 years: 60 à 64 ans
-65 to 69 years: 65 à 69 ans
-70 to 74 years: 70 à 74 ans
-75 to 79 years: 75 à 79 ans
-80 to 84 years: 80 à 84 ans
-85 to 89 years: 85 à 89 ans
-90 years and over: 90 ans et plus
 Not stated: Non déclaré
 Transport accidents: Accidents de transport
 Motor vehicle accidents: Accidents de véhicule à moteur
 Other land transport accidents: Autres accidents de transport terrestre
 Per 100,000 population: Par 100 000 habitants
+Mortality rate per 100,000 population: Taux de mortalité pour 100 000 personnes
 
 ## 3-7-1
-Marital status: Situation de famille
+Marital status: État matrimonial
 Married or in a union: Marié ou en union
 Unmarried: Célibataire
 
 ## 3-7-2
 Per 1000 females (15-19 years): Pour 1000 femmes (15-19 ans)
-
-## 3-8-1
-Selected diseases: Antigène ou vaccin
-Diphtheria: Diphtérie
-Pertussis: Coqueluche
-Tetanus: Tétanos
-Polio: Polio
-Haemophilus influenzae type B: Haemophilus influenzae de type B
-Diphtheria - Pertussis and tetanus: Diphtérie, la coqueluche et le tétanos
-Measles: Rougeole
-Mumps: Rubéole
-Rubella: Oreillons
-Hepatitis B: Hépatite B
-Varicella: Varicelle
-Meningococcal type C: Méningite de type C
-Pneumococcal: Pneumocoque
-Rotavirus: Rotavirus
-Human Papillomavirus: Virus du papillome humain
-Diphtheria - Tetanus - acellular Pertussis booster: Vaccin de rappel de la diphtérie, la coqueluche et le tétanos
-All children: Tous les enfants
-by 2 years of age: 2 ans
-by 7 years of age: 7 ans
-by 14 years of age: 14 ans
-by 17 years of age: 17 ans
-Age: Âge
+Place of residence of mother: Lieu de résidence de la mère
+Rate per 1,000 females: Taux pour 1 000 femmes
 
 ## 3-8-2
 Proportion with share above 10%: Proportion dont la part est supérieure à 10 %
 Proportion with share above 25%: Proportion dont la part est supérieure à 25 %
-Male: Homme
-Female: Femme
 Aged below 18 years: Moins de 18 ans
 Aged 18 to 64 years: De 18 à 64 ans
+Aged 65 years or older: Âgé de 65 ans et plus
 Adjusted household after-tax income in bottom 40%: Revenu après impôt ajusté du ménage dans la tranche inférieure de 40 %
 Adjusted household after-tax income in top 60%: Revenu après impôt rajusté du ménage dans la tranche supérieure de 60 %
-
-## 3-9-1
-Disease: Maladies
-Creutzfeldt-Jakob: Creutzfeldt-Jakob
-HIV and AIDS: VIH et SIDA
-Diabetes: Diabète
-Ischemic heart disease: Cardiopathies ischémiques
-Dementia, including Alzheimer's disease: Démence, y compris la maladie d'Alzheimer
-Hypertension: Hypertension
-Chronic obstructive pulmonary disease: Maladie pulmonaire obstructive chronique
-Cancer: Cancer
-Tuberculosis: Tuberculose
-Salmonella: Salmonellose
+Proportion of population (individuals) with share above 10% with large household expenditures on select health care items as a share of total after-tax income: Proportion de la population (personnes) dont la part est supérieure à 10 % consacrant une grande part de ses dépenses du ménage à certains articles de soins de santé en proportion du revenu total après impôt
+Proportion of population (individuals) with share above 25% with large household expenditures on select health care items as a share of total after-tax income: Proportion de la population (personnes) dont la part est supérieure à 25 % consacrant une grande part de ses dépenses du ménage à certains articles de soins de santé en proportion du revenu total après impôt
 
 ## 3-9-2
 Acute respiratory infections: |
     Affections aiguës des voies respiratoires supérieures
-Diarrhoea: Diarrhée
+Diarrhea: Diarrhée
 Intestinal nematode infections: Infections intestinales à nématodes
 Protein-energy malnutrition: Malnutrition protéino-énergétique
-
-## 3-11-1
-Age at time of death: Âge au décès
-all ages: Tous les âges
-1 to 14 years: 1 à 14 ans
-15 to 24: 15 à 24 ans
-25 to 34 years: 25 à 34 ans
-35 to 44 years: 35 à 44 ans
-45 to 54 years: 45 à 54 ans
-55 to 64 years: 55 à 64 ans
-65 to 74 years: 65 à 74 ans
-75 to 84 years: 75 à 84 ans
-85 and over: 85 ans et plus
-Leading causes of death (ICD-10): Principales causes de décès
-Malignant neoplasms [C00-C97]: Tumeurs malignes
-Diabetes mellitus [E10-E14]: Diabète sucré
-Alzheimer's disease [G30]: Maladie d'Alzheimer
-Diseases of heart [I00-I09, I11, I13, I20-I51]: Maladies du coeur
-Cerebrovascular diseases [I60-I69]: Maladies cérébrovasculaires
-Influenza and pneumonia [J09-J18]: Grippe et pneumopathie
-Chronic lower respiratory diseases [J40-J47]: Maladies chroniques des voies respiratoires inférieures
-Chronic liver disease and cirrhosis [K70, K73-K74]: Maladie chronique et cirrhose du foie
-Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (blessures involontaires)
-Intentional self-harm (suicide) [X60-X84, Y87.0]: Lésions auto-infligées
+Type of disease: Type de maladie
 
 ## 3-12-1
-Rate per 100,000 population: Taux par 100 000 personnes
 Type of event: Type d'événement
 Apparent opioid toxicity deaths: Décès totaux apparemment liés à une intoxication aux opioïdes
 Opioid-related poisoning hospitalizations: Hospitalisations pour intoxication aux opioïdes
@@ -651,19 +804,12 @@ EMS responses to suspected opioid-related overdoses: Interventions des SMU pour 
 Apparent stimulant toxicity deaths: Décès totaux apparemment liés à une intoxication aux stimulants
 
 ## 3-a-1
-Sex: Sexe
-Both sexes: Les deux sexes
-Female: Femme
-Male: Homme
 Age Group: Groupe d’âge
 All age groups: Tous les groupes d’âge
-15-19 years-old: |
-  15-19 ans
-20-24 years-old: |
-  20-24 ans
+15-19 years-old: 15-19 ans
+20-24 years-old: 20-24 ans
 25+ years-old: 25+ ans
-25-44 years-old: |
-  25-44 ans
+25-44 years-old: 25-44 ans
 45+ years-old: 45+ ans
 Tobacco Product: Produits du tabac
 Cigarettes: Cigarettes
@@ -692,24 +838,19 @@ Varicella: Varicelle
 Meningococcal type C: Méningocoque de type C
 Pneumococcal: Pneumocoque
 Rotavirus: Rotavirus
-Diphtheria 4 doses: Diphtérie 4 doses
-Pertussis 4 doses: Coqueluche 4 doses
-Tetanus 4 doses: Tétanos 4 doses
-Polio 3 doses: Polio 3 doses
-Hib 4 doses: Hib 4 doses
-Measles 1 dose: Rougeole 1 dose
-Mumps 1 dose: Rubéole 1 dose
-Rubella 1 dose: Oreillons 1 dose
-Meningococcal C 1 dose: Méningocoque C 1 dose
-Pneumococcal 3 doses: Pneumocoque 3 doses
-Varicella 1 dose: Varicelle 1 dose
+Human Papillomavirus (HPV): Virus du papillome humain (VPH)
+Diphtheria, Tetanus, acellular Pertussis (Tdap) booster: Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)
+Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap): Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)
+Influenza (flu): Grippe
+Target population: Population cible
+Recommended vaccines for 2-year-old children: Vaccins recommandés aux enfants de 2 ans
+Recommended vaccines for 7-year-old children: Vaccins recommandés aux enfants de 7 ans
+Recommended vaccines for 14-year-old children: Vaccins recommandés aux enfants de 14 ans
+Recommended vaccines for 17-year-old children: Vaccins recommandés aux enfants de 17 ans
+Recommended vaccines during pregnancy: Vaccins recommandés pendant la grossesse
 
 # 3-b-2
-Assistance type: |
-    Type d'aide
-Basic health: Santé de base
-Medical research: |
-    Recherche médicale
+Assistance type: Type d'aide
 
 ## 3-c-1
 Service provider per 100,000 population: Dispensateurs de services par 100 000 habitants
@@ -747,62 +888,41 @@ Respiratory therapists: Inhalothérapeutes
 Social workers: Travailleurs sociaux
 Speech language pathologists: Orthophonistes
 Psychotherapists: Psychothérapeutes
-
+Density of medical doctors: Densité de médecins
+Density of nursing and midwifery personnel: Densité du personnel infirmier et des sages-femmes
+Density of dentists: Densité de dentistes
+Density of pharmacists: Densité de pharmaciens
+Health worker density, by type of occupation (per 10,000 population): Densité du personnel de santé, par type de profession (pour 10 000 habitants)
+Health worker distribution, by sex and type of occupation: Répartition du personnel de santé, par sexe et par type de profession
+Type of occupation: Type de profession
+Medical doctors: Médecins
+Nursing and midwifery personnel: Personnel infirmier et sages-femmes
 
 ## 4-1-1
-Age group: Groupe d'âge
 Total, persons aged 15 years and over: Total, personnes âgées de 15 ans et plus
-15 to 24 years: 15 à 24 ans
-25 to 64 years: 25 à 64 ans
-65 to 74 years: 65 à 74 ans
-75 years and over: 75 ans et plus
 Selected demographic characteristics: Caractéristiques démographiques déterminées
-Total, all persons: Total, toutes les personnes
-Non immigrants: Non-immigrants
-Immigrants: Immigrants
-Non-permanent residents: Résidents non permanents
-Total visible minority population: Total de la population des minorités visibles
-Not a visible minority: Pas une minorité visible
 Total Aboriginal identity: Total identité autochtone
-First Nations (North American Indian): Première Nation (Indien de l'Amérique du Nord)
-Métis: Métis
-Inuk (Inuit): Inuk (Inuit)
 Non-Aboriginal identity: Identité non autochtone
-Children in Grade 4 achieving at least a minimum proficiency level in mathematics: Enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques
-Children in Grade 4 achieving at least a minimum proficiency level in reading: Enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture
-Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture
+Children in Grade 4 achieving at least a minimum proficiency level in mathematics: Enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques
+Children in Grade 4 achieving at least a minimum proficiency level in reading: Enfants de 4e année atteignant au moins un niveau minimum de compétence en lecture
+Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimum de compétence en lecture
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimum de compétence en mathématiques
-Proportion of children achieving at least a minimum proficiency level: Proportion d’enfants atteignant au moins un niveau minimal de compétence
+Proportion of children achieving at least a minimum proficiency level: Proportion d’enfants atteignant au moins un niveau minimum de compétence
+Young people aged 15 years achieving at least a minimum proficiency level in reading: Jeunes âgés de 15 ans atteignant au moins un niveau minimum de compétence en lecture
+Young people aged 15 years achieving at least a minimum proficiency level in mathematics: Jeunes âgés de 15 ans atteignant au moins un niveau minimum de compétence en mathématiques
 
 ## 4-1-2
-Educational attainment level: Educational attainment level
-Pre-primary and primary: Pré-primaire et primaire
-Lower secondary: Premier cycle du secondaire
-Upper secondary and post-secondary non-tertiary: Deuxième cycle du secondaire et postsecondaires non tertiaire
-Tertiary education: Études tertiaires
-
-## 4-2-1
-Educational attainment level: Niveau de scolarité
-Tertiary education: Études tertiaires
-Short-cycle tertiary: Enseignement tertiaire de cycle court
-Bachelor's level: Baccalauréat
-Master's or Doctoral level: Maîtrise ou doctorat
-25 to 34 years: 25 à 34 ans
-30 to 34 years: 30 à 34 ans
-35 to 44 years: 35 à 44 ans
-45 to 54 years: 45 à 54 ans
-55 to 64 years: 55 à 64 ans
-Total, 25 to 64 years: Total, 25 à 64 ans
+Graduation rate: Taux d'obtention du diplôme
+On-time: Délai prévu
+Extended-time: Délai plus long
 
 ## 4-3-1
-Total, type of institution attended: |
-    Total, type d'institution fréquentée
+Total, type of institution attended: Total, type d'institution fréquentée
 Elementary/High School: Primaire/Secondaire
 Elementary and/or High School: École primaire et/ou secondaire
 College: Collège
 University: Université
-Type of institution attended: |
-    Type d'institution fréquentée
+Type of institution attended: Type d'institution fréquentée
 Total participation rate: Total taux de participation
 
 ## 4-4-1
@@ -832,19 +952,37 @@ High school or less: Un diplôme d'études secondaires ou moins
 College, trade school or some university: Un diplôme d'un collège ou d'une école de métiers, ou études universitaires partielles
 Bachelors degree or higher: Un baccalauréat ou diplôme supérieur
 
-
 ## 4-5-1
-Participation rate of adults in formal and non-formal education: Taux de participation des adultes de 25 à 64 ans à l'éducation formelle et non formelle
-Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics: La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en mathématiques
-Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading: La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en lecture
-Proportion of adults (25-to-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional numeracy skills: La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA score de 226) en compétences en numératie fonctionnelle
-Proportion of adults (25-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional literacy skills: La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA un score 226) en compétences en littératie
+Completion rate: Taux d'achèvement
+Educational attainment rate: Taux de scolarité
+Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months: Taux de participation des jeunes et des adultes à l'éducation et à la formation formelles et non formelles au cours des 12 derniers mois
+Proportion of students achieving at least a minimum proficiency level in mathematics: Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques
+Proportion of students achieving at least a minimum proficiency level in reading: Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture
 Parity index: Indice de parité
-Gender Parity Index: Indice de parité entre les sexes
-Economic, Social and Cultural Status Index (ESCS): Indice de statut économique, social et culturel (SESC)
-Location Parity Index: Indice de parité entre millieu urban et rural (IPM)
-Parental Education Attainment Parity Index: Indice de parité du niveau de formation des parents
-Participation rate in organized learning: Taux de participation à l’apprentissage organisé
+Adjusted gender parity index: Indice de parité entre les sexes ajusté
+Adjusted location parity index: Indice de parité entre milieu urbain et rural ajusté
+Adjusted wealth parity index: Indice de parité de richesse ajusté
+Adjusted language test parity index: Indice de parité des tests de langue ajusté
+Adjusted native parity index: Indice de parité natif ajusté
+Education level: Niveau de scolarité
+Primary education: Éducation primaire
+Lower secondary education: Éducation secondaire de premier cycle
+Upper secondary education: Éducation secondaire de deuxième cycle
+At least some primary (ISCED 1): Au moins une partie de l'éducation primaire (CITE 1)
+Completed primary education or higher: A complété une éducation primaire ou supérieure
+Completed lower secondary education or higher: A complété une éducation secondaire de premier cycle ou supérieure
+Completed upper secondary education or higher: A complété une éducation secondaire de deuxième cycle ou supérieure
+Completed post-secondary non-tertiary education or higher: A complété une éducation post-secondaire non tertiaire ou supérieure
+Completed short-cycle tertiary education or higher: A complété une éducation tertiaire de cycle court ou supérieure
+Completed Bachelor's or equivalent education or higher: A complété un baccalauréat ou éducation équivalente ou supérieure
+Completed Master's or equivalent education or higher: A complété une maîtrise ou éducation équivalente ou supérieure
+Completed Doctoral or equivalent education: A complété un doctorat ou éducation équivalente
+Modelled data: Donnée modélisée
+Completion rate parity: Parité du taux d'achèvement
+Educational attainment rate parity: Parité du taux de scolarité
+Parity in the participation rate of youth and adults in formal and non-formal education and training in the previous 12 months: Parité du taux de participation des jeunes et des adultes à l'éducation et à la formation formelles et non formelles au cours des 12 derniers mois
+Parity in the proportion of students achieving at least a minimum proficiency level in mathematics: Parité de la proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques
+Parity in the proportion of students achieving at least a minimum proficiency level in reading: Parité de la proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture
 
 ##4-6-1
 Educational subject: Matière éducative
@@ -855,14 +993,10 @@ Numeracy: Arithmétique
 2 or below: 2 ou moins
 3 or above: 3 ou plus
 Total age groups: Groupe d'âge totale
-16 to 24 years: 16 à 24 ans
-25 to 34 years: 25 à 34 ans
-35 to 44 years: 35 à 44 ans
-45 to 54 years: 45 à 54 ans
-55 to 65 years: 55 à 65 ans
 
 ## 4-b-1
 USD Millions: USD Millions
+US dollar (millions): Dollars US (million)
 
 ## 5-1-1
 Type of perpetrator: Type d'auteur présumé
@@ -872,11 +1006,11 @@ Non-intimate partner: Autres personnes
 
 ## 5-2-1
 Type of intimate partner violence: Type de violence entre partenaires intimes
-Emotional, financial, or psychological abuse: Violence psychologique ou exploitation financière
+Emotional, financial, or psychological abuse: Violence psychologique, émotionnelle ou exploitation financière
 Physical abuse: Violence physique
 Sexual abuse: Violence sexuelle
 Total intimate partner violence: Total de tous les types de violence
-Selected characteristic: Caractéristiques sélectionnées
+Selected characteristics: Caractéristiques sélectionnées
 Total, all women: Total, toutes les femmes
 15 to 24 year old women: Femmes de 15 à 24 ans
 Separated or divorced women: Femmes séparées ou divorcées
@@ -887,17 +1021,40 @@ Women with disability: Femmes ayant une incapacité
 Immigrant women: Femmes immigrantes
 Women designated as visible minorities: Femmes désignées comme minorités visibles
 
+## 5-2-2
+Inuk: Inuit
+Multiple Indigenous identities or specific group not stated: Nombreuses identités autochtones ou groupe particulier non précisé
+Sexual orientation: Orientation sexuelle
+Heterosexual: Hétérosexuel
+Gay or lesbian: Gai ou lesbienne
+Bisexual: Bisexuel
+Sexual orientation not elsewhere classified: Orientation sexuelle non classée ailleurs
+Sexual orientation not stated: Orientation sexuelle non précisée
+Disability: Incapacité
+Person with disability: Personne ayant une incapacité
+Person without disability: Personne ne présentant aucune incapacité
+Employed in past 12 months: Employé au cours des 12 mois précédant
+Not employed in past 12 months: Sans emploi au cours des 12 mois précédant
+Educational status: Situation relativement aux études
+Currently attending school: Actuellement aux études
+Not currently attending school: Pas actuellement aux études
+Marital status: État matrimonial
+Married or common-law: Marié ou vivant en union libre
+Separated, divorced, or widowed: Séparé, divorcé ou veuf
+Single, never married: Célibataire, jamais marié
+
 ## 5-3-1
+Marital status: État matrimonial
 Married or living common law: Marié ou vivant en union libre
 Married: Marié
 Living common law: Vivant en union libre
 
 ## 5-4-1
 Activity group: Groupe d'activité
-Unpaid work activities: Activités de travail non-rémunéré
-Household chores: Tâches domestiques
-Care of household children under 18 years: Soins à un enfant du ménage de moins de 18 ans
-Care of household adults: Soins à un adulte du ménage
+Total, unpaid work activities: Total, activités de travail non-rémunéré
+Unpaid household work: Tâches ménagères
+Care of children under 18 years: Soins des enfants de moins de 18 ans
+Care of adults: Soins des adultes
 Shopping for goods or services: Magasinage de biens ou de services
 
 ## 5-5-1
@@ -921,39 +1078,17 @@ Middle management occupations in retail and wholesale trade and customer service
 Middle management occupations in trades, transportation, production and utilities: Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique
 
 ## 6-3-1
-Sector: Secteur
-Accommodation and food services: Hébergement et services de restauration
-Administrative and support, waste management and remediation services: Services administratifs et services de soutien et services de gestion des déchets et d'assainissement
-Agriculture, forestry, fishing and hunting: Agriculture, foresterie, pêche et chasse
-Arts, entertainment and recreation: Arts, spectacles et loisirs
-Construction: Construction
-Educational services: Services d'enseignement
-Finance and insurance: Service financier et assurance
-Government Education Services: Services d'éducation gouvernementaux
-Government Health Services: Services de soins de santé du gouvernement
-Health care and social assistance: Soins de santé et assistance sociale
-Households: Ménages
-Information and cultural industries: Industries d'information et de culture
-Manufacturing: Fabrication
-Mining, quarrying, and oil and gas extraction: Extraction minière et de pétrole et de gaz
-Miscellaneous non-profit institutions serving households: Diverses institutions sans but lucratif au service des ménages
-Non-profit arts, entertainment and recreation: Arts, spectacles et loisirs sans but lucratif
-Non-Profit Education Services: Services d'enseignement sans but lucratif
-Non-Profit Social Assistance: Services de bien-être sans but lucratif
-Other Aboriginal Government Services: Autres services des administrations publiques autochtones
-Other federal government services: Autres services de l'administration publique fédérale
-Other finance, insurance and real estate services and management of companies and enterprises: Autres services de finances, d'assurances et immobiliers, et gestion de sociétés et d'entreprises
-Other Municipal Government Services: Autres services des administrations publiques municipales
-Other provincial and territorial government services: Autres services des administrations publiques provinciales et territoriales
-Other services (except public administration): Autres services (sauf administration publique)
-Professional, scientific and technical services: Services professionnels, scientifiques et techniques
-Real estate and rental and leasing: Immobilier et service de location
-Religious organizations: Organismes religieux
-Retail trade: Commerce de détail
-Total, industries: Total, industries
-Transportation and warehousing: Transport et entreposage
-Utilities: Services utilitaires
-Wholesale trade: Commerce de gros
+Wastewater discharge from manufacturing industries: Déversement d'eaux usées provenant des industries manufacturières
+Wastewater discharged from municipal sewage systems: Déversement d'eaux usées provenant des systèmes d'assainissement municipaux
+Source: Source
+Municipal: Municipale
+Industries: Industries
+Wastewater treatment level: Niveau de traitement des eaux usées
+Not treated: Aucun traitement
+Treated: Traitées
+Safely treated: Traitées sans danger
+Generated: Eaux usées générées
+Total volume of municipal and manufacturing wastewater safely treated: Volume total des eaux usées d’origine municipale et de la fabrication traitées sans danger
 
 ## 6-3-2
 Land use category: Catégorie d'utilisation des sols
@@ -965,7 +1100,6 @@ Great Lakes and St. Lawrence River: Grands Lacs et fleuve Saint-Laurent
 Hudson Bay: Baie d'Hudson
 Mackenzie River: Fleuve Mackenzie
 Pacific Ocean: Océan Pacifique
-Total: Total
 Agriculture: Agriculture
 Forestry: Foresterie
 Mining: Exploitation minière
@@ -977,12 +1111,26 @@ Good: Bonne
 Fair: Satisfaisante
 Marginal: Douteuse
 Poor: Mauvaise
+Great Lakes and St. Lawrence River: Grands Lacs et fleuve Saint-Laurent
+
+## 6-4-1
+Water-use efficiency (USD per cubic metre): Efficacité de l'utilisation des ressources en eau (USD par mètre cube)
+Percent change in water-use efficiency over time (%):  Variation en pourcentage de l'efficacité de l'utilisation des ressources en eau au fil du temps (%)
+USD per cubic metre: Dollars américains par mètre cube
+Percent change (%): Variation en pourcentage (%)
+Economic activity: Activité économique
+Agriculture, forestry and fishing: Agriculture, sylviculture et pêche
+Industry: Industrie
+Services: Services
+Overall: Ensemble
+
+## 6-4-2
+## rien de nouveau
 
 ## 6-6-1
 Number of (shared) basins showing high surface-water extent changes: Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface
 Wetlands area: Étendue des millieux humides
 Lake water quality, turbidity: Qualité de l’eau du lac, la turbidité
-Lake water quality, trophic state: Qualité de l’eau du lac, l'état trophique
 Lake water quality, trophic state and turbidity: Qualité de l’eau du lac, l'état trophique et la turbidité
 Lake water quality, no or improving condition: Qualité de l’eau du lac, état nul ou amélioration
 Square kilometers: Kilomètres carrés
@@ -992,9 +1140,9 @@ Seasonal transition, seasonal: Transition saisonnière, saisonnière
 Seasonal transition, new seasonal: Transition saisonnière, nouvelle saison
 Seasonal transition, seasonal to permanent: Transition saisonnière, saisonnière à permanente
 Reservoirs, maximum water extent dynamics: Réservoirs, dynamique de l’étendue maximale de l’eau
-Reservoirs, minimum water extent dynamics: Réservoirs, dynamique de l’étendue minimale de l’eau
+Reservoirs, minimum water extent dynamics: Réservoirs, dynamique de l’étendue minimume de l’eau
 Reservoirs, maximum water extent: Réservoirs, étendue maximale de l’eau
-Reservoirs, minimum water extent: Réservoirs, étendue minimale d’eau
+Reservoirs, minimum water extent: Réservoirs, étendue minimume d’eau
 Lake water quality, low turbidity: Qualité de l’eau du lac, faible turbidité
 Lake water quality, medium turbidity: Qualité de l’eau du lac, turbidité moyenne
 Lake water quality, high turbidity: Qualité de l’eau du lac, turbidité élevée
@@ -1005,57 +1153,23 @@ Reservoir extent: Étendue du réservoir
 Maximum: Maximum
 Minimum: Minimum
 
-## 6-a-1
-Water Supply & Sanitation, Total: Approvisionnement en eau et assainissement, total
-Agriculture water resources: Ressources en eau agricoles
-Hydro-electric power plants: Centrales hydroélectriques
-
 ## 7-1-1
 Type of dwelling: Type de logement
-Energy type: |
-    Type d'énergie
+Energy type: Type d'énergie
 Single-detached: Maison individuelle
 Double: Maison double
 Row or terrace: Maison en rangée
 Duplex: Duplex
-Low-rise apartment (fewer than 5 stories): |
-    Immeuble d'appartements (moins de 5 étages)
-High-rise apartment (5 stories or more): |
-    Immeuble d'appartements (5 étages ou plus)
+Low-rise apartment (fewer than 5 stories): Immeuble d'appartements (moins de 5 étages)
+High-rise apartment (5 stories or more): Immeuble d'appartements (5 étages ou plus)
 Mobile home: Maison mobile
-Total, all energy types: |
-    Total, tous les types d'énergie	
+Total, all energy types: Total, tous les types d'énergie
 Electricity: Électricité
 Natural gas: Gaz naturel
 Heating oil: Mazout
 Gigajoules per household: Gigajoules par ménage
 
-
 ## 7-2-1
-Demand characteristics: Caractéristiques d’écoulement
-Energy use - final demand: Consommation énergétique finale
-Total industrial: Total industriel
-Total transportation: Total transport
-Agriculture: Agriculture
-Residential: Résidentiel
-Public administration: Administrations publiques
-Commercial and other institutional: Commerces et autres institutions
-Fuel type: Type de combustible
-Total primary and secondary energy: Énergie primaire et secondaire totale
-Total coal: Total charbon
-Natural gas: Gaz naturel
-Gas plant natural gas liquids (NGL's): Liquides de gaz naturel des usines de gaz (LGN)
-Hydroelectricity: Hydroélectricité
-Nuclear: Nucléaire
-Steam: Vapeur
-Coke: Coke
-Coke oven gas: Gaz de cokerie
-Total refined petroleum products: Total des produits pétroliers raffinés
-Units: Unités
-Terajoules: Térajoules
-Per capita: Par habitant
-
-## 7-3-1
 Type of electricity generation: Type de production d'électricité
 Hydraulic turbine: Turbine à hydraulique
 Tidal power turbine: Turbine marémotrice
@@ -1063,6 +1177,8 @@ Wind power turbine: Turbine éolienne
 Solar: Solaire
 Other types of electricity generation: Autres types de production électrique
 Total hydro, tidal, wind, solar and other generation: Total, tous les genres de production d'électricité
+Nuclear steam turbine: Turbine à vapeur - nucléaire
+Total electricity production from biomass: Production totale d’électricité provenant de la biomasse
 
 ## 8-3-1
 ##  rien de nouveau
@@ -1073,9 +1189,9 @@ Million metric tonnes: Millions de tonnes métriques
 Material footprint per capita: Empreinte matérielle par habitant
 Material footprint per GDP: Empreinte matérielle par PIB
 Metric tonnes per GDP (millions of dollars): Tonnes métriques par PIB (millions de dollars)
-Domestic material consumption: Consommation intérieure de matières
-Domestic material consumption per capita: Consommation intérieure de matières par habitant
-Domestic material consumption per GDP: Consommation intérieure de matières par PIB
+Domestic material consumption: Consommation matérielle nationale
+Domestic material consumption per capita: Consommation matérielle nationale par habitant
+Domestic material consumption per GDP: Consommation matérielle nationale par unité de PIB
 Tonnes (million): Tonnes (million)
 Tonnes per dollar: Tonnes par dollar
 Tonnes per capita: Tonnes par habitant
@@ -1158,29 +1274,29 @@ Unemployed, Not in employment, education or training (NEET): Chômeurs, Ni en em
 Not in the labour force, Not in employment, education or training (NEET): Inactifs, Ni en emploi, ni aux études, ni en formation (NEET)
 
 ## 8-8-1
-Number of fatality claims, by sex: Nombre de demandes d’indemnisation pour décès, selon le sexe
-Number of lost time claims, by sex: Nombre de réclamations avec perte de temps, selon le sexe
+Fatality claims: Réclamations de décès
+Lost time claims: Réclamations de pertes de temps
+Number of claims: Nombre de réclamations
 
 ## 8-10-1
 Number of commercial bank branches per 100,000 adults: Nombre de succursales de banques commerciales par 100 000 adultes
 Number of automated teller machines (ATMs) per 100,000 adults: Nombre de guichets automatiques bancaires (GAB) par 100 000 adultes
-
-## 8-a-1
-Aid for trade flows of official development assistance (ODA): Flux d'aide publique au développement (APD) pour l'aide pour le commerce
-Gross disbursements: Versements bruts 
-Commitments: Engagements
+Number per 100,000 adults: Nombre par 100 000 adultes
 
 ## 9-1-2
 Air freight volume: Volume de fret aérien
 Air passengers: Passagers aériens
 Rail freight volume: Volume de fret ferroviaire
-Rail passengers: Voyageurs ferroviaires
+Rail passengers: Passagers ferroviaires
 Road freight volume: Volume de fret routier
 Metric tonnes: Tonnes métriques
+Number of passengers: Nombre de passagers
 
 ## 9-2-1
-Proportion of GDP: Proportion du PIB
-Per capita: Par habitant
+MVA as a proportion of GDP: Valeur ajoutée dans l’industrie manufacturière en proportion du produit intérieur brut
+MVA per capita: Valeur ajoutée dans l’industrie manufacturière par habitant
+Manufacturing value added (MVA) as a proportion of gross domestic product (GDP): Valeur ajoutée dans l’industrie manufacturière en proportion du produit intérieur brut
+Manufacturing value added (MVA) per capita: Valeur ajoutée dans l’industrie manufacturière par habitant
 
 ## 9-2-2
 Industry: Industrie
@@ -1299,10 +1415,8 @@ Other furniture-related product manufacturing: Fabrication d'autres produits con
 Miscellaneous manufacturing: Activités diverses de fabrication
 Medical equipment and supplies manufacturing: Fabrication de fournitures et de matériel médicaux
 Other miscellaneous manufacturing: Autres activités diverses de fabrication
-Type of employee: Type de salariés
-All employees: Ensemble des salariés
-Salaried employees paid a fixed salary: Employés à salaire fixe
-Employees paid by the hour: Salariés rénumérés à l'heure
+Apparel manufacturing: Fabrication de vêtements
+Apparel knitting mills: Usines de tricotage de vêtements
 
 ## 9-3-1
 Population centres: Centres de population
@@ -1342,19 +1456,11 @@ Size: Taille
 250 employees and more: 250 employés et plus
 
 ## 9-3-2
-Employment size: |
-    Tranches d'effectif
+Employment size: Tranches d'effectif
 1 to 4 employees: 1 à 4 employés
 5 to 19 employees: 5 à 19 employés
 20 to 99 employees: 20 à 99 employés
 100 to 499 employees: 100 à 499 employés
-Atlantic Region: Région de l'Atlantique
-Quebec Region: |
-    Région de Québec
-Ontario Region: |
-    Région de l'Ontario
-Prairies Region: Région des Prairies
-British Columbia and Territories Region: Région de la Colombie-Britannique et des Territoires
 Industries: Industries
 Construction (NAICS 23): Construction (SCIAN 23)
 Manufacturing (NAICS 31-33): Fabrication (SCIAN 31-33)
@@ -1362,13 +1468,11 @@ Wholesale trade (NAICS 41): Commerce de gros (SCIAN 41)
 Retail trade (NAICS 44-45): Commerce de détail (SCIAN 44-45)
 Transportation and warehousing (NAICS 48-49): Transport et entreposage (SCIAN 48-49)
 Scientific and technical services (NAICS 54): Services professionnels, scientifiques et techniques (SCIAN 54)
-Accommodation and food services (NAICS 72): |
-    Services d'hébergement et de restauration (SCIAN 72)
+Accommodation and food services (NAICS 72): Services d'hébergement et de restauration (SCIAN 72)
 Other services (NAICS 81): Autres services (SCIAN 81)
 Other industries from the North American Industrial Classification System (NAICS): Autres industries du Système de Classification des Industries de l'Amérique du Nord (SCIAN)
 Tourism: Tourisme
-Information and communication technologies (ICT): |
-    Technologies de l’information et des communications (TIC)
+Information and communication technologies (ICT): Technologies de l’information et des communications (TIC)
 Knowledge-based industries (KBI): Industries fondées sur le savoir (IFS)
 Advanced technology: Technologie de pointe
 Advanced manufacturing: Fabrication de pointe
@@ -1378,16 +1482,18 @@ Younger than 30 years old: Moins de 30 ans
 40 to 49 years old: 40 à 49 ans
 50 to 64 years old: 50 à 64 ans
 65 years old and older: 65 ans et plus
-Ownership demographics: |
-    Information démographique, l’entreprise est majoritairement détenue
-Women: Femmes
-Indigenous: Autochtone
+Ownership demographics: Information démographique
+Demographic characteristics: Caractéristiques démographiques
 Person(s) with a disability: Personnes ayant une incapacité
 Overall approval rate, line of credit: Taux général d’approbation, marge de crédit
 Overall approval rate, term loan: Taux général d’approbation, prêt à terme
 Request rate, line of credit: Taux de demande, marge de crédit
 Request rate, term loan: Taux de demande, prêt à terme
 Small and medium enterprises: Petites et moyennes entreprises
+Proportion of small-scale industries requesting a line of credit: Proportion des petites entreprises industrielles ayant fait la demande d'une marge de crédit
+Proportion of small-scale industries requesting a term loan: Proportion des petites entreprises industrielles ayant fait la demande d'un prêt à terme
+Proportion of small-scale industries approved for a line of credit: Proportion des petites entreprises industrielles approuvées pour une marge de crédit
+Proportion of small-scale industries approved for a term loan: Proportion des petites entreprises industrielles approuvées pour un prêt à terme
 
 ## 9-4-1
 Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP: Mégatonnes d'équivalent en dioxyde de carbone (Mt éq. CO2) par milliard de dollars du PIB
@@ -1399,9 +1505,7 @@ Total sciences: Sciences totales
 Natural sciences and engineering: Sciences naturelles et génie
 Social sciences, humanities and the arts: Sciences sociales, humaines et les arts
 Science type: Type de science
-
-## 9-5-2
-Rate per 1,000,000: Taux pour 1 000 000
+Total, Organisation for Economic Co-operation and Development (OECD): Total, Organisation de coopération et de développement économiques (OCDE)
 
 ## 9-7-1
 Type of charging stations: Type de poste de recharge
@@ -1416,12 +1520,16 @@ Long-Term Evolution - A (LTE-A): Évolution à long terme - A (LTE-A)
 5G: 5G
 
 ## 10-1-1
+Growth rates of household expenditure per capita among the bottom 40 per cent of the population and the total population: Taux de croissance des dépenses des ménages par habitant pour les 40 pour cent de la population les plus pauvres et pour l’ensemble de la population
+Growth rates of income per capita among the bottom 40 per cent of the population and the total population: Taux de croissance du revenu des ménages par habitant pour les 40 pour cent de la population les plus pauvres et pour l’ensemble de la population
 Household expenditure per capita: Dépenses des ménages par habitant
 Income per capita: Revenu par habitant
-Percentile: Centile
+Household income quintile or decile: Quintile ou décile de revenu du ménage
+Household income quintile: Quintile de revenu du ménage
 All quintiles: Tous les quintiles
 Lowest quintile: Quintile inférieur
 Second quintile: Deuxième quintile
+Household income decile: Décile de revenu du ménage
 Total deciles: Total des déciles
 Lowest decile: Décile inférieur
 Second decile: Deuxième décile
@@ -1451,33 +1559,9 @@ Sales and service occupations [6]: Vente et services [6]
 Trades - transport and equipment operators and related occupations [7]: Métiers, transport, machinerie et domaines apparentés [7]
 Natural resources - agriculture and related production occupations [8]: Ressources naturelles, agriculture et production connexe [8]
 Occupations in manufacturing and utilities [9]: Fabrication et services d'utilité publique [9]
-15 years and over: 15 ans et plus
-15 to 24 years: 15 à 24 ans
-25 to 54 years: 25 à 54 ans
-55 years and over: 55 ans et plus
 
 ## 10-4-1
-Economic family type: Type de famille économique
-Economic families and persons not in an economic family: Familles économiques et personnes hors famille économique
-Economic families: Familles économiques
-Elderly families: Familles de personnes âgées
-Elderly couples: Couples de personnes âgées
-Other elderly families: Autres familles de personnes âgées
-Non-elderly families: Familles de personnes non âgées
-Couples: Couples
-Couples with children: Couples avec des enfants
-Couples with other relatives: Couples avec d'autres personnes apparentées
-Lone-parent families: Familles monoparentales
-Male lone-parent families: Familles monoparentales ayant un homme à leur tête
-Female lone-parent families: Familles monoparentales ayant une femme à leur tête
-Other non-elderly families: Autres familles de personnes non âgées
-Persons not in an economic family: Personnes hors famille économique
-Elderly persons not in an economic family: Personnes âgées hors famille économique
-Elderly males not in an economic family: Hommes âgés hors famille économique
-Elderly females not in an economic family: Femmes âgées hors famille économique
-Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
-Non-elderly males not in an economic family: Hommes non âgés hors famille économique
-Non-elderly females not in an economic family: Femmes non âgées hors famille économique
+Outside Canada: Extérieur du Canada
 
 ## 10-5-1
 Indicator: Indicateur
@@ -1488,7 +1572,32 @@ Earnings and profitability, return on assets: Rentabilité des actifs
 Ratio of liquid assets to short-term liabilities: Ratio des actifs liquides aux passifs à court terme
 Ratio of regulatory capital to assets: Ratio des fonds propres réglementaires de base aux actifs
 
+## 10-c-1
+Method: Méthode
+All methods: Toutes les méthodes
+Non-electronic methods: Méthodes traditionnelles
+Electronic methods: Méthodes électroniques
+Destination region: Région de destination
+All regions: Toutes les régions
+Americas: Amériques
+Eastern and Southern Europe: Europe de l'Est et Europe du Sud
+Sub-Saharan Africa: Afrique subsaharienne
+North Africa: Afrique du Nord
+West Central Asia and the Middle East: Asie de l'Ouest et centrale et Moyen-Orient
+Eastern Asia: Asie de l'Est
+Southeast Asia and Oceania: Asie du Sud-Est et Océanie
+Southern Asia: Asie du Sud
+Countries not eligible for official development assistance: Pays non admissibles à l'aide publique au développement
+Amount last sent: Montant d'argent envoyé lors du dernier transfert de fonds
+$100 or less: 100 $ ou moins
+$101 to $200: 101 $ à 200 $
+$201 to $300: 201 $ à 300 $
+$301 to $500: 301 $ à 500 $
+$501 to $1,000: 501 $ à 1 000 $
+$1,001 or more: 1 001 $ ou plus
+
 ## 11-1-1
+Tenure: Mode d'occupation
 Total, tenure: Total, mode d'occupation
 Owner: Propriétaire
 Owner who is a first-time homebuyer: Propriétaire qui est un accédant à la propriété
@@ -1499,69 +1608,21 @@ Renter in social and affordable housing: Locataire habitant dans un logement soc
 Total, large urban population centres: Total, grands centres de population urbains
 
 ## 11-2-1
-Selected housing vulnerable populations: Certaines population vulnérables en matière de logement
-All households: Tous les ménages
-Total, lone-parent family households: Tous les ménages
-Lone-parent family households whose reference person is male: Ménages comptant une famille monoparentale dont la personne de référence est un homme
-Lone-parent family households whose reference person is female: Ménages comptant une famille monoparentale dont la personne de référence est une femme
-Total, one person households: Total, ménages comptant une personne seule
-Men living alone: Hommes vivant seuls
-Women living alone: Femmes vivant seules
-Reference person who experienced homelessness: Personne de référence qui a vécu une période d’itinérance
-Living with housing problems: Éprouvant des problèmes de logement
-Living in unaffordable housing: Vivant dans un logement inabordable
-Living in unsuitable housing: Vivant dans un logement de taille non convenable
-Living in inadequate housing: Vivant dans un logement de qualité non convenable
-Living in core housing need: Ayant des besoins impérieux en matière de logement
-Census divisions: Divisions de recensement
-Census subdivisions in a census agglomeration: Subdivisions de recensement dans une agglomération de recensement
-Area outside census metropolitan areas and census agglomeration: Région à l’extérieur des régions métropolitaines de recensement et des agglomérations de recensement
+Distance-capacity public transit service area: Distance-capacité de la zone de service de transport public
+500 metres from all public transit stops: 500 mètres de tous les arrêts de transport en commun
+500 metres from low-capacity public transit stops only: 500 mètres des arrêts de transport en commun à faible capacité uniquement
+1000 metres from high-capacity public transit stops only: 1000 mètres des arrêts de transport en commun à grande capacité uniquement
+Demographic and socio-economic: Démographique and socio-économique
+Total - Age groups of the population - 100% data: Total - Groupes d'âge de la population - Données intégrales (100 %)
 
 ## 11-3-1
-Greater Sudbury, Ontario: Grand Sudbury, Ontario
-Land Consumption Rate: Taux de consommation des terres
-Population Growth Rate: Taux de croissance démographique
+Land consumption rate: Taux de consommation des terres
+Population growth rate: Taux de croissance démographique
 Ratio of land consumption rate to population growth rate: Rapport entre le taux de consommation des terres et le taux de croissance démographique
 Rate of growth: Taux de croissance
 Ratio: Ratio
 
 ## 11-4-1
-St. John's, Newfoundland and Labrador: St. John's, Terre-Neuve-et-Labrador
-Halifax, Nova Scotia: Halifax, Nouvelle-Écosse
-Moncton, New Brunswick: Moncton, Nouveau-Brunswick
-Saint John, New Brunswick: Saint John, Nouveau-Brunswick
-Montreal, Quebec: Montréal, Québec
-Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (partie du Québec), Québec
-Quebec, Quebec: Québec, Québec
-Saguenay, Quebec: Saguenay, Québec
-Sherbrooke, Quebec: Sherbrooke, Québec
-Trois-Rivières, Quebec: Trois-Rivières, Québec
-Barrie, Ontario: Barrie, Ontario
-Belleville, Ontario: Belleville, Ontario
-Brantford, Ontario: Brantford, Ontario
-Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury / Grand Sudbury, Ontario
-Guelph, Ontario: Guelph, Ontario
-Hamilton, Ontario: Hamilton, Ontario
-Kingston, Ontario: Kingston, Ontario
-Kitchener - Cambridge - Waterloo, Ontario: Kitchener - Cambridge - Waterloo, Ontario
-London, Ontario: London, Ontario
-Oshawa, Ontario: Oshawa, Ontario
-Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (partie de l'Ontario), Ontario
-Peterborough, Ontario: Peterborough, Ontario
-St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
-Thunder Bay, Ontario: Thunder Bay, Ontario
-Toronto, Ontario: Toronto, Ontario
-Windsor, Ontario: Windsor, Ontario
-Winnipeg, Manitoba: Winnipeg, Manitoba
-Regina, Saskatchewan: Regina, Saskatchewan
-Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
-Calgary, Alberta: Calgary, Alberta
-Edmonton, Alberta: Edmonton, Alberta
-Lethbridge, Alberta: Lethbridge, Alberta
-Abbotsford - Mission, British Columbia: Abbotsford - Mission, Colombie-Britannique
-Kelowna, British Columbia: Kelowna, Colombie-Britannique
-Vancouver, British Columbia: Vancouver, Colombie-Britannique
-Victoria, British Columbia: Victoria, Colombie-Britannique
 Type of heritage: Type de patrimoine
 Protection of biodiversity and landscape: Préservation de la diversité biologique et protection de la nature
 Cultural services: Services culturels
@@ -1573,27 +1634,44 @@ Consolidated Canadian general government: Administration publique générale can
 Consolidated provincial-territorial and local governments: Administrations publiques provinciales-territoriales et locales consolidées
 Level of government: Niveau de gouvernement
 
-## 11-5-1
-Type of commute: Type de navettage
-Public transit: Transport en commun
-Active transport: Transport actif
-Trois-Rivieres, Quebec: Trois-Rivières, Québec
-Mortality rate per 100,000 population: Taux de mortalité par 100 000 habitants
-Number of deaths: Nombre de décès
-Type of natural disaster: Type de catastrophe naturelle
-Meteorological - Flood: Météorologique - Inondation
-Meteorological - Storm: Météorologique - Tempête
-Meteorological - Tornado: Météorologique - Tornade
-Meteorological - Wildfire: Météorologique - Feu de forêt
-Meteorological - Winter storm: Météorologique - Tempête hivernale
-Meteorological - Heat event: Météorologique - Épisode de chaleur
-Meteorological - Hurricane: Météorologique - Ouragan
 
 ## 11-6-1
 Sources of waste for disposal: Sources des déchets à des fins d'élimination
 All sources of waste for disposal: Toutes les sources de déchets à des fins d'élimination
 Non-residential sources of waste for disposal: Sources de déchets résidentielles à des fins d'élimination
 Residential sources of waste for disposal: Sources de déchets non résidentielles à des fins d'élimination
+
+## 11-6-2
+Micrograms per cubic metre: Microgrammes par mètre cube
+Atlantic Canada: Canada atlantique
+Southern Quebec: Sud du Québec
+Southern Ontario: Sud de l'Ontario
+Prairies and northern Ontario: Prairies et nord de l'Ontario
+Windsor, ON: Windsor, ON
+Hamilton, ON: Hamilton, ON
+Barrie, ON: Barrie, ON
+Kitchener, ON: Kitchener, ON
+Toronto, ON: Toronto, ON
+St. Catharines - Niagara Falls, ON: St. Catharines - Niagara Falls, ON
+London, ON: London, ON
+Oshawa, ON: Oshawa, ON
+Ottawa, ON: Ottawa, ON
+Quebec, QC: Québec, QC
+Montreal, QC: Montréal, QC
+Gatineau, QC: Gatineau, QC
+Edmonton, AB: Edmonton, AB
+Calgary, AB: Calgary, AB
+Vancouver, BC: Vancouver, BC
+Victoria, BC: Victoria, BC
+Saskatoon, SK: Saskatoon, SK
+Regina, SK: Regina, SK
+Winnipeg, MB: Winnipeg, MB
+Charlottetown, PE: Charlottetown, PE
+Fredericton, NB: Fredericton, NB
+Halifax, NS: Halifax, NS
+St. John's, NL: St. John's, NL
+Yellowknife, NT: Yellowknife, NT
+Whitehorse, YT: Whitehorse, YT
 
 ## 11-7-1
 # rien de nouveau
@@ -1635,7 +1713,6 @@ Pipeline transportation: Transport par pipeline
 Plastics and rubber products manufacturing: Fabrication de produits en plastique et en caoutchouc
 Primary metal manufacturing: Première transformation des métaux
 Total, industries: Total, industries
-Transportation equipment manufacturing: 
 Wood product manufacturing: Fabrication de produits en bois
 
 
@@ -1742,23 +1819,26 @@ All sources of diverted materials: Toutes les sources des matières récupérée
 Residential sources of diverted materials: Sources des matières résidentielles récupérées
 Non-residential sources of diverted materials: Sources des matières non résidentielles récupérées
 
+## 12-7-1
+Sub-indicators: Sous-indicateurs
+Sub-indicator_A: "Sous-indicateur A: Existence d'une politique ou d'un plan d'action MDP et/ou d'exigences réglementaires MDP"
+Sub-indicator_B: "Sous-indicateur B: Le cadre réglementaire des marchés publics est propice au MDP"
+Sub-indicator_C: "Sous-indicateur C: Un soutien pratique est apporté aux praticiens des marchés publics pour la mise en œuvre du MDP"
+Sub-indicator_D: "Sous-indicateur D: Critères d'achat / normes d'achat / exigences du MDP"
+Sub-indicator_E: "Sous-indicateur E: Existence d'un système de suivi du MDP"
+
 ## 12-b-1
-Table: Tableau
-Tourism Satellite Account (TSA): Compte satellite du tourisme (CST)
-System of Environmental Economic Accounting (SEEA): Système de comptabilité économique et environnementale (SCEE)
+Standard Accounting Tools: Outils de comptabilité standards
+Tourism Satellite Account Tables (TSA): Tableaux du Compte satellite du tourisme
+System of Environmental Economic Accounting Tables (SEEA): Tableaux du Système de comptabilité économique et environnementale
+Number of tables compiled: Nombre de tableaux compilés
 
 ## 13-1-1
-Rate per 100,000 population: Taux par 100 000 habitants
-Type of natural disaster: Type de catastrophe naturelle
-Meteorological - Flood: Météorologique - Inondation
-Meteorological - Heat Event: Météorologique - Épisode de chaleur
-Meteorological - Hurricane: Météorologique - Ouragan
-Meteorological - Storm: Météorologique - Tempête
-Meteorological - Tornado: Météorologique - Tornade
-Meteorological - Wildfire: Météorologique - Feu de forêt
-Meteorological - Winter Storm: Météorologique - Tempête hivernale
+Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population: Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes
+Total number of deaths, missing persons and directly affected persons attributed to disasters: Nombre total de personnes décédées, disparues ou directement touchées lors de catastrophes
 
 ## 13-2-2
+Megatonnes of carbon dioxide equivalent (Mt CO2 eq): Mégatonnes d'équivalent en dioxyde de carbone (Mt d'éq. CO2)
 Source: Source
 Provincial Inventory Total: Inventaire provincial
 Territorial Inventory Total: Inventaire territorial
@@ -1793,8 +1873,6 @@ Event sub-type: Événement
 
 
 # 13-3-1
-Number: Nombre
-Percentage: Pourcentage
 Type of municipality by population size: Type de municipalité par taille de population
 All municipalities: Toutes les municipalités
 All urban municipalities: Toutes les municipalités urbaines
@@ -1862,16 +1940,15 @@ Vascular plants: Plantes vasculaires
 Yellowjacket wasps: Guêpes jaunes
 
 ## 15-1-2
-Key Biodiversity Areas (KBAs): Zones clés pour la biodiversité (ZCBs)
-Terrestrial KBAs: Terrestre ZCBs
-Freshwater KBAs: Eau Douce ZCBs
+Key Biodiversity Areas (KBAs): Sites importants pour la biodiversité (SIB)
+Terrestrial Key Biodiversity Areas: Sites importants pour la biodiversité terrestre
+Freshwater Key Biodiversity Areas: Sites importants pour la biodiversité des eaux douces
 
 ## 15-2-1
 Population and distribution trends consistent with objectives: Les tendances des populations d'espèces menacées et de leur répartition sont conformes aux objectifs
 On track: Oui
 Mixed evidence: Preuves mitigées
 Not on track: Non
-Percentage (%): Pourcentage (%)
 Forest area net change rate: Taux de variation nette de la superficie forestière
 Forest area net change rate (Percentage): Taux de variation nette de la superficie forestière (Pourcentage)
 Above-ground biomass stock in forest: Stock de biomasse aérienne en forêt
@@ -1879,6 +1956,7 @@ Above-ground biomass stock in forest (Tonnes/hectares): Stock de biomasse aérie
 Proportion of forest area located within legally established protected areas: Proportion de la superficie forestière située dans des aires protégées légalement établies
 Proportion of forest area located within legally established protected areas (Percentage): Proportion de la superficie forestière située dans des aires protégées légalement établies (Pourcentage)
 Proportion of forest area under a long term forest management plan: Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme
+Proportion of forest area under a long-term forest management plan: Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme
 Proportion of forest area under a long term forest management plan (Percentage): Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme (Pourcentage)
 Forest area under an independently verified forest management certification scheme: |
     Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante
@@ -1886,6 +1964,12 @@ Forest area under an independently verified forest management certification sche
     Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante (Hectares)
 
 Hectares (Millions): Hectares (Millions)
+Hectares: Hectares
+Forest area as a proportion of total land area: Superficie forestière en proportion de la superficie terrestre totale
+Forest area: Superficie forestière
+Land area: Superficie terrestre
+Canada’s estimated forest area: Superficie forestière estimée du Canada
+Canada’s estimated land area: Superficie terrestre estimée du Canada
 
 ## 15-3-1
 National terrestrial: National terrestrial
@@ -1894,49 +1978,54 @@ National marine: National marine
 ## 15-4-1
 # rien de nouveau
 
+## 15-5-1
+Cumulative percentage change since 1970: Changement de pourcentage moyen depuis 1970
+Species group or system: Groupe d'espèces ou système
+National index: Indice national
+Birds index: Indice des oiseaux
+Mammals index: Indice des mammifères
+Fish index: Indice des poissons
+Terrestrial index: Indice terrestre
+Freshwater index: Indice d'eau douce
+Marine index: Indice marin
+By species group: Par groupe d'espèces
+By system: Par système
+System: Système
+
 ## 15-a-1
 Public sector components: Composantes du secteur public
+Official development assistance on conservation and sustainable use of biodiversity: Aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité
+Revenue generated and finance mobilized from biodiversity-relevant economic instruments: Recettes générées et fonds mobilisés par les instruments économiques liés à la biodiversité
 
 ## 16-1-1
-Indigenous identity: Identité autochtone
-Non-Indigenous identity: Identité non autochtone
 Unknown Indigenous identity: Identité autochtone inconnue
 
 ## 16-1-3
-Rate of incidents per 1,000 population 15 years of age and older: Taux d'affaires pour 1 000 personnes âgées de 15 ans et plus
-Rate per 1,000 population: Taux par 1000 personnes
+Proportion of population subjected to physical violence in the previous 12 months: Proportion de la population victime de violence physique au cours des 12 mois précédents
+Proportion of population subjected to sexual violence in the previous 12 months: Proportion de la population victime de violence sexuelle au cours des 12 mois précédents
+Physical violence: Violence physique
+Sexual violence: Violence sexuelle
+Lesbian or gay: Lesbienne ou gai
+First Nations, Métis, or Inuit identity: Identité autochtone (Première Nation, Métis ou Inuit)
+Has a disability: Personne ayant une incapacité
+Does not have a disability: Personne n'ayant aucune incapacité
 
 ## 16-1-4
-Demographic: Ethnicité
-Racialized groups: Groupes racialisés
 Sociodemographic characteristics: Caractéristiques sociodémographiques
-Men+: Hommes+
-Women+: Femmes+
-Total visible minority: |
-    Total minorités visibles
-South Asian: |
-    Sud-Asiatique
-Chinese: |
-    Chinois
-Black: |
-    Noir
-Filipino: |
-    Philippin
-Arab: |
-    Arabe
-Latin American: |
-    Latino-Américain
-Southeast Asian: |
-    Asiatique du Sud-Est
-Not a visible minority: |
-    Pas une minorité visible
 
 ## 16-2-1
-Index: Indice
-Crime severity index: Indice de gravité de la criminalité
-Violent crime severity index: Indice des crimes avec violence
-Youth crime severity index: Indice de gravité de la criminalité chez les jeunes
-Youth violent crime severity index: Indice des crimes avec violence chez les jeunes
+Type of childhood maltreatment: Type de violence physique ou sexuelle subie durant l'enfance
+Physical or sexual abuse: Violence physique ou sexuelle
+Physical abuse: Violence physique
+Sexual abuse: Violence sexuelle
+Male gender: Genre masculin
+Female gender: Genre féminin
+Disability status: Incapacité
+Total, disability status: Total, incapacité
+Total, sexual orientation: Total, orientation sexuelle
+Sexual minority: Minorité sexuelle
+Bisexual or pansexual: Bisexuel ou pansexuel
+Not stated, sexual orientation: Orientation sexuelle non précisée
 
 ## 16-2-3
 Percentage of Canadians 15 years of age and older: Pourcentage de Canadiens de 15 ans et plus
@@ -1957,6 +2046,16 @@ Total robbery: Total des vols qualifiés
 Uttering threats: Menaces
 Total other violent violations: Total des autres infractions avec violence
 Percentage of incidents of violent crime reported to police: Pourcentage d’affaires de crimes violents signalées à la police
+
+## 16-3-1
+Proportion of victims of physical violence in the previous 12 months who reported their victimization to police: Proportion des personnes victimes de violence physique au cours des 12 mois précédents ayant signalé les faits à la police
+Proportion of victimes of sexual violence in the previous 12 months who reported their victimization to police: Proportion des personnes victimes de violence sexuelle au cours des 12 mois précédents ayant signalé les faits à la police
+Physical violence: Violence physique
+Sexual violence: Violence sexuelle
+Type of victimization: Type de victimisation
+_Physical assault: Voies de fait
+Robbery: Vol qualifié
+Sexual assault: Agression sexuelle
 
 ## 16-3-3
 Resolution mechanism: Mécanisme de résolution
@@ -1984,7 +2083,6 @@ Identity fraud: Fraude à l'identité
 Child pornography: Pornographie juvénile
 Making or distribution of child pornography: Production de ou distribution de pornographie juvénile
 
-
 ## 16-5-1
 Offences: Infractions
 Total offences: Total des infractions
@@ -1999,11 +2097,6 @@ Total - age of accused: Total, l'âge de l'accusé
 16 and 17 years: 16 et 17 ans
 Other ages: Autres âges
 Age not applicable: Âge n'ayant pas lieu de figurer
-18 to 24 years: 18 à 24 ans
-25 to 34 years: 25 à 34 ans
-35 to 44 years: 35 à 44 ans
-45 to 54 years: 45 à 54 ans
-55 years and over: 55 ans et plus
 Sex of accused: Sexe de l'accusé
 Total - sex of accused: Total, le sexe de l'accusé
 Company: Sociétés
@@ -2012,33 +2105,92 @@ Type of court: Type de tribunaux
 Adult criminal courts: Tribunaux pour adultes
 Youth courts: Tribunaux de la jeunesse
 
-## 16-7-1
+## 16-7-2
 Institutions: Institutions
-Police: Police
-Characteristics: Caractéristiques
-Total population: Population totale
-Indigenous person: Autochtone
-Non-Indigenous person: Personne non autochtone
-Visible minority: Minorité visible
-Non-visible minority: N’appartenant pas à une minorité visible
-Level of confidence: Niveau de confiance
-A great deal of confidence: Une grande confiance
-Some confidence: Une certaine confiance
-Not very much or no confidence: Très peu confiance ou aucune confiance
+Confidence in the justice system and courts: Confiance dans le système de justice et dans les tribunaux
+Confidence in Federal Parliament: Confiance dans le Parlement fédéral
+Selected sociodemographic characteristics: Certaines caractéristiques sociodémographiques
+Non-Immigrants: Non-immigrants
+First generation: Première génération
+Second generation: Deuxième génération
+Third generation or more: Troisième génération ou plus
+First official language spoken, English only: Première langue officielle parlée, anglais seulement
+First official language spoken, French only: Première langue officielle parlée, français seulement
+Secondary (high) school diploma or equivalency certificate or less: Diplôme d'études secondaires ou attestation d'équivalence ou moins
+Postsecondary certificate or diploma (non-university): Diplôme ou certificat postsecondaire (non universitaire)
+University certificate or diploma: Certificat ou diplôme universitaire
+Use with caution: À utiliser avec prudence
+
+## 16-10-2
+Component: Composante
+Adoption: Adoption
+Implementation: Mise en œuvre
+
+## 16-b-1
+Discrimination indicators: Indicateurs de discrimination
+Did not experience discrimination or unfair treatment in Canada: N'ont pas été victimes de discrimination
+Discrimination at school: Discrimination à l'école
+Discrimination at work: Discrimination au travail
+Discrimination by or among friends or family: Discrimination aux mains de membres de la famille ou d’amis
+Discrimination in any other situation: Discrimination dans toute autre situation
+Discrimination in public areas, a store, bank or restaurant: Discrimination dans des endroits publics, un magasin, une banque ou un restaurant
+Discrimination on the Internet: Discrimination sur Internet
+Discrimination when interacting with the healthcare system: Discrimination dans les rapports avec le système de soins de santé
+Discrimination while using public transit: Discrimination en utilisant le transport en commun
+Experienced discrimination or unfair treatment in Canada: Victimes de discrimination ou de traitement injuste par d’autres personnes au Canada
+LGBTQ2+: LGBTQ2+
+Highest level of education: Plus haut niveau de scolarité
+Main activity: Activité principale
+Total, by immigrant status: Total, selon le statut d’immigrant
+Immigrants, 10 years or less in Canada: Immigrants, au Canada depuis 10 ans ou moins
+Immigrants, more than 10 years in Canada: Immigrants, au Canada depuis plus de 10 ans
+Immigrants, years in Canada not stated: Immigrants, nombre d’années au Canada non précisé
+Total, by visible minority group: Total, selon le groupe de minorité visible
+Visible minority, not included elsewhere: Minorité visible, non incluse ailleurs
+Total, by Indigenous identity: Total, selon l’identité autochtone
+Single Indigenous identity: Identité autochtone unique
+Multiple Indigenous identities: Identités autochtones multiples
+Total, persons with and without a disability, difficulty or long-term condition: Total, personnes ayant une incapacité, une difficulté ou un problème de santé de longue durée ou n’en ayant pas
+Persons with a disability, difficulty or long-term condition: Personnes ayant une incapacité, une difficulté ou un problème de santé de longue durée
+Persons without a disability, difficulty or long-term condition: Personnes n’ayant pas d’incapacité, de difficulté ou de problème de santé de longue durée
+Total, LGBTQ2+ and non-LGBTQ2+ people: Total, personnes LGBTQ2+ et qui ne sont pas LGBTQ2+
+LGBTQ2+ people: Personnes LGBTQ2+
+Non-LGBTQ2+ people: Personnes qui ne sont pas LGBTQ2+
+Total, highest certificate, diploma or degree: Total, plus haut certificat, diplôme ou grade
+No certificate, diploma or degree: Aucun certificat, diplôme ou grade
+Secondary (high) school diploma or equivalency certificate: Diplôme d’études secondaires ou attestation d’équivalence
+Postsecondary certificate, diploma or degree: Certificat, diplôme ou grade d’études postsecondaires
+Postsecondary certificate or diploma below bachelor level: Certificat ou diplôme d’études postsecondaires inférieur au baccalauréat
+Apprenticeship or trades certificate or diploma: Certificat ou diplôme d’apprenti ou d’une école de métiers
+College, CEGEP or other non-university certificate or diploma: Certificat ou diplôme d’un collège, d’un cégep ou d’un autre établissement non universitaire
+University certificate or diploma below bachelor level: Certificat ou diplôme universitaire inférieur au baccalauréat
+Bachelor's degree or higher: Baccalauréat ou grade supérieur
+Bachelor's degree: Baccalauréat
+University certificate or diploma above bachelor level: Certificat, diplôme ou grade universitaire supérieur au baccalauréat
+Total, by main activity: Total, selon l’activité principale
+Working at a paid job or business: Travailler à un emploi rémunéré ou à son propre compte
+Retired: À la retraite
+Other activity: Autre activité
+Total, urban and rural areas: Total, régions urbaines et rurales
+Urban areas: Régions urbaines
+University certificate, diploma or degree above bachelor level: Certificat, diplôme ou grade universitaire supérieur au baccalauréat
+Proportion of population reporting to have experienced discrimination or unfair treatment: Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste
+Proportion of population reporting to have experienced discrimination or unfair treatment in the past 5 years: Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste au cours des 5 dernières années
+Proportion of individuals within a population who reported experiencing discrimination or unfair treatment: Proportion d'individus au sein d'une population déclarant avoir été victimes de discrimination ou de traitement injuste
+Proportion of individuals within a population who reported experiencing discrimination or unfair treatment in the past 5 years: Proportion d'individus au sein d'une population déclarant avoir été victimes de discrimination ou de traitement injuste au cours des 5 dernières années
 
 ## 17-1-1
-Component: Composant
 Taxes: Recettes fiscales
 Social contributions: Cotisations sociales
 Grants: Dons
 Other revenue: Autres recettes
 
 ## 17-2-1
-ODA as a share of GNI: APD en pourcentage du RNB
-Total ODA to least developed countries as a share of GNI: APD totale aux PMA, en pourcentage du RNB
-
-
-## 17-2-1
+ODA as a share of GNI: APD en proportion du RNB
+Total ODA to least developed countries as a share of GNI: APD totale aux PMA, en proportion du RNB
+Official development assistance: Aide publique au développement
+Least developed countries: Pays les moins avancés
+ODA to least developed countries as a share of GNI: APD aux PMA, en proportion du RNB
 Pillar: Pilier
 Region: Région
 Cross-border flows to TOSSD-eligible countries: Flux transfrontaliers vers les pays admissibles au TOSSD
@@ -2053,16 +2205,14 @@ Middle East: Moyen-Orient
 Oceania: Océanie
 
 ## 17-3-1
-## 17-3-1
-Official Development Assistance (ODA): Aide publique au développement (APD)
-Foreign Direct Investment (FDI) inflow: Entrées d’investissement étranger direct (IDE)
+Foreign Direct Investment (FDI) Inflow: Investissements directs étrangers (IDE) entrants
+Foreign Direct Investment (FDI) as a proportion of Gross National Income (GNI): Investissements directs étrangers (IDE) en proportion du revenu national brut (RNB)
+Official Development Assistance (ODA) as a proportion of Gross National Income (GNI): Aide publique au développement (APD) en proportion du revenu national brut (RNB)
 
 ## 17-5-1
-Total value of the supported investment projects : Valeur totale des projets d’investissement soutenus 
+Total value of the supported investment projects: Valeur totale des projets d’investissement soutenus 
 Number of projects: Nombre de projets
 Millions $ CAD: Millions $ CAD
-Number: Nombre
-Total value of the supported investment projects: Valeur totale des projets d’investissement soutenus
 
 ## 17-6-1
 Population centres: Centres de population

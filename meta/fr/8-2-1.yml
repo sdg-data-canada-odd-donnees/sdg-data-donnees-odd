@@ -1,18 +1,24 @@
+# National
 SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
-  et durable, le plein emploi productif et un travail décent pour tous</p>'
+  et durable, le plein emploi productif et un travail décent pour tous</p>'
 SDG_TARGET: '<p>Cible 8.2 : Parvenir à un niveau élevé de productivité économique par
   la diversification, la modernisation technologique et l''innovation, notamment en
   mettant l''accent sur les secteurs à forte valeur ajoutée et à forte intensité de
   main-d''oeuvree</p>'
 SDG_INDICATOR: '<p>Indicateur 8.2.1 : Taux de croissance annuelle du PIB réel par personne
   pourvue d''un emploi</p>'
-STAT_CONC_DEF: <p>Le taux de croissance annuel du PIB réel par personne occupée exprime
-  la variation annuelle en pourcentage du produit intérieur brut réel par personne
-  occupée.</p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: >-
+  Le taux de croissance annuel du PIB réel par personne pourvue d'emploi mesure la variation annuelle en pourcentage du produit intérieur brut (PIB) réel par personne pourvue d'emploi.
+DATA_COMP: >-
+  PIB réel par personne pourvue d'emploi = PIB aux prix du marché (dollars enchaînés de 2017) / Nombre total de personnes pourvues d'emploi (15 ans et plus)
+  <br><br>
+  Taux de croissance annuel du PIB réel par personne pourvue d'emploi (en %) = (((PIB réel par personne pourvue d'emploi de l'année n) - (PIB réel par personne pourvue d'emploi de l'année n-1)) / (PIB réel par personne pourvue d'emploi de l'année n-1)) × 100
+REC_USE_LIM: >-
+  Les données relatives au PIB pour cet indicateur sont calculées en dollars canadiens enchaînés (2017) et non en dollars américains aux prix constants de 2015, comme indiqué dans les métadonnées globales.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
-  et durable, le plein emploi productif et un travail décent pour tous</p>'
+  et durable, le plein emploi productif et un travail décent pour tous</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.2 : Parvenir à un niveau élevé de productivité économique
   par la diversification, la modernisation technologique et l''innovation, notamment
   en mettant l''accent sur les secteurs à forte valeur ajoutée et à forte intensité
@@ -20,23 +26,22 @@ SDG_TARGET__GLOBAL: '<p>Cible 8.2 : Parvenir à un niveau élevé de productivit
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.2.1 : Taux de croissance annuelle du PIB réel
   par personne pourvue d''un emploi</p>'
 
-source_active_1: 'true'
-source_url_text_1: Tableau 36-10-0434-03  Produit intérieur brut (PIB) aux prix de base, par industries, moyenne annuelle (x 1 000 000)
-source_url_1: https://doi.org/10.25318/3610043401-fra
-source_organisation_1: Statistique Canada
-source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada
-
-source_active_2: 'true'
-source_url_text_2: Tableau 14-10-0327-01  Caractéristiques de la population active selon le sexe et le groupe d'âge détaillé, données annuelles
-source_url_2: https://doi.org/10.25318/1410032701-fra
-source_organisation_2: Statistique Canada
-source_periodicity_2: Annuelle
-source_geographical_coverage_2: Canada, Province ou territoire
-
- 
-
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation internationale du Travail
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-02-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Tableau 36-10-0222-01  Produit intérieur brut, en termes de dépenses, provinciaux et territoriaux, annuel (x 1 000 000)
+source_url_1: https://doi.org/10.25318/3610022201-fra
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Province ou territoire
+
+source_active_2: 'true'
+source_url_text_2: Statistique Canada. Tableau 14-10-0327-01  Caractéristiques de la population active selon le sexe et le groupe d'âge détaillé, données annuelles
+source_url_2: https://doi.org/10.25318/1410032701-fra
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada, Province ou territoire

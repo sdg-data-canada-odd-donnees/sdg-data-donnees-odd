@@ -1,28 +1,27 @@
-SDG_GOAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
-SDG_TARGET: '<p>Cible 12.3 : D’ici à 2030, réduire de moitié à l’échelle mondiale le volume 
-  de déchets alimentaires par habitant, au niveau de la distribution comme de la consommation, 
-  et diminuer les pertes de produits alimentaires tout au long des chaînes de production et 
-  d’approvisionnement, y compris les pertes après récolte</p>'
-SDG_INDICATOR: '<p>Indicateur 12.3.1 : a) Indice des pertes alimentaires ; b) indice du 
-  gaspillage alimentaire</p>'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: |-
+  Objectif 12 : Établir des modes de consommation et de production durables
+SDG_TARGET: |-
+  Cible 12.3 : D’ici à 2030, réduire de moitié à l’échelle mondiale le volume de déchets alimentaires par habitant, au niveau de la distribution comme de la consommation, et diminuer les pertes de produits alimentaires tout au long des chaînes de production et d’approvisionnement, y compris les pertes après récolte
+SDG_INDICATOR: |-
+  Indicateur 12.3.1 : a) Indice des pertes alimentaires ; b) indice du gaspillage alimentaire
+STAT_CONC_DEF: |-
+  L’indice des pertes alimentaires : Indice de l’évolution des pertes alimentaires au fil du temps. L’indice couvre cinq groupes d’aliments tout au long de la chaîne d’approvisionnement. L’indicateur est calculé comme un ratio des pourcentages de pertes alimentaires de l’année actuelle et des pourcentages de pertes alimentaires de l’année de base selon une formule d’indice standard à base fixe.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 12.3 : D’ici à 2030, réduire de moitié à l’échelle mondiale le volume 
-  de déchets alimentaires par habitant, au niveau de la distribution comme de la consommation, 
-  et diminuer les pertes de produits alimentaires tout au long des chaînes de production et 
-  d’approvisionnement, y compris les pertes après récolte</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.3.1 : a) Indice des pertes alimentaires ; b) indice du 
-  gaspillage alimentaire</p>'
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 12 : Établir des modes de consommation et de production durables
+SDG_TARGET__GLOBAL: |-
+  Cible 12.3 : D’ici à 2030, réduire de moitié à l’échelle mondiale le volume de déchets alimentaires par habitant, au niveau de la distribution comme de la consommation, et diminuer les pertes de produits alimentaires tout au long des chaînes de production et d’approvisionnement, y compris les pertes après récolte
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 12.3.1 : a) Indice des pertes alimentaires ; b) indice du gaspillage alimentaire
 
 un_designated_tier: Niveau II
-un_custodian_agency: |
-  L’Organisation pour l’alimentation et l’agriculture (FAO) 
-  <br>Programme des Nations Unies pour l'environnement (PNUE)
+un_custodian_agency: |-
+  Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO), Programme des Nations Unies pour l'environnement (PNUE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.3
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
-reporting_status: notstarted
-
- 
+# Source(s)

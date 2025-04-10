@@ -1,391 +1,412 @@
-"Year","Geography","Graduation rate","Gender","GeoCode","Value"
-"2016/2017","","On-time","Total",,80
-"2016/2017","","On-time","Male",,76
-"2016/2017","","On-time","Female",,84
-"2016/2017","","Extended-time","Total",,87
-"2016/2017","","Extended-time","Male",,85
-"2016/2017","","Extended-time","Female",,91
-"2017/2018","","On-time","Total",,81
-"2017/2018","","On-time","Male",,77
-"2017/2018","","On-time","Female",,84
-"2017/2018","","Extended-time","Total",,88
-"2017/2018","","Extended-time","Male",,86
-"2017/2018","","Extended-time","Female",,91
-"2018/2019","","On-time","Total",,81
-"2018/2019","","On-time","Male",,77
-"2018/2019","","On-time","Female",,85
-"2018/2019","","Extended-time","Total",,89
-"2018/2019","","Extended-time","Male",,86
-"2018/2019","","Extended-time","Female",,91
-"2019/2020","","On-time","Total",,84
-"2019/2020","","On-time","Male",,81
-"2019/2020","","On-time","Female",,87
-"2019/2020","","Extended-time","Total",,89
-"2019/2020","","Extended-time","Male",,86
-"2019/2020","","Extended-time","Female",,91
-"2020/2021","","On-time","Total",,84
-"2020/2021","","On-time","Male",,81
-"2020/2021","","On-time","Female",,87
-"2020/2021","","Extended-time","Total",,89
-"2020/2021","","Extended-time","Male",,87
-"2020/2021","","Extended-time","Female",,92
-"2016/2017","Newfoundland and Labrador","On-time","Total",10,88
-"2016/2017","Newfoundland and Labrador","On-time","Male",10,87
-"2016/2017","Newfoundland and Labrador","On-time","Female",10,90
-"2016/2017","Newfoundland and Labrador","Extended-time","Total",10,90
-"2016/2017","Newfoundland and Labrador","Extended-time","Male",10,88
-"2016/2017","Newfoundland and Labrador","Extended-time","Female",10,91
-"2016/2017","Prince Edward Island","On-time","Total",11,85
-"2016/2017","Prince Edward Island","On-time","Male",11,84
-"2016/2017","Prince Edward Island","On-time","Female",11,86
-"2016/2017","Prince Edward Island","Extended-time","Total",11,90
-"2016/2017","Prince Edward Island","Extended-time","Male",11,89
-"2016/2017","Prince Edward Island","Extended-time","Female",11,90
-"2016/2017","Nova Scotia","On-time","Total",12,
-"2016/2017","Nova Scotia","On-time","Male",12,
-"2016/2017","Nova Scotia","On-time","Female",12,
-"2016/2017","Nova Scotia","Extended-time","Total",12,
-"2016/2017","Nova Scotia","Extended-time","Male",12,
-"2016/2017","Nova Scotia","Extended-time","Female",12,
-"2016/2017","New Brunswick","On-time","Total",13,85
-"2016/2017","New Brunswick","On-time","Male",13,82
-"2016/2017","New Brunswick","On-time","Female",13,88
-"2016/2017","New Brunswick","Extended-time","Total",13,85
-"2016/2017","New Brunswick","Extended-time","Male",13,82
-"2016/2017","New Brunswick","Extended-time","Female",13,88
-"2016/2017","Quebec","On-time","Total",24,74
-"2016/2017","Quebec","On-time","Male",24,69
-"2016/2017","Quebec","On-time","Female",24,80
-"2016/2017","Quebec","Extended-time","Total",24,82
-"2016/2017","Quebec","Extended-time","Male",24,78
-"2016/2017","Quebec","Extended-time","Female",24,89
-"2016/2017","Ontario","On-time","Total",35,82
-"2016/2017","Ontario","On-time","Male",35,79
-"2016/2017","Ontario","On-time","Female",35,86
-"2016/2017","Ontario","Extended-time","Total",35,92
-"2016/2017","Ontario","Extended-time","Male",35,89
-"2016/2017","Ontario","Extended-time","Female",35,94
-"2016/2017","Manitoba","On-time","Total",46,82
-"2016/2017","Manitoba","On-time","Male",46,79
-"2016/2017","Manitoba","On-time","Female",46,85
-"2016/2017","Manitoba","Extended-time","Total",46,87
-"2016/2017","Manitoba","Extended-time","Male",46,85
-"2016/2017","Manitoba","Extended-time","Female",46,89
-"2016/2017","Saskatchewan","On-time","Total",47,78
-"2016/2017","Saskatchewan","On-time","Male",47,76
-"2016/2017","Saskatchewan","On-time","Female",47,81
-"2016/2017","Saskatchewan","Extended-time","Total",47,85
-"2016/2017","Saskatchewan","Extended-time","Male",47,82
-"2016/2017","Saskatchewan","Extended-time","Female",47,88
-"2016/2017","Alberta","On-time","Total",48,78
-"2016/2017","Alberta","On-time","Male",48,76
-"2016/2017","Alberta","On-time","Female",48,81
-"2016/2017","Alberta","Extended-time","Total",48,84
-"2016/2017","Alberta","Extended-time","Male",48,82
-"2016/2017","Alberta","Extended-time","Female",48,86
-"2016/2017","British Columbia","On-time","Total",59,81
-"2016/2017","British Columbia","On-time","Male",59,79
-"2016/2017","British Columbia","On-time","Female",59,83
-"2016/2017","British Columbia","Extended-time","Total",59,88
-"2016/2017","British Columbia","Extended-time","Male",59,86
-"2016/2017","British Columbia","Extended-time","Female",59,90
-"2016/2017","Northwest Territories","On-time","Total",61,54
-"2016/2017","Northwest Territories","On-time","Male",61,52
-"2016/2017","Northwest Territories","On-time","Female",61,54
-"2016/2017","Northwest Territories","Extended-time","Total",61,
-"2016/2017","Northwest Territories","Extended-time","Male",61,
-"2016/2017","Northwest Territories","Extended-time","Female",61,
-"2016/2017","Nunavut","On-time","Total",62,47
-"2016/2017","Nunavut","On-time","Male",62,44
-"2016/2017","Nunavut","On-time","Female",62,50
-"2016/2017","Nunavut","Extended-time","Total",62,
-"2016/2017","Nunavut","Extended-time","Male",62,
-"2016/2017","Nunavut","Extended-time","Female",62,
-"2017/2018","Newfoundland and Labrador","On-time","Total",10,88
-"2017/2018","Newfoundland and Labrador","On-time","Male",10,86
-"2017/2018","Newfoundland and Labrador","On-time","Female",10,89
-"2017/2018","Newfoundland and Labrador","Extended-time","Total",10,92
-"2017/2018","Newfoundland and Labrador","Extended-time","Male",10,92
-"2017/2018","Newfoundland and Labrador","Extended-time","Female",10,93
-"2017/2018","Prince Edward Island","On-time","Total",11,87
-"2017/2018","Prince Edward Island","On-time","Male",11,84
-"2017/2018","Prince Edward Island","On-time","Female",11,91
-"2017/2018","Prince Edward Island","Extended-time","Total",11,89
-"2017/2018","Prince Edward Island","Extended-time","Male",11,86
-"2017/2018","Prince Edward Island","Extended-time","Female",11,92
-"2017/2018","Nova Scotia","On-time","Total",12,87
-"2017/2018","Nova Scotia","On-time","Male",12,86
-"2017/2018","Nova Scotia","On-time","Female",12,88
-"2017/2018","Nova Scotia","Extended-time","Total",12,90
-"2017/2018","Nova Scotia","Extended-time","Male",12,88
-"2017/2018","Nova Scotia","Extended-time","Female",12,92
-"2017/2018","New Brunswick","On-time","Total",13,86
-"2017/2018","New Brunswick","On-time","Male",13,83
-"2017/2018","New Brunswick","On-time","Female",13,89
-"2017/2018","New Brunswick","Extended-time","Total",13,90
-"2017/2018","New Brunswick","Extended-time","Male",13,88
-"2017/2018","New Brunswick","Extended-time","Female",13,92
-"2017/2018","Quebec","On-time","Total",24,75
-"2017/2018","Quebec","On-time","Male",24,70
-"2017/2018","Quebec","On-time","Female",24,81
-"2017/2018","Quebec","Extended-time","Total",24,84
-"2017/2018","Quebec","Extended-time","Male",24,80
-"2017/2018","Quebec","Extended-time","Female",24,88
-"2017/2018","Ontario","On-time","Total",35,82
-"2017/2018","Ontario","On-time","Male",35,79
-"2017/2018","Ontario","On-time","Female",35,86
-"2017/2018","Ontario","Extended-time","Total",35,91
-"2017/2018","Ontario","Extended-time","Male",35,89
-"2017/2018","Ontario","Extended-time","Female",35,94
-"2017/2018","Manitoba","On-time","Total",46,83
-"2017/2018","Manitoba","On-time","Male",46,80
-"2017/2018","Manitoba","On-time","Female",46,85
-"2017/2018","Manitoba","Extended-time","Total",46,87
-"2017/2018","Manitoba","Extended-time","Male",46,85
-"2017/2018","Manitoba","Extended-time","Female",46,89
-"2017/2018","Saskatchewan","On-time","Total",47,79
-"2017/2018","Saskatchewan","On-time","Male",47,76
-"2017/2018","Saskatchewan","On-time","Female",47,82
-"2017/2018","Saskatchewan","Extended-time","Total",47,84
-"2017/2018","Saskatchewan","Extended-time","Male",47,82
-"2017/2018","Saskatchewan","Extended-time","Female",47,86
-"2017/2018","Alberta","On-time","Total",48,80
-"2017/2018","Alberta","On-time","Male",48,78
-"2017/2018","Alberta","On-time","Female",48,82
-"2017/2018","Alberta","Extended-time","Total",48,86
-"2017/2018","Alberta","Extended-time","Male",48,84
-"2017/2018","Alberta","Extended-time","Female",48,88
-"2017/2018","British Columbia","On-time","Total",59,81
-"2017/2018","British Columbia","On-time","Male",59,78
-"2017/2018","British Columbia","On-time","Female",59,83
-"2017/2018","British Columbia","Extended-time","Total",59,88
-"2017/2018","British Columbia","Extended-time","Male",59,86
-"2017/2018","British Columbia","Extended-time","Female",59,90
-"2017/2018","Northwest Territories","On-time","Total",61,51
-"2017/2018","Northwest Territories","On-time","Male",61,45
-"2017/2018","Northwest Territories","On-time","Female",61,58
-"2017/2018","Northwest Territories","Extended-time","Total",61,
-"2017/2018","Northwest Territories","Extended-time","Male",61,
-"2017/2018","Northwest Territories","Extended-time","Female",61,
-"2017/2018","Nunavut","On-time","Total",62,
-"2017/2018","Nunavut","On-time","Male",62,
-"2017/2018","Nunavut","On-time","Female",62,
-"2017/2018","Nunavut","Extended-time","Total",62,
-"2017/2018","Nunavut","Extended-time","Male",62,
-"2017/2018","Nunavut","Extended-time","Female",62,
-"2018/2019","Newfoundland and Labrador","On-time","Total",10,89
-"2018/2019","Newfoundland and Labrador","On-time","Male",10,87
-"2018/2019","Newfoundland and Labrador","On-time","Female",10,91
-"2018/2019","Newfoundland and Labrador","Extended-time","Total",10,92
-"2018/2019","Newfoundland and Labrador","Extended-time","Male",10,90
-"2018/2019","Newfoundland and Labrador","Extended-time","Female",10,93
-"2018/2019","Prince Edward Island","On-time","Total",11,89
-"2018/2019","Prince Edward Island","On-time","Male",11,88
-"2018/2019","Prince Edward Island","On-time","Female",11,90
-"2018/2019","Prince Edward Island","Extended-time","Total",11,91
-"2018/2019","Prince Edward Island","Extended-time","Male",11,89
-"2018/2019","Prince Edward Island","Extended-time","Female",11,92
-"2018/2019","Nova Scotia","On-time","Total",12,86
-"2018/2019","Nova Scotia","On-time","Male",12,86
-"2018/2019","Nova Scotia","On-time","Female",12,87
-"2018/2019","Nova Scotia","Extended-time","Total",12,90
-"2018/2019","Nova Scotia","Extended-time","Male",12,89
-"2018/2019","Nova Scotia","Extended-time","Female",12,92
-"2018/2019","New Brunswick","On-time","Total",13,85
-"2018/2019","New Brunswick","On-time","Male",13,83
-"2018/2019","New Brunswick","On-time","Female",13,88
-"2018/2019","New Brunswick","Extended-time","Total",13,89
-"2018/2019","New Brunswick","Extended-time","Male",13,88
-"2018/2019","New Brunswick","Extended-time","Female",13,90
-"2018/2019","Quebec","On-time","Total",24,75
-"2018/2019","Quebec","On-time","Male",24,69
-"2018/2019","Quebec","On-time","Female",24,81
-"2018/2019","Quebec","Extended-time","Total",24,84
-"2018/2019","Quebec","Extended-time","Male",24,79
-"2018/2019","Quebec","Extended-time","Female",24,88
-"2018/2019","Ontario","On-time","Total",35,83
-"2018/2019","Ontario","On-time","Male",35,80
-"2018/2019","Ontario","On-time","Female",35,87
-"2018/2019","Ontario","Extended-time","Total",35,92
-"2018/2019","Ontario","Extended-time","Male",35,90
-"2018/2019","Ontario","Extended-time","Female",35,94
-"2018/2019","Manitoba","On-time","Total",46,82
-"2018/2019","Manitoba","On-time","Male",46,79
-"2018/2019","Manitoba","On-time","Female",46,86
-"2018/2019","Manitoba","Extended-time","Total",46,88
-"2018/2019","Manitoba","Extended-time","Male",46,86
-"2018/2019","Manitoba","Extended-time","Female",46,90
-"2018/2019","Saskatchewan","On-time","Total",47,80
-"2018/2019","Saskatchewan","On-time","Male",47,77
-"2018/2019","Saskatchewan","On-time","Female",47,82
-"2018/2019","Saskatchewan","Extended-time","Total",47,86
-"2018/2019","Saskatchewan","Extended-time","Male",47,84
-"2018/2019","Saskatchewan","Extended-time","Female",47,88
-"2018/2019","Alberta","On-time","Total",48,80
-"2018/2019","Alberta","On-time","Male",48,78
-"2018/2019","Alberta","On-time","Female",48,83
-"2018/2019","Alberta","Extended-time","Total",48,86
-"2018/2019","Alberta","Extended-time","Male",48,84
-"2018/2019","Alberta","Extended-time","Female",48,88
-"2018/2019","British Columbia","On-time","Total",59,81
-"2018/2019","British Columbia","On-time","Male",59,79
-"2018/2019","British Columbia","On-time","Female",59,84
-"2018/2019","British Columbia","Extended-time","Total",59,89
-"2018/2019","British Columbia","Extended-time","Male",59,87
-"2018/2019","British Columbia","Extended-time","Female",59,90
-"2018/2019","Northwest Territories","On-time","Total",61,49
-"2018/2019","Northwest Territories","On-time","Male",61,42
-"2018/2019","Northwest Territories","On-time","Female",61,56
-"2018/2019","Northwest Territories","Extended-time","Total",61,
-"2018/2019","Northwest Territories","Extended-time","Male",61,
-"2018/2019","Northwest Territories","Extended-time","Female",61,
-"2018/2019","Nunavut","On-time","Total",62,
-"2018/2019","Nunavut","On-time","Male",62,
-"2018/2019","Nunavut","On-time","Female",62,
-"2018/2019","Nunavut","Extended-time","Total",62,
-"2018/2019","Nunavut","Extended-time","Male",62,
-"2018/2019","Nunavut","Extended-time","Female",62,
-"2019/2020","Newfoundland and Labrador","On-time","Total",10,94
-"2019/2020","Newfoundland and Labrador","On-time","Male",10,94
-"2019/2020","Newfoundland and Labrador","On-time","Female",10,95
-"2019/2020","Newfoundland and Labrador","Extended-time","Total",10,92
-"2019/2020","Newfoundland and Labrador","Extended-time","Male",10,90
-"2019/2020","Newfoundland and Labrador","Extended-time","Female",10,94
-"2019/2020","Prince Edward Island","On-time","Total",11,92
-"2019/2020","Prince Edward Island","On-time","Male",11,90
-"2019/2020","Prince Edward Island","On-time","Female",11,94
-"2019/2020","Prince Edward Island","Extended-time","Total",11,91
-"2019/2020","Prince Edward Island","Extended-time","Male",11,89
-"2019/2020","Prince Edward Island","Extended-time","Female",11,94
-"2019/2020","Nova Scotia","On-time","Total",12,92
-"2019/2020","Nova Scotia","On-time","Male",12,91
-"2019/2020","Nova Scotia","On-time","Female",12,93
-"2019/2020","Nova Scotia","Extended-time","Total",12,91
-"2019/2020","Nova Scotia","Extended-time","Male",12,90
-"2019/2020","Nova Scotia","Extended-time","Female",12,92
-"2019/2020","New Brunswick","On-time","Total",13,87
-"2019/2020","New Brunswick","On-time","Male",13,86
-"2019/2020","New Brunswick","On-time","Female",13,89
-"2019/2020","New Brunswick","Extended-time","Total",13,89
-"2019/2020","New Brunswick","Extended-time","Male",13,88
-"2019/2020","New Brunswick","Extended-time","Female",13,91
-"2019/2020","Quebec","On-time","Total",24,79
-"2019/2020","Quebec","On-time","Male",24,74
-"2019/2020","Quebec","On-time","Female",24,84
-"2019/2020","Quebec","Extended-time","Total",24,83
-"2019/2020","Quebec","Extended-time","Male",24,80
-"2019/2020","Quebec","Extended-time","Female",24,87
-"2019/2020","Ontario","On-time","Total",35,86
-"2019/2020","Ontario","On-time","Male",35,83
-"2019/2020","Ontario","On-time","Female",35,89
-"2019/2020","Ontario","Extended-time","Total",35,92
-"2019/2020","Ontario","Extended-time","Male",35,90
-"2019/2020","Ontario","Extended-time","Female",35,94
-"2019/2020","Manitoba","On-time","Total",46,82
-"2019/2020","Manitoba","On-time","Male",46,80
-"2019/2020","Manitoba","On-time","Female",46,84
-"2019/2020","Manitoba","Extended-time","Total",46,87
-"2019/2020","Manitoba","Extended-time","Male",46,86
-"2019/2020","Manitoba","Extended-time","Female",46,89
-"2019/2020","Saskatchewan","On-time","Total",47,85
-"2019/2020","Saskatchewan","On-time","Male",47,83
-"2019/2020","Saskatchewan","On-time","Female",47,87
-"2019/2020","Saskatchewan","Extended-time","Total",47,88
-"2019/2020","Saskatchewan","Extended-time","Male",47,85
-"2019/2020","Saskatchewan","Extended-time","Female",47,90
-"2019/2020","Alberta","On-time","Total",48,84
-"2019/2020","Alberta","On-time","Male",48,82
-"2019/2020","Alberta","On-time","Female",48,87
-"2019/2020","Alberta","Extended-time","Total",48,87
-"2019/2020","Alberta","Extended-time","Male",48,85
-"2019/2020","Alberta","Extended-time","Female",48,89
-"2019/2020","British Columbia","On-time","Total",59,84
-"2019/2020","British Columbia","On-time","Male",59,82
-"2019/2020","British Columbia","On-time","Female",59,85
-"2019/2020","British Columbia","Extended-time","Total",59,89
-"2019/2020","British Columbia","Extended-time","Male",59,87
-"2019/2020","British Columbia","Extended-time","Female",59,91
-"2019/2020","Northwest Territories","On-time","Total",61,46
-"2019/2020","Northwest Territories","On-time","Male",61,40
-"2019/2020","Northwest Territories","On-time","Female",61,46
-"2019/2020","Northwest Territories","Extended-time","Total",61,
-"2019/2020","Northwest Territories","Extended-time","Male",61,
-"2019/2020","Northwest Territories","Extended-time","Female",61,
-"2019/2020","Nunavut","On-time","Total",62,
-"2019/2020","Nunavut","On-time","Male",62,
-"2019/2020","Nunavut","On-time","Female",62,
-"2019/2020","Nunavut","Extended-time","Total",62,
-"2019/2020","Nunavut","Extended-time","Male",62,
-"2019/2020","Nunavut","Extended-time","Female",62,
-"2020/2021","Newfoundland and Labrador","On-time","Total",10,89
-"2020/2021","Newfoundland and Labrador","On-time","Male",10,87
-"2020/2021","Newfoundland and Labrador","On-time","Female",10,91
-"2020/2021","Newfoundland and Labrador","Extended-time","Total",10,94
-"2020/2021","Newfoundland and Labrador","Extended-time","Male",10,93
-"2020/2021","Newfoundland and Labrador","Extended-time","Female",10,96
-"2020/2021","Prince Edward Island","On-time","Total",11,92
-"2020/2021","Prince Edward Island","On-time","Male",11,93
-"2020/2021","Prince Edward Island","On-time","Female",11,92
-"2020/2021","Prince Edward Island","Extended-time","Total",11,93
-"2020/2021","Prince Edward Island","Extended-time","Male",11,93
-"2020/2021","Prince Edward Island","Extended-time","Female",11,93
-"2020/2021","Nova Scotia","On-time","Total",12,87
-"2020/2021","Nova Scotia","On-time","Male",12,86
-"2020/2021","Nova Scotia","On-time","Female",12,88
-"2020/2021","Nova Scotia","Extended-time","Total",12,92
-"2020/2021","Nova Scotia","Extended-time","Male",12,92
-"2020/2021","Nova Scotia","Extended-time","Female",12,92
-"2020/2021","New Brunswick","On-time","Total",13,87
-"2020/2021","New Brunswick","On-time","Male",13,87
-"2020/2021","New Brunswick","On-time","Female",13,87
-"2020/2021","New Brunswick","Extended-time","Total",13,87
-"2020/2021","New Brunswick","Extended-time","Male",13,84
-"2020/2021","New Brunswick","Extended-time","Female",13,89
-"2020/2021","Quebec","On-time","Total",24,80
-"2020/2021","Quebec","On-time","Male",24,75
-"2020/2021","Quebec","On-time","Female",24,86
-"2020/2021","Quebec","Extended-time","Total",24,83
-"2020/2021","Quebec","Extended-time","Male",24,79
-"2020/2021","Quebec","Extended-time","Female",24,88
-"2020/2021","Ontario","On-time","Total",35,85
-"2020/2021","Ontario","On-time","Male",35,82
-"2020/2021","Ontario","On-time","Female",35,88
-"2020/2021","Ontario","Extended-time","Total",35,93
-"2020/2021","Ontario","Extended-time","Male",35,91
-"2020/2021","Ontario","Extended-time","Female",35,94
-"2020/2021","Manitoba","On-time","Total",46,85
-"2020/2021","Manitoba","On-time","Male",46,83
-"2020/2021","Manitoba","On-time","Female",46,87
-"2020/2021","Manitoba","Extended-time","Total",46,89
-"2020/2021","Manitoba","Extended-time","Male",46,87
-"2020/2021","Manitoba","Extended-time","Female",46,91
-"2020/2021","Saskatchewan","On-time","Total",47,83
-"2020/2021","Saskatchewan","On-time","Male",47,82
-"2020/2021","Saskatchewan","On-time","Female",47,84
-"2020/2021","Saskatchewan","Extended-time","Total",47,89
-"2020/2021","Saskatchewan","Extended-time","Male",47,87
-"2020/2021","Saskatchewan","Extended-time","Female",47,92
-"2020/2021","Alberta","On-time","Total",48,84
-"2020/2021","Alberta","On-time","Male",48,82
-"2020/2021","Alberta","On-time","Female",48,86
-"2020/2021","Alberta","Extended-time","Total",48,88
-"2020/2021","Alberta","Extended-time","Male",48,86
-"2020/2021","Alberta","Extended-time","Female",48,90
-"2020/2021","British Columbia","On-time","Total",59,83
-"2020/2021","British Columbia","On-time","Male",59,82
-"2020/2021","British Columbia","On-time","Female",59,84
-"2020/2021","British Columbia","Extended-time","Total",59,89
-"2020/2021","British Columbia","Extended-time","Male",59,88
-"2020/2021","British Columbia","Extended-time","Female",59,91
-"2020/2021","Northwest Territories","On-time","Total",61,
-"2020/2021","Northwest Territories","On-time","Male",61,
-"2020/2021","Northwest Territories","On-time","Female",61,
-"2020/2021","Northwest Territories","Extended-time","Total",61,51
-"2020/2021","Northwest Territories","Extended-time","Male",61,44
-"2020/2021","Northwest Territories","Extended-time","Female",61,57
-"2020/2021","Nunavut","On-time","Total",62,
-"2020/2021","Nunavut","On-time","Male",62,
-"2020/2021","Nunavut","On-time","Female",62,
-"2020/2021","Nunavut","Extended-time","Total",62,
-"2020/2021","Nunavut","Extended-time","Male",62,
-"2020/2021","Nunavut","Extended-time","Female",62,
+"Year","Graduation rate","Geography","Gender","GeoCode","Value"
+"2016/2017","","","",,87
+"2017/2018","","","",,88
+"2018/2019","","","",,89
+"2019/2020","","","",,89
+"2020/2021","","","",,89
+"2021/2022","","","",,91
+"2016/2017","On-time","Canada","Total",,80
+"2016/2017","On-time","Canada","Male",,76
+"2016/2017","On-time","Canada","Female",,84
+"2016/2017","Extended-time","Canada","Male",,85
+"2016/2017","Extended-time","Canada","Female",,91
+"2016/2017","On-time","Newfoundland and Labrador","Total",10,88
+"2016/2017","On-time","Newfoundland and Labrador","Male",10,87
+"2016/2017","On-time","Newfoundland and Labrador","Female",10,90
+"2016/2017","Extended-time","Newfoundland and Labrador","Total",10,90
+"2016/2017","Extended-time","Newfoundland and Labrador","Male",10,88
+"2016/2017","Extended-time","Newfoundland and Labrador","Female",10,91
+"2016/2017","On-time","Prince Edward Island","Total",11,85
+"2016/2017","On-time","Prince Edward Island","Male",11,84
+"2016/2017","On-time","Prince Edward Island","Female",11,86
+"2016/2017","Extended-time","Prince Edward Island","Total",11,90
+"2016/2017","Extended-time","Prince Edward Island","Male",11,89
+"2016/2017","Extended-time","Prince Edward Island","Female",11,90
+"2016/2017","On-time","New Brunswick","Total",13,85
+"2016/2017","On-time","New Brunswick","Male",13,82
+"2016/2017","On-time","New Brunswick","Female",13,88
+"2016/2017","Extended-time","New Brunswick","Total",13,85
+"2016/2017","Extended-time","New Brunswick","Male",13,82
+"2016/2017","Extended-time","New Brunswick","Female",13,88
+"2016/2017","On-time","Quebec","Total",24,74
+"2016/2017","On-time","Quebec","Male",24,69
+"2016/2017","On-time","Quebec","Female",24,80
+"2016/2017","Extended-time","Quebec","Total",24,82
+"2016/2017","Extended-time","Quebec","Male",24,78
+"2016/2017","Extended-time","Quebec","Female",24,89
+"2016/2017","On-time","Ontario","Total",35,82
+"2016/2017","On-time","Ontario","Male",35,79
+"2016/2017","On-time","Ontario","Female",35,86
+"2016/2017","Extended-time","Ontario","Total",35,92
+"2016/2017","Extended-time","Ontario","Male",35,89
+"2016/2017","Extended-time","Ontario","Female",35,94
+"2016/2017","On-time","Manitoba","Total",46,82
+"2016/2017","On-time","Manitoba","Male",46,79
+"2016/2017","On-time","Manitoba","Female",46,85
+"2016/2017","Extended-time","Manitoba","Total",46,87
+"2016/2017","Extended-time","Manitoba","Male",46,85
+"2016/2017","Extended-time","Manitoba","Female",46,89
+"2016/2017","On-time","Saskatchewan","Total",47,78
+"2016/2017","On-time","Saskatchewan","Male",47,76
+"2016/2017","On-time","Saskatchewan","Female",47,81
+"2016/2017","Extended-time","Saskatchewan","Total",47,85
+"2016/2017","Extended-time","Saskatchewan","Male",47,82
+"2016/2017","Extended-time","Saskatchewan","Female",47,88
+"2016/2017","On-time","Alberta","Total",48,78
+"2016/2017","On-time","Alberta","Male",48,76
+"2016/2017","On-time","Alberta","Female",48,81
+"2016/2017","Extended-time","Alberta","Total",48,84
+"2016/2017","Extended-time","Alberta","Male",48,82
+"2016/2017","Extended-time","Alberta","Female",48,86
+"2016/2017","On-time","British Columbia","Total",59,81
+"2016/2017","On-time","British Columbia","Male",59,79
+"2016/2017","On-time","British Columbia","Female",59,83
+"2016/2017","Extended-time","British Columbia","Total",59,88
+"2016/2017","Extended-time","British Columbia","Male",59,86
+"2016/2017","Extended-time","British Columbia","Female",59,90
+"2016/2017","On-time","Northwest Territories","Total",61,54
+"2016/2017","On-time","Northwest Territories","Male",61,52
+"2016/2017","On-time","Northwest Territories","Female",61,54
+"2016/2017","On-time","Nunavut","Total",62,47
+"2016/2017","On-time","Nunavut","Male",62,44
+"2016/2017","On-time","Nunavut","Female",62,50
+"2017/2018","On-time","Canada","Total",,81
+"2017/2018","On-time","Canada","Male",,77
+"2017/2018","On-time","Canada","Female",,84
+"2017/2018","Extended-time","Canada","Male",,86
+"2017/2018","Extended-time","Canada","Female",,91
+"2017/2018","On-time","Newfoundland and Labrador","Total",10,88
+"2017/2018","On-time","Newfoundland and Labrador","Male",10,86
+"2017/2018","On-time","Newfoundland and Labrador","Female",10,89
+"2017/2018","Extended-time","Newfoundland and Labrador","Total",10,92
+"2017/2018","Extended-time","Newfoundland and Labrador","Male",10,92
+"2017/2018","Extended-time","Newfoundland and Labrador","Female",10,93
+"2017/2018","On-time","Prince Edward Island","Total",11,87
+"2017/2018","On-time","Prince Edward Island","Male",11,84
+"2017/2018","On-time","Prince Edward Island","Female",11,91
+"2017/2018","Extended-time","Prince Edward Island","Total",11,89
+"2017/2018","Extended-time","Prince Edward Island","Male",11,86
+"2017/2018","Extended-time","Prince Edward Island","Female",11,92
+"2017/2018","On-time","Nova Scotia","Total",12,87
+"2017/2018","On-time","Nova Scotia","Male",12,86
+"2017/2018","On-time","Nova Scotia","Female",12,88
+"2017/2018","Extended-time","Nova Scotia","Total",12,90
+"2017/2018","Extended-time","Nova Scotia","Male",12,88
+"2017/2018","Extended-time","Nova Scotia","Female",12,92
+"2017/2018","On-time","New Brunswick","Total",13,86
+"2017/2018","On-time","New Brunswick","Male",13,83
+"2017/2018","On-time","New Brunswick","Female",13,89
+"2017/2018","Extended-time","New Brunswick","Total",13,90
+"2017/2018","Extended-time","New Brunswick","Male",13,88
+"2017/2018","Extended-time","New Brunswick","Female",13,92
+"2017/2018","On-time","Quebec","Total",24,75
+"2017/2018","On-time","Quebec","Male",24,70
+"2017/2018","On-time","Quebec","Female",24,81
+"2017/2018","Extended-time","Quebec","Total",24,84
+"2017/2018","Extended-time","Quebec","Male",24,80
+"2017/2018","Extended-time","Quebec","Female",24,88
+"2017/2018","On-time","Ontario","Total",35,82
+"2017/2018","On-time","Ontario","Male",35,79
+"2017/2018","On-time","Ontario","Female",35,86
+"2017/2018","Extended-time","Ontario","Total",35,91
+"2017/2018","Extended-time","Ontario","Male",35,89
+"2017/2018","Extended-time","Ontario","Female",35,94
+"2017/2018","On-time","Manitoba","Total",46,83
+"2017/2018","On-time","Manitoba","Male",46,80
+"2017/2018","On-time","Manitoba","Female",46,85
+"2017/2018","Extended-time","Manitoba","Total",46,87
+"2017/2018","Extended-time","Manitoba","Male",46,85
+"2017/2018","Extended-time","Manitoba","Female",46,89
+"2017/2018","On-time","Saskatchewan","Total",47,79
+"2017/2018","On-time","Saskatchewan","Male",47,76
+"2017/2018","On-time","Saskatchewan","Female",47,82
+"2017/2018","Extended-time","Saskatchewan","Total",47,84
+"2017/2018","Extended-time","Saskatchewan","Male",47,82
+"2017/2018","Extended-time","Saskatchewan","Female",47,86
+"2017/2018","On-time","Alberta","Total",48,80
+"2017/2018","On-time","Alberta","Male",48,78
+"2017/2018","On-time","Alberta","Female",48,82
+"2017/2018","Extended-time","Alberta","Total",48,86
+"2017/2018","Extended-time","Alberta","Male",48,84
+"2017/2018","Extended-time","Alberta","Female",48,88
+"2017/2018","On-time","British Columbia","Total",59,81
+"2017/2018","On-time","British Columbia","Male",59,78
+"2017/2018","On-time","British Columbia","Female",59,83
+"2017/2018","Extended-time","British Columbia","Total",59,88
+"2017/2018","Extended-time","British Columbia","Male",59,86
+"2017/2018","Extended-time","British Columbia","Female",59,90
+"2017/2018","On-time","Northwest Territories","Total",61,51
+"2017/2018","On-time","Northwest Territories","Male",61,45
+"2017/2018","On-time","Northwest Territories","Female",61,58
+"2018/2019","On-time","Canada","Total",,81
+"2018/2019","On-time","Canada","Male",,77
+"2018/2019","On-time","Canada","Female",,85
+"2018/2019","Extended-time","Canada","Male",,86
+"2018/2019","Extended-time","Canada","Female",,91
+"2018/2019","On-time","Newfoundland and Labrador","Total",10,89
+"2018/2019","On-time","Newfoundland and Labrador","Male",10,87
+"2018/2019","On-time","Newfoundland and Labrador","Female",10,91
+"2018/2019","Extended-time","Newfoundland and Labrador","Total",10,92
+"2018/2019","Extended-time","Newfoundland and Labrador","Male",10,90
+"2018/2019","Extended-time","Newfoundland and Labrador","Female",10,93
+"2018/2019","On-time","Prince Edward Island","Total",11,89
+"2018/2019","On-time","Prince Edward Island","Male",11,88
+"2018/2019","On-time","Prince Edward Island","Female",11,90
+"2018/2019","Extended-time","Prince Edward Island","Total",11,91
+"2018/2019","Extended-time","Prince Edward Island","Male",11,89
+"2018/2019","Extended-time","Prince Edward Island","Female",11,92
+"2018/2019","On-time","Nova Scotia","Total",12,86
+"2018/2019","On-time","Nova Scotia","Male",12,86
+"2018/2019","On-time","Nova Scotia","Female",12,87
+"2018/2019","Extended-time","Nova Scotia","Total",12,90
+"2018/2019","Extended-time","Nova Scotia","Male",12,89
+"2018/2019","Extended-time","Nova Scotia","Female",12,92
+"2018/2019","On-time","New Brunswick","Total",13,85
+"2018/2019","On-time","New Brunswick","Male",13,83
+"2018/2019","On-time","New Brunswick","Female",13,88
+"2018/2019","Extended-time","New Brunswick","Total",13,89
+"2018/2019","Extended-time","New Brunswick","Male",13,88
+"2018/2019","Extended-time","New Brunswick","Female",13,90
+"2018/2019","On-time","Quebec","Total",24,75
+"2018/2019","On-time","Quebec","Male",24,69
+"2018/2019","On-time","Quebec","Female",24,81
+"2018/2019","Extended-time","Quebec","Total",24,84
+"2018/2019","Extended-time","Quebec","Male",24,79
+"2018/2019","Extended-time","Quebec","Female",24,88
+"2018/2019","On-time","Ontario","Total",35,83
+"2018/2019","On-time","Ontario","Male",35,80
+"2018/2019","On-time","Ontario","Female",35,87
+"2018/2019","Extended-time","Ontario","Total",35,92
+"2018/2019","Extended-time","Ontario","Male",35,90
+"2018/2019","Extended-time","Ontario","Female",35,94
+"2018/2019","On-time","Manitoba","Total",46,82
+"2018/2019","On-time","Manitoba","Male",46,79
+"2018/2019","On-time","Manitoba","Female",46,86
+"2018/2019","Extended-time","Manitoba","Total",46,88
+"2018/2019","Extended-time","Manitoba","Male",46,86
+"2018/2019","Extended-time","Manitoba","Female",46,90
+"2018/2019","On-time","Saskatchewan","Total",47,80
+"2018/2019","On-time","Saskatchewan","Male",47,77
+"2018/2019","On-time","Saskatchewan","Female",47,82
+"2018/2019","Extended-time","Saskatchewan","Total",47,86
+"2018/2019","Extended-time","Saskatchewan","Male",47,84
+"2018/2019","Extended-time","Saskatchewan","Female",47,88
+"2018/2019","On-time","Alberta","Total",48,80
+"2018/2019","On-time","Alberta","Male",48,78
+"2018/2019","On-time","Alberta","Female",48,83
+"2018/2019","Extended-time","Alberta","Total",48,86
+"2018/2019","Extended-time","Alberta","Male",48,84
+"2018/2019","Extended-time","Alberta","Female",48,88
+"2018/2019","On-time","British Columbia","Total",59,81
+"2018/2019","On-time","British Columbia","Male",59,79
+"2018/2019","On-time","British Columbia","Female",59,84
+"2018/2019","Extended-time","British Columbia","Total",59,89
+"2018/2019","Extended-time","British Columbia","Male",59,87
+"2018/2019","Extended-time","British Columbia","Female",59,90
+"2018/2019","On-time","Northwest Territories","Total",61,49
+"2018/2019","On-time","Northwest Territories","Male",61,42
+"2018/2019","On-time","Northwest Territories","Female",61,56
+"2019/2020","On-time","Canada","Total",,84
+"2019/2020","On-time","Canada","Male",,81
+"2019/2020","On-time","Canada","Female",,87
+"2019/2020","Extended-time","Canada","Male",,86
+"2019/2020","Extended-time","Canada","Female",,91
+"2019/2020","On-time","Newfoundland and Labrador","Total",10,94
+"2019/2020","On-time","Newfoundland and Labrador","Male",10,94
+"2019/2020","On-time","Newfoundland and Labrador","Female",10,95
+"2019/2020","Extended-time","Newfoundland and Labrador","Total",10,92
+"2019/2020","Extended-time","Newfoundland and Labrador","Male",10,90
+"2019/2020","Extended-time","Newfoundland and Labrador","Female",10,94
+"2019/2020","On-time","Prince Edward Island","Total",11,92
+"2019/2020","On-time","Prince Edward Island","Male",11,90
+"2019/2020","On-time","Prince Edward Island","Female",11,94
+"2019/2020","Extended-time","Prince Edward Island","Total",11,91
+"2019/2020","Extended-time","Prince Edward Island","Male",11,89
+"2019/2020","Extended-time","Prince Edward Island","Female",11,94
+"2019/2020","On-time","Nova Scotia","Total",12,92
+"2019/2020","On-time","Nova Scotia","Male",12,91
+"2019/2020","On-time","Nova Scotia","Female",12,93
+"2019/2020","Extended-time","Nova Scotia","Total",12,91
+"2019/2020","Extended-time","Nova Scotia","Male",12,90
+"2019/2020","Extended-time","Nova Scotia","Female",12,92
+"2019/2020","On-time","New Brunswick","Total",13,87
+"2019/2020","On-time","New Brunswick","Male",13,86
+"2019/2020","On-time","New Brunswick","Female",13,89
+"2019/2020","Extended-time","New Brunswick","Total",13,89
+"2019/2020","Extended-time","New Brunswick","Male",13,88
+"2019/2020","Extended-time","New Brunswick","Female",13,91
+"2019/2020","On-time","Quebec","Total",24,79
+"2019/2020","On-time","Quebec","Male",24,74
+"2019/2020","On-time","Quebec","Female",24,84
+"2019/2020","Extended-time","Quebec","Total",24,83
+"2019/2020","Extended-time","Quebec","Male",24,80
+"2019/2020","Extended-time","Quebec","Female",24,87
+"2019/2020","On-time","Ontario","Total",35,86
+"2019/2020","On-time","Ontario","Male",35,83
+"2019/2020","On-time","Ontario","Female",35,89
+"2019/2020","Extended-time","Ontario","Total",35,92
+"2019/2020","Extended-time","Ontario","Male",35,90
+"2019/2020","Extended-time","Ontario","Female",35,94
+"2019/2020","On-time","Manitoba","Total",46,82
+"2019/2020","On-time","Manitoba","Male",46,80
+"2019/2020","On-time","Manitoba","Female",46,84
+"2019/2020","Extended-time","Manitoba","Total",46,87
+"2019/2020","Extended-time","Manitoba","Male",46,86
+"2019/2020","Extended-time","Manitoba","Female",46,89
+"2019/2020","On-time","Saskatchewan","Total",47,85
+"2019/2020","On-time","Saskatchewan","Male",47,83
+"2019/2020","On-time","Saskatchewan","Female",47,87
+"2019/2020","Extended-time","Saskatchewan","Total",47,88
+"2019/2020","Extended-time","Saskatchewan","Male",47,85
+"2019/2020","Extended-time","Saskatchewan","Female",47,90
+"2019/2020","On-time","Alberta","Total",48,84
+"2019/2020","On-time","Alberta","Male",48,82
+"2019/2020","On-time","Alberta","Female",48,87
+"2019/2020","Extended-time","Alberta","Total",48,87
+"2019/2020","Extended-time","Alberta","Male",48,85
+"2019/2020","Extended-time","Alberta","Female",48,89
+"2019/2020","On-time","British Columbia","Total",59,84
+"2019/2020","On-time","British Columbia","Male",59,82
+"2019/2020","On-time","British Columbia","Female",59,85
+"2019/2020","Extended-time","British Columbia","Total",59,89
+"2019/2020","Extended-time","British Columbia","Male",59,87
+"2019/2020","Extended-time","British Columbia","Female",59,91
+"2019/2020","On-time","Northwest Territories","Total",61,46
+"2019/2020","On-time","Northwest Territories","Male",61,40
+"2019/2020","On-time","Northwest Territories","Female",61,46
+"2020/2021","On-time","Canada","Total",,84
+"2020/2021","On-time","Canada","Male",,81
+"2020/2021","On-time","Canada","Female",,87
+"2020/2021","Extended-time","Canada","Male",,87
+"2020/2021","Extended-time","Canada","Female",,92
+"2020/2021","On-time","Newfoundland and Labrador","Total",10,89
+"2020/2021","On-time","Newfoundland and Labrador","Male",10,87
+"2020/2021","On-time","Newfoundland and Labrador","Female",10,91
+"2020/2021","Extended-time","Newfoundland and Labrador","Total",10,94
+"2020/2021","Extended-time","Newfoundland and Labrador","Male",10,93
+"2020/2021","Extended-time","Newfoundland and Labrador","Female",10,96
+"2020/2021","On-time","Prince Edward Island","Total",11,92
+"2020/2021","On-time","Prince Edward Island","Male",11,93
+"2020/2021","On-time","Prince Edward Island","Female",11,92
+"2020/2021","Extended-time","Prince Edward Island","Total",11,93
+"2020/2021","Extended-time","Prince Edward Island","Male",11,93
+"2020/2021","Extended-time","Prince Edward Island","Female",11,93
+"2020/2021","On-time","Nova Scotia","Total",12,87
+"2020/2021","On-time","Nova Scotia","Male",12,86
+"2020/2021","On-time","Nova Scotia","Female",12,88
+"2020/2021","Extended-time","Nova Scotia","Total",12,92
+"2020/2021","Extended-time","Nova Scotia","Male",12,92
+"2020/2021","Extended-time","Nova Scotia","Female",12,92
+"2020/2021","On-time","New Brunswick","Total",13,87
+"2020/2021","On-time","New Brunswick","Male",13,87
+"2020/2021","On-time","New Brunswick","Female",13,87
+"2020/2021","Extended-time","New Brunswick","Total",13,87
+"2020/2021","Extended-time","New Brunswick","Male",13,84
+"2020/2021","Extended-time","New Brunswick","Female",13,89
+"2020/2021","On-time","Quebec","Total",24,80
+"2020/2021","On-time","Quebec","Male",24,75
+"2020/2021","On-time","Quebec","Female",24,86
+"2020/2021","Extended-time","Quebec","Total",24,83
+"2020/2021","Extended-time","Quebec","Male",24,79
+"2020/2021","Extended-time","Quebec","Female",24,88
+"2020/2021","On-time","Ontario","Total",35,85
+"2020/2021","On-time","Ontario","Male",35,82
+"2020/2021","On-time","Ontario","Female",35,88
+"2020/2021","Extended-time","Ontario","Total",35,93
+"2020/2021","Extended-time","Ontario","Male",35,91
+"2020/2021","Extended-time","Ontario","Female",35,94
+"2020/2021","On-time","Manitoba","Total",46,85
+"2020/2021","On-time","Manitoba","Male",46,83
+"2020/2021","On-time","Manitoba","Female",46,87
+"2020/2021","Extended-time","Manitoba","Total",46,89
+"2020/2021","Extended-time","Manitoba","Male",46,87
+"2020/2021","Extended-time","Manitoba","Female",46,91
+"2020/2021","On-time","Saskatchewan","Total",47,83
+"2020/2021","On-time","Saskatchewan","Male",47,82
+"2020/2021","On-time","Saskatchewan","Female",47,84
+"2020/2021","Extended-time","Saskatchewan","Total",47,89
+"2020/2021","Extended-time","Saskatchewan","Male",47,87
+"2020/2021","Extended-time","Saskatchewan","Female",47,92
+"2020/2021","On-time","Alberta","Total",48,84
+"2020/2021","On-time","Alberta","Male",48,82
+"2020/2021","On-time","Alberta","Female",48,86
+"2020/2021","Extended-time","Alberta","Total",48,88
+"2020/2021","Extended-time","Alberta","Male",48,86
+"2020/2021","Extended-time","Alberta","Female",48,90
+"2020/2021","On-time","British Columbia","Total",59,83
+"2020/2021","On-time","British Columbia","Male",59,82
+"2020/2021","On-time","British Columbia","Female",59,84
+"2020/2021","Extended-time","British Columbia","Total",59,89
+"2020/2021","Extended-time","British Columbia","Male",59,88
+"2020/2021","Extended-time","British Columbia","Female",59,91
+"2020/2021","Extended-time","Northwest Territories","Total",61,51
+"2020/2021","Extended-time","Northwest Territories","Male",61,44
+"2020/2021","Extended-time","Northwest Territories","Female",61,57
+"2021/2022","On-time","Canada","Total",,84
+"2021/2022","On-time","Canada","Male",,81
+"2021/2022","On-time","Canada","Female",,86
+"2021/2022","Extended-time","Canada","Male",,89
+"2021/2022","Extended-time","Canada","Female",,93
+"2021/2022","On-time","Newfoundland and Labrador","Total",10,89
+"2021/2022","On-time","Newfoundland and Labrador","Male",10,88
+"2021/2022","On-time","Newfoundland and Labrador","Female",10,90
+"2021/2022","Extended-time","Newfoundland and Labrador","Total",10,97
+"2021/2022","Extended-time","Newfoundland and Labrador","Male",10,96
+"2021/2022","Extended-time","Newfoundland and Labrador","Female",10,97
+"2021/2022","On-time","Prince Edward Island","Total",11,90
+"2021/2022","On-time","Prince Edward Island","Male",11,91
+"2021/2022","On-time","Prince Edward Island","Female",11,90
+"2021/2022","Extended-time","Prince Edward Island","Total",11,96
+"2021/2022","Extended-time","Prince Edward Island","Male",11,95
+"2021/2022","Extended-time","Prince Edward Island","Female",11,97
+"2021/2022","On-time","Nova Scotia","Total",12,91
+"2021/2022","On-time","Nova Scotia","Male",12,92
+"2021/2022","On-time","Nova Scotia","Female",12,90
+"2021/2022","Extended-time","Nova Scotia","Total",12,96
+"2021/2022","Extended-time","Nova Scotia","Male",12,96
+"2021/2022","Extended-time","Nova Scotia","Female",12,96
+"2021/2022","On-time","New Brunswick","Total",13,85
+"2021/2022","On-time","New Brunswick","Male",13,84
+"2021/2022","On-time","New Brunswick","Female",13,86
+"2021/2022","Extended-time","New Brunswick","Total",13,90
+"2021/2022","Extended-time","New Brunswick","Male",13,88
+"2021/2022","Extended-time","New Brunswick","Female",13,93
+"2021/2022","On-time","Quebec","Total",24,76
+"2021/2022","On-time","Quebec","Male",24,70
+"2021/2022","On-time","Quebec","Female",24,82
+"2021/2022","Extended-time","Quebec","Total",24,86
+"2021/2022","Extended-time","Quebec","Male",24,83
+"2021/2022","Extended-time","Quebec","Female",24,89
+"2021/2022","On-time","Ontario","Total",35,87
+"2021/2022","On-time","Ontario","Male",35,85
+"2021/2022","On-time","Ontario","Female",35,90
+"2021/2022","Extended-time","Ontario","Total",35,94
+"2021/2022","Extended-time","Ontario","Male",35,92
+"2021/2022","Extended-time","Ontario","Female",35,96
+"2021/2022","On-time","Manitoba","Total",46,84
+"2021/2022","On-time","Manitoba","Male",46,82
+"2021/2022","On-time","Manitoba","Female",46,87
+"2021/2022","Extended-time","Manitoba","Total",46,88
+"2021/2022","Extended-time","Manitoba","Male",46,87
+"2021/2022","Extended-time","Manitoba","Female",46,89
+"2021/2022","On-time","Saskatchewan","Total",47,83
+"2021/2022","On-time","Saskatchewan","Male",47,82
+"2021/2022","On-time","Saskatchewan","Female",47,84
+"2021/2022","Extended-time","Saskatchewan","Total",47,91
+"2021/2022","Extended-time","Saskatchewan","Male",47,89
+"2021/2022","Extended-time","Saskatchewan","Female",47,92
+"2021/2022","On-time","Alberta","Total",48,82
+"2021/2022","On-time","Alberta","Male",48,80
+"2021/2022","On-time","Alberta","Female",48,84
+"2021/2022","Extended-time","Alberta","Total",48,90
+"2021/2022","Extended-time","Alberta","Male",48,88
+"2021/2022","Extended-time","Alberta","Female",48,92
+"2021/2022","On-time","British Columbia","Total",59,84
+"2021/2022","On-time","British Columbia","Male",59,82
+"2021/2022","On-time","British Columbia","Female",59,85
+"2021/2022","Extended-time","British Columbia","Total",59,87
+"2021/2022","Extended-time","British Columbia","Male",59,86
+"2021/2022","Extended-time","British Columbia","Female",59,89
+"2021/2022","Extended-time","Northwest Territories","Total",61,57
+"2021/2022","Extended-time","Northwest Territories","Male",61,50
+"2021/2022","Extended-time","Northwest Territories","Female",61,57

@@ -3,16 +3,30 @@ SDG_GOAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promo
 SDG_TARGET: '<p>Target 4.1: By 2030, ensure that all girls and boys complete free,
   equitable and quality primary and secondary education leading to relevant and effective
   learning outcomes</p>'
-SDG_INDICATOR: '<p>Indicator 4.1.1: Proportion of children and young people: (a) in
-  grades 2/3; (b) at the end of primary; education and (c) at the end of lower secondary
-  education achieving at least a minimum proficiency level in (i) reading and (ii)
-  mathematics, by sex</p>'
+SDG_INDICATOR: '<p>Indicator 4.1.1: Proportion of children and young people (a) in Grade 4; and (c) aged 15 years achieving at least a minimum proficiency level in (i) reading and (ii) mathematics</p>'
 STAT_CONC_DEF: 'Percentage of children and young people achieving at least a minimum proficiency level in (i) reading and 
-  (ii) mathematics during primary education (Grade 2 or 3), at the end of primary education, and at the end 
-  of lower secondary education. The minimum proficiency level will be measured relative to new common 
+  (ii) mathematics during primary education (Grade 4) and at the end 
+  of lower secondary education (15 years old). The minimum proficiency level will be measured relative to new common 
   reading and mathematics scales currently in development.'
-DATA_COMP: custom.data-comp
-REC_USE_LIM: 'The proportion of children and young people is reported for grade 4 instead indicator series (a) in grades 2/3.'
+DATA_COMP: |
+  Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source. 
+  <br>
+  <br> Data for the series "Children in Grade 4 achieving at least a minimum proficiency level in mathematics" can be accessed at the following sources: Source 2, Source 3, and Source 4 in the Sources tab. Data for all other series can be accessed at Source 1.
+  <br>
+  <br> Data for the year 2015 for the series "Children in Grade 4 achieving at least a minimum proficiency level in mathematics" is derived by aggregating the percentages ranging from the Low benchmark to the Advanced benchmark.
+REC_USE_LIM: |
+  This is a proxy indicator. The UN Global indicator states: Proportion of children and young people:
+  (a) in grades 2/3; (b) at the end of primary; education and (c) at the end of lower
+  secondary education achieving at least a minimum proficiency level in (i) reading
+  and (ii) mathematics, by sex".
+  <br>
+  <br> Series (a): Data for this series are reported for Grade 4, rather than Grade 2 or 3 as specified by the UN metadata.
+  <br>
+  <br> Series (b): Data are not available for Canada.
+  <br>
+  <br> Series (c): Data for this series are reported for young people aged 15 years, rather than at the end of lower secondary education as specified by the UN metadata.
+  <br>
+  <br> The data for Canada obtained from the Trends in International Mathematics and Science Study (TIMSS) includes only the provinces of Alberta, Manitoba, Newfoundland and Labrador, Ontario, and Quebec.
  
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
   promote lifelong learning opportunities for all</p>'
@@ -24,31 +38,41 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 4.1.1: Proportion of children and young peo
   secondary education achieving at least a minimum proficiency level in (i) reading
   and (ii) mathematics, by sex</p>'
 un_designated_tier: Tier I
-un_custodian_agency: UNESCO Institute for Statistics
+un_custodian_agency: UNESCO Institute for Statistics (UIS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: |
-    TIMSS 2019 - Canadian Results from the Trends in International Mathematics and Science Study: Highlights
-source_url_1: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_EN.pdf
-source_organisation_1: Council of Ministers of Education, Canada (CMEC)
+    UIS Database - SDG 4 Indicators
+source_url_1: https://sdg4-data.uis.unesco.org/
+source_organisation_1: UNESCO Institute for Statistics (UIS)
 source_periodicity_1: Occasional
-source_geographical_coverage_1: Canada, Province or territory
+source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: |
-    PIRLS/ePIRLS 2016 Canada in Context. Appendix B.
-source_url_2: https://cmec.ca/Publications/Lists/Publications/Attachments/385/PIRLS2016-Report-EN.pdf
+    TIMSS 2015 - Canadian Results from the Trends in International Mathematics and Science Study. Appendix B - Table B.1.1
+source_url_2: https://www.cmec.ca/Publications/Lists/Publications/Attachments/373/TIMSS2015_Report_EN.pdf
 source_organisation_2: Council of Ministers of Education, Canada (CMEC)
 source_periodicity_2: Occasional
-source_geographical_coverage_2: Canada, Province or territory
+source_geographical_coverage_2: Canada
 
 source_active_3: 'true'
 source_url_text_3: |
-    Measuring up: Canadian Results of the OECD PISA 2018 Study - The Performance of Canadian 15-Year-Olds in Reading, Mathematics, and Science. Appendix B.
-source_url_3: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_EN.pdf
+    TIMSS 2019 - Canadian Results from the Trends in International Mathematics and Science Study: Highlights
+source_url_3: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_EN.pdf
 source_organisation_3: Council of Ministers of Education, Canada (CMEC)
 source_periodicity_3: Occasional
-source_geographical_coverage_3: Canada, Province or territory
+source_geographical_coverage_3: Canada
+
+source_active_4: 'true'
+source_url_text_4: |
+    TIMSS 2023 - Percentages of Students Reaching International Benchmarks of Mathematics Achievement in Grade 4
+source_url_4: https://timss2023.org/results/grade-4-math-achievement-benchmarks-distribution/
+source_organisation_4: Boston College, TIMSS & PIRLS International Study Center
+source_periodicity_4: Occasional
+source_geographical_coverage_4: Canada
+
+proxy: proxy

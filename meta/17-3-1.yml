@@ -5,9 +5,31 @@ SDG_TARGET: '<p>Target 17.3: Mobilize additional financial resources for develop
 SDG_INDICATOR: '<p>Indicator 17.3.1: Foreign direct investments (FDI), official development
   assistance and South-South Cooperation as a proportion of gross national income
   (GNI)</p>'
-STAT_CONC_DEF: '<p>FDI part: FDI inflows (expressed in millions of US dollars)</p>'
-DATA_COMP: '<p>Foreign Direct Investment as a proportion of Gross National Income (GNI) is 
-  calculated as (FDI/GNI) x 100.</p>'
+STAT_CONC_DEF: |
+  This indicator measures Foreign Direct Investment (FDI) and Official Development
+  Assistance (ODA) as a proportion of Gross National Income (GNI).
+  <br><br>
+  Foreign direct investment (FDI) is a category of investment that reflects
+  the objective of establishing a lasting interest by a resident enterprise in
+  one economy (direct investor) in an enterprise (direct investment enterprise)
+  that is resident in an economy other than that of the direct investor. The
+  lasting interest implies the existence of a long-term relationship between the
+  direct investor and the direct investment enterprise and a significant degree
+  of influence on the management of the enterprise. The direct or indirect
+  ownership of 10% or more of the voting power of an enterprise resident in one
+  economy by an investor resident in another economy is taken as evidence of
+  such a relationship.
+  <br><br>
+  The Development Assistance Committee (DAC) defines Official Development Assistance (ODA) as “those flows to countries and territories on the DAC List of ODA Recipients and to multilateral institutions which are <br><br>
+  i) provided by official agencies, including state and local governments, or by their executive agencies; and <br>
+  ii) each transaction is administered with the promotion of the economic development and welfare of developing countries as its main objective; and is concessional in character and conveys a grant element of at least 25 per cent (calculated at a rate of discount of 10 per cent). (See <a href="https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>)
+
+DATA_COMP: |
+  The series "Foreign Direct Investment (FDI) as a proportion of Gross National Income (GNI)" is 
+  calculated as (FDI/GNI) x 100.
+  <br><br>
+  The series "Official Development Assistance (ODA) as a proportion of Gross National Income (GNI)" is
+  is a duplication of Indicator 17.2.1.
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the Global Partnership for Sustainable Development</p>'
@@ -23,21 +45,28 @@ un_custodian_agency: Organisation for Economic Co-operation and Development (OEC
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
- 
 
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: |
-    International investment position, Canadian direct investment abroad and foreign direct investment in Canada, by country, annual (x 1,000,000)
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610000801&cubeTimeFrame.startYear=2015&cubeTimeFrame.endYear=2022&referencePeriods=20150101%2C20220101
-source_organisation_1: Statistics Canada
+    FDI by counterpart area and by economic activity
+source_url_1: https://data-explorer.oecd.org/vis?pg=0&snb=12&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_FDI%40DF_FDI_CTRY_IND_SUMM&df[ag]=OECD.DAF.INV&df[vs]=1.0&dq=CAN.LE_FA_F.RC%2BUSD_EXC.DI.....W.._T.A.&pd=2015%2C&to[TIME_PERIOD]=false&lc=en
+source_organisation_1: Organisation for Economic Co-operation and Development (OECD)
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: |
-    Total flows by donor (ODA+OOF+Private) [DAC1]
-source_url_2: https://stats.oecd.org/Index.aspx?ThemeTreeId=3#
+    DAC1: Flows by provider (ODA+OOF+Private) - Official Development Assistance (ODA) Grant Equivalent
+source_url_2: https://data-explorer.oecd.org/vis?lc=en&pg=0&bp=true&snb=25&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_DAC1%40DF_DAC1&df[ag]=OECD.DCD.FSD&df[vs]=1.4&dq=CAN.11010..1160.USD.Q.&to[TIME_PERIOD]=false&pd=%2C
 source_organisation_2: Organisation for Economic Co-operation and Development (OECD)
 source_periodicity_2: Annual
 source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: |
+    DAC1: Flows by provider (ODA+OOF+Private) - Gross National Income (GNI)
+source_url_3: https://data-explorer.oecd.org/vis?lc=en&pg=0&snb=1&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_DAC1%40DF_DAC1&df[ag]=OECD.DCD.FSD&df[vs]=1.2&dq=CAN.1....Q.&pd=2015%2C&to[TIME_PERIOD]=false&vw=tb&ly[cl]=TIME_PERIOD
+source_organisation_3: Organisation for Economic Co-operation and Development (OECD)
+source_periodicity_3: Annual
+source_geographical_coverage_3: Canada

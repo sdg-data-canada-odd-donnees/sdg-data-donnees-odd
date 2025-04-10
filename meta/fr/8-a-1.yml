@@ -1,37 +1,60 @@
+# National
 SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
-  et durable, le plein emploi productif et un travail décent pour tous.</p>'
+  et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET: '<p>Cible 8.a : Accroître l’appui apporté dans le cadre de l’initiative
   Aide pour le commerce aux pays en développement, en particulier aux pays les moins
-  avancés, y compris par l’intermédiaire du Cadre intégré renforcé pour l’assistance
+  avancés, y compris par l’intermédiaire du Cadre intégré renforcé pour l’assistance
   technique liée au commerce en faveur des pays les moins avancés</p>'
 SDG_INDICATOR: '<p>Indicateur 8.a.1 : Engagements pris et décaissements effectués
   dans le cadre de l’initiative Aide pour le commerce.</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '<p>Les données du Système de notification des pays créanciers sont disponibles
-  à partir de 1973. Toutefois, la couverture des données est considérée comme achevée depuis 
-  1995 pour les engagements au niveau des activités et 2002 pour les décaissements.</p>'
+STAT_CONC_DEF: >-
+  <p>Cet indicateur mesure les engagements et les décaissements bruts d’Aide publique au développement (APD) dans le cadre de l’initiative d’Aide pour le commerce.
+  <br><br>
+  <i>L’Aide pour le commerce</i> fait partie du système de notification des pays créanciers (SNPC) sous les catégories suivantes :</p>
+  <ul>
+  <li>Politique commerciale et réglementations et ajustement lié au commerce : comprend la politique commerciale et la gestion administrative; la facilitation du commerce; les accords commerciaux régionaux; les négociations commerciales multilatérales; l’ajustement lié au commerce; l’éducation et la formation dans le domaine du commerce.</li>
+  <li>Infrastructure économique : couvre les secteurs du transport et de l’entreposage, des communications et de l’énergie.</li>
+  <li>Renforcement de la capacité de production (y compris le développement du commerce) : inclut toutes les activités dans les secteurs productifs et de services. Elles comprennent le secteur des banques et des services financiers, les entreprises et autres services, et les secteurs de l’agriculture, de la sylviculture, de la pêche, des industries manufacturières, des industries extractives (mines) et du tourisme.</li>
+  </ul>
+DATA_COMP: >-
+  <p>Les décaissements bruts et les engagements d’Aide publique au développement (APD) visant l’Aide pour le commerce sont calculés en prenant la somme de tous les décaissements ou engagements d’APD dans les secteurs suivants :</p>
+  <ul>
+  <li>Politique commerciale et réglementations (code du système de notification des pays créanciers [SNPC] 331)</li>
+  <li>Transport et entreposage (code SNPC 210)</li>
+  <li>Communications (code SNPC 220)</li>
+  <li>Énergie (code SNPC 230)</li>
+  <li>Banques et services financiers (code SNPC 240)</li>
+  <li>Entreprises et autres services (code SNPC 250)</li>
+  <li>Agriculture (code SNPC 311)</li>
+  <li>Sylviculture (code SNPC 312)</li>
+  <li>Pêche (code SNPC 313)</li>
+  <li>Industries manufacturières (code SNPC 321)</li>
+  <li>Industries extractives (mines) (code SNPC 322)</li>
+  <li>Tourisme (code SNPC 332)</li>
+  </ul>
+REC_USE_LIM: >-
+  Les flux d’Aide pour le commerce pourraient être surestimés, car tous les codes-objet du SNPC mentionnés ci-dessus sont inclus indépendamment de l’existence d’une contribution réelle à l’Aide pour le commerce.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
-  partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
+  partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 8.a : Accroître l’appui apporté dans le cadre de l’initiative
   Aide pour le commerce aux pays en développement, en particulier aux pays les moins
-  avancés, y compris par l’intermédiaire du Cadre intégré renforcé pour l’assistance
+  avancés, y compris par l’intermédiaire du Cadre intégré renforcé pour l’assistance
   technique liée au commerce en faveur des pays les moins avancés</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.a.1 : Engagements pris et décaissements effectués
   dans le cadre de l’initiative Aide pour le commerce.</p>'
-
-reporting_status: complete
-
-source_active_1: 'true'
-source_url_text_1: OCDE. Système de notification des pays créanciers (SNPC).
-source_url_1: https://stats.oecd.org/Index.aspx?lang=fr&SubSessionId=5cbea816-b586-44d0-a11f-ca43defda284&themetreeid=3
-source_organisation_1: OCDE
-source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation de coopération et de développement économiques (OCDE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-0A-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: "SNPC: Système de notification des pays créanciers (flux)"
+source_url_1: https://data-explorer.oecd.org/vis?pg=0&snb=24&vw=tb&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.3&dq=CAN.DPGC.210%2B220%2B230%2B240%2B250%2B311%2B312%2B313%2B321%2B322%2B331%2B332.100._T._T.C%2BD.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&lc=fr
+source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
  

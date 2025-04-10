@@ -21,6 +21,7 @@ graph_title: chart.16-3-3-title
 graph_titles: []
 graph_type: bar
 indicator_name: global_indicators.16-3-3-title
+indicator_available: proxy.16-3-3-title
 indicator_number: 16.3.3
 national_geographical_coverage: Canada
 page_content: ''
@@ -29,5 +30,6 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
-"\xEF\xBB\xBFcomposite_breakdown_label": ''
+tags: 
+- Proxy
+proxy: proxy

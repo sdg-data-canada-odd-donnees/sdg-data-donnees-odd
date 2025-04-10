@@ -8,8 +8,9 @@ SDG_TARGET: '<p>Cible 15.3 : D’ici à 2030, lutter contre la désertification,
   des terres</p>'
 SDG_INDICATOR: '<p>Indicateur 15.3.1 : Surface des terres dégradées, en proportion
   de la surface terrestre</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+  <strong><em>Dégradation des terres</em></strong> est définie comme la réduction ou la perte de la productivité biologique ou économique et de la complexité des terres cultivées pluviales, des terres cultivées irriguées ou de l’aire de répartition, des pâturages et des forêts résultant d’une combinaison de pressions, y compris les pratiques d’utilisation et de gestion des terres. Cette définition a été adoptée et est utilisée par les 196 pays qui sont des parties à la Convention des Nations Unies sur la lutte contre la désertification.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
@@ -28,9 +29,9 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-03-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 source_active_1: 'true'
-source_url_text_1: "Convention des Nations Unies sur la lutte contre la désertification (UNCCD). Totalisation personnalisée."
-source_url_1: https://www.unccd.int/#
-source_organisation_1: Convention des Nations Unies sur la lutte contre la désertification
+source_url_text_1: "Convention des Nations Unies sur la lutte contre la désertification (UNCCD)"
+source_url_1: https://www.unccd.int/our-work-impact/country-profiles/canada
+source_organisation_1: Convention des Nations Unies sur la lutte contre la désertification (UNCCD)
 source_geographical_coverage_1: Canada
 
 reporting_status: complete

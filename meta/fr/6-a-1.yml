@@ -1,41 +1,34 @@
-SDG_GOAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
-  en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET: '<p>Cible 6.a : D’ici à 2030, développer la coopération internationale
-  et l’appui au renforcement des capacités des pays en développement en ce qui concerne
-  les activités et programmes relatifs à l’eau et à l’assainissement, y compris la
-  collecte, la désalinisation et l’utilisation rationnelle de l’eau, le traitement
-  des eaux usées, le recyclage et les techniques de réutilisation</p>'
-SDG_INDICATOR: '<p>Indicateur 6.a.1 : Montant de l’aide publique au développement consacrée
-  à l’eau et à l’assainissement dans un plan de dépenses coordonné par les pouvoirs
-  publics</p>'
-STAT_CONC_DEF: <p>Le montant de l'aide publique au développement liée à l'eau et à
-  l'assainissement qui fait partie d'un plan de dépenses coordonné par le gouvernement
-  est défini comme la proportion des décaissements totaux de l'aide publique au développement
-  (APD) liée à l'eau et à l'assainissement qui sont inclus dans le budget du gouvernement.</p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
-  en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 6.a : D’ici à 2030, développer la coopération internationale
-  et l’appui au renforcement des capacités des pays en développement en ce qui concerne
-  les activités et programmes relatifs à l’eau et à l’assainissement, y compris la
-  collecte, la désalinisation et l’utilisation rationnelle de l’eau, le traitement
-  des eaux usées, le recyclage et les techniques de réutilisation</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.a.1 : Montant de l’aide publique au développement
-  consacrée à l’eau et à l’assainissement dans un plan de dépenses coordonné par les
-  pouvoirs publics</p>'
+# National
+SDG_GOAL: >-
+  Objectif 6 : Garantir l'accès de tous à des services d'alimentation en eau et d'assainissement gérés de façon durable
+SDG_TARGET: >-
+  Cible 6.a : D’ici à 2030, développer la coopération internationale et l’appui au renforcement des capacités des pays en développement en ce qui concerne les activités et programmes relatifs à l’eau et à l’assainissement, y compris la collecte, la désalinisation et l’utilisation rationnelle de l’eau, le traitement des eaux usées, le recyclage et les techniques de réutilisation
+SDG_INDICATOR: >-
+  Indicateur 6.a.1 : Montant de l’aide publique au développement consacrée à l’eau et à l’assainissement dans un plan de dépenses coordonné par les pouvoirs publics
+STAT_CONC_DEF: >-
+  Le montant de l’aide publique au développement liée à l’eau et à l’assainissement qui fait partie d’un plan de dépenses coordonné par le gouvernement est défini comme la proportion des décaissements totaux de l’Aide publique au développement (APD) liée à l’eau et à l’assainissement qui sont inclus dans le budget du gouvernement.
+DATA_COMP: >-
+  Les données étaient disponibles pour rapporter cet indicateur comme spécifié dans les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
+  <br><br>
+  Les données proviennent du système de notification des pays créanciers de l’Organisation de coopération et de développement économiques (OCDE). Les codes correspondent à la série 140 complète pour le secteur de la distribution d’eau et de l’assainissement et au code du système de notification des pays créanciers (SNPC) 31140 pour les ressources en eau à usage agricole. L’APD brute pour ces codes est additionnée pour les données du Canada.
+REC_USE_LIM: >-
+  Il s’agit d’un indicateur de substitution mesurant le montant total d’Aide publique au développement (APD) liée à l’eau et à l’assainissement, tandis que les métadonnées mondiales des Nations Unies précisent : « L’indicateur est calculé comme la proportion de l’APD totale liée à l’eau et à l’assainissement qui est incluse dans le budget du gouvernement, c’est-à-dire le montant de l’APD liée à l’eau et à l’assainissement dans le budget du gouvernement divisé par le montant total de l’APD liée à l’eau et à l’assainissement. »
 
-# SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: OCDE. Système de notification des pays créanciers (SNPC).
-source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
-source_organisation_1: OCDE
-source_geographical_coverage_1: Canada
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 6 : Garantir l'accès de tous à des services d'alimentation en eau et d'assainissement gérés de façon durable
+SDG_TARGET__GLOBAL: >-
+  Cible 6.a : D’ici à 2030, développer la coopération internationale et l’appui au renforcement des capacités des pays en développement en ce qui concerne les activités et programmes relatifs à l’eau et à l’assainissement, y compris la collecte, la désalinisation et l’utilisation rationnelle de l’eau, le traitement des eaux usées, le recyclage et les techniques de réutilisation
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 6.a.1 : Montant de l’aide publique au développement consacrée à l’eau et à l’assainissement dans un plan de dépenses coordonné par les pouvoirs publics
 
 un_designated_tier: Niveau I
-un_custodian_agency: Le Programme des Nations Unies pour l'environnement (PNUE), Organisation 
+un_custodian_agency:
+  Le Programme des Nations Unies pour l'environnement (PNUE), Organisation
   Mondiale de la Santé (OMS), Organisation de coopération et de développement économiques (OCDE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-0A-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+# SOURCE(S)
+source_url_text_1: "SNPC: Système de notification des pays créanciers (flux)"
+source_url_1: https://data-explorer.oecd.org/vis?lc=fr&pg=0&snb=24&vw=tb&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.3&dq=CAN.DPGC.31140%2B140.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false

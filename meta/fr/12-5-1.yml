@@ -1,29 +1,31 @@
+# National
 SDG_GOAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'
 SDG_TARGET: '<p>Cible 12.5 : D’ici à 2030, réduire nettement la production de déchets par la 
   prévention, la réduction, le recyclage et la réutilisation</p>'
 SDG_INDICATOR: '<p>Indicateur 12.5.1 : Taux de recyclage national, tonnes de matériaux recyclés</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: >-
+  Dans le cadre de cet indicateur, le taux national de recyclage sera défini comme la quantité de matériaux recyclés dans le pays plus les quantités exportées pour le recyclage sur le total des déchets produits dans le pays, moins les matériaux importés et destinés au recyclage. Le recyclage comprend la codigestion et la digestion anaérobie ainsi que le compostage et le procédé aérobie, mais pas la combustion contrôlée (incinération) ou l’épandage.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production
   durables</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 12.5 : D’ici à 2030, réduire nettement la production de déchets par la 
   prévention, la réduction, le recyclage et la réutilisation</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 12.5.1 : Taux de recyclage national, tonnes de matériaux recyclés</p>'
 
-un_custodian_agency: |
-  La Division de statistique de l’ONU (DSNU)
-  <br>Programme des Nations Unies pour l'environnement (PNUE)
+un_designated_tier: Niveau II
+un_custodian_agency: Division de statistique de l’ONU, Programme des Nations Unies pour l'environnement (PNUE)
 goal_meta_link: https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-12-05-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
-reporting_status: complete
-
-source_active_1: 'true'
-source_url_text_1: Statistique Canada. Matières résiduelles récupérées, selon le type et selon la source.
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/cv!recreate.action?pid=3810013801&selectedNodeIds=&checkedLevels=0D1,0D2,1D1,1D2,2D1,2D2&refPeriods=20180101,20200101&dimensionLayouts=layout3,layout3,layout3,layout2&vectorDisplay=false&request_locale=fr
-source_organisation_1: Statistique Canada
-source_periodicity_1: Aux 2 ans
-source_geographical_coverage_1: Canada
+# Source(s)
+# source_active_1: 'true'
+# source_url_text_1: Statistique Canada. Matières résiduelles récupérées, selon le type et selon la source.
+# source_url_1: https://www150.statcan.gc.ca/t1/tbl1/fr/cv!recreate.action?pid=3810013801&selectedNodeIds=&checkedLevels=0D1,0D2,1D1,1D2,2D1,2D2&refPeriods=20180101,20200101&dimensionLayouts=layout3,layout3,layout3,layout2&vectorDisplay=false&request_locale=fr
+# source_organisation_1: Statistique Canada
+# source_periodicity_1: Aux 2 ans
+# source_geographical_coverage_1: Canada
 
  

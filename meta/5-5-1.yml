@@ -1,26 +1,29 @@
+# National
 SDG_GOAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
 SDG_TARGET: '<p>Target 5.5: Ensure women&#x2019;s full and effective participation
   and equal opportunities for leadership at all levels of decision-making in political,
   economic and public life</p>'
 SDG_INDICATOR: '<p>Indicator 5.5.1: Proportion of seats held by women in (a) national parliaments and (b) local governments</p>'
-STAT_CONC_DEF: <p>The proportion of seats held by women in (a) national parliaments,
-  currently as at 1 January of reporting year, is currently measured as the number
-  of seats held by women members in single or lower chambers of national parliaments,
-  expressed as a percentage of all occupied seats.</p>
+STAT_CONC_DEF: |
+  The proportion of seats held by women in (a) national parliaments is measured as the number of seats held by women members in single or lower chambers of national parliaments, expressed as a percentage of all occupied seats on July 1st of the reporting year.
+  <br><br>
+  The proportion of seats held by women in (b) local governments is measured as the number of seats held by women in First Nations Band Councils and of Chiefs in First Nations communities, expressed as a percentage of all occupied seats on December 31st of the reporting year.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
 SDG_TARGET__GLOBAL: '<p>Target 5.5: Ensure women&#x2019;s full and effective participation
   and equal opportunities for leadership at all levels of decision-making in political,
   economic and public life</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 5.5.1: Proportion of seats held by women in (a) national parliaments and (b) local governments</p>'
+
 un_designated_tier: Tier I
-un_custodian_agency: Inter-Parliamentary Union (IPU), UN Women
+un_custodian_agency: Inter-Parliamentary Union (IPU), United Nations Entity for Gender Equality and the Empowerment of Women (UN Women)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=5&Target=5.5
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
-reporting_status: complete
-
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 10-10-0137-01  Representation of women and men elected to national Parliament and of ministers appointed to federal Cabinet
 source_organisation_1: Statistics Canada

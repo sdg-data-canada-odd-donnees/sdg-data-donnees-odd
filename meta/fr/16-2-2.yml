@@ -1,33 +1,46 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins 
-  du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les 
-  niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
-SDG_TARGET: '<p>Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, 
-  et à toutes les formes de violence et de torture dont sont victimes les enfants</p>'
-SDG_INDICATOR: '<p>Indicateur 16.2.2 : Nombre de victimes de la traite d’êtres humains pour 
-  100 000 habitants, par sexe, âge et forme d’exploitation</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+SDG_GOAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET: |-
+  Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, et à toutes les formes de violence et de torture dont sont victimes les enfants
+SDG_INDICATOR: |-
+  Indicateur 16.2.2 : Nombre d'incidents liés à la traite des êtres humains signalés pour 100 000 habitants
+STAT_CONC_DEF: |-
+  Cet indicateur mesure le nombre d'incidents liés à la traite des êtres humains signalés pour 100 000 habitants.
+DATA_COMP: |-
+  Nombre d'incidents liés à la traite des êtres humains signalés pour 100 000 habitants = (Nombre d'incidents liés à la traite des être humains rapportés / Population totale) × 100 000
+REC_USE_LIM: |-
+  Le total de la traite des êtres humains comprend deux codes d'infraction : 1525 « Traite des personnes » (S.279.01, 279.011, 279.02, 279.03 du Code criminel) et 6510 « Organisation d'entrée illégale au Canada » de S.117 de la Loi sur l'immigration et la protection des réfugiés.
+  <br><br>
+  Les incidents liés à la traite des êtres humains rapporté au Programme de déclaration uniforme de la criminalité (DUC) pourraient être sous-estimés dû aux différences entre les services policiers dans leurs pratiques de rapportage de cette infraction.
+
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins 
-  du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les 
-  niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, 
-  et à toutes les formes de violence et de torture dont sont victimes les enfants</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.2.2 : Nombre de victimes de la traite d’êtres humains pour 
-  100 000 habitants, par sexe, âge et forme d’exploitation</p>'
+SDG_GOAL__GLOBAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET__GLOBAL: |-
+  Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, et à toutes les formes de violence et de torture dont sont victimes les enfants
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 16.2.2 : Nombre de victimes de la traite d’êtres humains pour 100 000 habitants, par sexe, âge et forme d’exploitation
 
-un_designated_tier: Niveau II
-un_custodian_agency: Office des Nations Unies contre la drogue et le crime (ONUDC) Bureau des Affaires de Désarmement
+un_designated_tier: Niveau I
+un_custodian_agency: Office des Nations Unies contre la drogue et le crime (ONUDC)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistique Canada. Centre canadien de la statistique juridique et de la sécurité des collectivités (CCSJSC), Programme de déclaration uniforme de la criminalité (DUC) - Custom tabulation.
-source_url_1: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=3302
+source_url_text_1: Statistique Canada. Centre canadien de la statistique juridique et de la sécurité des collectivités (CCSJSC), Programme de déclaration uniforme de la criminalité (DUC) - Tabulation spécialisée.
+source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=3302
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Statistique Canada. Tableau 17-10-0005-01  Estimations de la population au 1er juillet, par âge et genre
+source_url_2: https://doi.org/10.25318/1710000501-fra
+source_organisation_2: Statistique Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada, Province ou territoire
 
  

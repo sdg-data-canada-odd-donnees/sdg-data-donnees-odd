@@ -1,20 +1,41 @@
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
-  durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET: '<p>Cible 9.3 : Accroître, en particulier dans les pays en développement,
-  l''accès des entreprises, notamment des petites entreprises industrielles, aux services
-  financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration
-  aux chaînes de valeur et aux marchés</p>'
-SDG_INDICATOR: '<p>Indicateur 9.3.1 : Proportion des petites entreprises dans la valeur ajoutée totale de l’industrie</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
+# National
+SDG_GOAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET: >-
+  Cible 9.3 : Accroître, en particulier dans les pays en développement, l'accès des entreprises, notamment des petites entreprises industrielles, aux services financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration aux chaînes de valeur et aux marchés
+SDG_INDICATOR: >-
+  Indicateur 9.3.1 : Proportion des petites entreprises dans la valeur ajoutée totale de l’industrie
+STAT_CONC_DEF: >-
+  Les petites entreprises industrielles, également appelées « petites industries » dans le cadre des ODD, définies ici à des fins de collecte et de compilation de données statistiques, font référence aux unités statistiques, généralement des entreprises, engagées dans la production de biens et de services destinés à un marché inférieur à une classe de taille désignée.
+  <br><br>
+  Selon la Banque mondiale, les micro, petites et moyennes entreprises (MPME) sont définies comme suit : <br><br>
+  - micro-entreprises : 1 à 9 employés ; <br>
+  - petites entreprises : 10 à 49 employés ; <br>
+  - et moyennes entreprises : 50 à 249 employés.
+  <br><br>
+  La proportion des « petites industries » dans la valeur ajoutée totale de l’industrie représente un indicateur calculant la part de la valeur ajoutée manufacturière des petites entreprises manufacturières dans la valeur ajoutée manufacturière totale.
+DATA_COMP: >-
+  La proportion des « petites industries » dans la valeur ajoutée totale est un indicateur calculé comme la part de la valeur ajoutée des petites entreprises manufacturières dans la valeur ajoutée manufacturière totale : <i>Valeur ajoutée manufacturière des « petites industries » / Valeur ajoutée manufacturière totale</i>
+  <br><br>
+  <b>La valeur ajoutée manufacturière</b> est la production moins la consommation.
+  <br><br>
+  <b>Production</b> = (Revenus des biens fabriqués + (Clôture des stocks, biens ou travaux en cours + Clôture des stocks, produits finis fabriqués) - (Ouverture des stocks, biens ou travaux en cours + Ouverture des stocks, produits finis fabriqués))
+  <br><br>
+  <b>Consommation</b> = (Stocks d'ouverture, matières premières + Coût des matériaux et fournitures + Coût total de l'énergie, du service d'eau et du carburant des véhicules - Stocks de clôture des matières premières)
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
-  durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 9.3 : Accroître, en particulier dans les pays en développement,
-  l''accès des entreprises, notamment des petites entreprises industrielles, aux services
-  financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration
-  aux chaînes de valeur et aux marchés</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.3.1 : Proportion des petites entreprises dans la valeur ajoutée totale de l’industrie</p>'
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET__GLOBAL: >-
+  Cible 9.3 : Accroître, en particulier dans les pays en développement, l'accès des entreprises, notamment des petites entreprises industrielles, aux services financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration aux chaînes de valeur et aux marchés
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 9.3.1 : Proportion des petites entreprises dans la valeur ajoutée totale de l’industrie
+
+un_designated_tier: Niveau II
+un_custodian_agency: Organisation des Nations Unies pour le développement industriel (ONUDI)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
  # SOURCE(S)
 source_active_1: 'true'
@@ -23,10 +44,4 @@ source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&Id=1
 source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
-
-un_designated_tier: Niveau II
-un_custodian_agency: Organisation des Nations Unies pour le développement industriel (ONUDI)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
  

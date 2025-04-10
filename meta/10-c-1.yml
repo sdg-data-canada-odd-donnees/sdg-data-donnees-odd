@@ -1,31 +1,32 @@
-SDG_GOAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
-SDG_TARGET: '<p>Target: 10.c: By 2030, reduce to less than 3 per cent the transaction
-  costs of migrant remittances and eliminate remittance corridors with costs higher
-  than 5 per cent</p>'
-SDG_INDICATOR: '<p>Indicator 10.c.1: Remittance costs as a proportion of the amount
-  remitted</p>'
-STAT_CONC_DEF: |
-    The target includes two components. The first component is that transaction costs for migrant remittances should be 3% or less by 2030. This transaction cost should be intended as “Global average total cost of sending $200 (or equivalent in local sending currency) and expressed as % of amount sent”.  In Canada,  fees were estimated at a fixed amount sent between $201 and $300.
-    <br><br> The second component is to eliminate corridor where cost is 5% or higher. This should be intended in the sense that it should be possible for remittance senders to send money to the beneficiary for an average cost of 5% or less of the amount sent. For this purpose, it should suffice that in each corridor there are at least 3 services, meeting a defined set of service requirements (including service quality, reach etc.), for which the average is 5% or less.
+# National
+SDG_GOAL: >-
+  Goal 10: Reduce inequality within and among countries
+SDG_TARGET: >-
+  Target: 10.c: By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent
+SDG_INDICATOR: >-
+  Indicator 10.c.1: Remittance costs as a proportion of the amount remitted
+STAT_CONC_DEF: >-
+  This indicator measures the average fees paid as a percentage of the last international remittance sent by Canadian residents born in countries eligible for official development assistance, by type of method used, destination region and the amount last remitted.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
-SDG_TARGET__GLOBAL: '<p>Target: 10.c: By 2030, reduce to less than 3 per cent the
-  transaction costs of migrant remittances and eliminate remittance corridors with
-  costs higher than 5 per cent</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 10.c.1: Remittance costs as a proportion of the
-  amount remitted</p>'
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 10: Reduce inequality within and among countries
+SDG_TARGET__GLOBAL: >-
+  Target: 10.c: By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 10.c.1: Remittance costs as a proportion of the amount remitted
+
 un_designated_tier: Tier I
-un_custodian_agency: World Bank (WB)
+un_custodian_agency: World Bank
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-0C-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: "Study on International Money Transfers"
+source_url_text_1: Study on International Money Transfers
 source_url_1: https://www150.statcan.gc.ca/n1/pub/75-006-x/2020001/article/00006-eng.htm
 source_organisation_1: Statistics Canada
 source_periodicity_1: One Time
 source_geographical_coverage_1: Canada
- 
- 
-

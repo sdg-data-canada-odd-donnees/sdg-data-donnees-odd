@@ -1,25 +1,25 @@
-SDG_GOAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
-SDG_TARGET: '<p>Target 12.1: Implement the 10-Year Framework of Programmes on Sustainable
-  Consumption and Production Patterns, all countries taking action, with developed countries
-  taking the lead, taking into account the development and capabilities of developing 
-  countries</p>'
-SDG_INDICATOR: '<p>Indicator 12.1.1: Number of countries developing, adopting or implementing
-  policy instruments aimed at supporting the shift to sustainable consumption and production</p>'
-STAT_CONC_DEF: 'This indicator allows for the quantification (#) and monitoring of countries making progress along the 
-  policy cycle of binding and non-binding policy instruments aimed at supporting Sustainable Consumption 
-  and Production.'
+# National
+SDG_GOAL: |-
+  Goal 12: Ensure sustainable consumption and production patterns
+SDG_TARGET: |-
+  Target 12.1: Implement the 10-Year Framework of Programmes on Sustainable Consumption and Production Patterns, all countries taking action, with developed countries taking the lead, taking into account the development and capabilities of developing countries
+SDG_INDICATOR: |-
+  Indicator 12.1.1: Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production
+STAT_CONC_DEF: |-
+  This indicator allows for the quantification (#) and monitoring of countries making progress along the policy cycle of binding and non-binding policy instruments aimed at supporting Sustainable Consumption and Production.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
-SDG_TARGET__GLOBAL: '<p>Target 12.1: Implement the 10-Year Framework of Programmes on Sustainable
-  Consumption and Production Patterns, all countries taking action, with developed countries
-  taking the lead, taking into account the development and capabilities of developing 
-  countries</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 12.1.1: Number of countries developing, adopting or implementing
-  policy instruments aimed at supporting the shift to sustainable consumption and production</p>'
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 12: Ensure sustainable consumption and production patterns
+SDG_TARGET__GLOBAL: |-
+  Target 12.1: Implement the 10-Year Framework of Programmes on Sustainable Consumption and Production Patterns, all countries taking action, with developed countries taking the lead, taking into account the development and capabilities of developing countries
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 12.1.1: Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production
+
 un_designated_tier: Tier II
-un_custodian_agency: UN Environment (UNEP)
+un_custodian_agency: United Nations Environment Programme (UNEP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-01-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
  

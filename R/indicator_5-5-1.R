@@ -9,6 +9,9 @@ library(cansim)
 library(dplyr)
 library(stringr)
 
+# load geocode
+geocodes <- read.csv("geocodes.csv")
+
 # 5.5.1(a) ----------------------------------------------------------------
 
 repr_in_gov <- get_cansim("10-10-0137-01", factors = FALSE)
@@ -67,7 +70,16 @@ data_final <-
   bind_rows(
     repr_in_gov,
     repr_in_first_nations
-  )
+  ) %>%
+  select(
+    Year,
+    Government,
+    `Elected officials`,
+    Geography,
+    Value
+  ) %>%
+  left_join(geocodes, by = "Geography") %>%
+  relocate(GeoCode, .before = Value)
 
 write.csv(
   data_final,

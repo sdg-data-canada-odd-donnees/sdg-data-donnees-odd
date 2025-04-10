@@ -1,66 +1,60 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and sustainable
-  industrialization and foster innovation</p>'
-SDG_TARGET: '<p>Target 9.1: Develop quality, reliable, sustainable and resilient infrastructure,
-  including regional and trans-border infrastructure, to support economic development
-  and human well-being, with a focus on affordable and equitable access for all</p>'
-SDG_INDICATOR: 'Indicator 9.1.2: Passenger and freight volumes'
-STAT_CONC_DEF: 'This indicator measures passenger and freight volumes for air, rail and road transportation.'
+SDG_GOAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET: >-
+  Target 9.1: Develop quality, reliable, sustainable and resilient infrastructure, including regional and trans-border infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all
+SDG_INDICATOR: >-
+  Indicator 9.1.2: Passenger and freight volumes
+STAT_CONC_DEF: >-
+  This indicator measures passenger and freight volumes for air, rail and road transportation. A growth in passenger and freight volumes is indicative of robust infrastructure development along with resultant socio-economic benefit. Air transport is particularly important not only for the economic and job benefits but also because it is one of the only modes of transport that can be relied on during emergencies and disease outbreaks to reach food, medicines, medical personnel, vaccines, and other supplies speedily to the affected persons in the affected areas.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: '   '
+REC_USE_LIM: >-
+  This is a proxy indicator that measures passenger volumes by the number of passengers and freight volumes by metric tonnes, whereas the UN metadata states: "Passenger volumes are measured in passenger-kilometres while freight volumes are measured in tonne-kilometres". 
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 9: Build resilient infrastructure, promote inclusive and
-  sustainable industrialization and foster innovation</p>'
-SDG_TARGET__GLOBAL: '<p>Target 9.1: Develop quality, reliable, sustainable and resilient
-  infrastructure, including regional and trans-border infrastructure, to support economic
-  development and human well-being, with a focus on affordable and equitable access
-  for all</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 9.1.2: Passenger and freight volumes, by mode
-  of transport</p>'
+SDG_GOAL__GLOBAL: >-
+  Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+SDG_TARGET__GLOBAL: >-
+  Target 9.1: Develop quality, reliable, sustainable and resilient infrastructure, including regional and trans-border infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 9.1.2: Passenger and freight volumes, by mode of transport
+
 un_designated_tier: Tier I
-un_custodian_agency: International Civil Aviation Organization (ICAO)
+un_custodian_agency: International Civil Aviation Organization (ICAO), International Transport Forum (ITF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-01-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
-proxy: proxy
-
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistics Canada. Table 23-10-0253-01  Air passenger traffic at Canadian airports, annual
+source_url_text_1: Statistics Canada. Table 23-10-0253-01  Air passenger traffic at Canadian airports, annual
 source_url_1: https://doi.org/10.25318/2310025301-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
 
 source_active_2: 'true'
-source_url_text_2: |
-    Statistics Canada. Table 23-10-0254-01  Air cargo traffic at Canadian airports, annual
+source_url_text_2: Statistics Canada. Table 23-10-0254-01  Air cargo traffic at Canadian airports, annual
 source_url_2: https://doi.org/10.25318/2310025401-eng
 source_organisation_2: Statistics Canada
 source_periodicity_2: Annual
 source_geographical_coverage_2: Canada, Province or territory
 
 source_active_3: 'true'
-source_url_text_3: |
-    Statistics Canada. Table 23-10-0057-01  Railway industry summary statistics on freight and passenger transportation
+source_url_text_3: Statistics Canada. Table 23-10-0057-01  Railway industry summary statistics on freight and passenger transportation
 source_url_3: https://doi.org/10.25318/2310005701-eng
 source_organisation_3: Statistics Canada
 source_periodicity_3: Annual
 source_geographical_coverage_3: Canada
 
 source_active_4: 'true'
-source_url_text_4: |
-    Statistics Canada. Table 23-10-0062-01  Rail industry origin and destination of transported commodities
+source_url_text_4: Statistics Canada. Table 23-10-0062-01  Rail industry origin and destination of transported commodities
 source_url_4: https://doi.org/10.25318/2310006201-eng
 source_organisation_4: Statistics Canada
 source_periodicity_4: Annual
 source_geographical_coverage_4: Geographical region of Canada, Province or territory
 
 source_active_5: 'true'
-source_url_text_5: |
-    Statistics Canada. Table 23-10-0219-01  Trucking commodity industry activities
+source_url_text_5: Statistics Canada. Table 23-10-0219-01  Trucking commodity industry activities
 source_url_5: https://doi.org/10.25318/2310021901-eng
 source_organisation_5: Statistics Canada
 source_periodicity_5: Annual

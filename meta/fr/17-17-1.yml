@@ -6,7 +6,10 @@ SDG_TARGET: '<p>Cible 17.17 : Encourager et promouvoir les partenariats publics,
   matière</p>'
 SDG_INDICATOR: '<p>Indicateur 17.17.1 : Montant (en dollars des États Unis) des ressources
   allouées aux partenariats public-privé pour l’infrastructure</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: |
+  Indicateur qui repose sur les données de la Banque mondiale : « Montant en dollars américains consacré aux partenariats public-privé dans le domaine des infrastructures ».
+  <br><br>
+  L’indicateur de la Banque mondiale définit le terme « partenariat public-privé » comme « tout arrangement contractuel entre une entité ou une autorité publique et une entité privée, pour fournir un actif ou un service public, dans lequel la partie privée assume des risques importants et des responsabilités en matière de gestion ». 
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat

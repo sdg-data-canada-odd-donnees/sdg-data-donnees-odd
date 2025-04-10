@@ -1,31 +1,33 @@
 # NATIONAL
-SDG_GOAL: |
+SDG_GOAL: >-
     Goal 6: Ensure availability and sustainable management of water and sanitation for all
-SDG_TARGET: |
+SDG_TARGET: >-
     Target: 6.3: By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally.
-SDG_INDICATOR: |
-    Indicator: 6.3.1: Proportion of domestic and industrial wastewater flows safely treated
-STAT_CONC_DEF: 'This indicator measures the volumes of wastewater which are generated through different activities, and 
-    the volumes of wastewater which are safely treated before discharge into the environment. Both of 
-    these indicators are measured in units of 1000 m<sup>3</sup>/day, although some data sources may use other units 
-    that require conversion. The ratio of the volume treated to the volume generated is taken as the ‘proportion of wastewater flow safely treated’.'
-DATA_COMP: |
-    Proportion of domestic and industrial wastewater flows safely treated = ((Primary treatment + Secondary treatment + Tertiary treatment) / Total volumes) x 100
-REC_USE_LIM: '  '
+SDG_INDICATOR: >-
+    Indicator: 6.3.1: Proportion of municipal and manufacturing wastewater flows safely treated
+STAT_CONC_DEF: >-
+    This indicator measures the volumes of wastewater which are generated through different activities, and the volumes of wastewater which are safely treated before discharge into the environment. Both of these indicators are measured in units of 1000 m<sup>3</sup>/day, although some data sources may use other units that require conversion. The ratio of the volume treated to the volume generated is taken as the ‘proportion of wastewater flow safely treated’.
+DATA_COMP: >-
+    Total wastewater treated = Primary treatment + Secondary treatment + Tertiary treatment
+    <br><br>
+    Total wastewater safely treated = Secondary treatment + Tertiary treatment
+    <br><br>
+    Proportion of domestic and industrial wastewater flows safely treated = ((Secondary treatment + Tertiary treatment) / Total volumes) x 100
+REC_USE_LIM: >-
+    This is a proxy indicator. The UN Global indicator states: “Proportion of domestic and industrial wastewater flows safely treated”.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: |
+SDG_GOAL__GLOBAL: >-
     Goal 6: Ensure availability and sustainable management of water and sanitation for all
-SDG_TARGET__GLOBAL: |
+SDG_TARGET__GLOBAL: >-
     Target: 6.3: By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally.
-SDG_INDICATOR__GLOBAL: |
+SDG_INDICATOR__GLOBAL: >-
     Indicator: 6.3.1: Proportion of domestic and industrial wastewater flows safely treated
+
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Environment Programme (UNEP) (GEMS/Water)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
- 
 
 # SOURCE(S)
 source_active_1: true

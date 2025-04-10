@@ -1,38 +1,49 @@
 # NATIONAL
-SDG_GOAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
-  durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET: '<p>Cible 9.3 : Accroître, en particulier dans les pays en développement,
-  l''accès des entreprises, notamment des petites entreprises industrielles, aux services
-  financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration
-  aux chaînes de valeur et aux marchés</p>'
-SDG_INDICATOR: '<p>Indicateur 9.3.2 : Proportion des petites entreprises industrielles
-  ayant contracté un prêt ou une ligne de crédit</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
- 
-
+SDG_GOAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET: >-
+  Cible 9.3 : Accroître, en particulier dans les pays en développement, l'accès des entreprises, notamment des petites entreprises industrielles, aux services financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration aux chaînes de valeur et aux marchés
+SDG_INDICATOR: >-
+  Indicateur 9.3.2 : Proportion des petites entreprises industrielles ayant fait la demande d'un prêt ou d'une marge de crédit
+STAT_CONC_DEF: >-
+  Cet indicateur mesure la proportion de petites entreprises ayant fait la demande d'un prêt ou d'une marge de crédit ainsi que les taux d'approbation.
+  <br><br>
+  Les petites et moyennes entreprises (PME) au Canada sont définies comme des entreprises comptant de 1 à 499 employés rémunérés. Plus précisément :
+  <br><br>
+  - Une petite entreprise compte de 1 à 99 employés rémunérés. <br>
+  - Une entreprise de taille moyenne compte de 100 à 499 employés rémunérés. <br>
+  - Une grande entreprise compte 500 employés rémunérés ou plus.
+DATA_COMP: custom.data-comp-national
+REC_USE_LIM: >-
+  Il s'agit d'un indicateur de substitution qui mesure la proportion de petites entreprises ayant fait la demande d'un prêt ou d'une marge de crédit et les taux d'approbation correspondants, tandis que l'indicateur global des Nations Unies indique : « Proportion des petites entreprises industrielles ayant contracté un prêt ou une ligne de crédit ».
+  <br><br>
+  Selon la Banque mondiale, les micro, petites et moyennes entreprises (MPME) sont définies comme suit : <br><br>
+  - micro-entreprises : 1 à 9 employés ; <br>
+  - petites entreprises : 10 à 49 employés ; <br>
+  - et moyennes entreprises : 50 à 249 employés.
+  <br><br> 
+  Les données pour cet indicateur utilisent la définition des PME du Canada.
+  <br><br>
+  Les données nationales pour le Canada incluent à la fois les petites et moyennes entreprise plutôt que uniquement les petites entreprise.
+  <br><br>
+  Les données sur les « caractéristiques démographiques » se réfèrent spécifiquement aux personnes qui détiennent la majorité des parts.
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir
-  une industrialisation durable qui profite à tous et encourager l''innovation.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 9.3 : Accroître, en particulier dans les pays en développement,
-  l''accès des entreprises, notamment des petites entreprises industrielles, aux services
-  financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration
-  aux chaînes de valeur et aux marchés</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 9.3.2 : Proportion des petites entreprises industrielles
-  ayant contracté un prêt ou une ligne de crédit</p>'
+SDG_GOAL__GLOBAL: >-
+  Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l'innovation.
+SDG_TARGET__GLOBAL: >-
+  Cible 9.3 : Accroître, en particulier dans les pays en développement, l'accès des entreprises, notamment des petites entreprises industrielles, aux services financiers, y compris aux prêts consentis à des conditions abordables, et leur intégration aux chaînes de valeur et aux marchés
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 9.3.2 : Proportion des petites entreprises industrielles ayant contracté un prêt ou une ligne de crédit
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation des Nations Unies pour le développement industriel (ONUDI), Banque Mondiale
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistique Canada. Tableau 33-10-0432-01  Demandes de financement par emprunt présentées par les petites et moyennes entreprises, par type d’instrument
+source_url_text_1: Statistique Canada. Tableau 33-10-0432-01  Demandes de financement par emprunt présentées par les petites et moyennes entreprises, par type d’instrument
 source_url_1: https://doi.org/10.25318/3310043201-fra
 source_organisation_1: Statistique Canada
 source_periodicity_1: Aux 3 ans
 source_geographical_coverage_1: Canada, Région géographique du Canada
-
-un_designated_tier: Niveau I
-un_custodian_agency: Organisation des Nations Unies pour le développement industriel (ONUDI),
-  Banque Mondiale
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-02.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

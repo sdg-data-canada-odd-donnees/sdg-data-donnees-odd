@@ -6,11 +6,14 @@ library(cansim)
 library(dplyr)
 library(stringr)
 
+# load geocode
+geocodes <- read.csv("geocodes.csv")
+
 repr_in_mgmt <- get_cansim("14-10-0416-01", factors = FALSE)
 
 occupations <- c(
   "Management occupations [00, 10, 20, 30, 40, 50, 60, 70, 80, 90]",                                                 
-  "Legislative and senior management occupations [00]",
+  "Legislative and senior management occupations [0]",
   "Specialized middle management occupations [10, 20, 30, 40, 50]",
   "Middle management occupations in retail and wholesale trade and customer services [60]",
   "Middle management occupations in trades, transportation, production and utilities [70, 80, 90]"
@@ -21,7 +24,7 @@ clean_repr_in_mgmt <-
   filter(
     REF_DATE >= 2015,
     `Labour force characteristics` == "Proportion of employment",
-    Sex == "Females",
+    Gender == "Women+",
     `National Occupational Classification (NOC)` %in% occupations
   ) %>%
   select(
@@ -47,7 +50,15 @@ data_final <-
     total_line,
     clean_repr_in_mgmt %>%
       filter(!(Geography == "Canada" & Occupation == "Management occupations"))
-  )
+  ) %>%
+  select(
+    Year,
+    Occupation,
+    Geography,
+    Value
+  ) %>%
+  left_join(geocodes, by = "Geography") %>%
+  relocate(GeoCode, .before = Value)
 
 write.csv(
   data_final,

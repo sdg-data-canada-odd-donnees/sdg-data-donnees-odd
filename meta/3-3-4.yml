@@ -4,9 +4,9 @@ SDG_TARGET: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, ma
   and neglected tropical diseases and combat hepatitis, water-borne diseases and other
   communicable diseases </p>'
 SDG_INDICATOR: '<p>Indicator 3.3.4: Hepatitis B incidence per 100,000 population </p>'
-STAT_CONC_DEF: <p>This indicator measures the prevalence of the Hepatitis b surface antigen in children under five years of age.</p> 
+STAT_CONC_DEF: <p>This indicator measures the prevalence of the Hepatitis B surface antigen in children under five years of age.</p> 
   <p>This indicator is measured indirectly through the proportion of children 5 years of age who have developed chronic HBV infection (i.e. the proportion that tests positive for a marker of infection called hepatitis B surface antigen [HBsAg]).</p>
-DATA_COMP: 'Hepatitis B incidence per 100,000 population = (Number of cases / population of age 0 to 4) x 100,000'
+DATA_COMP: 'Hepatitis B incidence in children under five years of age per 100,000 population = ([Number of cases in children under 1 year + Number of cases in children aged 1 to 4 years] / Population aged 0 to 4 years) x 100,000'
 REC_USE_LIM: 'Hepatitis B reporting does not differentiate between acute and chronic cases.'
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
@@ -21,7 +21,7 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-04.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 source_active_1: true
-source_url_text_1: 'Reported cases from 1991 to 2021 in Canada - Notifiable diseases on-line'
+source_url_text_1: Notifiable Diseases Online
 source_url_1: 'https://diseases.canada.ca/notifiable/charts?c=yl'
 source_organisation_1: "Public Health Agency of Canada (PHAC)"
 source_periodicity_1: Annual
@@ -30,7 +30,7 @@ reporting_status: complete
  
 source_active_2: true
 source_url_text_2: Statistics Canada. Table 17-10-0005-01  Population estimates on July 1, by age and gender
-source_url_2: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000501
+source_url_2: https://doi.org/10.25318/1710000501-eng
 source_organisation_2: Statistics Canada
 source_periodicity_2: Annual
-source_geographical_coverage_2: Canada
+source_geographical_coverage_2: Canada, Province or territory

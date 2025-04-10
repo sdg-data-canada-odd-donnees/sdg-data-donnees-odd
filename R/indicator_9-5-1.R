@@ -28,7 +28,7 @@ data_final <-
     Value = VALUE
   ) %>% 
   mutate(
-    Geography = recode(Geography, Canada = "")
+    Geography = replace(Geography, Geography == "Canada", NA)
   )%>%
   left_join(geocodes) %>% 
   relocate(GeoCode, .before = Value)

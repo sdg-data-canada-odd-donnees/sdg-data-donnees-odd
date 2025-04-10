@@ -1,44 +1,174 @@
-SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET: '<p>Target 1.5: By 2030, build the resilience of the poor and those in vulnerable
-  situations and reduce their exposure and vulnerability to climate-related extreme
-  events and other economic, social and environmental shocks and disasters</p>'
-SDG_INDICATOR: '<p>Indicator 1.5.4: Proportion of local governments that adopt and implement
-  local disaster risk reduction strategies in line with national disaster risk reduction
-  strategies</p>'
-STAT_CONC_DEF: 'This indicator measures the proportion of local governments that adopt and implement
-  local disaster risk reduction strategies in line with national disaster risk reduction
-  strategies.'
+# National
+SDG_GOAL: >-
+  Goal 1: End poverty in all its forms everywhere
+SDG_TARGET: >-
+  Target 1.5: By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters
+SDG_INDICATOR: >-
+  Indicator 1.5.4: Local governments that adopted and implemented local disaster risk reduction strategies in line with national disaster risk reduction strategies
+STAT_CONC_DEF: >-
+  This indicator informs on local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies.
 DATA_COMP: '     '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET__GLOBAL: '<p>Target 1.5: By 2030, build the resilience of the poor and those in
-  vulnerable situations and reduce their exposure and vulnerability to climate-related
-  extreme events and other economic, social and environmental shocks and disasters</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 1.5.4: Proportion of local governments that adopt
-  and implement local disaster risk reduction strategies in line with national disaster
-  risk reduction strategies</p>'
+REC_USE_LIM: >-
+  This is a proxy indicator. The UN Global indicator states: “Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies”.
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 1: End poverty in all its forms everywhere
+SDG_TARGET__GLOBAL: >-
+  Target 1.5: By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 1.5.4: Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies
+
 un_designated_tier: Tier II
-un_custodian_agency: United Nations International Strategy for Disaster Reduction
-  (UNISDR)
+un_custodian_agency: United Nations Office for Disaster Risk Reduction (UNDRR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-04.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: |
-    Public Safety Canada. Emergency Management Strategy for Canada: Toward a Resilient 2030
-source_url_1: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/mrgncy-mngmnt-strtgy/index-en.aspx
-source_organisation_1: Public Safety Canada
-source_geographical_coverage_1: Canada
+source_organisation_1: Federal, provincial, and territorial governments
+source_geographical_coverage_1: Canada, Provinces and territories
+source_other_info_1: >-
+  The sources for each government's emergency management legislation and plans are available on the indicator page.
 
-source_active_2: 'true'
-source_url_text_2: |
-    Government of British Columbia. Modernizing BC’s Emergency Management Legislation
-source_url_2: hhttps://www2.gov.bc.ca/assets/gov/public-safety-and-emergency-services/emergency-preparedness-response-recovery/modernizing_bcs_emergencymanagement_legislation.pdf
-source_organisation_2: Government of British Columbia
-source_geographical_coverage_2: British Columbia
+#   source_active_1: 'true'
+#   source_url_text_1: 'Government of Canada. Advancing the Federal-Provincial-Territorial Emergency Management Strategy: Areas for Action'
+#   source_url_1: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/2024-ems-ctn-rs/index-en.aspx
+#   source_organisation_1: Government of Canada
+#   source_geographical_coverage_1: Canada
+#   
+#   source_active_2: 'true'
+#   source_url_text_2: Government of British Columbia. Emergency Management Legislation (English only)
+#   source_url_2: https://www2.gov.bc.ca/gov/content/safety/emergency-management/emergency-management/legislation-and-regulations
+#   source_organisation_2: Government of British Columbia
+#   source_geographical_coverage_2: British Columbia
+#   
+#   source_active_3: 'true'
+#   source_url_text_3: Government of Alberta. Alberta emergency plan 2022 (English only)
+#   source_url_3: https://open.alberta.ca/publications/alberta-emergency-plan
+#   source_organisation_3: Government of Alberta
+#   source_geographical_coverage_3: Alberta
+#   
+#   source_active_4: 'true'
+#   source_url_text_4: Saskatchewan Public Safety Agency. Emergency Declaration and Management Planning
+#   source_url_4: https://www.saskpublicsafety.ca/communities/emergency-declaration-and-management-planning
+#   source_organisation_4: Saskatchewan Public Safety Agency (SPSA)
+#   source_geographical_coverage_4: Saskatchewan
+#   
+#   source_active_5: 'true'
+#   source_url_text_5: Government of Manitoba. Emergency Management Organization
+#   source_url_5: https://www.gov.mb.ca/emo/about/index.html
+#   source_organisation_5: Government of Manitoba
+#   source_geographical_coverage_5: Manitoba
+#   
+#   source_active_6: 'true'
+#   source_url_text_6: Government of Ontario. A safe, practiced and prepared Ontario
+#   source_url_6: https://www.ontario.ca/page/a-safe-practiced-and-prepared-ontario
+#   source_organisation_6: Government of Ontario
+#   source_geographical_coverage_6: Ontario
+#   
+#   source_active_7: 'true'
+#   source_url_text_7: Government of Quebec. Politique québécoise de sécurité civile 2014-2024 (French only)
+#   source_url_7: https://www.quebec.ca/gouvernement/ministere/securite-publique/publications/politique-quebecoise-securite-civile-2014-2024
+#   source_organisation_7: Government of Quebec
+#   source_geographical_coverage_7: Quebec
+#   
+#   source_active_8: 'true'
+#   source_url_text_8: Government of New Brunswick. Emergency Measures Organization
+#   source_url_8: https://www2.gnb.ca/content/gnb/en/departments/emo/ndmp.html
+#   source_organisation_8: Government of New Brunswick
+#   source_geographical_coverage_8: New Brunswick
+#   
+#   source_active_9: 'true'
+#   source_url_text_9: Government of Nova Scotia. Department of Emergency Management
+#   source_url_9: https://beta.novascotia.ca/government/emergency-management
+#   source_organisation_9: Government of Nova Scotia
+#   source_geographical_coverage_9: Nova Scotia
+#   
+#   source_active_10: 'true'
+#   source_url_text_10: Government of Prince Edward Island. Emergency Measures Organization
+#   source_url_10: https://www.princeedwardisland.ca/en/information/justice-and-public-safety/emergency-measures-organization
+#   source_organisation_10: Government of Prince Edward Island
+#   source_geographical_coverage_10: Prince Edward Island
+#   
+#   source_active_11: 'true'
+#   source_url_text_11: Government of Newfoundland and Labrador. Provincial Emergency Management Plan (English only)
+#   source_url_11: https://www.gov.nl.ca/jps/files/publications-pemp-plan.pdf
+#   source_organisation_11: Government of Newfoundland and Labrador
+#   source_geographical_coverage_11: Newfoundland and Labrador
+#   
+#   source_active_12: 'true'
+#   source_url_text_12: Government of Yukon. Emergency Management Plan (English only)
+#   source_url_12: https://yukon.ca/sites/default/files/2025-01/Health%20and%20Social%20Services%20Emergency%20Management%20Plan%20-%20FINAL.pdf
+#   source_organisation_12: Government of Yukon
+#   source_geographical_coverage_12: Yukon
+#   
+#   source_active_13: 'true'
+#   source_url_text_13: Government of Northwest Territories. Emergency Management in the NWT
+#   source_url_13: https://www.maca.gov.nt.ca/en/services/emergency-management-nwt
+#   source_organisation_13: Government of Northwest Territories
+#   source_geographical_coverage_13: Northwest Territories
+#   
+#   source_active_14: 'true'
+#   source_url_text_14: Government of Nunavut. Nunavut Emergency Management
+#   source_url_14: https://www.gov.nu.ca/en/public-safety-and-emergencies/nunavut-emergency-management
+#   source_organisation_14: Government of Nunavut
+#   source_geographical_coverage_14: Nunavut
 
-source_active_3: 'true'
-source_url_text_3: |
-source_organisation_3: Government of Quebec
-source_url_3: https://www.quebec.ca/gouvernement/ministere/securite-publique/publications/politique-quebecoise-securite-civile-2014-2024
-source_geographical_coverage_3: Quebec
+# sources:
+#   - organisation: Public Safety Canada
+#     geographical_coverage: Canada
+#     url: https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/2024-ems-ctn-rs/index-en.aspx
+#     url_text: 'Government of Canada. Advancing the Federal-Provincial-Territorial Emergency Management Strategy: Areas for Action'
+#   - organisation: Government of British Columbia
+#     geographical_coverage: British Columbia
+#     url: https://www2.gov.bc.ca/gov/content/safety/emergency-management/emergency-management/legislation-and-regulations
+#     url_text: Government of British Columbia. Emergency Management Legislation (English only)
+#   - organisation: Government of Alberta
+#     geographical_coverage: Alberta
+#     url: https://open.alberta.ca/publications/alberta-emergency-plan
+#     url_text: Government of Alberta. Alberta emergency plan 2022 (English only)
+#   - organisation: Saskatchewan Public Safety Agency (SPSA)
+#     geographical_coverage: Saskatchewan
+#     url: https://www.saskpublicsafety.ca/communities/emergency-declaration-and-management-planning
+#     url_text: Saskatchewan Public Safety Agency. Emergency Declaration and Management Planning
+#   - organisation: Government of Manitoba
+#     geographical_coverage: Manitoba
+#     url: https://www.gov.mb.ca/emo/about/index.html
+#     url_text: Government of Manitoba. Emergency Management Organization
+#   - organisation: Government of Ontario
+#     geographical_coverage: Ontario
+#     url: https://www.ontario.ca/page/a-safe-practiced-and-prepared-ontario
+#     url_text: Government of Ontario. A safe, practiced and prepared Ontario
+#   - organisation: Government of Quebec
+#     geographical_coverage: Quebec
+#     url: https://www.quebec.ca/gouvernement/ministere/securite-publique/publications/politique-quebecoise-securite-civile-2014-2024
+#     url_text: Government of Quebec. Politique québécoise de sécurité civile 2014-2024 (French only)
+#   - organisation: Government of New Brunswick
+#     geographical_coverage: New Brunswick
+#     url: https://www2.gnb.ca/content/gnb/en/departments/emo/ndmp.html
+#     url_text: Government of New Brunswick. Emergency Measures Organization
+#   - organisation: Government of Nova Scotia
+#     geographical_coverage: Nova Scotia
+#     url: https://beta.novascotia.ca/government/emergency-management
+#     url_text: Government of Nova Scotia. Department of Emergency Management
+#   - organisation: Government of Prince Edward Island
+#     geographical_coverage: Prince Edward Island
+#     url: https://www.princeedwardisland.ca/en/information/justice-and-public-safety/emergency-measures-organization
+#     url_text: Government of Prince Edward Island. Emergency Measures Organization
+#   - organisation: Government of Newfoundland and Labrador
+#     geographical_coverage: Newfoundland and Labrador
+#     url: https://www.gov.nl.ca/jps/files/publications-pemp-plan.pdf
+#     url_text: Government of Newfoundland and Labrador. Provincial Emergency Management Plan (English only)
+#   - organisation: Government of Yukon
+#     geographical_coverage: Yukon
+#     url: https://yukon.ca/sites/default/files/2025-01/Health%20and%20Social%20Services%20Emergency%20Management%20Plan%20-%20FINAL.pdf
+#     url_text: Government of Yukon. Emergency Management Plan (English only)
+#   - organisation: Government of Northwest Territories
+#     geographical_coverage: Northwest Territories
+#     url: https://www.maca.gov.nt.ca/en/services/emergency-management-nwt
+#     url_text: Government of Northwest Territories. Emergency Management in the NWT
+#   - organisation: Government of Nunavut
+#     geographical_coverage: Nunavut
+#     url: https://www.gov.nu.ca/en/public-safety-and-emergencies/nunavut-emergency-management
+#     url_text: Government of Nunavut. Nunavut Emergency Management

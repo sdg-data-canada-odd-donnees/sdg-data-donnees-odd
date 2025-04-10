@@ -16,7 +16,7 @@ STAT_CONC_DEF: <p>La proportion de la zone de bassin transfrontalier avec un arr
   de tous les bassins transfrontaliers (à la fois les bassins versants et les aquifères).
   Le résultat est multiplié par 100 pour obtenir une part exprimée en pourcentage.
   </p>
-DATA_COMP: '   '
+DATA_COMP: custom.data-tabulated
 REC_USE_LIM: '   '
 
 # GLOBAL
@@ -36,7 +36,10 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 # SOURCE(S)
 source_active_1: 'true'
-source_organisation_1: Environnement et Changement Climatique Canada (ECCC). Totalisation personnalisée.
+source_url_text_1: Environnement et Changement Climatique Canada. Totalisation personnalisée.
+source_url_1: https://www.canada.ca/fr/environnement-changement-climatique/services/eau-apercu.html
+source_organisation_1: Environnement et Changement Climatique Canada (ECCC)
+source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
 
  

@@ -6,8 +6,9 @@ SDG_TARGET: |
 SDG_INDICATOR: |
   Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)
 STAT_CONC_DEF: |
-    Dépenses totales des administrations publiques (locales, régionales et centrales) en matière d'éducation (dépenses courantes, dépenses en capital et transferts), exprimées en pourcentage des dépenses totales des administrations publiques dans tous les secteurs (y compris la santé, l'enseignement, les services sociaux, etc.).
-DATA_COMP: '   '
+    Cet indicateur mesure la proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale).
+DATA_COMP: |
+    Total des dépenses publiques consacrées aux services essentiels (éducation, santé et protection sociale), exprimées en pourcentage des dépenses totales des administrations publiques.
 REC_USE_LIM: '   '
 
 # GLOBAL
@@ -19,7 +20,7 @@ SDG_INDICATOR__GLOBAL: |
   Indicateur 1.a.2 : Proportion des dépenses publiques totales consacrées aux services essentiels (éducation, santé et protection sociale)
 un_designated_tier: Niveau II
 un_custodian_agency: Institut de statistique de l'UNESCO
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-02.pdf
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-02a.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE(S)
@@ -31,10 +32,10 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 # source_url_1: 'https://doi.org/10.25318/1010002401-fra'
 
 source_active_1: 'true'
-source_url_text_1: Statistiques de finances publiques (SFP) - Fonds monétaire international. Totalisation personnalisée.
-source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=5174
+source_url_text_1:  Statistique Canada. Tableau 10-10-0005-01  Classification canadienne des fonctions des administrations publiques (CCFAP) par composante des administrations publiques consolidées (x 1 000 000)
+source_url_1: https://doi.org/10.25318/1010000501-fra
 source_organisation_1: Statistique Canada
-source_periodicity_1: Trimestrielle
+source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada, Province ou territoire
 
  

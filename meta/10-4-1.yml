@@ -1,28 +1,35 @@
-SDG_GOAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
-SDG_TARGET: '<p>Target 10.4: Adopt policies, especially fiscal, wage and social protection
-  policies, and progressively achieve greater equality</p>'
-SDG_INDICATOR: '<p>Indicator 10.4.1: Labour share of GDP</p>'
- 
-STAT_CONC_DEF: <p>Labour share of Gross Domestic Product (GDP) is the total compensation
-  of employees and the labour income of the self-employed given as a percent of GDP,
-  which is a measure of total output. It provides information about the relative share
-  of output which accrues to workers as compared with the share that accrues to capital
-  in the production process for a given reference period.</p>
+# National
+SDG_GOAL: >-
+  Goal 10: Reduce inequality within and among countries
+SDG_TARGET: >-
+  Target 10.4: Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality
+SDG_INDICATOR: >-
+  Indicator 10.4.1: Labour share of GDP
+STAT_CONC_DEF: >-
+  Labour share of Gross Domestic Product (GDP) is the total compensation of employees and the labour income of the self-employed given as a percent of GDP, which is a measure of total output. It provides information about the relative share of output which accrues to workers as compared with the share that accrues to capital in the production process for a given reference period.
 DATA_COMP: >-
-    (Compensation of employees/Gross domestic product at market prices) x 100
-REC_USE_LIM: 'Canada totals in the provincial and territorial gross domestic product by income and by expenditure accounts (PTEA) do not correspond to the national gross domestic product by income and by expenditure accounts (IEA) estimates at certain times of the year. The two accounts are brought back in line when annual revisions are incorporated. <br><br> The data does not include the Labour income of the self-employed.'
-SDG_GOAL__GLOBAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
-SDG_TARGET__GLOBAL: '<p>Target 10.4: Adopt policies, especially fiscal, wage and social
-  protection policies, and progressively achieve greater equality</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 10.4.1: Labour share of GDP</p>'
+  ( Compensation of employees / Gross domestic product at market prices ) × 100
+REC_USE_LIM: >-
+  Canada totals in the provincial and territorial gross domestic product by income and by expenditure accounts (PTEA) do not correspond to the national gross domestic product by income and by expenditure accounts (IEA) estimates at certain times of the year. The two accounts are brought back in line when annual revisions are incorporated. <br><br>
+  The data does not include the Labour income of the self-employed.
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 10: Reduce inequality within and among countries
+SDG_TARGET__GLOBAL: >-
+  Target 10.4: Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 10.4.1: Labour share of GDP
+
+un_designated_tier: Tier II
+un_custodian_agency: International Labour Organization (ILO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-04-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 36-10-0221-01  Gross domestic product, income-based, provincial and territorial, annual (x 1,000,000)
 source_url_1: https://doi.org/10.25318/3610022101-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
- 
-un_designated_tier: Tier II
-un_custodian_agency: International Labour Organization (ILO)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-04-01.pdf
-goal_meta_link_text: United Nations Sustainable Development Goals Metadata

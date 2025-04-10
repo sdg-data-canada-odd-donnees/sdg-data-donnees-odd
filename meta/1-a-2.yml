@@ -7,7 +7,7 @@ SDG_TARGET: '<p>Target 1.a: Ensure significant mobilization of resources from a 
 SDG_INDICATOR: '<p>Indicator 1.a.2: Proportion of total government spending on essential
   services (education, health and social protection)</p>'
 STAT_CONC_DEF: |
-    This indicator measures the proportion of total government spending on essential services.
+    This indicator measures the proportion of total government spending on essential services (education, health and social protection).
 DATA_COMP: 'Total government spending on essential services (education, health and social protection) expressed as a percentage of total general government expenditures.'
 REC_USE_LIM: '  '
 
@@ -22,7 +22,7 @@ SDG_INDICATOR__GLOBAL: '<p>Indicator 1.a.2: Proportion of total government spend
   on essential services (education, health and social protection)</p>'
 un_designated_tier: Tier II
 un_custodian_agency: UNESCO Institute for Statistics (UNESCO-UIS)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-a-02.pdf
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-02a.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # SOURCE(S)
@@ -35,7 +35,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 # source_geographical_coverage_1: Canada, Province or territory
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 10-10-0005-01  Canadian Classification of Functions of Government (CCOFOG) by consolidated government component (x 1,000,000)
-source_url_1: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010000501
+source_url_1: https://doi.org/10.25318/1010000501-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory

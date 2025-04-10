@@ -1,25 +1,37 @@
-SDG_GOAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable development,
-  provide access to justice for all and build effective, accountable and inclusive
-  institutions at all levels</p>'
-SDG_TARGET: '<p>Target 16.7: Ensure responsive, inclusive, participatory and representative
-  decision-making at all levels</p>'
-SDG_INDICATOR: '<p>Indicator 16.7.2: Proportion of population who believe decision-making
-  is inclusive and responsive, by sex, age, disability and population group</p>'
-STAT_CONC_DEF: |
-  This survey-based indicator measures self-reported levels of 'external political efficacy', that is, the extent to which people think that politicians and/or political institutions will listen to, and act on, the opinions of ordinary citizens
-DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
-  development, provide access to justice for all and build effective, accountable
-  and inclusive institutions at all levels</p>'
-SDG_TARGET__GLOBAL: '<p>Target 16.7: Ensure responsive, inclusive, participatory and
-  representative decision-making at all levels</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 16.7.2: Proportion of population who believe
-  decision-making is inclusive and responsive, by sex, age, disability and population
-  group</p>'
+# National
+SDG_GOAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET: |-
+  Target 16.7: Ensure responsive, inclusive, participatory and representative decision-making at all levels
+SDG_INDICATOR: |-
+  Indicator 16.7.2: Proportion of the population with high levels of confidence in selected government institutions
+STAT_CONC_DEF: |-
+  This indicator measures the percentage of the population with high levels of confidence in selected government institutions.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |
+  This is a proxy indicator. The UN Global indicator states: “Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group”.
+  <br><br>
+  The user is advised that the estimates flagged with [note 1] are considered to be of marginal quality due to high sampling variability, and should be used with caution.
+  
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+SDG_TARGET__GLOBAL: |-
+  Target 16.7: Ensure responsive, inclusive, participatory and representative decision-making at all levels
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 16.7.2: Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group
+
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Development Programme (UNDP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
- 
+# Source
+
+source_active_1: true
+source_url_text_1: Statistics Canada. Table 43-10-0062-01  Confidence in Canadian institutions, by groups designated as visible minorities and selected sociodemographic characteristics, 2020
+source_url_1: https://doi.org/10.25318/4310006201-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Occasional
+source_geographical_coverage_1: Canada

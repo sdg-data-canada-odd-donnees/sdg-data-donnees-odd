@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques fiables,
   durables et modernes, à un coût abordable</p>'
 SDG_TARGET: '<p>Cible 7.a : D’ici à 2030, renforcer la coopération internationale en
@@ -9,9 +10,19 @@ SDG_INDICATOR: '<p>Indicateur 7.a.1 : Flux financiers internationaux à destinat
   des pays en développement à l’appui de la recherche-développement dans le domaine
   des énergies propres et de la production d’énergie renouvelable, notamment au moyen
   de systèmes hybrides</p>'
-STAT_CONC_DEF: <p>Les flux sont couverts par deux sources complémentaires.</p>
-DATA_COMP: '   '
+STAT_CONC_DEF: >-
+  Cet indicateur mesure la somme de tous les flux financiers définis comme tous les prêts, subventions et prises de participation officiels reçus par les pays figurant sur la liste du Comité d’aide au développement (CAD) des bénéficiaires d’Aide publique au développement (APD) de la part de gouvernements étrangers et d’organismes multilatéraux, à des fins de recherche et développement sur les énergies propres et de production d’énergies renouvelables y compris dans les systèmes hybrides.
+DATA_COMP: >-
+  <p>Le total pour le Canada est calculé à partir des données compilées du système de notification des pays créanciers (SNPC) du CAD de l’Organisation de coopération et de développement économiques (OCDE). Les décaissements bruts totaux de l’Aide publique au développement (APD) sont ajoutés pour les codes de secteur suivants (codes du système de notification des pays créanciers [SNPC]) :</p>
+  <ul>
+  <li>23182 : Recherche énergétique</li>
+  <li>232 : Production d’énergie, sources renouvelables</li>
+  <li>23410 : Centrales électriques à énergie hybride</li>
+  <li>23631 : Transport et distribution d’énergie électrique (mini-réseaux isolés)</li>
+  </ul>
 REC_USE_LIM: '   '
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques
   fiables, durables et modernes, à un coût abordable</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 7.a : D’ici à 2030, renforcer la coopération internationale
@@ -24,18 +35,14 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.a.1 : Flux financiers internationaux à 
   des énergies propres et de la production d’énergie renouvelable, notamment au moyen
   de systèmes hybrides</p>'
 
-reporting_status: complete
-
-source_active_1: 'true'
-source_url_text_1: OCDE. Système de notification des pays créanciers (SNPC).
-source_url_1: https://stats.oecd.org/Index.aspx?DataSetCode=CRS1
-source_organisation_1: OCED
-source_geographical_coverage_1: Canada
-
 un_designated_tier: Niveau I
-un_custodian_agency: Organisation de coopération et de développement économiques (OCDE) 
+un_custodian_agency: Organisation de coopération et de développement économiques (OCDE)
   et Énergies renouvelables internationales
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-0a-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+reporting_status: complete
+
+# Source(s)
+source_url_text_1: "SNPC: Système de notification des pays créanciers (flux)"
+source_url_1: https://data-explorer.oecd.org/vis?lc=fr&pg=0&snb=24&vw=tb&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.3&dq=CAN.DPGC.232%2B23182%2B23410%2B23631.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false

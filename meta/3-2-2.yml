@@ -9,7 +9,15 @@ STAT_CONC_DEF: <p>The neonatal mortality rate is the probability that a child bo
   if subject to age-specific mortality rates of that period, expressed per 1000 live
   births.</p>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: '2017, 2018, 2019, 2020, 2021 and 2022 data for Yukon are not available.'
+REC_USE_LIM: |
+  During the production of each year's birth/death/stillbirth statistics, data from previous years may be revised to reflect any updates or changes that have been received from the provincial and territorial vital statistics registrars. 
+  <br>
+  <br>Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. 
+  As a result, there may have been fewer deaths captured by the time of the release.
+  <br>
+  <br>The 2023 data is considered preliminary.
+  <br>
+  <br>As a result of delays with death registrations, fewer deaths have been captured for Nova Scotia in 2023.
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.2: By 2030, end preventable deaths of newborns and
@@ -17,14 +25,15 @@ SDG_TARGET__GLOBAL: '<p>Target 3.2: By 2030, end preventable deaths of newborns 
   to at least as low as 12 per 1,000 live births and under-5 mortality to at least
   as low as 25 per 1,000 live births</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 3.2.2: Neonatal mortality rate</p>'
+
+reporting_status: complete
+
 source_active_1: 'true'
-source_url_text_1: Statistics Canada. Table 13-10-0712-01  Infant deaths and mortality
-  rates, by sex
+source_url_text_1: Statistics Canada. Table 13-10-0712-01  Infant deaths and mortality rates, by sex
 source_url_1: https://doi.org/10.25318/1310071201-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
-reporting_status: complete
  
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Children's Fund (UNICEF)

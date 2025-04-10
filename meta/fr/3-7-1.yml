@@ -6,13 +6,11 @@ SDG_TARGET: '<p>Cible 3.7 : D''ici à 2030, assurer l''accès de tous à des ser
   santé procréative dans les stratégies et programmes nationaux</p>'
 SDG_INDICATOR: '<p>Indicateur 3.7.1 : Proportion de femmes en âge de procréer (15 à 49 ans)
   qui utilisent des méthodes modernes de planification familiale</p>'
-STAT_CONC_DEF: <p>Pourcentage de femmes en âge de procréer (15-49 ans) qui souhaitent
-  soit  de ne pas avoir d'enfant (supplémentaire), ou bien de reporter le prochain
-  enfant et qui utilisent actuellement une méthode moderne de contraception. L'indicateur
-  est également appelé demande de planification familiale satisfaite par des méthodes
-  modernes.</p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: 
+  <p>Pourcentage de femmes en âge de procréer (15 à 49 ans) qui utilisent présentement une méthode moderne de contraception parmi celles qui souhaitent ne plus avoir d’enfant ou qui souhaitent retarder leur prochaine grossesse. Cet indicateur est également désigné comme la demande de planification familiale satisfaite par des méthodes modernes.</p>
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |
+  Cet indicateur utilise des données modélisées de la Division de la population des Nations Unies.
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.7 : D''ici à 2030, assurer l''accès de tous à des
@@ -31,10 +29,10 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 # Source(s)
 source_active_1: 'true'
-source_url_text_1: Demande de planification familiale satisfaite par n’importe quelle méthode moderne (pourcentage)
+source_url_text_1: Demande de planification familiale satisfaite par n’importe quelle méthode moderne (pourcentage) (anglais seulement)
 source_organisation_1: Division de la population des Nations Unies
 source_periodicity_1: Annuelle 
 source_geographical_coverage_1: Canada
-source_url_1: https://population.un.org/dataportal/data/indicators/8,7/locations/124/start/1990/end/2023/table/pivotbylocation
+source_url_1: https://population.un.org/dataportal/data/indicators/8/locations/124/start/1990/end/2024/table/pivotbylocation?df=17ff3711-6b13-4feb-820a-398cd83bf9ba
 
  

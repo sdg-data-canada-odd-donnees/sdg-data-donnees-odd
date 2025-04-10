@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic growth,
   full and productive employment and decent work for all</p>'
 SDG_TARGET: '<p>Target 8.10: Strengthen the capacity of domestic financial institutions
@@ -5,9 +6,12 @@ SDG_TARGET: '<p>Target 8.10: Strengthen the capacity of domestic financial insti
   all</p>'
 SDG_INDICATOR: '<p>Indicator 8.10.1: (a) Number of commercial bank branches per 100,000
   adults and (b) Number of automated teller machines (ATMs) per 100,000 adults</p>'
-STAT_CONC_DEF: 'The percentage of adults (ages 15+) who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or personally using a mobile money service in the past 12 months.'
+STAT_CONC_DEF: >-
+  The indicator measures the number of commercial bank branches per 100,000 adults and the number of automated teller machines (ATMs) per 100,000 adults. The adult population refers to the total population in the reporting jurisdiction of individuals 15 years old and above.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'The data represent the percentage of family units (economic families or individuals outside economic families) holding a checking or savings account, whether the balance is positive, negative or zero.'
+REC_USE_LIM: '    '
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
   growth, full and productive employment and decent work for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 8.10: Strengthen the capacity of domestic financial
@@ -16,13 +20,16 @@ SDG_TARGET__GLOBAL: '<p>Target 8.10: Strengthen the capacity of domestic financi
 SDG_INDICATOR__GLOBAL: '<p>Indicator 8.10.1: (a) Number of commercial bank branches
   per 100,000 adults and (b) Number of automated teller machines (ATMs) per 100,000
   adults</p>'
+
 un_designated_tier: Tier I
 un_custodian_agency: International Monetary Fund (IMF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: "Financial Access Survey"
-source_url_1: https://data.imf.org/?sk=be8ea177-8830-46e8-9a2d-86c22a73308d&hide_uv=1
+source_url_text_1: Financial Access Survey
+source_url_1: https://data.imf.org/?sk=e5dcab7e-a5ca-4892-a6ea-598b5463a34c
 source_organisation_1: International Monetary Fund
 source_geographical_coverage_1: Canada
 source_periodicity_1: Annual

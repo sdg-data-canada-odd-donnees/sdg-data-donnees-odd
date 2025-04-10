@@ -9,7 +9,8 @@ SDG_TARGET: '<p>Cible 17.18 : D’ici à 2020, apporter un soutien accru au renf
   à chaque pays</p>'
 SDG_INDICATOR: '<p>Indicateur 17.18.1 : Indicateur de capacité statistique pour le suivi
   des objectifs de développement durable</p>'
-STAT_CONC_DEF: '   '
+STAT_CONC_DEF: |
+   L'inventaire des données ouvertes (ODIN)  est une évaluation de la couverture et de l’ouverture des données fournies sur les sites Web gérés par les instituts nationaux de la statistique (INS) et tous les sites Web gouvernementaux qui sont accessibles à partir du site des instituts nationaux de la statistique ainsi que sur le portail officiel des Objectifs de développement durable d’un pays. 
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
@@ -28,7 +29,7 @@ reporting_status: notstarted
 
 un_designated_tier: Niveau II
 un_custodian_agency: Division de statistique de l’ONU
-goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.18
+goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=&Target=17.18
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
  

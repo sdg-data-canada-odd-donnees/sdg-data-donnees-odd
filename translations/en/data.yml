@@ -3,6 +3,13 @@
 ## Global
 Year: Year
 Value: Value
+Annual: Annual
+Occasional: Occasional
+Total: Total
+Statistics Canada: Statistics Canada
+Canada – All categories: Canada – All categories
+Total population: Total population
+Unknown: Unknown
 
 ## Tiers
 Tier I: Tier I
@@ -12,37 +19,107 @@ Tier III: Tier III
 ## Progress status
 Progress status: Progress status
 
+## Units
+Units: Units
+Terajoules: Terajoules
+Per capita: Per capita
+Terajoules per million dollars of real GDP: Terajoules per million dollars of real GDP
+Number: Number
+Total Number: Total Number
+Percentage: Percentage
+Percentage (%): Percentage (%)
+Percentage of GNI (%): Percentage of GNI (%)
+Rate per 100,000: Rate per 100,000
+Rate per 1,000,000: Rate per 1,000,000
+Rate per 1,000 population: Rate per 1,000 population
+Rate per 10,000 population: Rate per 10,000 population
+Rate per 100,000 population: Rate per 100,000 population
+Index: Index
+Current dollars: Current dollars
+Canadian dollars ($): Canadian dollars ($)
+Canadian dollars: Canadian dollars
+CAD (Thousands): CAD (Thousands)
+US dollar, Millions, 2021 constant prices: US dollar, Millions, 2021 constant prices
+US dollar, Millions, 2022 constant prices: US dollar, Millions, 2022 constant prices
+US dollar, Millions, 2023 constant prices: US dollar, Millions, 2023 constant prices
+Million cubic metres: Million cubic metres
+
+## OECD Data Explorer
+Sector: Sector
+Basic education: Basic education
+Basic health: Basic health
+Medical research: Medical research
+Water supply and sanitation: Water supply and sanitation
+Multisector aid for basic social services: Multisector aid for basic social services
+Development food assistance: Development food assistance
+Agricultural water resources: Agricultural water resources
+Measure: Measure
+Official and private flows: Official and private flows
+Official Development Assistance: Official Development Assistance
+Official Development Assistance (ODA): Official Development Assistance (ODA)
+Other Official Flows (non Export Credit): Other Official Flows (non Export Credit)
+Other Official Flows (OOF): Other Official Flows (OOF)
+Officially supported export credits: Officially supported export credits
+Private flows at market terms: Private flows at market terms
+Private grants, net: Private grants, net
+Flow type: Flow type
+Disbursements: Disbursements
+Commitments: Commitments
+
 ## Sex
 Sex: Sex
 Men: Men
 Male: Male
 Males: Males
+Men+: Men+
 Women: Women
 Female: Female
 Females: Females
+Women+: Women+
 Both: Both
 Both sexes: Both sexes
+Gender: Gender
+All genders: All genders
+Total, all persons: Total, all persons
+Total, gender: Total, gender
+Total - Gender: Total - Gender
+
+# Area/Location
+Location: Location
+Area: Area
+Rural: Rural
+Urban: Urban
+Total, location: Total, location
 
 ## Geo
 Geography: Geography
 Canada: Canada
 Canada (excluding territories): Canada (excluding territories)
+Canada (provinces only): Canada (provinces only)
+Canada, Province or territory: Canada, Province or territory
 Atlantic: Atlantic
 Atlantic provinces: Atlantic provinces
+Atlantic Region: Atlantic Region
 Newfoundland and Labrador: Newfoundland and Labrador
 Prince Edward Island: Prince Edward Island
 Nova Scotia: Nova Scotia
 New Brunswick: New Brunswick
 Quebec: Quebec
+Quebec Region: Quebec Region
 Ontario: Ontario
+Ontario Region: Ontario Region
 Prairies: Prairies
 Prairie provinces: Prairie provinces
+Prairie Region: Prairie Region
+Prairies Region: Prairies Region
 Manitoba: Manitoba
 Saskatchewan: Saskatchewan
 Alberta: Alberta
 British Columbia: British Columbia
 British Columbia and the Territories: British Columbia and the Territories
+British Columbia and Territories Region: British Columbia and Territories Region
 Territories: Territories
+Northern Territories: Northern Territories
 Yukon: Yukon
 Northwest Territories: Northwest Territories
 Northwest Territories and Nunavut: Northwest Territories and Nunavut
@@ -52,34 +129,156 @@ Winnipeg Manitoba: Winnipeg Manitoba
 Northern and Rural Manitoba: Northern and Rural Manitoba
 Whitehorse Yukon: Whitehorse Yukon
 Yellowknife Northwest Territories: Yellowknife Northwest Territories
+Yukon and Northwest Territories: Yukon and Northwest Territories
+
+## Cities and Census metropolitan areas
+Total Census metropolitan area: Total Census metropolitan area
+Total Non-Census metropolitan area: Total Non-Census metropolitan area
+St. John's, Newfoundland and Labrador: St. John's, Newfoundland and Labrador
+Halifax, Nova Scotia: Halifax, Nova Scotia
+Fredericton, New Brunswick: Fredericton, New Brunswick
+Moncton, New Brunswick: Moncton, New Brunswick
+Saint John, New Brunswick: Saint John, New Brunswick
+Chicoutimi - Jonquière, Quebec: Chicoutimi - Jonquière, Quebec
+Drummondville, Quebec: Drummondville, Quebec
+Gatineau, Quebec: Gatineau, Quebec
+Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (Quebec part), Quebec
+Ottawa-Gatineau, Quebec part: Ottawa-Gatineau, Quebec part
+Montreal, Quebec: Montreal, Quebec
+Montréal, Quebec: Montréal, Quebec
+Quebec, Quebec: Quebec, Quebec
+Québec, Quebec: Québec, Quebec
+Trois-Rivières, Quebec: Trois-Rivières, Quebec
+Saguenay, Quebec: Saguenay, Quebec
+Saint-Jérôme, Quebec: Saint-Jérôme, Quebec
+Sherbrooke, Quebec: Sherbrooke, Quebec
+Barrie, Ontario: Barrie, Ontario
+Belleville, Ontario: Belleville, Ontario
+Belleville-Quinte West, Ontario: Belleville-Quinte West, Ontario
+Belleville - Quinte West, Ontario: Belleville - Quinte West, Ontario
+Brantford, Ontario: Brantford, Ontario
+Greater Sudbury, Ontario: Greater Sudbury, Ontario
+Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury, Ontario
+Guelph, Ontario: Guelph, Ontario
+Hamilton, Ontario: Hamilton, Ontario
+Kingston, Ontario: Kingston, Ontario
+Kitchener, Ontario: Kitchener, Ontario
+Kitchener-Cambridge-Waterloo, Ontario: Kitchener-Cambridge-Waterloo, Ontario
+Kitchener - Cambridge - Waterloo, Ontario: Kitchener - Cambridge - Waterloo, Ontario
+London, Ontario: London, Ontario
+Milton, Ontario: Milton, Ontario
+Oshawa, Ontario: Oshawa, Ontario
+Ottawa, Ontario: Ottawa, Ontario
+Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (Ontario part), Ontario
+Ottawa-Gatineau, Ontario part: Ottawa-Gatineau, Ontario part
+Ottawa-Gatineau, Ontario/Quebec: Ottawa-Gatineau, Ontario/Quebec
+Ottawa - Gatineau, Ontario and Quebec: Ottawa - Gatineau, Ontario et Québec
+Peterborough, Ontario: Peterborough, Ontario
+St. Catharines-Niagara, Ontario: St. Catharines-Niagara, Ontario
+St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
+St. Catharines - Niagara Falls, Ontario: St. Catharines - Niagara Falls, Ontario
+Sudbury, Ontario: Sudbury, Ontario
+Thunder Bay, Ontario: Thunder Bay, Ontario
+Toronto, Ontario: Toronto, Ontario
+Windsor, Ontario: Windsor, Ontario
+Winnipeg, Manitoba: Winnipeg, Manitoba
+Regina, Saskatchewan: Regina, Saskatchewan
+Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
+Calgary, Alberta: Calgary, Alberta
+Edmonton, Alberta: Edmonton, Alberta
+Lethbridge, Alberta: Lethbridge, Alberta
+Red Deer, Alberta: Red Deer, Alberta
+Abbotsford-Mission, British Columbia: Abbotsford-Mission, British Columbia
+Abbotsford - Mission, British Columbia: Abbotsford - Mission, British Columbia
+Chilliwack, British Columbia: Chilliwack, British Columbia
+Kamloops, British Columbia: Kamloops, British Columbia
+Kelowna, British Columbia: Kelowna, British Columbia
+Nanaimo, British Columbia: Nanaimo, British Columbia
+Vancouver, British Columbia: Vancouver, British Columbia
+Victoria, British Columbia: Victoria, British Columbia
+St. John's (CMA), N.L.: St. John's (CMA), N.L.
+Halifax (CMA), N.S.: Halifax (CMA), N.S.
+Moncton (CMA), N.B.: Moncton (CMA), N.B.
+Saint John (CMA), N.B.: Saint John (CMA), N.B.
+Montréal (CMA), Que.: Montréal (CMA), Que.
+Québec (CMA), Que.: Québec (CMA), Que.
+Saguenay (CMA), Que.: Saguenay (CMA), Que.
+Sherbrooke (CMA), Que.: Sherbrooke (CMA), Que.
+Trois-Rivieres, Quebec: Trois-Rivières (CMA), Que.
+Trois-Rivières (CMA), Que.: Trois-Rivières (CMA), Que.
+Barrie (CMA), Ont.: Barrie (CMA), Ont.
+Belleville - Quinte West (CMA), Ont.: Belleville - Quinte West (CMA), Ont.
+Brantford (CMA), Ont.: Brantford (CMA), Ont.
+Greater Sudbury (CMA), Ont.: Greater Sudbury (CMA), Ont.
+Guelph (CMA), Ont.: Guelph (CMA), Ont.
+Hamilton (CMA), Ont.: Hamilton (CMA), Ont.
+Kingston (CMA), Ont.: Kingston (CMA), Ont.
+Kitchener - Cambridge - Waterloo (CMA), Ont.: Kitchener - Cambridge - Waterloo (CMA), Ont.
+London (CMA), Ont.: London (CMA), Ont.
+Oshawa (CMA), Ont.: Oshawa (CMA), Ont.
+Ottawa - Gatineau (CMA), Ont./Que.: Ottawa - Gatineau (CMA), Ont./Que.
+Ottawa - Gatineau (Ontario part) (CMA), Ont.: Ottawa - Gatineau (Ontario part) (CMA), Ont.
+Ottawa - Gatineau (Quebec part) (CMA), Que.: Ottawa - Gatineau (Quebec part) (CMA), Que.
+Peterborough (CMA), Ont.: Peterborough (CMA), Ont.
+St. Catharines - Niagara (CMA), Ont.: St. Catharines - Niagara (CMA), Ont.
+Thunder Bay (CMA), Ont.: Thunder Bay (CMA), Ont.
+Toronto (CMA), Ont.: Toronto (CMA), Ont.
+Windsor (CMA), Ont.: Windsor (CMA), Ont.
+Winnipeg (CMA), Man.: Winnipeg (CMA), Man.
+Regina (CMA), Sask.: Regina (CMA), Sask.
+Saskatoon (CMA), Sask.: Saskatoon (CMA), Sask.
+Calgary (CMA), Alta.: Calgary (CMA), Alta.
+Edmonton (CMA), Alta.: Edmonton (CMA), Alta.
+Lethbridge (CMA), Alta.: Lethbridge (CMA), Alta.
+Abbotsford - Mission (CMA), B.C.: Abbotsford - Mission (CMA), B.C.
+Kelowna (CMA), B.C.: Kelowna (CMA), B.C.
+Vancouver (CMA), B.C.: Vancouver (CMA), B.C.
+Victoria (CMA), B.C.: Victoria (CMA), B.C.
 
 ## Age
 Age: Age
 Age group: Age group
+All ages: All ages
+Total, age: Total, age
 Total, 12 years and over: Total, 12 years and over
 Total, 15 years and over: Total, 15 years and over
 Total 15 to 29 years: Total 15 to 29 years
+Total, 25 to 64 years: Total, 25 to 64 years
+Under 1 year: Under 1 year
+Under 18 years: Under 18 years
+Under 35 years: Under 35 years
 15 years and over: 15 years and over
 25 years and over: 25 years and over
 45 years and over: 45 years and over
 55 years and over: 55 years and over
+65 years and older: 65 years and older
 65 years and over: 65 years and over
 70 years and over: 70 years and over
+75 years and over: 75 years and over
+90 years and over: 90 years and over
+1 to 4 years: 1 to 4 years
+1 to 14 years: 1 to 14 years
+5 to 9 years: 5 to 9 years
+10 to 14 years: 10 to 14 years
 12 to 17 years: 12 to 17 years
 15 to 19 years: 15 to 19 years
 15 to 24 years: 15 to 24 years
 15 to 64 years: 15 to 64 years
+16 to 24 years: 16 to 24 years
 18 to 24 years: 18 to 24 years
 18 to 34 years: 18 to 34 years
+18 to 64 years: 18 to 64 years
 20 to 24 years: 20 to 24 years
 25 to 29 years: 25 to 29 years
 25 to 34 years: 25 to 34 years
 25 to 44 years: 25 to 44 years
 25 to 54 years: 25 to 54 years
+25 to 64 years: 25 to 64 years
 30 to 34 years: 30 to 34 years
 35 to 39 years: 35 to 39 years
 35 to 44 years: 35 to 44 years
 35 to 49 years: 35 to 49 years
+35 to 54 years: 35 to 54 years
 40 to 44 years: 40 to 44 years
 45 to 49 years: 45 to 49 years
 45 to 54 years: 45 to 54 years
@@ -88,28 +287,88 @@ Total 15 to 29 years: Total 15 to 29 years
 55 to 59 years: 55 to 59 years
 50 to 64 years: 50 to 64 years
 55 to 64 years: 55 to 64 years
+55 to 65 years: 55 to 65 years
 60 to 64 years: 60 to 64 years
 65 to 69 years: 65 to 69 years
+65 to 74 years: 65 to 74 years
+70 to 74 years: 70 to 74 years
+75 to 79 years: 75 to 79 years
+75 to 84 years: 75 to 84 years
+80 to 84 years: 80 to 84 years
+85 to 89 years: 85 to 89 years
+
+## Indigenous groups
+Indigenous group: Indigenous group
+Indigenous status: Indigenous status
+Indigenous peoples: Indigenous peoples
+Non-Indigenous people: Non-Indigenous people
+Indigenous identity: Indigenous identity
+Non-Indigenous identity: Non-Indigenous identity
+Non-indigenous identity: Non-indigenous identity
+Indigenous person: Indigenous person
+Non-Indigenous person: Non-Indigenous person
+Indigenous population: Indigenous population
+Non-Indigenous population: Non-Indigenous population
+Indigenous: Indigenous
+First Nations: First Nations
+First Nations (North American Indian): First Nations (North American Indian)
+Métis: Métis
+Inuk (Inuit): Inuk (Inuit)
+Inuit: Inuit
+Non-Inuit: Non-Inuit
+First Nations, Métis, or Inuit: First Nations, Métis, or Inuit
+Not stated, population by indigenous identity: Not stated, population by indigenous identity
+Other Indigenous identity: Other Indigenous identity
+
+## Immigrant status
+Immigrant status: Immigrant status
+Total, immigrant status: Total, immigrant status
+Landed immigrants: Landed immigrants
+Born in Canada: Born in Canada
+Immigrants, landed 5 or less years earlier: Immigrants, landed 5 or less years earlier
+Immigrants, landed more than 5 to 10 years earlier: Immigrants, landed more than 5 to 10 years earlier
+Immigrants, landed more than 10 years earlier: Immigrants, landed more than 10 years earlier
+Immigrants: Immigrants
+Immigrant: Immigrant
+Non immigrants: Non immigrants
+Non-immigrants: Non-immigrants
+Non-immigrant: Non-immigrant
+Non-permanent residents: Non-permanent residents
+Not stated, immigrant status: Not stated, immigrant status
+
+## Visible minorities
+Total visible minority population: Total visible minority population
+Total, visible minority population: Total, visible minority population
+Not a visible minority: Not a visible minority
+Other visible minority: Other visible minority
+Visible minority: Visible minority
+Non-visible minority: Non-visible minority
+Arab: Arab
+Black: Black
+Chinese: Chinese
+Filipino: Filipino
+Japanese: Japanese
+Korean: Korean
+Latin American: Latin American
+South Asian: South Asian
+Southeast Asian: Southeast Asian
+West Asian: West Asian
+Group not indicated elsewhere: Group not indicated elsewhere
+Visible minority population: Visible minority population
+Visible minority n.i.e: Visible minority n.i.e
+Multiple visible minorities: Multiple visible minorities
+Other group designated as visible minority: Other group designated as visible minority
+Not stated, visible minority population: Not stated, visible minority population
 
 ## 1-1-1
-Québec, Quebec: Quebec, Québec
-Montréal, Quebec: Quebec, Montréal
-Ottawa-Gatineau, Ontario/Quebec: Ontario/Quebec, Ottawa-Gatineau
-Toronto, Ontario: Ontario, Toronto
-Winnipeg, Manitoba: Manitoba, Winnipeg
-Calgary, Alberta: Alberta, Calgary
-Edmonton, Alberta: Alberta, Edmonton
-Vancouver, British Columbia: British Columbia, Vancouver
 Persons in low income: Persons in low income
 All persons: All persons
 Persons under 18 years: Persons under 18 years
 Persons 18 to 64 years: Persons 18 to 64 years
 Persons 65 years and over: Persons 65 years and over
-Males: Males
 Males, under 18 years: Males, under 18 years
 Males, 18 to 64 years: Males, 18 to 64 years
 Males, 65 years and over: Males, 65 years and over
-Females: Females
 Females, under 18 years: Females, under 18 years
 Females, 18 to 64 years: Females, 18 to 64 years
 Females, 65 years and over: Females, 65 years and over
@@ -146,6 +405,15 @@ Asset resilient for at least one month: Asset resilient for at least one month
 Asset resilient for at least three months: Asset resilient for at least three months
 Asset resilient for at least six months: Asset resilient for at least six months
 
+## 1-3-1
+Proportion of population covered by at least one social protection cash benefit: Proportion of population covered by at least one social protection cash benefit
+Proportion of children covered by social protection benefits: Proportion of children covered by social protection benefits
+Proportion of persons with disabilities receiving benefits: Proportion of persons with disabilities receiving benefits
+Proportion of workers covered in case of employment injury: Proportion of workers covered in case of employment injury
+Proportion of older persons receiving a pension: Proportion of older persons receiving a pension
+Proportion of vulnerable persons receiving benefits: Proportion of vulnerable persons receiving benefits
+Proportion of poor population receiving social assistance cash benefit: Proportion of poor population receiving social assistance cash benefit
+
 ## 1-4-1
 Basic services: Basic services
 Access to basic drinking water services: Access to basic drinking water services
@@ -169,12 +437,11 @@ Proportion of population covered by 5G: Proportion of population covered by 5G
 Proportion of population with access to electricity: Proportion of population with access to electricity
 Access to Basic Health Care Services: Access to Basic Health Care Services
 Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning satisfied with modern methods: Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning satisfied with modern methods
+Access to basic education: Access to basic education
+Access to basic waste collection services: Access to basic waste collection services
+Access to basic waste collection services (Proxy): Access to basic waste collection services (Proxy)
 
 ## 1-4-2
-Total: Total
-Urban: Urban
-Rural: Rural
-Area: Area
 St. Johns (CMA): St. John's (CMA)
 Corner Brook (CA): Corner Brook (CA)
 Grand Falls-Windsor (CA): Grand Falls-Windsor (CA)
@@ -206,14 +473,6 @@ Whitehorse (CA): Whitehorse (CA)
 Yellowknife (CA): Yellowknife (CA)
 Province or territory: Province or territory
 
-## 1-a-1
-Basic education: Basic education
-Basic health: Basic health
-Water supply and sanitation: Water supply and sanitation
-Multisector aid for basic social services: Multisector aid for basic social services
-Development food aid: Development food aid
-Poverty reduction aid type: Poverty reduction aid type
-
 ## 1-3-1
 Proportion of employed labour force eligible for workers compensation benefits: |
     Proportion of employed labour force eligible for workers' compensation benefits
@@ -230,35 +489,40 @@ Percentage of mothers with a child aged 12 months or less that received maternit
 
 ## 1-5-1
 Type of natural disaster: Type of natural disaster
-Meteorological - Flood: Meteorological - Flood
-Meteorological - Storm: Meteorological - Storm
-Meteorological - Tornado: Meteorological - Tornado
-Meteorological - Wildfire: Meteorological - Wildfire
-Meteorological - Winter storm: Meteorological - Winter storm
-Meteorological - Heat event: Meteorological - Heat event
-Meteorological - Hurricane: Meteorological - Hurricane
-Mortality rate per 100,000 population: Mortality rate per 100,000 population
+Epidemic: Epidemic
+Infestation: Infestation
+Pandemic: Pandemic
+Avalanche: Avalanche
+Cold Event: Cold Event
+Drought: Drought
+Flood: Flood
+Geomagnetic Storm: Geomagnetic Storm
+Heat Event: Heat Event
+Hurricane / Typhoon / Tropical Storm: Hurricane / Typhoon / Tropical Storm
+Storm - Unspecified / Other: Storm - Unspecified / Other
+Storm Surge: Storm Surge
+Storms and Severe Thunderstorms: Storms and Severe Thunderstorms
+Tornado: Tornado
+Wildfire: Wildfire
+Winter Storm: Winter Storm
+Earthquake: Earthquake
+Landslide: Landslide
+Tsunami: Tsunami
+Volcano: Volcano
 
-## 1-5-2
-Economic loss CAN dollars $/GDP: Economic loss CAN dollars $/GDP
+## 1-a-1
+Poverty reduction aid type: Poverty reduction aid type
 
 ## 2-1-1
-Household food security status: Household food security status
+Values showing as 2.5 may signify a prevalence of undernourishment below 2.5%: Values showing as 2.5 may signify a prevalence of undernourishment below 2.5%
+Estimates are based on projected values.: Estimates are based on projected values.
+
+## 2-1-2
 Economic family type: Economic family type
-Food secure: Food secure
-Food insecure, marginal: Food insecure, marginal
-Food insecure, moderate or severe: Food insecure, moderate or severe
-Living arrangement: Living arrangement
-Total all living arrangements: All living arrangements
-Female living alone: Female living alone
-Male living alone: Male living alone
-Couple no children: Couple no children
-Couple with child(ren) less than 18 years old: Couple with child(ren) less than 18 years old
-Female lone parent with child(ren) less than 18 years old: Female lone parent with child(ren) less than 18 years old
-Male lone parent with child(ren) less than 18 years old: Male lone parent with child(ren) less than 18 years old
-Other living arrangements: Other living arrangements
+All persons: All persons
 Persons in economic families: Persons in economic families
 Persons in elderly families: Persons in elderly families
+Persons in elderly couples: Persons in elderly couples
 Persons in other elderly families: Persons in other elderly families
 Persons in non-elderly families: Persons in non-elderly families
 Persons in couples: Persons in couples
@@ -275,24 +539,11 @@ Elderly females not in an economic family: Elderly females not in an economic fa
 Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
 Non-elderly males not in an economic family: Non-elderly males not in an economic family
 Non-elderly females not in an economic family: Non-elderly females not in an economic family
-
-## 2-1-2
-Economic family type: Economic family type
-All persons: All persons
-Persons in economic families: Persons in economic families
-Persons in elderly families: Persons in elderly families
-Persons in elderly couples: Persons in elderly couples
-Persons in other elderly families: Persons in other elderly families
-Persons in non-elderly families: Persons in non-elderly families
-Persons in couples: Persons in couples
-Persons in couple families with children: Persons in couple families with children
-Persons in couple families with other relatives: Persons in couple families with other relatives
-Persons in lone-parent families: Persons in lone-parent families
-Persons in male lone-parent families: Persons in male lone-parent families
-Persons in female lone-parent families: Persons in female lone-parent families
-Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
-Non-elderly males not in an economic family: Non-elderly males not in an economic family
-Non-elderly females not in an economic family: Non-elderly females not in an economic family
+Recent immigrants (10 years or less): Recent immigrants (10 years or less)
+Very recent immigrants (5 years or less): Very recent immigrants (5 years or less)
+Persons born in Canada: Persons born in Canada
+Not a visible minority nor Indigenous: Not a visible minority nor Indigenous
+Population aged 15 years and over: Population aged 15 years and over
 Household food security status: Household food security status
 Food secure: Food secure
 Food insecure: Food insecure
@@ -302,7 +553,6 @@ Food insecure, moderate: Food insecure, moderate
 Food insecure, severe: Food insecure, severe
 
 ## 2-2-1
-Index: Index
 Biodiversity: Biodiversity
 Soil Quality: Soil Quality
 Water Quality: Water Quality
@@ -311,16 +561,13 @@ Indicator: Indicator
 Compound Index: Compound Index
 Soil Cover: Soil Cover
 Wildlife Habitat on Farmland: Wildlife Habitat on Farmland
-Compound Index: Compound Index
 Risk of Soil Erosion: Risk of Soil Erosion
 Soil Organic Carbon Change: Soil Organic Carbon Change
 Risk of Soil Salinization: Risk of Soil Salinization
-Compound Index: Compound Index
 Residual Soil Nitrogen: Residual Soil Nitrogen
 Risk of water contamination by phosphorus: Risk of water contamination by phosphorus
 Risk of Water Contamination by Coliforms: Risk of Water Contamination by Coliforms
 Risk of Water Contamination by Pesticides: Risk of Water Contamination by Pesticides
-Compound Index: Compound Index
 Agricultural Greenhouse gas: Agricultural Greenhouse gas
 Agricultural Ammonia Emissions: Agricultural Ammonia Emissions
 Agricultural Particulate Matter Emissions: Agricultural Particulate Matter Emissions
@@ -330,38 +577,65 @@ Population group: Population group
 Women of reproductive age: Women of reproductive age
 Non-pregnant women only: Non-pregnant women only
 Pregnant women only: Pregnant women only
+Severity: Severity
 Severe: Severe
 Moderate: Moderate
 Mild: Mild
 
+## 2-3-1 and 2-3-2
+Small-scale food producers: Small-scale food producers
+Medium-Large scale food producers: Medium-Large scale food producers
+Characteristics: Characteristics
+
 ## 2-4-1
 Farm output value per hectare: Farm output value per hectare
 Risk mitigation mechanisms: Risk mitigation mechanisms
+Trend score: Trend score
+Current status score: Current score
+Progress toward productive and sustainable agriculture, trend score: Progress toward productive and sustainable agriculture, trend score
+Progress toward productive and sustainable agriculture, current status score: Progress toward productive and sustainable agriculture, current status score
+Score: Score
 
 ## 2-5-1
 Genetic resources for food and agriculture (GRFA): Genetic resources for food and agriculture (GRFA)
 Accessions of plant genetic resources secured in conservation facilities: Accessions of plant genetic resources secured in conservation facilities
 Local breeds stored in genebank: Local breeds stored in genebank
-Total Number: Total Number
+
+## 2-a-1
+Agriculture orientation index for government expenditures [2.a.1]: Agriculture orientation index for government expenditures
+Agriculture orientation index for government expenditures: Agriculture orientation index for government expenditures
+Agriculture value added share of GDP: Agriculture value added share of GDP
+Agriculture share of Government Expenditure: Agriculture share of Government Expenditure
+
+## 2-a-2
+## nothing new
 
 ## 2-b-1
 Butter: Butter
 Cheese: Cheese
 Other Milk Products: Other Milk Products
 Product: Product
-CAD$ (Thousands): CAD$ (Thousands)
 Skim Milk Powder: Skim Milk Powder
 Incorporated Products: Incorporated Products
 
 ## 3-1-1
 Per 100,000 live births: Per 100,000 live births
+Maternal deaths per 100,000 live births: Maternal deaths per 100,000 live births
 
 ## 3-2-1
 Per 1,000 live births: Per 1,000 live births
+Number of deaths per 1,000 live births: Number of deaths per 1,000 live births
+
+## 3-2-2
+Mortality rate per 1,000 live births: Mortality rate per 1,000 live births
+Number of deaths: Number of deaths
+Neonatal mortality rate per 1,000 live births: Neonatal mortality rate per 1,000 live births
+Number of neonatal deaths: Number of neonatal deaths
 
 ## 3-3-1
 Rate per 1,000 uninfected population: Rate per 1,000 uninfected population
-All ages: All ages
+Number of newly infected people per 1,000 uninfected population: Number of newly infected people per 1,000 uninfected population
+Number of newly infected people per 100,000 uninfected population: Number of newly infected people per 100,000 uninfected population
 Adults (15-49): Adults (15-49)
 Grade: Grade
 All grades: All grades
@@ -372,31 +646,19 @@ Both type: Both type
 With nicotine: With nicotine
 Without nicotine: Without nicotine
 
+## 3-3-3
+Malaria incidence per 100,000 population: Malaria incidence per 100,000 population
+
 ## 3-3-5
 Leprosy: Leprosy
 Rabies: Rabies
+Number of people requiring interventions against leprosy: Number of people requiring interventions against leprosy
+Number of people requiring interventions against rabies: Number of people requiring interventions against rabies
+Number of people: Number of people
 
 ## 3-4-1
-All ages: All ages
-1 to 4 years: 1 to 4 years
-5 to 9 years: 5 to 9 years
-10 to 14 years: 10 to 14 years
-15 to 19 years: 15 to 19 years
-20 to 24 years: 20 to 24 years
-25 to 29 years: 25 to 29 years
-30 to 34 years: 30 to 34 years
-35 to 39 years: 35 to 39 years
-40 to 44 years: 40 to 44 years
-45 to 49 years: 45 to 49 years
-50 to 54 years: 50 to 54 years
-55 to 59 years: 55 to 59 years
-60 to 64 years: 60 to 64 years
-65 to 69 years: 65 to 69 years
-70 to 74 years: 70 to 74 years
-75 to 79 years: 75 to 79 years
-80 to 84 years: 80 to 84 years
-85 to 89 years: 85 to 89 years
-90 years and over: 90 years and over
+Age-specific mortality rate per 100,000 population: Age-specific mortality rate per 100,000 population
+Causes of death: Causes of death
 Malignant neoplasms: Malignant neoplasms
 In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour: In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour
 Diabetes mellitus: Diabetes mellitus
@@ -404,35 +666,26 @@ Diseases of heart: Diseases of heart
 Influenza and pneumonia: Influenza and pneumonia
 Acute bronchitus and bronchiolitis: Acute bronchitus and bronchiolitis
 Chronic lower respiratory diseases: Chronic lower respiratory diseases
-Rate per 100,000: Rate per 100,000
+Essential hypertension and hypertensive renal disease: Essential hypertension and hypertensive renal disease
+Cerebrovascular diseases: Cerebrovascular diseases
+Atherosclerosis: Atherosclerosis
+Aortic aneurysm and dissection: Aortic aneurysm and dissection
+Pneumoconioses and chemical effects: Pneumoconioses and chemical effects
+Pneumonitis due to solids and liquids: Pneumonitis due to solids and liquids
+Age at time of death: Age at time of death
+15 to 24: 15 to 24
+85 and over: 85 and over
+
+## 3-5-2
+Number of litres of pure alcohol sales per person aged 15 years and older in a year: Number of litres of pure alcohol sales per person aged 15 years and older in a year
 
 ## 3-6-1
-All ages: All ages
-Under 1 year: Under 1 year
-1 to 4 years: 1 to 4 years
-5 to 9 years: 5 to 9 years
-10 to 14 years: 10 to 14 years
-15 to 19 years: 15 to 19 years
-20 to 24 years: 20 to 24 years
-25 to 29 years: 25 to 29 years
-30 to 34 years: 30 to 34 years
-35 to 39 years: 35 to 39 years
-40 to 44 years: 40 to 44 years
-45 to 49 years: 45 to 49 years
-50 to 54 years: 50 to 54 years
-55 to 59 years: 55 to 59 years
-60 to 64 years: 60 to 64 years
-65 to 69 years: 65 to 69 years
-70 to 74 years: 70 to 74 years
-75 to 79 years: 75 to 79 years
-80 to 84 years: 80 to 84 years
-85 to 89 years: 85 to 89 years
-90 years and over: 90 years and over
 Not stated: Not stated
 Transport accidents: Transport accidents
 Motor vehicle accidents: Motor vehicle accidents
 Other land transport accidents: Other land transport accidents
 Per 100,000 population: Per 100,000 population
+Mortality rate per 100,000 population: Mortality rate per 100,000 population
 
 ## 3-7-1
 Marital status: Marital status
@@ -441,86 +694,28 @@ Unmarried: Unmarried
 
 ## 3-7-2
 Per 1000 females (15-19 years): Per 1000 females (15-19 years)
-
-## 3-8-1
-Selected diseases: Selected diseases
-Diphtheria: Diphtheria
-Pertussis: Pertussis
-Tetanus: Tetanus
-Polio: Polio
-Haemophilus influenzae type B: Haemophilus influenzae type B
-Diphtheria - Pertussis and tetanus: Diphtheria - Pertussis and tetanus
-Measles: Measles
-Mumps: Mumps
-Rubella: Rubella
-Hepatitis B: Hepatitis B
-Varicella: Varicella
-Meningococcal type C: Meningococcal type C
-Pneumococcal: Pneumococcal
-Rotavirus: Rotavirus
-Human Papillomavirus: Human Papillomavirus
-Diphtheria - Tetanus - acellular Pertussis booster: Diphtheria - Tetanus - acellular Pertussis booster
-All children: All children
-by 2 years of age: by 2 years of age
-by 7 years of age: by 7 years of age
-by 14 years of age: by 14 years of age
-by 17 years of age: by 17 years of age
+Place of residence of mother: Place of residence of mother
+Rate per 1,000 females: Rate per 1,000 females
 
 ## 3-8-2
 Proportion with share above 10%: Proportion with share above 10%
 Proportion with share above 25%: Proportion with share above 25%
-Male: Male
-Female: Female
 Aged below 18 years: Aged below 18 years
 Aged 18 to 64 years: Aged 18 to 64 years
+Aged 65 years or older: Aged 65 years or older
 Adjusted household after-tax income in bottom 40%: Adjusted household after-tax income in bottom 40%
 Adjusted household after-tax income in top 60%: Adjusted household after-tax income in top 60%
-
-## 3-9-1
-Disease: Disease
-Creutzfeldt-Jakob: Creutzfeldt-Jakob
-HIV and AIDS: HIV and AIDS
-Diabetes: Diabetes
-Ischemic heart disease: Ischemic heart disease
-Dementia, including Alzheimer's disease: Dementia, including Alzheimer's disease
-Hypertension: Hypertension
-Chronic obstructive pulmonary disease: Chronic obstructive pulmonary disease
-Cancer: Cancer
-Tuberculosis: Tuberculosis
-Salmonella: Salmonella
+Proportion of population (individuals) with share above 10% with large household expenditures on select health care items as a share of total after-tax income: Proportion of population (individuals) with share above 10% with large household expenditures on select health care items as a share of total after-tax income
+Proportion of population (individuals) with share above 25% with large household expenditures on select health care items as a share of total after-tax income: Proportion of population (individuals) with share above 25% with large household expenditures on select health care items as a share of total after-tax income
 
 ## 3-9-2
 Acute respiratory infections: Acute respiratory infections
-Diarrhoea: Diarrhoea
+Diarrhea: Diarrhea
 Intestinal nematode infections: Intestinal nematode infections
 Protein-energy malnutrition: Protein-energy malnutrition
-
-## 3-11-1
-Age at time of death: Age at time of death
-all ages: all ages
-1 to 14 years: 1 to 14 years
-15 to 24: 15 to 24
-25 to 34 years: 25 to 34 years
-35 to 44 years: 35 to 44 years
-45 to 54 years: 45 to 54 years
-55 to 64 years: 55 to 64 years
-65 to 74 years: 65 to 74 years
-75 to 84 years: 75 to 84 years
-85 and over: 85 and over
-Leading causes of death (ICD-10): Leading causes of death
-Malignant neoplasms [C00-C97]: Malignant neoplasms
-Diabetes mellitus [E10-E14]: Diabetes mellitus
-Alzheimer's disease [G30]: Alzheimer's disease
-Diseases of heart [I00-I09, I11, I13, I20-I51]: Diseases of heart
-Cerebrovascular diseases [I60-I69]: Cerebrovascular diseases
-Influenza and pneumonia [J09-J18]: Influenza and pneumonia
-Chronic lower respiratory diseases [J40-J47]: Chronic lower respiratory diseases
-Chronic liver disease and cirrhosis [K70, K73-K74]: Chronic liver disease and cirrhosis
-Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (unintentional injuries)
-Intentional self-harm (suicide) [X60-X84, Y87.0]: Intentional self-harm (suicide)
+Type of disease: Type of disease
 
 ## 3-12-1
-Rate per 100,000 population: Rate per 100,000 population
 Type of event: Type of event
 Apparent opioid toxicity deaths: Apparent opioid toxicity deaths
 Opioid-related poisoning hospitalizations: Opioid-related poisoning hospitalizations
@@ -529,19 +724,12 @@ EMS responses to suspected opioid-related overdoses: EMS responses to suspected 
 Apparent stimulant toxicity deaths: Apparent stimulant toxicity deaths
 
 ## 3-a-1
-Sex: Sex
-Both sexes: Both sexes
-Female: Female
-Male: Male
 Age Group: Age Group
 All age groups: All age groups
-15-19 years-old: |
-  15-19 years-old
-20-24 years-old: |
-  20-24 years-old
+15-19 years-old: 15-19 years-old
+20-24 years-old: 20-24 years-old
 25+ years-old: 25+ years-old
-25-44 years-old: |
-  25-44 years-old
+25-44 years-old: 25-44 years-old
 45+ years-old: 45+ years-old
 Tobacco Product: Tobacco Product
 Cigarettes: Cigarettes
@@ -570,12 +758,19 @@ Varicella: Varicella
 Meningococcal type C: Meningococcal type C
 Pneumococcal: Pneumococcal
 Rotavirus: Rotavirus
+Human Papillomavirus (HPV): Human Papillomavirus (HPV)
+Diphtheria, Tetanus, acellular Pertussis (Tdap) booster: Diphtheria, Tetanus, acellular Pertussis (Tdap) booster
+Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap): Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)
+Influenza (flu): Influenza (flu)
+Target population: Target population
+Recommended vaccines for 2-year-old children: Recommended vaccines for 2-year-old children
+Recommended vaccines for 7-year-old children: Recommended vaccines for 7-year-old children
+Recommended vaccines for 14-year-old children: Recommended vaccines for 14-year-old children
+Recommended vaccines for 17-year-old children: Recommended vaccines for 17-year-old children
+Recommended vaccines during pregnancy: Recommended vaccines during pregnancy
 
 # 3-b-2
 Assistance type: Assistance type
-Basic health: Basic health
-Medical research: Medical research
-
 
 ## 3-c-1
 Service provider per 100,000 population: Service provider per 100,000 population
@@ -613,52 +808,33 @@ Respiratory therapists: Respiratory therapists
 Social workers: Social workers
 Speech language pathologists: Speech language pathologists
 Psychotherapists: Psychotherapists
+Density of medical doctors: Density of medical doctors
+Density of nursing and midwifery personnel: Density of nursing and midwifery personnel
+Density of dentists: Density of dentists
+Density of pharmacists: Density of pharmacists
+Health worker density, by type of occupation (per 10,000 population): Health worker density, by type of occupation (per 10,000 population)
+Health worker distribution, by sex and type of occupation: Health worker distribution, by sex and type of occupation
+Type of occupation: Type of occupation
+Medical doctors: Medical doctors
+Nursing and midwifery personnel: Nursing and midwifery personnel
 
 ## 4-1-1
-Age group: Age group
 Total, persons aged 15 years and over: Total, persons aged 15 years and over
-15 to 24 years: 15 to 24 years
-25 to 64 years: 25 to 64 years
-65 to 74 years: 65 to 74 years
-75 years and over: 75 years and over
 Selected demographic characteristics: Selected demographic characteristics
-Total, all persons: Total, all persons
-Non immigrants: Non immigrants
-Immigrants: Immigrants
-Non-permanent residents: Non-permanent residents
-Total visible minority population: Total visible minority population
-Not a visible minority: Not a visible minority
 Total Aboriginal identity: Total Aboriginal identity
-First Nations (North American Indian): First Nations (North American Indian)
-Métis: Métis
-Inuk (Inuit): Inuk (Inuit)
 Non-Aboriginal identity: Non-Aboriginal identity
 Children in Grade 4 achieving at least a minimum proficiency level in mathematics: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
 Children in Grade 4 achieving at least a minimum proficiency level in reading: Children in Grade 4 achieving at least a minimum proficiency level in reading
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
 Proportion of children achieving at least a minimum proficiency level: Proportion of children achieving at least a minimum proficiency level
+Young people aged 15 years achieving at least a minimum proficiency level in reading: Young people aged 15 years achieving at least a minimum proficiency level in reading
+Young people aged 15 years achieving at least a minimum proficiency level in mathematics: Young people aged 15 years achieving at least a minimum proficiency level in mathematics
 
 ## 4-1-2
-Educational attainment level: Educational attainment level
-Pre-primary and primary: Pre-primary and primary
-Lower secondary: Lower secondary
-Upper secondary and post-secondary non-tertiary: Upper secondary and post-secondary non-tertiary
-Tertiary education: Tertiary education
-
-## 4-2-1
-Educational attainment level: Educational attainment level
-Tertiary education: Tertiary education
-Short-cycle tertiary: Short-cycle tertiary
-Bachelor's level: Bachelor's level
-Master's or Doctoral level: Master's or Doctoral level
-Age group: Age group
-25 to 34 years: 25 to 34 years
-30 to 34 years: 30 to 34 years
-35 to 44 years: 35 to 44 years
-45 to 54 years: 45 to 54 years
-55 to 64 years: 55 to 64 years
-Total, 25 to 64 years: Total, 25 to 64 years
+Graduation rate: Graduation rate
+On-time: On-time
+Extended-time: Extended-time
 
 ## 4-3-1
 Total, type of institution attended: Total, type of institution attended
@@ -696,19 +872,37 @@ High school or less: High school or less
 College, trade school or some university: College, trade school or some university
 Bachelors degree or higher: Bachelor's degree or higher
 
-
 ## 4-5-1
-Participation rate of adults in formal and non-formal education: Participation rate of adults in formal and non-formal education
-Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics: Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics
-Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading: Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading
-Proportion of adults (25-to-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional numeracy skills: Proportion of adults (25-to-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional numeracy skills
-Proportion of adults (25-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional literacy skills: Proportion of adults (25-64 year-olds) achieving at least a fixed level of proficiency (PIAAC score 226) in functional literacy skills
+Completion rate: Completion rate
+Educational attainment rate: Educational attainment rate
+Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months: Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months
+Proportion of students achieving at least a minimum proficiency level in mathematics: Proportion of students achieving at least a minimum proficiency level in mathematics
+Proportion of students achieving at least a minimum proficiency level in reading: Proportion of students achieving at least a minimum proficiency level in reading
 Parity index: Parity index
-Gender Parity Index: Gender Parity Index
-Economic, Social and Cultural Status Index (ESCS): Economic, Social and Cultural Status Index (ESCS)
-Location Parity Index: Location Parity Index
-Parental Education Attainment Parity Index: Parental Education Attainment Parity Index
-Participation rate in organized learning: Participation rate in organized learning
+Adjusted gender parity index: Adjusted gender parity index
+Adjusted location parity index: Adjusted location parity index
+Adjusted wealth parity index: Adjusted wealth parity index
+Adjusted language test parity index: Adjusted language test parity index
+Adjusted native parity index: Adjusted native parity index
+Education level: Education level
+Primary education: Primary education
+Lower secondary education: Lower secondary education
+Upper secondary education: Upper secondary education
+At least some primary (ISCED 1): At least some primary (ISCED 1)
+Completed primary education or higher: Completed primary education or higher
+Completed lower secondary education or higher: Completed lower secondary education or higher
+Completed upper secondary education or higher: Completed upper secondary education or higher
+Completed post-secondary non-tertiary education or higher: Completed post-secondary non-tertiary education or higher
+Completed short-cycle tertiary education or higher: Completed short-cycle tertiary education or higher
+Completed Bachelor's or equivalent education or higher: Completed Bachelor's or equivalent education or higher
+Completed Master's or equivalent education or higher: Completed Master's or equivalent education or higher
+Completed Doctoral or equivalent education: Completed Doctoral or equivalent education
+Modelled data: Modelled data
+Completion rate parity: Completion rate parity
+Educational attainment rate parity: Educational attainment rate parity
+Parity in the participation rate of youth and adults in formal and non-formal education and training in the previous 12 months: Parity in the participation rate of youth and adults in formal and non-formal education and training in the previous 12 months
+Parity in the proportion of students achieving at least a minimum proficiency level in mathematics: Parity in the proportion of students achieving at least a minimum proficiency level in mathematics
+Parity in the proportion of students achieving at least a minimum proficiency level in reading: Parity in the proportion of students achieving at least a minimum proficiency level in reading
 
 ##4-6-1
 Educational subject: Educational subject
@@ -719,14 +913,10 @@ Numeracy: Numeracy
 2 or below: 2 or below
 3 or above: 3 or above
 Total age groups: Total age groups
-16 to 24 years: 16 to 24 years
-25 to 34 years: 25 to 34 years
-35 to 44 years: 35 to 44 years
-45 to 54 years: 45 to 54 years
-55 to 65 years: 55 to 65 years
 
 ## 4-b-1
 USD Millions: USD Millions
+US dollar (millions): US dollar (millions)
 
 ## 5-1-1
 Type of perpetrator: Type of perpetrator
@@ -763,12 +953,40 @@ Middle management occupations in trades - transportation - production and utilit
 Judges - Federal government public administration: Judges - Federal government public administration
 Judges - Provincial and territorial public administration: Judges - Provincial and territorial public administration
 
+## 5-2-2
+Inuk: Inuk
+Multiple Indigenous identities or specific group not stated: Multiple Indigenous identities or specific group not stated
+Sexual orientation: Sexual orientation
+Heterosexual: Heterosexual
+Gay or lesbian: Gay or lesbian
+Bisexual: Bisexual
+Sexual orientation not elsewhere classified: Sexual orientation not elsewhere classified
+Sexual orientation not stated: Sexual orientation not stated
+Disability: Disability
+Person with disability: Person with disability
+Person without disability: Person without disability
+Employed in past 12 months: Employed in past 12 months
+Not employed in past 12 months: Not employed in past 12 months
+Educational status: Educational status
+Currently attending school: Currently attending school
+Not currently attending school: Not currently attending school
+Marital status: Marital status
+Married or common-law: Married or common-law
+Separated, divorced, or widowed: Separated, divorced, or widowed
+Single, never married: Single, never married
+
 ## 5-3-1
+Marital status: Marital status
+Married or living common law: Married or living common law
+Married: Married
+Living common law: Living common law
+
+## 5-4-1
 Activity group: Activity group
-Unpaid work activities: Unpaid work activities
-Household chores: Household chores
-Care of household children under 18 years: Care of household children under 18 years
-Care of household adults: Care of household adults
+Total, unpaid work activities: Total, unpaid work activities
+Unpaid household work: Unpaid household work
+Care of children under 18 years: Care of children under 18 years
+Care of adults: Care of adults
 Shopping for goods or services: Shopping for goods or services
 
 ## 5-5-1
@@ -777,51 +995,28 @@ Members of Parliament: Members of Parliament
 Members of Cabinet: Members of Cabinet
 
 ## 6-3-1
-Sector: Sector
-Accommodation and food services: Accommodation and food services
-Administrative and support, waste management and remediation services: Administrative and support, waste management and remediation services
-Agriculture, forestry, fishing and hunting: Agriculture, forestry, fishing and hunting
-Arts, entertainment and recreation: Arts, entertainment and recreation
-Construction: Construction
-Educational services: Educational services
-Finance and insurance: Finance and insurance
-Government Education Services: Government Education Services
-Government Health Services: Government Health Services
-Health care and social assistance: Health care and social assistance
-Households: Households
-Information and cultural industries: Information and cultural industries
-Manufacturing: Manufacturing
-Mining, quarrying, and oil and gas extraction: Mining, quarrying, and oil and gas extraction
-Miscellaneous non-profit institutions serving households: Miscellaneous non-profit institutions serving households
-Non-profit arts, entertainment and recreation: Non-profit arts, entertainment and recreation
-Non-Profit Education Services: Non-Profit Education Services
-Non-Profit Social Assistance: Non-Profit Social Assistance
-Other Aboriginal Government Services: Other Aboriginal Government Services
-Other federal government services: Other federal government services
-Other finance, insurance and real estate services and management of companies and enterprises: Other finance, insurance and real estate services and management of companies and enterprises
-Other Municipal Government Services: Other Municipal Government Services
-Other provincial and territorial government services: Other provincial and territorial government services
-Other services (except public administration): Other services (except public administration)
-Professional, scientific and technical services: Professional, scientific and technical services
-Real estate and rental and leasing: Real estate and rental and leasing
-Religious organizations: Religious organizations
-Retail trade: Retail trade
-Total, industries: Total, industries
-Transportation and warehousing: Transportation and warehousing
-Utilities: Utilities
-Wholesale trade: Wholesale trade
+Wastewater discharge from manufacturing industries: Wastewater discharge from manufacturing industries
+Wastewater discharged from municipal sewage systems: Wastewater discharged from municipal sewage systems
+Source: Source
+Municipal: Municipal
+Industries: Industries
+Wastewater treatment level: Wastewater treatment level
+Not treated: Not treated
+Treated: Treated
+Safely treated: Safely treated
+Generated: Generated
+Total volume of municipal and manufacturing wastewater safely treated: Total volume of municipal and manufacturing wastewater safely treated
 
-## 6-4-1
+## 6-3-2
+Great Lakes and St. Lawrence River: Great Lakes and St. Lawrence River
 Land use category: Land use category
 Water quality: Water quality
-Percentage: Percentage
 Number of sites: Number of sites
 Atlantic Ocean: Atlantic Ocean
 Great Lakes and St. Lawrence River: Great Lakes and St. Lawrence River
 Hudson Bay: Hudson Bay
 Mackenzie River: Mackenzie River
 Pacific Ocean: Pacific Ocean
-Total: Total
 Agriculture: Agriculture
 Forestry: Forestry
 Mining: Mining
@@ -833,6 +1028,20 @@ Good: Good
 Fair: Fair
 Marginal: Marginal
 Poor: Poor
+
+## 6-4-1
+Water-use efficiency (USD per cubic metre): Water-use efficiency (USD per cubic metre)
+Percent change in water-use efficiency over time (%): Percent change in water-use efficiency over time (%)
+USD per cubic metre: USD per cubic metre
+Percent change (%): Percent change (%)
+Economic activity: Economic activity
+Agriculture, forestry and fishing: Agriculture, forestry and fishing
+Industry: Industry
+Services: Services
+Overall: Overall
+
+## 6-4-2
+## nothing new
 
 ## 6-6-1
 Number of (shared) basins showing high surface-water extent changes: Number of (shared) basins showing high surface-water extent changes
@@ -856,41 +1065,11 @@ Lake water quality, medium turbidity: Lake water quality, medium turbidity
 Lake water quality, high turbidity: Lake water quality, high turbidity
 Lake water quality, extreme turbidity: Lake water quality, extreme turbidity
 Lake water quality, turbidity state: Lake water quality, turbidity state
-Lake water quality, trophic state: Lake water quality, trophic state
 Reservoir extent: Reservoir extent
 Maximum: Maximum
 Minimum: Minimum
 
-## 6-a-1
-Water Supply & Sanitation, Total: Water Supply & Sanitation, Total
-Agriculture water resources: Agriculture water resources
-Hydro-electric power plants: Hydro-electric power plants
-
 ## 7-2-1
-Demand characteristics: Demand characteristics
-Energy use - final demand: Energy use - final demand
-Total industrial: Total industrial
-Total transportation: Total transportation
-Agriculture: Agriculture
-Residential: Residential
-Public administration: Public administration
-Commercial and other institutional: Commercial and other institutional
-Fuel type: Fuel type
-Total primary and secondary energy: Total primary and secondary energy
-Total coal: Total coal
-Natural gas: Natural gas
-Gas plant natural gas liquids (NGL's): Gas plant natural gas liquids (NGL's)
-Hydroelectricity: Hydroelectricity
-Nuclear: Nuclear
-Steam: Steam
-Coke: Coke
-Coke oven gas: Coke oven gas
-Total refined petroleum products: Total refined petroleum products
-Units: Units
-Terajoules: Terajoules
-Per capita: Per capita
-
-## 7-3-1
 Type of electricity generation: Type of electricity generation
 Hydraulic turbine: Hydraulic turbine
 Tidal power turbine: Tidal power turbine
@@ -898,6 +1077,8 @@ Wind power turbine: Wind power turbine
 Solar: Solar
 Other types of electricity generation: Other types of electricity generation
 Total hydro, tidal, wind, solar and other generation: Total hydro, tidal, wind, solar and other generation
+Nuclear steam turbine: Nuclear steam turbine
+Total electricity production from biomass: Total electricity production from biomass
 
 ## 8-3-1
 ## nothing new
@@ -980,7 +1161,6 @@ Labourers in processing, manufacturing and utilities: Labourers in processing, m
 Total, all education levels: Total, all education levels
 Below upper secondary: Below upper secondary
 Upper secondary and post-secondary non-tertiary: Upper secondary and post-secondary non-tertiary
-Tertiary education: Tertiary education
 Total, in education and not in education: Total, in education and not in education
 Total, in education: Total, in education
 Employed, in education: Employed, in education
@@ -991,17 +1171,14 @@ Unemployed, Not in employment, education or training (NEET): Unemployed, Not in 
 Not in the labour force, Not in employment, education or training (NEET): Not in the labour force, Not in employment, education or training (NEET)
 
 ## 8-8-1
-Number of fatality claims, by sex: Number of fatality claims, by sex
-Number of lost time claims, by sex: Number of lost time claims, by sex
+Fatality claims: Fatality claims
+Lost time claims: Lost time claims
+Number of claims: Number of claims
 
 ## 8-10-1
 Number of commercial bank branches per 100,000 adults: Number of commercial bank branches per 100,000 adults
 Number of automated teller machines (ATMs) per 100,000 adults: Number of automated teller machines (ATMs) per 100,000 adults
-
-## 8-a-1
-Aid for trade flows of official development assistance (ODA): Aid for trade flows of official development assistance (ODA)
-Gross disbursements: Gross disbursements
-Commitments: Commitments
+Number per 100,000 adults: Number per 100,000 adults
 
 ## 9-1-2
 Air freight volume: Air freight volume
@@ -1010,16 +1187,19 @@ Rail freight volume: Rail freight volume
 Rail passengers: Rail passengers
 Road freight volume: Road freight volume
 Metric tonnes: Metric tonnes
+Number of passengers: Number of passengers
 
 ## 9-2-1
-Proportion of GDP: Proportion of GDP
-Per capita: Per capita
+MVA as a proportion of GDP: MVA as a proportion of GDP
+MVA per capita: MVA per capita
+Manufacturing value added (MVA) as a proportion of gross domestic product (GDP): Manufacturing value added (MVA) as a proportion of gross domestic product (GDP)
+Manufacturing value added (MVA) per capita: Manufacturing value added (MVA) per capita
 
 ## 9-2-2
-Type of employee: Type of employee
-All employees: All employees
-Salaried employees paid a fixed salary: Salaried employees paid a fixed salary
-Employees paid by the hour: Employees paid by the hour
+Industry: Industry
+Apparel manufacturing: Apparel manufacturing
+Apparel knitting mills: Apparel knitting mills
+# plus many more that only have the FR data translations
 
 ## 9-3-1
 Population centres: Population centres
@@ -1063,11 +1243,6 @@ Employment size: Employment size
 5 to 19 employees: 5 to 19 employees
 20 to 99 employees: 20 to 99 employees
 100 to 499 employees: 100 to 499 employees
-Atlantic Region: Atlantic Region
-Quebec Region: Quebec Region
-Ontario Region: Ontario Region
-Prairies Region: Prairies Region
-British Columbia and Territories Region: British Columbia and Territories Region
 Industries: Industries
 Construction (NAICS 23): Construction (NAICS 23)
 Manufacturing (NAICS 31-33): Manufacturing (NAICS 31-33)
@@ -1090,14 +1265,17 @@ Younger than 30 years old: Younger than 30 years old
 50 to 64 years old: 50 to 64 years old
 65 years old and older: 65 years old and older
 Ownership demographics: Ownership demographics
-Women: Women
-Indigenous: Indigenous
+Demographic characteristics: Demographic characteristics
 Person(s) with a disability: Person(s) with a disability
 Overall approval rate, line of credit: Overall approval rate, line of credit
 Overall approval rate, term loan: Overall approval rate, term loan
 Request rate, line of credit: Request rate, line of credit
 Request rate, term loan: Request rate, term loan
 Small and medium enterprises: Small and medium enterprises
+Proportion of small-scale industries requesting a line of credit: Proportion of small-scale industries requesting a line of credit
+Proportion of small-scale industries requesting a term loan: Proportion of small-scale industries requesting a term loan
+Proportion of small-scale industries approved for a line of credit: Proportion of small-scale industries approved for a line of credit
+Proportion of small-scale industries approved for a term loan: Proportion of small-scale industries approved for a term loan
 
 ## 9-4-1
 Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP: Megatonnes of carbon dioxide equivalent (Mt CO2 eq.) per billion dollars GDP
@@ -1109,9 +1287,7 @@ Total sciences: Total sciences
 Natural sciences and engineering: Natural sciences and engineering
 Social sciences, humanities and the arts: Social sciences, humanities and the arts
 Science type: Science type
-
-## 9-5-2
-Rate per 1,000,000: Rate per 1,000,000
+Total, Organisation for Economic Co-operation and Development (OECD): Total, Organisation for Economic Co-operation and Development (OECD)
 
 ## 9-7-1
 Type of charging stations: Type of charging stations
@@ -1126,12 +1302,16 @@ Long-Term Evolution - A (LTE-A): Long-Term Evolution - A (LTE-A)
 5G: 5G
 
 ## 10-1-1
+Growth rates of household expenditure per capita among the bottom 40 per cent of the population and the total population: Growth rates of household expenditure per capita among the bottom 40 per cent of the population and the total population
+Growth rates of income per capita among the bottom 40 per cent of the population and the total population: Growth rates of income per capita among the bottom 40 per cent of the population and the total population
 Household expenditure per capita: Household expenditure per capita
 Income per capita: Income per capita
-Percentile: Percentile
+Household income quintile or decile: Household income quintile or decile
+Household income quintile: Household income quintile
 All quintiles: All quintiles
 Lowest quintile: Lowest quintile
 Second quintile: Second quintile
+Household income decile: Household income decile
 Total deciles: Total deciles
 Lowest decile: Lowest decile
 Second decile: Second decile
@@ -1162,33 +1342,9 @@ Sales and service occupations [6]: Sales and service occupations [6]
 Trades - transport and equipment operators and related occupations [7]: Trades - transport and equipment operators and related occupations [7]
 Natural resources - agriculture and related production occupations [8]: Natural resources - agriculture and related production occupations [8]
 Occupations in manufacturing and utilities [9]: Occupations in manufacturing and utilities [9]
-15 years and over: 15 years and over
-15 to 24 years: 15 to 24 years
-25 to 54 years: 25 to 54 years
-55 years and over: 55 years and over
 
 ## 10-4-1
-Economic family type: Economic family type
-Economic families and persons not in an economic family: Economic families and persons not in an economic family
-Economic families: Economic families
-Elderly families: Elderly families
-Elderly couples: Elderly couples
-Other elderly families: Other elderly families
-Non-elderly families: Non-elderly families
-Couples: Couples
-Couples with children: Couples with children
-Couples with other relatives: Couples with other relatives
-Lone-parent families: Lone-parent families
-Male lone-parent families: Male lone-parent families
-Female lone-parent families: Female lone-parent families
-Other non-elderly families: Other non-elderly families
-Persons not in an economic family: Persons not in an economic family
-Elderly persons not in an economic family: Elderly persons not in an economic family
-Elderly males not in an economic family: Elderly males not in an economic family
-Elderly females not in an economic family: Elderly females not in an economic family
-Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
-Non-elderly males not in an economic family: Non-elderly males not in an economic family
-Non-elderly females not in an economic family: Non-elderly females not in an economic family
+Outside Canada: Outside Canada
 
 ## 10-5-1
 Indicator: Indicator
@@ -1199,74 +1355,57 @@ Earnings and profitability, return on assets: Earnings and profitability, return
 Ratio of liquid assets to short-term liabilities: Ratio of liquid assets to short-term liabilities
 Ratio of regulatory capital to assets: Ratio of regulatory capital to assets
 
+## 10-c-1
+Method: Method
+All methods: All methods
+Non-electronic methods: Non-electronic methods
+Electronic methods: Electronic methods
+Destination region: Destination region
+All regions: All regions
+Americas: Americas
+Eastern and Southern Europe: Eastern and Southern Europe
+Sub-Saharan Africa: Sub-Saharan Africa
+North Africa: North Africa
+West Central Asia and the Middle East: West Central Asia and the Middle East
+Eastern Asia: Eastern Asia
+Southeast Asia and Oceania: Southeast Asia and Oceania
+Southern Asia: Southern Asia
+Countries not eligible for official development assistance: Countries not eligible for official development assistance
+Amount last sent: Amount last sent
+$100 or less: $100 or less
+$101 to $200: $101 to $200
+$201 to $300: $201 to $300
+$301 to $500: $301 to $500
+$501 to $1,000: $501 to $1,000
+$1,001 or more: $1,001 or more
+
 ## 11-1-1
-Estimates: Estimates
-Growth since 2016-17: Growth since 2016-17
+Tenure: Tenure
+Total, tenure: Total, tenure
+Owner: Owner
+Owner who is a first-time homebuyer: Owner who is a first-time homebuyer
+Owner who is not a first-time homebuyer: Owner who is not a first-time homebuyer
+Renter: Renter
+Renter not in social and affordable housing: Renter not in social and affordable housing
+Renter in social and affordable housing: Renter in social and affordable housing
+Total, large urban population centres: Total, large urban population centres
 
 ## 11-2-1
-Selected housing vulnerable populations: Selected housing vulnerable populations
-All households: All households
-Total, lone-parent family households: Total, lone-parent family households
-Lone-parent family households whose reference person is male: Lone-parent family households whose reference person is male
-Lone-parent family households whose reference person is female: Lone-parent family households whose reference person is female
-Total, one person households: Total, one person households
-Men living alone: Men living alone
-Women living alone: Women living alone
-Reference person who experienced homelessness: Reference person who experienced homelessness
-Living with housing problems: Living with housing problems
-Living in unaffordable housing: Living in unaffordable housing
-Living in unsuitable housing: Living in unsuitable housing
-Living in inadequate housing: Living in inadequate housing
-Living in core housing need: Living in core housing need
-Census divisions: Census divisions
-Census subdivisions in a census agglomeration: Census subdivisions in a census agglomeration
-Area outside census metropolitan areas and census agglomeration: Area outside census metropolitan areas and census agglomeration
+Distance-capacity public transit service area: Distance-capacity public transit service area
+500 metres from all public transit stops: 500 metres from all public transit stops
+500 metres from low-capacity public transit stops only: 500 metres from low-capacity public transit stops only
+1000 metres from high-capacity public transit stops only: 1000 metres from high-capacity public transit stops only
+Demographic and socio-economic: Demographic and socio-economic
+Total - Age groups of the population - 100% data: Total - Age groups of the population - 100% data
 
 ## 11-3-1
-Greater Sudbury, Ontario: Greater Sudbury, Ontario
-Land Consumption Rate: Land Consumption Rate
-Population Growth Rate: Population Growth Rate
+Land consumption rate: Land consumption rate
+Population growth rate: Population growth rate
 Ratio of land consumption rate to population growth rate: Ratio of land consumption rate to population growth rate
 Rate of growth: Rate of growth
 Ratio: Ratio
 
 ## 11-4-1
-St. John's, Newfoundland and Labrador: St. John's, Newfoundland and Labrador
-Halifax, Nova Scotia: Halifax, Nova Scotia
-Moncton, New Brunswick: Moncton, New Brunswick
-Saint John, New Brunswick: Saint John, New Brunswick
-Montreal, Quebec: Montreal, Quebec
-Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (Quebec part), Quebec
-Quebec, Quebec: Quebec, Quebec
-Saguenay, Quebec: Saguenay, Quebec
-Sherbrooke, Quebec: Sherbrooke, Quebec
-Trois-Rivières, Quebec: Trois-Rivières, Quebec
-Barrie, Ontario: Barrie, Ontario
-Belleville, Ontario: Belleville, Ontario
-Brantford, Ontario: Brantford, Ontario
-Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury / Grand Sudbury, Ontario
-Guelph, Ontario: Guelph, Ontario
-Hamilton, Ontario: Hamilton, Ontario
-Kingston, Ontario: Kingston, Ontario
-Kitchener - Cambridge - Waterloo, Ontario: Kitchener - Cambridge - Waterloo, Ontario
-London, Ontario: London, Ontario
-Oshawa, Ontario: Oshawa, Ontario
-Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (Ontario part), Ontario
-Peterborough, Ontario: Peterborough, Ontario
-St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
-Thunder Bay, Ontario: Thunder Bay, Ontario
-Toronto, Ontario: Toronto, Ontario
-Windsor, Ontario: Windsor, Ontario
-Winnipeg, Manitoba: Winnipeg, Manitoba
-Regina, Saskatchewan: Regina, Saskatchewan
-Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
-Calgary, Alberta: Calgary, Alberta
-Edmonton, Alberta: Edmonton, Alberta
-Lethbridge, Alberta: Lethbridge, Alberta
-Abbotsford - Mission, British Columbia: Abbotsford - Mission, British Columbia
-Kelowna, British Columbia: Kelowna, British Columbia
-Vancouver, British Columbia: Vancouver, British Columbia
-Victoria, British Columbia: Victoria, British Columbia
 Protection of biodiversity and landscape: Protection of biodiversity and landscape
 Cultural services: Cultural services
 Broadcasting and publishing services: Broadcasting and publishing services
@@ -1276,27 +1415,43 @@ Level of government: Level of government
 Consolidated Canadian general government: Consolidated Canadian general government
 Consolidated provincial-territorial and local governments: Consolidated provincial-territorial and local governments
 
-## 11-5-1
-Type of commute: Type of commute
-Public transit: Public transit
-Active transport: Active transport
-Trois-Rivieres, Quebec: Trois-Rivieres, Quebec
-Mortality rate per 100,000 population: Mortality rate per 100,000 population
-Number of deaths: Number of deaths
-Type of natural disaster: Type of natural disaster
-Meteorological - Flood: Meteorological - Flood
-Meteorological - Storm: Meteorological - Storm
-Meteorological - Tornado: Meteorological - Tornado
-Meteorological - Wildfire: Meteorological - Wildfire
-Meteorological - Winter storm: Meteorological - Winter storm
-Meteorological - Heat event: Meteorological - Heat event
-Meteorological - Hurricane: Meteorological - Hurricane
-
 ## 11-6-1
 Sources of waste for disposal: Sources of waste for disposal
 All sources of waste for disposal: All sources of waste for disposal
 Non-residential sources of waste for disposal: Non-residential sources of waste for disposal
 Residential sources of waste for disposal: Residential sources of waste for disposal
+
+## 11-6-2
+Micrograms per cubic metre: Micrograms per cubic metre
+Atlantic Canada: Atlantic Canada
+Southern Quebec: Southern Quebec
+Southern Ontario: Southern Ontario
+Prairies and northern Ontario: Prairies and northern Ontario
+Windsor, ON: Windsor, ON
+Hamilton, ON: Hamilton, ON
+Barrie, ON: Barrie, ON
+Kitchener, ON: Kitchener, ON
+Toronto, ON: Toronto, ON
+St. Catharines - Niagara Falls, ON: St. Catharines - Niagara Falls, ON
+London, ON: London, ON
+Oshawa, ON: Oshawa, ON
+Ottawa, ON: Ottawa, ON
+Quebec, QC: Quebec, QC
+Montreal, QC: Montreal, QC
+Gatineau, QC: Gatineau, QC
+Edmonton, AB: Edmonton, AB
+Calgary, AB: Calgary, AB
+Vancouver, BC: Vancouver, BC
+Victoria, BC: Victoria, BC
+Saskatoon, SK: Saskatoon, SK
+Regina, SK: Regina, SK
+Winnipeg, MB: Winnipeg, MB
+Charlottetown, PE: Charlottetown, PE
+Fredericton, NB: Fredericton, NB
+Halifax, NS: Halifax, NS
+St. John's, NL: St. John's, NL
+Yellowknife, NT: Yellowknife, NT
+Whitehorse, YT: Whitehorse, YT
 
 ## 11-7-1
 # Nothing new
@@ -1342,7 +1497,6 @@ Transportation equipment manufacturing: Transportation equipment manufacturing
 Wood product manufacturing: Wood product manufacturing
 
 ## 12-3-1
-Territories: Territories
 Type of materials diverted: Type of materials diverted
 All materials diverted: All materials diverted
 All paper fibres: All paper fibres
@@ -1389,24 +1543,21 @@ All sources of diverted materials: All sources of diverted materials
 Residential sources of diverted materials: Residential sources of diverted materials
 Non-residential sources of diverted materials: Non-residential sources of diverted materials
 
-## 12-b-1
-Table: Table
-Tourism Satellite Account (TSA): Tourism Satellite Account (TSA)
-System of Environmental Economic Accounting (SEEA): System of Environmental Economic Accounting (SEEA)
+## 12-7-1
+Sub-indicators: Sub-indicators
+Sub-indicator_A: "Sub-indicator A: Existence of an SPP policy/action plan and/or SPP regulatory requirements"
+Sub-indicator_B: "Sub-indicator B: The public procurement regulatory framework is conducive to SPP"
+Sub-indicator_C: "Sub-indicator C: Practical support delivered to procurement practitioners in the implementation of SPP"
+Sub-indicator_D: "Sub-indicator D: SPP purchasing criteria / buying standards / requirements"
+Sub-indicator_E: "Sub-indicator E: Existence of an SPP monitoring system"
 
-## 13-1-1
-Rate per 100,000 population: Rate per 100,000 population
-Type of natural disaster: Type of natural disaster
-Meteorological - Flood: Meteorological - Flood
-Meteorological - Heat Event: Meteorological - Heat Event
-Meteorological - Hurricane: Meteorological - Hurricane
-Meteorological - Storm: Meteorological - Storm
-Meteorological - Tornado: Meteorological - Tornado
-Meteorological - Wildfire: Meteorological - Wildfire
-Meteorological - Winter Storm: Meteorological - Winter Storm
-Meteorological - Epidemic: Meteorological - Epidemic
+## 12-b-1
+Standard Accounting Tools: Standard Accounting Tools
+Tourism Satellite Account Tables (TSA): Tourism Satellite Account Tables
+System of Environmental Economic Accounting Tables (SEEA): System of Environmental Economic Accounting Tables
 
 ## 13-2-2
+Megatonnes of carbon dioxide equivalent (Mt CO2 eq): Megatonnes of carbon dioxide equivalent (Mt CO2 eq)
 Source: Source
 Provincial Inventory Total: Provincial Inventory Total
 Territorial Inventory Total: Territorial Inventory Total
@@ -1440,8 +1591,7 @@ Heat Event: Heat Event
 Event sub-type: Event sub-type
 
 # 13-3-1
-Number: Number
-Percentage: Percentage
+
 Core public infrastructure assets: Core public infrastructure assets
 Bridges and tunnels: Bridges and tunnels
 Culture, recreation and sports facilities: Culture, recreation and sports facilities
@@ -1513,15 +1663,14 @@ Yellowjacket wasps: Yellowjacket wasps
 
 ## 15-1-2
 Key Biodiversity Areas (KBAs): Key Biodiversity Areas (KBAs)
-Terrestrial KBAs: Terrestrial KBAs
-Freshwater KBAs: Freshwater KBAs
+Terrestrial Key Biodiversity Areas: Terrestrial Key Biodiversity Areas
+Freshwater Key Biodiversity Areas: Freshwater Key Biodiversity Areas
 
 ## 15-2-1
 Population and distribution trends consistent with objectives: Population and distribution trends consistent with objectives
 On track: On track
 Mixed evidence: Mixed evidence
 Not on track: Not on track
-Percentage (%): Percentage (%)
 Forest area net change rate: Forest area net change rate
 Forest area net change rate (Percentage): Forest area net change rate (Percentage)
 Above-ground biomass stock in forest: Above-ground biomass stock in forest
@@ -1533,6 +1682,12 @@ Proportion of forest area under a long term forest management plan (Percentage):
 Forest area under an independently verified forest management certification scheme: Forest area under an independently verified forest management certification scheme
 Forest area under an independently verified forest management certification scheme (Hectares): Forest area under an independently verified forest management certification scheme (Hectares)
 Hectares (Millions): Hectares (Millions)
+Hectares: Hectares
+Forest area as a proportion of total land area: Forest area as a proportion of total land area
+Forest area: Forest area
+Land area: Land area
+Canada’s estimated forest area: Canada’s estimated forest area
+Canada’s estimated land area: Canada’s estimated land area
 
 ## 15-3-1
 National terrestrial: National terrestrial
@@ -1541,35 +1696,51 @@ National marine: National marine
 ## 15-4-1
 # nothing new
 
+## 15-5-1
+Cumulative percentage change since 1970: Cumulative percentage change since 1970
+Species group or system: Species group or system
+National index: National index
+Birds index: Birds index
+Mammals index: Mammals index
+Fish index: Fish index
+Terrestrial index: Terrestrial index
+Freshwater index: Freshwater index
+Marine index: Marine index
+By species group: By species group
+By system: By system
+System: System
+
 ## 15-a-1
 Public sector components: Public sector components
+Official development assistance on conservation and sustainable use of biodiversity: Official development assistance on conservation and sustainable use of biodiversity
+Revenue generated and finance mobilized from biodiversity-relevant economic instruments: Revenue generated and finance mobilized from biodiversity-relevant economic instruments
 
 ## 16-1-3
-Rate of incidents per 1,000 population 15 years of age and older: Rate of incidents per 1,000 population 15 years of age and older
-Rate per 1,000 population: Rate per 1,000 population
+Proportion of population subjected to physical violence in the previous 12 months: Proportion of population subjected to physical violence in the previous 12 months
+Proportion of population subjected to sexual violence in the previous 12 months: Proportion of population subjected to sexual violence in the previous 12 months
+Physical violence: Physical violence
+Sexual violence: Sexual violence
+Lesbian or gay: Lesbian or gay
+First Nations, Métis, or Inuit identity: First Nations, Métis, or Inuit identity
+Has a disability: Has a disability
+Does not have a disability: Does not have a disability
 
 ## 16-1-4
-Demographic: Demographic
-Total visible minority: Total visible minority
-South Asian: South Asian
-Chinese: Chinese
-Black: Black
-Filipino: Filipino
-Arab: Arab
-Latin American: Latin American
-Southeast Asian: Southeast Asian
-Not a visible minority: Not a visible minority
-Racialized groups: Racialized groups
 Sociodemographic characteristics: Sociodemographic characteristics
-Men+: Men+
-Women+: Women+
 
 ## 16-2-1
-Index: Index
-Crime severity index: Crime severity index
-Violent crime severity index: Violent crime severity index
-Youth crime severity index: Youth crime severity index
-Youth violent crime severity index: Youth violent crime severity index
+Type of childhood maltreatment: Type of childhood maltreatment
+Physical or sexual abuse: Physical or sexual abuse
+Physical abuse: Physical abuse
+Sexual abuse: Sexual abuse
+Male gender: Male gender
+Female gender: Female gender
+Disability status: Disability status
+Total, disability status: Total, disability status
+Total, sexual orientation: Total, sexual orientation
+Sexual minority: Sexual minority
+Bisexual or pansexual: Bisexual or pansexual
+Not stated, sexual orientation: Not stated, sexual orientation
 
 ## 16-2-3
 Percentage of Canadians 15 years of age and older: Percentage of Canadians 15 years of age and older
@@ -1590,6 +1761,16 @@ Total robbery: Total robbery
 Uttering threats: Uttering threats
 Total other violent violations: Total other violent violations
 Percentage of incidents of violent crime reported to police: Percentage of incidents of violent crime reported to police
+
+## 16-3-1
+Proportion of victims of physical violence in the previous 12 months who reported their victimization to police: Proportion of victims of physical violence in the previous 12 months who reported their victimization to police
+Proportion of victimes of sexual violence in the previous 12 months who reported their victimization to police: Proportion of victimes of sexual violence in the previous 12 months who reported their victimization to police
+Physical violence: Physical violence
+Sexual violence: Sexual violence
+Type of victimization: Type of victimization
+_Physical assault: Physical assault
+Robbery: Robbery
+Sexual assault: Sexual assault
 
 ## 16-3-3
 Resolution mechanism: Resolution mechanism
@@ -1631,11 +1812,6 @@ Total - age of accused: Total - age of accused
 16 and 17 years: 16 and 17 years
 Other ages: Other ages
 Age not applicable: Age not applicable
-18 to 24 years: 18 to 24 years
-25 to 34 years: 25 to 34 years
-35 to 44 years: 35 to 44 years
-45 to 54 years: 45 to 54 years
-55 years and over: 55 years and over
 Sex of accused: Sex of accused
 Total - sex of accused: Total - sex of accused
 Company: Company
@@ -1644,41 +1820,100 @@ Type of court: Type of court
 Adult criminal courts: Adult criminal courts
 Youth courts: Youth courts
 
-## 16-7-1
+## 16-7-2
 Institutions: Institutions
-Police: Police
-Characteristics: Characteristics
-Total population: Total population
-Male: Male
-Female: Female
-Indigenous person: Indigenous person
-Non-Indigenous person: Non-Indigenous person
-Visible minority: Visible minority
-Non-visible minority: Non-visible minority
-Level of confidence: Level of confidence
-A great deal of confidence: A great deal of confidence
-Some confidence: Some confidence
-Not very much or no confidence: Not very much or no confidence
+Confidence in the justice system and courts: Confidence in the justice system and courts
+Confidence in Federal Parliament: Confidence in Federal Parliament
+Selected sociodemographic characteristics: Selected sociodemographic characteristics
+Non-Immigrants: Non-immigrants
+First generation: First generation
+Second generation: Second generation
+Third generation or more: Third generation or more
+First official language spoken, English only: First official language spoken, English only
+First official language spoken, French only: First official language spoken, French only
+Secondary (high) school diploma or equivalency certificate or less: Secondary (high) school diploma or equivalency certificate or less
+Postsecondary certificate or diploma (non-university): Postsecondary certificate or diploma (non-university)
+University certificate or diploma: University certificate or diploma
+Use with caution: Use with caution
+
+## 16-10-2
+Component: Component
+Adoption: Adoption
+Implementation: Implementation
+
+## 16-b-1
+Discrimination indicatorss: Discrimination indicators
+Did not experience discrimination or unfair treatment in Canada: Did not experience discrimination or unfair treatment in Canada
+Discrimination at school: Discrimination at school
+Discrimination at work: Discrimination at work
+Discrimination by or among friends or family: Discrimination by or among friends or family
+Discrimination in any other situation: Discrimination in any other situation
+Discrimination in public areas, a store, bank or restaurant: Discrimination in public areas, a store, bank or restaurant
+Discrimination on the Internet: Discrimination on the Internet
+Discrimination when interacting with the healthcare system: Discrimination when interacting with the healthcare system
+Discrimination while using public transit: Discrimination while using public transit
+Experienced discrimination or unfair treatment in Canada: Experienced discrimination or unfair treatment in Canada
+LGBTQ2+: LGBTQ2+
+Highest level of education: Highest level of education
+Main activity: Main activity
+Total, by immigrant status: Total, by immigrant status
+Immigrants, 10 years or less in Canada: Immigrants, 10 years or less in Canada
+Immigrants, more than 10 years in Canada: Immigrants, more than 10 years in Canada
+Immigrants, years in Canada not stated: Immigrants, years in Canada not stated
+Total, by visible minority group: Total, by visible minority group
+Visible minority, not included elsewhere: Visible minority, not included elsewhere
+Total, by Indigenous identity: Total, by Indigenous identity
+Single Indigenous identity: Single Indigenous identity
+Multiple Indigenous identities: Multiple Indigenous identities
+Total, persons with and without a disability, difficulty or long-term condition: Total, persons with and without a disability, difficulty or long-term condition
+Persons with a disability, difficulty or long-term condition: Persons with a disability, difficulty or long-term condition
+Persons without a disability, difficulty or long-term condition: Persons without a disability, difficulty or long-term condition
+Total, LGBTQ2+ and non-LGBTQ2+ people: Total, LGBTQ2+ and non-LGBTQ2+ people
+LGBTQ2+ people: LGBTQ2+ people
+Non-LGBTQ2+ people: Non-LGBTQ2+ people
+Total, highest certificate, diploma or degree: Total, highest certificate, diploma or degree
+No certificate, diploma or degree: No certificate, diploma or degree
+Secondary (high) school diploma or equivalency certificate: Secondary (high) school diploma or equivalency certificate
+Postsecondary certificate, diploma or degree: Postsecondary certificate, diploma or degree
+Postsecondary certificate or diploma below bachelor level: Postsecondary certificate or diploma below bachelor level
+Apprenticeship or trades certificate or diploma: Apprenticeship or trades certificate or diploma
+College, CEGEP or other non-university certificate or diploma: College, CEGEP or other non-university certificate or diploma
+University certificate or diploma below bachelor level: University certificate or diploma below bachelor level
+Bachelor's degree or higher: Bachelor's degree or higher
+Bachelor's degree: Bachelor's degree
+University certificate or diploma above bachelor level: University certificate or diploma above bachelor level
+Total, by main activity: Total, by main activity
+Working at a paid job or business: Working at a paid job or business
+Retired: Retired
+Other activity: Other activity
+Total, urban and rural areas: Total, urban and rural areas
+Urban areas: Urban areas
+Proportion of population reporting to have experienced discrimination or unfair treatment: Proportion of population reporting to have experienced discrimination or unfair treatment
+Proportion of population reporting to have experienced discrimination or unfair treatment in the past 5 years: Proportion of population reporting to have experienced discrimination or unfair treatment in the past 5 years
+Proportion of individuals within a population who reported experiencing discrimination or unfair treatment: Proportion of individuals within a population who reported experiencing discrimination or unfair treatment
+Proportion of individuals within a population who reported experiencing discrimination or unfair treatment in the past 5 years: Proportion of individuals within a population who reported experiencing discrimination or unfair treatment in the past 5 years
 
 ## 17-1-1
-Component: Component
 Taxes: Taxes
 Social contributions: Social contributions
 Grants: Grants
 Other revenue: Other revenue
 
-
 ## 17-2-1
 ODA as a share of GNI: ODA as a share of GNI
 Total ODA to least developed countries as a share of GNI: Total ODA to least developed countries as a share of GNI
+Official development assistance: Official development assistance
+Least developed countries: Least developed countries
+ODA to least developed countries as a share of GNI: ODA to least developed countries as a share of GNI
+Target - ODA as a share of GNI: Target - ODA as a share of GNI
+Target - Total ODA to least developed countries as a share of GNI: Target - Total ODA to least developed countries as a share of GNI
 
 ## 17-3-1
-Official Development Assistance (ODA): Official Development Assistance (ODA)
-Foreign Direct Investment (FDI) inflow: Foreign Direct Investment (FDI) inflow
+Foreign Direct Investment (FDI) Inflow: Foreign Direct Investment (FDI) Inflow
+Foreign Direct Investment (FDI) as a proportion of Gross National Income (GNI): Foreign Direct Investment (FDI) as a proportion of Gross National Income (GNI)
+Official Development Assistance (ODA) as a proportion of Gross National Income (GNI): Official Development Assistance (ODA) as a proportion of Gross National Income (GNI)
 
 ## 17-5-1
-Total value of the supported investment projects : Total value of the supported investment projects 
+Total value of the supported investment projects: Total value of the supported investment projects 
 Number of projects: Number of projects
 Millions $ CAD: Millions $ CAD
-Number: Number
-Total value of the supported investment projects: Total value of the supported investment projects

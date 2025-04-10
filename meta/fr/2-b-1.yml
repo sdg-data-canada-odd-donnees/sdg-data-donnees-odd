@@ -7,12 +7,15 @@ SDG_TARGET: '<p>Cible 2.b : Corriger et prévenir les restrictions et distorsion
   de négociations de Doha pour le développement</p>'
 SDG_INDICATOR: '<p>Indicateur 2.b.1 : Subventions à l’exportation dans le secteur
   agricole</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+  Les subventions agricoles à l’exportation sont définies comme les dépenses budgétaires et les
+  quantités de subventions à l’exportation comme indiquées par les membres de l’Organisation mondiale du commerce (OMC) dans les 
+  tableaux ES:1 et les tableaux complémentaires ES:2.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: |
-  La période de déclaration des engagements en matière de subventions à l'exportation pour 2020 
-  est seulement d'août à décembre 2020. Les subventions à l'exportation n'ont pas été accordées 
-  (modifiées à zéro) aux produits agricoles au cours de l'année civile 2021.
+  La période de référence pour les engagements en matière de subventions à l’exportation pour 2020 
+  s’étend uniquement d’août à décembre 2020. Aucune subvention à l’exportation n’a été accordée pour les 
+  produits agricoles au cours des années civiles 2021, 2022 et 2023.
   
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
   améliorer la nutrition et promouvoir l’agriculture durable</p>'
@@ -27,37 +30,30 @@ SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.b.1 : Subventions à l’exportation dan
 source_active_1: 'true'
 source_url_text_1: |
     Organisation mondiale du commerce : Comité de l'agriculture - G/AG/N/CAN/125
-source_url_1: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?language=E&HasEnglishRecord=True&HasFrenchRecord=True&HasSpanishRecord=True&CatalogueIdList=263580,263579,251407,251411,251412,251413,243950,228500,133032,127285&CurrentCatalogueIdIndex=3&FullTextHash=371857150
-source_organisation_1: Organisation mondiale du commerce
+source_url_1: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?language=F&HasEnglishRecord=True&HasFrenchRecord=True&HasSpanishRecord=True&CatalogueIdList=263580,263579,251407,251411,251412,251413,243950,228500,133032,127285&CurrentCatalogueIdIndex=3&FullTextHash=371857150
 
 source_active_2: 'true'
 source_url_text_2: |
     Organisation mondiale du commerce : Comité de l'agriculture - G/AG/N/CAN/135
-source_url_2: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?language=E&HasEnglishRecord=True&HasFrenchRecord=True&HasSpanishRecord=True&CatalogueIdList=263580,263579,251407,251411,251412,251413,243950,228500,133032,127285&CurrentCatalogueIdIndex=0&FullTextHash=371857150
-source_organisation_2: Organisation mondiale du commerce
+source_url_2: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?language=F&HasEnglishRecord=True&HasFrenchRecord=True&HasSpanishRecord=True&CatalogueIdList=263580,263579,251407,251411,251412,251413,243950,228500,133032,127285&CurrentCatalogueIdIndex=0&FullTextHash=371857150
 
 source_active_3: 'true'
 source_url_text_3: |
     Organisation mondiale du commerce : Comité de l'agriculture - G/AG/N/CAN/124
-source_url_3: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?Language=E&CatalogueIdList=263580,263579,251407,251411,251412,251413,243950,228500,133032,127285&CurrentCatalogueIdIndex=2&FullTextHash=371857150
-source_organisation_3: Organisation mondiale du commerce
+source_url_3: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?Language=F&CatalogueIdList=263580,263579,251407,251411,251412,251413,243950,228500,133032,127285&CurrentCatalogueIdIndex=2&FullTextHash=371857150
 
 source_active_4: 'true'
 source_url_text_4: |
     Organisation mondiale du commerce : Comité de l'agriculture - G/AG/N/CAN/118
-source_url_4: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?Language=E&CatalogueIdList=263580,263579,251407,251411,251412,251413,243950,228500,133032,127285&CurrentCatalogueIdIndex=6&FullTextHash=371857150
-source_organisation_4: Organisation mondiale du commerce
+source_url_4: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?Language=F&CatalogueIdList=263580,263579,251407,251411,251412,251413,243950,228500,133032,127285&CurrentCatalogueIdIndex=6&FullTextHash=371857150
 
 source_active_5: 'true'
 source_url_text_5: |
     Organisation mondiale du commerce : Comité de l'agriculture - G/AG/N/CAN/139
-source_url_5: https://agims.wto.org/en/SearchNotificationIssue/ViewResults
-source_organisation_5: Organisation mondiale du commerce
+source_url_5: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?language=F&CatalogueIdList=272757&CurrentCatalogueIdIndex=0&FullTextHash=&HasEnglishRecord=True&HasFrenchRecord=True&HasSpanishRecord=True
 
 source_active_6: 'true'
 source_url_text_6: |
     Organisation mondiale du commerce : Comité de l'agriculture - G/AG/N/CAN/143
-source_url_6: https://agims.wto.org/en/SearchNotificationIssue/ViewResults
-source_organisation_6: Organisation mondiale du commerce
-
+source_url_6: https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-DP.aspx?language=F&CatalogueIdList=277616&CurrentCatalogueIdIndex=0&FullTextHash=&HasEnglishRecord=True&HasFrenchRecord=True&HasSpanishRecord=True
  

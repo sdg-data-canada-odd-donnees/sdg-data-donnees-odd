@@ -9,8 +9,16 @@ STAT_CONC_DEF: <p> Le taux de mortalité néonatale est la probabilité qu'un en
   né au cours d'une année ou d'une période donnée meure au cours des 28 premiers jours
   complets de vie s'il est soumis aux taux de mortalité par âge de cette période,
   exprimés pour 1 000 naissances vivantes. </p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |
+  Chaque année, au cours de la production des statistiques sur les naissances/décès/mortinaissances, les données des années précédentes pourraient être révisées en fonction des mises à jour ou changements qui ont été reçus des bureaux de l'état civil provinciaux et territoriaux. 
+  <br>
+  <br>Suite à des améliorations apportées à la méthodologie et au temps de réponse, la durée de la collecte de données a été réduite comparativement aux années précédentes. 
+  En conséquence, le nombre de décès saisi peut être plus faible au moment de la publication. 
+  <br>
+  <br>Les données de 2023 sont considérées préliminaires. 
+  <br>
+  <br>En raison des retards dans l’enregistrement des décès, moins de décès ont été enregistrés en Nouvelle-Écosse en 2023.
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.2 : D’ici à 2030, éliminer les décès évitables de
@@ -19,14 +27,14 @@ SDG_TARGET__GLOBAL: '<p>Cible 3.2 : D’ici à 2030, éliminer les décès évit
   des enfants de moins de 5 ans à 25 pour 1 000 naissances vivantes au plus.</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.2.2 : Taux de mortalité néonatale</p>'
 
+reporting_status: complete
+
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Tableau 13-10-0712-01  Mortalité infantile et taux de mortalité, selon le sexe
 source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
 source_url_1: https://doi.org/10.25318/1310071201-fra
-reporting_status: complete
- 
 
 un_designated_tier: Niveau I
 un_custodian_agency: Fonds des Nations unies pour l'enfance (UNICEF)

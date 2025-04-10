@@ -1,59 +1,42 @@
-SDG_GOAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
-  en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET: '<p>Cible 6.4 : D’ici à 2030, faire en sorte que les ressources en eau
-  soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir la
-  viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier
-  à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau</p>'
-SDG_INDICATOR: '<p>Indicateur 6.4.2 : Niveau de stress hydrique : prélèvements d’eau
-  douce en proportion des ressources en eau douce disponibles</p>'
-STAT_CONC_DEF: '<p>Niveau de stress hydrique : le prélèvement d''eau douce en proportion
-  des ressources en eau douce disponibles est le rapport entre le total de l''eau
-  douce prélevée par tous les grands secteurs et le total des ressources renouvelables
-  en eau douce, après avoir tenu compte des besoins environnementaux en eau. Les principaux
-  secteurs, tels que définis par les normes de la Classification internationale type
-  des industries (CITI), comprennent l''agriculture, la sylviculture et la pêche,
-  l''industrie manufacturière, l''industrie de l''électricité et les services. Cet
-  indicateur est également connu sous le nom d''intensité des retraits d''eau.
-  <br>
-  <br>Au-dessus de 25 % du stress hydrique, quatre classes ont été identifiées pour signaler différents niveaux de gravité du stress;
-  <br>
-  <br>- Pas de stress <25%
-  <br>
-  <br>- Faible 25% - 50%
-  <br>
-  <br>- Moyen 50% - 75%
-  <br>
-  <br>- Élevé 75-100%
-  <br>
-  <br>- Critique >100%</p>'
-DATA_COMP: '   '
-REC_USE_LIM: '<p>Le prélèvement d’eau douce en pourcentage des ressources renouvelables en eau douce est un bon indicateur de la pression
-  exercée sur les ressources en eau limitées, l’une des ressources naturelles les plus importantes. Cependant, il n’aborde que partiellement
-  les questions liées à la gestion durable de l’eau.
-  <br>
-  <br>Les tendances des prélèvements d’eau douce montrent des changements relativement lents. Habituellement, trois à cinq ans sont une
-  fréquence minimale pour pouvoir détecter des changements significatifs, car il est peu probable que l’indicateur montre des variations 
-  significatives d’une année à l’autre.</p>'
-SDG_GOAL__GLOBAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation
-  en eau et d''assainissement gérés de façon durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 6.4 : D’ici à 2030, faire en sorte que les ressources
-  en eau soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir
-  la viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier
-  à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 6.4.2 : Niveau de stress hydrique : prélèvements
-  d’eau douce en proportion des ressources en eau douce disponibles</p>'
+# National
+SDG_GOAL: >-
+  Objectif 6 : Garantir l'accès de tous à des services d'alimentation en eau et d'assainissement gérés de façon durable
+SDG_TARGET: >-
+  Cible 6.4 : D’ici à 2030, faire en sorte que les ressources en eau soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir la viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau
+SDG_INDICATOR: >-
+  Indicateur 6.4.2 : Niveau de stress hydrique : prélèvements d’eau douce en proportion des ressources en eau douce disponibles
+STAT_CONC_DEF: >-
+  <p>Niveau de stress hydrique : Le prélèvement d’eau douce en proportion des ressources en eau douce disponibles est le rapport entre le total de l’eau douce prélevée par tous les grands secteurs et le total des ressources renouvelables en eau douce, après avoir tenu compte des besoins environnementaux en eau. Les principaux secteurs, comme définis par les normes de la Classification internationale type, par industries, de toutes les branches d’activité économique (CITI), comprennent l’agriculture, la sylviculture et la pêche, les industries manufacturières, l’industrie de l’électricité et les services. Cet indicateur est également connu sous le nom d’intensité des retraits d’eau.
+  <br><br>
+  Au-dessus de 25 % de stress hydrique, quatre catégories ont été établies pour déterminer différents niveaux de gravité de stress :</p>
+  <ul>
+  <li>Aucun stress < 25 %</li>
+  <li>Faible 25 % – 50 %</li>
+  <li>Moyen 50 % – 75 %</li>
+  <li>Élevé 75 % – 100 %</li>
+  <li>Critique > 100 %</li>
+  </ul>
+DATA_COMP: custom.data-comp
+REC_USE_LIM: >-
+  Le prélèvement d’eau douce en pourcentage des ressources renouvelables en eau douce est un bon indicateur de la pression exercée sur les ressources limitées en eau, l’une des ressources naturelles les plus importantes. Cependant, il n’aborde que partiellement les questions liées à la gestion durable de l’eau.
+  <br><br>
+  Les tendances des prélèvements d’eau douce montrent des changements relativement lents. Habituellement, trois à cinq ans est une fréquence minimale pour pouvoir détecter des changements importants, car il est peu probable que l’indicateur montre des variations importantes d’une année à l’autre.
 
-reporting_status: complete
-
-source_active_1: 'true'
-source_url_text_1: ONU-Eau. Aperçu ODD 6 en Canada.
-source_url_1: https://www.sdg6data.org/fr/country-or-area/Canada
-source_organisation_1: ONU-Eau
-source_geographical_coverage_1: Canada
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 6 : Garantir l''accès de tous à des services d''alimentation en eau et d''assainissement gérés de façon durable
+SDG_TARGET__GLOBAL: >-
+  Cible 6.4 : D’ici à 2030, faire en sorte que les ressources en eau soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir la viabilité des prélèvements et de l’approvisionnement en eau douce afin de remédier à la pénurie d’eau et de réduire nettement le nombre de personnes qui manquent d’eau
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 6.4.2 : Niveau de stress hydrique : prélèvements d’eau douce en proportion des ressources en eau douce disponibles
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+source_url_text_1: ONU-Eau
+source_url_1: https://sdg6data.org/fr/tables
+source_organisation_1: ONU-Eau
  

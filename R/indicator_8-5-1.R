@@ -40,7 +40,7 @@ all_earnings <-
     Geography = GEO,
     `Type of work`,
     Occupation = `National Occupational Classification (NOC)`,
-    Sex,
+    Gender,
     `Age group`,
     Value = VALUE
   ) %>% 
@@ -58,7 +58,7 @@ data_final <-
         Geography == "Canada",
         `Type of work` == "Both full- and part-time employees",
         Occupation == "Total employees, all occupations",
-        Sex == "Both sexes",
+        Gender == "Total - Gender",
         `Age group` == "15 years and over"
       ) %>% 
       mutate_at(2:6, ~ ""),
@@ -70,10 +70,20 @@ data_final <-
           Geography == "Canada" &
             `Type of work` == "Both full- and part-time employees" &
             Occupation == "Total employees, all occupations" &
-            Sex == "Both sexes" &
+            Gender == "Total - Gender" &
             `Age group` == "15 years and over"
         )
     )
+  ) %>%
+  select(
+    Year,
+    Occupation,
+    `Type of work`,
+    Gender,
+    `Age group`,
+    Geography,
+    GeoCode,
+    Value
   )
 
 

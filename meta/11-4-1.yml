@@ -1,26 +1,27 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 11: Make cities and human settlements inclusive, safe, resilient
-  and sustainable</p>'
-SDG_TARGET: |
-    Target 11.4: Strengthen efforts to protect and safeguard the world's cultural and natural heritage
-SDG_INDICATOR: |
-    Indicator 11.4.1: Total per capita expenditure spent on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)
-STAT_CONC_DEF: 'Total funding from government (central, regional, local), private sources (household, corporate & 
-  sponsorship and international sources) in the preservation, protection and conservation of cultural and/or 
-  natural heritage for a given year per capita.'
-DATA_COMP: 'Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage = Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage (COFOG = 7054 + 7082) / Total population'
-REC_USE_LIM: 'Due to data limitations, private heritage expenditures are currently not included.'
+SDG_GOAL: >-
+  Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+SDG_TARGET: >-
+  Target 11.4: Strengthen efforts to protect and safeguard the world's cultural and natural heritage
+SDG_INDICATOR: >-
+  Indicator 11.4.1: Public per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage
+STAT_CONC_DEF: >-
+  This indicator measures public per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage. Preservation, protection and conservation of all cultural and natural heritage is defined using the following Canadian Classification of Functions of Government (CCOFOG) codes: Protection of biodiversity and landscape [7054] and Cultural services [7082].
+DATA_COMP: >-
+  Public per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage = Total expenditure on the preservation, protection and conservation of all cultural and natural heritage (COFOG = 7054 + 7082) / Total population
+REC_USE_LIM: >-
+  This indicator measures public expenditure per capita on the preservation, protection, and conservation of all cultural and natural heritage. Private expenditures related to heritage preservation, protection, and conservation are not currently available. Further, this indicator is reported in current Canadian dollars and not constant 2017 US dollars as specified in the UN Global metadata.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 11: Make cities and human settlements inclusive, safe,
-  resilient and sustainable</p>'
-SDG_TARGET__GLOBAL: |
-    Target 11.4: Strengthen efforts to protect and safeguard the world's cultural and natural heritage
-SDG_INDICATOR__GLOBAL: |
-    Indicator 11.4.1: Total expenditure per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)
+SDG_GOAL__GLOBAL: >-
+  Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+SDG_TARGET__GLOBAL: >-
+  Target 11.4: Strengthen efforts to protect and safeguard the world's cultural and natural heritage
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 11.4.1: Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)
 
 un_designated_tier: Tier II
-un_custodian_agency: United Nations Educational, Scientific and Cultural Organization (UNESCO)
+un_custodian_agency: UNESCO Institute for Statistics (UIS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-04-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 

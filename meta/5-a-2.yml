@@ -1,34 +1,32 @@
-SDG_GOAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
-SDG_TARGET: '<p>Target 5.a: Undertake reforms to give women equal rights to economic
-  resources, as well as access to ownership and control over land and other forms
-  of property, financial services, inheritance and natural resources, in accordance
-  with national laws</p>'
-SDG_INDICATOR: "Indicator 5.a.2: Does Canada's legal framework (including customary law) guarantee women's equal rights to land ownership and/or control"
-STAT_CONC_DEF: "This indicator reports on whether Canada's legal framework (including customary law) guarantee women's equal rights to land ownership and/or control."
+# National
+SDG_GOAL: >-
+  Goal 5: Achieve gender equality and empower all women and girls
+SDG_TARGET: >-
+  Target 5.a: Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws
+SDG_INDICATOR: >-
+  Indicator 5.a.2: Canada's legal framework (including customary law) guaranteeing women’s equal rights to land ownership and/or control
+STAT_CONC_DEF: >-
+  This indicator reports on whether Canada's legal framework (including customary law) guarantee women's equal rights to land ownership and/or control.
 DATA_COMP: '     '
-REC_USE_LIM: |
-  <p>This is a proxy indicator. The UN Global indicator states: "Proportion of countries where the legal framework (including customary law) guarantees women's equal rights to land
-  ownership and/or control".</p>
-SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
-SDG_TARGET__GLOBAL: '<p>Target 5.a: Undertake reforms to give women equal rights to
-  economic resources, as well as access to ownership and control over land and other
-  forms of property, financial services, inheritance and natural resources, in accordance
-  with national laws</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 5.a.2: Proportion of countries where the legal
-  framework (including customary law) guarantees women&#x2019;s equal rights to land
-  ownership and/or control</p>'
+REC_USE_LIM: >-
+  This is a proxy indicator. The UN Global indicator states: "Proportion of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control".
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 5: Achieve gender equality and empower all women and girls
+SDG_TARGET__GLOBAL: >-
+  Target 5.a: Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 5.a.2: Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control
+
 un_designated_tier: Tier II
 un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-0A-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
-reporting_status: complete
-
-# SOURCE(S)
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: 'Rights of Women: Equality'
 source_url_1: https://www.canada.ca/en/canadian-heritage/services/rights-women.html#a2a
 source_organisation_1: Canadian Heritage
 source_geographical_coverage_1: Canada
-
-proxy: proxy

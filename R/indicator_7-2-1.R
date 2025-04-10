@@ -89,7 +89,14 @@ non_total_line <-
 
 
 final_data <-
-  bind_rows(total_line, non_total_line)
+  bind_rows(total_line, non_total_line) %>%
+  select(
+    Year,
+    `Type of electricity generation`,
+    Geography,
+    GeoCode,
+    Value
+  )
 
 
 write.csv(final_data,

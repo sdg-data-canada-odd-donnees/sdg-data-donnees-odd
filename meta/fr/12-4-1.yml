@@ -8,11 +8,17 @@ SDG_INDICATOR: '<p>Indicateur 12.4.1 : Nombre de parties aux accords internation
   multilatéraux sur l’environnement relatifs aux substances chimiques et autres déchets
   dangereux ayant satisfait à leurs engagements et obligations en communiquant les
   informations requises par chaque accord.</p>'
-STAT_CONC_DEF: <p>L'indicateur se réfère au nombre de parties (= pays qui ont ratifié,
-  accepté, approuvé ou accédé) aux accords multilatéraux sur l'environnement (AME)
-  suivants :</p>
+STAT_CONC_DEF: |
+  L'indicateur se réfère au nombre de parties (= pays qui ont ratifié, accepté, approuvé ou accédé) aux accords multilatéraux sur l'environnement (AME) suivants : <br><br>
+  1. La Convention de Bâle sur le contrôle des mouvements transfrontières de déchets dangereux et de leur élimination (Convention de Bâle); <br>
+  2. La Convention de Rotterdam sur la procédure de consentement préalable en connaissance de cause applicable à certains produits chimiques et pesticides dangereux qui font l'objet d'un commerce international (Convention de Rotterdam); <br>
+  3. La convention de Stockholm sur les polluants organiques persistants (convention de Stockholm); <br>
+  4. Le protocole de Montréal relatif à des substances qui appauvrissent la couche d'ozone (protocole de Montréal); <br>
+  5. La convention de Minamata sur le mercure (convention de Minamata),
+  <br><br>
+  qui ont soumis les informations au secrétariat de chaque AEM, comme l'exige chacun des accords.
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: 'Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : "Nombre de parties aux accords internationaux multilatéraux sur l’environnement relatifs aux substances chimiques et autres déchets dangereux ayant satisfait à leurs engagements et obligations en communiquant les informations requises par chaque accord"'
 SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production
   durables</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 12.4 : D’ici à 2020, parvenir à une gestion écologiquement
@@ -30,6 +36,36 @@ un_custodian_agency: Programme des Nations Unies pour l'environnement (PNUE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-04-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies 
 
+source_active_1: 'true'
+source_url_text_1: Aperçu des engagements internationaux en matière de déchets
+source_url_1: https://www.canada.ca/fr/environnement-changement-climatique/services/gestion-reduction-dechets/engagements-internationaux/apercu.html
+source_organisation_1: Environnement et Changement climatique Canada (ECCC)
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Loi canadienne sur la protection de l’environnement (1999) et projets de loi et documents connexes
+source_url_2: https://www.canada.ca/fr/environnement-changement-climatique/services/registre-environnemental-loi-canadienne-protection/documents-connexes.html
+source_organisation_2: Environnement et Changement climatique Canada (ECCC)
+source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: Convention de Bâle sur le contrôle des mouvements transfrontières de déchets dangereux et de leur élimination
+source_url_3: https://www.canada.ca/fr/environnement-changement-climatique/services/gestion-reduction-dechets/engagements-internationaux/convention-bale-controle-mouvements-transfrontieres.html
+source_organisation_3: Environnement et Changement climatique Canada (ECCC)
+source_geographical_coverage_3: Canada
+
+source_active_4: 'true'
+source_url_text_4: Décision OECD/LEGAL/0266 de l’Organisation de coopération et de développement économiques
+source_url_4: https://www.canada.ca/fr/environnement-changement-climatique/services/gestion-reduction-dechets/engagements-internationaux/decision-organisation-cooperation-developpement-economiques.html
+source_organisation_4: Environnement et Changement climatique Canada (ECCC)
+source_geographical_coverage_4: Canada
+
+source_active_5: 'true'
+source_url_text_5: Accord entre le Canada et les États-Unis sur les déchets
+source_url_5: https://www.canada.ca/fr/environnement-changement-climatique/services/gestion-reduction-dechets/engagements-internationaux/accord-canada-etats-unis.html
+source_organisation_5: Environnement et Changement climatique Canada (ECCC)
+source_geographical_coverage_5: Canada
+
 reporting_status: complete
 
- 
+proxy: proxy

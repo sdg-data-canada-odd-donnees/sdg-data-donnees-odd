@@ -1,31 +1,37 @@
 # NATIONAL
-SDG_GOAL: |
-    Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
-SDG_TARGET: |
-    Cible 16.6 : Mettre en place des institutions efficaces, responsables et transparentes à tous les niveaux
-SDG_INDICATOR: |
-    Indicateur 16.6.1 : Dépenses publiques primaires en proportion du budget initial approuvé, par secteur (ou par code budgétaire ou autre critère similaire)
-STAT_CONC_DEF: '    '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+SDG_GOAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET: |-
+  Cible 16.6 : Mettre en place des institutions efficaces, responsables et transparentes à tous les niveaux
+SDG_INDICATOR: |-
+  Indicateur 16.6.1 : Dépenses publiques primaires en proportion du budget initial approuvé, par secteur (ou par code budgétaire ou autre critère similaire)
+STAT_CONC_DEF: |-
+  Budget principal, autorités utilisées dans l'année en cours (dépenses selon les comptes publics). L'indicateur mesure la mesure dans laquelle les dépenses budgétaires agrégées reflètent le montant initialement approuvé, tel qu'il est défini dans les documents budgétaires et les rapports fiscaux du gouvernement. Cet indicateur fait partie du premier pilier de la performance du PEFA, qui mesure la fiabilité du budget.
+DATA_COMP: |-
+  Les données proviennent du Secrétariat du Conseil du Trésor. Cliquez sur la dernière version des « Comptes publics du Canada », puis sélectionnez « Volume II : Détails des charges et des revenus ». De là, sélectionnez la section « Tableaux sommaires et Appendices (1. Summary tables and Appendices) » et cliquez sur « Tableau 5 - Provenance et utilisation des autorisations budgétaires par portefeuille ministériel ».
+  <br><br>
+  (Autorisations employées au cours de l'exercice / Budget principal des dépenses) × 100
+REC_USE_LIM: |-
+  Les dépenses effectives peuvent s'écarter sensiblement du budget initialement approuvé pour des raisons indépendantes de la précision des prévisions, par exemple à la suite d'un choc macroéconomique majeur.
+  <br><br>
+  Les dépenses des comptes publics sont basées sur la trésorerie et présentées sur une base nette (dépenses brutes moins les recettes déduites des dépenses). Les prévisions budgétaires et les comptes publics fédéraux (et provinciaux-territoriaux) sont établis sur la base d'un exercice financier se terminant le 31 mars. À des fins de déclaration dans le carrefour de données sur les ODD de Statistique Canada, les chiffres seront présentés comme si la fin de l'exercice financier était le 31 décembre. Par exemple, l'année 2016 correspond aux chiffres présentés dans les comptes publics de 2016-17, puisque 2016 couvre 3 des 4 trimestres de l'exercice 2016-17.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: |
-    Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
-SDG_TARGET__GLOBAL: |
-    Cible 16.6 : Mettre en place des institutions efficaces, responsables et transparentes à tous les niveaux
-SDG_INDICATOR__GLOBAL: |
-    Indicateur 16.6.1 : Dépenses publiques primaires en proportion du budget initial approuvé, par secteur (ou par code budgétaire ou autre critère similaire)
+SDG_GOAL__GLOBAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET__GLOBAL: |-
+  Cible 16.6 : Mettre en place des institutions efficaces, responsables et transparentes à tous les niveaux
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 16.6.1 : Dépenses publiques primaires en proportion du budget initial approuvé, par secteur (ou par code budgétaire ou autre critère similaire)
 
-un_designated_tier: Tier II
-un_custodian_agency: Programme des Nations Unies pour le développement (PNUD)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-02.pdf
+un_designated_tier: Niveau I
+un_custodian_agency: Banque mondiale
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Comptes publics du Canada, Volume II : Détails des charges et des revenus, Tableaux sommaires et Appendices, Tableau 5 – Provenance et utilisation des autorisations budgétaires par portefeuille ministériel
+source_url_text_1: Comptes publics du Canada
 source_organisation_1: Secrétariat du Conseil du Trésor
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada

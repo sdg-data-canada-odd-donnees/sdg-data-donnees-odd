@@ -1,32 +1,31 @@
-SDG_GOAL: '<p>Objectif 11 : Faire en sorte que les villes et les établissements humains
-  soient ouverts à tous, sûrs, résilients et durables</p>'
-SDG_TARGET: '<p>Cible 11.a : Favoriser l’établissement de liens économiques, sociaux
-  et environnementaux positifs entre zones urbaines, périurbaines et rurales en renforçant
-  la planification du développement à l’échelle nationale et régionale</p>'
-SDG_INDICATOR: '<p>Indicateur 11.a.1 : Nombre de pays ayant adopté une politique urbaine
-  nationale ou un plan de développement régional qui a) tienne compte de la dynamique
-  des populations, b) vise à l’équilibre du développement territorial et c) élargisse
-  la marge de manœuvre budgétaire locale</p>'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: >-
+  Objectif 11 : Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
+SDG_TARGET: >-
+  Cible 11.a : Favoriser l’établissement de liens économiques, sociaux et environnementaux positifs entre zones urbaines, périurbaines et rurales en renforçant la planification du développement à l’échelle nationale et régionale
+SDG_INDICATOR: >-
+  Indicateur 11.a.1 : Nombre de pays ayant adopté une politique urbaine nationale ou un plan de développement régional qui a) tienne compte de la dynamique des populations, b) vise à l’équilibre du développement territorial et c) élargisse la marge de manœuvre budgétaire locale
+STAT_CONC_DEF: >-
+  Une politique urbaine nationale est définie comme un ensemble cohérent de décisions ou de principes d’action découlant d’un processus délibéré mené par le gouvernement pour coordonner et rallier les différents acteurs à une vision et à un objectif communs qui favoriseront un développement urbain plus ambitieux, productif, inclusif et résilient à long terme.
+  <br><br>
+  Cette définition standard s’applique et est adaptée au contexte de chaque pays et peut inclure, le cas échéant, des termes tels que plan, cadre ou stratégie urbaine nationale, pour autant qu’ils soient alignés sur les qualificatifs ci-dessus.
+  <br><br>
+  De même, les plans de développement régional suivent la même définition, mais sont appliqués à l’échelon infranational.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 11 : Faire en sorte que les villes et les établissements
-  humains soient ouverts à tous, sûrs, résilients et durables</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 11.a : Favoriser l’établissement de liens économiques,
-  sociaux et environnementaux positifs entre zones urbaines, périurbaines et rurales
-  en renforçant la planification du développement à l’échelle nationale et régionale</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 11.a.1 : Nombre de pays ayant adopté une politique
-  urbaine nationale ou un plan de développement régional qui a) tienne compte de la
-  dynamique des populations, b) vise à l’équilibre du développement territorial et
-  c) élargisse la marge de manœuvre budgétaire locale</p>'
 
-un_designated_tier: Niveau II
-un_custodian_agency: |
-  Programme des Nations unies pour les établissements humains (ONU-Habitat)
-  <br>Fonds des Nations Unies pour la population (UNFPA)
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 11 : Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
+SDG_TARGET__GLOBAL: >-
+  Cible 11.a : Favoriser l’établissement de liens économiques, sociaux et environnementaux positifs entre zones urbaines, périurbaines et rurales en renforçant la planification du développement à l’échelle nationale et régionale
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 11.a.1 : Nombre de pays ayant adopté une politique urbaine nationale ou un plan de développement régional qui a) tienne compte de la dynamique des populations, b) vise à l’équilibre du développement territorial et c) élargisse la marge de manœuvre budgétaire locale
+
+un_designated_tier: Niveau I
+un_custodian_agency: Programme des Nations unies pour les établissements humains (ONU-Habitat), Fonds des Nations Unies pour la population (UNFPA)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-0a-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
-reporting_status: notstarted
-
+# Source(s)
  

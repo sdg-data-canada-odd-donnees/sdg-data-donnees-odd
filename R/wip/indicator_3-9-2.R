@@ -19,13 +19,13 @@ chapter_tbls <- c(
 
 causes_of_death <- tribble(
   ~cause, ~`Type of disease`,
-  "Typhoid and paratyphoid fevers", "diarrhoea",
-  "Shigellosis", "diarrhoea",
-  "Other bacterial intestinal infections", "diarrhoea",
-  "Amoebiasis", "diarrhoea",
-  "Other protozoal intestinal diseases", "diarrhoea",
-  "Viral and other specified intestinal infections", "diarrhoea",
-  "Other gastroenteritis and colitis of infectious and unspecified origin", "diarrhoea",
+  "Typhoid and paratyphoid fevers", "diarrhea",
+  "Shigellosis", "diarrhea",
+  "Other bacterial intestinal infections", "diarrhea",
+  "Amoebiasis", "diarrhea",
+  "Other protozoal intestinal diseases", "diarrhea",
+  "Viral and other specified intestinal infections", "diarrhea",
+  "Other gastroenteritis and colitis of infectious and unspecified origin", "diarrhea",
   "Ascariasis", "intestinal nematode infections",
   "Malnutrition", "protein-energy malnutrition",
   "Nonsuppurative otitis media", "acute respiratory infections",
@@ -63,7 +63,7 @@ pop <-
   filter(
     REF_DATE >= 2015,
     GEO == "Canada",
-    Sex == "Both sexes",
+    Gender == "Total - gender",
     `Age group` == "All ages"
   ) %>%
   select(

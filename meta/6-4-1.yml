@@ -1,28 +1,35 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 6: Ensure availability and sustainable management of water and
-  sanitation for all</p>'
-SDG_TARGET: '<p>Target 6.4: By 2030, substantially increase water-use efficiency across
-  all sectors and ensure sustainable withdrawals and supply of freshwater to address
-  water scarcity and substantially reduce the number of people suffering from water
-  scarcity</p>'
-SDG_INDICATOR: '<p>Indicator 6.4.1: Change in water-use efficiency over time</p>'
-STAT_CONC_DEF: 'Change in water use efficiency over time (CWUE): The change in the ratio of the value added to the volume of water use, over time. 
-  <br><br> Water-use efficiency measured as the ratio of dollar value added to the volume of water used. It considers water use by all economic activities, with a focus on agriculture, industry and the service sectors.
-  <br><br> Following the United Nations International Standard Industrial Classification of All Economic Activities ISIC 4 coding, sectors are defined as: <br>
-  1. agriculture; forestry; fishing (ISIC A), hereinafter “agriculture”; <br>
-  2. mining and quarrying; manufacturing; electricity, gas, steam and air conditioning supply; constructions (ISIC B, C, D and F), hereinafter “MIMEC”; <br>
-  3. all the service sectors (ISIC E and ISIC G-T), hereinafter “services'
-DATA_COMP: Data are from the UN Water database. Select Country=Canada, under Indicator to display, click on "Water availability and use", then on 6.4.1 Change in water-use efficiency over time. <br><br> Change in water use efficiency (CWUE) (in %) = [(WUE in time t - WUE in time t-1)/(WUE in time t-1)]*100
+SDG_GOAL: >-
+  Goal 6: Ensure availability and sustainable management of water and sanitation for all
+SDG_TARGET: >-
+  Target 6.4: By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity
+SDG_INDICATOR: >-
+  Indicator 6.4.1: Change in water-use efficiency over time
+STAT_CONC_DEF: >-
+  <p>Change in water use efficiency over time (CWUE): The change in the ratio of the value added to the volume of water use, over time. 
+  <br><br>
+  Water-use efficiency measured as the ratio of dollar value added to the volume of water used. It considers water use by all economic activities, with a focus on agriculture, industry and the service sectors.
+  <br><br>
+  Following the United Nations International Standard Industrial Classification of All Economic Activities ISIC 4 coding, sectors are defined as:</p>
+  <ol>
+  <li>agriculture; forestry; fishing (ISIC A), hereinafter “agriculture”;</li>
+  <li>mining and quarrying; manufacturing; electricity, gas, steam and air conditioning supply; constructions (ISIC B, C, D and F), hereinafter “MIMEC”;</li>
+  <li>all the service sectors (ISIC E and ISIC G-T), hereinafter “services”.</li>
+  </ol>
+DATA_COMP: >-
+  Percent change in water-use efficiency over time (%) = (WUE in time t - WUE in time t-1) / (WUE in time t-1) × 100
+  <br><br>
+  Data were readily available to report on the series "Water-use efficiency (USD per cubic metre)" as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.
 REC_USE_LIM: '   '
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
-  and sanitation for all</p>'
-SDG_TARGET__GLOBAL: '<p>Target 6.4: By 2030, substantially increase water-use efficiency
-  across all sectors and ensure sustainable withdrawals and supply of freshwater to
-  address water scarcity and substantially reduce the number of people suffering from
-  water scarcity</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 6.4.1: Change in water-use efficiency over time</p>'
+SDG_GOAL__GLOBAL: >-
+  Goal 6: Ensure availability and sustainable management of water and sanitation for all
+SDG_TARGET__GLOBAL: >-
+  Target 6.4: By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 6.4.1: Change in water-use efficiency over time
+
 un_designated_tier: Tier I
 un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-01.pdf
@@ -32,7 +39,6 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 source_active_1: 'true'
 source_url_text_1: UN Water
 source_url_1: https://sdg6data.org/en/tables
-source_organisation_1: Food and Agriculture Organization of the United Nations (FAO)
+source_organisation_1: UN Water
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
-

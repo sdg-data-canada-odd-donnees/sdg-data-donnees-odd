@@ -1,27 +1,37 @@
-SDG_GOAL: '<p>Objectif 11 : Faire en sorte que les villes et les établissements humains
-  soient ouverts à tous, sûrs, résilients et durables</p>'
-SDG_TARGET: '<p>Cible 11.7 : D’ici à 2030, assurer l’accès de tous, en particulier des 
-  femmes et des enfants, des personnes âgées et des personnes handicapées, à des espaces 
-  verts et des espaces publics sûrs</p>'
-SDG_INDICATOR: '<p>Indicateur 11.7.1 : Proportion moyenne de la surface urbaine construite 
-  consacrée à des espaces publics, par sexe, âge et situation au regard du handicap</p>'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: >-
+  Objectif 11 : Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
+SDG_TARGET: >-
+  Cible 11.7 : D’ici à 2030, assurer l’accès de tous, en particulier des femmes et des enfants, des personnes âgées et des personnes handicapées, à des espaces verts et des espaces publics sûrs
+SDG_INDICATOR: >-
+  Indicateur 11.7.1 : Proportion moyenne de la surface urbaine construite consacrée à des espaces publics, par sexe, âge et situation au regard du handicap
+STAT_CONC_DEF: >-
+  Cet indicateur mesure la proportion moyenne de la superficie des villes consacrée aux espaces publics et la population totale ayant accès à ces espaces, par âge, sexe et handicap. La proportion de la superficie urbaine consacrée aux rues et aux espaces publics ouverts n'est pas seulement essentielle à sa productivité, mais contribue également de manière significative aux dimensions sociales et à la santé de sa population.
+  <br><br>
+  **Ville :** La Commission statistique des Nations unies a approuvé le degré d'urbanisation (DEGURBA) comme méthode viable pour délimiter les villes, les zones urbaines et les zones rurales pour les comparaisons statistiques internationales. Cette définition combine des seuils de taille et de densité de la population pour classer l'ensemble du territoire d'un pays selon le continuum urbain-rural, et englobe toute l'étendue d'une ville, y compris les quartiers denses situés au-delà des limites de la municipalité centrale.
+  <br><br>
+  **Superficie urbaine construite :** Pour l'indicateur 11.7.1, la superficie urbaine construite, en tant que dénominateur de l'indicateur, a la même signification que « ville ».
+  <br><br>
+  **Espace public :** Dans le cadre du suivi et du reportage de l'indicateur 11.7.1, l'espace public est défini comme l'ensemble des lieux à usage public, accessibles à tous, et comprend les espaces publics ouverts et les rues.
+  <br><br>
+  **Espace public ouvert :** L'espace public ouvert est tout terrain non aménagé ou dépourvu de bâtiments (ou autres structures construites) qui est accessible au public sans frais, et qui offre des espaces de loisirs aux résidents et contribue à améliorer la beauté et la qualité environnementale des quartiers.
+  <br><br>
+  **Rues :** Les rues sont des voies de circulation définies à l'intérieur des zones urbaines, des villes et des quartiers, le plus souvent bordées de maisons ou de bâtiments, utilisées par les piétons ou les véhicules pour se rendre d'un endroit à un autre dans la ville, interagir et gagner leur vie. L'objectif principal d'une rue est de faciliter le mouvement et de permettre l'interaction publique. Les éléments suivants sont considérés comme des espaces de rues : les rues, les avenues et les boulevards, les chaussées, les passages et les galeries, les pistes cyclables, les trottoirs, les îlots de circulation, les tramways et les ronds-points.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 11 : Faire en sorte que les villes et les établissements humains
-  soient ouverts à tous, sûrs, résilients et durables</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 11.7 : D’ici à 2030, assurer l’accès de tous, en particulier des 
-  femmes et des enfants, des personnes âgées et des personnes handicapées, à des espaces 
-  verts et des espaces publics sûrs</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 11.7.1 : Proportion moyenne de la surface urbaine construite 
-  consacrée à des espaces publics, par sexe, âge et situation au regard du handicap</p>'
 
-un_designated_tier: Niveau II
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 11 : Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables
+SDG_TARGET__GLOBAL: >-
+  Cible 11.7 : D’ici à 2030, assurer l’accès de tous, en particulier des femmes et des enfants, des personnes âgées et des personnes handicapées, à des espaces verts et des espaces publics sûrs
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 11.7.1 : Proportion moyenne de la surface urbaine construite consacrée à des espaces publics, par sexe, âge et situation au regard du handicap
+
+un_designated_tier: Niveau I
 un_custodian_agency: Programme des Nations unies pour les établissements humains (ONU-Habitat)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-07-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
-
-reporting_status: notstarted
-
+# Source(s)
  

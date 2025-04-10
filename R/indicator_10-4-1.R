@@ -12,7 +12,8 @@ labour_share <-
   gdp %>%
   filter(
     REF_DATE >= 2015,
-    Estimates %in% c("Compensation of employees", "Gross domestic product at market prices")
+    Estimates %in% c("Compensation of employees", "Gross domestic product at market prices"),
+    GEO != "Northwest Territories including Nunavut"
   ) %>% 
   select(
     Year = REF_DATE,
@@ -35,7 +36,7 @@ data_final <-
   bind_rows(
     labour_share %>%
       filter(Geography == "Canada") %>%
-      mutate(across(2:(ncol(.)-2), ~ "")),
+      mutate(across(2:(ncol(.)-2), ~ NA)),
     labour_share %>%
       filter(Geography != "Canada")
   )

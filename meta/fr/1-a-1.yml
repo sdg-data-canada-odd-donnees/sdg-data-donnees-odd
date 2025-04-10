@@ -1,62 +1,41 @@
-SDG_GOAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout
-  dans le monde</p>'
-SDG_TARGET: '<p>Cible 1.a : Garantir une mobilisation importante de ressources provenant
-  de sources multiples, y compris par le renforcement de la coopération pour le développement,
-  afin de doter les pays en développement, en particulier les pays les moins avancés,
-  de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques
-  visant à mettre fin à la pauvreté sous toutes ses formes.</p>'
-SDG_INDICATOR: '<p>Indicateur 1.a.1 : Total des dons d’aide publique au développement
-  axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion
-  du revenu national brut du pays bénéficiaire</p>'
-STAT_CONC_DEF: >-
-  <p> Le Comité d'aide au développement (CAD) de l'OCDE définit l'APD comme « les
-  flux vers les pays et territoires figurant sur la liste du CAD des bénéficiaires
-  de l'APD et institutions multilatérales qui sont i) fournis par des organismes officiels,
-  y compris les gouvernements des États et les collectivités locales, ou par leurs
-  agences exécutives ; et ii) chaque transaction est administrée avec pour principal
-  objectif la promotion du développement économique et du bien-être des pays en développement
-  ; elle est de nature concessionnelle et comporte un élément de don d'au moins 25
-  % (calculé à un taux d'actualisation de 10 %)». (Voir <a href="http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm">http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm</a>).
-  </p>
+# National
+SDG_GOAL: |-
+  Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
+SDG_TARGET: |-
+  Cible 1.a : Garantir une mobilisation importante de ressources provenant de sources multiples, y compris par le renforcement de la coopération pour le développement, afin de doter les pays en développement, en particulier les pays les moins avancés, de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques visant à mettre fin à la pauvreté sous toutes ses formes.
+SDG_INDICATOR: |-
+  Indicateur 1.a.1 : Total des dons d’aide publique au développement (APD) axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion du revenu national brut du pays bénéficiaire
+STAT_CONC_DEF: |-
+  <p>Le Comité d’aide au développement (CAD) de l’Organisation de coopération et de développement économiques (OCDE) définit l’APD comme « les flux vers les pays et les territoires figurant sur la liste du CAD des bénéficiaires de l’APD et vers les institutions multilatérales qui sont : i) fournis par des organismes officiels, y compris les gouvernements au niveau des États et les administrations locales, ou par leurs organismes de direction; ii) chaque transaction est administrée et a comme objectif principal la promotion du développement économique et du bien-être des pays en développement; elle est assortie de conditions favorables et comporte un élément de libéralité au moins égal à 25 % (calculé à un taux d’actualisation de 10 %) ». (Voir <a href="https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>).</p>
+  <p>Les éléments de réduction de la pauvreté peuvent être définis comme l’APD aux services sociaux de base (santé de base, éducation de base, distribution d’eau et assainissement, aide plurisectorielle pour les services sociaux de base) et aide alimentaire développementale.</p>
+  <p>Les services sociaux de base et l’aide alimentaire développementale, qui sont axés sur la réduction de la pauvreté, sont définis à l’aide des codes d’objectif suivants du système de notification des pays créanciers de l’OCDE, qui désignent le secteur normalement visé par l’activité :</p>
+  <ul>
+  <li>Éducation de base (codes du système de notification des pays créanciers [SNPC] 112xx)</li>
+  <li>Santé de base (codes SNPC 122xx)</li>
+  <li>Distribution d'eau et assainissement (codes SNPC 140xx)</li>
+  <li>Aide plurisectorielle pour les services sociaux de base (code SNPC 16050)</li>
+  <li>Aide alimentaire dévelopmentale (codes SNPC 520xx)</li>
+  </ul>
+DATA_COMP: |-
+  Le total des dons d’Aide publique au développement axés sur la réduction de la pauvreté est calculé en proportion du revenu national brut (RNB) du Canada, conformément aux rapports des autres pays.
+  <br><br>
+  100 × (éducation de base + santé de base + distribution d’eau et assainissement + aide plurisectorielle pour les services sociaux de base + aide alimentaire développementale) / RNB
+REC_USE_LIM: |-
+  Le Canada étant un pays donateur, cet indicateur se réfère au total des dons d'aide publique au développement provenant du Canada axés sur la réduction de la pauvreté, exprimé en proportion du revenu national brut du Canada.
 
-  <p>Les éléments de réduction de la pauvreté peuvent être définis comme l'APD aux
-  services sociaux de base (santé de base, éducation de base, eau et assainissement
-  de base, programmes de population et santé reproductive) et l'aide alimentaire au
-  développement (voir <a href="http://www.oecd.org/dac/stats/purposecodessectorclassification.htm">
-  http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm</a>).
-  </p>
-DATA_COMP: |
-  L'indicateur est calculé en proportion du RNB du Canada, conformément aux rapports des autres pays.
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et
-  partout dans le monde</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 1.a : Garantir une mobilisation importante de ressources
-  provenant de sources multiples, y compris par le renforcement de la coopération
-  pour le développement, afin de doter les pays en développement, en particulier les
-  pays les moins avancés, de moyens adéquats et prévisibles de mettre en œuvre des
-  programmes et politiques visant à mettre fin à la pauvreté sous toutes ses formes.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.a.1 : Total des dons d’aide publique au développement
-  axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion
-  du revenu national brut du pays bénéficiaire</p>'
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
+SDG_TARGET__GLOBAL: |-
+  Cible 1.a : Garantir une mobilisation importante de ressources provenant de sources multiples, y compris par le renforcement de la coopération
+  pour le développement, afin de doter les pays en développement, en particulier les pays les moins avancés, de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques visant à mettre fin à la pauvreté sous toutes ses formes.
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 1.a.1 : Total des dons d’aide publique au développement axés sur la réduction de la pauvreté, tous donateurs confondus, exprimé en proportion du revenu national brut du pays bénéficiaire
 
-reporting_status: complete
+# Source(s)
+source_url_text_1: "SNPC: Système de notification des pays créanciers (flux)"
+source_url_1: https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalBoost&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&dq=CAN.DPGC.112%2B122%2B140%2B520%2B16050.11._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&vw=tb&lc=fr&pg=0
 
-source_active_1: 'true'
-source_url_text_1: OCDE. Système de notification des pays créanciers (SNPC).
-source_url_1: https://stats.oecd.org/Index.aspx?lang=fr&SubSessionId=035b0717-6e18-403c-a835-a7c8c1034554&themetreeid=3
-source_organisation_1: OCDE
-source_geographical_coverage_1: Canada
-
-source_active_2: 'true'
-source_url_text_2: |
-  OCDE. GeoBook: Indicateurs.
-source_url_2: https://stats.oecd.org/Index.aspx?lang=fr&SubSessionId=13c084e5-51f6-404a-960a-94e7a3aa8ddc&themetreeid=3
-source_organisation_2: OCDE
-source_geographical_coverage_2: Canada
-
-un_designated_tier: Niveau I
-un_custodian_agency: Organisation de coopération et de développement économiques (OCDE)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
+source_url_text_2: "CAD1: Flux par donneur (APD+AASP+privé)"
+source_url_2: https://data-explorer.oecd.org/vis?lc=fr&pg=0&snb=1&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_DAC1%40DF_DAC1&df[ag]=OECD.DCD.FSD&df[vs]=1.2&dq=CAN.1....Q.&pd=2015%2C&to[TIME_PERIOD]=false&vw=tb&ly[cl]=TIME_PERIOD
  

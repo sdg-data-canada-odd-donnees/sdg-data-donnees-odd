@@ -1,42 +1,35 @@
 auto_progress_calculation: true
-computation_units: ''
-copyright: ''
-data_footnote: ''
+computation_units: ""
+copyright: ""
+data_footnote: ""
 data_non_statistical: true
-data_notice_class: ''
-data_notice_heading: ''
-data_notice_text: ''
+data_notice_class: ""
+data_notice_heading: ""
+data_notice_text: ""
 data_show_map: false
 data_start_values: []
-embedded_feature_footer: ''
-embedded_feature_html: ''
-embedded_feature_tab_title: ''
-embedded_feature_title: ''
-embedded_feature_url: ''
+embedded_feature_footer: ""
+embedded_feature_html: ""
+embedded_feature_tab_title: ""
+embedded_feature_title: ""
+embedded_feature_url: ""
 expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
-graph_stacked_disaggregation: ''
+graph_stacked_disaggregation: ""
 graph_title: global_indicators.17-16-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.17-16-1-title
 indicator_available: proxy.17-16-1-title
 indicator_number: 17.16.1
-national_geographical_coverage: ''
-page_content: |
-  <strong>Non-statistical indicator</strong>
-  <br>
-  <br>We have identified the following to be relevant to this indicator - <a href="https://www.canada.ca/en/employment-social-development/programs/agenda-2030/moving-forward.html">Moving 
-  forward together: Canada''s 2030 Agenda National Strategy</a> and <a href="https://www150.statcan.gc.ca/n1/daily-quotidien/210622/dq210622c-eng.htm">The 
-  Canadian Indicator Framework for the Sustainable Development Goals</a> and <a href="https://sdgcif-data-canada-oddcic-donnee.github.io/">Canadian 
-  Indicator Framework for the Sustainable Development Goals Data Hub</a>.
-permalink: ''
+national_geographical_coverage: Canada
+page_content: custom.17-16-1-page-content
+permalink: ""
 precision: []
 progress_status: target_achieved
 reporting_status: complete
-sort: ''
+sort: ""
 standalone: false
 tags:
   - Proxy
-"\xEF\xBB\xBFcomposite_breakdown_label": ''

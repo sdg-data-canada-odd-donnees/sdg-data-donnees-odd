@@ -10,7 +10,7 @@ data_show_map: false
 data_start_values:
 - field: Type of intimate partner violence
   value: Total intimate partner violence
-- field: Selected characteristic
+- field: Selected characteristics
   value: Total, all women
 embedded_feature_footer: ''
 embedded_feature_html: ''
@@ -19,7 +19,7 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
 - Type of intimate partner violence
-- Selected characteristic
+- Selected characteristics
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''

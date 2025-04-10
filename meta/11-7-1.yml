@@ -1,25 +1,36 @@
-SDG_GOAL: '<p>Goal 11: Make cities and human settlements inclusive, safe, resilient
-  and sustainable</p>'
-SDG_TARGET: '<p>Target 11.7: By 2030, provide universal access to safe, inclusive
-  and accessible, green and public spaces, in particular for women and children, older
-  persons and persons with disabilities</p>'
-SDG_INDICATOR: '<p>Indicator 11.7.1: Average share of the built-up area of cities
-  that is open space for public use for all, by sex, age and persons with disabilities</p>'
-STAT_CONC_DEF: 'Indicator 11.7.1 has several interesting concepts that required global consultations and consensus. These 
-  include; built-up area, cities, open spaces for public use, etc. As a custodian agency, UN-Habitat has 
-  worked on these concepts along with several other partners'
+# National
+SDG_GOAL: >-
+  Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+SDG_TARGET: >-
+  Target 11.7: By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities
+SDG_INDICATOR: >-
+  Indicator 11.7.1: Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities
+STAT_CONC_DEF: >-
+  This indicator measures the average share of land allocated to public spaces in cities and the total population with access of these spaces, by age, gender, and disability. The share of land that a city allocates to streets and open public spaces is not only critical to its productivity, but also contributes significantly to the social dimensions and health of its population.
+  <br><br>
+  **City:** The United Nations Statistical Commission endorsed the Degree of Urbanisation (DEGURBA) as a workable method to delineate cities, urban and rural areas for international statistical comparisons. This definition combines population size and population density thresholds to classify the entire territory of a country along the urban-rural continuum, and captures the full extent of a city, including the dense neighbourhoods beyond the boundary of the central municipality.
+  <br><br>
+  **Built-up area of cities:** For indicator 11.7.1, built-up areas, as the indicator denominator has the same meaning as “city”.
+  <br><br>
+  **Public space:** For the purpose of monitoring and reporting on indicator 11.7.1, public space is defined as all places of public use, accessible by all, and comprises open public space and streets.
+  <br><br>
+  **Open public space:** Open public space is any open piece of land that is undeveloped or land with no buildings (or other built structures) that is accessible to the public without charge, and provides recreational areas for residents and helps to enhance the beauty and environmental quality of neighbourhoods.
+  <br><br>
+  **Streets:** Streets are defined thoroughfares that are based inside urban areas, towns, cities and neighbourhoods most commonly lined with houses or buildings used by pedestrians or vehicles in order to go from one place to another in the city, interact and to earn a livelihood. The main purpose of a street is facilitating movement and enabling public interaction. The following elements are considered as streets space: streets, avenues and boulevards, pavements, passages and galleries, bicycle paths, sidewalks, traffic island, tramways, and roundabouts.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 11: Make cities and human settlements inclusive, safe,
-  resilient and sustainable</p>'
-SDG_TARGET__GLOBAL: '<p>Target 11.7: By 2030, provide universal access to safe, inclusive
-  and accessible, green and public spaces, in particular for women and children, older
-  persons and persons with disabilities</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 11.7.1: Average share of the built-up area of
-  cities that is open space for public use for all, by sex, age and persons with disabilities</p>'
-un_designated_tier: Tier II
+
+# Global
+SDG_GOAL__GLOBAL: >-
+  Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+SDG_TARGET__GLOBAL: >-
+  Target 11.7: By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 11.7.1: Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities
+
+un_designated_tier: Tier I
 un_custodian_agency: United Nations Human Settlements Programme (UN-Habitat)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-07-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
- 
+# Source(s)

@@ -1,38 +1,31 @@
-# NATIONAL
-SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
-  la nutrition et promouvoir l’agriculture durable</p>'
-SDG_TARGET: '<p>Cible 2.3 : D''ici 2030, doubler la productivité agricole et les revenus
-  des petits producteurs de denrées alimentaires, en particulier des femmes, des populations
-  autochtones, des agriculteurs familiaux, des éleveurs et des pêcheurs, notamment
-  grâce à un accès sûr et égal à la terre, aux autres ressources productives et aux
-  intrants, aux connaissances, aux services financiers, aux marchés et aux possibilités
-  de création de valeur ajoutée et d''emplois non agricoles</p>'
-SDG_INDICATOR: 'Indicateur 2.3.2 : Revenu moyen des petits producteurs alimentaires, selon le sexe et le statut d’autochtone'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: |-
+  Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer la nutrition et promouvoir l’agriculture durable
+SDG_TARGET: |-
+  Cible 2.3 : D'ici 2030, doubler la productivité agricole et les revenus des petits producteurs de denrées alimentaires, en particulier des femmes, des populations autochtones, des agriculteurs familiaux, des éleveurs et des pêcheurs, notamment grâce à un accès sûr et égal à la terre, aux autres ressources productives et aux intrants, aux connaissances, aux services financiers, aux marchés et aux possibilités de création de valeur ajoutée et d'emplois non agricoles
+SDG_INDICATOR: |-
+  Indicateur 2.3.2 : Revenu moyen des petits producteurs alimentaires, selon le sexe et le statut d’autochtone
+STAT_CONC_DEF: |-
+  L’indicateur 2.3.2 des ODD mesure le revenu des activités de production agricole, qui est relié à la production de produits alimentaires et agricoles. Cela comprend les revenus de la production de cultures, l’élevage, la pêche et l’aquaculture, ainsi que de la production forestière. L’indicateur est calculé en tant que revenu annuel.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 
-# GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
-  améliorer la nutrition et promouvoir l’agriculture durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 2.3 : D''ici 2030, doubler la productivité agricole
-  et les revenus des petits producteurs de denrées alimentaires, en particulier des
-  femmes, des populations autochtones, des agriculteurs familiaux, des éleveurs et
-  des pêcheurs, notamment grâce à un accès sûr et égal à la terre, aux autres ressources
-  productives et aux intrants, aux connaissances, aux services financiers, aux marchés
-  et aux possibilités de création de valeur ajoutée et d''emplois non agricoles</p>'
-SDG_INDICATOR__GLOBAL: 'Indicateur 2.3.2 : Revenu moyen des petits producteurs alimentaires, selon le sexe et le statut d’autochtone'
-
-# SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: "Statistique Canada. Recensement de l'agriculture. Totalisation personnalisée."
-source_url_1: https://www.statcan.gc.ca/fr/census-agriculture
-source_organisation_1: Statistique Canada
-source_periodicity_1: Aux 5 ans
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer la nutrition et promouvoir l’agriculture durable
+SDG_TARGET__GLOBAL: |-
+  Cible 2.3 : D'ici 2030, doubler la productivité agricole et les revenus des petits producteurs de denrées alimentaires, en particulier des femmes, des populations autochtones, des agriculteurs familiaux, des éleveurs et des pêcheurs, notamment grâce à un accès sûr et égal à la terre, aux autres ressources productives et aux intrants, aux connaissances, aux services financiers, aux marchés et aux possibilités de création de valeur ajoutée et d'emplois non agricoles
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 2.3.2 : Revenu moyen des petits producteurs alimentaires, selon le sexe et le statut d’autochtone
 
 un_designated_tier: Niveau II
 un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-03-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+# Source(s)
+# source_active_1: 'true'
+# source_url_text_1: "Statistique Canada. Recensement de l'agriculture. Totalisation personnalisée."
+# source_url_1: https://www.statcan.gc.ca/fr/census-agriculture
+# source_organisation_1: Statistique Canada
+# source_periodicity_1: Aux 5 ans

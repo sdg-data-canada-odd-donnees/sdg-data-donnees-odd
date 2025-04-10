@@ -1,33 +1,33 @@
-SDG_GOAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins 
-  du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les 
-  niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
-SDG_TARGET: '<p>Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, 
-  et à toutes les formes de violence et de torture dont sont victimes les enfants</p>'
-SDG_INDICATOR: '<p>Indicateur 16.2.3 : Proportion de jeunes femmes et hommes de 18 à 29 ans ayant
-  été victimes de violences sexuelles avant l’âge de 18 ans</p>'
-STAT_CONC_DEF: '   '
-DATA_COMP: '   '
+# National
+SDG_GOAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET: |-
+  Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, et à toutes les formes de violence et de torture dont sont victimes les enfants
+SDG_INDICATOR: |-
+  Indicateur 16.2.3 : Proportion de jeunes femmes et hommes ayant été victimes de violences sexuelles avant l’âge de 15 ans
+STAT_CONC_DEF: |-
+  Cet indicateur est rapporté avec un indicateur de subsitution. Cet indicateur mesure la proportion de jeunes femmes et hommes ayant été victimes de violences sexuelles avant l’âge de 15 ans.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: >- 
-    Le calcul du pourcentage comprend tous les Canadiens âgés de 15 ans et plus. La violence sexuelle comprend les incidents qui sont survenus avant que la victime n'atteigne l'âge de 15 ans et seulement les actes qui ont été commis par un adulte.
-SDG_GOAL__GLOBAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins 
-  du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les 
-  niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, 
-  et à toutes les formes de violence et de torture dont sont victimes les enfants</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.2.3 : Proportion de jeunes femmes et hommes de 18 à 29 ans ayant
-  été victimes de violences sexuelles avant l’âge de 18 ans</p>'
+  Les données sont rapportées pour les personnes agées de 15 à 24 ans et de 25 à 34 ans par la date de l'enquête ayant été victimes de violences sexuelles avant l'âge de 18 ans, tandis que l'indicateur global des Nations Unies indique : « Proportion de jeunes femmes et hommes de 18 à 29 ans ayant été victimes de violences sexuelles avant l’âge de 18 ans ».
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous
+SDG_TARGET__GLOBAL: |-
+  Cible 16.2 : Mettre un terme à la maltraitance, à l’exploitation et à la traite, et à toutes les formes de violence et de torture dont sont victimes les enfants
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 16.2.3 : Proportion de jeunes femmes et hommes de 18 à 29 ans ayant été victimes de violences sexuelles avant l’âge de 18 ans
 
 un_designated_tier: Niveau II
 un_custodian_agency: Fonds des Nations Unies pour l’enfance (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-03.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: "Mauvais traitements subis durant l'enfance et autodéclarés, selon le sexe de la victime, Canada, 2014 - Tableau 1.1"
-source_url_1: https://www150.statcan.gc.ca/n1/pub/85-002-x/2017001/article/14698/tbl/tbl1.1-fra.htm
+source_url_text_1: Statistique Canada. Tableau 35-10-0167-01  Agressions physiques ou sexuelles autodéclarées survenues pendant l'enfance
+source_url_1: https://doi.org/10.25318/3510016701-fra
 source_organisation_1: Statistique Canada
-source_geographical_coverage_1: Canada
- 
-
-
-
+source_geographical_coverage_1: Canada, Province ou territoire
+source_periodicity_1: Aux 5 ans

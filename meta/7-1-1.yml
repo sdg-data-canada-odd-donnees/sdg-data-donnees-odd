@@ -2,19 +2,17 @@
 SDG_GOAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all</p>'
 SDG_TARGET: '<p>Target 7.1: By 2030, ensure universal access to affordable, reliable and modern energy services</p>'
 SDG_INDICATOR: '<p>Indicator 7.1.1: Proportion of population with access to electricity</p>'
-STAT_CONC_DEF: 'This indicator measures the proportion of the population with access to electricity. <br><br>
-  Countries classified as high-income according to the World Bank country classification (80 countries) in the 2020 fiscal year were assumed to have fully transitioned to clean household energy and therefore are reported as >95% access to clean technologies.'
+STAT_CONC_DEF: >-
+  This indicator measures the proportion of the population that has access to consistent sources of electricity.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
-  Countries classified as “High Income” based on the World Bank Country and Lending Groups are assumed to reach universal 
-  access from the first year the country joined the category.
- 
- 
+REC_USE_LIM: >-
+  Countries classified as “High Income” based on the World Bank Country and Lending Groups are assumed to reach universal access from the first year the country joined the category. 
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 7.1: By 2030, ensure universal access to affordable, reliable and modern energy services</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 7.1.1: Proportion of population with access to electricity</p>'
+
 un_designated_tier: Tier I
 un_custodian_agency: World Bank
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-01.pdf
@@ -22,7 +20,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
+source_url_text_1: >-
   Access to electricity (% of population) - Canada
 source_url_1: https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?end=2020&locations=CA&name_desc=false&start=2015
 source_organisation_1: World Bank

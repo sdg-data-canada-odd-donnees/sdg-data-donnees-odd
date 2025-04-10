@@ -11,9 +11,17 @@ SDG_TARGET: '<p>Cible 3.b : Appuyer la recherche et le développement de vaccins
   universel aux médicaments</p>'
 SDG_INDICATOR: '<p>Indicateur 3.b.1 : Proportion de la population cible ayant reçu
   tous les vaccins prévus par le programme national</p>'
-STAT_CONC_DEF: '    '
-DATA_COMP: '    '
-REC_USE_LIM: "Dans l'ENCVE de 2015, l'enquête rapportait la couverture vaccinale contre le VPH pour les filles âgées de 13 à 14 ans, puisque le vaccin était seulement financé pour les filles à ce moment-là. Dans l'ENCVE de 2017, les estimations pour le vaccin du VPH représentent la couverture vaccinale des personnes âgées de 14 ans de tous les genre.<br><br>Pneumocoque 3 doses* - Trois doses avant le 2e anniversaire pour toutes les provinces et territoires, sauf le Nunavut et les Territoires du Nord-Ouest où 4 doses sont requises avant le 2e anniversaire.<br><br>Les estimations pour le vaccin contre la varicelle ne sont pas présentées pour 2013 et 2015 en raison de problèmes de qualité des données."
+STAT_CONC_DEF: Cet indicateur mesure le taux de vaccination pour certaines maladies. L'Agence de la santé publique du Canada surveille la couverture vaccinale des enfants à l'aide de l’Enquête nationale sur la couverture vaccinale des enfants.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |
+  Les vaccins pour enfants inclus dans l'ENCVE sont des vaccins financés par les fonds publics, dans le cadre des programmes de vaccination provinciaux et territoriaux. 
+  <br>
+  <br>Les vaccins recommandés seulement aux voyages et à certains groupes à haut risque ont été exclus. 
+  <br>
+  <br>L'enquête a exclu les enfants habitant dans les réserves des Premières Nations et en établissement.
+  <br>
+  <br>Les données ventilées par sexe ne sont disponibles qu'au niveau du Canada lors de la sélection des catégories suivantes: 
+  « Vaccins recommandés aux les enfants de 14 ans », en particulier pour « Hépatite B » ou « Virus du papillome humain (VPH) ».
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.b : Appuyer la recherche et le développement de vaccins
@@ -27,12 +35,13 @@ SDG_TARGET__GLOBAL: '<p>Cible 3.b : Appuyer la recherche et le développement de
   universel aux médicaments</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.b.1 : Proportion de la population cible ayant
   reçu tous les vaccins prévus par le programme national</p>'
-source_active_1: 'true'
-source_url_text_1: Enquête nationale sur la couverture vaccinale des enfants (ENCVE)
-source_url_1: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=5185
-source_organisation_1: Statistics Canada
-source_periodicity_1: Every 2 years
-source_geographical_coverage_1: Canada
+  
+source_active_1: true
+source_url_text_1: "Statistique Canada. Tableau 13-10-0870-01  Estimation de la couverture vaccinale pour les vaccins recommandés chez les enfants et les femmes enceintes"
+source_url_1: "https://doi.org/10.25318/1310087001-fra"
+source_organisation_1: "Statistique Canada"
+source_periodicity_1: "Occasionnelle"
+source_geographical_coverage_1: "Canada, Province et territoire"
 
 reporting_status: complete
 

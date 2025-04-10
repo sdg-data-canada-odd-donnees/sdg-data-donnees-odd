@@ -1,36 +1,32 @@
 # NATIONAL
-SDG_GOAL: |
-    Objectif 12 : Établir des modes de consommation et de production durables
-SDG_TARGET: |
-    Cible 12.4 : D'ici à 2020, parvenir à une gestion écologiquement rationnelle des produits chimiques et de tous les déchets tout au long de leur cycle de vie, conformément aux principes directeurs arrêtés à l'échelle internationale, et réduire nettement leur déversement dans l'air, l'eau et le sol, afin de minimiser leurs effets négatifs sur la santé et l'environnement
-SDG_INDICATOR: |
-    Indicateur 12.4.2 : Proportion des ménages ayant des déchets ménagers dangereux, par type de traitement
-STAT_CONC_DEF: '    '
+SDG_GOAL: |-
+  Objectif 12 : Établir des modes de consommation et de production durables
+SDG_TARGET: |-
+  Cible 12.4 : D'ici à 2020, parvenir à une gestion écologiquement rationnelle des produits chimiques et de tous les déchets tout au long de leur cycle de vie, conformément aux principes directeurs arrêtés à l'échelle internationale, et réduire nettement leur déversement dans l'air, l'eau et le sol, afin de minimiser leurs effets négatifs sur la santé et l'environnement
+SDG_INDICATOR: |-
+  Indicateur 12.4.2 : Proportion des ménages ayant des déchets ménagers dangereux, par type de traitement
+STAT_CONC_DEF: |-
+  L’indicateur comprend les déchets dangereux produits par type (y compris les déchets électroniques en tant que sous-indicateur) et la proportion de déchets dangereux traités.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
 
 # GLOBAL
-SDG_GOAL__GLOBAL: |
-    Objectif 12 : Établir des modes de consommation et de production durables
-SDG_TARGET__GLOBAL: |
-     Cible 12.4 : D'ici à 2020, parvenir à une gestion écologiquement rationnelle des produits chimiques et de tous les déchets tout au long de leur cycle de vie, conformément aux principes directeurs arrêtés à l'échelle internationale, et réduire nettement leur déversement dans l'air, l'eau et le sol, afin de minimiser leurs effets négatifs sur la santé et l'environnement
-SDG_INDICATOR__GLOBAL: |
-    Indicateur 12.4.2 : a) Production de déchets dangereux par habitant et b) proportion de déchets dangereux traités, par type de traitement
+SDG_GOAL__GLOBAL: |-
+  Objectif 12 : Établir des modes de consommation et de production durables
+SDG_TARGET__GLOBAL: |-
+  Cible 12.4 : D'ici à 2020, parvenir à une gestion écologiquement rationnelle des produits chimiques et de tous les déchets tout au long de leur cycle de vie, conformément aux principes directeurs arrêtés à l'échelle internationale, et réduire nettement leur déversement dans l'air, l'eau et le sol, afin de minimiser leurs effets négatifs sur la santé et l'environnement
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 12.4.2 : a) Production de déchets dangereux par habitant et b) proportion de déchets dangereux traités, par type de traitement
   
 un_designated_tier: Niveau II
-un_custodian_agency: |
-  La Division de statistique de l’ONU (DSNU)
-  <br>Programme des Nations Unies pour l'environnement (PNUE)
+un_custodian_agency: Division de statistique de l’ONU, Programme des Nations Unies pour l'environnement (PNUE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-04-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: Statistique Canada. Tableau 38-10-0155-01  Déchets ménagers dangereux
-source_url_1: https://doi.org/10.25318/3810015501-fra
-source_organisation_1: Statistique Canada
-source_periodicity_1: Aux 2 ans
-source_geographical_coverage_1: Canada, Province ou territoire, Région métropolitaine de 
-  recensement, Partie de région métropolitaine de recensement
-
- 
+# source_active_1: 'true'
+# source_url_text_1: Statistique Canada. Tableau 38-10-0155-01  Déchets ménagers dangereux
+# source_url_1: https://doi.org/10.25318/3810015501-fra
+# source_organisation_1: Statistique Canada
+# source_periodicity_1: Aux 2 ans
+# source_geographical_coverage_1: Canada, Province ou territoire, Région métropolitaine de recensement, Partie de région métropolitaine de recensement

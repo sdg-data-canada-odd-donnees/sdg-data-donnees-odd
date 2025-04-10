@@ -1,26 +1,39 @@
-SDG_GOAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>'
-SDG_TARGET: '<p>Cible 10.7 : Faciliter la migration et la mobilité de façon ordonnée, sûre, 
-  régulière et responsable, notamment par la mise en œuvre de politiques migratoires planifiées
-  et bien gérées.</p>'
-SDG_INDICATOR: '<p>Indicateur 10.7.2 : Nombre de pays dotés de politiques migratoires qui 
-  facilitent la migration et la mobilité de façon ordonnée, sûre, régulière et responsible.</p>'
-STAT_CONC_DEF: '   '
+# National
+SDG_GOAL: >-
+  Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre
+SDG_TARGET: >-
+  Cible 10.7 : Faciliter la migration et la mobilité de façon ordonnée, sûre, régulière et responsable, notamment par la mise en œuvre de politiques migratoires planifiées et bien gérées.
+SDG_INDICATOR: >-
+  Indicateur 10.7.2 : Les programmes et politiques du Canada en matière d'immigration et de réfugiés, établis et bien gérés.
+STAT_CONC_DEF: >-
+  L’indicateur ODD 10.7.2 vise à décrire l’état des politiques migratoires nationales et la manière dont ces politiques évoluent au fil du temps. Les informations collectées visent à identifier à la fois les progrès réalisés et les lacunes, contribuant ainsi à la base de données factuelles pour des recommandations concrètes pour la mise en œuvre de la cible 10.7 des ODD. L'indicateur sert également pour les futurs examens thématiques du Forum politique de haut niveau sur le développement durable (High-Level Political Forum on Sustainable Development (HLPF)).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays
-  à l’autre</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 10.7 : Faciliter la migration et la mobilité de façon ordonnée, sûre, 
-  régulière et responsable, notamment par la mise en œuvre de politiques migratoires planifiées
-  et bien gérées.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 10.7.2 : Nombre de pays dotés de politiques migratoires qui 
-  facilitent la migration et la mobilité de façon ordonnée, sûre, régulière et responsible.</p>'
 
-reporting_status: complete
+# Global
+SDG_GOAL__GLOBAL: >-
+  Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre
+SDG_TARGET__GLOBAL: >-
+  Cible 10.7 : Faciliter la migration et la mobilité de façon ordonnée, sûre, régulière et responsable, notamment par la mise en œuvre de politiques migratoires planifiées et bien gérées.
+SDG_INDICATOR__GLOBAL: >-
+  Indicateur 10.7.2 : Nombre de pays dotés de politiques migratoires qui facilitent la migration et la mobilité de façon ordonnée, sûre, régulière et responsible.
 
-un_designated_tier: Niveau II
+un_designated_tier: Niveau I
 un_custodian_agency: Département des affaires économiques et sociales de l'ONU (DESA), 
   Organisation internationale pour les migrations (OIM)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: Immigrer au Canada
+source_url_1: https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada.html
+source_organisation_1: Immigration, Réfugiés et Citoyenneté Canada (IRCC)
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Réfugiés et demandes d’asile
+source_url_2: https://www.canada.ca/fr/immigration-refugies-citoyennete/services/refugies.html
+source_organisation_2: Immigration, Réfugiés et Citoyenneté Canada (IRCC)
+source_geographical_coverage_2: Canada
  

@@ -1,37 +1,37 @@
-SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose,
+SDG_GOAL:
+  "<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
+  le bien-être de tous à tout âge.</p>"
+SDG_TARGET:
+  "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose,
   au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies
-  transmises par l’eau et autres maladies transmissibles.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.3.1 : Nombre de nouvelles infections à VIH par 100 000personnes
-  séronégatives, par sexe, âge et appartenance à un groupe de population à risque.</p>'
-STAT_CONC_DEF: <p>Le nombre de nouvelles infections au VIH pour 1 000 habitants non
-  infectés, selon le sexe, l’âge et les populations cibles, tel que défini comme le
-  nombre de nouvelles infections au VIH pour 1 000 années-personnes parmi la population
-  non infectée. </p>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à
+  transmises par l’eau et autres maladies transmissibles.</p>"
+SDG_INDICATOR:
+  "<p>Indicateur 3.3.1 : Nombre de nouvelles infections à VIH pour 1 000 personnes
+  séronégatives, par sexe, âge et appartenance à un groupe de population à risque.</p>"
+STAT_CONC_DEF: <p>Cet indicateur mesure le nombre de nouvelles infections au VIH pour 1 000 habitants non infectés. </p>
+DATA_COMP: custom.data-comp
+REC_USE_LIM: "   "
+SDG_GOAL__GLOBAL:
+  "<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
+  le bien-être de tous à tout âge.</p>"
+SDG_TARGET__GLOBAL:
+  "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à
   la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite,
-  les maladies transmises par l’eau et autres maladies transmissibles.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.3.1 : Nombre de nouvelles infections à VIH
+  les maladies transmises par l’eau et autres maladies transmissibles.</p>"
+SDG_INDICATOR__GLOBAL:
+  "<p>Indicateur 3.3.1 : Nombre de nouvelles infections à VIH
   pour 1 000 personnes séronégatives, par sexe, âge et appartenance à un groupe de
-  population à risque.</p>'
-
+  population à risque.</p>"
 
 # Source(s)
-source_active_1: 'true'
-source_url_text_1: Estimations du VIH avec limites d’incertitude 1990-présent
-source_organisation_1: ONUSIDA
-source_periodicity_1: Annuelle 
+source_active_1: "true"
+source_url_text_1: Estimations du VIH avec limites d’incertitude 1990-présent (en anglais seulement)
+source_organisation_1: Programme commun des Nations Unies sur le VIH/sida (ONUSIDA)
+source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
-source_url_1: https://www.unaids.org/en/resources/documents/2023/HIV_estimates_with_uncertainty_bounds_1990-present
+source_url_1: https://www.unaids.org/en/resources/documents/2024/HIV_estimates_with_uncertainty_bounds_1990-present
 
 un_designated_tier: Niveau I
 un_custodian_agency: Programme commun des Nations Unies sur le VIH/sida (ONUSIDA)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
- 

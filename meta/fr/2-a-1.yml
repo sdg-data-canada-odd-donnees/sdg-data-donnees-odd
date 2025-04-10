@@ -6,16 +6,9 @@ SDG_TARGET: '<p>Cible 2.a : Accroître, notamment grâce au renforcement de la c
   de plantes et de gènes d’animaux d’élevage, afin de renforcer les capacités productives
   agricoles des pays en développement, en particulier des pays les moins avancés.</p>'
 SDG_INDICATOR: '<p>Indicateur 2.a.1 : Indice d’orientation agricole des dépenses publiques</p>'
-STAT_CONC_DEF: <p>L'Indice d’orientation agricole des dépenses publiques est défini
-  comme la part de l'agriculture dans les dépenses publiques, divisée par la part
-  de la valeur ajoutée de l'agriculture dans le produit intérieur brut (PIB), l'agriculture
-  désignant le secteur de l'agriculture, de la sylviculture, de la pêche et de la
-  chasse. La mesure est un indice exempt de devise, calculé comme le rapport entre
-  ces deux parts. Les gouvernements nationaux sont tenus de calculer les dépenses
-  publiques selon les statistiques de finances publiques (SFP) et la classification
-  des fonctions des administrations publiques (CFAP), et la part de la valeur ajoutée
-  de l'agriculture dans le PIB selon le système de comptabilité nationale (SCN).</p>
-DATA_COMP: '   '
+STAT_CONC_DEF: |
+  <p>L’Indice d’orientation agricole (IOA) des dépenses publiques est défini comme la part de l’agriculture dans les dépenses publiques, divisée par la part de la valeur ajoutée de l’agriculture dans le produit intérieur brut (PIB), l’agriculture désignant le secteur de l’agriculture, de la sylviculture, de la pêche et de la chasse. La mesure est un indice exempt de devise, calculé comme le rapport entre ces deux parts. Les gouvernements nationaux sont tenus de calculer les dépenses publiques selon les statistiques de finances publiques et la Classification des fonctions de l’administration publique (CFAP), et la part de la valeur ajoutée de l’agriculture dans le PIB selon le système de comptabilité nationale (SCN).</p>
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
   améliorer la nutrition et promouvoir l’agriculture durable</p>'
@@ -28,11 +21,20 @@ SDG_TARGET__GLOBAL: '<p>Cible 2.a : Accroître, notamment grâce au renforcement
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.a.1 : Indice d’orientation agricole des dépenses
   publiques</p>'
 
-reporting_status: notstarted
-
-un_designated_tier: Niveau I
-un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-0A-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    2.a.1 Agriculture orientation index for government expenditures (Primary series) (en anglais seulement)
+source_url_1: https://de-public-statsuite.fao.org/vis?fs[0]=Sustainable%20Development%20Goals%20%28SDGs%29%2C1%7CGoal%202%20Zero%20Hunger%23SDG_G2%23%7C2.a.1%20Public%20Investment%20in%20agriculture%23SDG_G2_2A1%23&pg=0&fc=Sustainable%20Development%20Goals%20%28SDGs%29&bp=true&snb=1&vw=tb&df[ds]=ds-release&df[id]=DF_SDG_2_A_1&df[ag]=FAO&df[vs]=1.0&dq=A.AG_PRD_ORTIND.124.........&pd=2015%2C&to[TIME_PERIOD]=false
+
+source_active_2: 'true'
+source_url_text_2: |
+    2.a.1 Agriculture value added share of GDP (Complementary series) (en anglais seulement)
+source_url_2: https://de-public-statsuite.fao.org/vis?fs[0]=Sustainable%20Development%20Goals%20%28SDGs%29%2C1%7CGoal%202%20Zero%20Hunger%23SDG_G2%23%7C2.a.1%20Public%20Investment%20in%20agriculture%23SDG_G2_2A1%23&pg=0&fc=Sustainable%20Development%20Goals%20%28SDGs%29&bp=true&snb=1&vw=tb&df[ds]=ds-release&df[id]=DF_SDG_2_A_1&df[ag]=FAO&df[vs]=1.0&dq=A.AG_PRD_AGVAS.124.........&pd=2015%2C&to[TIME_PERIOD]=false
+
+source_active_3: 'true'
+source_url_text_3: |
+    2.a.1 Agriculture share of Government Expenditure (Complementary series) (en anglais seulement)
+source_url_3: https://de-public-statsuite.fao.org/vis?fs[0]=Sustainable%20Development%20Goals%20%28SDGs%29%2C1%7CGoal%202%20Zero%20Hunger%23SDG_G2%23%7C2.a.1%20Public%20Investment%20in%20agriculture%23SDG_G2_2A1%23&pg=0&fc=Sustainable%20Development%20Goals%20%28SDGs%29&bp=true&snb=1&vw=tb&df[ds]=ds-release&df[id]=DF_SDG_2_A_1&df[ag]=FAO&df[vs]=1.0&dq=A.AG_XPD_AGSGB.124.........&pd=2015%2C&to[TIME_PERIOD]=false

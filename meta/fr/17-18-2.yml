@@ -7,12 +7,26 @@ SDG_TARGET: '<p>Cible 17.18 : D’ici à 2020, apporter un soutien accru au renf
   par niveau de revenu, sexe, âge, race, appartenance ethnique, statut migratoire,
   handicap et emplacement géographique, et selon d’autres caractéristiques propres
   à chaque pays</p>'
-SDG_INDICATOR: '<p>Indicateur 17.18.2 : Nombre de pays dotés d’une législation nationale
-  relative à la statistique conforme aux Principes fondamentaux de la statistique
-  officielle</p>'
-STAT_CONC_DEF: '   '
+SDG_INDICATOR: '<p>Indicateur 17.18.2 : Législation nationale canadienne relative à la statistique conforme aux Principes fondamentaux de la statistique officielle</p>'
+STAT_CONC_DEF: |
+  L'indicateur se réfère à la législation statistique nationale qui respecte les Principes fondamentaux de la statistique officielle (PSO). Il s'agit du nombre de pays qui disposent d'une législation statistique respectant les FPOS. <br><br>
+  Législation statistique nationale : La loi sur les statistiques définit les règles, la réglementation et les mesures relatives à l'organisation, à la gestion, au suivi et à l'inspection des activités statistiques d'une manière systématique, solide, efficace et efficiente afin d'assurer la couverture complète, l'exactitude et la cohérence avec les faits afin de fournir une référence pour l'orientation politique, la planification socio-économique et de contribuer au développement du pays pour atteindre la richesse, la culture, le bien-être et l'équité. <br><br>
+  <strong>Principes fondamentaux de la statistique officielle de l'ONU</strong> <br><br>
+  Principe 1. Les statistiques officielles constituent un élément indispensable du système d'information d'une société, en fournissant au gouvernement, à l'économie et au public des données sur la situation économique, démographique, sociale et environnementale. À cette fin, les statistiques officielles qui satisfont au critère de l'utilité pratique doivent être établies et mises à disposition sur une base impartiale par les organismes statistiques officiels afin de respecter le droit des citoyens à l'information publique. <br><br>
+  Principe 2. Pour conserver la confiance dans les statistiques officielles, les organismes statistiques doivent décider, en fonction de considérations strictement professionnelles, y compris les principes scientifiques et l'éthique professionnelle, des méthodes et des procédures de collecte, de traitement, de stockage et de présentation des données statistiques. <br><br>
+  Principe 3. Pour faciliter une interprétation correcte des données, les instituts de statistique doivent présenter des informations conformes aux normes scientifiques sur les sources, les méthodes et les procédures statistiques. <br><br>
+  Principe 4. Les instituts de statistique sont habilités à commenter les interprétations erronées et l'utilisation abusive des statistiques. <br><br>
+  Principe 5. Les données à des fins statistiques peuvent être tirées de tous les types de sources, qu'il s'agisse d'enquêtes statistiques ou de dossiers administratifs. Les organismes statistiques doivent choisir la source en fonction de la qualité, de l'actualité, des coûts et de la charge imposée aux répondants. <br><br>
+  Principe 6. Les données individuelles collectées par les agences statistiques pour l'établissement de statistiques, qu'elles concernent des personnes physiques ou morales, doivent être strictement confidentielles et utilisées exclusivement à des fins statistiques. <br><br>
+  Principe 7. Les lois, règlements et mesures qui régissent le fonctionnement des systèmes statistiques doivent être rendus publics. <br><br>
+  Principe 8. La coordination entre les agences statistiques au sein des pays est essentielle pour assurer la cohérence et l'efficacité du système statistique. <br><br>
+  Principe 9. L'utilisation par les organismes statistiques de chaque pays des concepts, classifications et méthodes internationaux favorise la cohérence et l'efficacité des systèmes statistiques à tous les niveaux officiels. <br><br>
+  Principe 10. La coopération bilatérale et multilatérale en matière de statistiques contribue à l'amélioration des systèmes de statistiques officielles dans tous les pays. 
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Nombre de pays dotés d’une législation
+  nationale relative à la statistique conforme aux Principes fondamentaux de la statistique
+  officielle ».
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 17.18 : D’ici à 2020, apporter un soutien accru au renforcement
@@ -33,4 +47,10 @@ un_custodian_agency: Partenariat statistique au service du développement au 21e
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-18-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+source_active_1: 'true'
+source_url_text_1: Loi sur la statistique
+source_url_1: https://laws-lois.justice.gc.ca/fra/lois/s-19/TexteComplet.html
+source_organisation_1: Gouvernement du Canada - Ministère de la Justice
+source_geographical_coverage_1: Canada
+
+proxy: proxy

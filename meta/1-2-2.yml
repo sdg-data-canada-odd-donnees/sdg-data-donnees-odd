@@ -1,23 +1,30 @@
-SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET: '<p>Target 1.2: By 2030, reduce at least by half the proportion of men,
-  women and children of all ages living in poverty in all its dimensions according
-  to national definitions</p>'
-SDG_INDICATOR: '<p>Indicator 1.2.2: Proportion of men, women and children of all
-  ages living in poverty in all its dimensions according to national definitions</p>'
+SDG_GOAL: "Goal 1: End poverty in all its forms everywhere"
+SDG_TARGET: >-
+  Target 1.2: By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions
+SDG_INDICATOR: >-
+  Indicator 1.2.2: Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions
+
 STAT_CONC_DEF: 'This indicator measures the proportion of men, women and children of all
   ages living in poverty in all its dimensions according to national definitions.'
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET__GLOBAL: '<p>Target 1.2: By 2030, reduce at least by half the proportion
-  of men, women and children of all ages living in poverty in all its dimensions according
-  to national definitions</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 1.2.2: Proportion of men, women and children
-  of all ages living in poverty in all its dimensions according to national definitions</p>'
+
+SDG_GOAL__GLOBAL: "Goal 1: End poverty in all its forms everywhere"
+SDG_TARGET__GLOBAL: >-
+  Target 1.2: By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions
+SDG_INDICATOR__GLOBAL: >-
+  Indicator 1.2.2: Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions
+
 un_designated_tier: Tier II
 un_custodian_agency: United Nations Children's Fund (UNICEFF), World Bank (WB), United
   Nations Development Programme (UNDP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-02-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
-reporting_status: notavailable
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: Dimensions of Poverty Hub, Canada's Official Poverty Dashboard of Indicators
+source_url_1: https://www.statcan.gc.ca/en/topics-start/poverty
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada

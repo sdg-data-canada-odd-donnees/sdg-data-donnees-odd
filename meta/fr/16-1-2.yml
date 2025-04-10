@@ -1,28 +1,31 @@
-SDG_GOAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux 
-  fins du développement durable, assurer l’accès de tous à la justice et mettre en place, 
-  à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
-SDG_TARGET: '<p>Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de 
-  violence et les taux de mortalité qui y sont associés</p>'
-SDG_INDICATOR: '<p>Indicateur 16.1.2 : Nombre de décès liés à des conflits par 100 000 
-  habitants, par sexe, âge et cause</p>'
+SDG_GOAL:
+  "<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux
+  fins du développement durable, assurer l’accès de tous à la justice et mettre en place,
+  à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous</p>"
+SDG_TARGET:
+  "<p>Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de
+  violence et les taux de mortalité qui y sont associés</p>"
+SDG_INDICATOR:
+  "<p>Indicateur 16.1.2 : Nombre de décès liés à des conflits pour 100 000
+  habitants, par sexe, âge et cause</p>"
 STAT_CONC_DEF: |
-  Cet indicateur est défini comme le nombre total de décès liés au conflit divisé par la 
-  population totale, exprimé par 100 000 habitants.
-DATA_COMP: '   '
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux 
-  fins du développement durable, assurer l’accès de tous à la justice et mettre en place, 
-  à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de 
-  violence et les taux de mortalité qui y sont associés</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 16.1.2 : Nombre de décès liés à des conflits par 100 000 
-  habitants, par sexe, âge et cause</p>'
+  Cet indicateur est défini comme le nombre total de décès liés aux conflits divisé par la population totale, exprimé pour 100 000 habitants.
+DATA_COMP: "   "
+REC_USE_LIM: "   "
+SDG_GOAL__GLOBAL:
+  "<p>Objectif 16 : Promouvoir l’avènement de sociétés pacifiques et inclusives aux
+  fins du développement durable, assurer l’accès de tous à la justice et mettre en place,
+  à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous</p>"
+SDG_TARGET__GLOBAL:
+  "<p>Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de
+  violence et les taux de mortalité qui y sont associés</p>"
+SDG_INDICATOR__GLOBAL:
+  "<p>Indicateur 16.1.2 : Nombre de décès liés à des conflits pour 100 000
+  habitants, par sexe, âge et cause</p>"
 
 un_designated_tier: Niveau II
-un_custodian_agency: Le Haut-Commissaire des Nations Unies aux droits de l’homme
+un_custodian_agency: Haut-Commissariat des Nations Unies aux droits de l’homme (HCDH)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 reporting_status: notstarted
-
- 

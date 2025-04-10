@@ -1,12 +1,17 @@
+# National
 SDG_GOAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques fiables,
   durables et modernes, à un coût abordable.</p>'
 SDG_TARGET: '<p>Cible 7.1 : D’ici à 2030, garantir l’accès de tous à des services
   énergétiques fiables et modernes, à un coût abordable.</p>'
 SDG_INDICATOR: '<p>Indicateur 7.1.2 : Proportion de la population utilisant principalement
   des carburants et technologies propres.</p>'
-STAT_CONC_DEF: '  '
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+STAT_CONC_DEF: >-
+  Cet indicateur mesure la proportion de la population utilisant principalement des carburants et technologies propres. Le terme « propre » est défini par les objectifs de taux d’émissions et les recommandations précises concernant les combustibles (contre le charbon non traité et le kérosène) figurant dans les lignes directrices normatives de l’Organisation mondiale de la Santé (OMS) relatives à la qualité de l’air intérieur : consommation de combustibles domestiques.
+DATA_COMP: custom.data-comp
+REC_USE_LIM: >-
+  Les pays classés « à revenu élevé » selon la classification des pays de la Banque mondiale (81 pays) au cours de l’exercice financier 2022 ont été considérés comme ayant terminé la transition vers l’énergie domestique propre et sont donc déclarés comme ayant un accès aux technologies propres de 100 %.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques
   fiables, durables et modernes, à un coût abordable.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 7.1 : D’ici à 2030, garantir l’accès de tous à des services
@@ -14,18 +19,11 @@ SDG_TARGET__GLOBAL: '<p>Cible 7.1 : D’ici à 2030, garantir l’accès de tous
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 7.1.2 : Proportion de la population utilisant
   principalement des carburants et technologies propres.</p>'
 
-reporting_status: complete
-
-source_active_1: 'true'
-source_url_text_1: Statistique Canada
-source_url_1: https://www.statcan.gc.ca/fr/debut
-source_organisation_1: Statistique Canada
-source_geographical_coverage_1: Canada
-
 un_designated_tier: Niveau I
-un_custodian_agency: Centre du commerce international (CCI), Conférence des Nations Unies sur 
-  le commerce et le développement (CNUCED), Organisation mondiale du commerce
+un_custodian_agency: Organisation mondiale de la santé (OMS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+# Source(s)
+source_url_text_1: Proportion de la population ayant une dépendance principale aux combustibles propres (%)
+source_url_1: https://data.who.int/fr/indicators/i/D66483C/6A64C9A

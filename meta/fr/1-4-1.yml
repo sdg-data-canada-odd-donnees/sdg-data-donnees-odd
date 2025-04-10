@@ -26,8 +26,9 @@ STAT_CONC_DEF: |
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/9-c-1/">Indicateur 9.c.1</a>
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/11-2-1/">Indicateur 11.2.1</a>
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/11-6-1/">Indicateur 11.6.1</a>
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+DATA_COMP: custom.data-comp
+REC_USE_LIM: |
+  L'accès aux services de base de la collecte des déchets est mesuré au moyen de la série de substitution "Quantité totale de déchets éliminés dans des installations d'élimination des déchets". La série mondiale des Nations Unies repose sur l'indicateur 11.6.1 : « Proportion de déchets municipaux solides recueillis et gérés dans des installations contrôlées par rapport au total des déchets municipaux solides générés, par ville ».
 SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans
   le monde</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 1.4 : D''ici à 2030, faire en sorte que tous les hommes
@@ -39,19 +40,16 @@ SDG_TARGET__GLOBAL: '<p>Cible 1.4 : D''ici à 2030, faire en sorte que tous les 
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.4.1 : Proportion de la population vivant dans
   des ménages ayant accès aux services de base </p>'
 
-reporting_status: complete
-
-
 un_designated_tier: Niveau I
 un_custodian_agency: ONU-Habitat
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: Trends in drinking water and sanitation service levels, 2000-2022
-source_url_1: https://washdata.org/
-source_organisation_1: Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP)
+source_url_text_1: "JMP global database (anglais seulement)"
+source_url_1: https://washdata.org/data/household#!/can
+source_organisation_1: Programme conjoint OMS / UNICEF de surveillance de l'approvisionnement en eau, de l'assainissement et de l'hygiène (JMP)
+source_geographical_coverage_1: Canada
 source_periodicity_1: Annuelle
 
 source_active_2: 'true'
@@ -94,16 +92,17 @@ source_periodicity_6: Occasionnelle
 source_geographical_coverage_6: Canada, Province ou territoire
 
 source_active_7: 'true'
-source_url_text_7: "Rapport de surveillance des communications 2020"
-source_url_7: https://crtc.gc.ca/fra/publications/reports/policymonitoring/2020/index.htm
+source_url_text_7: "Tendances actuelles - Services sans fil mobiles"
+source_url_7: https://crtc.gc.ca/fra/publications/reports/policymonitoring/mob.htm
 source_organisation_7: Conseil de la radiodiffusion et des télécommunications canadiennes
+source_periodicity_7: Annuelle
 source_geographical_coverage_7: Canada
 
 source_active_8: 'true'
 source_url_text_8: |
-  Accès à l’électricité (% de la population) - Canada
-source_url_8: https://donnees.banquemondiale.org/indicateur/EG.ELC.ACCS.ZS?end=2020&locations=CA&name_desc=false&start=2015
-source_organisation_8: Banque Mondiale
-source_periodicity_8: Annuelle
-source_geographical_coverage_8: Canada
+  Statistique Canada. Tableau 38-10-0032-01  Élimination de déchets, selon la source
+source_url_8: https://doi.org/10.25318/3810003201-fra
+source_organisation_8: Statistique Canada
+source_periodicity_8: Aux 2 ans
+source_geographical_coverage_8: Canada, Région géographique du Canada, Province ou territoire
 

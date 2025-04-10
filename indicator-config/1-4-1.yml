@@ -2,47 +2,23 @@ computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
-#data_notice_class: success
-#data_notice_heading: Exploring data sources
-#data_notice_text: |
-#  Statistics Canada has not yet found any suitable data sources to report on this indicator. 
-#  <br>Please <a href="mailto:statcan.sdg-odd.statcan@statcan.gc.ca">contact us</a> if you have any suggestions.
 data_show_map: false
 data_start_values:
-- field: Series
-  value: Access to basic drinking water services
-- field: Basic services
-  value: Proportion of population using basic drinking water services
-- field: Series
-  value: Access to basic sanitation services
-- field: Basic services
-  value: Proportion of population using basic sanitation services
-- field: Series
-  value: Access to clean fuels and technology
-- field: Basic services
-  value: Proportion of population with access to electricity
-- field: Series
-  value: Access to basic mobility
-- field: Basic services
+- series: Access to basic mobility
+  field: Basic services
   value: Proportion of population within 500 metres of a public transit stop
-- field: Series
-  value: Access to basic education
-- field: Basic services
+- series: Access to basic waste collection services
+  field: Sources of waste disposal
+  value: All sources of waste for disposal
+- series: Access to basic education
+  field: Proficiency level
   value: Proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
-- field: Sex
+- series: Access to basic education
+  field: Sex
   value: Total
-- field: Series
-  value: Access to basic information services
-- field: Basic services
+- series: Access to basic information
+  field: Basic services
   value: Proportion of population covered by Evolved High-Speed Packet Access (HSPA+)
-- field: Series
-  value: Access to Basic Health Care Services
-- field: Basic services
-  value: Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning satisfied with modern methods
-- field: Series
-  value: Access to clean fuels and technology
-- field: Basic services
-  value: Proportion of individuals who own a mobile telephone
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -54,18 +30,34 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_titles:
   - series: Access to basic drinking water services
-    title: Access to basic drinking water services
+    title: Proportion of population using basic drinking water services
   - series: Access to basic sanitation services
-    title: Access to basic sanitation services
+    title: Proportion of population using basic sanitation services
   - series: Access to clean fuels and technology
-    title: Access to clean fuels and technology
+    title: Proportion of population with primary reliance on clean fuels and technology
+  - series: Access to basic waste collection services
+    title: Access to basic waste collection services
   - series: Access to basic mobility
     title: Access to basic mobility
   - series: Access to basic education
     title: Access to basic education
   - series: Access to basic information services
     title: Access to basic information services
-graph_type: line
+graph_types:
+  - series: Access to basic drinking water services
+    type: line
+  - series: Access to basic sanitation services
+    type: line
+  - series: Access to clean fuels and technology
+    type: line
+  - series: Access to basic waste collection services
+    type: bar
+  - series: Access to basic mobility
+    type: bar
+  - series: Access to basic education
+    type: bar
+  - series: Access to basic information services
+    type: bar
 indicator_name: global_indicators.1-4-1-title
 indicator_number: 1.4.1
 national_geographical_coverage: Canada
@@ -77,5 +69,9 @@ progress_calculation_options:
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags: 
+- Proxy
 "\xEF\xBB\xBFcomposite_breakdown_label": ''
+proxy: both
+proxy_series:
+  - Access to basic waste collection services

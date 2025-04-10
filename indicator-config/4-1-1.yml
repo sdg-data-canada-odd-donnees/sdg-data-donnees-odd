@@ -8,7 +8,17 @@ data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
 data_start_values:
-- field: Sex
+- series: Children in Grade 4 achieving at least a minimum proficiency level in reading
+  field: Sex
+  value: Total
+- series: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
+  field: Sex
+  value: Total
+- series: Young people aged 15 years achieving at least a minimum proficiency level in reading
+  field: Sex
+  value: Total
+- series: Young people aged 15 years achieving at least a minimum proficiency level in mathematics
+  field: Sex
   value: Total
 embedded_feature_footer: ''
 embedded_feature_html: ''
@@ -20,16 +30,17 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_titles:
-  - series: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
-    title: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
   - series: Children in Grade 4 achieving at least a minimum proficiency level in reading
     title: Children in Grade 4 achieving at least a minimum proficiency level in reading
-  - series: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading
-    title: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading
-  - series: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
-    title: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
+  - series: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
+    title: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
+  - series: Young people aged 15 years achieving at least a minimum proficiency level in reading
+    title: Young people aged 15 years achieving at least a minimum proficiency level in reading
+  - series: Young people aged 15 years achieving at least a minimum proficiency level in mathematics
+    title: Young people aged 15 years achieving at least a minimum proficiency level in mathematics
 graph_type: bar
 indicator_name: global_indicators.4-1-1-title
+indicator_available: proxy.4-1-1-title
 indicator_number: 4.1.1
 national_geographical_coverage: Canada
 page_content: ''
@@ -40,5 +51,5 @@ progress_calculation_options:
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
-"\xEF\xBB\xBFcomposite_breakdown_label": ''
+tags: 
+  - Proxy
