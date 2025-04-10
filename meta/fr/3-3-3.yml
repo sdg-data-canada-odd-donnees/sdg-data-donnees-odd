@@ -8,7 +8,7 @@ SDG_TARGET:
 SDG_INDICATOR: "<p>Indicateur 3.3.3 : Incidence du paludisme pour 100 000 habitants</p>"
 STAT_CONC_DEF:
   <p>L'incidence du paludisme est définie comme le nombre de nouveaux
-  cas de paludisme pour 100 000 personnes à risque chaque année.</p>
+  cas de paludisme pour 100 000 habitants chaque année.</p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique: « Incidence du paludisme pour 1 000 habitants ». <br><br>
