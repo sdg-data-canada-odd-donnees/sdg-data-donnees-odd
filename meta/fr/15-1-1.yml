@@ -1,29 +1,30 @@
-SDG_GOAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres, en
-  veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
-  contre la désertification, enrayer et inverser le processus de dégradation des terres
-  et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET: '<p>Cible 15.1 : D’ici à 2020, garantir la préservation, la restauration
-  et l’exploitation durable des écosystèmes terrestres et des écosystèmes d’eau douce
-  et des services connexes, en particulier des forêts, des zones humides, des montagnes
-  et des zones arides, conformément aux obligations découlant des accords internationaux</p>'
-SDG_INDICATOR: '<p>Indicateur 15.1.1 : Surface des zones forestières, en proportion
-  de la surface terrestre</p>'
-STAT_CONC_DEF: |
+# National
+SDG_GOAL: |-
+  Objectif 15 : Préserver et restaurer les écosystèmes terrestres, en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter contre la désertification, enrayer et inverser le processus de dégradation des terres et mettre fin à l’appauvrissement de la biodiversité
+SDG_TARGET: |-
+  Cible 15.1 : D’ici à 2020, garantir la préservation, la restauration et l’exploitation durable des écosystèmes terrestres et des écosystèmes d’eau douce et des services connexes, en particulier des forêts, des zones humides, des montagnes et des zones arides, conformément aux obligations découlant des accords internationaux
+SDG_INDICATOR: |-
+  Indicateur 15.1.1 : Surface des zones forestières, en proportion de la surface terrestre
+STAT_CONC_DEF: |-
   Cet indicateur mesure la superficie forestière en proportion de la superficie terrestre totale. Selon la FAO, la zone forestière est définie comme une terre de plus de 0,5 hectare avec des arbres de plus de 5 mètres de haut et un couvert végétal de plus de 10 %, ou des arbres capables d'atteindre ces seuils in situ. Elle n'inclut pas les terres qui sont principalement utilisées à des fins agricoles ou urbaines. La superficie des terres est définie comme la superficie du pays, à l'exclusion de la superficie des eaux intérieures et des eaux côtières.
-DATA_COMP: |
-  Superficie forestière en proportion de la superficie terrestre totale = (Superficie forestière / (Superficie totale végétalisée + Superficie totale non végétalisée - Superficie d'eau)) x 100
+DATA_COMP: |-
+  Superficie forestière en proportion de la superficie terrestre totale = (Superficie forestière / Superficie terrestre totale) × 100
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
-  en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
-  contre la désertification, enrayer et inverser le processus de dégradation des terres
-  et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 15.1 : D’ici à 2020, garantir la préservation, la restauration
-  et l’exploitation durable des écosystèmes terrestres et des écosystèmes d’eau douce
-  et des services connexes, en particulier des forêts, des zones humides, des montagnes
-  et des zones arides, conformément aux obligations découlant des accords internationaux</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 15.1.1 : Surface des zones forestières, en proportion
-  de la surface terrestre</p>'
 
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 15 : Préserver et restaurer les écosystèmes terrestres, en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter contre la désertification, enrayer et inverser le processus de dégradation des terres et mettre fin à l’appauvrissement de la biodiversité
+SDG_TARGET__GLOBAL: |-
+  Cible 15.1 : D’ici à 2020, garantir la préservation, la restauration et l’exploitation durable des écosystèmes terrestres et des écosystèmes d’eau douce et des services connexes, en particulier des forêts, des zones humides, des montagnes et des zones arides, conformément aux obligations découlant des accords internationaux
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 15.1.1 : Surface des zones forestières, en proportion de la surface terrestre
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation des Nations Unies pour l’alimentation et l’agriculture (FAO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: "Quelle superficie la forêt couvre-t-elle-au Canada?"
 source_url_1: https://www.rncan.gc.ca/nos-ressources-naturelles/forets/letat-forets-canada-rapport-annuel/quelle-superficie-foret-couvre-t-elle-canada/17602?_gl=1*1bcb9dx*_ga*MTcwMDU1NzQ3Ny4xNjY5NjY0MjMx*_ga_C2N57Y7DX5*MTY3NTc3NzU0MS4xNS4xLjE2NzU3NzgxNzkuMC4wLjA.
@@ -32,13 +33,8 @@ source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
-source_url_text_2: "Rapports statistiques normalisés - Sommaires statistiques sur le Canada"
-source_url_2: https://nfi.nfis.org/fr/standardreports
-source_organisation_2: Inventaire forestier national du Canada
-source_periodicity_2: Occasionelle
+source_url_text_2: FAOSTAT Indicateurs ODD
+source_url_2: https://www.fao.org/faostat/fr/#data/SDGB?area=33&elements=6120&items=24033&years=2015,2016,2017,2018,2019,2020,2021,2022,2023,2024&output_type=table&file_type=csv&submit=true
+source_organisation_2: Organisation des Nations Unies pour l’alimentation et l’agriculture (FAO)
+source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada
-
-un_designated_tier: Niveau I
-un_custodian_agency:  Organisation des Nations Unies pour l’alimentation et l’agriculture (FAO)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
