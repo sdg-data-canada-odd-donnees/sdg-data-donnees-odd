@@ -6,6 +6,7 @@ library(dplyr)
 library(stringr)
 
 suicide_mortality_data <- get_cansim("13-10-0800-01", factors = FALSE)
+geocodes <- read.csv("geocodes.csv")
 
 suicide_mort_rate <-
   suicide_mortality_data %>%
@@ -29,7 +30,9 @@ data_final <-
     suicide_mort_rate %>%
       filter(!(Geography == "Canada" & Sex == "Both sexes"))
   ) %>% 
-  filter(!str_starts(Geography, "Unknown"))
+  filter(!str_starts(Geography, "Unknown"))%>%
+  left_join(geocodes) %>%
+  relocate(GeoCode, .before = Value)
 
 write.csv(
   data_final,
