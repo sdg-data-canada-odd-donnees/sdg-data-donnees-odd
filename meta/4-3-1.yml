@@ -3,7 +3,7 @@ SDG_GOAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promo
   lifelong learning opportunities for all</p>'
 SDG_TARGET: '<p>Target 4.3: By 2030, ensure equal access for all women and men to
   affordable and quality technical, vocational and tertiary education, including university</p>'
-SDG_INDICATOR: '<p>Indicator 4.3.1: Participation rate of the population aged 25 to 34 years old in formal education and training</p>'
+SDG_INDICATOR: '<p>Indicator 4.3.1: Participation rate of the population aged 15 to 34 years old in formal education and training</p>'
 STAT_CONC_DEF: |
     The participation rate in education reflects the total enrolment in an elementary/high school, college, or university as a percentage of the total population for each age group. Includes full- and part-time students who were taking a "credit course"; i.e., a course or program of instruction that could be counted towards a degree, certificate or diploma. The number of students is based on a monthly average from September to April.<br><br>Captures public and private educational establishments: elementary, junior high school, high school or equivalent; community college, junior college or CEGEP; and university. Other types of schools, such as private institutes or vocational or secretarial schools, are excluded from the numerators for the totals.
 DATA_COMP: custom.data-comp
