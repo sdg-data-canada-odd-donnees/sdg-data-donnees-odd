@@ -38,7 +38,7 @@ pharmacists <- c(
 
 population <- get_cansim("17-10-0005-01", factors = FALSE)
 
-connection <- get_cansim_sqlite("98-10-0447-01")
+connection <- get_cansim_connection("98-10-0447-01", format = "sqlite")
 
 health_density <- connection %>%
   filter(`Age (15A)` == "Total - Age",
