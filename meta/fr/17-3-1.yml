@@ -1,71 +1,54 @@
-SDG_GOAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
-  mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET: '<p>Cible 17.3 : Mobiliser des ressources financières supplémentaires de
-  diverses provenances en faveur des pays en développement</p>'
-SDG_INDICATOR: '<p>Indicateur 17.3.1 : Investissements directs étrangers, aide publique
-  au développement et coopération Sud-Sud, en proportion du revenu national brut</p>'
-STAT_CONC_DEF: |
-  Cet indicateur mesure les investissements directs étrangers (IDE) et l’aide publique
-  au développement (APD) en proportion du revenu national brut (RNB).
+# National
+SDG_GOAL: |-
+  Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable et le revitaliser
+SDG_TARGET: |-
+  Cible 17.3 : Mobiliser des ressources financières supplémentaires de diverses provenances en faveur des pays en développement
+SDG_INDICATOR: |-
+  Indicateur 17.3.1 : Ressources financières supplémentaires de diverses provenances mobilisées en faveur des pays en développement
+STAT_CONC_DEF: |-
+  Recettes brutes annuelles des pays en développement : a. dons officiels pour le développement durable, b. prêts officiels concessionnels pour le développement durable, c. prêts officiels non concessionnels pour le développement durable, d. investissements directs étrangers, e. financements mobilisés du secteur privé à titre expérimental, et f. dons privés.
   <br><br>
-  Les investissements directs étrangers (IDE) sont une catégorie d’investissement
-  qui reflète l’objectif d’établir un intérêt durable par une entreprise résidente
-  dans une économie (investisseur direct) dans une entreprise (entreprise d’investissement
-  direct) qui est résidente dans une économie autre que celle de l’investisseur direct.
-  L’intérêt durable implique l’existence d’une relation à long terme entre l’investisseur
-  direct et l’entreprise d’investissement direct et un degré significatif d’influence
-  sur la gestion de l’entreprise. La propriété directe ou indirecte de 10 % ou plus
-  du pouvoir de vote d’une entreprise résidente dans une économie par un investisseur
-  résident dans une autre économie est prise comme preuve d’une telle relation.
+  Les investissements directs étrangers (IDE) sont une catégorie d’investissement qui reflète l’objectif d’établir un intérêt durable par une entreprise résidente dans une économie (investisseur direct) dans une entreprise (entreprise d’investissement direct) qui est résidente dans une économie autre que celle de l’investisseur direct. L’intérêt durable implique l’existence d’une relation à long terme entre l’investisseur direct et l’entreprise d’investissement direct et un degré significatif d’influence sur la gestion de l’entreprise. La possession directe ou indirecte de 10 % ou plus du pouvoir de vote d’une entreprise résidente dans une économie par un investisseur résident dans une autre économie est prise comme preuve d’une telle relation.
   <br><br>
-  Le Comité d’aide au développement (CAD) définit l’aide publique au développement
-  (APD) comme « les flux destinés aux pays et territoires figurant sur la liste des bénéficiaires de l'APD du CAD et aux institutions multilatérales qui sont <br><br>
-  i) fournis par des agences officielles, y compris les gouvernements nationaux et locaux, ou par leurs agences exécutives ; et <br>
-  ii) chaque transaction est administrée avec pour objectif principal la promotion du développement économique et du bien-être des pays en développement ; et sont de nature concessionnelle et comportent un élément de don d'au moins 25 pour cent (calculé à un taux d'escompte de 10 pour cent). (Voir <a href="https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html">https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/official-development-assistance--definition-and-coverage.html</a>)
-DATA_COMP: |
-  La série « Investissements directs étrangers (IDE) en proportion du revenu national
-  brut (RNB) » est calculée comme suit : (IDE/RNB) x 100.
-  <br><br>
-  La série « Aide publique au développement (APD) en proportion du revenu national brut
-  (RNB) » est une duplication de l’indicateur 17.2.1.
+  Ce sous-indicateur n'est pas limité aux pays en développement. Pour les définitions des autres sous-indicateurs, veuillez vous référer aux métadonnées officielles des Nations Unies.
+DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
-  mondial pour le développement durable et le revitaliser</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 17.3 : Mobiliser des ressources financières supplémentaires
-  de diverses provenances en faveur des pays en développement</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.3.1 : Investissements directs étrangers, aide publique
-  au développement et coopération Sud-Sud, en proportion du revenu national brut</p>'
 
-reporting_status: complete
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable et le revitaliser
+SDG_TARGET__GLOBAL: |-
+  Cible 17.3 : Mobiliser des ressources financières supplémentaires de diverses provenances en faveur des pays en développement
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 17.3.1 : Ressources financières supplémentaires de diverses provenances mobilisées en faveur des pays en développement
 
-un_designated_tier: Niveau I (FDI)/Niveau II (ODA, SSC)
-un_custodian_agency: L’Organisation de coopération et de développement économiques (OCDE),
-  Conférence des Nations Unies sur le commerce et le développement (CNUCED)
+un_designated_tier: Niveau I/II
+un_custodian_agency: Organisation de coopération et de développement économiques (OCDE), Conférence des Nations Unies sur le commerce et le développement (CNUCED)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
-# SOURCE(S)
-source_active_1: 'true'
-source_url_text_1: |
-    Statistiques d'IDE par zone de contrepartie et par activité économique
-source_url_1: https://data-explorer.oecd.org/vis?pg=0&snb=12&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_FDI%40DF_FDI_CTRY_IND_SUMM&df[ag]=OECD.DAF.INV&df[vs]=1.0&dq=CAN.LE_FA_F.RC%2BUSD_EXC.DI.....W.._T.A.&pd=2015%2C&to[TIME_PERIOD]=false&lc=fr
-source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
-source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada
+# Source(s)
+# source_active_1: 'true'
+# source_url_text_1: |
+#     Statistiques d'IDE par zone de contrepartie et par activité économique
+# source_url_1: https://data-explorer.oecd.org/vis?pg=0&snb=12&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_FDI%40DF_FDI_CTRY_IND_SUMM&df[ag]=OECD.DAF.INV&df[vs]=1.0&dq=CAN.LE_FA_F.RC%2BUSD_EXC.DI.....W.._T.A.&pd=2015%2C&to[TIME_PERIOD]=false&lc=fr
+# source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
+# source_periodicity_1: Annuelle
+# source_geographical_coverage_1: Canada
 
-source_active_2: 'true'
-source_url_text_2: |
-    CAD1: Flux par fournisseur (APD+AASP+privé) - Aide publique au développement (APD) équivalent-don
-source_url_2: https://data-explorer.oecd.org/vis?lc=fr&pg=0&bp=true&snb=25&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_DAC1%40DF_DAC1&df[ag]=OECD.DCD.FSD&df[vs]=1.4&dq=CAN.11010..1160.USD.Q.&to[TIME_PERIOD]=false&pd=%2C
-source_organisation_2: Organisation de coopération et de développement économiques (OCDE)
-source_periodicity_2: Annuelle
-source_geographical_coverage_2: Canada
+# source_active_2: 'true'
+# source_url_text_2: |
+#     CAD1: Flux par fournisseur (APD+AASP+privé) - Aide publique au développement (APD) équivalent-don
+# source_url_2: https://data-explorer.oecd.org/vis?lc=fr&pg=0&bp=true&snb=25&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_DAC1%40DF_DAC1&df[ag]=OECD.DCD.FSD&df[vs]=1.4&dq=CAN.11010..1160.USD.Q.&to[TIME_PERIOD]=false&pd=%2C
+# source_organisation_2: Organisation de coopération et de développement économiques (OCDE)
+# source_periodicity_2: Annuelle
+# source_geographical_coverage_2: Canada
 
-source_active_3: 'true'
-source_url_text_3: |
-    CAD1: Flux par donneur (APD+AASP+privé) - Revenu national brut (RNB)
-source_url_3: https://data-explorer.oecd.org/vis?lc=fr&pg=0&snb=1&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_DAC1%40DF_DAC1&df[ag]=OECD.DCD.FSD&df[vs]=1.2&dq=CAN.1....Q.&pd=2015%2C&to[TIME_PERIOD]=false&vw=tb
-source_organisation_3: Organisation de coopération et de développement économiques (OCDE)
-source_periodicity_3: Annuelle
-source_geographical_coverage_3: Canada
+# source_active_3: 'true'
+# source_url_text_3: |
+#     CAD1: Flux par donneur (APD+AASP+privé) - Revenu national brut (RNB)
+# source_url_3: https://data-explorer.oecd.org/vis?lc=fr&pg=0&snb=1&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_DAC1%40DF_DAC1&df[ag]=OECD.DCD.FSD&df[vs]=1.2&dq=CAN.1....Q.&pd=2015%2C&to[TIME_PERIOD]=false&vw=tb
+# source_organisation_3: Organisation de coopération et de développement économiques (OCDE)
+# source_periodicity_3: Annuelle
+# source_geographical_coverage_3: Canada
  
