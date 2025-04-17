@@ -57,7 +57,7 @@ total_cultural_natural <-
     .groups = "drop"
   )
 
-join_total <- bind_rows(total_cultural_natural,heritage_exp) %>% 
+join_total <- bind_rows(total_cultural_natural, national_provincial) %>% 
   left_join(pop_filtered) %>% 
   transmute(
     Year, Geography, `Level of government`, `Type of heritage`,
