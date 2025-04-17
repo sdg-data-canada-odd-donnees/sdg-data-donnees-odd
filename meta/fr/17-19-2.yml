@@ -45,15 +45,15 @@ source_periodicity_1: Tous les 5 ans
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
-source_url_text_2: Base canadienne de données de l'état civil - Décès (BCDECD)
-source_url_2: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=3233
+source_url_text_2: Base canadienne de données de l'état civil - Naissance (BCDECN)
+source_url_2: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=3231
 source_organisation_2: Statistique Canada
 source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada
 
 source_active_3: 'true'
-source_url_text_3: Base canadienne de données de l'état civil - Naissance (BCDECN)
-source_url_3: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&Id=1528597
+source_url_text_3: Base canadienne de données de l'état civil - Décès (BCDECD)
+source_url_3: https://www23.statcan.gc.ca/imdb/p2SV_f.pl?Function=getSurvey&SDDS=3233
 source_organisation_3: Statistique Canada
 source_periodicity_3: Annuelle
 source_geographical_coverage_3: Canada

@@ -40,7 +40,7 @@ labour_force_filtered <-
   filter(
     REF_DATE >= 2014,
     `Labour force characteristics` == "Employment",
-    Sex == "Both sexes",
+    Gender == "Total - Gender",
     `Age group` == "15 years and over"
   ) %>% 
   select(

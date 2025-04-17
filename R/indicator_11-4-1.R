@@ -28,8 +28,11 @@ national_provincial <-
     Year = REF_DATE,
     Geography = GEO,
     `Level of government` = `Public sector components`,
-    `Type of heritage` = 5,
+    `Type of heritage` = `Canadian Classification of Functions of Government (CCOFOG)`,
     Expenditure = VALUE
+  ) %>%
+  mutate(
+    `Type of heritage` = str_remove(`Type of heritage`, " \\[.*\\]")
   )
 
 pop_filtered <- 
@@ -54,14 +57,7 @@ total_cultural_natural <-
     .groups = "drop"
   )
 
-# total expenditure on heritage
-heritage_exp <- 
-  national_provincial %>% 
-  mutate(
-    `Type of heritage` = str_remove(`Type of heritage`, " \\[.*\\]")
-  )
-
-join_total <- bind_rows(total_cultural_natural,heritage_exp) %>% 
+join_total <- bind_rows(total_cultural_natural, national_provincial) %>% 
   left_join(pop_filtered) %>% 
   transmute(
     Year, Geography, `Level of government`, `Type of heritage`,
