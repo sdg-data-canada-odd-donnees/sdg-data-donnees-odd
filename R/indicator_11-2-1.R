@@ -44,7 +44,7 @@ distance_from_transit <- c(
 )
 
 # Connect to large CODR table
-connection <- get_cansim_sqlite("23-10-0313-01")
+connection <- get_cansim_connection("23-10-0313-01", format = "sqlite")
 data <- connection %>%
   filter(
     `Demographic and socio-economic` %in% demographics,
@@ -88,9 +88,6 @@ data_filtered <- data %>%
   )
 
 write.csv(
-  data_filtered, 
-  "data/indicator_11-2-1.csv", 
-  na = "",
-  row.names = FALSE,
-  fileEncoding = "UTF-8"
+  data_filtered, "data/indicator_11-2-1.csv", 
+  na = "", row.names = FALSE, fileEncoding = "UTF-8"
   )

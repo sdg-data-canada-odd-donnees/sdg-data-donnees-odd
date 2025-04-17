@@ -22,51 +22,50 @@ url_gni <- "https://sdmx.oecd.org/public/rest/data/OECD.DCD.FSD,DSD_DAC1@DF_DAC1
 oda_raw <- read.csv(url_odagrants)
 gni_raw <- read_sdmx(url_gni)
 
-# Stop and throw error if any dollar values use different base years
+# Check if constant dollar values use different base years
 if (any(sort(unique(oda_raw$BASE_PER)) != sort(unique(gni_raw$BASE_PER)))) {
-  print("ERROR: Dollar amounts from different base years cannot be combined.")
-  stop()
-}
-
-gni <- gni_raw %>%
-  select(
-    Year = TIME_PERIOD,
-    GNI = ObsValue
-  ) %>%
-  mutate_at("GNI", as.numeric) %>%
-  mutate_at("Year", as.numeric)
-
-oda <- oda_raw %>%
-  mutate(
-    `Poverty reduction aid type` = case_when(
-      SECTOR == "112" ~ "Basic education",
-      SECTOR == "122" ~ "Basic health",
-      SECTOR == "140" ~ "Water supply and sanitation",
-      SECTOR == "16050" ~ "Multisector aid for basic social services",
-      SECTOR == "520" ~ "Development food assistance"
+  warning("Dollar amounts from different base years cannot be combined. Skipping remainder of script indicator_1-a-1.R.")
+} else {
+  gni <- gni_raw %>%
+    select(
+      Year = TIME_PERIOD,
+      GNI = ObsValue
+    ) %>%
+    mutate_at("GNI", as.numeric) %>%
+    mutate_at("Year", as.numeric)
+  
+  oda <- oda_raw %>%
+    mutate(
+      `Poverty reduction aid type` = case_when(
+        SECTOR == "112" ~ "Basic education",
+        SECTOR == "122" ~ "Basic health",
+        SECTOR == "140" ~ "Water supply and sanitation",
+        SECTOR == "16050" ~ "Multisector aid for basic social services",
+        SECTOR == "520" ~ "Development food assistance"
+      )
+    ) %>%
+    select(
+      Year = TIME_PERIOD,
+      `Poverty reduction aid type`,
+      ODA = OBS_VALUE,
+    ) %>%
+    mutate_at("ODA", as.numeric) %>%
+    mutate_at("Year", as.numeric) %>%
+    arrange(Year)
+  
+  oda_total <- oda %>%
+    summarise(ODA = sum(ODA), .by = c(Year))
+  
+  data_final <- bind_rows(oda, oda_total) %>%
+    # Calculate ODA as percentage of GNI
+    left_join(gni, by = "Year") %>%
+    mutate(Value = ODA / GNI * 100) %>%
+    select(
+      Year,
+      `Poverty reduction aid type`,
+      Value
     )
-  ) %>%
-  select(
-    Year = TIME_PERIOD,
-    `Poverty reduction aid type`,
-    ODA = OBS_VALUE,
-  ) %>%
-  mutate_at("ODA", as.numeric) %>%
-  mutate_at("Year", as.numeric) %>%
-  arrange(Year)
-
-oda_total <- oda %>%
-  summarise(ODA = sum(ODA), .by = c(Year))
-
-data_final <- bind_rows(oda, oda_total) %>%
-  # Calculate ODA as percentage of GNI
-  left_join(gni, by = "Year") %>%
-  mutate(Value = ODA / GNI * 100) %>%
-  select(
-    Year,
-    `Poverty reduction aid type`,
-    Value
-  )
-
-write.csv(data_final, "./data/indicator_1-a-1.csv",
-          row.names = FALSE, na = "", fileEncoding = "UTF-8")
+  
+  write.csv(data_final, "./data/indicator_1-a-1.csv",
+            row.names = FALSE, na = "", fileEncoding = "UTF-8")
+}
