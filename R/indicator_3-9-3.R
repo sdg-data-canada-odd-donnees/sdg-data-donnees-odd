@@ -1,8 +1,8 @@
-
 # 3.9.3 -------------------------------------------------------------------
 
 library(dplyr)
 library(cansim)
+library(stringr)
 
 causes_poison <- c(
   "Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics",

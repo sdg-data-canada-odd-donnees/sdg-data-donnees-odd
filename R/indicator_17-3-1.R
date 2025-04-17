@@ -4,6 +4,9 @@
 library(dplyr)
 library(readsdmx)
 
+stop("Temporary skip 17.3.1")
+# Indicator replaced in 2024. New indicator only requires FDI inflows.
+
 # API URLs for ODA grants, FDI, and GNI
 
 # DAC1: Flows by provider (ODA+OOF+Private)

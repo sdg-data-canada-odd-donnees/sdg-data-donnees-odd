@@ -12,57 +12,66 @@ geocodes <- read.csv("geocodes.csv")
 mva <- 
   mva %>%
   filter(
-    REF_DATE > 2014,
+    REF_DATE >= 2015,
     `Principal statistics` == "Manufacturing value added",
     `North American Industry Classification System (NAICS)` == "Manufacturing [31-33]"
   ) %>% 
   select(
-    1:2, mva = VALUE
+    Year = REF_DATE,
+    Geography = GEO,
+    mva = VALUE
   ) 
 
 gdp <- 
   gdp %>% 
   filter(
-    REF_DATE > 2014,
+    REF_DATE >= 2015,
     Prices == "Current prices",
     Estimates == "Gross domestic product at market prices"
   ) %>% 
-  select(1:2, gdp = VALUE)
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    gdp = VALUE
+  )
 
 pop <- 
   pop %>% 
   filter(
-    REF_DATE > 2014,
+    REF_DATE >= 2015,
     Gender == "Total - gender",
     `Age group` == "All ages"
   ) %>% 
-  select(1:2, pop = VALUE)
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    pop = VALUE
+  )
 
 data_final <-
   bind_rows(
     mva %>% 
-      left_join(gdp) %>% 
-      filter(!is.na(gdp)) %>% 
-      transmute(
-        Year = REF_DATE, 
+      inner_join(gdp) %>% 
+      filter(!is.na(gdp)) %>%
+      mutate(
         Series = "MVA as a proportion of GDP",
         Units = "Percentage (%)",
-        Geography = GEO,
-        Value = round(((mva*1000)/(gdp*1000000))*100, 2)
-      ),
+        Value = round(mva*1000/(gdp*1000000)*100, 2),
+      ) %>%
+      select(-mva, -gdp),
     mva %>% 
-      left_join(pop) %>%
-      filter(!is.na(pop)) %>% 
-      transmute(
-        Year = REF_DATE, 
+      inner_join(pop) %>%
+      filter(!is.na(pop)) %>%
+      mutate(
         Series = "MVA per capita",
         Units = "Current dollars",
-        Geography = GEO,
-        Value = round((mva*1000)/pop, 2)
-      )
+        Value = round(mva*1000/pop, 2),
+      ) %>%
+      select(-mva, -pop)
   ) %>% 
   left_join(geocodes) %>% 
-  relocate(GeoCode, .before = "Value") %>% 
+  relocate(GeoCode, .before = "Value") %>%
+  relocate(Geography, .after = "Units") %>%
   mutate(Geography = ifelse(Geography == "Canada", NA, Geography))
 
 write.csv(
