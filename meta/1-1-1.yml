@@ -1,24 +1,24 @@
-SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET: '<p>Target 1.1: By 2030, eradicate extreme poverty for all people everywhere,
-  currently measured as people living on less than $1.25 a day</p>'
-SDG_INDICATOR: '<p>Indicator 1.1.1: Proportion of the population living below the
-  international poverty line by sex, age, employment status and geographic location
-  (urban/rural)</p>'
-STAT_CONC_DEF: <p>The indicator "Proportion of the population below the international
-  poverty line" is defined as the percentage of the population living on less
-  than $1.90 a day at 2011 international prices. The international poverty line
-  is currently set at $1.90 a day at 2011 international prices. </p>
+# National
+SDG_GOAL: |-
+  Goal 1: End poverty in all its forms everywhere
+SDG_TARGET: |-
+  Target 1.1: By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day
+SDG_INDICATOR: |-
+  Indicator 1.1.1: Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)
+STAT_CONC_DEF: |-
+  The indicator “proportion of the population below the international poverty line” is defined as the percentage of the population living on less than $2.15 a day at 2017 international prices.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET__GLOBAL: '<p>Target 1.1: By 2030, eradicate extreme poverty for all people
-  everywhere, currently measured as people living on less than $1.25 a day</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 1.1.1: Proportion of the population living below
-  the international poverty line by sex, age, employment status and geographic location
-  (urban/rural)</p>'
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 1: End poverty in all its forms everywhere
+SDG_TARGET__GLOBAL: |-
+  Target 1.1: By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 1.1.1: Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)
+
 un_designated_tier: Tier I
 un_custodian_agency: World Bank (WB), International Labour Organisation (ILO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.1
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
-
-reporting_status: notavailable
