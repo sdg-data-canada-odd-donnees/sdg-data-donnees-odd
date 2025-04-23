@@ -1,35 +1,41 @@
-SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
-SDG_TARGET: '<p>Target 3.1: By 2030, reduce the global maternal mortality ratio to
-  less than 70 per 100,000 live births</p>'
-SDG_INDICATOR: '<p>Indicator 3.1.1: Maternal mortality ratio</p>'
-STAT_CONC_DEF: <p>The maternal mortality ratio (MMR) is defined as the number of maternal
-  deaths during a given time period per 100,000 live births during the same time period.
-  It depicts the risk of maternal death relative to the number of live births and
-  essentially captures the risk of death in a single pregnancy or a single live birth.</p>
-DATA_COMP: 'Maternal mortality ratio = (Number of maternal deaths / Number of live births) X 100,000'
+# National
+SDG_GOAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET: |-
+  Target 3.1: By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births
+SDG_INDICATOR: |-
+  Indicator 3.1.1: Maternal mortality ratio
+STAT_CONC_DEF: |-
+  The maternal mortality ratio (MMR) is defined as the number of maternal deaths during a given time period per 100,000 live births during the same time period. It depicts the risk of maternal death relative to the number of live births and
+  essentially captures the risk of death in a single pregnancy or a single live birth.
+DATA_COMP: |-
+  Maternal mortality ratio = (Number of maternal deaths / Number of live births) × 100,000
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
-  at all ages</p>'
-SDG_TARGET__GLOBAL: '<p>Target 3.1: By 2030, reduce the global maternal mortality
-  ratio to less than 70 per 100,000 live births</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 3.1.1: Maternal mortality ratio</p>'
-source_active_1: 'true'
-source_url_text_1: 'Statistics Canada. Table 13-10-0152-01  Deaths, by cause, Chapter
-  XV: Pregnancy, childbirth and the puerperium (O00 to O99)'
-source_url_1: https://doi.org/10.25318/1310015201-eng
-source_organisation_1: Statistics Canada
-source_periodicity_1: Annual
-source_geographical_coverage_1: Canada
-source_active_2: 'true'
-source_url_text_2: Statistics Canada. Table 13-10-0414-01  Live births, by place of
-  residence of mother
-source_url_2: https://doi.org/10.25318/1310041401-eng
-source_organisation_2: Statistics Canada
-source_periodicity_2: Annual
-source_geographical_coverage_2: Canada, Province or territory
-reporting_status: complete
- 
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET__GLOBAL: |-
+  Target 3.1: By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 3.1.1: Maternal mortality ratio
+
 un_designated_tier: Tier I
 un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: 'Statistics Canada. Table 13-10-0152-01  Deaths, by cause, Chapter XV: Pregnancy, childbirth and the puerperium (O00 to O99)'
+source_url_1: https://doi.org/10.25318/1310015201-eng
+source_organisation_1: Statistics Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Statistics Canada. Table 13-10-0414-01  Live births, by place of residence of mother
+source_url_2: https://doi.org/10.25318/1310041401-eng
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada, Province or territory

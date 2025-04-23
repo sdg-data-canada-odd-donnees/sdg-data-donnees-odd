@@ -1,27 +1,24 @@
-SDG_GOAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
-SDG_TARGET: '<p>Cible 1.1 : D’ici à 2030, éliminer complètement l’extrême pauvreté
-  dans le monde entier (s’entend actuellement du fait de vivre avec moins de 1,25 $
-  (dollar américain) par jour)</p>'
-SDG_INDICATOR: '<p>Indicateur 1.1.1 : Proportion de la population vivant en dessous
-  du seuil de pauvreté fixé au niveau international, par sexe, âge, situation dans
-  l’emploi et lieu de résidence (zone urbaine/zone rurale)</p>'
-STAT_CONC_DEF: <p>L’indicateur « Proportion de la population active sous le seuil de pauvreté
-  international » est définie comme le pourcentage de la population vivant avec moins de 1,90 $ par jour aux prix internationaux de 2011. 
-  Le seuil international de pauvreté est actuellement fixé à 1,90 dollar par jour aux prix internationaux de 2011.</p>
+# National
+SDG_GOAL: |-
+  Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
+SDG_TARGET: |-
+  Cible 1.1 : D’ici à 2030, éliminer complètement l’extrême pauvreté dans le monde entier (s’entend actuellement du fait de vivre avec moins de 1,25 dollar des États-Unis par jour)
+SDG_INDICATOR: |-
+  Indicateur 1.1.1 : Proportion de la population vivant en dessous du seuil de pauvreté fixé au niveau international, par sexe, âge, situation dans l’emploi et lieu de résidence (zone urbaine/zone rurale)
+STAT_CONC_DEF: |-
+  L’indicateur « proportion de la population sous le seuil de pauvreté international » est définie comme le pourcentage de la population vivant avec moins de 2,15 $ par jour aux prix internationaux de 2017.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans
-  le monde</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 1.1 : D’ici à 2030, éliminer complètement l’extrême
-  pauvreté dans le monde entier (s’entend actuellement du fait de vivre avec moins
-  de 1,25 $ (dollar américain) par jour)</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.1.1 : Proportion de la population vivant en
-  dessous du seuil de pauvreté fixé au niveau international, par sexe, âge, situation
-  dans l’emploi et lieu de résidence (zone urbaine/zone rurale)</p>'
 
-reporting_status: notavailable
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
+SDG_TARGET__GLOBAL: |-
+  Cible 1.1 : D’ici à 2030, éliminer complètement l’extrême pauvreté dans le monde entier (s’entend actuellement du fait de vivre avec moins de 1,25 dollar des États-Unis par jour)
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 1.1.1 : Proportion de la population vivant en dessous du seuil de pauvreté fixé au niveau international, par sexe, âge, situation dans l’emploi et lieu de résidence (zone urbaine/zone rurale)
 
 un_designated_tier: Niveau I
-un_custodian_agency: Banque Mondiale, Organisation internationale du Travail
+un_custodian_agency: Banque Mondiale
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.1
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
