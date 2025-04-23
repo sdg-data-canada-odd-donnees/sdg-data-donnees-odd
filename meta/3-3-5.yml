@@ -1,32 +1,32 @@
-SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>'
-SDG_TARGET: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria
-  and neglected tropical diseases and combat hepatitis, water-borne diseases and other
-  communicable diseases </p>'
-SDG_INDICATOR: '<p>Indicator 3.3.5: Number of people requiring interventions against
-  neglected tropical diseases </p>'
-STAT_CONC_DEF: <p>Number of people requiring treatment and care for any one of the
-  neglected tropical diseases (NTDs) targeted by the WHO NTD Roadmap and World Health
-  Assembly resolutions and reported to WHO. </p>
+# National
+SDG_GOAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET: |-
+  Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases
+SDG_INDICATOR: |-
+  Indicator 3.3.5: Number of people requiring interventions against neglected tropical diseases
+STAT_CONC_DEF: |-
+  Number of people requiring treatment and care for any one of the neglected tropical diseases (NTDs) targeted by the WHO NTD Roadmap and World Health Assembly resolutions and reported to WHO.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
-  at all ages </p>'
-SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis,
-  malaria and neglected tropical diseases and combat hepatitis, water-borne diseases
-  and other communicable diseases </p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 3.3.5: Number of people requiring interventions
-  against neglected tropical diseases </p>'
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET__GLOBAL: |-
+  Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 3.3.5: Number of people requiring interventions against neglected tropical diseases
+
 un_designated_tier: Tier I
 un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: true
 source_url_text_1: Notifiable Diseases Online
-source_url_1: 'https://diseases.canada.ca/notifiable/charts?c=yl'
-source_organisation_1: "Public Health Agency of Canada (PHAC)"
+source_url_1: https://diseases.canada.ca/notifiable/charts?c=yl
+source_organisation_1: Public Health Agency of Canada (PHAC)
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
-reporting_status: complete
- 
