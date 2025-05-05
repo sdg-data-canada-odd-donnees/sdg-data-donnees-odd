@@ -4822,6 +4822,250 @@
       "title": "Prévalence de l’anémie chez les femmes âgées de 15 à 49 ans, selon l’état de grossesse (pourcentage)"
     },
     {
+      "path": "10-3-1/data.csv",
+      "name": "10-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "Discrimination indicators",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "N'ont pas été victimes de discrimination",
+                "Victimes de discrimination ou de traitement injuste par d’autres personnes au Canada",
+                "Discrimination au travail",
+                "Discrimination à l'école",
+                "Discrimination sur Internet",
+                "Discrimination dans les rapports avec le système de soins de santé",
+                "Discrimination dans des endroits publics, un magasin, une banque ou un restaurant",
+                "Discrimination aux mains de membres de la famille ou d’amis",
+                "Discrimination en utilisant le transport en commun",
+                "Discrimination dans toute autre situation",
+                ""
+              ]
+            },
+            "title": "Indicateurs de discrimination"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste",
+                "Proportion d'individus au sein d'une population déclarant avoir été victimes de discrimination ou de traitement injuste",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Hommes",
+                "Femmes",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 à 24 ans",
+                "25 à 54 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                "65 ans et plus",
+                "65 à 74 ans",
+                "75 ans et plus",
+                "Total, 15 ans et plus",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Non-immigrants",
+                "Immigrants",
+                "Immigrants, au Canada depuis 10 ans ou moins",
+                "Immigrants, au Canada depuis plus de 10 ans",
+                "Résidents non permanents",
+                "Total, selon le statut d’immigrant",
+                ""
+              ]
+            },
+            "title": "Status d'immigrant"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population des minorités visibles",
+                "Sud-Asiatique",
+                "Chinois",
+                "Noir",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Asiatique du Sud-Est",
+                "Asiatique occidental",
+                "Coréen",
+                "Minorités visible multiples",
+                "Pas une minorité visible",
+                "Total, selon le groupe de minorité visible",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Indigenous identity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Identité autochtone",
+                "Identité autochtone unique",
+                "Premières Nations",
+                "Métis",
+                "Identité non autochtone",
+                "Total, selon l’identité autochtone",
+                ""
+              ]
+            },
+            "title": "Identité autochtone"
+          },
+          {
+            "name": "Disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personnes ayant une incapacité, une difficulté ou un problème de santé de longue durée",
+                "Personnes n’ayant pas d’incapacité, de difficulté ou de problème de santé de longue durée",
+                "Total, personnes ayant une incapacité, une difficulté ou un problème de santé de longue durée ou n’en ayant pas",
+                ""
+              ]
+            },
+            "title": "Incapacité"
+          },
+          {
+            "name": "LGBTQ2+",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personnes LGBTQ2+",
+                "Personnes qui ne sont pas LGBTQ2+",
+                "Total, personnes LGBTQ2+ et qui ne sont pas LGBTQ2+",
+                ""
+              ]
+            },
+            "title": "LGBTQ2+"
+          },
+          {
+            "name": "Highest level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Aucun certificat, diplôme ou grade",
+                "Diplôme d’études secondaires ou attestation d’équivalence",
+                "Certificat, diplôme ou grade d’études postsecondaires",
+                "Certificat ou diplôme d’études postsecondaires inférieur au baccalauréat",
+                "Certificat ou diplôme d’apprenti ou d’une école de métiers",
+                "Certificat ou diplôme d’un collège, d’un cégep ou d’un autre établissement non universitaire",
+                "Certificat ou diplôme universitaire inférieur au baccalauréat",
+                "Baccalauréat ou grade supérieur",
+                "Baccalauréat",
+                "Certificat, diplôme ou grade universitaire supérieur au baccalauréat",
+                "Total, plus haut certificat, diplôme ou grade",
+                ""
+              ]
+            },
+            "title": "Plus haut niveau de scolarité"
+          },
+          {
+            "name": "Main activity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Travailler à un emploi rémunéré ou à son propre compte",
+                "À la retraite",
+                "Autre activité",
+                "Total, selon l’activité principale",
+                ""
+              ]
+            },
+            "title": "Activité principale"
+          },
+          {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Régions urbaines",
+                "Régions rurales",
+                "Total, régions urbaines et rurales",
+                ""
+              ]
+            },
+            "title": "Région"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme"
+    },
+    {
       "path": "5-4-1/data.csv",
       "name": "5-4-1",
       "profile": "tabular-data-resource",
@@ -9521,30 +9765,6 @@
         ]
       },
       "title": "Proportion moyenne de la surface urbaine construite consacrée à des espaces publics, par sexe, âge et situation au regard du handicap"
-    },
-    {
-      "path": "10-3-1/data.csv",
-      "name": "10-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme"
     },
     {
       "path": "17-4-1/data.csv",
