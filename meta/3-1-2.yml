@@ -1,44 +1,43 @@
-SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>'
-SDG_TARGET: '<p>Target 3.1: By 2030, reduce the global maternal mortality ratio to
-  less than 70 per 100,000 live births </p>'
-SDG_INDICATOR: '<p>Indicator 3.1.2: Proportion of births in hospital </p>'
-STAT_CONC_DEF: 'Proportion of births attended by skilled health personnel (generally doctors, nurses or midwives but can 
-  refer to other health professionals providing childbirth care) is the proportion of childbirths attended 
-  by professional health personnel. 
-  <br>
-  <br>According to the current definition these are competent maternal 
-  and newborn health (MNH) professionals educated, trained and regulated to national and international 
-  standards. They are competent to: (i) provide and promote evidence-based, human-rights based, quality, 
-  socio-culturally sensitive and dignified care to women and newborns; (ii) facilitate physiological processes 
-  during labour and delivery to ensure a clean and positive childbirth experience; and (iii) identify and 
-  manage or refer women and/or newborns with complications. <br> '
+# National
+SDG_GOAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET: |-
+  Target 3.1: By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births
+SDG_INDICATOR: |-
+  Indicator 3.1.2: Proportion of births in hospital
+STAT_CONC_DEF: |-
+  Proportion of births attended by skilled health personnel (generally doctors, nurses or midwives but can refer to other health professionals providing childbirth care) is the proportion of childbirths attended by professional health personnel. 
+  <br><br>
+  According to the current definition these are competent maternal and newborn health (MNH) professionals educated, trained and regulated to national and international standards. They are competent to: (i) provide and promote evidence-based, human-rights based, quality, socio-culturally sensitive and dignified care to women and newborns; (ii) facilitate physiological processes during labour and delivery to ensure a clean and positive childbirth experience; and (iii) identify and manage or refer women and/or newborns with complications.
 DATA_COMP: custom.data-comp-national
-REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: "Proportion of births attended by skilled health personnel". <br><br>
-  The proportion of births in hospital includes live births and fetal deaths (stillbirths). <br><br> 
-  Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. As a result, there may have been fewer births and stillbirths captured by the time of the release. Data for 2022 and 2023 are considered preliminary. <br><br>
-  As a result of delays with birth and stillbirth registrations, fewer births and stillbirths have been captured, to date, for Manitoba in 2022. There were also fewer births captured for Nova Scotia in 2021 due to coverage issues. <br><br>
-  2017 to 2022 data for Yukon are not available.'
+REC_USE_LIM: |-
+  This is a proxy indicator. The UN Global indicator states: "Proportion of births attended by skilled health personnel".
+  <br><br>
+  The proportion of births in hospital includes live births and fetal deaths (stillbirths).
+  <br><br>
+  Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. As a result, there may have been fewer births and stillbirths captured by the time of the release. Data for 2022 and 2023 are considered preliminary.
+  <br><br>
+  As a result of delays with birth and stillbirth registrations, fewer births and stillbirths have been captured, to date, for Manitoba in 2022. There were also fewer births captured for Nova Scotia in 2021 due to coverage issues.
+  <br><br>
+  2017 to 2022 data for Yukon are not available.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
-  at all ages </p>'
-SDG_TARGET__GLOBAL: '<p>Target 3.1: By 2030, reduce the global maternal mortality
-  ratio to less than 70 per 100,000 live births </p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 3.1.2: Proportion of births attended by skilled
-  health personnel </p>'
+SDG_GOAL__GLOBAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET__GLOBAL: |-
+  Target 3.1: By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 3.1.2: Proportion of births attended by skilled health personnel
+
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Children's Fund (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
-# SOURCE(S)
+# Source(s)
 source_active_1: 'true'
-source_url_text_1: |
-    Statistics Canada. Table 13-10-0429-01  Live births and fetal deaths (stillbirths), by place of birth (hospital or non-hospital)
+source_url_text_1: Statistics Canada. Table 13-10-0429-01  Live births and fetal deaths (stillbirths), by place of birth (hospital or non-hospital)
 source_url_1: https://doi.org/10.25318/1310042901-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada, Province or territory
-
-proxy: proxy

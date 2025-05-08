@@ -1,37 +1,33 @@
-SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose,
-  au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies
-  transmises par l’eau et autres maladies transmissibles.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.3.5: Nombre de personnes pour lesquelles des interventions
-  contre les maladies tropicales négligées sont nécessaires</p>'
-STAT_CONC_DEF: <p>Nombre de personnes nécessitant un traitement et des soins pour
-  l'une des maladies tropicales négligées (ATN) visées par la feuille de route de
-  l'OMS sur les ATN et les résolutions de l'Assemblée mondiale de la santé et signalées
-  à l'OMS.</p>
+# National
+SDG_GOAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET: |-
+  Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies transmises par l’eau et autres maladies transmissibles.
+SDG_INDICATOR: |-
+  Indicateur 3.3.5 : Nombre de personnes pour lesquelles des interventions contre les maladies tropicales négligées sont nécessaires
+STAT_CONC_DEF: |-
+  Nombre de personnes nécessitant un traitement et des soins pour l'une des maladies tropicales négligées (MTN) visées par la feuille de route de l'OMS sur les MTN et les résolutions de l'Assemblée mondiale de la santé et signalées à l'OMS.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à
-  la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite,
-  les maladies transmises par l’eau et autres maladies transmissibles.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.3.5: Nombre de personnes pour lesquelles des
-  interventions contre les maladies tropicales négligées sont nécessaires</p>'
 
-source_active_1: true
-source_url_text_1: Maladies à déclaration obligatoire en direct
-source_url_1: 'https://maladies.canada.ca/declaration-obligatoire/graphiques?c=yl'
-source_organisation_1: |
-  Agence de la santé publique du Canada
-source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada
-
-reporting_status: complete
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET__GLOBAL: |-
+  Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies transmises par l’eau et autres maladies transmissibles.
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 3.3.5: Nombre de personnes pour lesquelles des interventions contre les maladies tropicales négligées sont nécessaires
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation Mondiale de la Santé (OMS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+source_active_1: true
+source_url_text_1: Maladies à déclaration obligatoire en direct
+source_url_1: https://maladies.canada.ca/declaration-obligatoire/graphiques?c=yl
+source_organisation_1: Agence de la santé publique du Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
  
