@@ -124,7 +124,7 @@
             "title": "Indigenous identity"
           },
           {
-            "name": "Disability status",
+            "name": "Disability",
             "type": "string",
             "constraints": {
               "enum": [
@@ -134,7 +134,7 @@
                 ""
               ]
             },
-            "title": "Disability status"
+            "title": "Disability"
           },
           {
             "name": "Sexual orientation",

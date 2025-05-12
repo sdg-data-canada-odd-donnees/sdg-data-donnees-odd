@@ -44,7 +44,7 @@
             "title": "Unités"
           },
           {
-            "name": "Education level",
+            "name": "Highest level of education",
             "type": "string",
             "constraints": {
               "enum": [
@@ -63,7 +63,7 @@
                 ""
               ]
             },
-            "title": "Niveau de scolarité"
+            "title": "Plus haut niveau de scolarité"
           },
           {
             "name": "Age group",

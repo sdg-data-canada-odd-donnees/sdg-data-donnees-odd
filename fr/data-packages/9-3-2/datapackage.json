@@ -59,7 +59,7 @@
             "title": "Géographie"
           },
           {
-            "name": "Industries",
+            "name": "Industry",
             "type": "string",
             "constraints": {
               "enum": [
@@ -80,7 +80,7 @@
                 ""
               ]
             },
-            "title": "Industries"
+            "title": "Industrie"
           },
           {
             "name": "Age of primary decision maker",

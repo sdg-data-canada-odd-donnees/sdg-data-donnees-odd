@@ -1,4 +1,7 @@
 Value,Disaggregation combinations using this value,Number of indicators
+Accommodation and food services (NAICS 72),4,1
+Advanced manufacturing,4,1
+Advanced technology,4,1
 Aerospace product and parts manufacturing,7,1
 "Agricultural, construction and mining machinery manufacturing",10,1
 Alumina and aluminum production and processing,3,1
@@ -26,6 +29,7 @@ Communications equipment manufacturing,6,1
 Computer and electronic product manufacturing,9,1
 Computer and peripheral equipment manufacturing,5,1
 "Computer, electronic and optical products",6,1
+Construction (NAICS 23),4,1
 Converted paper product manufacturing,6,1
 Cut and sew clothing manufacturing,7,1
 Cutlery and hand tool manufacturing,5,1
@@ -54,7 +58,9 @@ Hardware manufacturing,5,1
 Household and institutional furniture and kitchen cabinet manufacturing,10,1
 Household appliance manufacturing,4,1
 Industrial machinery manufacturing,10,1
+Information and communication technologies (ICT),3,1
 Iron and steel mills and ferro-alloy manufacturing,3,1
+Knowledge-based industries (KBI),3,1
 Leather and allied product manufacturing,7,1
 Leather and hide tanning and finishing,4,1
 Lime and gypsum product manufacturing,7,1
@@ -62,6 +68,7 @@ Lime and gypsum product manufacturing,7,1
 Machinery and equipment n.e.c.,6,1
 Machinery manufacturing,10,1
 Manufacturing and reproducing magnetic and optical media,4,1
+Manufacturing (NAICS 31-33),4,1
 Meat product manufacturing,9,1
 Medical equipment and supplies manufacturing,11,1
 Metalworking machinery manufacturing,8,1
@@ -81,11 +88,13 @@ Other fabricated metal product manufacturing,10,1
 Other food manufacturing,11,1
 Other furniture-related product manufacturing,8,1
 Other general-purpose machinery manufacturing,9,1
+Other industries from the North American Industrial Classification System (NAICS),4,1
 Other leather and allied product manufacturing,4,1
 Other manufacturing,6,1
 Other miscellaneous manufacturing,11,1
 Other non-metallic mineral product manufacturing,9,1
 Other non-metallic mineral products,4,1
+Other services (NAICS 81),4,1
 Other textile product mills,5,1
 Other transportation equipment manufacturing,4,1
 Other wood product manufacturing,10,1
@@ -103,9 +112,11 @@ Printing and reproduction of recorded media,6,1
 "Pulp, paper and paperboard mills",6,1
 Railroad rolling stock manufacturing,3,1
 "Resin, synthetic rubber, and artificial and synthetic fibres and filaments manufacturing",6,1
+Retail trade (NAICS 44-45),4,1
 Rubber and plastics products,6,1
 Rubber product manufacturing,8,1
 Sawmills and wood preservation,11,1
+Scientific and technical services (NAICS 54),4,1
 Seafood product preparation and packaging,8,1
 Semiconductor and other electronic component manufacturing,6,1
 Ship and boat building,8,1
@@ -120,8 +131,11 @@ Textile product mills,10,1
 Textiles,4,1
 Tobacco manufacturing,1,1
 Total manufacturing,15,2
+Tourism,4,1
+Transportation and warehousing (NAICS 48-49),4,1
 Transportation equipment manufacturing,11,1
 "Veneer, plywood and engineered wood product manufacturing",10,1
 "Ventilation, heating, air-conditioning and commercial refrigeration equipment manufacturing",8,1
+Wholesale trade (NAICS 41),4,1
 Wood product manufacturing,11,1
 "Wood products, excluding furniture",6,1
