@@ -14,17 +14,17 @@ data_start_values:
 #   value: Adjusted location parity index
 # - field: Parity index
 #   value: Adjusted wealth parity index
-- field: Education level
+- field: Level of education
   value: Primary education
-- field: Education level
+- field: Level of education
   value: Lower secondary education
-- field: Education level
+- field: Level of education
   value: Upper secondary education
-- field: Education level
+- field: Level of education
   value: Completed primary education or higher
-- field: Education level
+- field: Level of education
   value: Completed lower secondary education or higher
-- field: Education level
+- field: Level of education
   value: Completed upper secondary education or higher
 - field: Age group
   value: 15-64 years old
@@ -37,7 +37,7 @@ expected_disaggregations:
 - Age group
 - Sex
 - Location
-- Education level
+- Level of education
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
