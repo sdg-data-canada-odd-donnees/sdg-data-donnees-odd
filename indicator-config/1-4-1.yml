@@ -7,6 +7,12 @@ data_start_values:
 - series: Access to basic mobility
   field: Basic services
   value: Proportion of population within 500 metres of a public transit stop
+- series: Access to basic mobility
+  field: Basic services
+  value: Proportion of the rural population who live within 2 km of an all-season road
+- series: Access to basic mobility
+  field: Geography
+  value: Canada
 - series: Access to basic waste collection services
   field: Sources of waste for disposal
   value: All sources of waste for disposal
@@ -36,7 +42,7 @@ graph_titles:
   - series: Access to clean fuels and technology
     title: Proportion of population with primary reliance on clean fuels and technology
   - series: Access to basic waste collection services
-    title: Access to basic waste collection services
+    title: proxy.11-6-1-title
   - series: Access to basic mobility
     title: Access to basic mobility
   - series: Access to basic education
