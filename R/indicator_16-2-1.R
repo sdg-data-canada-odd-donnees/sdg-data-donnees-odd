@@ -146,13 +146,13 @@ childhood_disag_dis <-
     `Selected demographic characteristics` %in% disability
   ) %>%
   mutate(
-    `Disability status` = `Selected demographic characteristics`
+    `Disability` = `Selected demographic characteristics`
   ) %>%
   select(
     Year,
     Geography,
     `Type of childhood maltreatment`,
-    `Disability status`,
+    `Disability`,
     Gender,
     Value  
   ) 
@@ -181,8 +181,8 @@ bind_all <-
   relocate(`Immigrant status`, .after = Age) %>%
   relocate(`Visible minority`, .after = `Immigrant status`) %>%
   relocate(`Indigenous identity`, .after = `Visible minority`) %>%
-  relocate(`Disability status`, .after = `Indigenous identity`) %>%
-  relocate(`Sexual orientation`, .after = `Disability status`) %>%
+  relocate(`Disability`, .after = `Indigenous identity`) %>%
+  relocate(`Sexual orientation`, .after = `Disability`) %>%
   filter(
     !is.na(Value)
   ) %>%
