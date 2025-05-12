@@ -10,7 +10,7 @@ data_show_map: false
 data_start_values:
 - field: Sex
   value: Both sexes
-- field: Age Group
+- field: Age group
   value: All age groups
 - field: Tobacco Product
   value: Any tobacco product
@@ -21,7 +21,7 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
 - Sex
-- Age Group
+- Age group
 - Tobacco Product
 graph_annotations: []
 graph_limits: []
