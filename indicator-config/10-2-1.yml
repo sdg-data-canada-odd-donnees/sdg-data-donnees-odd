@@ -18,12 +18,13 @@ embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
-- Geography
-- Persons in low income
+- Sex
+- Age group
+- Disability
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.10-2-1-title
+graph_title: chart.10-2-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.10-2-1-title

@@ -23,12 +23,12 @@ data_final <-
     !is.na(VALUE)
   )  %>%
   mutate(
-    `Age` = `Selected demographic characteristics`
+    `Age group` = `Selected demographic characteristics`
   ) %>%
   select(
     Year = REF_DATE,
     Gender,
-    Age,
+    `Age group`,
     Geography = GEO,
     Value = VALUE
   ) %>%

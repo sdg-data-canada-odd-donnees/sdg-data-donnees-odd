@@ -15,7 +15,12 @@ disaggregation_status_notstarted: Not disaggregated
 disaggregation_status_notapplicable: Out of scope
 disaggregation_status_by_field: Disaggregation by %field
 not_specified: Not specified
-status_description: The reporting status page provides an overview of how many Sustainable Development Goal indicators Canada measures and reports on.
+status_description: >
+  The reporting status tab provides an overview of how many Sustainable Development Goal indicators Canada measures and reports on. For more information, see [What does the
+  reporting status mean?](https://sdggif-data-canada-oddcmi-donnee.github.io/faq//#what-does-the-reporting-status-mean)
+  <br>
+  <br>
+  The disaggregation status tab provides an overview of how many Sustainable Development Goal indicators are disaggregated in accordance with the disaggregation requirements established by the United Nations for each indicator.
 
 substantial_progress: On track
 moderate_progress: Progress made but acceleration needed
