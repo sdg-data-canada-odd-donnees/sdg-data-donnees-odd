@@ -1213,7 +1213,7 @@
             "title": "Genre"
           },
           {
-            "name": "Age",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1222,7 +1222,7 @@
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Geography",
@@ -1299,7 +1299,7 @@
             "title": "Genre"
           },
           {
-            "name": "Age",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1312,7 +1312,7 @@
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Sexual orientation",
@@ -2679,7 +2679,7 @@
             "title": "Genre"
           },
           {
-            "name": "Age",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2691,7 +2691,7 @@
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Immigrant status",
@@ -2964,7 +2964,7 @@
             "title": "Année"
           },
           {
-            "name": "Age",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2973,7 +2973,7 @@
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Value",
@@ -9364,7 +9364,7 @@
             "title": "Année"
           },
           {
-            "name": "Age",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -9393,7 +9393,7 @@
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Sex",

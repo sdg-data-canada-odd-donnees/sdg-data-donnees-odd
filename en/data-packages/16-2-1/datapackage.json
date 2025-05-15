@@ -66,7 +66,7 @@
             "title": "Gender"
           },
           {
-            "name": "Age",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -78,7 +78,7 @@
                 ""
               ]
             },
-            "title": "Age"
+            "title": "Age group"
           },
           {
             "name": "Immigrant status",

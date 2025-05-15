@@ -29,7 +29,7 @@
             "title": "Genre"
           },
           {
-            "name": "Age",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -38,7 +38,7 @@
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Geography",

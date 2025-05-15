@@ -1,0 +1,810 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Disaggregation: Series - SDG data build documentation</title>
+
+            <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.css">
+            <style>
+                .btn-primary {
+                    background-color: #00703c;
+                    padding: 8px 10px 7px;
+                    border: 2px solid transparent;
+                    border-radius: 0;
+                    color: #fff;
+                    box-shadow: 0 2px 0 #002d18;
+                    text-decoration: none;
+                }
+                .btn-primary:visited {
+                    color: #fff;
+                }
+                .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+                    background-color: #005a30;
+                    text-decoration: none;
+                    border: 2px solid transparent;
+                }
+                .btn-primary:focus:not(:active):not(:hover) {
+                    border-color: #fd0;
+                    color: #0b0c0c;
+                    background-color: #fd0;
+                    box-shadow: 0 2px 0 #0b0c0c;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+                a:hover {
+                    color: #003078;
+                }
+                a:visited {
+                    color: #4c2c92;
+                }
+                .download-info {
+                    margin-left: 12px;
+                }
+                .table-striped tbody tr:nth-of-type(2n+1) {
+                    background-color: #f3f2f1;
+                }
+                #skiplink {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    z-index: 10000;
+                    width: 250px;
+                    margin-left: -125px;
+                    padding: 10px;
+                    background: white;
+                    text-align: center;
+                    border: 1px solid #0b0c0c;
+                    color: #0b0c0c;
+                    display: block;
+                }
+                .sr-only-focusable:not(:focus):not(:focus-within) {
+                    position: absolute !important;
+                    width: 1px !important;
+                    height: 1px !important;
+                    padding: 0 !important;
+                    margin: -1px !important;
+                    overflow: hidden !important;
+                    clip: rect(0, 0, 0, 0) !important;
+                    white-space: nowrap !important;
+                    border: 0 !important;
+                }
+            </style>
+        </head>
+        <body>
+            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">SDG data build documentation</a>
+                </div>
+            </nav>
+            <main id="main-content" role="main">
+                <div class="container">
+                    <h1 style="margin:20px 0">Disaggregation: Series</h1>
+                    <div>
+                        
+        <div role="navigation" aria-describedby="contents-heading">
+            <h2 id="contents-heading">On this page</h2>
+            <ul>
+                <li><a href="#values-used">Values used in disaggregation</a></li>
+                <li><a href="#indicators-using">Indicators using disaggregation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="values-used" tabindex="-1">Values used in disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="values--disaggregation--series.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--series">Download CSV of values used in this disaggregation</a>
+            <div id="values--disaggregation--series" class="download-info">Size: 11.4 kB</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">78</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="values-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Value</th>
+      <th>en</th>
+      <th>fr</th>
+      <th>Disaggregation combinations using this value</th>
+      <th>Number of indicators</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="disaggregation-value--5g.html">5G</a></td>
+      <td>5G</td>
+      <td>5G</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--above-ground-biomass-stock-in-forest.html">Above-ground biomass stock in forest</a></td>
+      <td>Above-ground biomass stock in forest</td>
+      <td>Stock de biomasse aérienne en forêt</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--access-to-basic-drinking-water-services.html">Access to basic drinking water services</a></td>
+      <td>Access to basic drinking water services</td>
+      <td>Accès aux services d’eau potable de base</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--access-to-basic-education.html">Access to basic education</a></td>
+      <td>Access to basic education</td>
+      <td>Accès à l'éducation de base</td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--access-to-basic-information-services.html">Access to basic information services</a></td>
+      <td>Access to basic information services</td>
+      <td>Accès aux services d’information de base</td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--access-to-basic-mobility.html">Access to basic mobility</a></td>
+      <td>Access to basic mobility</td>
+      <td>Accès à la mobilité de base</td>
+      <td>70</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--access-to-basic-sanitation-services.html">Access to basic sanitation services</a></td>
+      <td>Access to basic sanitation services</td>
+      <td>Accès aux services d’assainissement de base</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--access-to-basic-waste-collection-services.html">Access to basic waste collection services</a></td>
+      <td>Access to basic waste collection services</td>
+      <td>Accès aux services de base de la collecte des déchets</td>
+      <td>36</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--access-to-clean-fuels-and-technology.html">Access to clean fuels and technology</a></td>
+      <td>Access to clean fuels and technology</td>
+      <td>Accès à des carburants et technologies propres</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--accessions-of-plant-genetic-resources-secured-in-conservation-facilities.html">Accessions of plant genetic resources secured in conservation facilities</a></td>
+      <td>Accessions of plant genetic resources secured in conservation facilities</td>
+      <td>Accessions de ressources phytogénétiques dans les établissements de conservation</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--agriculture-orientation-index-for-government-expenditures.html">Agriculture orientation index for government expenditures</a></td>
+      <td>Agriculture orientation index for government expenditures</td>
+      <td>Indice d’orientation agricole des dépenses publiques</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--agriculture-share-of-government-expenditure.html">Agriculture share of Government Expenditure</a></td>
+      <td>Agriculture share of Government Expenditure</td>
+      <td>Part de l’agriculture dans les dépenses publiques (%)</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--agriculture-value-added-share-of-gdp.html">Agriculture value added share of GDP</a></td>
+      <td>Agriculture value added share of GDP</td>
+      <td>Part de la valeur ajoutée de l’agriculture dans le PIB (%)</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--air-freight-volume.html">Air freight volume</a></td>
+      <td>Air freight volume</td>
+      <td>Volume de fret aérien</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--air-passengers.html">Air passengers</a></td>
+      <td>Air passengers</td>
+      <td>Passagers aériens</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--by-species-group.html">By species group</a></td>
+      <td>By species group</td>
+      <td>Par groupe d'espèces</td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--by-system.html">By system</a></td>
+      <td>By system</td>
+      <td>Par système</td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--children-in-grade-4-achieving-at-least-a-minimum-proficiency-level-in-mathemat.html">Children in Grade 4 achieving at least a minimum proficiency level in mathematics</a></td>
+      <td>Children in Grade 4 achieving at least a minimum proficiency level in mathematics</td>
+      <td>Enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--children-in-grade-4-achieving-at-least-a-minimum-proficiency-level-in-reading.html">Children in Grade 4 achieving at least a minimum proficiency level in reading</a></td>
+      <td>Children in Grade 4 achieving at least a minimum proficiency level in reading</td>
+      <td>Enfants de 4e année atteignant au moins un niveau minimum de compétence en lecture</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--completion-rate.html">Completion rate</a></td>
+      <td>Completion rate</td>
+      <td>Taux d'achèvement</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--current-status-score.html">Current status score</a></td>
+      <td>Current score</td>
+      <td>Score de statut actuel</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--educational-attainment-rate.html">Educational attainment rate</a></td>
+      <td>Educational attainment rate</td>
+      <td>Taux de scolarité</td>
+      <td>39</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--evolved-high-speed-packet-access-hspa.html">Evolved High-Speed Packet Access (HSPA+)</a></td>
+      <td>Evolved High-Speed Packet Access (HSPA+)</td>
+      <td>Accès haute vitesse évolué par paquets (HSPA+)</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--fatality-claims.html">Fatality claims</a></td>
+      <td>Fatality claims</td>
+      <td>Réclamations de décès</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--forest-area-as-a-proportion-of-total-land-area.html">Forest area as a proportion of total land area</a></td>
+      <td>Forest area as a proportion of total land area</td>
+      <td>Superficie forestière en proportion de la superficie terrestre totale</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--forest-area-net-change-rate.html">Forest area net change rate</a></td>
+      <td>Forest area net change rate</td>
+      <td>Taux de variation nette de la superficie forestière</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--forest-area-under-an-independently-verified-forest-management-certification-sc.html">Forest area under an independently verified forest management certification scheme</a></td>
+      <td>Forest area under an independently verified forest management certification scheme</td>
+      <td>Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante\n</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--forest-area.html">Forest area</a></td>
+      <td>Forest area</td>
+      <td>Superficie forestière</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--health-worker-density-by-type-of-occupation-per-10000-population.html">Health worker density, by type of occupation (per 10,000 population)</a></td>
+      <td>Health worker density, by type of occupation (per 10,000 population)</td>
+      <td>Densité du personnel de santé, par type de profession (pour 10 000 habitants)</td>
+      <td>56</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--health-worker-distribution-by-sex-and-type-of-occupation.html">Health worker distribution, by sex and type of occupation</a></td>
+      <td>Health worker distribution, by sex and type of occupation</td>
+      <td>Répartition du personnel de santé, par sexe et par type de profession</td>
+      <td>56</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--household-expenditure-per-capita.html">Household expenditure per capita</a></td>
+      <td>Household expenditure per capita</td>
+      <td>Dépenses des ménages par habitant</td>
+      <td>33</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--income-per-capita.html">Income per capita</a></td>
+      <td>Income per capita</td>
+      <td>Revenu par habitant</td>
+      <td>55</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--land-area.html">Land area</a></td>
+      <td>Land area</td>
+      <td>Superficie terrestre</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--land-consumption-rate.html">Land consumption rate</a></td>
+      <td>Land consumption rate</td>
+      <td>Taux de consommation des terres</td>
+      <td>32</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--leprosy.html">Leprosy</a></td>
+      <td>Leprosy</td>
+      <td>Lèpre</td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--local-breeds-stored-in-genebank.html">Local breeds stored in genebank</a></td>
+      <td>Local breeds stored in genebank</td>
+      <td>Variétés et races locales conservées dans la banque de gènes</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--long-term-evolution-a-lte-a.html">Long-Term Evolution - A (LTE-A)</a></td>
+      <td>Long-Term Evolution - A (LTE-A)</td>
+      <td>Évolution à long terme - A (LTE-A)</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--long-term-evolution-lte.html">Long-Term Evolution (LTE)</a></td>
+      <td>Long-Term Evolution (LTE)</td>
+      <td>Évolution à long terme (LTE)</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--lost-time-claims.html">Lost time claims</a></td>
+      <td>Lost time claims</td>
+      <td>Réclamations de pertes de temps</td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--mva-as-a-proportion-of-gdp.html">MVA as a proportion of GDP</a></td>
+      <td>MVA as a proportion of GDP</td>
+      <td>Valeur ajoutée dans l’industrie manufacturière en proportion du produit intérieur brut</td>
+      <td>14</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--mva-per-capita.html">MVA per capita</a></td>
+      <td>MVA per capita</td>
+      <td>Valeur ajoutée dans l’industrie manufacturière par habitant</td>
+      <td>14</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--number-of-automated-teller-machines-atms-per-100000-adults.html">Number of automated teller machines (ATMs) per 100,000 adults</a></td>
+      <td>Number of automated teller machines (ATMs) per 100,000 adults</td>
+      <td>Nombre de guichets automatiques bancaires (GAB) par 100 000 adultes</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--number-of-commercial-bank-branches-per-100000-adults.html">Number of commercial bank branches per 100,000 adults</a></td>
+      <td>Number of commercial bank branches per 100,000 adults</td>
+      <td>Nombre de succursales de banques commerciales par 100 000 adultes</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--number-of-fixed-internet-broadband-subscriptions.html">Number of fixed Internet broadband subscriptions</a></td>
+      <td>Number of fixed Internet broadband subscriptions</td>
+      <td>Abonnements à une connexion à Internet à haut débit fixe\n</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--overall-approval-rate-line-of-credit.html">Overall approval rate, line of credit</a></td>
+      <td>Overall approval rate, line of credit</td>
+      <td>Taux général d’approbation, marge de crédit</td>
+      <td>30</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--overall-approval-rate-term-loan.html">Overall approval rate, term loan</a></td>
+      <td>Overall approval rate, term loan</td>
+      <td>Taux général d’approbation, prêt à terme</td>
+      <td>29</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--participation-rate-of-youth-and-adults-in-formal-and-non-formal-education-and-.html">Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months</a></td>
+      <td>Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months</td>
+      <td>Taux de participation des jeunes et des adultes à l'éducation et à la formation formelles et non formelles au cours des 12 derniers mois</td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--percent-change-in-water-use-efficiency-over-time.html">Percent change in water-use efficiency over time (%)</a></td>
+      <td>Percent change in water-use efficiency over time (%)</td>
+      <td>Variation en pourcentage de l'efficacité de l'utilisation des ressources en eau au fil du temps (%)</td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--physical-violence.html">Physical violence</a></td>
+      <td>Physical violence</td>
+      <td>Violence physique</td>
+      <td>28</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--population-growth-rate.html">Population growth rate</a></td>
+      <td>Population growth rate</td>
+      <td>Taux de croissance démographique</td>
+      <td>32</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-children-covered-by-social-protection-benefits.html">Proportion of children covered by social protection benefits</a></td>
+      <td>Proportion of children covered by social protection benefits</td>
+      <td>Proportion d'enfants couverts par des prestations de protection sociale</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-forest-area-located-within-legally-established-protected-areas.html">Proportion of forest area located within legally established protected areas</a></td>
+      <td>Proportion of forest area located within legally established protected areas</td>
+      <td>Proportion de la superficie forestière située dans des aires protégées légalement établies</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-forest-area-under-a-long-term-forest-management-plan.html">Proportion of forest area under a long-term forest management plan</a></td>
+      <td>Proportion of forest area under a long-term forest management plan</td>
+      <td>Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-households-that-have-access-to-broadband-internet-service-at-spe.html">Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps</a></td>
+      <td>Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps</td>
+      <td>Proportion des ménages qui ont accès à des services Internet à large bande à des vitesses de 50/10 Mbps\n</td>
+      <td>64</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-individuals-within-a-population-who-reported-experiencing-discri.html">Proportion of individuals within a population who reported experiencing discrimination or unfair treatment</a></td>
+      <td>Proportion of individuals within a population who reported experiencing discrimination or unfair treatment</td>
+      <td>Proportion d'individus au sein d'une population déclarant avoir été victimes de discrimination ou de traitement injuste</td>
+      <td>2828</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-older-persons-receiving-a-pension.html">Proportion of older persons receiving a pension</a></td>
+      <td>Proportion of older persons receiving a pension\n</td>
+      <td>Proportion de personnes plus âgées recevant une pension\n</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-persons-with-disabilities-receiving-benefits.html">Proportion of persons with disabilities receiving benefits</a></td>
+      <td>Proportion of persons with disabilities receiving benefits</td>
+      <td>Proportion de personnes handicapées bénéficiant de prestations</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-poor-population-receiving-social-assistance-cash-benefit.html">Proportion of poor population receiving social assistance cash benefit</a></td>
+      <td>Proportion of poor population receiving social assistance cash benefit</td>
+      <td>Proportion de la population pauvre recevant une prestation de l'aide sociale en espèces</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-population-covered-by-at-least-one-social-protection-cash-benefi.html">Proportion of population covered by at least one social protection cash benefit</a></td>
+      <td>Proportion of population covered by at least one social protection cash benefit</td>
+      <td>Proportion de la population couverte par au moins une prestation de protection sociale en espèces</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-population-reporting-to-have-experienced-discrimination-or-unfai.html">Proportion of population reporting to have experienced discrimination or unfair treatment</a></td>
+      <td>Proportion of population reporting to have experienced discrimination or unfair treatment</td>
+      <td>Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste</td>
+      <td>772</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-students-achieving-at-least-a-minimum-proficiency-level-in-mathe.html">Proportion of students achieving at least a minimum proficiency level in mathematics</a></td>
+      <td>Proportion of students achieving at least a minimum proficiency level in mathematics</td>
+      <td>Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques</td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-students-achieving-at-least-a-minimum-proficiency-level-in-readi.html">Proportion of students achieving at least a minimum proficiency level in reading</a></td>
+      <td>Proportion of students achieving at least a minimum proficiency level in reading</td>
+      <td>Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture</td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-vulnerable-persons-receiving-benefits.html">Proportion of vulnerable persons receiving benefits</a></td>
+      <td>Proportion of vulnerable persons receiving benefits</td>
+      <td>Proportion de personnes vulnérables recevant des allocations</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-of-workers-covered-in-case-of-employment-injury.html">Proportion of workers covered in case of employment injury</a></td>
+      <td>Proportion of workers covered in case of employment injury</td>
+      <td>Proportion de travailleurs couverts en cas d'accident du travail</td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-with-share-above-10.html">Proportion with share above 10%</a></td>
+      <td>Proportion with share above 10%</td>
+      <td>Proportion dont la part est supérieure à 10 %</td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--proportion-with-share-above-25.html">Proportion with share above 25%</a></td>
+      <td>Proportion with share above 25%</td>
+      <td>Proportion dont la part est supérieure à 25 %</td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--rabies.html">Rabies</a></td>
+      <td>Rabies</td>
+      <td>Rage</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--rail-freight-volume.html">Rail freight volume</a></td>
+      <td>Rail freight volume</td>
+      <td>Volume de fret ferroviaire</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--rail-passengers.html">Rail passengers</a></td>
+      <td>Rail passengers</td>
+      <td>Passagers ferroviaires</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ratio-of-land-consumption-rate-to-population-growth-rate.html">Ratio of land consumption rate to population growth rate</a></td>
+      <td>Ratio of land consumption rate to population growth rate</td>
+      <td>Rapport entre le taux de consommation des terres et le taux de croissance démographique</td>
+      <td>32</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--request-rate-line-of-credit.html">Request rate, line of credit</a></td>
+      <td>Request rate, line of credit</td>
+      <td>Taux de demande, marge de crédit</td>
+      <td>32</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--request-rate-term-loan.html">Request rate, term loan</a></td>
+      <td>Request rate, term loan</td>
+      <td>Taux de demande, prêt à terme</td>
+      <td>32</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--road-freight-volume.html">Road freight volume</a></td>
+      <td>Road freight volume</td>
+      <td>Volume de fret routier</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sexual-violence.html">Sexual violence</a></td>
+      <td>Sexual violence</td>
+      <td>Violence sexuelle</td>
+      <td>24</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--trend-score.html">Trend score</a></td>
+      <td>Trend score</td>
+      <td>Score de tendance</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--water-use-efficiency-usd-per-cubic-metre.html">Water-use efficiency (USD per cubic metre)</a></td>
+      <td>Water-use efficiency (USD per cubic metre)</td>
+      <td>Efficacité de l'utilisation des ressources en eau (USD par mètre cube)</td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--young-people-aged-15-years-achieving-at-least-a-minimum-proficiency-level-in-m.html">Young people aged 15 years achieving at least a minimum proficiency level in mathematics</a></td>
+      <td>Young people aged 15 years achieving at least a minimum proficiency level in mathematics</td>
+      <td>Jeunes âgés de 15 ans atteignant au moins un niveau minimum de compétence en mathématiques</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--young-people-aged-15-years-achieving-at-least-a-minimum-proficiency-level-in-r.html">Young people aged 15 years achieving at least a minimum proficiency level in reading</a></td>
+      <td>Young people aged 15 years achieving at least a minimum proficiency level in reading</td>
+      <td>Jeunes âgés de 15 ans atteignant au moins un niveau minimum de compétence en lecture</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--5g.html\">5G<\/a>","en":"5G","fr":"5G","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--above-ground-biomass-stock-in-forest.html\">Above-ground biomass stock in forest<\/a>","en":"Above-ground biomass stock in forest","fr":"Stock de biomasse a\u00e9rienne en for\u00eat","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--access-to-basic-drinking-water-services.html\">Access to basic drinking water services<\/a>","en":"Access to basic drinking water services","fr":"Acc\u00e8s aux services d\u2019eau potable de base","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--access-to-basic-education.html\">Access to basic education<\/a>","en":"Access to basic education","fr":"Acc\u00e8s \u00e0 l'\u00e9ducation de base","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--access-to-basic-information-services.html\">Access to basic information services<\/a>","en":"Access to basic information services","fr":"Acc\u00e8s aux services d\u2019information de base","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--access-to-basic-mobility.html\">Access to basic mobility<\/a>","en":"Access to basic mobility","fr":"Acc\u00e8s \u00e0 la mobilit\u00e9 de base","Disaggregation combinations using this value":70,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--access-to-basic-sanitation-services.html\">Access to basic sanitation services<\/a>","en":"Access to basic sanitation services","fr":"Acc\u00e8s aux services d\u2019assainissement de base","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--access-to-basic-waste-collection-services.html\">Access to basic waste collection services<\/a>","en":"Access to basic waste collection services","fr":"Acc\u00e8s aux services de base de la collecte des d\u00e9chets","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--access-to-clean-fuels-and-technology.html\">Access to clean fuels and technology<\/a>","en":"Access to clean fuels and technology","fr":"Acc\u00e8s \u00e0 des carburants et technologies propres","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--accessions-of-plant-genetic-resources-secured-in-conservation-facilities.html\">Accessions of plant genetic resources secured in conservation facilities<\/a>","en":"Accessions of plant genetic resources secured in conservation facilities","fr":"Accessions de ressources phytog\u00e9n\u00e9tiques dans les \u00e9tablissements de conservation","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--agriculture-orientation-index-for-government-expenditures.html\">Agriculture orientation index for government expenditures<\/a>","en":"Agriculture orientation index for government expenditures","fr":"Indice d\u2019orientation agricole des d\u00e9penses publiques","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--agriculture-share-of-government-expenditure.html\">Agriculture share of Government Expenditure<\/a>","en":"Agriculture share of Government Expenditure","fr":"Part de l\u2019agriculture dans les d\u00e9penses publiques (%)","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--agriculture-value-added-share-of-gdp.html\">Agriculture value added share of GDP<\/a>","en":"Agriculture value added share of GDP","fr":"Part de la valeur ajout\u00e9e de l\u2019agriculture dans le PIB (%)","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--air-freight-volume.html\">Air freight volume<\/a>","en":"Air freight volume","fr":"Volume de fret a\u00e9rien","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--air-passengers.html\">Air passengers<\/a>","en":"Air passengers","fr":"Passagers a\u00e9riens","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--by-species-group.html\">By species group<\/a>","en":"By species group","fr":"Par groupe d'esp\u00e8ces","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--by-system.html\">By system<\/a>","en":"By system","fr":"Par syst\u00e8me","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--children-in-grade-4-achieving-at-least-a-minimum-proficiency-level-in-mathemat.html\">Children in Grade 4 achieving at least a minimum proficiency level in mathematics<\/a>","en":"Children in Grade 4 achieving at least a minimum proficiency level in mathematics","fr":"Enfants de 4e ann\u00e9e atteignant au moins un niveau minimum de comp\u00e9tence en math\u00e9matiques","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--children-in-grade-4-achieving-at-least-a-minimum-proficiency-level-in-reading.html\">Children in Grade 4 achieving at least a minimum proficiency level in reading<\/a>","en":"Children in Grade 4 achieving at least a minimum proficiency level in reading","fr":"Enfants de 4e ann\u00e9e atteignant au moins un niveau minimum de comp\u00e9tence en lecture","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--completion-rate.html\">Completion rate<\/a>","en":"Completion rate","fr":"Taux d'ach\u00e8vement","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--current-status-score.html\">Current status score<\/a>","en":"Current score","fr":"Score de statut actuel","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--educational-attainment-rate.html\">Educational attainment rate<\/a>","en":"Educational attainment rate","fr":"Taux de scolarit\u00e9","Disaggregation combinations using this value":39,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--evolved-high-speed-packet-access-hspa.html\">Evolved High-Speed Packet Access (HSPA+)<\/a>","en":"Evolved High-Speed Packet Access (HSPA+)","fr":"Acc\u00e8s haute vitesse \u00e9volu\u00e9 par paquets (HSPA+)","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--fatality-claims.html\">Fatality claims<\/a>","en":"Fatality claims","fr":"R\u00e9clamations de d\u00e9c\u00e8s","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--forest-area-as-a-proportion-of-total-land-area.html\">Forest area as a proportion of total land area<\/a>","en":"Forest area as a proportion of total land area","fr":"Superficie foresti\u00e8re en proportion de la superficie terrestre totale","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--forest-area-net-change-rate.html\">Forest area net change rate<\/a>","en":"Forest area net change rate","fr":"Taux de variation nette de la superficie foresti\u00e8re","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--forest-area-under-an-independently-verified-forest-management-certification-sc.html\">Forest area under an independently verified forest management certification scheme<\/a>","en":"Forest area under an independently verified forest management certification scheme","fr":"Superficie foresti\u00e8re faisant l\u2019objet d\u2019un syst\u00e8me de certification de la gestion foresti\u00e8re v\u00e9rifi\u00e9 de mani\u00e8re ind\u00e9pendante\n","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--forest-area.html\">Forest area<\/a>","en":"Forest area","fr":"Superficie foresti\u00e8re","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--health-worker-density-by-type-of-occupation-per-10000-population.html\">Health worker density, by type of occupation (per 10,000 population)<\/a>","en":"Health worker density, by type of occupation (per 10,000 population)","fr":"Densit\u00e9 du personnel de sant\u00e9, par type de profession (pour 10 000 habitants)","Disaggregation combinations using this value":56,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--health-worker-distribution-by-sex-and-type-of-occupation.html\">Health worker distribution, by sex and type of occupation<\/a>","en":"Health worker distribution, by sex and type of occupation","fr":"R\u00e9partition du personnel de sant\u00e9, par sexe et par type de profession","Disaggregation combinations using this value":56,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--household-expenditure-per-capita.html\">Household expenditure per capita<\/a>","en":"Household expenditure per capita","fr":"D\u00e9penses des m\u00e9nages par habitant","Disaggregation combinations using this value":33,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--income-per-capita.html\">Income per capita<\/a>","en":"Income per capita","fr":"Revenu par habitant","Disaggregation combinations using this value":55,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--land-area.html\">Land area<\/a>","en":"Land area","fr":"Superficie terrestre","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--land-consumption-rate.html\">Land consumption rate<\/a>","en":"Land consumption rate","fr":"Taux de consommation des terres","Disaggregation combinations using this value":32,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--leprosy.html\">Leprosy<\/a>","en":"Leprosy","fr":"L\u00e8pre","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--local-breeds-stored-in-genebank.html\">Local breeds stored in genebank<\/a>","en":"Local breeds stored in genebank","fr":"Vari\u00e9t\u00e9s et races locales conserv\u00e9es dans la banque de g\u00e8nes","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--long-term-evolution-a-lte-a.html\">Long-Term Evolution - A (LTE-A)<\/a>","en":"Long-Term Evolution - A (LTE-A)","fr":"\u00c9volution \u00e0 long terme - A (LTE-A)","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--long-term-evolution-lte.html\">Long-Term Evolution (LTE)<\/a>","en":"Long-Term Evolution (LTE)","fr":"\u00c9volution \u00e0 long terme (LTE)","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--lost-time-claims.html\">Lost time claims<\/a>","en":"Lost time claims","fr":"R\u00e9clamations de pertes de temps","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--mva-as-a-proportion-of-gdp.html\">MVA as a proportion of GDP<\/a>","en":"MVA as a proportion of GDP","fr":"Valeur ajout\u00e9e dans l\u2019industrie manufacturi\u00e8re en proportion du produit int\u00e9rieur brut","Disaggregation combinations using this value":14,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--mva-per-capita.html\">MVA per capita<\/a>","en":"MVA per capita","fr":"Valeur ajout\u00e9e dans l\u2019industrie manufacturi\u00e8re par habitant","Disaggregation combinations using this value":14,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--number-of-automated-teller-machines-atms-per-100000-adults.html\">Number of automated teller machines (ATMs) per 100,000 adults<\/a>","en":"Number of automated teller machines (ATMs) per 100,000 adults","fr":"Nombre de guichets automatiques bancaires (GAB) par 100 000 adultes","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--number-of-commercial-bank-branches-per-100000-adults.html\">Number of commercial bank branches per 100,000 adults<\/a>","en":"Number of commercial bank branches per 100,000 adults","fr":"Nombre de succursales de banques commerciales par 100 000 adultes","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--number-of-fixed-internet-broadband-subscriptions.html\">Number of fixed Internet broadband subscriptions<\/a>","en":"Number of fixed Internet broadband subscriptions","fr":"Abonnements a\u0300 une connexion a\u0300 Internet a\u0300 haut de\u0301bit fixe\n","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--overall-approval-rate-line-of-credit.html\">Overall approval rate, line of credit<\/a>","en":"Overall approval rate, line of credit","fr":"Taux g\u00e9n\u00e9ral d\u2019approbation, marge de cr\u00e9dit","Disaggregation combinations using this value":30,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--overall-approval-rate-term-loan.html\">Overall approval rate, term loan<\/a>","en":"Overall approval rate, term loan","fr":"Taux g\u00e9n\u00e9ral d\u2019approbation, pr\u00eat \u00e0 terme","Disaggregation combinations using this value":29,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--participation-rate-of-youth-and-adults-in-formal-and-non-formal-education-and-.html\">Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months<\/a>","en":"Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months","fr":"Taux de participation des jeunes et des adultes \u00e0 l'\u00e9ducation et \u00e0 la formation formelles et non formelles au cours des 12 derniers mois","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--percent-change-in-water-use-efficiency-over-time.html\">Percent change in water-use efficiency over time (%)<\/a>","en":"Percent change in water-use efficiency over time (%)","fr":"Variation en pourcentage de l'efficacit\u00e9 de l'utilisation des ressources en eau au fil du temps (%)","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--physical-violence.html\">Physical violence<\/a>","en":"Physical violence","fr":"Violence physique","Disaggregation combinations using this value":28,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--population-growth-rate.html\">Population growth rate<\/a>","en":"Population growth rate","fr":"Taux de croissance d\u00e9mographique","Disaggregation combinations using this value":32,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-children-covered-by-social-protection-benefits.html\">Proportion of children covered by social protection benefits<\/a>","en":"Proportion of children covered by social protection benefits","fr":"Proportion d'enfants couverts par des prestations de protection sociale","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-forest-area-located-within-legally-established-protected-areas.html\">Proportion of forest area located within legally established protected areas<\/a>","en":"Proportion of forest area located within legally established protected areas","fr":"Proportion de la superficie foresti\u00e8re situ\u00e9e dans des aires prot\u00e9g\u00e9es l\u00e9galement \u00e9tablies","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-forest-area-under-a-long-term-forest-management-plan.html\">Proportion of forest area under a long-term forest management plan<\/a>","en":"Proportion of forest area under a long-term forest management plan","fr":"Proportion de la superficie foresti\u00e8re faisant l\u2019objet d\u2019un plan de gestion foresti\u00e8re \u00e0 long terme","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-households-that-have-access-to-broadband-internet-service-at-spe.html\">Proportion of households that have access to broadband Internet service at speeds of 50\/10 Mbps<\/a>","en":"Proportion of households that have access to broadband Internet service at speeds of 50\/10 Mbps","fr":"Proportion des m\u00e9nages qui ont acc\u00e8s \u00e0 des services Internet \u00e0 large bande \u00e0 des vitesses de 50\/10 Mbps\n","Disaggregation combinations using this value":64,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-individuals-within-a-population-who-reported-experiencing-discri.html\">Proportion of individuals within a population who reported experiencing discrimination or unfair treatment<\/a>","en":"Proportion of individuals within a population who reported experiencing discrimination or unfair treatment","fr":"Proportion d'individus au sein d'une population d\u00e9clarant avoir \u00e9t\u00e9 victimes de discrimination ou de traitement injuste","Disaggregation combinations using this value":2828,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--proportion-of-older-persons-receiving-a-pension.html\">Proportion of older persons receiving a pension<\/a>","en":"Proportion of older persons receiving a pension\n","fr":"Proportion de personnes plus \u00e2g\u00e9es recevant une pension\n","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-persons-with-disabilities-receiving-benefits.html\">Proportion of persons with disabilities receiving benefits<\/a>","en":"Proportion of persons with disabilities receiving benefits","fr":"Proportion de personnes handicap\u00e9es b\u00e9n\u00e9ficiant de prestations","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-poor-population-receiving-social-assistance-cash-benefit.html\">Proportion of poor population receiving social assistance cash benefit<\/a>","en":"Proportion of poor population receiving social assistance cash benefit","fr":"Proportion de la population pauvre recevant une prestation de l'aide sociale en esp\u00e8ces","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-population-covered-by-at-least-one-social-protection-cash-benefi.html\">Proportion of population covered by at least one social protection cash benefit<\/a>","en":"Proportion of population covered by at least one social protection cash benefit","fr":"Proportion de la population couverte par au moins une prestation de protection sociale en esp\u00e8ces","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-population-reporting-to-have-experienced-discrimination-or-unfai.html\">Proportion of population reporting to have experienced discrimination or unfair treatment<\/a>","en":"Proportion of population reporting to have experienced discrimination or unfair treatment","fr":"Proportion de la population d\u00e9clarant avoir \u00e9t\u00e9 victime de discrimination ou de traitement injuste","Disaggregation combinations using this value":772,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--proportion-of-students-achieving-at-least-a-minimum-proficiency-level-in-mathe.html\">Proportion of students achieving at least a minimum proficiency level in mathematics<\/a>","en":"Proportion of students achieving at least a minimum proficiency level in mathematics","fr":"Proportion d'\u00e9l\u00e8ves atteignant au moins un niveau minimum de comp\u00e9tence en math\u00e9matiques","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-students-achieving-at-least-a-minimum-proficiency-level-in-readi.html\">Proportion of students achieving at least a minimum proficiency level in reading<\/a>","en":"Proportion of students achieving at least a minimum proficiency level in reading","fr":"Proportion d'\u00e9l\u00e8ves atteignant au moins un niveau minimum de comp\u00e9tence en lecture","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-vulnerable-persons-receiving-benefits.html\">Proportion of vulnerable persons receiving benefits<\/a>","en":"Proportion of vulnerable persons receiving benefits","fr":"Proportion de personnes vuln\u00e9rables recevant des allocations","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-of-workers-covered-in-case-of-employment-injury.html\">Proportion of workers covered in case of employment injury<\/a>","en":"Proportion of workers covered in case of employment injury","fr":"Proportion de travailleurs couverts en cas d'accident du travail","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-with-share-above-10.html\">Proportion with share above 10%<\/a>","en":"Proportion with share above 10%","fr":"Proportion dont la part est sup\u00e9rieure \u00e0 10 %","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--proportion-with-share-above-25.html\">Proportion with share above 25%<\/a>","en":"Proportion with share above 25%","fr":"Proportion dont la part est sup\u00e9rieure \u00e0 25 %","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--rabies.html\">Rabies<\/a>","en":"Rabies","fr":"Rage","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--rail-freight-volume.html\">Rail freight volume<\/a>","en":"Rail freight volume","fr":"Volume de fret ferroviaire","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--rail-passengers.html\">Rail passengers<\/a>","en":"Rail passengers","fr":"Passagers ferroviaires","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ratio-of-land-consumption-rate-to-population-growth-rate.html\">Ratio of land consumption rate to population growth rate<\/a>","en":"Ratio of land consumption rate to population growth rate","fr":"Rapport entre le taux de consommation des terres et le taux de croissance d\u00e9mographique","Disaggregation combinations using this value":32,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--request-rate-line-of-credit.html\">Request rate, line of credit<\/a>","en":"Request rate, line of credit","fr":"Taux de demande, marge de cr\u00e9dit","Disaggregation combinations using this value":32,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--request-rate-term-loan.html\">Request rate, term loan<\/a>","en":"Request rate, term loan","fr":"Taux de demande, pr\u00eat \u00e0 terme","Disaggregation combinations using this value":32,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--road-freight-volume.html\">Road freight volume<\/a>","en":"Road freight volume","fr":"Volume de fret routier","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sexual-violence.html\">Sexual violence<\/a>","en":"Sexual violence","fr":"Violence sexuelle","Disaggregation combinations using this value":24,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--trend-score.html\">Trend score<\/a>","en":"Trend score","fr":"Score de tendance","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--water-use-efficiency-usd-per-cubic-metre.html\">Water-use efficiency (USD per cubic metre)<\/a>","en":"Water-use efficiency (USD per cubic metre)","fr":"Efficacit\u00e9 de l'utilisation des ressources en eau (USD par m\u00e8tre cube)","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--young-people-aged-15-years-achieving-at-least-a-minimum-proficiency-level-in-m.html\">Young people aged 15 years achieving at least a minimum proficiency level in mathematics<\/a>","en":"Young people aged 15 years achieving at least a minimum proficiency level in mathematics","fr":"Jeunes \u00e2g\u00e9s de 15 ans atteignant au moins un niveau minimum de comp\u00e9tence en math\u00e9matiques","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--young-people-aged-15-years-achieving-at-least-a-minimum-proficiency-level-in-r.html\">Young people aged 15 years achieving at least a minimum proficiency level in reading<\/a>","en":"Young people aged 15 years achieving at least a minimum proficiency level in reading","fr":"Jeunes \u00e2g\u00e9s de 15 ans atteignant au moins un niveau minimum de comp\u00e9tence en lecture","Disaggregation combinations using this value":3,"Number of indicators":1}];
+            </script>
+            
+        </div>
+        <div>
+            <h2 id="indicators-using" tabindex="-1">Indicators using disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="indicators--disaggregation--series.csv" role="button" class="btn btn-primary" aria-describedby="indicators--disaggregation--series">Download CSV of indicators using this disaggregation</a>
+            <div id="indicators--disaggregation--series" class="download-info">Size: 210 Bytes</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">27</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="indicators-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Indicator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#1-3-1</td>
+    </tr>
+    <tr>
+      <td>#1-4-1</td>
+    </tr>
+    <tr>
+      <td>#10-1-1</td>
+    </tr>
+    <tr>
+      <td>#10-3-1</td>
+    </tr>
+    <tr>
+      <td>#11-3-1</td>
+    </tr>
+    <tr>
+      <td>#15-1-1</td>
+    </tr>
+    <tr>
+      <td>#15-2-1</td>
+    </tr>
+    <tr>
+      <td>#15-5-1</td>
+    </tr>
+    <tr>
+      <td>#16-1-3</td>
+    </tr>
+    <tr>
+      <td>#16-3-1</td>
+    </tr>
+    <tr>
+      <td>#16-b-1</td>
+    </tr>
+    <tr>
+      <td>#17-6-1</td>
+    </tr>
+    <tr>
+      <td>#2-4-1</td>
+    </tr>
+    <tr>
+      <td>#2-5-1</td>
+    </tr>
+    <tr>
+      <td>#2-a-1</td>
+    </tr>
+    <tr>
+      <td>#3-3-5</td>
+    </tr>
+    <tr>
+      <td>#3-8-2</td>
+    </tr>
+    <tr>
+      <td>#3-c-1</td>
+    </tr>
+    <tr>
+      <td>#4-1-1</td>
+    </tr>
+    <tr>
+      <td>#4-5-1</td>
+    </tr>
+    <tr>
+      <td>#6-4-1</td>
+    </tr>
+    <tr>
+      <td>#8-10-1</td>
+    </tr>
+    <tr>
+      <td>#8-8-1</td>
+    </tr>
+    <tr>
+      <td>#9-1-2</td>
+    </tr>
+    <tr>
+      <td>#9-2-1</td>
+    </tr>
+    <tr>
+      <td>#9-3-2</td>
+    </tr>
+    <tr>
+      <td>#9-c-1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['indicators-table'] = [{"Indicator":"#1-3-1"},{"Indicator":"#1-4-1"},{"Indicator":"#10-1-1"},{"Indicator":"#10-3-1"},{"Indicator":"#11-3-1"},{"Indicator":"#15-1-1"},{"Indicator":"#15-2-1"},{"Indicator":"#15-5-1"},{"Indicator":"#16-1-3"},{"Indicator":"#16-3-1"},{"Indicator":"#16-b-1"},{"Indicator":"#17-6-1"},{"Indicator":"#2-4-1"},{"Indicator":"#2-5-1"},{"Indicator":"#2-a-1"},{"Indicator":"#3-3-5"},{"Indicator":"#3-8-2"},{"Indicator":"#3-c-1"},{"Indicator":"#4-1-1"},{"Indicator":"#4-5-1"},{"Indicator":"#6-4-1"},{"Indicator":"#8-10-1"},{"Indicator":"#8-8-1"},{"Indicator":"#9-1-2"},{"Indicator":"#9-2-1"},{"Indicator":"#9-3-2"},{"Indicator":"#9-c-1"}];
+            </script>
+            
+        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script>
+            if (typeof sdgBuild !== 'undefined' && sdgBuild.tables) {
+                var tableIds = Object.keys(sdgBuild.tables);
+                for (var i = 0; i < tableIds.length; i++) {
+                    var tableId = tableIds[i];
+                    $('#' + tableId).openSdgTable(sdgBuild.tables[tableId]).find('td').each(function() {
+                        if (!isNaN($(this).text())) {
+                            $(this).css('text-align', 'right');
+                        }
+                    })
+                }
+            }
+            </script>
+        </html>
+        

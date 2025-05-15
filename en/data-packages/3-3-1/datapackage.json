@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "Age",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -25,7 +25,7 @@
                 ""
               ]
             },
-            "title": "Age"
+            "title": "Age group"
           },
           {
             "name": "Value",
