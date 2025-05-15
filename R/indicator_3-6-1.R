@@ -21,7 +21,7 @@ transport_deaths <-
     ) %>%
     select(
       Year = REF_DATE,
-      Age = `Age at time of death`,
+      `Age group` = `Age at time of death`,
       Sex,
       Value = VALUE
     )
@@ -29,16 +29,16 @@ transport_deaths <-
 total_line <-
   transport_deaths %>%
   filter(
-    Age == "All ages",
+    `Age group` == "All ages",
     Sex == "Both sexes"
   ) %>%
-  mutate_at(c("Sex", "Age"), ~ "")  
+  mutate_at(c("Sex", "Age group"), ~ "")  
 
 data_final <- 
   bind_rows(
     total_line, 
     transport_deaths %>%
-      filter(!(Age == "All ages" & Sex == "Both sexes"))
+      filter(!(`Age group` == "All ages" & Sex == "Both sexes"))
     )  
 
 write.csv(
