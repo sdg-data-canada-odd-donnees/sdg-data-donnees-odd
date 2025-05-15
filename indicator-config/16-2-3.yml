@@ -10,9 +10,9 @@ data_show_map: true
 data_start_values:
   - field: Gender
     value: Total, gender
-  - field: Age
+  - field: Age group
     value: 15 to 24 years
-  - field: Age
+  - field: Age group
     value: 25 to 34 years
   - field: Geography
     value: Canada
@@ -23,7 +23,7 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
 - Geography
-- Age
+- Age group
 - Gender
 graph_annotations: []
 graph_limits: []
