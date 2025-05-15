@@ -15,7 +15,12 @@ disaggregation_status_notstarted: 'Non désagrégé'
 disaggregation_status_notapplicable: 'Hors champ'
 disaggregation_status_by_field: 'Désagrégation par % de champ'
 not_specified: Non spécifié
-status_description: La page de l’état des rapports donne un aperçu du nombre d’indicateurs liés aux Objectifs de développement durable que le Canada mesure et en fait le rapport.
+status_description: >
+  L’onglet de l’état des rapports donne un aperçu du nombre d’indicateurs liés aux Objectifs de développement durable que le Canada mesure et en fait le rapport. Pour plus
+  d’informations, voir [Que signifie l’état des rapports ?](https://sdggif-data-canada-oddcmi-donnee.github.io/fr/faq//#que-signifie-létat-des-rapports-)
+  <br>
+  <br>
+  L’onglet de l’état de la désagrégation donne un aperçu du nombre d’indicateurs liés aux Objectifs de développement durable qui sont désagrégés conformément aux exigences de désagrégation établies par les Nations Unies pour chaque indicateur.
 
 substantial_progress: Sur la bonne voie
 moderate_progress: Des progrès ont été réalisés, mais une accélération est nécessaire
