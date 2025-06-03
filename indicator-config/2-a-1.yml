@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: true
 computation_units: ""
 copyright: ""
 data_footnote: ""
@@ -31,8 +31,10 @@ national_geographical_coverage: Canada
 page_content: ""
 permalink: ""
 precision: []
-progress_calculation_options: []
-progress_status: ""
+progress_calculation_options:
+- direction: positive
+  target_year: 2020
+  series: Agriculture orientation index for government expenditures [2.a.1]
 reporting_status: complete
 sort: ""
 standalone: false

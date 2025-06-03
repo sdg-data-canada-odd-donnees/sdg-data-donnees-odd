@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: true
 computation_units: ""
 copyright: ""
 data_footnote: ""
@@ -28,8 +28,8 @@ national_geographical_coverage: Canada
 page_content: ""
 permalink: ""
 precision: []
-progress_calculation_options: []
-progress_status: ""
+progress_calculation_options:
+- direction: negative
 reporting_status: complete
 sort: ""
 standalone: false
