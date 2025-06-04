@@ -1,4 +1,4 @@
-auto_progress_calculation: true
+auto_progress_calculation: false # setup progress column with ratio before turning on
 composite_breakdown_label: ''
 computation_units: Percentage (%)
 copyright: ''
@@ -38,7 +38,17 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
-progress_status: deterioration
+progress_calculation_options:
+- direction: negative
+  target: 1
+  disaggregation:
+  - field: Geography
+    value: Canada
+  - field: Age group
+    value: Total, 15 years and over
+  # Ratio of time spent by women+ / men+ is calculated in the 'Total, all persons' row of the progress column
+  - field: Gender
+    value: Total, all persons
 reporting_status: complete
 sort: ''
 standalone: false

@@ -35,6 +35,12 @@ precision: []
 progress_calculation_options:
 - direction: negative
   target: 0
+  target_year: 2030
+  disaggregation:
+  - field: Type of intimate partner violence
+    value: Total intimate partner violence
+  - field: Selected characteristics
+    value: Total, all women
 reporting_status: complete
 sort: ''
 standalone: false
