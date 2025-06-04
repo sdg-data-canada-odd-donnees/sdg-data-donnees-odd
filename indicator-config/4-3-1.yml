@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: true
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
@@ -39,7 +39,39 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
-progress_status: moderate_progress
+progress_calculation_options:
+- direction: positive
+  disaggregation:
+  - field: Type of institution attended
+    value: Total participation rate
+  - field: Geography
+    value: Canada
+  - field: Age group
+    value: 15 to 19 years
+- direction: positive
+  disaggregation:
+  - field: Type of institution attended
+    value: Total participation rate
+  - field: Geography
+    value: Canada
+  - field: Age group
+    value: 20 to 24 years
+- direction: positive
+  disaggregation:
+  - field: Type of institution attended
+    value: Total participation rate
+  - field: Geography
+    value: Canada
+  - field: Age group
+    value: 25 to 29 years
+- direction: positive
+  disaggregation:
+  - field: Type of institution attended
+    value: Total participation rate
+  - field: Geography
+    value: Canada
+  - field: Age group
+    value: 30 to 34 years
 reporting_status: complete
 sort: ''
 standalone: false

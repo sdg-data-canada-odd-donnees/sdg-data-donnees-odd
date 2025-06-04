@@ -49,6 +49,33 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
+  target: 100
+  target_year: 2030
+  series: Children in Grade 4 achieving at least a minimum proficiency level in reading
+  disaggregation:
+  - field: Sex
+    value: Total
+- direction: positive
+  target: 100
+  target_year: 2030
+  series: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
+  disaggregation:
+  - field: Sex
+    value: Total
+- direction: positive
+  target: 100
+  target_year: 2030
+  series: Young people aged 15 years achieving at least a minimum proficiency level in reading
+  disaggregation:
+  - field: Sex
+    value: Total
+- direction: positive
+  target: 100
+  target_year: 2030
+  series: Young people aged 15 years achieving at least a minimum proficiency level in mathematics
+  disaggregation:
+  - field: Sex
+    value: Total
 reporting_status: complete
 sort: ''
 standalone: false
