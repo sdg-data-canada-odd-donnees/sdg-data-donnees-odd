@@ -1,4 +1,4 @@
-auto_progress_calculation: true
+auto_progress_calculation: false # not relevant for developped countries
 computation_units: Number per 100,000 adults
 copyright: ''
 data_footnote: ''
@@ -29,6 +29,7 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
+progress_status: not_available_manual
 reporting_status: complete
 sort: ''
 standalone: false

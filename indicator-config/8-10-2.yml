@@ -29,7 +29,8 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-progress_status: negligible_progress
+  target: 100
+  target_year: 2030
 proxy: proxy
 reporting_status: complete
 sort: ''
