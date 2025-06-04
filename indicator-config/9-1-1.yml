@@ -1,4 +1,5 @@
-﻿composite_breakdown_label: ''
+﻿auto_progress_calculation: true
+composite_breakdown_label: ''
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
@@ -26,6 +27,10 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
+progress_calculation_options:
+- direction: positive
+  target: 100
+  target_year: 2030
 reporting_status: complete
 sort: ''
 standalone: false
