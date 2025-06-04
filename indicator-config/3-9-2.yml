@@ -36,6 +36,21 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
+  disaggregation:
+  - field: Type of disease
+    value: Acute respiratory infections
+- direction: negative
+  disaggregation:
+  - field: Type of disease
+    value: Diarrhea
+- direction: negative
+  disaggregation:
+  - field: Type of disease
+    value: Intestinal nematode infections
+- direction: negative
+  disaggregation:
+  - field: Type of disease
+    value: Protein-energy malnutrition
 reporting_status: complete
 sort: ''
 standalone: false
