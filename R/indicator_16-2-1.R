@@ -78,13 +78,13 @@ childhood_disag_age <-
     `Selected demographic characteristics` %in% age
   ) %>%
   mutate(
-    `Age` = `Selected demographic characteristics`
+    `Age group` = `Selected demographic characteristics`
   ) %>%
   select(
     Year,
     Geography,
     `Type of childhood maltreatment`,
-    `Age`,
+    `Age group`,
     Gender,
     Value  
   ) 
@@ -146,13 +146,13 @@ childhood_disag_dis <-
     `Selected demographic characteristics` %in% disability
   ) %>%
   mutate(
-    `Disability status` = `Selected demographic characteristics`
+    `Disability` = `Selected demographic characteristics`
   ) %>%
   select(
     Year,
     Geography,
     `Type of childhood maltreatment`,
-    `Disability status`,
+    `Disability`,
     Gender,
     Value  
   ) 
@@ -177,12 +177,12 @@ childhood_disag_sexual_or <-
 bind_all <- 
   bind_rows(childhood_disag_age,childhood_disag_immig,childhood_disag_vismin,childhood_disag_ind,childhood_disag_dis,childhood_disag_sexual_or) %>%
   relocate(Geography, .after = `Type of childhood maltreatment`) %>%
-  relocate(Age, .after = Gender) %>%
-  relocate(`Immigrant status`, .after = Age) %>%
+  relocate(`Age group`, .after = Gender) %>%
+  relocate(`Immigrant status`, .after = `Age group`) %>%
   relocate(`Visible minority`, .after = `Immigrant status`) %>%
   relocate(`Indigenous identity`, .after = `Visible minority`) %>%
-  relocate(`Disability status`, .after = `Indigenous identity`) %>%
-  relocate(`Sexual orientation`, .after = `Disability status`) %>%
+  relocate(`Disability`, .after = `Indigenous identity`) %>%
+  relocate(`Sexual orientation`, .after = `Disability`) %>%
   filter(
     !is.na(Value)
   ) %>%
@@ -196,7 +196,7 @@ data_final <-
       filter(
         Geography == "Canada"&
         `Type of childhood maltreatment` == "Physical or sexual abuse"&
-        Age == "Total, age" &
+        `Age group` == "Total, age" &
         Gender == "Total, gender"
       ) %>% 
       mutate_at(2:6, ~ ""),
@@ -207,7 +207,7 @@ data_final <-
         !(
           Geography == "Canada"&
           `Type of childhood maltreatment` == "Physical or sexual abuse"&
-          Age == "Total, age" &
+          `Age group` == "Total, age" &
           Gender == "Total, gender"
         )
       )

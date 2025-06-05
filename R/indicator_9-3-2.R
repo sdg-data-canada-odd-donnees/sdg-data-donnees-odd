@@ -86,7 +86,10 @@ data_final <-
   ) %>%
   select(-c("id", "All small and medium enterprises")) %>%
   relocate(Value, .after = last_col()) %>%
-  filter(!is.na(Value))
+  filter(!is.na(Value)) %>%
+  rename_at(
+    'Industries', ~ 'Industry'
+  )
 
 write.csv(
   data_final,

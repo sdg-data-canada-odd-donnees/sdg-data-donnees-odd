@@ -101,6 +101,11 @@ map_layers:
 # ----------------------
 # This controls the automatic documentation that is created for your build.
 #
+docs_extra_disaggregations:
+  - Series
+  - Units
+docs_translate_disaggregations: true
+ignore_out_of_scope_disaggregation_stats: true
 # This is the logo at the top of the automated documentation pages.
 docs_branding: SDG data build documentation
 # This displays at the top of the automated documentation homepage.
