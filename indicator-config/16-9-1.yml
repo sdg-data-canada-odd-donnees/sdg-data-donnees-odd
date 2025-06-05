@@ -1,4 +1,4 @@
-auto_progress_calculation: true
+auto_progress_calculation: false
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
@@ -28,7 +28,9 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-progress_status: negligible_progress
+  target: 100
+  target_year: 2030
+progress_status: target_achieved
 reporting_status: complete
 sort: ''
 standalone: false
