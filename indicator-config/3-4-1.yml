@@ -1,4 +1,4 @@
-auto_progress_calculation: false # manual calculation
+auto_progress_calculation: true
 computation_units: Age-specific mortality rate per 100,000 population
 copyright: ''
 data_footnote: ''
@@ -41,7 +41,104 @@ precision: []
 progress_calculation_options:
 - direction: negative
   target_year: 2030
-progress_status: negligible_progress
+  target: 143.33
+  disaggregation:
+  - field: Causes of death
+    value: Malignant neoplasms
+  - field: Age at time of death
+    value: All ages
+  - field: Sex
+    value: Both sexes
+- direction: negative
+  target_year: 2030
+  target: 13.33
+  disaggregation:
+  - field: Causes of death
+    value: Diabetes mellitus
+  - field: Age at time of death
+    value: All ages
+  - field: Sex
+    value: Both sexes
+- direction: negative
+  target_year: 2030
+  target: 95.87
+  disaggregation:
+  - field: Causes of death
+    value: Diseases of heart
+  - field: Age at time of death
+    value: All ages
+  - field: Sex
+    value: Both sexes
+- direction: negative
+  target_year: 2030
+  target: 2.80
+  disaggregation:
+  - field: Causes of death
+    value: Essential hypertension and hypertensive renal disease
+  - field: Age at time of death
+    value: All ages
+  - field: Sex
+    value: Both sexes
+- direction: negative
+  target_year: 2030
+  target: 25.67
+  disaggregation:
+  - field: Causes of death
+    value: Cerebrovascular diseases
+  - field: Age at time of death
+    value: All ages
+  - field: Sex
+    value: Both sexes
+- direction: negative
+  target_year: 2030
+  target: 1.07
+  disaggregation:
+  - field: Causes of death
+    value: Atherosclerosis
+  - field: Age at time of death
+    value: All ages
+  - field: Sex
+    value: Both sexes
+- direction: negative
+  target_year: 2030
+  target: 2.73
+  disaggregation:
+  - field: Causes of death
+    value: Aortic aneurysm and dissection
+  - field: Age at time of death
+    value: All ages
+  - field: Sex
+    value: Both sexes
+- direction: negative
+  target_year: 2030
+  target: 23.40
+  disaggregation:
+  - field: Causes of death
+    value: Chronic lower respiratory diseases
+  - field: Age at time of death
+    value: All ages
+  - field: Sex
+    value: Both sexes
+- direction: negative
+  target_year: 2030
+  target: 0.20
+  disaggregation:
+  - field: Causes of death
+    value: Pneumoconioses and chemical effects
+  - field: Age at time of death
+    value: All ages
+  - field: Sex
+    value: Both sexes
+- direction: negative
+  target_year: 2030
+  target: 2.33
+  disaggregation:
+  - field: Causes of death
+    value: Pneumonitis due to solids and liquids
+  - field: Age at time of death
+    value: All ages
+  - field: Sex
+    value: Both sexes
 reporting_status: complete
 sort: ''
 standalone: false

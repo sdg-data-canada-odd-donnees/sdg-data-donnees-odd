@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: true
 computation_units: Percentage of GNI (%)
 copyright: ''
 data_footnote: ''
@@ -30,7 +30,8 @@ page_content: ''
 permalink: ''
 precision:
 - decimals: 4
-progress_calculation_options: []
+progress_calculation_options:
+- direction: positive
 reporting_status: complete
 sort: ''
 standalone: false

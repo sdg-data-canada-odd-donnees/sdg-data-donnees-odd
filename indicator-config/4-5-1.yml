@@ -1,4 +1,4 @@
-auto_progress_calculation: true
+auto_progress_calculation: false # turn off until targets and directions are finalized
 computation_units: ''
 copyright: ''
 data_footnote: ''
@@ -60,6 +60,11 @@ progress_calculation_options:
 - direction: positive
   target: 1
   target_year: 2030
+  series: Completion rate
+  unit: Adjusted gender parity index
+  disaggregation:
+  - field: Education level
+    value: Primary education
 reporting_status: complete
 sort: ''
 standalone: false

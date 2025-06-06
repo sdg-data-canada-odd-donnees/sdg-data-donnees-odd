@@ -26,6 +26,10 @@ national_geographical_coverage: Canada
 page_content: ""
 permalink: ""
 precision: []
+progress_calculation_options:
+- direction: negative
+  target: 0
+  target_year: 2030
 reporting_status: notstarted
 sort: ""
 standalone: false

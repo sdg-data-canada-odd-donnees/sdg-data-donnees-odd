@@ -32,6 +32,11 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
+  target: 0
+  series: Proportion with share above 10%
+- direction: negative
+  target: 0
+  series: Proportion with share above 25%
 progress_status: substantial_deterioration
 reporting_status: complete
 sort: ''
