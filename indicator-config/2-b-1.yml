@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: true
 computation_units: CAD (Thousands)
 copyright: ''
 data_footnote: ''
@@ -39,6 +39,7 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
+  target_year: 2030
   target: 0
 reporting_status: complete
 sort: ''
