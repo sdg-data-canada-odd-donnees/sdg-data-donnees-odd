@@ -21,6 +21,8 @@ data_start_values:
     value: Total
   - field: Age group
     value: Total
+  - field: Age group
+    value: 16 to 24 years
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -42,9 +44,35 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
+# Ensure all youth achieve literacy and numeracy
 - direction: positive
   target: 100
-  target_year: 2030
+  disaggregation:
+  - field: Proficiency level
+    value: 2 or below
+  - field: Skill
+    value: Literacy
+  - field: Geography
+    value: Canada
+  - field: Gender
+    value: Total
+  - field: Age group
+    value: 16 to 24 years
+- direction: positive
+  target: 100
+  disaggregation:
+  - field: Proficiency level
+    value: 2 or below
+  - field: Skill
+    value: Numeracy
+  - field: Geography
+    value: Canada
+  - field: Gender
+    value: Total
+  - field: Age group
+    value: 16 to 24 years
+# Ensure a substantial proportion of adults achieve literacy and numeracy
+- direction: positive
   disaggregation:
   - field: Proficiency level
     value: 2 or below
@@ -57,8 +85,6 @@ progress_calculation_options:
   - field: Age group
     value: Total
 - direction: positive
-  target: 100
-  target_year: 2030
   disaggregation:
   - field: Proficiency level
     value: 2 or below
