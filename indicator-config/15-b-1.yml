@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: true
 computation_units: US dollar, Millions, 2022 constant prices
 copyright: ''
 data_footnote: ''
@@ -29,8 +29,8 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
-progress_calculation_options: []
-progress_status: not_available
+progress_calculation_options:
+- direction: positive
 reporting_status: complete
 sort: ''
 standalone: false

@@ -39,6 +39,13 @@ progress_calculation_options:
 - direction: negative
   target: 0
   target_year: 2030
+  disaggregation:
+  - field: Marital status
+    value: Married or living common law
+  - field: Age group
+    value: 15 to 19 years
+  - field: Geography
+    value: Canada
 reporting_status: complete
 sort: ''
 standalone: false

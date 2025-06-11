@@ -37,6 +37,17 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
+progress_calculation_options:
+- direction: positive
+  series: Air freight volume
+- direction: positive
+  series: Air passengers
+- direction: positive
+  series: Rail freight volume
+- direction: positive
+  series: Rail passengers
+- direction: positive
+  series: Road freight volume
 reporting_status: complete
 sort: ''
 standalone: false

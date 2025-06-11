@@ -41,7 +41,29 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-  target_year: 2030
+  disaggregation:
+  - field: Indicator
+    value: Ratio of regulatory capital to risk-weighted assets
+- direction: positive
+  disaggregation:
+  - field: Indicator
+    value: Ratio of non-performing loans net of provisions to capital
+- direction: positive
+  disaggregation:
+  - field: Indicator
+    value: Ratio of non-performing loans to total gross loans
+- direction: positive
+  disaggregation:
+  - field: Indicator
+    value: Earnings and profitability, return on assets
+- direction: positive
+  disaggregation:
+  - field: Indicator
+    value: Ratio of liquid assets to short-term liabilities
+- direction: positive
+  disaggregation:
+  - field: Indicator
+    value: Ratio of regulatory capital to assets
 reporting_status: complete
 sort: ''
 standalone: false
