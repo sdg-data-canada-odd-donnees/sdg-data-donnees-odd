@@ -11,15 +11,12 @@ geocodes <- read.csv("geocodes.csv")
 
 national_gdp <- real_gdp %>%
   filter(
-    substr(REF_DATE, 1, 4) >= 2014,
+    REF_DATE >= 2014,
     Estimates == "Gross domestic product at market prices",
     Prices == "Chained (2017) dollars"
   ) %>%
-  mutate(
-    Year = substr(REF_DATE, 1, 4)
-  ) %>%
   select(
-    Year,
+    Year = REF_DATE,
     Geography = GEO,
     GDP = VALUE
   ) %>%
@@ -49,7 +46,7 @@ all_gdp <- national_gdp %>%
   mutate(
     Geography = recode(Geography, Canada = ""),
     Progress = round(gdp_per_cap, 2),
-    Value = round(((gdp_per_cap - lag(gdp_per_cap)) / lag(gdp_per_cap)) * 100, 2),
+    Value = round(((gdp_per_cap - lag(gdp_per_cap)) / lag(gdp_per_cap)) * 100, 2)
   ) %>%
   filter(Year > 2014) %>%
   select(-c(3:5)) %>%
