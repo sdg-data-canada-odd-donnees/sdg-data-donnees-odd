@@ -11,12 +11,14 @@ data_show_map: true
 data_start_values:
 - field: Activity group
   value: Total, unpaid work activities
-- field: Gender
-  value: Total, all persons
 - field: Age group
   value: Total, 15 years and over
 - field: Geography
   value: Canada
+- field: Gender
+  value: Women+
+- field: Gender
+  value: Men+
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''

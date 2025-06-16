@@ -1,8 +1,10 @@
 # Indicator 5.4.1 ---------------------------------------------------------
 # Proportion of time spent on unpaid domestic and care work, by sex, age and location
 
+# load libraries
 library(cansim)
 library(dplyr)
+library(stringr)
 library(tidyr)
 
 # load CODR table from stc api
