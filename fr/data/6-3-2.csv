@@ -97,16 +97,6 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2017-2019,Bonne,Non aménagés,Canada,8
 2017-2019,Excellente,Total,Canada,6
 2017-2019,Bonne,Total,Canada,35
-2017-2019,Excellente,Total,Océan Atlantique,4
-2017-2019,Excellente,Total,Grands Lacs et fleuve Saint-Laurent,0
-2017-2019,Excellente,Total,Baie d'Hudson,14
-2017-2019,Excellente,Total,Fleuve Mackenzie,10
-2017-2019,Excellente,Total,Océan Pacifique,8
-2017-2019,Bonne,Total,Océan Atlantique,51
-2017-2019,Bonne,Total,Grands Lacs et fleuve Saint-Laurent,28
-2017-2019,Bonne,Total,Baie d'Hudson,36
-2017-2019,Bonne,Total,Fleuve Mackenzie,30
-2017-2019,Bonne,Total,Océan Pacifique,29
 2017-2019,Excellente,Agriculture,Océan Atlantique,0
 2017-2019,Bonne,Agriculture,Océan Atlantique,9
 2017-2019,Excellente,Foresterie,Océan Atlantique,4
@@ -119,6 +109,8 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2017-2019,Bonne,Pressions mixtes,Océan Atlantique,7
 2017-2019,Excellente,Non aménagés,Océan Atlantique,0
 2017-2019,Bonne,Non aménagés,Océan Atlantique,20
+2017-2019,Excellente,Total,Océan Atlantique,4
+2017-2019,Bonne,Total,Océan Atlantique,51
 2017-2019,Excellente,Agriculture,Grands Lacs et fleuve Saint-Laurent,0
 2017-2019,Bonne,Agriculture,Grands Lacs et fleuve Saint-Laurent,7
 2017-2019,Excellente,Foresterie,Grands Lacs et fleuve Saint-Laurent,0
@@ -131,6 +123,8 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2017-2019,Bonne,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,9
 2017-2019,Excellente,Non aménagés,Grands Lacs et fleuve Saint-Laurent,0
 2017-2019,Bonne,Non aménagés,Grands Lacs et fleuve Saint-Laurent,7
+2017-2019,Excellente,Total,Grands Lacs et fleuve Saint-Laurent,0
+2017-2019,Bonne,Total,Grands Lacs et fleuve Saint-Laurent,28
 2017-2019,Excellente,Agriculture,Baie d'Hudson,0
 2017-2019,Bonne,Agriculture,Baie d'Hudson,18
 2017-2019,Excellente,Foresterie,Baie d'Hudson,0
@@ -143,6 +137,8 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2017-2019,Bonne,Pressions mixtes,Baie d'Hudson,18
 2017-2019,Excellente,Non aménagés,Baie d'Hudson,5
 2017-2019,Bonne,Non aménagés,Baie d'Hudson,0
+2017-2019,Excellente,Total,Baie d'Hudson,14
+2017-2019,Bonne,Total,Baie d'Hudson,36
 2017-2019,Excellente,Agriculture,Fleuve Mackenzie,0
 2017-2019,Bonne,Agriculture,Fleuve Mackenzie,0
 2017-2019,Excellente,Foresterie,Fleuve Mackenzie,0
@@ -155,6 +151,8 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2017-2019,Bonne,Pressions mixtes,Fleuve Mackenzie,5
 2017-2019,Excellente,Non aménagés,Fleuve Mackenzie,5
 2017-2019,Bonne,Non aménagés,Fleuve Mackenzie,15
+2017-2019,Excellente,Total,Fleuve Mackenzie,10
+2017-2019,Bonne,Total,Fleuve Mackenzie,30
 2017-2019,Excellente,Agriculture,Océan Pacifique,0
 2017-2019,Bonne,Agriculture,Océan Pacifique,0
 2017-2019,Excellente,Foresterie,Océan Pacifique,0
@@ -163,94 +161,12 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2017-2019,Bonne,Exploitation minière,Océan Pacifique,8
 2017-2019,Excellente,Peuplé,Océan Pacifique,0
 2017-2019,Bonne,Peuplé,Océan Pacifique,0
-2017-2019,Excellente,Mixed Pressures,Océan Pacifique,0
-2017-2019,Bonne,Mixed Pressures,Océan Pacifique,8
+2017-2019,Excellente,Pressions mixtes,Océan Pacifique,0
+2017-2019,Bonne,Pressions mixtes,Océan Pacifique,8
 2017-2019,Excellente,Non aménagés,Océan Pacifique,8
 2017-2019,Bonne,Non aménagés,Océan Pacifique,4
-2016-2018,Total,Agriculture,Océan Atlantique,9
-2016-2018,Total,Foresterie,Océan Atlantique,29
-2016-2018,Total,Exploitation minière,Océan Atlantique,4
-2016-2018,Total,Pressions mixtes,Océan Atlantique,13
-2016-2018,Total,Peuplé,Océan Atlantique,0
-2016-2018,Total,Total,Océan Atlantique,86
-2016-2018,Total,Non aménagés,Océan Atlantique,31
-2016-2018,Total,Agriculture,Canada,15
-2016-2018,Total,Foresterie,Canada,9
-2016-2018,Total,Exploitation minière,Canada,4
-2016-2018,Total,Pressions mixtes,Canada,38
-2016-2018,Total,Peuplé,Canada,1
-2016-2018,,,,80
-2016-2018,Total,Non aménagés,Canada,13
-2016-2018,Total,Agriculture,Grands Lacs et fleuve Saint-Laurent,12
-2016-2018,Total,Foresterie,Grands Lacs et fleuve Saint-Laurent,2
-2016-2018,Total,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,8
-2016-2018,Total,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,41
-2016-2018,Total,Peuplé,Grands Lacs et fleuve Saint-Laurent,2
-2016-2018,Total,Total,Grands Lacs et fleuve Saint-Laurent,74
-2016-2018,Total,Non aménagés,Grands Lacs et fleuve Saint-Laurent,9
-2016-2018,Total,Agriculture,Baie d'Hudson,33
-2016-2018,Total,Foresterie,Baie d'Hudson,0
-2016-2018,Total,Exploitation minière,Baie d'Hudson,0
-2016-2018,Total,Pressions mixtes,Baie d'Hudson,45
-2016-2018,Total,Peuplé,Baie d'Hudson,0
-2016-2018,Total,Total,Baie d'Hudson,82
-2016-2018,Total,Non aménagés,Baie d'Hudson,4
-2016-2018,Total,Agriculture,Fleuve Mackenzie,0
-2016-2018,Total,Foresterie,Fleuve Mackenzie,0
-2016-2018,Total,Exploitation minière,Fleuve Mackenzie,20
-2016-2018,Total,Pressions mixtes,Fleuve Mackenzie,40
-2016-2018,Total,Peuplé,Fleuve Mackenzie,0
-2016-2018,Total,Total,Fleuve Mackenzie,100
-2016-2018,Total,Non aménagés,Fleuve Mackenzie,40
-2016-2018,Total,Agriculture,Océan Pacifique,0
-2016-2018,Total,Foresterie,Océan Pacifique,8
-2016-2018,Total,Exploitation minière,Océan Pacifique,12
-2016-2018,Total,Pressions mixtes,Océan Pacifique,44
-2016-2018,Total,Peuplé,Océan Pacifique,0
-2016-2018,Total,Total,Océan Pacifique,76
-2016-2018,Total,Non aménagés,Océan Pacifique,12
-2017-2019,Total,Agriculture,Océan Atlantique,9
-2017-2019,Total,Foresterie,Océan Atlantique,30
-2017-2019,Total,Exploitation minière,Océan Atlantique,4
-2017-2019,Total,Pressions mixtes,Océan Atlantique,14
-2017-2019,Total,Peuplé,Océan Atlantique,0
-2017-2019,Total,Total,Océan Atlantique,88
-2017-2019,Total,Non aménagés,Océan Atlantique,31
-2017-2019,Total,Agriculture,Canada,17
-2017-2019,Total,Foresterie,Canada,9
-2017-2019,Total,Exploitation minière,Canada,4
-2017-2019,Total,Pressions mixtes,Canada,37
-2017-2019,Total,Peuplé,Canada,1
-2017-2019,,,,83
-2017-2019,Total,Non aménagés,Canada,13
-2017-2019,Total,Agriculture,Grands Lacs et fleuve Saint-Laurent,12
-2017-2019,Total,Foresterie,Grands Lacs et fleuve Saint-Laurent,2
-2017-2019,Total,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,6
-2017-2019,Total,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,42
-2017-2019,Total,Peuplé,Grands Lacs et fleuve Saint-Laurent,2
-2017-2019,Total,Total,Grands Lacs et fleuve Saint-Laurent,73
-2017-2019,Total,Non aménagés,Grands Lacs et fleuve Saint-Laurent,9
-2017-2019,Total,Agriculture,Baie d'Hudson,41
-2017-2019,Total,Foresterie,Baie d'Hudson,0
-2017-2019,Total,Exploitation minière,Baie d'Hudson,0
-2017-2019,Total,Pressions mixtes,Baie d'Hudson,47
-2017-2019,Total,Peuplé,Baie d'Hudson,0
-2017-2019,Total,Total,Baie d'Hudson,93
-2017-2019,Total,Non aménagés,Baie d'Hudson,5
-2017-2019,Total,Agriculture,Fleuve Mackenzie,0
-2017-2019,Total,Foresterie,Fleuve Mackenzie,0
-2017-2019,Total,Exploitation minière,Fleuve Mackenzie,20
-2017-2019,Total,Pressions mixtes,Fleuve Mackenzie,40
-2017-2019,Total,Peuplé,Fleuve Mackenzie,0
-2017-2019,Total,Total,Fleuve Mackenzie,90
-2017-2019,Total,Non aménagés,Fleuve Mackenzie,30
-2017-2019,Total,Agriculture,Océan Pacifique,0
-2017-2019,Total,Foresterie,Océan Pacifique,8
-2017-2019,Total,Exploitation minière,Océan Pacifique,8
-2017-2019,Total,Mixed Pressures,Océan Pacifique,41
-2017-2019,Total,Peuplé,Océan Pacifique,0
-2017-2019,Total,Total,Océan Pacifique,70
-2017-2019,Total,Non aménagés,Océan Pacifique,12
+2017-2019,Excellente,Total,Océan Pacifique,8
+2017-2019,Bonne,Total,Océan Pacifique,29
 2018-2020,Excellente,Agriculture,Canada,1
 2018-2020,Bonne,Agriculture,Canada,8
 2018-2020,Excellente,Foresterie,Canada,2
@@ -265,28 +181,16 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2018-2020,Bonne,Non aménagés,Canada,9
 2018-2020,Excellente,Total,Canada,10
 2018-2020,Bonne,Total,Canada,35
-2018-2020,Total,Agriculture,Canada,16
-2018-2020,Total,Foresterie,Canada,9
-2018-2020,Total,Exploitation minière,Canada,4
-2018-2020,Total,Pressions mixtes,Canada,38
-2018-2020,Total,Peuplé,Canada,1
-2018-2020,,,,83
-2018-2020,Total,Non aménagés,Canada,14
 2018-2020,Excellente,Total,Océan Atlantique,9
-2018-2020,Excellente,Total,Grands Lacs et fleuve Saint-Laurent,5
-2018-2020,Excellente,Total,Baie d'Hudson,16
-2018-2020,Excellente,Total,Fleuve Mackenzie,18
-2018-2020,Excellente,Total,Océan Pacifique,14
 2018-2020,Bonne,Total,Océan Atlantique,53
+2018-2020,Excellente,Total,Grands Lacs et fleuve Saint-Laurent,5
 2018-2020,Bonne,Total,Grands Lacs et fleuve Saint-Laurent,26
+2018-2020,Excellente,Total,Baie d'Hudson,16
 2018-2020,Bonne,Total,Baie d'Hudson,36
+2018-2020,Excellente,Total,Fleuve Mackenzie,18
 2018-2020,Bonne,Total,Fleuve Mackenzie,41
+2018-2020,Excellente,Total,Océan Pacifique,14
 2018-2020,Bonne,Total,Océan Pacifique,29
-2018-2020,Total,Total,Océan Atlantique,89
-2018-2020,Total,Total,Grands Lacs et fleuve Saint-Laurent,71
-2018-2020,Total,Total,Baie d'Hudson,93
-2018-2020,Total,Total,Fleuve Mackenzie,100
-2018-2020,Total,Total,Océan Pacifique,86
 2018-2020,Excellente,Agriculture,Océan Atlantique,0
 2018-2020,Bonne,Agriculture,Océan Atlantique,9
 2018-2020,Excellente,Foresterie,Océan Atlantique,7
@@ -299,8 +203,6 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2018-2020,Bonne,Pressions mixtes,Océan Atlantique,7
 2018-2020,Excellente,Non aménagés,Océan Atlantique,2
 2018-2020,Bonne,Non aménagés,Océan Atlantique,24
-2018-2020,Excellente,Total,Océan Atlantique,9
-2018-2020,Bonne,Total,Océan Atlantique,53
 2018-2020,Excellente,Agriculture,Grands Lacs et fleuve Saint-Laurent,3
 2018-2020,Bonne,Agriculture,Grands Lacs et fleuve Saint-Laurent,3
 2018-2020,Excellente,Foresterie,Grands Lacs et fleuve Saint-Laurent,0
@@ -313,8 +215,6 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2018-2020,Bonne,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,12
 2018-2020,Excellente,Non aménagés,Grands Lacs et fleuve Saint-Laurent,2
 2018-2020,Bonne,Non aménagés,Grands Lacs et fleuve Saint-Laurent,5
-2018-2020,Excellente,Total,Grands Lacs et fleuve Saint-Laurent,5
-2018-2020,Bonne,Total,Grands Lacs et fleuve Saint-Laurent,26
 2018-2020,Excellente,Agriculture,Baie d'Hudson,0
 2018-2020,Bonne,Agriculture,Baie d'Hudson,18
 2018-2020,Excellente,Foresterie,Baie d'Hudson,0
@@ -327,8 +227,6 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2018-2020,Bonne,Pressions mixtes,Baie d'Hudson,18
 2018-2020,Excellente,Non aménagés,Baie d'Hudson,5
 2018-2020,Bonne,Non aménagés,Baie d'Hudson,0
-2018-2020,Excellente,Total,Baie d'Hudson,16
-2018-2020,Bonne,Total,Baie d'Hudson,36
 2018-2020,Excellente,Agriculture,Fleuve Mackenzie,0
 2018-2020,Bonne,Agriculture,Fleuve Mackenzie,0
 2018-2020,Excellente,Foresterie,Fleuve Mackenzie,0
@@ -341,8 +239,6 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2018-2020,Bonne,Pressions mixtes,Fleuve Mackenzie,12
 2018-2020,Excellente,Non aménagés,Fleuve Mackenzie,6
 2018-2020,Bonne,Non aménagés,Fleuve Mackenzie,24
-2018-2020,Excellente,Total,Fleuve Mackenzie,18
-2018-2020,Bonne,Total,Fleuve Mackenzie,41
 2018-2020,Excellente,Agriculture,Océan Pacifique,0
 2018-2020,Bonne,Agriculture,Océan Pacifique,0
 2018-2020,Excellente,Foresterie,Océan Pacifique,5
@@ -351,39 +247,385 @@ Year,Qualité de l'eau,Catégorie d'utilisation des sols,Géographie,Value
 2018-2020,Bonne,Exploitation minière,Océan Pacifique,0
 2018-2020,Excellente,Peuplé,Océan Pacifique,0
 2018-2020,Bonne,Peuplé,Océan Pacifique,0
-2018-2020,Excellente,Mixed Pressures,Océan Pacifique,0
-2018-2020,Bonne,Mixed Pressures,Océan Pacifique,19
+2018-2020,Excellente,Pressions mixtes,Océan Pacifique,0
+2018-2020,Bonne,Pressions mixtes,Océan Pacifique,19
 2018-2020,Excellente,Non aménagés,Océan Pacifique,10
 2018-2020,Bonne,Non aménagés,Océan Pacifique,5
-2018-2020,Excellente,Total,Océan Pacifique,14
-2018-2020,Bonne,Total,Océan Pacifique,29
+2020-2022,Excellente,Agriculture,Canada,0
+2020-2022,Bonne,Agriculture,Canada,10
+2020-2022,Excellente,Foresterie,Canada,1
+2020-2022,Bonne,Foresterie,Canada,6
+2020-2022,Excellente,Exploitation minière,Canada,1
+2020-2022,Bonne,Exploitation minière,Canada,2
+2020-2022,Excellente,Peuplé,Canada,0
+2020-2022,Bonne,Peuplé,Canada,0
+2020-2022,Excellente,Pressions mixtes,Canada,4
+2020-2022,Bonne,Pressions mixtes,Canada,16
+2020-2022,Excellente,Non aménagés,Canada,1
+2020-2022,Bonne,Non aménagés,Canada,13
+2020-2022,Excellente,Total,Canada,7
+2020-2022,Bonne,Total,Canada,47
+2020-2022,Excellente,Total,Océan Atlantique,4
+2020-2022,Bonne,Total,Océan Atlantique,65
+2020-2022,Excellente,Total,Grands Lacs et fleuve Saint-Laurent,2
+2020-2022,Bonne,Total,Grands Lacs et fleuve Saint-Laurent,33
+2020-2022,Excellente,Total,Baie d'Hudson,18
+2020-2022,Bonne,Total,Baie d'Hudson,41
+2020-2022,Excellente,Total,Fleuve Mackenzie,17
+2020-2022,Bonne,Total,Fleuve Mackenzie,39
+2020-2022,Excellente,Total,Océan Pacifique,5
+2020-2022,Bonne,Total,Océan Pacifique,55
+2020-2022,Excellente,Agriculture,Océan Atlantique,0
+2020-2022,Bonne,Agriculture,Océan Atlantique,7
+2020-2022,Excellente,Foresterie,Océan Atlantique,4
+2020-2022,Bonne,Foresterie,Océan Atlantique,15
+2020-2022,Excellente,Exploitation minière,Océan Atlantique,0
+2020-2022,Bonne,Exploitation minière,Océan Atlantique,1
+2020-2022,Excellente,Peuplé,Océan Atlantique,0
+2020-2022,Bonne,Peuplé,Océan Atlantique,0
+2020-2022,Excellente,Pressions mixtes,Océan Atlantique,0
+2020-2022,Bonne,Pressions mixtes,Océan Atlantique,9
+2020-2022,Excellente,Non aménagés,Océan Atlantique,0
+2020-2022,Bonne,Non aménagés,Océan Atlantique,33
+2020-2022,Excellente,Agriculture,Grands Lacs et fleuve Saint-Laurent,0
+2020-2022,Bonne,Agriculture,Grands Lacs et fleuve Saint-Laurent,2
+2020-2022,Excellente,Foresterie,Grands Lacs et fleuve Saint-Laurent,0
+2020-2022,Bonne,Foresterie,Grands Lacs et fleuve Saint-Laurent,2
+2020-2022,Excellente,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,2
+2020-2022,Bonne,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,2
+2020-2022,Excellente,Peuplé,Grands Lacs et fleuve Saint-Laurent,0
+2020-2022,Bonne,Peuplé,Grands Lacs et fleuve Saint-Laurent,0
+2020-2022,Excellente,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,0
+2020-2022,Bonne,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,20
+2020-2022,Excellente,Non aménagés,Grands Lacs et fleuve Saint-Laurent,0
+2020-2022,Bonne,Non aménagés,Grands Lacs et fleuve Saint-Laurent,6
+2020-2022,Excellente,Agriculture,Baie d'Hudson,0
+2020-2022,Bonne,Agriculture,Baie d'Hudson,23
+2020-2022,Excellente,Foresterie,Baie d'Hudson,0
+2020-2022,Bonne,Foresterie,Baie d'Hudson,0
+2020-2022,Excellente,Exploitation minière,Baie d'Hudson,0
+2020-2022,Bonne,Exploitation minière,Baie d'Hudson,0
+2020-2022,Excellente,Peuplé,Baie d'Hudson,0
+2020-2022,Bonne,Peuplé,Baie d'Hudson,0
+2020-2022,Excellente,Pressions mixtes,Baie d'Hudson,16
+2020-2022,Bonne,Pressions mixtes,Baie d'Hudson,16
+2020-2022,Excellente,Non aménagés,Baie d'Hudson,2
+2020-2022,Bonne,Non aménagés,Baie d'Hudson,2
+2020-2022,Excellente,Agriculture,Fleuve Mackenzie,0
+2020-2022,Bonne,Agriculture,Fleuve Mackenzie,0
+2020-2022,Excellente,Foresterie,Fleuve Mackenzie,0
+2020-2022,Bonne,Foresterie,Fleuve Mackenzie,0
+2020-2022,Excellente,Exploitation minière,Fleuve Mackenzie,6
+2020-2022,Bonne,Exploitation minière,Fleuve Mackenzie,6
+2020-2022,Excellente,Peuplé,Fleuve Mackenzie,0
+2020-2022,Bonne,Peuplé,Fleuve Mackenzie,0
+2020-2022,Excellente,Pressions mixtes,Fleuve Mackenzie,6
+2020-2022,Bonne,Pressions mixtes,Fleuve Mackenzie,11
+2020-2022,Excellente,Non aménagés,Fleuve Mackenzie,6
+2020-2022,Bonne,Non aménagés,Fleuve Mackenzie,22
+2020-2022,Excellente,Agriculture,Océan Pacifique,0
+2020-2022,Bonne,Agriculture,Océan Pacifique,0
+2020-2022,Excellente,Foresterie,Océan Pacifique,0
+2020-2022,Bonne,Foresterie,Océan Pacifique,10
+2020-2022,Excellente,Exploitation minière,Océan Pacifique,0
+2020-2022,Bonne,Exploitation minière,Océan Pacifique,5
+2020-2022,Excellente,Peuplé,Océan Pacifique,0
+2020-2022,Bonne,Peuplé,Océan Pacifique,0
+2020-2022,Excellente,Pressions mixtes,Océan Pacifique,0
+2020-2022,Bonne,Pressions mixtes,Océan Pacifique,35
+2020-2022,Excellente,Non aménagés,Océan Pacifique,5
+2020-2022,Bonne,Non aménagés,Océan Pacifique,5
+2021-2023,Excellente,Agriculture,Canada,0
+2021-2023,Excellente,Foresterie,Canada,1
+2021-2023,Excellente,Exploitation minière,Canada,0
+2021-2023,Excellente,Peuplé,Canada,0
+2021-2023,Excellente,Pressions mixtes,Canada,5
+2021-2023,Excellente,Non aménagés,Canada,1
+2021-2023,Excellente,Total,Canada,7
+2021-2023,Bonne,Agriculture,Canada,8
+2021-2023,Bonne,Foresterie,Canada,4
+2021-2023,Bonne,Exploitation minière,Canada,2
+2021-2023,Bonne,Peuplé,Canada,0
+2021-2023,Bonne,Pressions mixtes,Canada,16
+2021-2023,Bonne,Non aménagés,Canada,12
+2021-2023,Bonne,Total,Canada,42
+2021-2023,Excellente,Agriculture,Océan Atlantique,0
+2021-2023,Excellente,Foresterie,Océan Atlantique,4
+2021-2023,Excellente,Exploitation minière,Océan Atlantique,0
+2021-2023,Excellente,Peuplé,Océan Atlantique,0
+2021-2023,Excellente,Pressions mixtes,Océan Atlantique,0
+2021-2023,Excellente,Non aménagés,Océan Atlantique,0
+2021-2023,Excellente,Total,Océan Atlantique,4
+2021-2023,Bonne,Agriculture,Océan Atlantique,7
+2021-2023,Bonne,Foresterie,Océan Atlantique,11
+2021-2023,Bonne,Exploitation minière,Océan Atlantique,2
+2021-2023,Bonne,Peuplé,Océan Atlantique,0
+2021-2023,Bonne,Pressions mixtes,Océan Atlantique,7
+2021-2023,Bonne,Non aménagés,Océan Atlantique,28
+2021-2023,Bonne,Total,Océan Atlantique,55
+2021-2023,Excellente,Agriculture,Grands Lacs et fleuve Saint-Laurent,0
+2021-2023,Excellente,Foresterie,Grands Lacs et fleuve Saint-Laurent,0
+2021-2023,Excellente,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,0
+2021-2023,Excellente,Peuplé,Grands Lacs et fleuve Saint-Laurent,0
+2021-2023,Excellente,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,0
+2021-2023,Excellente,Non aménagés,Grands Lacs et fleuve Saint-Laurent,0
+2021-2023,Excellente,Total,Grands Lacs et fleuve Saint-Laurent,0
+2021-2023,Bonne,Agriculture,Grands Lacs et fleuve Saint-Laurent,6
+2021-2023,Bonne,Foresterie,Grands Lacs et fleuve Saint-Laurent,0
+2021-2023,Bonne,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,4
+2021-2023,Bonne,Peuplé,Grands Lacs et fleuve Saint-Laurent,0
+2021-2023,Bonne,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,22
+2021-2023,Bonne,Non aménagés,Grands Lacs et fleuve Saint-Laurent,6
+2021-2023,Bonne,Total,Grands Lacs et fleuve Saint-Laurent,37
+2021-2023,Excellente,Agriculture,Baie d'Hudson,0
+2021-2023,Excellente,Foresterie,Baie d'Hudson,0
+2021-2023,Excellente,Exploitation minière,Baie d'Hudson,0
+2021-2023,Excellente,Peuplé,Baie d'Hudson,0
+2021-2023,Excellente,Pressions mixtes,Baie d'Hudson,16
+2021-2023,Excellente,Non aménagés,Baie d'Hudson,2
+2021-2023,Excellente,Total,Baie d'Hudson,18
+2021-2023,Bonne,Agriculture,Baie d'Hudson,18
+2021-2023,Bonne,Foresterie,Baie d'Hudson,0
+2021-2023,Bonne,Exploitation minière,Baie d'Hudson,0
+2021-2023,Bonne,Peuplé,Baie d'Hudson,0
+2021-2023,Bonne,Pressions mixtes,Baie d'Hudson,14
+2021-2023,Bonne,Non aménagés,Baie d'Hudson,2
+2021-2023,Bonne,Total,Baie d'Hudson,34
+2021-2023,Excellente,Agriculture,Fleuve Mackenzie,0
+2021-2023,Excellente,Foresterie,Fleuve Mackenzie,0
+2021-2023,Excellente,Exploitation minière,Fleuve Mackenzie,6
+2021-2023,Excellente,Peuplé,Fleuve Mackenzie,0
+2021-2023,Excellente,Pressions mixtes,Fleuve Mackenzie,6
+2021-2023,Excellente,Non aménagés,Fleuve Mackenzie,6
+2021-2023,Excellente,Total,Fleuve Mackenzie,17
+2021-2023,Bonne,Agriculture,Fleuve Mackenzie,0
+2021-2023,Bonne,Foresterie,Fleuve Mackenzie,0
+2021-2023,Bonne,Exploitation minière,Fleuve Mackenzie,6
+2021-2023,Bonne,Peuplé,Fleuve Mackenzie,0
+2021-2023,Bonne,Pressions mixtes,Fleuve Mackenzie,11
+2021-2023,Bonne,Non aménagés,Fleuve Mackenzie,22
+2021-2023,Bonne,Total,Fleuve Mackenzie,39
+2021-2023,Excellente,Agriculture,Océan Pacifique,0
+2021-2023,Excellente,Foresterie,Océan Pacifique,0
+2021-2023,Excellente,Exploitation minière,Océan Pacifique,0
+2021-2023,Excellente,Peuplé,Océan Pacifique,0
+2021-2023,Excellente,Pressions mixtes,Océan Pacifique,0
+2021-2023,Excellente,Non aménagés,Océan Pacifique,0
+2021-2023,Excellente,Total,Océan Pacifique,0
+2021-2023,Bonne,Agriculture,Océan Pacifique,0
+2021-2023,Bonne,Foresterie,Océan Pacifique,10
+2021-2023,Bonne,Exploitation minière,Océan Pacifique,5
+2021-2023,Bonne,Peuplé,Océan Pacifique,0
+2021-2023,Bonne,Pressions mixtes,Océan Pacifique,30
+2021-2023,Bonne,Non aménagés,Océan Pacifique,10
+2021-2023,Bonne,Total,Océan Pacifique,55
+2016-2018,Total,Agriculture,Canada,6
+2016-2018,Total,Foresterie,Canada,7
+2016-2018,Total,Exploitation minière,Canada,2
+2016-2018,Total,Peuplé,Canada,0
+2016-2018,Total,Pressions mixtes,Canada,15
+2016-2018,Total,Non aménagés,Canada,10
+2016-2018,,,,40
+2016-2018,Total,Total,Océan Atlantique,57
+2016-2018,Total,Total,Grands Lacs et fleuve Saint-Laurent,29
+2016-2018,Total,Total,Baie d'Hudson,42
+2016-2018,Total,Total,Fleuve Mackenzie,50
+2016-2018,Total,Total,Océan Pacifique,36
+2016-2018,Total,Agriculture,Océan Atlantique,7
+2016-2018,Total,Foresterie,Océan Atlantique,20
+2016-2018,Total,Exploitation minière,Océan Atlantique,2
+2016-2018,Total,Peuplé,Océan Atlantique,0
+2016-2018,Total,Pressions mixtes,Océan Atlantique,9
+2016-2018,Total,Non aménagés,Océan Atlantique,20
+2016-2018,Total,Agriculture,Grands Lacs et fleuve Saint-Laurent,5
+2016-2018,Total,Foresterie,Grands Lacs et fleuve Saint-Laurent,2
+2016-2018,Total,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,5
+2016-2018,Total,Peuplé,Grands Lacs et fleuve Saint-Laurent,0
+2016-2018,Total,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,10
+2016-2018,Total,Non aménagés,Grands Lacs et fleuve Saint-Laurent,7
+2016-2018,Total,Agriculture,Baie d'Hudson,11
+2016-2018,Total,Foresterie,Baie d'Hudson,0
+2016-2018,Total,Exploitation minière,Baie d'Hudson,0
+2016-2018,Total,Peuplé,Baie d'Hudson,0
+2016-2018,Total,Pressions mixtes,Baie d'Hudson,27
+2016-2018,Total,Non aménagés,Baie d'Hudson,4
+2016-2018,Total,Agriculture,Fleuve Mackenzie,0
+2016-2018,Total,Foresterie,Fleuve Mackenzie,0
+2016-2018,Total,Exploitation minière,Fleuve Mackenzie,10
+2016-2018,Total,Peuplé,Fleuve Mackenzie,0
+2016-2018,Total,Pressions mixtes,Fleuve Mackenzie,15
+2016-2018,Total,Non aménagés,Fleuve Mackenzie,25
+2016-2018,Total,Agriculture,Océan Pacifique,0
+2016-2018,Total,Foresterie,Océan Pacifique,8
+2016-2018,Total,Exploitation minière,Océan Pacifique,8
+2016-2018,Total,Peuplé,Océan Pacifique,0
+2016-2018,Total,Pressions mixtes,Océan Pacifique,8
+2016-2018,Total,Non aménagés,Océan Pacifique,12
+2017-2019,Total,Agriculture,Canada,9
+2017-2019,Total,Foresterie,Canada,6
+2017-2019,Total,Exploitation minière,Canada,2
+2017-2019,Total,Peuplé,Canada,0
+2017-2019,Total,Pressions mixtes,Canada,12
+2017-2019,Total,Non aménagés,Canada,10
+2017-2019,,,,41
+2017-2019,Total,Agriculture,Océan Atlantique,9
+2017-2019,Total,Foresterie,Océan Atlantique,17
+2017-2019,Total,Exploitation minière,Océan Atlantique,2
+2017-2019,Total,Peuplé,Océan Atlantique,0
+2017-2019,Total,Pressions mixtes,Océan Atlantique,7
+2017-2019,Total,Non aménagés,Océan Atlantique,20
+2017-2019,Total,Total,Océan Atlantique,55
+2017-2019,Total,Agriculture,Grands Lacs et fleuve Saint-Laurent,7
+2017-2019,Total,Foresterie,Grands Lacs et fleuve Saint-Laurent,2
+2017-2019,Total,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,3
+2017-2019,Total,Peuplé,Grands Lacs et fleuve Saint-Laurent,0
+2017-2019,Total,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,9
+2017-2019,Total,Non aménagés,Grands Lacs et fleuve Saint-Laurent,7
+2017-2019,Total,Total,Grands Lacs et fleuve Saint-Laurent,28
+2017-2019,Total,Agriculture,Baie d'Hudson,18
+2017-2019,Total,Foresterie,Baie d'Hudson,0
+2017-2019,Total,Exploitation minière,Baie d'Hudson,0
+2017-2019,Total,Peuplé,Baie d'Hudson,0
+2017-2019,Total,Pressions mixtes,Baie d'Hudson,27
+2017-2019,Total,Non aménagés,Baie d'Hudson,5
+2017-2019,Total,Total,Baie d'Hudson,50
+2017-2019,Total,Agriculture,Fleuve Mackenzie,0
+2017-2019,Total,Foresterie,Fleuve Mackenzie,0
+2017-2019,Total,Exploitation minière,Fleuve Mackenzie,10
+2017-2019,Total,Peuplé,Fleuve Mackenzie,0
+2017-2019,Total,Pressions mixtes,Fleuve Mackenzie,10
+2017-2019,Total,Non aménagés,Fleuve Mackenzie,20
+2017-2019,Total,Total,Fleuve Mackenzie,40
+2017-2019,Total,Agriculture,Océan Pacifique,0
+2017-2019,Total,Foresterie,Océan Pacifique,8
+2017-2019,Total,Exploitation minière,Océan Pacifique,8
+2017-2019,Total,Peuplé,Océan Pacifique,0
+2017-2019,Total,Pressions mixtes,Océan Pacifique,8
+2017-2019,Total,Non aménagés,Océan Pacifique,12
+2017-2019,Total,Total,Océan Pacifique,37
+2018-2020,Total,Agriculture,Canada,9
+2018-2020,Total,Foresterie,Canada,6
+2018-2020,Total,Exploitation minière,Canada,2
+2018-2020,Total,Peuplé,Canada,0
+2018-2020,Total,Pressions mixtes,Canada,16
+2018-2020,Total,Non aménagés,Canada,12
+2018-2020,,,,45
+2018-2020,Total,Total,Océan Atlantique,62
+2018-2020,Total,Total,Grands Lacs et fleuve Saint-Laurent,31
+2018-2020,Total,Total,Baie d'Hudson,52
+2018-2020,Total,Total,Fleuve Mackenzie,59
+2018-2020,Total,Total,Océan Pacifique,43
 2018-2020,Total,Agriculture,Océan Atlantique,9
-2018-2020,Total,Foresterie,Océan Atlantique,31
-2018-2020,Total,Exploitation minière,Océan Atlantique,4
-2018-2020,Total,Pressions mixtes,Océan Atlantique,14
+2018-2020,Total,Foresterie,Océan Atlantique,18
+2018-2020,Total,Exploitation minière,Océan Atlantique,2
 2018-2020,Total,Peuplé,Océan Atlantique,0
-2018-2020,Total,Non aménagés,Océan Atlantique,30
-2018-2020,Total,Agriculture,Grands Lacs et fleuve Saint-Laurent,11
+2018-2020,Total,Pressions mixtes,Océan Atlantique,7
+2018-2020,Total,Non aménagés,Océan Atlantique,26
+2018-2020,Total,Agriculture,Grands Lacs et fleuve Saint-Laurent,6
 2018-2020,Total,Foresterie,Grands Lacs et fleuve Saint-Laurent,2
-2018-2020,Total,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,6
-2018-2020,Total,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,40
-2018-2020,Total,Peuplé,Grands Lacs et fleuve Saint-Laurent,2
-2018-2020,Total,Non aménagés,Grands Lacs et fleuve Saint-Laurent,9
-2018-2020,Total,Agriculture,Baie d'Hudson,41
+2018-2020,Total,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,3
+2018-2020,Total,Peuplé,Grands Lacs et fleuve Saint-Laurent,0
+2018-2020,Total,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,12
+2018-2020,Total,Non aménagés,Grands Lacs et fleuve Saint-Laurent,7
+2018-2020,Total,Agriculture,Baie d'Hudson,18
 2018-2020,Total,Foresterie,Baie d'Hudson,0
 2018-2020,Total,Exploitation minière,Baie d'Hudson,0
-2018-2020,Total,Pressions mixtes,Baie d'Hudson,47
 2018-2020,Total,Peuplé,Baie d'Hudson,0
+2018-2020,Total,Pressions mixtes,Baie d'Hudson,29
 2018-2020,Total,Non aménagés,Baie d'Hudson,5
 2018-2020,Total,Agriculture,Fleuve Mackenzie,0
 2018-2020,Total,Foresterie,Fleuve Mackenzie,0
-2018-2020,Total,Exploitation minière,Fleuve Mackenzie,18
-2018-2020,Total,Pressions mixtes,Fleuve Mackenzie,47
+2018-2020,Total,Exploitation minière,Fleuve Mackenzie,12
 2018-2020,Total,Peuplé,Fleuve Mackenzie,0
-2018-2020,Total,Non aménagés,Fleuve Mackenzie,36
+2018-2020,Total,Pressions mixtes,Fleuve Mackenzie,18
+2018-2020,Total,Non aménagés,Fleuve Mackenzie,30
 2018-2020,Total,Agriculture,Océan Pacifique,0
 2018-2020,Total,Foresterie,Océan Pacifique,10
-2018-2020,Total,Exploitation minière,Océan Pacifique,5
-2018-2020,Total,Mixed Pressures,Océan Pacifique,57
+2018-2020,Total,Exploitation minière,Océan Pacifique,0
 2018-2020,Total,Peuplé,Océan Pacifique,0
+2018-2020,Total,Pressions mixtes,Océan Pacifique,19
 2018-2020,Total,Non aménagés,Océan Pacifique,15
+2020-2022,Total,Agriculture,Canada,10
+2020-2022,Total,Foresterie,Canada,7
+2020-2022,Total,Exploitation minière,Canada,3
+2020-2022,Total,Peuplé,Canada,0
+2020-2022,Total,Pressions mixtes,Canada,20
+2020-2022,Total,Non aménagés,Canada,14
+2020-2022,,,,54
+2020-2022,Total,Total,Océan Atlantique,69
+2020-2022,Total,Total,Grands Lacs et fleuve Saint-Laurent,35
+2020-2022,Total,Total,Baie d'Hudson,59
+2020-2022,Total,Total,Fleuve Mackenzie,56
+2020-2022,Total,Total,Océan Pacifique,60
+2020-2022,Total,Agriculture,Océan Atlantique,7
+2020-2022,Total,Foresterie,Océan Atlantique,19
+2020-2022,Total,Exploitation minière,Océan Atlantique,1
+2020-2022,Total,Peuplé,Océan Atlantique,0
+2020-2022,Total,Pressions mixtes,Océan Atlantique,9
+2020-2022,Total,Non aménagés,Océan Atlantique,33
+2020-2022,Total,Agriculture,Grands Lacs et fleuve Saint-Laurent,2
+2020-2022,Total,Foresterie,Grands Lacs et fleuve Saint-Laurent,2
+2020-2022,Total,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,4
+2020-2022,Total,Peuplé,Grands Lacs et fleuve Saint-Laurent,0
+2020-2022,Total,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,20
+2020-2022,Total,Non aménagés,Grands Lacs et fleuve Saint-Laurent,6
+2020-2022,Total,Agriculture,Baie d'Hudson,23
+2020-2022,Total,Foresterie,Baie d'Hudson,0
+2020-2022,Total,Exploitation minière,Baie d'Hudson,0
+2020-2022,Total,Peuplé,Baie d'Hudson,0
+2020-2022,Total,Pressions mixtes,Baie d'Hudson,32
+2020-2022,Total,Non aménagés,Baie d'Hudson,4
+2020-2022,Total,Agriculture,Fleuve Mackenzie,0
+2020-2022,Total,Foresterie,Fleuve Mackenzie,0
+2020-2022,Total,Exploitation minière,Fleuve Mackenzie,12
+2020-2022,Total,Peuplé,Fleuve Mackenzie,0
+2020-2022,Total,Pressions mixtes,Fleuve Mackenzie,17
+2020-2022,Total,Non aménagés,Fleuve Mackenzie,28
+2020-2022,Total,Agriculture,Océan Pacifique,0
+2020-2022,Total,Foresterie,Océan Pacifique,10
+2020-2022,Total,Exploitation minière,Océan Pacifique,5
+2020-2022,Total,Peuplé,Océan Pacifique,0
+2020-2022,Total,Pressions mixtes,Océan Pacifique,35
+2020-2022,Total,Non aménagés,Océan Pacifique,10
+2021-2023,Total,Agriculture,Canada,8
+2021-2023,Total,Foresterie,Canada,5
+2021-2023,Total,Exploitation minière,Canada,2
+2021-2023,Total,Peuplé,Canada,0
+2021-2023,Total,Pressions mixtes,Canada,21
+2021-2023,Total,Non aménagés,Canada,13
+2021-2023,,,,49
+2021-2023,Total,Agriculture,Océan Atlantique,7
+2021-2023,Total,Foresterie,Océan Atlantique,15
+2021-2023,Total,Exploitation minière,Océan Atlantique,2
+2021-2023,Total,Peuplé,Océan Atlantique,0
+2021-2023,Total,Pressions mixtes,Océan Atlantique,7
+2021-2023,Total,Non aménagés,Océan Atlantique,28
+2021-2023,Total,Total,Océan Atlantique,59
+2021-2023,Total,Agriculture,Grands Lacs et fleuve Saint-Laurent,6
+2021-2023,Total,Foresterie,Grands Lacs et fleuve Saint-Laurent,0
+2021-2023,Total,Exploitation minière,Grands Lacs et fleuve Saint-Laurent,4
+2021-2023,Total,Peuplé,Grands Lacs et fleuve Saint-Laurent,0
+2021-2023,Total,Pressions mixtes,Grands Lacs et fleuve Saint-Laurent,22
+2021-2023,Total,Non aménagés,Grands Lacs et fleuve Saint-Laurent,6
+2021-2023,Total,Total,Grands Lacs et fleuve Saint-Laurent,37
+2021-2023,Total,Agriculture,Baie d'Hudson,18
+2021-2023,Total,Foresterie,Baie d'Hudson,0
+2021-2023,Total,Exploitation minière,Baie d'Hudson,0
+2021-2023,Total,Peuplé,Baie d'Hudson,0
+2021-2023,Total,Pressions mixtes,Baie d'Hudson,30
+2021-2023,Total,Non aménagés,Baie d'Hudson,4
+2021-2023,Total,Total,Baie d'Hudson,52
+2021-2023,Total,Agriculture,Fleuve Mackenzie,0
+2021-2023,Total,Foresterie,Fleuve Mackenzie,0
+2021-2023,Total,Exploitation minière,Fleuve Mackenzie,12
+2021-2023,Total,Peuplé,Fleuve Mackenzie,0
+2021-2023,Total,Pressions mixtes,Fleuve Mackenzie,17
+2021-2023,Total,Non aménagés,Fleuve Mackenzie,28
+2021-2023,Total,Total,Fleuve Mackenzie,56
+2021-2023,Total,Agriculture,Océan Pacifique,0
+2021-2023,Total,Foresterie,Océan Pacifique,10
+2021-2023,Total,Exploitation minière,Océan Pacifique,5
+2021-2023,Total,Peuplé,Océan Pacifique,0
+2021-2023,Total,Pressions mixtes,Océan Pacifique,30
+2021-2023,Total,Non aménagés,Océan Pacifique,10
+2021-2023,Total,Total,Océan Pacifique,55

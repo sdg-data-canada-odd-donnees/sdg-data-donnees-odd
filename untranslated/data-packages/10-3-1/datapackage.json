@@ -19,8 +19,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Did not experience discrimination or unfair treatment in Canada",
                 "Experienced discrimination or unfair treatment in Canada",
+                "Did not experience discrimination or unfair treatment in Canada",
                 "Discrimination at work",
                 "Discrimination at school",
                 "Discrimination on the Internet",
