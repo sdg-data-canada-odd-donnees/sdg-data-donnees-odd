@@ -38,8 +38,12 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
-  target: 3.0
-  target_year: 2030
+  # Using transformed data in progress column
+  # Progress is measured as the absolute distance from the unemployment rate target of 3% --> y_trans = 1+abs(y-3%).
+  # If y_trans = 1, the unemployment target of 3% is met.
+  # If y_trans > 1, the unemployment rate is too high and needs to be reduced to reach the target of 3%.
+  # If y_trans < 1, the unemployment rate is too low and needs to increase to reach the target of 3%.
+  target: 1
 reporting_status: complete
 sort: ''
 standalone: false
