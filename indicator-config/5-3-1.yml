@@ -38,7 +38,6 @@ precision: []
 progress_calculation_options:
 - direction: negative
   target: 0
-  target_year: 2030
   disaggregation:
   - field: Marital status
     value: Married or living common law

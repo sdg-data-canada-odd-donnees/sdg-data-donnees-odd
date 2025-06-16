@@ -40,7 +40,6 @@ precision: []
 progress_calculation_options:
 -  direction: positive
    target: 86.235
-   target_year: 2030
    unit: Percentage (%)
    disaggregation:
    - field: Source
@@ -49,7 +48,6 @@ progress_calculation_options:
      value: Safely treated
 -  direction: positive
    target: 72.43
-   target_year: 2030
    unit: Percentage (%)
    disaggregation:
    - field: Source

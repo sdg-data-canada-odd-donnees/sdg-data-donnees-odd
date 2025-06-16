@@ -36,7 +36,6 @@ precision: []
 progress_calculation_options:
 - direction: positive
   target: 50
-  target_year: 2030
   disaggregation:
   - field: Government
     value: National
@@ -47,7 +46,6 @@ progress_calculation_options:
 - group:
   - direction: positive
     target: 50
-    target_year: 2030
     disaggregation:
     - field: Government
       value: Local
@@ -57,7 +55,6 @@ progress_calculation_options:
       value: Canada
   - direction: positive
     target: 50
-    target_year: 2030
     disaggregation:
     - field: Government
       value: Local

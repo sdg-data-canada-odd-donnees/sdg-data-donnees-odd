@@ -148,6 +148,7 @@ progress_calculation_options:
       value: Proportion of children in Grade 4 achieving at least a minimum proficiency level in mathematics
 - direction: positive
   # target: 100 # 9.c.1 has no specific target? also target year is 2020 (only relevant if setting a quantitative target)
+  limit: 100
   series: Access to basic information services
   disaggregation:
   - field: Basic services
