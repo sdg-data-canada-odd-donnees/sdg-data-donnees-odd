@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: true
 computation_units: Per 10,000 population
 copyright: ''
 data_footnote: ''
@@ -59,8 +59,35 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
-progress_calculation_options: []
-progress_status: not_available
+progress_calculation_options:
+- direction: positive
+  series: Health worker density, by type of occupation (per 10,000 population)
+  disaggregation:
+  - field: Type of occupation
+    value: Medical doctors
+  - field: Geography
+    value: Canada
+- direction: positive
+  series: Health worker density, by type of occupation (per 10,000 population)
+  disaggregation:
+  - field: Type of occupation
+    value: Nursing and midwifery personnel
+  - field: Geography
+    value: Canada
+- direction: positive
+  series: Health worker density, by type of occupation (per 10,000 population)
+  disaggregation:
+  - field: Type of occupation
+    value: Dentists
+  - field: Geography
+    value: Canada
+- direction: positive
+  series: Health worker density, by type of occupation (per 10,000 population)
+  disaggregation:
+  - field: Type of occupation
+    value: Pharmacists
+  - field: Geography
+    value: Canada
 reporting_status: complete
 sort: ''
 standalone: false

@@ -9,17 +9,17 @@ library(tidyr)
 
 csi_national <- read_csv("https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/canadian-species-index/2023/1-csi-national-en.csv")
 
-colnames(csi_national) <- as.character(unlist(csi_national[2,]))
+colnames(csi_national) <- as.character(unlist(csi_national[2, ]))
 
-csi_national = na.omit(csi_national[-2, ])
+csi_national <- na.omit(csi_national[-2, ])
 
 # Systems Index
 
 csi_system <- read_csv("https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/canadian-species-index/2023/2-csi-system-en.csv")
 
-colnames(csi_system) <- as.character(unlist(csi_system[2,]))
+colnames(csi_system) <- as.character(unlist(csi_system[2, ]))
 
-csi_system = na.omit(csi_system[-2, ])
+csi_system <- na.omit(csi_system[-2, ])
 
 # Separate into different data sets (national)
 
@@ -115,23 +115,34 @@ marine <-
   )
 
 system <-
-  bind_rows(national_system,terrestrial, freshwater, marine)
+  bind_rows(national_system, terrestrial, freshwater, marine)
 
 # Combine all data sets
 
 data_final <-
-  bind_rows(species,system) %>%
+  bind_rows(species, system) %>%
   select(
     Year,
     Series,
     `Species group`,
     `System`,
     Value
-  )
+  ) %>%
+  mutate_at("Value", as.numeric)
+
+data_final_with_progress <- data_final %>%
+  mutate(
+    # Percent change since 1970 values are not valid for the progress calculation because they can be positive and negative.
+    # Choose 1970 value to be 1 and use percent change since 1970 values to calculate a valid apparent value for each year.
+    # The apparent values can be used for the progress calculation as they are all positive.
+    Progress = 1 * (1 + Value / 100)
+  ) %>%
+  relocate(Progress, .before = "Value")
 
 # Write data to csv
-write.csv(data_final,
-          "data/indicator_15-5-1.csv",
-          na = "",
-          row.names = FALSE,
-          fileEncoding = "UTF-8")
+write.csv(data_final_with_progress,
+  "data/indicator_15-5-1.csv",
+  na = "",
+  row.names = FALSE,
+  fileEncoding = "UTF-8"
+)

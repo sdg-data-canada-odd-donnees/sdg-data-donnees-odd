@@ -74,7 +74,7 @@ diarrhea_data <-
 
 diarrhea_by_population <-
   left_join(diarrhea_data, population_data) %>%
-  mutate(Value = round((Total_Count / Population_Count) * 100000, 2)) %>%
+  mutate(Value = (Total_Count / Population_Count) * 100000) %>%
   select(
     Year,
     `Type of disease`,
@@ -100,7 +100,7 @@ respiratory_data <-
 
 respiratory_by_population <-
   left_join(respiratory_data, population_data) %>%
-  mutate(Value = round((Total_Count / Population_Count) * 100000, 2)) %>%
+  mutate(Value = (Total_Count / Population_Count) * 100000) %>%
   select(
     Year,
     `Type of disease`,
@@ -126,7 +126,7 @@ intestinal_data <-
 
 intestinal_by_population <-
   left_join(intestinal_data, population_data) %>%
-  mutate(Value = round((Total_Count / Population_Count) * 100000, 2)) %>%
+  mutate(Value = (Total_Count / Population_Count) * 100000) %>%
   select(
     Year,
     `Type of disease`,
@@ -152,15 +152,36 @@ protein_data <-
 
 protein_by_population <-
   left_join(protein_data, population_data) %>%
-  mutate(Value = round((Total_Count / Population_Count) * 100000, 2)) %>%
+  mutate(Value = (Total_Count / Population_Count) * 100000) %>%
   select(
     Year,
     `Type of disease`,
     Value
   )
 
+total_by_population <- 
+  bind_rows(
+    respiratory_by_population,
+    diarrhea_by_population,
+    intestinal_by_population,
+    protein_by_population
+  ) %>%
+  summarise(Value = sum(Value), .by = Year)
+
 data_final <-
-  bind_rows(respiratory_by_population,diarrhea_by_population,intestinal_by_population,protein_by_population)
+  bind_rows(
+    total_by_population,
+    respiratory_by_population,
+    diarrhea_by_population,
+    intestinal_by_population,
+    protein_by_population
+  ) %>%
+  mutate(Value = round(Value, 2)) %>%
+  select(
+    Year,
+    `Type of disease`,
+    Value
+  )
 
 write.csv(
   data_final,

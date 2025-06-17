@@ -36,7 +36,9 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
-progress_status: substantial_deterioration
+  series: Fatality claims
+- direction: negative
+  series: Lost time claims
 reporting_status: complete
 sort: ''
 standalone: false

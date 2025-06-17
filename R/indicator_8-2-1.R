@@ -17,32 +17,27 @@ exclude_Geo <- c(
   "Northwest Territories"
 )
 
-national_gdp <-
-  real_gdp %>% 
+national_gdp <- real_gdp %>%
   filter(
-    substr(REF_DATE, 1, 4) >= 2014 & substr(REF_DATE, 1, 4) < substr(Sys.Date(), 1, 4),
+    REF_DATE >= 2014,
     Estimates == "Gross domestic product at market prices",
     Prices == "Chained (2017) dollars",
-  ) %>% 
+  ) %>%
   select(
-    REF_DATE,
+    Year = REF_DATE,
     Geography = GEO,
-    VALUE
-  ) %>% 
-  mutate(
-    Year = substr(REF_DATE, 1, 4)
-  ) %>% 
-  group_by(Year, Geography) %>% 
-  summarise(GDP = mean(VALUE), .groups = "drop")
+    GDP = VALUE
+  ) %>%
+  arrange(Year, Geography) %>%
+  na.omit()
 
-labour_force_filtered <- 
-  labour_force %>% 
+labour_force_filtered <- labour_force %>%
   filter(
     REF_DATE >= 2014,
     `Labour force characteristics` == "Employment",
     Gender == "Total - Gender",
     `Age group` == "15 years and over"
-  ) %>% 
+  ) %>%
   select(
     Year = REF_DATE,
     Geography = GEO,
@@ -50,24 +45,24 @@ labour_force_filtered <-
   )
 
 data_final <-
-  left_join(national_gdp, labour_force_filtered) %>% 
+  left_join(national_gdp, labour_force_filtered) %>%
   mutate(
-    LabProd = (GDP*1000000)/(Employment)
-  ) %>% 
-  arrange(Geography, Year) %>% 
-  group_by(Geography) %>% 
+    LabProd = (GDP * 1000000) / (Employment)
+  ) %>%
+  arrange(Geography, Year) %>%
+  group_by(Geography) %>%
   transmute(
-    Year, 
+    Year,
     Geography = recode(Geography, Canada = ""),
-    # LabProd, year_before = lag(LabProd),
-    Value = (LabProd - lag(LabProd)) / lag(LabProd),
-    Value = round(Value * 100, 2)
-  ) %>% 
-  filter(Year > 2014) %>% 
+    Progress = round(LabProd, 2),
+    # LabProd, year_before = lag(LabProd)
+    Value = round(((LabProd - lag(LabProd)) / lag(LabProd)) * 100, 2)
+  ) %>%
+  filter(Year > 2014) %>%
   filter(
     !Geography %in% exclude_Geo
-  ) %>% 
-  left_join(geocodes) %>% 
+  ) %>%
+  left_join(geocodes) %>%
   relocate(GeoCode, .before = "Value")
 
 write.csv(
@@ -76,4 +71,4 @@ write.csv(
   na = "",
   row.names = FALSE,
   fileEncoding = "UTF-8"
-)  
+)

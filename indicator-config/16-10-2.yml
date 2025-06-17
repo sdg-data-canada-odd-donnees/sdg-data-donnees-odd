@@ -28,7 +28,9 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
-progress_status: substantial_progress
+progress_calculation_options:
+- direction: positive
+  target: 9
 proxy: proxy
 reporting_status: complete
 sort: ''

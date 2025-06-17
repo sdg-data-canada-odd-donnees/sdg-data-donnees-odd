@@ -1,4 +1,4 @@
-auto_progress_calculation: true
+auto_progress_calculation: false
 computation_units: Index
 copyright: ''
 data_footnote: ''
@@ -28,7 +28,6 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-progress_status: substantial_progress
 reporting_status: notstarted
 sort: ''
 standalone: false

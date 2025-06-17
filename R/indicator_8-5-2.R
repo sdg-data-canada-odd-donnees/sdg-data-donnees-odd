@@ -8,30 +8,31 @@ library(cansim)
 lf_chars <- get_cansim("14-10-0327-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
 
-lf_chars <- 
-  lf_chars %>% 
+lf_chars <-
+  lf_chars %>%
   filter(
     REF_DATE >= 2015,
     `Labour force characteristics` == "Unemployment rate"
-  ) %>% 
+  ) %>%
   select(
     Year = REF_DATE,
     Geography = GEO,
     Gender,
     `Age group`,
     Value = VALUE
-  ) %>% 
-  left_join(geocodes) %>% 
+  ) %>%
+  left_join(geocodes) %>%
   relocate(GeoCode, .before = Value)
 
 data_final <- bind_rows(
-  #total line
+  # total line
   lf_chars %>%
-    filter(Geography == "Canada",
-           Gender == "Total - Gender",
-           `Age group` == "15 years and over") %>%
-    mutate_at(2:4, ~ ""),
-  
+    filter(
+      Geography == "Canada",
+      Gender == "Total - Gender",
+      `Age group` == "15 years and over"
+    ) %>%
+    mutate_at(2:4, ~""),
   lf_chars %>%
     filter(!(
       Geography == "Canada" &
@@ -39,14 +40,17 @@ data_final <- bind_rows(
         `Age group` == "15 years and over"
     ))
 ) %>%
-select(
-  Year,
-  Gender,
-  `Age group`,
-  Geography,
-  GeoCode,
-  Value
-)
+  # Measure progress as absolute distance from unemployment target of 3%
+  mutate(Progress = 1 + abs(Value - 3)) %>%
+  select(
+    Year,
+    Gender,
+    `Age group`,
+    Geography,
+    GeoCode,
+    Progress,
+    Value
+  )
 
 write.csv(
   data_final,
@@ -55,4 +59,3 @@ write.csv(
   row.names = FALSE,
   fileEncoding = "UTF-8"
 )
-

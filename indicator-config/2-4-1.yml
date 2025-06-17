@@ -33,12 +33,11 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-  target_year: 2030
-progress_status: moderate_progress
+  series: Current score
+  limit: 5
 reporting_status: complete
 sort: ''
 standalone: false
 tags: 
 - Proxy
-"\xEF\xBB\xBFauto_progress_calculation": false
 proxy: proxy
