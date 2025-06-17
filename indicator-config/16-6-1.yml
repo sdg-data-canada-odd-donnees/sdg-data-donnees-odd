@@ -1,4 +1,4 @@
-auto_progress_calculation: false # implement absolute difference abs(y-100) in progress column
+auto_progress_calculation: true
 composite_breakdown_label: ''
 computation_units: Percentage (%)
 copyright: ''
@@ -29,7 +29,8 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
-- direction: positive
+- direction: negative
+  target: 0
 progress_status: moderate_progress
 reporting_status: complete
 sort: ''
