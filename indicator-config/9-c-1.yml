@@ -37,7 +37,7 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-  target_year: 2020
+  limit: 100
   series: Evolved High-Speed Packet Access (HSPA+)
 reporting_status: complete
 sort: ''

@@ -34,12 +34,14 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
+  limit: 100
   disaggregation:
   - field: Industry
     value: Total manufacturing
   - field: Size
     value: 1-9 employees
 - direction: positive
+  limit: 100
   disaggregation:
   - field: Industry
     value: Total manufacturing
