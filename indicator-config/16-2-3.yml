@@ -41,7 +41,6 @@ precision: []
 progress_calculation_options:
 - direction: negative
   target: 0
-  target_year: 2030
   disaggregation:
   - field: Gender
     value: Total, gender
@@ -51,7 +50,6 @@ progress_calculation_options:
     value: Canada
 - direction: negative
   target: 0
-  target_year: 2030
   disaggregation:
   - field: Gender
     value: Total, gender

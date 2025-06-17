@@ -39,7 +39,6 @@ precision: []
 progress_calculation_options:
 - direction: negative
   target: 0
-  target_year: 2030
   disaggregation:
   - field: Unwanted or inappropriate behaviour
     value: Physical assault
@@ -47,7 +46,6 @@ progress_calculation_options:
     value: Women
 - direction: negative
   target: 0
-  target_year: 2030
   disaggregation:
   - field: Unwanted or inappropriate behaviour
     value: Physical assault
@@ -55,7 +53,6 @@ progress_calculation_options:
     value: Men
 - direction: negative
   target: 0
-  target_year: 2030
   disaggregation:
   - field: Unwanted or inappropriate behaviour
     value: Sexual assault
@@ -63,7 +60,6 @@ progress_calculation_options:
     value: Women
 - direction: negative
   target: 0
-  target_year: 2030
   disaggregation:
   - field: Unwanted or inappropriate behaviour
     value: Sexual assault

@@ -28,6 +28,7 @@ permalink: ""
 precision: []
 progress_calculation_options:
 - direction: positive
+  limit: 100
 reporting_status: notstarted
 sort: ""
 standalone: false

@@ -45,7 +45,6 @@ precision: []
 progress_calculation_options:
 - direction: positive
   target: 100
-  target_year: 2030
   disaggregation:
   - field: Distance-capacity public transit service area
     value: 500 metres from low-capacity public transit stops only
@@ -59,7 +58,6 @@ progress_calculation_options:
     value: Total - Age groups of the population - 100% data
 - direction: positive
   target: 100
-  target_year: 2030
   disaggregation:
   - field: Distance-capacity public transit service area
     value: 1000 metres from high-capacity public transit stops only

@@ -48,13 +48,11 @@ precision: []
 progress_calculation_options:
 - direction: positive
   target: 0.7
-  target_year: 2030
   disaggregation:
   - field: Official development assistance
     value: ODA as a share of GNI
 - direction: positive
   target: 0.2
-  target_year: 2030
   disaggregation:
   - field: Least developed countries
     value: ODA to least developed countries as a share of GNI

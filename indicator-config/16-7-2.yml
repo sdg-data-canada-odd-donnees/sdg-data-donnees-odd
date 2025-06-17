@@ -38,7 +38,6 @@ precision: []
 progress_calculation_options:
 - direction: positive
   target: 100
-  target_year: 2030
   disaggregation:
   - field: Institutions
     value: Confidence in the justice system and courts
@@ -48,7 +47,6 @@ progress_calculation_options:
     value: Total population
 - direction: positive
   target: 100
-  target_year: 2030
   disaggregation:
   - field: Institutions
     value: Confidence in Federal Parliament

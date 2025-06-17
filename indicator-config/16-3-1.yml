@@ -36,30 +36,31 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
+- group:
+  # Physical violence
+  - base_year: 2014
+    direction: positive
+    target: 100
+    series: Physical violence
+    disaggregation:
+    - field: Type of victimization
+      value: _Physical assault
+  - base_year: 2014
+    direction: positive
+    target: 100
+    series: Physical violence
+    disaggregation:
+    - field: Type of victimization
+      value: Robbery
+# Sexual violence
 - base_year: 2014
   direction: positive
   target: 100
-  target_year: 2030
-  series: Physical violence
-  disaggregation:
-  - field: Type of victimization
-    value: _Physical assault
-- base_year: 2014
-  direction: positive
-  target: 100
-  target_year: 2030
-  series: Physical violence
-  disaggregation:
-  - field: Type of victimization
-    value: Robbery
-- base_year: 2014
-  direction: positive
-  target: 100
-  target_year: 2030
   series: Sexual violence
   disaggregation:
   - field: Type of victimization
     value: Sexual assault
+# Psychological violence (no data)
 progress_status: deterioration
 reporting_status: complete
 sort: ''
