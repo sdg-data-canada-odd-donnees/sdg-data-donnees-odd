@@ -26,7 +26,11 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - Geography
+  - Type of growth
+  - City type
+  - Type of land use consumed by the urbanization process
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''

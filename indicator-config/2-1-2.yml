@@ -21,12 +21,13 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
-#  - Household food security status
-#  - Geography
-#  - Sex
-#  - Age group
-#  - Economic family type
+expected_disaggregations: 
+  - Household income
+  - Geography
+  - Sex
+  - Age group
+  - Economic family type
+  - Education of the household head
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
