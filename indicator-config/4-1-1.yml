@@ -26,7 +26,13 @@ embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations: 
-  - Sex
+ - Sex
+ - Completion status
+ - Geography
+ - Socioeconomic status
+ - Immigrant status
+ - Ethnicity
+ - Language of the test at home
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
