@@ -1,7 +1,7 @@
 # Indicator 8.9.1 ------------------------------------------------------
 # Tourism direct GDP as a proportion of total GDP and in growth rate
 
-stop("Temporary skip 8.9.1")
+stop("Temporary skip 8.9.1")  #Currently set to exploring data sources
 
 library(dplyr)
 library(cansim)
