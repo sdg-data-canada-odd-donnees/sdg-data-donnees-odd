@@ -13,7 +13,13 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations: 
+ - Recipient country
+ - Type of flow
+ - Type of finance
+ - Assistance type
+ - Subsector
+ - Policy marker
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''

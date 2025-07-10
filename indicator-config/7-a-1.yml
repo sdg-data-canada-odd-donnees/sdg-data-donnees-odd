@@ -13,7 +13,18 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - Type of flow
+  - Recipient country
+  - Type of finance
+  - Type of aid
+  - Subsector
+  - Policy marker
+  - Financial flows by technologies
+  - Financial flows by sub-technologies
+  - Financial flows by geography
+  - Financial flows by financial instrument
+  - Financial flows by type of recipient
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''

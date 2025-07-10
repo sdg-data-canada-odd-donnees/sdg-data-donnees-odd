@@ -5,6 +5,8 @@ library(cansim)
 library(dplyr)
 library(stringr)
 
+stop("Temporary skip 3.c.1") #The data of this indicator is currently being manually calculated, so this script is temporarily skipped to not overwrite the manual calculations.
+
 print(sessionInfo())
 
 health_care_workers <- c(
