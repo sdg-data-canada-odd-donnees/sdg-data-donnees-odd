@@ -1,11 +1,11 @@
-auto_progress_calculation: true
+auto_progress_calculation: false
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
-data_notice_class: ''
-data_notice_heading: ''
-data_notice_text: ''
+data_notice_class: warning
+data_notice_heading: custom.data-currently-unavailable
+data_notice_text: custom.data-currently-unavailable-11-2-1 # also affects 1.4.1 Access to basic mobility
 data_show_map: true
 data_start_values:
 - field: Distance-capacity public transit service area
@@ -47,7 +47,7 @@ progress_calculation_options:
 - direction: positive
   target: 100
   target_year: 2030
-reporting_status: complete
+reporting_status: notavailable
 sort: ''
 standalone: false
 tags: 
