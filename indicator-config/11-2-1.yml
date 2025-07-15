@@ -6,7 +6,7 @@ data_non_statistical: false
 data_notice_class: warning
 data_notice_heading: custom.data-currently-unavailable
 data_notice_text: custom.data-currently-unavailable-11-2-1 # also affects 1.4.1 Access to basic mobility
-data_show_map: true
+data_show_map: false
 data_start_values:
 - field: Distance-capacity public transit service area
   value: 500 metres from low-capacity public transit stops only
