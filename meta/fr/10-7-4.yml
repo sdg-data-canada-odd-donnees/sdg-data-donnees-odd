@@ -12,7 +12,7 @@ STAT_CONC_DEF: >-
   <br><br>
   La population fait référence à la population totale résidant dans un pays donné au cours d'une année donnée.
 DATA_COMP: >-
-  Proportion de la population réfugiée, par pays d'origine = (nombre de réfugiés par pays d'origine à la mi-année) / ((population à la mi-année dans le pays d'origine + nombre de réfugiés par pays d'origine à la mi-année)) × 100 000
+  Proportion de réfugiés dans la population, par pays d'origine = (nombre de réfugiés par pays d'origine à la mi-année) / ((population à la mi-année dans le pays d'origine + nombre de réfugiés par pays d'origine à la mi-année)) × 100 000
 REC_USE_LIM: >-
   Les données relatives au nombre de réfugiés par pays d'origine à la mi-année sont collectées en mai lors de chaque recensement, plutôt que le 1er juillet de chaque année.
 
