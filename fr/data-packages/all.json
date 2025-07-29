@@ -1830,6 +1830,43 @@
       "title": "Proportion des masses d’eau dont la qualité de l’eau ambiante est bonne"
     },
     {
+      "path": "13-a-1/data.csv",
+      "name": "13-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Theme",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Adaptation",
+                "Transversal",
+                "Atténuation",
+                ""
+              ]
+            },
+            "title": "Thème"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Montant (en dollars des États-Unis) des ressources fournies et mobilisées par année relativement à l’objectif collectif actuel de mobilisation, soit 100 milliards de dollars jusqu’en 2025"
+    },
+    {
       "path": "3-7-1/data.csv",
       "name": "3-7-1",
       "profile": "tabular-data-resource",
@@ -5087,8 +5124,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Score de statut actuel",
                 "Score de tendance",
+                "Score de statut actuel",
                 ""
               ]
             },
@@ -9716,30 +9753,6 @@
         ]
       },
       "title": "Nombre de pays appliquant des approches écosystémiques à la gestion des zones marines"
-    },
-    {
-      "path": "13-a-1/data.csv",
-      "name": "13-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Montant (en dollars des États-Unis) des ressources fournies et mobilisées par année relativement à l’objectif collectif actuel de mobilisation, soit 100 milliards de dollars jusqu’en 2025"
     },
     {
       "path": "17-19-2/data.csv",

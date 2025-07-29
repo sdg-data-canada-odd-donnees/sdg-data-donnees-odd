@@ -1695,6 +1695,40 @@
       "title": "global_indicators.6-3-2-title"
     },
     {
+      "path": "13-a-1/data.csv",
+      "name": "13-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Theme",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Adaptation",
+                "Cross-cutting",
+                "Mitigation",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.13-a-1-title"
+    },
+    {
       "path": "3-7-1/data.csv",
       "name": "3-7-1",
       "profile": "tabular-data-resource",
@@ -4729,8 +4763,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Current status score",
                 "Trend score",
+                "Current status score",
                 ""
               ]
             }
@@ -9016,28 +9050,6 @@
         ]
       },
       "title": "global_indicators.14-2-1-title"
-    },
-    {
-      "path": "13-a-1/data.csv",
-      "name": "13-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.13-a-1-title"
     },
     {
       "path": "17-19-2/data.csv",

@@ -12,8 +12,21 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Theme",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Adaptation",
+                "Cross-cutting",
+                "Mitigation",
+                ""
+              ]
+            },
+            "title": "Theme"
           },
           {
             "name": "Value",
