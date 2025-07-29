@@ -31,7 +31,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon, Northwest Territories and Nunavut",
+                "Territories",
                 ""
               ]
             },
@@ -55,7 +55,10 @@
                 "Textiles",
                 "Tires",
                 "Construction, renovation and demolition",
-                "Organics",
+                "All organic materials",
+                "Food waste and source separated organics",
+                "Leaf and yard waste",
+                "Other organic materials",
                 "Other materials",
                 ""
               ]
@@ -67,9 +70,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "All sources of diverted materials",
                 "Residential sources of diverted materials",
                 "Non-residential sources of diverted materials",
+                "All sources of diverted materials",
                 ""
               ]
             },

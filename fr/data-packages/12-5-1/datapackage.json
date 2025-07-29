@@ -31,7 +31,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon, Territoires du Nord-Ouest et Nunavut",
+                "Territoires",
                 ""
               ]
             },
@@ -55,7 +55,10 @@
                 "Textiles",
                 "Pneus",
                 "Déchets provenant de la construction, de la rénovation et de la démolition",
-                "Matières organiques",
+                "Toutes les matières organiques",
+                "Déchets de nourriture et matières organiques séparées à la source",
+                "Feuilles et résidus de jardin",
+                "Autres matières organiques",
                 "Autres matières",
                 ""
               ]
@@ -67,9 +70,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les sources des matières récupérées",
                 "Sources des matières résidentielles récupérées",
                 "Sources des matières non résidentielles récupérées",
+                "Toutes les sources des matières récupérées",
                 ""
               ]
             },
