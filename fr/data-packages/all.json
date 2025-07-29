@@ -7483,6 +7483,87 @@
       "title": "Empreinte matérielle, empreinte matérielle par habitant et empreinte matérielle par unité de PIB"
     },
     {
+      "path": "6-5-1/data.csv",
+      "name": "6-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Water resources management category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Environnement favorable",
+                "Institutions et participation",
+                "Instruments de gestion",
+                "Financement",
+                ""
+              ]
+            },
+            "title": "Catégorie « Gestion des ressources en eau »"
+          },
+          {
+            "name": "Water resources management sub-category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Dispositions relatives à la gestion transfrontalière des eaux dans les bassins et aquifères les plus importants",
+                "Plans de gestion des bassins et des aquifères",
+                "Plans nationaux de gestion intégrée des ressources en eau (GIRE)",
+                "Législation nationale sur les ressources en eau",
+                "Politique nationale en matière de ressources en eau",
+                "Réglementations sous-nationales sur les ressources en eau",
+                "Politiques sous-nationales en matière de ressources en eau",
+                "Organisations au niveau des bassins et des aquifères chargées de diriger la mise en œuvre des plans de gestion intégrée des ressources en eau (GIRE",
+                "Participation du secteur privé au développement, à la gestion et à l'utilisation des ressources en eau au niveau national",
+                "Coordination entre les autorités gouvernementales nationales représentant différents secteurs en matière de ressources en eau, de politique, de planification et de gestion",
+                "Développement des capacités de gestion intégrée des ressources en eau (GIRE) au niveau national",
+                "Capacité des autorités gouvernementales nationales à diriger la mise en œuvre des plans nationaux de gestion intégrée des ressources en eau (GIRE)",
+                "Cadre organisationnel pour la gestion transfrontalière des eaux des bassins et aquifères les plus importants",
+                "Participation du public aux ressources en eau, à la politique, à la planification et à la gestion au niveau national",
+                "Participation du public aux ressources en eau, à la politique, à la planification et à la gestion au niveau local",
+                "Autorités sous-nationales chargées de diriger la mise en œuvre de la GIRE",
+                "Participation des groupes vulnérables à la planification et à la gestion des ressources en eau",
+                "Intégration de la dimension de genre dans la gestion des ressources en eau",
+                "Instruments de gestion des aquifères",
+                "Instruments de gestion des bassins",
+                "Partage des données et des informations au sein des pays à tous les niveaux",
+                "Instruments de gestion visant à réduire les impacts des catastrophes liées à l'eau au niveau national",
+                "Gestion des écosystèmes liés à l'eau au niveau national",
+                "Surveillance nationale de la disponibilité de l'eau",
+                "Contrôle de la pollution au niveau national",
+                "Gestion durable et efficace de l'utilisation de l'eau au niveau national",
+                "Partage transfrontalier de données et d'informations entre les pays",
+                "Financement de la coopération transfrontalière",
+                "Budget national pour les investissements, y compris les infrastructures liées aux ressources en eau",
+                "Budget national pour les coûts récurrents des éléments de la gestion intégrée des ressources en eau (GIRE)",
+                "Budgets sous-nationaux ou de bassins pour les éléments de la GIRE",
+                "Revenus provenant de taxes spécifiques prélevées sur les utilisateurs d'eau au niveau des bassins, des aquifères ou des régions sous-nationales",
+                "Budgets sous-nationaux ou de bassins pour les investissements, y compris les infrastructures liées aux ressources en eau",
+                ""
+              ]
+            },
+            "title": "Sous-catégorie « Gestion des ressources en eau »"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Degré de la gestion intégrée des ressources en eau"
+    },
+    {
       "path": "2-5-2/data.csv",
       "name": "2-5-2",
       "profile": "tabular-data-resource",
@@ -9539,30 +9620,6 @@
         ]
       },
       "title": "a) Nombre de pays qui ont établi des objectifs nationaux conformément ou de manière semblable à l’objectif 2 d’Aichi pour la biodiversité du Plan stratégique pour la diversité biologique 2011-2020 dans leurs stratégies et plans d’action nationaux pour la biodiversité et progrès accomplis dans la réalisation de ces objectifs, et b) intégration de la biodiversité aux systèmes de comptabilité et d’information financière, définie comme la mise en œuvre du Système de comptabilité environnementale et économique"
-    },
-    {
-      "path": "6-5-1/data.csv",
-      "name": "6-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Degré de la gestion intégrée des ressources en eau"
     },
     {
       "path": "14-a-1/data.csv",
