@@ -4,8 +4,10 @@ SDG_TARGET: '<p>Cible 12.5 : D’ici à 2030, réduire nettement la production
   prévention, la réduction, le recyclage et la réutilisation</p>'
 SDG_INDICATOR: '<p>Indicateur 12.5.1 : Total des matières résiduelles récupérées par habitant</p>'
 STAT_CONC_DEF: >-
-  Dans le cadre de cet indicateur, le taux national de recyclage sera défini comme la quantité de matériaux recyclés dans le pays plus les quantités exportées pour le recyclage sur le total des déchets produits dans le pays, moins les matériaux importés et destinés au recyclage. Le recyclage comprend la codigestion et la digestion anaérobie ainsi que le compostage et le procédé aérobie, mais pas la combustion contrôlée (incinération) ou l’épandage.
+  Cet indicateur mesure le total des matières résiduelles récupérées par habitant.
 DATA_COMP: >-
+  Total des matières résiduelles récupérées par habitant = Total des kilogrammes de matières résiduelles récupérées / Population totale
+  <br><br>
   Les matières non dangereuses de sources résidentielles qui sont recyclables incluent les matières solides non dangereuses provenant 
   de tous les ménages ainsi que les matières non dangereuses qui sont recueillies par les municipalités (soit par leurs propres employés, soit au moyen de contrats 
   attribués à des entreprises) de même que les matières non dangereuses de sources résidentielles qui sont apportées à des dépôts, à des stations de transfert et à 
