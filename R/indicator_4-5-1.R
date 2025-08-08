@@ -214,9 +214,9 @@ data$Location <- location
 # Values outside the range are measured by the distance to the nearest threshold (ex: 1.05 --> 1.02 and 0.95 --> 1.02)
 progress_transform <- function(y) {
   if (y < 0.97) {
-    return(1 + abs(y - 0.97))
+    return(1 / y)
   } else if (y > 1.03) {
-    return(1 + abs(y - 1.03))
+    return(y)
   } else {
     return(1)
   }
