@@ -83,7 +83,7 @@ progress <- domestic_care %>%
     # The target ratio is 1.
     # The absolute difference between the actual ratio and the target ratio is taken to account for situations where men spend more time than women (actual ratio < 1), which also represent a gender imbalance.
     # This means that men spending 50% more time than women gives is measured equally to women spending 50% more time than men.
-    Progress = 1 + abs(`Women+` / `Men+` - 1),
+    Progress = pmax(`Women+` / `Men+`, `Men+` / `Women+`),
     Gender = "Total, all persons"
   ) %>%
   select(-`Men+`, -`Women+`)
