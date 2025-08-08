@@ -32,16 +32,19 @@ data_final <- bind_rows(
       Gender == "Total - Gender",
       `Age group` == "15 years and over"
     ) %>%
-    mutate_at(2:4, ~""),
+    mutate_at(2:4, ~NA),
   lf_chars %>%
-    filter(!(
-      Geography == "Canada" &
+    filter(
+      !(Geography == "Canada" &
         Gender == "Total - Gender" &
         `Age group` == "15 years and over"
-    ))
+      )
+    )
 ) %>%
-  # Measure progress as absolute distance from unemployment target of 3%
-  mutate(Progress = 1 + abs(Value - 3)) %>%
+  # If value < 3%, set Progress to -1. This forces the progress status to be "Unable to assess".
+  mutate(
+    Progress = case_when(Value < 3 ~ -1, .default = Value)
+  ) %>%
   select(
     Year,
     Gender,
