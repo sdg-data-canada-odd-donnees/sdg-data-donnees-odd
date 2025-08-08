@@ -32,7 +32,7 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
-- direction: positive
+- direction: negative # Values all reflected above the target, so target is to reduce towards equilibrium target
   target: 50
 progress_status: negligible_progress
 reporting_status: complete
