@@ -53,7 +53,15 @@ embedded_feature_html: ""
 embedded_feature_tab_title: ""
 embedded_feature_title: ""
 embedded_feature_url: ""
-expected_disaggregations: []
+expected_disaggregations:
+  - Income
+  - Gender
+  - Age group
+  - Visible minority
+  - Indigenous identity
+  - Immigrant status
+  - Disability
+  - Geography
 graph_limits: []
 graph_stacked_disaggregation: ""
 graph_titles:

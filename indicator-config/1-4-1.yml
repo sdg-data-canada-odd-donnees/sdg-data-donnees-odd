@@ -4,9 +4,9 @@ data_footnote: ''
 data_non_statistical: false
 data_show_map: true
 data_start_values:
-- series: Access to basic mobility
-  field: Basic services
-  value: Proportion of population within 500 metres of a public transit stop
+# - series: Access to basic mobility
+#   field: Basic services
+#   value: Proportion of population within 500 metres of a public transit stop
 - series: Access to basic mobility
   field: Basic services
   value: Proportion of the rural population who live within 2 km of an all-season road
@@ -39,9 +39,9 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
-#  - Geography
-#  - Socioeconomic characteristics
+expected_disaggregations:
+  - Geography
+  - Socioeconomic characteristics
 #  - Sex
 graph_annotations: []
 graph_limits: []

@@ -6,8 +6,24 @@ SDG_TARGET: |-
 SDG_INDICATOR: |-
   Indicator 6.5.1: Degree of integrated water resources management
 STAT_CONC_DEF: |-
-  Indicator 6.5.1 is the "degree of integrated water resources management implementation". It measures the stages of development and implementation of Integrated Water Resources Management (IWRM), on a scale of 0 to 100, in six categories (see Rationale section). The indicator score is calculated from a country survey with 33 questions, with each question scored on the same scale of 0-100.
-DATA_COMP: '   '
+  <strong>Definition:</strong>
+  <br><br>
+  Indicator 6.5.1 is the "degree of integrated water resources management implementation". It measures the stages of development and implementation of Integrated Water Resources Management (IWRM), on a scale of 0 to 100, in six categories. The indicator score is calculated from a country survey with 33 questions, with each question scored on the same scale of 0-100.
+  <br><br>
+  The definition of IWRM is based on an internationally agreed definition, and is universally applicable. IWRM was officially established in 1992 and is defined as “a process which promotes the coordinated development and management of water, land and related resources in order to maximise economic and social welfare in an equitable manner without compromising the sustainability of vital ecosystems.”
+  <br><br>
+  <strong>Concepts:</strong>
+  <br><br>
+  The concept of IWRM is measured in 4 main sections, each representing key dimension of IWRM:
+  <br><br>
+  1. Enabling environment: this includes the policies, laws, plans and strategies which create the ‘enabling environment’ for IWRM.
+  <br><br>
+  2. Institutions and participation: this includes the range and roles of political, social, economic and administrative institutions that help to support the implementation of IWRM. 
+  <br><br>
+  3. Management instruments: the tools and activities that enable decision-makers and users to make rational and informed choices between alternative actions.
+  <br><br>
+  4. Financing: budgeting and financing made available and used for water resources development and management from various sources.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 
 # Global
@@ -22,4 +38,11 @@ un_designated_tier: Tier I
 un_custodian_agency: United Nations Environment Programme (UNEP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
- 
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: IWRM Data Portal
+source_url_1: https://iwrmdataportal.unepdhi.org/country-reports/canada
+source_organisation_1:  UNEP-DHI Centre
+source_periodicity_1: Every 3 years
+source_geographical_coverage_1: Canada

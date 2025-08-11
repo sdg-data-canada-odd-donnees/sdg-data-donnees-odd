@@ -13,8 +13,13 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
-#  - Type of natural disaster
+expected_disaggregations: 
+  - Type of natural disaster
+  - Type of loss
+  - Geography
+  - Productive asset type
+  - Housing sector
+  - Type of cost
 #  - Direct agricultural loss attributed to disasters
 #  - Direct economic loss to all other damaged or destroyed productive assets attributed to disasters
 #  - Direct economic loss in the housing sector attributed to disasters

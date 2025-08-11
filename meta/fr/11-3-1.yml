@@ -12,6 +12,8 @@ STAT_CONC_DEF: >-
   <br><br>
   Le taux de croissance de la population est la variation de la population dans une zone définie (pays, ville, etc.) au cours d'une période, généralement d'un an, exprimée en pourcentage de la population au début de cette période. Il reflète le nombre de naissances et de décès au cours d'une période et le nombre de personnes qui migrent vers et depuis la zone concernée. Pour l'ODD 11.3.1, il est calculé au niveau de la zone définie comme urbaine/ville.
 DATA_COMP: >-
+  Les zones habitées contiguës (ZHC) pour 2020 ont été utilisées comme limites de la ville ou de la zone urbaine. Les limites des ZHC ont été développées par Statistique Canada pour représenter l'empreinte physique des zones urbaines sur la surface de la Terre et sont basées sur les données de la couverture terrestre. La documentation expliquant la méthodologie de création des ZHC est disponible ici : ([Zones habitées contiguës : limites et documentation de l’utilisateur](https://www150.statcan.gc.ca/n1/pub/16-510-x/16-510-x2023001-fra.htm)). Il est à noter que certaines ZHC peuvent être associées à deux ou plusieurs centres de population adjacents dont les empreintes des zones habitées sont jointes.
+  <br><br>
   Pour toutes les villes, les points de recensement de la population de Statistique Canada ont été utilisés pour le dénombrement de la population ([Géographie du recensement](https://www12.statcan.gc.ca/census-recensement/2021/geo/index-fra.cfm)), et la série chronologique de l'utilisation des terres v4 à une résolution de 30 m, produite par Agriculture et Agroalimentaire Canada, a été utilisée pour les zones bâties ([L'utilisation des terres d'AAC](https://ouvert.canada.ca/data/fr/dataset/fa84a70f-03ad-4946-b0f8-a3b481dd5248)).
 REC_USE_LIM: >-
   Les données sur la population datent de 2011 et 2021. Les données sur l'utilisation des sols datent de 2010 et 2020.
@@ -33,9 +35,9 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 # Source(s)
 source_active_1: 'true'
-source_url_text_1: Statistique Canada. Totalisation personnalisée.
-source_url_1: https://www.statcan.gc.ca/fr/debut
+source_url_text_1: Statistique Canada, Statistiques sur l'environnement - Totalisation personnalisée
+source_url_1: https://www.statcan.gc.ca/fr/sujets-debut/environnement
 source_organisation_1: Statistique Canada
 source_periodicity_1: Occasionnelle
-source_geographical_coverage_1: Canada
+source_geographical_coverage_1: Zones habitées contiguës (ZHC)
  

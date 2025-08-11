@@ -13,11 +13,13 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
-#  - Measure
-#  - Recipient country
-#  - Type of finance
-#  - Type of aid
+expected_disaggregations: 
+ - Recipient country
+ - Measure
+ - Type of finance
+ - Type of aid
+ - Subsector
+ - Policy marker (e.g. gender)
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''

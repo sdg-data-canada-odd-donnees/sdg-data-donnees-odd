@@ -25,7 +25,11 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - Activity related to digital skills
+  - Gender
+  - Age group
+  - Employment status
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
