@@ -15,6 +15,24 @@
             "type": "integer"
           },
           {
+            "name": "Progress",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "101.8",
+                "100.1",
+                "101.7",
+                "101.4",
+                "100.3",
+                "101.3",
+                "144.3",
+                "109.9",
+                "109.7",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
