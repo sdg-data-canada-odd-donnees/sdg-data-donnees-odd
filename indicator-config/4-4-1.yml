@@ -45,6 +45,131 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Copied or moved files or folders digitally
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Used word processing software
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Created presentations, or documents with text and pictures, tables or charts
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Used spreadsheet software basic functions
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Used spreadsheet software advanced functions to organize and analyze data
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Used software to edit photos, videos or audio files
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Written code in a programming language
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Uploaded files or photos to an online data storage space
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Downloaded files or photos from the Internet to your computer or other devices
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Shared files using an online data storage space
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Connected a new device to a Wi-Fi network
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Used the Internet to transfer photos or videos from one device to another
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Used your smartphone as a GPS device for directions
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
+- direction: positive
+  limit: 100
+  disaggregation:
+  - field: Activity related to digital skills
+    value: Connected a new device via Bluetooth
+  - field: Age group
+    value: Total, Internet users aged 15 years and over
+  - field: Highest level of education
+    value: Total, highest certificate, diploma or degree completed
 reporting_status: complete
 sort: ''
 standalone: false

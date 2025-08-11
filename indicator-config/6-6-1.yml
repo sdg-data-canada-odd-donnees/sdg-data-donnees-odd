@@ -1,4 +1,4 @@
-auto_progress_calculation: true
+auto_progress_calculation: false
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
@@ -44,7 +44,6 @@ permalink: ''
 precision: []
 # progress_calculation_options:
 # - direction: positive
-#   target_year: 2030
 reporting_status: notstarted
 sort: ''
 standalone: false

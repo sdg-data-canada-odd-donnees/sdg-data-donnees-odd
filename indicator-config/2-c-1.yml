@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: false # indicator has positive/negative value mix
 computation_units: ""
 copyright: ""
 data_footnote: ""
@@ -28,8 +28,9 @@ national_geographical_coverage: Canada
 page_content: ""
 permalink: ""
 precision: []
-progress_calculation_options: []
-progress_status: ""
+progress_calculation_options:
+- direction: negative
+progress_status: not_available
 reporting_status: complete
 sort: ""
 standalone: false

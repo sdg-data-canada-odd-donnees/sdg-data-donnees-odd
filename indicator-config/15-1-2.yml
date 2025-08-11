@@ -35,9 +35,15 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-  target_year: 2020
-# manual calculation
-progress_status: moderate_progress
+  target: 100
+  disaggregation:
+  - field: Key Biodiversity Areas (KBAs)
+    value: Terrestrial Key Biodiversity Areas
+- direction: positive
+  target: 100
+  disaggregation:
+  - field: Key Biodiversity Areas (KBAs)
+    value: Terrestrial Key Biodiversity Areas
 reporting_status: complete
 sort: ''
 standalone: false

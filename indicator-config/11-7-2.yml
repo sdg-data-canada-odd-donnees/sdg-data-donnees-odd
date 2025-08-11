@@ -40,6 +40,33 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
+  target: 0
+  disaggregation:
+  - field: Unwanted or inappropriate behaviour
+    value: Physical assault
+  - field: Sex
+    value: Women
+- direction: negative
+  target: 0
+  disaggregation:
+  - field: Unwanted or inappropriate behaviour
+    value: Physical assault
+  - field: Sex
+    value: Men
+- direction: negative
+  target: 0
+  disaggregation:
+  - field: Unwanted or inappropriate behaviour
+    value: Sexual assault
+  - field: Sex
+    value: Women
+- direction: negative
+  target: 0
+  disaggregation:
+  - field: Unwanted or inappropriate behaviour
+    value: Sexual assault
+  - field: Sex
+    value: Men
 reporting_status: complete
 sort: ''
 standalone: false

@@ -32,8 +32,8 @@ national_geographical_coverage: Canada – All categories
 page_content: ''
 permalink: ''
 precision: []
-progress_calculation_options: []
-progress_status: deterioration
+progress_calculation_options:
+- direction: positive
 reporting_status: complete
 sort: ''
 standalone: false

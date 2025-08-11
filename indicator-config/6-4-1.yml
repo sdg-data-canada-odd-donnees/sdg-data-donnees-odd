@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: true
 computation_units: ''
 copyright: ''
 data_footnote: ''
@@ -34,7 +34,7 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-progress_status: deterioration
+  series: Water-use efficiency (USD per cubic metre)
 reporting_status: complete
 sort: ''
 standalone: false

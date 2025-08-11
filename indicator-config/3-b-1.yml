@@ -43,8 +43,16 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
-progress_calculation_options: []
-progress_status: not_available
+progress_calculation_options:
+- direction: positive
+  target: 100
+  disaggregation:
+  - field: Antigen or vaccine
+    value: Diphtheria
+  - field: Target population
+    value: Recommended vaccines for 2-year-old children
+  - field: Geography
+    value: Canada
 reporting_status: complete
 sort: ''
 standalone: false

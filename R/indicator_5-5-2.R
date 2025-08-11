@@ -12,7 +12,7 @@ geocodes <- read.csv("geocodes.csv")
 repr_in_mgmt <- get_cansim("14-10-0416-01", factors = FALSE)
 
 occupations <- c(
-  "Management occupations [00, 10, 20, 30, 40, 50, 60, 70, 80, 90]",                                                 
+  "Management occupations [00, 10, 20, 30, 40, 50, 60, 70, 80, 90]",
   "Legislative and senior management occupations [0]",
   "Specialized middle management occupations [10, 20, 30, 40, 50]",
   "Middle management occupations in retail and wholesale trade and customer services [60]",
@@ -20,7 +20,7 @@ occupations <- c(
 )
 
 clean_repr_in_mgmt <-
-  repr_in_mgmt %>% 
+  repr_in_mgmt %>%
   filter(
     REF_DATE >= 2015,
     `Labour force characteristics` == "Proportion of employment",
@@ -37,24 +37,28 @@ clean_repr_in_mgmt <-
     Occupation = str_trim(str_remove(Occupation, "\\[.*\\]"))
   )
 
-total_line <- 
+total_line <-
   clean_repr_in_mgmt %>%
   filter(
     Geography == "Canada",
     Occupation == "Management occupations"
   ) %>%
-  mutate_at(c("Geography", "Occupation"), ~ "")
+  mutate_at(c("Geography", "Occupation"), ~NA)
 
-data_final <- 
+data_final <-
   bind_rows(
     total_line,
     clean_repr_in_mgmt %>%
       filter(!(Geography == "Canada" & Occupation == "Management occupations"))
   ) %>%
+  mutate(
+    Progress = 50 + abs(Value - 50)
+  ) %>%
   select(
     Year,
     Occupation,
     Geography,
+    Progress,
     Value
   ) %>%
   left_join(geocodes, by = "Geography") %>%

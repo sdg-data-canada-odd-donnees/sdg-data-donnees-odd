@@ -1,3 +1,4 @@
+auto_progress_calculation: true
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
@@ -42,6 +43,23 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
+  target: 100
+  disaggregation:
+  - field: Institutions
+    value: Confidence in the justice system and courts
+  - field: Selected sociodemographic characteristics
+    value: Total, 15 years and over
+  - field: Visible minority
+    value: Total population
+- direction: positive
+  target: 100
+  disaggregation:
+  - field: Institutions
+    value: Confidence in Federal Parliament
+  - field: Selected sociodemographic characteristics
+    value: Total, 15 years and over
+  - field: Visible minority
+    value: Total population
 reporting_status: complete
 sort: ''
 standalone: false

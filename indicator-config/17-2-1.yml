@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: true
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
@@ -53,7 +53,15 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-progress_status: substantial_progress
+  target: 0.7
+  disaggregation:
+  - field: Official development assistance
+    value: ODA as a share of GNI
+- direction: positive
+  target: 0.2
+  disaggregation:
+  - field: Least developed countries
+    value: ODA to least developed countries as a share of GNI
 reporting_status: complete
 sort: ''
 standalone: false
