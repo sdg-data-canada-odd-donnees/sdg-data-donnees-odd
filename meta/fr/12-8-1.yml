@@ -6,8 +6,10 @@ SDG_TARGET: |-
 SDG_INDICATOR: |-
   Indicateur 12.8.1 : Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans a) les politiques nationales d’éducation, b) les programmes d’enseignement, c) la formation des enseignants et d) l’évaluation des étudiants (identique à l’amélioration à apporter à l’indicateur 4.7.1 ci dessus et à l’indicateur proposé en remplacement de l’indicateur 13.3.1, figurant à la section A de l’annexe II)
 STAT_CONC_DEF: |-
-    Les indicateurs 4.7.1/12.8.1/13.3.1 mesurent à quel point les pays intègrent l’éducation à la citoyenneté mondiale et l’éducation au développement durable dans leurs systèmes d’éducation. Il s’agit d’un indicateur des caractéristiques des différents aspects des systèmes d’éducation : politiques éducatives, programmes d’études, formation des enseignants et évaluation des élèves comme rapportés par les représentants de gouvernement, idéalement après consultation d’autres ministères, d’instituts nationaux des droits de l’homme, du secteur de l’éducation et d’organisations de la société civile. Il mesure ce que les gouvernements ont l’intention de faire et non ce qui est mis en œuvre dans la pratique dans les écoles et les salles de classe.
-DATA_COMP: '   '
+  Les indicateurs 4.7.1, 12.8.1 et 13.3.1 mesurent à quel point les pays intègrent l’éducation à la citoyenneté mondiale (ECM) et l’éducation pour le développement durable (EDD) dans leurs systèmes éducatifs. Il s’agit d’indicateurs des caractéristiques des différents aspects des systèmes éducatifs : politiques éducatives, programmes d’études, formation des enseignants et évaluation des élèves comme indiqués par les représentants du gouvernement, idéalement après consultation d’autres ministères, d’instituts nationaux des droits de l’homme, du secteur de l’éducation et d’organisations de la société civile. Ils mesurent ce que les gouvernements ont l’intention de faire et non ce qui est mis en œuvre dans la pratique dans les écoles et les salles de classe. 
+  <br><br>
+  Pour chacun des quatre éléments constitutifs de l'indicateur (politiques, programmes d’enseignement, formation des enseignants et évaluation des étudiants), plusieurs critères sont évalués, puis combinés afin d'obtenir une note unique comprise entre zéro et un pour chaque élément.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 
 # Global
@@ -22,4 +24,11 @@ un_designated_tier: Niveau II
 un_custodian_agency: Institut de statistique de l'UNESCO (ISU)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-08-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
- 
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: Navigateur de données de l'Institut de statistique de l'UNESCO (en anglais seulement)
+source_url_1: https://databrowser.uis.unesco.org/view#Paths=&geoMode=countries&geoUnits=CAN&timeMode=range&view=table&chartMode=multiple&chartHighlightSeries=&chartHighlightEnabled=true&indicatorPaths=UIS-SDG4Monitoring%3A0%3AGCS.NATLEDUPOL%2CUIS-SDG4Monitoring%3A0%3AGCS.CURRICULA%2CUIS-SDG4Monitoring%3A0%3AGCS.TEACHEDU%2CUIS-SDG4Monitoring%3A0%3AGCS.STUDENTASSESSMENT&tableIndicatorId=GCS.STUDENTASSESSMENT
+source_organisation_1: Institut de statistique de l'UNESCO
+source_periodicity_1: Occasionnelle
+source_geographical_coverage_1: Canada
