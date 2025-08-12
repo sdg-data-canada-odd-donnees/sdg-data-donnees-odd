@@ -6,8 +6,10 @@ SDG_TARGET: |-
 SDG_INDICATOR: |-
   Indicator 12.8.1: Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment
 STAT_CONC_DEF: |-
-  Indicator 4.7.1/12.8.1/13.3.1 measures the extent to which countries mainstream Global Citizenship Education (GCED) and Education for Sustainable Development (ESD) in their education systems. This is an indicator of characteristics of different aspects of education systems: education policies, curricula, teacher training and student assessment as reported by government officials, ideally following consultation with other government ministries, national human rights institutes, the education sector and civil society organizations. It measures what governments intend and not what is implemented in practice in schools and classrooms
-DATA_COMP: '   '
+  Indicator 4.7.1, 12.8.1, and 13.3.1 measure the extent to which countries mainstream Global Citizenship Education (GCED) and Education for Sustainable Development (ESD) in their education systems. This is an indicator of characteristics of different aspects of education systems: education policies, curricula, teacher training and student assessment as reported by government officials, ideally following consultation with other government ministries, national human rights institutes, the education sector and civil society organizations. It measures what governments intend and not what is implemented in practice in schools and classrooms.
+  <br><br>
+  For each of the four components of the indicator (policies, curricula, teacher education, and student assessment), a number of criteria are measured, which are then combined to give a single score between zero and one for each component.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 
 # Global
@@ -22,4 +24,11 @@ un_designated_tier: Tier II
 un_custodian_agency: UNESCO Institute for Statistics (UIS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-12-08-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
- 
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: UNESCO Institute for Statistics Data Browser
+source_url_1: https://databrowser.uis.unesco.org/view#Paths=&geoMode=countries&geoUnits=CAN&timeMode=range&view=table&chartMode=multiple&chartHighlightSeries=&chartHighlightEnabled=true&indicatorPaths=UIS-SDG4Monitoring%3A0%3AGCS.NATLEDUPOL%2CUIS-SDG4Monitoring%3A0%3AGCS.CURRICULA%2CUIS-SDG4Monitoring%3A0%3AGCS.TEACHEDU%2CUIS-SDG4Monitoring%3A0%3AGCS.STUDENTASSESSMENT&tableIndicatorId=GCS.STUDENTASSESSMENT
+source_organisation_1: UNESCO Institute for Statistics
+source_periodicity_1: Occasional
+source_geographical_coverage_1: Canada
