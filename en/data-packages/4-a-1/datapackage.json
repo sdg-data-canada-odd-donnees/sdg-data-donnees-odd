@@ -12,8 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of schools with access to computers for pedagogical purposes",
+                "Proportion of schools with access to the Internet for pedagogical purposes",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Secondary",
+                "Primary",
+                ""
+              ]
+            },
+            "title": "Education level"
           },
           {
             "name": "Value",
@@ -26,5 +50,5 @@
   ],
   "profile": "data-package",
   "name": "4-a-1",
-  "title": "Proportion of schools offering basic services, by type of service"
+  "title": "Proportion of schools offering basic services"
 }

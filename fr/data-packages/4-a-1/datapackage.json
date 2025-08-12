@@ -12,8 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion d'établissements scolaires ayant accès à des ordinateurs à des fins pédagogiques",
+                "Proportion d'établissements scolaires ayant accès à Internet à des fins pédagogiques",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Secondary",
+                "Primary",
+                ""
+              ]
+            },
+            "title": "Niveau de scolarité"
           },
           {
             "name": "Value",
@@ -26,5 +50,5 @@
   ],
   "profile": "data-package",
   "name": "4-a-1",
-  "title": "Proportion d’établissements scolaires offrant des services essentiels, par type de service"
+  "title": "Proportion d’établissements scolaires offrant des services essentiels"
 }

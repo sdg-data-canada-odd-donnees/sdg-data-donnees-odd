@@ -12,7 +12,29 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of schools with access to computers for pedagogical purposes",
+                "Proportion of schools with access to the Internet for pedagogical purposes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Secondary",
+                "Primary",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +46,5 @@
   ],
   "profile": "data-package",
   "name": "4-a-1",
-  "title": "global_indicators.4-a-1-title"
+  "title": "chart.4-a-1-title"
 }
