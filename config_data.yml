@@ -76,6 +76,26 @@ translations:
   - class: TranslationInputYaml
     source: translations
 
+# Indicator options
+# ----------------
+# Set names of special columns that should not be treated as disaggregations.
+# Observation attributes can be used to add contextual notes to data points.
+# Non-disaggregation columns are all other columns that do not represent categorical disaggregations of the data.
+indicator_options:
+  non_disaggregation_columns:
+  - Year
+  - Units
+  - Series
+  - Value
+  - GeoCode
+  - Progress
+  observation_attributes:
+  - COMMENT_OBS
+  - COMMENT_OBS_0
+  - COMMENT_OBS_1
+  - COMMENT_OBS_2
+  - SOURCE_DETAIL
+
 # Reporting status extra fields
 # -----------------------------
 # This allows the build to generate stats for reporting status by additional
