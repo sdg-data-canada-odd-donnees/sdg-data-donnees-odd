@@ -12,8 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "a) Politiques nationales d’éducation",
+                "b) Programmes d’enseignement",
+                "c) Formation des enseignants",
+                "d) Évaluation des étudiants",
+                ""
+              ]
+            },
+            "title": "Series"
           },
           {
             "name": "Value",

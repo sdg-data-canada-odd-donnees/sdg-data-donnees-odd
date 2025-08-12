@@ -12,8 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "a) National education policies",
+                "b) Curricula",
+                "c) Teacher education",
+                "d) Student assessment",
+                ""
+              ]
+            },
+            "title": "Series"
           },
           {
             "name": "Value",

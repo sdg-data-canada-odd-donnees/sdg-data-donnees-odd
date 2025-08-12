@@ -7,7 +7,7 @@ Indicator,Disaggregations,Number of disaggregations
 #1-a-1,Poverty reduction aid type,1
 #10-1-1,"Series, Geography, Household income quintile, Household income decile",4
 #10-2-1,"Geography, Persons in low income",2
-#10-3-1,"Series, Geography, Gender, Age group, Highest level of education, Discrimination indicators, Immigrant status, Visible minority, Indigenous identity, Disability, LGBTQ2+, Main activity, Area",13
+#10-3-1,"Series, Geography, Age group, Highest level of education, Gender, Discrimination indicators, Immigrant status, Visible minority, Indigenous identity, Disability, LGBTQ2+, Main activity, Area",13
 #10-4-1,Geography,1
 #10-5-1,Indicator,1
 #10-b-1,Measure,1
@@ -22,9 +22,11 @@ Indicator,Disaggregations,Number of disaggregations
 #11-7-2,"Sex, Unwanted or inappropriate behaviour",2
 #12-5-1,"Geography, Type of materials diverted, Sources of materials prepared for recycling",3
 #12-7-1,Sub-indicators,1
+#12-8-1,Series,1
 #12-b-1,Standard Accounting Tools,1
 #13-1-1,"Units, Type of natural disaster",2
 #13-2-2,"Geography, Source",2
+#13-3-1,Series,1
 #13-a-1,Theme,1
 #14-4-1,Stock group,1
 #15-1-1,"Series, Units",2
@@ -32,16 +34,16 @@ Indicator,Disaggregations,Number of disaggregations
 #15-2-1,"Series, Units",2
 #15-5-1,"Series, Progress, Species group, System",4
 #16-1-1,"Geography, Gender, Indigenous identity",3
-#16-1-3,"Series, Gender, Age group, Immigrant status, Visible minority, Sexual orientation, First Nations, Métis, or Inuit identity, Person with disability, Marital status",9
+#16-1-3,"Series, Age group, Gender, Immigrant status, Visible minority, Sexual orientation, First Nations, Métis, or Inuit identity, Person with disability, Marital status",9
 #16-1-4,"Visible minority, Sociodemographic characteristics",2
 #16-10-2,Component,1
-#16-2-1,"Geography, Gender, Age group, Immigrant status, Visible minority, Indigenous identity, Disability, Sexual orientation, Type of childhood maltreatment",9
-#16-2-3,"Geography, Gender, Age group",3
+#16-2-1,"Geography, Age group, Gender, Immigrant status, Visible minority, Indigenous identity, Disability, Sexual orientation, Type of childhood maltreatment",9
+#16-2-3,"Geography, Age group, Gender",3
 #16-3-1,"Series, Type of victimization",2
 #16-3-3,Resolution mechanism,1
 #16-6-1,Progress,1
 #16-7-2,"Visible minority, Institutions, Selected sociodemographic characteristics",3
-#16-b-1,"Series, Geography, Gender, Age group, Highest level of education, Discrimination indicators, Immigrant status, Visible minority, Indigenous identity, Disability, LGBTQ2+, Main activity, Area",13
+#16-b-1,"Series, Geography, Age group, Highest level of education, Gender, Discrimination indicators, Immigrant status, Visible minority, Indigenous identity, Disability, LGBTQ2+, Main activity, Area",13
 #17-1-1,Component,1
 #17-2-1,"Official development assistance, Least developed countries",2
 #17-6-1,"Series, Geography, Units, Population centres",4
@@ -72,7 +74,7 @@ Indicator,Disaggregations,Number of disaggregations
 #3-7-2,Place of residence of mother,1
 #3-8-2,"Series, Units, Population",3
 #3-9-2,Type of disease,1
-#3-a-1,"Sex, Age group, Tobacco Product",3
+#3-a-1,"Sex, Tobacco Product, Age group",3
 #3-b-1,"Geography, Gender, Antigen or vaccine, Target population",4
 #3-b-2,Assistance type,1
 #3-c-1,"Series, Geography, Units, Sex, Type of occupation",5
@@ -81,15 +83,16 @@ Indicator,Disaggregations,Number of disaggregations
 #4-2-2,Sex,1
 #4-3-1,"Geography, Age group, Type of institution attended",3
 #4-4-1,"Age group, Activity related to digital skills, Highest level of education",3
-#4-5-1,"Series, Units, Sex, Age group, Progress, Highest level of education, Location",7
-#4-6-1,"Geography, Gender, Age group, Proficiency level, Skill",5
+#4-5-1,"Series, Units, Sex, Progress, Age group, Highest level of education, Location",7
+#4-6-1,"Geography, Age group, Gender, Proficiency level, Skill",5
+#4-7-1,Series,1
 #4-a-1,"Series, Education level",2
 #5-2-1,"Type of intimate partner violence, Selected characteristics",2
 #5-2-2,"Geography, Age group, Immigrant status, Visible minority, Indigenous identity, Disability, Sexual orientation, Marital status, Employed in past 12 months, Educational status",10
 #5-3-1,"Geography, Age group, Marital status",3
-#5-4-1,"Geography, Gender, Age group, Progress, Activity group",5
+#5-4-1,"Geography, Progress, Age group, Gender, Activity group",5
 #5-5-1,"Geography, Government, Elected officials",3
-#5-5-2,"Geography, Gender, Age group, Progress",4
+#5-5-2,"Geography, Occupation, Progress",3
 #5-b-1,Geography,1
 #6-3-1,"Units, Source, Wastewater treatment level",3
 #6-3-2,"Geography, Water quality category, Land use category",3
@@ -103,8 +106,8 @@ Indicator,Disaggregations,Number of disaggregations
 #8-1-1,"Geography, Progress",2
 #8-10-1,Series,1
 #8-2-1,"Geography, Progress",2
-#8-5-1,"Geography, Gender, Age group, Occupation, Type of work",5
-#8-5-2,"Geography, Gender, Age group, Progress",4
+#8-5-1,"Geography, Occupation, Age group, Type of work, Gender",5
+#8-5-2,"Geography, Progress, Age group, Gender",4
 #8-6-1,"Geography, Sex, Age group, Status",4
 #8-8-1,"Series, Sex",2
 #8-a-1,Flow type,1
