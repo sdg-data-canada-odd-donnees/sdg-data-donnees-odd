@@ -2,9 +2,9 @@ computation_units: ""
 copyright: ""
 data_footnote: ""
 data_non_statistical: false
-data_notice_class: success
-data_notice_heading: custom.exploring-data-sources-header
-data_notice_text: custom.exploring-data-sources-text
+data_notice_class: ''
+data_notice_heading: ''
+data_notice_text: ''
 data_show_map: false
 data_start_values: []
 embedded_feature_footer: ""
@@ -16,15 +16,24 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ""
-graph_title: global_indicators.4-7-1-title
-graph_titles: []
-graph_type: line
+graph_title: ''
+graph_titles: 
+  - series: a) National education policies
+    title: Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in national education policies
+  - series: b) Curricula
+    title: Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in curricula
+  - series: c) Teacher education
+    title: Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in teacher education
+  - series: d) Student assessment
+    title: Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in student assessment
+graph_type: bar
 indicator_name: global_indicators.4-7-1-title
 indicator_number: 4.7.1
 national_geographical_coverage: Canada
 page_content: ""
 permalink: ""
 precision: []
+reporting_status: complete
 progress_calculation_options:
 - direction: positive
   target: 100
