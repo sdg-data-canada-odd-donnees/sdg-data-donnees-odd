@@ -6,12 +6,12 @@ SDG_TARGET: |-
 SDG_INDICATOR: |-
   Indicateur 4.a.1 : Proportion d’établissements scolaires offrant des services essentiels, par type de service
 STAT_CONC_DEF: |-
-  Le pourcentage d’écoles ayant accès à l’installation ou au service donné, selon le niveau d’éducation (enseignement primaire, premier cycle du secondaire et deuxième cycle du secondaire).
+  Le pourcentage d’établissements scolaires ayant accès à l’installation ou au service donné, selon le niveau d’éducation (enseignement primaire, premier cycle du secondaire et deuxième cycle du secondaire).
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   Les données pour l'enseignement secondaire combinent les deux niveaux de l'enseignement du premier cycle et deuxième cycle du secondaire.
   <br><br>
-  Les données pour la série « Proportion d'écoles ayant accès à Internet à des fins pédagogiques » ne sont disponibles que pour l'enseignement secondaire.
+  Les données pour la série « Proportion d'établissements scolaires ayant accès à Internet à des fins pédagogiques » ne sont disponibles que pour l'enseignement secondaire.
 
 # Global
 SDG_GOAL__GLOBAL: |-
