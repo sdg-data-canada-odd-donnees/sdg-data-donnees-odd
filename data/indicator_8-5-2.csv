@@ -1,14 +1,14 @@
 "Year","Gender","Age group","Geography","GeoCode","Progress","Value"
-"2015","","","",,7,7
-"2016","","","",,7.1,7.1
-"2017","","","",,6.4,6.4
-"2018","","","",,5.8,5.8
-"2019","","","",,5.7,5.7
-"2020","","","",,9.7,9.7
-"2021","","","",,7.5,7.5
-"2022","","","",,5.3,5.3
-"2023","","","",,5.4,5.4
-"2024","","","",,6.3,6.3
+"2015",,,,,7,7
+"2016",,,,,7.1,7.1
+"2017",,,,,6.4,6.4
+"2018",,,,,5.8,5.8
+"2019",,,,,5.7,5.7
+"2020",,,,,9.7,9.7
+"2021",,,,,7.5,7.5
+"2022",,,,,5.3,5.3
+"2023",,,,,5.4,5.4
+"2024",,,,,6.3,6.3
 "2015","Total - Gender","15 to 24 years","Canada",,12.8,12.8
 "2015","Total - Gender","25 years and over","Canada",,6,6
 "2015","Total - Gender","25 to 44 years","Canada",,6.2,6.2
@@ -29,7 +29,7 @@
 "2015","Total - Gender","60 to 64 years","Canada",,6.7,6.7
 "2015","Total - Gender","65 years and over","Canada",,4.6,4.6
 "2015","Total - Gender","65 to 69 years","Canada",,5.4,5.4
-"2015","Total - Gender","70 years and over","Canada",,,2.9
+"2015","Total - Gender","70 years and over","Canada",,-1,2.9
 "2015","Men+","15 years and over","Canada",,7.5,7.5
 "2015","Men+","15 to 24 years","Canada",,14.7,14.7
 "2015","Men+","25 years and over","Canada",,6.3,6.3
@@ -51,7 +51,7 @@
 "2015","Men+","60 to 64 years","Canada",,7.5,7.5
 "2015","Men+","65 years and over","Canada",,4.8,4.8
 "2015","Men+","65 to 69 years","Canada",,6,6
-"2015","Men+","70 years and over","Canada",,,2.6
+"2015","Men+","70 years and over","Canada",,-1,2.6
 "2015","Women+","15 years and over","Canada",,6.4,6.4
 "2015","Women+","15 to 24 years","Canada",,10.8,10.8
 "2015","Women+","25 years and over","Canada",,5.6,5.6
@@ -425,7 +425,7 @@
 "2015","Total - Gender","60 to 64 years","Ontario",35,5.6,5.6
 "2015","Total - Gender","65 years and over","Ontario",35,3.7,3.7
 "2015","Total - Gender","65 to 69 years","Ontario",35,4.7,4.7
-"2015","Total - Gender","70 years and over","Ontario",35,,1.7
+"2015","Total - Gender","70 years and over","Ontario",35,-1,1.7
 "2015","Men+","15 years and over","Ontario",35,7.1,7.1
 "2015","Men+","15 to 24 years","Ontario",35,16.1,16.1
 "2015","Men+","25 years and over","Ontario",35,5.6,5.6
@@ -555,7 +555,7 @@
 "2015","Total - Gender","50 to 54 years","Saskatchewan",47,3.2,3.2
 "2015","Total - Gender","55 to 59 years","Saskatchewan",47,4.1,4.1
 "2015","Total - Gender","60 to 64 years","Saskatchewan",47,3.9,3.9
-"2015","Total - Gender","65 years and over","Saskatchewan",47,,2.8
+"2015","Total - Gender","65 years and over","Saskatchewan",47,-1,2.8
 "2015","Total - Gender","65 to 69 years","Saskatchewan",47,3.4,3.4
 "2015","Total - Gender","70 years and over","Saskatchewan",47,,
 "2015","Men+","15 years and over","Saskatchewan",47,5.6,5.6
@@ -596,7 +596,7 @@
 "2015","Women+","35 to 39 years","Saskatchewan",47,3.6,3.6
 "2015","Women+","40 to 44 years","Saskatchewan",47,3.9,3.9
 "2015","Women+","45 to 49 years","Saskatchewan",47,3.8,3.8
-"2015","Women+","50 to 54 years","Saskatchewan",47,,2.5
+"2015","Women+","50 to 54 years","Saskatchewan",47,-1,2.5
 "2015","Women+","55 to 59 years","Saskatchewan",47,3.4,3.4
 "2015","Women+","60 to 64 years","Saskatchewan",47,,
 "2015","Women+","65 years and over","Saskatchewan",47,,
@@ -798,7 +798,7 @@
 "2016","Women+","60 to 64 years","Canada",,6.5,6.5
 "2016","Women+","65 years and over","Canada",,3.5,3.5
 "2016","Women+","65 to 69 years","Canada",,4.1,4.1
-"2016","Women+","70 years and over","Canada",,,2.1
+"2016","Women+","70 years and over","Canada",,-1,2.1
 "2016","Total - Gender","15 years and over","Newfoundland and Labrador",10,13.7,13.7
 "2016","Total - Gender","15 to 24 years","Newfoundland and Labrador",10,16.6,16.6
 "2016","Total - Gender","25 years and over","Newfoundland and Labrador",10,13.2,13.2
@@ -1150,7 +1150,7 @@
 "2016","Total - Gender","60 to 64 years","Ontario",35,5.7,5.7
 "2016","Total - Gender","65 years and over","Ontario",35,3.2,3.2
 "2016","Total - Gender","65 to 69 years","Ontario",35,3.6,3.6
-"2016","Total - Gender","70 years and over","Ontario",35,,2.4
+"2016","Total - Gender","70 years and over","Ontario",35,-1,2.4
 "2016","Men+","15 years and over","Ontario",35,6.8,6.8
 "2016","Men+","15 to 24 years","Ontario",35,14.7,14.7
 "2016","Men+","25 years and over","Ontario",35,5.5,5.5
@@ -1214,7 +1214,7 @@
 "2016","Total - Gender","50 to 54 years","Manitoba",46,4.7,4.7
 "2016","Total - Gender","55 to 59 years","Manitoba",46,4.6,4.6
 "2016","Total - Gender","60 to 64 years","Manitoba",46,4.5,4.5
-"2016","Total - Gender","65 years and over","Manitoba",46,,2.7
+"2016","Total - Gender","65 years and over","Manitoba",46,-1,2.7
 "2016","Total - Gender","65 to 69 years","Manitoba",46,3.4,3.4
 "2016","Total - Gender","70 years and over","Manitoba",46,,
 "2016","Men+","15 years and over","Manitoba",46,6.6,6.6
@@ -1939,7 +1939,7 @@
 "2017","Total - Gender","50 to 54 years","Manitoba",46,4.2,4.2
 "2017","Total - Gender","55 to 59 years","Manitoba",46,4.1,4.1
 "2017","Total - Gender","60 to 64 years","Manitoba",46,4.4,4.4
-"2017","Total - Gender","65 years and over","Manitoba",46,,2.3
+"2017","Total - Gender","65 years and over","Manitoba",46,-1,2.3
 "2017","Total - Gender","65 to 69 years","Manitoba",46,3.2,3.2
 "2017","Total - Gender","70 years and over","Manitoba",46,,
 "2017","Men+","15 years and over","Manitoba",46,5.6,5.6
@@ -2248,7 +2248,7 @@
 "2018","Women+","60 to 64 years","Canada",,5.4,5.4
 "2018","Women+","65 years and over","Canada",,3.5,3.5
 "2018","Women+","65 to 69 years","Canada",,4,4
-"2018","Women+","70 years and over","Canada",,,2.6
+"2018","Women+","70 years and over","Canada",,-1,2.6
 "2018","Total - Gender","15 years and over","Newfoundland and Labrador",10,14,14
 "2018","Total - Gender","15 to 24 years","Newfoundland and Labrador",10,18.7,18.7
 "2018","Total - Gender","25 years and over","Newfoundland and Labrador",10,13.4,13.4
@@ -2642,7 +2642,7 @@
 "2018","Women+","50 to 54 years","Ontario",35,3.7,3.7
 "2018","Women+","55 to 59 years","Ontario",35,3.6,3.6
 "2018","Women+","60 to 64 years","Ontario",35,5.2,5.2
-"2018","Women+","65 years and over","Ontario",35,,2.8
+"2018","Women+","65 years and over","Ontario",35,-1,2.8
 "2018","Women+","65 to 69 years","Ontario",35,3.1,3.1
 "2018","Women+","70 years and over","Ontario",35,,
 "2018","Total - Gender","15 years and over","Manitoba",46,6,6
@@ -2951,7 +2951,7 @@
 "2019","Men+","60 to 64 years","Canada",,6.6,6.6
 "2019","Men+","65 years and over","Canada",,4.3,4.3
 "2019","Men+","65 to 69 years","Canada",,5.3,5.3
-"2019","Men+","70 years and over","Canada",,,2.8
+"2019","Men+","70 years and over","Canada",,-1,2.8
 "2019","Women+","15 years and over","Canada",,5.3,5.3
 "2019","Women+","15 to 24 years","Canada",,9.3,9.3
 "2019","Women+","25 years and over","Canada",,4.6,4.6
@@ -3325,7 +3325,7 @@
 "2019","Total - Gender","60 to 64 years","Ontario",35,4.6,4.6
 "2019","Total - Gender","65 years and over","Ontario",35,3.2,3.2
 "2019","Total - Gender","65 to 69 years","Ontario",35,3.7,3.7
-"2019","Total - Gender","70 years and over","Ontario",35,,2.5
+"2019","Total - Gender","70 years and over","Ontario",35,-1,2.5
 "2019","Men+","15 years and over","Ontario",35,5.7,5.7
 "2019","Men+","15 to 24 years","Ontario",35,12.7,12.7
 "2019","Men+","25 years and over","Ontario",35,4.5,4.5
@@ -3347,7 +3347,7 @@
 "2019","Men+","60 to 64 years","Ontario",35,4.8,4.8
 "2019","Men+","65 years and over","Ontario",35,3.2,3.2
 "2019","Men+","65 to 69 years","Ontario",35,4,4
-"2019","Men+","70 years and over","Ontario",35,,2
+"2019","Men+","70 years and over","Ontario",35,-1,2
 "2019","Women+","15 years and over","Ontario",35,5.4,5.4
 "2019","Women+","15 to 24 years","Ontario",35,10.5,10.5
 "2019","Women+","25 years and over","Ontario",35,4.4,4.4
@@ -3389,8 +3389,8 @@
 "2019","Total - Gender","50 to 54 years","Manitoba",46,3.3,3.3
 "2019","Total - Gender","55 to 59 years","Manitoba",46,3.7,3.7
 "2019","Total - Gender","60 to 64 years","Manitoba",46,5.1,5.1
-"2019","Total - Gender","65 years and over","Manitoba",46,,2.5
-"2019","Total - Gender","65 to 69 years","Manitoba",46,,2.5
+"2019","Total - Gender","65 years and over","Manitoba",46,-1,2.5
+"2019","Total - Gender","65 to 69 years","Manitoba",46,-1,2.5
 "2019","Total - Gender","70 years and over","Manitoba",46,,
 "2019","Men+","15 years and over","Manitoba",46,5.9,5.9
 "2019","Men+","15 to 24 years","Manitoba",46,12.9,12.9
@@ -3430,7 +3430,7 @@
 "2019","Women+","35 to 39 years","Manitoba",46,4.3,4.3
 "2019","Women+","40 to 44 years","Manitoba",46,3.8,3.8
 "2019","Women+","45 to 49 years","Manitoba",46,3.9,3.9
-"2019","Women+","50 to 54 years","Manitoba",46,,2.9
+"2019","Women+","50 to 54 years","Manitoba",46,-1,2.9
 "2019","Women+","55 to 59 years","Manitoba",46,3.4,3.4
 "2019","Women+","60 to 64 years","Manitoba",46,4.7,4.7
 "2019","Women+","65 years and over","Manitoba",46,,
@@ -3587,8 +3587,8 @@
 "2019","Total - Gender","50 to 54 years","British Columbia",59,4,4
 "2019","Total - Gender","55 to 59 years","British Columbia",59,3.9,3.9
 "2019","Total - Gender","60 to 64 years","British Columbia",59,6.2,6.2
-"2019","Total - Gender","65 years and over","British Columbia",59,,2.6
-"2019","Total - Gender","65 to 69 years","British Columbia",59,,2.4
+"2019","Total - Gender","65 years and over","British Columbia",59,-1,2.6
+"2019","Total - Gender","65 to 69 years","British Columbia",59,-1,2.4
 "2019","Total - Gender","70 years and over","British Columbia",59,,
 "2019","Men+","15 years and over","British Columbia",59,4.8,4.8
 "2019","Men+","15 to 24 years","British Columbia",59,10.2,10.2
@@ -3609,7 +3609,7 @@
 "2019","Men+","50 to 54 years","British Columbia",59,3.4,3.4
 "2019","Men+","55 to 59 years","British Columbia",59,3.8,3.8
 "2019","Men+","60 to 64 years","British Columbia",59,6,6
-"2019","Men+","65 years and over","British Columbia",59,,2.4
+"2019","Men+","65 years and over","British Columbia",59,-1,2.4
 "2019","Men+","65 to 69 years","British Columbia",59,,
 "2019","Men+","70 years and over","British Columbia",59,,
 "2019","Women+","15 years and over","British Columbia",59,4.9,4.9
@@ -3631,7 +3631,7 @@
 "2019","Women+","50 to 54 years","British Columbia",59,4.7,4.7
 "2019","Women+","55 to 59 years","British Columbia",59,4,4
 "2019","Women+","60 to 64 years","British Columbia",59,6.3,6.3
-"2019","Women+","65 years and over","British Columbia",59,,2.9
+"2019","Women+","65 years and over","British Columbia",59,-1,2.9
 "2019","Women+","65 to 69 years","British Columbia",59,,
 "2019","Women+","70 years and over","British Columbia",59,,
 "2020","Total - Gender","15 to 24 years","Canada",,20.1,20.1
@@ -5340,7 +5340,7 @@
 "2022","Women+","30 to 34 years","Nova Scotia",12,4.8,4.8
 "2022","Women+","35 to 39 years","Nova Scotia",12,4.7,4.7
 "2022","Women+","40 to 44 years","Nova Scotia",12,4.8,4.8
-"2022","Women+","45 to 49 years","Nova Scotia",12,,2.8
+"2022","Women+","45 to 49 years","Nova Scotia",12,-1,2.8
 "2022","Women+","50 to 54 years","Nova Scotia",12,4.3,4.3
 "2022","Women+","55 to 59 years","Nova Scotia",12,6,6
 "2022","Women+","60 to 64 years","Nova Scotia",12,7.1,7.1
@@ -5427,7 +5427,7 @@
 "2022","Total - Gender","25 to 29 years","Quebec",24,4.8,4.8
 "2022","Total - Gender","30 to 34 years","Quebec",24,3.5,3.5
 "2022","Total - Gender","35 to 39 years","Quebec",24,4.1,4.1
-"2022","Total - Gender","40 to 44 years","Quebec",24,,2.7
+"2022","Total - Gender","40 to 44 years","Quebec",24,-1,2.7
 "2022","Total - Gender","45 to 49 years","Quebec",24,3.1,3.1
 "2022","Total - Gender","50 to 54 years","Quebec",24,3.2,3.2
 "2022","Total - Gender","55 to 59 years","Quebec",24,4.4,4.4
@@ -5449,7 +5449,7 @@
 "2022","Men+","25 to 29 years","Quebec",24,5.6,5.6
 "2022","Men+","30 to 34 years","Quebec",24,3.7,3.7
 "2022","Men+","35 to 39 years","Quebec",24,3.4,3.4
-"2022","Men+","40 to 44 years","Quebec",24,,2.5
+"2022","Men+","40 to 44 years","Quebec",24,-1,2.5
 "2022","Men+","45 to 49 years","Quebec",24,3.2,3.2
 "2022","Men+","50 to 54 years","Quebec",24,3.8,3.8
 "2022","Men+","55 to 59 years","Quebec",24,4.6,4.6
@@ -5471,9 +5471,9 @@
 "2022","Women+","25 to 29 years","Quebec",24,3.9,3.9
 "2022","Women+","30 to 34 years","Quebec",24,3.2,3.2
 "2022","Women+","35 to 39 years","Quebec",24,4.7,4.7
-"2022","Women+","40 to 44 years","Quebec",24,,2.8
+"2022","Women+","40 to 44 years","Quebec",24,-1,2.8
 "2022","Women+","45 to 49 years","Quebec",24,3,3
-"2022","Women+","50 to 54 years","Quebec",24,,2.6
+"2022","Women+","50 to 54 years","Quebec",24,-1,2.6
 "2022","Women+","55 to 59 years","Quebec",24,4,4
 "2022","Women+","60 to 64 years","Quebec",24,4.2,4.2
 "2022","Women+","65 years and over","Quebec",24,4.2,4.2
@@ -5561,7 +5561,7 @@
 "2022","Total - Gender","35 to 39 years","Manitoba",46,3,3
 "2022","Total - Gender","40 to 44 years","Manitoba",46,3.9,3.9
 "2022","Total - Gender","45 to 49 years","Manitoba",46,3.3,3.3
-"2022","Total - Gender","50 to 54 years","Manitoba",46,,2.9
+"2022","Total - Gender","50 to 54 years","Manitoba",46,-1,2.9
 "2022","Total - Gender","55 to 59 years","Manitoba",46,3.7,3.7
 "2022","Total - Gender","60 to 64 years","Manitoba",46,5,5
 "2022","Total - Gender","65 years and over","Manitoba",46,3.8,3.8
@@ -5580,7 +5580,7 @@
 "2022","Men+","20 to 24 years","Manitoba",46,7.8,7.8
 "2022","Men+","25 to 29 years","Manitoba",46,4.2,4.2
 "2022","Men+","30 to 34 years","Manitoba",46,4.4,4.4
-"2022","Men+","35 to 39 years","Manitoba",46,,1.9
+"2022","Men+","35 to 39 years","Manitoba",46,-1,1.9
 "2022","Men+","40 to 44 years","Manitoba",46,3.9,3.9
 "2022","Men+","45 to 49 years","Manitoba",46,3,3
 "2022","Men+","50 to 54 years","Manitoba",46,3.3,3.3
@@ -5605,7 +5605,7 @@
 "2022","Women+","35 to 39 years","Manitoba",46,4.2,4.2
 "2022","Women+","40 to 44 years","Manitoba",46,3.9,3.9
 "2022","Women+","45 to 49 years","Manitoba",46,3.7,3.7
-"2022","Women+","50 to 54 years","Manitoba",46,,2.5
+"2022","Women+","50 to 54 years","Manitoba",46,-1,2.5
 "2022","Women+","55 to 59 years","Manitoba",46,3.7,3.7
 "2022","Women+","60 to 64 years","Manitoba",46,5.9,5.9
 "2022","Women+","65 years and over","Manitoba",46,,
@@ -5668,9 +5668,9 @@
 "2022","Women+","20 to 24 years","Saskatchewan",47,4.2,4.2
 "2022","Women+","25 to 29 years","Saskatchewan",47,3.5,3.5
 "2022","Women+","30 to 34 years","Saskatchewan",47,4.1,4.1
-"2022","Women+","35 to 39 years","Saskatchewan",47,,2.9
+"2022","Women+","35 to 39 years","Saskatchewan",47,-1,2.9
 "2022","Women+","40 to 44 years","Saskatchewan",47,3.2,3.2
-"2022","Women+","45 to 49 years","Saskatchewan",47,,2.9
+"2022","Women+","45 to 49 years","Saskatchewan",47,-1,2.9
 "2022","Women+","50 to 54 years","Saskatchewan",47,3.8,3.8
 "2022","Women+","55 to 59 years","Saskatchewan",47,3.1,3.1
 "2022","Women+","60 to 64 years","Saskatchewan",47,3.9,3.9
@@ -5757,7 +5757,7 @@
 "2022","Total - Gender","25 to 29 years","British Columbia",59,5.2,5.2
 "2022","Total - Gender","30 to 34 years","British Columbia",59,4.7,4.7
 "2022","Total - Gender","35 to 39 years","British Columbia",59,3.6,3.6
-"2022","Total - Gender","40 to 44 years","British Columbia",59,,2.9
+"2022","Total - Gender","40 to 44 years","British Columbia",59,-1,2.9
 "2022","Total - Gender","45 to 49 years","British Columbia",59,3.3,3.3
 "2022","Total - Gender","50 to 54 years","British Columbia",59,4.1,4.1
 "2022","Total - Gender","55 to 59 years","British Columbia",59,3.8,3.8
@@ -5779,8 +5779,8 @@
 "2022","Men+","25 to 29 years","British Columbia",59,5.8,5.8
 "2022","Men+","30 to 34 years","British Columbia",59,4.8,4.8
 "2022","Men+","35 to 39 years","British Columbia",59,3.5,3.5
-"2022","Men+","40 to 44 years","British Columbia",59,,2.9
-"2022","Men+","45 to 49 years","British Columbia",59,,2.4
+"2022","Men+","40 to 44 years","British Columbia",59,-1,2.9
+"2022","Men+","45 to 49 years","British Columbia",59,-1,2.4
 "2022","Men+","50 to 54 years","British Columbia",59,3.6,3.6
 "2022","Men+","55 to 59 years","British Columbia",59,4.1,4.1
 "2022","Men+","60 to 64 years","British Columbia",59,5.2,5.2
@@ -5801,7 +5801,7 @@
 "2022","Women+","25 to 29 years","British Columbia",59,4.5,4.5
 "2022","Women+","30 to 34 years","British Columbia",59,4.5,4.5
 "2022","Women+","35 to 39 years","British Columbia",59,3.7,3.7
-"2022","Women+","40 to 44 years","British Columbia",59,,2.9
+"2022","Women+","40 to 44 years","British Columbia",59,-1,2.9
 "2022","Women+","45 to 49 years","British Columbia",59,4.2,4.2
 "2022","Women+","50 to 54 years","British Columbia",59,4.6,4.6
 "2022","Women+","55 to 59 years","British Columbia",59,3.4,3.4
@@ -6153,7 +6153,7 @@
 "2023","Total - Gender","30 to 34 years","Quebec",24,4.5,4.5
 "2023","Total - Gender","35 to 39 years","Quebec",24,3.5,3.5
 "2023","Total - Gender","40 to 44 years","Quebec",24,3.4,3.4
-"2023","Total - Gender","45 to 49 years","Quebec",24,,2.9
+"2023","Total - Gender","45 to 49 years","Quebec",24,-1,2.9
 "2023","Total - Gender","50 to 54 years","Quebec",24,3.9,3.9
 "2023","Total - Gender","55 to 59 years","Quebec",24,3.9,3.9
 "2023","Total - Gender","60 to 64 years","Quebec",24,4.9,4.9
@@ -6197,7 +6197,7 @@
 "2023","Women+","30 to 34 years","Quebec",24,4.4,4.4
 "2023","Women+","35 to 39 years","Quebec",24,3.5,3.5
 "2023","Women+","40 to 44 years","Quebec",24,3.3,3.3
-"2023","Women+","45 to 49 years","Quebec",24,,2.5
+"2023","Women+","45 to 49 years","Quebec",24,-1,2.5
 "2023","Women+","50 to 54 years","Quebec",24,3.8,3.8
 "2023","Women+","55 to 59 years","Quebec",24,3.5,3.5
 "2023","Women+","60 to 64 years","Quebec",24,5.1,5.1
@@ -6225,7 +6225,7 @@
 "2023","Total - Gender","60 to 64 years","Ontario",35,4.6,4.6
 "2023","Total - Gender","65 years and over","Ontario",35,3.5,3.5
 "2023","Total - Gender","65 to 69 years","Ontario",35,4,4
-"2023","Total - Gender","70 years and over","Ontario",35,,2.6
+"2023","Total - Gender","70 years and over","Ontario",35,-1,2.6
 "2023","Men+","15 years and over","Ontario",35,5.5,5.5
 "2023","Men+","15 to 24 years","Ontario",35,12.7,12.7
 "2023","Men+","25 years and over","Ontario",35,4.3,4.3
@@ -6241,7 +6241,7 @@
 "2023","Men+","30 to 34 years","Ontario",35,4.9,4.9
 "2023","Men+","35 to 39 years","Ontario",35,3.9,3.9
 "2023","Men+","40 to 44 years","Ontario",35,3.9,3.9
-"2023","Men+","45 to 49 years","Ontario",35,,2.9
+"2023","Men+","45 to 49 years","Ontario",35,-1,2.9
 "2023","Men+","50 to 54 years","Ontario",35,3.8,3.8
 "2023","Men+","55 to 59 years","Ontario",35,3.7,3.7
 "2023","Men+","60 to 64 years","Ontario",35,4.9,4.9
@@ -6267,7 +6267,7 @@
 "2023","Women+","50 to 54 years","Ontario",35,4.2,4.2
 "2023","Women+","55 to 59 years","Ontario",35,4.3,4.3
 "2023","Women+","60 to 64 years","Ontario",35,4.2,4.2
-"2023","Women+","65 years and over","Ontario",35,,2.7
+"2023","Women+","65 years and over","Ontario",35,-1,2.7
 "2023","Women+","65 to 69 years","Ontario",35,3,3
 "2023","Women+","70 years and over","Ontario",35,,
 "2023","Total - Gender","15 years and over","Manitoba",46,4.9,4.9
@@ -6284,7 +6284,7 @@
 "2023","Total - Gender","25 to 29 years","Manitoba",46,5.6,5.6
 "2023","Total - Gender","30 to 34 years","Manitoba",46,5.1,5.1
 "2023","Total - Gender","35 to 39 years","Manitoba",46,3.3,3.3
-"2023","Total - Gender","40 to 44 years","Manitoba",46,,2.9
+"2023","Total - Gender","40 to 44 years","Manitoba",46,-1,2.9
 "2023","Total - Gender","45 to 49 years","Manitoba",46,3.5,3.5
 "2023","Total - Gender","50 to 54 years","Manitoba",46,3.6,3.6
 "2023","Total - Gender","55 to 59 years","Manitoba",46,3.4,3.4
@@ -6305,13 +6305,13 @@
 "2023","Men+","20 to 24 years","Manitoba",46,7.5,7.5
 "2023","Men+","25 to 29 years","Manitoba",46,6.8,6.8
 "2023","Men+","30 to 34 years","Manitoba",46,5.3,5.3
-"2023","Men+","35 to 39 years","Manitoba",46,,2.8
-"2023","Men+","40 to 44 years","Manitoba",46,,2.8
+"2023","Men+","35 to 39 years","Manitoba",46,-1,2.8
+"2023","Men+","40 to 44 years","Manitoba",46,-1,2.8
 "2023","Men+","45 to 49 years","Manitoba",46,4.6,4.6
 "2023","Men+","50 to 54 years","Manitoba",46,3.6,3.6
 "2023","Men+","55 to 59 years","Manitoba",46,3.2,3.2
 "2023","Men+","60 to 64 years","Manitoba",46,3.9,3.9
-"2023","Men+","65 years and over","Manitoba",46,,2.4
+"2023","Men+","65 years and over","Manitoba",46,-1,2.4
 "2023","Men+","65 to 69 years","Manitoba",46,,
 "2023","Men+","70 years and over","Manitoba",46,,
 "2023","Women+","15 years and over","Manitoba",46,4.8,4.8
@@ -6329,7 +6329,7 @@
 "2023","Women+","30 to 34 years","Manitoba",46,5,5
 "2023","Women+","35 to 39 years","Manitoba",46,3.8,3.8
 "2023","Women+","40 to 44 years","Manitoba",46,3.4,3.4
-"2023","Women+","45 to 49 years","Manitoba",46,,2.6
+"2023","Women+","45 to 49 years","Manitoba",46,-1,2.6
 "2023","Women+","50 to 54 years","Manitoba",46,3.6,3.6
 "2023","Women+","55 to 59 years","Manitoba",46,3.3,3.3
 "2023","Women+","60 to 64 years","Manitoba",46,5.3,5.3
@@ -6355,7 +6355,7 @@
 "2023","Total - Gender","50 to 54 years","Saskatchewan",47,3.7,3.7
 "2023","Total - Gender","55 to 59 years","Saskatchewan",47,3.5,3.5
 "2023","Total - Gender","60 to 64 years","Saskatchewan",47,3.6,3.6
-"2023","Total - Gender","65 years and over","Saskatchewan",47,,2.8
+"2023","Total - Gender","65 years and over","Saskatchewan",47,-1,2.8
 "2023","Total - Gender","65 to 69 years","Saskatchewan",47,3.4,3.4
 "2023","Total - Gender","70 years and over","Saskatchewan",47,,
 "2023","Men+","15 years and over","Saskatchewan",47,5,5
@@ -6372,7 +6372,7 @@
 "2023","Men+","25 to 29 years","Saskatchewan",47,5.7,5.7
 "2023","Men+","30 to 34 years","Saskatchewan",47,5.9,5.9
 "2023","Men+","35 to 39 years","Saskatchewan",47,4,4
-"2023","Men+","40 to 44 years","Saskatchewan",47,,2.9
+"2023","Men+","40 to 44 years","Saskatchewan",47,-1,2.9
 "2023","Men+","45 to 49 years","Saskatchewan",47,4.7,4.7
 "2023","Men+","50 to 54 years","Saskatchewan",47,3.8,3.8
 "2023","Men+","55 to 59 years","Saskatchewan",47,4.1,4.1
@@ -6384,10 +6384,10 @@
 "2023","Women+","15 to 24 years","Saskatchewan",47,9,9
 "2023","Women+","25 years and over","Saskatchewan",47,3.5,3.5
 "2023","Women+","25 to 44 years","Saskatchewan",47,4.2,4.2
-"2023","Women+","45 to 64 years","Saskatchewan",47,,2.8
-"2023","Women+","45 years and over","Saskatchewan",47,,2.8
+"2023","Women+","45 to 64 years","Saskatchewan",47,-1,2.8
+"2023","Women+","45 years and over","Saskatchewan",47,-1,2.8
 "2023","Women+","25 to 54 years","Saskatchewan",47,3.7,3.7
-"2023","Women+","55 years and over","Saskatchewan",47,,2.9
+"2023","Women+","55 years and over","Saskatchewan",47,-1,2.9
 "2023","Women+","15 to 64 years","Saskatchewan",47,4.4,4.4
 "2023","Women+","15 to 19 years","Saskatchewan",47,9.3,9.3
 "2023","Women+","20 to 24 years","Saskatchewan",47,8.8,8.8
@@ -6395,10 +6395,10 @@
 "2023","Women+","30 to 34 years","Saskatchewan",47,3.4,3.4
 "2023","Women+","35 to 39 years","Saskatchewan",47,4.6,4.6
 "2023","Women+","40 to 44 years","Saskatchewan",47,3.8,3.8
-"2023","Women+","45 to 49 years","Saskatchewan",47,,2.1
+"2023","Women+","45 to 49 years","Saskatchewan",47,-1,2.1
 "2023","Women+","50 to 54 years","Saskatchewan",47,3.5,3.5
-"2023","Women+","55 to 59 years","Saskatchewan",47,,2.8
-"2023","Women+","60 to 64 years","Saskatchewan",47,,2.9
+"2023","Women+","55 to 59 years","Saskatchewan",47,-1,2.8
+"2023","Women+","60 to 64 years","Saskatchewan",47,-1,2.9
 "2023","Women+","65 years and over","Saskatchewan",47,,
 "2023","Women+","65 to 69 years","Saskatchewan",47,,
 "2023","Women+","70 years and over","Saskatchewan",47,,
@@ -6438,7 +6438,7 @@
 "2023","Men+","25 to 29 years","Alberta",48,8.3,8.3
 "2023","Men+","30 to 34 years","Alberta",48,5.7,5.7
 "2023","Men+","35 to 39 years","Alberta",48,3.8,3.8
-"2023","Men+","40 to 44 years","Alberta",48,,2.9
+"2023","Men+","40 to 44 years","Alberta",48,-1,2.9
 "2023","Men+","45 to 49 years","Alberta",48,3.4,3.4
 "2023","Men+","50 to 54 years","Alberta",48,4.4,4.4
 "2023","Men+","55 to 59 years","Alberta",48,3.3,3.3
@@ -6509,8 +6509,8 @@
 "2023","Men+","50 to 54 years","British Columbia",59,3.4,3.4
 "2023","Men+","55 to 59 years","British Columbia",59,3.7,3.7
 "2023","Men+","60 to 64 years","British Columbia",59,5.4,5.4
-"2023","Men+","65 years and over","British Columbia",59,,2.6
-"2023","Men+","65 to 69 years","British Columbia",59,,2.7
+"2023","Men+","65 years and over","British Columbia",59,-1,2.6
+"2023","Men+","65 to 69 years","British Columbia",59,-1,2.7
 "2023","Men+","70 years and over","British Columbia",59,,
 "2023","Women+","15 years and over","British Columbia",59,5.2,5.2
 "2023","Women+","15 to 24 years","British Columbia",59,9.3,9.3
@@ -7078,7 +7078,7 @@
 "2024","Total - Gender","40 to 44 years","Saskatchewan",47,4.3,4.3
 "2024","Total - Gender","45 to 49 years","Saskatchewan",47,4.8,4.8
 "2024","Total - Gender","50 to 54 years","Saskatchewan",47,4.2,4.2
-"2024","Total - Gender","55 to 59 years","Saskatchewan",47,,2.8
+"2024","Total - Gender","55 to 59 years","Saskatchewan",47,-1,2.8
 "2024","Total - Gender","60 to 64 years","Saskatchewan",47,3.8,3.8
 "2024","Total - Gender","65 years and over","Saskatchewan",47,4.8,4.8
 "2024","Total - Gender","65 to 69 years","Saskatchewan",47,4.3,4.3
@@ -7112,7 +7112,7 @@
 "2024","Women+","45 to 64 years","Saskatchewan",47,3.2,3.2
 "2024","Women+","45 years and over","Saskatchewan",47,3.3,3.3
 "2024","Women+","25 to 54 years","Saskatchewan",47,4.8,4.8
-"2024","Women+","55 years and over","Saskatchewan",47,,2.6
+"2024","Women+","55 years and over","Saskatchewan",47,-1,2.6
 "2024","Women+","15 to 64 years","Saskatchewan",47,5.1,5.1
 "2024","Women+","15 to 19 years","Saskatchewan",47,13.5,13.5
 "2024","Women+","20 to 24 years","Saskatchewan",47,7.5,7.5
@@ -7232,7 +7232,7 @@
 "2024","Men+","40 to 44 years","British Columbia",59,4.1,4.1
 "2024","Men+","45 to 49 years","British Columbia",59,3.4,3.4
 "2024","Men+","50 to 54 years","British Columbia",59,4.1,4.1
-"2024","Men+","55 to 59 years","British Columbia",59,,2.9
+"2024","Men+","55 to 59 years","British Columbia",59,-1,2.9
 "2024","Men+","60 to 64 years","British Columbia",59,5.1,5.1
 "2024","Men+","65 years and over","British Columbia",59,3.5,3.5
 "2024","Men+","65 to 69 years","British Columbia",59,,
