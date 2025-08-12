@@ -9,9 +9,9 @@ STAT_CONC_DEF: |-
   Le pourcentage d’établissements scolaires ayant accès à l’installation ou au service donné, selon le niveau d’éducation (enseignement primaire, premier cycle du secondaire et deuxième cycle du secondaire).
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
-  Les données pour l'enseignement secondaire combinent les deux niveaux de l'enseignement du premier cycle et deuxième cycle du secondaire.
+  Les données relatives à l'enseignement secondaire combinent l'enseignement secondaire inférieur et supérieur.
   <br><br>
-  Les données pour la série « Proportion d'établissements scolaires ayant accès à Internet à des fins pédagogiques » ne sont disponibles que pour l'enseignement secondaire.
+  Les données relatives à la série « Proportion d'établissements scolaires ayant accès à Internet à des fins pédagogiques » ne sont disponibles que pour l'enseignement secondaire.
 
 # Global
 SDG_GOAL__GLOBAL: |-
