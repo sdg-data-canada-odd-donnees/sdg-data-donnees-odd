@@ -16,6 +16,18 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of population reporting to have experienced discrimination or unfair treatment",
+                "Proportion of individuals within a population who reported experiencing discrimination or unfair treatment",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Discrimination indicators",
             "type": "string",
             "constraints": {
@@ -34,18 +46,6 @@
               ]
             },
             "title": "Discrimination indicators"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of population reporting to have experienced discrimination or unfair treatment",
-                "Proportion of individuals within a population who reported experiencing discrimination or unfair treatment",
-                ""
-              ]
-            },
-            "title": "Series"
           },
           {
             "name": "Geography",
@@ -229,6 +229,11 @@
               ]
             },
             "title": "Area"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "GeoCode",

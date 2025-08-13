@@ -15,6 +15,17 @@
             "type": "string"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of population reporting to have experienced discrimination or unfair treatment",
+                "Proportion of individuals within a population who reported experiencing discrimination or unfair treatment",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Discrimination indicators",
             "type": "string",
             "constraints": {
@@ -29,17 +40,6 @@
                 "Discrimination by or among friends or family",
                 "Discrimination while using public transit",
                 "Discrimination in any other situation",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of population reporting to have experienced discrimination or unfair treatment",
-                "Proportion of individuals within a population who reported experiencing discrimination or unfair treatment",
                 ""
               ]
             }
@@ -215,6 +215,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "Progress",
+            "type": "string"
           },
           {
             "name": "GeoCode",

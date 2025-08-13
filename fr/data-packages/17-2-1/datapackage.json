@@ -16,26 +16,27 @@
             "title": "Année"
           },
           {
-            "name": "Official development assistance",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "APD en proportion du RNB",
+                "APD en proportion du RNB (%)",
                 ""
               ]
             },
-            "title": "Aide publique au développement"
+            "title": "Unités"
           },
           {
-            "name": "Least developed countries",
+            "name": "Recipient country",
             "type": "string",
             "constraints": {
               "enum": [
-                "APD aux PMA, en proportion du RNB",
+                "Total",
+                "Pays les moins avancés",
                 ""
               ]
             },
-            "title": "Pays les moins avancés"
+            "title": "Pays bénéficiaire"
           },
           {
             "name": "Value",

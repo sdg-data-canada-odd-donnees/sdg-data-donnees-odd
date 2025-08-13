@@ -16,6 +16,18 @@
             "title": "Année"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste",
+                "Proportion d'individus au sein d'une population déclarant avoir été victimes de discrimination ou de traitement injuste",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Discrimination indicators",
             "type": "string",
             "constraints": {
@@ -34,18 +46,6 @@
               ]
             },
             "title": "Indicateurs de discrimination"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste",
-                "Proportion d'individus au sein d'une population déclarant avoir été victimes de discrimination ou de traitement injuste",
-                ""
-              ]
-            },
-            "title": "Series"
           },
           {
             "name": "Geography",
@@ -229,6 +229,11 @@
               ]
             },
             "title": "Région"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "GeoCode",

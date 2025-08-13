@@ -16,26 +16,27 @@
             "title": "Year"
           },
           {
-            "name": "Official development assistance",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "ODA as a share of GNI",
+                "ODA as a share of GNI (%)",
                 ""
               ]
             },
-            "title": "Official development assistance"
+            "title": "Units"
           },
           {
-            "name": "Least developed countries",
+            "name": "Recipient country",
             "type": "string",
             "constraints": {
               "enum": [
-                "ODA to least developed countries as a share of GNI",
+                "Total",
+                "Least developed countries",
                 ""
               ]
             },
-            "title": "Least developed countries"
+            "title": "Recipient country"
           },
           {
             "name": "Value",
