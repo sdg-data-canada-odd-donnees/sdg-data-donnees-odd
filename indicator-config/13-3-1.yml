@@ -37,7 +37,17 @@ precision: []
 reporting_status: complete
 progress_calculation_options:
 - direction: positive
-  target: 100
+  series: a) National education policies
+  limit: 1
+- direction: positive
+  series: b) Curricula
+  limit: 1
+- direction: positive
+  series: c) Teacher education
+  limit: 1
+- direction: positive
+  series: d) Student assessment
+  limit: 1
 sort: ""
 standalone: false
 tags: []
