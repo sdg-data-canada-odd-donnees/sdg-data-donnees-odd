@@ -3,17 +3,17 @@ SDG_GOAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promo
 SDG_TARGET: '<p>Target 4.1: By 2030, ensure that all girls and boys complete free,
   equitable and quality primary and secondary education leading to relevant and effective
   learning outcomes</p>'
-SDG_INDICATOR: '<p>Indicator 4.1.1: Proportion of children and young people (b) in Grade 4; and (c) aged 15 years achieving at least a minimum proficiency level in (i) reading and (ii) mathematics</p>'
+SDG_INDICATOR: '<p>Indicator 4.1.1: Proportion of children and young people (b) at the end of primary; and (c) aged 15 years achieving at least a minimum proficiency level in (i) reading and (ii) mathematics</p>'
 STAT_CONC_DEF: 'Percentage of children and young people achieving at least a minimum proficiency level in (i) reading and 
-  (ii) mathematics during primary education (Grade 4) and at the end 
+  (ii) mathematics at the end of primary education (Grade 4) and at the end 
   of lower secondary education (15 years old). The minimum proficiency level will be measured relative to new common 
   reading and mathematics scales currently in development.'
 DATA_COMP: |
   Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source. 
   <br>
-  <br> Data for the series "Children in Grade 4 achieving at least a minimum proficiency level in mathematics" can be accessed at the following sources: Source 2, Source 3, and Source 4 in the Sources tab. Data for all other series can be accessed at Source 1.
+  <br> Data for the series "Children at the end of primary achieving at least a minimum proficiency level in mathematics" can be accessed at the following sources: Source 2, Source 3, and Source 4 in the Sources tab. Data for all other series can be accessed at Source 1.
   <br>
-  <br> Data for the year 2015 for the series "Children in Grade 4 achieving at least a minimum proficiency level in mathematics" is derived by aggregating the percentages ranging from the Intermediate benchmark to the Advanced benchmark.
+  <br> Data for the year 2015 for the series "Children at the end of primary achieving at least a minimum proficiency level in mathematics" is derived by aggregating the percentages ranging from the Intermediate benchmark to the Advanced benchmark.
 REC_USE_LIM: |
   This is a proxy indicator. The UN Global indicator states: Proportion of children and young people:
   (a) in grades 2/3; (b) at the end of primary; education and (c) at the end of lower
@@ -74,5 +74,3 @@ source_url_4: https://timss2023.org/results/grade-4-math-achievement-benchmarks-
 source_organisation_4: Boston College, TIMSS & PIRLS International Study Center
 source_periodicity_4: Occasional
 source_geographical_coverage_4: Canada
-
-proxy: proxy
