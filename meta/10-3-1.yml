@@ -21,12 +21,14 @@ STAT_CONC_DEF: |-
   - Physical or mental disability; <br>
   - Any other specified reason.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
+REC_USE_LIM: |-
   This is a proxy indicator. The UN Global indicator states: “Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law”. 
   <br><br>
   The total for Canada does not include data from the territories.
   <br><br>
   The discrimination indicators in the primary series, "Proportion of the population reporting experiences of discrimination or unfair treatment," uses the total population as the denominator. The secondary series, "Proportion of individuals within a population who reported experiencing discrimination or unfair treatment," calculates the indicator based on the population of individuals who report such experiences, rather than employing the total population as the denominator.
+  <br><br>
+  The progress status is based solely on the primary series: "Proportion of the population reporting to have experienced discrimination or unfair treatment in the past 5 years." Furthermore, the progress status is determined using only Q1 data as progress is assessed on an annual basis. Data from other quarters are not considered in the progress assessment for this indicator.
 
 # Global
 SDG_GOAL__GLOBAL: >-
@@ -55,5 +57,3 @@ source_url_2: https://doi.org/10.25318/4510010101-eng
 source_organisation_2: Statistics Canada
 source_periodicity_2: Occasional Quarterly
 source_geographical_coverage_2: Canada
-
-proxy: proxy

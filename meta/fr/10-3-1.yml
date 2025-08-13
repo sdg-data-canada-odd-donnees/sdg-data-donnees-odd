@@ -22,11 +22,13 @@ STAT_CONC_DEF: |-
   - toute autre raison spécifiée.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
-  Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme ». 
+  Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme ». 
   <br><br>
   Le total pour le Canada n’inclut pas les données des territoires.
   <br><br>
-  Les indicateurs de discrimination de la série primaire, « Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste », utilisent la population totale comme dénominateur. La série secondaire, « Proportion d’individus dans une population déclarant avoir été victimes de discrimination ou de traitement injuste », calcule l'indicateur sur la base de la population d'individus qui déclarent de telles expériences, et non sur la base de la population totale comme dénominateur.
+  Les indicateurs de discrimination de la série primaire, « Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste », utilisent la population totale comme dénominateur. La série secondaire, « Proportion d’individus dans une population déclarant avoir été victimes de discrimination ou de traitement injuste », calcule l'indicateur sur la base de la population d'individus qui déclarent de telles expériences, et non sur la base de la population totale comme dénominateur.
+  <br><br>
+  L'état du progrès est basé uniquement sur la série principale : « Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste au cours des 5 dernières années ». De plus, l'état du progrès est déterminé en utilisant seulement les données du premier trimestre, dénoté Q1, car le progrès est évalué sur une base annuelle. Les données des autres trimestres ne sont pas considérées dans l'évaluation du progrès pour cet indicateur.
 
 # Global
 SDG_GOAL__GLOBAL: >-
@@ -55,5 +57,3 @@ source_organisation_2: Statistique Canada
 source_periodicity_2: Occasionnelle trimestrielle
 source_geographical_coverage_2: Canada
 source_url_2: https://doi.org/10.25318/4510010101-fra
-
-proxy: proxy

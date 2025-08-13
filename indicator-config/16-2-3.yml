@@ -44,7 +44,7 @@ progress_calculation_options:
   disaggregation:
   - field: Gender
     value: Total, gender
-  - field: Age
+  - field: Age group
     value: 15 to 24 years
   - field: Geography
     value: Canada
@@ -53,7 +53,7 @@ progress_calculation_options:
   disaggregation:
   - field: Gender
     value: Total, gender
-  - field: Age
+  - field: Age group
     value: 25 to 34 years
   - field: Geography
     value: Canada
