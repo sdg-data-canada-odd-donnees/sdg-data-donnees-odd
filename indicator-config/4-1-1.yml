@@ -8,10 +8,10 @@ data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
 data_start_values:
-- series: Children in Grade 4 achieving at least a minimum proficiency level in reading
+- series: Children at the end of primary achieving at least a minimum proficiency level in reading
   field: Sex
   value: Total
-- series: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
+- series: Children at the end of primary achieving at least a minimum proficiency level in mathematics
   field: Sex
   value: Total
 - series: Young people aged 15 years achieving at least a minimum proficiency level in reading
@@ -37,10 +37,10 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_titles:
-  - series: Children in Grade 4 achieving at least a minimum proficiency level in reading
-    title: Children in Grade 4 achieving at least a minimum proficiency level in reading
-  - series: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
-    title: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
+  - series: Children at the end of primary achieving at least a minimum proficiency level in reading
+    title: Children at the end of primary achieving at least a minimum proficiency level in reading
+  - series: Children at the end of primary achieving at least a minimum proficiency level in mathematics
+    title: Children at the end of primary achieving at least a minimum proficiency level in mathematics
   - series: Young people aged 15 years achieving at least a minimum proficiency level in reading
     title: Young people aged 15 years achieving at least a minimum proficiency level in reading
   - series: Young people aged 15 years achieving at least a minimum proficiency level in mathematics
@@ -56,13 +56,13 @@ precision: []
 progress_calculation_options:
 - direction: positive
   target: 100
-  series: Children in Grade 4 achieving at least a minimum proficiency level in reading
+  series: Children at the end of primary achieving at least a minimum proficiency level in reading
   disaggregation:
   - field: Sex
     value: Total
 - direction: positive
   target: 100
-  series: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
+  series: Children at the end of primary achieving at least a minimum proficiency level in mathematics
   disaggregation:
   - field: Sex
     value: Total
@@ -83,3 +83,7 @@ sort: ''
 standalone: false
 tags: 
   - Proxy
+proxy: both
+proxy_series: 
+  - Young people aged 15 years achieving at least a minimum proficiency level in reading
+  - Young people aged 15 years achieving at least a minimum proficiency level in mathematics

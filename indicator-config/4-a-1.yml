@@ -1,13 +1,19 @@
 auto_progress_calculation: false
-computation_units: ""
+computation_units: Percentage (%)
 copyright: ""
 data_footnote: ""
 data_non_statistical: false
-data_notice_class: success
-data_notice_heading: custom.exploring-data-sources-header
-data_notice_text: custom.exploring-data-sources-text
+data_notice_class: ''
+data_notice_heading: ''
+data_notice_text: ''
 data_show_map: false
-data_start_values: []
+data_start_values: 
+  - series: Proportion of schools with access to computers for pedagogical purposes
+    field: Education level
+    value: Primary
+  - series: Proportion of schools with access to computers for pedagogical purposes
+    field: Education level
+    value: Secondary
 embedded_feature_footer: ""
 embedded_feature_html: ""
 embedded_feature_tab_title: ""
@@ -18,8 +24,12 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ""
-graph_title: global_indicators.4-a-1-title
-graph_titles: []
+graph_title: ''
+graph_titles: 
+  - series: Proportion of schools with access to computers for pedagogical purposes
+    title: Proportion of schools with access to computers for pedagogical purposes
+  - series: Proportion of schools with access to the Internet for pedagogical purposes
+    title: Proportion of schools with access to the Internet for pedagogical purposes
 graph_type: line
 indicator_name: global_indicators.4-a-1-title
 indicator_number: 4.a.1
@@ -29,7 +39,7 @@ permalink: ""
 precision: []
 progress_calculation_options:
 - direction: positive
-reporting_status: notstarted
+reporting_status: complete
 sort: ""
 standalone: false
 tags: []
