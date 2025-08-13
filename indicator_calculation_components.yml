@@ -529,7 +529,59 @@
   progress_status: not_available
   score: null
 12-8-1:
-  progress_status: ''
+  12-8-1 / a) National education policies:
+    base_value: 0.88
+    base_year: 2020.0
+    current_value: 0.88
+    current_year: 2020.0
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: 1.0
+    target_year: 2030.0
+  12-8-1 / b) Curricula:
+    base_value: 0.78
+    base_year: 2020.0
+    current_value: 0.78
+    current_year: 2020.0
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: 1.0
+    target_year: 2030.0
+  12-8-1 / c) Teacher education:
+    base_value: 0.7
+    base_year: 2020.0
+    current_value: 0.7
+    current_year: 2020.0
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: 1.0
+    target_year: 2030.0
+  12-8-1 / d) Student assessment:
+    base_value: 0.83
+    base_year: 2020.0
+    current_value: 0.83
+    current_year: 2020.0
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: 1.0
+    target_year: 2030.0
+  progress_status: not_available
   score: null
 12-a-1:
   progress_status: ''
@@ -582,7 +634,59 @@
   progress_status: not_available_manual
   score: null
 13-3-1:
-  progress_status: ''
+  13-3-1 / a) National education policies:
+    base_value: 0.88
+    base_year: 2020.0
+    current_value: 0.88
+    current_year: 2020.0
+    direction: 1
+    limit: 1
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: null
+    target_year: 2030.0
+  13-3-1 / b) Curricula:
+    base_value: 0.78
+    base_year: 2020.0
+    current_value: 0.78
+    current_year: 2020.0
+    direction: 1
+    limit: 1
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: null
+    target_year: 2030.0
+  13-3-1 / c) Teacher education:
+    base_value: 0.7
+    base_year: 2020.0
+    current_value: 0.7
+    current_year: 2020.0
+    direction: 1
+    limit: 1
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: null
+    target_year: 2030.0
+  13-3-1 / d) Student assessment:
+    base_value: 0.83
+    base_year: 2020.0
+    current_value: 0.83
+    current_year: 2020.0
+    direction: 1
+    limit: 1
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: null
+    target_year: 2030.0
+  progress_status: not_available
   score: null
 13-a-1:
   13-a-1:
@@ -2608,7 +2712,59 @@
   progress_status: not_available
   score: null
 4-7-1:
-  progress_status: ''
+  4-7-1 / a) National education policies:
+    base_value: 0.88
+    base_year: 2020.0
+    current_value: 0.88
+    current_year: 2020.0
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: 1.0
+    target_year: 2030.0
+  4-7-1 / b) Curricula:
+    base_value: 0.78
+    base_year: 2020.0
+    current_value: 0.78
+    current_year: 2020.0
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: 1.0
+    target_year: 2030.0
+  4-7-1 / c) Teacher education:
+    base_value: 0.7
+    base_year: 2020.0
+    current_value: 0.7
+    current_year: 2020.0
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: 1.0
+    target_year: 2030.0
+  4-7-1 / d) Student assessment:
+    base_value: 0.83
+    base_year: 2020.0
+    current_value: 0.83
+    current_year: 2020.0
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: 1.0
+    target_year: 2030.0
+  progress_status: not_available
   score: null
 4-a-1:
   progress_status: ''
