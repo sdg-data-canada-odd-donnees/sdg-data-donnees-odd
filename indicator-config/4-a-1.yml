@@ -19,8 +19,8 @@ embedded_feature_html: ""
 embedded_feature_tab_title: ""
 embedded_feature_title: ""
 embedded_feature_url: ""
-expected_disaggregations: []
-#  - Type of service
+expected_disaggregations:
+- Education level
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ""
@@ -38,7 +38,22 @@ page_content: ""
 permalink: ""
 precision: []
 progress_calculation_options:
+- group:
+  - direction: positive
+    series: Proportion of schools with access to computers for pedagogical purposes
+    limit: 100
+    disaggregation:
+    - field: Education level
+      value: Primary
+  - direction: positive
+    series: Proportion of schools with access to computers for pedagogical purposes
+    limit: 100
+    disaggregation:
+    - field: Education level
+      value: Secondary
 - direction: positive
+  series: Proportion of schools with access to the Internet for pedagogical purposes
+  limit: 100
 reporting_status: complete
 sort: ""
 standalone: false
