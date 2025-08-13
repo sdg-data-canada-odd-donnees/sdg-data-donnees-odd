@@ -2767,8 +2767,47 @@
   progress_status: not_available
   score: null
 4-a-1:
-  progress_status: ''
-  score: null
+  4-a-1 / Proportion of schools with access to computers for pedagogical purposes / Primary:
+    base_value: 78.09993
+    base_year: 2015.0
+    current_value: 85.77631
+    current_year: 2019.0
+    direction: 1
+    limit: 100
+    progress_value: 0.023715263688196764
+    score: 5.0
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
+  4-a-1 / Proportion of schools with access to computers for pedagogical purposes / Secondary:
+    base_value: 89.46864
+    base_year: 2015.0
+    current_value: 86.80811
+    current_year: 2023.0
+    direction: 1
+    limit: 100
+    progress_value: -0.003766404530252232
+    score: -2.970800566281529
+    sign: 1
+    status: deterioration
+    target: null
+    target_year: 2030.0
+  4-a-1 / Proportion of schools with access to the Internet for pedagogical purposes:
+    base_value: 98.07066
+    base_year: 2015.0
+    current_value: 98.68681
+    current_year: 2022.0
+    direction: 1
+    limit: 100
+    progress_value: 0.0008951233777452217
+    score: 1.4505697730651663
+    sign: 1
+    status: moderate_progress
+    target: null
+    target_year: 2030.0
+  progress_status: moderate_progress
+  score: 1.232584744962201
 4-b-1:
   4-b-1:
     base_value: 9.115909
