@@ -5151,7 +5151,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-1",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -5164,11 +5164,27 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Adultes (15-49)",
+                "Tous les âges",
+                "15 à 24 ans",
+                "15 à 49 ans",
+                "50 ans et plus",
                 ""
               ]
             },
             "title": "Groupe d'âge"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Homme",
+                "Femme",
+                "Les deux sexes",
+                ""
+              ]
+            },
+            "title": "Sexe"
           },
           {
             "name": "Value",
