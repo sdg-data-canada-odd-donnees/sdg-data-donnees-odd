@@ -9,6 +9,7 @@ STAT_CONC_DEF: |-
   Proportion de femmes âgées de 15 à 49 ans (mariées ou en union libre) qui prennent leurs propres décisions dans les trois domaines choisis, c’est-à-dire décider de leurs propres soins de santé; décider de l’utilisation de la contraception; refuser les rapports sexuels avec leur mari ou leur partenaire si elles n’en ont pas envie. Seules les femmes qui répondent « oui » aux trois composantes sont considérées comme des femmes qui prennent leurs propres décisions en matière de santé sexuelle et reproductive. Union libre veut dire un homme et une femme qui cohabitent et dont la relation est comparable au mariage.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: |-

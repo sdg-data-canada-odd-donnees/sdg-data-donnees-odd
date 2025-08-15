@@ -9,6 +9,7 @@ STAT_CONC_DEF: |-
   Number of people requiring treatment and care for any one of the neglected tropical diseases (NTDs) targeted by the WHO NTD Roadmap and World Health Assembly resolutions and reported to WHO.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: |-

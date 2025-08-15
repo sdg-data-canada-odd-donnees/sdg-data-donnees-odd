@@ -15,6 +15,7 @@ DATA_COMP: >-
     Proportion of domestic and industrial wastewater flows safely treated = ((Secondary treatment + Tertiary treatment) / Total volumes) x 100
 REC_USE_LIM: >-
     This is a proxy indicator. The UN Global indicator states: “Proportion of domestic and industrial wastewater flows safely treated”.
+PROGRESS_DETAILS: custom.progress_details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

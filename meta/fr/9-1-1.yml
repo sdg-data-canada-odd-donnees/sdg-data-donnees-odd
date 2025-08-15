@@ -10,6 +10,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   Le cadre d'analyse inclut uniquement les régions situées à l'extérieur des centres de population. Les totaux agrégés des provinces/territoires comprennent également les chiffres de population des subdivisions de recensement, pour lesquelles les valeurs individuelles ont été supprimées.
+PROGRESS_DETAILS: custom.progress_details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

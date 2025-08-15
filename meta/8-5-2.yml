@@ -10,6 +10,7 @@ STAT_CONC_DEF: |
   The unemployment rate is the number of unemployed persons expressed as a percentage of the labour force. 
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic

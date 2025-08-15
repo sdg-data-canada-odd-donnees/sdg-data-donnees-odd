@@ -15,6 +15,7 @@ DATA_COMP: >-
     Proportion des eaux usées d'origine ménagère et industrielle traitées sans danger = ((Traitement secondaire + Traitement tertiaire) / Volume total) x 100
 REC_USE_LIM: >-
     Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Proportion des eaux usées d’origine ménagère et industrielle traitées sans danger ».
+PROGRESS_DETAILS: custom.progress_details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

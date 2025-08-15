@@ -10,6 +10,7 @@ STAT_CONC_DEF: >-
   The indicator measures the number of commercial bank branches per 100,000 adults and the number of automated teller machines (ATMs) per 100,000 adults. The adult population refers to the total population in the reporting jurisdiction of individuals 15 years old and above.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '    '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic

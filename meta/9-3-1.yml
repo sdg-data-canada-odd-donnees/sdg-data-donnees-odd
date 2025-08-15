@@ -24,6 +24,7 @@ DATA_COMP: >-
   <b>Consumption</b> = (Opening inventories, raw materials + Cost of materials and supplies + Total cost of energy, water utility and vehicle fuel - Closing inventories of raw materials)
 REC_USE_LIM: '   '
  
+PROGRESS_DETAILS: custom.progress_details
 # GLOBAL METADATA
 SDG_GOAL__GLOBAL: >-
   Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation

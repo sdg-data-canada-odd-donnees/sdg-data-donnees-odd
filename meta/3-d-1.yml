@@ -9,6 +9,7 @@ STAT_CONC_DEF: |
   <p>For each of the 15 capacities, one to five indicators are used to measure implementation status. For each indicator, the reporting State Party is asked to select which of the five levels best describes the State Party's current status. The score of each indicator level is classified as a percentage of performance along the "1 to 5" scale. The level of capacity is expressed as the average of all indicators.</p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.d: Strengthen the capacity of all countries, in particular

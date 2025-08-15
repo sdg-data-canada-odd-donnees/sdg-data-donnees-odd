@@ -1,12 +1,11 @@
-SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET: '<p>Target 1.4: By 2030, ensure that all men and women, in particular
-  the poor and the vulnerable, have equal rights to economic resources, as well as
-  access to basic services, ownership and control over land and other forms of property,
-  inheritance, natural resources, appropriate new technology and financial services,
-  including microfinance</p>'
-SDG_INDICATOR: '<p>Indicator 1.4.1: Proportion of population living in households
-  with access to basic services</p>'
-STAT_CONC_DEF: |
+# National
+SDG_GOAL: |-
+  Goal 1: End poverty in all its forms everywhere
+SDG_TARGET: |-
+  Target 1.4: By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance
+SDG_INDICATOR: |-
+  Indicator 1.4.1: Proportion of population living in households with access to basic services
+STAT_CONC_DEF: |-
   Basic Services refer to public service provision systems that meet
   human basic needs including drinking water, sanitation, hygiene, energy, mobility,
   waste collection, health care, education and information technologies. Access to
@@ -26,15 +25,23 @@ STAT_CONC_DEF: |
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/11-2-1/">Indicator 11.2.1</a>
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/11-6-1/">Indicator 11.6.1</a>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'Access to basic waste collection system is measured via the proxy series "Total amount of waste sent to disposal via the waste management industry". The UN Global series uses indicator 11.6.1 "Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities”.'
-SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET__GLOBAL: '<p>Target 1.4: By 2030, ensure that all men and women, in particular
-  the poor and the vulnerable, have equal rights to economic resources, as well as
-  access to basic services, ownership and control over land and other forms of property,
-  inheritance, natural resources, appropriate new technology and financial services,
-  including microfinance</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 1.4.1: Proportion of population living in households
-  with access to basic services</p>'
+REC_USE_LIM: |-
+  Access to basic waste collection system is measured via the proxy series "Total amount of waste sent to disposal via the waste management industry". The UN Global series uses indicator 11.6.1 "Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities”.
+PROGRESS_DETAILS: |-
+  The progress status is based on the equally weighted average of the progress scores from each reported form of basic access, excluding the "Access to basic waste collection services" proxy series.
+  <br><br>
+  The progress score for "Access to basic information services" is based solely on the "Proportion of population covered by Evolved High-Speed Packet Access (HSPA+)" series, as it represents the most basic generally available service.
+  <br><br>
+  The proxy series for "Access to basic waste collection services" is excluded from the progress assessment because there is no desired trend associated with the proxy series.
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 1: End poverty in all its forms everywhere
+SDG_TARGET__GLOBAL: |-
+  Target 1.4: By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 1.4.1: Proportion of population living in households with access to basic services
+
 un_designated_tier: Tier I
 un_custodian_agency: UN-Habitat
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-01.pdf

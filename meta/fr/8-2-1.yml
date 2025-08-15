@@ -15,6 +15,7 @@ DATA_COMP: >-
   Taux de croissance annuel du PIB réel par personne pourvue d'emploi (en %) = (((PIB réel par personne pourvue d'emploi de l'année n) - (PIB réel par personne pourvue d'emploi de l'année n-1)) / (PIB réel par personne pourvue d'emploi de l'année n-1)) × 100
 REC_USE_LIM: >-
   Les données relatives au PIB pour cet indicateur sont calculées en dollars canadiens enchaînés (2017) et non en dollars américains aux prix constants de 2015, comme indiqué dans les métadonnées globales.
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée

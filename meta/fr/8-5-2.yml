@@ -10,6 +10,7 @@ STAT_CONC_DEF: >-
   Le taux de chômage est le nombre de personnes en chômage exprimé en pourcentage de la population active.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,

@@ -10,6 +10,7 @@ STAT_CONC_DEF: |-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   Exclut les agressions sexuelles et les voies de fait entre conjoints.
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: |-

@@ -11,6 +11,7 @@ SDG_INDICATOR:
 STAT_CONC_DEF: <p>Cet indicateur mesure le nombre de nouvelles infections au VIH pour 1 000 habitants non infectés. </p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: "   "
+PROGRESS_DETAILS: custom.progress_details
 SDG_GOAL__GLOBAL:
   "<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>"

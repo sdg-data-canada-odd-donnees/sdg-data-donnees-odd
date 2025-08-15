@@ -26,6 +26,7 @@ STAT_CONC_DEF: |
   Medical research and basic health sectors are as defined by the DAC. Medical research refers to CRS sector code 12182 and basic health covers all codes in the 122 series (see here: <a href="http://www.oecd.org/dac/stats/purposecodessectorclassification.htm">http://www.oecd.org/dac/stats/purposecodessectorclassification.htm)</a>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: 'Goal 3: Ensure healthy lives and promote well-being for all

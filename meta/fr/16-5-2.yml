@@ -9,6 +9,7 @@ STAT_CONC_DEF: |-
   Pourcentage d’entreprises ayant fait l’objet d’au moins une demande de paiement de pots-de-vin dans le cadre de 6 transactions publiques portant sur l’accès aux services publics, les permis, les licences et les taxes. 
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: |-

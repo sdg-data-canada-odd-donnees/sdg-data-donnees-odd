@@ -10,6 +10,7 @@ DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   This is a proxy indicator. Due to data limitations, this indicator measures the mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease per 100,000 persons rather than the probability of dying between the ages of 30 and 70 years from cardiovascular diseases, cancer, diabetes
   or chronic respiratory diseases as specified in the metadata.
+PROGRESS_DETAILS: custom.progress_details
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.4: By 2030, reduce by one third premature mortality

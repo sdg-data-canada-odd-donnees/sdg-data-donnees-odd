@@ -8,6 +8,7 @@ STAT_CONC_DEF: <p>Cet indicateur mesure le taux de mortalité attribuable à des
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   Il s’agit d’un indicateur de substitution. En raison des contraintes avec les données, cet indicateur mesure le taux de mortalité attribué aux maladies cardiovasculaires, au cancer, au diabète ou aux maladies respiratoires chroniques pour 100 000 personnes plutôt que la probabilité de mourir entre 30 et 70 ans de maladies cardiovasculaires, de cancer, de diabète ou de maladies respiratoires chroniques, comme le précisent les métadonnées.
+PROGRESS_DETAILS: custom.progress_details
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention

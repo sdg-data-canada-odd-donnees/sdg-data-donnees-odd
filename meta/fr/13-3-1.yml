@@ -11,6 +11,7 @@ STAT_CONC_DEF: |-
   Pour chacun des quatre éléments constitutifs de l'indicateur (politiques, programmes d’enseignement, formation des enseignants et évaluation des étudiants), plusieurs critères sont évalués, puis combinés afin d'obtenir une note unique comprise entre zéro et un pour chaque élément.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: >-

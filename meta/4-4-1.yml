@@ -8,6 +8,7 @@ SDG_INDICATOR: |
 STAT_CONC_DEF: 'The indicator measures the proportion of internet users with Information and Communications Technology (ICT) skills, by type of skill defined as the percentage of internet users that have undertaken certain ICT-related activities in the last 3 months. The indicator is expressed as a percentage.'
 DATA_COMP: custom.data-comp
 REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: “Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill”.' 
+PROGRESS_DETAILS: custom.progress_details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promote

@@ -11,6 +11,7 @@ STAT_CONC_DEF: >-
   Il est recommandé d’utiliser conjointement deux mesures différentes pour cet indicateur : la part des femmes dans la gestion (totale) et la part des femmes dans les cadres supérieurs et intermédiaires (excluant ainsi la gestion junior). Le calcul conjoint de ces deux mesures fournit des informations sur la question de savoir si les femmes sont plus représentées dans la haute direction que dans les cadres supérieurs et intermédiaires, ce qui indique un plafond éventuel pour les femmes d’accéder à des postes de direction de haut niveau. Dans ces cas, calculer seulement la proportion de femmes dans la gestion (totale) serait trompeur, en ce qu’il semblerait que les femmes occupent des postes ayant plus de pouvoir de décision et de responsabilités qu’elles ne le font réellement.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: >-

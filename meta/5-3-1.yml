@@ -17,6 +17,7 @@ DATA_COMP: >-
   Proportion of women aged 15-19 or 20-24 married or living common-law = (number of women married or living common-law / number of women in that age group) × 100
 REC_USE_LIM: >-
   This is a proxy indicator. The UN Global indicator states: “Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18”.
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'

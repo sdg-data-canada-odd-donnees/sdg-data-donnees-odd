@@ -12,7 +12,9 @@ STAT_CONC_DEF: >-
   Pourcentage de la main-d'œuvre qui est couverte par les indemnités d'accident du travail. Le nombre de personnes assurées représente la somme de deux éléments principaux : 1) les employés qui travaillent pour des employeurs assurables ainsi que les travailleurs autonomes qui souscrivent à une assurance; et 2) les employés qui travaillent pour des employeurs auto-assurés ainsi que les employés du gouvernement du Canada. Sont exclues les personnes admissibles à une couverture personnelle qui ne prennent pas la couverture, ainsi que les travailleurs explicitement exclus en vertu des lois provinciales.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
-  La série d) « Proportion de personnes handicapées recevant des prestations » renseigne sur la proportion de la population âgée de plus de 16 ans vivant avec un handicap et recevant tout type de prestations, y compris l'aide sociale ou les prestations d'invalidité. Cela diffère des métadonnées, qui se concentrent sur la proportion de personnes gravement handicapées recevant des prestations d'invalidité en espèces.
+  La série « Proportion de personnes handicapées recevant des prestations » renseigne sur la proportion de la population âgée de plus de 16 ans vivant avec un handicap et recevant tout type de prestations, y compris l'aide sociale ou les prestations d'invalidité. Cela diffère des métadonnées, qui se concentrent sur la proportion de personnes gravement handicapées recevant des prestations d'invalidité en espèces.
+PROGRESS_DETAILS: |-
+  L’état du progrès est basé uniquement sur la série « Proportion de la population couverte par au moins une prestation de protection sociale en espèces ».
 
 # GLOBAL
 SDG_GOAL__GLOBAL: 'Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde'

@@ -10,6 +10,7 @@ STAT_CONC_DEF: >-
   It includes two different measures: the share of women in management and the share of women in senior and middle management. These two measures provide information on whether women are more represented in junior management than in senior and middle management, thus pointing to an eventual ceiling for women to access higher-level management positions. In these cases, calculating only the share of women in (total) management would be misleading, in that it would suggest that women hold positions with more decision-making power and responsibilities than they actually do.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: >-
