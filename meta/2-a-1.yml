@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition and
   promote sustainable agriculture</p>'
 SDG_TARGET: '<p>Target 2.a: Increase investment, including through enhanced international
@@ -16,7 +17,10 @@ STAT_CONC_DEF: <p>The Agriculture Orientation Index (AOI) for Government Expendi
   according to the System of National Accounts (SNA).</p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  The progress status is solely based on the primary series: "Agriculture value added share of GDP."
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
 SDG_TARGET__GLOBAL: '<p>Target 2.a: Increase investment, including through enhanced
