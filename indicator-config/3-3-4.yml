@@ -31,7 +31,8 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
-  target: 0
+  # Adjust target to reflect the magnitude and precision of the data
+  target: 0.01
 reporting_status: complete
 sort: ''
 standalone: false
