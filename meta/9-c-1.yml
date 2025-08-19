@@ -9,7 +9,8 @@ STAT_CONC_DEF: >-
   Proportion of population covered by a mobile network, broken down by technology, refers to the percentage of inhabitants living within range of a mobile-cellular signal, irrespective of whether or not they are mobile phone subscribers or users.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  The progress status for this indicator is calculated as the equally weighted average of the progress scores from each technology type: 3G, 4G, and 5G. As LTE and LTE-A are both 4G technologies, they are grouped together, and the progress score for 4G is calculated as the average of the progress scores for LTE and LTE-A.
 
 # Global
 SDG_GOAL__GLOBAL: >-

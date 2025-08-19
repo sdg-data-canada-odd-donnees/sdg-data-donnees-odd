@@ -1,29 +1,28 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic growth,
-  full and productive employment and decent work for all </p>'
-SDG_TARGET: '<p>Target 8.2: Achieve higher levels of economic productivity through diversification,
-  technological upgrading and innovation, including through a focus on high-value
-  added and labour-intensive sectors </p>'
-SDG_INDICATOR: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed person
-  </p>'
-STAT_CONC_DEF: >-
+SDG_GOAL: |-
+  Goal 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all
+SDG_TARGET: |-
+  Target 8.2: Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors
+SDG_INDICATOR: |-
+  Indicator: 8.2.1: Annual growth rate of real GDP per employed person
+STAT_CONC_DEF: |-
   The annual growth rate of real GDP per employed person conveys the annual percentage change in real Gross Domestic Product (GDP) per employed person.
-DATA_COMP: >-
+DATA_COMP: |-
   Real GDP per employed person = GDP at market prices (chained 2017 dollars) / Total number of employed persons (15 years and over)
   <br><br>
   Annual growth rate of real GDP per employed person (in %) = (((Real GDP per employed person in year n) - (Real GDP per employed person in year n-1)) / (Real GDP per employed person in year n-1)) × 100
-REC_USE_LIM: >-
+REC_USE_LIM: |-
   GDP data for this indicator is calculated using 2017 chained Canadian dollars as opposed to constant US dollars at 2015 prices as stated in the global metadata.
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  The progress status for this indicator is calculated using the real GDP per employed person measured in 2017 chained Canadian dollars. This unit of measure serves as an equivalent alternative to the percentage annual growth rate of real GDP per employed, which is incompatible with the progress measurement methodology. For more details, please refer to the progress measurement methodology.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic
-  growth, full and productive employment and decent work for all </p>'
-SDG_TARGET__GLOBAL: '<p>Target 8.2: Achieve higher levels of economic productivity through
-  diversification, technological upgrading and innovation, including through a focus
-  on high-value added and labour-intensive sectors </p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed
-  person </p>'
+SDG_GOAL__GLOBAL: |-
+  Goal 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all
+SDG_TARGET__GLOBAL: |-
+  Target 8.2: Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors
+SDG_INDICATOR__GLOBAL: |-
+  Indicator: 8.2.1: Annual growth rate of real GDP per employed person
 
 un_designated_tier: Tier I
 un_custodian_agency: International Labour Organization (ILO)

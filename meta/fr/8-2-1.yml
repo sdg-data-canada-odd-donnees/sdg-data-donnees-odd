@@ -1,31 +1,28 @@
 # National
-SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
-  et durable, le plein emploi productif et un travail décent pour tous</p>'
-SDG_TARGET: '<p>Cible 8.2 : Parvenir à un niveau élevé de productivité économique par
-  la diversification, la modernisation technologique et l''innovation, notamment en
-  mettant l''accent sur les secteurs à forte valeur ajoutée et à forte intensité de
-  main-d''oeuvree</p>'
-SDG_INDICATOR: '<p>Indicateur 8.2.1 : Taux de croissance annuelle du PIB réel par personne
-  pourvue d''un emploi</p>'
-STAT_CONC_DEF: >-
+SDG_GOAL: |-
+  Objectif 8 : Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous
+SDG_TARGET: |-
+  Cible 8.2 : Parvenir à un niveau élevé de productivité économique par la diversification, la modernisation technologique et l'innovation, notamment en mettant l'accent sur les secteurs à forte valeur ajoutée et à forte intensité de main-d'oeuvre
+SDG_INDICATOR: |-
+  Indicateur 8.2.1 : Taux de croissance annuelle du PIB réel par personne pourvue d'un emploi
+STAT_CONC_DEF: |-
   Le taux de croissance annuel du PIB réel par personne pourvue d'emploi mesure la variation annuelle en pourcentage du produit intérieur brut (PIB) réel par personne pourvue d'emploi.
-DATA_COMP: >-
+DATA_COMP: |-
   PIB réel par personne pourvue d'emploi = PIB aux prix du marché (dollars enchaînés de 2017) / Nombre total de personnes pourvues d'emploi (15 ans et plus)
   <br><br>
   Taux de croissance annuel du PIB réel par personne pourvue d'emploi (en %) = (((PIB réel par personne pourvue d'emploi de l'année n) - (PIB réel par personne pourvue d'emploi de l'année n-1)) / (PIB réel par personne pourvue d'emploi de l'année n-1)) × 100
-REC_USE_LIM: >-
+REC_USE_LIM: |-
   Les données relatives au PIB pour cet indicateur sont calculées en dollars canadiens enchaînés (2017) et non en dollars américains aux prix constants de 2015, comme indiqué dans les métadonnées globales.
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  L'état du progrès de cet indicateur est calculé à partir du PIB réel par personne pourvue d'un emploi mesuré en dollars canadiens enchaînés (2017). Cette unité de mesure sert d'alternative équivalente au taux de croissance annuel en pourcentage du PIB réel par personne pourvue d'un emploi, qui est incompatible avec la méthodologie de mesure de progrès. Pour plus de détails, veuillez consulter la méthodologie de mesure de progrès.
 
 # Global
-SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
-  et durable, le plein emploi productif et un travail décent pour tous</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 8.2 : Parvenir à un niveau élevé de productivité économique
-  par la diversification, la modernisation technologique et l''innovation, notamment
-  en mettant l''accent sur les secteurs à forte valeur ajoutée et à forte intensité
-  de main-d''oeuvree</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.2.1 : Taux de croissance annuelle du PIB réel
-  par personne pourvue d''un emploi</p>'
+SDG_GOAL__GLOBAL: |-
+  Objectif 8 : Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous
+SDG_TARGET__GLOBAL: |-
+  Cible 8.2 : Parvenir à un niveau élevé de productivité économique par la diversification, la modernisation technologique et l'innovation, notamment en mettant l'accent sur les secteurs à forte valeur ajoutée et à forte intensité de main-d'oeuvre
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 8.2.1 : Taux de croissance annuelle du PIB réel par personne pourvue d'un emploi
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation internationale du Travail

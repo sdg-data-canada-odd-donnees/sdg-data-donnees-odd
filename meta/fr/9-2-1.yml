@@ -13,7 +13,8 @@ DATA_COMP: >-
   Valeur ajoutée manufacturière par habitant = Valeur ajoutée manufacturière / Population
 REC_USE_LIM: >-
   La série « Valeur ajoutée manufacturière (VAM) par habitant » est une série de substitution. Les données pour cette série sont présentées en dollars courants plutôt qu’en dollars des États-Unis de 2015 constants comme spécifié par les métadonnées mondiales de l’ONU.
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  L'état du progrès pour cet indicateur est basé uniquement sur la série « Valeur ajoutée dans l'industrie manufacturière en proportion du produit intérieur brut », puisque la cible déclarée est d'augmenter nettement la contribution de l'industrie à l'emploi et au produit intérieur brut.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

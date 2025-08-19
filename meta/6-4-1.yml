@@ -21,7 +21,8 @@ DATA_COMP: >-
   <br><br>
   Data were readily available to report on the series "Water-use efficiency (USD per cubic metre)" as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  The progress status for this indicator is based on the principal series: "Water-use efficiency (USD per cubic metre)."
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

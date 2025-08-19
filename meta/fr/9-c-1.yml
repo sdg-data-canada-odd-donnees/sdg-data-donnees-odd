@@ -9,7 +9,8 @@ STAT_CONC_DEF: >-
   La proportion de la population couverte par un réseau mobile, ventilée par technologie, fait référence au pourcentage d'habitants vivant à portée d'un signal cellulaire mobile, qu'ils soient ou non abonnés ou utilisateurs de téléphonie mobile.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  L’état du progrès pour cet indicateur est calculé comme la moyenne équipondérée des scores de progrès pour chaque type de technologie : 3G, 4G et 5G. Étant donné que LTE et LTE-A sont toutes deux des technologies 4G, elles sont regroupées, et le score de progrès pour la 4G est calculé comme la moyenne des scores pour LTE et LTE-A.
 
 # Global
 SDG_GOAL__GLOBAL: >-

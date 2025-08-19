@@ -15,7 +15,12 @@ DATA_COMP: >-
     Proportion des eaux usées d'origine ménagère et industrielle traitées sans danger = ((Traitement secondaire + Traitement tertiaire) / Volume total) x 100
 REC_USE_LIM: >-
     Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Proportion des eaux usées d’origine ménagère et industrielle traitées sans danger ».
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+    L'état du progrès pour cet indicateur est basé sur la série de substitution : « Proportion des eaux usées d’origine municipale et de la fabrication traitées sans danger ». L'indicateur de substitution est évalué en utilisant la moyenne équipondérée des scores de progrès pour chaque source (industries et municipale). La valeur cible est déterminée en « diminuant de moitié la proportion d'eaux usées non traitées » comme suit pour chaque source :
+    <br><br>
+    Cible = 1 - (1 - <i>y</i><sub>2015</sub>) / 2,
+    <br>
+    où <i>y</i><sub>2015</sub> est la proportion des eaux usées traitées sans danger en 2015.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-
