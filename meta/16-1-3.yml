@@ -10,7 +10,8 @@ STAT_CONC_DEF: |-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   Rates are calculated per 1,000 population aged 15 years and older.
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  The progress status only represents parts (a) physical violence and (c) sexual violence of the indicator. Data for part (b) psychological violence is not available at this time.
 
 # Global
 SDG_GOAL__GLOBAL: |-

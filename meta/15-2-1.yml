@@ -1,15 +1,13 @@
-SDG_GOAL: >-
-    <p>Goal 15: Protect, restore and promote sustainable use of terrestrial
-      ecosystems, sustainably manage forests, combat desertification, and halt and reverse
-      land degradation and halt biodiversity loss</p>
-SDG_TARGET: >-
-    <p>Target 15.2: By 2020, promote the implementation of sustainable management
-      of all types of forests, halt deforestation, restore degraded forests and substantially
-      increase afforestation and reforestation globally</p>
-SDG_INDICATOR: >-
-    <p>Indicator 15.2.1: Progress towards sustainable forest management</p>
-STAT_CONC_DEF: |
-  The indicator is composed of five sub-indicators that measure progress towards all dimensions of sustainable forest management. The environmental values of forests are covered by three sub-indicators focused on the extension of forest area, biomass within the forest area and protection and maintenance of biological diversity, and of natural and associated cultural resources. Social and economic values of forests are reconciled with environmental values through sustainable management plans. The sub-indicator provides further qualification to the management of forest areas, by assessing areas which are independently verified for compliance with a set of national or international standards. <br><br>
+# National
+SDG_GOAL: |-
+  Goal 15: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
+SDG_TARGET: |-
+  Target 15.2: By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally
+SDG_INDICATOR: |-
+  Indicator 15.2.1: Progress towards sustainable forest management
+STAT_CONC_DEF: |-
+  The indicator is composed of five sub-indicators that measure progress towards all dimensions of sustainable forest management. The environmental values of forests are covered by three sub-indicators focused on the extension of forest area, biomass within the forest area and protection and maintenance of biological diversity, and of natural and associated cultural resources. Social and economic values of forests are reconciled with environmental values through sustainable management plans. The sub-indicator provides further qualification to the management of forest areas, by assessing areas which are independently verified for compliance with a set of national or international standards.
+  <br><br>
   The sub-indicators are: <br>
   1. Forest area net change rate <br>
   2. Above-ground biomass stock in forest <br>
@@ -17,23 +15,24 @@ STAT_CONC_DEF: |
   4. Proportion of forest area under a long-term forest management plan <br>
   5. Forest area under an independently verified forest management certification scheme
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'Forest area under an independently verified forest management certification scheme is measured in millions of hectares rather than thousands as specified in the metadata.'
- 
-PROGRESS_DETAILS: custom.progress_details
-SDG_GOAL__GLOBAL: >-
-    <p>Goal 15: Protect, restore and promote sustainable use of terrestrial
-      ecosystems, sustainably manage forests, combat desertification, and halt and reverse
-      land degradation and halt biodiversity loss</p>
-SDG_TARGET__GLOBAL: >-
-    <p>Target 15.2: By 2020, promote the implementation of sustainable management
-      of all types of forests, halt deforestation, restore degraded forests and substantially
-      increase afforestation and reforestation globally</p>
-SDG_INDICATOR__GLOBAL: >-
-    <p>Indicator 15.2.1: Progress towards sustainable forest management</p>
+REC_USE_LIM: |-
+  Forest area under an independently verified forest management certification scheme is measured in millions of hectares rather than thousands as specified in the metadata.
+PROGRESS_DETAILS: |-
+  The "Forest area net change rate" series is excluded from the progress assessment because there is no definitive desired trend.
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 15: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
+SDG_TARGET__GLOBAL: |-
+  Target 15.2: By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 15.2.1: Progress towards sustainable forest management
+
 un_designated_tier: Tier I
 un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-02-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
 # Source(s)
 source_active_1: 'true'
 source_url_text_1: "Global Forest Resources Assessment 2020 (PDF)"

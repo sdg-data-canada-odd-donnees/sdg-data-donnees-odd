@@ -10,7 +10,8 @@ STAT_CONC_DEF: |-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   Les taux sont calculés pour 1 000 habitants âgés de 15 ans et plus.
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  L'état du progrès représente seulement les parties (a) violence physique et (c) violence sexuelle de l'indicateur. Les données pour la partie (b) violence psychologique ne sont pas actuellement disponibles.
 
 # Global
 SDG_GOAL__GLOBAL: |-

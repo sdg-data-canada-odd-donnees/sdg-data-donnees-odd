@@ -1,15 +1,11 @@
-SDG_GOAL: >-
-    <p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres, en
-      veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
-      contre la désertification, enrayer et inverser le processus de dégradation des terres
-      et mettre fin à l’appauvrissement de la biodiversité</p>
-SDG_TARGET: >-
-    <p>Cible 15.2 : D’ici à 2020, promouvoir la gestion durable de tous les
-      types de forêt, mettre un terme à la déforestation, restaurer les forêts dégradées
-      et accroître nettement le boisement et le reboisement au niveau mondial</p>
-SDG_INDICATOR: >-
-    <p>Indicateur 15.2.1 : Progrès vers la gestion durable des forêts</p>
-STAT_CONC_DEF: |
+# National
+SDG_GOAL: |-
+  Objectif 15 : Préserver et restaurer les écosystèmes terrestres, en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter contre la désertification, enrayer et inverser le processus de dégradation des terres et mettre fin à l’appauvrissement de la biodiversité
+SDG_TARGET: |-
+  Cible 15.2 : D’ici à 2020, promouvoir la gestion durable de tous les types de forêt, mettre un terme à la déforestation, restaurer les forêts dégradées et accroître nettement le boisement et le reboisement au niveau mondial
+SDG_INDICATOR: |-
+  Indicateur 15.2.1 : Progrès vers la gestion durable des forêts
+STAT_CONC_DEF: |-
   L’indicateur se compose de cinq sous-indicateurs qui mesurent les progrès réalisés dans toutes les dimensions de l’aménagement durable des forêts. Les valeurs environnementales des forêts comprennent trois sous-indicateurs axés sur l’élargissement de la superficie forestière, la biomasse dans la superficie forestière et la protection et le maintien de la diversité biologique, ainsi que des ressources naturelles et culturelles associées. Les valeurs sociales et économiques des forêts sont conciliées avec les valeurs environnementales par des plans d’aménagement durable. Le sous-indicateur fournit une précision supplémentaire pour l’aménagement des superficies forestières, en évaluant les superficies dont la conformité à un ensemble de normes nationales ou internationales est vérifiée de manière indépendante.
   <br><br>
   Les sous-indicateurs sont : <br>
@@ -19,21 +15,18 @@ STAT_CONC_DEF: |
   4. Proportion de la superficie forestière faisant l’objet d’un plan de gestion forestière à long terme <br>
   5. Superficie forestière faisant l’objet d’un système de certification de la gestion forestière vérifié de manière indépendante
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
+REC_USE_LIM: |-
   La superficie forestière couverte par un système de certification de la gestion forestière vérifié de manière indépendante est mesurée en millions d'hectares et non en milliers comme indiqué dans les métadonnées.
- 
-PROGRESS_DETAILS: custom.progress_details
-SDG_GOAL__GLOBAL: >-
-    <p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres, en
-      veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
-      contre la désertification, enrayer et inverser le processus de dégradation des terres
-      et mettre fin à l’appauvrissement de la biodiversité</p>
-SDG_TARGET__GLOBAL: >-
-    <p>Cible 15.2 : D’ici à 2020, promouvoir la gestion durable de tous les
-      types de forêt, mettre un terme à la déforestation, restaurer les forêts dégradées
-      et accroître nettement le boisement et le reboisement au niveau mondial</p>
-SDG_INDICATOR__GLOBAL: >-
-    <p>Indicateur 15.2.1 : Progrès vers la gestion durable des forêts</p>
+PROGRESS_DETAILS: |-
+  La série « Taux de variation nette de la superficie forestière » est exclue de l'évaluation du progrès, car il n'y a aucune tendance désirée définitive.
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 15 : Préserver et restaurer les écosystèmes terrestres, en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter contre la désertification, enrayer et inverser le processus de dégradation des terres et mettre fin à l’appauvrissement de la biodiversité
+SDG_TARGET__GLOBAL: |-
+  Cible 15.2 : D’ici à 2020, promouvoir la gestion durable de tous les types de forêt, mettre un terme à la déforestation, restaurer les forêts dégradées et accroître nettement le boisement et le reboisement au niveau mondial
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 15.2.1 : Progrès vers la gestion durable des forêts
 
 # Source(s)
 source_active_1: 'true'
