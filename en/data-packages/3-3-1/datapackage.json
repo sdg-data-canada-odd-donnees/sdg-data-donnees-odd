@@ -16,27 +16,27 @@
             "title": "Year"
           },
           {
-            "name": "Age group",
+            "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "All ages",
                 "15 to 24 years",
                 "15 to 49 years",
                 "50 years and over",
+                "All ages",
                 ""
               ]
             },
-            "title": "Age group"
+            "title": "Age"
           },
           {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
                 "Both sexes",
+                "Female",
+                "Male",
                 ""
               ]
             },

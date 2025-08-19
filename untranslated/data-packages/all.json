@@ -4802,14 +4802,14 @@
             "type": "integer"
           },
           {
-            "name": "Age group",
+            "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "All ages",
                 "15 to 24 years",
                 "15 to 49 years",
                 "50 years and over",
+                "All ages",
                 ""
               ]
             }
@@ -4819,9 +4819,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
                 "Both sexes",
+                "Female",
+                "Male",
                 ""
               ]
             }

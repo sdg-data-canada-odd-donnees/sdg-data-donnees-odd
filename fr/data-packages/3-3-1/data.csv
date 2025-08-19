@@ -1,4 +1,4 @@
-Year,Groupe d'âge,Sexe,Value
+Year,Âge,Sexe,Value
 2000,,,0.081
 2001,,,0.081
 2002,,,0.08
@@ -20,48 +20,6 @@ Year,Groupe d'âge,Sexe,Value
 2018,,,0.053
 2019,,,0.049
 2020,,,0.041
-2000,Tous les âges,Homme,0.12
-2001,Tous les âges,Homme,0.12
-2002,Tous les âges,Homme,0.12
-2003,Tous les âges,Homme,0.12
-2004,Tous les âges,Homme,0.12
-2005,Tous les âges,Homme,0.12
-2006,Tous les âges,Homme,0.11
-2007,Tous les âges,Homme,0.11
-2008,Tous les âges,Homme,0.11
-2009,Tous les âges,Homme,0.1
-2010,Tous les âges,Homme,0.096
-2011,Tous les âges,Homme,0.087
-2012,Tous les âges,Homme,0.083
-2013,Tous les âges,Homme,0.079
-2014,Tous les âges,Homme,0.079
-2015,Tous les âges,Homme,0.08
-2016,Tous les âges,Homme,0.08
-2017,Tous les âges,Homme,0.081
-2018,Tous les âges,Homme,0.081
-2019,Tous les âges,Homme,0.073
-2020,Tous les âges,Homme,0.056
-2000,Tous les âges,Femme,0.039
-2001,Tous les âges,Femme,0.038
-2002,Tous les âges,Femme,0.038
-2003,Tous les âges,Femme,0.037
-2004,Tous les âges,Femme,0.037
-2005,Tous les âges,Femme,0.036
-2006,Tous les âges,Femme,0.036
-2007,Tous les âges,Femme,0.035
-2008,Tous les âges,Femme,0.034
-2009,Tous les âges,Femme,0.033
-2010,Tous les âges,Femme,0.03
-2011,Tous les âges,Femme,0.028
-2012,Tous les âges,Femme,0.026
-2013,Tous les âges,Femme,0.025
-2014,Tous les âges,Femme,0.025
-2015,Tous les âges,Femme,0.025
-2016,Tous les âges,Femme,0.025
-2017,Tous les âges,Femme,0.026
-2018,Tous les âges,Femme,0.026
-2019,Tous les âges,Femme,0.025
-2020,Tous les âges,Femme,0.026
 2000,15 à 24 ans,Les deux sexes,0.057
 2001,15 à 24 ans,Les deux sexes,0.056
 2002,15 à 24 ans,Les deux sexes,0.056
@@ -83,27 +41,6 @@ Year,Groupe d'âge,Sexe,Value
 2018,15 à 24 ans,Les deux sexes,0.044
 2019,15 à 24 ans,Les deux sexes,0.041
 2020,15 à 24 ans,Les deux sexes,0.035
-2000,15 à 24 ans,Homme,0.071
-2001,15 à 24 ans,Homme,0.071
-2002,15 à 24 ans,Homme,0.071
-2003,15 à 24 ans,Homme,0.07
-2004,15 à 24 ans,Homme,0.069
-2005,15 à 24 ans,Homme,0.068
-2006,15 à 24 ans,Homme,0.067
-2007,15 à 24 ans,Homme,0.067
-2008,15 à 24 ans,Homme,0.066
-2009,15 à 24 ans,Homme,0.063
-2010,15 à 24 ans,Homme,0.059
-2011,15 à 24 ans,Homme,0.055
-2012,15 à 24 ans,Homme,0.053
-2013,15 à 24 ans,Homme,0.051
-2014,15 à 24 ans,Homme,0.053
-2015,15 à 24 ans,Homme,0.053
-2016,15 à 24 ans,Homme,0.054
-2017,15 à 24 ans,Homme,0.054
-2018,15 à 24 ans,Homme,0.055
-2019,15 à 24 ans,Homme,0.05
-2020,15 à 24 ans,Homme,0.038
 2000,15 à 24 ans,Femme,0.042
 2001,15 à 24 ans,Femme,0.041
 2002,15 à 24 ans,Femme,0.041
@@ -125,6 +62,27 @@ Year,Groupe d'âge,Sexe,Value
 2018,15 à 24 ans,Femme,0.032
 2019,15 à 24 ans,Femme,0.031
 2020,15 à 24 ans,Femme,0.032
+2000,15 à 24 ans,Homme,0.071
+2001,15 à 24 ans,Homme,0.071
+2002,15 à 24 ans,Homme,0.071
+2003,15 à 24 ans,Homme,0.07
+2004,15 à 24 ans,Homme,0.069
+2005,15 à 24 ans,Homme,0.068
+2006,15 à 24 ans,Homme,0.067
+2007,15 à 24 ans,Homme,0.067
+2008,15 à 24 ans,Homme,0.066
+2009,15 à 24 ans,Homme,0.063
+2010,15 à 24 ans,Homme,0.059
+2011,15 à 24 ans,Homme,0.055
+2012,15 à 24 ans,Homme,0.053
+2013,15 à 24 ans,Homme,0.051
+2014,15 à 24 ans,Homme,0.053
+2015,15 à 24 ans,Homme,0.053
+2016,15 à 24 ans,Homme,0.054
+2017,15 à 24 ans,Homme,0.054
+2018,15 à 24 ans,Homme,0.055
+2019,15 à 24 ans,Homme,0.05
+2020,15 à 24 ans,Homme,0.038
 2000,15 à 49 ans,Les deux sexes,0.14
 2001,15 à 49 ans,Les deux sexes,0.14
 2002,15 à 49 ans,Les deux sexes,0.14
@@ -146,27 +104,6 @@ Year,Groupe d'âge,Sexe,Value
 2018,15 à 49 ans,Les deux sexes,0.1
 2019,15 à 49 ans,Les deux sexes,0.095
 2020,15 à 49 ans,Les deux sexes,0.079
-2000,15 à 49 ans,Homme,0.21
-2001,15 à 49 ans,Homme,0.21
-2002,15 à 49 ans,Homme,0.21
-2003,15 à 49 ans,Homme,0.21
-2004,15 à 49 ans,Homme,0.2
-2005,15 à 49 ans,Homme,0.2
-2006,15 à 49 ans,Homme,0.2
-2007,15 à 49 ans,Homme,0.19
-2008,15 à 49 ans,Homme,0.19
-2009,15 à 49 ans,Homme,0.18
-2010,15 à 49 ans,Homme,0.17
-2011,15 à 49 ans,Homme,0.16
-2012,15 à 49 ans,Homme,0.15
-2013,15 à 49 ans,Homme,0.14
-2014,15 à 49 ans,Homme,0.15
-2015,15 à 49 ans,Homme,0.15
-2016,15 à 49 ans,Homme,0.15
-2017,15 à 49 ans,Homme,0.15
-2018,15 à 49 ans,Homme,0.15
-2019,15 à 49 ans,Homme,0.14
-2020,15 à 49 ans,Homme,0.11
 2000,15 à 49 ans,Femme,0.068
 2001,15 à 49 ans,Femme,0.067
 2002,15 à 49 ans,Femme,0.067
@@ -188,6 +125,27 @@ Year,Groupe d'âge,Sexe,Value
 2018,15 à 49 ans,Femme,0.051
 2019,15 à 49 ans,Femme,0.05
 2020,15 à 49 ans,Femme,0.051
+2000,15 à 49 ans,Homme,0.21
+2001,15 à 49 ans,Homme,0.21
+2002,15 à 49 ans,Homme,0.21
+2003,15 à 49 ans,Homme,0.21
+2004,15 à 49 ans,Homme,0.2
+2005,15 à 49 ans,Homme,0.2
+2006,15 à 49 ans,Homme,0.2
+2007,15 à 49 ans,Homme,0.19
+2008,15 à 49 ans,Homme,0.19
+2009,15 à 49 ans,Homme,0.18
+2010,15 à 49 ans,Homme,0.17
+2011,15 à 49 ans,Homme,0.16
+2012,15 à 49 ans,Homme,0.15
+2013,15 à 49 ans,Homme,0.14
+2014,15 à 49 ans,Homme,0.15
+2015,15 à 49 ans,Homme,0.15
+2016,15 à 49 ans,Homme,0.15
+2017,15 à 49 ans,Homme,0.15
+2018,15 à 49 ans,Homme,0.15
+2019,15 à 49 ans,Homme,0.14
+2020,15 à 49 ans,Homme,0.11
 2000,50 ans et plus,Les deux sexes,0.025
 2001,50 ans et plus,Les deux sexes,0.025
 2002,50 ans et plus,Les deux sexes,0.025
@@ -209,27 +167,6 @@ Year,Groupe d'âge,Sexe,Value
 2018,50 ans et plus,Les deux sexes,0.015
 2019,50 ans et plus,Les deux sexes,0.013
 2020,50 ans et plus,Les deux sexes,0.011
-2000,50 ans et plus,Homme,0.041
-2001,50 ans et plus,Homme,0.041
-2002,50 ans et plus,Homme,0.04
-2003,50 ans et plus,Homme,0.04
-2004,50 ans et plus,Homme,0.04
-2005,50 ans et plus,Homme,0.039
-2006,50 ans et plus,Homme,0.038
-2007,50 ans et plus,Homme,0.038
-2008,50 ans et plus,Homme,0.037
-2009,50 ans et plus,Homme,0.035
-2010,50 ans et plus,Homme,0.032
-2011,50 ans et plus,Homme,0.03
-2012,50 ans et plus,Homme,0.028
-2013,50 ans et plus,Homme,0.026
-2014,50 ans et plus,Homme,0.026
-2015,50 ans et plus,Homme,0.026
-2016,50 ans et plus,Homme,0.025
-2017,50 ans et plus,Homme,0.025
-2018,50 ans et plus,Homme,0.024
-2019,50 ans et plus,Homme,0.021
-2020,50 ans et plus,Homme,0.016
 2000,50 ans et plus,Femme,0.011
 2001,50 ans et plus,Femme,0.011
 2002,50 ans et plus,Femme,0.011
@@ -251,3 +188,66 @@ Year,Groupe d'âge,Sexe,Value
 2018,50 ans et plus,Femme,0.0067
 2019,50 ans et plus,Femme,0.0064
 2020,50 ans et plus,Femme,0.0064
+2000,50 ans et plus,Homme,0.041
+2001,50 ans et plus,Homme,0.041
+2002,50 ans et plus,Homme,0.04
+2003,50 ans et plus,Homme,0.04
+2004,50 ans et plus,Homme,0.04
+2005,50 ans et plus,Homme,0.039
+2006,50 ans et plus,Homme,0.038
+2007,50 ans et plus,Homme,0.038
+2008,50 ans et plus,Homme,0.037
+2009,50 ans et plus,Homme,0.035
+2010,50 ans et plus,Homme,0.032
+2011,50 ans et plus,Homme,0.03
+2012,50 ans et plus,Homme,0.028
+2013,50 ans et plus,Homme,0.026
+2014,50 ans et plus,Homme,0.026
+2015,50 ans et plus,Homme,0.026
+2016,50 ans et plus,Homme,0.025
+2017,50 ans et plus,Homme,0.025
+2018,50 ans et plus,Homme,0.024
+2019,50 ans et plus,Homme,0.021
+2020,50 ans et plus,Homme,0.016
+2000,Tous les âges,Femme,0.039
+2001,Tous les âges,Femme,0.038
+2002,Tous les âges,Femme,0.038
+2003,Tous les âges,Femme,0.037
+2004,Tous les âges,Femme,0.037
+2005,Tous les âges,Femme,0.036
+2006,Tous les âges,Femme,0.036
+2007,Tous les âges,Femme,0.035
+2008,Tous les âges,Femme,0.034
+2009,Tous les âges,Femme,0.033
+2010,Tous les âges,Femme,0.03
+2011,Tous les âges,Femme,0.028
+2012,Tous les âges,Femme,0.026
+2013,Tous les âges,Femme,0.025
+2014,Tous les âges,Femme,0.025
+2015,Tous les âges,Femme,0.025
+2016,Tous les âges,Femme,0.025
+2017,Tous les âges,Femme,0.026
+2018,Tous les âges,Femme,0.026
+2019,Tous les âges,Femme,0.025
+2020,Tous les âges,Femme,0.026
+2000,Tous les âges,Homme,0.12
+2001,Tous les âges,Homme,0.12
+2002,Tous les âges,Homme,0.12
+2003,Tous les âges,Homme,0.12
+2004,Tous les âges,Homme,0.12
+2005,Tous les âges,Homme,0.12
+2006,Tous les âges,Homme,0.11
+2007,Tous les âges,Homme,0.11
+2008,Tous les âges,Homme,0.11
+2009,Tous les âges,Homme,0.1
+2010,Tous les âges,Homme,0.096
+2011,Tous les âges,Homme,0.087
+2012,Tous les âges,Homme,0.083
+2013,Tous les âges,Homme,0.079
+2014,Tous les âges,Homme,0.079
+2015,Tous les âges,Homme,0.08
+2016,Tous les âges,Homme,0.08
+2017,Tous les âges,Homme,0.081
+2018,Tous les âges,Homme,0.081
+2019,Tous les âges,Homme,0.073
+2020,Tous les âges,Homme,0.056
