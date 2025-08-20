@@ -3326,16 +3326,16 @@
     base_year: 2015.0
     current_value: 0.36
     current_year: 2023.0
-    direction: 1
+    direction: -1
     limit: null
-    progress_value: -0.40927467294129044
-    score: 5.0
+    progress_value: 0.40927467294129044
+    score: -0.7946752202555252
     sign: 1
-    status: target_achieved
+    status: limited_progress
     target: 0.001
     target_year: 2030.0
-  progress_status: target_achieved
-  score: 5.0
+  progress_status: limited_progress
+  score: -0.7946752202555252
 8-9-1:
   progress_status: ''
   score: null
