@@ -20,7 +20,7 @@ embedded_feature_url: ''
 expected_disaggregations: 
   - Sex
   - Age group
-  - Key population
+  # - Key population (currently not used as UNAIDS does not publish data by key population for Canada)
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''

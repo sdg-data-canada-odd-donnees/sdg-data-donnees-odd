@@ -5,8 +5,10 @@ SDG_TARGET: '<p>Cible 8.8 : Défendre les droits des travailleurs, promouvoir la
 SDG_INDICATOR: '<p>Indicateur 8.8.2 : Niveau de respect des droits du travail (liberté d’association et droit de négociation collective) au niveau national, eu
   égard aux textes de l’Organisation internationale du Travail (OIT) et à la législation nationale, par sexe et statut migratoire</p>'
 STAT_CONC_DEF: >-
-  L’indicateur mesure le niveau de conformité aux droits fondamentaux au travail (liberté syndicale et droit à la négociation collective) pour tous les États membres de l’Organisation internationale du Travail (OIT) selon six sources textuelles des organismes de contrôle internationaux de l’OIT ainsi que de la législation nationale. Il repose sur le codage de sources textuelles par rapport à une liste de critères d’évaluation, puis sur la conversion du codage en indicateurs.
-DATA_COMP: '   '
+  L’indicateur mesure le niveau de conformité aux droits fondamentaux au travail (liberté syndicale et droit à la négociation collective) pour tous les États membres de l’Organisation internationale du Travail (OIT) selon six sources textuelles des organismes de contrôle internationaux de l’OIT ainsi que de la législation nationale. 
+  <br><br>
+  L'indicateur est basé sur le codage des sources textuelles par rapport à une liste détaillée de critères d'évaluation, le codage étant ensuite converti en indicateur. Il va de 0 à 10, 0 étant le meilleur score possible (indiquant des niveaux plus élevés de respect de la liberté d'association et des droits de négociation collective) et 10 le plus mauvais (indiquant des niveaux plus faibles de respect de la liberté d'association et des droits de négociation collective).
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 PROGRESS_DETAILS: custom.progress_details
 
@@ -22,4 +24,10 @@ un_custodian_agency:  Organisation internationale du Travail
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-08-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: Explorateur de données ILOSTAT (en anglais seulement)
+source_url_1: https://rshiny.ilo.org/dataexplorer75/?lang=fr&segment=indicator&id=SDG_0882_NOC_RT_A&ref_area=CAN
+source_organisation_1: Organisation internationale du Travail (OIT)
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
