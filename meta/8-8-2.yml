@@ -9,8 +9,10 @@ SDG_INDICATOR: '<p>Indicator 8.8.2: Level of national compliance with labour rig
   Organization (ILO) textual sources and national legislation, by sex and migrant
   status</p>'
 STAT_CONC_DEF: >-
-  The indicator measures the level of national compliance with fundamental rights at work (freedom of association and collective bargaining, FACB) for all International Labour Organization (ILO) member states based on six international ILO supervisory body textual sources and also on national legislation. It is based on the coding of textual sources against a list of evaluation criteria and then converting the coding into indicators.
-DATA_COMP: '   '
+  The indicator measures the level of national compliance with fundamental rights at work (freedom of association and collective bargaining, FACB) for all International Labour Organization (ILO) member states based on six international ILO supervisory body textual sources and also on national legislation. 
+  <br><br>
+  The indicator is based on the coding of the textual sources against a detailed list of evaluation criteria with the coding then converted into the indicator. It has a range from 0 to 10, with 0 being the best possible score (indicating higher levels of compliance with freedom of association and collective bargaining rights) and 10 the worst (indicating lower levels of compliance with freedom of association and collective bargaining rights).
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 
 # Global
@@ -28,4 +30,11 @@ un_designated_tier: Tier II
 un_custodian_agency: International Labour Organization (ILO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-08-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
- 
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: ILOSTAT Data Explorer
+source_url_1: https://rshiny.ilo.org/dataexplorer75/?lang=en&segment=indicator&id=SDG_0882_NOC_RT_A&ref_area=CAN
+source_organisation_1: International Labour Organization (ILO)
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
