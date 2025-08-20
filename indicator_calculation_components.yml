@@ -3321,8 +3321,21 @@
   progress_status: deterioration
   score: -5.0
 8-8-2:
-  progress_status: ''
-  score: null
+  8-8-2:
+    base_value: 1.41
+    base_year: 2015.0
+    current_value: 0.36
+    current_year: 2023.0
+    direction: 1
+    limit: null
+    progress_value: -0.40927467294129044
+    score: 5.0
+    sign: 1
+    status: target_achieved
+    target: 0.001
+    target_year: 2030.0
+  progress_status: target_achieved
+  score: 5.0
 8-9-1:
   progress_status: ''
   score: null
