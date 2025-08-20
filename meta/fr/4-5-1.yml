@@ -1,15 +1,9 @@
-SDG_GOAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité, sur
-  un pied d''égalité, et à promouvoir les possibilités d''apprentissage tout au long
-  de la vie.</p>'
-SDG_TARGET: '<p>Cible 4.5 : d''ici 2030, éliminer les disparités entre les sexes dans
-  l''enseignement et assurer aux personnes vulnérables, notamment aux personnes handicapées,
-  aux populations autochtones et aux enfants en situation vulnérable, l''égalité d''accès
-  à tous les niveaux d''enseignement et de formation professionnelle.</p>'
-SDG_INDICATOR: '<p>Indicateur 4.5.1 : Indices de parité (femmes/hommes, urbain/rural,
-  quintile inférieur/supérieur de richesse et autres paramètres tels que le handicap,
-  le statut d’autochtone et les situations de conflit, à mesure que les données deviennent
-  disponibles) pour tous les indicateurs dans le domaine de l’éducation de cette liste
-  pouvant être ventilés</p>'
+SDG_GOAL: |-
+  Objectif 4 : Assurer l'accès de tous à une éducation de qualité, sur un pied d'égalité, et à promouvoir les possibilités d'apprentissage tout au long de la vie.
+SDG_TARGET: |-
+  Cible 4.5 : d'ici 2030, éliminer les disparités entre les sexes dans l'enseignement et assurer aux personnes vulnérables, notamment aux personnes handicapées, aux populations autochtones et aux enfants en situation vulnérable, l'égalité d'accès à tous les niveaux d'enseignement et de formation professionnelle.
+SDG_INDICATOR: |-
+  Indicateur 4.5.1 : Indices de parité (femmes/hommes, urbain/rural, quintile inférieur/supérieur de richesse et autres paramètres tels que le handicap, le statut d’autochtone et les situations de conflit, à mesure que les données deviennent disponibles) pour tous les indicateurs dans le domaine de l’éducation de cette liste pouvant être ventilés
 STAT_CONC_DEF: |-
   L’indice de parité est la principale méthode choisie par la communauté internationale pour mesurer l’équité entre les indicateurs de l’objectif 4 et est défini par le rapport entre les valeurs d’un indicateur donné pour deux groupes différents. Une valeur comprise entre 0,97 et 1,03 indique une parité entre les deux groupes. Une valeur inférieure à 0,97 ou supérieure à 1,03 indique une disparité entre les deux groupes.
   <p><b>Indice de parité entre les sexes :</b> représente le rapport entre la valeur correspondant au sexe féminin et celle correspondant au sexe masculin pour un indicateur donné. Ce chiffre est calculé en divisant la valeur de la composante des personnes de sexe féminin de l’indicateur par la valeur de la composante des personnes de sexe masculin pour le même indicateur. C’est la principale méthode choisie par la communauté internationale, comme l’UNESCO, pour mesurer l’équité entre les indicateurs de l’objectif 4 des objectifs de développement durable (ODD). Un indice de parité entre les sexes compris entre 0,97 et 1,03 indique une parité entre les personnes de sexe féminin et de sexe masculin. Une valeur inférieure à 0,97 est le signe d’une disparité en faveur des personnes de sexe masculin et une valeur supérieure à 1,03 reflète une disparité en faveur des personnes de sexe féminin.</p>
@@ -19,25 +13,25 @@ DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   Les territoires n’ont pas participé au PISA de 2015 et par conséquent, ils ne sont pas représentés dans certains indicateurs.
   <br><br>
-  La population sondée pour l’indicateur d'éducation « Taux de scolarisation » est la population âgée de 25 ans et plus.
+  La population sondée pour l’indicateur d'éducation « Taux de scolarisation » est la population âgée de 25 ans et plus.
   <br><br>
-  Seules les données pour l’enseignement secondaire de deuxième cycle sont disponibles pour l’indicateur d'éducation « Taux d'achèvement » pour l’indice de parité entre milieu urbain et rural et l’indice de parité de richesse.
- 
-PROGRESS_DETAILS: custom.progress_details
+  Seules les données pour l’enseignement secondaire de deuxième cycle sont disponibles pour l’indicateur d'éducation « Taux d'achèvement » pour l’indice de parité entre milieu urbain et rural et l’indice de parité de richesse.
+PROGRESS_DETAILS: |-
+  Certaines transformations de données ont été appliquées afin de mieux mesurer le progrès, en tenant compte des déviations par rapport à la cible dans les deux directions. Pour plus d'information, veuillez consulter la documentation de la méthodologie de mesure de progrès.
+  <br><br>
+  L'état du progrès pour cet indicateur provient de la moyenne équipondérée des scores de progrès de chaque série disponible. Le score de progrès de chaque série est, lui-même, calculé comme la moyenne équipondérée des scores de progrès pour chaque type d'indice de parité disponible.
+  <br><br>
+  Lorsque les données sont disponibles pour plusieurs niveaux de scolarité, seules celles correspondant à l'éducation primaire, l'éducation secondaire de premier cycle et l'éducation secondaire de deuxième cycle sont incluses dans l'évaluation du progrès.
 
 ## GLOBAL
-SDG_GOAL__GLOBAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité,
-  sur un pied d''égalité, et à promouvoir les possibilités d''apprentissage tout au
-  long de la vie.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 4.5 : d''ici 2030, éliminer les disparités entre les
-  sexes dans l''enseignement et assurer aux personnes vulnérables, notamment aux personnes
-  handicapées, aux populations autochtones et aux enfants en situation vulnérable,
-  l''égalité d''accès à tous les niveaux d''enseignement et de formation professionnelle.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 4.5.1 : Indices de parité (femmes/hommes, urbain/rural,
-  quintile inférieur/supérieur de richesse et autres paramètres tels que le handicap,
-  le statut d’autochtone et les situations de conflit, à mesure que les données deviennent
-  disponibles) pour tous les indicateurs dans le domaine de l’éducation de cette liste
-  pouvant être ventilés</p>'
+SDG_GOAL__GLOBAL: |-
+  Objectif 4 : Assurer l'accès de tous à une éducation de qualité, sur un pied d'égalité, et à promouvoir les possibilités d'apprentissage tout au long de la vie.
+SDG_TARGET__GLOBAL: |-
+  Cible 4.5 : d'ici 2030, éliminer les disparités entre les sexes dans l'enseignement et assurer aux personnes vulnérables, notamment aux personnes handicapées, aux populations autochtones et aux enfants en situation vulnérable, l'égalité d'accès à tous les niveaux d'enseignement et de formation professionnelle.
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 4.5.1 : Indices de parité (femmes/hommes, urbain/rural, quintile inférieur/supérieur de richesse et autres paramètres tels que le handicap, le statut d’autochtone et les situations de conflit, à mesure que les données deviennent disponibles) pour tous les indicateurs dans le domaine de l’éducation de cette liste
+  pouvant être ventilés
+
 un_designated_tier: Niveau I/II selon l’indice
 un_custodian_agency: Organisation des Nations Unies pour l'éducation, la science et la culture (UNESCO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-05-01.pdf
@@ -45,8 +39,7 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 ## SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    Base de données de l'ISU - Indicateurs ODD 4 (en anglais seulement)
+source_url_text_1: Base de données de l'ISU - Indicateurs ODD 4 (en anglais seulement)
 source_url_1: https://sdg4-data.uis.unesco.org/
 source_organisation_1: Institut de statistique de l’UNESCO
 source_periodicity_1: Occasionnelle

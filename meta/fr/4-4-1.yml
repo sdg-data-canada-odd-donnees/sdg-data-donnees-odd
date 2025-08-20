@@ -1,25 +1,26 @@
 # NATIONAL
-SDG_GOAL: |
-    Objectif 4 : Assurer l'accès de tous à une éducation de qualité, sur un pied d'égalité, et à promouvoir les possibilités d''apprentissage tout au long de la vie.
-SDG_TARGET: |
-    Cible 4.4 : D'ici à 2030, augmenter nettement le nombre de jeunes et d'adultes disposant des compétences, notamment techniques et professionnelles, nécessaire à l'emploi, à l'obtention d'un travail décent et à l'entrepreneuriat
-SDG_INDICATOR: |
-    Indicateur 4.4.1 : Proportion d'utilisateurs d'internet ayant des compétences dans le domaine des technologies de l’information et des communications, par type de compétence
-STAT_CONC_DEF: |
-    La proportion d'utilisateurs d'internet possédant des compétences en technologies de l'information et des communications (TIC), par type de compétence définie comme le pourcentage d'utilisateurs d'internet ayant entrepris certaines activités liées aux TIC au cours des 3 derniers mois. L'indicateur est exprimé en pourcentage.
+SDG_GOAL: |-
+  Objectif 4 : Assurer l'accès de tous à une éducation de qualité, sur un pied d'égalité, et à promouvoir les possibilités d''apprentissage tout au long de la vie.
+SDG_TARGET: |-
+  Cible 4.4 : D'ici à 2030, augmenter nettement le nombre de jeunes et d'adultes disposant des compétences, notamment techniques et professionnelles, nécessaire à l'emploi, à l'obtention d'un travail décent et à l'entrepreneuriat
+SDG_INDICATOR: |-
+  Indicateur 4.4.1 : Proportion d'utilisateurs d'internet ayant des compétences dans le domaine des technologies de l’information et des communications, par type de compétence
+STAT_CONC_DEF: |-
+  La proportion d'utilisateurs d'internet possédant des compétences en technologies de l'information et des communications (TIC), par type de compétence définie comme le pourcentage d'utilisateurs d'internet ayant entrepris certaines activités liées aux TIC au cours des 3 derniers mois. L'indicateur est exprimé en pourcentage.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
-    Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : "Proportion de jeunes et d’adultes ayant des compétences dans le domaine des technologies de l’information et des communications, par type de compétence".
- 
-PROGRESS_DETAILS: custom.progress_details
+REC_USE_LIM: |-
+  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique : "Proportion de jeunes et d’adultes ayant des compétences dans le domaine des technologies de l’information et des communications, par type de compétence".
+PROGRESS_DETAILS: |-
+  L'état du progrès pour cet indicateur provient de la moyenne équipondérée des scores de progrès pour chaque acitivité liée à des compétences numériques pour laquelle les données sont disponibles.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: |
-    Objectif 4 : Assurer l'accès de tous à une éducation de qualité, sur un pied d'égalité, et à promouvoir les possibilités d''apprentissage tout au long de la vie.
-SDG_TARGET__GLOBAL: |
-    Cible 4.4 : D'ici à 2030, augmenter nettement le nombre de jeunes et d'adultes disposant des compétences, notamment techniques et professionnelles, nécessaire à l'emploi, à l'obtention d'un travail décent et à l'entrepreneuriat
-SDG_INDICATOR__GLOBAL: |
-    Indicateur 4.4.1 : Proportion de jeunes et d'adultes ayant des compétences en informatique et en communication, par type de compétence
+SDG_GOAL__GLOBAL: |-
+  Objectif 4 : Assurer l'accès de tous à une éducation de qualité, sur un pied d'égalité, et à promouvoir les possibilités d''apprentissage tout au long de la vie.
+SDG_TARGET__GLOBAL: |-
+  Cible 4.4 : D'ici à 2030, augmenter nettement le nombre de jeunes et d'adultes disposant des compétences, notamment techniques et professionnelles, nécessaire à l'emploi, à l'obtention d'un travail décent et à l'entrepreneuriat
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 4.4.1 : Proportion de jeunes et d'adultes ayant des compétences en informatique et en communication, par type de compétence
+
 un_designated_tier: Niveau II
 un_custodian_agency: Institut de statistique de l'UNESCO (ISU)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-04-01.pdf
@@ -32,5 +33,3 @@ source_url_1: https://doi.org/10.25318/2210011201-fra
 source_organisation_1: Statistique Canada
 source_periodicity_1: Occasionnelle
 source_geographical_coverage_1: Canada
-
-proxy: proxy

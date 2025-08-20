@@ -1,26 +1,24 @@
 # National
-SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
-  et durable, le plein emploi productif et un travail décent pour tous.</p>'
-SDG_TARGET: '<p>Cible 8.5 : D’ici à 2030, parvenir au plein emploi productif et garantir
-  à toutes les femmes et à tous les hommes, y compris les jeunes et les personnes
-  handicapées, un travail décent et un salaire égal pour un travail de valeur égale</p>'
-SDG_INDICATOR: '<p>Indicateur 8.5.2 : Taux de chômage, par sexe, âge et situation au regard
-  du handicap</p>'
-STAT_CONC_DEF: >-
+SDG_GOAL: |-
+  Objectif 8 : Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous.
+SDG_TARGET: |-
+  Cible 8.5 : D’ici à 2030, parvenir au plein emploi productif et garantir à toutes les femmes et à tous les hommes, y compris les jeunes et les personnes handicapées, un travail décent et un salaire égal pour un travail de valeur égale
+SDG_INDICATOR: |-
+  Indicateur 8.5.2 : Taux de chômage, par sexe, âge et situation au regard du handicap
+STAT_CONC_DEF: |-
   Le taux de chômage est le nombre de personnes en chômage exprimé en pourcentage de la population active.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  Le progrès de cet indicateur est évalué par rapport à un taux de chômage cible de 3 %, qui représent un taux de chômage naturel supposé. En dessous de ce seuil, le progrès n'est pas mesuré, car un taux de chômage extrêmement faible peut entraîner des conséquences négatives complexes, telles que des pressions inflationnistes croissantes et des déséquilibres sur le marché du travail.
 
 # Global
-SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
-  partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 8.5 : D’ici à 2030, parvenir au plein emploi productif
-  et garantir à toutes les femmes et à tous les hommes, y compris les jeunes et les
-  personnes handicapées, un travail décent et un salaire égal pour un travail de valeur
-  égale</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.5.2 : Taux de chômage, par sexe, âge et situation
-  au regard du handicap</p>'
+SDG_GOAL__GLOBAL: |-
+  Objectif 8 : Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous.
+SDG_TARGET__GLOBAL: |-
+  Cible 8.5 : D’ici à 2030, parvenir au plein emploi productif et garantir à toutes les femmes et à tous les hommes, y compris les jeunes et les personnes handicapées, un travail décent et un salaire égal pour un travail de valeur égale
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 8.5.2 : Taux de chômage, par sexe, âge et situation au regard du handicap
 
 un_designated_tier: Niveau I
 un_custodian_agency:  Organisation internationale du Travail

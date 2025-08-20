@@ -4,14 +4,14 @@ SDG_GOAL: |-
 SDG_TARGET: |-
   Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de violence et les taux de mortalité qui y sont associés
 SDG_INDICATOR: |-
-  Indicateur 16.1.3 : Proportion de la population victime de violences physiques, psychologiques ou sexuelles au cours des 12 mois précédents
+  Indicateur 16.1.3 : Proportion de la population victime de violences a) physiques, b) psychologiques ou c) sexuelles au cours des 12 mois précédents
 STAT_CONC_DEF: |-
   Nombre total de personnes ayant été victimes de violences physiques, psychologiques ou sexuelles au cours des 12 derniers mois, par rapport à la population totale.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   Les taux sont calculés pour 1 000 habitants âgés de 15 ans et plus.
 PROGRESS_DETAILS: |-
-  L'état du progrès représente seulement les parties (a) violence physique et (c) violence sexuelle de l'indicateur. Les données pour la partie (b) violence psychologique ne sont pas actuellement disponibles.
+  L'état du progrès représente seulement les parties a) violence physique et c) violence sexuelle de l'indicateur. Les données pour la partie b) violence psychologique ne sont pas actuellement disponibles.
 
 # Global
 SDG_GOAL__GLOBAL: |-
@@ -19,7 +19,7 @@ SDG_GOAL__GLOBAL: |-
 SDG_TARGET__GLOBAL: |-
   Cible 16.1 : Réduire nettement, partout dans le monde, toutes les formes de violence et les taux de mortalité qui y sont associés
 SDG_INDICATOR__GLOBAL: |-
-  Indicateur 16.1.3 : Proportion de la population victime de violences physiques, psychologiques ou sexuelles au cours des 12 mois précédents
+  Indicateur 16.1.3 : Proportion de la population victime de violences a) physiques, b) psychologiques ou c) sexuelles au cours des 12 mois précédents
 
 un_designated_tier: Niveau II
 un_custodian_agency: Office des Nations Unies contre la drogue et le crime (ONUDC)

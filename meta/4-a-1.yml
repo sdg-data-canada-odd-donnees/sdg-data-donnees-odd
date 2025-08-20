@@ -12,7 +12,8 @@ REC_USE_LIM: |-
   Data for secondary education combine both lower and upper secondary education.
   <br><br>
   Data for the series "Proportion of schools with access to the internet for pedagogical purposes" is only available for secondary education.
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  The progress status for this indicator is obtained from the equally weighted average of the progress scores for each available series.
 
 # Global
 SDG_GOAL__GLOBAL: |-

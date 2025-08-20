@@ -1,14 +1,10 @@
 ## NATIONAL METADATA
-SDG_GOAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promote
-  lifelong learning opportunities for all</p>'
-SDG_TARGET: '<p>Target 4.5: By 2030, eliminate gender disparities in education and
-  ensure equal access to all levels of education and vocational training for the vulnerable,
-  including persons with disabilities, indigenous peoples and children in vulnerable
-  situations</p>'
-SDG_INDICATOR: '<p>Indicator 4.5.1: Parity indices (female/male, rural/urban, bottom/top
-  wealth quintile and others such as disability status, indigenous peoples and conflict-affected,
-  as data become available) for all education indicators on this list that can be
-  disaggregated</p>'
+SDG_GOAL: |-
+  Goal 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+SDG_TARGET: |-
+  Target 4.5: By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations
+SDG_INDICATOR: |-
+  Indicator 4.5.1: Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated
 STAT_CONC_DEF: |-
   <p>The parity index is the main method chosen by the international community to measure equity across the Goal 4 indicators, and is defined by the ratio between the values of a given indicator for two different groups. An index between 0.97 and 1.03 indicates a parity between the two groups. A value that is less than 0.97 or greater than 1.03 indicates an inequity between the two groups.</p>
   <p><b>Gender Parity Index:</b> is the ratio between the values of a given indicator of males and females. This is calculated by dividing the female value of an indicator by the male value of the same indicator. It is the main method chosen by the international community, such as UNESCO, to measure equity across the SDG-4 indicators. A GPI between 0.97 and 1.03 indicates parity between females and males. A value less than 0.97 indicates a disparity in favour of boys and a value more than 1.03 indicates a disparity in favour of girls.</p>
@@ -21,20 +17,21 @@ REC_USE_LIM: |-
   The population surveyed for the educational indicator "Educational attainment rate" is the population aged 25 years and over.
   <br><br>
   Only data for upper secondary education are available for the educational indicator "Completion rate" for the Location Parity Index and the Wealth Parity Index.
- 
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+ Certain data transformations have been applied to better measure progress, accounting for deviations from the target in both directions. For more information, please refer to the progress measurement methodology documentation.
+ <br><br>
+ The progress status for this indicator is obtained from the equally weighted average of the progress scores for each available series. Each series' progress score is, in turn, calculated as the equally weighted average of the progress scores for each available type of parity index.
+ <br><br>
+ When data for many levels of education are available, only those corresponding to primary education, lower secondary education, and upper secondary education are included in the progress assessment.
 
 ## GLOBAL METADATA
-SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
-  promote lifelong learning opportunities for all</p>'
-SDG_TARGET__GLOBAL: '<p>Target 4.5: By 2030, eliminate gender disparities in education
-  and ensure equal access to all levels of education and vocational training for the
-  vulnerable, including persons with disabilities, indigenous peoples and children
-  in vulnerable situations</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 4.5.1: Parity indices (female/male, rural/urban,
-  bottom/top wealth quintile and others such as disability status, indigenous peoples
-  and conflict-affected, as data become available) for all education indicators on
-  this list that can be disaggregated</p>'
+SDG_GOAL__GLOBAL: |-
+  Goal 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+SDG_TARGET__GLOBAL: |-
+  Target 4.5: By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 4.5.1: Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated
+
 un_designated_tier: Tier I/II depending on indice
 un_custodian_agency: United Nations Educational, Scientific and Cultural Organization (UNESCO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-05-01.pdf
@@ -42,8 +39,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
   
 ## SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: |
-    UIS Database - SDG 4 Indicators
+source_url_text_1: UIS Database - SDG 4 Indicators
 source_url_1: https://sdg4-data.uis.unesco.org/
 source_organisation_1: UNESCO Institute for Statistics (UIS)
 source_periodicity_1: Occasional

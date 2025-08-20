@@ -1,27 +1,28 @@
 # National
-SDG_GOAL: '<p>Objectif 5 : Parvenir à l''égalité des sexes et autonomiser toutes les
-  femmes et les filles.</p>'
-SDG_TARGET: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement et effectivement
-  aux fonctions de direction à tous les niveaux de décision, dans la vie politique,
-  économique et publique, et y accèdent sur un pied d’égalité.</p>'
-SDG_INDICATOR: '<p>Indicateur 5.5.1 : Proportion de sièges occupés par des femmes
-  dans a) les parlements nationaux et b) les administrations locales.</p>'
-STAT_CONC_DEF: |
+SDG_GOAL: |-
+  Objectif 5 : Parvenir à l''égalité des sexes et autonomiser toutes les femmes et les filles.
+SDG_TARGET: |-
+  Cible 5.5 : Veiller à ce que les femmes participent pleinement et effectivement aux fonctions de direction à tous les niveaux de décision, dans la vie politique, économique et publique, et y accèdent sur un pied d’égalité.
+SDG_INDICATOR: |-
+  Indicateur 5.5.1 : Proportion de sièges occupés par des femmes dans a) les parlements nationaux et b) les administrations locales.
+STAT_CONC_DEF: |-
   La proportion de sièges occupés par des femmes dans a) les parlements nationaux est mesurée comme le nombre de sièges occupés par des femmes membres dans les chambres uniques ou basses des parlements nationaux, exprimé en pourcentage de tous les sièges occupés au 1er juillet de l'année de référence.
   <br><br>
   La proportion de sièges occupés par des femmes dans (b) les administrations locales est mesurée comme le nombre de sièges occupés par des femmes dans les conseils de bande des Premières Nations et des chefs des collectivités des Premières Nations, exprimé en pourcentage de tous les sièges occupés au 31 décembre de l'année de référence.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  Certaines transformations de données ont été appliquées afin de mieux mesurer le progrès, en tenant compte des déviations par rapport à la cible dans les deux directions. Pour plus d'information, veuillez consulter la documentation de la méthodologie de mesure de progrès.
+  <br><br>
+  L'état du progrès représente seulement la partie a) de l'indicateur. Actuellement, les données sont insuffisantes pour évaluer la partie b). 
 
 # Global
-SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l''égalité des sexes et autonomiser
-  toutes les femmes et les filles.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement
-  et effectivement aux fonctions de direction à tous les niveaux de décision, dans
-  la vie politique, économique et publique, et y accèdent sur un pied d’égalité.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 5.5.1 : Proportion de sièges occupés par des femmes
-  dans a) les parlements nationaux et b) les administrations locales.</p>'
+SDG_GOAL__GLOBAL: |-
+  Objectif 5 : Parvenir à l''égalité des sexes et autonomiser toutes les femmes et les filles.
+SDG_TARGET__GLOBAL: |-
+  Cible 5.5 : Veiller à ce que les femmes participent pleinement et effectivement aux fonctions de direction à tous les niveaux de décision, dans la vie politique, économique et publique, et y accèdent sur un pied d’égalité.
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 5.5.1 : Proportion de sièges occupés par des femmes dans a) les parlements nationaux et b) les administrations locales.
 
 un_designated_tier: Niveau I
 un_custodian_agency: Union Interparlementaire (UIP), Entité des Nations Unies pour l’égalité des sexes et l’autonomisation des femmes (ONU Femmes)

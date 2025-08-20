@@ -1,9 +1,9 @@
 # National
-SDG_GOAL: >-
+SDG_GOAL: |-
   Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre
-SDG_TARGET: >-
+SDG_TARGET: |-
   Cible 10.3 : Assurer l’égalité des chances et réduire l’inégalité des résultats, notamment en éliminant les lois, politiques et pratiques discriminatoires et en encourageant l’adoption de lois, politiques et mesures adéquates en la matière
-SDG_INDICATOR: >-
+SDG_INDICATOR: |-
   Indicateur 10.3.1 : Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste au cours des 5 dernières années
 STAT_CONC_DEF: |-
   Cet indicateur mesure la proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste au cours des 5 dernières années en raison de l’un des motifs suivants : <br>
@@ -21,22 +21,21 @@ STAT_CONC_DEF: |-
   - incapacité physique ou mentale; <br>
   - toute autre raison spécifiée.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
+REC_USE_LIM: |-
   Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme ». 
   <br><br>
   Le total pour le Canada n’inclut pas les données des territoires.
   <br><br>
   Les indicateurs de discrimination de la série primaire, « Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste », utilisent la population totale comme dénominateur. La série secondaire, « Proportion d’individus dans une population déclarant avoir été victimes de discrimination ou de traitement injuste », calcule l'indicateur sur la base de la population d'individus qui déclarent de telles expériences, et non sur la base de la population totale comme dénominateur.
-  <br><br>
+PROGRESS_DETAILS: |-
   L'état du progrès est basé uniquement sur la série principale : « Proportion de la population déclarant avoir été victime de discrimination ou de traitement injuste au cours des 5 dernières années ». De plus, l'état du progrès est déterminé en utilisant seulement les données du premier trimestre, dénoté Q1, car le progrès est évalué sur une base annuelle. Les données des autres trimestres ne sont pas considérées dans l'évaluation du progrès pour cet indicateur.
-PROGRESS_DETAILS: custom.progress_details
 
 # Global
-SDG_GOAL__GLOBAL: >-
+SDG_GOAL__GLOBAL: |-
   Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre
-SDG_TARGET__GLOBAL: >-
+SDG_TARGET__GLOBAL: |-
   Cible 10.3 : Assurer l’égalité des chances et réduire l’inégalité des résultats, notamment en éliminant les lois, politiques et pratiques discriminatoires et en encourageant l’adoption de lois, politiques et mesures adéquates en la matière
-SDG_INDICATOR__GLOBAL: >-
+SDG_INDICATOR__GLOBAL: |-
   Indicateur 10.3.1 : Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme
 
 un_designated_tier: Niveau II
