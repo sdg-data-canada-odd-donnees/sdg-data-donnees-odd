@@ -2320,6 +2320,30 @@
       "title": "Proportion de jeunes et d’adultes ayant des compétences dans le domaine des technologies de l’information et des communications, par type de compétence"
     },
     {
+      "path": "8-8-2/data.csv",
+      "name": "8-8-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Niveau de respect des droits du travail (liberté d’association et droit de négociation collective) au niveau national, eu égard aux textes de l’Organisation internationale du Travail (OIT) et à la législation nationale, par sexe et statut migratoire"
+    },
+    {
       "path": "15-3-1/data.csv",
       "name": "15-3-1",
       "profile": "tabular-data-resource",
@@ -10030,30 +10054,6 @@
         ]
       },
       "title": "Proportion d’administrations locales ayant adopté et mis en place des stratégies locales de réduction des risques de catastrophe, conformément aux stratégies suivies à l’échelle nationale"
-    },
-    {
-      "path": "8-8-2/data.csv",
-      "name": "8-8-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Niveau de respect des droits du travail (liberté d’association et droit de négociation collective) au niveau national, eu égard aux textes de l’Organisation internationale du Travail (OIT) et à la législation nationale, par sexe et statut migratoire"
     },
     {
       "path": "5-1-1/data.csv",
