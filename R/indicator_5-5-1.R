@@ -1,4 +1,3 @@
-
 # Indicator 5.5.1 ---------------------------------------------------------
 
 # 5.5.1a is federal govenment
@@ -78,6 +77,10 @@ data_final <-
     Geography,
     Value
   ) %>%
+  mutate(
+    Progress = 50 + abs(Value - 50)
+  ) %>%
+  relocate(Progress, .before = Value) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
