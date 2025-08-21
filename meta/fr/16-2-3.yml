@@ -10,7 +10,7 @@ STAT_CONC_DEF: |-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >- 
   Les données sont rapportées pour les personnes agées de 15 à 24 ans et de 25 à 34 ans par la date de l'enquête ayant été victimes de violences sexuelles avant l'âge de 18 ans, tandis que l'indicateur global des Nations Unies indique : « Proportion de jeunes femmes et hommes de 18 à 29 ans ayant été victimes de violences sexuelles avant l’âge de 18 ans ».
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: |-

@@ -9,7 +9,7 @@ STAT_CONC_DEF: >-
   This indicator measures the average fees paid as a percentage of the last international remittance sent by Canadian residents born in countries eligible for official development assistance, by type of method used, destination region and the amount last remitted.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: >-

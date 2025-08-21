@@ -8,7 +8,7 @@ STAT_CONC_DEF: <p>This indicator measures the prevalence of the Hepatitis B surf
   <p>This indicator is measured indirectly through the proportion of children 5 years of age who have developed chronic HBV infection (i.e. the proportion that tests positive for a marker of infection called hepatitis B surface antigen [HBsAg]).</p>
 DATA_COMP: 'Hepatitis B incidence in children under five years of age per 100,000 population = ([Number of cases in children under 1 year + Number of cases in children aged 1 to 4 years] / Population aged 0 to 4 years) x 100,000'
 REC_USE_LIM: 'Hepatitis B reporting does not differentiate between acute and chronic cases.'
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis,

@@ -34,7 +34,7 @@ DATA_COMP: >
   <br><br>
   Les données proviennent du Système de notification des pays créanciers de l'OCDE. Sélectionnez Donneur = « Canada », Receveur = « Pays en développement », Secteur = « Agriculture », Mesure = « Aide publique au développement » et « AASP (autre que crédits à l'exportation) », Type de flux = « Versements », et Type de prix = « Prix constants ».
 REC_USE_LIM: Les données de cet indicateur représentent spécifiquement les contributions du Canada en tant que donneur principal, plutôt que celles de tous les pays.
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL:
   "<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
   améliorer la nutrition et promouvoir l’agriculture durable</p>"

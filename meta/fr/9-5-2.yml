@@ -11,7 +11,7 @@ DATA_COMP: >-
   Chercheurs par million d'habitants = (Chercheurs / Population totale) × 1 000 000
 REC_USE_LIM: >-
   Il s'agit d'un indicateur de substitution qui mesure le nombre de chercheurs pour 1 million d'habitants plutôt que le nombre de chercheurs en équivalent temps plein par million d'habitants comme spécifié dans les métadonnées globales des Nations Unies.
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: >-   

@@ -15,7 +15,7 @@ DATA_COMP: >-
 #  Proportion of the population who are refugees, by country of origin = (Number of refugees by country of origin at mid-year)/((Mid-year population in country of origin + number of refugees by country of origin at mid-year)) × 100,000
 REC_USE_LIM: >-
 #  Data on the number of refugees by country of origin at mid-year are collected in May during each census, rather than on July 1st annually.
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: >-

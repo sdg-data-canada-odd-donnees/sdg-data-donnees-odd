@@ -7,7 +7,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   Countries classified as “High Income” based on the World Bank Country and Lending Groups are assumed to reach universal access from the first year the country joined the category. 
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all</p>'

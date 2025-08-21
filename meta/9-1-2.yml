@@ -10,7 +10,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   This is a proxy indicator that measures passenger volumes by the number of passengers and freight volumes by metric tonnes, whereas the UN metadata states: "Passenger volumes are measured in passenger-kilometres while freight volumes are measured in tonne-kilometres". 
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-
