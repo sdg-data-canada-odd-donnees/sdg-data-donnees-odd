@@ -21,6 +21,60 @@
   progress_status: ''
   score: null
 1-3-1:
+  1-3-1 / Proportion of children covered by social protection benefits:
+    base_value: 90.0
+    base_year: 2015.0
+    current_value: 93.2
+    current_year: 2021.0
+    direction: 1
+    limit: 100
+    progress_value: 0.005839995229728112
+    score: 2.815386645395768
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
+  ? '1-3-1 / Proportion of older persons receiving a pension
+
+    '
+  : base_value: 93.4
+    base_year: 2017.0
+    current_value: 92.7
+    current_year: 2021.0
+    direction: 1
+    limit: 100
+    progress_value: -0.0018789507235312808
+    score: -2.7348688404414103
+    sign: 1
+    status: deterioration
+    target: null
+    target_year: 2030.0
+  1-3-1 / Proportion of persons with disabilities receiving benefits:
+    base_value: 59.9
+    base_year: 2021.0
+    current_value: 59.9
+    current_year: 2021.0
+    direction: 1
+    limit: 100
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: null
+    target_year: 2030.0
+  1-3-1 / Proportion of poor population receiving social assistance cash benefit:
+    base_value: 19.4
+    base_year: 2021.0
+    current_value: 19.4
+    current_year: 2021.0
+    direction: 1
+    limit: 100
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: null
+    target_year: 2030.0
   1-3-1 / Proportion of population covered by at least one social protection cash benefit:
     base_value: 45.7
     base_year: 2021.0
@@ -34,13 +88,143 @@
     status: not_available
     target: null
     target_year: 2030.0
-  progress_status: not_available
-  score: null
+  1-3-1 / Proportion of vulnerable persons receiving benefits:
+    base_value: 52.1
+    base_year: 2021.0
+    current_value: 52.1
+    current_year: 2021.0
+    direction: 1
+    limit: 100
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: null
+    target_year: 2030.0
+  1-3-1 / Proportion of workers covered in case of employment injury:
+    base_value: 85.07
+    base_year: 2015.0
+    current_value: 83.42
+    current_year: 2022.0
+    direction: 1
+    limit: 100
+    progress_value: -0.0027941402774355195
+    score: -2.84926753467944
+    sign: 1
+    status: deterioration
+    target: null
+    target_year: 2030.0
+  progress_status: limited_progress
+  score: -0.9229165765750275
 1-4-1:
-  progress_status: ''
-  score: null
+  1-4-1 / Access to basic drinking water services:
+    base_value: 98.82
+    base_year: 2015.0
+    current_value: 99.04
+    current_year: 2022.0
+    direction: 1
+    limit: null
+    progress_value: 0.4013545340426752
+    score: -0.8276760630043856
+    sign: 1
+    status: limited_progress
+    target: 100.0
+    target_year: 2030.0
+  1-4-1 / Access to basic education / Total / Proportion of children and young people at the end of lower secondary achie...:
+    base_value: 83.7
+    base_year: 2018.0
+    current_value: 83.7
+    current_year: 2018.0
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: 100.0
+    target_year: 2030.0
+  1-4-1 / Access to basic education / Total / Proportion of children in Grade 4 achieving at least a minimum proficiency ...:
+    base_value: 92.0
+    base_year: 2015.0
+    current_value: 92.0
+    current_year: 2019.0
+    direction: 1
+    limit: null
+    progress_value: 0.0
+    score: -2.5
+    sign: 1
+    status: limited_progress
+    target: 100.0
+    target_year: 2030.0
+  1-4-1 / Access to basic information services / Proportion of population covered by Evolved High-Speed Packet Access (HS...:
+    base_value: 99.47
+    base_year: 2016.0
+    current_value: 99.57
+    current_year: 2022.0
+    direction: 1
+    limit: 100
+    progress_value: 0.00016748456325199612
+    score: 0.5456262610658811
+    sign: 1
+    status: moderate_progress
+    target: null
+    target_year: 2030.0
+  1-4-1 / Access to basic mobility / Canada / Proportion of population within 500 metres of a public transit stop:
+    base_value: null
+    base_year: 2015.0
+    current_value: null
+    current_year: null
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: null
+    status: not_available
+    target: 100.0
+    target_year: 2030.0
+  1-4-1 / Access to basic mobility / Canada / Proportion of the rural population who live within 2 km of an all-season road:
+    base_value: null
+    base_year: 2015.0
+    current_value: null
+    current_year: null
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: null
+    status: not_available
+    target: 100.0
+    target_year: 2030.0
+  1-4-1 / Access to basic sanitation services:
+    base_value: 82.6
+    base_year: 2015.0
+    current_value: 83.9
+    current_year: 2022.0
+    direction: 1
+    limit: null
+    progress_value: 0.1741314538877581
+    score: -1.7744464710858785
+    sign: 1
+    status: limited_progress
+    target: 100.0
+    target_year: 2030.0
+  1-4-1 / Access to clean fuels and technology:
+    base_value: 100.0
+    base_year: 2015.0
+    current_value: 100.0
+    current_year: 2022.0
+    direction: 1
+    limit: null
+    progress_value: null
+    score: 5.0
+    sign: 1
+    status: target_achieved
+    target: 100.0
+    target_year: 2030.0
+  progress_status: moderate_progress
+  score: 0.0887007453951234
 1-4-2:
-  progress_status: not_available
+  progress_status: ''
   score: null
 1-5-1:
   1-5-1 / Rate per 100,000 population:
@@ -113,7 +297,7 @@
   progress_status: deterioration
   score: -2.730205704213615
 1-b-1:
-  progress_status: not_available
+  progress_status: ''
   score: null
 10-1-1:
   progress_status: not_available
@@ -473,7 +657,7 @@
   progress_status: target_achieved
   score: null
 11-b-2:
-  progress_status: ''
+  progress_status: target_achieved
   score: null
 12-1-1:
   progress_status: ''
@@ -488,7 +672,7 @@
   progress_status: ''
   score: null
 12-4-1:
-  progress_status: not_available
+  progress_status: ''
   score: null
 12-4-2:
   progress_status: ''
@@ -876,7 +1060,7 @@
   progress_status: ''
   score: null
 15-6-1:
-  progress_status: target_achieved
+  progress_status: ''
   score: null
 15-7-1:
   progress_status: ''
@@ -1229,37 +1413,11 @@
   progress_status: not_available
   score: null
 17-1-1:
-  17-1-1:
-    base_value: 39.33
-    base_year: 2015.0
-    current_value: 41.75
-    current_year: 2021.0
-    direction: 1
-    limit: null
-    progress_value: 0.010001663089949098
-    score: 1.2504157724872744
-    sign: 1
-    status: moderate_progress
-    target: null
-    target_year: 2030.0
-  progress_status: moderate_progress
-  score: 1.2504157724872744
+  progress_status: not_available_manual
+  score: null
 17-1-2:
-  17-1-2:
-    base_value: 74.64
-    base_year: 2015.0
-    current_value: 71.74
-    current_year: 2023.0
-    direction: 1
-    limit: null
-    progress_value: -0.004941262153502879
-    score: -3.11765776918786
-    sign: 1
-    status: deterioration
-    target: null
-    target_year: 2030.0
-  progress_status: deterioration
-  score: -3.11765776918786
+  progress_status: not_available_manual
+  score: null
 17-10-1:
   progress_status: ''
   score: null
@@ -1276,7 +1434,7 @@
   progress_status: ''
   score: null
 17-15-1:
-  progress_status: target_achieved
+  progress_status: ''
   score: null
 17-16-1:
   progress_status: target_achieved
@@ -1345,21 +1503,8 @@
   progress_status: ''
   score: null
 17-3-2:
-  17-3-2:
-    base_value: 0.0818662480322062
-    base_year: 2015.0
-    current_value: 0.0395428107285361
-    current_year: 2023.0
-    direction: 1
-    limit: null
-    progress_value: -0.0869483804842287
-    score: -5.0
-    sign: 1
-    status: deterioration
-    target: null
-    target_year: 2030.0
-  progress_status: deterioration
-  score: -5.0
+  progress_status: not_available_manual
+  score: null
 17-4-1:
   progress_status: ''
   score: null
@@ -1428,32 +1573,19 @@
     current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: -0.19366736038041682
-    score: -3.306953790497083
+    progress_value: -0.3206527785418985
+    score: -3.8360639323505286
     sign: 1
     status: deterioration
-    target: 0.001
+    target: 0.1
     target_year: 2030.0
   progress_status: deterioration
-  score: -3.306953790497083
+  score: -3.8360639323505286
 2-2-1:
   progress_status: ''
   score: null
 2-2-2:
-  2-2-2:
-    base_value: null
-    base_year: 2015.0
-    current_value: null
-    current_year: null
-    direction: -1
-    limit: null
-    progress_value: null
-    score: null
-    sign: null
-    status: not_available
-    target: 0.001
-    target_year: 2030.0
-  progress_status: not_available
+  progress_status: ''
   score: null
 2-2-3:
   2-2-3:
@@ -1463,14 +1595,14 @@
     current_year: 2019.0
     direction: -1
     limit: null
-    progress_value: -0.06212557723124234
-    score: -2.7588586426494173
+    progress_value: -0.10867767547195399
+    score: -2.952827270388991
     sign: 1
     status: deterioration
-    target: 0.001
+    target: 0.1
     target_year: 2030.0
   progress_status: deterioration
-  score: -2.7588586426494173
+  score: -2.952827270388991
 2-3-1:
   progress_status: ''
   score: null
@@ -1574,18 +1706,18 @@
   2-b-1:
     base_value: 81124.0
     base_year: 2015.0
-    current_value: 3570.86
-    current_year: 2020.0
+    current_value: 0.0
+    current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: 0.6607794319910278
-    score: 0.4341814047687125
+    progress_value: 1.4224293446258616
+    score: 5.0
     sign: 1
-    status: moderate_progress
+    status: target_achieved
     target: 0.001
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 0.4341814047687125
+  progress_status: target_achieved
+  score: 5.0
 2-c-1:
   progress_status: not_available
   score: null
@@ -1677,14 +1809,14 @@
     current_year: 2022.0
     direction: -1
     limit: null
-    progress_value: -0.03187534941741099
-    score: -2.6328150184175265
+    progress_value: -0.040858704100166496
+    score: -2.670245962374164
     sign: 1
     status: deterioration
-    target: 0.001
+    target: 0.01
     target_year: 2030.0
   progress_status: deterioration
-  score: -2.6328150184175265
+  score: -2.670245962374164
 3-3-3:
   3-3-3:
     base_value: 1.55
@@ -1693,14 +1825,14 @@
     current_year: 2022.0
     direction: -1
     limit: null
-    progress_value: -0.05155364908659322
-    score: -2.714808589649108
+    progress_value: -0.0699100561022419
+    score: -2.791294230761211
     sign: 1
     status: deterioration
-    target: 0.001
+    target: 0.01
     target_year: 2030.0
   progress_status: deterioration
-  score: -2.714808589649108
+  score: -2.791294230761211
 3-3-4:
   3-3-4:
     base_value: 0.73
@@ -1709,14 +1841,14 @@
     current_year: 2022.0
     direction: -1
     limit: null
-    progress_value: 0.5481006977165875
-    score: -0.216228822824295
+    progress_value: 0.7836463060680016
+    score: 1.3118071996131278
     sign: 1
-    status: limited_progress
-    target: 0.001
+    status: moderate_progress
+    target: 0.01
     target_year: 2030.0
-  progress_status: limited_progress
-  score: -0.216228822824295
+  progress_status: moderate_progress
+  score: 1.3118071996131278
 3-3-5:
   3-3-5 / Leprosy:
     base_value: 9.0
@@ -1725,11 +1857,11 @@
     current_year: 2022.0
     direction: -1
     limit: null
-    progress_value: 0.31921653822493895
-    score: -1.169920450178147
+    progress_value: 0.828743708250143
+    score: 1.633933433659946
     sign: 1
-    status: limited_progress
-    target: 0.001
+    status: moderate_progress
+    target: 0.5
     target_year: 2030.0
   3-3-5 / Rabies:
     base_value: 0.001
@@ -1738,14 +1870,14 @@
     current_year: 2022.0
     direction: -1
     limit: null
-    progress_value: null
+    progress_value: 1.948095117651511
     score: 5.0
     sign: 1
     status: target_achieved
-    target: 0.001
+    target: 0.5
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 1.9150397749109265
+  progress_status: substantial_progress
+  score: 3.316966716829973
 3-4-1:
   3-4-1 / Aortic aneurysm and dissection / All ages / Both sexes:
     base_value: 4.1
@@ -1966,8 +2098,34 @@
   progress_status: ''
   score: null
 3-8-2:
-  progress_status: not_available_manual
-  score: null
+  3-8-2 / Proportion with share above 10%:
+    base_value: 3.3
+    base_year: 2015.0
+    current_value: 3.5
+    current_year: 2019.0
+    direction: -1
+    limit: null
+    progress_value: -0.04621627423219266
+    score: -2.6925693498432772
+    sign: 1
+    status: deterioration
+    target: 0.01
+    target_year: 2030.0
+  3-8-2 / Proportion with share above 25%:
+    base_value: 0.5
+    base_year: 2015.0
+    current_value: 0.8
+    current_year: 2019.0
+    direction: -1
+    limit: null
+    progress_value: -0.5431228795505282
+    score: -4.763030102223185
+    sign: 1
+    status: deterioration
+    target: 0.01
+    target_year: 2030.0
+  progress_status: deterioration
+  score: -3.727799726033231
 3-9-1:
   progress_status: ''
   score: null
@@ -2020,7 +2178,7 @@
   progress_status: substantial_progress
   score: 5.0
 3-b-1:
-  progress_status: ''
+  progress_status: not_available_manual
   score: null
 3-b-2:
   3-b-2:
@@ -2658,59 +2816,59 @@
   score: 0.7269840878657934
 4-6-1:
   4-6-1 / 2 or below / Literacy / Canada / Total / 16 to 24 years:
-    base_value: 45.9
-    base_year: 2022.0
+    base_value: 46.4
+    base_year: 2012.0
     current_value: 45.9
     current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: null
-    score: null
+    progress_value: -0.024845936871192662
+    score: -2.6035255651611986
     sign: 1
-    status: not_available
+    status: deterioration
     target: 100.0
     target_year: 2030.0
   4-6-1 / 2 or below / Literacy / Canada / Total / Total:
-    base_value: 49.0
-    base_year: 2022.0
+    base_value: 48.5
+    base_year: 2012.0
     current_value: 49.0
     current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: null
-    score: null
+    progress_value: 0.001026176175566773
+    score: -1.9869119122166135
     sign: 1
-    status: not_available
+    status: limited_progress
     target: null
     target_year: 2030.0
   4-6-1 / 2 or below / Numeracy / Canada / Total / 16 to 24 years:
-    base_value: 50.1
-    base_year: 2022.0
+    base_value: 53.4
+    base_year: 2012.0
     current_value: 50.1
     current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: null
-    score: null
+    progress_value: -0.1792801328087369
+    score: -3.247006529374164
     sign: 1
-    status: not_available
+    status: deterioration
     target: 100.0
     target_year: 2030.0
   4-6-1 / 2 or below / Numeracy / Canada / Total / Total:
-    base_value: 50.5
-    base_year: 2022.0
+    base_value: 54.7
+    base_year: 2012.0
     current_value: 50.5
     current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: null
-    score: null
+    progress_value: -0.007957209769600238
+    score: -3.4946512212000296
     sign: 1
-    status: not_available
+    status: deterioration
     target: null
     target_year: 2030.0
-  progress_status: not_available
-  score: null
+  progress_status: deterioration
+  score: -2.833023806988001
 4-7-1:
   4-7-1 / a) National education policies:
     base_value: 0.88
@@ -2863,21 +3021,8 @@
   progress_status: not_available
   score: null
 5-3-1:
-  5-3-1 / Married or living common law / 15 to 19 years / Canada:
-    base_value: 1.66
-    base_year: 2016.0
-    current_value: 1.34
-    current_year: 2021.0
-    direction: -1
-    limit: null
-    progress_value: 0.10196680378599518
-    score: -2.0751349186648937
-    sign: 1
-    status: limited_progress
-    target: 0.001
-    target_year: 2030.0
-  progress_status: limited_progress
-  score: -2.0751349186648937
+  progress_status: ''
+  score: null
 5-3-2:
   progress_status: ''
   score: null
@@ -2898,8 +3043,21 @@
   progress_status: limited_progress
   score: -1.373725928562804
 5-5-1:
-  progress_status: not_available_manual
-  score: null
+  5-5-1 / National / Members of Parliament / Canada:
+    base_value: 74.7
+    base_year: 2015.0
+    current_value: 69.4
+    current_year: 2023.0
+    direction: -1
+    limit: null
+    progress_value: 0.3467389753948795
+    score: -1.0552427112221556
+    sign: 1
+    status: limited_progress
+    target: 50.0
+    target_year: 2030.0
+  progress_status: limited_progress
+  score: -1.0552427112221556
 5-5-2:
   5-5-2:
     base_value: 65.2
@@ -2926,7 +3084,7 @@
   progress_status: ''
   score: null
 5-a-2:
-  progress_status: not_available_manual
+  progress_status: ''
   score: null
 5-b-1:
   5-b-1:
@@ -3178,7 +3336,7 @@
   progress_status: substantial_progress
   score: 5.0
 7-b-1:
-  progress_status: not_available_manual
+  progress_status: ''
   score: null
 8-1-1:
   8-1-1:
@@ -3652,6 +3810,19 @@
   progress_status: deterioration
   score: -3.7772747329030527
 9-c-1:
+  9-c-1 / 5G:
+    base_value: 53.27
+    base_year: 2020.0
+    current_value: 91.4
+    current_year: 2022.0
+    direction: 1
+    limit: 100
+    progress_value: 0.3098807188646848
+    score: 5.0
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
   9-c-1 / Evolved High-Speed Packet Access (HSPA+):
     base_value: 99.47
     base_year: 2016.0
@@ -3665,5 +3836,31 @@
     status: moderate_progress
     target: null
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 0.5456262610658811
+  9-c-1 / Long-Term Evolution (LTE):
+    base_value: 98.55
+    base_year: 2016.0
+    current_value: 99.47
+    current_year: 2022.0
+    direction: 1
+    limit: 100
+    progress_value: 0.0015498760793095645
+    score: 5.0
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
+  9-c-1 / Long-Term Evolution - A (LTE-A):
+    base_value: 83.35
+    base_year: 2016.0
+    current_value: 97.8
+    current_year: 2022.0
+    direction: 1
+    limit: 100
+    progress_value: 0.027004173422464417
+    score: 5.0
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
+  progress_status: substantial_progress
+  score: 3.515208753688627
