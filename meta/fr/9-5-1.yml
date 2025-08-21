@@ -10,6 +10,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   En raison des limites des données, les données des provinces ne sont pas disponibles pour la dernière année de référence, car elles sont compilées et publiées un an plus tard.
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: >-

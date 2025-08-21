@@ -1,29 +1,23 @@
 # National
-SDG_GOAL: >-
+SDG_GOAL: |-
   Goal 5: Achieve gender equality and empower all women and girls
-SDG_TARGET: >-
+SDG_TARGET: |-
   Target 5.3: Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation
-SDG_INDICATOR: >-
-  Indicator 5.3.1: Proportion of women aged 15-19 or 20-24 married or living common-law
-STAT_CONC_DEF: >-
-  <p><strong>Definition: </strong></p>
-
-  <p>Proportion of women aged 15-19 or 20-24 years who are married or living common-law.</p>
-
-  <p><strong>Concepts: </strong></p>
-
-  <p>Both formal (i.e., marriages) and informal unions are covered under this indicator. Informal unions are generally defined as those in which a couple lives together for some time, intends to have a lasting relationship, but for which there has been no formal civil or religious ceremony (i.e., cohabitation).</p>
-DATA_COMP: >-
-  Proportion of women aged 15-19 or 20-24 married or living common-law = (number of women married or living common-law / number of women in that age group) × 100
-REC_USE_LIM: >-
-  This is a proxy indicator. The UN Global indicator states: “Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18”.
+SDG_INDICATOR: |-
+  Indicator 5.3.1: Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18
+STAT_CONC_DEF: |-
+  Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18.
+DATA_COMP: '    '
+REC_USE_LIM: '    '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
-SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
-SDG_TARGET__GLOBAL: '<p>Target 5.3: Eliminate all harmful practices, such as child,
-  early and forced marriage and female genital mutilation</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 5.3.1: Proportion of women aged 20-24 years who
-  were married or in a union before age 15 and before age 18</p>'
+SDG_GOAL__GLOBAL: |-
+  Goal 5: Achieve gender equality and empower all women and girls
+SDG_TARGET__GLOBAL: |-
+  Target 5.3: Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 5.3.1: Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18
 
 un_designated_tier: Tier I
 un_custodian_agency: United Nations Children's Fund (UNICEFF)
@@ -31,16 +25,16 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # Source(s)
-source_active_1: 'true'
-source_url_text_1: Census of Population
-source_url_1: https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/dt-td/Rp-eng.cfm?TABID=2&LANG=E&A=R&APATH=3&DETAIL=0&DIM=0&FL=A&FREE=0&GC=01&GL=-1&GID=1227463&GK=1&GRP=1&O=D&PID=109650&PRID=10&PTYPE=109445&S=0&SHOWALL=0&SUB=0&Temporal=2016&THEME=117&VID=0&VNAMEE=&VNAMEF=&D1=0&D2=2&D3=0&D4=0&D5=0&D6=0
-source_organisation_1: Statistics Canada
-source_periodicity_1: Every 5 years
-source_geographical_coverage_1: Canada, Province or territory
+# source_active_1: 'true'
+# source_url_text_1: Census of Population
+# source_url_1: https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/dt-td/Rp-eng.cfm?TABID=2&LANG=E&A=R&APATH=3&DETAIL=0&DIM=0&FL=A&FREE=0&GC=01&GL=-1&GID=1227463&GK=1&GRP=1&O=D&PID=109650&PRID=10&PTYPE=109445&S=0&SHOWALL=0&SUB=0&Temporal=2016&THEME=117&VID=0&VNAMEE=&VNAMEF=&D1=0&D2=2&D3=0&D4=0&D5=0&D6=0
+# source_organisation_1: Statistics Canada
+# source_periodicity_1: Every 5 years
+# source_geographical_coverage_1: Canada, Province or territory
 
-source_active_2: 'true'
-source_url_text_2: 'Statistics Canada. Table 98-10-0127-01  Marital status, age group and gender: Canada, provinces and territories, census metropolitan areas, census agglomerations and census subdivisions'
-source_url_2: https://doi.org/10.25318/9810012701-eng
-source_organisation_2: Statistics Canada
-source_periodicity_2: Occasional
-source_geographical_coverage_2: Canada, Province or territory, Census subdivision, Census metropolitan area, Census agglomeration
+# source_active_2: 'true'
+# source_url_text_2: 'Statistics Canada. Table 98-10-0127-01  Marital status, age group and gender: Canada, provinces and territories, census metropolitan areas, census agglomerations and census subdivisions'
+# source_url_2: https://doi.org/10.25318/9810012701-eng
+# source_organisation_2: Statistics Canada
+# source_periodicity_2: Occasional
+# source_geographical_coverage_2: Canada, Province or territory, Census subdivision, Census metropolitan area, Census agglomeration

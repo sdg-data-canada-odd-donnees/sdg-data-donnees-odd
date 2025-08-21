@@ -1,4 +1,4 @@
-auto_progress_calculation: false # Must decide which series to measure or both?
+auto_progress_calculation: true
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
@@ -35,12 +35,12 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
-  target: 0
+  target: 0.01
   series: Proportion with share above 10%
 - direction: negative
-  target: 0
+  target: 0.01
   series: Proportion with share above 25%
-progress_status: not_available_manual
+# progress_status: not_available_manual
 reporting_status: complete
 sort: ''
 standalone: false

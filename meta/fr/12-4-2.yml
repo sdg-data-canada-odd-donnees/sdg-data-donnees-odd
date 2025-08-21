@@ -9,6 +9,7 @@ STAT_CONC_DEF: |-
   L’indicateur comprend les déchets dangereux produits par type (y compris les déchets électroniques en tant que sous-indicateur) et la proportion de déchets dangereux traités.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: |-

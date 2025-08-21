@@ -9,6 +9,7 @@ STAT_CONC_DEF: |-
   L’indicateur <em>Proportion de pays en développement qui sont membres d’organisations internationales et y disposent du droit de vote</em> comprend deux composantes distinctes : le nombre de droits de vote dont disposent les pays en développement et la proportion de pays en développement qui sont membres d’organisations internationales. Dans certaines organisations, ces deux composantes sont identiques.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: |-

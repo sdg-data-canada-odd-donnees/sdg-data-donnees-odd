@@ -9,6 +9,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   Les pays classés « à revenu élevé » selon les groupes de pays et de prêt de la Banque mondiale sont censés atteindre l’accès universel dès la première année où le pays s’est joint à la catégorie.
+PROGRESS_DETAILS: custom.progress_details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 7 : Garantir l’accès de tous à des services énergétiques

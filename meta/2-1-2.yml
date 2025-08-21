@@ -17,6 +17,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   The survey is conducted nationwide, in both the provinces and the territories. It covers all individuals in Canada, excluding persons living on reserves and other Indigenous settlements in the provinces, the institutionalized population, and households in extremely remote areas with very low population density. Overall, these exclusions amount to less than two per cent of the population. 
+PROGRESS_DETAILS: custom.progress_details
 
 ## GLOBAL METADATA
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition

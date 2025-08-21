@@ -19,6 +19,7 @@ STAT_CONC_DEF: >-
   **Rues :** Les rues sont des voies de circulation définies à l'intérieur des zones urbaines, des villes et des quartiers, le plus souvent bordées de maisons ou de bâtiments, utilisées par les piétons ou les véhicules pour se rendre d'un endroit à un autre dans la ville, interagir et gagner leur vie. L'objectif principal d'une rue est de faciliter le mouvement et de permettre l'interaction publique. Les éléments suivants sont considérés comme des espaces de rues : les rues, les avenues et les boulevards, les chaussées, les passages et les galeries, les pistes cyclables, les trottoirs, les îlots de circulation, les tramways et les ronds-points.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: >-

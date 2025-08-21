@@ -10,6 +10,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   This is a proxy indicator. The UN Global indicator states: “Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence”.
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: >-

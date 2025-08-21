@@ -23,7 +23,9 @@ DATA_COMP: >-
   <br><br>
   <b>Consumption</b> = (Opening inventories, raw materials + Cost of materials and supplies + Total cost of energy, water utility and vehicle fuel - Closing inventories of raw materials)
 REC_USE_LIM: '   '
- 
+PROGRESS_DETAILS: |-
+  The progress status for this indicator is obtained from the average of the progress scores for the two series that correspond to the UNIDO international definition of small-scale industries: 1-9 employees and 10-19 employees.
+
 # GLOBAL METADATA
 SDG_GOAL__GLOBAL: >-
   Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation

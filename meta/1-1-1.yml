@@ -9,6 +9,7 @@ STAT_CONC_DEF: |-
   The indicator “proportion of the population below the international poverty line” is defined as the percentage of the population living on less than $2.15 a day at 2017 international prices.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: |-

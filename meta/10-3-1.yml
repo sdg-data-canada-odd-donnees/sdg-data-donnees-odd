@@ -1,9 +1,9 @@
 # National
-SDG_GOAL: >-
+SDG_GOAL: |-
   Goal 10: Reduce inequality within and among countries
-SDG_TARGET: >-
+SDG_TARGET: |-
   Target 10.3: Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard
-SDG_INDICATOR: >-
+SDG_INDICATOR: |-
   Indicator 10.3.1: Proportion of population reporting to have experienced discrimination or unfair treatment in the past 5 years
 STAT_CONC_DEF: |-
   This indicator measures the proportion of population reporting to have experienced discrimination or unfair treatment over the past five years based on any of the following factors: <br>
@@ -27,15 +27,15 @@ REC_USE_LIM: |-
   The total for Canada does not include data from the territories.
   <br><br>
   The discrimination indicators in the primary series, "Proportion of the population reporting experiences of discrimination or unfair treatment," uses the total population as the denominator. The secondary series, "Proportion of individuals within a population who reported experiencing discrimination or unfair treatment," calculates the indicator based on the population of individuals who report such experiences, rather than employing the total population as the denominator.
-  <br><br>
+PROGRESS_DETAILS: |-
   The progress status is based solely on the primary series: "Proportion of the population reporting to have experienced discrimination or unfair treatment in the past 5 years." Furthermore, the progress status is determined using only Q1 data as progress is assessed on an annual basis. Data from other quarters are not considered in the progress assessment for this indicator.
 
 # Global
-SDG_GOAL__GLOBAL: >-
+SDG_GOAL__GLOBAL: |-
   Goal 10: Reduce inequality within and among countries
-SDG_TARGET__GLOBAL: >-
+SDG_TARGET__GLOBAL: |-
   Target 10.3: Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard
-SDG_INDICATOR__GLOBAL: >-
+SDG_INDICATOR__GLOBAL: |-
   Indicator 10.3.1: Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law
  
 un_designated_tier: Tier II

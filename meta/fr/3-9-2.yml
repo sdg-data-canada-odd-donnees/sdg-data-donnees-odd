@@ -11,6 +11,7 @@ STAT_CONC_DEF: |
     Décès attribuables à des services inadéquats d'eau, de système sanitaire et d'hygiène (en particulier les services WASH), exprimés par 100 000 habitants. Les maladies incluses sont les diarrhées (codes de la CIM-10 A00, A01, A03, A04, A06-A09), les infections intestinales à nématodes (codes de la CIM-10 B76-B77, B79) et la malnutrition protéino-énergétique (codes de la CIM-10 E40-E46) attribuables à des lacunes au niveau des services WASH.
 DATA_COMP: 'Taux de mortalité pour 100 000 personnes = (Nombre de décès / population) x 100 000'
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir

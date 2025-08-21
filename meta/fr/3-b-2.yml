@@ -28,6 +28,7 @@ STAT_CONC_DEF: |
   Les secteurs de la recherche médicale et de la santé de base sont définis par le CAD. La recherche médicale fait référence au code de secteur du système de notification des pays créanciers (SNPC) 12182 et la santé de base couvre tous les codes de la série 122 (consulter le (en anglais seulement) : <a href="https://www.oecd.org/development/financing-sustainable-development/development-finance-standards/purposecodessectorclassification.htm">https://www.oecd.org/development/financing-sustainable-development/development-finance-standards/purposecodessectorclassification.htm)</a>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir

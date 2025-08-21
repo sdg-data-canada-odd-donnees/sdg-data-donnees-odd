@@ -23,6 +23,8 @@ DATA_COMP: >-
   <br><br>
   <b>Consommation</b> = (Stocks d'ouverture, matières premières + Coût des matériaux et fournitures + Coût total de l'énergie, du service d'eau et du carburant des véhicules - Stocks de clôture des matières premières)
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: |-
+  L'état du progrès pour cet indicateur provient de la moyenne des scores de progrès pour les deux séries qui correspondent à la définition internationale des petites entreprises de l'ONUDI : 1 à 9 employés et 10 à 19 employés.
 
 # Global
 SDG_GOAL__GLOBAL: >-

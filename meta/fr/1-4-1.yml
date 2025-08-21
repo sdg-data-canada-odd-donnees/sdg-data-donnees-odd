@@ -1,13 +1,11 @@
-SDG_GOAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>'
-SDG_TARGET: '<p>Cible 1.4 : D''ici à 2030, faire en sorte que tous les hommes et les
-  femmes, en particulier les pauvres et les personnes vulnérables, aient les mêmes
-  droits aux ressources économiques et qu''ils aient accès aux services de base, à
-  la propriété foncière, au contrôle des terres et à d''autres formes de propriété,
-  à l''héritage, aux ressources naturelles et à des nouvelles technologies et des
-  services financiers adaptés à leurs besoins, y compris la microfinance</p>'
-SDG_INDICATOR: '<p>Indicateur 1.4.1 : Proportion de la population vivant dans des
-  ménages ayant accès aux services de base </p>'
-STAT_CONC_DEF: |
+# National
+SDG_GOAL: |-
+  Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
+SDG_TARGET: |-
+  Cible 1.4 : D'ici à 2030, faire en sorte que tous les hommes et les femmes, en particulier les pauvres et les personnes vulnérables, aient les mêmes droits aux ressources économiques et qu'ils aient accès aux services de base, à la propriété foncière, au contrôle des terres et à d'autres formes de propriété, à l'héritage, aux ressources naturelles et à des nouvelles technologies et des services financiers adaptés à leurs besoins, y compris la microfinance
+SDG_INDICATOR: |-
+  Indicateur 1.4.1 : Proportion de la population vivant dans des ménages ayant accès aux services de base
+STAT_CONC_DEF: |-
   Les services de base désignent les systèmes fournissant les services publics qui 
   répondent aux besoins fondamentaux humains, notamment l'eau potable, les services 
   sanitaires, l'hygiène, l'énergie, la mobilité, la collecte des déchets, les soins 
@@ -27,18 +25,22 @@ STAT_CONC_DEF: |
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/11-2-1/">Indicateur 11.2.1</a>
   <br><a href="https://sdg-data-canada-odd-donnees.github.io/sdg-odd-dev/fr/11-6-1/">Indicateur 11.6.1</a>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
-  L'accès aux services de base de la collecte des déchets est mesuré au moyen de la série de substitution "Quantité totale de déchets éliminés dans des installations d'élimination des déchets". La série mondiale des Nations Unies repose sur l'indicateur 11.6.1 : « Proportion de déchets municipaux solides recueillis et gérés dans des installations contrôlées par rapport au total des déchets municipaux solides générés, par ville ».
-SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans
-  le monde</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 1.4 : D''ici à 2030, faire en sorte que tous les hommes
-  et les femmes, en particulier les pauvres et les personnes vulnérables, aient les
-  mêmes droits aux ressources économiques et qu''ils aient accès aux services de base,
-  à la propriété foncière, au contrôle des terres et à d''autres formes de propriété,
-  à l''héritage, aux ressources naturelles et à des nouvelles technologies et des
-  services financiers adaptés à leurs besoins, y compris la microfinance</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 1.4.1 : Proportion de la population vivant dans
-  des ménages ayant accès aux services de base </p>'
+REC_USE_LIM: |-
+  L'accès aux services de base de la collecte des déchets est mesuré au moyen de la série de substitution « Quantité totale de déchets éliminés dans des installations d'élimination des déchets ». La série mondiale des Nations Unies repose sur l'indicateur 11.6.1 : « Proportion de déchets municipaux solides recueillis et gérés dans des installations contrôlées par rapport au total des déchets municipaux solides générés, par ville ».
+PROGRESS_DETAILS: |-
+  L'état du progrès est basé sur la moyenne avec pondération égale des scores de progrès de chaque forme d'accès de base dont les données sont disponibles, à l'exception de la série de substitution « Accès aux services de base de la collecte des déchets ».
+  <br><br>
+  Le score de progrès pour l'accès aux services d'information de base est basé uniquement sur la série « Proportion de la population couverte par l’accès haute vitesse évolué par paquets (HSPA+) », car elle représente le service le plus basique généralement disponible.
+  <br><br>
+  La série de substitution pour l'accès aux services de base de la collecte des déchets est exclue de l'évaluation du progrès, car il n'y a aucune tendance désirée associée à cette série de substitution.
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
+SDG_TARGET__GLOBAL: |-
+  Cible 1.4 : D'ici à 2030, faire en sorte que tous les hommes et les femmes, en particulier les pauvres et les personnes vulnérables, aient les mêmes droits aux ressources économiques et qu'ils aient accès aux services de base, à la propriété foncière, au contrôle des terres et à d'autres formes de propriété, à l'héritage, aux ressources naturelles et à des nouvelles technologies et des services financiers adaptés à leurs besoins, y compris la microfinance
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 1.4.1 : Proportion de la population vivant dans des ménages ayant accès aux services de base
 
 un_designated_tier: Niveau I
 un_custodian_agency: ONU-Habitat

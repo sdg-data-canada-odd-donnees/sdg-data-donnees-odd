@@ -1,4 +1,4 @@
-auto_progress_calculation: false # Other local govts should be included before measuring progress. Currently, only First Nations govts are included.
+auto_progress_calculation: true # only measuring part a) currently
 composite_breakdown_label: ''
 computation_units: Percentage (%)
 copyright: ''
@@ -38,7 +38,7 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
-- direction: positive
+- direction: negative
   target: 50
   disaggregation:
   - field: Government
@@ -47,26 +47,26 @@ progress_calculation_options:
     value: Members of Parliament
   - field: Geography
     value: Canada
-- group:
-  - direction: positive
-    target: 50
-    disaggregation:
-    - field: Government
-      value: Local
-    - field: Elected officials
-      value: Chiefs in First Nations communities
-    - field: Geography
-      value: Canada
-  - direction: positive
-    target: 50
-    disaggregation:
-    - field: Government
-      value: Local
-    - field: Elected officials
-      value: First Nations council members
-    - field: Geography
-      value: Canada
-progress_status: not_available_manual
+# - group:
+#   - direction: positive
+#     target: 50
+#     disaggregation:
+#     - field: Government
+#       value: Local
+#     - field: Elected officials
+#       value: Chiefs in First Nations communities
+#     - field: Geography
+#       value: Canada
+#   - direction: positive
+#     target: 50
+#     disaggregation:
+#     - field: Government
+#       value: Local
+#     - field: Elected officials
+#       value: First Nations council members
+#     - field: Geography
+#       value: Canada
+# progress_status: not_available_manual
 reporting_status: complete
 sort: ''
 standalone: false

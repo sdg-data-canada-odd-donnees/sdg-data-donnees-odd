@@ -18,6 +18,7 @@ STAT_CONC_DEF: <p>La proportion de la zone de bassin transfrontalier avec un arr
   </p>
 DATA_COMP: custom.data-tabulated
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 6 : Garantir l''accès de tous à des services d''alimentation

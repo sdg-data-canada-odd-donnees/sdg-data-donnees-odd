@@ -11,6 +11,7 @@ STAT_CONC_DEF : |
   L’indicateur « Valeur (en dollars) de l’ensemble des ressources allouées au renforcement des capacités statistiques des pays en développement » repose sur le Rapport sur le soutien des partenaires à la statistique qui est conçu et administré par PARIS21 pour fournir un aperçu de la valeur en dollars américains du soutien statistique en cours dans les pays en développement.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 ## GLOBAL METADATA
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat

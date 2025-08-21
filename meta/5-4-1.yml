@@ -18,6 +18,8 @@ REC_USE_LIM: >-
   The sex variable in the 2015 Time Use Survey and the two-category gender variable in the 2022 Time Use Survey are included together in this indicator. Although sex and gender refer to two different concepts, the introduction of gender is not expected to have a significant impact on data analysis and historical comparability, given the small size of the transgender and non-binary populations. For additional information on changes of concepts over time, please consult the Age, Sex at Birth and Gender Reference Guide.
   <br><br>
   The 2022 Time Use Survey offered both telephone and Internet modes of data collection in recognition of the need to adapt to the changing use of technology and the ever-present demands on Canadians’ time. Any significant change in survey methodology can affect the comparability of the data over time. It is impossible to determine with certainty whether, and to what extent, differences in a variable are attributable to an actual change in the population or to changes in the survey methodology. However, there are reasons to believe that the use of an electronic questionnaire might have an impact on the estimations. As a result, trend analysis on unpaid work and care should be done with caution and this visualization product does not provide a comparison between years for disaggregated data.
+PROGRESS_DETAILS: |-
+  Certain data transformations have been applied to better measure progress, accounting for deviations from the target in both directions. For more information, please refer to the progress measurement methodology documentation.
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'

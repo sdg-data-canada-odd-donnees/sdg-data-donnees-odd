@@ -10,6 +10,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
  Not in employment, education or training (NEET) rates for the provinces are the average rate of the first three months of the calendar year (first quarter), which excludes summer employment. For the territories, the average is calculated over 8 months (September to April) as the survey sample and data collection differs meaningfully from those of the provinces.
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic

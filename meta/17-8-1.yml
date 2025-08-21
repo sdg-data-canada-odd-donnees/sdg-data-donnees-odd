@@ -10,6 +10,7 @@ STAT_CONC_DEF: 'The indicator measures the proportion of individuals using the I
   used the Internet from any location in the last three months.'
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '<p>The target population is all persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.</p><p>The Internet use indicator excluded business and school-related use and includes use from any location.</p>'
+PROGRESS_DETAILS: custom.progress_details
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the Global Partnership for Sustainable Development</p>'
 SDG_TARGET__GLOBAL: '<p>Target 17.8: Fully operationalize the technology bank and

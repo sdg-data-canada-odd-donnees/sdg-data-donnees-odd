@@ -11,6 +11,7 @@ DATA_COMP: custom.data-tabulated
 REC_USE_LIM: |
   This is a proxy indicator. The national data for indicator 16.3.3 measures the population who have had a dispute in the past three years rather than the past two years as indicated by the global indicator.
  
+PROGRESS_DETAILS: custom.progress_details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: |-

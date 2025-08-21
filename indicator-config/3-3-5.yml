@@ -32,11 +32,12 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
+  # Adjust targets to reflect the magnitude and precision of the data
 - direction: negative
-  target: 0
+  target: 0.5
   series: Leprosy
 - direction: negative
-  target: 0
+  target: 0.5
   series: Rabies
 reporting_status: complete
 series_toggle: true

@@ -1,11 +1,13 @@
-SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>'
-SDG_TARGET: '<p>Target 3.c: Substantially increase health financing and the recruitment, development, training and 
-  retention of the health workforce in developing countries, especially in least developed countries and 
-  small island developing States </p>'
-SDG_INDICATOR: '<p>Indicator 3.c.1: Health worker density and distribution </p>'
-STAT_CONC_DEF: "This indicator measures the densities of medical doctors, nursing and midwifery personnel, dentists as well as pharmacists per 10,000 population. The indicator also measures the health worker distribution by gender for selected occupations. The occupations are based on the National Occupational Classification [NOC] 2021 Version 1.0 occupation codes as mapped to the International Standard Classification of Occupations (ISCO-08)."
-DATA_COMP: |
+# National
+SDG_GOAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET: |-
+  Target 3.c: Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States
+SDG_INDICATOR: |-
+  Indicator 3.c.1: Health worker density and distribution
+STAT_CONC_DEF: |-
+  This indicator measures the densities of medical doctors, nursing and midwifery personnel, dentists as well as pharmacists per 10,000 population. The indicator also measures the health worker distribution by gender for selected occupations. The occupations are based on the National Occupational Classification [NOC] 2021 Version 1.0 occupation codes as mapped to the International Standard Classification of Occupations (ISCO-08).
+DATA_COMP: |-
   Calculated by dividing the number of health care professionals working in direct care in each health region or province/territory by population estimates and multiplying by 10,000.
   <br><br>
   Density of medical doctors = ((NOC: 31101 Specialists in surgery + NOC: 31102 General practitioners and family physicians) / Population) x 10,000.
@@ -16,18 +18,23 @@ DATA_COMP: |
   <br><br>
   Density of pharmacists = (NOC: 31120 Pharmacists / Population) x 10,000
 REC_USE_LIM: '    '
-SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
-  at all ages </p>'
-SDG_TARGET__GLOBAL: '<p>Target 3.c: Substantially increase health financing and the recruitment, development, training and 
-  retention of the health workforce in developing countries, especially in least developed countries and 
-  small island developing States </p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 3.c.1: Health worker density and distribution
-  </p>'
+PROGRESS_DETAILS: |-
+  The progress status for this indicator is based on the health worker distribution per 10,000 population for all available occupations: medical doctors, nursing and midwifery personnel, dentists, and pharmacists. 
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET__GLOBAL: |-
+  Target 3.c: Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 3.c.1: Health worker density and distribution
+
 un_designated_tier: Tier I
 un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0C-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: "Statistics Canada. Table 98-10-0447-01  Occupation unit group by highest level of education, major field of study, age and gender: Canada, provinces and territories"
 source_url_1: https://doi.org/10.25318/9810044701-eng

@@ -36,9 +36,22 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
+# 3G
 - direction: positive
   limit: 100
   series: Evolved High-Speed Packet Access (HSPA+)
+# 4G
+- group:
+  - direction: positive
+    limit: 100
+    series: Long-Term Evolution (LTE)
+  - direction: positive
+    limit: 100
+    series: Long-Term Evolution - A (LTE-A)
+# 5G
+- direction: positive
+  limit: 100
+  series: 5G
 reporting_status: complete
 sort: ''
 standalone: false

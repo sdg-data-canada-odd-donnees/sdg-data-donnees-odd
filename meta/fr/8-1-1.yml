@@ -1,10 +1,10 @@
 # National
-SDG_GOAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée
-  et durable, le plein emploi productif et un travail décent pour tous.</p>'
-SDG_TARGET: '<p>Cible 8.1 : Maintenir un taux de croissance économique par habitant
-  adapté au contexte national et, en particulier, un taux de croissance annuelle du
-  produit intérieur brut d’au moins 7 pour cent dans les pays les moins avancés.</p>'
-SDG_INDICATOR: '<p>Indicateur 8.1.1 : Taux de croissance annuelle du PIB réel par habitant</p>'
+SDG_GOAL: |-
+  Objectif 8 : Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous.
+SDG_TARGET: |-
+  Cible 8.1 : Maintenir un taux de croissance économique par habitant adapté au contexte national et, en particulier, un taux de croissance annuelle du produit intérieur brut d’au moins 7 pour cent dans les pays les moins avancés.
+SDG_INDICATOR: |-
+  Indicateur 8.1.1 : Taux de croissance annuelle du PIB réel par habitant
 STAT_CONC_DEF: >-
   Cet indicateur mesure le taux de croissance annuelle du PIB réel par habitant.
 DATA_COMP: >-
@@ -13,15 +13,18 @@ DATA_COMP: >-
   Taux de croissance annuel du PIB réel par habitant (en %) = (((PIB réel par habitant au temps t) - (PIB réel par habitant au temps t-1)) / (PIB réel par habitant au temps t-1)) × 100
 REC_USE_LIM: >-
   Les données relatives au PIB pour cet indicateur sont calculées en dollars canadiens enchaînés (2017) et non en dollars américains aux prix constants de 2015, comme indiqué dans les métadonnées globales.
+PROGRESS_DETAILS: |-
+  L'état du progrès de cet indicateur est calculé à partir du PIB réel par habitant mesuré en dollars canadiens enchaînés (2017). Cette unité de mesure sert d'alternative équivalente au taux de croissance annuel en pourcentage du PIB réel par habitant, qui est incompatible avec la méthodologie de mesure de progrès. Pour plus d'information, veuillez consulter la documentation de la méthodologie de mesure de progrès.
+  <br><br>
+  Le progrès est mesuré sans cible quantitative. Le taux de croissance annuelle de 7 % ciblé pour les pays les moins avancés ne s'applique pas au Canada.
 
 # Global
-SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,
-  partagée et durable, le plein emploi productif et un travail décent pour tous.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 8.1 : Maintenir un taux de croissance économique par
-  habitant adapté au contexte national et, en particulier, un taux de croissance annuelle
-  du produit intérieur brut d’au moins 7 pour cent dans les pays les moins avancés.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 8.1.1 : Taux de croissance annuelle du PIB réel
-  par habitant</p>'
+SDG_GOAL__GLOBAL: |-
+  Objectif 8 : Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous.
+SDG_TARGET__GLOBAL: |-
+  Cible 8.1 : Maintenir un taux de croissance économique par habitant adapté au contexte national et, en particulier, un taux de croissance annuelle du produit intérieur brut d’au moins 7 pour cent dans les pays les moins avancés.
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 8.1.1 : Taux de croissance annuelle du PIB réel par habitant
 
 un_designated_tier: Niveau I
 un_custodian_agency: Division de statistique de l’ONU

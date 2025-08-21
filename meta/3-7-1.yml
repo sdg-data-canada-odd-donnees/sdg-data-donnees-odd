@@ -14,6 +14,7 @@ STAT_CONC_DEF: <p>The percentage of women of reproductive age (15-49 years) curr
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   This indicator uses modelled data from the United Nations Population Division.
+PROGRESS_DETAILS: custom.progress_details
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.7: By 2030, ensure universal access to sexual and

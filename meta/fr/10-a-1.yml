@@ -9,6 +9,7 @@ STAT_CONC_DEF: >-
   Proportion du nombre total de lignes tarifaires (en pourcentage) appliquées aux produits importés des pays les moins avancés et des pays en développement correspondant à un taux de droit de 0 % selon le chapitre 01-97 du Système harmonisé de désignation et de codification des marchandises (SH).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress_details
 
 # Global
 SDG_GOAL__GLOBAL: >-
