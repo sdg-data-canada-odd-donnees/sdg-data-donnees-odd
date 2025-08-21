@@ -11,9 +11,7 @@ data_start_values:
 - field: Industry
   value: Total manufacturing
 - field: Size
-  value: 10-19 employees
-- field: Size
-  value: 20-49 employees
+  value: Total small-scale industries
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -26,7 +24,7 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.9-3-1-title
 graph_titles: []
-graph_type: bar
+graph_type: line
 indicator_name: global_indicators.9-3-1-title
 indicator_number: 9.3.1
 national_geographical_coverage: Canada
@@ -36,18 +34,6 @@ precision: []
 progress_calculation_options:
 - direction: positive
   limit: 100
-  disaggregation:
-  - field: Industry
-    value: Total manufacturing
-  - field: Size
-    value: 1-9 employees
-- direction: positive
-  limit: 100
-  disaggregation:
-  - field: Industry
-    value: Total manufacturing
-  - field: Size
-    value: 10-19 employees
 reporting_status: complete
 sort: ''
 standalone: false
