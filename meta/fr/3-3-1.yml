@@ -10,8 +10,10 @@ SDG_INDICATOR:
   séronégatives, par sexe, âge et appartenance à un groupe de population à risque.</p>"
 STAT_CONC_DEF: <p>Cet indicateur mesure le nombre de nouvelles infections au VIH pour 1 000 habitants non infectés. </p>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: "   "
-PROGRESS_DETAILS: custom.progress-details
+REC_USE_LIM: |-
+  Les données de cet indicateur sont fournies par le Programme commun des Nations Unies sur le VIH/sida (ONUSIDA) et publiées par le Département des affaires économiques et sociales des Nations Unies dans la base de données des indicateurs des ODD.
+PROGRESS_DETAILS: custom.progress_details
+
 SDG_GOAL__GLOBAL:
   "<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>"
@@ -31,6 +33,13 @@ source_organisation_1: Programme commun des Nations Unies sur le VIH/sida (ONUSI
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
 source_url_1: https://www.unaids.org/en/resources/documents/2024/HIV_estimates_with_uncertainty_bounds_1990-present
+
+source_active_2: "true"
+source_url_text_2: Base de données des indicateurs des ODD (en anglais seulement)
+source_organisation_2: Département des affaires économiques et sociales des Nations Unies
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada
+source_url_2: https://unstats.un.org/sdgs/indicators/database/
 
 un_designated_tier: Niveau I
 un_custodian_agency: Programme commun des Nations Unies sur le VIH/sida (ONUSIDA)
