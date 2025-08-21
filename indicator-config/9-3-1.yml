@@ -11,9 +11,7 @@ data_start_values:
 - field: Industry
   value: Total manufacturing
 - field: Size
-  value: 10-19 employees
-- field: Size
-  value: 20-49 employees
+  value: Total small-scale industries
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -36,18 +34,6 @@ precision: []
 progress_calculation_options:
 - direction: positive
   limit: 100
-  disaggregation:
-  - field: Industry
-    value: Total manufacturing
-  - field: Size
-    value: 1-9 employees
-- direction: positive
-  limit: 100
-  disaggregation:
-  - field: Industry
-    value: Total manufacturing
-  - field: Size
-    value: 10-19 employees
 reporting_status: complete
 sort: ''
 standalone: false
