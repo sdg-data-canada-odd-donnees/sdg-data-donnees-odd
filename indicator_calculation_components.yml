@@ -3646,34 +3646,21 @@
   progress_status: deterioration
   score: -3.8762547927506223
 9-3-1:
-  9-3-1 / Total manufacturing / 1-9 employees:
-    base_value: 1.04487438568277
+  9-3-1:
+    base_value: 2.71272419907307
     base_year: 2019.0
-    current_value: 1.158418
-    current_year: 2022.0
+    current_value: 3.0242914235019
+    current_year: 2023.0
     direction: 1
     limit: 100
-    progress_value: 0.034984243261766634
+    progress_value: 0.02755363300536562
     score: 5.0
     sign: 1
     status: substantial_progress
     target: null
     target_year: 2030.0
-  9-3-1 / Total manufacturing / 10-19 employees:
-    base_value: 1.66784981112653
-    base_year: 2019.0
-    current_value: 1.6453
-    current_year: 2022.0
-    direction: 1
-    limit: 100
-    progress_value: -0.004527227796159994
-    score: -3.0659034745199993
-    sign: 1
-    status: deterioration
-    target: null
-    target_year: 2030.0
-  progress_status: moderate_progress
-  score: 0.9670482627400003
+  progress_status: substantial_progress
+  score: 5.0
 9-3-2:
   9-3-2 / Overall approval rate, line of credit:
     base_value: 83.1
