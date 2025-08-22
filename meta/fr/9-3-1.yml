@@ -19,7 +19,10 @@ DATA_COMP: >-
   <b>Production</b> = (Revenus des biens fabriqués + (Clôture des stocks, biens ou travaux en cours + Clôture des stocks, produits finis fabriqués) - (Ouverture des stocks, biens ou travaux en cours + Ouverture des stocks, produits finis fabriqués))
   <br><br>
   <b>Consommation</b> = (Stocks d'ouverture, matières premières + Coût des matériaux et fournitures + Coût total de l'énergie, du service d'eau et du carburant des véhicules - Stocks de clôture des matières premières)
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  Les données pour l'année de référence la plus récente sont préliminaires.
+  <br><br>
+  Certaines données sont confidentielles en vertu des dispositions de la <i>Loi sur la statistique</i>.
 PROGRESS_DETAILS: |-
   custom.progress-details
 

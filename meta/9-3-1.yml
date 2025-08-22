@@ -19,7 +19,10 @@ DATA_COMP: >-
   <b>Production</b> = (Revenue from goods manufactured + (Closing inventories, goods or work in process + Closing inventories, finished goods manufactured) - (Opening inventories, goods or work in process + Opening inventories, finished goods manufactured))
   <br><br>
   <b>Consumption</b> = (Opening inventories, raw materials + Cost of materials and supplies + Total cost of energy, water utility and vehicle fuel - Closing inventories of raw materials)
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  Data for the most recent reference year are preliminary.
+  <br><br>
+  Some data are suppressed to meet the confidentiality requirements of the <i>Statistics Act</i>.
 PROGRESS_DETAILS: |-
   custom.progress-details
 
