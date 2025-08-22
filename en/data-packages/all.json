@@ -5189,7 +5189,7 @@
             "title": "Year"
           },
           {
-            "name": "Age",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5200,7 +5200,7 @@
                 ""
               ]
             },
-            "title": "Age"
+            "title": "Age group"
           },
           {
             "name": "Sex",
@@ -5873,7 +5873,7 @@
                 "Proportion of children covered by social protection benefits",
                 "Proportion of persons with disabilities receiving benefits",
                 "Proportion of workers covered in case of employment injury",
-                "Proportion of older persons receiving a pension\n",
+                "Proportion of older persons receiving a pension",
                 "Proportion of vulnerable persons receiving benefits",
                 "Proportion of poor population receiving social assistance cash benefit",
                 ""

@@ -5189,7 +5189,7 @@
             "title": "Année"
           },
           {
-            "name": "Age",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5200,7 +5200,7 @@
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Sex",
@@ -5873,7 +5873,7 @@
                 "Proportion d'enfants couverts par des prestations de protection sociale",
                 "Proportion de personnes handicapées bénéficiant de prestations",
                 "Proportion de travailleurs couverts en cas d'accident du travail",
-                "Proportion de personnes plus âgées recevant une pension\n",
+                "Proportion de personnes plus âgées recevant une pension",
                 "Proportion de personnes vulnérables recevant des allocations",
                 "Proportion de la population pauvre recevant une prestation de l'aide sociale en espèces",
                 ""
