@@ -9,7 +9,8 @@ STAT_CONC_DEF: |-
   Number of people requiring treatment and care for any one of the neglected tropical diseases (NTDs) targeted by the WHO NTD Roadmap and World Health Assembly resolutions and reported to WHO.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress-details
+PROGRESS_DETAILS: |-
+  The target for this indicator is a 90% reduction in the number of people requiring interventions against NTDs by 2030, compared to 2010 levels, as established in the World Health Organization's [road map for neglected tropical diseases 2021-2030](https://www.who.int/publications/i/item/9789240010352).
 
 # Global
 SDG_GOAL__GLOBAL: |-

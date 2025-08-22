@@ -1,27 +1,37 @@
-SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose,
-  au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies
-  transmises par l’eau et autres maladies transmissibles.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.3.4 : Incidence de l’hépatite B pour 100 000 habitants</p>'
-STAT_CONC_DEF: |
+# National
+SDG_GOAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET: |-
+  Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies transmises par l’eau et autres maladies transmissibles.
+SDG_INDICATOR: |-
+  Indicateur 3.3.4 : Incidence de l’hépatite B pour 100 000 habitants
+STAT_CONC_DEF: |-
   <p>Cet indicateur mesure la prévalence de l'antigène de surface de l'hépatite B chez les enfants de moins de cinq ans.</p>
   <p>Cet indicateur est mesuré indirectement par la proportion d'enfants
   de 5 ans qui ont développé une infection chronique par le virus de l'hépatite B
   (VHB) (c'est-à-dire la proportion de ceux qui sont testés positifs pour un marqueur
   d'infection appelé antigène de surface de l'hépatite B [HBsAg])</p>
-DATA_COMP: |
-  Incidence de l'hépatite B chez les enfants de moins de cinq ans pour 100 000 habitants = ([Nombre de cas chez les enfants de moins d'un an + Nombre de cas chez les enfants âgés de 1 à 4 ans] / Population âgée de 0 à 4 ans) x 100 000
-REC_USE_LIM: |
+DATA_COMP: |-
+  Incidence de l'hépatite B chez les enfants de moins de cinq ans pour 100 000 habitants = ([Nombre de cas chez les enfants de moins d'un an + Nombre de cas chez les enfants âgés de 1 à 4 ans] / Population âgée de 0 à 4 ans) x 100 000
+REC_USE_LIM: |-
   La déclaration de l’hépatite B ne fait pas de distinction entre les cas aigus et chroniques.
-PROGRESS_DETAILS: custom.progress-details
-SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à
-  la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite,
-  les maladies transmises par l’eau et autres maladies transmissibles.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.3.4 : Incidence de l’hépatite B pour 100 000 habitants</p>'
+PROGRESS_DETAILS: |-
+  La cible pour cet indicateur est une réduction du taux d'incidence par 90 % d'ici 2030, par rapport à la référence de 2015, comme établi dans la [Stratégie mondiale du secteur de la santé contre l'hépatite virale 2016-2021 (en anglais seulement)](https://whohbsagdashboard.com/#global-strategies) de l'Organisation mondiale de la santé.
 
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET__GLOBAL: |-
+  Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies transmises par l’eau et autres maladies transmissibles.
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 3.3.4 : Incidence de l’hépatite B pour 100 000 habitants
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation Mondiale de la Santé (OMS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-04.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
 source_active_1: true
 source_url_text_1: Maladies à déclaration obligatoire en direct
 source_url_1: 'https://maladies.canada.ca/declaration-obligatoire/graphiques?c=yl'
@@ -36,12 +46,4 @@ source_url_2: https://doi.org/10.25318/1710000501-fra
 source_organisation_2: Statistique Canada
 source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada, Province ou territoire
-
-reporting_status: complete
-
-un_designated_tier: Niveau I
-un_custodian_agency: Organisation Mondiale de la Santé (OMS)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-04.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
  

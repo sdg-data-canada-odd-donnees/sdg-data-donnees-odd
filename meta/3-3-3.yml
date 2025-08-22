@@ -1,35 +1,41 @@
-SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>'
-SDG_TARGET: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria
-  and neglected tropical diseases and combat hepatitis, water-borne diseases and other
-  communicable diseases </p>'
-SDG_INDICATOR: '<p>Indicator 3.3.3: Malaria incidence per 100,000 population </p>'
-STAT_CONC_DEF: <p>Incidence of malaria is defined as the number of new cases of malaria
-  per 100,000 population each year. </p>
+# National
+SDG_GOAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET: |-
+  Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases
+SDG_INDICATOR: |-
+  Indicator 3.3.3: Malaria incidence per 100,000 population
+STAT_CONC_DEF: |-
+  Incidence of malaria is defined as the number of new cases of malaria per 100,000 population each year.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
+REC_USE_LIM: |-
   This is a proxy indicator. The UN Global indicator states: "Malaria incidence per 1,000 population". <br><br>
   The national data for indicator 3.3.3 measures malaria incidence per 100,000 population, rather than per 1,000 population as specified in the metadata. <br><br>
-  Total population is used as the denominator for the calculation of malaria incidence, rather than the population at risk. <br><br>
-  From 2013 through 2016, Quebec data may include probable cases of malaria. <br><br>
+  Total population is used as the denominator for the calculation of malaria incidence, rather than the population at risk.
+  <br><br>
+  From 2013 through 2016, Quebec data may include probable cases of malaria.
+  <br><br>
   From 2018 to 2022, Ontario data has been omitted from the national rate calculation, as the province no longer includes malaria as a disease of interest for public health monitoring.
-PROGRESS_DETAILS: custom.progress-details
-SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
-  at all ages </p>'
-SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis,
-  malaria and neglected tropical diseases and combat hepatitis, water-borne diseases
-  and other communicable diseases </p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 3.3.3: Malaria incidence per 1,000 population
-  </p>'
+PROGRESS_DETAILS: |-
+  The target for this indicator is a 90% reduction in the incidence rate by 2030, compared to 2015 levels, as established in the World Health Organization's [Global technical strategy for malaria 2016–2030](https://apps.who.int/iris/bitstream/handle/10665/253469/A68_R1_REC1-en.pdf?sequence=1&isAllowed=y).
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET__GLOBAL: |-
+  Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 3.3.3: Malaria incidence per 1,000 population
+
 un_designated_tier: Tier I
 un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-03.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
+
+# Source(s)
 source_active_1: true
 source_url_text_1: Notifiable Diseases Online
 source_url_1: https://diseases.canada.ca/notifiable/charts?c=yl
 source_organisation_1: "Public Health Agency of Canada (PHAC)"
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
-reporting_status: complete
-proxy: proxy

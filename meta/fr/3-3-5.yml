@@ -9,7 +9,8 @@ STAT_CONC_DEF: |-
   Nombre de personnes nécessitant un traitement et des soins pour l'une des maladies tropicales négligées (MTN) visées par la feuille de route de l'OMS sur les MTN et les résolutions de l'Assemblée mondiale de la santé et signalées à l'OMS.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress-details
+PROGRESS_DETAILS: |-
+  La cible pour cet indicateur est une réduction du nombre de personnes nécessitant des interventions contre les MTN par 90 % d'ici 2030, par rapport à la référence de 2010, comme établi dans la [feuille de route pour les maladies tropicales négligées 2021-2030](https://www.who.int/fr/publications/i/item/9789240010352) de l'Organisation mondiale de la santé.
 
 # Global
 SDG_GOAL__GLOBAL: |-
