@@ -8337,12 +8337,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total small-scale industries",
                 "1-9 employees",
                 "10-19 employees",
                 "20-49 employees",
-                "250 employees and more",
                 "50-249 employees",
-                "Total small-scale industries",
+                "250 employees and more",
                 ""
               ]
             }

@@ -48,12 +48,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total des petites entreprises",
                 "1-9 employés",
                 "10-19 employés",
                 "20-49 employés",
-                "250 employés et plus",
                 "50-249 employés",
-                "Total des petites entreprises",
+                "250 employés et plus",
                 ""
               ]
             },
