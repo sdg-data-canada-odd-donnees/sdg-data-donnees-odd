@@ -1,29 +1,24 @@
 # NATIONAL
-SDG_GOAL: 'Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
-  la nutrition et promouvoir l’agriculture durable'
-SDG_TARGET: 'Cible 2.2 : D’ici 2030, mettre fin à toutes les formes de malnutrition,
-  notamment en atteignant d’ici 2025 les objectifs arrêtés à l’échelle internationale
-  relatifs aux retards de croissance et à l’émaciation chez les enfants de moins de 5
-  ans, et répondre aux besoins nutritionnels des adolescentes, des femmes enceintes
-  ou allaitantes et des personnes âgées'
-SDG_INDICATOR: 'Indicateur 2.2.3 : Prévalence de l’anémie chez les femmes âgées
-  de 15 à 49 ans, selon l’état de grossesse (pourcentage)'
-STAT_CONC_DEF: |
-    L’anémie est définie comme la prévalence des concentrations d’hémoglobine inférieures à 110 g/L pour les femmes enceintes et à 120 g/L pour les femmes non enceintes.
+SDG_GOAL: |-
+  Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer la nutrition et promouvoir l’agriculture durable
+SDG_TARGET: |-
+  Cible 2.2 : D’ici 2030, mettre fin à toutes les formes de malnutrition, notamment en atteignant d’ici 2025 les objectifs arrêtés à l’échelle internationale relatifs aux retards de croissance et à l’émaciation chez les enfants de moins de 5 ans, et répondre aux besoins nutritionnels des adolescentes, des femmes enceintes ou allaitantes et des personnes âgées
+SDG_INDICATOR: |-
+  Indicateur 2.2.3 : Prévalence de l’anémie chez les femmes âgées de 15 à 49 ans, selon l’état de grossesse (pourcentage)
+STAT_CONC_DEF: |-
+  L’anémie est définie comme la prévalence des concentrations d’hémoglobine inférieures à 110 g/L pour les femmes enceintes et à 120 g/L pour les femmes non enceintes.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: Cet indicateur utilise des données modélisées provenant de l’Organisation mondiale de la Santé (OMS).
-PROGRESS_DETAILS: custom.progress-details
+PROGRESS_DETAILS: |-
+  L'état du progrès pour cet indicateur est mesuré par rapport à une cible de 0,1 %. Ce choix de cible reflète l'ampleur et la précision des données, en reconnaissant que la méthodologie de mesure de progrès ne permet pas une cible exactement égale à zéro. Pour plus d'information, veuillez consulter la documentation de la méthodologie de mesure de progrès.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: 'Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
-  améliorer la nutrition et promouvoir l’agriculture durable'
-SDG_TARGET__GLOBAL: 'Cible 2.2 : D’ici 2030, mettre fin à toutes les formes de
-  malnutrition, notamment en atteignant d’ici 2025 les objectifs arrêtés à l’échelle
-  internationale relatifs aux retards de croissance et à l’émaciation chez les enfants
-  de moins de 5 ans, et répondre aux besoins nutritionnels des adolescentes, des femmes
-  enceintes ou allaitantes et des personnes âgées'
-SDG_INDICATOR__GLOBAL: 'Indicateur 2.2.3 : Prévalence de l’anémie chez les femmes
-  âgées de 15 à 49 ans, selon l''état de grossesse (pourcentage)'
+SDG_GOAL__GLOBAL: |-
+  Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer la nutrition et promouvoir l’agriculture durable
+SDG_TARGET__GLOBAL: |-
+  Cible 2.2 : D’ici 2030, mettre fin à toutes les formes de malnutrition, notamment en atteignant d’ici 2025 les objectifs arrêtés à l’échelle internationale relatifs aux retards de croissance et à l’émaciation chez les enfants de moins de 5 ans, et répondre aux besoins nutritionnels des adolescentes, des femmes enceintes ou allaitantes et des personnes âgées
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 2.2.3 : Prévalence de l’anémie chez les femmes âgées de 15 à 49 ans, selon l’état de grossesse (pourcentage)
 
 # SOURCE(S)
 source_url_text_1: Prevalence of anaemia in women of reproductive age (aged 15-49) (%) (en anglais seulement)

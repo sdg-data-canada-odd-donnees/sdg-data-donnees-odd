@@ -14,7 +14,8 @@ REC_USE_LIM: >-
   Le calcul des pourcentages pour Comportements non désirés ou inappropriés dans le milieu de travail exclut les répondants qui ont déclaré ne pas avoir travaillé au cours des 12 mois précédant l'enquête.
   <br><br>
   Toutes les différences observées entre les femmes et les hommes sont statistiquement significatives à p < 0,05.
-PROGRESS_DETAILS: custom.progress-details
+PROGRESS_DETAILS: |-
+  L'état du progrès pour cet indicateur est mesuré par rapport à une cible de 0,1 %. Ce choix de cible reflète l'ampleur et la précision des données, en reconnaissant que la méthodologie de mesure de progrès ne permet pas une cible exactement égale à zéro. Pour plus d'information, veuillez consulter la documentation de la méthodologie de mesure de progrès.
 
 # Global
 SDG_GOAL__GLOBAL: >-
