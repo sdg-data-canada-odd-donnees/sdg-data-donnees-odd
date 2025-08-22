@@ -31,8 +31,8 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
-  # Adjust target to reflect the magnitude and precision of the data
-  target: 0.01
+  # Target is 90% reduction from 2015 level
+  target: 0.073
 reporting_status: complete
 sort: ''
 standalone: false

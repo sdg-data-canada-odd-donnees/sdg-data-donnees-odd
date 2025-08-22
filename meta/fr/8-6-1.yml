@@ -10,7 +10,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   Les taux de personnes qui sont ni étudiants, ni employés, ni stagiaires (NEET) pour les provinces correspondent au taux moyen des trois premiers mois de l'année civile (premier trimestre), qui exclut les emplois d'été. Pour les territoires, la moyenne est calculée sur 8 mois (septembre à avril) puisque l'échantillon de l'enquête et la collecte des données diffèrent significativement de ceux des provinces.
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,

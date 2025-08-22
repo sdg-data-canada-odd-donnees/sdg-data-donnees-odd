@@ -1,12 +1,11 @@
 ## National metadata
-SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
-  la nutrition et promouvoir l’agriculture durable</p>'
-SDG_TARGET: '<p>Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte que chacun,
-  en particulier les pauvres et les personnes en situation vulnérable, y compris les
-  nourrissons, ait accès toute l’année à une alimentation saine, nutritive et suffisante</p>'
-SDG_INDICATOR: >-
-  <p>Indicateur 2.1.2 : Pourcentage de personnes vivant avec de l'insécurité alimentaire</p>
-STAT_CONC_DEF: >-
+SDG_GOAL: |-
+  Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer la nutrition et promouvoir l’agriculture durable
+SDG_TARGET: |-
+  Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte que chacun, en particulier les pauvres et les personnes en situation vulnérable, y compris les nourrissons, ait accès toute l’année à une alimentation saine, nutritive et suffisante
+SDG_INDICATOR: |-
+  Indicateur 2.1.2 : Pourcentage de personnes vivant avec de l'insécurité alimentaire
+STAT_CONC_DEF: |-
   <p>Les niveaux de la sécurité alimentaire se définissent comme :</p>
   <ol>
   <li>Sécurité alimentaire : Aucun signe d'un problème concernant l'accès à la nourriture lié au revenu ;</li> <li>Insécurité alimentaire : Comprend l'insécurité alimentaire marginale, modérée et sévère ;</li>
@@ -15,21 +14,23 @@ STAT_CONC_DEF: >-
   <li>Insécurité alimentaire grave : Signe de consommation alimentaire réduite et d'habitudes alimentaires perturbées.</li>
   </ol>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: >-
+REC_USE_LIM: |-
   L'enquête est menée dans l'ensemble du pays, tant dans les provinces que dans les territoires. Exclus du champ de l'enquête sont les personnes qui vivent dans les réserves et dans d'autres peuplements autochtones des provinces, les pensionnaires d'établissements institutionnels et les ménages situés dans des régions extrêmement éloignées où la densité de population est très faible. Dans l'ensemble, ces exclusions représentent moins de deux pour cent de la population.
- 
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  L'état du progrès pour cet indicateur est mesuré par rapport à une cible de 0,1 %. Ce choix de cible reflète l'ampleur et la précision des données, en reconnaissant que la méthodologie de mesure de progrès ne permet pas une cible exactement égale à zéro. Pour plus d'information, veuillez consulter la documentation de la méthodologie de mesure de progrès.
 
 ## Global metadata
-SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
-  améliorer la nutrition et promouvoir l’agriculture durable</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte
-  que chacun, en particulier les pauvres et les personnes en situation vulnérable,
-  y compris les nourrissons, ait accès toute l’année à une alimentation saine, nutritive
-  et suffisante</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 2.1.2 : Prévalence d’une insécurité alimentaire
-  modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire
-  vécue (échelle FIES)</p>'
+SDG_GOAL__GLOBAL: |-
+  Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer la nutrition et promouvoir l’agriculture durable
+SDG_TARGET__GLOBAL: |-
+  Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte que chacun, en particulier les pauvres et les personnes en situation vulnérable, y compris les nourrissons, ait accès toute l’année à une alimentation saine, nutritive et suffisante
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 2.1.2 : Prévalence d’une insécurité alimentaire modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle FIES)
+
+un_designated_tier: Niveau II
+un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # SOURCE
 reporting_status: complete
@@ -66,8 +67,3 @@ source_url_5:
   https://www150.statcan.gc.ca/n1/daily-quotidien/240619/dq240619d-fra.htm
 source_organisation_5: Statistique Canada
 source_geographical_coverage_5: Territoires
-
-un_designated_tier: Niveau II
-un_custodian_agency: Organisation des Nations Unies pour l'alimentation et l'agriculture
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-02.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

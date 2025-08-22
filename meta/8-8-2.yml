@@ -14,7 +14,7 @@ STAT_CONC_DEF: >-
   The indicator is based on the coding of the textual sources against a detailed list of evaluation criteria with the coding then converted into the indicator. It has a range from 0 to 10, with 0 being the best possible score (indicating higher levels of compliance with freedom of association and collective bargaining rights) and 10 the worst (indicating lower levels of compliance with freedom of association and collective bargaining rights).
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Goal 8: Promote sustained, inclusive and sustainable economic

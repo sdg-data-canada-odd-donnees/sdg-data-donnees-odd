@@ -11,7 +11,7 @@ STAT_CONC_DEF: |
   <br><br> Le sous-indicateur 15.4.2b, Proportion de terrains dégradés en montagne, est conçu pour surveiller l’étendue des terres dégradées en montagne en raison d’un changement de la couverture terrestre dans un pays donné et pour une année de référence donnée. De même que pour le sous-indicateur « Évolution de la couverture terrestre » de l’indicateur 15.3.1 des objectifs de développement durable (Sims et al. 2021), la dégradation et le rétablissement de l’écosystème des montagnes sont évalués en fonction de la définition des transitions du type de couverture terrestre qui indiquent une amélioration, une stabilité ou une dégradation de l’état de conservation. La définition de la dégradation adoptée pour le calcul de cet indicateur est celle établie par la Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
   en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
   contre la désertification, enrayer et inverser le processus de dégradation des terres

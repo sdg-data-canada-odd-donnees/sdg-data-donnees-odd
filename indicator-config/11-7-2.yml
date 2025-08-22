@@ -14,6 +14,8 @@ data_start_values:
   value: Men
 - field: Unwanted or inappropriate behaviour
   value: Physical assault
+- field: Unwanted or inappropriate behaviour
+  value: Sexual assault
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -39,29 +41,30 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
+# Adjust target to reflect the magnitude and precision of the data
 - direction: negative
-  target: 0
+  target: 0.1
   disaggregation:
   - field: Unwanted or inappropriate behaviour
     value: Physical assault
   - field: Sex
     value: Women
 - direction: negative
-  target: 0
+  target: 0.1
   disaggregation:
   - field: Unwanted or inappropriate behaviour
     value: Physical assault
   - field: Sex
     value: Men
 - direction: negative
-  target: 0
+  target: 0.1
   disaggregation:
   - field: Unwanted or inappropriate behaviour
     value: Sexual assault
   - field: Sex
     value: Women
 - direction: negative
-  target: 0
+  target: 0.1
   disaggregation:
   - field: Unwanted or inappropriate behaviour
     value: Sexual assault

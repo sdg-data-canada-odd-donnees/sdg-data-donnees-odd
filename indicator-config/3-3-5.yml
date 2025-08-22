@@ -32,12 +32,14 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
-  # Adjust targets to reflect the magnitude and precision of the data
+  # Target is 90% reduction from 2010 baseline
 - direction: negative
-  target: 0.5
+  target: 0.4
+  base_year: 2010
   series: Leprosy
 - direction: negative
-  target: 0.5
+  target: 0
+  base_year: 2010
   series: Rabies
 reporting_status: complete
 series_toggle: true

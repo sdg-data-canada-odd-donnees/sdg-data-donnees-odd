@@ -39,8 +39,9 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
+# Adjust target to reflect the magnitude and precision of the data
 - direction: negative
-  target: 0
+  target: 0.1
   disaggregation:
   - field: Gender
     value: Total, gender
@@ -49,7 +50,7 @@ progress_calculation_options:
   - field: Geography
     value: Canada
 - direction: negative
-  target: 0
+  target: 0.1
   disaggregation:
   - field: Gender
     value: Total, gender

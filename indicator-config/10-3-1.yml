@@ -78,8 +78,9 @@ page_content: ""
 permalink: ""
 precision: []
 progress_calculation_options:
+# Adjust target to reflect the magnitude and precision of the data
 - direction: negative
-  target: 0
+  target: 0.1
   series: Proportion of population reporting to have experienced discrimination or unfair treatment
 reporting_status: complete
 sort: ""

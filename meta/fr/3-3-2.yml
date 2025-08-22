@@ -1,28 +1,31 @@
-SDG_GOAL:
-  "<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>"
-SDG_TARGET:
-  "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose,
-  au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies
-  transmises par l’eau et autres maladies transmissibles.</p>"
-SDG_INDICATOR: "<p>Indicateur 3.3.2 : Incidence de la tuberculose pour 100 000 habitants</p>"
-STAT_CONC_DEF:
-  <p>L'incidence de la tuberculose pour 100 000 habitants, définie comme
-  le nombre estimé de nouveaux cas et de rechutes de tuberculose (toutes les formes
-  de tuberculose, y compris les cas chez les personnes vivant avec le VIH) survenant
-  au cours d'une année donnée, exprimée en taux pour 100 000 habitants.</p>
+# National
+SDG_GOAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET: |-
+  Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies transmises par l’eau et autres maladies transmissibles.
+SDG_INDICATOR: |-
+  Indicateur 3.3.2 : Incidence de la tuberculose pour 100 000 habitants
+STAT_CONC_DEF: |-
+  L'incidence de la tuberculose pour 100 000 habitants, définie comme le nombre estimé de nouveaux cas et de rechutes de tuberculose (toutes les formes de tuberculose, y compris les cas chez les personnes vivant avec le VIH) survenant au cours d'une année donnée, exprimée en taux pour 100 000 habitants.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: "   "
-PROGRESS_DETAILS: custom.progress_details
-SDG_GOAL__GLOBAL:
-  "<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>"
-SDG_TARGET__GLOBAL:
-  "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à
-  la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite,
-  les maladies transmises par l’eau et autres maladies transmissibles.</p>"
-SDG_INDICATOR__GLOBAL: "<p>Indicateur 3.3.2 : Incidence de la tuberculose pour 100 000 habitants</p>"
+PROGRESS_DETAILS: |-
+  La cible pour cet indicateur est une réduction du taux d'incidence par 80 % d'ici 2030, par rapport à la référence de 2015, comme établi dans la [Stratégie pour mettre fin à la tuberculose (en anglais seulement)](https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/the-end-tb-strategy) de l'Organisation mondiale de la santé.
 
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET__GLOBAL: |-
+  Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies transmises par l’eau et autres maladies transmissibles.
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 3.3.2 : Incidence de la tuberculose pour 100 000 habitants
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation Mondiale de la Santé (OMS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
 source_active_1: true
 source_url_text_1: Maladies à déclaration obligatoire en direct
 source_url_1: "https://maladies.canada.ca/declaration-obligatoire/graphiques?c=yl"
@@ -30,10 +33,3 @@ source_organisation_1: |
   Agence de la santé publique du Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
-
-reporting_status: complete
-
-un_designated_tier: Niveau I
-un_custodian_agency: Organisation Mondiale de la Santé (OMS)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-02.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

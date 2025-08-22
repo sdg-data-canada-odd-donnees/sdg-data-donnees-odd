@@ -73,7 +73,7 @@ DATA_COMP: '    ' # |
   # in surface-water area are observed in 2015 and 2020, which are compared against a 20-year
   # reference period.
 REC_USE_LIM: '    ' # custom.data-comp
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: |-
