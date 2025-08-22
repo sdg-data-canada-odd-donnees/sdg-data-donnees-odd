@@ -16,16 +16,17 @@
             "title": "Year"
           },
           {
-            "name": "Series",
+            "name": "Neglected tropical diseases",
             "type": "string",
             "constraints": {
               "enum": [
+                "Total - Neglected tropical diseases",
                 "Leprosy",
                 "Rabies",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Neglected tropical diseases"
           },
           {
             "name": "Sex",
@@ -35,6 +36,7 @@
                 "Male",
                 "Female",
                 "Unknown",
+                "All",
                 ""
               ]
             },

@@ -15,10 +15,11 @@
             "type": "integer"
           },
           {
-            "name": "Series",
+            "name": "Neglected tropical diseases",
             "type": "string",
             "constraints": {
               "enum": [
+                "Total - Neglected tropical diseases",
                 "Leprosy",
                 "Rabies",
                 ""
@@ -33,6 +34,7 @@
                 "Male",
                 "Female",
                 "Unknown",
+                "All",
                 ""
               ]
             }

@@ -16,16 +16,17 @@
             "title": "Année"
           },
           {
-            "name": "Series",
+            "name": "Neglected tropical diseases",
             "type": "string",
             "constraints": {
               "enum": [
+                "Total - Maladies tropicales négligées",
                 "Lèpre",
                 "Rage",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Maladies tropicales négligées"
           },
           {
             "name": "Sex",
@@ -35,6 +36,7 @@
                 "Homme",
                 "Femme",
                 "Inconnu",
+                "Tous",
                 ""
               ]
             },
