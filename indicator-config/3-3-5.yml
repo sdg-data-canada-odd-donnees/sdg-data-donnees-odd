@@ -14,7 +14,8 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - Type of disease
 # indicator disaggregation is marked as a series
 graph_annotations: []
 graph_limits: []
