@@ -106,13 +106,23 @@ trucking_freight <-
     Value = Value * 0.001
   )
 
+# add dummy variables for disaggregation
+dummy <- 
+  data.frame(
+    Year = "2015",
+    Transport = c("Air freight volume", "Air passengers", "Rail freight volume", "Rail passengers", "Road freight volume"), # nolint
+    Value = NA
+  ) %>%
+  rename(`Mode of transport` = Transport)
+
 data_final <-
   bind_rows(
     air_freight,
     air_passengers,
     rail_freight,
     rail_passengers_domestic,
-    trucking_freight
+    trucking_freight,
+    dummy
   ) %>% 
   relocate(Value, .after = last_col()) 
 
