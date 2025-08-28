@@ -17,10 +17,12 @@ data_final <-
     Year = TIME_PERIOD,
     Units = UNIT_MEASURE,
     Value = ObsValue
-  ) %>% 
+  ) %>%
   mutate(
-    Units = "Index"
-  )
+    Units = "Index",
+    Progress = pmax(Value, 0)
+  ) %>%
+  relocate(Progress, .before = Value)
 
 write.csv(
   data_final,
