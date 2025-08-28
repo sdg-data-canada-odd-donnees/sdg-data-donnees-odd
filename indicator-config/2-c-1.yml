@@ -1,4 +1,4 @@
-auto_progress_calculation: false # indicator has positive/negative value mix
+auto_progress_calculation: true
 computation_units: ""
 copyright: ""
 data_footnote: ""
@@ -30,7 +30,7 @@ permalink: ""
 precision: []
 progress_calculation_options:
 - direction: negative
-progress_status: not_available
+  target: 0.5
 reporting_status: complete
 sort: ""
 standalone: false
