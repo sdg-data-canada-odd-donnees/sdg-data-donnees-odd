@@ -328,7 +328,7 @@
     score: null
     sign: 1
     status: not_available
-    target: 0.1
+    target: null
     target_year: 2030.0
   progress_status: not_available
   score: null
@@ -383,12 +383,12 @@
     base_year: 2015.0
     current_value: 4.04
     current_year: 2023.0
-    direction: 1
+    direction: -1
     limit: null
-    progress_value: -0.03359124544761283
-    score: -5.0
+    progress_value: 0.03359124544761283
+    score: 5.0
     sign: 1
-    status: deterioration
+    status: substantial_progress
     target: null
     target_year: 2030.0
   10-5-1 / Ratio of non-performing loans to total gross loans:
@@ -396,12 +396,12 @@
     base_year: 2015.0
     current_value: 0.45
     current_year: 2023.0
-    direction: 1
+    direction: -1
     limit: null
-    progress_value: -0.017910322585715344
-    score: -4.738790323214418
+    progress_value: 0.017910322585715344
+    score: 3.955161292857671
     sign: 1
-    status: deterioration
+    status: substantial_progress
     target: null
     target_year: 2030.0
   10-5-1 / Ratio of regulatory capital to assets:
@@ -430,8 +430,8 @@
     status: substantial_progress
     target: null
     target_year: 2030.0
-  progress_status: limited_progress
-  score: -1.3939433405999904
+  progress_status: moderate_progress
+  score: 1.7217152620786909
 10-6-1:
   progress_status: ''
   score: null
@@ -564,16 +564,16 @@
     base_year: 2016.0
     current_value: 26617188.0
     current_year: 2022.0
-    direction: 1
+    direction: -1
     limit: null
-    progress_value: 0.010901371753663236
-    score: 1.475342938415809
+    progress_value: -0.010901371753663236
+    score: -3.8626714692079043
     sign: 1
-    status: moderate_progress
+    status: deterioration
     target: null
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 1.475342938415809
+  progress_status: deterioration
+  score: -3.8626714692079043
 11-6-2:
   11-6-2:
     base_value: 7.2
@@ -1717,8 +1717,21 @@
   progress_status: target_achieved
   score: 5.0
 2-c-1:
-  progress_status: not_available
-  score: null
+  2-c-1:
+    base_value: 0.79
+    base_year: 2015.0
+    current_value: 0.89
+    current_year: 2023.0
+    direction: -1
+    limit: null
+    progress_value: -0.4997585254862246
+    score: -4.582343848143452
+    sign: 1
+    status: deterioration
+    target: 0.5
+    target_year: 2030.0
+  progress_status: deterioration
+  score: -4.582343848143452
 3-1-1:
   3-1-1:
     base_value: 7.05
