@@ -9,6 +9,7 @@ STAT_CONC_DEF: |
   Le taux de mortalité attribuable aux effets conjoints de la pollution domestique et de la pollution de l'air ambiant peut être exprimé comme suit : taux de mortalité brut ou taux de mortalité normalisé selon l'âge. Les taux de mortalité sont calculés en divisant le nombre de décès par la population totale (ou comme indiqués si un groupe de population différent est utilisé, par exemple les enfants de moins de 5 ans).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès

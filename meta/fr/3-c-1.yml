@@ -1,34 +1,40 @@
-SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.c : Accroître considérablement le budget de la santé et le recrutement,
-  le perfectionnement, la formation et le maintien en poste du personnel de santé
-  dans les pays en développement, notamment dans les pays les moins avancés et les
-  petits États insulaires en développement.</p>'
-SDG_INDICATOR: '<p>Indicateur 3.c.1 : Densité et répartition du personnel de santé</p>'
-STAT_CONC_DEF: |
+# National
+SDG_GOAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET: |-
+  Cible 3.c : Accroître considérablement le budget de la santé et le recrutement, le perfectionnement, la formation et le maintien en poste du personnel de santé dans les pays en développement, notamment dans les pays les moins avancés et les petits États insulaires en développement.
+SDG_INDICATOR: |-
+  Indicateur 3.c.1 : Densité et répartition du personnel de santé
+STAT_CONC_DEF: |-
   Cet indicateur mesure les densités de médecins, de personnel infirmier et de sages-femmes, de dentistes et de pharmaciens pour 10 000 habitants. L'indicateur mesure également la répartition des travailleurs de la santé par sexe pour certaines professions. Les professions sont basées sur les codes des professions de la Classification nationale des professions [CNP] 2021, version 1.0, mis en correspondance avec la Classification internationale type des professions (CITP-08).
-DATA_COMP: |
-  Calculé en divisant le nombre de professionnels de la santé travaillant dans les soins directs dans chaque région sanitaire ou province/territoire par les estimations de population et en multipliant le résultat par 10 000.
+DATA_COMP: |-
+  Calculé en divisant le nombre de professionnels de la santé travaillant dans les soins directs dans chaque région sanitaire ou province/territoire par les estimations de population et en multipliant le résultat par 10 000.
   <br><br>
-  Densité de médecins = ((CNP : 31101 Spécialistes en chirurgie + CNP : 31102 Médecins généralistes et médecins de famille) / Population) x 10 000.
+  Densité de médecins = ((CNP : 31101 Spécialistes en chirurgie + CNP : 31102 Médecins généralistes et médecins de famille) / Population) x 10 000.
   <br><br>
-  Densité du personnel infirmier et des sages-femmes = ((CNP : 31301 Infirmiers autorisés et infirmiers psychiatriques autorisés + CNP : 31302 Infirmiers praticiens + CNP : 31303 Assistants médicaux, sages-femmes et professionnels paramédicaux) / Population) x 10 000.
+  Densité du personnel infirmier et des sages-femmes = ((CNP : 31301 Infirmiers autorisés et infirmiers psychiatriques autorisés + CNP : 31302 Infirmiers praticiens + CNP : 31303 Assistants médicaux, sages-femmes et professionnels paramédicaux) / Population) x 10 000.
   <br><br>
-  Densité de dentistes = (CNP : 31110 Dentistes / Population) x 10 000
+  Densité de dentistes = (CNP : 31110 Dentistes / Population) x 10 000
   <br><br>
-  Densité de pharmaciens = (CNP : 31120 Pharmaciens / Population) x 10 000
+  Densité de pharmaciens = (CNP : 31120 Pharmaciens / Population) x 10 000
 REC_USE_LIM: '    '
-SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.c : Accroître considérablement le budget de la santé
-  et le recrutement, le perfectionnement, la formation et le maintien en poste du
-  personnel de santé dans les pays en développement, notamment dans les pays les moins
-  avancés et les petits États insulaires en développement.</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.c.1 : Densité et répartition du personnel
-  de santé</p>'
+PROGRESS_DETAILS: |-
+  L'état du progrès pour cet indicateur est basé sur la densité du personnel de santé pour 10 000 habitants pour toutes les professions disponibles : médecins, personnel infirmier et sages-femmes, dentistes et pharmaciens.
 
-reporting_status: complete 
- 
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET__GLOBAL: |-
+  Cible 3.c : Accroître considérablement le budget de la santé et le recrutement, le perfectionnement, la formation et le maintien en poste du personnel de santé dans les pays en développement, notamment dans les pays les moins avancés et les petits États insulaires en développement.
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 3.c.1 : Densité et répartition du personnel de santé
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation mondiale de la Santé (OMS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0C-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
+
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: "Statistique Canada. Tableau 98-10-0447-01  Groupe de base des professions selon le plus haut niveau de scolarité, le principal domaine d’études, l’âge et le genre : Canada, provinces et territoires"
 source_url_1: https://doi.org/10.25318/9810044701-fra
@@ -42,8 +48,3 @@ source_url_2: https://doi.org/10.25318/1710000501-fra
 source_organisation_2: Statistique Canada
 source_periodicity_2: Annuelle
 source_geographical_coverage_2: Canada, Province ou territoire
-
-un_designated_tier: Niveau I
-un_custodian_agency: Organisation mondiale de la Santé (OMS)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0C-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies

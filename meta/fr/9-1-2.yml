@@ -10,6 +10,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   Il s'agit d'un indicateur de substitution qui mesure les volumes de passagers par le nombre de passagers et les volumes de fret par tonnes, tandis que les métadonnées de l'ONU indiquent : « Les volumes de passagers et de fret sont, respectivement, mesurés en passagers-km et en tonnes-km ».
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

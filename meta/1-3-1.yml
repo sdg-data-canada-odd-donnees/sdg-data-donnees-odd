@@ -13,6 +13,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   Series d) "Proportion of persons with disabilities receiving benefits" reports on the proportion of the population over the age of 16 living with a disability who are receiving any type of benefits, including social assistance or disability benefits. This differs from the metadata, which focuses on the proportion of individuals with severe disabilities receiving disability cash benefits.
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: 'Goal 1: End poverty in all its forms everywhere'

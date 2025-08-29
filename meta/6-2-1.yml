@@ -13,6 +13,7 @@ STAT_CONC_DEF: |-
   The proportion of the population with basic hygiene services is defined as the proportion of population with a handwashing facility with soap and water available at home. Handwashing facilities may be located within the dwelling, yard or plot. They may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: |-

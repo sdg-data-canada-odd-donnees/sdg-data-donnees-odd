@@ -8,10 +8,7 @@ SDG_INDICATOR: >-
 STAT_CONC_DEF: >-
   Les petites entreprises industrielles, également appelées « petites industries » dans le cadre des ODD, définies ici à des fins de collecte et de compilation de données statistiques, font référence aux unités statistiques, généralement des entreprises, engagées dans la production de biens et de services destinés à un marché inférieur à une classe de taille désignée.
   <br><br>
-  Selon la Banque mondiale, les micro, petites et moyennes entreprises (MPME) sont définies comme suit : <br><br>
-  - micro-entreprises : 1 à 9 employés ; <br>
-  - petites entreprises : 10 à 49 employés ; <br>
-  - et moyennes entreprises : 50 à 249 employés.
+  Selon la définition internationale de l'ONUDI, les « petites industries » sont des entreprises qui emploient en moyenne moins de 20 personnes pendant la période de référence.
   <br><br>
   La proportion des « petites industries » dans la valeur ajoutée totale de l’industrie représente un indicateur calculant la part de la valeur ajoutée manufacturière des petites entreprises manufacturières dans la valeur ajoutée manufacturière totale.
 DATA_COMP: >-
@@ -22,7 +19,12 @@ DATA_COMP: >-
   <b>Production</b> = (Revenus des biens fabriqués + (Clôture des stocks, biens ou travaux en cours + Clôture des stocks, produits finis fabriqués) - (Ouverture des stocks, biens ou travaux en cours + Ouverture des stocks, produits finis fabriqués))
   <br><br>
   <b>Consommation</b> = (Stocks d'ouverture, matières premières + Coût des matériaux et fournitures + Coût total de l'énergie, du service d'eau et du carburant des véhicules - Stocks de clôture des matières premières)
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  Les données pour l'année de référence la plus récente sont préliminaires.
+  <br><br>
+  Certaines données sont supprimées afin de respecter les exigences de confidentialité prévues par la <i>Loi sur la statistique</i>.
+PROGRESS_DETAILS: |-
+  custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: >-

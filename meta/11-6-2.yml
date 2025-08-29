@@ -12,6 +12,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp 
 REC_USE_LIM: >-
   Due to data limitations, data for fine particulate matter (PM10) are not currently presented.
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

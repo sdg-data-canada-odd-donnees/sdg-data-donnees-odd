@@ -1,4 +1,5 @@
-﻿composite_breakdown_label: ""
+﻿auto_progress_calculation: true
+composite_breakdown_label: ""
 computation_units: Percentage (%)
 copyright: ""
 data_footnote: ""
@@ -76,8 +77,12 @@ national_geographical_coverage: Canada
 page_content: ""
 permalink: ""
 precision: []
+progress_calculation_options:
+- direction: negative
+  series: Proportion of population reporting to have experienced discrimination or unfair treatment
 reporting_status: complete
 sort: ""
 standalone: false
 tags:
   - Proxy
+proxy: proxy

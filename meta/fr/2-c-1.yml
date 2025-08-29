@@ -9,6 +9,7 @@ STAT_CONC_DEF: |
   et de l’inflation, ce qui permet de répondre à la question de savoir si un changement de prix est anormal ou non pour une période donnée.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire,
   améliorer la nutrition et promouvoir l’agriculture durable</p>'
 SDG_TARGET__GLOBAL: 'Cible 2.c : Adopter des mesures visant à assurer le bon fonctionnement des marchés de denrées alimentaires et de produits dérivés et à faciliter l’accès rapide aux informations relatives à ces marchés, y compris le niveau des réserves alimentaires, afin de contribuer à limiter l’extrême volatilité des prix alimentaires'

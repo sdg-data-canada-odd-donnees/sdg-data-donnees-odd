@@ -10,6 +10,7 @@ Statistics Canada: Statistics Canada
 Canada – All categories: Canada – All categories
 Total population: Total population
 Unknown: Unknown
+All: All
 
 ## Tiers
 Tier I: Tier I
@@ -43,6 +44,7 @@ US dollar, Millions, 2021 constant prices: US dollar, Millions, 2021 constant pr
 US dollar, Millions, 2022 constant prices: US dollar, Millions, 2022 constant prices
 US dollar, Millions, 2023 constant prices: US dollar, Millions, 2023 constant prices
 Million cubic metres: Million cubic metres
+Kilograms: Kilograms
 
 ## OECD Data Explorer
 Sector: Sector
@@ -238,6 +240,172 @@ Victoria (CMA), B.C.: Victoria (CMA), B.C.
 
 Contiguously settled areas (CSAs): Contiguously settled areas (CSAs)
 
+## Countries
+Country of origin: Country of origin
+Afghanistan: Afghanistan
+Albania: Albania
+Algeria: Algeria
+Angola: Angola
+Antigua and Barbuda: Antigua and Barbuda
+Argentina: Argentina
+Armenia: Armenia
+Australia: Australia
+Austria: Austria
+Azerbaijan: Azerbaijan
+Bahamas: Bahamas
+Bahrain: Bahrain
+Bangladesh: Bangladesh
+Barbados: Barbados
+Belarus: Belarus
+Belgium: Belgium
+Belize: Belize
+Benin: Benin
+Bermuda: Bermuda
+Bhutan: Bhutan
+Bosnia and Herzegovina: Bosnia and Herzegovina
+Botswana: Botswana
+Brazil: Brazil
+Brunei Darussalam: Brunei Darussalam
+Bulgaria: Bulgaria
+Burkina Faso: Burkina Faso
+Burundi: Burundi
+Cambodia: Cambodia
+Cameroon: Cameroon
+Central African Republic: Central African Republic
+Chad: Chad
+Chile: Chile
+China: China
+Colombia: Colombia
+Comoros: Comoros
+Costa Rica: Costa Rica
+Croatia: Croatia
+Cuba: Cuba
+Curaçao: Curaçao
+Cyprus: Cyprus
+Czechia: Czechia
+Côte d'Ivoire: Côte d'Ivoire
+Denmark: Denmark
+Djibouti: Djibouti
+Dominica: Dominica
+Dominican Republic: Dominican Republic
+Ecuador: Ecuador
+Egypt: Egypt
+El Salvador: El Salvador
+Equatorial Guinea: Equatorial Guinea
+Eritrea: Eritrea
+Estonia: Estonia
+Eswatini: Eswatini
+Ethiopia: Ethiopia
+Fiji: Fiji
+Finland: Finland
+France: France
+Gabon: Gabon
+Gambia: Gambia
+Georgia: Georgia
+Germany: Germany
+Ghana: Ghana
+Greece: Greece
+Grenada: Grenada
+Guatemala: Guatemala
+Guinea: Guinea
+Guinea-Bissau: Guinea-Bissau
+Guyana: Guyana
+Haiti: Haiti
+Honduras: Honduras
+Hungary: Hungary
+India: India
+Indonesia: Indonesia
+Iraq: Iraq
+Ireland: Ireland
+Israel: Israel
+Italy: Italy
+Jamaica: Jamaica
+Japan: Japan
+Jordan: Jordan
+Kazakhstan: Kazakhstan
+Kenya: Kenya
+Kuwait: Kuwait
+Kyrgyzstan: Kyrgyzstan
+Latvia: Latvia
+Lebanon: Lebanon
+Lesotho: Lesotho
+Liberia: Liberia
+Libya: Libya
+Lithuania: Lithuania
+Madagascar: Madagascar
+Malawi: Malawi
+Malaysia: Malaysia
+Mali: Mali
+Malta: Malta
+Mauritania: Mauritania
+Mauritius: Mauritius
+Mexico: Mexico
+Mongolia: Mongolia
+Montenegro: Montenegro
+Morocco: Morocco
+Mozambique: Mozambique
+Myanmar: Myanmar
+Namibia: Namibia
+Nepal: Nepal
+Netherlands: Netherlands
+New Caledonia: New Caledonia
+New Zealand: New Zealand
+Nicaragua: Nicaragua
+Niger: Niger
+Nigeria: Nigeria
+North Macedonia: North Macedonia
+Norway: Norway
+Oman: Oman
+Pakistan: Pakistan
+Panama: Panama
+Papua New Guinea: Papua New Guinea
+Paraguay: Paraguay
+Peru: Peru
+Philippines: Philippines
+Poland: Poland
+Portugal: Portugal
+Qatar: Qatar
+Romania: Romania
+Russian Federation: Russian Federation
+Rwanda: Rwanda
+Saint Kitts and Nevis: Saint Kitts and Nevis
+Saint Lucia: Saint Lucia
+Saint Vincent and the Grenadines: Saint Vincent and the Grenadines
+Saudi Arabia: Saudi Arabia
+Senegal: Senegal
+Serbia: Serbia
+Seychelles: Seychelles
+Sierra Leone: Sierra Leone
+Singapore: Singapore
+Slovakia: Slovakia
+Slovenia: Slovenia
+Somalia: Somalia
+South Sudan: South Sudan
+Spain: Spain
+Sri Lanka: Sri Lanka
+Sudan: Sudan
+Suriname: Suriname
+Sweden: Sweden
+Switzerland: Switzerland
+Tajikistan: Tajikistan
+Thailand: Thailand
+Togo: Togo
+Trinidad and Tobago: Trinidad and Tobago
+Tunisia: Tunisia
+Turkey: Turkey
+Turkmenistan: Turkmenistan
+Uganda: Uganda
+Ukraine: Ukraine
+United Arab Emirates: United Arab Emirates
+United Kingdom: United Kingdom
+United States of America: United States of America
+Uruguay: Uruguay
+Uzbekistan: Uzbekistan
+Viet Nam: Viet Nam
+Yemen: Yemen
+Zambia: Zambia
+Zimbabwe: Zimbabwe
+
 ## Age
 Age: Age
 Age group: Age group
@@ -253,6 +421,7 @@ Under 35 years: Under 35 years
 15 years and over: 15 years and over
 25 years and over: 25 years and over
 45 years and over: 45 years and over
+50 years and over: 50 years and over
 55 years and over: 55 years and over
 65 years and older: 65 years and older
 65 years and over: 65 years and over
@@ -266,6 +435,7 @@ Under 35 years: Under 35 years
 12 to 17 years: 12 to 17 years
 15 to 19 years: 15 to 19 years
 15 to 24 years: 15 to 24 years
+15 to 49 years: 15 to 49 years
 15 to 64 years: 15 to 64 years
 16 to 24 years: 16 to 24 years
 18 to 24 years: 18 to 24 years
@@ -475,20 +645,6 @@ Whitehorse (CA): Whitehorse (CA)
 Yellowknife (CA): Yellowknife (CA)
 Province or territory: Province or territory
 
-## 1-3-1
-Proportion of employed labour force eligible for workers compensation benefits: |
-    Proportion of employed labour force eligible for workers' compensation benefits
-Proportion of economic families with children receiving a child benefit: |
-    Proportion of economic families with children receiving a child benefit
-Ratio of unemployed receiving benefits: |
-    Ratio of unemployed receiving benefits
-Proportion of the unemployed eligible for Employment Insurance benefits: |
-    Proportion of the unemployed eligible for Employment Insurance benefits
-Proportion of older persons receiving a pension: |
-    Proportion of older persons receiving a pension
-Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits: |
-    Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits
-
 ## 1-5-1
 Type of natural disaster: Type of natural disaster
 Epidemic: Epidemic
@@ -652,6 +808,8 @@ Without nicotine: Without nicotine
 Malaria incidence per 100,000 population: Malaria incidence per 100,000 population
 
 ## 3-3-5
+Neglected tropical diseases: Neglected tropical diseases
+Total - Neglected tropical diseases: Total - Neglected tropical diseases
 Leprosy: Leprosy
 Rabies: Rabies
 Number of people requiring interventions against leprosy: Number of people requiring interventions against leprosy
@@ -825,8 +983,8 @@ Total, persons aged 15 years and over: Total, persons aged 15 years and over
 Selected demographic characteristics: Selected demographic characteristics
 Total Aboriginal identity: Total Aboriginal identity
 Non-Aboriginal identity: Non-Aboriginal identity
-Children in Grade 4 achieving at least a minimum proficiency level in mathematics: Children in Grade 4 achieving at least a minimum proficiency level in mathematics
-Children in Grade 4 achieving at least a minimum proficiency level in reading: Children in Grade 4 achieving at least a minimum proficiency level in reading
+Children at the end of primary achieving at least a minimum proficiency level in mathematics: Children at the end of primary achieving at least a minimum proficiency level in mathematics
+Children at the end of primary achieving at least a minimum proficiency level in reading: Children at the end of primary achieving at least a minimum proficiency level in reading
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics
 Proportion of children achieving at least a minimum proficiency level: Proportion of children achieving at least a minimum proficiency level
@@ -1044,6 +1202,47 @@ Overall: Overall
 
 ## 6-4-2
 ## nothing new
+
+## 6-5-1
+Water resources management category: Water resources management category
+Water resources management sub-category: Water resources management sub-category
+Enabling environment: Enabling environment
+Institutions and participation: Institutions and participation
+Management instruments: Management instruments
+Financing: Financing
+Arrangements for transboundary water management in most important basins and aquifers: Arrangements for transboundary water management in most important basins and aquifers
+Basin and aquifer management plans: Basin and aquifer management plans
+National integrated water resources management (IWRM) plans: National integrated water resources management (IWRM) plans
+National water resources law: National water resources law
+National water resources policy: National water resources policy
+Sub-national water resources regulations: Sub-national water resources regulations
+Sub-national water resources policies: Sub-national water resources policies
+Basin and aquifer level organizations for leading implementation of integrated water resources management (IWRM) plans: Basin and aquifer level organizations for leading implementation of integrated water resources management (IWRM) plans
+Private Sector participation in water resources development, management and use at national level: Private Sector participation in water resources development, management and use at national level
+Coordination between national government authorities representing different sectors on water resources, policy, planning and management: Coordination between national government authorities representing different sectors on water resources, policy, planning and management
+Developing integrated water resources management (IWRM) capacity at the national level: Developing integrated water resources management (IWRM) capacity at the national level
+National government authority capacity for leading implementation of national integrated water resources management (IWRM) plans: National government authority capacity for leading implementation of national integrated water resources management (IWRM) plans
+Organizational framework for transboundary water management for most important basins and aquifers: Organizational framework for transboundary water management for most important basins and aquifers
+Public participation in water resources, policy, planning and management at national level: Public participation in water resources, policy, planning and management at national level
+Public participation in water resources, policy, planning and management at the local level: Public participation in water resources, policy, planning and management at the local level
+Sub-national authorities for leading IWRM implementation: Sub-national authorities for leading IWRM implementation
+Participation of vulnerable groups in water resources planning and management: Participation of vulnerable groups in water resources planning and management
+Gender mainstreaming in water resources management: Gender mainstreaming in water resources management
+Aquifer management instruments: Aquifer management instruments
+Basin management instruments: Basin management instruments
+Data and information sharing within countries at all levels: Data and information sharing within countries at all levels
+Management instruments to reduce impacts of water-related disasters from the national level: Management instruments to reduce impacts of water-related disasters from the national level
+Management of water-related ecosystems from the national level: Management of water-related ecosystems from the national level
+National monitoring of water availability: National monitoring of water availability
+Pollution control from the national level: Pollution control from the national level
+Sustainable and efficient water use management from the national level: Sustainable and efficient water use management from the national level
+Transboundary data and information sharing between countries: Transboundary data and information sharing between countries
+Financing for transboundary cooperation: Financing for transboundary cooperation
+National budget for investment including water resources infrastructure: National budget for investment including water resources infrastructure
+National budget for the recurrent costs of the integrated water resources management (IWRM) elements: National budget for the recurrent costs of the integrated water resources management (IWRM) elements
+Sub-national or basin budgets for IWRM elements: Sub-national or basin budgets for IWRM elements
+Revenues raised from dedicated levies on water users at basin, aquifer or sub-national levels: Revenues raised from dedicated levies on water users at basin, aquifer or sub-national levels
+Sub-national or basin budgets for investment including water resources infrastructure: Sub-national or basin budgets for investment including water resources infrastructure
 
 ## 6-6-1
 Number of (shared) basins showing high surface-water extent changes: Number of (shared) basins showing high surface-water extent changes
@@ -1537,6 +1736,7 @@ Plastics: Plastics
 Gable top and aseptic containers: Gable top and aseptic containers
 Textiles: Textiles
 Tires: Tires
+Construction + renovation and demolition: Construction + renovation and demolition
 Construction, renovation and demolition: Construction, renovation and demolition
 Organics: Organics
 Other materials: Other materials
@@ -1544,6 +1744,10 @@ Sources of materials prepared for recycling: Sources of materials prepared for r
 All sources of diverted materials: All sources of diverted materials
 Residential sources of diverted materials: Residential sources of diverted materials
 Non-residential sources of diverted materials: Non-residential sources of diverted materials
+All organic materials: All organic materials
+Food waste and source separated organics: Food waste and source separated organics
+Leaf and yard waste: Leaf and yard waste
+Other organic materials: Other organic materials
 
 ## 12-7-1
 Sub-indicators: Sub-indicators
@@ -1613,6 +1817,12 @@ All rural municipalities: All rural municipalities
 Rural municipalities, population 1 to 4,999: Rural municipalities, population 1 to 4,999
 Rural municipalities, population 5,000 or more: Rural municipalities, population 5,000 or more
 
+## 13-a-1
+Theme: Theme
+Adaptation: Adaptation
+Mitigation: Mitigation
+Cross-cutting: Cross-cutting
+
 ## 14-2-1
 Stock group: Stock group
 Marine mammals: Marine mammals
@@ -1679,7 +1889,7 @@ Above-ground biomass stock in forest: Above-ground biomass stock in forest
 Above-ground biomass stock in forest (Tonnes/hectares): Above-ground biomass stock in forest (Tonnes/hectares)
 Proportion of forest area located within legally established protected areas: Proportion of forest area located within legally established protected areas
 Proportion of forest area located within legally established protected areas (Percentage): Proportion of forest area located within legally established protected areas (Percentage)
-Proportion of forest area under a long term forest management plan: Proportion of forest area under a long term forest management plan
+Proportion of forest area under a long-term forest management plan: Proportion of forest area under a long-term forest management plan
 Proportion of forest area under a long term forest management plan (Percentage): Proportion of forest area under a long term forest management plan (Percentage)
 Forest area under an independently verified forest management certification scheme: Forest area under an independently verified forest management certification scheme
 Forest area under an independently verified forest management certification scheme (Hectares): Forest area under an independently verified forest management certification scheme (Hectares)
@@ -1902,13 +2112,9 @@ Grants: Grants
 Other revenue: Other revenue
 
 ## 17-2-1
-ODA as a share of GNI: ODA as a share of GNI
-Total ODA to least developed countries as a share of GNI: Total ODA to least developed countries as a share of GNI
-Official development assistance: Official development assistance
+ODA as a share of GNI (%): ODA as a share of GNI (%)
+Recipient country: Recipient country
 Least developed countries: Least developed countries
-ODA to least developed countries as a share of GNI: ODA to least developed countries as a share of GNI
-Target - ODA as a share of GNI: Target - ODA as a share of GNI
-Target - Total ODA to least developed countries as a share of GNI: Target - Total ODA to least developed countries as a share of GNI
 
 ## 17-3-1
 Foreign Direct Investment (FDI) Inflow: Foreign Direct Investment (FDI) Inflow

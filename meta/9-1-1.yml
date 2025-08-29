@@ -10,6 +10,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   The scope of analysis includes only the areas located outside of population centres. The provincial/territorial aggregate totals also include the population counts of the census subdivisions, for which individual count values were suppressed.
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

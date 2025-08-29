@@ -113,11 +113,7 @@ total_disags <- c(
   "Total, urban and rural areas"
 )
 
-# Load geocodes from a CSV file
-geocodes <- read.csv("geocodes.csv")
-
-discrimination <- 
-  discrimination_raw %>%
+discrimination <- discrimination_raw %>%
   filter(
     Statistics == "Percentage of persons",
     !GEO %in% c("Atlantic Region", "Prairies Region"),
@@ -129,13 +125,14 @@ discrimination <-
     REF_DATE = str_replace_all(REF_DATE, "-10", " Q4"),
     `Age group` = NA,
     Gender = str_replace_all(Gender, "Total, all persons", "Total")
-      ) %>%
+  ) %>%
   select(
     Year = REF_DATE,
     `Discrimination indicators` = Indicators,
     Geography = GEO,
     Gender,
     `Age group`,
+    GeoCode = GeoUID,
     Value = VALUE
   ) %>%
   drop_na(Value) %>%
@@ -147,8 +144,7 @@ discrimination <-
     )
   )
 
-discrimination_disag <-
-  discrimination_disag_raw %>%
+discrimination_disag <- discrimination_disag_raw %>%
   filter(
     Statistics == "Percentage of persons",
     !GEO %in% c("Atlantic Region", "Prairies Region"),
@@ -166,6 +162,7 @@ discrimination_disag <-
     Geography = GEO,
     Gender,
     `Sociodemographic characteristics`,
+    GeoCode = GeoUID,
     Value = VALUE
   ) %>%
   mutate(
@@ -206,37 +203,11 @@ discrimination_disag <-
     -`Sociodemographic characteristics`
   )
 
-combined <-
-  bind_rows(discrimination_disag,discrimination)
-  
-main_series_total_line <-
-  combined %>%
+combined <- bind_rows(discrimination_disag, discrimination)
+
+main_series_total_line <- combined %>%
   filter(
     `Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada",
-    Geography == "Canada",
-    Gender == "Total",
-    `Age group` %in% total_disags |
-    `Immigrant status` %in% total_disags |
-    `Visible minority` %in% total_disags |
-    `Indigenous identity` %in% total_disags |
-    `Disability` %in% total_disags |
-    `LGBTQ2+` %in% total_disags |
-    `Highest level of education` %in% total_disags |
-    `Main activity` %in% total_disags |
-    `Area` %in% total_disags
-  ) %>% 
-  mutate_at(2:(ncol(.) - 1), ~ "") %>%
-  distinct() %>%
-  mutate(
-    Series = "Proportion of population reporting to have experienced discrimination or unfair treatment"
-  ) %>%
-  relocate(Series, .before = "Geography")
-
-Q1_2023 <- 
-  combined %>%
-  filter(
-    `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada",
-    Year == "2023 Q1",
     Geography == "Canada",
     Gender == "Total",
     `Age group` %in% total_disags |
@@ -248,33 +219,58 @@ Q1_2023 <-
       `Highest level of education` %in% total_disags |
       `Main activity` %in% total_disags |
       `Area` %in% total_disags
-  ) %>% 
-  mutate_at(2:(ncol(.) - 1), ~ "") %>%
+  ) %>%
+  mutate_at(2:(ncol(.) - 1), ~NA) %>%
   distinct() %>%
   mutate(
-    `Discrimination indicators` = "Did not experience discrimination or unfair treatment in Canada",
-    Series = "Proportion of population reporting to have experienced discrimination or unfair treatment",
-    Geography = "Canada",
-    Gender = "Total"
+    Series = "Proportion of population reporting to have experienced discrimination or unfair treatment"
   ) %>%
-  relocate(Series, .before = "Geography")
+  relocate(Series, .after = "Year")
 
-main_series_non_total <-
-  bind_rows(Q1_2023, combined) %>%
+# 2023 data is no longer published in CODR. Handling is commented out below.
+# Q1_2023 <-
+#   combined %>%
+#   filter(
+#     `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada",
+#     Year == "2023 Q1",
+#     Geography == "Canada",
+#     Gender == "Total",
+#     `Age group` %in% total_disags |
+#       `Immigrant status` %in% total_disags |
+#       `Visible minority` %in% total_disags |
+#       `Indigenous identity` %in% total_disags |
+#       `Disability` %in% total_disags |
+#       `LGBTQ2+` %in% total_disags |
+#       `Highest level of education` %in% total_disags |
+#       `Main activity` %in% total_disags |
+#       `Area` %in% total_disags
+#   ) %>%
+#   mutate_at(2:(ncol(.) - 1), ~ NA) %>%
+#   distinct() %>%
+#   mutate(
+#     `Discrimination indicators` = "Did not experience discrimination or unfair treatment in Canada",
+#     Series = "Proportion of population reporting to have experienced discrimination or unfair treatment",
+#     Geography = "Canada",
+#     Gender = "Total"
+#   ) %>%
+#   relocate(Series, .before = "Geography")
+
+# main_series_non_total <- bind_rows(Q1_2023, combined) %>%
+main_series_non_total <- combined %>%
   filter(
-    !( (`Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" |
-          `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada") &
-    Geography == "Canada" &
-    Gender == "Total" &
-    (`Age group` %in% total_disags |
-      `Immigrant status` %in% total_disags |
-      `Visible minority` %in% total_disags |
-      `Indigenous identity` %in% total_disags |
-      `Disability` %in% total_disags |
-      `LGBTQ2+` %in% total_disags |
-      `Highest level of education` %in% total_disags |
-      `Main activity` %in% total_disags |
-      `Area` %in% total_disags)
+    !((`Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" |
+      `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada") &
+      Geography == "Canada" &
+      Gender == "Total" &
+      (`Age group` %in% total_disags |
+        `Immigrant status` %in% total_disags |
+        `Visible minority` %in% total_disags |
+        `Indigenous identity` %in% total_disags |
+        `Disability` %in% total_disags |
+        `LGBTQ2+` %in% total_disags |
+        `Highest level of education` %in% total_disags |
+        `Main activity` %in% total_disags |
+        `Area` %in% total_disags)
     )
   ) %>%
   filter(
@@ -284,39 +280,37 @@ main_series_non_total <-
   mutate(
     Series = "Proportion of population reporting to have experienced discrimination or unfair treatment"
   ) %>%
-  relocate(Series, .before = "Geography")
+  relocate(Series, .after = "Year")
 
-second_series_total_line <-
-  combined %>%
+second_series_total_line <- combined %>%
   filter(
     Geography == "Canada",
-        Gender == "Total",
-        `Age group` == "Total, 15 years and over"
-   ) %>%
+    Gender == "Total",
+    `Age group` == "Total, 15 years and over"
+  ) %>%
   filter(
     !(`Discrimination indicators` == "Experienced discrimination or unfair treatment in Canada" |
-        `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada")
-  ) %>% 
-  mutate_at(3:(ncol(.) - 1), ~ "") %>%
+      `Discrimination indicators` == "Did not experience discrimination or unfair treatment in Canada")
+  ) %>%
+  mutate_at(3:(ncol(.) - 1), ~NA) %>%
   mutate(
     Series = "Proportion of individuals within a population who reported experiencing discrimination or unfair treatment"
   ) %>%
   relocate(Series, .before = "Geography")
 
-second_series_non_total <-
-  combined %>%
+second_series_non_total <- combined %>%
   filter(
-    !(Geography == "Canada"&
+    !(Geography == "Canada" &
       Gender == "Total" &
       (`Age group` %in% total_disags |
-         `Immigrant status` %in% total_disags |
-         `Visible minority` %in% total_disags |
-         `Indigenous identity` %in% total_disags |
-         `Disability` %in% total_disags |
-         `LGBTQ2+` %in% total_disags |
-         `Highest level of education` %in% total_disags |
-         `Main activity` %in% total_disags |
-         `Area` %in% total_disags)
+        `Immigrant status` %in% total_disags |
+        `Visible minority` %in% total_disags |
+        `Indigenous identity` %in% total_disags |
+        `Disability` %in% total_disags |
+        `LGBTQ2+` %in% total_disags |
+        `Highest level of education` %in% total_disags |
+        `Main activity` %in% total_disags |
+        `Area` %in% total_disags)
     )
   ) %>%
   filter(
@@ -329,10 +323,18 @@ second_series_non_total <-
   relocate(Series, .before = "Geography")
 
 data_final <-
-  bind_rows(main_series_total_line,main_series_non_total,second_series_total_line,second_series_non_total) %>%
+  bind_rows(
+    main_series_total_line,
+    main_series_non_total,
+    second_series_total_line,
+    second_series_non_total
+  ) %>%
   distinct() %>%
-  left_join(geocodes, by = "Geography") %>%
-  relocate(GeoCode, .before = "Value")
+  mutate(
+    Progress = case_when(str_detect(Year, "Q1") ~ Value)
+  ) %>%
+  relocate(GeoCode, .before = "Value") %>%
+  relocate(Progress, .before = "GeoCode")
 
 write.csv(
   data_final,

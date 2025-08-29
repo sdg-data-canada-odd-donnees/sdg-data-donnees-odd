@@ -12,6 +12,7 @@ STAT_CONC_DEF: |
     Le taux de participation à l'apprentissage organisé (un an avant l'âge officiel d'entrée dans le primaire), par sexe, défini comme le pourcentage d'enfants d'une tranche d'âge donnée qui participent à un ou plusieurs programmes d'apprentissage organisé, y compris les programmes qui offrent une combinaison d'éducation et de soins.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 4 : Assurer l''accès de tous à une éducation de qualité,

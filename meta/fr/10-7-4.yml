@@ -7,8 +7,15 @@ SDG_INDICATOR: >-
   Indicateur 10.7.4 : Proportion de réfugiés dans la population, par pays d’origine.
 STAT_CONC_DEF: >-
   Cet indicateur est défini comme le nombre total de personnes reconnues comme réfugiés par rapport à la population totale de leur pays d’origine, exprimé pour 100 000 habitants.
-DATA_COMP: '   '
-REC_USE_LIM: '   '
+#  <br><br>
+#  Les réfugiés désignent les personnes reconnues par le gouvernement et/ou le HCR, celles qui se trouvent dans une situation similaire à celle des réfugiés et les autres personnes ayant besoin d'une protection internationale. Les réfugiés comprennent les immigrants qui ont reçu le statut de résident permanent en raison d'une crainte fondée de retourner dans leur pays d'origine. Cette catégorie inclut les personnes qui craignaient avec raison d'être persécutées pour des motifs liés à leur race, leur religion, leur nationalité, leur appartenance à un groupe social particulier ou leurs opinions politiques (réfugiés au sens de la Convention de Genève), de même que les personnes qui ont subi des conséquences graves et personnelles en raison d'une guerre civile, d'un conflit armé ou d'une violation massive des droits de la personne. Certains réfugiés étaient au Canada lorsqu'ils ont demandé l'asile pour eux-mêmes et pour les membres de leur famille (soit avec eux au Canada ou à l'étranger). D'autres étaient à l'étranger et ont été recommandés aux fins de réinstallation au Canada par l'Agence des Nations Unies pour les réfugiés, un autre organisme de recommandation désigné ou des répondants du secteur privé.
+#  <br><br>
+#  La population fait référence à la population totale résidant dans un pays donné au cours d'une année donnée.
+DATA_COMP: >-
+#  Proportion de réfugiés dans la population, par pays d'origine = (nombre de réfugiés par pays d'origine à la mi-année) / ((population à la mi-année dans le pays d'origine + nombre de réfugiés par pays d'origine à la mi-année)) × 100 000
+REC_USE_LIM: >-
+#  Les données relatives au nombre de réfugiés par pays d'origine à la mi-année sont collectées en mai lors de chaque recensement, plutôt que le 1er juillet de chaque année.
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: >-
@@ -22,4 +29,25 @@ un_designated_tier: Niveau I
 un_custodian_agency: Haut-Commissariat pour les réfugiés (HCR)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-04.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
- 
+
+# Source(s)
+# source_active_1: 'true'
+# source_url_text_1: "Période d'immigration selon la première langue officielle parlée, le lieu de naissance, la catégorie d'admission, et l'expérience avant l'admission : Canada, provinces et territoires et régions métropolitaines de recensement y compris les parties"
+# source_organisation_1: Statistique Canada
+# source_periodicity_1: Occasionnel
+# source_geographical_coverage_1: Canada, Province ou territoire, Région métropolitaine de recensement, Partie de région métropolitaine de recensement
+# source_url_1: https://doi.org/10.25318/9810037201-fra
+# 
+# source_active_2: 'true'
+# source_url_text_2: Statistique Canada. Tableau 17-10-0005-01  Estimations de la population au 1er juillet, par âge et sexe
+# source_organisation_2: Statistique Canada
+# source_periodicity_2: Annuelle
+# source_geographical_coverage_2: Canada, Province ou territoire
+# source_url_2: https://doi.org/10.25318/1710000501-fra
+# 
+# source_active_3: 'true'
+# source_url_text_3: Portail de données - Division de la population (en anglais seulement)
+# source_organisation_3: Nations Unies, Département des affaires économiques et sociales, Division de la population
+# source_periodicity_3: Annuelle
+# source_geographical_coverage_3: Mondial
+# source_url_3: https://population.un.org/dataportal/data/indicators/70/locations/4,903,8,12,16,5505,20,24,660,28,32,51,533,935,36,927,1834,40,31,44,48,50,52,112,56,84,204,60,64,68,535,70,72,76,92,96,100,854,108,132,116,120,124,915,136,140,916,1831,5500,148,152,156,344,446,158,170,174,178,184,188,384,191,192,531,196,203,408,180,208,901,902,948,262,212,214,910,1832,906,923,218,818,222,226,232,233,748,231,908,1829,5502,238,234,242,246,250,254,258,266,270,268,276,288,292,300,304,308,5540,5543,5541,5538,5542,5537,5547,5548,5551,5549,5546,5550,5545,5555,5556,5559,5557,5554,5558,5553,312,316,320,831,324,624,328,332,5503,1503,340,348,352,356,360,364,368,372,833,376,380,388,392,832,400,398,404,296,412,414,417,968,418,904,428,941,422,426,934,430,434,438,440,2087,2088,2089,2090,5504,1859,1500,1501,442,450,454,458,462,466,470,584,474,478,480,175,928,484,954,583,911,1517,492,496,499,500,504,508,104,516,520,524,528,540,554,558,562,566,570,1518,807,912,1833,905,924,580,578,909,1835,512,1401,586,585,591,598,600,604,608,616,957,620,630,634,410,498,638,642,643,646,652,654,659,662,663,666,670,882,674,678,682,686,688,690,2093,2091,2092,694,702,534,703,705,961,90,706,710,931,728,920,913,5501,925,724,144,275,947,729,740,752,756,760,762,764,626,768,772,776,780,788,792,795,796,798,800,804,784,826,834,840,850,1502,858,860,548,862,704,876,914,922,926,732,900,887,894,716/start/1990/end/2021/table/pivotbylocation?df=9398ed46-5bab-4809-89a2-dd365e5c0fd7

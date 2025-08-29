@@ -31,6 +31,7 @@ STAT_CONC_DEF: >-
       The agriculture sector is as defined by the DAC and comprises all CRS sector codes in the 311 series (see here: <a href="https://web-archive.oecd.org/temp/2019-03-28/80638-purposecodessectorclassification.htm">https://web-archive.oecd.org/temp/2019-03-28/80638-purposecodessectorclassification.htm</a>).
 DATA_COMP: custom.data-comp
 REC_USE_LIM: 'Data for the latest available year are preliminary.'
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

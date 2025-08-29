@@ -518,6 +518,12 @@ prose:
             label: References and Documentation
             translation_key: metadata_fields.OTHER_DOC
             scope: national
+      - name: PROGRESS_DETAILS
+        field:
+            element: text
+            label: Progress measurement details"
+            translation_key: metadata_fields.PROGRESS_DETAILS
+            scope: national
       ######### Last updated dates #########
       - name: "national_data_update_url"
         field:

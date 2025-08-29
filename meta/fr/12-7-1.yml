@@ -15,6 +15,7 @@ STAT_CONC_DEF: >-
   </ul>
 DATA_COMP: custom.data-tabulated
 REC_USE_LIM: Les données pour cet indicateur ne sont disponibles qu'au niveau fédéral.
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 12 : Établir des modes de consommation et de production durables</p>'

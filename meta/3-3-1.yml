@@ -1,19 +1,25 @@
-SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages.</p>'
-SDG_TARGET: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria
-  and neglected tropical diseases and combat hepatitis, water-borne diseases and other
-  communicable diseases </p>'
-SDG_INDICATOR: '<p>Indicator 3.3.1: Number of new HIV infections per 1,000 uninfected
-  population, by sex, age and key populations </p>'
-STAT_CONC_DEF: '<p>This indicator measures the number of new HIV infections per 1,000 persons among the uninfected population.</p>'
+# National
+SDG_GOAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages.
+SDG_TARGET: |-
+  Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases
+SDG_INDICATOR: |-
+  Indicator 3.3.1: Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations
+STAT_CONC_DEF: |-
+  This indicator measures the number of new HIV infections per 1,000 persons among the uninfected population.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: '   '
-SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
-  at all ages.</p>'
-SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis,
-  malaria and neglected tropical diseases and combat hepatitis, water-borne diseases
-  and other communicable diseases </p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 3.3.1: Number of new HIV infections per 1,000
-  uninfected population, by sex, age and key populations </p>'
+REC_USE_LIM: |-
+  Data for this indicator are provided by the Joint United Nations Programme on HIV/AIDS (UNAIDS) and published by the United Nations Department of Economic and Social Affairs within the SDG Indicators Database.
+PROGRESS_DETAILS: custom.progress-details
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages.
+SDG_TARGET__GLOBAL: |-
+  Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 3.3.1: Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations
+
 un_designated_tier: Tier I
 un_custodian_agency: The Joint United Nations Programme on HIV/AIDS (UNAIDS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-01.pdf
@@ -26,3 +32,10 @@ source_organisation_1: Joint United Nations Programme on HIV/AIDS (UNAIDS)
 source_periodicity_1: Annual 
 source_geographical_coverage_1: Canada
 source_url_1: https://www.unaids.org/en/resources/documents/2024/HIV_estimates_with_uncertainty_bounds_1990-present
+
+source_active_2: 'true'
+source_url_text_2: SDG Indicators Database
+source_organisation_2: United Nations Department of Economic and Social Affairs
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada
+source_url_2: https://unstats.un.org/sdgs/indicators/database/

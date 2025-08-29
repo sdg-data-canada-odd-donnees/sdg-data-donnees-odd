@@ -1,3 +1,4 @@
+auto_progress_calculation: true
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
@@ -36,6 +37,17 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
+  limit: 100
+  series: Request rate, line of credit
+- direction: positive
+  limit: 100
+  series: Request rate, term loan
+- direction: positive
+  limit: 100
+  series: Overall approval rate, line of credit
+- direction: positive
+  limit: 100
+  series: Overall approval rate, term loan
 reporting_status: complete
 sort: ''
 standalone: false

@@ -11,6 +11,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-tabulated
 REC_USE_LIM: >-
   Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique: « Proportion d’adultes (15 ans ou plus) possédant un compte dans une banque ou dans une autre institution financière ou faisant appel à des services monétaires mobiles ».
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue,

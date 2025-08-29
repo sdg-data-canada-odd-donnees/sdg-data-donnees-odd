@@ -38,7 +38,15 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
-  target_year: 2020
+  series: Above-ground biomass stock in forest
+- direction: positive
+  limit: 100
+  series: Proportion of forest area located within legally established protected areas
+- direction: positive
+  limit: 100
+  series: Proportion of forest area under a long-term forest management plan
+- direction: positive
+  series: Forest area under an independently verified forest management certification scheme
 reporting_status: complete
 sort: ''
 standalone: false

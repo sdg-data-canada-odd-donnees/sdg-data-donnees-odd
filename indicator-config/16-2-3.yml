@@ -39,8 +39,25 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
+# Adjust target to reflect the magnitude and precision of the data
 - direction: negative
-  target: 0
+  target: 0.1
+  disaggregation:
+  - field: Gender
+    value: Total, gender
+  - field: Age group
+    value: 15 to 24 years
+  - field: Geography
+    value: Canada
+- direction: negative
+  target: 0.1
+  disaggregation:
+  - field: Gender
+    value: Total, gender
+  - field: Age group
+    value: 25 to 34 years
+  - field: Geography
+    value: Canada
 reporting_status: complete
 sort: ''
 standalone: false

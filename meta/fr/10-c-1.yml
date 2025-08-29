@@ -9,6 +9,7 @@ STAT_CONC_DEF: >-
   Cet indicateur mesure les coûts moyens payés en pourcentage du montant d’argent envoyé lors du dernier transfert de fonds international par les résidents du Canada nés dans des pays admissibles à l’aide publique au développement, selon le type de méthode utilisé, la région de destination et le montant d’argent envoyé lors du dernier transfert d’argent.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: >-

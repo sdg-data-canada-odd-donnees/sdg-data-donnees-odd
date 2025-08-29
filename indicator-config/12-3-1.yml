@@ -26,7 +26,12 @@ page_content: ""
 permalink: ""
 precision: []
 progress_calculation_options:
-  - direction: negative
+- direction: negative
+  series: Food loss index
+- direction: negative
+  # target: 2015 value / 2
+  target_year: 2030
+  series: Food waste index
 reporting_status: notstarted
 sort: ""
 standalone: false

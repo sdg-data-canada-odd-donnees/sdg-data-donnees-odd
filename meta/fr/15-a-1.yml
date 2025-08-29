@@ -1,35 +1,32 @@
-SDG_GOAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres, en
-  veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
-  contre la désertification, enrayer et inverser le processus de dégradation des terres
-  et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET: '<p>Cible 15.a : Mobiliser des ressources financières de toutes provenances
-  et les augmenter nettement pour préserver la biodiversité et les écosystèmes et
-  les exploiter durablement</p>'
-SDG_INDICATOR: '<p>Indicateur 15.a.1 : (a) aide publique au développement consacrée
-  à la préservation et à l’exploitation durable de la biodiversité et b) recettes
-  générées et fonds mobilisés par les instruments économiques liés à la biodiversité</p>'
-
-STAT_CONC_DEF: >-
-    Cet indicateur mesure l’Aide publique au développement pour la conservation et l’utilisation durable de la biodiversité, définie comme les versements bruts du total de l’Aide publique au développement reçue de tous les donateurs pour la biodiversité.
+# National
+SDG_GOAL: |-
+  Objectif 15 : Préserver et restaurer les écosystèmes terrestres, en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter contre la désertification, enrayer et inverser le processus de dégradation des terres et mettre fin à l’appauvrissement de la biodiversité
+SDG_TARGET: |-
+  Cible 15.a : Mobiliser des ressources financières de toutes provenances et les augmenter nettement pour préserver la biodiversité et les écosystèmes et les exploiter durablement
+SDG_INDICATOR: |-
+  Indicateur 15.a.1 : a) Aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité et b) produits générés et fonds mobilisés par les instruments économiques en rapport avec la biodiversité
+STAT_CONC_DEF: |-
+  Cet indicateur mesure l’aide publique au développement pour la conservation et l’utilisation durable de la biodiversité, définie comme les versements bruts du total de l’aide publique au développement reçue de tous les donateurs pour la biodiversité.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
+REC_USE_LIM: |-
   En raison du manque de données, les produits générés et les fonds mobilisés par les instruments économiques en rapport avec la biodiversité ne peuvent actuellement pas être mesurés ni faire l’objet d’un rapport.
-SDG_GOAL__GLOBAL: '<p>Objectif 15 : Préserver et restaurer les écosystèmes terrestres,
-  en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter
-  contre la désertification, enrayer et inverser le processus de dégradation des terres
-  et mettre fin à l’appauvrissement de la biodiversité</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 15.a : Mobiliser des ressources financières de toutes
-  provenances et les augmenter nettement pour préserver la biodiversité et les écosystèmes
-  et les exploiter durablement</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 15.a.1 : (a) aide publique au développement consacrée
-  à la préservation et à l’exploitation durable de la biodiversité et b) recettes
-  générées et fonds mobilisés par les instruments économiques liés à la biodiversité</p>'
+PROGRESS_DETAILS: |-
+  L'état du progrès représente seulement la partie a) de l'indicateur. Les données pour la partie b) ne sont pas actuellement disponibles.
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 15 : Préserver et restaurer les écosystèmes terrestres, en veillant à les exploiter de façon durable, gérer durablement les forêts, lutter contre la désertification, enrayer et inverser le processus de dégradation des terres et mettre fin à l’appauvrissement de la biodiversité
+SDG_TARGET__GLOBAL: |-
+  Cible 15.a : Mobiliser des ressources financières de toutes provenances et les augmenter nettement pour préserver la biodiversité et les écosystèmes et les exploiter durablement
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 15.a.1 : a) Aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité et b) produits générés et fonds mobilisés par les instruments économiques en rapport avec la biodiversité
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation de coopération et de développement économiques (OCDE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-15-0a-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: "SNPC: Système de notification des pays créanciers (flux)"
 source_url_1: https://data-explorer.oecd.org/vis?lc=fr&pg=0&snb=24&vw=tb&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.3&dq=CAN.DPGC.41030.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false

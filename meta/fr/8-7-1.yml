@@ -12,6 +12,7 @@ STAT_CONC_DEF: >-
   Le nombre d’enfants qui participent au travail des enfants correspond au nombre d’enfants déclarés comme travaillant au cours de la période de référence (généralement la semaine précédant l’enquête). La proportion d’enfants qui participent au travail des enfants est calculée comme le nombre d’enfants qui participent au travail des enfants divisé par le nombre total d’enfants dans la population. Aux fins du présent indicateur, les enfants comprennent toutes les personnes âgées de 5 à 17 ans.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée

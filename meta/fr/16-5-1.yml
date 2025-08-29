@@ -9,6 +9,7 @@ STAT_CONC_DEF: |-
   Cet indicateur est défini comme le pourcentage de personnes ayant versé au moins un pot-de-vin (argent, cadeau ou contre-faveur) à un agent public, ou à qui un agent public a demandé un pot-de-vin, au cours des 12 mois précédents, par rapport au pourcentage de personnes ayant eu au moins un contact avec un agent public au cours de la même période. 
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: |-

@@ -35,9 +35,15 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
-progress_status: substantial_deterioration
+  target: 0.01
+  series: Proportion with share above 10%
+- direction: negative
+  target: 0.01
+  series: Proportion with share above 25%
+# progress_status: not_available_manual
 reporting_status: complete
 sort: ''
 standalone: false
 tags:
 - Proxy
+proxy: proxy

@@ -38,8 +38,10 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
-  target_year: 2030
-progress_status: substantial_progress
+  # Using transformed data in progress column
+  # Progress column is -1 when the value is below 3%
+  # When progress column is -1, the progress status should automatically appear as not_available due to warning from combining positive and negative values.
+  target: 1
 reporting_status: complete
 sort: ''
 standalone: false

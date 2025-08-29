@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention et le
@@ -6,8 +7,12 @@ SDG_TARGET: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévent
 SDG_INDICATOR: '<p>Indicateur 3.4.1 : Taux de mortalité attribuable à des maladies cardiovasculaires, au cancer, au diabète ou à des maladies respiratoires chroniques</p>'
 STAT_CONC_DEF: <p>Cet indicateur mesure le taux de mortalité attribuable à des maladies cardiovasculaires, au cancer, au diabète ou à des maladies respiratoires chroniques.</p>
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
+REC_USE_LIM: |-
   Il s’agit d’un indicateur de substitution. En raison des contraintes avec les données, cet indicateur mesure le taux de mortalité attribué aux maladies cardiovasculaires, au cancer, au diabète ou aux maladies respiratoires chroniques pour 100 000 personnes plutôt que la probabilité de mourir entre 30 et 70 ans de maladies cardiovasculaires, de cancer, de diabète ou de maladies respiratoires chroniques, comme le précisent les métadonnées.
+PROGRESS_DETAILS: |-
+  L'état du progrès pour cet indicateur provient de la moyenne des scores de progrès pour chaque cause de décès pour laquelle les données sont disponibles.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention
@@ -16,18 +21,15 @@ SDG_TARGET__GLOBAL: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la 
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.4.1 : Taux de mortalité attribué aux maladies
   cardiovasculaires, au cancer, au diabète ou aux maladies respiratoires chroniques.</p>'
 
-reporting_status: complete
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation Mondiale de la Santé (OMS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-01.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
 source_active_1: true
 source_url_text_1: "Statistique Canada. Tableau 13-10-0394-01  Les principales causes de décès, population totale, selon le groupe d'âge"
 source_url_1: 'https://doi.org/10.25318/1310039401-fra'
 source_organisation_1: Statistique Canada
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
-
-un_designated_tier: Niveau I
-un_custodian_agency: Organisation Mondiale de la Santé (OMS)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-01.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
-proxy: proxy

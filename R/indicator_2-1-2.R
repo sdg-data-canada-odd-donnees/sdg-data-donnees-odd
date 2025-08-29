@@ -27,14 +27,18 @@ age <-c(
 female <- c(
   "Persons in female lone-parent families",
   "Elderly females not in an economic family",
-  "Non-elderly females not in an economic family"
+  "Non-elderly females not in an economic family",
+  "Non-senior females not in an economic family",
+  "Senior females not in an economic family"
 ) %>% 
   append(paste("Females", age, sep = ", "))
 
 male <- c(
   "Persons in male lone-parent families",
   "Elderly males not in an economic family",
-  "Non-elderly males not in an economic family"
+  "Non-elderly males not in an economic family",
+  "Non-senior males not in an economic family",
+  "Senior males not in an economic family"
 ) %>% 
   append(paste("Males", age, sep = ", "))
 
@@ -131,7 +135,9 @@ filter_economic_families <-
     `Economic family type` = str_remove_all(`Economic family type`,"male " ),
     `Economic family type` = str_remove_all(`Economic family type`,"males " ),
     `Economic family type` = str_replace_all(`Economic family type`,"Elderly not ", "Elderly persons not " ),
-    `Economic family type` = str_replace_all(`Economic family type`,"Non-elderly not ", "Non-elderly persons not " )
+    `Economic family type` = str_replace_all(`Economic family type`,"Non-elderly not ", "Non-elderly persons not " ),
+    `Economic family type` = str_replace_all(`Economic family type`,"Senior not ", "Seniors not " ),
+    `Economic family type` = str_replace_all(`Economic family type`,"Non-senior not ", "Non-seniors not " ),
   ) %>%
   relocate(Sex, .before = `Household food security status`)
 

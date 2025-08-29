@@ -1,25 +1,34 @@
-SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>'
-SDG_TARGET: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria
-  and neglected tropical diseases and combat hepatitis, water-borne diseases and other
-  communicable diseases </p>'
-SDG_INDICATOR: '<p>Indicator 3.3.4: Hepatitis B incidence per 100,000 population </p>'
-STAT_CONC_DEF: <p>This indicator measures the prevalence of the Hepatitis B surface antigen in children under five years of age.</p> 
+# National
+SDG_GOAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET: |-
+  Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases
+SDG_INDICATOR: |-
+  Indicator 3.3.4: Hepatitis B incidence per 100,000 population
+STAT_CONC_DEF: |-
+  <p>This indicator measures the prevalence of the Hepatitis B surface antigen in children under five years of age.</p> 
   <p>This indicator is measured indirectly through the proportion of children 5 years of age who have developed chronic HBV infection (i.e. the proportion that tests positive for a marker of infection called hepatitis B surface antigen [HBsAg]).</p>
-DATA_COMP: 'Hepatitis B incidence in children under five years of age per 100,000 population = ([Number of cases in children under 1 year + Number of cases in children aged 1 to 4 years] / Population aged 0 to 4 years) x 100,000'
-REC_USE_LIM: 'Hepatitis B reporting does not differentiate between acute and chronic cases.'
-SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
-  at all ages </p>'
-SDG_TARGET__GLOBAL: '<p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis,
-  malaria and neglected tropical diseases and combat hepatitis, water-borne diseases
-  and other communicable diseases </p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 3.3.4: Hepatitis B incidence per 100,000 population
-  </p>'
+DATA_COMP: |-
+  Hepatitis B incidence in children under five years of age per 100,000 population = ([Number of cases in children under 1 year + Number of cases in children aged 1 to 4 years] / Population aged 0 to 4 years) x 100,000
+REC_USE_LIM: |-
+  Hepatitis B reporting does not differentiate between acute and chronic cases.
+PROGRESS_DETAILS: |-
+  The target for this indicator is a 90% reduction in the incidence rate by 2030, compared to 2015 levels, as established in the World Health Organization's [Global Health Sector Strategy on viral hepatitis 2016–2021](https://whohbsagdashboard.com/#global-strategies).
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET__GLOBAL: |-
+  Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 3.3.4: Hepatitis B incidence per 100,000 population
+
 un_designated_tier: Tier I
 un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-04.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: true
 source_url_text_1: Notifiable Diseases Online
 source_url_1: 'https://diseases.canada.ca/notifiable/charts?c=yl'

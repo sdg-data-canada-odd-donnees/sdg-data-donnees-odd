@@ -9,6 +9,7 @@ STAT_CONC_DEF: "This indicator reports on whether Canada has a system to track a
 DATA_COMP: '     '
 REC_USE_LIM: >-
   This is a proxy indicator. The UN Global indicator states: "Percentage of countries with systems to track and make public allocations for gender equality and women&#x2019;s empowerment".
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: >-

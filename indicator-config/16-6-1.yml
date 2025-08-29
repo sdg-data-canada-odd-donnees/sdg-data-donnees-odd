@@ -29,8 +29,8 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
-- direction: positive
-progress_status: moderate_progress
+- direction: negative
+  target: 100
 reporting_status: complete
 sort: ''
 standalone: false

@@ -13,6 +13,7 @@ DATA_COMP: >-
   Data are from the Creditor Reporting System from the OECD. The codes correspond to the full 140 series for the water supply and sanitation sector and CRS code 31140 for agricultural water resources. The gross ODA across these codes is summed for the headline Canada data.
 REC_USE_LIM: >-
   This is a proxy indicator. It is computed as the total amount of water- and sanitation-related official development assistance, whereas the UN Global metadata specifies: "The indicator is computed as the proportion of total water and sanitation-related ODA that is included in the government budget, i.e. the amount of water and sanitation-related ODA in the government budget divided by the total amount of water and sanitation-related ODA."
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: >-

@@ -9,6 +9,7 @@ STAT_CONC_DEF: |-
   L’indice des pertes alimentaires : Indice de l’évolution des pertes alimentaires au fil du temps. L’indice couvre cinq groupes d’aliments tout au long de la chaîne d’approvisionnement. L’indicateur est calculé comme un ratio des pourcentages de pertes alimentaires de l’année actuelle et des pourcentages de pertes alimentaires de l’année de base selon une formule d’indice standard à base fixe.
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: |-

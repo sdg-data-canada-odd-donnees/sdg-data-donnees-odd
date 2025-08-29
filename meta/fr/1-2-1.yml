@@ -9,6 +9,7 @@ STAT_CONC_DEF: >-
   <p>La mesure fondée sur un panier de consommation (MPC) repose sur le coût d’un panier de biens et de services précis correspondant à un niveau de vie modeste et de base. Le panier comprend la nourriture, les vêtements, le logement, le transport et d’autres dépenses pour une famille de référence. Ces coûts sont comparés au revenu disponible des familles pour déterminer si elles vivent ou non sous le seuil de la pauvreté.</p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: "Cela couvre toutes les personnes au Canada, sauf celles qui vivent dans les réserves et dans d’autres peuplements autochtones des provinces, les pensionnaires d’établissements institutionnels et les ménages situés dans des régions extrêmement éloignées où la densité de population est très faible. Dans l’ensemble, ces exclusions représentent moins de 2 % de la population."
+PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans
   le monde</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 1.2 : D’ici à 2030, réduire de moitié au moins la proportion

@@ -11,6 +11,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   Countries classified as high-income according to the World Bank country classification (81 countries) in the 2022 fiscal year were assumed to have fully transitioned to clean household energy and therefore are reported as 100 % access to clean technologies.
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Goal 7: Ensure access to affordable, reliable, sustainable and

@@ -1,21 +1,26 @@
 # NATIONAL
-SDG_GOAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promote
-  lifelong learning opportunities for all</p>'
-SDG_TARGET: |
-    Target 4.4: By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship
-SDG_INDICATOR: |
-    Indicator 4.4.1: Proportion of internet users with information and communications technology (ICT) skills, by type of skill
-STAT_CONC_DEF: 'The indicator measures the proportion of internet users with Information and Communications Technology (ICT) skills, by type of skill defined as the percentage of internet users that have undertaken certain ICT-related activities in the last 3 months. The indicator is expressed as a percentage.'
+SDG_GOAL: |-
+  Goal 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+SDG_TARGET: |-
+  Target 4.4: By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship
+SDG_INDICATOR: |-
+  Indicator 4.4.1: Proportion of internet users with information and communications technology (ICT) skills, by type of skill
+STAT_CONC_DEF: |-
+  The indicator measures the proportion of internet users with Information and Communications Technology (ICT) skills, by type of skill defined as the percentage of internet users that have undertaken certain ICT-related activities in the last 3 months. The indicator is expressed as a percentage.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: 'This is a proxy indicator. The UN Global indicator states: “Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill”.' 
+REC_USE_LIM: |-
+  This is a proxy indicator. The UN Global indicator states: “Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill”.
+PROGRESS_DETAILS: |-
+  The progress status for this indicator is obtained from the average of the progress scores for each available activity related to digital skills.
 
 # GLOBAL
-SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promote
-  lifelong learning opportunities for all</p>'
-SDG_TARGET__GLOBAL: |
-    Target 4.4: By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship
-SDG_INDICATOR__GLOBAL: |
-    Indicator 4.4.1: Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill
+SDG_GOAL__GLOBAL: |-
+  Goal 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+SDG_TARGET__GLOBAL: |-
+  Target 4.4: By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 4.4.1: Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill
+
 un_designated_tier: Tier II
 un_custodian_agency: UNESCO Institute for Statistics (UIS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-04-01.pdf
@@ -28,5 +33,3 @@ source_url_1: https://doi.org/10.25318/2210011201-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada
-
-proxy: proxy

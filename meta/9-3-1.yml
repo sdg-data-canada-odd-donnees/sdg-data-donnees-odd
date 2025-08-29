@@ -8,10 +8,7 @@ SDG_INDICATOR: >-
 STAT_CONC_DEF: >-
   Small-scale industrial enterprises, in the SDG framework also called “small-scale industries”, defined here for the purpose of statistical data collection and compilation refer to statistical units, generally enterprises, engaged in production of goods and services for market below a designated size class.
   <br><br>
-  According to the World Bank, Micro, Small and Medium Enterprises (MSMEs) are defined as follow: <br><br>
-  – micro enterprises: 1–9 employees; <br>
-  - small: 10–49 employees; <br>
-  - and medium: 50–249 employees.
+  According to UNIDO's international definition of "small-scale industries", small-scale industries are defined as enterprises with less than 20 people employed on average during the reference period.
   <br><br>
   Proportion of “small-scale industries” in total industry value added represents an indicator calculating the share of manufacturing value added of small-scale manufacturing enterprises in the total manufacturing value added.
 DATA_COMP: >-
@@ -22,8 +19,13 @@ DATA_COMP: >-
   <b>Production</b> = (Revenue from goods manufactured + (Closing inventories, goods or work in process + Closing inventories, finished goods manufactured) - (Opening inventories, goods or work in process + Opening inventories, finished goods manufactured))
   <br><br>
   <b>Consumption</b> = (Opening inventories, raw materials + Cost of materials and supplies + Total cost of energy, water utility and vehicle fuel - Closing inventories of raw materials)
-REC_USE_LIM: '   '
- 
+REC_USE_LIM: |
+  Data for the most recent reference year are preliminary.
+  <br><br>
+  Some data are suppressed to meet the confidentiality requirements of the <i>Statistics Act</i>.
+PROGRESS_DETAILS: |-
+  custom.progress-details
+
 # GLOBAL METADATA
 SDG_GOAL__GLOBAL: >-
   Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation

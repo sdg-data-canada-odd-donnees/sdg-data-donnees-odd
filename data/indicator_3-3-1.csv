@@ -1,43 +1,253 @@
-Year,Age group,Value
-2000,All ages,0.08
-2001,All ages,0.08
-2002,All ages,0.08
-2003,All ages,0.08
-2004,All ages,0.08
-2005,All ages,0.08
-2006,All ages,0.07
-2007,All ages,0.07
-2008,All ages,0.07
-2009,All ages,0.07
-2010,All ages,0.06
-2011,All ages,0.06
-2012,All ages,0.05
-2013,All ages,0.05
-2014,All ages,0.05
-2015,All ages,0.05
-2016,All ages,0.05
-2017,All ages,0.05
-2018,All ages,0.05
-2019,All ages,0.05
-2020,All ages,0.04
-2000,Adults (15-49),0.14
-2001,Adults (15-49),0.14
-2002,Adults (15-49),0.14
-2003,Adults (15-49),0.14
-2004,Adults (15-49),0.13
-2005,Adults (15-49),0.13
-2006,Adults (15-49),0.13
-2007,Adults (15-49),0.13
-2008,Adults (15-49),0.13
-2009,Adults (15-49),0.12
-2010,Adults (15-49),0.11
-2011,Adults (15-49),0.1
-2012,Adults (15-49),0.1
-2013,Adults (15-49),0.1
-2014,Adults (15-49),0.1
-2015,Adults (15-49),0.1
-2016,Adults (15-49),0.1
-2017,Adults (15-49),0.1
-2018,Adults (15-49),0.1
-2019,Adults (15-49),0.1
-2020,Adults (15-49),0.08
+"Year","Age group","Sex","Value"
+2000,"","",0.081
+2001,"","",0.081
+2002,"","",0.08
+2003,"","",0.079
+2004,"","",0.077
+2005,"","",0.076
+2006,"","",0.075
+2007,"","",0.073
+2008,"","",0.072
+2009,"","",0.068
+2010,"","",0.063
+2011,"","",0.057
+2012,"","",0.054
+2013,"","",0.051
+2014,"","",0.052
+2015,"","",0.052
+2016,"","",0.053
+2017,"","",0.053
+2018,"","",0.053
+2019,"","",0.049
+2020,"","",0.041
+2000,"15 to 24 years","Both sexes",0.057
+2001,"15 to 24 years","Both sexes",0.056
+2002,"15 to 24 years","Both sexes",0.056
+2003,"15 to 24 years","Both sexes",0.056
+2004,"15 to 24 years","Both sexes",0.055
+2005,"15 to 24 years","Both sexes",0.054
+2006,"15 to 24 years","Both sexes",0.053
+2007,"15 to 24 years","Both sexes",0.053
+2008,"15 to 24 years","Both sexes",0.052
+2009,"15 to 24 years","Both sexes",0.05
+2010,"15 to 24 years","Both sexes",0.047
+2011,"15 to 24 years","Both sexes",0.043
+2012,"15 to 24 years","Both sexes",0.042
+2013,"15 to 24 years","Both sexes",0.041
+2014,"15 to 24 years","Both sexes",0.042
+2015,"15 to 24 years","Both sexes",0.042
+2016,"15 to 24 years","Both sexes",0.043
+2017,"15 to 24 years","Both sexes",0.043
+2018,"15 to 24 years","Both sexes",0.044
+2019,"15 to 24 years","Both sexes",0.041
+2020,"15 to 24 years","Both sexes",0.035
+2000,"15 to 24 years","Female",0.042
+2001,"15 to 24 years","Female",0.041
+2002,"15 to 24 years","Female",0.041
+2003,"15 to 24 years","Female",0.04
+2004,"15 to 24 years","Female",0.04
+2005,"15 to 24 years","Female",0.039
+2006,"15 to 24 years","Female",0.039
+2007,"15 to 24 years","Female",0.038
+2008,"15 to 24 years","Female",0.038
+2009,"15 to 24 years","Female",0.036
+2010,"15 to 24 years","Female",0.034
+2011,"15 to 24 years","Female",0.032
+2012,"15 to 24 years","Female",0.03
+2013,"15 to 24 years","Female",0.029
+2014,"15 to 24 years","Female",0.03
+2015,"15 to 24 years","Female",0.03
+2016,"15 to 24 years","Female",0.031
+2017,"15 to 24 years","Female",0.031
+2018,"15 to 24 years","Female",0.032
+2019,"15 to 24 years","Female",0.031
+2020,"15 to 24 years","Female",0.032
+2000,"15 to 24 years","Male",0.071
+2001,"15 to 24 years","Male",0.071
+2002,"15 to 24 years","Male",0.071
+2003,"15 to 24 years","Male",0.07
+2004,"15 to 24 years","Male",0.069
+2005,"15 to 24 years","Male",0.068
+2006,"15 to 24 years","Male",0.067
+2007,"15 to 24 years","Male",0.067
+2008,"15 to 24 years","Male",0.066
+2009,"15 to 24 years","Male",0.063
+2010,"15 to 24 years","Male",0.059
+2011,"15 to 24 years","Male",0.055
+2012,"15 to 24 years","Male",0.053
+2013,"15 to 24 years","Male",0.051
+2014,"15 to 24 years","Male",0.053
+2015,"15 to 24 years","Male",0.053
+2016,"15 to 24 years","Male",0.054
+2017,"15 to 24 years","Male",0.054
+2018,"15 to 24 years","Male",0.055
+2019,"15 to 24 years","Male",0.05
+2020,"15 to 24 years","Male",0.038
+2000,"15 to 49 years","Both sexes",0.14
+2001,"15 to 49 years","Both sexes",0.14
+2002,"15 to 49 years","Both sexes",0.14
+2003,"15 to 49 years","Both sexes",0.14
+2004,"15 to 49 years","Both sexes",0.13
+2005,"15 to 49 years","Both sexes",0.13
+2006,"15 to 49 years","Both sexes",0.13
+2007,"15 to 49 years","Both sexes",0.13
+2008,"15 to 49 years","Both sexes",0.13
+2009,"15 to 49 years","Both sexes",0.12
+2010,"15 to 49 years","Both sexes",0.11
+2011,"15 to 49 years","Both sexes",0.1
+2012,"15 to 49 years","Both sexes",0.099
+2013,"15 to 49 years","Both sexes",0.095
+2014,"15 to 49 years","Both sexes",0.097
+2015,"15 to 49 years","Both sexes",0.099
+2016,"15 to 49 years","Both sexes",0.1
+2017,"15 to 49 years","Both sexes",0.1
+2018,"15 to 49 years","Both sexes",0.1
+2019,"15 to 49 years","Both sexes",0.095
+2020,"15 to 49 years","Both sexes",0.079
+2000,"15 to 49 years","Female",0.068
+2001,"15 to 49 years","Female",0.067
+2002,"15 to 49 years","Female",0.067
+2003,"15 to 49 years","Female",0.066
+2004,"15 to 49 years","Female",0.065
+2005,"15 to 49 years","Female",0.064
+2006,"15 to 49 years","Female",0.063
+2007,"15 to 49 years","Female",0.062
+2008,"15 to 49 years","Female",0.061
+2009,"15 to 49 years","Female",0.059
+2010,"15 to 49 years","Female",0.055
+2011,"15 to 49 years","Female",0.05
+2012,"15 to 49 years","Female",0.048
+2013,"15 to 49 years","Female",0.047
+2014,"15 to 49 years","Female",0.048
+2015,"15 to 49 years","Female",0.049
+2016,"15 to 49 years","Female",0.05
+2017,"15 to 49 years","Female",0.05
+2018,"15 to 49 years","Female",0.051
+2019,"15 to 49 years","Female",0.05
+2020,"15 to 49 years","Female",0.051
+2000,"15 to 49 years","Male",0.21
+2001,"15 to 49 years","Male",0.21
+2002,"15 to 49 years","Male",0.21
+2003,"15 to 49 years","Male",0.21
+2004,"15 to 49 years","Male",0.2
+2005,"15 to 49 years","Male",0.2
+2006,"15 to 49 years","Male",0.2
+2007,"15 to 49 years","Male",0.19
+2008,"15 to 49 years","Male",0.19
+2009,"15 to 49 years","Male",0.18
+2010,"15 to 49 years","Male",0.17
+2011,"15 to 49 years","Male",0.16
+2012,"15 to 49 years","Male",0.15
+2013,"15 to 49 years","Male",0.14
+2014,"15 to 49 years","Male",0.15
+2015,"15 to 49 years","Male",0.15
+2016,"15 to 49 years","Male",0.15
+2017,"15 to 49 years","Male",0.15
+2018,"15 to 49 years","Male",0.15
+2019,"15 to 49 years","Male",0.14
+2020,"15 to 49 years","Male",0.11
+2000,"50 years and over","Both sexes",0.025
+2001,"50 years and over","Both sexes",0.025
+2002,"50 years and over","Both sexes",0.025
+2003,"50 years and over","Both sexes",0.024
+2004,"50 years and over","Both sexes",0.024
+2005,"50 years and over","Both sexes",0.024
+2006,"50 years and over","Both sexes",0.024
+2007,"50 years and over","Both sexes",0.023
+2008,"50 years and over","Both sexes",0.023
+2009,"50 years and over","Both sexes",0.022
+2010,"50 years and over","Both sexes",0.02
+2011,"50 years and over","Both sexes",0.018
+2012,"50 years and over","Both sexes",0.017
+2013,"50 years and over","Both sexes",0.016
+2014,"50 years and over","Both sexes",0.016
+2015,"50 years and over","Both sexes",0.016
+2016,"50 years and over","Both sexes",0.016
+2017,"50 years and over","Both sexes",0.015
+2018,"50 years and over","Both sexes",0.015
+2019,"50 years and over","Both sexes",0.013
+2020,"50 years and over","Both sexes",0.011
+2000,"50 years and over","Female",0.011
+2001,"50 years and over","Female",0.011
+2002,"50 years and over","Female",0.011
+2003,"50 years and over","Female",0.011
+2004,"50 years and over","Female",0.011
+2005,"50 years and over","Female",0.01
+2006,"50 years and over","Female",0.01
+2007,"50 years and over","Female",0.01
+2008,"50 years and over","Female",0.01
+2009,"50 years and over","Female",0.0095
+2010,"50 years and over","Female",0.0088
+2011,"50 years and over","Female",0.008
+2012,"50 years and over","Female",0.0076
+2013,"50 years and over","Female",0.0072
+2014,"50 years and over","Female",0.0072
+2015,"50 years and over","Female",0.0072
+2016,"50 years and over","Female",0.0071
+2017,"50 years and over","Female",0.0069
+2018,"50 years and over","Female",0.0067
+2019,"50 years and over","Female",0.0064
+2020,"50 years and over","Female",0.0064
+2000,"50 years and over","Male",0.041
+2001,"50 years and over","Male",0.041
+2002,"50 years and over","Male",0.04
+2003,"50 years and over","Male",0.04
+2004,"50 years and over","Male",0.04
+2005,"50 years and over","Male",0.039
+2006,"50 years and over","Male",0.038
+2007,"50 years and over","Male",0.038
+2008,"50 years and over","Male",0.037
+2009,"50 years and over","Male",0.035
+2010,"50 years and over","Male",0.032
+2011,"50 years and over","Male",0.03
+2012,"50 years and over","Male",0.028
+2013,"50 years and over","Male",0.026
+2014,"50 years and over","Male",0.026
+2015,"50 years and over","Male",0.026
+2016,"50 years and over","Male",0.025
+2017,"50 years and over","Male",0.025
+2018,"50 years and over","Male",0.024
+2019,"50 years and over","Male",0.021
+2020,"50 years and over","Male",0.016
+2000,"All ages","Female",0.039
+2001,"All ages","Female",0.038
+2002,"All ages","Female",0.038
+2003,"All ages","Female",0.037
+2004,"All ages","Female",0.037
+2005,"All ages","Female",0.036
+2006,"All ages","Female",0.036
+2007,"All ages","Female",0.035
+2008,"All ages","Female",0.034
+2009,"All ages","Female",0.033
+2010,"All ages","Female",0.03
+2011,"All ages","Female",0.028
+2012,"All ages","Female",0.026
+2013,"All ages","Female",0.025
+2014,"All ages","Female",0.025
+2015,"All ages","Female",0.025
+2016,"All ages","Female",0.025
+2017,"All ages","Female",0.026
+2018,"All ages","Female",0.026
+2019,"All ages","Female",0.025
+2020,"All ages","Female",0.026
+2000,"All ages","Male",0.12
+2001,"All ages","Male",0.12
+2002,"All ages","Male",0.12
+2003,"All ages","Male",0.12
+2004,"All ages","Male",0.12
+2005,"All ages","Male",0.12
+2006,"All ages","Male",0.11
+2007,"All ages","Male",0.11
+2008,"All ages","Male",0.11
+2009,"All ages","Male",0.1
+2010,"All ages","Male",0.096
+2011,"All ages","Male",0.087
+2012,"All ages","Male",0.083
+2013,"All ages","Male",0.079
+2014,"All ages","Male",0.079
+2015,"All ages","Male",0.08
+2016,"All ages","Male",0.08
+2017,"All ages","Male",0.081
+2018,"All ages","Male",0.081
+2019,"All ages","Male",0.073
+2020,"All ages","Male",0.056

@@ -1,4 +1,5 @@
-﻿composite_breakdown_label: ''
+﻿auto_progress_calculation: true
+composite_breakdown_label: ''
 computation_units: ''
 copyright: ''
 data_footnote: ''
@@ -38,6 +39,23 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
+progress_calculation_options:
+-  direction: positive
+   target: 86.235
+   unit: Percentage (%)
+   disaggregation:
+   - field: Source
+     value: Municipal
+   - field: Wastewater treatment level
+     value: Safely treated
+-  direction: positive
+   target: 72.43
+   unit: Percentage (%)
+   disaggregation:
+   - field: Source
+     value: Industries
+   - field: Wastewater treatment level
+     value: Safely treated
 reporting_status: complete
 sort: ''
 standalone: false

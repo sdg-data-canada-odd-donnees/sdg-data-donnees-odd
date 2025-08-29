@@ -28,12 +28,12 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
+  # Target is 90% reduction from 2015 level
 - direction: negative
-  target: 0
-  target_year: 2030
-progress_status: deterioration
+  target: 0.155
 reporting_status: complete
 sort: ''
 standalone: false
 tags: 
   - Proxy
+proxy: proxy

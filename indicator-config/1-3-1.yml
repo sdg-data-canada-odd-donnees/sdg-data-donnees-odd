@@ -57,12 +57,31 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: positive
+  series: Proportion of population covered by at least one social protection cash benefit
+  limit: 100
+- direction: positive
+  series: Proportion of children covered by social protection benefits
+  limit: 100
+- direction: positive
+  series: Proportion of persons with disabilities receiving benefits
+  limit: 100
+- direction: positive
+  series: Proportion of workers covered in case of employment injury
+  limit: 100
+- direction: positive
+  series: Proportion of older persons receiving a pension
+  limit: 100
+- direction: positive
+  series: Proportion of vulnerable persons receiving benefits
+  limit: 100
+- direction: positive
+  series: Proportion of poor population receiving social assistance cash benefit
+  limit: 100
 reporting_status: complete
 sort: ''
 standalone: false
 tags: 
 - Proxy
-"\xEF\xBB\xBFcomposite_breakdown_label": ''
 proxy: both
 proxy_series:
   - Proportion of persons with disabilities receiving benefits

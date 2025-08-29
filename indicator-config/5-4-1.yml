@@ -11,12 +11,14 @@ data_show_map: true
 data_start_values:
 - field: Activity group
   value: Total, unpaid work activities
-- field: Gender
-  value: Total, all persons
 - field: Age group
   value: Total, 15 years and over
 - field: Geography
   value: Canada
+- field: Gender
+  value: Women+
+- field: Gender
+  value: Men+
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -38,7 +40,19 @@ national_geographical_coverage: Canada
 page_content: ''
 permalink: ''
 precision: []
-progress_status: deterioration
+progress_calculation_options:
+- direction: negative
+  target: 1
+  disaggregation:
+  - field: Geography
+    value: Canada
+  - field: Activity group
+    value: Total, unpaid work activities
+  - field: Age group
+    value: Total, 15 years and over
+  # Ratio of time spent by women+ / men+ is calculated in the 'Total, all persons' row of the progress column
+  - field: Gender
+    value: Total, all persons
 reporting_status: complete
 sort: ''
 standalone: false

@@ -33,9 +33,8 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
-- direction: positive
-  target_year: 2030
-progress_status: negligible_progress
+- direction: negative # Values all reflected above the target, so target is to reduce towards equilibrium target
+  target: 50
 reporting_status: complete
 sort: ''
 standalone: false

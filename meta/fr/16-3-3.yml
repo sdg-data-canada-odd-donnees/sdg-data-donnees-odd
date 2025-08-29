@@ -10,6 +10,7 @@ STAT_CONC_DEF: |-
 DATA_COMP: custom.data-tabulated
 REC_USE_LIM: |-
   Cet indicateur est un indicateur de substitution. Les données nationales pour l’indicateur 16.3.3 mesurent la population ayant eu un conflit au cours des trois dernières années et non au cours des deux dernières années comme mentionné dans l’indicateur mondial. 
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: |-

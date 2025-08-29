@@ -6,9 +6,26 @@ SDG_TARGET: |-
 SDG_INDICATOR: |-
   Indicateur 6.5.1 : Degré de mise en œuvre de la gestion intégrée des ressources en eau
 STAT_CONC_DEF : |-
-  L’indicateur 6.5.1 est le « degré de mise en œuvre de la gestion intégrée des ressources en eau ». Il mesure les étapes de développement et de mise en œuvre de la gestion intégrée des ressources en eau (GIRE), sur une échelle de 0 à 100, en six catégories (voir la section Justification). Le score de l’indicateur est calculé à partir d’une enquête par pays comprenant 33 questions, chaque question ayant été évaluée sur la même échelle de 0 à 100.
-DATA_COMP: '   '
+  <strong>Définition :</strong>
+  <br><br>
+  L’indicateur 6.5.1 est le « degré de mise en œuvre de la gestion intégrée des ressources en eau ». Il mesure les étapes de développement et de mise en œuvre de la gestion intégrée des ressources en eau (GIRE), sur une échelle de 0 à 100, en six catégories. Le score de l'indicateur est calculé à partir d'une enquête nationale comportant 33 questions, chacune étant notée sur la même échelle de 0 à 100.
+  <br><br>
+  La définition de la GIRE repose sur une définition convenue au niveau international et est universellement applicable. La GIRE a été officiellement établie en 1992 et est définie comme « un processus qui favorise le développement et la gestion coordonnés de l'eau, des terres et des ressources connexes afin de maximiser le bien-être économique et social de manière équitable sans compromettre la durabilité des écosystèmes vitaux ».
+  <br><br>
+  <strong>Concepts :</strong>
+  <br><br>
+  Le concept de GIRE est évalué selon quatre sections principales, chacune représentant une dimension clé de la GIRE :
+  <br><br>
+  1. Environnement favorable : cela comprend les politiques, les lois, les plans et les stratégies qui créent un « environnement favorable » à la GIRE.
+  <br><br>
+  2. Institutions et participation : cela comprend l'éventail et les rôles des institutions politiques, sociales, économiques et administratives qui contribuent à soutenir la mise en œuvre de la GIRE.
+  <br><br>
+  3. Instruments de gestion : les outils et les activités qui permettent aux décideurs et aux utilisateurs de faire des choix rationnels et éclairés entre différentes actions possibles.
+  <br><br>
+  4. Financement : budget et financement mis à disposition et utilisés pour le développement et la gestion des ressources en eau à partir de diverses sources.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: |-
@@ -22,4 +39,11 @@ un_designated_tier: Niveau I
 un_custodian_agency: Programme des Nations Unies pour l'environnement (PNUE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
- 
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: Portail de données sur la GIRE (en anglais seulement)
+source_url_1: https://iwrmdataportal.unepdhi.org/country-reports/canada
+source_organisation_1:  Centre UNEP-DHI
+source_periodicity_1: Tous les 3 ans
+source_geographical_coverage_1: Canada

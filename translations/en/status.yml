@@ -25,12 +25,14 @@ status_description: >
 substantial_progress: On track
 moderate_progress: Progress made but acceleration needed
 negligible_progress: Limited progress
+limited_progress: Limited progress
 deterioration: Deterioration
-moderate_deterioration: Moderate deterioration
-significant_deterioration: Substantial deterioration
-substantial_deterioration: Substantial deterioration
-progress_not_available: Not available
-progress_help: ''
-progress_header: |
-  <strong>Progress status</strong>
+# moderate_deterioration: Moderate deterioration
+# significant_deterioration: Substantial deterioration
+# substantial_deterioration: Substantial deterioration
+progress_not_available: Unable to assess
+# progress_help: ''
+progress_header: <strong>Current progress status</strong>
+progress_status: <strong>Current progress status</strong>
 target_achieved: Target achieved
+not_available_manual: Not available

@@ -9,6 +9,7 @@ STAT_CONC_DEF: |-
   L’indicateur mesure la valeur totale des flux financiers illicites entrants et sortants en dollars courants américains. Les flux financiers illicites sont définis comme des « flux financiers dont l’origine, le transfert ou l’utilisation sont illicites, qui correspondent à un échange de valeur et qui traversent les frontières d’un pays ». 
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: |-

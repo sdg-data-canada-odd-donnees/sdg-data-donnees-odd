@@ -9,6 +9,7 @@ STAT_CONC_DEF: |-
   This indicator measures the proportion of children under 5 years of age whose births have been registered with a civil authority
 DATA_COMP: custom.information-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: |-

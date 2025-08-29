@@ -7,6 +7,7 @@ SDG_INDICATOR: '<p>Indicateur 3.4.2 : Taux de mortalité par suicide</p>'
 STAT_CONC_DEF: <p>Cet indicateur mesure taux brut de mortalité par suicide pour 100 000 personnes. Le taux de mortalité par suicide est défini comme le nombre de décès par suicide au cours d'une année, divisé par la population et multiplié par 100 000.</p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention

@@ -1,30 +1,36 @@
-SDG_GOAL: '<p>Goal 4: Ensure inclusive and equitable quality education and promote
-  lifelong learning opportunities for all</p>'
-SDG_TARGET: '<p>Target 4.6: By 2030, ensure that all youth and a substantial proportion
-  of adults, both men and women, achieve literacy and numeracy</p>'
-SDG_INDICATOR: '<p>Indicator 4.6.1: Proportion of population aged 16 years and above achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills</p>'
-STAT_CONC_DEF: <p>The proportion of youth (aged 16-24 years) and of adults (aged 16
-  years and above) who have achieved or exceeded a fixed level of proficiency in (a)
-  literacy and (b) numeracy. </p>
-DATA_COMP: For 2022, the data pertaining to proficiency level 2 or below is calculated as the aggregate of proficiency levels 1 or below and 2.
-REC_USE_LIM: |
+# National
+SDG_GOAL: |-
+  Goal 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+SDG_TARGET: |-
+  Target 4.6: By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy
+SDG_INDICATOR: |-
+  Indicator 4.6.1: Proportion of population aged 16 years and above achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills
+STAT_CONC_DEF: |-
+  The proportion of youth (aged 16-24 years) and of adults (aged 16 years and above) who have achieved or exceeded a fixed level of proficiency in (a) literacy and (b) numeracy.
+DATA_COMP: |-
+  For 2022, the data pertaining to proficiency level 2 or below is calculated as the aggregate of proficiency levels 1 or below and 2.
+REC_USE_LIM: |-
   This is a proxy indicator. The UN Global indicator states: “Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex”. 
-  <br>
-  <br> This indicator measure the proficiency levels for the population aged 16 years and above, as opposed to 15 years and above as mentioned in the official metadata.
-  <br>
-  <br> Canada-level statistics for 2022 include the 10 provinces only.
-SDG_GOAL__GLOBAL: '<p>Goal 4: Ensure inclusive and equitable quality education and
-  promote lifelong learning opportunities for all</p>'
-SDG_TARGET__GLOBAL: '<p>Target 4.6: By 2030, ensure that all youth and a substantial
-  proportion of adults, both men and women, achieve literacy and numeracy</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 4.6.1: Proportion of population in a given age
-  group achieving at least a fixed level of proficiency in functional (a) literacy
-  and (b) numeracy skills, by sex</p>'
+  <br><br>
+  This indicator measure the proficiency levels for the population aged 16 years and above, as opposed to 15 years and above as mentioned in the official metadata.
+  <br><br>
+  Canada-level statistics for 2022 include the 10 provinces only.
+PROGRESS_DETAILS: custom.progress-details
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+SDG_TARGET__GLOBAL: |-
+  Target 4.6: By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 4.6.1: Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex
+
 un_designated_tier: Tier II
 un_custodian_agency: UNESCO Institute for Statistics (UIS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-06-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 37-10-0047-01  Literacy, numeracy - Average scores and distribution of proficiency levels, by sex and age group, inactive
 source_url_1: https://doi.org/10.25318/3710004701-eng
@@ -38,5 +44,3 @@ source_url_2: https://doi.org/10.25318/3710025901-eng
 source_organisation_2: Statistics Canada
 source_periodicity_2: Occasional
 source_geographical_coverage_2: Canada, Province or territory
-
-proxy: proxy

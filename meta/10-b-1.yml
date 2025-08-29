@@ -15,6 +15,7 @@ STAT_CONC_DEF: >-
   Official and private flows, both concessional and non-concessional to developing countries. For official flows the major distinction is between official development assistance (ODA) and other official flows (OOF), while private flows are broken down into flows at market terms and charitable grants. Flows include contributions to multilateral development agencies, which are themselves official bodies.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: >-

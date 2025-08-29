@@ -10,6 +10,8 @@ STAT_CONC_DEF: |-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   Data are reported for persons who were 15-24 and 25-34 years old on the date of the survey and who experienced sexual violence before the age of 15, whereas the UN global indicator states: "Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18".
+PROGRESS_DETAILS: |-
+  The progress status for this indicator is measured with respect to a target of 0.1%. This target selection reflects the magnitude and precision of the data, while acknowledging that the progress measurement methodology cannot accomodate a target of exactly zero. For more information, please refer to the progress measurement methodology documentation.
 
 # Global
 SDG_GOAL__GLOBAL: |-

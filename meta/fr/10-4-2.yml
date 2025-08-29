@@ -9,6 +9,7 @@ STAT_CONC_DEF: >-
   L’indicateur de l’effet redistributif de la politique budgétaire est défini comme l’indice de Gini du revenu avant impôt par habitant (ou équivalent) moins l’indice de Gini du revenu après impôt par habitant (ou équivalent).
 DATA_COMP: '   '
 REC_USE_LIM: '   '
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: >-

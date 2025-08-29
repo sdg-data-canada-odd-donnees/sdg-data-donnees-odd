@@ -10,6 +10,8 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp-national
 REC_USE_LIM: >-
   This is a proxy indicator. The UN Global indicator states: "Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities".
+PROGRESS_DETAILS: |-
+  The desired direction of progress for this proxy indicator is a decrease, whereas the desired direction of progress for the UN Global indicator is an increase.
 
 # Global
 SDG_GOAL__GLOBAL: >-

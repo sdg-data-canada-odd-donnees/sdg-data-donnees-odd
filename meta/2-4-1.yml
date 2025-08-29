@@ -41,6 +41,7 @@ STAT_CONC_DEF: >
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >
   Data are obtained through an estimation using SDG 2.4.1's official proxy methodology sourced from the Food and Agriculture Organization of the United Nations (FAO). Please refer to the metadata for more information.
+PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: 'Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture'
 SDG_TARGET__GLOBAL: 'Target 2.4: By 2030, ensure sustainable food production systems and implement resilient agricultural 

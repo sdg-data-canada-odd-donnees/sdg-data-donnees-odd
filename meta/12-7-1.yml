@@ -14,6 +14,7 @@ STAT_CONC_DEF: >-
   </ul>
 DATA_COMP: custom.data-tabulated
 REC_USE_LIM: Data for this indicator is only available at the federal level.
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'

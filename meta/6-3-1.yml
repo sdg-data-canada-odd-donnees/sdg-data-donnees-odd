@@ -15,6 +15,12 @@ DATA_COMP: >-
     Proportion of domestic and industrial wastewater flows safely treated = ((Secondary treatment + Tertiary treatment) / Total volumes) x 100
 REC_USE_LIM: >-
     This is a proxy indicator. The UN Global indicator states: “Proportion of domestic and industrial wastewater flows safely treated”.
+PROGRESS_DETAILS: |-
+    The progress status for this indicator is based on the proxy series: "Proportion of municipal and manufacturing wastewater flows safely treated." This proxy is evaluated using the equally weighted average of the progress scores for each source (industries and municipal). The target value is determined by "halving the proportion of untreated wastewater" as follows for each source:
+    <br><br>
+    Target = 1 - (1 - <i>y</i><sub>2015</sub>) / 2,
+    <br>
+    where <i>y</i><sub>2015</sub> is the proportion of wastewater flows safely treated in 2015.
 
 # GLOBAL
 SDG_GOAL__GLOBAL: >-

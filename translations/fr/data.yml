@@ -10,6 +10,7 @@ Statistics Canada: Statistique Canada
 Canada – All categories: Canada – Toutes les catégories
 Total population: Population totale
 Unknown: Inconnu
+All: Tous
 
 ## Tiers
 Tier I: Niveau I
@@ -43,6 +44,7 @@ US dollar, Millions, 2021 constant prices: Dollar américain, millions, prix con
 US dollar, Millions, 2022 constant prices: Dollar américain, millions, prix constants de 2022
 US dollar, Millions, 2023 constant prices: Dollar américain, millions, prix constants de 2023
 Million cubic metres: Millions de mètres cubes
+Kilograms: Kilogrammes
 
 ## OECD Data Explorer
 Sector: Secteur
@@ -238,6 +240,172 @@ Victoria (CMA), B.C.: Victoria (RMR), C.-B.
 
 Contiguously settled areas (CSAs): Zones habitées contiguës (ZHC)
 
+## Pays
+Country of origin: Pays d'origine
+Afghanistan: Afghanistan
+Albania: Albanie
+Algeria: Algérie
+Angola: Angola
+Antigua and Barbuda: Antigua-et-Barbuda
+Argentina: Argentine
+Armenia: Arménie
+Australia: Australie
+Austria: Autriche
+Azerbaijan: Azerbaïdjan
+Bahamas: Bahamas
+Bahrain: Bahreïn
+Bangladesh: Bangladesh
+Barbados: Barbade
+Belarus: Bélarus
+Belgium: Belgique
+Belize: Belize
+Benin: Bénin
+Bermuda: Bermudes
+Bhutan: Bhoutan
+Bosnia and Herzegovina: Bosnie-Herzégovine
+Botswana: Botswana
+Brazil: Brésil
+Brunei Darussalam: Brunéi Darussalam
+Bulgaria: Bulgarie
+Burkina Faso: Burkina Faso
+Burundi: Burundi
+Cambodia: Cambodge
+Cameroon: Cameroun
+Central African Republic: République centrafricaine
+Chad: Tchad
+Chile: Chili
+China: Chine
+Colombia: Colombie
+Comoros: Comores
+Costa Rica: Costa Rica
+Croatia: Croatie
+Cuba: Cuba
+Curaçao: Curaçao
+Cyprus: Chypre
+Czechia: Tchéquie
+Côte d'Ivoire: Côte d'Ivoire
+Denmark: Danemark
+Djibouti: Djibouti
+Dominica: Dominique
+Dominican Republic: République dominicaine
+Ecuador: Équateur
+Egypt: Égypte
+El Salvador: El Salvador
+Equatorial Guinea: Guinée équatoriale
+Eritrea: Érythrée
+Estonia: Estonie
+Eswatini: Eswatini
+Ethiopia: Éthiopie
+Fiji: Fidji
+Finland: Finlande
+France: France
+Gabon: Gabon
+Gambia: Gambie
+Georgia: Géorgie
+Germany: Allemagne
+Ghana: Ghana
+Greece: Grèce
+Grenada: Grenade
+Guatemala: Guatemala
+Guinea: Guinée
+Guinea-Bissau: Guinée-Bissau
+Guyana: Guyana
+Haiti: Haïti
+Honduras: Honduras
+Hungary: Hongrie
+India: Inde
+Indonesia: Indonésie
+Iraq: Irak
+Ireland: Irlande
+Israel: Israël
+Italy: Italie
+Jamaica: Jamaïque
+Japan: Japon
+Jordan: Jordanie
+Kazakhstan: Kazakhstan
+Kenya: Kenya
+Kuwait: Koweït
+Kyrgyzstan: Kirghizistan
+Latvia: Lettonie
+Lebanon: Liban
+Lesotho: Lesotho
+Liberia: Libéria
+Libya: Libye
+Lithuania: Lituanie
+Madagascar: Madagascar
+Malawi: Malawi
+Malaysia: Malaisie
+Mali: Mali
+Malta: Malte
+Mauritania: Mauritanie
+Mauritius: Maurice
+Mexico: Mexique
+Mongolia: Mongolie
+Montenegro: Monténégro
+Morocco: Maroc
+Mozambique: Mozambique
+Myanmar: Myanmar
+Namibia: Namibie
+Nepal: Népal
+Netherlands: Pays-Bas
+New Caledonia: Nouvelle-Calédonie
+New Zealand: Nouvelle-Zélande
+Nicaragua: Nicaragua
+Niger: Niger
+Nigeria: Nigéria
+North Macedonia: Macédoine du Nord
+Norway: Norvège
+Oman: Oman
+Pakistan: Pakistan
+Panama: Panama
+Papua New Guinea: Papouasie-Nouvelle-Guinée
+Paraguay: Paraguay
+Peru: Pérou
+Philippines: Philippines
+Poland: Pologne
+Portugal: Portugal
+Qatar: Qatar
+Romania: Roumanie
+Russian Federation: Fédération de Russie
+Rwanda: Rwanda
+Saint Kitts and Nevis: Saint-Christophe-et-Niévès
+Saint Lucia: Sainte-Lucie
+Saint Vincent and the Grenadines: Saint-Vincent-et-les-Grenadines
+Saudi Arabia: Arabie saoudite
+Senegal: Sénégal
+Serbia: Serbie
+Seychelles: Seychelles
+Sierra Leone: Sierra Leone
+Singapore: Singapour
+Slovakia: Slovaquie
+Slovenia: Slovénie
+Somalia: Somalie
+South Sudan: Soudan du Sud
+Spain: Espagne
+Sri Lanka: Sri Lanka
+Sudan: Soudan
+Suriname: Suriname
+Sweden: Suède
+Switzerland: Suisse
+Tajikistan: Tadjikistan
+Thailand: Thaïlande
+Togo: Togo
+Trinidad and Tobago: Trinité-et-Tobago
+Tunisia: Tunisie
+Turkey: Turquie
+Turkmenistan: Turkménistan
+Uganda: Ouganda
+Ukraine: Ukraine
+United Arab Emirates: Émirats arabes unis
+United Kingdom: Royaume-Uni
+United States of America: États-Unis d'Amérique
+Uruguay: Uruguay
+Uzbekistan: Ouzbékistan
+Viet Nam: Viêt Nam
+Yemen: Yémen
+Zambia: Zambie
+Zimbabwe: Zimbabwe
+
 ## Age
 Age: Âge
 Age group: Groupe d'âge
@@ -253,6 +421,7 @@ Under 35 years: Moins de 35 ans
 15 years and over: 15 ans et plus
 25 years and over: 25 ans et plus
 45 years and over: 45 ans et plus
+50 years and over: 50 ans et plus
 55 years and over: 55 ans et plus
 65 years and older: 65 ans et plus
 65 years and over: 65 ans et plus
@@ -266,6 +435,7 @@ Under 35 years: Moins de 35 ans
 12 to 17 years: 12 à 17 ans
 15 to 19 years: 15 à 19 ans
 15 to 24 years: 15 à 24 ans
+15 to 49 years: 15 à 49 ans
 15 to 64 years: 15 à 64 ans
 16 to 24 years: 16 à 24 ans
 18 to 24 years: 18 à 24 ans
@@ -448,22 +618,11 @@ Asset resilient for at least three months: Personnes en situation de résilience
 Asset resilient for at least six months: Personnes en situation de résilience des actifs pour au moins six mois
 
 ## 1-3-1
-Proportion of employed labour force eligible for workers compensation benefits: |
-    Proportion de la population active occupée admissible à l'indemnité d'accident du travail
-Proportion of economic families with children receiving a child benefit: |
-    Portion de familles économiques qui reçoivent des prestations pour enfants
-Ratio of unemployed receiving benefits: |
-    Ratio de chômeurs recevant des prestations
-Proportion of the unemployed eligible for Employment Insurance benefits: |
-    Proportion de chômeurs admissibles aux prestations d'assurance-emploi
-Proportion of older persons receiving a pension: |
-    Proportion de personnes plus âgées recevant une pension
-Percentage of mothers with a child aged 12 months or less that received maternity or parental benefits: |
-    Pourcentage de mères d'enfants de 12 mois ou moins qui ont reçu des prestations de maternité ou parentales
 Proportion of population covered by at least one social protection cash benefit: Proportion de la population couverte par au moins une prestation de protection sociale en espèces
 Proportion of children covered by social protection benefits: Proportion d'enfants couverts par des prestations de protection sociale
 Proportion of persons with disabilities receiving benefits: Proportion de personnes handicapées bénéficiant de prestations
 Proportion of workers covered in case of employment injury: Proportion de travailleurs couverts en cas d'accident du travail
+Proportion of older persons receiving a pension: Proportion de personnes plus âgées recevant une pension
 Proportion of vulnerable persons receiving benefits: Proportion de personnes vulnérables recevant des allocations
 Proportion of poor population receiving social assistance cash benefit: Proportion de la population pauvre recevant une prestation de l'aide sociale en espèces
 
@@ -731,6 +890,8 @@ Ages 60 to 79: 60 à 79 ans
 Malaria incidence per 100,000 population: Incidence du paludisme pour 100 000 habitants
 
 ## 3-3-5
+Neglected tropical diseases: Maladies tropicales négligées 
+Total - Neglected tropical diseases: Total - Maladies tropicales négligées
 Leprosy: Lèpre
 Rabies: Rage
 Number of people requiring interventions against leprosy: Nombre de personnes pour lesquelles des interventions contre la lèpre sont nécessaires
@@ -905,8 +1066,8 @@ Total, persons aged 15 years and over: Total, personnes âgées de 15 ans et plu
 Selected demographic characteristics: Caractéristiques démographiques déterminées
 Total Aboriginal identity: Total identité autochtone
 Non-Aboriginal identity: Identité non autochtone
-Children in Grade 4 achieving at least a minimum proficiency level in mathematics: Enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques
-Children in Grade 4 achieving at least a minimum proficiency level in reading: Enfants de 4e année atteignant au moins un niveau minimum de compétence en lecture
+Children at the end of primary achieving at least a minimum proficiency level in mathematics: Enfants en fin de cycle primaire atteignant au moins un niveau minimum de compétence en mathématiques
+Children at the end of primary achieving at least a minimum proficiency level in reading: Enfants en fin de cycle primaire atteignant au moins un niveau minimum de compétence en lecture
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in reading: Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimum de compétence en lecture
 Children and young people at the end of lower secondary achieving at least a minimum proficiency level in mathematics: Enfants et jeunes en fin de premier cycle du secondaire atteignant au moins un niveau minimum de compétence en mathématiques
 Proportion of children achieving at least a minimum proficiency level: Proportion d’enfants atteignant au moins un niveau minimum de compétence
@@ -995,6 +1156,22 @@ Numeracy: Arithmétique
 2 or below: 2 ou moins
 3 or above: 3 ou plus
 Total age groups: Groupe d'âge totale
+
+## 4-7-1
+a) National education policies: a) Politiques nationales d’éducation
+b) Curricula: b) Programmes d’enseignement
+c) Teacher education: c) Formation des enseignants
+d) Student assessment: d) Évaluation des étudiants
+Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in national education policies: Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans les politiques nationales d’éducation
+Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in curricula: Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans les programmes d’enseignement
+Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in teacher education: Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans la formation des enseignants
+Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in student assessment: Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans l’évaluation des étudiants
+
+## 4-a-1
+Proportion of schools with access to the Internet for pedagogical purposes: Proportion d'établissements scolaires ayant accès à Internet à des fins pédagogiques
+Proportion of schools with access to computers for pedagogical purposes: Proportion d'établissements scolaires ayant accès à des ordinateurs à des fins pédagogiques
+Primary: Primaire
+Secondary: Secondaire
 
 ## 4-b-1
 USD Millions: USD Millions
@@ -1128,6 +1305,47 @@ Overall: Ensemble
 
 ## 6-4-2
 ## rien de nouveau
+
+## 6-5-1
+Water resources management category: Catégorie gestion des ressources en eau
+Water resources management sub-category: Sous-catégorie gestion des ressources en eau
+Enabling environment: Environnement favorable
+Institutions and participation: Institutions et participation
+Management instruments: Instruments de gestion
+Financing: Financement
+Arrangements for transboundary water management in most important basins and aquifers: Dispositions relatives à la gestion transfrontalière des eaux dans les bassins et aquifères les plus importants
+Basin and aquifer management plans: Plans de gestion des bassins et des aquifères
+National integrated water resources management (IWRM) plans: Plans nationaux de gestion intégrée des ressources en eau (GIRE)
+National water resources law: Législation nationale sur les ressources en eau
+National water resources policy: Politique nationale en matière de ressources en eau
+Sub-national water resources regulations: Réglementations sous-nationales sur les ressources en eau
+Sub-national water resources policies: Politiques sous-nationales en matière de ressources en eau
+Basin and aquifer level organizations for leading implementation of integrated water resources management (IWRM) plans: Organisations au niveau des bassins et des aquifères chargées de diriger la mise en œuvre des plans de gestion intégrée des ressources en eau (GIRE
+Private Sector participation in water resources development, management and use at national level: Participation du secteur privé au développement, à la gestion et à l'utilisation des ressources en eau au niveau national
+Coordination between national government authorities representing different sectors on water resources, policy, planning and management: Coordination entre les autorités gouvernementales nationales représentant différents secteurs en matière de ressources en eau, de politique, de planification et de gestion
+Developing integrated water resources management (IWRM) capacity at the national level: Développement des capacités de gestion intégrée des ressources en eau (GIRE) au niveau national
+National government authority capacity for leading implementation of national integrated water resources management (IWRM) plans: Capacité des autorités gouvernementales nationales à diriger la mise en œuvre des plans nationaux de gestion intégrée des ressources en eau (GIRE)
+Organizational framework for transboundary water management for most important basins and aquifers: Cadre organisationnel pour la gestion transfrontalière des eaux des bassins et aquifères les plus importants
+Public participation in water resources, policy, planning and management at national level: Participation du public aux ressources en eau, à la politique, à la planification et à la gestion au niveau national
+Public participation in water resources, policy, planning and management at the local level: Participation du public aux ressources en eau, à la politique, à la planification et à la gestion au niveau local
+Sub-national authorities for leading IWRM implementation: Autorités sous-nationales chargées de diriger la mise en œuvre de la GIRE
+Participation of vulnerable groups in water resources planning and management: Participation des groupes vulnérables à la planification et à la gestion des ressources en eau
+Gender mainstreaming in water resources management: Intégration de la dimension de genre dans la gestion des ressources en eau
+Aquifer management instruments: Instruments de gestion des aquifères
+Basin management instruments: Instruments de gestion des bassins
+Data and information sharing within countries at all levels: Partage des données et des informations au sein des pays à tous les niveaux
+Management instruments to reduce impacts of water-related disasters from the national level: Instruments de gestion visant à réduire les impacts des catastrophes liées à l'eau au niveau national
+Management of water-related ecosystems from the national level: Gestion des écosystèmes liés à l'eau au niveau national
+National monitoring of water availability: Surveillance nationale de la disponibilité de l'eau
+Pollution control from the national level: Contrôle de la pollution au niveau national
+Sustainable and efficient water use management from the national level: Gestion durable et efficace de l'utilisation de l'eau au niveau national
+Transboundary data and information sharing between countries: Partage transfrontalier de données et d'informations entre les pays
+Financing for transboundary cooperation: Financement de la coopération transfrontalière
+National budget for investment including water resources infrastructure: Budget national pour les investissements, y compris les infrastructures liées aux ressources en eau
+National budget for the recurrent costs of the integrated water resources management (IWRM) elements: Budget national pour les coûts récurrents des éléments de la gestion intégrée des ressources en eau (GIRE)
+Sub-national or basin budgets for IWRM elements: Budgets sous-nationaux ou de bassins pour les éléments de la GIRE
+Revenues raised from dedicated levies on water users at basin, aquifer or sub-national levels: Revenus provenant de taxes spécifiques prélevées sur les utilisateurs d'eau au niveau des bassins, des aquifères ou des régions sous-nationales
+Sub-national or basin budgets for investment including water resources infrastructure: Budgets sous-nationaux ou de bassins pour les investissements, y compris les infrastructures liées aux ressources en eau
 
 ## 6-6-1
 Number of (shared) basins showing high surface-water extent changes: Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface
@@ -1450,6 +1668,7 @@ Motor vehicles, trailers and semi-trailers: Véhicules automobiles, remorques et
 Furniture: Mobilier
 Other manufacturing: Autres industries manufacturières
 Total manufacturing: Total de l’industrie manufacturière
+Total small-scale industries: Total des petites entreprises
 Industry: Industrie
 Size: Taille
 1-9 employees: 1-9 employés
@@ -1814,6 +2033,7 @@ Plastics: Matières plastiques
 Gable top and aseptic containers: Récipients triangulaires et aseptiques
 Textiles: Textiles
 Tires: Pneus
+Construction + renovation and demolition: Déchets provenant de la construction, de la rénovation et de la démolition
 Construction, renovation and demolition: Déchets provenant de la construction, de la rénovation et de la démolition
 Organics: Matières organiques
 Other materials: Autres matières
@@ -1821,6 +2041,10 @@ Sources of materials prepared for recycling: Sources des matières préparées e
 All sources of diverted materials: Toutes les sources des matières récupérées
 Residential sources of diverted materials: Sources des matières résidentielles récupérées
 Non-residential sources of diverted materials: Sources des matières non résidentielles récupérées
+All organic materials: Toutes les matières organiques
+Food waste and source separated organics: Déchets de nourriture et matières organiques séparées à la source
+Leaf and yard waste: Feuilles et résidus de jardin
+Other organic materials: Autres matières organiques
 
 ## 12-7-1
 Sub-indicators: Sous-indicateurs
@@ -1894,6 +2118,12 @@ Roads: Routes
 Bridges and tunnels: Ponts et tunnels
 Culture, recreation and sports facilities: Culture, sports et loisirs
 Core public infrastructure assets: Actifs d'infrastructures publiques essentielles
+
+## 13-a-1
+Theme: Thème
+Adaptation: Adaptation
+Mitigation: Atténuation
+Cross-cutting: Transversal
 
 ## 14-2-1
 Stock group: Groupe de stocks
@@ -2189,23 +2419,9 @@ Grants: Dons
 Other revenue: Autres recettes
 
 ## 17-2-1
-ODA as a share of GNI: APD en proportion du RNB
-Total ODA to least developed countries as a share of GNI: APD totale aux PMA, en proportion du RNB
-Official development assistance: Aide publique au développement
+ODA as a share of GNI (%): APD en proportion du RNB (%)
+Recipient country: Pays bénéficiaire
 Least developed countries: Pays les moins avancés
-ODA to least developed countries as a share of GNI: APD aux PMA, en proportion du RNB
-Pillar: Pilier
-Region: Région
-Cross-border flows to TOSSD-eligible countries: Flux transfrontaliers vers les pays admissibles au TOSSD
-Global and regional expenditures for international public goods: Dépenses mondiales et régionales pour les biens publics internationaux
-All regions: Toutes les régions
-Global: Mondial
-Africa: Afrique
-Asia: Asie
-America: Amerique
-Europe: Europe
-Middle East: Moyen-Orient
-Oceania: Océanie
 
 ## 17-3-1
 Foreign Direct Investment (FDI) Inflow: Investissements directs étrangers (IDE) entrants

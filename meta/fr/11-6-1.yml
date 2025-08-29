@@ -10,6 +10,8 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp-national
 REC_USE_LIM: >-
   Il s'agit d'un indicateur de substitution. L'indicateur mondial des Nations Unies indique : « Proportion de déchets municipaux solides collectés et gérés dans des installations contrôlées sur le total des déchets municipaux générés, par ville ».
+PROGRESS_DETAILS: |-
+  La direction désirée pour le progrès de cet indicateur de substitution est une diminution, tandis que la direction désirée pour le progrès de l'indicateur mondial des Nations Unies est une augmentation.
 
 # Global
 SDG_GOAL__GLOBAL: >-

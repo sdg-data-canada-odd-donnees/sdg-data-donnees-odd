@@ -8,6 +8,7 @@ STAT_CONC_DEF: <p>This indicator measures the percentage of persons in low incom
   <p>The Market Basket Measure (MBM) is based on the cost of a specific basket of goods and services representing a modest, basic standard of living. It includes the costs of food, clothing, shelter, transportation and other items for a reference family. These costs are compared to the disposable income of families to determine whether or not they fall below the poverty line.</p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: 'It covers all individuals in Canada, excluding persons living on reserves and other Aboriginal settlements in the provinces, the institutionalized population, and households in extremely remote areas with very low population density. Overall, these exclusions amount to less than 2 percent of the population.'
+PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
 SDG_TARGET__GLOBAL: '<p>Target: 1.2 By 2030, reduce at least by half the proportion
   of men, women and children of all ages living in poverty in all its dimensions according

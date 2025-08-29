@@ -57,9 +57,192 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
-- direction: positive
+- group:
+  # Completion rate parity indices
+  - group:
+    # Gender parity indices
+    - direction: negative
+      target: 1
+      series: Completion rate
+      unit: Adjusted gender parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Primary education
+    - direction: negative
+      target: 1
+      series: Completion rate
+      unit: Adjusted gender parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Lower secondary education
+    - direction: negative
+      target: 1
+      series: Completion rate
+      unit: Adjusted gender parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Upper secondary education
+  - group:
+    # Location parity indices
+    - direction: negative
+      target: 1
+      series: Completion rate
+      unit: Adjusted location parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Upper secondary education
+  - group:
+    # Wealth parity indices
+    - direction: negative
+      target: 1
+      series: Completion rate
+      unit: Adjusted wealth parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Upper secondary education
+- group:
+  # Educational attainment rate parity indices
+  - group:
+    # Gender parity indices
+    - direction: negative
+      target: 1
+      series: Educational attainment rate
+      unit: Adjusted gender parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Completed primary education or higher
+    - direction: negative
+      target: 1
+      series: Educational attainment rate
+      unit: Adjusted gender parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Completed lower secondary education or higher
+    - direction: negative
+      target: 1
+      series: Educational attainment rate
+      unit: Adjusted gender parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Completed upper secondary education or higher
+  - group:
+    # Location parity indices
+    - direction: negative
+      target: 1
+      series: Educational attainment rate
+      unit: Adjusted location parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Completed upper secondary education or higher
+# Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months parity indices
+# Gender parity indices
+- direction: negative
   target: 1
-  target_year: 2030
+  series: Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months
+  unit: Adjusted gender parity index
+  disaggregation:
+  - field: Age group
+    value: 15-64 years old
+- group:
+  # Proportion of students achieving at least a minimum proficiency level in mathematics parity indices
+  - group:
+    # Gender parity indices
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in mathematics
+      unit: Adjusted gender parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Primary education
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in mathematics
+      unit: Adjusted gender parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Lower secondary education
+  - group:
+    # Location parity indices
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in mathematics
+      unit: Adjusted location parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Primary education
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in mathematics
+      unit: Adjusted location parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Lower secondary education
+  - group:
+    # Wealth parity indices
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in mathematics
+      unit: Adjusted wealth parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Primary education
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in mathematics
+      unit: Adjusted wealth parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Lower secondary education
+- group:
+  # Proportion of students achieving at least a minimum proficiency level in reading parity indices
+  - group:
+    # Gender parity indices
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in reading
+      unit: Adjusted gender parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Primary education
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in reading
+      unit: Adjusted gender parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Lower secondary education
+  - group:
+    # Location parity indices
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in reading
+      unit: Adjusted location parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Primary education
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in reading
+      unit: Adjusted location parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Lower secondary education
+  - group:
+    # Wealth parity indices
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in reading
+      unit: Adjusted wealth parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Primary education
+    - direction: negative
+      target: 1
+      series: Proportion of students achieving at least a minimum proficiency level in reading
+      unit: Adjusted wealth parity index
+      disaggregation:
+      - field: Highest level of education
+        value: Lower secondary education
 reporting_status: complete
 sort: ''
 standalone: false

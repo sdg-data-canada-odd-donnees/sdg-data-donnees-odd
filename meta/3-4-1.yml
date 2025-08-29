@@ -1,3 +1,4 @@
+# National
 SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
   </p>'
 SDG_TARGET: '<p>Target 3.4: By 2030, reduce by one third premature mortality from
@@ -7,9 +8,13 @@ SDG_INDICATOR: '<p>Indicator 3.4.1: Mortality rate attributed to cardiovascular 
 STAT_CONC_DEF: 'This indicator measures the mortality rate attributed to cardiovascular disease,
   cancer, diabetes or chronic respiratory disease.'
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
+REC_USE_LIM: |-
   This is a proxy indicator. Due to data limitations, this indicator measures the mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease per 100,000 persons rather than the probability of dying between the ages of 30 and 70 years from cardiovascular diseases, cancer, diabetes
   or chronic respiratory diseases as specified in the metadata.
+PROGRESS_DETAILS: |-
+  The progress status for this indicator is obtained from the average of the progress scores for each cause of death for which data is available.
+
+# Global
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.4: By 2030, reduce by one third premature mortality
@@ -17,18 +22,16 @@ SDG_TARGET__GLOBAL: '<p>Target 3.4: By 2030, reduce by one third premature morta
   health and well-being </p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 3.4.1: Mortality rate attributed to cardiovascular
   disease, cancer, diabetes or chronic respiratory disease </p>'
+
 un_designated_tier: Tier I
 un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
-reporting_status: complete
- 
+# Source(s)
 source_active_1: true
 source_url_text_1: 'Statistics Canada. Table 13-10-0394-01  Leading causes of death, total population, by age group'
 source_url_1: 'https://doi.org/10.25318/1310039401-eng'
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
 source_geographical_coverage_1: Canada
-
-proxy: proxy

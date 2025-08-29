@@ -21,6 +21,7 @@ DATA_COMP: custom.data-tabulated
 REC_USE_LIM: |
   Les données pour une année de référence donnée (t) ne seront pas finalisées avant l'année t-4. L'utilisation d'informations préliminaires se traduit par des progrès importants en matière d'actualité qui améliorent leur pertinence ; ce compromis est dans l'intérêt des utilisateurs des données.
  
+PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
