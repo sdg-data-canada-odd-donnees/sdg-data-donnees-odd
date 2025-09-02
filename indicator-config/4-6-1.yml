@@ -31,8 +31,10 @@ embedded_feature_url: ''
 expected_disaggregations:
   - Age group
   - Gender
-  - Income
+#  - Income
   - Skill
+  - Geography
+  - Proficiency level
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
