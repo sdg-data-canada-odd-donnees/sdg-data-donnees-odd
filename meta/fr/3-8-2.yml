@@ -1,34 +1,35 @@
 ## NATIONAL METADATA
-SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.8 : Faire en sorte que chacun bénéficie d’une couverture sanitaire
-  universelle, comprenant une protection contre les risques financiers et donnant
-  accès à des services de santé essentiels de qualité et à des médicaments et vaccins
-  essentiels sûrs, efficaces, de qualité et d’un coût abordable</p>'
-SDG_INDICATOR: '<p>Indicateur 3.8.2 : Proportion de la population (personnes) consacrant une grande part de ses dépenses du ménage à certains articles de soins de santé en proportion du revenu total après impôt</p>'
-STAT_CONC_DEF: |
-  Proportion de la population dont les ménages consacrent d'importantes dépenses de santé à la part des dépenses ou des revenus totaux des ménages. Deux seuils sont utilisés pour définir les « dépenses de santé importantes des ménages » : supérieures à 10 % et supérieures à 25 % des dépenses ou revenus totaux des ménages.
-DATA_COMP: |
-    <p>L'Enquête sur les dépenses des ménages (EDM) recueille les dépenses au moyen de deux modes de collecte : un questionnaire (utilisant des périodes de remémoration qui varient selon le type de dépense) et un journal d'une période de deux semaines.</p>
-    <p>Pour des raisons de méthodologie, les dépenses en soins de santé recueillies à l'aide du journal portant sur deux semaines ont été exclues du numérateur dans le calcul de chaque proportion du revenu du ménage dépensée en soins de santé. Les articles de soins de santé exclus sont les médicaments et produits pharmaceutiques sans ordonnance, les fournitures en soins de santé, d'autres appareils de soins de santé (c.-à-d., autres que les principaux) et les articles de lunetterie et autres articles de soins des yeux sans ordonnance. Puisque ces articles ont été exclus, la définition de dépenses en soins de santé utilisée pour cet indicateur ne correspond donc pas à la Classification des fonctions de la consommation individuelle (COICOP).</p>
-    <p>Les dépenses de santé remboursables suivantes ont été incluses dans le numérateur : médicaments et produits pharmaceutiques d'ordonnance; principaux appareils de soins de santé (p. ex., appareils auditifs, fauteuils roulants); services de soins de santé; lunettes ou lentilles cornéennes fournies sur ordonnance; services de soins des yeux et services dentaires.</p>
-    <p>Veuillez noter que les dépenses pour médicaments et produits pharmaceutiques d'ordonnance sont recueillies au moyen du questionnaire qui utilise une période de remémoration de trois mois. Les quantités déclarées sont annualisées afin de couvrir 12 mois (elles sont multipliées par 4 et les ajustements supplémentaires tiennent compte des valeurs extrêmes). L'inclusion des dépenses annualisées pour les médicaments et produits pharmaceutiques d'ordonnance dans le numérateur pour cet indicateur exige de présumer que les dépenses d'un ménage donné pour cet article ne varient pas entre les différentes périodes de trois mois de l'année.</p>
-    <p>Le revenu du ménage après impôt a été utilisé pour le dénominateur, puisqu'aucune mesure de la consommation totale annuelle n'est disponible au niveau du ménage individuel en raison de la conception de l'enquête.</p>
-
-REC_USE_LIM: |
-    Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique: "Proportion de la population consacrant une grande part de ses dépenses ou de ses revenus domestiques aux services de soins de santé". Les estimations de l’enquête sur les dépenses des ménages (EDM) excluent les trois territoires du Canada.
-PROGRESS_DETAILS: custom.progress_details
+SDG_GOAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET: |-
+  Cible 3.8 : Faire en sorte que chacun bénéficie d’une couverture sanitaire universelle, comprenant une protection contre les risques financiers et donnant accès à des services de santé essentiels de qualité et à des médicaments et vaccins essentiels sûrs, efficaces, de qualité et d’un coût abordable
+SDG_INDICATOR: |-
+  Indicateur 3.8.2 : Proportion de la population (personnes) consacrant une grande part de ses dépenses du ménage à certains articles de soins de santé en proportion du revenu total après impôt
+STAT_CONC_DEF: |-
+  Proportion de la population dont les ménages consacrent d'importantes dépenses de santé à la part des dépenses ou des revenus totaux des ménages. Deux seuils sont utilisés pour définir les « dépenses de santé importantes des ménages » : supérieures à 10 % et supérieures à 25 % des dépenses ou revenus totaux des ménages.
+DATA_COMP: |-
+  <p>L'Enquête sur les dépenses des ménages (EDM) recueille les dépenses au moyen de deux modes de collecte : un questionnaire (utilisant des périodes de remémoration qui varient selon le type de dépense) et un journal d'une période de deux semaines.</p>
+  <p>Pour des raisons de méthodologie, les dépenses en soins de santé recueillies à l'aide du journal portant sur deux semaines ont été exclues du numérateur dans le calcul de chaque proportion du revenu du ménage dépensée en soins de santé. Les articles de soins de santé exclus sont les médicaments et produits pharmaceutiques sans ordonnance, les fournitures en soins de santé, d'autres appareils de soins de santé (c.-à-d., autres que les principaux) et les articles de lunetterie et autres articles de soins des yeux sans ordonnance. Puisque ces articles ont été exclus, la définition de dépenses en soins de santé utilisée pour cet indicateur ne correspond donc pas à la Classification des fonctions de la consommation individuelle (COICOP).</p>
+  <p>Les dépenses de santé remboursables suivantes ont été incluses dans le numérateur : médicaments et produits pharmaceutiques d'ordonnance; principaux appareils de soins de santé (p. ex., appareils auditifs, fauteuils roulants); services de soins de santé; lunettes ou lentilles cornéennes fournies sur ordonnance; services de soins des yeux et services dentaires.</p>
+  <p>Veuillez noter que les dépenses pour médicaments et produits pharmaceutiques d'ordonnance sont recueillies au moyen du questionnaire qui utilise une période de remémoration de trois mois. Les quantités déclarées sont annualisées afin de couvrir 12 mois (elles sont multipliées par 4 et les ajustements supplémentaires tiennent compte des valeurs extrêmes). L'inclusion des dépenses annualisées pour les médicaments et produits pharmaceutiques d'ordonnance dans le numérateur pour cet indicateur exige de présumer que les dépenses d'un ménage donné pour cet article ne varient pas entre les différentes périodes de trois mois de l'année.</p>
+  <p>Le revenu du ménage après impôt a été utilisé pour le dénominateur, puisqu'aucune mesure de la consommation totale annuelle n'est disponible au niveau du ménage individuel en raison de la conception de l'enquête.</p>
+REC_USE_LIM: |-
+  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique: « Proportion de la population consacrant une grande part de ses dépenses ou de ses revenus domestiques aux services de soins de santé ». Les estimations de l’enquête sur les dépenses des ménages (EDM) excluent les trois territoires du Canada.
+PROGRESS_DETAILS: |-
+  L'état du progrès pour cet indicateur est mesuré par rapport à une cible de 0,01 %. Ce choix de cible reflète l'ampleur et la précision des données, en reconnaissant que la méthodologie de mesure de progrès ne permet pas une cible exactement égale à zéro. Pour plus d'information, veuillez consulter la documentation de la méthodologie de mesure de progrès.
 
 ## GLOBAL METADATA
-SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.8 : Faire en sorte que chacun bénéficie d’une couverture
-  sanitaire universelle, comprenant une protection contre les risques financiers et
-  donnant accès à des services de santé essentiels de qualité et à des médicaments
-  et vaccins essentiels sûrs, efficaces, de qualité et d’un coût abordable</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.8.2 : Proportion de la population consacrant
-  une grande part de ses dépenses ou de ses revenus domestiques aux services de soins
-  de santé</p>'
+SDG_GOAL__GLOBAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET__GLOBAL: |-
+  Cible 3.8 : Faire en sorte que chacun bénéficie d’une couverture sanitaire universelle, comprenant une protection contre les risques financiers et donnant accès à des services de santé essentiels de qualité et à des médicaments et vaccins essentiels sûrs, efficaces, de qualité et d’un coût abordable
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 3.8.2 : Proportion de la population consacrant une grande part de ses dépenses ou de ses revenus domestiques aux services de soins de santé
+
+un_designated_tier: Niveau I
+un_custodian_agency: Organisation mondiale de la Santé (OMS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-08-02.pdf
+goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 ## SOURCE(S)
 source_active_1: 'true'
@@ -37,12 +38,3 @@ source_url_1: meta.3-8-2-link
 source_organisation_1: Statistique Canada
 source_periodicity_1: Aux 2 ans
 source_geographical_coverage_1: Canada
-
-un_designated_tier: Niveau I
-un_custodian_agency: Organisation mondiale de la Santé (OMS)
-goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-08-02.pdf
-goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-
- 
-
-proxy: proxy

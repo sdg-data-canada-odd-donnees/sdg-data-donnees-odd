@@ -13,8 +13,9 @@ REC_USE_LIM: |-
   "Total Human Trafficking" is comprised of two violation codes, 1525 "Trafficking in Persons" (S.279.01, 279.011, 279.02, 279.03 of the Criminal Code) and 6510 "Human Trafficking" from S.117 of the Immigration and Refugee Protection Act.
   <br><br>
   Human trafficking incidents reported to the Uniform Crime Reporting (UCR) Survey may be undercounted due to differences in police reporting practices for this violation.
- 
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  The progress status for this indicator is measured with respect to a target of 0.1 incidents per 100,000 population. This target selection reflects the magnitude and precision of the data, while acknowledging that the progress measurement methodology cannot accomodate a target of exactly zero. For more information, please refer to the progress measurement methodology documentation.
+
 # GLOBAL
 SDG_GOAL__GLOBAL: |-
   Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels

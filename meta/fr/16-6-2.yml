@@ -9,7 +9,7 @@ STAT_CONC_DEF: |-
   Cet indicateur mesure le degré de satisfaction du public quant à ses dernières expériences auprès des services publics, dans trois secteurs de service, notamment la santé, l’éducation et les services gouvernementaux (c.-à-d. les services permettant d’obtenir des documents d’identité délivrés par le gouvernement et les services d’enregistrement de l’état civil pour des événements de la vie comme les naissances, les mariages et les décès). Il s’agit d’un indicateur qui repose sur des données d’enquête qui met l’accent sur les <em>expériences</em> des citoyens plutôt que sur les perceptions générales, en vue de mesurer la disponibilité et la qualité des services <em>comme ils ont été effectivement fournis par les répondants aux enquêtes</em>. 
 DATA_COMP: '   '
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: |-

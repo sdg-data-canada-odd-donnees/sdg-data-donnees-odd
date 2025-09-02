@@ -15,7 +15,7 @@ DATA_COMP: '   '
 #  DMC per GDP = DMC/GDP in chained 2017 dollars
 REC_USE_LIM: '   '
 #  The series <i>Domestic material consumption per GDP</i> is reported in tonnes per chained 2017 canadian dollars, as opposed to "Kilograms per constant United States dollar" as per the official metadata.
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'

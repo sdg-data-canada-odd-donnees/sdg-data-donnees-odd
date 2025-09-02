@@ -10,7 +10,8 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   La désagrégation pour la catégorie « Caractéristiques sélectionnées » n'est disponible que lorsque « Total de tous les types de violence » est sélectionné dans la catégorie « Type de violence entre partenaires intimes ».
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  L'état du progrès pour cet indicateur est mesuré par rapport à une cible de 0,1 %. Ce choix de cible reflète l'ampleur et la précision des données, en reconnaissant que la méthodologie de mesure de progrès ne permet pas une cible exactement égale à zéro. Pour plus d'information, veuillez consulter la documentation de la méthodologie de mesure de progrès.
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes et les filles</p>'

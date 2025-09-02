@@ -1,94 +1,155 @@
-Year,Series,Sex,Type of disease,Value
-2010,Leprosy,,,4
-2011,Leprosy,,,11
-2012,Leprosy,,,9
-2013,Leprosy,,,2
-2014,Leprosy,,,6
-2015,Leprosy,,,9
-2016,Leprosy,,,8
-2017,Leprosy,,,1
-2018,Leprosy,,,12
-2019,Leprosy,,,3
-2020,Leprosy,,,1
-2021,Leprosy,,,7
-2022,Leprosy,,,3
-2010,Leprosy,Male,,2
-2011,Leprosy,Male,,7
-2012,Leprosy,Male,,7
-2013,Leprosy,Male,,1
-2014,Leprosy,Male,,5
-2015,Leprosy,Male,,5
-2016,Leprosy,Male,,6
-2017,Leprosy,Male,,1
-2018,Leprosy,Male,,10
-2019,Leprosy,Male,,2
-2020,Leprosy,Male,,1
-2021,Leprosy,Male,,5
-2022,Leprosy,Male,,2
-2010,Leprosy,Female,,2
-2011,Leprosy,Female,,3
-2012,Leprosy,Female,,2
-2013,Leprosy,Female,,1
-2014,Leprosy,Female,,1
-2015,Leprosy,Female,,4
-2016,Leprosy,Female,,2
-2017,Leprosy,Female,,0
-2018,Leprosy,Female,,1
-2019,Leprosy,Female,,1
-2020,Leprosy,Female,,0
-2021,Leprosy,Female,,2
-2022,Leprosy,Female,,1
-2010,Leprosy,Unknown,,0
-2011,Leprosy,Unknown,,1
-2012,Leprosy,Unknown,,0
-2013,Leprosy,Unknown,,0
-2014,Leprosy,Unknown,,0
-2015,Leprosy,Unknown,,0
-2016,Leprosy,Unknown,,0
-2017,Leprosy,Unknown,,0
-2018,Leprosy,Unknown,,1
-2019,Leprosy,Unknown,,0
-2020,Leprosy,Unknown,,0
-2021,Leprosy,Unknown,,0
-2022,Leprosy,Unknown,,0
-2010,Rabies,,,0
-2011,Rabies,,,0
-2012,Rabies,,,1
-2013,Rabies,,,0
-2014,Rabies,,,0
-2015,Rabies,,,0
-2016,Rabies,,,0
-2017,Rabies,,,0
-2018,Rabies,,,0
-2019,Rabies,,,1
-2020,Rabies,,,0
-2021,Rabies,,,0
-2022,Rabies,,,0
-2010,Rabies,Male,,0
-2011,Rabies,Male,,0
-2012,Rabies,Male,,1
-2013,Rabies,Male,,0
-2014,Rabies,Male,,0
-2015,Rabies,Male,,0
-2016,Rabies,Male,,0
-2017,Rabies,Male,,0
-2018,Rabies,Male,,0
-2019,Rabies,Male,,1
-2020,Rabies,Male,,0
-2021,Rabies,Male,,0
-2022,Rabies,Male,,0
-2010,Rabies,Female,,0
-2011,Rabies,Female,,0
-2012,Rabies,Female,,0
-2013,Rabies,Female,,0
-2014,Rabies,Female,,0
-2015,Rabies,Female,,0
-2016,Rabies,Female,,0
-2017,Rabies,Female,,0
-2018,Rabies,Female,,0
-2019,Rabies,Female,,0
-2020,Rabies,Female,,0
-2021,Rabies,Female,,0
-2022,Rabies,Female,,0
-2010,,,Rabies,
-2010,,,Leprosy,
+Year,Neglected tropical diseases,Sex,Value
+2010,,,4
+2011,,,11
+2012,,,10
+2013,,,2
+2014,,,6
+2015,,,9
+2016,,,8
+2017,,,1
+2018,,,12
+2019,,,4
+2020,,,1
+2021,,,7
+2022,,,3
+2023,,,3
+2010,Total - Neglected tropical diseases,Male,2
+2011,Total - Neglected tropical diseases,Male,7
+2012,Total - Neglected tropical diseases,Male,8
+2013,Total - Neglected tropical diseases,Male,1
+2014,Total - Neglected tropical diseases,Male,5
+2015,Total - Neglected tropical diseases,Male,5
+2016,Total - Neglected tropical diseases,Male,6
+2017,Total - Neglected tropical diseases,Male,1
+2018,Total - Neglected tropical diseases,Male,10
+2019,Total - Neglected tropical diseases,Male,3
+2020,Total - Neglected tropical diseases,Male,1
+2021,Total - Neglected tropical diseases,Male,5
+2022,Total - Neglected tropical diseases,Male,2
+2023,Total - Neglected tropical diseases,Male,3
+2010,Total - Neglected tropical diseases,Female,2
+2011,Total - Neglected tropical diseases,Female,3
+2012,Total - Neglected tropical diseases,Female,2
+2013,Total - Neglected tropical diseases,Female,1
+2014,Total - Neglected tropical diseases,Female,1
+2015,Total - Neglected tropical diseases,Female,4
+2016,Total - Neglected tropical diseases,Female,2
+2017,Total - Neglected tropical diseases,Female,0
+2018,Total - Neglected tropical diseases,Female,1
+2019,Total - Neglected tropical diseases,Female,1
+2020,Total - Neglected tropical diseases,Female,0
+2021,Total - Neglected tropical diseases,Female,2
+2022,Total - Neglected tropical diseases,Female,1
+2023,Total - Neglected tropical diseases,Female,0
+2010,Total - Neglected tropical diseases,Unknown,0
+2011,Total - Neglected tropical diseases,Unknown,1
+2012,Total - Neglected tropical diseases,Unknown,0
+2013,Total - Neglected tropical diseases,Unknown,0
+2014,Total - Neglected tropical diseases,Unknown,0
+2015,Total - Neglected tropical diseases,Unknown,0
+2016,Total - Neglected tropical diseases,Unknown,0
+2017,Total - Neglected tropical diseases,Unknown,0
+2018,Total - Neglected tropical diseases,Unknown,1
+2019,Total - Neglected tropical diseases,Unknown,0
+2020,Total - Neglected tropical diseases,Unknown,0
+2021,Total - Neglected tropical diseases,Unknown,0
+2022,Total - Neglected tropical diseases,Unknown,0
+2023,Total - Neglected tropical diseases,Unknown,0
+2010,Leprosy,All,4
+2011,Leprosy,All,11
+2012,Leprosy,All,9
+2013,Leprosy,All,2
+2014,Leprosy,All,6
+2015,Leprosy,All,9
+2016,Leprosy,All,8
+2017,Leprosy,All,1
+2018,Leprosy,All,12
+2019,Leprosy,All,3
+2020,Leprosy,All,1
+2021,Leprosy,All,7
+2022,Leprosy,All,3
+2023,Leprosy,All,3
+2010,Leprosy,Male,2
+2011,Leprosy,Male,7
+2012,Leprosy,Male,7
+2013,Leprosy,Male,1
+2014,Leprosy,Male,5
+2015,Leprosy,Male,5
+2016,Leprosy,Male,6
+2017,Leprosy,Male,1
+2018,Leprosy,Male,10
+2019,Leprosy,Male,2
+2020,Leprosy,Male,1
+2021,Leprosy,Male,5
+2022,Leprosy,Male,2
+2023,Leprosy,Male,3
+2010,Leprosy,Female,2
+2011,Leprosy,Female,3
+2012,Leprosy,Female,2
+2013,Leprosy,Female,1
+2014,Leprosy,Female,1
+2015,Leprosy,Female,4
+2016,Leprosy,Female,2
+2017,Leprosy,Female,0
+2018,Leprosy,Female,1
+2019,Leprosy,Female,1
+2020,Leprosy,Female,0
+2021,Leprosy,Female,2
+2022,Leprosy,Female,1
+2023,Leprosy,Female,0
+2010,Leprosy,Unknown,0
+2011,Leprosy,Unknown,1
+2012,Leprosy,Unknown,0
+2013,Leprosy,Unknown,0
+2014,Leprosy,Unknown,0
+2015,Leprosy,Unknown,0
+2016,Leprosy,Unknown,0
+2017,Leprosy,Unknown,0
+2018,Leprosy,Unknown,1
+2019,Leprosy,Unknown,0
+2020,Leprosy,Unknown,0
+2021,Leprosy,Unknown,0
+2022,Leprosy,Unknown,0
+2023,Leprosy,Unknown,0
+2010,Rabies,All,0
+2011,Rabies,All,0
+2012,Rabies,All,1
+2013,Rabies,All,0
+2014,Rabies,All,0
+2015,Rabies,All,0
+2016,Rabies,All,0
+2017,Rabies,All,0
+2018,Rabies,All,0
+2019,Rabies,All,1
+2020,Rabies,All,0
+2021,Rabies,All,0
+2022,Rabies,All,0
+2023,Rabies,All,0
+2010,Rabies,Male,0
+2011,Rabies,Male,0
+2012,Rabies,Male,1
+2013,Rabies,Male,0
+2014,Rabies,Male,0
+2015,Rabies,Male,0
+2016,Rabies,Male,0
+2017,Rabies,Male,0
+2018,Rabies,Male,0
+2019,Rabies,Male,1
+2020,Rabies,Male,0
+2021,Rabies,Male,0
+2022,Rabies,Male,0
+2023,Rabies,Male,0
+2010,Rabies,Female,0
+2011,Rabies,Female,0
+2012,Rabies,Female,0
+2013,Rabies,Female,0
+2014,Rabies,Female,0
+2015,Rabies,Female,0
+2016,Rabies,Female,0
+2017,Rabies,Female,0
+2018,Rabies,Female,0
+2019,Rabies,Female,0
+2020,Rabies,Female,0
+2021,Rabies,Female,0
+2022,Rabies,Female,0
+2023,Rabies,Female,0

@@ -9,7 +9,7 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   Il s’agit d’un indicateur de substitution. L’indicateur mondial des Nations Unies indique : « Nombre d’accidents du travail mortels et non mortels par 100 000 travailleurs, par sexe et statut au regard de l’immigration ».
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous</p>'

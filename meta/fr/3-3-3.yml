@@ -1,43 +1,42 @@
-SDG_GOAL:
-  "<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>"
-SDG_TARGET:
-  "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose,
-  au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies
-  transmises par l’eau et autres maladies transmissibles.</p>"
-SDG_INDICATOR: "<p>Indicateur 3.3.3 : Incidence du paludisme pour 100 000 habitants</p>"
-STAT_CONC_DEF:
-  <p>L'incidence du paludisme est définie comme le nombre de nouveaux
-  cas de paludisme pour 100 000 habitants chaque année.</p>
+# National
+SDG_GOAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET: |-
+  Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies transmises par l’eau et autres maladies transmissibles.
+SDG_INDICATOR: |-
+  Indicateur 3.3.3 : Incidence du paludisme pour 100 000 habitants
+STAT_CONC_DEF: |-
+  L'incidence du paludisme est définie comme le nombre de nouveaux cas de paludisme pour 100 000 habitants chaque année.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
-  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique: « Incidence du paludisme pour 1 000 habitants ». <br><br>
-  Les données nationales pour l'indicateur 3.3.3 mesurent l'incidence du paludisme pour 100 000 habitants, plutôt que pour 1 000 habitants à risque comme spécifié dans les métadonnées. <br><br>
-  La population totale est utilisée comme dénominateur pour le calcul de l'incidence du paludisme, plutôt que la population à risque. <br><br>
-  De 2013 à 2016, les données provenant du Québec pouvaient comprendre des cas probables du paludisme. <br><br>
+REC_USE_LIM: |-
+  Il s’agit d’un indicateur de substitution. L’indicateur global des Nations Unies indique: « Incidence du paludisme pour 1 000 habitants ».
+  <br><br>
+  Les données nationales pour l'indicateur 3.3.3 mesurent l'incidence du paludisme pour 100 000 habitants, plutôt que pour 1 000 habitants à risque comme spécifié dans les métadonnées.
+  <br><br>
+  La population totale est utilisée comme dénominateur pour le calcul de l'incidence du paludisme, plutôt que la population à risque.
+  <br><br>
+  De 2013 à 2016, les données provenant du Québec pouvaient comprendre des cas probables du paludisme.
+  <br><br>
   De 2018 à 2022, les données provenant de l'Ontario ont été omises du calcul du taux national, car la province n'inclut plus le paludisme comme une maladie d'intérêt pour la surveillance de la santé publique.
-PROGRESS_DETAILS: custom.progress_details
-SDG_GOAL__GLOBAL:
-  "<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>"
-SDG_TARGET__GLOBAL:
-  "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à
-  la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite,
-  les maladies transmises par l’eau et autres maladies transmissibles.</p>"
-SDG_INDICATOR__GLOBAL: "<p>Indicateur 3.3.3 : Incidence du paludisme pour 1 000 habitants</p>"
+PROGRESS_DETAILS: |-
+  La cible pour cet indicateur est une réduction du taux d'incidence par 90 % d'ici 2030, par rapport à la référence de 2015, comme établi par l'Organisation mondiale de la santé dans la [Lutte contre le paludisme : stratégie technique mondiale et cibles 2016-2030](https://apps.who.int/gb/ebwha/pdf_files/WHA68-REC1/A68_2015_REC1-fr.pdf).
 
-source_active_1: true
-source_url_text_1: Maladies à déclaration obligatoire en direct
-source_url_1: https://maladies.canada.ca/declaration-obligatoire/graphiques?c=yl%27
-source_organisation_1: |
-  Agence de la santé publique du Canada
-source_periodicity_1: Annuelle
-source_geographical_coverage_1: Canada
-
-reporting_status: complete
+SDG_GOAL__GLOBAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET__GLOBAL: |-
+  Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose, au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les maladies transmises par l’eau et autres maladies transmissibles.
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 3.3.3 : Incidence du paludisme pour 1 000 habitants
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation Mondiale de la Santé (OMS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-03.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
-proxy: proxy
+
+# Source(s)
+source_active_1: true
+source_url_text_1: Maladies à déclaration obligatoire en direct
+source_url_1: https://maladies.canada.ca/declaration-obligatoire/graphiques?c=yl%27
+source_organisation_1: Agence de la santé publique du Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada

@@ -13,7 +13,7 @@ DATA_COMP: >-
   Les données proviennent du système de notification des pays créanciers de l’Organisation de coopération et de développement économiques (OCDE). Les codes correspondent à la série 140 complète pour le secteur de la distribution d’eau et de l’assainissement et au code du système de notification des pays créanciers (SNPC) 31140 pour les ressources en eau à usage agricole. L’APD brute pour ces codes est additionnée pour les données du Canada.
 REC_USE_LIM: >-
   Il s’agit d’un indicateur de substitution mesurant le montant total d’Aide publique au développement (APD) liée à l’eau et à l’assainissement, tandis que les métadonnées mondiales des Nations Unies précisent : « L’indicateur est calculé comme la proportion de l’APD totale liée à l’eau et à l’assainissement qui est incluse dans le budget du gouvernement, c’est-à-dire le montant de l’APD liée à l’eau et à l’assainissement dans le budget du gouvernement divisé par le montant total de l’APD liée à l’eau et à l’assainissement. »
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: >-

@@ -44,11 +44,11 @@ progress_calculation_options:
   disaggregation:
   - field: Indicator
     value: Ratio of regulatory capital to risk-weighted assets
-- direction: positive
+- direction: negative
   disaggregation:
   - field: Indicator
     value: Ratio of non-performing loans net of provisions to capital
-- direction: positive
+- direction: negative
   disaggregation:
   - field: Indicator
     value: Ratio of non-performing loans to total gross loans

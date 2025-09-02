@@ -60,9 +60,9 @@ data_final <-
     Year = as.numeric(Year),   # convert to numeric
     Value = as.numeric(Value)  # ensure Value is numeric too
   ) %>%
-  arrange(Age, Sex) %>%   # order ascending by year 
+  arrange(Age, Sex) %>%   # order ascending by year
+  rename(`Age group` = Age) %>%
   select(-`Series`)
-  
 
 write.csv(
   data_final, 

@@ -10,7 +10,7 @@ STAT_CONC_DEF: >-
   L'indicateur est basé sur le codage des sources textuelles par rapport à une liste détaillée de critères d'évaluation, le codage étant ensuite converti en indicateur. Il va de 0 à 10, 0 étant le meilleur score possible (indiquant des niveaux plus élevés de respect de la liberté d'association et des droits de négociation collective) et 10 le plus mauvais (indiquant des niveaux plus faibles de respect de la liberté d'association et des droits de négociation collective).
 DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: custom.progress-details
 
 # Global
 SDG_GOAL__GLOBAL: '<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous</p>'

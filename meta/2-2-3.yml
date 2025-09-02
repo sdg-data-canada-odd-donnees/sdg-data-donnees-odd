@@ -1,27 +1,24 @@
 # NATIONAL
-SDG_GOAL: 'Goal 2: End hunger, achieve food security and improved nutrition and
-  promote sustainable agriculture'
-SDG_TARGET: 'Target 2.2: By 2030, end all forms of malnutrition, including achieving,
-  by 2025, the internationally agreed targets on stunting and wasting in children
-  under 5 years of age, and address the nutritional needs of adolescent girls, pregnant
-  and lactating women and older persons'
-SDG_INDICATOR: 'Indicator 2.2.3: Prevalence of anaemia in women aged 15-49 years,
-  by pregnancy status (percentage)'
-STAT_CONC_DEF: |
-    Anaemia is defined as the prevalence of haemoglobin concentrations below 110 g/L for pregnant women and 120 g/L for non-pregnant women.
+SDG_GOAL: |-
+  Goal 2: End hunger, achieve food security and improved nutrition and promote sustainable agriculture
+SDG_TARGET: |-
+  Target 2.2: By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons
+SDG_INDICATOR: |-
+  Indicator 2.2.3: Prevalence of anaemia in women aged 15-49 years, by pregnancy status (percentage)
+STAT_CONC_DEF: |-
+  Anaemia is defined as the prevalence of haemoglobin concentrations below 110 g/L for pregnant women and 120 g/L for non-pregnant women.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: This indicator uses modelled data sourced from the World Health Organization (WHO).
- 
-PROGRESS_DETAILS: custom.progress_details
+PROGRESS_DETAILS: |-
+  The progress status for this indicator is measured with respect to a target of 0.1%. This target selection reflects the magnitude and precision of the data, while acknowledging that the progress measurement methodology cannot accomodate a target of exactly zero. For more information, please refer to the progress measurement methodology documentation.
+
 # GLOBAL
-SDG_GOAL__GLOBAL: 'Goal 2: End hunger, achieve food security and improved nutrition
-  and promote sustainable agriculture'
-SDG_TARGET__GLOBAL: 'Target 2.2: By 2030, end all forms of malnutrition, including
-  achieving, by 2025, the internationally agreed targets on stunting and wasting in
-  children under 5 years of age, and address the nutritional needs of adolescent girls,
-  pregnant and lactating women and older persons'
-SDG_INDICATOR__GLOBAL: 'Indicator 2.2.3: Prevalence of anaemia in women aged 15-49
-  years, by pregnancy status (percentage)'
+SDG_GOAL__GLOBAL: |-
+  Goal 2: End hunger, achieve food security and improved nutrition and promote sustainable agriculture
+SDG_TARGET__GLOBAL: |-
+  Target 2.2: By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 2.2.3: Prevalence of anaemia in women aged 15-49 years, by pregnancy status (percentage)
 
 un_designated_tier: Tier I
 un_custodian_agency: World Health Organization (WHO)
