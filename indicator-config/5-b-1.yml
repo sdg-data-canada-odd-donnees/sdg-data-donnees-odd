@@ -14,12 +14,12 @@ embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
-  - Sex
+#  - Sex
   - Geography
-  - Age group
-  - Education
-  - Labour force status
-  - Occupation
+#  - Age group
+#  - Education
+#  - Labour force status
+#  - Occupation
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
