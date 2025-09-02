@@ -12,8 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Alberta",
+                "Manitoba",
+                "Saskatchewan",
+                "Colombie-Britannique",
+                "Ontario",
+                "Québec",
+                "Nunavut",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                ""
+              ]
+            },
+            "title": "Géographie"
           },
           {
             "name": "Value",

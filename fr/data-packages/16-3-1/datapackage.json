@@ -41,6 +41,18 @@
             "title": "Type de victimisation"
           },
           {
+            "name": "Type of violence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Violence physique",
+                "Violence sexuelle",
+                ""
+              ]
+            },
+            "title": "Type of violence"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

@@ -40,6 +40,20 @@
             }
           },
           {
+            "name": "Mode of transport",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Air freight volume",
+                "Air passengers",
+                "Rail freight volume",
+                "Rail passengers",
+                "Road freight volume",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

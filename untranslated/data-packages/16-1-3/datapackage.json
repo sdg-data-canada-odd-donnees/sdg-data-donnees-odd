@@ -123,8 +123,19 @@
             }
           },
           {
+            "name": "Type of crime",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sexual violence",
+                "Physical violence",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

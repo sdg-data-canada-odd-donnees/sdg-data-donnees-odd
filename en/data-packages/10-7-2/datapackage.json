@@ -12,8 +12,24 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Policy domain",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Migrant rights",
+                "Whole-of-government/evidence-based policies",
+                "Cooperation and partnerships",
+                "Socioeconomic well-being",
+                "Mobility dimensions of crises",
+                "Safe, orderly and regular migration",
+                ""
+              ]
+            },
+            "title": "Policy domain"
           },
           {
             "name": "Value",

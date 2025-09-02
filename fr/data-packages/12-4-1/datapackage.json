@@ -16,59 +16,17 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "Convention",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                "Canadian territorial enclaves abroad",
+                "Canada-USA Agreement on the Transboundary Movement of Hazardous Waste",
+                "Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal",
+                "Control of Transboundary Movements of Waste Destined for Recovery Operations",
                 ""
               ]
             },
-            "title": "Géographie"
-          },
-          {
-            "name": "Product category",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Construction materials",
-                "Electrical and electronic equipment",
-                "Matériel électronique",
-                "Major appliances",
-                "Other electrical and electronic equipment",
-                "Packaging",
-                "Bottles",
-                "Film",
-                "Non-bottle rigid",
-                "Other packaging products",
-                "Agriculture film",
-                "Textiles",
-                "Vehicles",
-                "Other products",
-                "Total, all product categories",
-                ""
-              ]
-            },
-            "title": "Product category"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
+            "title": "Convention"
           },
           {
             "name": "Value",

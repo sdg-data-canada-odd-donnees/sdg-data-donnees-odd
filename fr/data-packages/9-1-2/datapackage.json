@@ -43,6 +43,21 @@
             "title": "Unités"
           },
           {
+            "name": "Mode of transport",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Volume de fret aérien",
+                "Passagers aériens",
+                "Volume de fret ferroviaire",
+                "Passagers ferroviaires",
+                "Volume de fret routier",
+                ""
+              ]
+            },
+            "title": "Mode of transport"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

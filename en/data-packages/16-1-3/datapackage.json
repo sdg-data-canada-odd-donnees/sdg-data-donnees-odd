@@ -133,8 +133,20 @@
             "title": "Marital status"
           },
           {
+            "name": "Type of crime",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sexual violence",
+                "Physical violence",
+                ""
+              ]
+            },
+            "title": "Type of crime"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

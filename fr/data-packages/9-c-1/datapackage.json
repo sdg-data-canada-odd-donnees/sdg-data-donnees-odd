@@ -41,6 +41,20 @@
             "title": "Unités"
           },
           {
+            "name": "Technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Accès haute vitesse évolué par paquets (HSPA+)",
+                "5G",
+                "Évolution à long terme - A (LTE-A)",
+                "Évolution à long terme (LTE)",
+                ""
+              ]
+            },
+            "title": "Technology"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

@@ -34,12 +34,12 @@ Indicator,Disaggregations,Number of disaggregations
 #15-2-1,"Series, Units",2
 #15-5-1,"Series, Species group, System",3
 #16-1-1,"Geography, Gender, Indigenous identity",3
-#16-1-3,"Series, Visible minority, Age group, Gender, Sexual orientation, First Nations, Métis, or Inuit identity, Person with disability, Immigrant status, Marital status",9
+#16-1-3,"Series, Visible minority, Age group, Gender, Sexual orientation, First Nations, Métis, or Inuit identity, Person with disability, Immigrant status, Marital status, Type of crime",10
 #16-1-4,"Visible minority, Sociodemographic characteristics",2
 #16-10-2,Component,1
 #16-2-1,"Geography, Visible minority, Age group, Gender, Sexual orientation, Immigrant status, Indigenous identity, Disability, Type of childhood maltreatment",9
 #16-2-3,"Geography, Age group, Gender",3
-#16-3-1,"Series, Type of victimization",2
+#16-3-1,"Series, Type of victimization, Type of violence",3
 #16-3-3,Resolution mechanism,1
 #16-7-2,"Visible minority, Institutions, Selected sociodemographic characteristics",3
 #16-b-1,"Geography, Series, Visible minority, Highest level of education, Age group, Gender, Immigrant status, Indigenous identity, Discrimination indicators, Disability, LGBTQ2+, Main activity, Area",13
@@ -110,7 +110,7 @@ Indicator,Disaggregations,Number of disaggregations
 #8-8-1,"Series, Sex",2
 #8-a-1,Flow type,1
 #9-1-1,Geography,1
-#9-1-2,"Series, Units",2
+#9-1-2,"Series, Units, Mode of transport",3
 #9-2-1,"Geography, Series, Units",3
 #9-2-2,"Geography, Industry",2
 #9-3-1,"Industry, Size",2
@@ -118,4 +118,4 @@ Indicator,Disaggregations,Number of disaggregations
 #9-5-1,Geography,1
 #9-a-1,Measure,1
 #9-b-1,Geography,1
-#9-c-1,"Series, Units",2
+#9-c-1,"Series, Units, Technology",3

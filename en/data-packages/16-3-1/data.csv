@@ -1,16 +1,18 @@
-Year,Series,Type of victimization,Value
-1999,Physical violence,Physical assault,37.0
-1999,Physical violence,Robbery,46.0
-1999,Sexual violence,Sexual assault,
-2004,Physical violence,Physical assault,39.0
-2004,Physical violence,Robbery,46.0
-2004,Sexual violence,Sexual assault,8.0
-2009,Physical violence,Physical assault,34.0
-2009,Physical violence,Robbery,43.0
-2009,Sexual violence,Sexual assault,
-2014,Physical violence,Physical assault,38.0
-2014,Physical violence,Robbery,45.0
-2014,Sexual violence,Sexual assault,5.0
-2019,Physical violence,Physical assault,36.0
-2019,Physical violence,Robbery,47.0
-2019,Sexual violence,Sexual assault,6.0
+Year,Series,Type of victimization,Type of violence,Value
+1999,Physical violence,Physical assault,,37.0
+1999,Physical violence,Robbery,,46.0
+1999,Sexual violence,Sexual assault,,
+2004,Physical violence,Physical assault,,39.0
+2004,Physical violence,Robbery,,46.0
+2004,Sexual violence,Sexual assault,,8.0
+2009,Physical violence,Physical assault,,34.0
+2009,Physical violence,Robbery,,43.0
+2009,Sexual violence,Sexual assault,,
+2014,Physical violence,Physical assault,,38.0
+2014,Physical violence,Robbery,,45.0
+2014,Sexual violence,Sexual assault,,5.0
+2019,Physical violence,Physical assault,,36.0
+2019,Physical violence,Robbery,,47.0
+2019,Sexual violence,Sexual assault,,6.0
+2019,,,Physical violence,
+2019,,,Sexual violence,

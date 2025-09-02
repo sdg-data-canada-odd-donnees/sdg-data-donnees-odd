@@ -38,6 +38,19 @@
             }
           },
           {
+            "name": "Technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Evolved High-Speed Packet Access (HSPA+)",
+                "5G",
+                "Long-Term Evolution - A (LTE-A)",
+                "Long-Term Evolution (LTE)",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

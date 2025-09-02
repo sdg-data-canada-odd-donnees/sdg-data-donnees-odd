@@ -1,43 +1,48 @@
-Year,Series,Units,Value
-2015,Volume de fret aérien,Tonnes métriques,1172780.8
-2016,Volume de fret aérien,Tonnes métriques,1223213.3
-2017,Volume de fret aérien,Tonnes métriques,1316626.7
-2018,Volume de fret aérien,Tonnes métriques,1444698.9
-2019,Volume de fret aérien,Tonnes métriques,1377025.8
-2020,Volume de fret aérien,Tonnes métriques,1186628.5
-2021,Volume de fret aérien,Tonnes métriques,1299219.8
-2022,Volume de fret aérien,Tonnes métriques,1473149.8
-2023,Volume de fret aérien,Tonnes métriques,1502474.1
-2024,Volume de fret aérien,Tonnes métriques,1578894.4
-2015,Passagers aériens,Nombre de passagers,133426703.0
-2016,Passagers aériens,Nombre de passagers,140892544.0
-2017,Passagers aériens,Nombre de passagers,150808451.0
-2018,Passagers aériens,Nombre de passagers,160641587.0
-2019,Passagers aériens,Nombre de passagers,162864077.0
-2020,Passagers aériens,Nombre de passagers,46349535.0
-2021,Passagers aériens,Nombre de passagers,46280911.0
-2022,Passagers aériens,Nombre de passagers,118882897.0
-2023,Passagers aériens,Nombre de passagers,150701926.0
-2024,Passagers aériens,Nombre de passagers,156722185.0
-2015,Volume de fret ferroviaire,Tonnes métriques,304908351.0
-2016,Volume de fret ferroviaire,Tonnes métriques,292888995.0
-2017,Volume de fret ferroviaire,Tonnes métriques,311701985.0
-2018,Volume de fret ferroviaire,Tonnes métriques,328539280.0
-2019,Volume de fret ferroviaire,Tonnes métriques,330244510.0
-2020,Volume de fret ferroviaire,Tonnes métriques,321764297.0
-2021,Volume de fret ferroviaire,Tonnes métriques,321060103.0
-2022,Volume de fret ferroviaire,Tonnes métriques,315660251.0
-2023,Volume de fret ferroviaire,Tonnes métriques,325563272.0
-2015,Passagers ferroviaires,Nombre de passagers,3921000.0
-2016,Passagers ferroviaires,Nombre de passagers,4080000.0
-2017,Passagers ferroviaires,Nombre de passagers,4496000.0
-2018,Passagers ferroviaires,Nombre de passagers,4838000.0
-2019,Passagers ferroviaires,Nombre de passagers,5102000.0
-2020,Passagers ferroviaires,Nombre de passagers,1125000.0
-2021,Passagers ferroviaires,Nombre de passagers,1549000.0
-2022,Passagers ferroviaires,Nombre de passagers,3377000.0
-2023,Passagers ferroviaires,Nombre de passagers,4187000.0
-2015,Volume de fret routier,Tonnes métriques,729215433.594
-2016,Volume de fret routier,Tonnes métriques,755515777.679
-2017,Volume de fret routier,Tonnes métriques,751948221.713
-2018,Volume de fret routier,Tonnes métriques,753715221.437
+Year,Series,Units,Mode of transport,Value
+2015,Volume de fret aérien,Tonnes métriques,,1172780.8
+2016,Volume de fret aérien,Tonnes métriques,,1223213.3
+2017,Volume de fret aérien,Tonnes métriques,,1316626.7
+2018,Volume de fret aérien,Tonnes métriques,,1444698.9
+2019,Volume de fret aérien,Tonnes métriques,,1377025.8
+2020,Volume de fret aérien,Tonnes métriques,,1186628.5
+2021,Volume de fret aérien,Tonnes métriques,,1299219.8
+2022,Volume de fret aérien,Tonnes métriques,,1473149.8
+2023,Volume de fret aérien,Tonnes métriques,,1502474.1
+2024,Volume de fret aérien,Tonnes métriques,,1578894.4
+2015,Passagers aériens,Nombre de passagers,,133426703.0
+2016,Passagers aériens,Nombre de passagers,,140892544.0
+2017,Passagers aériens,Nombre de passagers,,150808451.0
+2018,Passagers aériens,Nombre de passagers,,160641587.0
+2019,Passagers aériens,Nombre de passagers,,162864077.0
+2020,Passagers aériens,Nombre de passagers,,46349535.0
+2021,Passagers aériens,Nombre de passagers,,46280911.0
+2022,Passagers aériens,Nombre de passagers,,118882897.0
+2023,Passagers aériens,Nombre de passagers,,150701926.0
+2024,Passagers aériens,Nombre de passagers,,156722185.0
+2015,Volume de fret ferroviaire,Tonnes métriques,,304908351.0
+2016,Volume de fret ferroviaire,Tonnes métriques,,292888995.0
+2017,Volume de fret ferroviaire,Tonnes métriques,,311701985.0
+2018,Volume de fret ferroviaire,Tonnes métriques,,328539280.0
+2019,Volume de fret ferroviaire,Tonnes métriques,,330244510.0
+2020,Volume de fret ferroviaire,Tonnes métriques,,321764297.0
+2021,Volume de fret ferroviaire,Tonnes métriques,,321060103.0
+2022,Volume de fret ferroviaire,Tonnes métriques,,315660251.0
+2023,Volume de fret ferroviaire,Tonnes métriques,,325563272.0
+2015,Passagers ferroviaires,Nombre de passagers,,3921000.0
+2016,Passagers ferroviaires,Nombre de passagers,,4080000.0
+2017,Passagers ferroviaires,Nombre de passagers,,4496000.0
+2018,Passagers ferroviaires,Nombre de passagers,,4838000.0
+2019,Passagers ferroviaires,Nombre de passagers,,5102000.0
+2020,Passagers ferroviaires,Nombre de passagers,,1125000.0
+2021,Passagers ferroviaires,Nombre de passagers,,1549000.0
+2022,Passagers ferroviaires,Nombre de passagers,,3377000.0
+2023,Passagers ferroviaires,Nombre de passagers,,4187000.0
+2015,Volume de fret routier,Tonnes métriques,,729215433.594
+2016,Volume de fret routier,Tonnes métriques,,755515777.679
+2017,Volume de fret routier,Tonnes métriques,,751948221.713
+2018,Volume de fret routier,Tonnes métriques,,753715221.437
+2015,,,Volume de fret aérien,
+2015,,,Passagers aériens,
+2015,,,Volume de fret ferroviaire,
+2015,,,Passagers ferroviaires,
+2015,,,Volume de fret routier,
