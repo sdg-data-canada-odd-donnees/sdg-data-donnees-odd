@@ -16,7 +16,13 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - Geography
+  - Type of natural disaster
+  - Sex
+  - Age group
+  - Disability
+  - Income
 # - Geography
 # - Type of natural disaster
 # - Number of deaths attributed to disasters
