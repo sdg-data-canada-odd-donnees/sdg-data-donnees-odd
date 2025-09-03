@@ -26,8 +26,10 @@ embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
-  - Sex
+#  - Sex
   - Age group
+  - Geography
+  - Type of institution attended
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''

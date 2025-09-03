@@ -23,11 +23,11 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
   - Selected sociodemographic characteristics
-  - Disability
+#  - Disability
   - Visible minority
-  - Income level
-  - Education
-  - Geography
+  - Institutions
+#  - Income level
+#  - Geography
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''

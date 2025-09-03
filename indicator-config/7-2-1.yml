@@ -19,7 +19,8 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
   - Type of electricity generation
-  - Final consumption sectors
+#  - Final consumption sectors
+  - Geography
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
