@@ -2182,9 +2182,9 @@
     current_value: 77.1
     current_year: 2021.0
     direction: 1
-    limit: null
+    limit: 100
     progress_value: 0.00043299439130128903
-    score: -2.2835028043493555
+    score: -2.1855343809280647
     sign: 1
     status: limited_progress
     target: null
@@ -2195,7 +2195,7 @@
     current_value: 84.0
     current_year: 2021.0
     direction: 1
-    limit: null
+    limit: 100
     progress_value: 0.023416604386827133
     score: 5.0
     sign: 1
@@ -2208,7 +2208,7 @@
     current_value: 79.2
     current_year: 2021.0
     direction: 1
-    limit: null
+    limit: 100
     progress_value: -0.013251861837359047
     score: -4.1564827296698805
     sign: 1
@@ -2221,15 +2221,15 @@
     current_value: 85.1
     current_year: 2021.0
     direction: 1
-    limit: null
+    limit: 100
     progress_value: 0.009723201903344858
-    score: 1.1808004758362145
+    score: 2.810019550190604
     sign: 1
-    status: moderate_progress
+    status: substantial_progress
     target: null
     target_year: 2030.0
-  progress_status: limited_progress
-  score: -0.06479626454575538
+  progress_status: moderate_progress
+  score: 0.36700060989816463
 3-b-2:
   3-b-2:
     base_value: 386.196408
