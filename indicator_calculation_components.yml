@@ -2176,8 +2176,60 @@
   progress_status: substantial_progress
   score: 5.0
 3-b-1:
-  progress_status: not_available_manual
-  score: null
+  3-b-1 / Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age / Diphtheria / Canada:
+    base_value: 76.9
+    base_year: 2015.0
+    current_value: 77.1
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.00043299439130128903
+    score: -2.2835028043493555
+    sign: 1
+    status: limited_progress
+    target: null
+    target_year: 2030.0
+  3-b-1 / Human Papillomavirus (HPV) vaccine coverage at 14 years of age:
+    base_value: 80.2
+    base_year: 2019.0
+    current_value: 84.0
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.023416604386827133
+    score: 5.0
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
+  3-b-1 / Measles vaccine coverage at 7 years of age:
+    base_value: 85.8
+    base_year: 2015.0
+    current_value: 79.2
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: -0.013251861837359047
+    score: -4.1564827296698805
+    sign: 1
+    status: deterioration
+    target: null
+    target_year: 2030.0
+  3-b-1 / Pneumococcal vaccine coverage at 2 years of age:
+    base_value: 80.3
+    base_year: 2015.0
+    current_value: 85.1
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.009723201903344858
+    score: 1.1808004758362145
+    sign: 1
+    status: moderate_progress
+    target: null
+    target_year: 2030.0
+  progress_status: limited_progress
+  score: -0.06479626454575538
 3-b-2:
   3-b-2:
     base_value: 386.196408
