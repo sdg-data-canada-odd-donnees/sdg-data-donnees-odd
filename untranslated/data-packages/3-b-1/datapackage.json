@@ -15,6 +15,19 @@
             "type": "integer"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age",
+                "Measles vaccine coverage at 7 years of age",
+                "Pneumococcal vaccine coverage at 2 years of age",
+                "Human Papillomavirus (HPV) vaccine coverage at 14 years of age",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Antigen or vaccine",
             "type": "string",
             "constraints": {
@@ -22,34 +35,6 @@
                 "Diphtheria",
                 "Pertussis (whooping cough)",
                 "Tetanus",
-                "Polio",
-                "Haemophilus influenzae type B (Hib)",
-                "Measles",
-                "Mumps",
-                "Rubella",
-                "Hepatitis B",
-                "Varicella",
-                "Meningococcal type C",
-                "Pneumococcal",
-                "Rotavirus",
-                "Human Papillomavirus (HPV)",
-                "Diphtheria, Tetanus, acellular Pertussis (Tdap) booster",
-                "Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)",
-                "Influenza (flu)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Target population",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Recommended vaccines for 2-year-old children",
-                "Recommended vaccines for 7-year-old children",
-                "Recommended vaccines for 14-year-old children",
-                "Recommended vaccines for 17-year-old children",
-                "Recommended vaccines during pregnancy",
                 ""
               ]
             }

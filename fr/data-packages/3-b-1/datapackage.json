@@ -16,6 +16,20 @@
             "title": "Année"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Couverture vaccinale contre la diphtérie, le tétanos et la coqueluche à l'âge de 2 ans",
+                "Couverture vaccinale contre la rougeole à l'âge de 7 ans",
+                "Couverture vaccinale contre le pneumocoque à l'âge de 2 ans",
+                "Couverture vaccinale contre le virus du papillome humain (VPH) à l'âge de 14 ans",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Antigen or vaccine",
             "type": "string",
             "constraints": {
@@ -23,39 +37,10 @@
                 "Diphtérie",
                 "Coqueluche",
                 "Tétanos",
-                "Poliomyélite (polio)",
-                "Haemophilus influenzae de type B (Hib)",
-                "Rougeole",
-                "Oreillons",
-                "Rubéole",
-                "Hépatite B",
-                "Varicelle",
-                "Méningocoque de type C",
-                "Pneumocoque",
-                "Rotavirus",
-                "Virus du papillome humain (VPH)",
-                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
-                "Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",
-                "Grippe",
                 ""
               ]
             },
             "title": "Antigène ou vaccin"
-          },
-          {
-            "name": "Target population",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Vaccins recommandés aux enfants de 2 ans",
-                "Vaccins recommandés aux enfants de 7 ans",
-                "Vaccins recommandés aux enfants de 14 ans",
-                "Vaccins recommandés aux enfants de 17 ans",
-                "Vaccins recommandés pendant la grossesse",
-                ""
-              ]
-            },
-            "title": "Population cible"
           },
           {
             "name": "Geography",
