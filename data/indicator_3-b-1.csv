@@ -1,487 +1,133 @@
-"Year","Antigen or vaccine","Target population","Geography","Gender","GeoCode","Value"
-"2015","Diphtheria","Recommended vaccines for 2-year-old children","Canada","",,76.9
-"2015","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Canada","",,77
-"2015","Tetanus","Recommended vaccines for 2-year-old children","Canada","",,76.7
-"2015","Polio","Recommended vaccines for 2-year-old children","Canada","",,91.2
-"2015","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Canada","",,71.9
-"2015","Measles","Recommended vaccines for 2-year-old children","Canada","",,89.2
-"2015","Mumps","Recommended vaccines for 2-year-old children","Canada","",,88.9
-"2015","Rubella","Recommended vaccines for 2-year-old children","Canada","",,88.9
-"2015","Hepatitis B","Recommended vaccines for 2-year-old children","Canada","",,69.2
-"2015","Varicella","Recommended vaccines for 2-year-old children","Canada","",,74.8
-"2015","Meningococcal type C","Recommended vaccines for 2-year-old children","Canada","",,87.8
-"2015","Pneumococcal","Recommended vaccines for 2-year-old children","Canada","",,80.3
-"2015","Rotavirus","Recommended vaccines for 2-year-old children","Canada","",,75.4
-"2015","Diphtheria","Recommended vaccines for 7-year-old children","Canada","",,74.6
-"2015","Pertussis (whooping cough)","Recommended vaccines for 7-year-old children","Canada","",,74.9
-"2015","Tetanus","Recommended vaccines for 7-year-old children","Canada","",,74.6
-"2015","Polio","Recommended vaccines for 7-year-old children","Canada","",,90.2
-"2015","Haemophilus influenzae type B (Hib)","Recommended vaccines for 7-year-old children","Canada","",,77.3
-"2015","Measles","Recommended vaccines for 7-year-old children","Canada","",,85.8
-"2015","Mumps","Recommended vaccines for 7-year-old children","Canada","",,86.2
-"2015","Rubella","Recommended vaccines for 7-year-old children","Canada","",,93.5
-"2015","Human Papillomavirus (HPV)","Recommended vaccines for 14-year-old children","Canada","Women+",,74.6
-"2015","Diphtheria","Recommended vaccines for 17-year-old children","Canada","",,62.2
-"2015","Pertussis (whooping cough)","Recommended vaccines for 17-year-old children","Canada","",,60.2
-"2015","Tetanus","Recommended vaccines for 17-year-old children","Canada","",,60.9
-"2015","Polio","Recommended vaccines for 17-year-old children","Canada","",,87.2
-"2015","Haemophilus influenzae type B (Hib)","Recommended vaccines for 17-year-old children","Canada","",,74.9
-"2015","Measles","Recommended vaccines for 17-year-old children","Canada","",,89.2
-"2015","Mumps","Recommended vaccines for 17-year-old children","Canada","",,87.7
-"2015","Rubella","Recommended vaccines for 17-year-old children","Canada","",,95.1
-"2015","Hepatitis B","Recommended vaccines for 17-year-old children","Canada","",,88.1
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Canada","",,75.8
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Canada","",,75.8
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Canada","",,75.8
-"2017","Polio","Recommended vaccines for 2-year-old children","Canada","",,90.7
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Canada","",,73.4
-"2017","Measles","Recommended vaccines for 2-year-old children","Canada","",,90.2
-"2017","Mumps","Recommended vaccines for 2-year-old children","Canada","",,89.9
-"2017","Rubella","Recommended vaccines for 2-year-old children","Canada","",,90
-"2017","Hepatitis B","Recommended vaccines for 2-year-old children","Canada","",,74.1
-"2017","Varicella","Recommended vaccines for 2-year-old children","Canada","",,82.9
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Canada","",,87.6
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Canada","",,81.4
-"2017","Rotavirus","Recommended vaccines for 2-year-old children","Canada","",,78.8
-"2017","Diphtheria","Recommended vaccines for 7-year-old children","Canada","",,80.5
-"2017","Pertussis (whooping cough)","Recommended vaccines for 7-year-old children","Canada","",,80.5
-"2017","Tetanus","Recommended vaccines for 7-year-old children","Canada","",,80.5
-"2017","Polio","Recommended vaccines for 7-year-old children","Canada","",,92.3
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 7-year-old children","Canada","",,83.9
-"2017","Measles","Recommended vaccines for 7-year-old children","Canada","",,87
-"2017","Mumps","Recommended vaccines for 7-year-old children","Canada","",,86.4
-"2017","Rubella","Recommended vaccines for 7-year-old children","Canada","",,94.5
-"2017","Hepatitis B","Recommended vaccines for 14-year-old children","Canada","",,83.1
-"2017","Hepatitis B","Recommended vaccines for 14-year-old children","Canada","Men+",,82.1
-"2017","Hepatitis B","Recommended vaccines for 14-year-old children","Canada","Women+",,84.1
-"2017","Human Papillomavirus (HPV)","Recommended vaccines for 14-year-old children","Canada","Women+",,83
-"2017","Diphtheria, Tetanus, acellular Pertussis (Tdap) booster","Recommended vaccines for 17-year-old children","Canada","",,89.3
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,88.9
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,88.9
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,88.9
-"2017","Polio","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,96.9
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,87.7
-"2017","Measles","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,96.9
-"2017","Mumps","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,96.9
-"2017","Rubella","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,96.9
-"2017","Varicella","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,95.1
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,93.2
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,90.2
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,81.2
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,81.2
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,81.2
-"2017","Polio","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,93.9
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,79.8
-"2017","Measles","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,93.2
-"2017","Mumps","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,92.6
-"2017","Rubella","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,92.6
-"2017","Hepatitis B","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,86.7
-"2017","Varicella","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,92
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,92.7
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,89.5
-"2017","Rotavirus","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,85.9
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Nova Scotia","",12,73.8
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Nova Scotia","",12,73.8
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Nova Scotia","",12,73.8
-"2017","Polio","Recommended vaccines for 2-year-old children","Nova Scotia","",12,93.5
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Nova Scotia","",12,68.5
-"2017","Measles","Recommended vaccines for 2-year-old children","Nova Scotia","",12,87.1
-"2017","Mumps","Recommended vaccines for 2-year-old children","Nova Scotia","",12,86.8
-"2017","Rubella","Recommended vaccines for 2-year-old children","Nova Scotia","",12,86.8
-"2017","Varicella","Recommended vaccines for 2-year-old children","Nova Scotia","",12,84.8
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Nova Scotia","",12,81.8
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Nova Scotia","",12,80.4
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","New Brunswick","",13,75.5
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","New Brunswick","",13,75.5
-"2017","Tetanus","Recommended vaccines for 2-year-old children","New Brunswick","",13,75.5
-"2017","Polio","Recommended vaccines for 2-year-old children","New Brunswick","",13,90.1
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","New Brunswick","",13,74.7
-"2017","Measles","Recommended vaccines for 2-year-old children","New Brunswick","",13,92
-"2017","Mumps","Recommended vaccines for 2-year-old children","New Brunswick","",13,92
-"2017","Rubella","Recommended vaccines for 2-year-old children","New Brunswick","",13,92
-"2017","Hepatitis B","Recommended vaccines for 2-year-old children","New Brunswick","",13,81
-"2017","Varicella","Recommended vaccines for 2-year-old children","New Brunswick","",13,90.9
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","New Brunswick","",13,88.3
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","New Brunswick","",13,82.2
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Ontario","",35,75.7
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Ontario","",35,75.7
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Ontario","",35,75.7
-"2017","Polio","Recommended vaccines for 2-year-old children","Ontario","",35,91
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Ontario","",35,72.9
-"2017","Measles","Recommended vaccines for 2-year-old children","Ontario","",35,90.9
-"2017","Mumps","Recommended vaccines for 2-year-old children","Ontario","",35,90.5
-"2017","Rubella","Recommended vaccines for 2-year-old children","Ontario","",35,90.5
-"2017","Varicella","Recommended vaccines for 2-year-old children","Ontario","",35,84.3
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Ontario","",35,85.7
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Ontario","",35,80.5
-"2017","Rotavirus","Recommended vaccines for 2-year-old children","Ontario","",35,77.7
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Quebec","",24,73.7
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Quebec","",24,73.7
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Quebec","",24,73.7
-"2017","Polio","Recommended vaccines for 2-year-old children","Quebec","",24,90.9
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Quebec","",24,71.3
-"2017","Measles","Recommended vaccines for 2-year-old children","Quebec","",24,91
-"2017","Mumps","Recommended vaccines for 2-year-old children","Quebec","",24,90.5
-"2017","Rubella","Recommended vaccines for 2-year-old children","Quebec","",24,90.5
-"2017","Hepatitis B","Recommended vaccines for 2-year-old children","Quebec","",24,75.7
-"2017","Varicella","Recommended vaccines for 2-year-old children","Quebec","",24,76.1
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Quebec","",24,89.9
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Quebec","",24,83.3
-"2017","Rotavirus","Recommended vaccines for 2-year-old children","Quebec","",24,81
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Manitoba","",46,67.5
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Manitoba","",46,67.5
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Manitoba","",46,67.5
-"2017","Polio","Recommended vaccines for 2-year-old children","Manitoba","",46,85.6
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Manitoba","",46,62.2
-"2017","Measles","Recommended vaccines for 2-year-old children","Manitoba","",46,86.1
-"2017","Mumps","Recommended vaccines for 2-year-old children","Manitoba","",46,85.9
-"2017","Rubella","Recommended vaccines for 2-year-old children","Manitoba","",46,86.2
-"2017","Varicella","Recommended vaccines for 2-year-old children","Manitoba","",46,81.6
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Manitoba","",46,82.2
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Manitoba","",46,74.6
-"2017","Rotavirus","Recommended vaccines for 2-year-old children","Manitoba","",46,68.4
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Saskatchewan","",47,78.6
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Saskatchewan","",47,78.6
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Saskatchewan","",47,78.6
-"2017","Polio","Recommended vaccines for 2-year-old children","Saskatchewan","",47,90
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Saskatchewan","",47,75.1
-"2017","Measles","Recommended vaccines for 2-year-old children","Saskatchewan","",47,89.5
-"2017","Mumps","Recommended vaccines for 2-year-old children","Saskatchewan","",47,89.5
-"2017","Rubella","Recommended vaccines for 2-year-old children","Saskatchewan","",47,89.5
-"2017","Varicella","Recommended vaccines for 2-year-old children","Saskatchewan","",47,84.8
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Saskatchewan","",47,81.1
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Saskatchewan","",47,83.7
-"2017","Rotavirus","Recommended vaccines for 2-year-old children","Saskatchewan","",47,84
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Alberta","",48,79.9
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Alberta","",48,79.9
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Alberta","",48,79.9
-"2017","Polio","Recommended vaccines for 2-year-old children","Alberta","",48,93
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Alberta","",48,79.1
-"2017","Measles","Recommended vaccines for 2-year-old children","Alberta","",48,91.7
-"2017","Mumps","Recommended vaccines for 2-year-old children","Alberta","",48,91.4
-"2017","Rubella","Recommended vaccines for 2-year-old children","Alberta","",48,91.4
-"2017","Varicella","Recommended vaccines for 2-year-old children","Alberta","",48,86.7
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Alberta","",48,91
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Alberta","",48,82.6
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","British Columbia","",59,76.6
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","British Columbia","",59,76.6
-"2017","Tetanus","Recommended vaccines for 2-year-old children","British Columbia","",59,76.6
-"2017","Polio","Recommended vaccines for 2-year-old children","British Columbia","",59,87.5
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","British Columbia","",59,74.4
-"2017","Measles","Recommended vaccines for 2-year-old children","British Columbia","",59,86.1
-"2017","Mumps","Recommended vaccines for 2-year-old children","British Columbia","",59,86.1
-"2017","Rubella","Recommended vaccines for 2-year-old children","British Columbia","",59,86.1
-"2017","Hepatitis B","Recommended vaccines for 2-year-old children","British Columbia","",59,69.7
-"2017","Varicella","Recommended vaccines for 2-year-old children","British Columbia","",59,83.7
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","British Columbia","",59,89.3
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","British Columbia","",59,80.3
-"2017","Rotavirus","Recommended vaccines for 2-year-old children","British Columbia","",59,80.2
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Yukon","",60,70.7
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Yukon","",60,70.7
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Yukon","",60,70.7
-"2017","Polio","Recommended vaccines for 2-year-old children","Yukon","",60,93.7
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Yukon","",60,69.3
-"2017","Measles","Recommended vaccines for 2-year-old children","Yukon","",60,91
-"2017","Mumps","Recommended vaccines for 2-year-old children","Yukon","",60,91
-"2017","Rubella","Recommended vaccines for 2-year-old children","Yukon","",60,91
-"2017","Hepatitis B","Recommended vaccines for 2-year-old children","Yukon","",60,62.8
-"2017","Varicella","Recommended vaccines for 2-year-old children","Yukon","",60,85.5
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Yukon","",60,93.7
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Yukon","",60,83.2
-"2017","Rotavirus","Recommended vaccines for 2-year-old children","Yukon","",60,76.6
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Northwest Territories","",61,76.7
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Northwest Territories","",61,76.7
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Northwest Territories","",61,76.7
-"2017","Polio","Recommended vaccines for 2-year-old children","Northwest Territories","",61,91.1
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Northwest Territories","",61,75.5
-"2017","Measles","Recommended vaccines for 2-year-old children","Northwest Territories","",61,91.8
-"2017","Mumps","Recommended vaccines for 2-year-old children","Northwest Territories","",61,91.8
-"2017","Rubella","Recommended vaccines for 2-year-old children","Northwest Territories","",61,91.8
-"2017","Hepatitis B","Recommended vaccines for 2-year-old children","Northwest Territories","",61,80.5
-"2017","Varicella","Recommended vaccines for 2-year-old children","Northwest Territories","",61,88.9
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Northwest Territories","",61,95.2
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Northwest Territories","",61,63.8
-"2017","Rotavirus","Recommended vaccines for 2-year-old children","Northwest Territories","",61,66.3
-"2017","Diphtheria","Recommended vaccines for 2-year-old children","Nunavut","",62,63.8
-"2017","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Nunavut","",62,63.8
-"2017","Tetanus","Recommended vaccines for 2-year-old children","Nunavut","",62,63.8
-"2017","Polio","Recommended vaccines for 2-year-old children","Nunavut","",62,82.1
-"2017","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Nunavut","",62,57.2
-"2017","Measles","Recommended vaccines for 2-year-old children","Nunavut","",62,88.7
-"2017","Mumps","Recommended vaccines for 2-year-old children","Nunavut","",62,88.7
-"2017","Rubella","Recommended vaccines for 2-year-old children","Nunavut","",62,88.7
-"2017","Hepatitis B","Recommended vaccines for 2-year-old children","Nunavut","",62,70.8
-"2017","Varicella","Recommended vaccines for 2-year-old children","Nunavut","",62,82.1
-"2017","Meningococcal type C","Recommended vaccines for 2-year-old children","Nunavut","",62,80.1
-"2017","Pneumococcal","Recommended vaccines for 2-year-old children","Nunavut","",62,62.4
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Canada","",,43.5
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","Canada","",,45
-"2019","Diphtheria","Recommended vaccines for 2-year-old children","Canada","",,77.5
-"2019","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Canada","",,77.5
-"2019","Tetanus","Recommended vaccines for 2-year-old children","Canada","",,77.5
-"2019","Polio","Recommended vaccines for 2-year-old children","Canada","",,91.9
-"2019","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Canada","",,74.4
-"2019","Measles","Recommended vaccines for 2-year-old children","Canada","",,90.2
-"2019","Mumps","Recommended vaccines for 2-year-old children","Canada","",,89.2
-"2019","Rubella","Recommended vaccines for 2-year-old children","Canada","",,89.4
-"2019","Hepatitis B","Recommended vaccines for 2-year-old children","Canada","",,83.6
-"2019","Varicella","Recommended vaccines for 2-year-old children","Canada","",,82.7
-"2019","Meningococcal type C","Recommended vaccines for 2-year-old children","Canada","",,91.1
-"2019","Pneumococcal","Recommended vaccines for 2-year-old children","Canada","",,84.4
-"2019","Rotavirus","Recommended vaccines for 2-year-old children","Canada","",,84.5
-"2019","Diphtheria","Recommended vaccines for 7-year-old children","Canada","",,78.1
-"2019","Pertussis (whooping cough)","Recommended vaccines for 7-year-old children","Canada","",,78.1
-"2019","Tetanus","Recommended vaccines for 7-year-old children","Canada","",,78.1
-"2019","Polio","Recommended vaccines for 7-year-old children","Canada","",,89.3
-"2019","Haemophilus influenzae type B (Hib)","Recommended vaccines for 7-year-old children","Canada","",,80
-"2019","Measles","Recommended vaccines for 7-year-old children","Canada","",,83.3
-"2019","Mumps","Recommended vaccines for 7-year-old children","Canada","",,83.1
-"2019","Rubella","Recommended vaccines for 7-year-old children","Canada","",,95.9
-"2019","Hepatitis B","Recommended vaccines for 14-year-old children","Canada","",,84.5
-"2019","Human Papillomavirus (HPV)","Recommended vaccines for 14-year-old children","Canada","",,80.2
-"2019","Hepatitis B","Recommended vaccines for 14-year-old children","Canada","Men+",,83
-"2019","Human Papillomavirus (HPV)","Recommended vaccines for 14-year-old children","Canada","Men+",,73
-"2019","Hepatitis B","Recommended vaccines for 14-year-old children","Canada","Women+",,86
-"2019","Human Papillomavirus (HPV)","Recommended vaccines for 14-year-old children","Canada","Women+",,87.1
-"2019","Meningococcal type C","Recommended vaccines for 17-year-old children","Canada","",,89.3
-"2019","Diphtheria, Tetanus, acellular Pertussis (Tdap) booster","Recommended vaccines for 17-year-old children","Canada","",,95.3
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Newfoundland and Labrador","",10,15.9
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","Newfoundland and Labrador","",10,41.4
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Prince Edward Island","",11,76.2
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","Prince Edward Island","",11,75.2
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Nova Scotia","",12,62.2
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","Nova Scotia","",12,71.5
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","New Brunswick","",13,71
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","New Brunswick","",13,58.4
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Ontario","",35,40.3
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","Ontario","",35,43.3
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Quebec","",24,48.8
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","Quebec","",24,32.9
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Manitoba","",46,57
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","Manitoba","",46,48.8
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Saskatchewan","",47,74
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","Saskatchewan","",47,64.9
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Alberta","",48,37.9
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","Alberta","",48,49.4
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","British Columbia","",59,25.6
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","British Columbia","",59,49.8
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Yukon","",60,56.5
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","Yukon","",60,66
-"2019","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Northwest Territories","",61,80.1
-"2019","Influenza (flu)","Recommended vaccines during pregnancy","Northwest Territories","",61,84.8
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Canada","",,64.8
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","Canada","",,52.7
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Canada","",,77.1
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Canada","",,77.1
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Canada","",,77.1
-"2021","Polio","Recommended vaccines for 2-year-old children","Canada","",,91.8
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Canada","",,75.3
-"2021","Measles","Recommended vaccines for 2-year-old children","Canada","",,91.6
-"2021","Mumps","Recommended vaccines for 2-year-old children","Canada","",,91.5
-"2021","Rubella","Recommended vaccines for 2-year-old children","Canada","",,91.5
-"2021","Hepatitis B","Recommended vaccines for 2-year-old children","Canada","",,82.6
-"2021","Varicella","Recommended vaccines for 2-year-old children","Canada","",,87.5
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","Canada","",,90.5
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Canada","",,85.1
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","Canada","",,85.6
-"2021","Diphtheria","Recommended vaccines for 7-year-old children","Canada","",,71.9
-"2021","Pertussis (whooping cough)","Recommended vaccines for 7-year-old children","Canada","",,71.9
-"2021","Tetanus","Recommended vaccines for 7-year-old children","Canada","",,71.9
-"2021","Polio","Recommended vaccines for 7-year-old children","Canada","",,87.3
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 7-year-old children","Canada","",,78.5
-"2021","Measles","Recommended vaccines for 7-year-old children","Canada","",,79.2
-"2021","Mumps","Recommended vaccines for 7-year-old children","Canada","",,79.5
-"2021","Rubella","Recommended vaccines for 7-year-old children","Canada","",,94
-"2021","Hepatitis B","Recommended vaccines for 7-year-old children","Canada","",,78.4
-"2021","Varicella","Recommended vaccines for 7-year-old children","Canada","",,90.7
-"2021","Hepatitis B","Recommended vaccines for 14-year-old children","Canada","",,89
-"2021","Human Papillomavirus (HPV)","Recommended vaccines for 14-year-old children","Canada","",,84
-"2021","Hepatitis B","Recommended vaccines for 14-year-old children","Canada","Men+",,86.5
-"2021","Human Papillomavirus (HPV)","Recommended vaccines for 14-year-old children","Canada","Men+",,81.5
-"2021","Hepatitis B","Recommended vaccines for 14-year-old children","Canada","Women+",,91.5
-"2021","Human Papillomavirus (HPV)","Recommended vaccines for 14-year-old children","Canada","Women+",,86.4
-"2021","Meningococcal type C","Recommended vaccines for 17-year-old children","Canada","",,89
-"2021","Diphtheria, Tetanus, acellular Pertussis (Tdap) booster","Recommended vaccines for 17-year-old children","Canada","",,92.8
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Newfoundland and Labrador","",10,79
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","Newfoundland and Labrador","",10,63.6
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,80
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,80
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,80
-"2021","Polio","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,95.4
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,76.8
-"2021","Measles","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,97
-"2021","Mumps","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,97
-"2021","Rubella","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,97
-"2021","Varicella","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,96.4
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,93.6
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,87.8
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","Newfoundland and Labrador","",10,93.3
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Prince Edward Island","",11,80.4
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","Prince Edward Island","",11,77.3
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,95.8
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,95.8
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,95.8
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,95.8
-"2021","Measles","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,98
-"2021","Mumps","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,98
-"2021","Rubella","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,98
-"2021","Hepatitis B","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,97.7
-"2021","Varicella","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,96.7
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,97.4
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","Prince Edward Island","",11,96.4
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Nova Scotia","",12,80.4
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","Nova Scotia","",12,82.5
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Nova Scotia","",12,70.3
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Nova Scotia","",12,70.3
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Nova Scotia","",12,70.3
-"2021","Polio","Recommended vaccines for 2-year-old children","Nova Scotia","",12,87.9
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Nova Scotia","",12,66.8
-"2021","Measles","Recommended vaccines for 2-year-old children","Nova Scotia","",12,93.6
-"2021","Mumps","Recommended vaccines for 2-year-old children","Nova Scotia","",12,93.6
-"2021","Rubella","Recommended vaccines for 2-year-old children","Nova Scotia","",12,93.6
-"2021","Varicella","Recommended vaccines for 2-year-old children","Nova Scotia","",12,93.2
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","Nova Scotia","",12,89.4
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Nova Scotia","",12,79
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","New Brunswick","",13,79.5
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","New Brunswick","",13,59.1
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","New Brunswick","",13,78.1
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","New Brunswick","",13,78.1
-"2021","Tetanus","Recommended vaccines for 2-year-old children","New Brunswick","",13,78.1
-"2021","Polio","Recommended vaccines for 2-year-old children","New Brunswick","",13,89.6
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","New Brunswick","",13,75.9
-"2021","Measles","Recommended vaccines for 2-year-old children","New Brunswick","",13,94.3
-"2021","Mumps","Recommended vaccines for 2-year-old children","New Brunswick","",13,94.3
-"2021","Rubella","Recommended vaccines for 2-year-old children","New Brunswick","",13,94.3
-"2021","Hepatitis B","Recommended vaccines for 2-year-old children","New Brunswick","",13,79.8
-"2021","Varicella","Recommended vaccines for 2-year-old children","New Brunswick","",13,91.2
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","New Brunswick","",13,90.6
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","New Brunswick","",13,86.7
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","New Brunswick","",13,66.6
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Ontario","",35,60
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","Ontario","",35,48.9
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Ontario","",35,76.7
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Ontario","",35,76.7
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Ontario","",35,76.7
-"2021","Polio","Recommended vaccines for 2-year-old children","Ontario","",35,94.4
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Ontario","",35,73.8
-"2021","Measles","Recommended vaccines for 2-year-old children","Ontario","",35,92
-"2021","Mumps","Recommended vaccines for 2-year-old children","Ontario","",35,91.7
-"2021","Rubella","Recommended vaccines for 2-year-old children","Ontario","",35,91.7
-"2021","Varicella","Recommended vaccines for 2-year-old children","Ontario","",35,85.9
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","Ontario","",35,90.1
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Ontario","",35,86.1
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","Ontario","",35,84.7
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Quebec","",24,75.2
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","Quebec","",24,44.2
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Quebec","",24,76.2
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Quebec","",24,76.2
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Quebec","",24,76.2
-"2021","Polio","Recommended vaccines for 2-year-old children","Quebec","",24,91.7
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Quebec","",24,75.8
-"2021","Measles","Recommended vaccines for 2-year-old children","Quebec","",24,93.2
-"2021","Mumps","Recommended vaccines for 2-year-old children","Quebec","",24,93.2
-"2021","Rubella","Recommended vaccines for 2-year-old children","Quebec","",24,93.2
-"2021","Hepatitis B","Recommended vaccines for 2-year-old children","Quebec","",24,80.6
-"2021","Varicella","Recommended vaccines for 2-year-old children","Quebec","",24,89.9
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","Quebec","",24,90.2
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Quebec","",24,85.3
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","Quebec","",24,86
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Manitoba","",46,69.6
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","Manitoba","",46,59.2
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Manitoba","",46,75.5
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Manitoba","",46,75.5
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Manitoba","",46,75.5
-"2021","Polio","Recommended vaccines for 2-year-old children","Manitoba","",46,87.9
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Manitoba","",46,75.3
-"2021","Measles","Recommended vaccines for 2-year-old children","Manitoba","",46,87.1
-"2021","Mumps","Recommended vaccines for 2-year-old children","Manitoba","",46,86.6
-"2021","Rubella","Recommended vaccines for 2-year-old children","Manitoba","",46,86.6
-"2021","Varicella","Recommended vaccines for 2-year-old children","Manitoba","",46,86.9
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","Manitoba","",46,88.8
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Manitoba","",46,81.7
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","Manitoba","",46,82.2
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Saskatchewan","",47,78
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","Saskatchewan","",47,64.8
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Saskatchewan","",47,80.9
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Saskatchewan","",47,80.9
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Saskatchewan","",47,80.9
-"2021","Polio","Recommended vaccines for 2-year-old children","Saskatchewan","",47,91
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Saskatchewan","",47,80.6
-"2021","Measles","Recommended vaccines for 2-year-old children","Saskatchewan","",47,91.4
-"2021","Mumps","Recommended vaccines for 2-year-old children","Saskatchewan","",47,91
-"2021","Rubella","Recommended vaccines for 2-year-old children","Saskatchewan","",47,91
-"2021","Varicella","Recommended vaccines for 2-year-old children","Saskatchewan","",47,80.9
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","Saskatchewan","",47,89.1
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Saskatchewan","",47,83.7
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","Saskatchewan","",47,88.2
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Alberta","",48,60.1
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","Alberta","",48,58.3
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Alberta","",48,74.6
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Alberta","",48,74.6
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Alberta","",48,74.6
-"2021","Polio","Recommended vaccines for 2-year-old children","Alberta","",48,85.7
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Alberta","",48,71.1
-"2021","Measles","Recommended vaccines for 2-year-old children","Alberta","",48,88.4
-"2021","Mumps","Recommended vaccines for 2-year-old children","Alberta","",48,88.4
-"2021","Rubella","Recommended vaccines for 2-year-old children","Alberta","",48,88.4
-"2021","Varicella","Recommended vaccines for 2-year-old children","Alberta","",48,83.3
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","Alberta","",48,89.8
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Alberta","",48,81.3
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","Alberta","",48,84.8
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","British Columbia","",59,52.4
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","British Columbia","",59,61
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","British Columbia","",59,83.6
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","British Columbia","",59,83.6
-"2021","Tetanus","Recommended vaccines for 2-year-old children","British Columbia","",59,83.6
-"2021","Polio","Recommended vaccines for 2-year-old children","British Columbia","",59,92.6
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","British Columbia","",59,82.8
-"2021","Measles","Recommended vaccines for 2-year-old children","British Columbia","",59,91.3
-"2021","Mumps","Recommended vaccines for 2-year-old children","British Columbia","",59,91.3
-"2021","Rubella","Recommended vaccines for 2-year-old children","British Columbia","",59,91.3
-"2021","Hepatitis B","Recommended vaccines for 2-year-old children","British Columbia","",59,87.1
-"2021","Varicella","Recommended vaccines for 2-year-old children","British Columbia","",59,91
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","British Columbia","",59,94.2
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","British Columbia","",59,88.2
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","British Columbia","",59,91.2
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Yukon","",60,77.2
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","Yukon","",60,66.8
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Yukon","",60,66.6
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Yukon","",60,66.6
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Yukon","",60,66.6
-"2021","Polio","Recommended vaccines for 2-year-old children","Yukon","",60,86.3
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Yukon","",60,64
-"2021","Measles","Recommended vaccines for 2-year-old children","Yukon","",60,85.3
-"2021","Mumps","Recommended vaccines for 2-year-old children","Yukon","",60,85.3
-"2021","Rubella","Recommended vaccines for 2-year-old children","Yukon","",60,85.3
-"2021","Hepatitis B","Recommended vaccines for 2-year-old children","Yukon","",60,71.3
-"2021","Varicella","Recommended vaccines for 2-year-old children","Yukon","",60,81.8
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","Yukon","",60,90
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Yukon","",60,73.2
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","Yukon","",60,86.7
-"2021","Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)","Recommended vaccines during pregnancy","Northwest Territories","",61,59.3
-"2021","Influenza (flu)","Recommended vaccines during pregnancy","Northwest Territories","",61,71.7
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Northwest Territories","",61,66
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Northwest Territories","",61,66
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Northwest Territories","",61,66
-"2021","Polio","Recommended vaccines for 2-year-old children","Northwest Territories","",61,80.4
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Northwest Territories","",61,60
-"2021","Measles","Recommended vaccines for 2-year-old children","Northwest Territories","",61,90.8
-"2021","Mumps","Recommended vaccines for 2-year-old children","Northwest Territories","",61,89.5
-"2021","Rubella","Recommended vaccines for 2-year-old children","Northwest Territories","",61,88.2
-"2021","Hepatitis B","Recommended vaccines for 2-year-old children","Northwest Territories","",61,81
-"2021","Varicella","Recommended vaccines for 2-year-old children","Northwest Territories","",61,80.2
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","Northwest Territories","",61,88.8
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Northwest Territories","",61,59.9
-"2021","Rotavirus","Recommended vaccines for 2-year-old children","Northwest Territories","",61,75.6
-"2021","Diphtheria","Recommended vaccines for 2-year-old children","Nunavut","",62,24.1
-"2021","Pertussis (whooping cough)","Recommended vaccines for 2-year-old children","Nunavut","",62,24.1
-"2021","Tetanus","Recommended vaccines for 2-year-old children","Nunavut","",62,24.1
-"2021","Polio","Recommended vaccines for 2-year-old children","Nunavut","",62,33.5
-"2021","Haemophilus influenzae type B (Hib)","Recommended vaccines for 2-year-old children","Nunavut","",62,24.1
-"2021","Measles","Recommended vaccines for 2-year-old children","Nunavut","",62,34.6
-"2021","Mumps","Recommended vaccines for 2-year-old children","Nunavut","",62,34.6
-"2021","Rubella","Recommended vaccines for 2-year-old children","Nunavut","",62,34.6
-"2021","Hepatitis B","Recommended vaccines for 2-year-old children","Nunavut","",62,32.5
-"2021","Varicella","Recommended vaccines for 2-year-old children","Nunavut","",62,21.2
-"2021","Meningococcal type C","Recommended vaccines for 2-year-old children","Nunavut","",62,34.5
-"2021","Pneumococcal","Recommended vaccines for 2-year-old children","Nunavut","",62,21
+"Year","Series","Antigen or vaccine","Geography","Gender","GeoCode","Value"
+"2015","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Canada",,11124,76.9
+"2015","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Canada",,11124,77
+"2015","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Canada",,11124,76.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Canada",,11124,75.8
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Canada",,11124,75.8
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Canada",,11124,75.8
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Newfoundland and Labrador",,10,88.9
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Newfoundland and Labrador",,10,88.9
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Newfoundland and Labrador",,10,88.9
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Prince Edward Island",,11,81.2
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Prince Edward Island",,11,81.2
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Prince Edward Island",,11,81.2
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Nova Scotia",,12,73.8
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Nova Scotia",,12,73.8
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Nova Scotia",,12,73.8
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","New Brunswick",,13,75.5
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","New Brunswick",,13,75.5
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","New Brunswick",,13,75.5
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Ontario",,35,75.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Ontario",,35,75.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Ontario",,35,75.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Quebec",,24,73.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Quebec",,24,73.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Quebec",,24,73.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Manitoba",,46,67.5
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Manitoba",,46,67.5
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Manitoba",,46,67.5
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Saskatchewan",,47,78.6
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Saskatchewan",,47,78.6
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Saskatchewan",,47,78.6
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Alberta",,48,79.9
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Alberta",,48,79.9
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Alberta",,48,79.9
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","British Columbia",,59,76.6
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","British Columbia",,59,76.6
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","British Columbia",,59,76.6
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Yukon",,60,70.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Yukon",,60,70.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Yukon",,60,70.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Northwest Territories",,61,76.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Northwest Territories",,61,76.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Northwest Territories",,61,76.7
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Nunavut",,62,63.8
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Nunavut",,62,63.8
+"2017","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Nunavut",,62,63.8
+"2019","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Canada",,11124,77.5
+"2019","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Canada",,11124,77.5
+"2019","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Canada",,11124,77.5
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Canada",,11124,77.1
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Canada",,11124,77.1
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Canada",,11124,77.1
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Newfoundland and Labrador",,10,80
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Newfoundland and Labrador",,10,80
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Newfoundland and Labrador",,10,80
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Prince Edward Island",,11,95.8
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Prince Edward Island",,11,95.8
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Prince Edward Island",,11,95.8
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Nova Scotia",,12,70.3
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Nova Scotia",,12,70.3
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Nova Scotia",,12,70.3
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","New Brunswick",,13,78.1
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","New Brunswick",,13,78.1
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","New Brunswick",,13,78.1
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Ontario",,35,76.7
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Ontario",,35,76.7
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Ontario",,35,76.7
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Quebec",,24,76.2
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Quebec",,24,76.2
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Quebec",,24,76.2
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Manitoba",,46,75.5
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Manitoba",,46,75.5
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Manitoba",,46,75.5
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Saskatchewan",,47,80.9
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Saskatchewan",,47,80.9
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Saskatchewan",,47,80.9
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Alberta",,48,74.6
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Alberta",,48,74.6
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Alberta",,48,74.6
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","British Columbia",,59,83.6
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","British Columbia",,59,83.6
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","British Columbia",,59,83.6
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Yukon",,60,66.6
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Yukon",,60,66.6
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Yukon",,60,66.6
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Northwest Territories",,61,66
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Northwest Territories",,61,66
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Northwest Territories",,61,66
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Diphtheria","Nunavut",,62,24.1
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Pertussis (whooping cough)","Nunavut",,62,24.1
+"2021","Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age","Tetanus","Nunavut",,62,24.1
+"2015","Measles vaccine coverage at 7 years of age",,,,11124,85.8
+"2017","Measles vaccine coverage at 7 years of age",,,,11124,87
+"2019","Measles vaccine coverage at 7 years of age",,,,11124,83.3
+"2021","Measles vaccine coverage at 7 years of age",,,,11124,79.2
+"2015","Pneumococcal vaccine coverage at 2 years of age",,,,11124,80.3
+"2017","Pneumococcal vaccine coverage at 2 years of age",,,,11124,81.4
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"Newfoundland and Labrador",,10,90.2
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"Prince Edward Island",,11,89.5
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"Nova Scotia",,12,80.4
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"New Brunswick",,13,82.2
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"Ontario",,35,80.5
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"Quebec",,24,83.3
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"Manitoba",,46,74.6
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"Saskatchewan",,47,83.7
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"Alberta",,48,82.6
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"British Columbia",,59,80.3
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"Yukon",,60,83.2
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"Northwest Territories",,61,63.8
+"2017","Pneumococcal vaccine coverage at 2 years of age",,"Nunavut",,62,62.4
+"2019","Pneumococcal vaccine coverage at 2 years of age",,,,11124,84.4
+"2021","Pneumococcal vaccine coverage at 2 years of age",,,,11124,85.1
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"Newfoundland and Labrador",,10,87.8
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"Prince Edward Island",,11,97.4
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"Nova Scotia",,12,79
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"New Brunswick",,13,86.7
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"Ontario",,35,86.1
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"Quebec",,24,85.3
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"Manitoba",,46,81.7
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"Saskatchewan",,47,83.7
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"Alberta",,48,81.3
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"British Columbia",,59,88.2
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"Yukon",,60,73.2
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"Northwest Territories",,61,59.9
+"2021","Pneumococcal vaccine coverage at 2 years of age",,"Nunavut",,62,21
+"2015","Human Papillomavirus (HPV) vaccine coverage at 14 years of age",,"Canada","Women+",11124,74.6
+"2017","Human Papillomavirus (HPV) vaccine coverage at 14 years of age",,"Canada","Women+",11124,83
+"2019","Human Papillomavirus (HPV) vaccine coverage at 14 years of age",,,,11124,80.2
+"2019","Human Papillomavirus (HPV) vaccine coverage at 14 years of age",,"Canada","Men+",11124,73
+"2019","Human Papillomavirus (HPV) vaccine coverage at 14 years of age",,"Canada","Women+",11124,87.1
+"2021","Human Papillomavirus (HPV) vaccine coverage at 14 years of age",,,,11124,84
+"2021","Human Papillomavirus (HPV) vaccine coverage at 14 years of age",,"Canada","Men+",11124,81.5
+"2021","Human Papillomavirus (HPV) vaccine coverage at 14 years of age",,"Canada","Women+",11124,86.4

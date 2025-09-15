@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: true
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
@@ -9,21 +9,17 @@ data_notice_text: ''
 data_show_map: true
 data_start_values:
 - field: Antigen or vaccine
-  value: Meningococcal type C
+  value: Diphtheria
 - field: Antigen or vaccine
-  value: Hepatitis B
+  value: Tetanus
 - field: Antigen or vaccine
-  value: Polio
-- field: Antigen or vaccine
-  value: Measles
-- field: Antigen or vaccine
-  value: Varicella
-- field: Target population
-  value: Recommended vaccines for 2-year-old children
+  value: Pertussis (whooping cough)
 - field: Geography
   value: Canada
 - field: Gender
-  value: Total - Gender
+  value: Women+
+- field: Gender
+  value: Men+
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -34,8 +30,16 @@ expected_disaggregations:
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: chart.3-b-1-title
-graph_titles: []
+# graph_title: chart.3-b-1-title
+graph_titles:
+- series: Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age
+  title: Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age
+- series: Pneumococcal vaccine coverage at 2 years of age
+  title: Pneumococcal vaccine coverage at 2 years of age
+- series: Measles vaccine coverage at 7 years of age
+  title: Measles vaccine coverage at 7 years of age
+- series: Human Papillomavirus (HPV) vaccine coverage at 14 years of age
+  title: Human Papillomavirus (HPV) vaccine coverage at 14 years of age
 graph_type: line
 indicator_name: global_indicators.3-b-1-title
 indicator_number: 3.b.1
@@ -44,18 +48,29 @@ page_content: ''
 permalink: ''
 precision: []
 progress_calculation_options:
+# Diphtheria-tetanus-pertussis-Hib (4 doses)
 - direction: positive
-  target: 100
+  series: Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age
   disaggregation:
   - field: Antigen or vaccine
     value: Diphtheria
-  - field: Target population
-    value: Recommended vaccines for 2-year-old children
   - field: Geography
     value: Canada
-progress_status: not_available_manual
+# Pneumococcal (3 or 4 doses)
+- direction: positive
+  series: Pneumococcal vaccine coverage at 2 years of age
+# Measles-containing vaccine (2 doses)
+- direction: positive
+  series: Measles vaccine coverage at 7 years of age
+# HPV (2 doses) - actually only measuring first dose
+- direction: positive
+  series: Human Papillomavirus (HPV) vaccine coverage at 14 years of age
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
-"\xEF\xBB\xBFcomposite_breakdown_label": ''
+tags: 
+- Proxy
+proxy: both
+proxy_series:
+  - Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age
+  # - Human Papillomavirus (HPV) vaccine coverage at 14 years of age
