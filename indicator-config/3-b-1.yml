@@ -50,6 +50,7 @@ precision: []
 progress_calculation_options:
 # Diphtheria-tetanus-pertussis-Hib (4 doses)
 - direction: positive
+  limit: 100
   series: Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age
   disaggregation:
   - field: Antigen or vaccine
@@ -58,12 +59,15 @@ progress_calculation_options:
     value: Canada
 # Pneumococcal (3 or 4 doses)
 - direction: positive
+  limit: 100
   series: Pneumococcal vaccine coverage at 2 years of age
 # Measles-containing vaccine (2 doses)
 - direction: positive
+  limit: 100
   series: Measles vaccine coverage at 7 years of age
 # HPV (2 doses) - actually only measuring first dose
 - direction: positive
+  limit: 100
   series: Human Papillomavirus (HPV) vaccine coverage at 14 years of age
 reporting_status: complete
 sort: ''
