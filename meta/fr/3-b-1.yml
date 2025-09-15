@@ -9,15 +9,15 @@ STAT_CONC_DEF: |-
   Cet indicateur mesure le taux de vaccination pour certaines maladies. L'Agence de la santé publique du Canada surveille la couverture vaccinale des enfants à l'aide de l’Enquête nationale sur la couverture vaccinale des enfants.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
-  Les vaccins pour enfants inclus dans l'ENCVE sont des vaccins financés par les fonds publics, dans le cadre des programmes de vaccination provinciaux et territoriaux. Les vaccins recommandés seulement aux voyages et à certains groupes à haut risque ont été exclus. L'enquête a exclu les enfants habitant dans les réserves des Premières Nations et en établissement.
+  Les vaccins pour enfants inclus dans l'ENCVE sont des vaccins financés par les fonds publics, dans le cadre des programmes de vaccination provinciaux et territoriaux. L'enquête a exclu les enfants habitant dans les réserves des Premières Nations et en établissement.
   <br><br>
-  Les données pour la couverture vaccinale contre la diphtérie, le tétanos et la coqueluche sont raportées au Canada en tant que la proportion d'enfants ayant reçu les quatre doses recommandées nationalement avant l'âge de 2 ans. Cela diffère des métadonnées mondiales, qui rapportent la couverture vaccinale contre la diphtérie, le tétanos et la coqueluche en tant que la proportion de la population cible ayant reçu trois doses.
+  La couverture vaccinale contre la diphtérie, le tétanos et la coqueluche indique la proportion d'enfants ayant reçu les quatre doses recommandées nationalement par l'âge de 2 ans. Cela diffère des métadonnées mondiales, qui considèrent plutot la proportion de la population cible ayant reçu juste trois doses du vaccin contre la diphtérie, le tétanos et la coqueluche.
   <br><br>
-  La proportion de la population cible ayant reçu deux doses de vaccin contre la rougeole est indiquée à l'âge de 7 ans.
+  La couverture vaccinale contre la rougeole indique la proportion des enfants âgés de 7 ans ayant reçu deux doses d'un vaccin contre la rougeole.
   <br><br>
   La couverture vaccinale contre le pneumocoque indique quatre doses pour les enfants de 2 ans dans les Territoires du Nord-Ouest et le Nunavut, et trois doses dans les autres provinces et territoires. Les données pour la couverture vaccinale contre le pneumocoque incluent les vaccins conjugués et les vaccins polysaccharidiques.
   <br><br>
-  Les données pour la couverture vaccinale contre le virus du papillome humain (VPH) sont disponibles pour la proportion d'enfants ayant reçu une dose avant l'âge de 14 ans. En 2024, l'Agence de la santé publique du Canada a mis à jour ses recommandations en matière de vaccination contre le VPH, passant d'une vaccination à deux doses à une vaccination à une dose pour les personnes âgées de 9 à 20  ans.
+  La couverture vaccinale contre le virus du papillome humain (VPH) indique la proportion d'enfants ayant reçu une dose avant l'âge de 14 ans. En 2024, l'Agence de la santé publique du Canada a mis à jour ses [recommandations en matière de vaccination contre le VPH](https://www.canada.ca/en/public-health/services/publications/vaccines-immunization/national-advisory-committee-immunization-summary-updated-recommendations-hpv-vaccines.html), passant d'une vaccination à deux doses à une vaccination à une dose pour les personnes âgées de 9 à 20 ans.
 PROGRESS_DETAILS: |-
   Les estimations de la couverture contre la diphtérie sont utilisées pour mesurer les progrès réalisés quant au pourcentage d’enfants ayant reçu les doses recommandées du vaccin contre la diphtérie, le tétanos et la coqueluche.
 

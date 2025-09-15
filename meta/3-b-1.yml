@@ -9,15 +9,15 @@ STAT_CONC_DEF: |-
   This indicator measures the childhood vaccination rates for selected diseases. The Public Health Agency of Canada routinely monitors childhood vaccination coverage in Canada through the childhood National Immunization Coverage Survey.
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
-  The childhood vaccines included were those that are publicly funded under provincial/territorial programs. Vaccines recommended only for travel and some high-risk groups were excluded. The survey excluded First Nations on-reserve communities and institutionalized children.
+  The childhood vaccines included were those that are publicly funded under provincial/territorial programs. The survey excluded First Nations on-reserve communities and institutionalized children.
   <br><br>
-  Data for diphtheria-tetanus-pertussis vaccine coverage is reported in Canada as the proportion of children having received the nationally recommended four doses by 2 years of age. This differs from the global metadata, which reports diphtheria-tetanus-pertussis vaccine coverage as the proportion of the target population having received three doses.
+  Diphtheria-tetanus-pertussis vaccine coverage indicates the proportion of children having received the nationally recommended four doses by 2 years of age. This differs from the global metadata, which considers the proportion of the target population having received just three doses of diphtheria-tetanus-pertussis vaccine.
   <br><br>
-  The proportion of the target population having received two doses of measles-containing vaccine is reported by 7 years of age.
+  Measles vaccine coverage indicates the proportion of 7-year-olds having received two doses of measles-containing vaccine.
   <br><br>
   Pneumococcal coverage indicates four doses for 2-year-olds for the Northwest Territories and Nunavut, and three doses for the other provinces and territories. Data for pneumococcal coverage includes both penumococcal conjugate and pneumococcal polysaccharide vaccines.
   <br><br>
-  Data for human papillomavirus (HPV) vaccine coverage is available for the proportion of children having received one dose by 14 years of age. In 2024, the Public Health Agency of Canada updated its HPV vaccine recommendations from a two-dose schedule to a one-dose schedule for individuals 9 to 20 years of age.
+  Human papillomavirus (HPV) vaccine coverage indicates the proportion of children having received one dose by 14 years of age. In 2024, the Public Health Agency of Canada updated its [HPV vaccine recommendations](https://www.canada.ca/en/public-health/services/publications/vaccines-immunization/national-advisory-committee-immunization-summary-updated-recommendations-hpv-vaccines.html) from a two-dose schedule to a one-dose schedule for individuals 9 to 20 years of age.
 PROGRESS_DETAILS: |-
   The estimates for diphtheria coverage are used to measure progress in the proportion of the target population having received the recommended doses of the diphtheria-tetanus-pertussis vaccine.
 
