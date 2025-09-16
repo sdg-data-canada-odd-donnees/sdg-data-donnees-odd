@@ -3,17 +3,20 @@
 options(timeout = 300)
 
 library(dplyr)
+library(readsdmx)
 
-url <- "https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,/CAN.DPGC.110.100._T.E.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions&format=csvfile"
+url <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.4/CAN.DPGC.110.100._T.E.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 
-scholarship_df <- read.csv(url)
+scholarship_df <- read_sdmx(url)
 
 data_final <-
   scholarship_df %>%
   select(
     Year = TIME_PERIOD,
-    Value = OBS_VALUE
-  )
+    Value = ObsValue
+  ) %>%
+  mutate_all(as.numeric) %>%
+  arrange(Year)
 
 write.csv(
   data_final,
