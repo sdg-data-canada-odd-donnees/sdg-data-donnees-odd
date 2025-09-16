@@ -15,17 +15,22 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
   - Age group
-  - Place of occurrence
+#  - Place of occurrence
   - Geography
-  - Income
-  - Education
+#  - Income
+#  - Education
   - Visible minority
   - Indigenous identity
   - Disability
-  - Relationship with the perpetrator
-  - Sex of the perpetrator
-  - Frequency of sexual violence
-  - Type of sexual violence
+#  - Relationship with the perpetrator
+#  - Sex of the perpetrator
+#  - Frequency of sexual violence
+#  - Type of sexual violence
+  - Immigrant status
+  - Sexual orientation
+  - Employed in past 12 months
+  - Educational status
+  - Marital status
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''

@@ -17,6 +17,10 @@ graph_type: line
 indicator_name: global_indicators.1-2-2-title
 indicator_number: '1.2.2'
 national_geographical_coverage: Canada
+expected_disaggregations:
+  - Sex
+  - Age group
+  - Geography
 permalink: ''
 precision: []
 reporting_status: complete

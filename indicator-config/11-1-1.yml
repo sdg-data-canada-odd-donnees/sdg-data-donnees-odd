@@ -19,11 +19,12 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
   - Geography
-  - Sex
-  - Ethnicity
-  - Migration status
-  - Age group
-  - Disability
+  - Tenure
+#  - Sex
+#  - Ethnicity
+#  - Migration status
+#  - Age group
+#  - Disability
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''

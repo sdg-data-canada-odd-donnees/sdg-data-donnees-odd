@@ -54,7 +54,7 @@ embedded_feature_tab_title: ""
 embedded_feature_title: ""
 embedded_feature_url: ""
 expected_disaggregations:
-  - Income
+#  - Income
   - Gender
   - Age group
   - Visible minority
@@ -62,6 +62,11 @@ expected_disaggregations:
   - Immigrant status
   - Disability
   - Geography
+  - Discrimination indicators
+  - LGBTQ2+
+  - Highest level of education
+  - Main activity
+  - Area
 graph_limits: []
 graph_stacked_disaggregation: ""
 graph_titles:

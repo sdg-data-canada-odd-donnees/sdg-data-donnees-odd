@@ -7,6 +7,8 @@ library(cansim)
 library(dplyr)
 library(stringr)
 
+stop("Temporary skip 10.7.4") # The Census CODR table is taking a long time to parse, so this script is temporarily skipped to not time out on GitHub Actions.
+
 un_pop <- read.csv("un_pop.csv")
 
 un_pop_filtered <- un_pop %>%

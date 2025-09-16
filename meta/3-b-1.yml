@@ -1,53 +1,44 @@
-SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
-SDG_TARGET: '<p>Target 3.b: Support the research and development of vaccines and medicines
-  for the communicable and non&#x2011;communicable diseases that primarily affect
-  developing countries, provide access to affordable essential medicines and vaccines,
-  in accordance with the Doha Declaration on the TRIPS Agreement and Public Health,
-  which affirms the right of developing countries to use to the full the provisions
-  in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding
-  flexibilities to protect public health, and, in particular, provide access to medicines
-  for all</p>'
-SDG_INDICATOR: '<p>Indicator 3.b.1: Proportion of the target population covered by
-  all vaccines included in their national programme</p>'
-STAT_CONC_DEF: This indicator measures the childhood vaccination
-  rates for selected diseases. The Public Health Agency of Canada routinely monitors
-  childhood vaccination coverage in Canada through the childhood National Immunization
-  Coverage Survey.
+# National
+SDG_GOAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET: |-
+  Target 3.b: Support the research and development of vaccines and medicines for the communicable and non&#x2011;communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all
+SDG_INDICATOR: |-
+  Indicator 3.b.1: Proportion of the target population covered by all vaccines included in their national programme
+STAT_CONC_DEF: |-
+  This indicator measures the childhood vaccination rates for selected diseases. The Public Health Agency of Canada routinely monitors childhood vaccination coverage in Canada through the childhood National Immunization Coverage Survey.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
-  The childhood vaccines included were those that are publicly funded under provincial/territorial programs. 
-  <br>
-  <br>Vaccines recommended only for travel and some high-risk groups were excluded. 
-  <br>
-  <br>The survey excluded First Nations on-reserve communities and institutionalized children.
-  <br>
-  <br> Gender disaggregation data is available only at Canada-level when selecting the following categories: 
-  "Recommended vaccines for 14-year-old children," specifically for "Hepatitis B" or "Human Papillomavirus (HPV)".
-PROGRESS_DETAILS: custom.progress-details
-SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
-  at all ages</p>'
-SDG_TARGET__GLOBAL: '<p>Target 3.b: Support the research and development of vaccines
-  and medicines for the communicable and non-communicable diseases that primarily
-  affect developing countries, provide access to affordable essential medicines and
-  vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public
-  Health, which affirms the right of developing countries to use to the full the provisions
-  in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding
-  flexibilities to protect public health, and, in particular, provide access to medicines
-  for all</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicator 3.b.1: Proportion of the target population covered
-  by all vaccines included in their national programme</p>'
+REC_USE_LIM: |-
+  The childhood vaccines included were those that are publicly funded under provincial/territorial programs. The survey excluded First Nations on-reserve communities and institutionalized children.
+  <br><br>
+  Diphtheria-tetanus-pertussis vaccine coverage indicates the proportion of children having received the nationally recommended four doses by 2 years of age. This differs from the global metadata, which considers the proportion of the target population having received just three doses of diphtheria-tetanus-pertussis vaccine.
+  <br><br>
+  Measles vaccine coverage indicates the proportion of 7-year-olds having received two doses of measles-containing vaccine.
+  <br><br>
+  Pneumococcal coverage indicates four doses for 2-year-olds for the Northwest Territories and Nunavut, and three doses for the other provinces and territories. Data for pneumococcal coverage includes both penumococcal conjugate and pneumococcal polysaccharide vaccines.
+  <br><br>
+  Human papillomavirus (HPV) vaccine coverage indicates the proportion of children having received one dose by 14 years of age. In 2024, the Public Health Agency of Canada updated its [HPV vaccine recommendations](https://www.canada.ca/en/public-health/services/publications/vaccines-immunization/national-advisory-committee-immunization-summary-updated-recommendations-hpv-vaccines.html) from a two-dose schedule to a one-dose schedule for individuals 9 to 20 years of age.
+PROGRESS_DETAILS: |-
+  The estimates for diphtheria coverage are used to measure progress in the proportion of the target population having received the recommended doses of the diphtheria-tetanus-pertussis vaccine.
+
+# Global
+SDG_GOAL__GLOBAL: |-
+  Goal 3: Ensure healthy lives and promote well-being for all at all ages
+SDG_TARGET__GLOBAL: |-
+  Target 3.b: Support the research and development of vaccines and medicines for the communicable and non-communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all
+SDG_INDICATOR__GLOBAL: |-
+  Indicator 3.b.1: Proportion of the target population covered by all vaccines included in their national programme
+
 un_designated_tier: Tier I
 un_custodian_agency: World Health Organization (WHO),  United Nations International
   Children's Emergency Fund (UNICEF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
+# Source(s)
 source_active_1: true
 source_url_text_1: Statistics Canada. Table 13-10-0870-01  Vaccine coverage estimates for recommended vaccines in children and pregnant women
 source_url_1: https://doi.org/10.25318/1310087001-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada, provinces and territories
-
-reporting_status: complete
-

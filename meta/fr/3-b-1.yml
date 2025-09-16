@@ -1,54 +1,44 @@
-SDG_GOAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET: '<p>Cible 3.b : Appuyer la recherche et le développement de vaccins et
-  de médicaments contre les maladies, transmissibles ou non, qui touchent principalement
-  les habitants des pays en développement, donner accès, à un coût abordable, aux médicaments
-  et vaccins essentiels, conformément à la Déclaration de Doha sur l’Accord sur les
-  aspects des droits de propriété intellectuelle qui touchent au commerce (ADPIC)
-  et la santé publique, qui réaffirme le droit qu’ont les pays en développement de
-  tirer pleinement parti des dispositions de cet accord qui ménagent une flexibilité
-  lorsqu’il s’agit de protéger la santé publique et, en particulier, d’assurer l’accès
-  universel aux médicaments</p>'
-SDG_INDICATOR: '<p>Indicateur 3.b.1 : Proportion de la population cible ayant reçu
-  tous les vaccins prévus par le programme national</p>'
-STAT_CONC_DEF: Cet indicateur mesure le taux de vaccination pour certaines maladies. L'Agence de la santé publique du Canada surveille la couverture vaccinale des enfants à l'aide de l’Enquête nationale sur la couverture vaccinale des enfants.
+# National
+SDG_GOAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET: |-
+  Cible 3.b : Appuyer la recherche et le développement de vaccins et de médicaments contre les maladies, transmissibles ou non, qui touchent principalement les habitants des pays en développement, donner accès, à un coût abordable, aux médicaments et vaccins essentiels, conformément à la Déclaration de Doha sur l’Accord sur les aspects des droits de propriété intellectuelle qui touchent au commerce (ADPIC) et la santé publique, qui réaffirme le droit qu’ont les pays en développement de tirer pleinement parti des dispositions de cet accord qui ménagent une flexibilité lorsqu’il s’agit de protéger la santé publique et, en particulier, d’assurer l’accès universel aux médicaments
+SDG_INDICATOR: |-
+  Indicateur 3.b.1 : Proportion de la population cible ayant reçu tous les vaccins prévus par le programme national
+STAT_CONC_DEF: |-
+  Cet indicateur mesure le taux de vaccination pour certaines maladies. L'Agence de la santé publique du Canada surveille la couverture vaccinale des enfants à l'aide de l’Enquête nationale sur la couverture vaccinale des enfants.
 DATA_COMP: custom.data-comp
-REC_USE_LIM: |
-  Les vaccins pour enfants inclus dans l'ENCVE sont des vaccins financés par les fonds publics, dans le cadre des programmes de vaccination provinciaux et territoriaux. 
-  <br>
-  <br>Les vaccins recommandés seulement aux voyages et à certains groupes à haut risque ont été exclus. 
-  <br>
-  <br>L'enquête a exclu les enfants habitant dans les réserves des Premières Nations et en établissement.
-  <br>
-  <br>Les données ventilées par sexe ne sont disponibles qu'au niveau du Canada lors de la sélection des catégories suivantes: 
-  « Vaccins recommandés aux les enfants de 14 ans », en particulier pour « Hépatite B » ou « Virus du papillome humain (VPH) ».
-PROGRESS_DETAILS: custom.progress-details
-SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
-  le bien-être de tous à tout âge.</p>'
-SDG_TARGET__GLOBAL: '<p>Cible 3.b : Appuyer la recherche et le développement de vaccins
-  et de médicaments contre les maladies, transmissibles ou non, qui touchent principalement
-  les habitants des pays en développement, donner accès, à un coût abordable, aux médicaments
-  et vaccins essentiels, conformément à la Déclaration de Doha sur l’Accord sur les
-  aspects des droits de propriété intellectuelle qui touchent au commerce (ADPIC)
-  et la santé publique, qui réaffirme le droit qu’ont les pays en développement de
-  tirer pleinement parti des dispositions de cet accord qui ménagent une flexibilité
-  lorsqu’il s’agit de protéger la santé publique et, en particulier, d’assurer l’accès
-  universel aux médicaments</p>'
-SDG_INDICATOR__GLOBAL: '<p>Indicateur 3.b.1 : Proportion de la population cible ayant
-  reçu tous les vaccins prévus par le programme national</p>'
-  
-source_active_1: true
-source_url_text_1: "Statistique Canada. Tableau 13-10-0870-01  Estimation de la couverture vaccinale pour les vaccins recommandés chez les enfants et les femmes enceintes"
-source_url_1: "https://doi.org/10.25318/1310087001-fra"
-source_organisation_1: "Statistique Canada"
-source_periodicity_1: "Occasionnelle"
-source_geographical_coverage_1: "Canada, Province et territoire"
+REC_USE_LIM: |-
+  Les vaccins pour enfants inclus dans l'ENCVE sont des vaccins financés par les fonds publics, dans le cadre des programmes de vaccination provinciaux et territoriaux. L'enquête a exclu les enfants habitant dans les réserves des Premières Nations et en établissement.
+  <br><br>
+  La couverture vaccinale contre la diphtérie, le tétanos et la coqueluche indique la proportion d'enfants ayant reçu les quatre doses recommandées nationalement par l'âge de 2 ans. Cela diffère des métadonnées mondiales, qui considèrent plutot la proportion de la population cible ayant reçu juste trois doses du vaccin contre la diphtérie, le tétanos et la coqueluche.
+  <br><br>
+  La couverture vaccinale contre la rougeole indique la proportion des enfants âgés de 7 ans ayant reçu deux doses d'un vaccin contre la rougeole.
+  <br><br>
+  La couverture vaccinale contre le pneumocoque indique quatre doses pour les enfants de 2 ans dans les Territoires du Nord-Ouest et le Nunavut, et trois doses dans les autres provinces et territoires. Les données pour la couverture vaccinale contre le pneumocoque incluent les vaccins conjugués et les vaccins polysaccharidiques.
+  <br><br>
+  La couverture vaccinale contre le virus du papillome humain (VPH) indique la proportion d'enfants ayant reçu une dose avant l'âge de 14 ans. En 2024, l'Agence de la santé publique du Canada a mis à jour ses [recommandations en matière de vaccination contre le VPH](https://www.canada.ca/en/public-health/services/publications/vaccines-immunization/national-advisory-committee-immunization-summary-updated-recommendations-hpv-vaccines.html), passant d'une vaccination à deux doses à une vaccination à une dose pour les personnes âgées de 9 à 20 ans.
+PROGRESS_DETAILS: |-
+  Les estimations de la couverture contre la diphtérie sont utilisées pour mesurer les progrès réalisés quant au pourcentage d’enfants ayant reçu les doses recommandées du vaccin contre la diphtérie, le tétanos et la coqueluche.
 
-reporting_status: complete
+# Global
+SDG_GOAL__GLOBAL: |-
+  Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.
+SDG_TARGET__GLOBAL: |-
+  Cible 3.b : Appuyer la recherche et le développement de vaccins et de médicaments contre les maladies, transmissibles ou non, qui touchent principalement les habitants des pays en développement, donner accès, à un coût abordable, aux médicaments et vaccins essentiels, conformément à la Déclaration de Doha sur l’Accord sur les aspects des droits de propriété intellectuelle qui touchent au commerce (ADPIC) et la santé publique, qui réaffirme le droit qu’ont les pays en développement de tirer pleinement parti des dispositions de cet accord qui ménagent une flexibilité lorsqu’il s’agit de protéger la santé publique et, en particulier, d’assurer l’accès universel aux médicaments
+SDG_INDICATOR__GLOBAL: |-
+  Indicateur 3.b.1 : Proportion de la population cible ayant reçu tous les vaccins prévus par le programme national
 
 un_designated_tier: Niveau I
 un_custodian_agency: Organisation mondiale de la Santé, Fonds des Nations Unies pour l'enfance (FISE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+# Source(s)
+source_active_1: true
+source_url_text_1: "Statistique Canada. Tableau 13-10-0870-01  Estimation de la couverture vaccinale pour les vaccins recommandés chez les enfants et les femmes enceintes"
+source_url_1: "https://doi.org/10.25318/1310087001-fra"
+source_organisation_1: "Statistique Canada"
+source_periodicity_1: "Occasionnelle"
+source_geographical_coverage_1: "Canada, Province et territoire"
  

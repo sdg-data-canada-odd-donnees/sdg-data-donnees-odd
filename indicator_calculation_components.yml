@@ -2176,8 +2176,60 @@
   progress_status: substantial_progress
   score: 5.0
 3-b-1:
-  progress_status: not_available_manual
-  score: null
+  3-b-1 / Diphtheria-tetanus-pertussis vaccine coverage at 2 years of age / Diphtheria / Canada:
+    base_value: 76.9
+    base_year: 2015.0
+    current_value: 77.1
+    current_year: 2021.0
+    direction: 1
+    limit: 100
+    progress_value: 0.00043299439130128903
+    score: -2.1855343809280647
+    sign: 1
+    status: limited_progress
+    target: null
+    target_year: 2030.0
+  3-b-1 / Human Papillomavirus (HPV) vaccine coverage at 14 years of age:
+    base_value: 80.2
+    base_year: 2019.0
+    current_value: 84.0
+    current_year: 2021.0
+    direction: 1
+    limit: 100
+    progress_value: 0.023416604386827133
+    score: 5.0
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
+  3-b-1 / Measles vaccine coverage at 7 years of age:
+    base_value: 85.8
+    base_year: 2015.0
+    current_value: 79.2
+    current_year: 2021.0
+    direction: 1
+    limit: 100
+    progress_value: -0.013251861837359047
+    score: -4.1564827296698805
+    sign: 1
+    status: deterioration
+    target: null
+    target_year: 2030.0
+  3-b-1 / Pneumococcal vaccine coverage at 2 years of age:
+    base_value: 80.3
+    base_year: 2015.0
+    current_value: 85.1
+    current_year: 2021.0
+    direction: 1
+    limit: 100
+    progress_value: 0.009723201903344858
+    score: 2.810019550190604
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
+  progress_status: moderate_progress
+  score: 0.36700060989816463
 3-b-2:
   3-b-2:
     base_value: 386.196408
@@ -2720,14 +2772,14 @@
     target: 1.0
     target_year: 2030.0
   4-5-1 / Participation rate of youth and adults in formal and non-forma... / Adjusted gender parity index / 15-64 years old:
-    base_value: 1.11715839800036
+    base_value: 1.11715839800035
     base_year: 2015.0
     current_value: 1.14786857548566
     current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.4100885532702693
-    score: -4.208715974911231
+    progress_value: -0.4100885532704511
+    score: -4.208715974911988
     sign: 1
     status: deterioration
     target: 1.0
@@ -2811,7 +2863,7 @@
     target: 1.0
     target_year: 2030.0
   progress_status: moderate_progress
-  score: 0.7269840878657934
+  score: 0.6011034508134815
 4-6-1:
   4-6-1 / 2 or below / Literacy / Canada / Total / 16 to 24 years:
     base_value: 46.4
