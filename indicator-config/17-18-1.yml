@@ -1,11 +1,11 @@
 ﻿composite_breakdown_label: ""
-computation_units: ""
+computation_units: Score
 copyright: ""
 data_footnote: ""
 data_non_statistical: false
-data_notice_class: success
-data_notice_heading: custom.exploring-data-sources-header
-data_notice_text: custom.exploring-data-sources-text
+data_notice_class: ''
+data_notice_heading: ''
+data_notice_text: ''
 data_show_map: false
 data_start_values: []
 embedded_feature_footer: ""
@@ -17,8 +17,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ""
-graph_title: global_indicators.17-18-1-title
-graph_titles: []
+graph_titles: 
+  - series: Open Data Inventory (ODIN)
+    title: Open Data Inventory (ODIN)
+  - series: Statistical Performance Indicators (SPI)
+    title: Statistical Performance Indicators (SPI)
 graph_type: line
 indicator_name: global_indicators.17-18-1-title
 indicator_number: "17.18.1"
@@ -28,7 +31,7 @@ permalink: ""
 precision: []
 progress_calculation_options:
 - direction: positive
-reporting_status: notstarted
+reporting_status: complete
 sort: ""
 standalone: false
 tags: []
