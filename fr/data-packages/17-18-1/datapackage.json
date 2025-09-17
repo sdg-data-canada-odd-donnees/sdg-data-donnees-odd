@@ -12,8 +12,94 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Inventaire des données ouvertes (IDO)",
+                "Indicateurs de performance statistique (IPS)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Data categories",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population et statistiques démographiques",
+                "Établissements d'enseignement",
+                "Résultats en matière d'éducation",
+                "Établissements de soins de santé",
+                "Résultats en matière de santé",
+                "Santé reproductive",
+                "Statistiques sur le genre",
+                "Pauvreté et revenus",
+                "Sous-score des statistiques sociales",
+                "Comptes nationaux",
+                "Travail",
+                "Indices de prix",
+                "Finances gouvernementales",
+                "Monnaie et banque",
+                "Commerce international",
+                "Balance des paiements",
+                "Sous-score des statistiques économiques et financières",
+                "Agriculture et utilisation des terres",
+                "Utilisation des ressources",
+                "Consommation d'énergie",
+                "Pollution",
+                "Environnement bâti",
+                "Sous-score de l'environnement",
+                "Toutes les catégories",
+                "Criminalité et justice",
+                "Sécurité alimentaire et nutrition",
+                ""
+              ]
+            },
+            "title": "Catégories de données"
+          },
+          {
+            "name": "Elements",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Couverture et désagrégation des indicateurs",
+                "Données disponibles pour les 5 dernières années",
+                "Données disponibles pour les 10 dernières années",
+                "Premier niveau administratif",
+                "Deuxième niveau administratif",
+                "Sous-score de couverture",
+                "Lisible par machine",
+                "Non propriétaire",
+                "Options de téléchargement",
+                "Métadonnées disponibles",
+                "Conditions d'utilisation",
+                "Sous-score pour l'ouverture",
+                "Score global",
+                ""
+              ]
+            },
+            "title": "Éléments"
+          },
+          {
+            "name": "Pillar",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pilier 1: utilisation de données",
+                "Pilier 2: services de données",
+                "Pilier 3: produits de données",
+                "Pilier 4: sources de données",
+                "Pilier 5: infrastructure de données",
+                ""
+              ]
+            },
+            "title": "Pilier"
           },
           {
             "name": "Value",
@@ -26,5 +112,5 @@
   ],
   "profile": "data-package",
   "name": "17-18-1",
-  "title": "Indicateur de capacité statistique pour le suivi des objectifs de développement durable"
+  "title": "Indicateurs de capacité statistique pour le suivi des objectifs de développement durable"
 }

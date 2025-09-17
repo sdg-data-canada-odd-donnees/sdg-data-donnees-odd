@@ -12,8 +12,94 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Open Data Inventory (ODIN)",
+                "Statistical Performance Indicators (SPI)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Data categories",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population and vital statistics",
+                "Education facilities",
+                "Education outcomes",
+                "Health facilities",
+                "Health outcomes",
+                "Reproductive health",
+                "Gender statistics",
+                "Poverty and income",
+                "Social statistics subscore",
+                "National accounts",
+                "Labor",
+                "Price indexes",
+                "Government finance",
+                "Money and banking",
+                "International trade",
+                "Balance of payments",
+                "Economic and financial statistics subscore",
+                "Agriculture and land use",
+                "Resource use",
+                "Energy use",
+                "Pollution",
+                "Built environment",
+                "Environment subscore",
+                "All categories",
+                "Crime and justice",
+                "Food security and nutrition",
+                ""
+              ]
+            },
+            "title": "Data categories"
+          },
+          {
+            "name": "Elements",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indicator coverage and disaggregation",
+                "Data available last 5 years",
+                "Data available last 10 years",
+                "First administrative level",
+                "Second administrative level",
+                "Coverage subscore",
+                "Machine readable",
+                "Non-proprietary",
+                "Download options",
+                "Metadata available",
+                "Terms of use",
+                "Openness subscore",
+                "Overall score",
+                ""
+              ]
+            },
+            "title": "Elements"
+          },
+          {
+            "name": "Pillar",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pillar 1: Data Use",
+                "Pillar 2: Data Services",
+                "Pillar 3: Data Products",
+                "Pillar 4: Data Sources",
+                "Pillar 5: Data Infrastructure",
+                ""
+              ]
+            },
+            "title": "Pillar"
           },
           {
             "name": "Value",
@@ -26,5 +112,5 @@
   ],
   "profile": "data-package",
   "name": "17-18-1",
-  "title": "Statistical capacity indicator for Sustainable Development Goal monitoring"
+  "title": "Statistical capacity indicators for Sustainable Development Goal monitoring"
 }

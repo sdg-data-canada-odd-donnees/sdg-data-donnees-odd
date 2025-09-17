@@ -1,0 +1,277 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Disaggregation: Elements - SDG data build documentation</title>
+
+            <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.css">
+            <style>
+                .btn-primary {
+                    background-color: #00703c;
+                    padding: 8px 10px 7px;
+                    border: 2px solid transparent;
+                    border-radius: 0;
+                    color: #fff;
+                    box-shadow: 0 2px 0 #002d18;
+                    text-decoration: none;
+                }
+                .btn-primary:visited {
+                    color: #fff;
+                }
+                .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+                    background-color: #005a30;
+                    text-decoration: none;
+                    border: 2px solid transparent;
+                }
+                .btn-primary:focus:not(:active):not(:hover) {
+                    border-color: #fd0;
+                    color: #0b0c0c;
+                    background-color: #fd0;
+                    box-shadow: 0 2px 0 #0b0c0c;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+                a:hover {
+                    color: #003078;
+                }
+                a:visited {
+                    color: #4c2c92;
+                }
+                .download-info {
+                    margin-left: 12px;
+                }
+                .table-striped tbody tr:nth-of-type(2n+1) {
+                    background-color: #f3f2f1;
+                }
+                #skiplink {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    z-index: 10000;
+                    width: 250px;
+                    margin-left: -125px;
+                    padding: 10px;
+                    background: white;
+                    text-align: center;
+                    border: 1px solid #0b0c0c;
+                    color: #0b0c0c;
+                    display: block;
+                }
+                .sr-only-focusable:not(:focus):not(:focus-within) {
+                    position: absolute !important;
+                    width: 1px !important;
+                    height: 1px !important;
+                    padding: 0 !important;
+                    margin: -1px !important;
+                    overflow: hidden !important;
+                    clip: rect(0, 0, 0, 0) !important;
+                    white-space: nowrap !important;
+                    border: 0 !important;
+                }
+            </style>
+        </head>
+        <body>
+            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">SDG data build documentation</a>
+                </div>
+            </nav>
+            <main id="main-content" role="main">
+                <div class="container">
+                    <h1 style="margin:20px 0">Disaggregation: Elements</h1>
+                    <div>
+                        
+        <div role="navigation" aria-describedby="contents-heading">
+            <h2 id="contents-heading">On this page</h2>
+            <ul>
+                <li><a href="#values-used">Values used in disaggregation</a></li>
+                <li><a href="#indicators-using">Indicators using disaggregation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="values-used" tabindex="-1">Values used in disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="values--disaggregation--elements.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--elements">Download CSV of values used in this disaggregation</a>
+            <div id="values--disaggregation--elements" class="download-info">Size: 1.1 kB</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">13</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="values-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Value</th>
+      <th>en</th>
+      <th>fr</th>
+      <th>Disaggregation combinations using this value</th>
+      <th>Number of indicators</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="disaggregation-value--coverage-subscore.html">Coverage subscore</a></td>
+      <td>Coverage subscore</td>
+      <td>Sous-score de couverture</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--data-available-last-10-years.html">Data available last 10 years</a></td>
+      <td>Data available last 10 years</td>
+      <td>Données disponibles pour les 10 dernières années</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--data-available-last-5-years.html">Data available last 5 years</a></td>
+      <td>Data available last 5 years</td>
+      <td>Données disponibles pour les 5 dernières années</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--download-options.html">Download options</a></td>
+      <td>Download options</td>
+      <td>Options de téléchargement</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--first-administrative-level.html">First administrative level</a></td>
+      <td>First administrative level</td>
+      <td>Premier niveau administratif</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--indicator-coverage-and-disaggregation.html">Indicator coverage and disaggregation</a></td>
+      <td>Indicator coverage and disaggregation</td>
+      <td>Couverture et désagrégation des indicateurs</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--machine-readable.html">Machine readable</a></td>
+      <td>Machine readable</td>
+      <td>Lisible par machine</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--metadata-available.html">Metadata available</a></td>
+      <td>Metadata available</td>
+      <td>Métadonnées disponibles</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--non-proprietary.html">Non-proprietary</a></td>
+      <td>Non-proprietary</td>
+      <td>Non propriétaire</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--openness-subscore.html">Openness subscore</a></td>
+      <td>Openness subscore</td>
+      <td>Sous-score pour l'ouverture</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--overall-score.html">Overall score</a></td>
+      <td>Overall score</td>
+      <td>Score global</td>
+      <td>25</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--second-administrative-level.html">Second administrative level</a></td>
+      <td>Second administrative level</td>
+      <td>Deuxième niveau administratif</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--terms-of-use.html">Terms of use</a></td>
+      <td>Terms of use</td>
+      <td>Conditions d'utilisation</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--coverage-subscore.html\">Coverage subscore<\/a>","en":"Coverage subscore","fr":"Sous-score de couverture","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--data-available-last-10-years.html\">Data available last 10 years<\/a>","en":"Data available last 10 years","fr":"Donn\u00e9es disponibles pour les 10 derni\u00e8res ann\u00e9es","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--data-available-last-5-years.html\">Data available last 5 years<\/a>","en":"Data available last 5 years","fr":"Donn\u00e9es disponibles pour les 5 derni\u00e8res ann\u00e9es","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--download-options.html\">Download options<\/a>","en":"Download options","fr":"Options de t\u00e9l\u00e9chargement","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--first-administrative-level.html\">First administrative level<\/a>","en":"First administrative level","fr":"Premier niveau administratif","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--indicator-coverage-and-disaggregation.html\">Indicator coverage and disaggregation<\/a>","en":"Indicator coverage and disaggregation","fr":"Couverture et d\u00e9sagr\u00e9gation des indicateurs","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--machine-readable.html\">Machine readable<\/a>","en":"Machine readable","fr":"Lisible par machine","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--metadata-available.html\">Metadata available<\/a>","en":"Metadata available","fr":"M\u00e9tadonn\u00e9es disponibles","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--non-proprietary.html\">Non-proprietary<\/a>","en":"Non-proprietary","fr":"Non propri\u00e9taire","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--openness-subscore.html\">Openness subscore<\/a>","en":"Openness subscore","fr":"Sous-score pour l'ouverture","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--overall-score.html\">Overall score<\/a>","en":"Overall score","fr":"Score global","Disaggregation combinations using this value":25,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--second-administrative-level.html\">Second administrative level<\/a>","en":"Second administrative level","fr":"Deuxi\u00e8me niveau administratif","Disaggregation combinations using this value":26,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--terms-of-use.html\">Terms of use<\/a>","en":"Terms of use","fr":"Conditions d'utilisation","Disaggregation combinations using this value":26,"Number of indicators":1}];
+            </script>
+            
+        </div>
+        <div>
+            <h2 id="indicators-using" tabindex="-1">Indicators using disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="indicators--disaggregation--elements.csv" role="button" class="btn btn-primary" aria-describedby="indicators--disaggregation--elements">Download CSV of indicators using this disaggregation</a>
+            <div id="indicators--disaggregation--elements" class="download-info">Size: 19 Bytes</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">1</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="indicators-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Indicator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#17-18-1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['indicators-table'] = [{"Indicator":"#17-18-1"}];
+            </script>
+            
+        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script>
+            if (typeof sdgBuild !== 'undefined' && sdgBuild.tables) {
+                var tableIds = Object.keys(sdgBuild.tables);
+                for (var i = 0; i < tableIds.length; i++) {
+                    var tableId = tableIds[i];
+                    $('#' + tableId).openSdgTable(sdgBuild.tables[tableId]).find('td').each(function() {
+                        if (!isNaN($(this).text())) {
+                            $(this).css('text-align', 'right');
+                        }
+                    })
+                }
+            }
+            </script>
+        </html>
+        
