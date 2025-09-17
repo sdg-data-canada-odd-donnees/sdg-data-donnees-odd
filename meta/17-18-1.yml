@@ -9,7 +9,9 @@ SDG_INDICATOR: '<p>Indicator 17.18.1: Statistical capacity indicator for Sustain
   Development Goal monitoring</p>'
 STAT_CONC_DEF: |
   The Open Data Inventory (ODIN) is an evaluation of the coverage and openness of data provided on the websites maintained by national statistical offices (NSOs) and any official government website that is accessible from the NSO site, as well as a country’s official SDG portal.
-DATA_COMP: '   '
+  <br><br>
+  The Statistical Performance Indicators (SPI) measure the capacity and maturity of national statistical systems by assessing the use of data, the quality of services, the coverage of topics, the sources of information, and the infrastructure and availability of resources.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
@@ -26,4 +28,17 @@ un_custodian_agency: United Nations Statistics Division (UNSD)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=&Target=17.18
 goal_meta_link_text: The IAEG-SDGs is currently reviewing a statistical capacity indicator for 17.18.1, so the metadata for indicator 17.18.1 is currently unavailable.
 
- 
+# Source(s)
+source_active_1: true
+source_url_text_1: Open Data Inventory (ODIN)
+source_url_1: https://odin.opendatawatch.com/Data/download
+source_organisation_1: Open Data Watch
+source_periodicity_1: Every 2 years
+source_geographical_coverage_1: Canadian
+
+source_active_2: true
+source_url_text_2: Statistical Performance Indicators (SPI)
+source_url_2: https://www.worldbank.org/en/programs/statistical-performance-indicators/explore-data
+source_organisation_2: World Bank
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada

@@ -11,7 +11,9 @@ SDG_INDICATOR: '<p>Indicateur 17.18.1 : Indicateur de capacité statistique pou
   des objectifs de développement durable</p>'
 STAT_CONC_DEF: |
    L'inventaire des données ouvertes (ODIN)  est une évaluation de la couverture et de l’ouverture des données fournies sur les sites Web gérés par les instituts nationaux de la statistique (INS) et tous les sites Web gouvernementaux qui sont accessibles à partir du site des instituts nationaux de la statistique ainsi que sur le portail officiel des Objectifs de développement durable d’un pays. 
-DATA_COMP: '   '
+   <br><br>
+   Les indicateurs de performance statistique (IPS) mesurent la capacité et la maturité des systèmes statistiques nationaux en évaluant l'utilisation des données, la qualité des services, la couverture des thèmes, les sources d'information, ainsi que l'infrastructure et la disponibilité des ressources.
+DATA_COMP: custom.data-comp
 REC_USE_LIM: '   '
 PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
@@ -26,11 +28,22 @@ SDG_TARGET__GLOBAL: '<p>Cible 17.18 : D’ici à 2020, apporter un soutien accru
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.18.1 : Indicateur de capacité statistique pour le suivi
   des objectifs de développement durable</p>'
 
-reporting_status: notstarted
-
 un_designated_tier: Niveau II
 un_custodian_agency: Division de statistique de l’ONU
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=&Target=17.18
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+# Source(s)
+source_active_1: true
+source_url_text_1: Inventaire des données ouvertes (ODIN) (en anglais seulement)
+source_url_1: https://odin.opendatawatch.com/Data/download
+source_organisation_1: Open Data Watch
+source_periodicity_1: Tous les 2 ans
+source_geographical_coverage_1: Canada
+
+source_active_2: true
+source_url_text_2: Indicateurs de performance statistique (IPS) (en anglais seulement)
+source_url_2: https://www.worldbank.org/en/programs/statistical-performance-indicators
+source_organisation_2: Banque mondiale
+source_periodicity_2: Annuel
+source_geographical_coverage_2: Canada
