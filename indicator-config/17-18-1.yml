@@ -34,7 +34,14 @@ page_content: ""
 permalink: ""
 precision: []
 progress_calculation_options:
+# ODIN
 - direction: positive
+  limit: 100
+  series: Open Data Inventory (ODIN)
+# SPI
+- direction: positive
+  limit: 100
+  series: Statistical Performance Indicators (SPI)
 reporting_status: complete
 sort: ""
 standalone: false
