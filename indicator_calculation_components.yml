@@ -1441,8 +1441,34 @@
   progress_status: ''
   score: null
 17-18-1:
-  progress_status: ''
-  score: null
+  17-18-1 / Open Data Inventory (ODIN):
+    base_value: 74.8
+    base_year: 2016.0
+    current_value: 78.3
+    current_year: 2024.0
+    direction: 1
+    limit: 100
+    progress_value: 0.005732583481782072
+    score: 0.7281197264821118
+    sign: 1
+    status: moderate_progress
+    target: null
+    target_year: 2030.0
+  17-18-1 / Statistical Performance Indicators (SPI):
+    base_value: 86.2795833333333
+    base_year: 2016.0
+    current_value: 93.4616666666667
+    current_year: 2023.0
+    direction: 1
+    limit: 100
+    progress_value: 0.011488112691155239
+    score: 5.0
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
+  progress_status: substantial_progress
+  score: 2.8640598632410557
 17-18-2:
   progress_status: target_achieved
   score: null
