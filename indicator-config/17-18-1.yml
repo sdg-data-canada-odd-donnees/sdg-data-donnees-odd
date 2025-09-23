@@ -12,6 +12,9 @@ data_start_values:
   - series: Open Data Inventory (ODIN)
     field: Data categories
     value: All categories
+  - series: Open Data Inventory (ODIN)
+    field: Elements
+    value: Overall score
 embedded_feature_footer: ""
 embedded_feature_html: ""
 embedded_feature_tab_title: ""
