@@ -28,6 +28,29 @@
             "title": "Series"
           },
           {
+            "name": "Elements",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indicator coverage and disaggregation",
+                "Data available last 5 years",
+                "Data available last 10 years",
+                "First administrative level",
+                "Second administrative level",
+                "Coverage subscore",
+                "Machine readable",
+                "Non-proprietary",
+                "Download options",
+                "Metadata available",
+                "Terms of use",
+                "Openness subscore",
+                "Overall score",
+                ""
+              ]
+            },
+            "title": "Elements"
+          },
+          {
             "name": "Data categories",
             "type": "string",
             "constraints": {
@@ -62,29 +85,6 @@
               ]
             },
             "title": "Data categories"
-          },
-          {
-            "name": "Elements",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Indicator coverage and disaggregation",
-                "Data available last 5 years",
-                "Data available last 10 years",
-                "First administrative level",
-                "Second administrative level",
-                "Coverage subscore",
-                "Machine readable",
-                "Non-proprietary",
-                "Download options",
-                "Metadata available",
-                "Terms of use",
-                "Openness subscore",
-                "Overall score",
-                ""
-              ]
-            },
-            "title": "Elements"
           },
           {
             "name": "Pillar",

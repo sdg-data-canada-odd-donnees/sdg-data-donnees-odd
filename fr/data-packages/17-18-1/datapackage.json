@@ -28,6 +28,29 @@
             "title": "Series"
           },
           {
+            "name": "Elements",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Couverture et désagrégation des indicateurs",
+                "Données disponibles pour les 5 dernières années",
+                "Données disponibles pour les 10 dernières années",
+                "Premier niveau administratif",
+                "Deuxième niveau administratif",
+                "Sous-score de couverture",
+                "Lisible par machine",
+                "Non propriétaire",
+                "Options de téléchargement",
+                "Métadonnées disponibles",
+                "Conditions d'utilisation",
+                "Sous-score d'ouverture",
+                "Score global",
+                ""
+              ]
+            },
+            "title": "Éléments"
+          },
+          {
             "name": "Data categories",
             "type": "string",
             "constraints": {
@@ -62,29 +85,6 @@
               ]
             },
             "title": "Catégories de données"
-          },
-          {
-            "name": "Elements",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Couverture et désagrégation des indicateurs",
-                "Données disponibles pour les 5 dernières années",
-                "Données disponibles pour les 10 dernières années",
-                "Premier niveau administratif",
-                "Deuxième niveau administratif",
-                "Sous-score de couverture",
-                "Lisible par machine",
-                "Non propriétaire",
-                "Options de téléchargement",
-                "Métadonnées disponibles",
-                "Conditions d'utilisation",
-                "Sous-score d'ouverture",
-                "Score global",
-                ""
-              ]
-            },
-            "title": "Éléments"
           },
           {
             "name": "Pillar",
