@@ -126,6 +126,7 @@ odin_data <- bind_rows(dfs_clean, data_2024) %>%
   mutate(`Data categories` = ifelse(`Data categories` == "All Categories" & Elements == "Overall score", NA, `Data categories`)) %>%
   mutate(Elements = ifelse(`Data categories` == "All Categories" & Elements == "Overall score", NA, Elements)) %>%
   relocate(Series, .before = "Data categories") %>%
+  relocate(Elements, .before = "Data categories") %>%
   mutate(
     `Data categories` = case_when(
       `Data categories` %in% c("Land use", "Agriculture & Land Use") ~ "Agriculture and land use",
