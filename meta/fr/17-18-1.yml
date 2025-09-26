@@ -10,9 +10,64 @@ SDG_TARGET: '<p>Cible 17.18 : D’ici à 2020, apporter un soutien accru au renf
 SDG_INDICATOR: '<p>Indicateur 17.18.1 : Indicateur de capacité statistique pour le suivi
   des objectifs de développement durable</p>'
 STAT_CONC_DEF: |
-   L'inventaire des données ouvertes (ODIN)  est une évaluation de la couverture et de l’ouverture des données fournies sur les sites Web gérés par les instituts nationaux de la statistique (INS) et tous les sites Web gouvernementaux qui sont accessibles à partir du site des instituts nationaux de la statistique ainsi que sur le portail officiel des Objectifs de développement durable d’un pays. 
-DATA_COMP: '   '
+  <p>
+  <strong>Indicateur 17.18.1 (a)</strong>
+  </p>
+  <p>
+  L'inventaire des données ouvertes (ODIN) est une évaluation de la couverture et de l’ouverture des données fournies sur les sites Web gérés par les instituts nationaux de la statistique (INS) et tous les sites Web gouvernementaux qui sont accessibles à partir du site des instituts nationaux de la statistique ainsi que sur le portail officiel des Objectifs de développement durable d’un pays. 
+  </p>
+  <p>
+  ODIN mesure l'exhaustivité des statistiques fournies par les pays (appelée « couverture ») et la conformité de ces ensembles de données aux normes internationales d'ouverture des données (appelée « ouverture »). Cette évaluation porte sur 22 catégories de données statistiques sociales, économiques et environnementales. Chaque catégorie de données est évaluée selon 10 éléments afin de déterminer la couverture et l'ouverture des ensembles de données.
+  </p>
+  <p>
+  La couverture des données est mesurée à l'aide de cinq éléments qui évaluent l'exhaustivité des données fournies par le pays.
+  <p>
+  Les cinq éléments de couverture sont les suivants :
+  <ul>
+  <li> Disponibilité des indicateurs et des désagrégations</li>
+  <li> Disponibilité des données au cours des cinq dernières années</li>
+  <li> Disponibilité des données au cours des dix dernières années</li>
+  <li> Disponibilité des données au premier niveau géographique administratif</li>
+  <li> Disponibilité des données au deuxième niveau géographique administratif</li>
+  </ul>
+  </p>
+  <p>
+  L'ouverture des données est mesurée à l'aide de cinq éléments qui évaluent dans quelle mesure les données fournies par un pays répondent aux normes internationales d'ouverture.
+  </p>
+  <p>
+  Les cinq éléments d'ouverture sont les suivants :
+  <ul>
+  <li> Disponibilité des données dans un format lisible par machine</li>
+  <li> Disponibilité des données dans un format non propriétaire</li>
+  <li> Disponibilité des métadonnées de référence</li>
+  <li> Disponibilité d'options de téléchargement qui rendent les données plus accessibles : téléchargements en masse, API, options d'exportation de données personnalisables</li>
+  <li> Disponibilité d'une licence de données ouvertes ou de conditions d'utilisation des données ouvertes</li>
+  </ul>
+  </p>
+  <p>
+  La disponibilité des statistiques officielles est exprimée sous forme de note comprise entre 0 et 100, 0 correspondant à une indisponibilité totale et 100 à une disponibilité totale. <i>(Open Data Watch)</i>
+  </p>
+  <p>
+  <strong>Indicateur 17.18.1 (b)</strong>
+  </p>
+  <p>
+  Les indicateurs de performance statistique (IPS) évaluent la maturité et la performance des systèmes statistiques nationaux dans cinq domaines clés, appelés piliers. Les cinq piliers sont les suivants :
+  <ol>
+  <li> L'utilisation des données : les statistiques n'ont de valeur que si elles sont utilisées. Un système statistique performant produit des données qui sont utilisées largement et fréquemment.</li>
+  <li> Les services de données : une gamme de services relie les utilisateurs de données aux producteurs et facilite les dialogues entre eux, développant ainsi la confiance et un sentiment de valeur.</li>
+  <li> Les produits de données : les dialogues entre utilisateurs et producteurs dirigent la conception et la variété de produits statistiques, ainsi que leur exactitude, leur actualité, leur fréquence, leur comparabilité et leurs niveaux de désagrégation. Les produits indiquent si les pays sont en mesure de produire des indicateurs liés aux 17 objectifs de développement durable.</li>
+  <li> Les sources de données : pour créer des produits utiles, le système statistique doit tirer de sources internes et externes au gouvernement. La collecte de données va donc au-delà des recensements et des sondages typiques afin d'inclure des données administratives et géospatiales ainsi que des données générées par des entreprises privées et des citoyens.</li>
+  <li> L'infrastructure de données : un système statistique mature possède une infrastructure matérielle (législation, gouvernance, normes) et une infrastructure immatérielle (compétences, partenariats) bien développées, ainsi que les ressources financières nécessaires pour fournir des produits et services de données utiles et largement utilisés.</li>
+  </ol>
+  </p>
+  <p>
+  Chacun de ces piliers est supporté par quatre ou cinq dimensions et utilise des méthodes et indicateurs définis.
+  </p>
+  <p>
+  Les scores pour chaque pilier sont calculés en combinant les scores de chaque dimension du pilier en question, qui sont à leur tour dérivés des valeurs de leurs indicateurs respectifs. Le score IPS global est une moyenne des scores des cinq piliers. Un pays peut atteindre un score global maximum de 100 et un minimum de 0. Un score de 100 indiquerait qu’un pays a mis en place tous les éléments mesurés par les IPS, tandis qu’un score de 0 indiquerait qu’aucun élément n’a été mis en place. <i>(Groupe de la Banque mondiale)</i>
+  </p>
 REC_USE_LIM: '   '
+DATA_COMP: custom.data-comp
 PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
   mondial pour le développement durable et le revitaliser</p>'
@@ -26,11 +81,22 @@ SDG_TARGET__GLOBAL: '<p>Cible 17.18 : D’ici à 2020, apporter un soutien accru
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.18.1 : Indicateur de capacité statistique pour le suivi
   des objectifs de développement durable</p>'
 
-reporting_status: notstarted
-
 un_designated_tier: Niveau II
 un_custodian_agency: Division de statistique de l’ONU
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=&Target=17.18
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+# Source(s)
+source_active_1: true
+source_url_text_1: Inventaire des données ouvertes (ODIN) (en anglais seulement)
+source_url_1: https://odin.opendatawatch.com/Data/download
+source_organisation_1: Open Data Watch
+source_periodicity_1: Tous les 2 ans
+source_geographical_coverage_1: Canada
+
+source_active_2: true
+source_url_text_2: Indicateurs de performance statistique (IPS) (en anglais seulement)
+source_url_2: https://www.worldbank.org/en/programs/statistical-performance-indicators
+source_organisation_2: Banque mondiale
+source_periodicity_2: Annuel
+source_geographical_coverage_2: Canada

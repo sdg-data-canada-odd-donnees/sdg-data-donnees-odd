@@ -15,6 +15,9 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations: 
   - Type of crime
+  - Gender
+  - Age group
+  - Marital status
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
