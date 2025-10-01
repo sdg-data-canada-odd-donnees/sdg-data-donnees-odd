@@ -15,9 +15,9 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations: 
  - Geography
-# - Sex
-# - Age group
-# - Wealth quintile
+ - Sex
+ - Age group
+ - Wealth quintile
 graph_annotations: []
 graph_limits:
 - minimum: 0
