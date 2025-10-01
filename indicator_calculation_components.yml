@@ -355,11 +355,11 @@
   10-5-1 / Earnings and profitability, return on assets:
     base_value: 1.01
     base_year: 2015.0
-    current_value: 0.79
-    current_year: 2023.0
+    current_value: 0.81
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.030242349015399905
+    progress_value: -0.024220890327860234
     score: -5.0
     sign: 1
     status: deterioration
@@ -368,51 +368,51 @@
   10-5-1 / Ratio of liquid assets to short-term liabilities:
     base_value: 45.36
     base_year: 2015.0
-    current_value: 49.63
-    current_year: 2023.0
+    current_value: 53.22
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.011309073269061276
-    score: 1.577268317265319
+    progress_value: 0.017914530382436622
+    score: 3.957265191218312
     sign: 1
-    status: moderate_progress
+    status: substantial_progress
     target: null
     target_year: 2030.0
   10-5-1 / Ratio of non-performing loans net of provisions to capital:
     base_value: 5.31
     base_year: 2015.0
-    current_value: 4.04
-    current_year: 2023.0
+    current_value: 5.27
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.03359124544761283
-    score: 5.0
+    progress_value: 0.0008398107947529265
+    score: -2.0800946026235367
     sign: 1
-    status: substantial_progress
+    status: limited_progress
     target: null
     target_year: 2030.0
   10-5-1 / Ratio of non-performing loans to total gross loans:
     base_value: 0.52
     base_year: 2015.0
-    current_value: 0.45
-    current_year: 2023.0
+    current_value: 0.57
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.017910322585715344
-    score: 3.955161292857671
+    progress_value: -0.01025304472579669
+    score: -3.7816305907245864
     sign: 1
-    status: substantial_progress
+    status: deterioration
     target: null
     target_year: 2030.0
   10-5-1 / Ratio of regulatory capital to assets:
     base_value: 4.55
     base_year: 2015.0
-    current_value: 4.72
-    current_year: 2023.0
+    current_value: 4.67
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.004595723924698314
-    score: -0.20213803765084304
+    progress_value: 0.0028966136258032904
+    score: -1.0516931870983548
     sign: 1
     status: limited_progress
     target: null
@@ -420,18 +420,18 @@
   10-5-1 / Ratio of regulatory capital to risk-weighted assets:
     base_value: 12.1
     base_year: 2015.0
-    current_value: 15.2
-    current_year: 2023.0
+    current_value: 14.94
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.028921582953970848
+    progress_value: 0.02370285414892681
     score: 5.0
     sign: 1
     status: substantial_progress
     target: null
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 1.7217152620786909
+  progress_status: limited_progress
+  score: -0.49269219820469434
 10-6-1:
   progress_status: ''
   score: null
@@ -511,11 +511,11 @@
   11-4-1:
     base_value: 202.21542
     base_year: 2015.0
-    current_value: 266.21937
+    current_value: 266.44801
     current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: 0.034970980249792394
+    progress_value: 0.03508204790916647
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -679,18 +679,18 @@
   12-5-1:
     base_value: 257.635662113981
     base_year: 2018.0
-    current_value: 245.499817331248
+    current_value: 245.710663873295
     current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: -0.00960363200934744
-    score: -3.70045400116843
+    progress_value: -0.009433570825266968
+    score: -3.679196353158371
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -3.70045400116843
+  score: -3.679196353158371
 12-6-1:
   progress_status: ''
   score: null
@@ -1762,11 +1762,11 @@
   3-1-1:
     base_value: 7.05
     base_year: 2015.0
-    current_value: 12.22
+    current_value: 12.19
     current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: -0.43041863030428
+    progress_value: -0.428428629067103
     score: 5.0
     sign: 1
     status: target_achieved
@@ -1794,11 +1794,11 @@
   3-2-1:
     base_value: 5.29
     base_year: 2015.0
-    current_value: 5.53
+    current_value: 5.52
     current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: -0.05098319536589998
+    progress_value: -0.04889791560487692
     score: 5.0
     sign: 1
     status: target_achieved
@@ -2106,11 +2106,11 @@
   3-7-2:
     base_value: 9.5
     base_year: 2015.0
-    current_value: 4.1
-    current_year: 2023.0
+    current_value: 4.0
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.09970978192632263
+    progress_value: 0.09163666013738492
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -2157,11 +2157,11 @@
   3-9-2:
     base_value: 25.48
     base_year: 2015.0
-    current_value: 19.19
+    current_value: 19.21
     current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: 0.03481748912490412
+    progress_value: 0.03469180612512668
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -3418,18 +3418,18 @@
   8-1-1:
     base_value: 57590.92
     base_year: 2015.0
-    current_value: 59511.87
+    current_value: 59562.98
     current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: 0.004109781091244269
-    score: -0.44510945437786553
+    progress_value: 0.004217534339827855
+    score: -0.39123283008607235
     sign: 1
     status: limited_progress
     target: null
     target_year: 2030.0
   progress_status: limited_progress
-  score: -0.44510945437786553
+  score: -0.39123283008607235
 8-10-1:
   progress_status: not_available_manual
   score: null
@@ -3828,11 +3828,11 @@
   9-5-2:
     base_value: 4556.85
     base_year: 2015.0
-    current_value: 5573.26
+    current_value: 5571.23
     current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: 0.02918176210262935
+    progress_value: 0.029128201114571484
     score: 5.0
     sign: 1
     status: substantial_progress
