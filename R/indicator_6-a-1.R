@@ -21,10 +21,12 @@ oda <- oda_raw %>%
     Sector = case_when(
       SECTOR == "140" ~ "Water supply and sanitation",
       SECTOR == "31140" ~ "Agricultural water resources",
-    )
+    ),
+    Units = paste("US dollar, Millions,", BASE_PER, "constant prices")
   ) %>%
   select(
     Year = TIME_PERIOD,
+    Units,
     Sector,
     Value = ObsValue,
   ) %>%
@@ -32,7 +34,7 @@ oda <- oda_raw %>%
   arrange(Year, Sector)
 
 oda_total <- oda %>%
-  summarise(Value = sum(Value), .by = Year)
+  summarise(Value = sum(Value), .by = c(Year, Units))
 
 data_final <- bind_rows(oda, oda_total)
 
