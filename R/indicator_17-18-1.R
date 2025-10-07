@@ -1,12 +1,11 @@
 # GIF 17.18.1 ---------------------------------------------------------------
 
 # Unit of measure: Score
-# Raw scores have values between 0 and 1 as recorded in the original assessment; 
-# subscores are simple totals of these raw scores. Standard scores are scaled from 
+# Raw scores have values between 0 and 1 as recorded in the original assessment;
+# subscores are simple totals of these raw scores. Standard scores are scaled from
 # 0 to 100; subscores are weighted averages of these standard scores.
 
 # Load libraries
-library(readxl)
 library(purrr)
 library(dplyr)
 library(readr)
@@ -33,10 +32,10 @@ SPI_index <- spi_data %>%
   arrange(desc(Year)) %>%
   mutate(Series = "Statistical Performance Indicators (SPI)") %>%
   relocate(Series, .before = "Pillar")
-  
+
 
 # --- Fetch ODIN datasets ---------------------------------------------------
-years <- 2015:2030  # adjust range as needed
+years <- 2015:2030 # adjust range as needed
 base_url <- "https://raw.githubusercontent.com/worldbank/SPI/master/01_raw_data/2.2_DSOA/ODIN_%d.csv"
 
 dfs <- map(years, function(yr) {
@@ -111,7 +110,7 @@ dfs_clean <- compact(dfs)
 odin_data <- bind_rows(dfs_clean, data_2024) %>%
   filter(
     Country == "Canada",
-    !(Year %in% c("2021","2023"))
+    !(Year %in% c("2021", "2023"))
   ) %>%
   select(
     -(Region),
@@ -120,8 +119,10 @@ odin_data <- bind_rows(dfs_clean, data_2024) %>%
     -(`Country Code`)
   ) %>%
   gather(key = "Elements", value = "Value", -Year, -`Data categories`) %>%
-  mutate(Value = as.numeric(Value),
-         Series = "Open Data Inventory (ODIN)") %>%
+  mutate(
+    Value = as.numeric(Value),
+    Series = "Open Data Inventory (ODIN)"
+  ) %>%
   na.omit() %>%
   mutate(`Data categories` = ifelse(`Data categories` == "All Categories" & Elements == "Overall score", NA, `Data categories`)) %>%
   mutate(Elements = ifelse(`Data categories` == "All Categories" & Elements == "Overall score", NA, Elements)) %>%
@@ -131,19 +132,19 @@ odin_data <- bind_rows(dfs_clean, data_2024) %>%
     `Data categories` = case_when(
       `Data categories` %in% c("Land use", "Agriculture & Land Use") ~ "Agriculture and land use",
       `Data categories` == "Poverty & income" ~ "Poverty and income",
-      `Data categories`== "Population & vital statistics" ~ "Population and vital statistics",
-      `Data categories`== "Money & banking" ~ "Money and banking",
-      `Data categories`== "Economic & financial statistics subscore" ~ "Economic and financial statistics subscore",
-      `Data categories`== "Crime & justice" ~ "Crime and justice",
-      `Data categories`%in% c("Food security & nutritions", "Food security & nutrition") ~ "Food security and nutrition",
-      `Data categories`== "All Categories" ~ "All categories",
-      `Data categories`== "Energy" ~ "Energy use",
+      `Data categories` == "Population & vital statistics" ~ "Population and vital statistics",
+      `Data categories` == "Money & banking" ~ "Money and banking",
+      `Data categories` == "Economic & financial statistics subscore" ~ "Economic and financial statistics subscore",
+      `Data categories` == "Crime & justice" ~ "Crime and justice",
+      `Data categories` %in% c("Food security & nutritions", "Food security & nutrition") ~ "Food security and nutrition",
+      `Data categories` == "All Categories" ~ "All categories",
+      `Data categories` == "Energy" ~ "Energy use",
       TRUE ~ `Data categories`
     )
   ) %>%
   distinct()
 
-data_final <- bind_rows(odin_data,SPI_index) %>%
+data_final <- bind_rows(odin_data, SPI_index) %>%
   relocate(Pillar, .before = "Value")
 
 # write data

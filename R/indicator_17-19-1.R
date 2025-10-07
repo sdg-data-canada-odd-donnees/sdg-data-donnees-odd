@@ -3,24 +3,30 @@
 
 options(timeout = 300)
 library(dplyr)
-library(jsonlite)
-library(httr)
+library(readsdmx)
 
 # CRS: Creditor Reporting System (flows)
-# See https://data-explorer.oecd.org/vis?fs[0]=Topic%2C1%7CDevelopment%23DEV%23%7COfficial%20Development%20Assistance%20%28ODA%29%23DEV_ODA%23&pg=0&fc=Topic&bp=true&snb=25&vw=tb&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.3&dq=CAN.DPGC.16062.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&ly[cl]=TIME_PERIOD
+# See https://data-explorer.oecd.org/vis?tm=crs&pg=0&snb=25&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.4&dq=CAN.DPGC.16062.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false
+# Donor = Canada
+# Recipient = Developing countries
 # Measure = Official Development Assistance (ODA)
 # Sector = Statistical capacity building
 # Flow type = Disbursements, Price base = Constant prices
 
-url <- "https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.3/CAN.DPGC.16062.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions&format=csvfile"
-statistics <- read.csv(url)
+url <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.4/CAN.DPGC.16062.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
+statistics <- read_sdmx(url)
 
-data_final <-
-  statistics %>%
+data_final <- statistics %>%
+  mutate(
+    Units = paste("US dollar, Millions,", BASE_PER, "constant prices")
+  ) %>%
   select(
     Year = TIME_PERIOD,
-    Value = OBS_VALUE
-  )
+    Units,
+    Value = ObsValue
+  ) %>%
+  mutate_at(c("Year", "Value"), as.numeric) %>%
+  arrange(Year)
 
 write.csv(
   data_final,
@@ -29,4 +35,3 @@ write.csv(
   row.names = FALSE,
   fileEncoding = "UTF-8"
 )
-
