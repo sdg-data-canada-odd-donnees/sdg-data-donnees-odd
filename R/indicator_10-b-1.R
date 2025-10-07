@@ -24,14 +24,17 @@ flows <- flows_raw %>%
       "3300" ~ "Private flows at market terms",
       "415" ~ "Private grants, net"
     ),
+    Units = paste("US dollar, Millions,", BASE_PER, "constant prices")
   ) %>%
   select(
     Year = TIME_PERIOD,
+    Units,
     Measure,
     Value = ObsValue,
   ) %>%
-  mutate_at("Value", as.numeric) %>%
+  mutate_at(c("Year", "Value"), as.numeric) %>%
   arrange(Year, Measure)
 
 write.csv(flows, "./data/indicator_10-b-1.csv",
-          row.names = FALSE, na = "", fileEncoding = "UTF-8")
+  row.names = FALSE, na = "", fileEncoding = "UTF-8"
+)
