@@ -9153,6 +9153,17 @@
             "title": "Year"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2023 constant prices",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Sector",
             "type": "string",
             "constraints": {
