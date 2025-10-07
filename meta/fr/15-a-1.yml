@@ -29,7 +29,7 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 # Source(s)
 source_active_1: 'true'
 source_url_text_1: "SNPC: Système de notification des pays créanciers (flux)"
-source_url_1: https://data-explorer.oecd.org/vis?lc=fr&pg=0&snb=24&vw=tb&df[ds]=dsDisseminateFinalCloud&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.3&dq=CAN.DPGC.41030.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false
+source_url_1: https://data-explorer.oecd.org/vis?pg=0&snb=25&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.4&dq=CAN.DPGC.41030.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&lc=fr
 source_organisation_1: Organisation de coopération et de développement économiques (OCDE)
 source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
