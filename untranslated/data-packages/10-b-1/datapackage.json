@@ -15,6 +15,16 @@
             "type": "integer"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2022 constant prices",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Measure",
             "type": "string",
             "constraints": {

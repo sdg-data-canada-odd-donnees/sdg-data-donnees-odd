@@ -16,6 +16,17 @@
             "title": "Année"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Dollar américain, millions, prix constants de 2023",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

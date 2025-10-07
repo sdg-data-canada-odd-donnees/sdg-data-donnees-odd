@@ -655,6 +655,17 @@
             "title": "Year"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2023 constant prices",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Flow type",
             "type": "string",
             "constraints": {
@@ -4276,12 +4287,23 @@
             "title": "Year"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2023 constant prices",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Assistance type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Medical research",
                 "Basic health",
+                "Medical research",
                 ""
               ]
             },
@@ -4310,6 +4332,17 @@
             "name": "Year",
             "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2023 constant prices",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",
@@ -4954,6 +4987,17 @@
             "title": "Year"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2023 constant prices",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Measure",
             "type": "string",
             "constraints": {
@@ -5411,6 +5455,36 @@
             "name": "Year",
             "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2023 constant prices",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Energy generation, renewable sources - multiple technologies",
+                "Hydro-electric power plants",
+                "Energy research",
+                "Solar energy for centralised grids",
+                "Biofuel-fired power plants",
+                "Geothermal energy",
+                "Wind energy",
+                "Solar energy - thermal applications",
+                "Solar energy for isolated grids and standalone systems",
+                ""
+              ]
+            },
+            "title": "Sector"
           },
           {
             "name": "Value",
@@ -5996,6 +6070,17 @@
             "name": "Year",
             "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2023 constant prices",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",
@@ -6775,6 +6860,17 @@
             "name": "Year",
             "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2023 constant prices",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",
@@ -7985,6 +8081,17 @@
             "title": "Year"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2022 constant prices",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Measure",
             "type": "string",
             "constraints": {
@@ -8733,7 +8840,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "US dollar, Millions, 2022 constant prices",
+                "US dollar, Millions, 2023 constant prices",
                 ""
               ]
             },

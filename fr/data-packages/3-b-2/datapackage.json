@@ -16,12 +16,23 @@
             "title": "Année"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Dollar américain, millions, prix constants de 2023",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
             "name": "Assistance type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Recherche médicale",
                 "Santé de base",
+                "Recherche médicale",
                 ""
               ]
             },

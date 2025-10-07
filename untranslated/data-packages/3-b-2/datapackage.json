@@ -15,12 +15,22 @@
             "type": "integer"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2023 constant prices",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Assistance type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Medical research",
                 "Basic health",
+                "Medical research",
                 ""
               ]
             }

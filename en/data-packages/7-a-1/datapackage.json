@@ -16,6 +16,36 @@
             "title": "Year"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2023 constant prices",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Energy generation, renewable sources - multiple technologies",
+                "Hydro-electric power plants",
+                "Energy research",
+                "Solar energy for centralised grids",
+                "Biofuel-fired power plants",
+                "Geothermal energy",
+                "Wind energy",
+                "Solar energy - thermal applications",
+                "Solar energy for isolated grids and standalone systems",
+                ""
+              ]
+            },
+            "title": "Sector"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

@@ -16,6 +16,36 @@
             "title": "Année"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Dollar américain, millions, prix constants de 2023",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Production d'énergie, sources renouvelables - multiples technologies",
+                "Centrales hydrauliques",
+                "Recherche dans le domaine de l'énergie",
+                "Énergie solaire pour réseaux centralisés",
+                "Centrales à biocombustibles",
+                "Énergie géothermique",
+                "Énergie éolienne",
+                "Énergie solaire - usage thermique",
+                "Énergie solaire pour réseaux isolés et systèmes autonomes",
+                ""
+              ]
+            },
+            "title": "Secteur"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

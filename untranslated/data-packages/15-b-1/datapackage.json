@@ -15,6 +15,16 @@
             "type": "integer"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "US dollar, Millions, 2023 constant prices",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

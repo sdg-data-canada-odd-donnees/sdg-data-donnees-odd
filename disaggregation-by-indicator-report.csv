@@ -10,7 +10,7 @@ Indicator,Disaggregations,Number of disaggregations
 #10-3-1,"Geography, Series, Gender, Age group, Visible minority, Immigrant status, Indigenous identity, Disability, Highest level of education, Discrimination indicators, LGBTQ2+, Main activity, Area",13
 #10-4-1,Geography,1
 #10-5-1,Indicator,1
-#10-b-1,Measure,1
+#10-b-1,"Units, Measure",2
 #10-c-1,"Amount last sent, Method, Destination region",3
 #11-1-1,"Geography, Tenure",2
 #11-3-1,"Geography, Series, Units",3
@@ -33,6 +33,8 @@ Indicator,Disaggregations,Number of disaggregations
 #15-1-2,Key Biodiversity Areas (KBAs),1
 #15-2-1,"Series, Units",2
 #15-5-1,"Series, Species group, System",3
+#15-a-1,Units,1
+#15-b-1,Units,1
 #16-1-1,"Geography, Gender, Indigenous identity",3
 #16-1-3,"Series, Gender, Age group, Sexual orientation, First Nations, Métis, or Inuit identity, Visible minority, Person with disability, Immigrant status, Marital status, Type of crime",10
 #16-1-4,"Visible minority, Sociodemographic characteristics",2
@@ -45,6 +47,7 @@ Indicator,Disaggregations,Number of disaggregations
 #16-b-1,"Geography, Series, Gender, Age group, Visible minority, Immigrant status, Indigenous identity, Disability, Highest level of education, Discrimination indicators, LGBTQ2+, Main activity, Area",13
 #17-1-1,Component,1
 #17-18-1,"Series, Elements, Data categories, Pillar",4
+#17-19-1,Units,1
 #17-2-1,"Units, Recipient country",2
 #17-6-1,"Geography, Series, Units, Population centres",4
 #17-8-1,"Geography, Age group",2
@@ -76,7 +79,7 @@ Indicator,Disaggregations,Number of disaggregations
 #3-9-2,Type of disease,1
 #3-a-1,"Age group, Sex, Tobacco Product",3
 #3-b-1,"Geography, Series, Gender, Antigen or vaccine",4
-#3-b-2,Assistance type,1
+#3-b-2,"Units, Assistance type",2
 #3-c-1,"Geography, Series, Units, Sex, Type of occupation",5
 #4-1-1,"Series, Units, Sex",3
 #4-1-2,"Geography, Gender, Graduation rate",3
@@ -102,6 +105,7 @@ Indicator,Disaggregations,Number of disaggregations
 #7-1-1,Area,1
 #7-1-2,Area,1
 #7-2-1,"Geography, Type of electricity generation",2
+#7-a-1,"Units, Sector",2
 #8-1-1,Geography,1
 #8-10-1,Series,1
 #8-2-1,Geography,1
@@ -109,7 +113,7 @@ Indicator,Disaggregations,Number of disaggregations
 #8-5-2,"Geography, Gender, Age group",3
 #8-6-1,"Geography, Age group, Status, Sex",4
 #8-8-1,"Series, Sex",2
-#8-a-1,Flow type,1
+#8-a-1,"Units, Flow type",2
 #9-1-1,Geography,1
 #9-1-2,"Series, Units, Mode of transport",3
 #9-2-1,"Geography, Series, Units",3
@@ -117,6 +121,6 @@ Indicator,Disaggregations,Number of disaggregations
 #9-3-1,"Industry, Size",2
 #9-3-2,"Geography, Series, Industry, Employment size, Age of primary decision maker, Demographic characteristics",6
 #9-5-1,Geography,1
-#9-a-1,Measure,1
+#9-a-1,"Units, Measure",2
 #9-b-1,Geography,1
 #9-c-1,"Series, Units, Technology",3
