@@ -1,131 +1,61 @@
 # Indicator 7.a.1 ---------------------------------------------------------
-# International financial flows to developing countries in support of 
-# clean energy research and development and renewable energy production, 
+# International financial flows to developing countries in support of
+# clean energy research and development and renewable energy production,
 # including in hybrid systems
 
 options(timeout = 300)
 library(dplyr)
-library(rjson)
+library(readsdmx)
 
 # CRS: Creditor Reporting System (flows)
-# See https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=19&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.2&dq=CAN.DPGC.23410%2B23631%2B232%2B23182.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false&lc=en
-# Applied filters: Donor = Canada, Recipient = Developing countries, Sector = Energy research/Energy generation, renewable sources/Hybrid energy electric power plants/Electric power transmission and distribution (isolated mini-grids), Measure = Official Development Assistance, Flow type = Disbursements, Price base = Constant prices
+# See https://data-explorer.oecd.org/vis?tm=crs&pg=0&snb=25&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_CRS%40DF_CRS&df[ag]=OECD.DCD.FSD&df[vs]=1.4&dq=CAN.DPGC.23210%2B23220%2B23230%2B23231%2B23232%2B23240%2B23250%2B23260%2B23270%2B23410%2B23631%2B23182.100._T._T.D.Q._T..&pd=2015%2C&to[TIME_PERIOD]=false
+# Donor = Canada
+# Recipient = Developing countries
+# Sector = Energy research + Energy generation, renewable sources - multiple technologies +
+#           Hydro-electric power plants + Solar energy for centralised grids +
+#           Solar energy for isolated grids and standalone systems + Solar energy - thermal applications +
+#           Wind energy + Marine energy + Geothermal energy + Biofuel-fired power plants +
+#           Hybrid energy electric power plants + Electric power transmission and distribution (isolated mini-grids)
+# Measure = Official Development Assistance
+# Flow type = Disbursements, Price base = Constant prices
 
-# Energy research
-energy_url <- "https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.3/CAN.DPGC.23182.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
-energy_json <- fromJSON(file = energy_url)
-energy_json_data <- t(as.data.frame(energy_json$data$dataSets[[1]]$observations))
-energy_json_year <- as.data.frame(energy_json$data$structure$dimensions$observation[[12]]$values) %>%
-  select(
-    starts_with("id")
-  ) %>%
-  t()
+url <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.4/CAN.DPGC.23210+23220+23230+23231+23232+23240+23250+23260+23270+23410+23631+23182.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 
-energy_data <- bind_cols(energy_json_year, energy_json_data) %>%
-  select(
-    Year = `...1`,
-    Sector = `...3`,
-    Value = `...2`
-  ) %>%
+data_raw <- read_sdmx(url)
+
+data <- data_raw %>%
   mutate(
-    Sector = "Energy research"
-  )
-
-# Energy generation, renewable sources
-generation_url <- "https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.3/CAN.DPGC.232.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
-generation_json <- fromJSON(file = generation_url)
-generation_json_data <- t(as.data.frame(generation_json$data$dataSets[[1]]$observations))
-generation_json_year <- as.data.frame(generation_json$data$structure$dimensions$observation[[12]]$values) %>%
-  select(
-    starts_with("id")
+    Sector = case_match(
+      SECTOR,
+      "23182" ~ "Energy research",
+      "23210" ~ "Energy generation, renewable sources - multiple technologies",
+      "23220" ~ "Hydro-electric power plants",
+      "23230" ~ "Solar energy for centralised grids",
+      "23231" ~ "Solar energy for isolated grids and standalone systems",
+      "23232" ~ "Solar energy - thermal applications",
+      "23240" ~ "Wind energy",
+      "23250" ~ "Marine energy",
+      "23260" ~ "Geothermal energy",
+      "23270" ~ "Biofuel-fired power plants",
+      "23410" ~ "Hybrid energy electric power plants",
+      "23631" ~ "Electric power transmission and distribution (isolated mini-grids)"
+    ),
+    Units = paste("US dollar, Millions,", BASE_PER, "constant prices")
   ) %>%
-  t()
-
-generation_data <- bind_cols(generation_json_year, generation_json_data) %>%
   select(
-    Year = `...1`,
-    Sector = `...3`,
-    Value = `...2`
+    Year = TIME_PERIOD,
+    Units,
+    Sector,
+    Value = ObsValue
   ) %>%
-  mutate(
-    Sector = "Energy generation, renewable sources"
-  )
+  mutate_at(c("Year", "Value"), as.numeric) %>%
+  arrange(Year, Sector)
 
-# Hybrid energy electric power plants
-hybrid_url <- "https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.3/CAN.DPGC.23410.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
-hybrid_json <- tryCatch({
-  fromJSON(file = hybrid_url)
-}, error = function(e) {
-  NULL
-})
+oda_total <- summarise(data, Value = sum(Value, na.rm = TRUE), .by = c(Year, Units))
 
-# Only process hybrid data if JSON is not NULL and has observations
-hybrid_data <- if (!is.null(hybrid_json) && 
-                   length(hybrid_json$data$dataSets[[1]]$observations) > 0) {
-  hybrid_json_data <- t(as.data.frame(hybrid_json$data$dataSets[[1]]$observations))
-  
-  hybrid_json_year <- as.data.frame(hybrid_json$data$structure$dimensions$observation[[12]]$values) %>%
-    select(
-      starts_with("id")
-    ) %>%
-    t()
-  
-  bind_cols(hybrid_json_year, hybrid_json_data) %>%
-    select(
-      Year = `...1`,
-      Sector = `...3`,
-      Value = `...2`
-    ) %>%
-    mutate(
-      Sector = "Hybrid energy electric power plants"
-    )
-} else {
-  NULL
-}
+data_final <- bind_rows(oda_total, data) %>%
+  relocate(Sector, .before = Value)
 
-# Electric power transmission and distribution (isolated mini-grids)
-power_url <- "https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.3/CAN.DPGC.23631.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
-power_json <- tryCatch({
-  fromJSON(file = power_url)
-}, error = function(e) {
-  NULL
-})
-
-# Only process power data if JSON is not NULL and has observations
-power_data <- if (!is.null(power_json) && 
-                  length(power_json$data$dataSets[[1]]$observations) > 0) {
-  power_json_data <- t(as.data.frame(power_json$data$dataSets[[1]]$observations))
-  
-  power_json_year <- as.data.frame(power_json$data$structure$dimensions$observation[[12]]$values) %>%
-    select(
-      starts_with("id")
-    ) %>%
-    t()
-  
-  bind_cols(power_json_year, power_json_data) %>%
-    select(
-      Year = `...1`,
-      Sector = `...3`,
-      Value = `...2`
-    ) %>%
-    mutate(
-      Sector = "Electric power transmission and distribution (isolated mini-grids)"
-    )
-} else {
-  NULL
-}
-
-not_null_datasets <- list(energy_data, generation_data, hybrid_data, power_data)
-not_null_datasets <- not_null_datasets[!sapply(not_null_datasets, is.null)]
-
-# Bind all data sets
-
-oda <- bind_rows(not_null_datasets) %>%
-  mutate_at("Value", as.numeric) %>%
-  arrange(Year)
-
-oda_total <- oda %>%
-  summarise(Value = sum(Value), .by = Year)
-
-write.csv(oda_total, "./data/indicator_7-a-1.csv",
-          row.names = FALSE, na = "", fileEncoding = "UTF-8")
+write.csv(data_final, "./data/indicator_7-a-1.csv",
+  row.names = FALSE, na = "", fileEncoding = "UTF-8"
+)
