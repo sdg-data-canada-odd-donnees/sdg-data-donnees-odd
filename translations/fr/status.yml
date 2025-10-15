@@ -20,8 +20,8 @@ status_description: >
   d’informations, voir [Que signifie l’état des rapports ?](https://sdggif-data-canada-oddcmi-donnee.github.io/fr/faq//#que-signifie-létat-des-rapports-)
   <br>
   <br>
-  L’onglet de l’état de la désagrégation donne un aperçu du nombre d’indicateurs liés aux Objectifs de développement durable qui comprennent des données désagrégées conformément aux exigences des Nations Unies (ONU) pour chaque indicateur, avec quelques exceptions. Les indicateurs de substitution qui diffèrent considérablement des métadonnées de l'ONU sont évalués à l'aide de normes nationales et sont considérés comme entièrement désagrégés lorsque ces normes sont respectées. Les indicateurs de substitution qui correspondent étroitement aux métadonnées de l'ONU continuent d'être évalués par rapport aux exigences de désagrégation de l'ONU. Les indicateurs ayant les états suivants sont considérés comme hors champ : <i>données non disponibles</i>, <i>données non applicables</i> et <i>en recherche de sources de données</i>.
-scope: indicateurs inclus dans le champ
+  L’onglet du statut de désagrégation donne un aperçu du nombre d’indicateurs liés aux Objectifs de développement durable qui comprennent des données désagrégées conformément aux exigences des Nations Unies (ONU) pour chaque indicateur, avec quelques exceptions. Les indicateurs de substitution qui diffèrent considérablement des métadonnées de l'ONU sont évalués à l'aide de normes nationales et sont considérés comme entièrement désagrégés lorsque ces normes sont respectées. Les indicateurs de substitution qui correspondent étroitement aux métadonnées de l'ONU continuent d'être évalués par rapport aux exigences de désagrégation de l'ONU. Les indicateurs ayant les états suivants ne sont pas considérés : <i>données non disponibles</i>, <i>données non applicables</i> et <i>en recherche de sources de données</i>.
+scope: indicateurs considérés
 substantial_progress: Sur la bonne voie
 moderate_progress: Des progrès ont été réalisés, mais une accélération est nécessaire
 limited_progress: Progrès limités
