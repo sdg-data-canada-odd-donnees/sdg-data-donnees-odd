@@ -2444,11 +2444,11 @@
     base_value: 83.0
     base_year: 2015.0
     current_value: 84.0
-    current_year: 2023.0
+    current_year: 2024.0
     direction: 1
     limit: 100
-    progress_value: 0.0014981449804571945
-    score: -1.168962148532824
+    progress_value: 0.0013315736520607135
+    score: -1.316953662009193
     sign: 1
     status: limited_progress
     target: null
@@ -2457,33 +2457,33 @@
     base_value: 40.0
     base_year: 2015.0
     current_value: 43.0
-    current_year: 2023.0
+    current_year: 2024.0
     direction: 1
     limit: 100
-    progress_value: 0.009081067654413078
-    score: 1.059777780703762
+    progress_value: 0.00806800138418895
+    score: 0.8021034575522341
     sign: 1
     status: moderate_progress
     target: null
     target_year: 2030.0
   4-3-1 / Total participation rate / Canada / 25 to 29 years:
-    base_value: 12.0
+    base_value: 13.0
     base_year: 2015.0
     current_value: 12.0
-    current_year: 2023.0
+    current_year: 2024.0
     direction: 1
     limit: 100
-    progress_value: 0.0
-    score: -2.5
+    progress_value: -0.008854202804111422
+    score: -3.606775350513928
     sign: 1
-    status: limited_progress
+    status: deterioration
     target: null
     target_year: 2030.0
   4-3-1 / Total participation rate / Canada / 30 to 34 years:
     base_value: 6.0
     base_year: 2015.0
     current_value: 6.0
-    current_year: 2023.0
+    current_year: 2024.0
     direction: 1
     limit: 100
     progress_value: 0.0
@@ -2493,7 +2493,7 @@
     target: null
     target_year: 2030.0
   progress_status: limited_progress
-  score: -1.2772960919572656
+  score: -1.6554063887427217
 4-4-1:
   4-4-1 / Connected a new device to a Wi-Fi... / Total, Internet users aged 15 yea... / Total, highest certificate, diplo...:
     base_value: 63.0
@@ -3812,18 +3812,18 @@
   9-5-1:
     base_value: 1.7
     base_year: 2015.0
-    current_value: 1.7
-    current_year: 2022.0
+    current_value: 1.8
+    current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: 0.0
-    score: -2.5
+    progress_value: 0.007170386722810784
+    score: 0.5425966807026961
     sign: 1
-    status: limited_progress
+    status: moderate_progress
     target: null
     target_year: 2030.0
-  progress_status: limited_progress
-  score: -2.5
+  progress_status: moderate_progress
+  score: 0.5425966807026961
 9-5-2:
   9-5-2:
     base_value: 4556.85
