@@ -13,8 +13,8 @@ data_start_values:
   value: Total, not in employment, education or training (NEET)
 - field: Geography
   value: Canada
-- field: Sex
-  value: Both sexes
+- field: Gender
+  value: Both genders
 - field: Age group
   value: 15 to 24 years
 embedded_feature_footer: ''
@@ -23,7 +23,7 @@ embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
-  - Sex
+  - Gender
   - Age group
 graph_annotations: []
 graph_limits: []
