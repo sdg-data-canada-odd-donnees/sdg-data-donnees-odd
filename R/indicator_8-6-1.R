@@ -69,7 +69,7 @@ data_final <- NEET_filtered %>%
 #   NEET_filtered %>%
 #   filter(Geography == "Canada",
 #          Status == "Total, not in employment, education or training (NEET)",
-#          Gender == "Total - Gender,
+#          Gender == "Total - Gender",
 #          `Age group` == "15 to 24 years") %>%
 #   mutate(Geography = "", Status = "", Gender = "", `Age group` = "") %>%
 #   filter(!is.na(Value))
