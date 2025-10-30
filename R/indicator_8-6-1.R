@@ -37,7 +37,7 @@ NEET_filtered <-
     Year = REF_DATE,
     Geography = GEO,
     Status = `Labour force and education status`,
-    Sex,
+    Gender,
     `Age group`,
     Value = VALUE
   ) %>% 
@@ -51,15 +51,15 @@ NEET_filtered <-
 data_final <- NEET_filtered %>%
   mutate(
     across(
-      c("Geography", "Status", "Sex", "Age group"),
-      ~ replace(., `Geography` == "Canada" & Status == "Total, not in employment, education or training (NEET)" & Sex == "Both sexes" & `Age group` == "15 to 24 years", NA)
+      c("Geography", "Status", "Gender", "Age group"),
+      ~ replace(., `Geography` == "Canada" & Status == "Total, not in employment, education or training (NEET)" & Gender == "Total - Gender" & `Age group` == "15 to 24 years", NA)
     )
   ) %>%
   select(
     Year,
     Status,
     Geography,
-    Sex,
+    Gender,
     `Age group`,
     GeoCode,
     Value
@@ -69,9 +69,9 @@ data_final <- NEET_filtered %>%
 #   NEET_filtered %>%
 #   filter(Geography == "Canada",
 #          Status == "Total, not in employment, education or training (NEET)",
-#          Sex == "Both sexes",
+#          Gender == "Total - Gender,
 #          `Age group` == "15 to 24 years") %>%
-#   mutate(Geography = "", Status = "", Sex = "", `Age group` = "") %>%
+#   mutate(Geography = "", Status = "", Gender = "", `Age group` = "") %>%
 #   filter(!is.na(Value))
 # 
 # data_with_Canada <- bind_rows(total_line, NEET_filtered)
