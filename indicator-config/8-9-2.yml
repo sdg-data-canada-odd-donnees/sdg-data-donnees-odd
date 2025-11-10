@@ -14,26 +14,21 @@ embedded_feature_tab_title: ""
 embedded_feature_title: ""
 embedded_feature_url: ""
 expected_disaggregations: []
+# The current edition of this indicator provides the total number of employed persons in tourism industries, by country and year. Notwithstanding, this indicator can potentially be disaggregated by:
 # - Sex
-# - Place of residence (urban, rural)
-# - Wealth status of household
-# - Age of child (6-11, 12-15, 16-19, 20-23 months)
-# - Maternal education
+# - Tourism industry
+# - Status in employment
+# - Age
+# - Education level
 # - Administrative/geographic regions
-# - ***Second set of data
-# - Age of woman (15-19, 20-29, 30-39, 40-49 years)
-# - Area of residence (rural, urban)
-# - Administrative regions (e.g., zone, province, region)
-# - Level of woman’s education
-# - Wealth quintile
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ""
-graph_title: global_indicators.2-2-4-title
+graph_title: global_indicators.8-9-2-title
 graph_titles: []
 graph_type: line
-indicator_name: global_indicators.2-2-4-title
-indicator_number: 2.2.4
+indicator_name: global_indicators.8-9-2-title
+indicator_number: 8.9.2
 national_geographical_coverage: Canada
 page_content: custom.not-available
 permalink: ""
