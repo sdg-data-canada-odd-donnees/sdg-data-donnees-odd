@@ -11,8 +11,8 @@ STAT_CONC_DEF: >-
   et l'assistance technique. Il convient de noter que l'aide publique au développement se concentre uniquement sur les efforts de développement 
   et exclut explicitement l'aide militaire
 DATA_COMP: '   '
-REC_USE_LIM: ''
-PROGRESS_DETAILS: ''
+REC_USE_LIM: '   '
+PROGRESS_DETAILS: '   '
 
 # Global
 SDG_GOAL__GLOBAL: >-
@@ -22,7 +22,7 @@ SDG_TARGET__GLOBAL: >-
 SDG_INDICATOR__GLOBAL: >-
   Indicateur 11.c.1 : Total de l’aide publique au développement et des autres apports du secteur public à l’appui de projets d’infrastructure urbaine ou d’infrastructures urbaines, par secteur
 
-un_designated_tier: ''
+un_designated_tier: '   '
 un_custodian_agency: ONU-Habitat
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-11-0c-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
