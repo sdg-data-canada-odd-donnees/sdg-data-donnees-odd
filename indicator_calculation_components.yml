@@ -336,18 +336,18 @@
   10-4-1:
     base_value: 51.59
     base_year: 2015.0
-    current_value: 50.31
-    current_year: 2023.0
+    current_value: 50.44
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.003135572635937778
-    score: -2.891946579492222
+    progress_value: -0.0025016815837249906
+    score: -2.812710197965624
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -2.891946579492222
+  score: -2.812710197965624
 10-4-2:
   progress_status: ''
   score: null
@@ -3389,18 +3389,18 @@
   7-3-1:
     base_value: 5.66497784
     base_year: 2015.0
-    current_value: 4.90134644
+    current_value: 4.87764047
     current_year: 2022.0
     direction: -1
     limit: null
-    progress_value: 0.4533458248818394
-    score: -0.61104395146484
+    progress_value: 0.4683643369077895
+    score: -0.5484663174063136
     sign: 1
     status: limited_progress
     target: 2.8325
     target_year: 2030.0
   progress_status: limited_progress
-  score: -0.61104395146484
+  score: -0.5484663174063136
 7-a-1:
   7-a-1:
     base_value: 0.576365
@@ -3424,18 +3424,18 @@
   8-1-1:
     base_value: 57590.92
     base_year: 2015.0
-    current_value: 59562.98
-    current_year: 2023.0
+    current_value: 59529.12
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.004217534339827855
-    score: -0.39123283008607235
+    progress_value: 0.0036846258502352125
+    score: -0.6576870748823938
     sign: 1
     status: limited_progress
     target: null
     target_year: 2030.0
   progress_status: limited_progress
-  score: -0.39123283008607235
+  score: -0.6576870748823938
 8-10-1:
   progress_status: not_available_manual
   score: null
@@ -3459,18 +3459,18 @@
   8-2-1:
     base_value: 115149911.52
     base_year: 2015.0
-    current_value: 117308407.26
-    current_year: 2023.0
+    current_value: 118487735.46
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.0023241426871030146
-    score: -1.3379286564484927
+    progress_value: 0.003180000966496177
+    score: -0.9099995167519115
     sign: 1
     status: limited_progress
     target: null
     target_year: 2030.0
   progress_status: limited_progress
-  score: -1.3379286564484927
+  score: -0.9099995167519115
 8-3-1:
   progress_status: ''
   score: null
@@ -3702,18 +3702,18 @@
   9-2-1 / MVA as a proportion of GDP:
     base_value: 11.49
     base_year: 2015.0
-    current_value: 10.61
+    current_value: 10.5
     current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: -0.009910580697291116
-    score: -3.7388225871613896
+    progress_value: -0.011199542243277127
+    score: -3.899942780409641
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -3.7388225871613896
+  score: -3.899942780409641
 9-2-2:
   9-2-2:
     base_value: 9.49
