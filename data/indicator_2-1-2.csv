@@ -1,31 +1,8 @@
 "Year","Household food security status","Geography","Sex","Age group","Economic family type","Visible minority","Indigenous population","GeoCode","Value"
-"2018",,,,,,,,,11.6
-"2019",,,,,,,,,10.8
-"2020",,,,,,,,,11.2
-"2021",,,,,,,,,12.9
-"2022",,,,,,,,,16.9
-"2023",,,,,,,,,19.1
-"2020","Food insecure","Yukon",,,,,,60,21.2
-"2020","Food insecure","Northwest Territories",,,,,,61,20.4
-"2020","Food insecure","Nunavut",,,,,,62,49.5
-"2021","Food insecure","Yukon",,,,,,60,12.8
-"2021","Food insecure","Northwest Territories",,,,,,61,22.2
-"2021","Food insecure","Nunavut",,,,,,62,46.1
-"2022","Food insecure","Yukon",,,,,,60,21.4
-"2022","Food insecure","Northwest Territories",,,,,,61,27.6
-"2022","Food insecure","Nunavut",,,,,,62,62.6
-"2020","Food secure","Yukon",,,,,,60,78.8
-"2020","Food secure","Northwest Territories",,,,,,61,79.6
-"2020","Food secure","Nunavut",,,,,,62,50.5
-"2021","Food secure","Yukon",,,,,,60,87.2
-"2021","Food secure","Northwest Territories",,,,,,61,77.8
-"2021","Food secure","Nunavut",,,,,,62,53.9
-"2022","Food secure","Yukon",,,,,,60,78.6
-"2022","Food secure","Northwest Territories",,,,,,61,72.4
-"2022","Food secure","Nunavut",,,,,,62,37.4
 "2018","Food secure","Canada","Both sexes",,"All persons",,,,83.2
 "2018","Food insecure","Canada","Both sexes",,"All persons",,,,16.8
 "2018","Food insecure, marginal","Canada","Both sexes",,"All persons",,,,5.2
+"2018",,,,,,,,,11.6
 "2018","Food insecure, moderate","Canada","Both sexes",,"All persons",,,,8
 "2018","Food insecure, severe","Canada","Both sexes",,"All persons",,,,3.6
 "2018","Food secure","Canada","Both sexes",,"Persons in economic families",,,,83.9
@@ -1292,6 +1269,7 @@
 "2019","Food secure","Canada","Both sexes",,"All persons",,,,84.1
 "2019","Food insecure","Canada","Both sexes",,"All persons",,,,15.9
 "2019","Food insecure, marginal","Canada","Both sexes",,"All persons",,,,5.1
+"2019",,,,,,,,,10.8
 "2019","Food insecure, moderate","Canada","Both sexes",,"All persons",,,,7.6
 "2019","Food insecure, severe","Canada","Both sexes",,"All persons",,,,3.2
 "2019","Food secure","Canada","Both sexes",,"Persons in economic families",,,,84.9
@@ -2432,6 +2410,7 @@
 "2020","Food secure","Canada","Both sexes",,"All persons",,,,84.3
 "2020","Food insecure","Canada","Both sexes",,"All persons",,,,15.7
 "2020","Food insecure, marginal","Canada","Both sexes",,"All persons",,,,4.6
+"2020",,,,,,,,,11.2
 "2020","Food insecure, moderate","Canada","Both sexes",,"All persons",,,,7.6
 "2020","Food insecure, severe","Canada","Both sexes",,"All persons",,,,3.6
 "2020","Food secure","Canada","Both sexes",,"Persons in economic families",,,,84.9
@@ -3735,6 +3714,7 @@
 "2021","Food secure","Canada","Both sexes",,"All persons",,,,81.6
 "2021","Food insecure","Canada","Both sexes",,"All persons",,,,18.4
 "2021","Food insecure, marginal","Canada","Both sexes",,"All persons",,,,5.6
+"2021",,,,,,,,,12.9
 "2021","Food insecure, moderate","Canada","Both sexes",,"All persons",,,,8.9
 "2021","Food insecure, severe","Canada","Both sexes",,"All persons",,,,4
 "2021","Food secure","Canada","Both sexes",,"Persons in economic families",,,,81.9
@@ -4997,6 +4977,7 @@
 "2022","Food secure","Canada","Both sexes",,"All persons",,,,77.1
 "2022","Food insecure","Canada","Both sexes",,"All persons",,,,22.9
 "2022","Food insecure, marginal","Canada","Both sexes",,"All persons",,,,6
+"2022",,,,,,,,,16.9
 "2022","Food insecure, moderate","Canada","Both sexes",,"All persons",,,,10.9
 "2022","Food insecure, severe","Canada","Both sexes",,"All persons",,,,6
 "2022","Food secure","Canada","Both sexes",,"Persons in economic families",,,,77.7
@@ -6335,6 +6316,7 @@
 "2023","Food secure","Canada","Both sexes",,"All persons",,,,74.5
 "2023","Food insecure","Canada","Both sexes",,"All persons",,,,25.5
 "2023","Food insecure, marginal","Canada","Both sexes",,"All persons",,,,6.4
+"2023",,,,,,,,,19.1
 "2023","Food insecure, moderate","Canada","Both sexes",,"All persons",,,,12.4
 "2023","Food insecure, severe","Canada","Both sexes",,"All persons",,,,6.7
 "2023","Food secure","Canada","Both sexes",,"Persons in economic families",,,,74.8
@@ -7685,41 +7667,49 @@
 "2018","Food secure","Canada","Both sexes","Under 18 years",,,,,77.8
 "2018","Food insecure","Canada","Both sexes","Under 18 years",,,,,22.2
 "2018","Food insecure, marginal","Canada","Both sexes","Under 18 years",,,,,7.6
+"2018","Food insecure, moderate or severe","Canada","Both sexes","Under 18 years",,,,,14.6
 "2018","Food insecure, moderate","Canada","Both sexes","Under 18 years",,,,,10.8
 "2018","Food insecure, severe","Canada","Both sexes","Under 18 years",,,,,3.8
 "2018","Food secure","Canada","Both sexes","18 to 64 years",,,,,82.5
 "2018","Food insecure","Canada","Both sexes","18 to 64 years",,,,,17.5
 "2018","Food insecure, marginal","Canada","Both sexes","18 to 64 years",,,,,5
+"2018","Food insecure, moderate or severe","Canada","Both sexes","18 to 64 years",,,,,12.5
 "2018","Food insecure, moderate","Canada","Both sexes","18 to 64 years",,,,,8.3
 "2018","Food insecure, severe","Canada","Both sexes","18 to 64 years",,,,,4.1
 "2018","Food secure","Canada","Both sexes","18 to 24 years",,,,,80.9
 "2018","Food insecure","Canada","Both sexes","18 to 24 years",,,,,19.1
 "2018","Food insecure, marginal","Canada","Both sexes","18 to 24 years",,,,,5.1
+"2018","Food insecure, moderate or severe","Canada","Both sexes","18 to 24 years",,,,,14.1
 "2018","Food insecure, moderate","Canada","Both sexes","18 to 24 years",,,,,9.8
 "2018","Food insecure, severe","Canada","Both sexes","18 to 24 years",,,,,4.2
 "2018","Food secure","Canada","Both sexes","25 to 34 years",,,,,82
 "2018","Food insecure","Canada","Both sexes","25 to 34 years",,,,,18
 "2018","Food insecure, marginal","Canada","Both sexes","25 to 34 years",,,,,5.3
+"2018","Food insecure, moderate or severe","Canada","Both sexes","25 to 34 years",,,,,12.8
 "2018","Food insecure, moderate","Canada","Both sexes","25 to 34 years",,,,,8.5
 "2018","Food insecure, severe","Canada","Both sexes","25 to 34 years",,,,,4.3
 "2018","Food secure","Canada","Both sexes","35 to 44 years",,,,,80.5
 "2018","Food insecure","Canada","Both sexes","35 to 44 years",,,,,19.5
 "2018","Food insecure, marginal","Canada","Both sexes","35 to 44 years",,,,,6.5
+"2018","Food insecure, moderate or severe","Canada","Both sexes","35 to 44 years",,,,,13
 "2018","Food insecure, moderate","Canada","Both sexes","35 to 44 years",,,,,8.6
 "2018","Food insecure, severe","Canada","Both sexes","35 to 44 years",,,,,4.5
 "2018","Food secure","Canada","Both sexes","45 to 54 years",,,,,82.6
 "2018","Food insecure","Canada","Both sexes","45 to 54 years",,,,,17.4
 "2018","Food insecure, marginal","Canada","Both sexes","45 to 54 years",,,,,4.6
+"2018","Food insecure, moderate or severe","Canada","Both sexes","45 to 54 years",,,,,12.8
 "2018","Food insecure, moderate","Canada","Both sexes","45 to 54 years",,,,,8.6
 "2018","Food insecure, severe","Canada","Both sexes","45 to 54 years",,,,,4.2
 "2018","Food secure","Canada","Both sexes","55 to 64 years",,,,,86
 "2018","Food insecure","Canada","Both sexes","55 to 64 years",,,,,14
 "2018","Food insecure, marginal","Canada","Both sexes","55 to 64 years",,,,,3.7
+"2018","Food insecure, moderate or severe","Canada","Both sexes","55 to 64 years",,,,,10.3
 "2018","Food insecure, moderate","Canada","Both sexes","55 to 64 years",,,,,6.8
 "2018","Food insecure, severe","Canada","Both sexes","55 to 64 years",,,,,3.5
 "2018","Food secure","Canada","Both sexes","65 years and over",,,,,91.9
 "2018","Food insecure","Canada","Both sexes","65 years and over",,,,,8.1
 "2018","Food insecure, marginal","Canada","Both sexes","65 years and over",,,,,3.1
+"2018","Food insecure, moderate or severe","Canada","Both sexes","65 years and over",,,,,5
 "2018","Food insecure, moderate","Canada","Both sexes","65 years and over",,,,,3.5
 "2018","Food insecure, severe","Canada","Both sexes","65 years and over",,,,,1.5
 "2018","Food secure","Canada","Male",,"All persons",,,,83.3
@@ -8899,41 +8889,49 @@
 "2019","Food secure","Canada","Both sexes","Under 18 years",,,,,80
 "2019","Food insecure","Canada","Both sexes","Under 18 years",,,,,20
 "2019","Food insecure, marginal","Canada","Both sexes","Under 18 years",,,,,6.7
+"2019","Food insecure, moderate or severe","Canada","Both sexes","Under 18 years",,,,,13.3
 "2019","Food insecure, moderate","Canada","Both sexes","Under 18 years",,,,,10.2
 "2019","Food insecure, severe","Canada","Both sexes","Under 18 years",,,,,3.1
 "2019","Food secure","Canada","Both sexes","18 to 64 years",,,,,83.2
 "2019","Food insecure","Canada","Both sexes","18 to 64 years",,,,,16.8
 "2019","Food insecure, marginal","Canada","Both sexes","18 to 64 years",,,,,5.2
+"2019","Food insecure, moderate or severe","Canada","Both sexes","18 to 64 years",,,,,11.6
 "2019","Food insecure, moderate","Canada","Both sexes","18 to 64 years",,,,,7.8
 "2019","Food insecure, severe","Canada","Both sexes","18 to 64 years",,,,,3.8
 "2019","Food secure","Canada","Both sexes","18 to 24 years",,,,,82.2
 "2019","Food insecure","Canada","Both sexes","18 to 24 years",,,,,17.8
 "2019","Food insecure, marginal","Canada","Both sexes","18 to 24 years",,,,,6.1
+"2019","Food insecure, moderate or severe","Canada","Both sexes","18 to 24 years",,,,,11.8
 "2019","Food insecure, moderate","Canada","Both sexes","18 to 24 years",,,,,8.2
 "2019","Food insecure, severe","Canada","Both sexes","18 to 24 years",,,,,3.6
 "2019","Food secure","Canada","Both sexes","25 to 34 years",,,,,81.9
 "2019","Food insecure","Canada","Both sexes","25 to 34 years",,,,,18.1
 "2019","Food insecure, marginal","Canada","Both sexes","25 to 34 years",,,,,5.5
+"2019","Food insecure, moderate or severe","Canada","Both sexes","25 to 34 years",,,,,12.6
 "2019","Food insecure, moderate","Canada","Both sexes","25 to 34 years",,,,,8.3
 "2019","Food insecure, severe","Canada","Both sexes","25 to 34 years",,,,,4.3
 "2019","Food secure","Canada","Both sexes","35 to 44 years",,,,,80.2
 "2019","Food insecure","Canada","Both sexes","35 to 44 years",,,,,19.8
 "2019","Food insecure, marginal","Canada","Both sexes","35 to 44 years",,,,,6.4
+"2019","Food insecure, moderate or severe","Canada","Both sexes","35 to 44 years",,,,,13.4
 "2019","Food insecure, moderate","Canada","Both sexes","35 to 44 years",,,,,9.6
 "2019","Food insecure, severe","Canada","Both sexes","35 to 44 years",,,,,3.8
 "2019","Food secure","Canada","Both sexes","45 to 54 years",,,,,84.5
 "2019","Food insecure","Canada","Both sexes","45 to 54 years",,,,,15.5
 "2019","Food insecure, marginal","Canada","Both sexes","45 to 54 years",,,,,4.8
+"2019","Food insecure, moderate or severe","Canada","Both sexes","45 to 54 years",,,,,10.8
 "2019","Food insecure, moderate","Canada","Both sexes","45 to 54 years",,,,,7.1
 "2019","Food insecure, severe","Canada","Both sexes","45 to 54 years",,,,,3.6
 "2019","Food secure","Canada","Both sexes","55 to 64 years",,,,,87
 "2019","Food insecure","Canada","Both sexes","55 to 64 years",,,,,13
 "2019","Food insecure, marginal","Canada","Both sexes","55 to 64 years",,,,,3.5
+"2019","Food insecure, moderate or severe","Canada","Both sexes","55 to 64 years",,,,,9.5
 "2019","Food insecure, moderate","Canada","Both sexes","55 to 64 years",,,,,5.9
 "2019","Food insecure, severe","Canada","Both sexes","55 to 64 years",,,,,3.6
 "2019","Food secure","Canada","Both sexes","65 years and over",,,,,92
 "2019","Food insecure","Canada","Both sexes","65 years and over",,,,,8
 "2019","Food insecure, marginal","Canada","Both sexes","65 years and over",,,,,2.9
+"2019","Food insecure, moderate or severe","Canada","Both sexes","65 years and over",,,,,5.1
 "2019","Food insecure, moderate","Canada","Both sexes","65 years and over",,,,,3.9
 "2019","Food insecure, severe","Canada","Both sexes","65 years and over",,,,,1.2
 "2019","Food secure","Canada","Male",,"All persons",,,,84.4
@@ -10061,41 +10059,49 @@
 "2020","Food secure","Canada","Both sexes","Under 18 years",,,,,80.4
 "2020","Food insecure","Canada","Both sexes","Under 18 years",,,,,19.6
 "2020","Food insecure, marginal","Canada","Both sexes","Under 18 years",,,,,6
+"2020","Food insecure, moderate or severe","Canada","Both sexes","Under 18 years",,,,,13.6
 "2020","Food insecure, moderate","Canada","Both sexes","Under 18 years",,,,,9.8
 "2020","Food insecure, severe","Canada","Both sexes","Under 18 years",,,,,3.8
 "2020","Food secure","Canada","Both sexes","18 to 64 years",,,,,83.4
 "2020","Food insecure","Canada","Both sexes","18 to 64 years",,,,,16.6
 "2020","Food insecure, marginal","Canada","Both sexes","18 to 64 years",,,,,4.6
+"2020","Food insecure, moderate or severe","Canada","Both sexes","18 to 64 years",,,,,12
 "2020","Food insecure, moderate","Canada","Both sexes","18 to 64 years",,,,,7.9
 "2020","Food insecure, severe","Canada","Both sexes","18 to 64 years",,,,,4.1
 "2020","Food secure","Canada","Both sexes","18 to 24 years",,,,,82
 "2020","Food insecure","Canada","Both sexes","18 to 24 years",,,,,18
 "2020","Food insecure, marginal","Canada","Both sexes","18 to 24 years",,,,,4.3
+"2020","Food insecure, moderate or severe","Canada","Both sexes","18 to 24 years",,,,,13.7
 "2020","Food insecure, moderate","Canada","Both sexes","18 to 24 years",,,,,9.4
 "2020","Food insecure, severe","Canada","Both sexes","18 to 24 years",,,,,4.3
 "2020","Food secure","Canada","Both sexes","25 to 34 years",,,,,82.7
 "2020","Food insecure","Canada","Both sexes","25 to 34 years",,,,,17.3
 "2020","Food insecure, marginal","Canada","Both sexes","25 to 34 years",,,,,4.5
+"2020","Food insecure, moderate or severe","Canada","Both sexes","25 to 34 years",,,,,12.9
 "2020","Food insecure, moderate","Canada","Both sexes","25 to 34 years",,,,,8.4
 "2020","Food insecure, severe","Canada","Both sexes","25 to 34 years",,,,,4.4
 "2020","Food secure","Canada","Both sexes","35 to 44 years",,,,,81.7
 "2020","Food insecure","Canada","Both sexes","35 to 44 years",,,,,18.3
 "2020","Food insecure, marginal","Canada","Both sexes","35 to 44 years",,,,,5.7
+"2020","Food insecure, moderate or severe","Canada","Both sexes","35 to 44 years",,,,,12.7
 "2020","Food insecure, moderate","Canada","Both sexes","35 to 44 years",,,,,8.8
 "2020","Food insecure, severe","Canada","Both sexes","35 to 44 years",,,,,3.9
 "2020","Food secure","Canada","Both sexes","45 to 54 years",,,,,83.6
 "2020","Food insecure","Canada","Both sexes","45 to 54 years",,,,,16.4
 "2020","Food insecure, marginal","Canada","Both sexes","45 to 54 years",,,,,4.5
+"2020","Food insecure, moderate or severe","Canada","Both sexes","45 to 54 years",,,,,11.9
 "2020","Food insecure, moderate","Canada","Both sexes","45 to 54 years",,,,,7.5
 "2020","Food insecure, severe","Canada","Both sexes","45 to 54 years",,,,,4.5
 "2020","Food secure","Canada","Both sexes","55 to 64 years",,,,,86.6
 "2020","Food insecure","Canada","Both sexes","55 to 64 years",,,,,13.4
 "2020","Food insecure, marginal","Canada","Both sexes","55 to 64 years",,,,,3.9
+"2020","Food insecure, moderate or severe","Canada","Both sexes","55 to 64 years",,,,,9.5
 "2020","Food insecure, moderate","Canada","Both sexes","55 to 64 years",,,,,6
 "2020","Food insecure, severe","Canada","Both sexes","55 to 64 years",,,,,3.5
 "2020","Food secure","Canada","Both sexes","65 years and over",,,,,91.3
 "2020","Food insecure","Canada","Both sexes","65 years and over",,,,,8.7
 "2020","Food insecure, marginal","Canada","Both sexes","65 years and over",,,,,3
+"2020","Food insecure, moderate or severe","Canada","Both sexes","65 years and over",,,,,5.7
 "2020","Food insecure, moderate","Canada","Both sexes","65 years and over",,,,,4.1
 "2020","Food insecure, severe","Canada","Both sexes","65 years and over",,,,,1.6
 "2020","Food secure","Canada","Male",,"All persons",,,,84.7
@@ -10149,63 +10155,76 @@
 "2020","Food secure","Canada",,,,"Visible minority population",,,79.3
 "2020","Food insecure","Canada",,,,"Visible minority population",,,20.7
 "2020","Food insecure, marginal","Canada",,,,"Visible minority population",,,6
+"2020","Food insecure, moderate or severe","Canada",,,,"Visible minority population",,,14.6
 "2020","Food insecure, moderate","Canada",,,,"Visible minority population",,,11
 "2020","Food insecure, severe","Canada",,,,"Visible minority population",,,3.6
 "2020","Food secure","Canada",,,,"South Asian",,,84.3
 "2020","Food insecure","Canada",,,,"South Asian",,,15.7
 "2020","Food insecure, marginal","Canada",,,,"South Asian",,,5.3
+"2020","Food insecure, moderate or severe","Canada",,,,"South Asian",,,10.4
 "2020","Food insecure, moderate","Canada",,,,"South Asian",,,8.3
 "2020","Food insecure, severe","Canada",,,,"South Asian",,,2.1
 "2020","Food secure","Canada",,,,"Chinese",,,85.1
 "2020","Food insecure","Canada",,,,"Chinese",,,14.9
 "2020","Food insecure, marginal","Canada",,,,"Chinese",,,5.8
+"2020","Food insecure, moderate or severe","Canada",,,,"Chinese",,,9.1
 "2020","Food insecure, moderate","Canada",,,,"Chinese",,,7
 "2020","Food insecure, severe","Canada",,,,"Chinese",,,2.1
 "2020","Food secure","Canada",,,,"Black",,,77.6
 "2020","Food insecure","Canada",,,,"Black",,,22.4
 "2020","Food insecure, marginal","Canada",,,,"Black",,,5.2
+"2020","Food insecure, moderate or severe","Canada",,,,"Black",,,17.2
 "2020","Food insecure, moderate","Canada",,,,"Black",,,11.5
 "2020","Food insecure, severe","Canada",,,,"Black",,,5.7
 "2020","Food secure","Canada",,,,"Filipino",,,71.9
 "2020","Food insecure","Canada",,,,"Filipino",,,28.1
 "2020","Food insecure, marginal","Canada",,,,"Filipino",,,7.8
+"2020","Food insecure, moderate or severe","Canada",,,,"Filipino",,,20.4
 "2020","Food insecure, moderate","Canada",,,,"Filipino",,,16.7
 "2020","Food secure","Canada",,,,"Arab",,,73.4
 "2020","Food insecure","Canada",,,,"Arab",,,26.6
 "2020","Food insecure, marginal","Canada",,,,"Arab",,,5.6
+"2020","Food insecure, moderate or severe","Canada",,,,"Arab",,,21
 "2020","Food insecure, moderate","Canada",,,,"Arab",,,15.7
 "2020","Food insecure, severe","Canada",,,,"Arab",,,5.3
 "2020","Food secure","Canada",,,,"Latin American",,,71
 "2020","Food insecure","Canada",,,,"Latin American",,,29
 "2020","Food insecure, marginal","Canada",,,,"Latin American",,,6.6
+"2020","Food insecure, moderate or severe","Canada",,,,"Latin American",,,22.4
 "2020","Food insecure, moderate","Canada",,,,"Latin American",,,15.7
 "2020","Food insecure, severe","Canada",,,,"Latin American",,,6.7
 "2020","Food secure","Canada",,,,"Southeast Asian",,,77.2
 "2020","Food insecure","Canada",,,,"Southeast Asian",,,22.8
+"2020","Food insecure, moderate or severe","Canada",,,,"Southeast Asian",,,15.7
 "2020","Food insecure, moderate","Canada",,,,"Southeast Asian",,,11.9
 "2020","Food secure","Canada",,,,"Other visible minority",,,77.3
 "2020","Food insecure","Canada",,,,"Other visible minority",,,22.7
 "2020","Food insecure, marginal","Canada",,,,"Other visible minority",,,7.1
+"2020","Food insecure, moderate or severe","Canada",,,,"Other visible minority",,,15.6
 "2020","Food insecure, moderate","Canada",,,,"Other visible minority",,,12
 "2020","Food insecure, severe","Canada",,,,"Other visible minority",,,3.6
 "2020","Food secure","Canada",,,,"Not a visible minority",,,86.1
 "2020","Food insecure","Canada",,,,"Not a visible minority",,,13.9
 "2020","Food insecure, marginal","Canada",,,,"Not a visible minority",,,4
+"2020","Food insecure, moderate or severe","Canada",,,,"Not a visible minority",,,9.9
 "2020","Food insecure, moderate","Canada",,,,"Not a visible minority",,,6.3
 "2020","Food insecure, severe","Canada",,,,"Not a visible minority",,,3.6
 "2020","Food secure","Canada",,,,,"Indigenous population",,69.3
 "2020","Food insecure","Canada",,,,,"Indigenous population",,30.7
 "2020","Food insecure, marginal","Canada",,,,,"Indigenous population",,6.4
+"2020","Food insecure, moderate or severe","Canada",,,,,"Indigenous population",,24.3
 "2020","Food insecure, moderate","Canada",,,,,"Indigenous population",,15.5
 "2020","Food insecure, severe","Canada",,,,,"Indigenous population",,8.8
 "2020","Food secure","Canada",,,,,"Non-Indigenous population",,84.7
 "2020","Food insecure","Canada",,,,,"Non-Indigenous population",,15.3
 "2020","Food insecure, marginal","Canada",,,,,"Non-Indigenous population",,4.5
+"2020","Food insecure, moderate or severe","Canada",,,,,"Non-Indigenous population",,10.8
 "2020","Food insecure, moderate","Canada",,,,,"Non-Indigenous population",,7.3
 "2020","Food insecure, severe","Canada",,,,,"Non-Indigenous population",,3.4
 "2020","Food secure","Canada",,,,,"Not a visible minority nor Indigenous",,86.8
 "2020","Food insecure","Canada",,,,,"Not a visible minority nor Indigenous",,13.2
 "2020","Food insecure, marginal","Canada",,,,,"Not a visible minority nor Indigenous",,3.9
+"2020","Food insecure, moderate or severe","Canada",,,,,"Not a visible minority nor Indigenous",,9.3
 "2020","Food insecure, moderate","Canada",,,,,"Not a visible minority nor Indigenous",,5.9
 "2020","Food insecure, severe","Canada",,,,,"Not a visible minority nor Indigenous",,3.4
 "2020","Food secure","Atlantic provinces","Both sexes","Under 18 years",,,,,74.6
@@ -11849,41 +11868,49 @@
 "2021","Food secure","Canada","Both sexes","Under 18 years",,,,,75.7
 "2021","Food insecure","Canada","Both sexes","Under 18 years",,,,,24.3
 "2021","Food insecure, marginal","Canada","Both sexes","Under 18 years",,,,,7.5
+"2021","Food insecure, moderate or severe","Canada","Both sexes","Under 18 years",,,,,16.8
 "2021","Food insecure, moderate","Canada","Both sexes","Under 18 years",,,,,12.6
 "2021","Food insecure, severe","Canada","Both sexes","Under 18 years",,,,,4.2
 "2021","Food secure","Canada","Both sexes","18 to 64 years",,,,,81
 "2021","Food insecure","Canada","Both sexes","18 to 64 years",,,,,19
 "2021","Food insecure, marginal","Canada","Both sexes","18 to 64 years",,,,,5.4
+"2021","Food insecure, moderate or severe","Canada","Both sexes","18 to 64 years",,,,,13.6
 "2021","Food insecure, moderate","Canada","Both sexes","18 to 64 years",,,,,9
 "2021","Food insecure, severe","Canada","Both sexes","18 to 64 years",,,,,4.6
 "2021","Food secure","Canada","Both sexes","18 to 24 years",,,,,80.2
 "2021","Food insecure","Canada","Both sexes","18 to 24 years",,,,,19.8
 "2021","Food insecure, marginal","Canada","Both sexes","18 to 24 years",,,,,6.2
+"2021","Food insecure, moderate or severe","Canada","Both sexes","18 to 24 years",,,,,13.6
 "2021","Food insecure, moderate","Canada","Both sexes","18 to 24 years",,,,,8.9
 "2021","Food insecure, severe","Canada","Both sexes","18 to 24 years",,,,,4.6
 "2021","Food secure","Canada","Both sexes","25 to 34 years",,,,,80.1
 "2021","Food insecure","Canada","Both sexes","25 to 34 years",,,,,19.9
 "2021","Food insecure, marginal","Canada","Both sexes","25 to 34 years",,,,,5.1
+"2021","Food insecure, moderate or severe","Canada","Both sexes","25 to 34 years",,,,,14.8
 "2021","Food insecure, moderate","Canada","Both sexes","25 to 34 years",,,,,9.6
 "2021","Food insecure, severe","Canada","Both sexes","25 to 34 years",,,,,5.2
 "2021","Food secure","Canada","Both sexes","35 to 44 years",,,,,78.8
 "2021","Food insecure","Canada","Both sexes","35 to 44 years",,,,,21.2
 "2021","Food insecure, marginal","Canada","Both sexes","35 to 44 years",,,,,6.5
+"2021","Food insecure, moderate or severe","Canada","Both sexes","35 to 44 years",,,,,14.8
 "2021","Food insecure, moderate","Canada","Both sexes","35 to 44 years",,,,,10.3
 "2021","Food insecure, severe","Canada","Both sexes","35 to 44 years",,,,,4.5
 "2021","Food secure","Canada","Both sexes","45 to 54 years",,,,,80.9
 "2021","Food insecure","Canada","Both sexes","45 to 54 years",,,,,19.1
 "2021","Food insecure, marginal","Canada","Both sexes","45 to 54 years",,,,,5.4
+"2021","Food insecure, moderate or severe","Canada","Both sexes","45 to 54 years",,,,,13.7
 "2021","Food insecure, moderate","Canada","Both sexes","45 to 54 years",,,,,9.2
 "2021","Food insecure, severe","Canada","Both sexes","45 to 54 years",,,,,4.5
 "2021","Food secure","Canada","Both sexes","55 to 64 years",,,,,84.6
 "2021","Food insecure","Canada","Both sexes","55 to 64 years",,,,,15.4
 "2021","Food insecure, marginal","Canada","Both sexes","55 to 64 years",,,,,4.4
+"2021","Food insecure, moderate or severe","Canada","Both sexes","55 to 64 years",,,,,11
 "2021","Food insecure, moderate","Canada","Both sexes","55 to 64 years",,,,,6.9
 "2021","Food insecure, severe","Canada","Both sexes","55 to 64 years",,,,,4.2
 "2021","Food secure","Canada","Both sexes","65 years and over",,,,,89.7
 "2021","Food insecure","Canada","Both sexes","65 years and over",,,,,10.3
 "2021","Food insecure, marginal","Canada","Both sexes","65 years and over",,,,,4
+"2021","Food insecure, moderate or severe","Canada","Both sexes","65 years and over",,,,,6.3
 "2021","Food insecure, moderate","Canada","Both sexes","65 years and over",,,,,4.6
 "2021","Food insecure, severe","Canada","Both sexes","65 years and over",,,,,1.7
 "2021","Food secure","Canada","Male",,"All persons",,,,81.8
@@ -11937,63 +11964,76 @@
 "2021","Food secure","Canada",,,,"Visible minority population",,,75.5
 "2021","Food insecure","Canada",,,,"Visible minority population",,,24.5
 "2021","Food insecure, marginal","Canada",,,,"Visible minority population",,,7.7
+"2021","Food insecure, moderate or severe","Canada",,,,"Visible minority population",,,16.8
 "2021","Food insecure, moderate","Canada",,,,"Visible minority population",,,12.8
 "2021","Food insecure, severe","Canada",,,,"Visible minority population",,,4
 "2021","Food secure","Canada",,,,"South Asian",,,79
 "2021","Food insecure","Canada",,,,"South Asian",,,21
 "2021","Food insecure, marginal","Canada",,,,"South Asian",,,5.9
+"2021","Food insecure, moderate or severe","Canada",,,,"South Asian",,,15.1
 "2021","Food insecure, moderate","Canada",,,,"South Asian",,,12.8
 "2021","Food insecure, severe","Canada",,,,"South Asian",,,2.3
 "2021","Food secure","Canada",,,,"Chinese",,,82.1
 "2021","Food insecure","Canada",,,,"Chinese",,,17.9
 "2021","Food insecure, marginal","Canada",,,,"Chinese",,,4.8
+"2021","Food insecure, moderate or severe","Canada",,,,"Chinese",,,13
 "2021","Food insecure, moderate","Canada",,,,"Chinese",,,9.8
 "2021","Food insecure, severe","Canada",,,,"Chinese",,,3.2
 "2021","Food secure","Canada",,,,"Black",,,60.8
 "2021","Food insecure","Canada",,,,"Black",,,39.2
 "2021","Food insecure, marginal","Canada",,,,"Black",,,12
+"2021","Food insecure, moderate or severe","Canada",,,,"Black",,,27.2
 "2021","Food insecure, moderate","Canada",,,,"Black",,,17.9
 "2021","Food insecure, severe","Canada",,,,"Black",,,9.4
 "2021","Food secure","Canada",,,,"Filipino",,,70.8
 "2021","Food insecure","Canada",,,,"Filipino",,,29.2
 "2021","Food insecure, marginal","Canada",,,,"Filipino",,,10.5
+"2021","Food insecure, moderate or severe","Canada",,,,"Filipino",,,18.7
 "2021","Food insecure, moderate","Canada",,,,"Filipino",,,14.3
 "2021","Food secure","Canada",,,,"Arab",,,73
 "2021","Food insecure","Canada",,,,"Arab",,,27
 "2021","Food insecure, marginal","Canada",,,,"Arab",,,13.8
+"2021","Food insecure, moderate or severe","Canada",,,,"Arab",,,13.2
 "2021","Food insecure, moderate","Canada",,,,"Arab",,,10.4
 "2021","Food secure","Canada",,,,"Latin American",,,80
 "2021","Food insecure","Canada",,,,"Latin American",,,20
 "2021","Food insecure, marginal","Canada",,,,"Latin American",,,4.6
+"2021","Food insecure, moderate or severe","Canada",,,,"Latin American",,,15.4
 "2021","Food insecure, moderate","Canada",,,,"Latin American",,,11.5
 "2021","Food insecure, severe","Canada",,,,"Latin American",,,3.9
 "2021","Food secure","Canada",,,,"Southeast Asian",,,78
 "2021","Food insecure","Canada",,,,"Southeast Asian",,,22
 "2021","Food insecure, marginal","Canada",,,,"Southeast Asian",,,4.2
+"2021","Food insecure, moderate or severe","Canada",,,,"Southeast Asian",,,17.8
 "2021","Food insecure, moderate","Canada",,,,"Southeast Asian",,,13.9
 "2021","Food insecure, severe","Canada",,,,"Southeast Asian",,,3.9
 "2021","Food secure","Canada",,,,"Other visible minority",,,77.9
 "2021","Food insecure","Canada",,,,"Other visible minority",,,22.1
 "2021","Food insecure, marginal","Canada",,,,"Other visible minority",,,7.2
+"2021","Food insecure, moderate or severe","Canada",,,,"Other visible minority",,,14.9
 "2021","Food insecure, moderate","Canada",,,,"Other visible minority",,,11.5
 "2021","Food secure","Canada",,,,"Not a visible minority",,,84
 "2021","Food insecure","Canada",,,,"Not a visible minority",,,16
 "2021","Food insecure, marginal","Canada",,,,"Not a visible minority",,,4.7
+"2021","Food insecure, moderate or severe","Canada",,,,"Not a visible minority",,,11.3
 "2021","Food insecure, moderate","Canada",,,,"Not a visible minority",,,7.3
 "2021","Food insecure, severe","Canada",,,,"Not a visible minority",,,4
 "2021","Food secure","Canada",,,,,"Indigenous population",,66.6
 "2021","Food insecure","Canada",,,,,"Indigenous population",,33.4
 "2021","Food insecure, marginal","Canada",,,,,"Indigenous population",,7.9
+"2021","Food insecure, moderate or severe","Canada",,,,,"Indigenous population",,25.5
 "2021","Food insecure, moderate","Canada",,,,,"Indigenous population",,13.9
 "2021","Food insecure, severe","Canada",,,,,"Indigenous population",,11.6
 "2021","Food secure","Canada",,,,,"Non-Indigenous population",,82
 "2021","Food insecure","Canada",,,,,"Non-Indigenous population",,18
 "2021","Food insecure, marginal","Canada",,,,,"Non-Indigenous population",,5.5
+"2021","Food insecure, moderate or severe","Canada",,,,,"Non-Indigenous population",,12.5
 "2021","Food insecure, moderate","Canada",,,,,"Non-Indigenous population",,8.7
 "2021","Food insecure, severe","Canada",,,,,"Non-Indigenous population",,3.8
 "2021","Food secure","Canada",,,,,"Not a visible minority nor Indigenous",,84.7
 "2021","Food insecure","Canada",,,,,"Not a visible minority nor Indigenous",,15.3
 "2021","Food insecure, marginal","Canada",,,,,"Not a visible minority nor Indigenous",,4.6
+"2021","Food insecure, moderate or severe","Canada",,,,,"Not a visible minority nor Indigenous",,10.7
 "2021","Food insecure, moderate","Canada",,,,,"Not a visible minority nor Indigenous",,7
 "2021","Food insecure, severe","Canada",,,,,"Not a visible minority nor Indigenous",,3.7
 "2021","Food secure","Atlantic provinces","Both sexes","Under 18 years",,,,,69.5
@@ -13594,41 +13634,49 @@
 "2022","Food secure","Canada","Both sexes","Under 18 years",,,,,71.6
 "2022","Food insecure","Canada","Both sexes","Under 18 years",,,,,28.4
 "2022","Food insecure, marginal","Canada","Both sexes","Under 18 years",,,,,7.5
+"2022","Food insecure, moderate or severe","Canada","Both sexes","Under 18 years",,,,,21
 "2022","Food insecure, moderate","Canada","Both sexes","Under 18 years",,,,,14.5
 "2022","Food insecure, severe","Canada","Both sexes","Under 18 years",,,,,6.4
 "2022","Food secure","Canada","Both sexes","18 to 64 years",,,,,75.5
 "2022","Food insecure","Canada","Both sexes","18 to 64 years",,,,,24.5
 "2022","Food insecure, marginal","Canada","Both sexes","18 to 64 years",,,,,6.1
+"2022","Food insecure, moderate or severe","Canada","Both sexes","18 to 64 years",,,,,18.4
 "2022","Food insecure, moderate","Canada","Both sexes","18 to 64 years",,,,,11.3
 "2022","Food insecure, severe","Canada","Both sexes","18 to 64 years",,,,,7
 "2022","Food secure","Canada","Both sexes","18 to 24 years",,,,,75.6
 "2022","Food insecure","Canada","Both sexes","18 to 24 years",,,,,24.4
 "2022","Food insecure, marginal","Canada","Both sexes","18 to 24 years",,,,,6.7
+"2022","Food insecure, moderate or severe","Canada","Both sexes","18 to 24 years",,,,,17.7
 "2022","Food insecure, moderate","Canada","Both sexes","18 to 24 years",,,,,10.3
 "2022","Food insecure, severe","Canada","Both sexes","18 to 24 years",,,,,7.4
 "2022","Food secure","Canada","Both sexes","25 to 34 years",,,,,72
 "2022","Food insecure","Canada","Both sexes","25 to 34 years",,,,,28
 "2022","Food insecure, marginal","Canada","Both sexes","25 to 34 years",,,,,6.8
+"2022","Food insecure, moderate or severe","Canada","Both sexes","25 to 34 years",,,,,21.2
 "2022","Food insecure, moderate","Canada","Both sexes","25 to 34 years",,,,,13.7
 "2022","Food insecure, severe","Canada","Both sexes","25 to 34 years",,,,,7.5
 "2022","Food secure","Canada","Both sexes","35 to 44 years",,,,,73.1
 "2022","Food insecure","Canada","Both sexes","35 to 44 years",,,,,26.9
 "2022","Food insecure, marginal","Canada","Both sexes","35 to 44 years",,,,,6.4
+"2022","Food insecure, moderate or severe","Canada","Both sexes","35 to 44 years",,,,,20.5
 "2022","Food insecure, moderate","Canada","Both sexes","35 to 44 years",,,,,13.4
 "2022","Food insecure, severe","Canada","Both sexes","35 to 44 years",,,,,7.1
 "2022","Food secure","Canada","Both sexes","45 to 54 years",,,,,76.7
 "2022","Food insecure","Canada","Both sexes","45 to 54 years",,,,,23.3
 "2022","Food insecure, marginal","Canada","Both sexes","45 to 54 years",,,,,6
+"2022","Food insecure, moderate or severe","Canada","Both sexes","45 to 54 years",,,,,17.3
 "2022","Food insecure, moderate","Canada","Both sexes","45 to 54 years",,,,,10
 "2022","Food insecure, severe","Canada","Both sexes","45 to 54 years",,,,,7.3
 "2022","Food secure","Canada","Both sexes","55 to 64 years",,,,,80.4
 "2022","Food insecure","Canada","Both sexes","55 to 64 years",,,,,19.6
 "2022","Food insecure, marginal","Canada","Both sexes","55 to 64 years",,,,,5
+"2022","Food insecure, moderate or severe","Canada","Both sexes","55 to 64 years",,,,,14.6
 "2022","Food insecure, moderate","Canada","Both sexes","55 to 64 years",,,,,8.7
 "2022","Food insecure, severe","Canada","Both sexes","55 to 64 years",,,,,5.9
 "2022","Food secure","Canada","Both sexes","65 years and over",,,,,88.3
 "2022","Food insecure","Canada","Both sexes","65 years and over",,,,,11.7
 "2022","Food insecure, marginal","Canada","Both sexes","65 years and over",,,,,3.8
+"2022","Food insecure, moderate or severe","Canada","Both sexes","65 years and over",,,,,8
 "2022","Food insecure, moderate","Canada","Both sexes","65 years and over",,,,,5.6
 "2022","Food insecure, severe","Canada","Both sexes","65 years and over",,,,,2.4
 "2022","Food secure","Canada","Male",,"All persons",,,,77.4
@@ -13682,65 +13730,78 @@
 "2022","Food secure","Canada",,,,"Visible minority population",,,72.7
 "2022","Food insecure","Canada",,,,"Visible minority population",,,27.3
 "2022","Food insecure, marginal","Canada",,,,"Visible minority population",,,6.6
+"2022","Food insecure, moderate or severe","Canada",,,,"Visible minority population",,,20.7
 "2022","Food insecure, moderate","Canada",,,,"Visible minority population",,,14.5
 "2022","Food insecure, severe","Canada",,,,"Visible minority population",,,6.2
 "2022","Food secure","Canada",,,,"South Asian",,,76.2
 "2022","Food insecure","Canada",,,,"South Asian",,,23.8
 "2022","Food insecure, marginal","Canada",,,,"South Asian",,,6.2
+"2022","Food insecure, moderate or severe","Canada",,,,"South Asian",,,17.6
 "2022","Food insecure, moderate","Canada",,,,"South Asian",,,11.3
 "2022","Food insecure, severe","Canada",,,,"South Asian",,,6.3
 "2022","Food secure","Canada",,,,"Chinese",,,81
 "2022","Food insecure","Canada",,,,"Chinese",,,19
 "2022","Food insecure, marginal","Canada",,,,"Chinese",,,5.7
+"2022","Food insecure, moderate or severe","Canada",,,,"Chinese",,,13.4
 "2022","Food insecure, moderate","Canada",,,,"Chinese",,,10.1
 "2022","Food insecure, severe","Canada",,,,"Chinese",,,3.3
 "2022","Food secure","Canada",,,,"Black",,,59.6
 "2022","Food insecure","Canada",,,,"Black",,,40.4
 "2022","Food insecure, marginal","Canada",,,,"Black",,,8.5
+"2022","Food insecure, moderate or severe","Canada",,,,"Black",,,31.9
 "2022","Food insecure, moderate","Canada",,,,"Black",,,20.1
 "2022","Food insecure, severe","Canada",,,,"Black",,,11.8
 "2022","Food secure","Canada",,,,"Filipino",,,73
 "2022","Food insecure","Canada",,,,"Filipino",,,27
 "2022","Food insecure, marginal","Canada",,,,"Filipino",,,6.4
+"2022","Food insecure, moderate or severe","Canada",,,,"Filipino",,,20.6
 "2022","Food insecure, moderate","Canada",,,,"Filipino",,,16.4
 "2022","Food insecure, severe","Canada",,,,"Filipino",,,4.1
 "2022","Food secure","Canada",,,,"Arab",,,74.2
 "2022","Food insecure","Canada",,,,"Arab",,,25.8
 "2022","Food insecure, marginal","Canada",,,,"Arab",,,7.5
+"2022","Food insecure, moderate or severe","Canada",,,,"Arab",,,18.3
 "2022","Food insecure, moderate","Canada",,,,"Arab",,,14.9
 "2022","Food insecure, severe","Canada",,,,"Arab",,,3.4
 "2022","Food secure","Canada",,,,"Latin American",,,68.9
 "2022","Food insecure","Canada",,,,"Latin American",,,31.1
 "2022","Food insecure, marginal","Canada",,,,"Latin American",,,7.6
+"2022","Food insecure, moderate or severe","Canada",,,,"Latin American",,,23.5
 "2022","Food insecure, moderate","Canada",,,,"Latin American",,,15.6
 "2022","Food insecure, severe","Canada",,,,"Latin American",,,7.8
 "2022","Food secure","Canada",,,,"Southeast Asian",,,74.7
 "2022","Food insecure","Canada",,,,"Southeast Asian",,,25.3
 "2022","Food insecure, marginal","Canada",,,,"Southeast Asian",,,8.7
+"2022","Food insecure, moderate or severe","Canada",,,,"Southeast Asian",,,16.6
 "2022","Food insecure, moderate","Canada",,,,"Southeast Asian",,,11.1
 "2022","Food secure","Canada",,,,"Other visible minority",,,68.6
 "2022","Food insecure","Canada",,,,"Other visible minority",,,31.4
 "2022","Food insecure, marginal","Canada",,,,"Other visible minority",,,4.6
+"2022","Food insecure, moderate or severe","Canada",,,,"Other visible minority",,,26.8
 "2022","Food insecure, moderate","Canada",,,,"Other visible minority",,,20.2
 "2022","Food insecure, severe","Canada",,,,"Other visible minority",,,6.7
 "2022","Food secure","Canada",,,,"Not a visible minority",,,79
 "2022","Food insecure","Canada",,,,"Not a visible minority",,,21
 "2022","Food insecure, marginal","Canada",,,,"Not a visible minority",,,5.7
+"2022","Food insecure, moderate or severe","Canada",,,,"Not a visible minority",,,15.4
 "2022","Food insecure, moderate","Canada",,,,"Not a visible minority",,,9.4
 "2022","Food insecure, severe","Canada",,,,"Not a visible minority",,,5.9
 "2022","Food secure","Canada",,,,,"Indigenous population",,63.2
 "2022","Food insecure","Canada",,,,,"Indigenous population",,36.8
 "2022","Food insecure, marginal","Canada",,,,,"Indigenous population",,7.8
+"2022","Food insecure, moderate or severe","Canada",,,,,"Indigenous population",,29
 "2022","Food insecure, moderate","Canada",,,,,"Indigenous population",,14.7
 "2022","Food insecure, severe","Canada",,,,,"Indigenous population",,14.3
 "2022","Food secure","Canada",,,,,"Non-Indigenous population",,77.6
 "2022","Food insecure","Canada",,,,,"Non-Indigenous population",,22.4
 "2022","Food insecure, marginal","Canada",,,,,"Non-Indigenous population",,5.9
+"2022","Food insecure, moderate or severe","Canada",,,,,"Non-Indigenous population",,16.5
 "2022","Food insecure, moderate","Canada",,,,,"Non-Indigenous population",,10.8
 "2022","Food insecure, severe","Canada",,,,,"Non-Indigenous population",,5.8
 "2022","Food secure","Canada",,,,,"Not a visible minority nor Indigenous",,79.7
 "2022","Food insecure","Canada",,,,,"Not a visible minority nor Indigenous",,20.3
 "2022","Food insecure, marginal","Canada",,,,,"Not a visible minority nor Indigenous",,5.6
+"2022","Food insecure, moderate or severe","Canada",,,,,"Not a visible minority nor Indigenous",,14.7
 "2022","Food insecure, moderate","Canada",,,,,"Not a visible minority nor Indigenous",,9.2
 "2022","Food insecure, severe","Canada",,,,,"Not a visible minority nor Indigenous",,5.6
 "2022","Food secure","Atlantic provinces","Both sexes","Under 18 years",,,,,63.4
@@ -15412,41 +15473,49 @@
 "2023","Food secure","Canada","Both sexes","Under 18 years",,,,,67.1
 "2023","Food insecure","Canada","Both sexes","Under 18 years",,,,,32.9
 "2023","Food insecure, marginal","Canada","Both sexes","Under 18 years",,,,,8.2
+"2023","Food insecure, moderate or severe","Canada","Both sexes","Under 18 years",,,,,24.7
 "2023","Food insecure, moderate","Canada","Both sexes","Under 18 years",,,,,17.3
 "2023","Food insecure, severe","Canada","Both sexes","Under 18 years",,,,,7.4
 "2023","Food secure","Canada","Both sexes","18 to 64 years",,,,,72.9
 "2023","Food insecure","Canada","Both sexes","18 to 64 years",,,,,27.1
 "2023","Food insecure, marginal","Canada","Both sexes","18 to 64 years",,,,,6.6
+"2023","Food insecure, moderate or severe","Canada","Both sexes","18 to 64 years",,,,,20.5
 "2023","Food insecure, moderate","Canada","Both sexes","18 to 64 years",,,,,12.8
 "2023","Food insecure, severe","Canada","Both sexes","18 to 64 years",,,,,7.7
 "2023","Food secure","Canada","Both sexes","18 to 24 years",,,,,71.8
 "2023","Food insecure","Canada","Both sexes","18 to 24 years",,,,,28.2
 "2023","Food insecure, marginal","Canada","Both sexes","18 to 24 years",,,,,6.2
+"2023","Food insecure, moderate or severe","Canada","Both sexes","18 to 24 years",,,,,22
 "2023","Food insecure, moderate","Canada","Both sexes","18 to 24 years",,,,,13.9
 "2023","Food insecure, severe","Canada","Both sexes","18 to 24 years",,,,,8.1
 "2023","Food secure","Canada","Both sexes","25 to 34 years",,,,,69.8
 "2023","Food insecure","Canada","Both sexes","25 to 34 years",,,,,30.2
 "2023","Food insecure, marginal","Canada","Both sexes","25 to 34 years",,,,,7.7
+"2023","Food insecure, moderate or severe","Canada","Both sexes","25 to 34 years",,,,,22.6
 "2023","Food insecure, moderate","Canada","Both sexes","25 to 34 years",,,,,13.8
 "2023","Food insecure, severe","Canada","Both sexes","25 to 34 years",,,,,8.8
 "2023","Food secure","Canada","Both sexes","35 to 44 years",,,,,69.6
 "2023","Food insecure","Canada","Both sexes","35 to 44 years",,,,,30.4
 "2023","Food insecure, marginal","Canada","Both sexes","35 to 44 years",,,,,7.3
+"2023","Food insecure, moderate or severe","Canada","Both sexes","35 to 44 years",,,,,23.1
 "2023","Food insecure, moderate","Canada","Both sexes","35 to 44 years",,,,,14.8
 "2023","Food insecure, severe","Canada","Both sexes","35 to 44 years",,,,,8.3
 "2023","Food secure","Canada","Both sexes","45 to 54 years",,,,,74
 "2023","Food insecure","Canada","Both sexes","45 to 54 years",,,,,26
 "2023","Food insecure, marginal","Canada","Both sexes","45 to 54 years",,,,,6.2
+"2023","Food insecure, moderate or severe","Canada","Both sexes","45 to 54 years",,,,,19.8
 "2023","Food insecure, moderate","Canada","Both sexes","45 to 54 years",,,,,12.5
 "2023","Food insecure, severe","Canada","Both sexes","45 to 54 years",,,,,7.2
 "2023","Food secure","Canada","Both sexes","55 to 64 years",,,,,79.3
 "2023","Food insecure","Canada","Both sexes","55 to 64 years",,,,,20.7
 "2023","Food insecure, marginal","Canada","Both sexes","55 to 64 years",,,,,5.5
+"2023","Food insecure, moderate or severe","Canada","Both sexes","55 to 64 years",,,,,15.2
 "2023","Food insecure, moderate","Canada","Both sexes","55 to 64 years",,,,,8.9
 "2023","Food insecure, severe","Canada","Both sexes","55 to 64 years",,,,,6.3
 "2023","Food secure","Canada","Both sexes","65 years and over",,,,,87.4
 "2023","Food insecure","Canada","Both sexes","65 years and over",,,,,12.6
 "2023","Food insecure, marginal","Canada","Both sexes","65 years and over",,,,,3.5
+"2023","Food insecure, moderate or severe","Canada","Both sexes","65 years and over",,,,,9
 "2023","Food insecure, moderate","Canada","Both sexes","65 years and over",,,,,6.2
 "2023","Food insecure, severe","Canada","Both sexes","65 years and over",,,,,2.8
 "2023","Food secure","Canada","Male",,"All persons",,,,75
@@ -15500,66 +15569,79 @@
 "2023","Food secure","Canada",,,,"Visible minority population",,,67.8
 "2023","Food insecure","Canada",,,,"Visible minority population",,,32.2
 "2023","Food insecure, marginal","Canada",,,,"Visible minority population",,,7.4
+"2023","Food insecure, moderate or severe","Canada",,,,"Visible minority population",,,24.7
 "2023","Food insecure, moderate","Canada",,,,"Visible minority population",,,17.3
 "2023","Food insecure, severe","Canada",,,,"Visible minority population",,,7.4
 "2023","Food secure","Canada",,,,"South Asian",,,72.9
 "2023","Food insecure","Canada",,,,"South Asian",,,27.1
 "2023","Food insecure, marginal","Canada",,,,"South Asian",,,5.6
+"2023","Food insecure, moderate or severe","Canada",,,,"South Asian",,,21.5
 "2023","Food insecure, moderate","Canada",,,,"South Asian",,,14
 "2023","Food insecure, severe","Canada",,,,"South Asian",,,7.5
 "2023","Food secure","Canada",,,,"Chinese",,,78.7
 "2023","Food insecure","Canada",,,,"Chinese",,,21.3
 "2023","Food insecure, marginal","Canada",,,,"Chinese",,,4.5
+"2023","Food insecure, moderate or severe","Canada",,,,"Chinese",,,16.8
 "2023","Food insecure, moderate","Canada",,,,"Chinese",,,12.1
 "2023","Food insecure, severe","Canada",,,,"Chinese",,,4.7
 "2023","Food secure","Canada",,,,"Black",,,53.3
 "2023","Food insecure","Canada",,,,"Black",,,46.7
 "2023","Food insecure, marginal","Canada",,,,"Black",,,9
+"2023","Food insecure, moderate or severe","Canada",,,,"Black",,,37.7
 "2023","Food insecure, moderate","Canada",,,,"Black",,,26.1
 "2023","Food insecure, severe","Canada",,,,"Black",,,11.6
 "2023","Food secure","Canada",,,,"Filipino",,,62.8
 "2023","Food insecure","Canada",,,,"Filipino",,,37.2
 "2023","Food insecure, marginal","Canada",,,,"Filipino",,,13.1
+"2023","Food insecure, moderate or severe","Canada",,,,"Filipino",,,24.1
 "2023","Food insecure, moderate","Canada",,,,"Filipino",,,19.9
 "2023","Food insecure, severe","Canada",,,,"Filipino",,,4.2
 "2023","Food secure","Canada",,,,"Arab",,,68.4
 "2023","Food insecure","Canada",,,,"Arab",,,31.6
 "2023","Food insecure, marginal","Canada",,,,"Arab",,,7
+"2023","Food insecure, moderate or severe","Canada",,,,"Arab",,,24.6
 "2023","Food insecure, moderate","Canada",,,,"Arab",,,16.6
 "2023","Food insecure, severe","Canada",,,,"Arab",,,8
 "2023","Food secure","Canada",,,,"Latin American",,,62.6
 "2023","Food insecure","Canada",,,,"Latin American",,,37.4
 "2023","Food insecure, marginal","Canada",,,,"Latin American",,,7.7
+"2023","Food insecure, moderate or severe","Canada",,,,"Latin American",,,29.7
 "2023","Food insecure, moderate","Canada",,,,"Latin American",,,23.2
 "2023","Food insecure, severe","Canada",,,,"Latin American",,,6.5
 "2023","Food secure","Canada",,,,"Southeast Asian",,,73
 "2023","Food insecure","Canada",,,,"Southeast Asian",,,27
 "2023","Food insecure, marginal","Canada",,,,"Southeast Asian",,,4.9
+"2023","Food insecure, moderate or severe","Canada",,,,"Southeast Asian",,,22.1
 "2023","Food insecure, moderate","Canada",,,,"Southeast Asian",,,16.7
 "2023","Food insecure, severe","Canada",,,,"Southeast Asian",,,5.4
 "2023","Food secure","Canada",,,,"Other visible minority",,,63.8
 "2023","Food insecure","Canada",,,,"Other visible minority",,,36.2
 "2023","Food insecure, marginal","Canada",,,,"Other visible minority",,,10.4
+"2023","Food insecure, moderate or severe","Canada",,,,"Other visible minority",,,25.9
 "2023","Food insecure, moderate","Canada",,,,"Other visible minority",,,16.7
 "2023","Food insecure, severe","Canada",,,,"Other visible minority",,,9.1
 "2023","Food secure","Canada",,,,"Not a visible minority",,,77.6
 "2023","Food insecure","Canada",,,,"Not a visible minority",,,22.4
 "2023","Food insecure, marginal","Canada",,,,"Not a visible minority",,,5.8
+"2023","Food insecure, moderate or severe","Canada",,,,"Not a visible minority",,,16.6
 "2023","Food insecure, moderate","Canada",,,,"Not a visible minority",,,10.1
 "2023","Food insecure, severe","Canada",,,,"Not a visible minority",,,6.4
 "2023","Food secure","Canada",,,,,"Indigenous population",,60.1
 "2023","Food insecure","Canada",,,,,"Indigenous population",,39.9
 "2023","Food insecure, marginal","Canada",,,,,"Indigenous population",,6.2
+"2023","Food insecure, moderate or severe","Canada",,,,,"Indigenous population",,33.7
 "2023","Food insecure, moderate","Canada",,,,,"Indigenous population",,18.1
 "2023","Food insecure, severe","Canada",,,,,"Indigenous population",,15.6
 "2023","Food secure","Canada",,,,,"Non-Indigenous population",,74.9
 "2023","Food insecure","Canada",,,,,"Non-Indigenous population",,25.1
 "2023","Food insecure, marginal","Canada",,,,,"Non-Indigenous population",,6.4
+"2023","Food insecure, moderate or severe","Canada",,,,,"Non-Indigenous population",,18.7
 "2023","Food insecure, moderate","Canada",,,,,"Non-Indigenous population",,12.2
 "2023","Food insecure, severe","Canada",,,,,"Non-Indigenous population",,6.5
 "2023","Food secure","Canada",,,,,"Not a visible minority nor Indigenous",,78.4
 "2023","Food insecure","Canada",,,,,"Not a visible minority nor Indigenous",,21.6
 "2023","Food insecure, marginal","Canada",,,,,"Not a visible minority nor Indigenous",,5.8
+"2023","Food insecure, moderate or severe","Canada",,,,,"Not a visible minority nor Indigenous",,15.8
 "2023","Food insecure, moderate","Canada",,,,,"Not a visible minority nor Indigenous",,9.8
 "2023","Food insecure, severe","Canada",,,,,"Not a visible minority nor Indigenous",,6
 "2023","Food secure","Atlantic provinces","Both sexes","Under 18 years",,,,,61.5
