@@ -214,7 +214,9 @@ food_insecurity <- bind_rows(
     )
   )
 
+data_final <- bind_rows(food_insecurity, df_territories)
+
 # Write the csv file
-write.csv(food_insecurity, "data/indicator_2-1-2.csv",
+write.csv(data_final, "data/indicator_2-1-2.csv",
   na = "", row.names = FALSE, fileEncoding = "UTF-8"
 )
