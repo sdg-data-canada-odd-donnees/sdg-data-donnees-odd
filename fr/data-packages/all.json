@@ -9967,8 +9967,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Insécurité alimentaire",
                 "Sécurité alimentaire",
+                "Insécurité alimentaire",
                 "Insécurité alimentaire marginale",
                 "Insécurité alimentaire modérée",
                 "Insécurité alimentaire grave",
@@ -9983,9 +9983,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
                 "Canada",
                 "Provinces de l'Atlantique",
                 "Terre-Neuve-et-Labrador",
@@ -9999,6 +9996,9 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
