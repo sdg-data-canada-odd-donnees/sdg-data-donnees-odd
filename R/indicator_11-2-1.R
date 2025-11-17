@@ -2,7 +2,6 @@
 # Proportion of population that has convenient access to public transport, by
 # sex, age and persons with disabilities
 
-stop("Temporary skip 11.2.1") # This indicator is currently under review.
 # NOTE: 1.4.1 Access to basic mobility series is also affected.
 
 #load libraries
