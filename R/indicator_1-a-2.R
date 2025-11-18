@@ -9,8 +9,6 @@ library(tidyr)
 raw_data <- get_cansim("10-10-0005-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
 
-head(raw_data)
-table(raw_data$`Canadian Classification of Functions of Government (CCOFOG)`)
 essential_services <- 
   raw_data %>%
   filter(
