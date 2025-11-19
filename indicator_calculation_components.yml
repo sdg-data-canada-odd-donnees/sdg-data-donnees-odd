@@ -499,8 +499,34 @@
   progress_status: deterioration
   score: -2.6288207323433537
 11-2-1:
-  progress_status: ''
-  score: null
+  11-2-1 / 1000 metres from high-capacity... / Canada / Total, location / Total, gender / Total - Age groups of the popul...:
+    base_value: 8.2
+    base_year: 2023.0
+    current_value: 8.4
+    current_year: 2024.0
+    direction: 1
+    limit: null
+    progress_value: 0.05679393189022746
+    score: -2.263356723992989
+    sign: 1
+    status: limited_progress
+    target: 100.0
+    target_year: 2030.0
+  11-2-1 / 500 metres from low-capacity p... / Canada / Total, location / Total, gender / Total - Age groups of the popul...:
+    base_value: 75.3
+    base_year: 2023.0
+    current_value: 74.6
+    current_year: 2024.0
+    direction: 1
+    limit: null
+    progress_value: -0.22476408603076314
+    score: -3.4365245172643806
+    sign: 1
+    status: deterioration
+    target: 100.0
+    target_year: 2030.0
+  progress_status: deterioration
+  score: -2.8499406206286846
 11-3-1:
   progress_status: not_available
   score: null
