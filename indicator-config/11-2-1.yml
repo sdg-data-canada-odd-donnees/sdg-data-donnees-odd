@@ -1,4 +1,4 @@
-auto_progress_calculation: false
+auto_progress_calculation: true
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
@@ -72,7 +72,7 @@ progress_calculation_options:
   - field: Demographic and socio-economic
     value: Total - Age groups of the population - 100% data
 reporting_status: complete
-sort: ''
+sort: '' 
 standalone: false
 tags: 
 - Proxy
