@@ -125,7 +125,9 @@ odin_data <- bind_rows(dfs_clean, data_2024) %>%
   ) %>%
   na.omit() %>%
   mutate(`Data categories` = ifelse(`Data categories` == "All Categories" & Elements == "Overall score", NA, `Data categories`)) %>%
+  mutate(`Data categories` = ifelse(`Data categories` == "All categories" & Elements == "Overall score", NA, `Data categories`)) %>% #pour un classique problème de changment de majuscule a minuscule
   mutate(Elements = ifelse(`Data categories` == "All Categories" & Elements == "Overall score", NA, Elements)) %>%
+  mutate(Elements = ifelse(`Data categories` == "All categories" & Elements == "Overall score", NA, Elements)) %>% #pour un classique problème de changment de majuscule a minuscule
   relocate(Series, .before = "Data categories") %>%
   relocate(Elements, .before = "Data categories") %>%
   mutate(
@@ -137,7 +139,7 @@ odin_data <- bind_rows(dfs_clean, data_2024) %>%
       `Data categories` == "Economic & financial statistics subscore" ~ "Economic and financial statistics subscore",
       `Data categories` == "Crime & justice" ~ "Crime and justice",
       `Data categories` %in% c("Food security & nutritions", "Food security & nutrition") ~ "Food security and nutrition",
-      `Data categories` == "All Categories" ~ "All categories",
+      `Data categories` =="All Categories" ~ "All categories",
       `Data categories` == "Energy" ~ "Energy use",
       TRUE ~ `Data categories`
     )
