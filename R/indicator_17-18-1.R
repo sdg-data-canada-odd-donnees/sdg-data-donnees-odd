@@ -139,7 +139,7 @@ odin_data <- bind_rows(dfs_clean, data_2024) %>%
       `Data categories` == "Economic & financial statistics subscore" ~ "Economic and financial statistics subscore",
       `Data categories` == "Crime & justice" ~ "Crime and justice",
       `Data categories` %in% c("Food security & nutritions", "Food security & nutrition") ~ "Food security and nutrition",
-      `Data categories` =="All Categories" ~ "All categories",
+      `Data categories` == "All Categories" ~ "All categories",
       `Data categories` == "Energy" ~ "Energy use",
       TRUE ~ `Data categories`
     )
