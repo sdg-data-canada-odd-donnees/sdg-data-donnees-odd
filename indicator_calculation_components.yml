@@ -282,18 +282,18 @@
   1-a-2:
     base_value: 62.39
     base_year: 2015.0
-    current_value: 61.89
-    current_year: 2023.0
+    current_value: 60.9
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.0010052931503589102
-    score: -2.6256616437948637
+    progress_value: -0.0026821556210786524
+    score: -2.8352694526348317
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -2.6256616437948637
+  score: -2.8352694526348317
 1-b-1:
   progress_status: ''
   score: null
@@ -537,11 +537,11 @@
   11-4-1:
     base_value: 202.21542
     base_year: 2015.0
-    current_value: 266.44801
-    current_year: 2023.0
+    current_value: 274.12413
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.03508204790916647
+    progress_value: 0.0343831660714653
     score: 5.0
     sign: 1
     status: substantial_progress
