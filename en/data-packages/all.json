@@ -943,7 +943,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "All census metropolitan areas",
+                "Total census metropolitan areas",
                 "St. John's, Newfoundland and Labrador",
                 "Halifax, Nova Scotia",
                 "Moncton, New Brunswick",
@@ -982,6 +982,12 @@
                 "Non-census metropolitan areas",
                 "Belleville, Ontario",
                 "Lethbridge, Alberta",
+                "Fredericton, New Brunswick",
+                "Drummondville, Quebec",
+                "Red Deer, Alberta",
+                "Kamloops, British Columbia",
+                "Chilliwack, British Columbia",
+                "Nanaimo, British Columbia",
                 ""
               ]
             },
@@ -4834,8 +4840,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Trend score",
                 "Current score",
+                "Trend score",
                 ""
               ]
             },

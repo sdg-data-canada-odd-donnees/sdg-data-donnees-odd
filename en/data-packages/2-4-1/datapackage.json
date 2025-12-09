@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Trend score",
                 "Current score",
+                "Trend score",
                 ""
               ]
             },
