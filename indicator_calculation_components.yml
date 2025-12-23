@@ -3728,18 +3728,18 @@
   9-2-1 / MVA as a proportion of GDP:
     base_value: 11.49
     base_year: 2015.0
-    current_value: 10.5
-    current_year: 2023.0
+    current_value: 10.21
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.011199542243277127
-    score: -3.899942780409641
+    progress_value: -0.013037538596960885
+    score: -4.129692324620111
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -3.899942780409641
+  score: -4.129692324620111
 9-2-2:
   9-2-2:
     base_value: 9.49
@@ -3895,18 +3895,18 @@
   9-b-1:
     base_value: 39.68
     base_year: 2015.0
-    current_value: 36.55
-    current_year: 2023.0
+    current_value: 36.69
+    current_year: 2024.0
     direction: 1
     limit: 100
-    progress_value: -0.01021819786322442
-    score: -3.7772747329030527
+    progress_value: -0.008667005744262712
+    score: -3.583375718032839
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -3.7772747329030527
+  score: -3.583375718032839
 9-c-1:
   9-c-1 / 5G:
     base_value: 53.27
