@@ -69,11 +69,19 @@ source_periodicity_3: Annuelle
 source_geographical_coverage_3: Canada, Province ou territoire, Subdivision de recensement, Région métropolitaine de recensement, Agglomération de recensement, Partie de région métropolitaine de recensement
 source_url_3: https://doi.org/10.25318/2310031301-fra
 
+#source_active_4: 'true'
+#source_url_text_4: |
+#    TEIMS 2019: Résultats canadiens de l'étude Tendances de l'enquête internationale sur les mathématiques et les sciences
+#source_url_4: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_FR.pdf
+#source_organisation_4: Conseil des ministres de l’Éducation (Canada)
+#source_periodicity_4: Occasionnelle
+#source_geographical_coverage_4: Canada, Province ou territoire
+
 source_active_4: 'true'
 source_url_text_4: |
-    TEIMS 2019: Résultats canadiens de l'étude Tendances de l'enquête internationale sur les mathématiques et les sciences
-source_url_4: https://cmec.ca/docs/TIMSS/TIMSS2019_Highlights_FR.pdf
-source_organisation_4: Conseil des ministres de l’Éducation (Canada)
+    TIMSS 2023 Résultats internationaux en mathématiques et en sciences
+source_url_4: https://timss2023.org/results/grade-4-math-trends-benchmarks/
+source_organisation_4: Centre d'études internationales TIMSS & PIRLS
 source_periodicity_4: Occasionnelle
 source_geographical_coverage_4: Canada, Province ou territoire
 
@@ -87,11 +95,20 @@ source_geographical_coverage_5: Canada, Province ou territoire
 
 source_active_6: 'true'
 source_url_text_6: |
-    À la hauteur : Résultats canadiens de l'étude PISA 2018 de l'OCDE
-source_url_6: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_FR.pdf
+    À la hauteur : Résultats canadiens de l'étude PISA 2022 de l'OCDE - Le rendement des jeunes de 15 ans du Canada en mathématiques, en lecture et en sciences. Annexe B.
+source_url_6: https://www.cmec.ca/Publications/Lists/Publications/Attachments/438/PISA-2022_Canadian_Report_FR.pdf
 source_organisation_6: Conseil des ministres de l’Éducation (Canada)
 source_periodicity_6: Occasionnelle
 source_geographical_coverage_6: Canada, Province ou territoire
+
+#source_active_6: 'true'
+#source_url_text_6: |
+#    À la hauteur : Résultats canadiens de l'étude PISA 2018 de l'OCDE
+#source_url_6: https://www.cmec.ca/Publications/Lists/Publications/Attachments/396/PISA2018_PublicReport_FR.pdf
+#source_organisation_6: Conseil des ministres de l’Éducation (Canada)
+#source_periodicity_6: Occasionnelle
+#source_geographical_coverage_6: Canada, Province ou territoire
+
 
 source_active_7: 'true'
 source_url_text_7: "Tendances actuelles - Services sans fil mobiles"
@@ -108,3 +125,10 @@ source_organisation_8: Statistique Canada
 source_periodicity_8: Aux 2 ans
 source_geographical_coverage_8: Canada, Région géographique du Canada, Province ou territoire
 
+source_active_9: 'true'
+source_url_text_9: >-
+  Accès à l’électricité (% de la population) - Canada
+source_url_9: https://donnees.banquemondiale.org/indicateur/EG.ELC.ACCS.ZS
+source_organisation_9: Banque Mondiale
+source_periodicity_9: Annuelle
+source_geographical_coverage_9: Canada 
