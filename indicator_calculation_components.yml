@@ -116,55 +116,55 @@
   score: -0.9229165765750275
 1-4-1:
   1-4-1 / Access to basic drinking water services:
-    base_value: 98.82
+    base_value: 98.8
     base_year: 2015.0
-    current_value: 99.04
-    current_year: 2022.0
+    current_value: 98.3
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.4013545340426752
-    score: -0.8276760630043856
+    progress_value: -0.6999479299633053
+    score: -5.0
     sign: 1
-    status: limited_progress
+    status: deterioration
     target: 100.0
     target_year: 2030.0
   1-4-1 / Access to basic education / Total / Proportion of children and young people at the end of lower secondary achie...:
     base_value: 83.7
     base_year: 2018.0
-    current_value: 83.7
-    current_year: 2018.0
+    current_value: 78.4
+    current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: null
-    score: null
+    progress_value: -1.0858672102365028
+    score: -5.0
     sign: 1
-    status: not_available
+    status: deterioration
     target: 100.0
     target_year: 2030.0
   1-4-1 / Access to basic education / Total / Proportion of children in Grade 4 achieving at least a minimum proficiency ...:
     base_value: 92.0
     base_year: 2015.0
-    current_value: 92.0
-    current_year: 2019.0
+    current_value: 90.0
+    current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: 0.0
-    score: -2.5
+    progress_value: -0.49219025355461216
+    score: -4.5508091294860025
     sign: 1
-    status: limited_progress
+    status: deterioration
     target: 100.0
     target_year: 2030.0
   1-4-1 / Access to basic information services / Proportion of population covered by Evolved High-Speed Packet Access (HS...:
     base_value: 99.47
     base_year: 2016.0
-    current_value: 99.57
-    current_year: 2022.0
+    current_value: 99.5
+    current_year: 2023.0
     direction: 1
     limit: 100
-    progress_value: 0.00016748456325199612
-    score: 0.5456262610658811
+    progress_value: 4.307992794561066e-05
+    score: -1.5762677056084748
     sign: 1
-    status: moderate_progress
+    status: limited_progress
     target: null
     target_year: 2030.0
   1-4-1 / Access to basic mobility / Canada / Proportion of population within 500 metres of a public transit stop:
@@ -194,23 +194,23 @@
     target: 100.0
     target_year: 2030.0
   1-4-1 / Access to basic sanitation services:
-    base_value: 82.6
+    base_value: 99.1
     base_year: 2015.0
-    current_value: 83.9
-    current_year: 2022.0
+    current_value: 98.6
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.1741314538877581
-    score: -1.7744464710858785
+    progress_value: -0.9319355589122518
+    score: -5.0
     sign: 1
-    status: limited_progress
+    status: deterioration
     target: 100.0
     target_year: 2030.0
   1-4-1 / Access to clean fuels and technology:
     base_value: 100.0
     base_year: 2015.0
     current_value: 100.0
-    current_year: 2022.0
+    current_year: 2023.0
     direction: 1
     limit: null
     progress_value: null
@@ -219,8 +219,8 @@
     status: target_achieved
     target: 100.0
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 0.0887007453951234
+  progress_status: limited_progress
+  score: -2.2853074830874283
 1-4-2:
   progress_status: ''
   score: null
@@ -3368,7 +3368,7 @@
     base_value: 100.0
     base_year: 2015.0
     current_value: 100.0
-    current_year: 2021.0
+    current_year: 2023.0
     direction: 1
     limit: null
     progress_value: null
