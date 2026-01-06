@@ -4,6 +4,7 @@
 # 5.5.1b is local government
 # 10-10-0137-01
 
+install.packages("cansim")
 library(cansim)
 library(dplyr)
 library(stringr)
@@ -15,9 +16,11 @@ geocodes <- read.csv("geocodes.csv")
 
 repr_in_gov <- get_cansim("10-10-0137-01", factors = FALSE)
 
+
+# we have to add one repeat for Members of Parliement and members of Cabinet each year. (Current year) - 2015 = number of repeat
 reference_dates <- 
   paste0( 
-    c(rep("Members of Parliament on July 1, ", 7), rep("Members of Cabinet on July 1, ", 7)), 
+    c(rep("Members of Parliament on July 1, ", 9), rep("Members of Cabinet on July 1, ", 9)),
     rep(2015:substr(Sys.Date(), 1, 4), 2)
   )
 
