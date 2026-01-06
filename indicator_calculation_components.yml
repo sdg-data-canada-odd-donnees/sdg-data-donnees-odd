@@ -116,55 +116,55 @@
   score: -0.9229165765750275
 1-4-1:
   1-4-1 / Access to basic drinking water services:
-    base_value: 98.82
+    base_value: 98.8
     base_year: 2015.0
-    current_value: 99.04
-    current_year: 2022.0
+    current_value: 98.3
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.4013545340426752
-    score: -0.8276760630043856
+    progress_value: -0.6999479299633053
+    score: -5.0
     sign: 1
-    status: limited_progress
+    status: deterioration
     target: 100.0
     target_year: 2030.0
   1-4-1 / Access to basic education / Total / Proportion of children and young people at the end of lower secondary achie...:
     base_value: 83.7
     base_year: 2018.0
-    current_value: 83.7
-    current_year: 2018.0
+    current_value: 78.4
+    current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: null
-    score: null
+    progress_value: -1.0858672102365028
+    score: -5.0
     sign: 1
-    status: not_available
+    status: deterioration
     target: 100.0
     target_year: 2030.0
   1-4-1 / Access to basic education / Total / Proportion of children in Grade 4 achieving at least a minimum proficiency ...:
     base_value: 92.0
     base_year: 2015.0
-    current_value: 92.0
-    current_year: 2019.0
+    current_value: 90.0
+    current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: 0.0
-    score: -2.5
+    progress_value: -0.49219025355461216
+    score: -4.5508091294860025
     sign: 1
-    status: limited_progress
+    status: deterioration
     target: 100.0
     target_year: 2030.0
   1-4-1 / Access to basic information services / Proportion of population covered by Evolved High-Speed Packet Access (HS...:
     base_value: 99.47
     base_year: 2016.0
-    current_value: 99.57
-    current_year: 2022.0
+    current_value: 99.5
+    current_year: 2023.0
     direction: 1
     limit: 100
-    progress_value: 0.00016748456325199612
-    score: 0.5456262610658811
+    progress_value: 4.307992794561066e-05
+    score: -1.5762677056084748
     sign: 1
-    status: moderate_progress
+    status: limited_progress
     target: null
     target_year: 2030.0
   1-4-1 / Access to basic mobility / Canada / Proportion of population within 500 metres of a public transit stop:
@@ -194,23 +194,23 @@
     target: 100.0
     target_year: 2030.0
   1-4-1 / Access to basic sanitation services:
-    base_value: 82.6
+    base_value: 99.1
     base_year: 2015.0
-    current_value: 83.9
-    current_year: 2022.0
+    current_value: 98.6
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.1741314538877581
-    score: -1.7744464710858785
+    progress_value: -0.9319355589122518
+    score: -5.0
     sign: 1
-    status: limited_progress
+    status: deterioration
     target: 100.0
     target_year: 2030.0
   1-4-1 / Access to clean fuels and technology:
     base_value: 100.0
     base_year: 2015.0
     current_value: 100.0
-    current_year: 2022.0
+    current_year: 2023.0
     direction: 1
     limit: null
     progress_value: null
@@ -219,8 +219,8 @@
     status: target_achieved
     target: 100.0
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 0.0887007453951234
+  progress_status: limited_progress
+  score: -2.2853074830874283
 1-4-2:
   progress_status: ''
   score: null
@@ -282,18 +282,18 @@
   1-a-2:
     base_value: 62.39
     base_year: 2015.0
-    current_value: 61.89
-    current_year: 2023.0
+    current_value: 60.9
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.0010052931503589102
-    score: -2.6256616437948637
+    progress_value: -0.0026821556210786524
+    score: -2.8352694526348317
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -2.6256616437948637
+  score: -2.8352694526348317
 1-b-1:
   progress_status: ''
   score: null
@@ -537,11 +537,11 @@
   11-4-1:
     base_value: 202.21542
     base_year: 2015.0
-    current_value: 266.44801
-    current_year: 2023.0
+    current_value: 274.12413
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.03508204790916647
+    progress_value: 0.0343831660714653
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -1568,11 +1568,11 @@
   17-6-1 / Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps:
     base_value: 84.3
     base_year: 2016.0
-    current_value: 95.8
-    current_year: 2023.0
+    current_value: 96.4
+    current_year: 2024.0
     direction: 1
     limit: 100
-    progress_value: 0.018436581896582815
+    progress_value: 0.01690687249896783
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -1810,18 +1810,18 @@
   3-1-2:
     base_value: 97.8
     base_year: 2015.0
-    current_value: 97.8
-    current_year: 2023.0
+    current_value: 97.5
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.0
-    score: -2.5
+    progress_value: -0.22996280612632006
+    score: -3.4581860242865377
     sign: 1
-    status: limited_progress
+    status: deterioration
     target: 100.0
     target_year: 2030.0
-  progress_status: limited_progress
-  score: -2.5
+  progress_status: deterioration
+  score: -3.4581860242865377
 3-2-1:
   3-2-1:
     base_value: 5.29
@@ -3368,7 +3368,7 @@
     base_value: 100.0
     base_year: 2015.0
     current_value: 100.0
-    current_year: 2021.0
+    current_year: 2023.0
     direction: 1
     limit: null
     progress_value: null
@@ -3399,34 +3399,34 @@
   7-2-1:
     base_value: 81.4444166666667
     base_year: 2015.0
-    current_value: 79.3978333333333
-    current_year: 2024.0
+    current_value: 79.0355555555556
+    current_year: 2025.0
     direction: 1
     limit: 100
-    progress_value: -0.0028237505397008533
-    score: -2.8529688174626067
+    progress_value: -0.0029977938104384094
+    score: -2.874724226304801
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -2.8529688174626067
+  score: -2.874724226304801
 7-3-1:
   7-3-1:
-    base_value: 5.66497784
+    base_value: 5.63975382
     base_year: 2015.0
-    current_value: 4.87764047
-    current_year: 2022.0
+    current_value: 4.74989313
+    current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: 0.4683643369077895
-    score: -0.5484663174063136
+    progress_value: 0.47323709514265627
+    score: -0.5281629956690943
     sign: 1
     status: limited_progress
     target: 2.8325
     target_year: 2030.0
   progress_status: limited_progress
-  score: -0.5484663174063136
+  score: -0.5281629956690943
 7-a-1:
   7-a-1:
     base_value: 0.576365
@@ -3728,18 +3728,18 @@
   9-2-1 / MVA as a proportion of GDP:
     base_value: 11.49
     base_year: 2015.0
-    current_value: 10.5
-    current_year: 2023.0
+    current_value: 10.21
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.011199542243277127
-    score: -3.899942780409641
+    progress_value: -0.013037538596960885
+    score: -4.129692324620111
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -3.899942780409641
+  score: -4.129692324620111
 9-2-2:
   9-2-2:
     base_value: 9.49
@@ -3895,18 +3895,18 @@
   9-b-1:
     base_value: 39.68
     base_year: 2015.0
-    current_value: 36.55
-    current_year: 2023.0
+    current_value: 36.69
+    current_year: 2024.0
     direction: 1
     limit: 100
-    progress_value: -0.01021819786322442
-    score: -3.7772747329030527
+    progress_value: -0.008667005744262712
+    score: -3.583375718032839
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -3.7772747329030527
+  score: -3.583375718032839
 9-c-1:
   9-c-1 / 5G:
     base_value: 53.27
