@@ -12,6 +12,13 @@ Raw_data <-
     `Class of electricity producer` == "Total all classes of electricity producer"
   )
 
+# Check if last year in raw data is complete
+# i.e. all months up to December are available
+if (substr(last(Raw_data$REF_DATE), 6, 7) != "12") {
+  # If last year not complete, filter out last year
+  Raw_data <- filter(Raw_data, REF_DATE < substr(max(REF_DATE), 1, 4))
+}
+
 # load geocode
 geocodes <- read.csv("geocodes.csv")
 
