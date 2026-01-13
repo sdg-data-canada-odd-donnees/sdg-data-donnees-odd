@@ -1794,11 +1794,11 @@
   3-1-1:
     base_value: 7.05
     base_year: 2015.0
-    current_value: 12.19
-    current_year: 2023.0
+    current_value: 12.58
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.428428629067103
+    progress_value: -0.40189193878221646
     score: 5.0
     sign: 1
     status: target_achieved
@@ -1826,11 +1826,11 @@
   3-2-1:
     base_value: 5.29
     base_year: 2015.0
-    current_value: 5.52
-    current_year: 2023.0
+    current_value: 5.19
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.04889791560487692
+    progress_value: 0.01941806400569288
     score: 5.0
     sign: 1
     status: target_achieved
@@ -1842,11 +1842,11 @@
   3-2-2 / Mortality rate per 1,000 live births:
     base_value: 3.5
     base_year: 2015.0
-    current_value: 3.4
-    current_year: 2023.0
+    current_value: 3.3
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.04224793145614793
+    progress_value: 0.07611769910144073
     score: 5.0
     sign: 1
     status: target_achieved
@@ -1936,14 +1936,14 @@
   score: -1.6614292971074682
 3-4-1:
   3-4-1 / Aortic aneurysm and dissection / All ages / Both sexes:
-    base_value: 4.1
+    base_value: 4.2
     base_year: 2015.0
-    current_value: 3.9
-    current_year: 2023.0
+    current_value: 3.8
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.2329810302389052
-    score: -1.5292379413035537
+    progress_value: 0.3906261887487707
+    score: -0.8723778593404974
     sign: 1
     status: limited_progress
     target: 2.73
@@ -1951,90 +1951,90 @@
   3-4-1 / Atherosclerosis / All ages / Both sexes:
     base_value: 1.6
     base_year: 2015.0
-    current_value: 1.2
-    current_year: 2023.0
+    current_value: 1.4
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 1.3345711511936118
-    score: 5.0
+    progress_value: 0.5564514386709147
+    score: -0.18143379048989994
     sign: 1
-    status: substantial_progress
+    status: limited_progress
     target: 1.07
     target_year: 2030.0
   3-4-1 / Cerebrovascular diseases / All ages / Both sexes:
-    base_value: 38.5
+    base_value: 38.7
     base_year: 2015.0
-    current_value: 34.5
-    current_year: 2023.0
+    current_value: 33.2
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.5108220771422812
-    score: -0.37155765117125705
+    progress_value: 0.6255573087706661
+    score: 0.18259330081799074
     sign: 1
-    status: limited_progress
+    status: moderate_progress
     target: 25.67
     target_year: 2030.0
   3-4-1 / Chronic lower respiratory diseases / All ages / Both sexes:
-    base_value: 35.1
+    base_value: 35.2
     base_year: 2015.0
-    current_value: 32.4
-    current_year: 2023.0
+    current_value: 32.0
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.373297621427317
-    score: -0.9445808007987984
+    progress_value: 0.39228154683827776
+    score: -0.8654804787889483
     sign: 1
     status: limited_progress
     target: 23.4
     target_year: 2030.0
   3-4-1 / Diabetes mellitus / All ages / Both sexes:
-    base_value: 20.0
+    base_value: 20.1
     base_year: 2015.0
-    current_value: 18.1
-    current_year: 2023.0
+    current_value: 16.7
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.4646784435012012
-    score: -0.5638243294635452
+    progress_value: 0.7545554908242348
+    score: 1.1040144154084262
     sign: 1
-    status: limited_progress
+    status: moderate_progress
     target: 13.33
     target_year: 2030.0
   3-4-1 / Diseases of heart / All ages / Both sexes:
-    base_value: 143.8
+    base_value: 144.6
     base_year: 2015.0
-    current_value: 144.4
-    current_year: 2023.0
+    current_value: 140.5
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.019522792355431022
-    score: -2.5813456189073745
+    progress_value: 0.11806431706819906
+    score: -2.008061410071935
     sign: 1
-    status: deterioration
+    status: limited_progress
     target: 95.87
     target_year: 2030.0
   3-4-1 / Essential hypertension and hypertensive renal disease / All ages / Both sexes:
     base_value: 4.2
     base_year: 2015.0
-    current_value: 4.8
-    current_year: 2023.0
+    current_value: 4.5
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.631127621940452
-    score: -5.0
+    progress_value: -0.28855038396167854
+    score: -3.702302884853126
     sign: 1
     status: deterioration
     target: 2.8
     target_year: 2030.0
   3-4-1 / Malignant neoplasms / All ages / Both sexes:
-    base_value: 215.0
+    base_value: 215.9
     base_year: 2015.0
-    current_value: 211.1
-    current_year: 2023.0
+    current_value: 207.4
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.08569946279619901
-    score: -2.1429160483670775
+    progress_value: 0.16528235243562142
+    score: -1.8113180221064962
     sign: 1
     status: limited_progress
     target: 143.33
@@ -2042,31 +2042,31 @@
   3-4-1 / Pneumoconioses and chemical effects / All ages / Both sexes:
     base_value: 0.3
     base_year: 2015.0
-    current_value: 0.3
-    current_year: 2023.0
+    current_value: 0.2
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.0
-    score: -2.5
+    progress_value: 1.6518062908771864
+    score: 5.0
     sign: 1
-    status: limited_progress
+    status: target_achieved
     target: 0.2
     target_year: 2030.0
   3-4-1 / Pneumonitis due to solids and liquids / All ages / Both sexes:
-    base_value: 3.5
+    base_value: 3.6
     base_year: 2015.0
     current_value: 5.6
-    current_year: 2023.0
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -2.2610881530600966
+    progress_value: -1.7601060942044706
     score: -5.0
     sign: 1
     status: deterioration
     target: 2.33
     target_year: 2030.0
   progress_status: limited_progress
-  score: -1.5633462390011608
+  score: -0.8154366729424485
 3-4-2:
   3-4-2:
     base_value: 12.3
@@ -2104,20 +2104,20 @@
   score: 1.9786489441860633
 3-6-1:
   3-6-1:
-    base_value: 5.8
+    base_value: 6.0
     base_year: 2015.0
-    current_value: 4.4
-    current_year: 2023.0
+    current_value: 4.5
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.7516267359757476
-    score: 1.0830946124011671
+    progress_value: 0.6649026615723924
+    score: 0.46363322134544127
     sign: 1
     status: moderate_progress
     target: 2.9
     target_year: 2030.0
   progress_status: moderate_progress
-  score: 1.0830946124011671
+  score: 0.46363322134544127
 3-7-1:
   3-7-1:
     base_value: 92.3
@@ -2187,36 +2187,36 @@
   score: null
 3-9-2:
   3-9-2:
-    base_value: 25.48
+    base_value: 25.51
     base_year: 2015.0
-    current_value: 19.21
-    current_year: 2023.0
+    current_value: 22.07
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.03469180612512668
-    score: 5.0
+    progress_value: 0.015965764351540956
+    score: 2.982882175770478
     sign: 1
     status: substantial_progress
     target: null
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 5.0
+  score: 2.982882175770478
 3-9-3:
   3-9-3:
-    base_value: 0.336
+    base_value: 0.311
     base_year: 2015.0
-    current_value: 0.372
-    current_year: 2023.0
+    current_value: 0.315
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.012804116413409838
-    score: -4.10051455167623
+    progress_value: -0.0014209782616025901
+    score: -2.677622282700324
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -4.10051455167623
+  score: -2.677622282700324
 3-a-1:
   3-a-1:
     base_value: 15.5
@@ -3170,18 +3170,18 @@
   5-5-2:
     base_value: 65.2
     base_year: 2015.0
-    current_value: 63.6
-    current_year: 2024.0
+    current_value: 63.2
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: 0.15717454436903724
-    score: -1.8451008259775326
+    progress_value: 0.17734597680104566
+    score: -1.761052518463083
     sign: 1
     status: limited_progress
     target: 50.0
     target_year: 2030.0
   progress_status: limited_progress
-  score: -1.8451008259775326
+  score: -1.761052518463083
 5-6-1:
   progress_status: ''
   score: null
@@ -3510,11 +3510,11 @@
   8-5-1:
     base_value: 25.87
     base_year: 2015.0
-    current_value: 35.2
-    current_year: 2024.0
+    current_value: 36.4
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 0.034810180692851134
+    progress_value: 0.03473823102507256
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -3526,18 +3526,18 @@
   8-5-2:
     base_value: 7.0
     base_year: 2015.0
-    current_value: 6.3
-    current_year: 2024.0
+    current_value: 6.8
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: 0.09565984970794338
-    score: -2.1014141042219125
+    progress_value: 0.023791177041130648
+    score: -2.400869302622721
     sign: 1
     status: limited_progress
     target: 1.0
     target_year: 2030.0
   progress_status: limited_progress
-  score: -2.1014141042219125
+  score: -2.400869302622721
 8-6-1:
   8-6-1:
     base_value: 11.0
