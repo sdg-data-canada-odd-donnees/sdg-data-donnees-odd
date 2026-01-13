@@ -4,39 +4,39 @@ Year,Geography,GeoCode,Value
 2015,Prince Edward Island,11,3.03
 2015,Nova Scotia,12,4.46
 2015,New Brunswick,13,4.82
-2015,Quebec,24,5.62
+2015,Quebec,24,5.64
 2015,Ontario,35,5.01
 2015,Manitoba,46,7.47
 2015,Saskatchewan,47,6.58
-2015,Alberta,48,5.55
+2015,Alberta,48,5.57
 2015,British Columbia,59,3.97
 2015,Yukon,60,9.62
 2015,Northwest Territories,61,5.26
 2015,Nunavut,62,27.46
-2016,,,5.28
+2016,,,5.31
 2016,Newfoundland and Labrador,10,4.69
 2016,Prince Edward Island,11,7.27
-2016,Nova Scotia,12,5.69
+2016,Nova Scotia,12,5.58
 2016,New Brunswick,13,5.69
-2016,Quebec,24,5.0
-2016,Ontario,35,5.29
+2016,Quebec,24,5.08
+2016,Ontario,35,5.3
 2016,Manitoba,46,6.61
-2016,Saskatchewan,47,7.12
+2016,Saskatchewan,47,7.38
 2016,Alberta,48,5.26
 2016,British Columbia,59,4.1
 2016,Yukon,60,7.19
 2016,Northwest Territories,61,6.94
 2016,Nunavut,62,39.47
-2017,,,5.24
+2017,,,5.25
 2017,Newfoundland and Labrador,10,4.87
 2017,Prince Edward Island,11,3.05
 2017,Nova Scotia,12,4.42
 2017,New Brunswick,13,3.36
 2017,Quebec,24,4.68
-2017,Ontario,35,5.34
+2017,Ontario,35,5.33
 2017,Manitoba,46,8.23
-2017,Saskatchewan,47,7.37
-2017,Alberta,48,5.77
+2017,Saskatchewan,47,7.43
+2017,Alberta,48,5.82
 2017,British Columbia,59,3.73
 2017,Yukon,60,4.62
 2017,Northwest Territories,61,4.18
@@ -47,20 +47,20 @@ Year,Geography,GeoCode,Value
 2018,Nova Scotia,12,4.23
 2018,New Brunswick,13,3.91
 2018,Quebec,24,4.89
-2018,Ontario,35,5.26
+2018,Ontario,35,5.24
 2018,Manitoba,46,7.92
 2018,Saskatchewan,47,6.82
-2018,Alberta,48,6.3
-2018,British Columbia,59,4.64
+2018,Alberta,48,6.32
+2018,British Columbia,59,4.62
 2018,Yukon,60,10.42
 2018,Northwest Territories,61,8.12
 2018,Nunavut,62,70.39
-2019,,,5.12
+2019,,,5.13
 2019,Newfoundland and Labrador,10,5.57
 2019,Prince Edward Island,11,3.84
-2019,Nova Scotia,12,6.0
+2019,Nova Scotia,12,6.24
 2019,New Brunswick,13,5.06
-2019,Quebec,24,4.84
+2019,Quebec,24,4.82
 2019,Ontario,35,5.11
 2019,Manitoba,46,6.69
 2019,Saskatchewan,47,7.16
@@ -69,7 +69,7 @@ Year,Geography,GeoCode,Value
 2019,Yukon,60,2.38
 2019,Northwest Territories,61,1.57
 2019,Nunavut,62,46.39
-2020,,,5.24
+2020,,,5.25
 2020,Newfoundland and Labrador,10,5.79
 2020,Prince Edward Island,11,6.19
 2020,Nova Scotia,12,4.82
@@ -77,51 +77,65 @@ Year,Geography,GeoCode,Value
 2020,Quebec,24,4.88
 2020,Ontario,35,4.83
 2020,Manitoba,46,7.8
-2020,Saskatchewan,47,8.61
-2020,Alberta,48,5.8
+2020,Saskatchewan,47,8.68
+2020,Alberta,48,5.82
 2020,British Columbia,59,4.2
 2020,Yukon,60,2.53
 2020,Northwest Territories,61,7.45
 2020,Nunavut,62,29.82
-2021,,,4.99
+2021,,,5.0
 2021,Newfoundland and Labrador,10,5.14
 2021,Prince Edward Island,11,4.14
 2021,Nova Scotia,12,4.59
 2021,New Brunswick,13,4.96
-2021,Quebec,24,4.94
-2021,Ontario,35,4.81
-2021,Manitoba,46,6.75
-2021,Saskatchewan,47,6.52
+2021,Quebec,24,4.93
+2021,Ontario,35,4.82
+2021,Manitoba,46,6.81
+2021,Saskatchewan,47,6.59
 2021,Alberta,48,5.37
 2021,British Columbia,59,3.9
-2021,Yukon,60,2.29
+2021,Yukon,60,4.58
 2021,Northwest Territories,61,4.68
 2021,Nunavut,62,29.91
-2022,,,5.61
+2022,,,5.62
 2022,Newfoundland and Labrador,10,5.61
 2022,Prince Edward Island,11,3.05
 2022,Nova Scotia,12,5.03
 2022,New Brunswick,13,6.79
-2022,Quebec,24,5.23
+2022,Quebec,24,5.25
 2022,Ontario,35,5.25
 2022,Manitoba,46,8.75
 2022,Saskatchewan,47,6.96
-2022,Alberta,48,6.27
+2022,Alberta,48,6.29
 2022,British Columbia,59,4.67
 2022,Yukon,60,9.01
 2022,Northwest Territories,61,10.2
 2022,Nunavut,62,48.43
-2023,,,5.52
-2023,Newfoundland and Labrador,10,7.17
-2023,Prince Edward Island,11,6.09
-2023,Nova Scotia,12,4.82
+2023,,,5.6
+2023,Newfoundland and Labrador,10,7.48
+2023,Prince Edward Island,11,7.61
+2023,Nova Scotia,12,5.89
 2023,New Brunswick,13,4.97
-2023,Quebec,24,5.35
-2023,Ontario,35,5.01
-2023,Manitoba,46,8.73
-2023,Saskatchewan,47,7.35
-2023,Alberta,48,6.17
-2023,British Columbia,59,4.57
+2023,Quebec,24,5.38
+2023,Ontario,35,5.08
+2023,Manitoba,46,8.8
+2023,Saskatchewan,47,7.65
+2023,Alberta,48,6.15
+2023,British Columbia,59,4.54
 2023,Yukon,60,5.26
-2023,Northwest Territories,61,6.17
-2023,Nunavut,62,61.05
+2023,Northwest Territories,61,8.23
+2023,Nunavut,62,63.95
+2024,,,5.19
+2024,Newfoundland and Labrador,10,3.25
+2024,Prince Edward Island,11,2.98
+2024,Nova Scotia,12,3.53
+2024,New Brunswick,13,7.23
+2024,Quebec,24,5.56
+2024,Ontario,35,4.72
+2024,Manitoba,46,8.71
+2024,Saskatchewan,47,7.73
+2024,Alberta,48,5.13
+2024,British Columbia,59,3.89
+2024,Yukon,60,6.91
+2024,Northwest Territories,61,13.08
+2024,Nunavut,62,51.52
