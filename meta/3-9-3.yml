@@ -9,7 +9,7 @@ SDG_INDICATOR: '<p>Indicator 3.9.3: Mortality rate attributed to unintentional p
 STAT_CONC_DEF: |
     This indicator measures the mortality rate attributed to unintentional poisoning. Unintentional poisoning is measured as defined by the International classification of Diseases, Tenth Revision (ICD-10) codes corresponding to the indicator includes X40, X43, X46-X48, X49.
 DATA_COMP: 'Mortality rate per 100,000 population = (Number of deaths / population) x 100,000'
-REC_USE_LIM: '   '
+REC_USE_LIM: '<p>Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. As a result, there may have been fewer deaths captured by the time of the release. The last year''s data are considered preliminary.<p>'
 PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL

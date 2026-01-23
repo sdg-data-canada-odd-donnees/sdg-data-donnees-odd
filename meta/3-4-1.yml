@@ -11,6 +11,9 @@ DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   This is a proxy indicator. Due to data limitations, this indicator measures the mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease per 100,000 persons rather than the probability of dying between the ages of 30 and 70 years from cardiovascular diseases, cancer, diabetes
   or chronic respiratory diseases as specified in the metadata.
+  <br><br>
+  Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. As a result, there may have been fewer deaths captured by the time of the release. The last year's data are considered preliminary.
+PROGRESS_DETAILS: custom.progress-details
 PROGRESS_DETAILS: |-
   The progress status for this indicator is obtained from the average of the progress scores for each cause of death for which data is available.
 
