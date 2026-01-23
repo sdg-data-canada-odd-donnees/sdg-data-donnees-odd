@@ -10,8 +10,8 @@ STAT_CONC_DEF: <p>Cet indicateur mesure le taux de mortalité des enfants de moi
 DATA_COMP: |
   Taux de mortalité des enfants de moins de 5 ans = (Nombre de décès d'enfants de moins de 5 ans / Nombre de naissances vivantes) x 1 000
 REC_USE_LIM: |
-  Cet indicateur mesure le taux de mortalité des enfants âgés de moins de 5 ans plutôt que la probabilité de décès dérivée d'une table de mortalité et exprimée en taux pour 1 000 naissances vivantes.
-  <br><br> Les données pour les quatre dernières années de références sont considérées préliminaires. Les données de 2017 à 2022 ne sont pas disponibles pour le Yukon.
+  Cet indicateur  mesure le taux de mortalité des enfants âgés de moins de 5 ans plutôt que la probabilité de décès dérivée d'une table de mortalité et exprimée en taux pour 1 000 naissances vivantes.
+  <br><br> Suite à des améliorations apportées à la méthodologie et au temps de réponse, la durée de la collecte de données a été réduite comparativement aux années précédentes. En conséquence, le nombre de décès saisi au moment de la publication peut être plus faible. Les données de la dernière année sont pour cette raison considérées préliminaires.
 PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'

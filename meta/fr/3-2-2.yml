@@ -11,14 +11,7 @@ STAT_CONC_DEF: <p> Le taux de mortalité néonatale est la probabilité qu'un en
   exprimés pour 1 000 naissances vivantes. </p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
-  Chaque année, au cours de la production des statistiques sur les naissances/décès/mortinaissances, les données des années précédentes pourraient être révisées en fonction des mises à jour ou changements qui ont été reçus des bureaux de l'état civil provinciaux et territoriaux. 
-  <br>
-  <br>Suite à des améliorations apportées à la méthodologie et au temps de réponse, la durée de la collecte de données a été réduite comparativement aux années précédentes. 
-  En conséquence, le nombre de décès saisi peut être plus faible au moment de la publication. 
-  <br>
-  <br>Les données de 2023 sont considérées préliminaires. 
-  <br>
-  <br>En raison des retards dans l’enregistrement des décès, moins de décès ont été enregistrés en Nouvelle-Écosse en 2023.
+  Suite à des améliorations apportées à la méthodologie et au temps de réponse, la durée de la collecte de données a été réduite comparativement aux années précédentes. En conséquence, le nombre de décès saisi au moment de la publication peut être plus faible. Les données de la dernière année sont pour cette raison considérées préliminaires.
 PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
