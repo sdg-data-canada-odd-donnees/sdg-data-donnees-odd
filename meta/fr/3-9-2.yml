@@ -10,7 +10,7 @@ SDG_INDICATOR: '<p>Indicateur 3.9.2 : Taux de mortalité attribuable à l’insa
 STAT_CONC_DEF: |
     Décès attribuables à des services inadéquats d'eau, de système sanitaire et d'hygiène (en particulier les services WASH), exprimés par 100 000 habitants. Les maladies incluses sont les diarrhées (codes de la CIM-10 A00, A01, A03, A04, A06-A09), les infections intestinales à nématodes (codes de la CIM-10 B76-B77, B79) et la malnutrition protéino-énergétique (codes de la CIM-10 E40-E46) attribuables à des lacunes au niveau des services WASH.
 DATA_COMP: 'Taux de mortalité pour 100 000 personnes = (Nombre de décès / population) x 100 000'
-REC_USE_LIM: '   '
+REC_USE_LIM: '<p>Suite à des améliorations apportées à la méthodologie et au temps de réponse, la durée de la collecte de données a été réduite comparativement aux années précédentes. En conséquence, le nombre de décès saisi au moment de la publication peut être plus faible. Les données de la dernière année sont pour cette raison considérées préliminaires.<p>'
 PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL

@@ -9,7 +9,7 @@ SDG_INDICATOR: '<p>Indicateur 3.9.3 : Taux de mortalité attribuable à un empoi
 STAT_CONC_DEF: |
     Cet indicateur mesure le taux de mortalité attribué à un empoisonnement accidentel. Les empoisonnements accidentels comprennent les codes X40, X43, X46-X48, X49 de la dixième révision de la Classification internationale des maladies (CIM-10).
 DATA_COMP: Taux de mortalité pour 100 000 personnes = (Nombre de décès / population) x 100 000
-REC_USE_LIM: '   '
+REC_USE_LIM: '<p>Suite à des améliorations apportées à la méthodologie et au temps de réponse, la durée de la collecte de données a été réduite comparativement aux années précédentes. En conséquence, le nombre de décès saisi au moment de la publication peut être plus faible. Les données de la dernière année sont pour cette raison considérées préliminaires.<p>'
 PROGRESS_DETAILS: custom.progress-details
 
 # GLOBAL

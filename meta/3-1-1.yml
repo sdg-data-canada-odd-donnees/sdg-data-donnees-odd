@@ -10,7 +10,7 @@ STAT_CONC_DEF: |-
   essentially captures the risk of death in a single pregnancy or a single live birth.
 DATA_COMP: |-
   Maternal mortality ratio = (Number of maternal deaths / Number of live births) × 100,000
-REC_USE_LIM: '   '
+REC_USE_LIM: Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. As a result, there may have been fewer deaths captured by the time of the release. The last year's data are considered preliminary.
 PROGRESS_DETAILS: custom.progress-details
 
 # Global

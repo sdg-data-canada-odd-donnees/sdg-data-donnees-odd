@@ -9,7 +9,7 @@ STAT_CONC_DEF: |-
   Le ratio de mortalité maternelle (RMM) est défini comme le nombre de décès maternels au cours d'une période donnée pour 100 000 naissances vivantes au cours de la même période. Il décrit le risque de décès maternel par rapport au nombre de naissances vivantes et saisit essentiellement le risque de décès au cours d'une seule grossesse ou d'une seule naissance vivante.
 DATA_COMP: |-
   Le ratio de mortalité maternelle = (Nombre de décès maternels / Nombre de naissances vivantes) × 100 000
-REC_USE_LIM: "   "
+REC_USE_LIM: Suite à des améliorations apportées à la méthodologie et au temps de réponse, la durée de la collecte de données a été réduite comparativement aux années précédentes. En conséquence, le nombre de décès saisi au moment de la publication peut être plus faible. Les données de la dernière année sont pour cette raison considérées préliminaires.
 PROGRESS_DETAILS: custom.progress-details
 
 # Global
