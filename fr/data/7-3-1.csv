@@ -1,10 +1,981 @@
-Year,Value
-2015,5.63975382
-2016,5.45734426
-2017,5.43664024
-2018,5.42246828
-2019,5.33540517
-2020,5.09594871
-2021,4.9337228
-2022,4.8676288
-2023,4.74989313
+Year,Géographie,Caractéristiques de disponibilité et écoulement,Value
+2015,Canada,Consommation énergétique finale,3.98
+2015,Canada,Total industriel,1.31
+2015,Canada,Total transport,1.29
+2015,Canada,"Agriculture, pêche, chasse et piégage",0.14
+2015,Canada,Résidentiel,0.67
+2015,Canada,Administrations publiques,0.06
+2015,Canada,Commerces et autres institutions,0.51
+2015,Terre-Neuve-et-Labrador,Consommation énergétique finale,3.85
+2015,Terre-Neuve-et-Labrador,Total industriel,0.9
+2015,Terre-Neuve-et-Labrador,Total transport,1.6
+2015,Terre-Neuve-et-Labrador,"Agriculture, pêche, chasse et piégage",0.01
+2015,Terre-Neuve-et-Labrador,Résidentiel,0.6
+2015,Terre-Neuve-et-Labrador,Administrations publiques,0.15
+2015,Terre-Neuve-et-Labrador,Commerces et autres institutions,0.58
+2015,Île-du-Prince-Édouard,Consommation énergétique finale,3.63
+2015,Île-du-Prince-Édouard,Total industriel,0.41
+2015,Île-du-Prince-Édouard,Total transport,1.71
+2015,Île-du-Prince-Édouard,"Agriculture, pêche, chasse et piégage",0.34
+2015,Île-du-Prince-Édouard,Résidentiel,0.58
+2015,Île-du-Prince-Édouard,Administrations publiques,0.07
+2015,Île-du-Prince-Édouard,Commerces et autres institutions,0.52
+2015,Nouvelle-Écosse,Consommation énergétique finale,3.54
+2015,Nouvelle-Écosse,Total industriel,0.42
+2015,Nouvelle-Écosse,Total transport,1.63
+2015,Nouvelle-Écosse,"Agriculture, pêche, chasse et piégage",0.04
+2015,Nouvelle-Écosse,Résidentiel,0.8
+2015,Nouvelle-Écosse,Administrations publiques,0.17
+2015,Nouvelle-Écosse,Commerces et autres institutions,0.47
+2015,Nouveau-Brunswick,Consommation énergétique finale,4.16
+2015,Nouveau-Brunswick,Total industriel,1.09
+2015,Nouveau-Brunswick,Total transport,1.57
+2015,Nouveau-Brunswick,"Agriculture, pêche, chasse et piégage",0.05
+2015,Nouveau-Brunswick,Résidentiel,0.86
+2015,Nouveau-Brunswick,Administrations publiques,0.13
+2015,Nouveau-Brunswick,Commerces et autres institutions,0.45
+2015,Québec,Consommation énergétique finale,3.96
+2015,Québec,Total industriel,1.29
+2015,Québec,Total transport,1.25
+2015,Québec,"Agriculture, pêche, chasse et piégage",0.08
+2015,Québec,Résidentiel,0.72
+2015,Québec,Administrations publiques,0.1
+2015,Québec,Commerces et autres institutions,0.52
+2015,Ontario,Consommation énergétique finale,3.19
+2015,Ontario,Total industriel,0.74
+2015,Ontario,Total transport,1.11
+2015,Ontario,"Agriculture, pêche, chasse et piégage",0.08
+2015,Ontario,Résidentiel,0.71
+2015,Ontario,Administrations publiques,0.03
+2015,Ontario,Commerces et autres institutions,0.53
+2015,Manitoba,Consommation énergétique finale,4.04
+2015,Manitoba,Total industriel,0.85
+2015,Manitoba,Total transport,1.34
+2015,Manitoba,"Agriculture, pêche, chasse et piégage",0.35
+2015,Manitoba,Résidentiel,0.73
+2015,Manitoba,Administrations publiques,0.07
+2015,Manitoba,Commerces et autres institutions,0.69
+2015,Saskatchewan,Consommation énergétique finale,6.3
+2015,Saskatchewan,Total industriel,1.8
+2015,Saskatchewan,Total transport,2.28
+2015,Saskatchewan,"Agriculture, pêche, chasse et piégage",0.96
+2015,Saskatchewan,Résidentiel,0.62
+2015,Saskatchewan,Administrations publiques,0.12
+2015,Saskatchewan,Commerces et autres institutions,0.53
+2015,Alberta,Consommation énergétique finale,6.05
+2015,Alberta,Total industriel,3.28
+2015,Alberta,Total transport,1.42
+2015,Alberta,"Agriculture, pêche, chasse et piégage",0.2
+2015,Alberta,Résidentiel,0.61
+2015,Alberta,Administrations publiques,0.05
+2015,Alberta,Commerces et autres institutions,0.51
+2015,Colombie-Britannique,Consommation énergétique finale,3.18
+2015,Colombie-Britannique,Total industriel,0.82
+2015,Colombie-Britannique,Total transport,1.31
+2015,Colombie-Britannique,"Agriculture, pêche, chasse et piégage",0.1
+2015,Colombie-Britannique,Résidentiel,0.53
+2015,Colombie-Britannique,Administrations publiques,0.04
+2015,Colombie-Britannique,Commerces et autres institutions,0.39
+2015,Yukon,Consommation énergétique finale,3.04
+2015,Yukon,Total industriel,0.6
+2015,Yukon,Total transport,1.69
+2015,Yukon,"Agriculture, pêche, chasse et piégage",0.0
+2015,Yukon,Résidentiel,0.25
+2015,Yukon,Administrations publiques,0.07
+2015,Yukon,Commerces et autres institutions,0.43
+2015,Territoires du Nord-Ouest,Consommation énergétique finale,4.1
+2015,Territoires du Nord-Ouest,Total industriel,0.72
+2015,Territoires du Nord-Ouest,Total transport,1.92
+2015,Territoires du Nord-Ouest,"Agriculture, pêche, chasse et piégage",0.0
+2015,Territoires du Nord-Ouest,Résidentiel,0.39
+2015,Territoires du Nord-Ouest,Administrations publiques,0.07
+2015,Territoires du Nord-Ouest,Commerces et autres institutions,1.0
+2015,Nunavut,Consommation énergétique finale,3.28
+2015,Nunavut,Total industriel,0.6
+2015,Nunavut,Total transport,1.67
+2015,Nunavut,"Agriculture, pêche, chasse et piégage",0.05
+2015,Nunavut,Résidentiel,0.42
+2015,Nunavut,Administrations publiques,0.17
+2015,Nunavut,Commerces et autres institutions,0.37
+2016,Canada,Consommation énergétique finale,3.92
+2016,Canada,Total industriel,1.28
+2016,Canada,Total transport,1.27
+2016,Canada,"Agriculture, pêche, chasse et piégage",0.14
+2016,Canada,Résidentiel,0.63
+2016,Canada,Administrations publiques,0.06
+2016,Canada,Commerces et autres institutions,0.54
+2016,Terre-Neuve-et-Labrador,Consommation énergétique finale,3.8
+2016,Terre-Neuve-et-Labrador,Total industriel,0.83
+2016,Terre-Neuve-et-Labrador,Total transport,1.6
+2016,Terre-Neuve-et-Labrador,"Agriculture, pêche, chasse et piégage",0.01
+2016,Terre-Neuve-et-Labrador,Résidentiel,0.6
+2016,Terre-Neuve-et-Labrador,Administrations publiques,0.13
+2016,Terre-Neuve-et-Labrador,Commerces et autres institutions,0.62
+2016,Île-du-Prince-Édouard,Consommation énergétique finale,3.64
+2016,Île-du-Prince-Édouard,Total industriel,0.39
+2016,Île-du-Prince-Édouard,Total transport,1.8
+2016,Île-du-Prince-Édouard,"Agriculture, pêche, chasse et piégage",0.35
+2016,Île-du-Prince-Édouard,Résidentiel,0.57
+2016,Île-du-Prince-Édouard,Administrations publiques,0.08
+2016,Île-du-Prince-Édouard,Commerces et autres institutions,0.45
+2016,Nouvelle-Écosse,Consommation énergétique finale,3.38
+2016,Nouvelle-Écosse,Total industriel,0.41
+2016,Nouvelle-Écosse,Total transport,1.59
+2016,Nouvelle-Écosse,"Agriculture, pêche, chasse et piégage",0.04
+2016,Nouvelle-Écosse,Résidentiel,0.72
+2016,Nouvelle-Écosse,Administrations publiques,0.18
+2016,Nouvelle-Écosse,Commerces et autres institutions,0.45
+2016,Nouveau-Brunswick,Consommation énergétique finale,4.18
+2016,Nouveau-Brunswick,Total industriel,1.03
+2016,Nouveau-Brunswick,Total transport,1.73
+2016,Nouveau-Brunswick,"Agriculture, pêche, chasse et piégage",0.06
+2016,Nouveau-Brunswick,Résidentiel,0.81
+2016,Nouveau-Brunswick,Administrations publiques,0.12
+2016,Nouveau-Brunswick,Commerces et autres institutions,0.43
+2016,Québec,Consommation énergétique finale,3.88
+2016,Québec,Total industriel,1.25
+2016,Québec,Total transport,1.26
+2016,Québec,"Agriculture, pêche, chasse et piégage",0.08
+2016,Québec,Résidentiel,0.69
+2016,Québec,Administrations publiques,0.09
+2016,Québec,Commerces et autres institutions,0.5
+2016,Ontario,Consommation énergétique finale,3.13
+2016,Ontario,Total industriel,0.75
+2016,Ontario,Total transport,1.07
+2016,Ontario,"Agriculture, pêche, chasse et piégage",0.08
+2016,Ontario,Résidentiel,0.62
+2016,Ontario,Administrations publiques,0.03
+2016,Ontario,Commerces et autres institutions,0.58
+2016,Manitoba,Consommation énergétique finale,4.09
+2016,Manitoba,Total industriel,0.91
+2016,Manitoba,Total transport,1.35
+2016,Manitoba,"Agriculture, pêche, chasse et piégage",0.34
+2016,Manitoba,Résidentiel,0.72
+2016,Manitoba,Administrations publiques,0.08
+2016,Manitoba,Commerces et autres institutions,0.69
+2016,Saskatchewan,Consommation énergétique finale,6.21
+2016,Saskatchewan,Total industriel,1.93
+2016,Saskatchewan,Total transport,2.02
+2016,Saskatchewan,"Agriculture, pêche, chasse et piégage",0.94
+2016,Saskatchewan,Résidentiel,0.6
+2016,Saskatchewan,Administrations publiques,0.13
+2016,Saskatchewan,Commerces et autres institutions,0.59
+2016,Alberta,Consommation énergétique finale,6.03
+2016,Alberta,Total industriel,3.13
+2016,Alberta,Total transport,1.41
+2016,Alberta,"Agriculture, pêche, chasse et piégage",0.2
+2016,Alberta,Résidentiel,0.63
+2016,Alberta,Administrations publiques,0.06
+2016,Alberta,Commerces et autres institutions,0.58
+2016,Colombie-Britannique,Consommation énergétique finale,3.29
+2016,Colombie-Britannique,Total industriel,0.9
+2016,Colombie-Britannique,Total transport,1.31
+2016,Colombie-Britannique,"Agriculture, pêche, chasse et piégage",0.11
+2016,Colombie-Britannique,Résidentiel,0.52
+2016,Colombie-Britannique,Administrations publiques,0.03
+2016,Colombie-Britannique,Commerces et autres institutions,0.4
+2016,Yukon,Consommation énergétique finale,2.83
+2016,Yukon,Total industriel,0.56
+2016,Yukon,Total transport,1.61
+2016,Yukon,"Agriculture, pêche, chasse et piégage",0.0
+2016,Yukon,Résidentiel,0.24
+2016,Yukon,Administrations publiques,0.05
+2016,Yukon,Commerces et autres institutions,0.37
+2016,Territoires du Nord-Ouest,Consommation énergétique finale,3.34
+2016,Territoires du Nord-Ouest,Total industriel,0.58
+2016,Territoires du Nord-Ouest,Total transport,1.98
+2016,Territoires du Nord-Ouest,"Agriculture, pêche, chasse et piégage",0.0
+2016,Territoires du Nord-Ouest,Résidentiel,0.3
+2016,Territoires du Nord-Ouest,Administrations publiques,0.16
+2016,Territoires du Nord-Ouest,Commerces et autres institutions,0.31
+2016,Nunavut,Consommation énergétique finale,2.86
+2016,Nunavut,Total industriel,0.81
+2016,Nunavut,Total transport,1.04
+2016,Nunavut,"Agriculture, pêche, chasse et piégage",0.07
+2016,Nunavut,Résidentiel,0.38
+2016,Nunavut,Administrations publiques,0.18
+2016,Nunavut,Commerces et autres institutions,0.37
+2017,Canada,Consommation énergétique finale,3.95
+2017,Canada,Total industriel,1.31
+2017,Canada,Total transport,1.26
+2017,Canada,"Agriculture, pêche, chasse et piégage",0.14
+2017,Canada,Résidentiel,0.62
+2017,Canada,Administrations publiques,0.06
+2017,Canada,Commerces et autres institutions,0.57
+2017,Terre-Neuve-et-Labrador,Consommation énergétique finale,3.72
+2017,Terre-Neuve-et-Labrador,Total industriel,0.82
+2017,Terre-Neuve-et-Labrador,Total transport,1.6
+2017,Terre-Neuve-et-Labrador,"Agriculture, pêche, chasse et piégage",0.01
+2017,Terre-Neuve-et-Labrador,Résidentiel,0.63
+2017,Terre-Neuve-et-Labrador,Administrations publiques,0.12
+2017,Terre-Neuve-et-Labrador,Commerces et autres institutions,0.54
+2017,Île-du-Prince-Édouard,Consommation énergétique finale,3.5
+2017,Île-du-Prince-Édouard,Total industriel,0.4
+2017,Île-du-Prince-Édouard,Total transport,1.7
+2017,Île-du-Prince-Édouard,"Agriculture, pêche, chasse et piégage",0.34
+2017,Île-du-Prince-Édouard,Résidentiel,0.55
+2017,Île-du-Prince-Édouard,Administrations publiques,0.07
+2017,Île-du-Prince-Édouard,Commerces et autres institutions,0.45
+2017,Nouvelle-Écosse,Consommation énergétique finale,3.47
+2017,Nouvelle-Écosse,Total industriel,0.44
+2017,Nouvelle-Écosse,Total transport,1.61
+2017,Nouvelle-Écosse,"Agriculture, pêche, chasse et piégage",0.05
+2017,Nouvelle-Écosse,Résidentiel,0.73
+2017,Nouvelle-Écosse,Administrations publiques,0.18
+2017,Nouvelle-Écosse,Commerces et autres institutions,0.46
+2017,Nouveau-Brunswick,Consommation énergétique finale,3.95
+2017,Nouveau-Brunswick,Total industriel,1.12
+2017,Nouveau-Brunswick,Total transport,1.5
+2017,Nouveau-Brunswick,"Agriculture, pêche, chasse et piégage",0.05
+2017,Nouveau-Brunswick,Résidentiel,0.78
+2017,Nouveau-Brunswick,Administrations publiques,0.1
+2017,Nouveau-Brunswick,Commerces et autres institutions,0.39
+2017,Québec,Consommation énergétique finale,
+2017,Québec,Total industriel,1.22
+2017,Québec,Total transport,1.25
+2017,Québec,"Agriculture, pêche, chasse et piégage",0.08
+2017,Québec,Résidentiel,0.67
+2017,Québec,Administrations publiques,0.09
+2017,Québec,Commerces et autres institutions,0.52
+2017,Ontario,Consommation énergétique finale,3.09
+2017,Ontario,Total industriel,0.73
+2017,Ontario,Total transport,1.05
+2017,Ontario,"Agriculture, pêche, chasse et piégage",0.07
+2017,Ontario,Résidentiel,0.6
+2017,Ontario,Administrations publiques,0.03
+2017,Ontario,Commerces et autres institutions,0.6
+2017,Manitoba,Consommation énergétique finale,4.04
+2017,Manitoba,Total industriel,0.86
+2017,Manitoba,Total transport,1.33
+2017,Manitoba,"Agriculture, pêche, chasse et piégage",0.35
+2017,Manitoba,Résidentiel,0.72
+2017,Manitoba,Administrations publiques,0.08
+2017,Manitoba,Commerces et autres institutions,0.69
+2017,Saskatchewan,Consommation énergétique finale,6.51
+2017,Saskatchewan,Total industriel,2.14
+2017,Saskatchewan,Total transport,2.06
+2017,Saskatchewan,"Agriculture, pêche, chasse et piégage",0.93
+2017,Saskatchewan,Résidentiel,0.62
+2017,Saskatchewan,Administrations publiques,0.14
+2017,Saskatchewan,Commerces et autres institutions,0.62
+2017,Alberta,Consommation énergétique finale,6.28
+2017,Alberta,Total industriel,3.33
+2017,Alberta,Total transport,1.4
+2017,Alberta,"Agriculture, pêche, chasse et piégage",0.21
+2017,Alberta,Résidentiel,0.62
+2017,Alberta,Administrations publiques,0.06
+2017,Alberta,Commerces et autres institutions,0.66
+2017,Colombie-Britannique,Consommation énergétique finale,
+2017,Colombie-Britannique,Total industriel,0.9
+2017,Colombie-Britannique,Total transport,1.31
+2017,Colombie-Britannique,"Agriculture, pêche, chasse et piégage",0.11
+2017,Colombie-Britannique,Résidentiel,0.55
+2017,Colombie-Britannique,Administrations publiques,0.03
+2017,Colombie-Britannique,Commerces et autres institutions,0.42
+2017,Yukon,Consommation énergétique finale,2.98
+2017,Yukon,Total industriel,0.69
+2017,Yukon,Total transport,1.62
+2017,Yukon,"Agriculture, pêche, chasse et piégage",0.0
+2017,Yukon,Résidentiel,0.26
+2017,Yukon,Administrations publiques,0.05
+2017,Yukon,Commerces et autres institutions,0.35
+2017,Territoires du Nord-Ouest,Consommation énergétique finale,3.62
+2017,Territoires du Nord-Ouest,Total industriel,0.41
+2017,Territoires du Nord-Ouest,Total transport,2.31
+2017,Territoires du Nord-Ouest,"Agriculture, pêche, chasse et piégage",0.0
+2017,Territoires du Nord-Ouest,Résidentiel,0.23
+2017,Territoires du Nord-Ouest,Administrations publiques,0.34
+2017,Territoires du Nord-Ouest,Commerces et autres institutions,0.33
+2017,Nunavut,Consommation énergétique finale,2.35
+2017,Nunavut,Total industriel,0.68
+2017,Nunavut,Total transport,0.82
+2017,Nunavut,"Agriculture, pêche, chasse et piégage",0.06
+2017,Nunavut,Résidentiel,0.33
+2017,Nunavut,Administrations publiques,0.15
+2017,Nunavut,Commerces et autres institutions,0.32
+2018,Canada,Consommation énergétique finale,4.02
+2018,Canada,Total industriel,1.35
+2018,Canada,Total transport,1.27
+2018,Canada,"Agriculture, pêche, chasse et piégage",0.14
+2018,Canada,Résidentiel,0.62
+2018,Canada,Administrations publiques,0.06
+2018,Canada,Commerces et autres institutions,0.57
+2018,Terre-Neuve-et-Labrador,Consommation énergétique finale,3.79
+2018,Terre-Neuve-et-Labrador,Total industriel,0.91
+2018,Terre-Neuve-et-Labrador,Total transport,1.53
+2018,Terre-Neuve-et-Labrador,"Agriculture, pêche, chasse et piégage",0.01
+2018,Terre-Neuve-et-Labrador,Résidentiel,0.63
+2018,Terre-Neuve-et-Labrador,Administrations publiques,0.11
+2018,Terre-Neuve-et-Labrador,Commerces et autres institutions,0.59
+2018,Île-du-Prince-Édouard,Consommation énergétique finale,3.39
+2018,Île-du-Prince-Édouard,Total industriel,0.33
+2018,Île-du-Prince-Édouard,Total transport,1.65
+2018,Île-du-Prince-Édouard,"Agriculture, pêche, chasse et piégage",0.35
+2018,Île-du-Prince-Édouard,Résidentiel,0.52
+2018,Île-du-Prince-Édouard,Administrations publiques,0.08
+2018,Île-du-Prince-Édouard,Commerces et autres institutions,0.45
+2018,Nouvelle-Écosse,Consommation énergétique finale,3.53
+2018,Nouvelle-Écosse,Total industriel,0.43
+2018,Nouvelle-Écosse,Total transport,1.64
+2018,Nouvelle-Écosse,"Agriculture, pêche, chasse et piégage",0.05
+2018,Nouvelle-Écosse,Résidentiel,0.77
+2018,Nouvelle-Écosse,Administrations publiques,0.17
+2018,Nouvelle-Écosse,Commerces et autres institutions,0.47
+2018,Nouveau-Brunswick,Consommation énergétique finale,4.0
+2018,Nouveau-Brunswick,Total industriel,1.17
+2018,Nouveau-Brunswick,Total transport,1.46
+2018,Nouveau-Brunswick,"Agriculture, pêche, chasse et piégage",0.05
+2018,Nouveau-Brunswick,Résidentiel,0.79
+2018,Nouveau-Brunswick,Administrations publiques,0.1
+2018,Nouveau-Brunswick,Commerces et autres institutions,0.43
+2018,Québec,Consommation énergétique finale,3.84
+2018,Québec,Total industriel,1.25
+2018,Québec,Total transport,1.21
+2018,Québec,"Agriculture, pêche, chasse et piégage",0.08
+2018,Québec,Résidentiel,0.69
+2018,Québec,Administrations publiques,0.1
+2018,Québec,Commerces et autres institutions,0.51
+2018,Ontario,Consommation énergétique finale,3.09
+2018,Ontario,Total industriel,0.71
+2018,Ontario,Total transport,1.05
+2018,Ontario,"Agriculture, pêche, chasse et piégage",0.07
+2018,Ontario,Résidentiel,0.6
+2018,Ontario,Administrations publiques,0.03
+2018,Ontario,Commerces et autres institutions,0.62
+2018,Manitoba,Consommation énergétique finale,4.19
+2018,Manitoba,Total industriel,0.78
+2018,Manitoba,Total transport,1.47
+2018,Manitoba,"Agriculture, pêche, chasse et piégage",0.37
+2018,Manitoba,Résidentiel,0.77
+2018,Manitoba,Administrations publiques,0.08
+2018,Manitoba,Commerces et autres institutions,0.73
+2018,Saskatchewan,Consommation énergétique finale,6.88
+2018,Saskatchewan,Total industriel,2.38
+2018,Saskatchewan,Total transport,2.09
+2018,Saskatchewan,"Agriculture, pêche, chasse et piégage",0.96
+2018,Saskatchewan,Résidentiel,0.66
+2018,Saskatchewan,Administrations publiques,0.14
+2018,Saskatchewan,Commerces et autres institutions,0.65
+2018,Alberta,Consommation énergétique finale,6.57
+2018,Alberta,Total industriel,3.58
+2018,Alberta,Total transport,1.45
+2018,Alberta,"Agriculture, pêche, chasse et piégage",0.2
+2018,Alberta,Résidentiel,0.63
+2018,Alberta,Administrations publiques,0.06
+2018,Alberta,Commerces et autres institutions,0.65
+2018,Colombie-Britannique,Consommation énergétique finale,3.32
+2018,Colombie-Britannique,Total industriel,0.91
+2018,Colombie-Britannique,Total transport,1.36
+2018,Colombie-Britannique,"Agriculture, pêche, chasse et piégage",0.11
+2018,Colombie-Britannique,Résidentiel,0.51
+2018,Colombie-Britannique,Administrations publiques,0.03
+2018,Colombie-Britannique,Commerces et autres institutions,0.41
+2018,Yukon,Consommation énergétique finale,3.28
+2018,Yukon,Total industriel,0.85
+2018,Yukon,Total transport,1.73
+2018,Yukon,"Agriculture, pêche, chasse et piégage",0.0
+2018,Yukon,Résidentiel,0.25
+2018,Yukon,Administrations publiques,0.05
+2018,Yukon,Commerces et autres institutions,0.39
+2018,Territoires du Nord-Ouest,Consommation énergétique finale,3.53
+2018,Territoires du Nord-Ouest,Total industriel,0.54
+2018,Territoires du Nord-Ouest,Total transport,2.07
+2018,Territoires du Nord-Ouest,"Agriculture, pêche, chasse et piégage",0.0
+2018,Territoires du Nord-Ouest,Résidentiel,0.26
+2018,Territoires du Nord-Ouest,Administrations publiques,0.3
+2018,Territoires du Nord-Ouest,Commerces et autres institutions,0.36
+2018,Nunavut,Consommation énergétique finale,2.44
+2018,Nunavut,Total industriel,0.91
+2018,Nunavut,Total transport,0.77
+2018,Nunavut,"Agriculture, pêche, chasse et piégage",0.05
+2018,Nunavut,Résidentiel,0.32
+2018,Nunavut,Administrations publiques,0.12
+2018,Nunavut,Commerces et autres institutions,0.28
+2019,Canada,Consommation énergétique finale,3.98
+2019,Canada,Total industriel,1.34
+2019,Canada,Total transport,1.25
+2019,Canada,"Agriculture, pêche, chasse et piégage",0.13
+2019,Canada,Résidentiel,0.62
+2019,Canada,Administrations publiques,0.06
+2019,Canada,Commerces et autres institutions,0.57
+2019,Terre-Neuve-et-Labrador,Consommation énergétique finale,3.65
+2019,Terre-Neuve-et-Labrador,Total industriel,0.93
+2019,Terre-Neuve-et-Labrador,Total transport,1.43
+2019,Terre-Neuve-et-Labrador,"Agriculture, pêche, chasse et piégage",0.01
+2019,Terre-Neuve-et-Labrador,Résidentiel,0.6
+2019,Terre-Neuve-et-Labrador,Administrations publiques,0.1
+2019,Terre-Neuve-et-Labrador,Commerces et autres institutions,0.58
+2019,Île-du-Prince-Édouard,Consommation énergétique finale,3.36
+2019,Île-du-Prince-Édouard,Total industriel,0.4
+2019,Île-du-Prince-Édouard,Total transport,1.58
+2019,Île-du-Prince-Édouard,"Agriculture, pêche, chasse et piégage",0.35
+2019,Île-du-Prince-Édouard,Résidentiel,0.52
+2019,Île-du-Prince-Édouard,Administrations publiques,0.08
+2019,Île-du-Prince-Édouard,Commerces et autres institutions,0.43
+2019,Nouvelle-Écosse,Consommation énergétique finale,3.34
+2019,Nouvelle-Écosse,Total industriel,0.37
+2019,Nouvelle-Écosse,Total transport,1.55
+2019,Nouvelle-Écosse,"Agriculture, pêche, chasse et piégage",0.04
+2019,Nouvelle-Écosse,Résidentiel,0.75
+2019,Nouvelle-Écosse,Administrations publiques,0.16
+2019,Nouvelle-Écosse,Commerces et autres institutions,0.46
+2019,Nouveau-Brunswick,Consommation énergétique finale,3.93
+2019,Nouveau-Brunswick,Total industriel,1.22
+2019,Nouveau-Brunswick,Total transport,1.4
+2019,Nouveau-Brunswick,"Agriculture, pêche, chasse et piégage",0.05
+2019,Nouveau-Brunswick,Résidentiel,0.74
+2019,Nouveau-Brunswick,Administrations publiques,0.1
+2019,Nouveau-Brunswick,Commerces et autres institutions,0.42
+2019,Québec,Consommation énergétique finale,3.83
+2019,Québec,Total industriel,1.27
+2019,Québec,Total transport,1.2
+2019,Québec,"Agriculture, pêche, chasse et piégage",0.08
+2019,Québec,Résidentiel,0.68
+2019,Québec,Administrations publiques,0.09
+2019,Québec,Commerces et autres institutions,0.51
+2019,Ontario,Consommation énergétique finale,3.03
+2019,Ontario,Total industriel,0.67
+2019,Ontario,Total transport,1.04
+2019,Ontario,"Agriculture, pêche, chasse et piégage",0.07
+2019,Ontario,Résidentiel,0.6
+2019,Ontario,Administrations publiques,0.03
+2019,Ontario,Commerces et autres institutions,0.62
+2019,Manitoba,Consommation énergétique finale,4.07
+2019,Manitoba,Total industriel,0.75
+2019,Manitoba,Total transport,1.45
+2019,Manitoba,"Agriculture, pêche, chasse et piégage",0.34
+2019,Manitoba,Résidentiel,0.76
+2019,Manitoba,Administrations publiques,0.07
+2019,Manitoba,Commerces et autres institutions,0.7
+2019,Saskatchewan,Consommation énergétique finale,6.9
+2019,Saskatchewan,Total industriel,2.39
+2019,Saskatchewan,Total transport,2.06
+2019,Saskatchewan,"Agriculture, pêche, chasse et piégage",0.91
+2019,Saskatchewan,Résidentiel,0.69
+2019,Saskatchewan,Administrations publiques,0.14
+2019,Saskatchewan,Commerces et autres institutions,0.71
+2019,Alberta,Consommation énergétique finale,6.74
+2019,Alberta,Total industriel,3.69
+2019,Alberta,Total transport,1.48
+2019,Alberta,"Agriculture, pêche, chasse et piégage",0.19
+2019,Alberta,Résidentiel,0.63
+2019,Alberta,Administrations publiques,0.06
+2019,Alberta,Commerces et autres institutions,0.68
+2019,Colombie-Britannique,Consommation énergétique finale,3.24
+2019,Colombie-Britannique,Total industriel,0.85
+2019,Colombie-Britannique,Total transport,1.33
+2019,Colombie-Britannique,"Agriculture, pêche, chasse et piégage",0.11
+2019,Colombie-Britannique,Résidentiel,0.51
+2019,Colombie-Britannique,Administrations publiques,0.03
+2019,Colombie-Britannique,Commerces et autres institutions,0.41
+2019,Yukon,Consommation énergétique finale,3.41
+2019,Yukon,Total industriel,0.95
+2019,Yukon,Total transport,1.76
+2019,Yukon,"Agriculture, pêche, chasse et piégage",0.0
+2019,Yukon,Résidentiel,0.26
+2019,Yukon,Administrations publiques,0.06
+2019,Yukon,Commerces et autres institutions,0.38
+2019,Territoires du Nord-Ouest,Consommation énergétique finale,3.6
+2019,Territoires du Nord-Ouest,Total industriel,0.57
+2019,Territoires du Nord-Ouest,Total transport,2.02
+2019,Territoires du Nord-Ouest,"Agriculture, pêche, chasse et piégage",0.0
+2019,Territoires du Nord-Ouest,Résidentiel,0.27
+2019,Territoires du Nord-Ouest,Administrations publiques,0.33
+2019,Territoires du Nord-Ouest,Commerces et autres institutions,0.41
+2019,Nunavut,Consommation énergétique finale,2.32
+2019,Nunavut,Total industriel,0.93
+2019,Nunavut,Total transport,0.7
+2019,Nunavut,"Agriculture, pêche, chasse et piégage",0.04
+2019,Nunavut,Résidentiel,0.29
+2019,Nunavut,Administrations publiques,0.11
+2019,Nunavut,Commerces et autres institutions,0.25
+2020,Canada,Consommation énergétique finale,3.76
+2020,Canada,Total industriel,1.32
+2020,Canada,Total transport,1.04
+2020,Canada,"Agriculture, pêche, chasse et piégage",0.14
+2020,Canada,Résidentiel,0.64
+2020,Canada,Administrations publiques,0.06
+2020,Canada,Commerces et autres institutions,0.56
+2020,Terre-Neuve-et-Labrador,Consommation énergétique finale,3.2
+2020,Terre-Neuve-et-Labrador,Total industriel,0.81
+2020,Terre-Neuve-et-Labrador,Total transport,1.16
+2020,Terre-Neuve-et-Labrador,"Agriculture, pêche, chasse et piégage",0.02
+2020,Terre-Neuve-et-Labrador,Résidentiel,0.61
+2020,Terre-Neuve-et-Labrador,Administrations publiques,0.08
+2020,Terre-Neuve-et-Labrador,Commerces et autres institutions,0.53
+2020,Île-du-Prince-Édouard,Consommation énergétique finale,3.43
+2020,Île-du-Prince-Édouard,Total industriel,0.61
+2020,Île-du-Prince-Édouard,Total transport,1.43
+2020,Île-du-Prince-Édouard,"Agriculture, pêche, chasse et piégage",0.37
+2020,Île-du-Prince-Édouard,Résidentiel,0.52
+2020,Île-du-Prince-Édouard,Administrations publiques,0.07
+2020,Île-du-Prince-Édouard,Commerces et autres institutions,0.43
+2020,Nouvelle-Écosse,Consommation énergétique finale,3.11
+2020,Nouvelle-Écosse,Total industriel,0.32
+2020,Nouvelle-Écosse,Total transport,1.38
+2020,Nouvelle-Écosse,"Agriculture, pêche, chasse et piégage",0.06
+2020,Nouvelle-Écosse,Résidentiel,0.76
+2020,Nouvelle-Écosse,Administrations publiques,0.15
+2020,Nouvelle-Écosse,Commerces et autres institutions,0.44
+2020,Nouveau-Brunswick,Consommation énergétique finale,3.65
+2020,Nouveau-Brunswick,Total industriel,1.1
+2020,Nouveau-Brunswick,Total transport,1.27
+2020,Nouveau-Brunswick,"Agriculture, pêche, chasse et piégage",0.05
+2020,Nouveau-Brunswick,Résidentiel,0.74
+2020,Nouveau-Brunswick,Administrations publiques,0.09
+2020,Nouveau-Brunswick,Commerces et autres institutions,0.4
+2020,Québec,Consommation énergétique finale,3.56
+2020,Québec,Total industriel,1.26
+2020,Québec,Total transport,0.94
+2020,Québec,"Agriculture, pêche, chasse et piégage",0.08
+2020,Québec,Résidentiel,0.7
+2020,Québec,Administrations publiques,0.09
+2020,Québec,Commerces et autres institutions,0.48
+2020,Ontario,Consommation énergétique finale,2.79
+2020,Ontario,Total industriel,0.65
+2020,Ontario,Total transport,0.83
+2020,Ontario,"Agriculture, pêche, chasse et piégage",0.07
+2020,Ontario,Résidentiel,0.61
+2020,Ontario,Administrations publiques,0.03
+2020,Ontario,Commerces et autres institutions,0.6
+2020,Manitoba,Consommation énergétique finale,3.93
+2020,Manitoba,Total industriel,0.77
+2020,Manitoba,Total transport,1.27
+2020,Manitoba,"Agriculture, pêche, chasse et piégage",0.35
+2020,Manitoba,Résidentiel,0.77
+2020,Manitoba,Administrations publiques,0.07
+2020,Manitoba,Commerces et autres institutions,0.7
+2020,Saskatchewan,Consommation énergétique finale,6.73
+2020,Saskatchewan,Total industriel,2.45
+2020,Saskatchewan,Total transport,1.88
+2020,Saskatchewan,"Agriculture, pêche, chasse et piégage",0.93
+2020,Saskatchewan,Résidentiel,0.67
+2020,Saskatchewan,Administrations publiques,0.14
+2020,Saskatchewan,Commerces et autres institutions,0.67
+2020,Alberta,Consommation énergétique finale,6.65
+2020,Alberta,Total industriel,3.72
+2020,Alberta,Total transport,1.29
+2020,Alberta,"Agriculture, pêche, chasse et piégage",0.19
+2020,Alberta,Résidentiel,0.68
+2020,Alberta,Administrations publiques,0.07
+2020,Alberta,Commerces et autres institutions,0.7
+2020,Colombie-Britannique,Consommation énergétique finale,3.02
+2020,Colombie-Britannique,Total industriel,0.8
+2020,Colombie-Britannique,Total transport,1.14
+2020,Colombie-Britannique,"Agriculture, pêche, chasse et piégage",0.11
+2020,Colombie-Britannique,Résidentiel,0.54
+2020,Colombie-Britannique,Administrations publiques,0.03
+2020,Colombie-Britannique,Commerces et autres institutions,0.41
+2020,Yukon,Consommation énergétique finale,2.88
+2020,Yukon,Total industriel,0.74
+2020,Yukon,Total transport,1.44
+2020,Yukon,"Agriculture, pêche, chasse et piégage",0.0
+2020,Yukon,Résidentiel,0.29
+2020,Yukon,Administrations publiques,0.05
+2020,Yukon,Commerces et autres institutions,0.36
+2020,Territoires du Nord-Ouest,Consommation énergétique finale,3.38
+2020,Territoires du Nord-Ouest,Total industriel,0.71
+2020,Territoires du Nord-Ouest,Total transport,1.62
+2020,Territoires du Nord-Ouest,"Agriculture, pêche, chasse et piégage",0.0
+2020,Territoires du Nord-Ouest,Résidentiel,0.28
+2020,Territoires du Nord-Ouest,Administrations publiques,0.34
+2020,Territoires du Nord-Ouest,Commerces et autres institutions,0.43
+2020,Nunavut,Consommation énergétique finale,1.81
+2020,Nunavut,Total industriel,0.87
+2020,Nunavut,Total transport,0.36
+2020,Nunavut,"Agriculture, pêche, chasse et piégage",0.03
+2020,Nunavut,Résidentiel,0.28
+2020,Nunavut,Administrations publiques,0.07
+2020,Nunavut,Commerces et autres institutions,0.2
+2021,Canada,Consommation énergétique finale,3.65
+2021,Canada,Total industriel,1.32
+2021,Canada,Total transport,1.03
+2021,Canada,"Agriculture, pêche, chasse et piégage",0.13
+2021,Canada,Résidentiel,0.59
+2021,Canada,Administrations publiques,0.05
+2021,Canada,Commerces et autres institutions,0.51
+2021,Terre-Neuve-et-Labrador,Consommation énergétique finale,3.17
+2021,Terre-Neuve-et-Labrador,Total industriel,0.86
+2021,Terre-Neuve-et-Labrador,Total transport,1.13
+2021,Terre-Neuve-et-Labrador,"Agriculture, pêche, chasse et piégage",0.02
+2021,Terre-Neuve-et-Labrador,Résidentiel,0.54
+2021,Terre-Neuve-et-Labrador,Administrations publiques,0.07
+2021,Terre-Neuve-et-Labrador,Commerces et autres institutions,0.54
+2021,Île-du-Prince-Édouard,Consommation énergétique finale,3.25
+2021,Île-du-Prince-Édouard,Total industriel,0.57
+2021,Île-du-Prince-Édouard,Total transport,1.38
+2021,Île-du-Prince-Édouard,"Agriculture, pêche, chasse et piégage",0.36
+2021,Île-du-Prince-Édouard,Résidentiel,0.46
+2021,Île-du-Prince-Édouard,Administrations publiques,0.07
+2021,Île-du-Prince-Édouard,Commerces et autres institutions,0.41
+2021,Nouvelle-Écosse,Consommation énergétique finale,2.95
+2021,Nouvelle-Écosse,Total industriel,0.34
+2021,Nouvelle-Écosse,Total transport,1.34
+2021,Nouvelle-Écosse,"Agriculture, pêche, chasse et piégage",0.06
+2021,Nouvelle-Écosse,Résidentiel,0.68
+2021,Nouvelle-Écosse,Administrations publiques,0.13
+2021,Nouvelle-Écosse,Commerces et autres institutions,0.4
+2021,Nouveau-Brunswick,Consommation énergétique finale,3.44
+2021,Nouveau-Brunswick,Total industriel,1.11
+2021,Nouveau-Brunswick,Total transport,1.16
+2021,Nouveau-Brunswick,"Agriculture, pêche, chasse et piégage",0.05
+2021,Nouveau-Brunswick,Résidentiel,0.67
+2021,Nouveau-Brunswick,Administrations publiques,0.09
+2021,Nouveau-Brunswick,Commerces et autres institutions,0.36
+2021,Québec,Consommation énergétique finale,3.48
+2021,Québec,Total industriel,1.26
+2021,Québec,Total transport,0.95
+2021,Québec,"Agriculture, pêche, chasse et piégage",0.07
+2021,Québec,Résidentiel,0.64
+2021,Québec,Administrations publiques,0.09
+2021,Québec,Commerces et autres institutions,0.47
+2021,Ontario,Consommation énergétique finale,2.66
+2021,Ontario,Total industriel,0.65
+2021,Ontario,Total transport,0.82
+2021,Ontario,"Agriculture, pêche, chasse et piégage",0.08
+2021,Ontario,Résidentiel,0.57
+2021,Ontario,Administrations publiques,0.03
+2021,Ontario,Commerces et autres institutions,0.52
+2021,Manitoba,Consommation énergétique finale,3.83
+2021,Manitoba,Total industriel,0.71
+2021,Manitoba,Total transport,1.32
+2021,Manitoba,"Agriculture, pêche, chasse et piégage",0.33
+2021,Manitoba,Résidentiel,0.74
+2021,Manitoba,Administrations publiques,0.07
+2021,Manitoba,Commerces et autres institutions,0.66
+2021,Saskatchewan,Consommation énergétique finale,7.35
+2021,Saskatchewan,Total industriel,2.81
+2021,Saskatchewan,Total transport,2.07
+2021,Saskatchewan,"Agriculture, pêche, chasse et piégage",0.96
+2021,Saskatchewan,Résidentiel,0.68
+2021,Saskatchewan,Administrations publiques,0.14
+2021,Saskatchewan,Commerces et autres institutions,0.68
+2021,Alberta,Consommation énergétique finale,6.58
+2021,Alberta,Total industriel,3.79
+2021,Alberta,Total transport,1.27
+2021,Alberta,"Agriculture, pêche, chasse et piégage",0.19
+2021,Alberta,Résidentiel,0.62
+2021,Alberta,Administrations publiques,0.06
+2021,Alberta,Commerces et autres institutions,0.65
+2021,Colombie-Britannique,Consommation énergétique finale,2.86
+2021,Colombie-Britannique,Total industriel,0.73
+2021,Colombie-Britannique,Total transport,1.1
+2021,Colombie-Britannique,"Agriculture, pêche, chasse et piégage",0.1
+2021,Colombie-Britannique,Résidentiel,0.51
+2021,Colombie-Britannique,Administrations publiques,0.03
+2021,Colombie-Britannique,Commerces et autres institutions,0.39
+2021,Yukon,Consommation énergétique finale,2.92
+2021,Yukon,Total industriel,0.88
+2021,Yukon,Total transport,1.38
+2021,Yukon,"Agriculture, pêche, chasse et piégage",0.0
+2021,Yukon,Résidentiel,0.26
+2021,Yukon,Administrations publiques,0.04
+2021,Yukon,Commerces et autres institutions,0.35
+2021,Territoires du Nord-Ouest,Consommation énergétique finale,3.38
+2021,Territoires du Nord-Ouest,Total industriel,0.65
+2021,Territoires du Nord-Ouest,Total transport,1.72
+2021,Territoires du Nord-Ouest,"Agriculture, pêche, chasse et piégage",0.0
+2021,Territoires du Nord-Ouest,Résidentiel,0.26
+2021,Territoires du Nord-Ouest,Administrations publiques,0.3
+2021,Territoires du Nord-Ouest,Commerces et autres institutions,0.45
+2021,Nunavut,Consommation énergétique finale,1.85
+2021,Nunavut,Total industriel,0.81
+2021,Nunavut,Total transport,0.46
+2021,Nunavut,"Agriculture, pêche, chasse et piégage",0.02
+2021,Nunavut,Résidentiel,0.28
+2021,Nunavut,Administrations publiques,0.07
+2021,Nunavut,Commerces et autres institutions,0.2
+2022,Canada,Consommation énergétique finale,3.63
+2022,Canada,Total industriel,1.28
+2022,Canada,Total transport,1.07
+2022,Canada,"Agriculture, pêche, chasse et piégage",0.13
+2022,Canada,Résidentiel,0.58
+2022,Canada,Administrations publiques,0.05
+2022,Canada,Commerces et autres institutions,0.51
+2022,Terre-Neuve-et-Labrador,Consommation énergétique finale,3.4
+2022,Terre-Neuve-et-Labrador,Total industriel,0.86
+2022,Terre-Neuve-et-Labrador,Total transport,1.33
+2022,Terre-Neuve-et-Labrador,"Agriculture, pêche, chasse et piégage",0.02
+2022,Terre-Neuve-et-Labrador,Résidentiel,0.55
+2022,Terre-Neuve-et-Labrador,Administrations publiques,0.09
+2022,Terre-Neuve-et-Labrador,Commerces et autres institutions,0.56
+2022,Île-du-Prince-Édouard,Consommation énergétique finale,3.05
+2022,Île-du-Prince-Édouard,Total industriel,0.49
+2022,Île-du-Prince-Édouard,Total transport,1.29
+2022,Île-du-Prince-Édouard,"Agriculture, pêche, chasse et piégage",0.35
+2022,Île-du-Prince-Édouard,Résidentiel,0.45
+2022,Île-du-Prince-Édouard,Administrations publiques,0.08
+2022,Île-du-Prince-Édouard,Commerces et autres institutions,0.39
+2022,Nouvelle-Écosse,Consommation énergétique finale,2.92
+2022,Nouvelle-Écosse,Total industriel,0.32
+2022,Nouvelle-Écosse,Total transport,1.32
+2022,Nouvelle-Écosse,"Agriculture, pêche, chasse et piégage",0.06
+2022,Nouvelle-Écosse,Résidentiel,0.68
+2022,Nouvelle-Écosse,Administrations publiques,0.14
+2022,Nouvelle-Écosse,Commerces et autres institutions,0.4
+2022,Nouveau-Brunswick,Consommation énergétique finale,3.53
+2022,Nouveau-Brunswick,Total industriel,1.19
+2022,Nouveau-Brunswick,Total transport,1.12
+2022,Nouveau-Brunswick,"Agriculture, pêche, chasse et piégage",0.05
+2022,Nouveau-Brunswick,Résidentiel,0.69
+2022,Nouveau-Brunswick,Administrations publiques,0.09
+2022,Nouveau-Brunswick,Commerces et autres institutions,0.38
+2022,Québec,Consommation énergétique finale,3.51
+2022,Québec,Total industriel,1.24
+2022,Québec,Total transport,1.02
+2022,Québec,"Agriculture, pêche, chasse et piégage",0.07
+2022,Québec,Résidentiel,0.64
+2022,Québec,Administrations publiques,0.08
+2022,Québec,Commerces et autres institutions,0.46
+2022,Ontario,Consommation énergétique finale,2.66
+2022,Ontario,Total industriel,0.63
+2022,Ontario,Total transport,0.87
+2022,Ontario,"Agriculture, pêche, chasse et piégage",0.08
+2022,Ontario,Résidentiel,0.54
+2022,Ontario,Administrations publiques,0.03
+2022,Ontario,Commerces et autres institutions,0.52
+2022,Manitoba,Consommation énergétique finale,3.89
+2022,Manitoba,Total industriel,0.69
+2022,Manitoba,Total transport,1.32
+2022,Manitoba,"Agriculture, pêche, chasse et piégage",0.35
+2022,Manitoba,Résidentiel,0.75
+2022,Manitoba,Administrations publiques,0.07
+2022,Manitoba,Commerces et autres institutions,0.7
+2022,Saskatchewan,Consommation énergétique finale,6.96
+2022,Saskatchewan,Total industriel,2.75
+2022,Saskatchewan,Total transport,1.93
+2022,Saskatchewan,"Agriculture, pêche, chasse et piégage",0.83
+2022,Saskatchewan,Résidentiel,0.66
+2022,Saskatchewan,Administrations publiques,0.14
+2022,Saskatchewan,Commerces et autres institutions,0.66
+2022,Alberta,Consommation énergétique finale,6.36
+2022,Alberta,Total industriel,3.58
+2022,Alberta,Total transport,1.28
+2022,Alberta,"Agriculture, pêche, chasse et piégage",0.17
+2022,Alberta,Résidentiel,0.62
+2022,Alberta,Administrations publiques,0.06
+2022,Alberta,Commerces et autres institutions,0.65
+2022,Colombie-Britannique,Consommation énergétique finale,2.85
+2022,Colombie-Britannique,Total industriel,0.71
+2022,Colombie-Britannique,Total transport,1.13
+2022,Colombie-Britannique,"Agriculture, pêche, chasse et piégage",0.1
+2022,Colombie-Britannique,Résidentiel,0.51
+2022,Colombie-Britannique,Administrations publiques,0.03
+2022,Colombie-Britannique,Commerces et autres institutions,0.38
+2022,Yukon,Consommation énergétique finale,2.94
+2022,Yukon,Total industriel,0.84
+2022,Yukon,Total transport,1.43
+2022,Yukon,"Agriculture, pêche, chasse et piégage",0.0
+2022,Yukon,Résidentiel,0.25
+2022,Yukon,Administrations publiques,0.04
+2022,Yukon,Commerces et autres institutions,0.39
+2022,Territoires du Nord-Ouest,Consommation énergétique finale,3.59
+2022,Territoires du Nord-Ouest,Total industriel,0.67
+2022,Territoires du Nord-Ouest,Total transport,1.86
+2022,Territoires du Nord-Ouest,"Agriculture, pêche, chasse et piégage",0.0
+2022,Territoires du Nord-Ouest,Résidentiel,0.29
+2022,Territoires du Nord-Ouest,Administrations publiques,0.27
+2022,Territoires du Nord-Ouest,Commerces et autres institutions,0.5
+2022,Nunavut,Consommation énergétique finale,1.9
+2022,Nunavut,Total industriel,0.8
+2022,Nunavut,Total transport,0.52
+2022,Nunavut,"Agriculture, pêche, chasse et piégage",0.02
+2022,Nunavut,Résidentiel,0.28
+2022,Nunavut,Administrations publiques,0.07
+2022,Nunavut,Commerces et autres institutions,0.2
+2023,Canada,Consommation énergétique finale,3.51
+2023,Canada,Total industriel,1.24
+2023,Canada,Total transport,1.07
+2023,Canada,"Agriculture, pêche, chasse et piégage",0.12
+2023,Canada,Résidentiel,0.54
+2023,Canada,Administrations publiques,0.05
+2023,Canada,Commerces et autres institutions,0.49
+2023,Terre-Neuve-et-Labrador,Consommation énergétique finale,3.45
+2023,Terre-Neuve-et-Labrador,Total industriel,0.86
+2023,Terre-Neuve-et-Labrador,Total transport,1.32
+2023,Terre-Neuve-et-Labrador,"Agriculture, pêche, chasse et piégage",0.03
+2023,Terre-Neuve-et-Labrador,Résidentiel,0.58
+2023,Terre-Neuve-et-Labrador,Administrations publiques,0.09
+2023,Terre-Neuve-et-Labrador,Commerces et autres institutions,0.58
+2023,Île-du-Prince-Édouard,Consommation énergétique finale,2.96
+2023,Île-du-Prince-Édouard,Total industriel,0.5
+2023,Île-du-Prince-Édouard,Total transport,1.27
+2023,Île-du-Prince-Édouard,"Agriculture, pêche, chasse et piégage",0.33
+2023,Île-du-Prince-Édouard,Résidentiel,0.41
+2023,Île-du-Prince-Édouard,Administrations publiques,0.07
+2023,Île-du-Prince-Édouard,Commerces et autres institutions,0.4
+2023,Nouvelle-Écosse,Consommation énergétique finale,2.83
+2023,Nouvelle-Écosse,Total industriel,0.28
+2023,Nouvelle-Écosse,Total transport,1.34
+2023,Nouvelle-Écosse,"Agriculture, pêche, chasse et piégage",0.06
+2023,Nouvelle-Écosse,Résidentiel,0.62
+2023,Nouvelle-Écosse,Administrations publiques,0.14
+2023,Nouvelle-Écosse,Commerces et autres institutions,0.39
+2023,Nouveau-Brunswick,Consommation énergétique finale,3.31
+2023,Nouveau-Brunswick,Total industriel,0.98
+2023,Nouveau-Brunswick,Total transport,1.12
+2023,Nouveau-Brunswick,"Agriculture, pêche, chasse et piégage",0.04
+2023,Nouveau-Brunswick,Résidentiel,0.68
+2023,Nouveau-Brunswick,Administrations publiques,0.09
+2023,Nouveau-Brunswick,Commerces et autres institutions,0.39
+2023,Québec,Consommation énergétique finale,3.46
+2023,Québec,Total industriel,1.21
+2023,Québec,Total transport,1.05
+2023,Québec,"Agriculture, pêche, chasse et piégage",0.07
+2023,Québec,Résidentiel,0.61
+2023,Québec,Administrations publiques,0.08
+2023,Québec,Commerces et autres institutions,0.44
+2023,Ontario,Consommation énergétique finale,2.6
+2023,Ontario,Total industriel,0.62
+2023,Ontario,Total transport,0.87
+2023,Ontario,"Agriculture, pêche, chasse et piégage",0.07
+2023,Ontario,Résidentiel,0.5
+2023,Ontario,Administrations publiques,0.03
+2023,Ontario,Commerces et autres institutions,0.5
+2023,Manitoba,Consommation énergétique finale,3.68
+2023,Manitoba,Total industriel,0.64
+2023,Manitoba,Total transport,1.28
+2023,Manitoba,"Agriculture, pêche, chasse et piégage",0.35
+2023,Manitoba,Résidentiel,0.69
+2023,Manitoba,Administrations publiques,0.07
+2023,Manitoba,Commerces et autres institutions,0.65
+2023,Saskatchewan,Consommation énergétique finale,6.55
+2023,Saskatchewan,Total industriel,2.61
+2023,Saskatchewan,Total transport,1.81
+2023,Saskatchewan,"Agriculture, pêche, chasse et piégage",0.84
+2023,Saskatchewan,Résidentiel,0.56
+2023,Saskatchewan,Administrations publiques,0.13
+2023,Saskatchewan,Commerces et autres institutions,0.6
+2023,Alberta,Consommation énergétique finale,6.06
+2023,Alberta,Total industriel,3.44
+2023,Alberta,Total transport,1.24
+2023,Alberta,"Agriculture, pêche, chasse et piégage",0.17
+2023,Alberta,Résidentiel,0.57
+2023,Alberta,Administrations publiques,0.05
+2023,Alberta,Commerces et autres institutions,0.6
+2023,Colombie-Britannique,Consommation énergétique finale,2.71
+2023,Colombie-Britannique,Total industriel,0.66
+2023,Colombie-Britannique,Total transport,1.12
+2023,Colombie-Britannique,"Agriculture, pêche, chasse et piégage",0.09
+2023,Colombie-Britannique,Résidentiel,0.45
+2023,Colombie-Britannique,Administrations publiques,0.03
+2023,Colombie-Britannique,Commerces et autres institutions,0.35
+2023,Yukon,Consommation énergétique finale,3.0
+2023,Yukon,Total industriel,0.83
+2023,Yukon,Total transport,1.49
+2023,Yukon,"Agriculture, pêche, chasse et piégage",0.0
+2023,Yukon,Résidentiel,0.24
+2023,Yukon,Administrations publiques,0.04
+2023,Yukon,Commerces et autres institutions,0.4
+2023,Territoires du Nord-Ouest,Consommation énergétique finale,3.37
+2023,Territoires du Nord-Ouest,Total industriel,0.58
+2023,Territoires du Nord-Ouest,Total transport,1.83
+2023,Territoires du Nord-Ouest,"Agriculture, pêche, chasse et piégage",0.0
+2023,Territoires du Nord-Ouest,Résidentiel,0.26
+2023,Territoires du Nord-Ouest,Administrations publiques,0.25
+2023,Territoires du Nord-Ouest,Commerces et autres institutions,0.46
+2023,Nunavut,Consommation énergétique finale,2.02
+2023,Nunavut,Total industriel,0.81
+2023,Nunavut,Total transport,0.65
+2023,Nunavut,"Agriculture, pêche, chasse et piégage",0.02
+2023,Nunavut,Résidentiel,0.27
+2023,Nunavut,Administrations publiques,0.07
+2023,Nunavut,Commerces et autres institutions,0.2
+2024,Canada,Consommation énergétique finale,3.46
+2024,Canada,Total industriel,1.23
+2024,Canada,Total transport,1.06
+2024,Canada,"Agriculture, pêche, chasse et piégage",0.12
+2024,Canada,Résidentiel,0.53
+2024,Canada,Administrations publiques,0.05
+2024,Canada,Commerces et autres institutions,0.47
+2024,Terre-Neuve-et-Labrador,Consommation énergétique finale,3.39
+2024,Terre-Neuve-et-Labrador,Total industriel,0.89
+2024,Terre-Neuve-et-Labrador,Total transport,1.24
+2024,Terre-Neuve-et-Labrador,"Agriculture, pêche, chasse et piégage",0.03
+2024,Terre-Neuve-et-Labrador,Résidentiel,0.56
+2024,Terre-Neuve-et-Labrador,Administrations publiques,0.09
+2024,Terre-Neuve-et-Labrador,Commerces et autres institutions,0.58
+2024,Île-du-Prince-Édouard,Consommation énergétique finale,2.85
+2024,Île-du-Prince-Édouard,Total industriel,0.47
+2024,Île-du-Prince-Édouard,Total transport,1.23
+2024,Île-du-Prince-Édouard,"Agriculture, pêche, chasse et piégage",0.33
+2024,Île-du-Prince-Édouard,Résidentiel,0.37
+2024,Île-du-Prince-Édouard,Administrations publiques,0.06
+2024,Île-du-Prince-Édouard,Commerces et autres institutions,0.39
+2024,Nouvelle-Écosse,Consommation énergétique finale,2.75
+2024,Nouvelle-Écosse,Total industriel,0.29
+2024,Nouvelle-Écosse,Total transport,1.29
+2024,Nouvelle-Écosse,"Agriculture, pêche, chasse et piégage",0.06
+2024,Nouvelle-Écosse,Résidentiel,0.6
+2024,Nouvelle-Écosse,Administrations publiques,0.14
+2024,Nouvelle-Écosse,Commerces et autres institutions,0.38
+2024,Nouveau-Brunswick,Consommation énergétique finale,3.28
+2024,Nouveau-Brunswick,Total industriel,0.98
+2024,Nouveau-Brunswick,Total transport,1.1
+2024,Nouveau-Brunswick,"Agriculture, pêche, chasse et piégage",0.04
+2024,Nouveau-Brunswick,Résidentiel,0.68
+2024,Nouveau-Brunswick,Administrations publiques,0.09
+2024,Nouveau-Brunswick,Commerces et autres institutions,0.39
+2024,Québec,Consommation énergétique finale,3.4
+2024,Québec,Total industriel,1.17
+2024,Québec,Total transport,1.04
+2024,Québec,"Agriculture, pêche, chasse et piégage",0.07
+2024,Québec,Résidentiel,0.61
+2024,Québec,Administrations publiques,0.08
+2024,Québec,Commerces et autres institutions,0.43
+2024,Ontario,Consommation énergétique finale,2.53
+2024,Ontario,Total industriel,0.61
+2024,Ontario,Total transport,0.86
+2024,Ontario,"Agriculture, pêche, chasse et piégage",0.08
+2024,Ontario,Résidentiel,0.49
+2024,Ontario,Administrations publiques,0.02
+2024,Ontario,Commerces et autres institutions,0.48
+2024,Manitoba,Consommation énergétique finale,3.64
+2024,Manitoba,Total industriel,0.63
+2024,Manitoba,Total transport,1.32
+2024,Manitoba,"Agriculture, pêche, chasse et piégage",0.34
+2024,Manitoba,Résidentiel,0.65
+2024,Manitoba,Administrations publiques,0.07
+2024,Manitoba,Commerces et autres institutions,0.64
+2024,Saskatchewan,Consommation énergétique finale,6.42
+2024,Saskatchewan,Total industriel,2.54
+2024,Saskatchewan,Total transport,1.86
+2024,Saskatchewan,"Agriculture, pêche, chasse et piégage",0.76
+2024,Saskatchewan,Résidentiel,0.57
+2024,Saskatchewan,Administrations publiques,0.13
+2024,Saskatchewan,Commerces et autres institutions,0.56
+2024,Alberta,Consommation énergétique finale,6.05
+2024,Alberta,Total industriel,3.45
+2024,Alberta,Total transport,1.24
+2024,Alberta,"Agriculture, pêche, chasse et piégage",0.15
+2024,Alberta,Résidentiel,0.56
+2024,Alberta,Administrations publiques,0.05
+2024,Alberta,Commerces et autres institutions,0.59
+2024,Colombie-Britannique,Consommation énergétique finale,2.69
+2024,Colombie-Britannique,Total industriel,0.66
+2024,Colombie-Britannique,Total transport,1.09
+2024,Colombie-Britannique,"Agriculture, pêche, chasse et piégage",0.1
+2024,Colombie-Britannique,Résidentiel,0.46
+2024,Colombie-Britannique,Administrations publiques,0.03
+2024,Colombie-Britannique,Commerces et autres institutions,0.36
+2024,Yukon,Consommation énergétique finale,3.18
+2024,Yukon,Total industriel,0.87
+2024,Yukon,Total transport,1.55
+2024,Yukon,"Agriculture, pêche, chasse et piégage",0.0
+2024,Yukon,Résidentiel,0.26
+2024,Yukon,Administrations publiques,0.05
+2024,Yukon,Commerces et autres institutions,0.45
+2024,Territoires du Nord-Ouest,Consommation énergétique finale,3.37
+2024,Territoires du Nord-Ouest,Total industriel,0.57
+2024,Territoires du Nord-Ouest,Total transport,1.82
+2024,Territoires du Nord-Ouest,"Agriculture, pêche, chasse et piégage",0.0
+2024,Territoires du Nord-Ouest,Résidentiel,0.25
+2024,Territoires du Nord-Ouest,Administrations publiques,0.25
+2024,Territoires du Nord-Ouest,Commerces et autres institutions,0.47
+2024,Nunavut,Consommation énergétique finale,2.04
+2024,Nunavut,Total industriel,0.91
+2024,Nunavut,Total transport,0.58
+2024,Nunavut,"Agriculture, pêche, chasse et piégage",0.03
+2024,Nunavut,Résidentiel,0.26
+2024,Nunavut,Administrations publiques,0.07
+2024,Nunavut,Commerces et autres institutions,0.2

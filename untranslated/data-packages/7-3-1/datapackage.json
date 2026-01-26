@@ -15,6 +15,45 @@
             "type": "integer"
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Supply and demand characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Energy use, final demand",
+                "Total industrial",
+                "Total transportation",
+                "Agriculture, fishing, hunting and trapping",
+                "Residential",
+                "Public administration",
+                "Commercial and other institutional",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
