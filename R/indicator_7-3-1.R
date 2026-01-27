@@ -18,13 +18,12 @@ filtered_energy <-
     GEO != "Atlantic provinces",
     GEO != "Yukon, Northwest Territories and Nunavut",
     `Fuel type` == "Total primary and secondary energy",
-    `Supply and demand characteristics`	 %in%  c("Energy use, final demand", "Total industrial", "Total transportation", "Agriculture, fishing, hunting and trapping", "Residential", "Public administration", "Commercial and other institutional")
+    `Supply and demand characteristics`	 == "Energy use, final demand"
   ) %>%
   select(
     Year = REF_DATE,
     energy_value = VALUE,
-    Geography = GEO,
-    `Supply and demand characteristics`
+    Geography = GEO
   )
 
 filtered_gdp <- 
@@ -48,10 +47,9 @@ data_final <-
   select(
     Year,
     Geography,
-    `Supply and demand characteristics`,
     Value
-  )
-
+  ) %>%
+mutate(Geography = ifelse(Geography == "Canada", NA, Geography))
 write.csv(
   data_final,
   "data/indicator_7-3-1.csv",
