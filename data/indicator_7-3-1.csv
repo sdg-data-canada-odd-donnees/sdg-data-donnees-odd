@@ -1,981 +1,141 @@
-"Year","Geography","Supply and demand characteristics","Value"
-"2015","Canada","Energy use, final demand",3.98
-"2015","Canada","Total industrial",1.31
-"2015","Canada","Total transportation",1.29
-"2015","Canada","Agriculture, fishing, hunting and trapping",0.14
-"2015","Canada","Residential",0.67
-"2015","Canada","Public administration",0.06
-"2015","Canada","Commercial and other institutional",0.51
-"2015","Newfoundland and Labrador","Energy use, final demand",3.85
-"2015","Newfoundland and Labrador","Total industrial",0.9
-"2015","Newfoundland and Labrador","Total transportation",1.6
-"2015","Newfoundland and Labrador","Agriculture, fishing, hunting and trapping",0.01
-"2015","Newfoundland and Labrador","Residential",0.6
-"2015","Newfoundland and Labrador","Public administration",0.15
-"2015","Newfoundland and Labrador","Commercial and other institutional",0.58
-"2015","Prince Edward Island","Energy use, final demand",3.63
-"2015","Prince Edward Island","Total industrial",0.41
-"2015","Prince Edward Island","Total transportation",1.71
-"2015","Prince Edward Island","Agriculture, fishing, hunting and trapping",0.34
-"2015","Prince Edward Island","Residential",0.58
-"2015","Prince Edward Island","Public administration",0.07
-"2015","Prince Edward Island","Commercial and other institutional",0.52
-"2015","Nova Scotia","Energy use, final demand",3.54
-"2015","Nova Scotia","Total industrial",0.42
-"2015","Nova Scotia","Total transportation",1.63
-"2015","Nova Scotia","Agriculture, fishing, hunting and trapping",0.04
-"2015","Nova Scotia","Residential",0.8
-"2015","Nova Scotia","Public administration",0.17
-"2015","Nova Scotia","Commercial and other institutional",0.47
-"2015","New Brunswick","Energy use, final demand",4.16
-"2015","New Brunswick","Total industrial",1.09
-"2015","New Brunswick","Total transportation",1.57
-"2015","New Brunswick","Agriculture, fishing, hunting and trapping",0.05
-"2015","New Brunswick","Residential",0.86
-"2015","New Brunswick","Public administration",0.13
-"2015","New Brunswick","Commercial and other institutional",0.45
-"2015","Quebec","Energy use, final demand",3.96
-"2015","Quebec","Total industrial",1.29
-"2015","Quebec","Total transportation",1.25
-"2015","Quebec","Agriculture, fishing, hunting and trapping",0.08
-"2015","Quebec","Residential",0.72
-"2015","Quebec","Public administration",0.1
-"2015","Quebec","Commercial and other institutional",0.52
-"2015","Ontario","Energy use, final demand",3.19
-"2015","Ontario","Total industrial",0.74
-"2015","Ontario","Total transportation",1.11
-"2015","Ontario","Agriculture, fishing, hunting and trapping",0.08
-"2015","Ontario","Residential",0.71
-"2015","Ontario","Public administration",0.03
-"2015","Ontario","Commercial and other institutional",0.53
-"2015","Manitoba","Energy use, final demand",4.04
-"2015","Manitoba","Total industrial",0.85
-"2015","Manitoba","Total transportation",1.34
-"2015","Manitoba","Agriculture, fishing, hunting and trapping",0.35
-"2015","Manitoba","Residential",0.73
-"2015","Manitoba","Public administration",0.07
-"2015","Manitoba","Commercial and other institutional",0.69
-"2015","Saskatchewan","Energy use, final demand",6.3
-"2015","Saskatchewan","Total industrial",1.8
-"2015","Saskatchewan","Total transportation",2.28
-"2015","Saskatchewan","Agriculture, fishing, hunting and trapping",0.96
-"2015","Saskatchewan","Residential",0.62
-"2015","Saskatchewan","Public administration",0.12
-"2015","Saskatchewan","Commercial and other institutional",0.53
-"2015","Alberta","Energy use, final demand",6.05
-"2015","Alberta","Total industrial",3.28
-"2015","Alberta","Total transportation",1.42
-"2015","Alberta","Agriculture, fishing, hunting and trapping",0.2
-"2015","Alberta","Residential",0.61
-"2015","Alberta","Public administration",0.05
-"2015","Alberta","Commercial and other institutional",0.51
-"2015","British Columbia","Energy use, final demand",3.18
-"2015","British Columbia","Total industrial",0.82
-"2015","British Columbia","Total transportation",1.31
-"2015","British Columbia","Agriculture, fishing, hunting and trapping",0.1
-"2015","British Columbia","Residential",0.53
-"2015","British Columbia","Public administration",0.04
-"2015","British Columbia","Commercial and other institutional",0.39
-"2015","Yukon","Energy use, final demand",3.04
-"2015","Yukon","Total industrial",0.6
-"2015","Yukon","Total transportation",1.69
-"2015","Yukon","Agriculture, fishing, hunting and trapping",0
-"2015","Yukon","Residential",0.25
-"2015","Yukon","Public administration",0.07
-"2015","Yukon","Commercial and other institutional",0.43
-"2015","Northwest Territories","Energy use, final demand",4.1
-"2015","Northwest Territories","Total industrial",0.72
-"2015","Northwest Territories","Total transportation",1.92
-"2015","Northwest Territories","Agriculture, fishing, hunting and trapping",0
-"2015","Northwest Territories","Residential",0.39
-"2015","Northwest Territories","Public administration",0.07
-"2015","Northwest Territories","Commercial and other institutional",1
-"2015","Nunavut","Energy use, final demand",3.28
-"2015","Nunavut","Total industrial",0.6
-"2015","Nunavut","Total transportation",1.67
-"2015","Nunavut","Agriculture, fishing, hunting and trapping",0.05
-"2015","Nunavut","Residential",0.42
-"2015","Nunavut","Public administration",0.17
-"2015","Nunavut","Commercial and other institutional",0.37
-"2016","Canada","Energy use, final demand",3.92
-"2016","Canada","Total industrial",1.28
-"2016","Canada","Total transportation",1.27
-"2016","Canada","Agriculture, fishing, hunting and trapping",0.14
-"2016","Canada","Residential",0.63
-"2016","Canada","Public administration",0.06
-"2016","Canada","Commercial and other institutional",0.54
-"2016","Newfoundland and Labrador","Energy use, final demand",3.8
-"2016","Newfoundland and Labrador","Total industrial",0.83
-"2016","Newfoundland and Labrador","Total transportation",1.6
-"2016","Newfoundland and Labrador","Agriculture, fishing, hunting and trapping",0.01
-"2016","Newfoundland and Labrador","Residential",0.6
-"2016","Newfoundland and Labrador","Public administration",0.13
-"2016","Newfoundland and Labrador","Commercial and other institutional",0.62
-"2016","Prince Edward Island","Energy use, final demand",3.64
-"2016","Prince Edward Island","Total industrial",0.39
-"2016","Prince Edward Island","Total transportation",1.8
-"2016","Prince Edward Island","Agriculture, fishing, hunting and trapping",0.35
-"2016","Prince Edward Island","Residential",0.57
-"2016","Prince Edward Island","Public administration",0.08
-"2016","Prince Edward Island","Commercial and other institutional",0.45
-"2016","Nova Scotia","Energy use, final demand",3.38
-"2016","Nova Scotia","Total industrial",0.41
-"2016","Nova Scotia","Total transportation",1.59
-"2016","Nova Scotia","Agriculture, fishing, hunting and trapping",0.04
-"2016","Nova Scotia","Residential",0.72
-"2016","Nova Scotia","Public administration",0.18
-"2016","Nova Scotia","Commercial and other institutional",0.45
-"2016","New Brunswick","Energy use, final demand",4.18
-"2016","New Brunswick","Total industrial",1.03
-"2016","New Brunswick","Total transportation",1.73
-"2016","New Brunswick","Agriculture, fishing, hunting and trapping",0.06
-"2016","New Brunswick","Residential",0.81
-"2016","New Brunswick","Public administration",0.12
-"2016","New Brunswick","Commercial and other institutional",0.43
-"2016","Quebec","Energy use, final demand",3.88
-"2016","Quebec","Total industrial",1.25
-"2016","Quebec","Total transportation",1.26
-"2016","Quebec","Agriculture, fishing, hunting and trapping",0.08
-"2016","Quebec","Residential",0.69
-"2016","Quebec","Public administration",0.09
-"2016","Quebec","Commercial and other institutional",0.5
-"2016","Ontario","Energy use, final demand",3.13
-"2016","Ontario","Total industrial",0.75
-"2016","Ontario","Total transportation",1.07
-"2016","Ontario","Agriculture, fishing, hunting and trapping",0.08
-"2016","Ontario","Residential",0.62
-"2016","Ontario","Public administration",0.03
-"2016","Ontario","Commercial and other institutional",0.58
-"2016","Manitoba","Energy use, final demand",4.09
-"2016","Manitoba","Total industrial",0.91
-"2016","Manitoba","Total transportation",1.35
-"2016","Manitoba","Agriculture, fishing, hunting and trapping",0.34
-"2016","Manitoba","Residential",0.72
-"2016","Manitoba","Public administration",0.08
-"2016","Manitoba","Commercial and other institutional",0.69
-"2016","Saskatchewan","Energy use, final demand",6.21
-"2016","Saskatchewan","Total industrial",1.93
-"2016","Saskatchewan","Total transportation",2.02
-"2016","Saskatchewan","Agriculture, fishing, hunting and trapping",0.94
-"2016","Saskatchewan","Residential",0.6
-"2016","Saskatchewan","Public administration",0.13
-"2016","Saskatchewan","Commercial and other institutional",0.59
-"2016","Alberta","Energy use, final demand",6.03
-"2016","Alberta","Total industrial",3.13
-"2016","Alberta","Total transportation",1.41
-"2016","Alberta","Agriculture, fishing, hunting and trapping",0.2
-"2016","Alberta","Residential",0.63
-"2016","Alberta","Public administration",0.06
-"2016","Alberta","Commercial and other institutional",0.58
-"2016","British Columbia","Energy use, final demand",3.29
-"2016","British Columbia","Total industrial",0.9
-"2016","British Columbia","Total transportation",1.31
-"2016","British Columbia","Agriculture, fishing, hunting and trapping",0.11
-"2016","British Columbia","Residential",0.52
-"2016","British Columbia","Public administration",0.03
-"2016","British Columbia","Commercial and other institutional",0.4
-"2016","Yukon","Energy use, final demand",2.83
-"2016","Yukon","Total industrial",0.56
-"2016","Yukon","Total transportation",1.61
-"2016","Yukon","Agriculture, fishing, hunting and trapping",0
-"2016","Yukon","Residential",0.24
-"2016","Yukon","Public administration",0.05
-"2016","Yukon","Commercial and other institutional",0.37
-"2016","Northwest Territories","Energy use, final demand",3.34
-"2016","Northwest Territories","Total industrial",0.58
-"2016","Northwest Territories","Total transportation",1.98
-"2016","Northwest Territories","Agriculture, fishing, hunting and trapping",0
-"2016","Northwest Territories","Residential",0.3
-"2016","Northwest Territories","Public administration",0.16
-"2016","Northwest Territories","Commercial and other institutional",0.31
-"2016","Nunavut","Energy use, final demand",2.86
-"2016","Nunavut","Total industrial",0.81
-"2016","Nunavut","Total transportation",1.04
-"2016","Nunavut","Agriculture, fishing, hunting and trapping",0.07
-"2016","Nunavut","Residential",0.38
-"2016","Nunavut","Public administration",0.18
-"2016","Nunavut","Commercial and other institutional",0.37
-"2017","Canada","Energy use, final demand",3.95
-"2017","Canada","Total industrial",1.31
-"2017","Canada","Total transportation",1.26
-"2017","Canada","Agriculture, fishing, hunting and trapping",0.14
-"2017","Canada","Residential",0.62
-"2017","Canada","Public administration",0.06
-"2017","Canada","Commercial and other institutional",0.57
-"2017","Newfoundland and Labrador","Energy use, final demand",3.72
-"2017","Newfoundland and Labrador","Total industrial",0.82
-"2017","Newfoundland and Labrador","Total transportation",1.6
-"2017","Newfoundland and Labrador","Agriculture, fishing, hunting and trapping",0.01
-"2017","Newfoundland and Labrador","Residential",0.63
-"2017","Newfoundland and Labrador","Public administration",0.12
-"2017","Newfoundland and Labrador","Commercial and other institutional",0.54
-"2017","Prince Edward Island","Energy use, final demand",3.5
-"2017","Prince Edward Island","Total industrial",0.4
-"2017","Prince Edward Island","Total transportation",1.7
-"2017","Prince Edward Island","Agriculture, fishing, hunting and trapping",0.34
-"2017","Prince Edward Island","Residential",0.55
-"2017","Prince Edward Island","Public administration",0.07
-"2017","Prince Edward Island","Commercial and other institutional",0.45
-"2017","Nova Scotia","Energy use, final demand",3.47
-"2017","Nova Scotia","Total industrial",0.44
-"2017","Nova Scotia","Total transportation",1.61
-"2017","Nova Scotia","Agriculture, fishing, hunting and trapping",0.05
-"2017","Nova Scotia","Residential",0.73
-"2017","Nova Scotia","Public administration",0.18
-"2017","Nova Scotia","Commercial and other institutional",0.46
-"2017","New Brunswick","Energy use, final demand",3.95
-"2017","New Brunswick","Total industrial",1.12
-"2017","New Brunswick","Total transportation",1.5
-"2017","New Brunswick","Agriculture, fishing, hunting and trapping",0.05
-"2017","New Brunswick","Residential",0.78
-"2017","New Brunswick","Public administration",0.1
-"2017","New Brunswick","Commercial and other institutional",0.39
-"2017","Quebec","Energy use, final demand",
-"2017","Quebec","Total industrial",1.22
-"2017","Quebec","Total transportation",1.25
-"2017","Quebec","Agriculture, fishing, hunting and trapping",0.08
-"2017","Quebec","Residential",0.67
-"2017","Quebec","Public administration",0.09
-"2017","Quebec","Commercial and other institutional",0.52
-"2017","Ontario","Energy use, final demand",3.09
-"2017","Ontario","Total industrial",0.73
-"2017","Ontario","Total transportation",1.05
-"2017","Ontario","Agriculture, fishing, hunting and trapping",0.07
-"2017","Ontario","Residential",0.6
-"2017","Ontario","Public administration",0.03
-"2017","Ontario","Commercial and other institutional",0.6
-"2017","Manitoba","Energy use, final demand",4.04
-"2017","Manitoba","Total industrial",0.86
-"2017","Manitoba","Total transportation",1.33
-"2017","Manitoba","Agriculture, fishing, hunting and trapping",0.35
-"2017","Manitoba","Residential",0.72
-"2017","Manitoba","Public administration",0.08
-"2017","Manitoba","Commercial and other institutional",0.69
-"2017","Saskatchewan","Energy use, final demand",6.51
-"2017","Saskatchewan","Total industrial",2.14
-"2017","Saskatchewan","Total transportation",2.06
-"2017","Saskatchewan","Agriculture, fishing, hunting and trapping",0.93
-"2017","Saskatchewan","Residential",0.62
-"2017","Saskatchewan","Public administration",0.14
-"2017","Saskatchewan","Commercial and other institutional",0.62
-"2017","Alberta","Energy use, final demand",6.28
-"2017","Alberta","Total industrial",3.33
-"2017","Alberta","Total transportation",1.4
-"2017","Alberta","Agriculture, fishing, hunting and trapping",0.21
-"2017","Alberta","Residential",0.62
-"2017","Alberta","Public administration",0.06
-"2017","Alberta","Commercial and other institutional",0.66
-"2017","British Columbia","Energy use, final demand",
-"2017","British Columbia","Total industrial",0.9
-"2017","British Columbia","Total transportation",1.31
-"2017","British Columbia","Agriculture, fishing, hunting and trapping",0.11
-"2017","British Columbia","Residential",0.55
-"2017","British Columbia","Public administration",0.03
-"2017","British Columbia","Commercial and other institutional",0.42
-"2017","Yukon","Energy use, final demand",2.98
-"2017","Yukon","Total industrial",0.69
-"2017","Yukon","Total transportation",1.62
-"2017","Yukon","Agriculture, fishing, hunting and trapping",0
-"2017","Yukon","Residential",0.26
-"2017","Yukon","Public administration",0.05
-"2017","Yukon","Commercial and other institutional",0.35
-"2017","Northwest Territories","Energy use, final demand",3.62
-"2017","Northwest Territories","Total industrial",0.41
-"2017","Northwest Territories","Total transportation",2.31
-"2017","Northwest Territories","Agriculture, fishing, hunting and trapping",0
-"2017","Northwest Territories","Residential",0.23
-"2017","Northwest Territories","Public administration",0.34
-"2017","Northwest Territories","Commercial and other institutional",0.33
-"2017","Nunavut","Energy use, final demand",2.35
-"2017","Nunavut","Total industrial",0.68
-"2017","Nunavut","Total transportation",0.82
-"2017","Nunavut","Agriculture, fishing, hunting and trapping",0.06
-"2017","Nunavut","Residential",0.33
-"2017","Nunavut","Public administration",0.15
-"2017","Nunavut","Commercial and other institutional",0.32
-"2018","Canada","Energy use, final demand",4.02
-"2018","Canada","Total industrial",1.35
-"2018","Canada","Total transportation",1.27
-"2018","Canada","Agriculture, fishing, hunting and trapping",0.14
-"2018","Canada","Residential",0.62
-"2018","Canada","Public administration",0.06
-"2018","Canada","Commercial and other institutional",0.57
-"2018","Newfoundland and Labrador","Energy use, final demand",3.79
-"2018","Newfoundland and Labrador","Total industrial",0.91
-"2018","Newfoundland and Labrador","Total transportation",1.53
-"2018","Newfoundland and Labrador","Agriculture, fishing, hunting and trapping",0.01
-"2018","Newfoundland and Labrador","Residential",0.63
-"2018","Newfoundland and Labrador","Public administration",0.11
-"2018","Newfoundland and Labrador","Commercial and other institutional",0.59
-"2018","Prince Edward Island","Energy use, final demand",3.39
-"2018","Prince Edward Island","Total industrial",0.33
-"2018","Prince Edward Island","Total transportation",1.65
-"2018","Prince Edward Island","Agriculture, fishing, hunting and trapping",0.35
-"2018","Prince Edward Island","Residential",0.52
-"2018","Prince Edward Island","Public administration",0.08
-"2018","Prince Edward Island","Commercial and other institutional",0.45
-"2018","Nova Scotia","Energy use, final demand",3.53
-"2018","Nova Scotia","Total industrial",0.43
-"2018","Nova Scotia","Total transportation",1.64
-"2018","Nova Scotia","Agriculture, fishing, hunting and trapping",0.05
-"2018","Nova Scotia","Residential",0.77
-"2018","Nova Scotia","Public administration",0.17
-"2018","Nova Scotia","Commercial and other institutional",0.47
-"2018","New Brunswick","Energy use, final demand",4
-"2018","New Brunswick","Total industrial",1.17
-"2018","New Brunswick","Total transportation",1.46
-"2018","New Brunswick","Agriculture, fishing, hunting and trapping",0.05
-"2018","New Brunswick","Residential",0.79
-"2018","New Brunswick","Public administration",0.1
-"2018","New Brunswick","Commercial and other institutional",0.43
-"2018","Quebec","Energy use, final demand",3.84
-"2018","Quebec","Total industrial",1.25
-"2018","Quebec","Total transportation",1.21
-"2018","Quebec","Agriculture, fishing, hunting and trapping",0.08
-"2018","Quebec","Residential",0.69
-"2018","Quebec","Public administration",0.1
-"2018","Quebec","Commercial and other institutional",0.51
-"2018","Ontario","Energy use, final demand",3.09
-"2018","Ontario","Total industrial",0.71
-"2018","Ontario","Total transportation",1.05
-"2018","Ontario","Agriculture, fishing, hunting and trapping",0.07
-"2018","Ontario","Residential",0.6
-"2018","Ontario","Public administration",0.03
-"2018","Ontario","Commercial and other institutional",0.62
-"2018","Manitoba","Energy use, final demand",4.19
-"2018","Manitoba","Total industrial",0.78
-"2018","Manitoba","Total transportation",1.47
-"2018","Manitoba","Agriculture, fishing, hunting and trapping",0.37
-"2018","Manitoba","Residential",0.77
-"2018","Manitoba","Public administration",0.08
-"2018","Manitoba","Commercial and other institutional",0.73
-"2018","Saskatchewan","Energy use, final demand",6.88
-"2018","Saskatchewan","Total industrial",2.38
-"2018","Saskatchewan","Total transportation",2.09
-"2018","Saskatchewan","Agriculture, fishing, hunting and trapping",0.96
-"2018","Saskatchewan","Residential",0.66
-"2018","Saskatchewan","Public administration",0.14
-"2018","Saskatchewan","Commercial and other institutional",0.65
-"2018","Alberta","Energy use, final demand",6.57
-"2018","Alberta","Total industrial",3.58
-"2018","Alberta","Total transportation",1.45
-"2018","Alberta","Agriculture, fishing, hunting and trapping",0.2
-"2018","Alberta","Residential",0.63
-"2018","Alberta","Public administration",0.06
-"2018","Alberta","Commercial and other institutional",0.65
-"2018","British Columbia","Energy use, final demand",3.32
-"2018","British Columbia","Total industrial",0.91
-"2018","British Columbia","Total transportation",1.36
-"2018","British Columbia","Agriculture, fishing, hunting and trapping",0.11
-"2018","British Columbia","Residential",0.51
-"2018","British Columbia","Public administration",0.03
-"2018","British Columbia","Commercial and other institutional",0.41
-"2018","Yukon","Energy use, final demand",3.28
-"2018","Yukon","Total industrial",0.85
-"2018","Yukon","Total transportation",1.73
-"2018","Yukon","Agriculture, fishing, hunting and trapping",0
-"2018","Yukon","Residential",0.25
-"2018","Yukon","Public administration",0.05
-"2018","Yukon","Commercial and other institutional",0.39
-"2018","Northwest Territories","Energy use, final demand",3.53
-"2018","Northwest Territories","Total industrial",0.54
-"2018","Northwest Territories","Total transportation",2.07
-"2018","Northwest Territories","Agriculture, fishing, hunting and trapping",0
-"2018","Northwest Territories","Residential",0.26
-"2018","Northwest Territories","Public administration",0.3
-"2018","Northwest Territories","Commercial and other institutional",0.36
-"2018","Nunavut","Energy use, final demand",2.44
-"2018","Nunavut","Total industrial",0.91
-"2018","Nunavut","Total transportation",0.77
-"2018","Nunavut","Agriculture, fishing, hunting and trapping",0.05
-"2018","Nunavut","Residential",0.32
-"2018","Nunavut","Public administration",0.12
-"2018","Nunavut","Commercial and other institutional",0.28
-"2019","Canada","Energy use, final demand",3.98
-"2019","Canada","Total industrial",1.34
-"2019","Canada","Total transportation",1.25
-"2019","Canada","Agriculture, fishing, hunting and trapping",0.13
-"2019","Canada","Residential",0.62
-"2019","Canada","Public administration",0.06
-"2019","Canada","Commercial and other institutional",0.57
-"2019","Newfoundland and Labrador","Energy use, final demand",3.65
-"2019","Newfoundland and Labrador","Total industrial",0.93
-"2019","Newfoundland and Labrador","Total transportation",1.43
-"2019","Newfoundland and Labrador","Agriculture, fishing, hunting and trapping",0.01
-"2019","Newfoundland and Labrador","Residential",0.6
-"2019","Newfoundland and Labrador","Public administration",0.1
-"2019","Newfoundland and Labrador","Commercial and other institutional",0.58
-"2019","Prince Edward Island","Energy use, final demand",3.36
-"2019","Prince Edward Island","Total industrial",0.4
-"2019","Prince Edward Island","Total transportation",1.58
-"2019","Prince Edward Island","Agriculture, fishing, hunting and trapping",0.35
-"2019","Prince Edward Island","Residential",0.52
-"2019","Prince Edward Island","Public administration",0.08
-"2019","Prince Edward Island","Commercial and other institutional",0.43
-"2019","Nova Scotia","Energy use, final demand",3.34
-"2019","Nova Scotia","Total industrial",0.37
-"2019","Nova Scotia","Total transportation",1.55
-"2019","Nova Scotia","Agriculture, fishing, hunting and trapping",0.04
-"2019","Nova Scotia","Residential",0.75
-"2019","Nova Scotia","Public administration",0.16
-"2019","Nova Scotia","Commercial and other institutional",0.46
-"2019","New Brunswick","Energy use, final demand",3.93
-"2019","New Brunswick","Total industrial",1.22
-"2019","New Brunswick","Total transportation",1.4
-"2019","New Brunswick","Agriculture, fishing, hunting and trapping",0.05
-"2019","New Brunswick","Residential",0.74
-"2019","New Brunswick","Public administration",0.1
-"2019","New Brunswick","Commercial and other institutional",0.42
-"2019","Quebec","Energy use, final demand",3.83
-"2019","Quebec","Total industrial",1.27
-"2019","Quebec","Total transportation",1.2
-"2019","Quebec","Agriculture, fishing, hunting and trapping",0.08
-"2019","Quebec","Residential",0.68
-"2019","Quebec","Public administration",0.09
-"2019","Quebec","Commercial and other institutional",0.51
-"2019","Ontario","Energy use, final demand",3.03
-"2019","Ontario","Total industrial",0.67
-"2019","Ontario","Total transportation",1.04
-"2019","Ontario","Agriculture, fishing, hunting and trapping",0.07
-"2019","Ontario","Residential",0.6
-"2019","Ontario","Public administration",0.03
-"2019","Ontario","Commercial and other institutional",0.62
-"2019","Manitoba","Energy use, final demand",4.07
-"2019","Manitoba","Total industrial",0.75
-"2019","Manitoba","Total transportation",1.45
-"2019","Manitoba","Agriculture, fishing, hunting and trapping",0.34
-"2019","Manitoba","Residential",0.76
-"2019","Manitoba","Public administration",0.07
-"2019","Manitoba","Commercial and other institutional",0.7
-"2019","Saskatchewan","Energy use, final demand",6.9
-"2019","Saskatchewan","Total industrial",2.39
-"2019","Saskatchewan","Total transportation",2.06
-"2019","Saskatchewan","Agriculture, fishing, hunting and trapping",0.91
-"2019","Saskatchewan","Residential",0.69
-"2019","Saskatchewan","Public administration",0.14
-"2019","Saskatchewan","Commercial and other institutional",0.71
-"2019","Alberta","Energy use, final demand",6.74
-"2019","Alberta","Total industrial",3.69
-"2019","Alberta","Total transportation",1.48
-"2019","Alberta","Agriculture, fishing, hunting and trapping",0.19
-"2019","Alberta","Residential",0.63
-"2019","Alberta","Public administration",0.06
-"2019","Alberta","Commercial and other institutional",0.68
-"2019","British Columbia","Energy use, final demand",3.24
-"2019","British Columbia","Total industrial",0.85
-"2019","British Columbia","Total transportation",1.33
-"2019","British Columbia","Agriculture, fishing, hunting and trapping",0.11
-"2019","British Columbia","Residential",0.51
-"2019","British Columbia","Public administration",0.03
-"2019","British Columbia","Commercial and other institutional",0.41
-"2019","Yukon","Energy use, final demand",3.41
-"2019","Yukon","Total industrial",0.95
-"2019","Yukon","Total transportation",1.76
-"2019","Yukon","Agriculture, fishing, hunting and trapping",0
-"2019","Yukon","Residential",0.26
-"2019","Yukon","Public administration",0.06
-"2019","Yukon","Commercial and other institutional",0.38
-"2019","Northwest Territories","Energy use, final demand",3.6
-"2019","Northwest Territories","Total industrial",0.57
-"2019","Northwest Territories","Total transportation",2.02
-"2019","Northwest Territories","Agriculture, fishing, hunting and trapping",0
-"2019","Northwest Territories","Residential",0.27
-"2019","Northwest Territories","Public administration",0.33
-"2019","Northwest Territories","Commercial and other institutional",0.41
-"2019","Nunavut","Energy use, final demand",2.32
-"2019","Nunavut","Total industrial",0.93
-"2019","Nunavut","Total transportation",0.7
-"2019","Nunavut","Agriculture, fishing, hunting and trapping",0.04
-"2019","Nunavut","Residential",0.29
-"2019","Nunavut","Public administration",0.11
-"2019","Nunavut","Commercial and other institutional",0.25
-"2020","Canada","Energy use, final demand",3.76
-"2020","Canada","Total industrial",1.32
-"2020","Canada","Total transportation",1.04
-"2020","Canada","Agriculture, fishing, hunting and trapping",0.14
-"2020","Canada","Residential",0.64
-"2020","Canada","Public administration",0.06
-"2020","Canada","Commercial and other institutional",0.56
-"2020","Newfoundland and Labrador","Energy use, final demand",3.2
-"2020","Newfoundland and Labrador","Total industrial",0.81
-"2020","Newfoundland and Labrador","Total transportation",1.16
-"2020","Newfoundland and Labrador","Agriculture, fishing, hunting and trapping",0.02
-"2020","Newfoundland and Labrador","Residential",0.61
-"2020","Newfoundland and Labrador","Public administration",0.08
-"2020","Newfoundland and Labrador","Commercial and other institutional",0.53
-"2020","Prince Edward Island","Energy use, final demand",3.43
-"2020","Prince Edward Island","Total industrial",0.61
-"2020","Prince Edward Island","Total transportation",1.43
-"2020","Prince Edward Island","Agriculture, fishing, hunting and trapping",0.37
-"2020","Prince Edward Island","Residential",0.52
-"2020","Prince Edward Island","Public administration",0.07
-"2020","Prince Edward Island","Commercial and other institutional",0.43
-"2020","Nova Scotia","Energy use, final demand",3.11
-"2020","Nova Scotia","Total industrial",0.32
-"2020","Nova Scotia","Total transportation",1.38
-"2020","Nova Scotia","Agriculture, fishing, hunting and trapping",0.06
-"2020","Nova Scotia","Residential",0.76
-"2020","Nova Scotia","Public administration",0.15
-"2020","Nova Scotia","Commercial and other institutional",0.44
-"2020","New Brunswick","Energy use, final demand",3.65
-"2020","New Brunswick","Total industrial",1.1
-"2020","New Brunswick","Total transportation",1.27
-"2020","New Brunswick","Agriculture, fishing, hunting and trapping",0.05
-"2020","New Brunswick","Residential",0.74
-"2020","New Brunswick","Public administration",0.09
-"2020","New Brunswick","Commercial and other institutional",0.4
-"2020","Quebec","Energy use, final demand",3.56
-"2020","Quebec","Total industrial",1.26
-"2020","Quebec","Total transportation",0.94
-"2020","Quebec","Agriculture, fishing, hunting and trapping",0.08
-"2020","Quebec","Residential",0.7
-"2020","Quebec","Public administration",0.09
-"2020","Quebec","Commercial and other institutional",0.48
-"2020","Ontario","Energy use, final demand",2.79
-"2020","Ontario","Total industrial",0.65
-"2020","Ontario","Total transportation",0.83
-"2020","Ontario","Agriculture, fishing, hunting and trapping",0.07
-"2020","Ontario","Residential",0.61
-"2020","Ontario","Public administration",0.03
-"2020","Ontario","Commercial and other institutional",0.6
-"2020","Manitoba","Energy use, final demand",3.93
-"2020","Manitoba","Total industrial",0.77
-"2020","Manitoba","Total transportation",1.27
-"2020","Manitoba","Agriculture, fishing, hunting and trapping",0.35
-"2020","Manitoba","Residential",0.77
-"2020","Manitoba","Public administration",0.07
-"2020","Manitoba","Commercial and other institutional",0.7
-"2020","Saskatchewan","Energy use, final demand",6.73
-"2020","Saskatchewan","Total industrial",2.45
-"2020","Saskatchewan","Total transportation",1.88
-"2020","Saskatchewan","Agriculture, fishing, hunting and trapping",0.93
-"2020","Saskatchewan","Residential",0.67
-"2020","Saskatchewan","Public administration",0.14
-"2020","Saskatchewan","Commercial and other institutional",0.67
-"2020","Alberta","Energy use, final demand",6.65
-"2020","Alberta","Total industrial",3.72
-"2020","Alberta","Total transportation",1.29
-"2020","Alberta","Agriculture, fishing, hunting and trapping",0.19
-"2020","Alberta","Residential",0.68
-"2020","Alberta","Public administration",0.07
-"2020","Alberta","Commercial and other institutional",0.7
-"2020","British Columbia","Energy use, final demand",3.02
-"2020","British Columbia","Total industrial",0.8
-"2020","British Columbia","Total transportation",1.14
-"2020","British Columbia","Agriculture, fishing, hunting and trapping",0.11
-"2020","British Columbia","Residential",0.54
-"2020","British Columbia","Public administration",0.03
-"2020","British Columbia","Commercial and other institutional",0.41
-"2020","Yukon","Energy use, final demand",2.88
-"2020","Yukon","Total industrial",0.74
-"2020","Yukon","Total transportation",1.44
-"2020","Yukon","Agriculture, fishing, hunting and trapping",0
-"2020","Yukon","Residential",0.29
-"2020","Yukon","Public administration",0.05
-"2020","Yukon","Commercial and other institutional",0.36
-"2020","Northwest Territories","Energy use, final demand",3.38
-"2020","Northwest Territories","Total industrial",0.71
-"2020","Northwest Territories","Total transportation",1.62
-"2020","Northwest Territories","Agriculture, fishing, hunting and trapping",0
-"2020","Northwest Territories","Residential",0.28
-"2020","Northwest Territories","Public administration",0.34
-"2020","Northwest Territories","Commercial and other institutional",0.43
-"2020","Nunavut","Energy use, final demand",1.81
-"2020","Nunavut","Total industrial",0.87
-"2020","Nunavut","Total transportation",0.36
-"2020","Nunavut","Agriculture, fishing, hunting and trapping",0.03
-"2020","Nunavut","Residential",0.28
-"2020","Nunavut","Public administration",0.07
-"2020","Nunavut","Commercial and other institutional",0.2
-"2021","Canada","Energy use, final demand",3.65
-"2021","Canada","Total industrial",1.32
-"2021","Canada","Total transportation",1.03
-"2021","Canada","Agriculture, fishing, hunting and trapping",0.13
-"2021","Canada","Residential",0.59
-"2021","Canada","Public administration",0.05
-"2021","Canada","Commercial and other institutional",0.51
-"2021","Newfoundland and Labrador","Energy use, final demand",3.17
-"2021","Newfoundland and Labrador","Total industrial",0.86
-"2021","Newfoundland and Labrador","Total transportation",1.13
-"2021","Newfoundland and Labrador","Agriculture, fishing, hunting and trapping",0.02
-"2021","Newfoundland and Labrador","Residential",0.54
-"2021","Newfoundland and Labrador","Public administration",0.07
-"2021","Newfoundland and Labrador","Commercial and other institutional",0.54
-"2021","Prince Edward Island","Energy use, final demand",3.25
-"2021","Prince Edward Island","Total industrial",0.57
-"2021","Prince Edward Island","Total transportation",1.38
-"2021","Prince Edward Island","Agriculture, fishing, hunting and trapping",0.36
-"2021","Prince Edward Island","Residential",0.46
-"2021","Prince Edward Island","Public administration",0.07
-"2021","Prince Edward Island","Commercial and other institutional",0.41
-"2021","Nova Scotia","Energy use, final demand",2.95
-"2021","Nova Scotia","Total industrial",0.34
-"2021","Nova Scotia","Total transportation",1.34
-"2021","Nova Scotia","Agriculture, fishing, hunting and trapping",0.06
-"2021","Nova Scotia","Residential",0.68
-"2021","Nova Scotia","Public administration",0.13
-"2021","Nova Scotia","Commercial and other institutional",0.4
-"2021","New Brunswick","Energy use, final demand",3.44
-"2021","New Brunswick","Total industrial",1.11
-"2021","New Brunswick","Total transportation",1.16
-"2021","New Brunswick","Agriculture, fishing, hunting and trapping",0.05
-"2021","New Brunswick","Residential",0.67
-"2021","New Brunswick","Public administration",0.09
-"2021","New Brunswick","Commercial and other institutional",0.36
-"2021","Quebec","Energy use, final demand",3.48
-"2021","Quebec","Total industrial",1.26
-"2021","Quebec","Total transportation",0.95
-"2021","Quebec","Agriculture, fishing, hunting and trapping",0.07
-"2021","Quebec","Residential",0.64
-"2021","Quebec","Public administration",0.09
-"2021","Quebec","Commercial and other institutional",0.47
-"2021","Ontario","Energy use, final demand",2.66
-"2021","Ontario","Total industrial",0.65
-"2021","Ontario","Total transportation",0.82
-"2021","Ontario","Agriculture, fishing, hunting and trapping",0.08
-"2021","Ontario","Residential",0.57
-"2021","Ontario","Public administration",0.03
-"2021","Ontario","Commercial and other institutional",0.52
-"2021","Manitoba","Energy use, final demand",3.83
-"2021","Manitoba","Total industrial",0.71
-"2021","Manitoba","Total transportation",1.32
-"2021","Manitoba","Agriculture, fishing, hunting and trapping",0.33
-"2021","Manitoba","Residential",0.74
-"2021","Manitoba","Public administration",0.07
-"2021","Manitoba","Commercial and other institutional",0.66
-"2021","Saskatchewan","Energy use, final demand",7.35
-"2021","Saskatchewan","Total industrial",2.81
-"2021","Saskatchewan","Total transportation",2.07
-"2021","Saskatchewan","Agriculture, fishing, hunting and trapping",0.96
-"2021","Saskatchewan","Residential",0.68
-"2021","Saskatchewan","Public administration",0.14
-"2021","Saskatchewan","Commercial and other institutional",0.68
-"2021","Alberta","Energy use, final demand",6.58
-"2021","Alberta","Total industrial",3.79
-"2021","Alberta","Total transportation",1.27
-"2021","Alberta","Agriculture, fishing, hunting and trapping",0.19
-"2021","Alberta","Residential",0.62
-"2021","Alberta","Public administration",0.06
-"2021","Alberta","Commercial and other institutional",0.65
-"2021","British Columbia","Energy use, final demand",2.86
-"2021","British Columbia","Total industrial",0.73
-"2021","British Columbia","Total transportation",1.1
-"2021","British Columbia","Agriculture, fishing, hunting and trapping",0.1
-"2021","British Columbia","Residential",0.51
-"2021","British Columbia","Public administration",0.03
-"2021","British Columbia","Commercial and other institutional",0.39
-"2021","Yukon","Energy use, final demand",2.92
-"2021","Yukon","Total industrial",0.88
-"2021","Yukon","Total transportation",1.38
-"2021","Yukon","Agriculture, fishing, hunting and trapping",0
-"2021","Yukon","Residential",0.26
-"2021","Yukon","Public administration",0.04
-"2021","Yukon","Commercial and other institutional",0.35
-"2021","Northwest Territories","Energy use, final demand",3.38
-"2021","Northwest Territories","Total industrial",0.65
-"2021","Northwest Territories","Total transportation",1.72
-"2021","Northwest Territories","Agriculture, fishing, hunting and trapping",0
-"2021","Northwest Territories","Residential",0.26
-"2021","Northwest Territories","Public administration",0.3
-"2021","Northwest Territories","Commercial and other institutional",0.45
-"2021","Nunavut","Energy use, final demand",1.85
-"2021","Nunavut","Total industrial",0.81
-"2021","Nunavut","Total transportation",0.46
-"2021","Nunavut","Agriculture, fishing, hunting and trapping",0.02
-"2021","Nunavut","Residential",0.28
-"2021","Nunavut","Public administration",0.07
-"2021","Nunavut","Commercial and other institutional",0.2
-"2022","Canada","Energy use, final demand",3.63
-"2022","Canada","Total industrial",1.28
-"2022","Canada","Total transportation",1.07
-"2022","Canada","Agriculture, fishing, hunting and trapping",0.13
-"2022","Canada","Residential",0.58
-"2022","Canada","Public administration",0.05
-"2022","Canada","Commercial and other institutional",0.51
-"2022","Newfoundland and Labrador","Energy use, final demand",3.4
-"2022","Newfoundland and Labrador","Total industrial",0.86
-"2022","Newfoundland and Labrador","Total transportation",1.33
-"2022","Newfoundland and Labrador","Agriculture, fishing, hunting and trapping",0.02
-"2022","Newfoundland and Labrador","Residential",0.55
-"2022","Newfoundland and Labrador","Public administration",0.09
-"2022","Newfoundland and Labrador","Commercial and other institutional",0.56
-"2022","Prince Edward Island","Energy use, final demand",3.05
-"2022","Prince Edward Island","Total industrial",0.49
-"2022","Prince Edward Island","Total transportation",1.29
-"2022","Prince Edward Island","Agriculture, fishing, hunting and trapping",0.35
-"2022","Prince Edward Island","Residential",0.45
-"2022","Prince Edward Island","Public administration",0.08
-"2022","Prince Edward Island","Commercial and other institutional",0.39
-"2022","Nova Scotia","Energy use, final demand",2.92
-"2022","Nova Scotia","Total industrial",0.32
-"2022","Nova Scotia","Total transportation",1.32
-"2022","Nova Scotia","Agriculture, fishing, hunting and trapping",0.06
-"2022","Nova Scotia","Residential",0.68
-"2022","Nova Scotia","Public administration",0.14
-"2022","Nova Scotia","Commercial and other institutional",0.4
-"2022","New Brunswick","Energy use, final demand",3.53
-"2022","New Brunswick","Total industrial",1.19
-"2022","New Brunswick","Total transportation",1.12
-"2022","New Brunswick","Agriculture, fishing, hunting and trapping",0.05
-"2022","New Brunswick","Residential",0.69
-"2022","New Brunswick","Public administration",0.09
-"2022","New Brunswick","Commercial and other institutional",0.38
-"2022","Quebec","Energy use, final demand",3.51
-"2022","Quebec","Total industrial",1.24
-"2022","Quebec","Total transportation",1.02
-"2022","Quebec","Agriculture, fishing, hunting and trapping",0.07
-"2022","Quebec","Residential",0.64
-"2022","Quebec","Public administration",0.08
-"2022","Quebec","Commercial and other institutional",0.46
-"2022","Ontario","Energy use, final demand",2.66
-"2022","Ontario","Total industrial",0.63
-"2022","Ontario","Total transportation",0.87
-"2022","Ontario","Agriculture, fishing, hunting and trapping",0.08
-"2022","Ontario","Residential",0.54
-"2022","Ontario","Public administration",0.03
-"2022","Ontario","Commercial and other institutional",0.52
-"2022","Manitoba","Energy use, final demand",3.89
-"2022","Manitoba","Total industrial",0.69
-"2022","Manitoba","Total transportation",1.32
-"2022","Manitoba","Agriculture, fishing, hunting and trapping",0.35
-"2022","Manitoba","Residential",0.75
-"2022","Manitoba","Public administration",0.07
-"2022","Manitoba","Commercial and other institutional",0.7
-"2022","Saskatchewan","Energy use, final demand",6.96
-"2022","Saskatchewan","Total industrial",2.75
-"2022","Saskatchewan","Total transportation",1.93
-"2022","Saskatchewan","Agriculture, fishing, hunting and trapping",0.83
-"2022","Saskatchewan","Residential",0.66
-"2022","Saskatchewan","Public administration",0.14
-"2022","Saskatchewan","Commercial and other institutional",0.66
-"2022","Alberta","Energy use, final demand",6.36
-"2022","Alberta","Total industrial",3.58
-"2022","Alberta","Total transportation",1.28
-"2022","Alberta","Agriculture, fishing, hunting and trapping",0.17
-"2022","Alberta","Residential",0.62
-"2022","Alberta","Public administration",0.06
-"2022","Alberta","Commercial and other institutional",0.65
-"2022","British Columbia","Energy use, final demand",2.85
-"2022","British Columbia","Total industrial",0.71
-"2022","British Columbia","Total transportation",1.13
-"2022","British Columbia","Agriculture, fishing, hunting and trapping",0.1
-"2022","British Columbia","Residential",0.51
-"2022","British Columbia","Public administration",0.03
-"2022","British Columbia","Commercial and other institutional",0.38
-"2022","Yukon","Energy use, final demand",2.94
-"2022","Yukon","Total industrial",0.84
-"2022","Yukon","Total transportation",1.43
-"2022","Yukon","Agriculture, fishing, hunting and trapping",0
-"2022","Yukon","Residential",0.25
-"2022","Yukon","Public administration",0.04
-"2022","Yukon","Commercial and other institutional",0.39
-"2022","Northwest Territories","Energy use, final demand",3.59
-"2022","Northwest Territories","Total industrial",0.67
-"2022","Northwest Territories","Total transportation",1.86
-"2022","Northwest Territories","Agriculture, fishing, hunting and trapping",0
-"2022","Northwest Territories","Residential",0.29
-"2022","Northwest Territories","Public administration",0.27
-"2022","Northwest Territories","Commercial and other institutional",0.5
-"2022","Nunavut","Energy use, final demand",1.9
-"2022","Nunavut","Total industrial",0.8
-"2022","Nunavut","Total transportation",0.52
-"2022","Nunavut","Agriculture, fishing, hunting and trapping",0.02
-"2022","Nunavut","Residential",0.28
-"2022","Nunavut","Public administration",0.07
-"2022","Nunavut","Commercial and other institutional",0.2
-"2023","Canada","Energy use, final demand",3.51
-"2023","Canada","Total industrial",1.24
-"2023","Canada","Total transportation",1.07
-"2023","Canada","Agriculture, fishing, hunting and trapping",0.12
-"2023","Canada","Residential",0.54
-"2023","Canada","Public administration",0.05
-"2023","Canada","Commercial and other institutional",0.49
-"2023","Newfoundland and Labrador","Energy use, final demand",3.45
-"2023","Newfoundland and Labrador","Total industrial",0.86
-"2023","Newfoundland and Labrador","Total transportation",1.32
-"2023","Newfoundland and Labrador","Agriculture, fishing, hunting and trapping",0.03
-"2023","Newfoundland and Labrador","Residential",0.58
-"2023","Newfoundland and Labrador","Public administration",0.09
-"2023","Newfoundland and Labrador","Commercial and other institutional",0.58
-"2023","Prince Edward Island","Energy use, final demand",2.96
-"2023","Prince Edward Island","Total industrial",0.5
-"2023","Prince Edward Island","Total transportation",1.27
-"2023","Prince Edward Island","Agriculture, fishing, hunting and trapping",0.33
-"2023","Prince Edward Island","Residential",0.41
-"2023","Prince Edward Island","Public administration",0.07
-"2023","Prince Edward Island","Commercial and other institutional",0.4
-"2023","Nova Scotia","Energy use, final demand",2.83
-"2023","Nova Scotia","Total industrial",0.28
-"2023","Nova Scotia","Total transportation",1.34
-"2023","Nova Scotia","Agriculture, fishing, hunting and trapping",0.06
-"2023","Nova Scotia","Residential",0.62
-"2023","Nova Scotia","Public administration",0.14
-"2023","Nova Scotia","Commercial and other institutional",0.39
-"2023","New Brunswick","Energy use, final demand",3.31
-"2023","New Brunswick","Total industrial",0.98
-"2023","New Brunswick","Total transportation",1.12
-"2023","New Brunswick","Agriculture, fishing, hunting and trapping",0.04
-"2023","New Brunswick","Residential",0.68
-"2023","New Brunswick","Public administration",0.09
-"2023","New Brunswick","Commercial and other institutional",0.39
-"2023","Quebec","Energy use, final demand",3.46
-"2023","Quebec","Total industrial",1.21
-"2023","Quebec","Total transportation",1.05
-"2023","Quebec","Agriculture, fishing, hunting and trapping",0.07
-"2023","Quebec","Residential",0.61
-"2023","Quebec","Public administration",0.08
-"2023","Quebec","Commercial and other institutional",0.44
-"2023","Ontario","Energy use, final demand",2.6
-"2023","Ontario","Total industrial",0.62
-"2023","Ontario","Total transportation",0.87
-"2023","Ontario","Agriculture, fishing, hunting and trapping",0.07
-"2023","Ontario","Residential",0.5
-"2023","Ontario","Public administration",0.03
-"2023","Ontario","Commercial and other institutional",0.5
-"2023","Manitoba","Energy use, final demand",3.68
-"2023","Manitoba","Total industrial",0.64
-"2023","Manitoba","Total transportation",1.28
-"2023","Manitoba","Agriculture, fishing, hunting and trapping",0.35
-"2023","Manitoba","Residential",0.69
-"2023","Manitoba","Public administration",0.07
-"2023","Manitoba","Commercial and other institutional",0.65
-"2023","Saskatchewan","Energy use, final demand",6.55
-"2023","Saskatchewan","Total industrial",2.61
-"2023","Saskatchewan","Total transportation",1.81
-"2023","Saskatchewan","Agriculture, fishing, hunting and trapping",0.84
-"2023","Saskatchewan","Residential",0.56
-"2023","Saskatchewan","Public administration",0.13
-"2023","Saskatchewan","Commercial and other institutional",0.6
-"2023","Alberta","Energy use, final demand",6.06
-"2023","Alberta","Total industrial",3.44
-"2023","Alberta","Total transportation",1.24
-"2023","Alberta","Agriculture, fishing, hunting and trapping",0.17
-"2023","Alberta","Residential",0.57
-"2023","Alberta","Public administration",0.05
-"2023","Alberta","Commercial and other institutional",0.6
-"2023","British Columbia","Energy use, final demand",2.71
-"2023","British Columbia","Total industrial",0.66
-"2023","British Columbia","Total transportation",1.12
-"2023","British Columbia","Agriculture, fishing, hunting and trapping",0.09
-"2023","British Columbia","Residential",0.45
-"2023","British Columbia","Public administration",0.03
-"2023","British Columbia","Commercial and other institutional",0.35
-"2023","Yukon","Energy use, final demand",3
-"2023","Yukon","Total industrial",0.83
-"2023","Yukon","Total transportation",1.49
-"2023","Yukon","Agriculture, fishing, hunting and trapping",0
-"2023","Yukon","Residential",0.24
-"2023","Yukon","Public administration",0.04
-"2023","Yukon","Commercial and other institutional",0.4
-"2023","Northwest Territories","Energy use, final demand",3.37
-"2023","Northwest Territories","Total industrial",0.58
-"2023","Northwest Territories","Total transportation",1.83
-"2023","Northwest Territories","Agriculture, fishing, hunting and trapping",0
-"2023","Northwest Territories","Residential",0.26
-"2023","Northwest Territories","Public administration",0.25
-"2023","Northwest Territories","Commercial and other institutional",0.46
-"2023","Nunavut","Energy use, final demand",2.02
-"2023","Nunavut","Total industrial",0.81
-"2023","Nunavut","Total transportation",0.65
-"2023","Nunavut","Agriculture, fishing, hunting and trapping",0.02
-"2023","Nunavut","Residential",0.27
-"2023","Nunavut","Public administration",0.07
-"2023","Nunavut","Commercial and other institutional",0.2
-"2024","Canada","Energy use, final demand",3.46
-"2024","Canada","Total industrial",1.23
-"2024","Canada","Total transportation",1.06
-"2024","Canada","Agriculture, fishing, hunting and trapping",0.12
-"2024","Canada","Residential",0.53
-"2024","Canada","Public administration",0.05
-"2024","Canada","Commercial and other institutional",0.47
-"2024","Newfoundland and Labrador","Energy use, final demand",3.39
-"2024","Newfoundland and Labrador","Total industrial",0.89
-"2024","Newfoundland and Labrador","Total transportation",1.24
-"2024","Newfoundland and Labrador","Agriculture, fishing, hunting and trapping",0.03
-"2024","Newfoundland and Labrador","Residential",0.56
-"2024","Newfoundland and Labrador","Public administration",0.09
-"2024","Newfoundland and Labrador","Commercial and other institutional",0.58
-"2024","Prince Edward Island","Energy use, final demand",2.85
-"2024","Prince Edward Island","Total industrial",0.47
-"2024","Prince Edward Island","Total transportation",1.23
-"2024","Prince Edward Island","Agriculture, fishing, hunting and trapping",0.33
-"2024","Prince Edward Island","Residential",0.37
-"2024","Prince Edward Island","Public administration",0.06
-"2024","Prince Edward Island","Commercial and other institutional",0.39
-"2024","Nova Scotia","Energy use, final demand",2.75
-"2024","Nova Scotia","Total industrial",0.29
-"2024","Nova Scotia","Total transportation",1.29
-"2024","Nova Scotia","Agriculture, fishing, hunting and trapping",0.06
-"2024","Nova Scotia","Residential",0.6
-"2024","Nova Scotia","Public administration",0.14
-"2024","Nova Scotia","Commercial and other institutional",0.38
-"2024","New Brunswick","Energy use, final demand",3.28
-"2024","New Brunswick","Total industrial",0.98
-"2024","New Brunswick","Total transportation",1.1
-"2024","New Brunswick","Agriculture, fishing, hunting and trapping",0.04
-"2024","New Brunswick","Residential",0.68
-"2024","New Brunswick","Public administration",0.09
-"2024","New Brunswick","Commercial and other institutional",0.39
-"2024","Quebec","Energy use, final demand",3.4
-"2024","Quebec","Total industrial",1.17
-"2024","Quebec","Total transportation",1.04
-"2024","Quebec","Agriculture, fishing, hunting and trapping",0.07
-"2024","Quebec","Residential",0.61
-"2024","Quebec","Public administration",0.08
-"2024","Quebec","Commercial and other institutional",0.43
-"2024","Ontario","Energy use, final demand",2.53
-"2024","Ontario","Total industrial",0.61
-"2024","Ontario","Total transportation",0.86
-"2024","Ontario","Agriculture, fishing, hunting and trapping",0.08
-"2024","Ontario","Residential",0.49
-"2024","Ontario","Public administration",0.02
-"2024","Ontario","Commercial and other institutional",0.48
-"2024","Manitoba","Energy use, final demand",3.64
-"2024","Manitoba","Total industrial",0.63
-"2024","Manitoba","Total transportation",1.32
-"2024","Manitoba","Agriculture, fishing, hunting and trapping",0.34
-"2024","Manitoba","Residential",0.65
-"2024","Manitoba","Public administration",0.07
-"2024","Manitoba","Commercial and other institutional",0.64
-"2024","Saskatchewan","Energy use, final demand",6.42
-"2024","Saskatchewan","Total industrial",2.54
-"2024","Saskatchewan","Total transportation",1.86
-"2024","Saskatchewan","Agriculture, fishing, hunting and trapping",0.76
-"2024","Saskatchewan","Residential",0.57
-"2024","Saskatchewan","Public administration",0.13
-"2024","Saskatchewan","Commercial and other institutional",0.56
-"2024","Alberta","Energy use, final demand",6.05
-"2024","Alberta","Total industrial",3.45
-"2024","Alberta","Total transportation",1.24
-"2024","Alberta","Agriculture, fishing, hunting and trapping",0.15
-"2024","Alberta","Residential",0.56
-"2024","Alberta","Public administration",0.05
-"2024","Alberta","Commercial and other institutional",0.59
-"2024","British Columbia","Energy use, final demand",2.69
-"2024","British Columbia","Total industrial",0.66
-"2024","British Columbia","Total transportation",1.09
-"2024","British Columbia","Agriculture, fishing, hunting and trapping",0.1
-"2024","British Columbia","Residential",0.46
-"2024","British Columbia","Public administration",0.03
-"2024","British Columbia","Commercial and other institutional",0.36
-"2024","Yukon","Energy use, final demand",3.18
-"2024","Yukon","Total industrial",0.87
-"2024","Yukon","Total transportation",1.55
-"2024","Yukon","Agriculture, fishing, hunting and trapping",0
-"2024","Yukon","Residential",0.26
-"2024","Yukon","Public administration",0.05
-"2024","Yukon","Commercial and other institutional",0.45
-"2024","Northwest Territories","Energy use, final demand",3.37
-"2024","Northwest Territories","Total industrial",0.57
-"2024","Northwest Territories","Total transportation",1.82
-"2024","Northwest Territories","Agriculture, fishing, hunting and trapping",0
-"2024","Northwest Territories","Residential",0.25
-"2024","Northwest Territories","Public administration",0.25
-"2024","Northwest Territories","Commercial and other institutional",0.47
-"2024","Nunavut","Energy use, final demand",2.04
-"2024","Nunavut","Total industrial",0.91
-"2024","Nunavut","Total transportation",0.58
-"2024","Nunavut","Agriculture, fishing, hunting and trapping",0.03
-"2024","Nunavut","Residential",0.26
-"2024","Nunavut","Public administration",0.07
-"2024","Nunavut","Commercial and other institutional",0.2
+"Year","Geography","Value"
+"2015",,3.98
+"2015","Newfoundland and Labrador",3.85
+"2015","Prince Edward Island",3.63
+"2015","Nova Scotia",3.54
+"2015","New Brunswick",4.16
+"2015","Quebec",3.96
+"2015","Ontario",3.19
+"2015","Manitoba",4.04
+"2015","Saskatchewan",6.3
+"2015","Alberta",6.05
+"2015","British Columbia",3.18
+"2015","Yukon",3.04
+"2015","Northwest Territories",4.1
+"2015","Nunavut",3.28
+"2016",,3.92
+"2016","Newfoundland and Labrador",3.8
+"2016","Prince Edward Island",3.64
+"2016","Nova Scotia",3.38
+"2016","New Brunswick",4.18
+"2016","Quebec",3.88
+"2016","Ontario",3.13
+"2016","Manitoba",4.09
+"2016","Saskatchewan",6.21
+"2016","Alberta",6.03
+"2016","British Columbia",3.29
+"2016","Yukon",2.83
+"2016","Northwest Territories",3.34
+"2016","Nunavut",2.86
+"2017",,3.95
+"2017","Newfoundland and Labrador",3.72
+"2017","Prince Edward Island",3.5
+"2017","Nova Scotia",3.47
+"2017","New Brunswick",3.95
+"2017","Quebec",
+"2017","Ontario",3.09
+"2017","Manitoba",4.04
+"2017","Saskatchewan",6.51
+"2017","Alberta",6.28
+"2017","British Columbia",
+"2017","Yukon",2.98
+"2017","Northwest Territories",3.62
+"2017","Nunavut",2.35
+"2018",,4.02
+"2018","Newfoundland and Labrador",3.79
+"2018","Prince Edward Island",3.39
+"2018","Nova Scotia",3.53
+"2018","New Brunswick",4
+"2018","Quebec",3.84
+"2018","Ontario",3.09
+"2018","Manitoba",4.19
+"2018","Saskatchewan",6.88
+"2018","Alberta",6.57
+"2018","British Columbia",3.32
+"2018","Yukon",3.28
+"2018","Northwest Territories",3.53
+"2018","Nunavut",2.44
+"2019",,3.98
+"2019","Newfoundland and Labrador",3.65
+"2019","Prince Edward Island",3.36
+"2019","Nova Scotia",3.34
+"2019","New Brunswick",3.93
+"2019","Quebec",3.83
+"2019","Ontario",3.03
+"2019","Manitoba",4.07
+"2019","Saskatchewan",6.9
+"2019","Alberta",6.74
+"2019","British Columbia",3.24
+"2019","Yukon",3.41
+"2019","Northwest Territories",3.6
+"2019","Nunavut",2.32
+"2020",,3.76
+"2020","Newfoundland and Labrador",3.2
+"2020","Prince Edward Island",3.43
+"2020","Nova Scotia",3.11
+"2020","New Brunswick",3.65
+"2020","Quebec",3.56
+"2020","Ontario",2.79
+"2020","Manitoba",3.93
+"2020","Saskatchewan",6.73
+"2020","Alberta",6.65
+"2020","British Columbia",3.02
+"2020","Yukon",2.88
+"2020","Northwest Territories",3.38
+"2020","Nunavut",1.81
+"2021",,3.65
+"2021","Newfoundland and Labrador",3.17
+"2021","Prince Edward Island",3.25
+"2021","Nova Scotia",2.95
+"2021","New Brunswick",3.44
+"2021","Quebec",3.48
+"2021","Ontario",2.66
+"2021","Manitoba",3.83
+"2021","Saskatchewan",7.35
+"2021","Alberta",6.58
+"2021","British Columbia",2.86
+"2021","Yukon",2.92
+"2021","Northwest Territories",3.38
+"2021","Nunavut",1.85
+"2022",,3.63
+"2022","Newfoundland and Labrador",3.4
+"2022","Prince Edward Island",3.05
+"2022","Nova Scotia",2.92
+"2022","New Brunswick",3.53
+"2022","Quebec",3.51
+"2022","Ontario",2.66
+"2022","Manitoba",3.89
+"2022","Saskatchewan",6.96
+"2022","Alberta",6.36
+"2022","British Columbia",2.85
+"2022","Yukon",2.94
+"2022","Northwest Territories",3.59
+"2022","Nunavut",1.9
+"2023",,3.51
+"2023","Newfoundland and Labrador",3.45
+"2023","Prince Edward Island",2.96
+"2023","Nova Scotia",2.83
+"2023","New Brunswick",3.31
+"2023","Quebec",3.46
+"2023","Ontario",2.6
+"2023","Manitoba",3.68
+"2023","Saskatchewan",6.55
+"2023","Alberta",6.06
+"2023","British Columbia",2.71
+"2023","Yukon",3
+"2023","Northwest Territories",3.37
+"2023","Nunavut",2.02
+"2024",,3.46
+"2024","Newfoundland and Labrador",3.39
+"2024","Prince Edward Island",2.85
+"2024","Nova Scotia",2.75
+"2024","New Brunswick",3.28
+"2024","Quebec",3.4
+"2024","Ontario",2.53
+"2024","Manitoba",3.64
+"2024","Saskatchewan",6.42
+"2024","Alberta",6.05
+"2024","British Columbia",2.69
+"2024","Yukon",3.18
+"2024","Northwest Territories",3.37
+"2024","Nunavut",2.04
