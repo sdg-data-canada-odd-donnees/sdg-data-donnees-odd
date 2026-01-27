@@ -6403,7 +6403,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -6421,23 +6420,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Supply and demand characteristics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Consommation énergétique finale",
-                "Total industriel",
-                "Total transport",
-                "Agriculture, pêche, chasse et piégage",
-                "Résidentiel",
-                "Administrations publiques",
-                "Commerces et autres institutions",
-                ""
-              ]
-            },
-            "title": "Caractéristiques de disponibilité et écoulement"
           },
           {
             "name": "Value",
