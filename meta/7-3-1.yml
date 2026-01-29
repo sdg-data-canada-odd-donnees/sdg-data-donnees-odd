@@ -4,9 +4,9 @@ SDG_GOAL: >-
 SDG_TARGET: >-
     Target 7.3: By 2030, double the global rate of improvement in energy efficiency
 SDG_INDICATOR: >-
-    Indicator 7.3.1: Energy intensity [measured in terms of energy use, final demand and gross domestic product (GDP)]
+    Indicator 7.3.1: Energy intensity
 STAT_CONC_DEF: >-
-    This indicator measures the total energy use, final demand in terms of GDP. This is expressed as Terajoules per million dollars of real GDP.
+    This indicator measures the total energy use intensity in terms of gross domestic product (GDP). This is expressed as Terajoules per million dollars of real GDP.
 DATA_COMP: >-
     Energy intensity = energy use, final demand / Real GDP, expenditure based, at market prices (chained 2017 Canadian dollars)
 REC_USE_LIM: >-
