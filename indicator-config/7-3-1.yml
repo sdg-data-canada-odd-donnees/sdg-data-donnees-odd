@@ -10,8 +10,6 @@ data_show_map: false
 data_start_values:
 - field: Geography
   value: Canada
-- field: Supply and demand characteristics
-  value: Energy use, final demand
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -34,7 +32,7 @@ permalink: ''
 precision: []
 progress_calculation_options:
 - direction: negative
-  target: 2.8325
+  target: 1.99
 proxy: proxy
 reporting_status: complete
 sort: ''
