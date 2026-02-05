@@ -3413,20 +3413,20 @@
   score: -2.8529688174626067
 7-3-1:
   7-3-1:
-    base_value: null
+    base_value: 3.98
     base_year: 2015.0
-    current_value: null
-    current_year: null
+    current_value: 3.46
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: null
-    score: null
-    sign: null
-    status: not_available
-    target: 2.8325
+    progress_value: 0.3418332244553311
+    score: -1.075683503661972
+    sign: 1
+    status: limited_progress
+    target: 1.99
     target_year: 2030.0
-  progress_status: not_available
-  score: null
+  progress_status: limited_progress
+  score: -1.075683503661972
 7-a-1:
   7-a-1:
     base_value: 0.576365
@@ -3863,11 +3863,11 @@
   9-5-2:
     base_value: 4556.85
     base_year: 2015.0
-    current_value: 5571.23
-    current_year: 2022.0
+    current_value: 5872.04
+    current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: 0.029128201114571484
+    progress_value: 0.03220399127617202
     score: 5.0
     sign: 1
     status: substantial_progress
