@@ -20,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Services",
                 "Agriculture, sylviculture et pêche",
                 "Industrie",
-                "Services",
                 ""
               ]
             },
