@@ -7,9 +7,9 @@ SDG_INDICATOR: >-
   Indicator 10.7.2: Canada's established and well-managed immigration and refugee programs and policies
 STAT_CONC_DEF: >-
   SDG Indicator 10.7.2 aims to describe the state of national migration policies and how such policies change over time. The information collected seeks to identify both progress made and gaps, thus contributing to the evidence base for actionable recommendations for the implementation of SDG target 10.7. The indicator also serves for the future thematic reviews at the High-level Political Forum on Sustainable Development (HLPF).
-DATA_COMP: '1 = Nécessite des progrès supplémentaires ; 2 = Répond partiellement ; 3 = Répond ; 4 = Répond pleinement.'
+DATA_COMP: '1 = Requires further progress; 2 = Partially meets; 3 = Meets; 4 = Fully meets.'
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress-details
+PROGRESS_DETAILS: '   '
 
 # Global
 SDG_GOAL__GLOBAL: >-
