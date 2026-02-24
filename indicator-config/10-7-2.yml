@@ -18,7 +18,7 @@ expected_disaggregations:
   - Policy domain
 graph_annotations: []
 graph_limits:
-  - minimum: 1
+  - minimum: 0
     maximum: 4
 precision:
   - decimals: 0
