@@ -4553,6 +4553,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total",
                 "Migrant rights",
                 "Whole-of-government/evidence-based policies",
                 "Cooperation and partnerships",
@@ -4565,7 +4566,7 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
