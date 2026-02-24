@@ -19,7 +19,7 @@ expected_disaggregations:
 graph_annotations: []
 graph_limits:
   - minimum: 0.0
-  - maximum: 4.0
+    maximum: 4.0
 graph_step_size:
   - step: 1.0
 graph_stacked_disaggregation: ""
