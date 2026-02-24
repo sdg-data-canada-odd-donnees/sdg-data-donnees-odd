@@ -21,16 +21,16 @@
             "constraints": {
               "enum": [
                 "Total",
-                "Migrant rights",
-                "Whole-of-government/evidence-based policies",
-                "Cooperation and partnerships",
-                "Socioeconomic well-being",
-                "Mobility dimensions of crises",
-                "Safe, orderly and regular migration",
+                "Domaine 1. Droits des migrants",
+                "Domaine 2. Politiques pangouvernementales fondées sur des données probantes",
+                "Domaine 3. Coopération et partenariats",
+                "Domaine 4. Bien-être socio-économique",
+                "Domaine 5. Dimensions de mobilité des crises",
+                "Domaine 6. Migration sûre, ordonnée et régulière",
                 ""
               ]
             },
-            "title": "Policy domain"
+            "title": "Domaine politique"
           },
           {
             "name": "Value",
