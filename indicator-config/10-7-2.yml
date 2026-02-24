@@ -18,10 +18,10 @@ expected_disaggregations:
   - Policy domain
 graph_annotations: []
 graph_limits:
-  - minimum: 0.0
-    maximum: 4.0
-graph_step_size:
-  - step: 1.0
+  - minimum: 1
+    maximum: 4
+precision:
+  - decimals: 0
 graph_stacked_disaggregation: ""
 graph_title: chart.10-7-2-title
 graph_titles: []
