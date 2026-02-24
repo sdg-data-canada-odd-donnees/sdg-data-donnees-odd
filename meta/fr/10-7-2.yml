@@ -7,7 +7,7 @@ SDG_INDICATOR: >-
   Indicateur 10.7.2 : Les programmes et politiques du Canada en matière d'immigration et de réfugiés, établis et bien gérés.
 STAT_CONC_DEF: >-
   L’indicateur ODD 10.7.2 vise à décrire l’état des politiques migratoires nationales et la manière dont ces politiques évoluent au fil du temps. Les informations collectées visent à identifier à la fois les progrès réalisés et les lacunes, contribuant ainsi à la base de données factuelles pour des recommandations concrètes pour la mise en œuvre de la cible 10.7 des ODD. L'indicateur sert également pour les futurs examens thématiques du Forum politique de haut niveau sur le développement durable (High-Level Political Forum on Sustainable Development (HLPF)).
-DATA_COMP: '   '
+DATA_COMP: '1 = Requires further progress; 2 = Partially meets; 3 = Meets; 4 = Fully meets.'
 REC_USE_LIM: '   '
 PROGRESS_DETAILS: custom.progress-details
 
@@ -26,15 +26,22 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # Source(s)
+
 source_active_1: 'true'
-source_url_text_1: Immigrer au Canada
-source_url_1: https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada.html
-source_organisation_1: Immigration, Réfugiés et Citoyenneté Canada (IRCC)
+source_url_text_1: ODD Indicateur 10.7.2 sur les politiques migratoires
+source_url_1: https://www.un.org/development/desa/pd/data/sdg-indicator-1072-migration-policies
+source_organisation_1: Nations unies, division de la population
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
-source_url_text_2: Réfugiés et demandes d’asile
-source_url_2: https://www.canada.ca/fr/immigration-refugies-citoyennete/services/refugies.html
+source_url_text_2: Immigrer au Canada
+source_url_2: https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada.html
 source_organisation_2: Immigration, Réfugiés et Citoyenneté Canada (IRCC)
 source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: Réfugiés et demandes d’asile
+source_url_3: https://www.canada.ca/fr/immigration-refugies-citoyennete/services/refugies.html
+source_organisation_3: Immigration, Réfugiés et Citoyenneté Canada (IRCC)
+source_geographical_coverage_3: Canada
  
