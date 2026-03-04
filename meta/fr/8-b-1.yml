@@ -40,7 +40,15 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 # Source(s)
 source_active_1: 'true'
-source_url_text_1: "Stratégie emploi et compétences jeunesse"
-source_url_1: https://www.canada.ca/fr/emploi-developpement-social/services/financement/strategie-emploi-jeunesse.html
-source_organisation_1: Emploi et Développement social Canada
+source_url_text_1: "Base de données des indicateurs des ODD"
+source_url_1: https://unstats.un.org/sdgs/dataportal/database
+source_organisation_1: Nations unies - Département des affaires économiques et sociales
+source_periodicity_1: Annuelle
 source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: "Stratégie emploi et compétences jeunesse"
+source_url_2: https://www.canada.ca/fr/emploi-developpement-social/services/financement/strategie-emploi-jeunesse.html
+source_organisation_2: Emploi et Développement social Canada
+source_periodicity_2: Occasionnelle
+source_geographical_coverage_2: Canada
