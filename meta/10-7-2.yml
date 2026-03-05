@@ -27,7 +27,7 @@ STAT_CONC_DEF: >-
   regardless of immigration status”, coded “1”; “Yes, only for those with legal immigration status”, coded 
   “0.5”; and “No”, coded “0”.
   <br><br>
-  Values of less than 40 per cent are coded as “Requires further progress”, values of 40 per cent to less than 80 per cent are coded as “Partially meets”, and values of 80 per cent to less than 100 per cent are coded as “Meets”, while values of 100 per cent are coded as “Fully meets”.
+  After calculations and weighting, values of less than 40 per cent are coded as “Requires further progress”, values of 40 per cent to less than 80 per cent are coded as “Partially meets”, and values of 80 per cent to less than 100 per cent are coded as “Meets”, while values of 100 per cent are coded as “Fully meets”.
 DATA_COMP: >-
   Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.
 REC_USE_LIM: '   '
