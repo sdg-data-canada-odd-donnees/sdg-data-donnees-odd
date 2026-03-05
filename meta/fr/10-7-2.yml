@@ -27,7 +27,7 @@ STAT_CONC_DEF: >-
   quel que soit le statut d'immigration », codé « 1 » ; « Oui, uniquement pour les personnes ayant un statut d'immigration légal », codé 
   « 0,5 » ; et « Non », codé « 0 ».
   <br><br>
-  Les valeurs inférieures à 40 % sont codées comme « Nécessite des progrès supplémentaires », les valeurs comprises entre 40 % et moins de 80 % sont codées comme « Répond partiellement », les valeurs comprises entre 80 % et moins de 100 % sont codées comme « Répond », tandis que les valeurs de 100 % sont codées comme « Répond pleinement ».
+  Après calculs et pondération, les valeurs inférieures à 40 % sont codées comme « Nécessite des progrès supplémentaires », les valeurs comprises entre 40 % et moins de 80 % sont codées comme « Répond partiellement », les valeurs comprises entre 80 % et moins de 100 % sont codées comme « Répond », tandis que les valeurs de 100 % sont codées comme « Répond pleinement ».
 DATA_COMP: >-
   Les données étaient disponibles pour donner des précisions à propos de cet indicateur comme précisé par les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
 REC_USE_LIM: '   '
