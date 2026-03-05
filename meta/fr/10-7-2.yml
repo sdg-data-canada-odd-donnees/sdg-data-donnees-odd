@@ -8,6 +8,25 @@ SDG_INDICATOR: >-
 STAT_CONC_DEF: >-
   L’indicateur ODD 10.7.2 vise à décrire l’état des politiques migratoires nationales et la manière dont ces politiques évoluent au fil du temps. Les informations collectées visent à identifier à la fois les progrès réalisés et les lacunes, contribuant ainsi à la base de données factuelles pour des recommandations concrètes pour la mise en œuvre de la cible 10.7 des ODD. L'indicateur sert également pour les futurs examens thématiques du Forum politique de haut niveau sur le développement durable (High-Level Political Forum on Sustainable Development (HLPF)).
   <br><br>
+  L'indicateur comprend au total 30 sous-catégories, 5 pour chacun des 6 domaines/questions. 
+  <br><br>
+  1. Droits des migrants;
+  <br>
+  2. Politiques pangouvernementales fondées sur des données probantes;
+  <br>
+  3. Coopération et partenariats;
+  <br>
+  4. Bien-être socio-économique;
+  <br>
+  5. Dimensions de mobilité des crises;
+  <br>
+  6. Migration sûre, ordonnée et régulière.
+  <br><br>
+  Toutes les sous-catégories, à l'exception de celles relevant du domaine 1, ont des réponses dichotomiques « Oui/Non », codées « 1 » pour « Oui » 
+  et « 0 » pour « Non ». Pour les sous-catégories du domaine 1, trois réponses sont possibles : « Oui, 
+  quel que soit le statut d'immigration », codé « 1 » ; « Oui, uniquement pour les personnes ayant un statut d'immigration légal », codé 
+  « 0,5 » ; et « Non », codé « 0 ».
+  <br><br>
   Les valeurs inférieures à 40 % sont codées comme « Nécessite des progrès supplémentaires », les valeurs comprises entre 40 % et moins de 80 % sont codées comme « Répond partiellement », les valeurs comprises entre 80 % et moins de 100 % sont codées comme « Répond », tandis que les valeurs de 100 % sont codées comme « Répond pleinement ».
 DATA_COMP: >-
   Les données étaient disponibles pour donner des précisions à propos de cet indicateur comme précisé par les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
@@ -34,17 +53,20 @@ source_active_1: 'true'
 source_url_text_1: ODD Indicateur 10.7.2 sur les politiques migratoires
 source_url_1: https://www.un.org/development/desa/pd/data/sdg-indicator-1072-migration-policies
 source_organisation_1: Nations unies, division de la population
+source_periodicity_1: Occasionnelle
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
 source_url_text_2: Immigrer au Canada
 source_url_2: https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada.html
 source_organisation_2: Immigration, Réfugiés et Citoyenneté Canada (IRCC)
+source_periodicity_2: Occasionnelle
 source_geographical_coverage_2: Canada
 
 source_active_3: 'true'
 source_url_text_3: Réfugiés et demandes d’asile
 source_url_3: https://www.canada.ca/fr/immigration-refugies-citoyennete/services/refugies.html
 source_organisation_3: Immigration, Réfugiés et Citoyenneté Canada (IRCC)
+source_periodicity_3: Occasionnelle
 source_geographical_coverage_3: Canada
  
