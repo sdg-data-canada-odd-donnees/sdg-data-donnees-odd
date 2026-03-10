@@ -19,7 +19,7 @@ STAT_CONC_DEF: >-
   2. Bases de données de l’OIT :
   <br>
   Le suivi international des politiques d’emploi des jeunes a été réalisé au cours de la période 2010-2012 par le Réseau pour l’emploi des jeunes – un partenariat entre l’OIT, les Nations Unies et la Banque mondiale – à l’aide d’un questionnaire envoyé aux autorités nationales. Ce questionnaire est devenu YouthPOL, un inventaire des politiques et programmes pour l’emploi des jeunes tenu par l’OIT (65 pays couverts à ce jour). L’OIT gère également EmPol, un ensemble de données sur les politiques nationales de l’emploi au sens large (143 pays couverts). 
-DATA_COMP: '   '
+DATA_COMP: Les données étaient disponibles pour donner des précisions à propos de cet indicateur comme précisé par les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.
 REC_USE_LIM: '   '
 PROGRESS_DETAILS: custom.progress-details
 
@@ -39,3 +39,37 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-0b-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # Source(s)
+source_active_1: 'true'
+source_url_text_1: "Base de données des indicateurs des ODD"
+source_url_1: https://unstats.un.org/sdgs/dataportal/database
+source_organisation_1: Nations unies - Département des affaires économiques et sociales
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: "Évaluation horizontale de la Stratégie emploi et compétences jeunesse"
+source_url_2: https://www.canada.ca/fr/emploi-developpement-social/ministere/rapports/evaluations/strategie-emploi-competences-jeunesse.html#h2.8
+source_organisation_2: Emploi et Développement social Canada
+source_periodicity_2: Occasionnelle
+source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: "Stratégie emploi et compétences jeunesse"
+source_url_3: https://www.canada.ca/fr/emploi-developpement-social/services/financement/strategie-emploi-jeunesse.html
+source_organisation_3: Emploi et Développement social Canada
+source_periodicity_3: Occasionnelle
+source_geographical_coverage_3: Canada
+
+source_active_4: 'true'
+source_url_text_4: "Initiatives Horizontales"
+source_url_4: https://www.canada.ca/fr/emploi-developpement-social/ministere/rapports/resultats-ministeriels/2023-2024/initiatives-horizontales.html#h2.1
+source_organisation_4: Emploi et Développement social Canada
+source_periodicity_4: Annuelle
+source_geographical_coverage_4: Canada
+
+source_active_5: 'true'
+source_url_text_5: "Initiatives Horizontales - Rapport sur les résultats ministériels 2024 à 2025 d’Emploi et Développement social Canada"
+source_url_5: https://www.canada.ca/fr/emploi-developpement-social/ministere/rapports/resultats-ministeriels/2024-2025/initiatives-horizontales.html#h2.1
+source_organisation_5: Emploi et Développement social Canada
+source_periodicity_5: Annuelle
+source_geographical_coverage_5: Canada

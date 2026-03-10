@@ -7,9 +7,31 @@ SDG_INDICATOR: >-
   Indicator 10.7.2: Canada's established and well-managed immigration and refugee programs and policies
 STAT_CONC_DEF: >-
   SDG Indicator 10.7.2 aims to describe the state of national migration policies and how such policies change over time. The information collected seeks to identify both progress made and gaps, thus contributing to the evidence base for actionable recommendations for the implementation of SDG target 10.7. The indicator also serves for the future thematic reviews at the High-level Political Forum on Sustainable Development (HLPF).
-DATA_COMP: '     '
+  <br><br>
+  The indicator includes a total of 30 sub-categories, 5 under each of the 6 domains/questions. 
+  <br><br>
+  1. Migrant rights;
+  <br>
+  2. Whole-of-government/ Evidence-based policies;
+  <br>
+  3. Cooperation and partnerships;
+  <br>
+  4. Socioeconomic well-being;
+  <br>
+  5. Mobility dimensions of crises;
+  <br>
+  6. Safe, orderly and regular migration.
+  <br><br>
+  All sub-categories, except for those under domain 1, have dichotomous “Yes/No” answers, coded “1” for “Yes” 
+  and “0” for “No”. For the sub-categories under domain 1, there are three possible answers: “Yes, 
+  regardless of immigration status”, coded “1”; “Yes, only for those with legal immigration status”, coded 
+  “0.5”; and “No”, coded “0”.
+  <br><br>
+  After calculations and weighting, values of less than 40 per cent are coded as “Requires further progress”, values of 40 per cent to less than 80 per cent are coded as “Partially meets”, and values of 80 per cent to less than 100 per cent are coded as “Meets”, while values of 100 per cent are coded as “Fully meets”.
+DATA_COMP: >-
+  Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress-details
+PROGRESS_DETAILS: '   '
 
 # Global
 SDG_GOAL__GLOBAL: >-
@@ -27,13 +49,29 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # Source(s)
 source_active_1: 'true'
-source_url_text_1: Immigrate to Canada
-source_url_1: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html
-source_organisation_1: Immigration, Refugees and Citizenship Canada
+source_url_text_1: SDG Indicator 10.7.2 on Migration Policies
+source_url_1: https://www.un.org/development/desa/pd/data/sdg-indicator-1072-migration-policies
+source_organisation_1: United Nations, Population Division
+source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada
 
 source_active_2: 'true'
-source_url_text_2: Refugees and asylum
-source_url_2: https://www.canada.ca/en/immigration-refugees-citizenship/services/refugees.html
+source_url_text_2: Immigrate to Canada
+source_url_2: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html
 source_organisation_2: Immigration, Refugees and Citizenship Canada
+source_periodicity_2: Occasional
 source_geographical_coverage_2: Canada
+
+source_active_3: 'true'
+source_url_text_3: Refugees and asylum
+source_url_3: https://www.canada.ca/en/immigration-refugees-citizenship/services/refugees.html
+source_organisation_3: Immigration, Refugees and Citizenship Canada
+source_periodicity_3: Occasional
+source_geographical_coverage_3: Canada
+
+source_active_4: 'true'
+source_url_text_4: SDG Indicators Database
+source_organisation_4: United Nations Department of Economic and Social Affairs
+source_periodicity_4: Annual
+source_geographical_coverage_4: Canada
+source_url_4: https://unstats.un.org/sdgs/indicators/database/
