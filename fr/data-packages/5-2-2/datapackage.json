@@ -26,7 +26,6 @@
                 "45 à 54 ans",
                 "55 à 64 ans",
                 "65 à 74 ans",
-                "75 ans et plus",
                 ""
               ]
             },
@@ -38,7 +37,6 @@
             "constraints": {
               "enum": [
                 "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
                 "Nouveau-Brunswick",
                 "Québec",
@@ -60,8 +58,6 @@
                 "Personne autochtone",
                 "Premières Nations",
                 "Métis",
-                "Inuit",
-                "Nombreuses identités autochtones ou groupe particulier non précisé",
                 "Personne non autochtone",
                 ""
               ]
@@ -98,10 +94,7 @@
             "constraints": {
               "enum": [
                 "Hétérosexuel",
-                "Gai ou lesbienne",
                 "Bisexuel",
-                "Orientation sexuelle non classée ailleurs",
-                "Orientation sexuelle non précisée",
                 ""
               ]
             },

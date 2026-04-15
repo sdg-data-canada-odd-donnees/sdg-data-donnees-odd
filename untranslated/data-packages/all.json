@@ -323,9 +323,7 @@
                 "Lethbridge, Alberta",
                 "Fredericton, New Brunswick",
                 "Drummondville, Quebec",
-                "Red Deer, Alberta",
                 "Kamloops, British Columbia",
-                "Chilliwack, British Columbia",
                 "Nanaimo, British Columbia",
                 ""
               ]
@@ -1354,7 +1352,6 @@
                 "45 to 54 years",
                 "55 to 64 years",
                 "65 to 74 years",
-                "75 years and over",
                 ""
               ]
             }
@@ -1365,7 +1362,6 @@
             "constraints": {
               "enum": [
                 "Newfoundland and Labrador",
-                "Prince Edward Island",
                 "Nova Scotia",
                 "New Brunswick",
                 "Quebec",
@@ -1386,8 +1382,6 @@
                 "Indigenous person",
                 "First Nations",
                 "Métis",
-                "Inuk",
-                "Multiple Indigenous identities or specific group not stated",
                 "Non-Indigenous person",
                 ""
               ]
@@ -1421,10 +1415,7 @@
             "constraints": {
               "enum": [
                 "Heterosexual",
-                "Gay or lesbian",
                 "Bisexual",
-                "Sexual orientation not elsewhere classified",
-                "Sexual orientation not stated",
                 ""
               ]
             }
@@ -3106,12 +3097,12 @@
                 "Newfoundland and Labrador",
                 "Northwest Territories",
                 "Nova Scotia",
-                "Nunavut",
                 "Ontario",
                 "Prince Edward Island",
                 "Quebec",
                 "Saskatchewan",
                 "Yukon",
+                "Nunavut",
                 ""
               ]
             }
@@ -3722,7 +3713,6 @@
               "enum": [
                 "Canada",
                 "Newfoundland and Labrador",
-                "Prince Edward Island",
                 "Nova Scotia",
                 "New Brunswick",
                 "Quebec",
@@ -3731,6 +3721,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
+                "Prince Edward Island",
                 "Yukon, Northwest Territories and Nunavut",
                 ""
               ]
@@ -3788,7 +3779,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "All materials diverted",
                 "All paper fibres",
                 "Glass",
                 "Ferrous metals",
@@ -3802,10 +3792,11 @@
                 "Tires",
                 "Construction, renovation and demolition",
                 "All organic materials",
+                "Other materials",
+                "All materials diverted",
                 "Food waste and source separated organics",
                 "Leaf and yard waste",
                 "Other organic materials",
-                "Other materials",
                 ""
               ]
             }
@@ -3815,9 +3806,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "All sources of diverted materials",
                 "Residential sources of diverted materials",
                 "Non-residential sources of diverted materials",
-                "All sources of diverted materials",
                 ""
               ]
             }
@@ -5983,15 +5974,15 @@
                 "New Brunswick",
                 "Newfoundland and Labrador",
                 "Northern Territories",
-                "Northwest Territories",
                 "Nova Scotia",
-                "Nunavut",
                 "Ontario",
                 "Prairie Region",
                 "Prince Edward Island",
                 "Quebec",
                 "Saskatchewan",
                 "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }
@@ -6582,15 +6573,14 @@
                 "British Columbia",
                 "Quebec",
                 "Nova Scotia",
-                "Saskatchewan",
                 "Ontario",
                 "Manitoba",
+                "Saskatchewan",
                 "Prince Edward Island",
                 "Northwest Territories",
                 "Alberta",
                 "Newfoundland and Labrador",
                 "Yukon",
-                "Nunavut",
                 ""
               ]
             }
@@ -9565,7 +9555,6 @@
                 "Drummondville, Quebec",
                 "Montréal, Quebec",
                 "Ottawa - Gatineau (Quebec part), Quebec",
-                "L'Ange-Gardien, Quebec",
                 "Québec, Quebec",
                 "Saguenay, Quebec",
                 "Sherbrooke, Quebec",

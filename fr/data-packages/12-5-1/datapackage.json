@@ -42,7 +42,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les matières",
                 "Toutes les fibres cellulosiques",
                 "Verre",
                 "Métaux ferreux",
@@ -56,10 +55,11 @@
                 "Pneus",
                 "Déchets provenant de la construction, de la rénovation et de la démolition",
                 "Toutes les matières organiques",
+                "Autres matières",
+                "Toutes les matières",
                 "Déchets de nourriture et matières organiques séparées à la source",
                 "Feuilles et résidus de jardin",
                 "Autres matières organiques",
-                "Autres matières",
                 ""
               ]
             },
@@ -70,9 +70,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Toutes les sources des matières récupérées",
                 "Sources des matières résidentielles récupérées",
                 "Sources des matières non résidentielles récupérées",
-                "Toutes les sources des matières récupérées",
                 ""
               ]
             },
