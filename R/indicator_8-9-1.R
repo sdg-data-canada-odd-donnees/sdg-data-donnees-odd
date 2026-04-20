@@ -35,7 +35,7 @@ data_final <-
     Year = substr(REF_DATE, 1, 4)  
   ) %>% 
   group_by(Year) %>%  
-  summarise(data_final = round2((sum(VALUE)/4), 2), .groups = "drop") # en arrondissant les 0.5 par en haut
+  summarise(Value = round2((sum(VALUE)/4), 2), .groups = "drop") # en arrondissant les 0.5 par en haut
   #summarise(data_final = round((sum(VALUE)/4), 2), .groups = "drop") # en arrondissant normalement (0,5 par en bas)
   #summarise(data_final = sum(VALUE)/4, .groups = "drop") # en n'arrondissant pas
 
