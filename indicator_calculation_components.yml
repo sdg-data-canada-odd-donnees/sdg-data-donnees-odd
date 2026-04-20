@@ -3603,11 +3603,37 @@
   progress_status: substantial_progress
   score: 5.0
 8-9-1:
-  progress_status: ''
-  score: null
+  8-9-1:
+    base_value: 1.94
+    base_year: 2015.0
+    current_value: 1.73
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: -0.011391278875650501
+    score: -3.9239098594563124
+    sign: 1
+    status: deterioration
+    target: null
+    target_year: 2030.0
+  progress_status: deterioration
+  score: -3.9239098594563124
 8-9-2:
-  progress_status: ''
-  score: null
+  8-9-2:
+    base_value: 1950.0
+    base_year: 2015.0
+    current_value: 2129.9
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: 0.008863617034811533
+    score: 0.9659042587028832
+    sign: 1
+    status: moderate_progress
+    target: null
+    target_year: 2030.0
+  progress_status: moderate_progress
+  score: 0.9659042587028832
 8-a-1:
   8-a-1 / Commitments:
     base_value: 857.054085
