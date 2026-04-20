@@ -1,40 +1,31 @@
 # Indicator 8.9.1 ------------------------------------------------------
 # Tourism direct GDP as a proportion of total GDP and in growth rate
 
-stop("Temporary skip 8.9.1")  #Currently set to exploring data sources
-
 library(dplyr)
 library(cansim)
 
-national_gdp <- get_cansim("36-10-0434-03", factors = FALSE)
-tourism_gdp <- get_cansim("36-10-0234-01", factors = FALSE)
+# Petite fonction pour arrondir les 0.5 par en haut et non par en bas comme fait R. Trouvée ici : https://stackoverflow.com/questions/12688717/round-up-from-5
+round2 = function(x, digits) {
+  posneg = sign(x)
+  z = abs(x)*10^digits
+  z = z + 0.5 + sqrt(.Machine$double.eps)
+  z = trunc(z)
+  z = z/10^digits
+  z*posneg
+}
 
-national_gdp <- 
-  national_gdp %>% 
-  filter(
-    substr(REF_DATE, 1, 4) >= 2014,
-    `Seasonal adjustment` == "Seasonally adjusted at annual rates",
-    Prices == "Chained (2012) dollars",
-    `North American Industry Classification System (NAICS)` == "All industries [T001]"
-  ) %>% 
-  select(
-    REF_DATE,
-    VALUE
-  ) %>% 
-  mutate(
-    Year = substr(REF_DATE, 1, 4)
-  ) %>% 
-  group_by(Year) %>% 
-  summarise(GDP = mean(VALUE), .groups = "drop")
+tourism_gdp <- get_cansim("36-10-0235-01", factors = FALSE)
+# Check if last year in raw data is complete
+# i.e. all quarters are available
+if (substr(last(tourism_gdp$REF_DATE), 6, 7) != "10") {
+  # If last year not complete, filter out last year
+  tourism_gdp <- filter(tourism_gdp, REF_DATE < substr(max(REF_DATE), 1, 4))
+}
 
-
-tourism_gdp <- 
+data_final <- 
   tourism_gdp %>% 
   filter(
-    substr(REF_DATE, 1, 4) >= 2014,
-    `Seasonal adjustment` == "Seasonally adjusted at quarterly rates",
-    Prices == "2012 constant prices",
-    Activities == "Tourism gross domestic product (GDP)"
+    substr(REF_DATE, 1, 4) >= 2015,
   ) %>% 
   select(
     REF_DATE,
@@ -43,17 +34,10 @@ tourism_gdp <-
   mutate(
     Year = substr(REF_DATE, 1, 4)  
   ) %>% 
-  group_by(Year) %>% 
-  summarise(Tourism_GDP = sum(VALUE), .groups = "drop") 
-  # mutate(Value = round(((Value / lag(Value)) - 1) * 100, 2)) %>% 
-  # filter(Year > 2014)
-
-data_final <- 
-  left_join(tourism_gdp, national_gdp) %>% 
-  transmute(
-    Year, 
-    Value = round((Tourism_GDP/GDP)*100, 2)
-  )
+  group_by(Year) %>%  
+  summarise(data_final = round2((sum(VALUE)/4), 2), .groups = "drop") # en arrondissant les 0.5 par en haut
+  #summarise(data_final = round((sum(VALUE)/4), 2), .groups = "drop") # en arrondissant normalement (0,5 par en bas)
+  #summarise(data_final = sum(VALUE)/4, .groups = "drop") # en n'arrondissant pas
 
 write.csv(
   data_final,
