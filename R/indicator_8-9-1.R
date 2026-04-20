@@ -32,7 +32,7 @@ data_final <-
     VALUE
   ) %>% 
   mutate(
-    Year = substr(REF_DATE, 1, 4)  
+    Year = as.numeric(substr(REF_DATE, 1, 4))
   ) %>% 
   group_by(Year) %>%  
   summarise(Value = round2((sum(VALUE)/4), 2), .groups = "drop") # en arrondissant les 0.5 par en haut
