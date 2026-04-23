@@ -12,7 +12,7 @@ library(readsdmx)
 # Sector = Agriculture
 # Flow type = Disbursements, Price base = Constant prices
 
-url_CRS_flows <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.4/CAN.DPGC.311.14+100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
+url_CRS_flows <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,/CAN.DPGC.311.14+100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 
 raw_data <- read_sdmx(url_CRS_flows)
 

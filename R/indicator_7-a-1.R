@@ -19,13 +19,13 @@ library(readsdmx)
 # Measure = Official Development Assistance
 # Flow type = Disbursements, Price base = Constant prices
 
-url <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.4/CAN.DPGC.23210+23220+23230+23231+23232+23240+23250+23260+23270+23410+23631+23182.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
+url <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,/CAN.DPGC.23210+23220+23230+23231+23232+23240+23250+23260+23270+23410+23631+23182.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 
 data_raw <- read_sdmx(url)
 
 data <- data_raw %>%
   mutate(
-    Sector = case_match(
+    Sector = recode_values(
       SECTOR,
       "23182" ~ "Energy research",
       "23210" ~ "Energy generation, renewable sources - multiple technologies",

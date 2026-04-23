@@ -10,7 +10,7 @@ library(readsdmx)
 # Measure = Official Development Assistance (ODA)
 # Sector = Medical research + Basic health
 # Flow type = Disbursements, Price base = Constant prices
-url <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.4/CAN.DPGC.122+12182.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
+url <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,/CAN.DPGC.122+12182.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 
 CRS_raw <- read_sdmx(url)
 

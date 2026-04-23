@@ -5,7 +5,7 @@ options(timeout = 300)
 library(dplyr)
 library(readsdmx)
 
-url <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.4/CAN.DPGC.110.100._T.E.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
+url <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,/CAN.DPGC.110.100._T.E.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 
 scholarship_df <- read_sdmx(url)
 
