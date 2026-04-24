@@ -32,6 +32,10 @@ deterioration: Détérioration
 progress_not_available: Évaluation impossible
 # progress_help: ''
 progress_header: <strong>État du progrès actuel</strong>
-progress_status: <strong>État du progrès actuel</strong> 
+progress_status: État du progrès actuel
+progress_status_indicators: <strong>État du progrès actuel</strong>
 target_achieved: Cible atteinte
 not_available_manual: Non disponible
+# Nouvelle page de statut de progrès
+progress_status_overall: Situation générale de l’avancement
+progress_not_available_full: Mesure des progrès non disponible
