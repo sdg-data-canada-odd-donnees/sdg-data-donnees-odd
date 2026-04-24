@@ -13,7 +13,7 @@ library(readsdmx)
 # Sector = Biodiversity
 # Flow type = Disbursements, Price base = Constant prices
 
-url <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.4/CAN.DPGC.41030.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
+url <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,/CAN.DPGC.41030.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 
 biodiversity_df <- read_sdmx(url)
 
