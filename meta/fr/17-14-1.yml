@@ -23,10 +23,6 @@ STAT_CONC_DEF: |
 DATA_COMP: "Chacun des huit thèmes est noté sur une échelle de 0 à 12, où 0 signifie qu'aucun des mécanismes requis 
   n'est mis en œuvre, et 12 signifie que tous les mécanismes requis sont en place et pleinement mis en œuvre. 
   En additionnant les notes des 8 thèmes, la valeur maximale est de 96. La note sur 96 est convertie en pourcentage aux fins de la communication de l'indicateur 17.14.1 des ODD."
-
-"Each of the eight themes is scored on a scale from 0 to 12, where 0 means none of the requested 
-  mechanisms are implemented, 12 means all the requested mechanisms are in place and fully implemented. 
-  Scaling all 8 themes, the maximum value is 96. The score out of 96 is converted to a percentage for the purpose of reporting SDG indicator 17.14.1."
 REC_USE_LIM: '   '
 PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
