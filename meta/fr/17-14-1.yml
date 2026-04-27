@@ -16,7 +16,7 @@ STAT_CONC_DEF: |
   <li>au suivi et aux rapports pour la cohérence des politiques</li>
   <li>au financement de la cohérence des politiques</li>
   </ol>
-DATA_COMP: '   '
+DATA_COMP: "Les données nécessaires à l'établissement de ce rapport sur cet indicateur étaient facilement accessibles, conformément aux métadonnées. Veuillez vous reporter aux sources pour obtenir des informations supplémentaires sur les métadonnées ou la source."
 REC_USE_LIM: '   '
 PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
@@ -26,11 +26,17 @@ SDG_TARGET__GLOBAL: '<p>Cible 17.14 : Renforcer la cohérence des politiques de
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.14.1 : Nombre de pays ayant mis en place des mécanismes 
   pour renforcer la cohérence des politiques de développement durable</p>'
 
-reporting_status: notstarted
+reporting_status: complete
 
 un_designated_tier: Niveau II
 un_custodian_agency: Programme des Nations unies pour l’environnement (PNUE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-14-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
+ #Source
+source_active_1: 'true'
+source_url_text_1: Canadian Poverty Reduction Strategy
+source_url_1: https://www.canada.ca/en/employment-social-development/programs/poverty-reduction.html
+source_organisation_1: Employment and Social Development Canada
+source_geographical_coverage_1: Canada
  
