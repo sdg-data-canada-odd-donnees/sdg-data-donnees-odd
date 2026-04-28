@@ -11,8 +11,8 @@ on:
 jobs:
   run-progress-measure:
     runs-on: windows-2019
-#    env:
-#      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
     steps:
     - uses: actions/checkout@v5
       with:
