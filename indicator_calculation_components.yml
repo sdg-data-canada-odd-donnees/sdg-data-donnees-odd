@@ -706,20 +706,20 @@
   score: null
 12-5-1:
   12-5-1:
-    base_value: 257.635662113981
+    base_value: 224.964704409885
     base_year: 2018.0
-    current_value: 245.710663873295
-    current_year: 2023.0
+    current_value: 208.272562607894
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.009433570825266968
-    score: -3.679196353158371
+    progress_value: -0.012767116904636056
+    score: -4.095889613079507
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -3.679196353158371
+  score: -4.095889613079507
 12-6-1:
   progress_status: ''
   score: null
@@ -3712,12 +3712,12 @@
   9-1-2 / Rail freight volume:
     base_value: 304908351.0
     base_year: 2015.0
-    current_value: 325563272.0
-    current_year: 2023.0
+    current_value: 329178846.0
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.00822685408282342
-    score: 0.8067135207058551
+    progress_value: 0.00854630906283016
+    score: 0.8865772657075399
     sign: 1
     status: moderate_progress
     target: null
@@ -3725,14 +3725,14 @@
   9-1-2 / Rail passengers:
     base_value: 3921000.0
     base_year: 2015.0
-    current_value: 4187000.0
-    current_year: 2023.0
+    current_value: 4490000.0
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.008238471427401528
-    score: 0.809617856850382
+    progress_value: 0.015170135700954601
+    score: 2.5850678504773006
     sign: 1
-    status: moderate_progress
+    status: substantial_progress
     target: null
     target_year: 2030.0
   9-1-2 / Road freight volume:
@@ -3748,8 +3748,8 @@
     status: moderate_progress
     target: null
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 2.4311753159774137
+  progress_status: substantial_progress
+  score: 2.8022380637031348
 9-2-1:
   9-2-1 / MVA as a proportion of GDP:
     base_value: 11.49
