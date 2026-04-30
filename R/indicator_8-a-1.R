@@ -15,7 +15,7 @@ library(readsdmx)
 #           Mineral resources and mining + Tourism
 # Measure = Official Development Assistance
 # Flow type = Disbursements/Commitments, Price base = Constant prices
-url_oda <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.4/CAN.DPGC.332+230+210+220+240+250+311+312+313+321+322+331.100._T._T.C+D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
+url_oda <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,/CAN.DPGC.332+230+210+220+240+250+311+312+313+321+322+331.100._T._T.C+D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 
 oda_raw <- read_sdmx(url_oda)
 

@@ -12,7 +12,7 @@ library(readsdmx)
 # Sector = Water supply & sanitation + Agricultural water resources
 # Measure = Official Development Assistance
 # Flow type = Disbursements, Price base = Constant prices
-url_oda <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.4/CAN.DPGC.140+31140.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
+url_oda <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,/CAN.DPGC.140+31140.100._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 
 oda_raw <- read_sdmx(url_oda)
 

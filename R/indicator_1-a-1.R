@@ -15,7 +15,7 @@ library(readsdmx)
 # (old URL)
 # url_odagrants <- "https://sxs-boost-oecd.redpelicans.com/boost-disseminate/v2/sdmx/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,/CAN.DPGC.112+122+140+520+16050.11._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions&format=csvfile"
 # (new URL)
-url_odagrants <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,1.4/CAN.DPGC.112+122+140+520+16050.11._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
+url_odagrants <- "https://sdmx.oecd.org/dcd-public/rest/data/OECD.DCD.FSD,DSD_CRS@DF_CRS,/CAN.DPGC.112+122+140+520+16050.11._T._T.D.Q._T..?startPeriod=2015&dimensionAtObservation=AllDimensions"
 
 # URL of source for GNI
 # DAC1: Flows by donor (ODA+OOF+Private). See https://data-explorer.oecd.org/vis?lc=en&fs[0]=Topic%2C1%7CDevelopment%23DEV%23%7COfficial%20Development%20Assistance%20%28ODA%29%23DEV_ODA%23&fs[1]=Donor%2C0%7CCanada%23CAN%23&fs[2]=Measure%2C0%7CGross%20National%20Income%20%28GNI%29%231%23&pg=0&fc=Measure&snb=1&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_DAC1%40DF_DAC1&df[ag]=OECD.DCD.FSD&df[vs]=1.2&dq=CAN.1....Q.&pd=2015%2C&to[TIME_PERIOD]=false&vw=tb

@@ -706,20 +706,20 @@
   score: null
 12-5-1:
   12-5-1:
-    base_value: 257.635662113981
+    base_value: 224.964704409885
     base_year: 2018.0
-    current_value: 245.710663873295
-    current_year: 2023.0
+    current_value: 208.272562607894
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.009433570825266968
-    score: -3.679196353158371
+    progress_value: -0.012767116904636056
+    score: -4.095889613079507
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -3.679196353158371
+  score: -4.095889613079507
 12-6-1:
   progress_status: ''
   score: null
@@ -1100,13 +1100,13 @@
   score: null
 15-a-1:
   15-a-1:
-    base_value: 0.562069
+    base_value: 0.571817
     base_year: 2015.0
-    current_value: 34.848917
-    current_year: 2023.0
+    current_value: 42.116327
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.6751355547114224
+    progress_value: 0.6123745563043483
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -1116,13 +1116,13 @@
   score: 5.0
 15-b-1:
   15-b-1:
-    base_value: 0.562069
+    base_value: 0.571817
     base_year: 2015.0
-    current_value: 34.848917
-    current_year: 2023.0
+    current_value: 42.116327
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.6751355547114224
+    progress_value: 0.6123745563043483
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -1506,13 +1506,13 @@
   score: null
 17-19-1:
   17-19-1:
-    base_value: 7.481718
+    base_value: 7.611514
     base_year: 2015.0
-    current_value: 3.175712
-    current_year: 2023.0
+    current_value: 4.724331
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.10157884031092013
+    progress_value: -0.05161325791759064
     score: -5.0
     sign: 1
     status: deterioration
@@ -1744,20 +1744,20 @@
   score: -2.95211906517989
 2-a-2:
   2-a-2:
-    base_value: 195.771276
+    base_value: 199.167569
     base_year: 2015.0
-    current_value: 151.914306
-    current_year: 2023.0
+    current_value: 166.54202
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.031206507786166737
-    score: -5.0
+    progress_value: -0.019681394850126877
+    score: -4.96017435626586
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -5.0
+  score: -4.96017435626586
 2-b-1:
   2-b-1:
     base_value: 81124.0
@@ -2290,20 +2290,20 @@
   score: 0.36700060989816463
 3-b-2:
   3-b-2:
-    base_value: 379.842149
+    base_value: 386.431757
     base_year: 2015.0
-    current_value: 436.241642
-    current_year: 2023.0
+    current_value: 223.085969
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.01745566834658585
-    score: 3.7278341732929263
+    progress_value: -0.059218372692688814
+    score: -5.0
     sign: 1
-    status: substantial_progress
+    status: deterioration
     target: null
     target_year: 2030.0
-  progress_status: substantial_progress
-  score: 3.7278341732929263
+  progress_status: deterioration
+  score: -5.0
 3-b-3:
   progress_status: ''
   score: null
@@ -3076,20 +3076,20 @@
   score: 3.220734430029098
 4-b-1:
   4-b-1:
-    base_value: 9.115909
+    base_value: 9.274056
     base_year: 2015.0
-    current_value: 5.944217
-    current_year: 2023.0
+    current_value: 8.517991
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.052046936796643184
-    score: -5.0
+    progress_value: -0.009404422465659867
+    score: -3.6755528082074833
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -5.0
+  score: -3.6755528082074833
 4-c-1:
   progress_status: target_achieved
   score: null
@@ -3346,13 +3346,13 @@
   score: null
 6-a-1:
   6-a-1:
-    base_value: 84.157767
+    base_value: 85.617755
     base_year: 2015.0
-    current_value: 31.975212
-    current_year: 2023.0
+    current_value: 33.794082
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.11393638415705276
+    progress_value: -0.09813430293053538
     score: -5.0
     sign: 1
     status: deterioration
@@ -3429,13 +3429,13 @@
   score: -1.075683503661972
 7-a-1:
   7-a-1:
-    base_value: 0.576365
+    base_value: 0.586365
     base_year: 2015.0
-    current_value: 285.590987
-    current_year: 2023.0
+    current_value: 139.598416
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 1.172105234236652
+    progress_value: 0.8368731297053631
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -3636,26 +3636,26 @@
   score: 0.9659042587028832
 8-a-1:
   8-a-1 / Commitments:
-    base_value: 857.054085
+    base_value: 871.922461
     base_year: 2015.0
-    current_value: 349.763953
-    current_year: 2023.0
+    current_value: 244.280346
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.10598284496578336
+    progress_value: -0.13183717642252457
     score: -5.0
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   8-a-1 / Disbursements:
-    base_value: 411.843332
+    base_value: 418.988127
     base_year: 2015.0
-    current_value: 599.958714
-    current_year: 2023.0
+    current_value: 652.30948
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.048150548252160474
+    progress_value: 0.05041600504613597
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -3712,12 +3712,12 @@
   9-1-2 / Rail freight volume:
     base_value: 304908351.0
     base_year: 2015.0
-    current_value: 325563272.0
-    current_year: 2023.0
+    current_value: 329178846.0
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.00822685408282342
-    score: 0.8067135207058551
+    progress_value: 0.00854630906283016
+    score: 0.8865772657075399
     sign: 1
     status: moderate_progress
     target: null
@@ -3725,14 +3725,14 @@
   9-1-2 / Rail passengers:
     base_value: 3921000.0
     base_year: 2015.0
-    current_value: 4187000.0
-    current_year: 2023.0
+    current_value: 4490000.0
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.008238471427401528
-    score: 0.809617856850382
+    progress_value: 0.015170135700954601
+    score: 2.5850678504773006
     sign: 1
-    status: moderate_progress
+    status: substantial_progress
     target: null
     target_year: 2030.0
   9-1-2 / Road freight volume:
@@ -3748,8 +3748,8 @@
     status: moderate_progress
     target: null
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 2.4311753159774137
+  progress_status: substantial_progress
+  score: 2.8022380637031348
 9-2-1:
   9-2-1 / MVA as a proportion of GDP:
     base_value: 11.49
@@ -3903,13 +3903,13 @@
   score: 5.0
 9-a-1:
   9-a-1:
-    base_value: 123.103738
+    base_value: 125.239385
     base_year: 2015.0
-    current_value: 389.448619
-    current_year: 2023.0
+    current_value: 416.800494
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.15484145699510754
+    progress_value: 0.1429331017195863
     score: 5.0
     sign: 1
     status: substantial_progress
