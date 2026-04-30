@@ -12,12 +12,30 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
           },
           {
+            "name": "Theme",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1. Engagement politique",
+                "2. Vision à long terme",
+                "3. Intégration du développement durable dans les politiques et les finances",
+                "4. Coordination à l'échelle de l'ensemble du gouvernement",
+                "5. Implication infranationale",
+                "6. Participation des parties prenantes",
+                "7. Évaluation d'impact",
+                "8. Suivi, évaluation et rapports",
+                ""
+              ]
+            },
+            "title": "Thème"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Valeur"
           }
         ]
