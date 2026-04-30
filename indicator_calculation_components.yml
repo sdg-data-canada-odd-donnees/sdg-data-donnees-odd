@@ -1458,7 +1458,20 @@
   progress_status: ''
   score: null
 17-14-1:
-  progress_status: ''
+  17-14-1:
+    base_value: 82.0
+    base_year: 2025.0
+    current_value: 82.0
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: null
+    target_year: 2030.0
+  progress_status: not_available
   score: null
 17-15-1:
   progress_status: ''
