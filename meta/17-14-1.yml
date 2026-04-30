@@ -8,18 +8,18 @@ STAT_CONC_DEF: <p>The United Nations Environment Programme (UNEP) and the Organi
   indicator considers institutional and organisational mechanisms that can support efforts in enhancing 
   Policy Coherence of Sustainable Development (PCSD) across eight themes:</p>
   <ol>
-  <li>1. Political Commitment</li>
-  <li>2. Long-term Vision</li>
-  <li>3. The Integration of Sustainable Development into Policy and Finance</li>
-  <li>4. Whole-of-government Coordination</li>
-  <li>5. Sub-national Engagement</li>
-  <li>6. Stakeholder-engagement</li>
-  <li>7. Impact Assessment</li>
-  <li>8. Monitoring, Evaluation, and Reporting</li>
+  <li>Political Commitment</li>
+  <li>Long-term Vision</li>
+  <li>The Integration of Sustainable Development into Policy and Finance</li>
+  <li>Whole-of-government Coordination</li>
+  <li>Sub-national Engagement</li>
+  <li>Stakeholder-engagement</li>
+  <li>Impact Assessment</li>
+  <li>Monitoring, Evaluation, and Reporting</li>
   </ol>
 DATA_COMP: "Each of the eight themes is scored on a scale from 0 to 12, where 0 means none of the requested 
   mechanisms are implemented, 12 means all the requested mechanisms are in place and fully implemented. 
-  Scaling all 8 themes, the maximum value is 96. The score out of 96 is converted to a percentage for the purpose of reporting SDG indicator 17.14.1."
+  Scaling all 8 themes, the maximum value is 96. The score out of 96 (or out of 12 for the themes) is converted to a percentage for the purpose of reporting SDG indicator 17.14.1."
 REC_USE_LIM: '   '
 PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
