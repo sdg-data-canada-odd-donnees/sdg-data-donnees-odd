@@ -1673,11 +1673,37 @@
   progress_status: ''
   score: null
 2-3-1:
-  progress_status: ''
-  score: null
+  2-3-1:
+    base_value: 263568.0
+    base_year: 2016.0
+    current_value: 337083.0
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.05043415359530057
+    score: 5.0
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
+  progress_status: substantial_progress
+  score: 5.0
 2-3-2:
-  progress_status: ''
-  score: null
+  2-3-2:
+    base_value: 45467.0
+    base_year: 2016.0
+    current_value: 57919.0
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.0496027286704841
+    score: 5.0
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
+  progress_status: substantial_progress
+  score: 5.0
 2-4-1:
   2-4-1 / Current score:
     base_value: 3.83
@@ -3202,8 +3228,34 @@
   progress_status: ''
   score: null
 5-a-1:
-  progress_status: ''
-  score: null
+  5-a-1 / (a) The proportion (%) of farm operators among the total farm population by sex,Female farm operator:
+    base_value: null
+    base_year: 2015.0
+    current_value: null
+    current_year: null
+    direction: 1
+    limit: null
+    progress_value: null
+    score: null
+    sign: null
+    status: not_available
+    target: null
+    target_year: 2030.0
+  5-a-1 / (b) The proportion (%) of female farm operators among the total farm operators by land tenure:
+    base_value: 28.7
+    base_year: 2016.0
+    current_value: 30.4
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.011575581601623863
+    score: 1.6438954004059658
+    sign: 1
+    status: moderate_progress
+    target: null
+    target_year: 2030.0
+  progress_status: moderate_progress
+  score: 1.6438954004059658
 5-a-2:
   progress_status: ''
   score: null
