@@ -12,8 +12,35 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "a) Proportion de la population agricole totale ayant des droits de propriété ou des droits garantis sur des terres agricoles, par sexe",
+                "b) proportion de femmes parmi les titulaires de droits de propriété ou de droits garantis sur des terrains agricoles, par type de droit",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population agricole (femme)",
+                "Population agricole (homme)",
+                "Fermes déclarant uniquement la superficie qu'elles possèdent",
+                "Fermes déclarant uniquement les superficies louées à des tiers",
+                "Fermes déclarant la superficie qu'elles possèdent et les superficies louées à des tiers",
+                ""
+              ]
+            },
+            "title": "Caractéristiques"
           },
           {
             "name": "Value",

@@ -2332,6 +2332,57 @@
       "title": "Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months"
     },
     {
+      "path": "5-a-1/data.csv",
+      "name": "5-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "(a) The proportion (%) of farm operators among the total farm population by sex",
+                "(b) The proportion (%) of female farm operators among the total farm operators by land tenure",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female farm operator",
+                "Male farm operator",
+                "Farms only reporting area owned",
+                "Farms only reporting area rented or leased from others only",
+                "Farms reporting area owned and rented or leased from others",
+                ""
+              ]
+            },
+            "title": "Characteristics"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure"
+    },
+    {
       "path": "3-d-1/data.csv",
       "name": "3-d-1",
       "profile": "tabular-data-resource",
@@ -11189,30 +11240,6 @@
         ]
       },
       "title": "Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education"
-    },
-    {
-      "path": "5-a-1/data.csv",
-      "name": "5-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure"
     },
     {
       "path": "16-5-2/data.csv",

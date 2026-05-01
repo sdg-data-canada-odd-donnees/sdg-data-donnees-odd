@@ -12,7 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "(a) The proportion (%) of farm operators among the total farm population by sex",
+                "(b) The proportion (%) of female farm operators among the total farm operators by land tenure",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female farm operator",
+                "Male farm operator",
+                "Farms only reporting area owned",
+                "Farms only reporting area rented or leased from others only",
+                "Farms reporting area owned and rented or leased from others",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
