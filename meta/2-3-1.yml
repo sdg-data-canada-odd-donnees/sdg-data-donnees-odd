@@ -12,7 +12,10 @@ STAT_CONC_DEF: |
   activities per number of days worked. The indicator is computed as a ratio of annual output to the 
   number of working days in one year.
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |
+  Total revenue is not calculated using a constant selling price for product i in year t; rather, it reflects the nominal prices received for each product at each sale. Sales may be recorded on a cash or accrual basis, depending on each producer’s accounting preferences.
+  <br><br>
+  The average annual productivity is calculated as the ratio of total revenue to the number of farm operators, rather than by the number of labor days employed, as specified in the UN metadata'
  
 PROGRESS_DETAILS: custom.progress-details
 # GLOBAL
@@ -31,9 +34,9 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
   
 # SOURCE(S)
-# source_active_1: 'true'
-# source_url_text_1: Census of Agriculture. Custom tabulation.
-# source_url_1: https://www.statcan.gc.ca/en/census-agriculture
-# source_organisation_1: Statistics Canada
-# source_periodicity_1: Every 5 years
-# source_geographical_coverage_1: Canada
+source_active_1: 'true'
+source_url_text_1: Census of Agriculture. Custom tabulation.
+source_url_1: https://www.statcan.gc.ca/en/census-agriculture
+source_organisation_1: Statistics Canada
+source_periodicity_1: Every 5 years
+source_geographical_coverage_1: Canada

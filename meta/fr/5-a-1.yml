@@ -16,7 +16,11 @@ STAT_CONC_DEF: |-
   <br><br>
   Les grands types d’occupation répertoriés par le Groupe d’experts des Nations Unies et de l’extérieur chargé des indicateurs relatifs aux objectifs de développement durable sont la tenure franche, la tenure coutumière et la tenure à bail.
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |-
+  Le recensement de l'agriculture ne recense pas directement les parts de propriété ; il recueille plutôt des informations sur les exploitants agricoles, qui peuvent ou non détenir des parts dans l'exploitation agricole.
+  <br><br>
+  L'ONU définit la population agricole comme les personnes adultes vivant dans des ménages agricoles, tandis que le recensement de l'agriculture n'impose aucune restriction d'âge et ne permet pas d'exclure les personnes âgées de moins de 18 ans.
+
 PROGRESS_DETAILS: custom.progress-details
 
 # Global
@@ -31,4 +35,10 @@ un_designated_tier: Niveau II
 un_custodian_agency: Organisation des Nations Unies pour l’alimentation et l’agriculture (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-0a-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
- 
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: "Statistique Canada. Recensement de l'agriculture. Totalisation personnalisée."
+source_url_1: https://www.statcan.gc.ca/fr/census-agriculture
+source_organisation_1: Statistique Canada
+source_periodicity_1: Aux 5 ans
