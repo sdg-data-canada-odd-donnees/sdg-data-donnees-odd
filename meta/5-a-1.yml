@@ -16,7 +16,10 @@ STAT_CONC_DEF: |-
   <br><br>
   Broad types of tenure identified by the IAEG-SDG are freehold, customary and leasehold.
 DATA_COMP: '   '
-REC_USE_LIM: '   '
+REC_USE_LIM: |-
+  The Census of Agriculture does not track ownership stakes directly; instead, it collects information on farm operators, who may or may not hold ownership in the farm business.
+  <br><br>
+  The UN defines the agricultural population as adult individuals living in agricultural households, whereas the Census of Agriculture places no age restriction and lacks the capability to exclude individuals under the age of 18.
 PROGRESS_DETAILS: custom.progress-details
 
 # Global
@@ -31,4 +34,11 @@ un_designated_tier: Tier II
 un_custodian_agency: Food and Agriculture Organization of the United Nations (FAO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-0a-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
- 
+
+# Source(s)
+source_active_1: 'true'
+source_url_text_1: Census of Agriculture. Custom tabulation.
+source_url_1: https://www.statcan.gc.ca/en/census-agriculture
+source_organisation_1: Statistics Canada
+source_periodicity_1: Every 5 years
+source_geographical_coverage_1: Canada
