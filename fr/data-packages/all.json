@@ -6769,6 +6769,9 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
@@ -7296,6 +7299,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
+                "Territoires",
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
@@ -7310,8 +7314,6 @@
             "constraints": {
               "enum": [
                 "Les deux sexes",
-                "Homme",
-                "Femme",
                 ""
               ]
             },
@@ -7349,11 +7351,17 @@
                 "Personnes dans les couples",
                 "Personnes dans les familles comptant un couple avec des enfants",
                 "Personnes dans les familles comptant un couple avec d'autres personnes apparentées",
-                "Personnes dans les familles monoparentales",
+                "Persons in one-parent families",
+                "Persons in one-parent families where the parent is a man+",
+                "Persons in one-parent families where the parent is a woman+",
                 "Persons in other non-senior families",
                 "Personnes hors famille économique",
                 "Seniors not in an economic family",
+                "Senior men+ not in an economic family",
+                "Senior women+ not in an economic family",
                 "Non-seniors not in an economic family",
+                "Non-senior men+ not in an economic family",
+                "Non-senior women+ not in an economic family",
                 ""
               ]
             },
