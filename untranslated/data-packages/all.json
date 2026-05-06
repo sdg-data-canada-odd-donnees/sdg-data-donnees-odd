@@ -2728,9 +2728,17 @@
             "constraints": {
               "enum": [
                 "All persons",
+                "Men+",
+                "Men+, 18 to 64 years",
+                "Men+, 65 years and over",
+                "Men+, under 18 years",
                 "Persons 18 to 64 years",
                 "Persons 65 years and over",
                 "Persons under 18 years",
+                "Women+",
+                "Women+, 18 to 64 years",
+                "Women+, 65 years and over",
+                "Women+, under 18 years",
                 ""
               ]
             }
@@ -6776,11 +6784,14 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
+                "Both genders",
+                "Men+",
+                "Women+",
+                "Man+",
                 ""
               ]
             }

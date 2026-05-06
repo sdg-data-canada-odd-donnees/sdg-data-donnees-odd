@@ -2953,9 +2953,17 @@
             "constraints": {
               "enum": [
                 "Toutes les personnes",
+                "Hommes+",
+                "Hommes+, 18 à 64 ans",
+                "Hommes+, 65 ans et plus",
+                "Hommes+, moins de 18 ans",
                 "Personnes de 18 à 64 ans",
                 "Personnes de 65 ans et plus",
                 "Personnes de moins de 18 ans",
+                "Femmes+",
+                "Femmes+, 18 à 64 ans",
+                "Femmes+, 65 ans et plus",
+                "Femmes+, moins de 18 ans",
                 ""
               ]
             },
@@ -6326,13 +6334,13 @@
                 "Personnes de 18 à 64 ans",
                 "Personnes de 65 ans et plus",
                 "Hommes+",
-                "Men+, under 18 years",
-                "Men+, 18 to 64 years",
-                "Men+, 65 years and over",
+                "Hommes+, moins de 18 ans",
+                "Hommes+, 18 à 64 ans",
+                "Hommes+, 65 ans et plus",
                 "Femmes+",
-                "Women+, under 18 years",
-                "Women+, 18 to 64 years",
-                "Women+, 65 years and over",
+                "Femmes+, moins de 18 ans",
+                "Femmes+, 18 à 64 ans",
+                "Femmes+, 65 ans et plus",
                 "Toutes les personnes",
                 ""
               ]
@@ -7306,15 +7314,18 @@
             "title": "Géographie"
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
+                "Both genders",
+                "Hommes+",
+                "Femmes+",
+                "Man+",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
           },
           {
             "name": "Age group",
@@ -7349,16 +7360,16 @@
                 "Personnes dans les familles comptant un couple avec des enfants",
                 "Personnes dans les familles comptant un couple avec d'autres personnes apparentées",
                 "Persons in one-parent families",
-                "Persons in one-parent families where the parent is a man+",
-                "Persons in one-parent families where the parent is a woman+",
+                "Personnes dans les familles monoparentales où le parent est un homme+",
+                "Personnes dans les familles monoparentales où le parent est une femme+",
                 "Persons in other non-senior families",
                 "Personnes hors famille économique",
                 "Seniors not in an economic family",
-                "Senior men+ not in an economic family",
-                "Senior women+ not in an economic family",
+                "Hommes+ âgés hors famille économique",
+                "Femmes+ âgées hors famille économique",
                 "Non-seniors not in an economic family",
-                "Non-senior men+ not in an economic family",
-                "Non-senior women+ not in an economic family",
+                "Hommes+ non âgés hors famille économique",
+                "Femmes+ non âgées hors famille économique",
                 ""
               ]
             },
