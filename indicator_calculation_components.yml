@@ -5,18 +5,18 @@
   1-2-1:
     base_value: 14.5
     base_year: 2015.0
-    current_value: 10.2
+    current_value: 10.4
     current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: 0.9525901792032172
-    score: 2.5185563910306596
+    progress_value: 0.9010899546976208
+    score: 2.1506954374096354
     sign: 1
-    status: substantial_progress
+    status: moderate_progress
     target: 7.25
     target_year: 2030.0
-  progress_status: substantial_progress
-  score: 2.5185563910306596
+  progress_status: moderate_progress
+  score: 2.1506954374096354
 1-2-2:
   progress_status: ''
   score: null
@@ -304,18 +304,18 @@
   10-2-1:
     base_value: 14.3
     base_year: 2015.0
-    current_value: 12.0
-    current_year: 2023.0
+    current_value: 12.5
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.021680632810150535
-    score: 5.0
+    progress_value: 0.014836712064466018
+    score: 2.459178016116504
     sign: 1
-    status: substantial_progress
+    status: moderate_progress
     target: null
     target_year: 2030.0
-  progress_status: substantial_progress
-  score: 5.0
+  progress_status: moderate_progress
+  score: 2.459178016116504
 10-3-1:
   10-3-1 / Proportion of population reporting to have experienced discrimination or unfair treatment:
     base_value: 35.9
