@@ -60,10 +60,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Both genders",
+                "All genders",
                 "Men+",
                 "Women+",
-                "Man+",
                 ""
               ]
             }
