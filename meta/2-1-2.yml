@@ -14,6 +14,7 @@ STAT_CONC_DEF: |-
   <li>Moderately food insecure: Indication of compromise in quality and/or quantity of food consumed;</li>
   <li>Severely food insecure: Indication of reduced food intake and disrupted eating patterns.</li>
   </ol>
+  <p>Given that the non-binary population is small, data aggregation to a two-category gender variable is necessary to protect the confidentiality of responses provided. Individuals in the category "non-binary persons" are distributed into the other two gender categories and are denoted by the "+" symbol. The category "Men+" includes men, as well as some non-binary persons, while the category "Women+" includes women, as well as some non-binary persons</p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |-
   The survey is conducted nationwide, in both the provinces and the territories. It covers all individuals in Canada, excluding persons living on reserves and other Indigenous settlements in the provinces, the institutionalized population, and households in extremely remote areas with very low population density. Overall, these exclusions amount to less than two per cent of the population. 

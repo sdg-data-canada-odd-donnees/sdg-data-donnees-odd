@@ -198,14 +198,14 @@ geocodes <- read.csv("geocodes.csv")
 
 demographics <- c(
   "All persons",
-  "Females",
-  "Females, 18 to 64 years",
-  "Females, 65 years and over",
-  "Females, under 18 years",
-  "Males",
-  "Males, 18 to 64 years",
-  "Males, 65 years and over",
-  "Males, under 18 years",
+  "Women+",
+  "Women+, 18 to 64 years",
+  "Women+, 65 years and over",
+  "Women+, under 18 years",
+  "Men+",
+  "Men+, 18 to 64 years",
+  "Men+, 65 years and over",
+  "Men+, under 18 years",
   "Persons 18 to 64 years",
   "Persons 65 years and over",
   "Persons under 18 years"

@@ -6,6 +6,7 @@ SDG_INDICATOR: '<p>Indicator 1.2.1: Proportion of population living below the na
   poverty line, by sex and age</p>'
 STAT_CONC_DEF: <p>This indicator measures the percentage of persons in low income using the Market Basket Measures (MBM), which was adopted as Canada’s Official Poverty Line. According to the MBM, a family lives in poverty if it does not have enough income to purchase a specific basket of goods and services in its community.</p> 
   <p>The Market Basket Measure (MBM) is based on the cost of a specific basket of goods and services representing a modest, basic standard of living. It includes the costs of food, clothing, shelter, transportation and other items for a reference family. These costs are compared to the disposable income of families to determine whether or not they fall below the poverty line.</p>
+  <p>Given that the non-binary population is small, data aggregation to a two-category gender variable is necessary to protect the confidentiality of responses provided. Individuals in the category "non-binary persons" are distributed into the other two gender categories and are denoted by the "+" symbol. The category "Men+" includes men, as well as some non-binary persons, while the category "Women+" includes women, as well as some non-binary persons</p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: 'It covers all individuals in Canada, excluding persons living on reserves and other Aboriginal settlements in the provinces, the institutionalized population, and households in extremely remote areas with very low population density. Overall, these exclusions amount to less than 2 percent of the population.'
 PROGRESS_DETAILS: custom.progress-details
@@ -26,7 +27,7 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 11-10-0135-01  Low income statistics by
-  age, sex and economic family type
+  age, gender and economic family type
 source_url_1: https://doi.org/10.25318/1110013501-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
