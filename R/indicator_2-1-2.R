@@ -130,8 +130,8 @@ filter_economic_families <-
   na.omit() %>%
   mutate(
     Gender = case_when(
-      `Economic family type` %in% female ~ "Women+",
-      `Economic family type` %in% male ~ "Men+",
+      `Economic family type` %in% women ~ "Women+",
+      `Economic family type` %in% men ~ "Men+",
       TRUE ~ "All genders"
     ),
     `Economic family type` = str_remove_all(`Economic family type`, "woman+ "),
@@ -159,15 +159,15 @@ filter_demographic_characteristics <-
   na.omit() %>%
   mutate(
     Gender = case_when(
-      `Demographic characteristics` %in% female ~ "Woman+",
-      `Demographic characteristics` %in% male ~ "Man+",
+      `Demographic characteristics` %in% women ~ "Woman+",
+      `Demographic characteristics` %in% men ~ "Man+",
       `Demographic characteristics` %in% persons ~ "All genders",
       `Demographic characteristics` == "Women+" ~ "Women+",
       `Demographic characteristics` == "Men+" ~ "Men+"
     ),
     `Age group` = case_when(
-      `Demographic characteristics` %in% female ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Women+, ")),
-      `Demographic characteristics` %in% male ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Men+, ")),
+      `Demographic characteristics` %in% women ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Women+, ")),
+      `Demographic characteristics` %in% men ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Men+, ")),
       `Demographic characteristics` %in% persons ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Persons "))
     ),
     `Economic family type` = case_when(
