@@ -132,7 +132,7 @@ filter_economic_families <-
     Gender = case_when(
       `Economic family type` %in% female ~ "Woman+",
       `Economic family type` %in% male ~ "Man+",
-      TRUE ~ "Both genders"
+      TRUE ~ "All genders"
     ),
     `Economic family type` = str_remove_all(`Economic family type`, "woman+ "),
     `Economic family type` = str_remove_all(`Economic family type`, "women+ "),
@@ -161,7 +161,7 @@ filter_demographic_characteristics <-
     Gender = case_when(
       `Demographic characteristics` %in% female ~ "Woman+",
       `Demographic characteristics` %in% male ~ "Man+",
-      `Demographic characteristics` %in% persons ~ "Both genders",
+      `Demographic characteristics` %in% persons ~ "All genders",
       `Demographic characteristics` == "Women+" ~ "Woman+",
       `Demographic characteristics` == "Men+" ~ "Man+"
     ),
@@ -210,7 +210,7 @@ food_insecurity <- bind_rows(
   mutate(
     across(
       c(Geography, Gender, `Economic family type`, `Household food security status`),
-      ~ replace(., Geography == "Canada" & Gender == "Both genders" & `Economic family type` == "All persons" & `Household food security status` == "Food insecure, moderate or severe", NA)
+      ~ replace(., Geography == "Canada" & Gender == "All genders" & `Economic family type` == "All persons" & `Household food security status` == "Food insecure, moderate or severe", NA)
     )
   )
 
