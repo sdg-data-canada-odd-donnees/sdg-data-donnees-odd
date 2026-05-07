@@ -24,19 +24,15 @@ age <- c(
   "65 years and over"
 )
 
-women <- c(
+woman <- c(
   "Persons in one-parent families where the parent is a woman+",
-  "Elderly women+ not in an economic family",
-  "Non-elderly women+ not in an economic family",
   "Non-senior women+ not in an economic family",
   "Senior women+ not in an economic family"
 ) %>%
   append(paste("Women+", age, sep = ", "))
 
-men <- c(
+man <- c(
   "Persons in one-parent families where the parent is a man+",
-  "Elderly men+ not in an economic family",
-  "Non-elderly men+ not in an economic family",
   "Non-senior men+ not in an economic family",
   "Senior men+ not in an economic family"
 ) %>%
@@ -130,16 +126,14 @@ filter_economic_families <-
   na.omit() %>%
   mutate(
     Gender = case_when(
-      `Economic family type` %in% women ~ "Women+",
-      `Economic family type` %in% men ~ "Men+",
+      `Economic family type` %in% woman ~ "Woman+",
+      `Economic family type` %in% man ~ "Man+",
       TRUE ~ "All genders"
     ),
     `Economic family type` = str_remove_all(`Economic family type`, "woman+ "),
     `Economic family type` = str_remove_all(`Economic family type`, "women+ "),
     `Economic family type` = str_remove_all(`Economic family type`, "man+ "),
     `Economic family type` = str_remove_all(`Economic family type`, "men+ "),
-    `Economic family type` = str_replace_all(`Economic family type`, "Elderly not ", "Elderly persons not "),
-    `Economic family type` = str_replace_all(`Economic family type`, "Non-elderly not ", "Non-elderly persons not "),
     `Economic family type` = str_replace_all(`Economic family type`, "Senior not ", "Seniors not "),
     `Economic family type` = str_replace_all(`Economic family type`, "Non-senior not ", "Non-seniors not "),
   ) %>%
@@ -159,15 +153,15 @@ filter_demographic_characteristics <-
   na.omit() %>%
   mutate(
     Gender = case_when(
-      `Demographic characteristics` %in% women ~ "Woman+",
-      `Demographic characteristics` %in% men ~ "Man+",
+      `Demographic characteristics` %in% woman ~ "Woman+",
+      `Demographic characteristics` %in% man ~ "Man+",
       `Demographic characteristics` %in% persons ~ "All genders",
       `Demographic characteristics` == "Women+" ~ "Woman+",
       `Demographic characteristics` == "Men+" ~ "Man+"
     ),
     `Age group` = case_when(
-      `Demographic characteristics` %in% women ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Women+, ")),
-      `Demographic characteristics` %in% men ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Men+, ")),
+      `Demographic characteristics` %in% woman ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Women+, ")),
+      `Demographic characteristics` %in% man ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Men+, ")),
       `Demographic characteristics` %in% persons ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Persons "))
     ),
     `Economic family type` = case_when(
