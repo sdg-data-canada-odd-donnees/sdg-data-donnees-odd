@@ -24,15 +24,19 @@ age <- c(
   "65 years and over"
 )
 
-woman <- c(
+female <- c(
   "Persons in one-parent families where the parent is a woman+",
+  "Elderly women+ not in an economic family",
+  "Non-elderly women+ not in an economic family",
   "Non-senior women+ not in an economic family",
   "Senior women+ not in an economic family"
 ) %>%
   append(paste("Women+", age, sep = ", "))
 
-man <- c(
+male <- c(
   "Persons in one-parent families where the parent is a man+",
+  "Elderly men+ not in an economic family",
+  "Non-elderly men+ not in an economic family",
   "Non-senior men+ not in an economic family",
   "Senior men+ not in an economic family"
 ) %>%
@@ -72,19 +76,30 @@ pop_aged_15_plus <- c(
 )
 
 # Manual input data for territories
+# Sources
+# 2020: https://www150.statcan.gc.ca/n1/en/daily-quotidien/221103/dq221103d-eng.pdf
+# 2021: https://www150.statcan.gc.ca/n1/daily-quotidien/230621/dq230621c-eng.htm
+# 2022: https://www150.statcan.gc.ca/n1/daily-quotidien/240619/dq240619d-eng.htm
 territories <- c("Yukon", "Northwest Territories", "Nunavut")
 nterritories <- length(territories)
 years <- c("2020", "2021", "2022")
 nyears <- length(years)
-
+# Sources give % of food insecure households (marginal, moderate or severe)
 values_insecure <- c(
-  21.2, 20.4, 49.5,
-  12.8, 22.2, 46.1,
-  21.4, 27.6, 62.6
-)
-
+  21.2, # 2020 YT
+  20.4, #      NT
+  49.5, #      NU
+  12.8, # 2021 YT
+  22.2, #      NT
+  46.1, #      NU
+  21.4, # 2022 YT
+  27.6, #      NT
+  62.6
+) #      NU
+# % of food secure = 100 - % of food insecure
 values_secure <- 100 - values_insecure
 
+# Build data frame for manually input data for territories
 df_territories <- tibble(
   Year = rep(years, each = nterritories),
   Geography = rep(territories, nyears),
@@ -100,8 +115,8 @@ df_territories <- tibble(
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
-# -------------------------------------------------------------------------
 
+# Format the table
 filter_economic_families <-
   economic_families %>%
   filter(Statistics == "Percentage of persons") %>%
@@ -115,22 +130,20 @@ filter_economic_families <-
   na.omit() %>%
   mutate(
     Gender = case_when(
-      str_detect(`Economic family type`, "woman\\+|women\\+") ~ "Woman+",
-      str_detect(`Economic family type`, "man\\+|men\\+") ~ "Man+",
-      TRUE ~ "All genders"
+      `Economic family type` %in% female ~ "Woman+",
+      `Economic family type` %in% male ~ "Man+",
+      TRUE ~ "Both genders"
     ),
-    `Economic family type` = str_remove_all(`Economic family type`, "woman\\+\\b"),
-    `Economic family type` = str_remove_all(`Economic family type`, "women\\+\\b"),
-    `Economic family type` = str_remove_all(`Economic family type`, "man\\+\\b"),
-    `Economic family type` = str_remove_all(`Economic family type`, "men\\+\\b"),
+    `Economic family type` = str_remove_all(`Economic family type`, "woman+ "),
+    `Economic family type` = str_remove_all(`Economic family type`, "women+ "),
+    `Economic family type` = str_remove_all(`Economic family type`, "man+ "),
+    `Economic family type` = str_remove_all(`Economic family type`, "men+ "),
+    `Economic family type` = str_replace_all(`Economic family type`, "Elderly not ", "Elderly persons not "),
+    `Economic family type` = str_replace_all(`Economic family type`, "Non-elderly not ", "Non-elderly persons not "),
     `Economic family type` = str_replace_all(`Economic family type`, "Senior not ", "Seniors not "),
     `Economic family type` = str_replace_all(`Economic family type`, "Non-senior not ", "Non-seniors not "),
-    `Economic family type` = str_remove_all(`Economic family type`, " where the parent is a woman\\+\\b"),
-    `Economic family type` = str_remove_all(`Economic family type`, " where the parent is a man\\+\\b")
   ) %>%
   relocate(Gender, .before = `Household food security status`)
-
-# -------------------------------------------------------------------------
 
 filter_demographic_characteristics <-
   demographic_characteristics %>%
@@ -146,15 +159,15 @@ filter_demographic_characteristics <-
   na.omit() %>%
   mutate(
     Gender = case_when(
-      str_detect(`Demographic characteristics`, "woman\\+|women\\+") ~ "Woman+",
-      str_detect(`Demographic characteristics`, "man\\+|men\\+") ~ "Man+",
-      `Demographic characteristics` %in% persons ~ "All genders",
+      `Demographic characteristics` %in% female ~ "Woman+",
+      `Demographic characteristics` %in% male ~ "Man+",
+      `Demographic characteristics` %in% persons ~ "Both genders",
       `Demographic characteristics` == "Women+" ~ "Woman+",
       `Demographic characteristics` == "Men+" ~ "Man+"
     ),
     `Age group` = case_when(
-      str_detect(`Demographic characteristics`, "Women\\+") ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Women\\+, ")),
-      str_detect(`Demographic characteristics`, "Men\\+") ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Men\\+, ")),
+      `Demographic characteristics` %in% female ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Women+, ")),
+      `Demographic characteristics` %in% male ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Men+, ")),
       `Demographic characteristics` %in% persons ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Persons "))
     ),
     `Economic family type` = case_when(
@@ -172,8 +185,6 @@ filter_demographic_characteristics <-
     )
   )
 
-# -------------------------------------------------------------------------
-
 food_insecurity <- bind_rows(
   filter_economic_families,
   filter_demographic_characteristics
@@ -185,33 +196,27 @@ food_insecurity <- bind_rows(
     Year,
     `Household food security status`,
     Geography,
-    Gender,
+    `Gender`,
     `Age group`,
     `Economic family type`,
     `Visible minority`,
     `Indigenous population`,
+    # `Population aged 15 years and over`,
     Value
   ) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value) %>%
+  # Replace headline categories with NA
   mutate(
     across(
       c(Geography, Gender, `Economic family type`, `Household food security status`),
-      ~ replace(., Geography == "Canada" &
-        Gender == "All genders" &
-        `Economic family type` == "All persons" &
-        `Household food security status` == "Food insecure, moderate or severe",
-        NA)
+      ~ replace(., Geography == "Canada" & Gender == "Both genders" & `Economic family type` == "All persons" & `Household food security status` == "Food insecure, moderate or severe", NA)
     )
   )
 
 data_final <- bind_rows(food_insecurity, df_territories)
 
 # Write the csv file
-write.csv(
-  data_final,
-  "data/indicator_2-1-2.csv",
-  na = "",
-  row.names = FALSE,
-  fileEncoding = "UTF-8"
+write.csv(data_final, "data/indicator_2-1-2.csv",
+  na = "", row.names = FALSE, fileEncoding = "UTF-8"
 )
