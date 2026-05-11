@@ -25,20 +25,16 @@ age <- c(
 )
 
 female <- c(
-  "Persons in female lone-parent families",
-  "Elderly females not in an economic family",
-  "Non-elderly females not in an economic family",
-  "Non-senior females not in an economic family",
-  "Senior females not in an economic family"
+  "Persons in one-parent families where the parent is a woman+",
+  "Non-senior women+ not in an economic family",
+  "Senior women+ not in an economic family"
 ) %>%
   append(paste("Females", age, sep = ", "))
 
 male <- c(
-  "Persons in male lone-parent families",
-  "Elderly males not in an economic family",
-  "Non-elderly males not in an economic family",
-  "Non-senior males not in an economic family",
-  "Senior males not in an economic family"
+  "Persons in one-parent families where the parent is a man+",
+  "Non-senior men+ not in an economic family",
+  "Senior men+ not in an economic family"
 ) %>%
   append(paste("Males", age, sep = ", "))
 
@@ -134,12 +130,12 @@ filter_economic_families <-
       `Economic family type` %in% male ~ "Male",
       TRUE ~ "Both sexes"
     ),
-    `Economic family type` = str_remove_all(`Economic family type`, "female "),
-    `Economic family type` = str_remove_all(`Economic family type`, "females "),
-    `Economic family type` = str_remove_all(`Economic family type`, "male "),
-    `Economic family type` = str_remove_all(`Economic family type`, "males "),
-    `Economic family type` = str_replace_all(`Economic family type`, "Elderly not ", "Elderly persons not "),
-    `Economic family type` = str_replace_all(`Economic family type`, "Non-elderly not ", "Non-elderly persons not "),
+    `Economic family type` = str_remove_all(`Economic family type`, "woman\\+ "),
+    `Economic family type` = str_remove_all(`Economic family type`, "women\\+ "),
+    `Economic family type` = str_remove_all(`Economic family type`, "man\\+ "),
+    `Economic family type` = str_remove_all(`Economic family type`, "men\\+ "),
+    `Economic family type` = str_remove_all(`Economic family type`, " where the parent is a man\\+"),
+    `Economic family type` = str_remove_all(`Economic family type`, " where the parent is a woman\\+ "),    
     `Economic family type` = str_replace_all(`Economic family type`, "Senior not ", "Seniors not "),
     `Economic family type` = str_replace_all(`Economic family type`, "Non-senior not ", "Non-seniors not "),
   ) %>%
@@ -166,8 +162,8 @@ filter_demographic_characteristics <-
       `Demographic characteristics` == "Males" ~ "Male"
     ),
     `Age group` = case_when(
-      `Demographic characteristics` %in% female ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Females, ")),
-      `Demographic characteristics` %in% male ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Males, ")),
+      `Demographic characteristics` %in% female ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Women\\+, ")),
+      `Demographic characteristics` %in% male ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Men\\+, ")),
       `Demographic characteristics` %in% persons ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Persons "))
     ),
     `Economic family type` = case_when(
