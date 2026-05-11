@@ -59,17 +59,17 @@
             "title": "Géographie"
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Homme",
-                "Femme",
+                "Toutes les identités de genre",
+                "Man+",
+                "Woman+",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
           },
           {
             "name": "Age group",
@@ -84,6 +84,12 @@
                 "45 à 54 ans",
                 "55 à 64 ans",
                 "65 ans et plus",
+                "Hommes+, moins de 18 ans",
+                "Hommes+, 18 à 64 ans",
+                "Hommes+, 65 ans et plus",
+                "Femmes+, moins de 18 ans",
+                "Femmes+, 18 à 64 ans",
+                "Femmes+, 65 ans et plus",
                 ""
               ]
             },
