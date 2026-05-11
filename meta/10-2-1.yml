@@ -6,7 +6,9 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   Indicator 10.2.1: Proportion of people living below 50 percent of median income, by sex, age and persons with disabilities
 STAT_CONC_DEF: >-
-  Low income measures (LIMs), are relative measures of low income, set at 50% of adjusted median household income. These measures are categorized according to the number of persons present in the household, reflecting the economies of scale inherent in household size.
+  <p>Low income measures (LIMs), are relative measures of low income, set at 50% of adjusted median household income. These measures are categorized according to the number of persons present in the household, reflecting the economies of scale inherent in household size.</p>
+  <p>Given that the non-binary population is small, data aggregation to a two-category gender variable is necessary to protect the confidentiality of responses provided. Individuals in the category "non-binary persons" are distributed into the other two gender categories and are denoted by the "+" symbol. The category "Men+" includes men, as well as some non-binary persons, while the category "Women+" includes women, as well as some non-binary persons</p>
+
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   Low income measures for Canada do not include the territories.
