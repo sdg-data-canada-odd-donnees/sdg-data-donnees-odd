@@ -12,8 +12,8 @@ data_start_values:
     value: Food insecure, moderate or severe
   - field: Geography
     value: Canada
-  - field: Sex
-    value: Both sexes
+  - field: Gender
+    value: All genders
   - field: Economic family type
     value: All persons
 embedded_feature_footer: ''
