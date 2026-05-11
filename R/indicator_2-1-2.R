@@ -67,6 +67,7 @@ pop_aged_15_plus <- c(
   "Non-Indigenous population aged 15 years and over",
   "Immigrants aged 15 years and over",
   "Recent immigrants (10 years or less) aged 15 years and over",
+  "Inuit aged 15 years and over",
   "Very recent immigrants (5 years or less) aged 15 years and over",
   "Persons aged 15 years and over born in Canada"
 )
