@@ -64,8 +64,8 @@
             "constraints": {
               "enum": [
                 "Toutes les identités de genre",
-                "Man+",
-                "Woman+",
+                "Hommes+",
+                "Femmes+",
                 ""
               ]
             },
@@ -102,7 +102,7 @@
               "enum": [
                 "Toutes les personnes",
                 "Personnes dans les familles économiques",
-                "Persons in senior families",
+                "Personnes dans les familles de personnes âgées",
                 "Personnes dans les couples de personnes âgées",
                 "Personnes dans les autres familles de personnes âgées",
                 "Personnes dans les familles non âgées",
