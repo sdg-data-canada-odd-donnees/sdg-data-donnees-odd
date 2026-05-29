@@ -2,20 +2,24 @@ SDG_GOAL: '<p>Goal 17: Strengthen the means of implementation and revitalize the
   partnership for sustainable development</p>'
 SDG_TARGET: '<p>Target 17.14: Enhance policy coherence for sustainable development</p>'
 SDG_INDICATOR: <p>Indicator 17.14.1. Number of countries with mechanisms in place to enhance policy coherence of sustainable development</p>
-STAT_CONC_DEF: <p>For the purpose of this methodology ‘policy coherence of sustainable development’ has been interpreted 
-  as the coherence between policies in general that cover the dimensions of sustainable development. This 
-  indicator is a composite indicator which covers mechanisms related to:</p>
+STAT_CONC_DEF: <p>The United Nations Environment Programme (UNEP) and the Organisation for Economic Co-operation and 
+  Development (OECD) have developed a composite indicator framework for SDG indicator 17.14.1 that is 
+  based on initial research on existing work, literature, partners and existing indicators on similar issues. This 
+  indicator considers institutional and organisational mechanisms that can support efforts in enhancing 
+  Policy Coherence of Sustainable Development (PCSD) across eight themes:</p>
   <ol>
-  <li>Institutionalization of Political Commitment </li>
-  <li>Long-term considerations in decision-making</li>
-  <li>Inter-ministerial and cross-sectoral coordination</li>
-  <li>Participatory processes</li>
-  <li>Policy linkages</li>
-  <li>Alignment across government levels</li>
-  <li>Monitoring and reporting for policy coherence</li>
-  <li>Financing for policy coherence</li>
+  <li>Political Commitment</li>
+  <li>Long-term Vision</li>
+  <li>The Integration of Sustainable Development into Policy and Finance</li>
+  <li>Whole-of-government Coordination</li>
+  <li>Sub-national Engagement</li>
+  <li>Stakeholder-engagement</li>
+  <li>Impact Assessment</li>
+  <li>Monitoring, Evaluation, and Reporting</li>
   </ol>
-DATA_COMP: '   '
+DATA_COMP: "Each of the eight themes is scored on a scale from 0 to 12, where 0 means none of the requested 
+  mechanisms are implemented, 12 means all the requested mechanisms are in place and fully implemented. 
+  Scaling all 8 themes, the maximum value is 96. The score out of 96 (or out of 12 for the themes) is converted to a percentage for the purpose of reporting SDG indicator 17.14.1."
 REC_USE_LIM: '   '
 PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
@@ -27,4 +31,17 @@ un_custodian_agency: UN Environment (UNEP)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-14-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
- 
+#Source
+source_active_1: 'true'
+source_url_text_1: SDG Indicators Database
+source_organisation_1: United Nations Department of Economic and Social Affairs
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
+source_url_1: https://unstats.un.org/sdgs/indicators/database/
+
+source_active_2: 'true'
+source_url_text_2: Organisation for Economic Co-operation and Development (OECD) data request questionnaire
+source_organisation_2: Employment and Social Development Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada
+source_url_2: 

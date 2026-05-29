@@ -6,7 +6,8 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   Indicateur 10.2.1 : Proportion de personnes vivant avec moins de la moitié du revenu médian, par sexe, âge et situation au regard du handicap
 STAT_CONC_DEF: >-
-  Les mesures de faible revenu (MFR) sont une mesure relative du faible revenu correspondant à 50 % de la médiane du revenu ajusté du ménage. Ces mesures sont différenciées selon le nombre de personnes présentes dans le ménage afin de refléter les économies d'échelle attribuables à la taille du ménage.
+  <p>Les mesures de faible revenu (MFR) sont une mesure relative du faible revenu correspondant à 50 % de la médiane du revenu ajusté du ménage. Ces mesures sont différenciées selon le nombre de personnes présentes dans le ménage afin de refléter les économies d'échelle attribuables à la taille du ménage.</p>
+  <p>Étant donné que la population non binaire est petite, l'agrégation des données en une variable de genre à deux catégories est nécessaire pour protéger la confidentialité des réponses fournies. Les personnes de la catégorie « personnes non binaires » sont réparties dans les deux autres catégories de genre et sont désignées par le symbole « + ». La catégorie « Hommes+ » comprend les hommes de même que certaines personnes non binaires, alors que la catégorie « Femmes+ » comprend les femmes de même que certaines personnes non binaires.</p>
 DATA_COMP: custom.data-comp
 REC_USE_LIM: >-
   Les estimations pour le Canada ne comprennent pas les territoires.

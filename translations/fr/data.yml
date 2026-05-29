@@ -94,10 +94,12 @@ Men: Hommes
 Male: Homme
 Males: Hommes
 Men+: Hommes+
+Man+: Hommes+
 Women: Femmes
 Female: Femme
 Females: Femmes
 Women+: Femmes+
+Woman+: Femmes+
 Both: Les deux sexes
 Both sexes: Les deux sexes
 Gender: Genre
@@ -636,6 +638,12 @@ Statistics: Statistiques
 Asset resilient for at least one month: Personnes en situation de résilience des actifs pour au moins un mois
 Asset resilient for at least three months: Personnes en situation de résilience des actifs pour au moins trois mois
 Asset resilient for at least six months: Personnes en situation de résilience des actifs pour au moins six mois
+Men+, under 18 years: Hommes+, moins de 18 ans
+Men+, 18 to 64 years: Hommes+, 18 à 64 ans
+Men+, 65 years and over: Hommes+, 65 ans et plus
+Women+, under 18 years: Femmes+, moins de 18 ans
+Women+, 18 to 64 years: Femmes+, 18 à 64 ans
+Women+, 65 years and over: Femmes+, 65 ans et plus
 
 ## 1-3-1
 Proportion of population covered by at least one social protection cash benefit: Proportion de la population couverte par au moins une prestation de protection sociale en espèces
@@ -747,21 +755,30 @@ Economic family type: Type de famille économique
 All persons: Toutes les personnes
 Persons in economic families: Personnes dans les familles économiques
 Persons in elderly families: Personnes dans les familles de personnes âgées
+Persons in seniors families: Personnes dans les familles de personnes âgées
+Persons in senior families: Personnes dans les familles de personnes âgées
 Persons in elderly couples: Personnes dans les couples de personnes âgées
+Persons in senior couples: Personnes dans les couples de personnes âgées
 Persons in other elderly families: Personnes dans les autres familles de personnes âgées
+Persons in other senior families: Personnes dans les autres familles de personnes âgées
 Persons in non-elderly families: Personnes dans les familles non âgées
+Persons in non-senior families: Personnes dans les familles non âgées
 Persons in couples: Personnes dans les couples
 Persons in couple families with children: Personnes dans les familles comptant un couple avec des enfants
 Persons in couple families with other relatives: Personnes dans les familles comptant un couple avec d'autres personnes apparentées
 Persons in lone-parent families: Personnes dans les familles monoparentales
+Persons in one-parent families: Personnes dans les familles monoparentales
 Persons in male lone-parent families: Personnes dans les familles monoparentales ayant un homme à leur tête
 Persons in female lone-parent families: Personnes dans les familles monoparentales ayant une femme à leur tête
 Persons in other non-elderly families: Personnes dans les autres familles de personnes non âgées
+Persons in other non-senior families: Personnes dans les autres familles de personnes non âgées
 Persons not in an economic family: Personnes hors famille économique
 Elderly persons not in an economic family: Personnes âgées hors famille économique
+Seniors not in an economic family: Personnes âgées hors famille économique
 Elderly males not in an economic family: Hommes âgés hors famille économique
 Elderly females not in an economic family: Femmes âgées hors famille économique
 Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
+Non-seniors not in an economic family: Personnes non âgées hors famille économique
 Non-elderly males not in an economic family: Hommes non âgés hors famille économique
 Non-elderly females not in an economic family: Femmes non âgées hors famille économique
 Household food security status: Niveau de sécurité alimentaire du ménage
@@ -776,6 +793,17 @@ Very recent immigrants (5 years or less): Immigrants très récents (5 ans ou mo
 Persons born in Canada: Personnes nées au Canada
 Not a visible minority nor Indigenous: Pas une minorité visible ni autochtone
 Population aged 15 years and over: Population âgée de 15 ans et plus
+
+Persons in one-parent families where the parent is a woman+: Personnes dans les familles monoparentales où le parent est une femme+
+Elderly women+ not in an economic family: Femmes+ âgées hors famille économique
+Non-elderly women+ not in an economic family: Femmes+ non âgées hors famille économique
+Non-senior women+ not in an economic family: Femmes+ non âgées hors famille économique
+Senior women+ not in an economic family: Femmes+ âgées hors famille économique
+Persons in one-parent families where the parent is a man+: Personnes dans les familles monoparentales où le parent est un homme+
+Elderly men+ not in an economic family: Hommes+ âgés hors famille économique
+Non-elderly men+ not in an economic family: Hommes+ non âgés hors famille économique
+Non-senior men+ not in an economic family: Hommes+ non âgés hors famille économique
+Senior men+ not in an economic family: Hommes+ âgés hors famille économique
 
 ## 2-2-1
 Biodiversity: Biodiversité
@@ -1279,6 +1307,15 @@ Senior management occupations: Cadres supérieures
 Specialized middle management occupations: Cadres intermédiaires spécialisées
 Middle management occupations in retail and wholesale trade and customer services: Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle
 Middle management occupations in trades, transportation, production and utilities: Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique
+
+## 5-a-1
+(a) The proportion (%) of farm operators among the total farm population by sex: a) Proportion de la population agricole totale ayant des droits de propriété ou des droits garantis sur des terres agricoles, par sexe
+Female farm operator: Population agricole (femme)
+Male farm operator: Population agricole (homme)
+(b) The proportion (%) of female farm operators among the total farm operators by land tenure: b) proportion de femmes parmi les titulaires de droits de propriété ou de droits garantis sur des terrains agricoles, par type de droit
+Farms only reporting area owned: Fermes déclarant uniquement la superficie qu'elles possèdent
+Farms only reporting area rented or leased from others only: Fermes déclarant uniquement les superficies louées à des tiers
+Farms reporting area owned and rented or leased from others: Fermes déclarant la superficie qu'elles possèdent et les superficies louées à des tiers
 
 ## 6-3-1
 Wastewater discharge from manufacturing industries: Déversement d'eaux usées provenant des industries manufacturières
@@ -2496,6 +2533,17 @@ Proportion of households that have access to broadband Internet service at speed
     Proportion des ménages qui ont accès à des services Internet à large bande à des vitesses de 50/10 Mbps
 Number of fixed Internet broadband subscriptions: |
     Abonnements à une connexion à Internet à haut débit fixe
+
+## 17-14-1
+
+1. Political Commitment: 1. Engagement politique
+2. Long-term Vision: 2. Vision à long terme
+3. The Integration of Sustainable Development into Policy and Finance: 3. Intégration du développement durable dans les politiques et les finances
+4. Whole-of-government Coordination: 4. Coordination à l'échelle de l'ensemble du gouvernement
+5. Sub-national Engagement: 5. Implication infranationale
+6. Stakeholder-engagement: 6. Participation des parties prenantes
+7. Impact Assessment: 7. Évaluation d'impact
+8. Monitoring, Evaluation, and Reporting: 8. Suivi, évaluation et rapports
 
 ## 17-18-1
 Statistical Performance Indicators (SPI): Indicateurs de performance statistique (IPS)

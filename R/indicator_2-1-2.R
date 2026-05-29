@@ -25,22 +25,18 @@ age <- c(
 )
 
 female <- c(
-  "Persons in female lone-parent families",
-  "Elderly females not in an economic family",
-  "Non-elderly females not in an economic family",
-  "Non-senior females not in an economic family",
-  "Senior females not in an economic family"
+  "Persons in one-parent families where the parent is a woman+",
+  "Non-senior women+ not in an economic family",
+  "Senior women+ not in an economic family"
 ) %>%
-  append(paste("Females", age, sep = ", "))
+  append(paste("Women+", age, sep = ", "))
 
 male <- c(
-  "Persons in male lone-parent families",
-  "Elderly males not in an economic family",
-  "Non-elderly males not in an economic family",
-  "Non-senior males not in an economic family",
-  "Senior males not in an economic family"
+  "Persons in one-parent families where the parent is a man+",
+  "Non-senior men+ not in an economic family",
+  "Senior men+ not in an economic family"
 ) %>%
-  append(paste("Males", age, sep = ", "))
+  append(paste("Men+", age, sep = ", "))
 
 persons <- paste("Persons", age, sep = " ")
 
@@ -71,6 +67,7 @@ pop_aged_15_plus <- c(
   "Non-Indigenous population aged 15 years and over",
   "Immigrants aged 15 years and over",
   "Recent immigrants (10 years or less) aged 15 years and over",
+  "Inuit aged 15 years and over",
   "Very recent immigrants (5 years or less) aged 15 years and over",
   "Persons aged 15 years and over born in Canada"
 )
@@ -129,21 +126,21 @@ filter_economic_families <-
   ) %>%
   na.omit() %>%
   mutate(
-    Sex = case_when(
-      `Economic family type` %in% female ~ "Female",
-      `Economic family type` %in% male ~ "Male",
-      TRUE ~ "Both sexes"
+    Gender = case_when(
+      `Economic family type` %in% female ~ "Woman+",
+      `Economic family type` %in% male ~ "Man+",
+      TRUE ~ "All genders"
     ),
-    `Economic family type` = str_remove_all(`Economic family type`, "female "),
-    `Economic family type` = str_remove_all(`Economic family type`, "females "),
-    `Economic family type` = str_remove_all(`Economic family type`, "male "),
-    `Economic family type` = str_remove_all(`Economic family type`, "males "),
-    `Economic family type` = str_replace_all(`Economic family type`, "Elderly not ", "Elderly persons not "),
-    `Economic family type` = str_replace_all(`Economic family type`, "Non-elderly not ", "Non-elderly persons not "),
+    `Economic family type` = str_remove_all(`Economic family type`, "woman\\+ "),
+    `Economic family type` = str_remove_all(`Economic family type`, "women\\+ "),
+    `Economic family type` = str_remove_all(`Economic family type`, "man\\+ "),
+    `Economic family type` = str_remove_all(`Economic family type`, "men\\+ "),
+    `Economic family type` = str_remove_all(`Economic family type`, " where the parent is a man\\+"),
+    `Economic family type` = str_remove_all(`Economic family type`, " where the parent is a woman\\+ "),    
     `Economic family type` = str_replace_all(`Economic family type`, "Senior not ", "Seniors not "),
     `Economic family type` = str_replace_all(`Economic family type`, "Non-senior not ", "Non-seniors not "),
   ) %>%
-  relocate(Sex, .before = `Household food security status`)
+  relocate(Gender, .before = `Household food security status`)
 
 filter_demographic_characteristics <-
   demographic_characteristics %>%
@@ -158,21 +155,21 @@ filter_demographic_characteristics <-
   ) %>%
   na.omit() %>%
   mutate(
-    Sex = case_when(
-      `Demographic characteristics` %in% female ~ "Female",
-      `Demographic characteristics` %in% male ~ "Male",
-      `Demographic characteristics` %in% persons ~ "Both sexes",
-      `Demographic characteristics` == "Females" ~ "Female",
-      `Demographic characteristics` == "Males" ~ "Male"
+    Gender = case_when(
+      `Demographic characteristics` %in% female ~ "Woman+",
+      `Demographic characteristics` %in% male ~ "Man+",
+      `Demographic characteristics` %in% persons ~ "All genders",
+      `Demographic characteristics` == "Women+" ~ "Woman+",
+      `Demographic characteristics` == "Men+" ~ "Man+"
     ),
     `Age group` = case_when(
-      `Demographic characteristics` %in% female ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Females, ")),
-      `Demographic characteristics` %in% male ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Males, ")),
+      `Demographic characteristics` %in% female ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Women+, ")),
+      `Demographic characteristics` %in% male ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Men+, ")),
       `Demographic characteristics` %in% persons ~ str_to_sentence(str_remove_all(`Demographic characteristics`, "Persons "))
     ),
     `Economic family type` = case_when(
-      `Demographic characteristics` == "Females" ~ "All persons",
-      `Demographic characteristics` == "Males" ~ "All persons"
+      `Demographic characteristics` == "Women+" ~ "All persons",
+      `Demographic characteristics` == "Men+" ~ "All persons"
     ),
     `Visible minority` = case_when(
       `Demographic characteristics` %in% vismin ~ `Demographic characteristics`
@@ -196,7 +193,7 @@ food_insecurity <- bind_rows(
     Year,
     `Household food security status`,
     Geography,
-    `Sex`,
+    `Gender`,
     `Age group`,
     `Economic family type`,
     `Visible minority`,
@@ -209,8 +206,8 @@ food_insecurity <- bind_rows(
   # Replace headline categories with NA
   mutate(
     across(
-      c(Geography, Sex, `Economic family type`, `Household food security status`),
-      ~ replace(., Geography == "Canada" & Sex == "Both sexes" & `Economic family type` == "All persons" & `Household food security status` == "Food insecure, moderate or severe", NA)
+      c(Geography, Gender, `Economic family type`, `Household food security status`),
+      ~ replace(., Geography == "Canada" & Gender == "All genders" & `Economic family type` == "All persons" & `Household food security status` == "Food insecure, moderate or severe", NA)
     )
   )
 

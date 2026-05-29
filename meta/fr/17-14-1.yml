@@ -5,18 +5,24 @@ SDG_TARGET: 'Cible 17.14 : Renforcer la cohérence des politiques de développ
 SDG_INDICATOR: '<p>Indicateur 17.14.1 : Nombre de pays ayant mis en place des mécanismes 
   pour renforcer la cohérence des politiques de développement durable</p>'
 STAT_CONC_DEF: |
-  <p>Aux fins de cette méthodologie, la « cohérence des politiques de développement durable » a été interprétée comme la cohérence entre les politiques en général qui couvrent les dimensions du développement durable. Cet indicateur est un indicateur composite qui comprend les mécanismes liés :</p>
+ <p>Le Programme des Nations Unies pour l'environnement (PNUE) et l'Organisation de coopération et de 
+  développement économiques (OCDE) ont élaboré un cadre d'indicateurs composites pour l'indicateur 17.14.1 des ODD, qui 
+  s'appuie sur des recherches préliminaires portant sur les travaux existants, la littérature, les partenaires et les indicateurs existants relatifs à des questions similaires. Cet 
+  indicateur prend en compte les mécanismes institutionnels et organisationnels susceptibles de soutenir les efforts visant à renforcer la 
+  cohérence des politiques en faveur du développement durable (PCSD) à travers huit thèmes :</p>
   <ol>
-  <li>à l’institutionnalisation de l’engagement politique </li>
-  <li>aux considérations à long terme dans la prise de décision</li>
-  <li>à la coordination interministérielle et intersectorielle</li>
-  <li>aux processus participatifs</li>
-  <li>aux liens entre les politiques</li>
-  <li>à l’harmonisation entre les différents ordres de gouvernement</li>
-  <li>au suivi et aux rapports pour la cohérence des politiques</li>
-  <li>au financement de la cohérence des politiques</li>
+  <li>Engagement politique</li>
+  <li>Vision à long terme</li>
+  <li>Intégration du développement durable dans les politiques et les finances</li>
+  <li>Coordination à l'échelle de l'ensemble du gouvernement</li>
+  <li>Engagement au niveau infranational</li>
+  <li>Engagement des parties prenantes</li>
+  <li>Évaluation d'impact</li>
+  <li>Suivi, évaluation et rapports</li>
   </ol>
-DATA_COMP: '   '
+DATA_COMP: "Chacun des huit thèmes est noté sur une échelle de 0 à 12, où 0 signifie qu'aucun des mécanismes requis 
+  n'est mis en œuvre, et 12 signifie que tous les mécanismes requis sont en place et pleinement mis en œuvre. 
+  En additionnant les notes des 8 thèmes, la valeur maximale est de 96. La note sur 96 (ou sur 12 pour les thèmes) est convertie en pourcentage aux fins de la communication de l'indicateur 17.14.1 des ODD."
 REC_USE_LIM: '   '
 PROGRESS_DETAILS: custom.progress-details
 SDG_GOAL__GLOBAL: '<p>Objectif 17 : Renforcer les moyens de mettre en œuvre le Partenariat
@@ -26,11 +32,24 @@ SDG_TARGET__GLOBAL: '<p>Cible 17.14 : Renforcer la cohérence des politiques de
 SDG_INDICATOR__GLOBAL: '<p>Indicateur 17.14.1 : Nombre de pays ayant mis en place des mécanismes 
   pour renforcer la cohérence des politiques de développement durable</p>'
 
-reporting_status: notstarted
+reporting_status: complete
 
 un_designated_tier: Niveau II
 un_custodian_agency: Programme des Nations unies pour l’environnement (PNUE)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-14-01.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+ #Source
+source_active_1: "true"
+source_url_text_1: Base de données des indicateurs des ODD (en anglais seulement)
+source_organisation_1: Département des affaires économiques et sociales des Nations Unies
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
+source_url_1: https://unstats.un.org/sdgs/indicators/database/
+
+source_active_2: 'true'
+source_url_text_2: Questionnaire de la requête de données de l'Organisation de coopération et de développement économiques (OCDE)
+source_organisation_2: Emploi et Développement social Canada
+source_periodicity_2: Annuelle
+source_geographical_coverage_2: Canada
+source_url_2: 
