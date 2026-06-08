@@ -17,7 +17,8 @@ Wetland <-
   ) %>% 
   select(
     Year = REF_DATE,
-    Value = VALUE
+    Value = VALUE,
+    Geography = GEO
   )%>%  
   mutate(Year = as.numeric(Year))%>%
   mutate(Value = Value + 600000) # as indicate by SME (2026-04-29). "To that number, the treed wetland should be added. While we do not have design-based estimates for treed wetland, we have estimated them as approximately 600,000 square kilometres from the Land Cover Register: Geospatial files using pixel counting This would give a total wetland estimate of 1.87 million square kilometres."
@@ -49,12 +50,13 @@ River_flow <- data.frame(Year=c(2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 
 
 River_flow$Series = "River flows"
 River_flow$Units = "m3/s"
+River_flow$Geography = "Canada"
 
 # final dataset
 
 data_final <-
   bind_rows(Wetland, River_flow) %>% 
-  select("Year", "Series", "Reservoir extent", "Units", "Value")
+  select("Year", "Series", "Reservoir extent", "Units", "Geography", "Value")
 
 write.csv(
   data_final,
