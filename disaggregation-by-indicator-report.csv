@@ -1,21 +1,21 @@
 Indicator,Disaggregations,Number of disaggregations
 #1-2-1,"Geography, Persons in low income",2
-#1-3-1,"Geography, Series",2
-#1-4-1,"Geography, Series, Units, Sex, Proficiency level, Sources of waste for disposal, Basic services",7
+#1-3-1,"Series, Geography",2
+#1-4-1,"Series, Geography, Units, Proficiency level, Sex, Sources of waste for disposal, Basic services",7
 #1-5-1,"Units, Type of natural disaster",2
 #1-5-2,Type of natural disaster,1
 #1-a-1,Poverty reduction aid type,1
-#10-1-1,"Geography, Series, Household income quintile, Household income decile",4
+#10-1-1,"Series, Geography, Household income quintile, Household income decile",4
 #10-2-1,"Geography, Persons in low income",2
-#10-3-1,"Gender, Age group, Geography, Series, Immigrant status, Visible minority, Indigenous identity, Disability, Area, Highest level of education, Discrimination indicators, LGBTQ2+, Main activity",13
+#10-3-1,"Series, Gender, Age group, Visible minority, Immigrant status, Geography, Discrimination indicators, Indigenous identity, Disability, LGBTQ2+, Highest level of education, Main activity, Area",13
 #10-4-1,Geography,1
 #10-5-1,Indicator,1
 #10-7-2,Policy domain,1
 #10-b-1,"Units, Measure",2
 #10-c-1,"Amount last sent, Method, Destination region",3
 #11-1-1,"Geography, Tenure",2
-#11-2-1,"Gender, Geography, Location, Distance-capacity public transit service area, Demographic and socio-economic",5
-#11-3-1,"Geography, Series, Units",3
+#11-2-1,"Gender, Geography, Distance-capacity public transit service area, Location, Demographic and socio-economic",5
+#11-3-1,"Series, Geography, Units",3
 #11-4-1,"Geography, Type of heritage, Level of government",3
 #11-5-1,"Units, Type of natural disaster",2
 #11-5-2,Type of natural disaster,1
@@ -38,24 +38,24 @@ Indicator,Disaggregations,Number of disaggregations
 #15-a-1,Units,1
 #15-b-1,Units,1
 #16-1-1,"Gender, Geography, Indigenous identity",3
-#16-1-3,"Gender, Age group, Series, Immigrant status, Visible minority, Sexual orientation, Marital status, First Nations, Métis, or Inuit identity, Person with disability, Type of crime",10
+#16-1-3,"Series, Gender, Age group, Sexual orientation, First Nations, Métis, or Inuit identity, Visible minority, Person with disability, Immigrant status, Marital status, Type of crime",10
 #16-1-4,"Visible minority, Sociodemographic characteristics",2
 #16-10-2,Component,1
-#16-2-1,"Gender, Age group, Geography, Type of childhood maltreatment, Immigrant status, Visible minority, Indigenous identity, Disability, Sexual orientation",9
+#16-2-1,"Gender, Age group, Sexual orientation, Visible minority, Immigrant status, Geography, Indigenous identity, Disability, Type of childhood maltreatment",9
 #16-2-3,"Gender, Age group, Geography",3
 #16-3-1,"Series, Type of victimization, Type of violence",3
 #16-3-3,Resolution mechanism,1
 #16-7-2,"Visible minority, Institutions, Selected sociodemographic characteristics",3
-#16-b-1,"Gender, Age group, Geography, Series, Immigrant status, Visible minority, Indigenous identity, Disability, Area, Highest level of education, Discrimination indicators, LGBTQ2+, Main activity",13
+#16-b-1,"Series, Gender, Age group, Visible minority, Immigrant status, Geography, Discrimination indicators, Indigenous identity, Disability, LGBTQ2+, Highest level of education, Main activity, Area",13
 #17-1-1,Component,1
 #17-14-1,Theme,1
 #17-18-1,"Series, Elements, Data categories, Pillar",4
 #17-19-1,Units,1
 #17-2-1,"Units, Recipient country",2
-#17-6-1,"Geography, Series, Units, Population centres",4
+#17-6-1,"Series, Geography, Units, Population centres",4
 #17-8-1,"Age group, Geography",2
 #2-1-1,Units,1
-#2-1-2,"Gender, Age group, Geography, Visible minority, Household food security status, Economic family type, Indigenous population",7
+#2-1-2,"Gender, Age group, Visible minority, Geography, Household food security status, Economic family type, Indigenous population",7
 #2-2-3,"Population group, Severity",2
 #2-3-1,"Size, Characteristics",2
 #2-3-2,"Size, Characteristics",2
@@ -83,20 +83,20 @@ Indicator,Disaggregations,Number of disaggregations
 #3-8-2,"Series, Units, Population",3
 #3-9-2,Type of disease,1
 #3-a-1,"Age group, Sex, Tobacco Product",3
-#3-b-1,"Gender, Geography, Series, Antigen or vaccine",4
+#3-b-1,"Series, Gender, Geography, Antigen or vaccine",4
 #3-b-2,"Units, Assistance type",2
-#3-c-1,"Geography, Series, Units, Sex, Type of occupation",5
+#3-c-1,"Series, Geography, Units, Sex, Type of occupation",5
 #4-1-1,"Series, Units, Sex",3
 #4-1-2,"Gender, Geography, Graduation rate",3
 #4-2-2,Sex,1
 #4-3-1,"Age group, Geography, Type of institution attended",3
-#4-4-1,"Age group, Activity related to digital skills, Highest level of education",3
-#4-5-1,"Age group, Series, Units, Sex, Highest level of education, Location",6
+#4-4-1,"Age group, Highest level of education, Activity related to digital skills",3
+#4-5-1,"Series, Age group, Units, Highest level of education, Sex, Location",6
 #4-6-1,"Gender, Age group, Geography, Proficiency level, Skill",5
 #4-7-1,Series,1
 #4-a-1,"Series, Education level",2
 #5-2-1,"Type of intimate partner violence, Selected characteristics",2
-#5-2-2,"Age group, Geography, Immigrant status, Visible minority, Indigenous identity, Disability, Sexual orientation, Employed in past 12 months, Educational status, Marital status",10
+#5-2-2,"Age group, Sexual orientation, Visible minority, Immigrant status, Marital status, Geography, Indigenous identity, Disability, Employed in past 12 months, Educational status",10
 #5-4-1,"Gender, Age group, Geography, Activity group",4
 #5-5-1,"Geography, Government, Elected officials",3
 #5-5-2,"Geography, Occupation",2
@@ -123,10 +123,10 @@ Indicator,Disaggregations,Number of disaggregations
 #8-a-1,"Units, Flow type",2
 #9-1-1,Geography,1
 #9-1-2,"Series, Units, Mode of transport",3
-#9-2-1,"Geography, Series, Units",3
+#9-2-1,"Series, Geography, Units",3
 #9-2-2,"Geography, Industry",2
 #9-3-1,"Industry, Size",2
-#9-3-2,"Geography, Series, Industry, Employment size, Age of primary decision maker, Demographic characteristics",6
+#9-3-2,"Series, Geography, Industry, Employment size, Age of primary decision maker, Demographic characteristics",6
 #9-5-1,Geography,1
 #9-a-1,"Units, Measure",2
 #9-b-1,Geography,1
