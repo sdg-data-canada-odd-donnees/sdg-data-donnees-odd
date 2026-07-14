@@ -20,7 +20,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Variation en pourcentage de l'efficacité de l'utilisation des ressources en eau au fil du temps (%)",
                 "Efficacité de l'utilisation des ressources en eau (USD par mètre cube)",
                 ""
               ]
@@ -32,7 +31,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Variation en pourcentage (%)",
                 "Dollars américains par mètre cube",
                 ""
               ]
@@ -44,9 +42,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Services",
-                "Industrie",
                 "Agriculture, sylviculture et pêche",
+                "Industrie",
+                "Services",
                 ""
               ]
             },

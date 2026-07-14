@@ -20,7 +20,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent change in water-use efficiency over time (%)",
                 "Water-use efficiency (USD per cubic metre)",
                 ""
               ]
@@ -32,7 +31,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent change (%)",
                 "USD per cubic metre",
                 ""
               ]
@@ -44,9 +42,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Services",
-                "Industry",
                 "Agriculture, forestry and fishing",
+                "Industry",
+                "Services",
                 ""
               ]
             },
