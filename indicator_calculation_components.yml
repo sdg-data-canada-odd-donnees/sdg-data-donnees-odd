@@ -3344,20 +3344,20 @@
   score: 5.0
 6-4-1:
   6-4-1 / Water-use efficiency (USD per cubic metre):
-    base_value: 40.487
+    base_value: 40.5
     base_year: 2015.0
-    current_value: 45.557
-    current_year: 2021.0
+    current_value: 45.43
+    current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: 0.019858500195414353
-    score: 4.929250097707175
+    progress_value: 0.014462421509509271
+    score: 2.365605377377318
     sign: 1
-    status: substantial_progress
+    status: moderate_progress
     target: null
     target_year: 2030.0
-  progress_status: substantial_progress
-  score: 4.929250097707175
+  progress_status: moderate_progress
+  score: 2.365605377377318
 6-4-2:
   6-4-2:
     base_value: 3.68
