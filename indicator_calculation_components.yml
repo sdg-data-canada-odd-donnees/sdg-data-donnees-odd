@@ -3344,20 +3344,20 @@
   score: 5.0
 6-4-1:
   6-4-1 / Water-use efficiency (USD per cubic metre):
-    base_value: 40.487
+    base_value: 40.5
     base_year: 2015.0
-    current_value: 45.557
-    current_year: 2021.0
+    current_value: 45.43
+    current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: 0.019858500195414353
-    score: 4.929250097707175
+    progress_value: 0.014462421509509271
+    score: 2.365605377377318
     sign: 1
-    status: substantial_progress
+    status: moderate_progress
     target: null
     target_year: 2030.0
-  progress_status: substantial_progress
-  score: 4.929250097707175
+  progress_status: moderate_progress
+  score: 2.365605377377318
 6-4-2:
   6-4-2:
     base_value: 3.68
@@ -4000,56 +4000,56 @@
   score: -3.583375718032839
 9-c-1:
   9-c-1 / 5G:
-    base_value: 53.27
+    base_value: 53.3
     base_year: 2020.0
-    current_value: 91.4
-    current_year: 2022.0
+    current_value: 94.3
+    current_year: 2024.0
     direction: 1
     limit: 100
-    progress_value: 0.3098807188646848
+    progress_value: 0.15331016796105312
     score: 5.0
     sign: 1
     status: substantial_progress
     target: null
     target_year: 2030.0
   9-c-1 / Evolved High-Speed Packet Access (HSPA+):
-    base_value: 99.47
+    base_value: 99.5
     base_year: 2016.0
-    current_value: 99.57
-    current_year: 2022.0
+    current_value: 99.5
+    current_year: 2024.0
     direction: 1
     limit: 100
-    progress_value: 0.00016748456325199612
-    score: 0.5456262610658811
+    progress_value: 0.0
+    score: -2.5
     sign: 1
-    status: moderate_progress
+    status: limited_progress
     target: null
     target_year: 2030.0
   9-c-1 / Long-Term Evolution (LTE):
-    base_value: 98.55
+    base_value: 98.6
     base_year: 2016.0
-    current_value: 99.47
-    current_year: 2022.0
+    current_value: 99.5
+    current_year: 2024.0
     direction: 1
     limit: 100
-    progress_value: 0.0015498760793095645
-    score: 5.0
+    progress_value: 0.0011364430821108051
+    score: 4.3642086713373445
     sign: 1
     status: substantial_progress
     target: null
     target_year: 2030.0
   9-c-1 / Long-Term Evolution - A (LTE-A):
-    base_value: 83.35
+    base_value: 83.4
     base_year: 2016.0
-    current_value: 97.8
-    current_year: 2022.0
+    current_value: 98.0
+    current_year: 2024.0
     direction: 1
     limit: 100
-    progress_value: 0.027004173422464417
+    progress_value: 0.02036958118423171
     score: 5.0
     sign: 1
     status: substantial_progress
     target: null
     target_year: 2030.0
-  progress_status: substantial_progress
-  score: 3.515208753688627
+  progress_status: moderate_progress
+  score: 2.394034778556224
