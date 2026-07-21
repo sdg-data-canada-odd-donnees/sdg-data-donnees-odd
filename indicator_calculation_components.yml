@@ -3751,11 +3751,11 @@
   9-1-2 / Air freight volume:
     base_value: 1172780.8
     base_year: 2015.0
-    current_value: 1578894.4
-    current_year: 2024.0
+    current_value: 1680803.4
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 0.03359040914515399
+    progress_value: 0.036644880021165616
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -3764,12 +3764,12 @@
   9-1-2 / Air passengers:
     base_value: 133426703.0
     base_year: 2015.0
-    current_value: 156722185.0
-    current_year: 2024.0
+    current_value: 158911901.0
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 0.018041079004511573
-    score: 4.020539502255787
+    progress_value: 0.017633433288261502
+    score: 3.81671664413075
     sign: 1
     status: substantial_progress
     target: null
@@ -3814,7 +3814,7 @@
     target: null
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 2.8022380637031348
+  score: 2.761473492078127
 9-2-1:
   9-2-1 / MVA as a proportion of GDP:
     base_value: 11.49
