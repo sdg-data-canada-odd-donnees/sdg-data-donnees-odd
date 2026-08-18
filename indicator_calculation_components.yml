@@ -2967,25 +2967,25 @@
     base_year: 2012.0
     current_value: 45.9
     current_year: 2022.0
-    direction: 1
+    direction: -1
     limit: null
-    progress_value: -0.024845936871192662
-    score: -2.6035255651611986
+    progress_value: 0.0010828475136239746
+    score: -1.9585762431880127
     sign: 1
-    status: deterioration
-    target: 100.0
+    status: limited_progress
+    target: null
     target_year: 2030.0
   4-6-1 / 2 or below / Literacy / Canada / Total / Total:
     base_value: 48.5
     base_year: 2012.0
     current_value: 49.0
     current_year: 2022.0
-    direction: 1
+    direction: -1
     limit: null
-    progress_value: 0.001026176175566773
-    score: -1.9869119122166135
+    progress_value: -0.001026176175566773
+    score: -2.628272021945847
     sign: 1
-    status: limited_progress
+    status: deterioration
     target: null
     target_year: 2030.0
   4-6-1 / 2 or below / Numeracy / Canada / Total / 16 to 24 years:
@@ -2993,29 +2993,29 @@
     base_year: 2012.0
     current_value: 50.1
     current_year: 2022.0
-    direction: 1
+    direction: -1
     limit: null
-    progress_value: -0.1792801328087369
-    score: -3.247006529374164
+    progress_value: 0.006358671326802012
+    score: 0.3396678317005031
     sign: 1
-    status: deterioration
-    target: 100.0
+    status: moderate_progress
+    target: null
     target_year: 2030.0
   4-6-1 / 2 or below / Numeracy / Canada / Total / Total:
     base_value: 54.7
     base_year: 2012.0
     current_value: 50.5
     current_year: 2022.0
-    direction: 1
+    direction: -1
     limit: null
-    progress_value: -0.007957209769600238
-    score: -3.4946512212000296
+    progress_value: 0.007957209769600238
+    score: 0.7393024424000594
     sign: 1
-    status: deterioration
+    status: moderate_progress
     target: null
     target_year: 2030.0
-  progress_status: deterioration
-  score: -2.833023806988001
+  progress_status: limited_progress
+  score: -0.8769694977583244
 4-7-1:
   4-7-1 / a) National education policies:
     base_value: 0.88
