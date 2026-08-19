@@ -50,8 +50,7 @@ permalink: ''
 precision: []
 progress_calculation_options:
 # Ensure all youth achieve literacy and numeracy
-- direction: positive
-  target: 100
+- direction: negative
   base_year: 2012
   disaggregation:
   - field: Proficiency level
@@ -64,8 +63,7 @@ progress_calculation_options:
     value: Total
   - field: Age group
     value: 16 to 24 years
-- direction: positive
-  target: 100
+- direction: negative
   base_year: 2012
   disaggregation:
   - field: Proficiency level
@@ -79,7 +77,7 @@ progress_calculation_options:
   - field: Age group
     value: 16 to 24 years
 # Ensure a substantial proportion of adults achieve literacy and numeracy
-- direction: positive
+- direction: negative
   base_year: 2012
   disaggregation:
   - field: Proficiency level
@@ -92,7 +90,7 @@ progress_calculation_options:
     value: Total
   - field: Age group
     value: Total
-- direction: positive
+- direction: negative
   base_year: 2012
   disaggregation:
   - field: Proficiency level

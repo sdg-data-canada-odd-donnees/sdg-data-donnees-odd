@@ -4,15 +4,17 @@ SDG_GOAL: |-
 SDG_TARGET: |-
   Target 4.6: By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy
 SDG_INDICATOR: |-
-  Indicator 4.6.1: Proportion of population aged 16 years and above achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills
+  Indicator 4.6.1: Proportion of population aged 16 years and above achieving a proficiency level of 2 or below in (a) literacy and (b) numeracy skills
 STAT_CONC_DEF: |-
-  The proportion of youth (aged 16-24 years) and of adults (aged 16 years and above) who have achieved or exceeded a fixed level of proficiency in (a) literacy and (b) numeracy.
+  The proportion of youth (aged 16-24 years) and of adults (aged 16 years and above) who have achieved a proficiency level of 2 or below in (a) literacy and (b) numeracy.
 DATA_COMP: |-
   For 2022, the data pertaining to proficiency level 2 or below is calculated as the aggregate of proficiency levels 1 or below and 2.
 REC_USE_LIM: |-
   This is a proxy indicator. The UN Global indicator states: “Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex”. 
   <br><br>
   This indicator measure the proficiency levels for the population aged 16 years and above, as opposed to 15 years and above as mentioned in the official metadata.
+  <br><br>
+  Due to how the data is accessible, this proxy indicator measures the proficiency level of 2 or below rather than 2 and above.
   <br><br>
   Canada-level statistics for 2022 include the 10 provinces only.
 PROGRESS_DETAILS: custom.progress-details
