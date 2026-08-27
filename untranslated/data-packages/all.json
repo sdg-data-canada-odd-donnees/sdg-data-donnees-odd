@@ -166,6 +166,39 @@
       "title": "global_indicators.9-2-1-title"
     },
     {
+      "path": "3-d-2/data.csv",
+      "name": "3-d-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent of Staphylococcus aureus bloodstream infections resistant to methicillin (MRSA) (%)",
+                "Percent of Escherichia coli bloodstream infections resistant to third-generation cephalosporins (%)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-d-2-title"
+    },
+    {
       "path": "16-2-3/data.csv",
       "name": "16-2-3",
       "profile": "tabular-data-resource",
@@ -10278,28 +10311,6 @@
         ]
       },
       "title": "global_indicators.17-19-2-title"
-    },
-    {
-      "path": "3-d-2/data.csv",
-      "name": "3-d-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-d-2-title"
     },
     {
       "path": "17-11-1/data.csv",

@@ -12,11 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent of Staphylococcus aureus bloodstream infections resistant to methicillin (MRSA) (%)",
+                "Percent of Escherichia coli bloodstream infections resistant to third-generation cephalosporins (%)",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

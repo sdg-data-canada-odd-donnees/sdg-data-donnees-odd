@@ -180,6 +180,42 @@
       "title": "Valeur ajoutée dans l’industrie manufacturière, en proportion du PIB et par habitant"
     },
     {
+      "path": "3-d-2/data.csv",
+      "name": "3-d-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pourcentage d’infections sanguines à Staphylococcus aureus résistant à la méthicilline (SARM) (%)",
+                "Pourcentage d’infections sanguines à Escherichia coli résistantes aux céphalosporines de troisième génération (%)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Pourcentage de septicémies causées par un organisme résistant aux antimicrobiens donné"
+    },
+    {
       "path": "16-2-3/data.csv",
       "name": "16-2-3",
       "profile": "tabular-data-resource",
@@ -11086,30 +11122,6 @@
         ]
       },
       "title": "Proportion de pays qui a) ont procédé à au moins un recensement de la population et du logement au cours des 10 dernières années, et b) ont atteint un taux d’enregistrement des naissances de 100 pour cent et un taux d’enregistrement des décès de 80 pour cent"
-    },
-    {
-      "path": "3-d-2/data.csv",
-      "name": "3-d-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Pourcentage de septicémies causées par un organisme résistant aux antimicrobiens donné"
     },
     {
       "path": "17-11-1/data.csv",
