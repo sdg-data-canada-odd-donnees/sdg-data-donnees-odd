@@ -8,10 +8,8 @@ data_notice_heading: ""
 data_notice_text: ""
 data_show_map: false
 data_start_values:
-- field: Series
-  value: Percent of Staphylococcus aureus bloodstream infections resistant to methicillin (MRSA) (%)
-- field: Series
-  value: Percent of Escherichia coli bloodstream infections resistant to third-generation cephalosporins (%)
+- series: Percent of Staphylococcus aureus bloodstream infections resistant to methicillin (MRSA) (%)
+- series: Percent of Escherichia coli bloodstream infections resistant to third-generation cephalosporins (%)
 embedded_feature_footer: ""
 embedded_feature_html: ""
 embedded_feature_tab_title: ""
@@ -32,6 +30,9 @@ permalink: ""
 precision: []
 progress_calculation_options:
 - direction: negative
+  series: Percent of Staphylococcus aureus bloodstream infections resistant to methicillin (MRSA) (%)
+- direction: negative
+  series: Percent of Escherichia coli bloodstream infections resistant to third-generation cephalosporins (%)
 reporting_status: complete
 sort: ""
 standalone: false
