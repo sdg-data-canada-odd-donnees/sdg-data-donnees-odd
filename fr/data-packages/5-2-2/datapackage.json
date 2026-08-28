@@ -26,6 +26,7 @@
                 "45 à 54 ans",
                 "55 à 64 ans",
                 "65 à 74 ans",
+                "55 ans et plus",
                 ""
               ]
             },
@@ -45,6 +46,9 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
@@ -59,6 +63,7 @@
                 "Premières Nations",
                 "Métis",
                 "Personne non autochtone",
+                "Inuit",
                 ""
               ]
             },
@@ -95,6 +100,8 @@
               "enum": [
                 "Hétérosexuel",
                 "Bisexuel",
+                "Gai ou lesbienne",
+                "Orientation sexuelle non classée ailleurs",
                 ""
               ]
             },
