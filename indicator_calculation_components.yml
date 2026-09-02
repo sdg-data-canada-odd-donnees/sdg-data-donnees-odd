@@ -3129,18 +3129,18 @@
   5-2-2:
     base_value: 2.9
     base_year: 2018.0
-    current_value: 2.4
+    current_value: 3.2
     current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: 0.10901130166042641
-    score: -2.0457826093715012
+    progress_value: -0.05788159258026894
+    score: -2.7411752318042066
     sign: 1
-    status: limited_progress
+    status: deterioration
     target: 0.1
     target_year: 2030.0
-  progress_status: limited_progress
-  score: -2.0457826093715012
+  progress_status: deterioration
+  score: -2.7411752318042066
 5-3-1:
   progress_status: ''
   score: null
