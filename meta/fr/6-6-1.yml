@@ -7,6 +7,8 @@ SDG_INDICATOR: |-
   Indicateur 6.6.1 : Variation de l’étendue des écosystèmes tributaires de l’eau
 STAT_CONC_DEF : |-
   L’indicateur 6.6.1 des objectifs de développement durable surveille la variation de l’étendue des différents types d’écosystèmes tributaires de l’eau au fil du temps. Il s’agit d’un indicateur à multiples facettes qui recueille des données sur différents types d’écosystèmes d’eau douce. Pour mesurer le changement d’étendue, l’indicateur prend en compte les changements de superficie, de qualité de l’eau et de quantité d’eau. L’indicateur utilise des observations terrestres par satellite pour surveiller, à l’échelle mondiale, les différents types d’écosystèmes d’eau douce.
+  <br>
+  La définition de milieu humide non boisé de Statistique Canada est « Milieu humide à végétation herbacée ou arbustive qui se trouve à la surface de l’eau ou au-dessus de celle-ci », tandis que sa définition de milieu humide arboré est « Milieu humide couvert d’arbres avec un couvert forestier de plus de 10 % et une hauteur minimale de cinq mètres ». Dans les régions nordiques et montagneuses, la hauteur des arbres peut être réduite à deux ou trois mètres. Les plans d’eau intérieurs, tels que les rivières et les lacs, sont exclus de la définition de milieu humide de Statistique Canada.
 # '<p>L''indicateur comprend cinq catégories : 1) zones humides végétalisées,
 #   2) rivières et estuaires, 3) lacs, 4) aquifères, et 5) masses d''eau artificielles.
 #   Pour les besoins de cette méthodologie, le texte se réfère uniquement à ces cinq
@@ -17,7 +19,7 @@ STAT_CONC_DEF : |-
 #   de la terre. Selon le type d''écosystème et le type d''étendue mesurée, la méthodologie
 #   de collecte des données peut également être très différente. Une approche de surveillance
 #   progressive à deux niveaux est proposée : </p>'
-DATA_COMP: '   '
+DATA_COMP: '<br><b>Étendue des milieux humides</b> – Statistique Canada des estimations fondées sur le plan de conception publiées (([Couverture terrestre par classe, Canada, écoprovince et écozone](https://doi.org/10.25318/3810017701-fra)) et ([Couverture terrestre par classe, Canada, sous-aire de drainage, aire de drainage principale et région de drainage](https://doi.org/10.25318/3810017801-fra))) qui comprennent une catégorie de terres humides non boisées couvrant 1,27 million de kilomètres carrés. À ce nombre, il convient d’ajouter la zone humide arborée. Bien que Statistique Canada n’ayons pas d’estimations fondées sur la conception pour les milieux humides arborés, il les a estimées à environ 600 000 kilomètres carrés à partir du ([Registre de la couverture terrestre : fichiers géospatiaux](https://www150.statcan.gc.ca/n1/pub/16-510-x/16-510-x2025002-fra.htm)) utilisant le comptage de pixels Cela donnerait une estimation totale des milieux humides de 1,87 million de kilomètres carrés.'
 REC_USE_LIM: '   '
 PROGRESS_DETAILS: custom.progress-details
 
@@ -35,9 +37,17 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
 # Source(s)
-# source_active_1: 'true'
-# source_url_text_1: Explorateur des écosystèmes d’eau douce
-# source_url_1: https://www.sdg661.app/
-# source_organisation_1: ONU programme pour l'environnement
-# source_geographical_coverage_1: Canada
+source_active_1: 'true'
+source_url_text_1: Explorateur des écosystèmes d’eau douce
+source_url_1: https://www.sdg661.app/
+source_organisation_1: ONU programme pour l'environnement
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Tableau 138-10-0177-01 Couverture terrestre par classe, Canada, écoprovince et écozone
+source_url_2: https://doi.org/10.25318/3810017701-fra
+source_organisation_2: Statistique Canada
+source_periodicity_2: Occasionnelle
+source_geographical_coverage_2: Canada
  
