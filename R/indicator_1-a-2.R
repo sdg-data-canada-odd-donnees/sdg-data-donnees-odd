@@ -5,8 +5,6 @@ library(cansim)
 library(dplyr)
 library(stringr)
 library(tidyr)
-install.packages("httr2", dependencies = TRUE)
-library(httr2)
 
 raw_data <- get_cansim("10-10-0005-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
