@@ -13,6 +13,8 @@ STAT_CONC_DEF: <p>This indicator measures the percentage of ever-partnered women
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   Disaggregation for the "Selected Characteristics" category is only available when "Total Intimate Partner Violence" is selected under the "Type of Intimate Partner Violence" category.
+  <br><br>
+  The 2025 data uses the "Women +" disagregation instead of the "Women" disagregation for the 2018 data. The category “Women+” includes women, as well as some non-binary respondents and some respondents who did not state their gender.
 PROGRESS_DETAILS: |-
   The progress status for this indicator is measured with respect to a target of 0.1%. This target selection reflects the magnitude and precision of the data, while acknowledging that the progress measurement methodology cannot accomodate a target of exactly zero. For more information, please refer to the progress measurement methodology documentation.
 
@@ -37,8 +39,15 @@ goal_meta_link_text: United Nations Sustainable Development Goals Metadata
  
 # Source(s)
 source_active_1: true
-source_url_text_1: Statistics Canada. Survey of Safety in Public and Private Spaces
+source_url_text_1: Statistics Canada. Survey of Safety in Public and Private Spaces (2018)
 source_url_1: https://www150.statcan.gc.ca/n1/pub/85-002-x/2021001/article/00003/tbl/tbl01a-eng.htm
 source_organisation_1: Statistics Canada
 source_periodicity_1: Occasional
 source_geographical_coverage_1: Canada
+
+source_active_2: true
+source_url_text_2: Statistics Canada. Survey of Safety in Public and Private Spaces (2025)
+source_url_2: https://www150.statcan.gc.ca/n1/pub/85-002-x/2026001/article/00004/tbl/tbl02-eng.htm
+source_organisation_2: Statistics Canada
+source_periodicity_2: Occasional
+source_geographical_coverage_2: Canada
