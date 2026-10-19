@@ -1466,11 +1466,9 @@
           },
           {
             "name": "Immigrant status",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
-                "Immigrant",
-                "Non-immigrant",
                 ""
               ]
             }
