@@ -7,6 +7,8 @@ SDG_INDICATOR: |-
   Indicator 6.6.1: Change in the extent of water-related ecosystems over time
 STAT_CONC_DEF: |-
   SDG indicator 6.6.1 tracks the extent to which different types of water-related ecosystems are changing in extent over time. The indicator is multifaceted capturing data on different types of freshwater ecosystems and to measure extent change the indicator considers spatial area changes, water quality and water quantity changes. The indicator uses satellite-based Earth observations to globally monitor different freshwater ecosystems types.
+  <br>
+  Statistics Canada's definition of non-treed wetland is “Wetland with herbaceous or shrub vegetation that is at or above the surface of the water”, while its definition of treed wetland is “Wetland covered by trees with a canopy cover over 10% and a minimum height of five metres. In northern and mountainous regions, the tree height may be reduced to two to three metres.” Inland water bodies, such as rivers and lakes, are excluded from Statistics Canada's wetland definition.
 # |-
 # Indicator 6.6.1 tracks the extent to which different types of water-related
 # ecosystems are changing in extent over time. The indicator is multifaceted capturing
@@ -68,7 +70,7 @@ STAT_CONC_DEF: |-
 # <br><b>New water</b>is an area of land that has transitioned to water.
 # <br>
 # <br><b>Lost water</b> is an area of water that has transitioned to land.
-DATA_COMP: '    ' # |
+DATA_COMP: '<br><b>Wetland extent</b> - Statistics Canada published design-based estimates (([Land cover by class, Canada, ecoprovince and ecozone](https://doi.org/10.25318/3810017701-eng)) and ([Land cover by class, Canada, sub-drainage area, major drainage area and drainage region](https://doi.org/10.25318/3810017801-eng))) which include a non-treed wetland category covering 1.27 million square kilometres. To that number, the treed wetland should be added. While Statistics Canada do not have design-based estimates for treed wetland, it has estimated them as approximately 600,000 square kilometres from the ([Land Cover Register: Geospatial files](https://www150.statcan.gc.ca/n1/pub/16-510-x/16-510-x2025002-eng.htm))using pixel counting This would give a total wetland estimate of 1.87 million square kilometres.' # |
   # Combined surface-water changes = permanent + seasonal + reservoir changes. Changes
   # in surface-water area are observed in 2015 and 2020, which are compared against a 20-year
   # reference period.
@@ -89,9 +91,16 @@ goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
 # Source(s)
-# source_active_1: 'true'
-# source_url_text_1: Freshwater Ecosystems Explorer
-# source_url_1: https://www.sdg661.app/
-# source_organisation_1: United Nations Environment Programme (UNEP)
-# source_periodicity_1: Annual
-# source_geographical_coverage_1: Canada
+source_active_1: 'true'
+source_url_text_1: Freshwater Ecosystems Explorer
+source_url_1: https://www.sdg661.app/
+source_organisation_1: United Nations Environment Programme (UNEP)
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada
+
+source_active_2: 'true'
+source_url_text_2: Table 38-10-0177-01  Land cover by class, Canada, ecoprovince and ecozone
+source_url_2: https://doi.org/10.25318/1410032701-eng
+source_organisation_2: Statistics Canada
+source_periodicity_2: Annual
+source_geographical_coverage_2: Canada, Province or territory
