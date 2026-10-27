@@ -9,9 +9,9 @@ STAT_CONC_DEF: <p>Percentage of bloodstream infection due to methicillin-resista
   <em>Staphylococcus aureus</em> (MRSA) and <em>Escherichia coli</em> resistant to
   3rd-generation cephalosporin (e.g., ESBL- E. coli) among patients seeking care and
   whose blood sample is taken and tested. </p>
-DATA_COMP: '   '
+DATA_COMP: 'Data were readily available to report on this indicator as specified by the metadata. Please refer to the sources to access additional information on the metadata or source.'
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress-details
+PROGRESS_DETAILS: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages </p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.d: Strengthen the capacity of all countries, in particular
@@ -24,4 +24,11 @@ un_custodian_agency: World Health Organization (WHO)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0D-02.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata
 
- 
+  # SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    AMRNet data for United Nations (UN) Sustainable Development Goals (SDGs)
+source_url_1: https://health-infobase.canada.ca/amrnet/sustainable-development-goals.html
+source_organisation_1: Public Health Agency of Canada
+source_periodicity_1: Annual
+source_geographical_coverage_1: Canada

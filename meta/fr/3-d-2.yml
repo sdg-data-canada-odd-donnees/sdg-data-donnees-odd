@@ -6,9 +6,9 @@ SDG_TARGET: '<p>Cible 3.d : Renforcer les moyens dont disposent tous les pays, e
 SDG_INDICATOR: 'Indicateur 3.d.2 : Pourcentage de septicémies causées par un organisme résistant aux antimicrobiens donné'
 STAT_CONC_DEF: |
   Pourcentage des septicémies causées par le <em>Staphylococcus aureus</em> résistant à la méthicilline (SARM) et par l’<em>Escherichia coli</em> résistant aux céphalosporines de 3e génération (p. ex. BLSE-E. coli) parmi les patients qui ont besoin de soins et dont un échantillon de sang est prélevé et testé.
-DATA_COMP: '   '
+DATA_COMP: 'Les données étaient disponibles pour donner des précisions à propos de cet indicateur comme précisé par les métadonnées. Veuillez vous référer aux sources pour obtenir des renseignements supplémentaires sur les métadonnées ou la source.'
 REC_USE_LIM: '   '
-PROGRESS_DETAILS: custom.progress-details
+PROGRESS_DETAILS: '   '
 SDG_GOAL__GLOBAL: '<p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir
   le bien-être de tous à tout âge.</p>'
 SDG_TARGET__GLOBAL: '<p>Cible 3.d : Renforcer les moyens dont disposent tous les pays,
@@ -16,11 +16,18 @@ SDG_TARGET__GLOBAL: '<p>Cible 3.d : Renforcer les moyens dont disposent tous les
   des risques et de gestion des risques sanitaires nationaux et mondiaux.</p>'
 SDG_INDICATOR__GLOBAL: 'Indicateur 3.d.2 : Pourcentage de septicémies causées par un organisme résistant aux antimicrobiens donné'
 
-reporting_status: notstarted
+reporting_status: complete
 
 un_designated_tier: Niveau II
 un_custodian_agency: Organisation mondiale de la Santé (OMS)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0D-02.pdf
 goal_meta_link_text: Métadonnées des objectifs de développement durable des Nations Unies
 
- 
+ # SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: |
+    Données RésRAM pour les objectifs de développement durable (ODD) des Nations Unies
+source_url_1: https://sante-infobase.canada.ca/resram/objectifs-developpement-durable.html
+source_organisation_1: Agence de la santé publique du Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada
