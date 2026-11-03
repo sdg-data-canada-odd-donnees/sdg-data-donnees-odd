@@ -10,6 +10,8 @@ STAT_CONC_DEF: >-
 DATA_COMP: custom.data-comp
 REC_USE_LIM: |
   La désagrégation pour la catégorie « Caractéristiques sélectionnées » n'est disponible que lorsque « Total de tous les types de violence » est sélectionné dans la catégorie « Type de violence entre partenaires intimes ».
+  <br><br>
+  Les données de 2025 utilisent la désagrégation « Femmes + » au lieu de la désagrégation « Femmes » pour les données de 2018. La catégorie « femmes+ » comprend les femmes, ainsi que certaines personnes non binaires et certaines personnes qui n’ont pas précisé leur genre.
 PROGRESS_DETAILS: |-
   L'état du progrès pour cet indicateur est mesuré par rapport à une cible de 0,1 %. Ce choix de cible reflète l'ampleur et la précision des données, en reconnaissant que la méthodologie de mesure de progrès ne permet pas une cible exactement égale à zéro. Pour plus d'information, veuillez consulter la documentation de la méthodologie de mesure de progrès.
 
@@ -25,8 +27,15 @@ goal_meta_link_text: Métadonnées des objectifs de développement durable des N
 
 # Source(s)
 source_active_1: true
-source_url_text_1: Statistique Canada. Enquête sur la sécurité dans les espaces publics et privés
+source_url_text_1: Statistique Canada. Enquête sur la sécurité dans les espaces publics et privés (2018)
 source_url_1: https://www150.statcan.gc.ca/n1/pub/85-002-x/2021001/article/00003/tbl/tbl01a-fra.htm
 source_organisation_1: Statistique Canada
 source_periodicity_1: Occasionnelle
 source_geographical_coverage_1: Canada
+
+source_active_2: true
+source_url_text_2: Statistique Canada. Enquête sur la sécurité dans les espaces publics et privés (2025)
+source_url_2: https://www150.statcan.gc.ca/n1/pub/85-002-x/2026001/article/00004/tbl/tbl02-fra.htm
+source_organisation_2: Statistique Canada
+source_periodicity_2: Occasionnelle
+source_geographical_coverage_2: Canada
