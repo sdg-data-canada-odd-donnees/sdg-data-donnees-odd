@@ -17,7 +17,6 @@ data_final <-
   sexual_violence_data %>%
   filter(
     `Selected demographic characteristics` %in% age,
-    UOM == "Percent",
     Statistics == "Percentage",
     `Type of childhood maltreatment` == "Sexual abuse",
     !is.na(VALUE)
