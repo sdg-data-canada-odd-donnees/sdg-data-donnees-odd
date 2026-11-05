@@ -3,20 +3,20 @@
   score: null
 1-2-1:
   1-2-1:
-    base_value: 14.5
-    base_year: 2015.0
-    current_value: 10.4
-    current_year: 2023.0
+    base_value: 7.0
+    base_year: 2020.0
+    current_value: 11.0
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.9010899546976208
-    score: 2.1506954374096354
+    progress_value: -34.030637080230065
+    score: -5.0
     sign: 1
-    status: moderate_progress
+    status: deterioration
     target: 7.25
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 2.1506954374096354
+  progress_status: deterioration
+  score: -5.0
 1-2-2:
   progress_status: ''
   score: null
@@ -1218,15 +1218,15 @@
   score: -5.0
 16-2-1:
   16-2-1:
-    base_value: null
-    base_year: 2015.0
-    current_value: null
-    current_year: null
+    base_value: 27.04
+    base_year: 2018.0
+    current_value: 27.04
+    current_year: 2018.0
     direction: -1
     limit: null
     progress_value: null
     score: null
-    sign: null
+    sign: 1
     status: not_available
     target: 0.1
     target_year: 2030.0
@@ -3235,20 +3235,20 @@
   score: null
 5-b-1:
   5-b-1:
-    base_value: null
+    base_value: 86.1
     base_year: 2015.0
-    current_value: null
-    current_year: null
+    current_value: 95.6
+    current_year: 2023.0
     direction: 1
     limit: 100
-    progress_value: null
-    score: null
-    sign: null
-    status: not_available
+    progress_value: 0.013168881997952742
+    score: 5.0
+    sign: 1
+    status: substantial_progress
     target: null
     target_year: 2030.0
-  progress_status: not_available
-  score: null
+  progress_status: substantial_progress
+  score: 5.0
 5-c-1:
   progress_status: target_achieved
   score: null
