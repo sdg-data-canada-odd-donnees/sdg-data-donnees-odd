@@ -2382,7 +2382,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Année"
           },
           {
@@ -2390,6 +2390,18 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Région de l'Atlantique",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Région des Prairies",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
                 ""
               ]
             },
@@ -2402,7 +2414,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Valeur"
           }
         ]
@@ -5616,7 +5628,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Année"
           },
           {
@@ -5624,6 +5636,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Violence physique ou sexuelle",
+                "Violence physique",
+                "Violence sexuelle",
                 ""
               ]
             },
@@ -5634,6 +5649,20 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
@@ -5644,6 +5673,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Genre masculin",
+                "Genre féminin",
+                "Total, genre",
                 ""
               ]
             },
@@ -5654,6 +5686,11 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, âge",
+                "15 à 24 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
                 ""
               ]
             },
@@ -5664,6 +5701,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, statut d'immigrant",
+                "Immigrants",
+                "Status d'immigrant non précisée",
                 ""
               ]
             },
@@ -5674,6 +5714,10 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, population des minorités visibles",
+                "Population des minorités visibles",
+                "Pas une minorité visible",
+                "Population des minorités visibles non précisée",
                 ""
               ]
             },
@@ -5684,6 +5728,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Premières Nations (Indien de l'Amérique du Nord)",
+                "Métis",
+                "Inuk (Inuit)",
+                "Identité non autochtone",
+                "Identité autochtone non précisée",
+                "Autre identité autochtone",
                 ""
               ]
             },
@@ -5694,6 +5744,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, incapacité",
+                "Personne ayant une incapacité",
+                "Personne n'ayant aucune incapacité",
                 ""
               ]
             },
@@ -5704,6 +5757,13 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, orientation sexuelle",
+                "Hétérosexuel",
+                "Minorité sexuelle",
+                "Lesbienne ou gai",
+                "Bisexuel ou pansexuel",
+                "Orientation sexuelle non précisée",
+                "Orientation sexuelle non classée ailleurs",
                 ""
               ]
             },
@@ -5716,7 +5776,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Valeur"
           }
         ]
