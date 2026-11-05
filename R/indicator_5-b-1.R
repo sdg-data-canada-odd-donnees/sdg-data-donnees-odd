@@ -5,7 +5,7 @@ library(dplyr)
 library(cansim)
 
 # get CODR table
-dwelling_equipment <- cansim::get_cansim("11-10-0228-01", factors = FALSE)
+dwelling_equipment <- get_cansim("11-10-0228-01", factors = FALSE)
 
 # get geocodes to join with data
 geocodes <- read.csv("geocodes.csv")
@@ -14,7 +14,6 @@ household_cellphones <-
   dwelling_equipment %>%
   filter(
     REF_DATE >= 2015,
-    UOM == "Percent",
     `Dwelling characteristics and household equipment` == "Households having cellular telephones"
     ) %>% 
   select(
