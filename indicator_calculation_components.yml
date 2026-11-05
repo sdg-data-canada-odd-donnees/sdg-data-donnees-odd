@@ -1218,15 +1218,15 @@
   score: -5.0
 16-2-1:
   16-2-1:
-    base_value: null
-    base_year: 2015.0
-    current_value: null
-    current_year: null
+    base_value: 27.04
+    base_year: 2018.0
+    current_value: 27.04
+    current_year: 2018.0
     direction: -1
     limit: null
     progress_value: null
     score: null
-    sign: null
+    sign: 1
     status: not_available
     target: 0.1
     target_year: 2030.0
@@ -3235,20 +3235,20 @@
   score: null
 5-b-1:
   5-b-1:
-    base_value: null
+    base_value: 86.1
     base_year: 2015.0
-    current_value: null
-    current_year: null
+    current_value: 95.6
+    current_year: 2023.0
     direction: 1
     limit: 100
-    progress_value: null
-    score: null
-    sign: null
-    status: not_available
+    progress_value: 0.013168881997952742
+    score: 5.0
+    sign: 1
+    status: substantial_progress
     target: null
     target_year: 2030.0
-  progress_status: not_available
-  score: null
+  progress_status: substantial_progress
+  score: 5.0
 5-c-1:
   progress_status: target_achieved
   score: null
