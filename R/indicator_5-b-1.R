@@ -14,6 +14,7 @@ household_cellphones <-
   dwelling_equipment %>%
   filter(
     REF_DATE >= 2015,
+    `Statistics` == "Percent of households reporting",
     `Dwelling characteristics and household equipment` == "Households having cellular telephones"
     ) %>% 
   select(
