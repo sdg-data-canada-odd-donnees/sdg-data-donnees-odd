@@ -1,7 +1,8 @@
 SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
-SDG_TARGET: '<p>Target: 1.2 By 2030, reduce at least by half the proportion of men,
-  women and children of all ages living in poverty in all its dimensions according
-  to national definitions</p>'
+SDG_TARGET: 
+#'<p>Target: 1.2 By 2030, reduce at least by half the proportion of men,
+#  women and children of all ages living in poverty in all its dimensions according
+#  to national definitions</p>'
 SDG_INDICATOR: '<p>Indicator 1.2.1: Proportion of population living below the national
   poverty line, by sex and age</p>'
 STAT_CONC_DEF: <p>This indicator measures the percentage of persons in low income using the Market Basket Measures (MBM), which was adopted as Canada’s Official Poverty Line. According to the MBM, a family lives in poverty if it does not have enough income to purchase a specific basket of goods and services in its community.</p> 
