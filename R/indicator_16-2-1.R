@@ -60,7 +60,6 @@ sexual_orientation <- c(
 childhood_filter <-
   childhood_data %>%
   filter(
-    UOM == "Percent",
     Statistics == "Percentage"
   ) %>%
   select(

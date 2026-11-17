@@ -220,7 +220,7 @@ low_income <-
     REF_DATE >= 2015, 
     Statistics=="Percentage of persons in low income",
     `Persons in low income` %in% demographics,
-    `Low income lines` == "Market basket measure, 2018 base"
+    `Low income lines` == "Market basket measure, 2023 base"
   ) %>%
   select(
     Year = REF_DATE, 

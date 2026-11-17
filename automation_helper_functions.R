@@ -6,7 +6,7 @@
 #########################################################################
 
 # load libraries
-install.packages(c("dplyr", "RSQLite", "readr", "cansim", "stringr", "lubridate", "tidyr", "httr", "jsonlite", "dotenv", "archive", "hablar", "dbplyr","rvest","readsdmx", "rjson", "purrr"))
+install.packages(c("dplyr", "RSQLite", "readr", "cansim", "stringr", "lubridate", "tidyr", "httr", "httr2", "rappdirs",  "jsonlite", "dotenv", "archive", "hablar", "dbplyr","rvest","readsdmx", "rjson", "purrr"))
 library(lubridate)
 library(cansim)
 
